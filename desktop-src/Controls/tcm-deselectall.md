@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 529e26a5373c8fdec3520be6ef69292d02fc6e980fd7348b16a2d448da59f5c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f606538075a9163d8b8dc8328b5585b51b769aa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119543459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116234"
 ---
 # <a name="tcm_deselectall-message"></a>\_Message DESELECTALL TCM
 
@@ -39,15 +39,15 @@ Indicateur qui spécifie la portée de la désélection de l’élément. Si ce 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est significatif uniquement si l’indicateur de style de [**\_ boutons TCS**](tab-control-styles.md) a été défini.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Entrée de la souris
 ms.assetid: EB074CB6-2BB3-4593-A843-8EE25CA028BE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28ff39b798b1438bca33bc9ab9b077333dca351e32a5945b939beba2c13f5894
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d71a560baf110892ba1b8f277c55fc124888b62b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094333"
 ---
 # <a name="mouse-input-get-started-with-win32-and-c"></a>entrée de la souris (Prise en main avec Win32 et C++)
 

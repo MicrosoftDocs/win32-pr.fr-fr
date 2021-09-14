@@ -11,12 +11,12 @@ keywords:
 - Outils de test UI Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f8c97d6522e353445ededff47a9a7cf123998b94f1323f1df59b7a380ac1d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b794e5d191c07a9c0db602ebac0f908bbdf960bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010580"
 ---
 # <a name="accessibility-tools---ui-automation-verify-uia-verify"></a>Outils d’accessibilité-vérification de l’UI Automation (UIA Verify)
 
@@ -29,7 +29,7 @@ ms.locfileid: "119052387"
 > [!NOTE]
 > **UI Automation Verify** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
 

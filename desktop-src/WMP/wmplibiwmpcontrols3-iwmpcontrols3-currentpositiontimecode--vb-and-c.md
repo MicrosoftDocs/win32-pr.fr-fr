@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b91c00c166050f4f3a3bc05861fa92d4fb66efcfa139e726c7cc799e21623fa4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7660e6dc2690c310cf06f64e38190dc1cb3f24ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010742"
 ---
 # <a name="iwmpcontrols3currentpositiontimecode-property"></a>IWMPControls3 :: currentPositionTimecode, propriété
 
@@ -48,7 +48,7 @@ Public Property currentPositionTimecode As System.String
 
 **System. String** qui est le code de temps SMPTE.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le code temporel SMPTE offre un moyen standard d’identifier une image vidéo individuelle, ce qui est utile pour synchroniser la lecture. si un fichier multimédia numérique prend en charge le code temporel SMPTE, Lecteur Windows Media pouvez récupérer les informations de position du code d’heure actuelles ou rechercher une image vidéo identifiée par un code de temps particulier.
 
@@ -89,7 +89,7 @@ Controls.currentPositionTimecode = &quot;[00000]01:00:30.05&quot;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

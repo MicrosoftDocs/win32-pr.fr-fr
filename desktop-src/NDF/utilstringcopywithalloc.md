@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3654fa5eefd45a51d963325e10fbcba765420afe25a5c47a058bbaf4e4093ef0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b68bd1815ff09473f0431dde19a12a87603a9dec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011627"
 ---
 # <a name="utilstringcopywithalloc-function"></a>UtilStringCopyWithAlloc fonction)
 
@@ -69,7 +69,7 @@ Chaîne à copier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -86,7 +86,7 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

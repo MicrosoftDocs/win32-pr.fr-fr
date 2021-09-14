@@ -4,12 +4,12 @@ ms.assetid: de09c8af-0ed8-4fd4-b8e8-2c921aafe6f2
 title: Limites de mémoire pour les versions de Windows et de Windows Server
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8d2b11b636fcbcd3338986aa4ce88388f3b722045eee895e4acb1b62d5920eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d09db7d303468247794807629d3a56e786c4ada6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117992751"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094122"
 ---
 # <a name="memory-limits-for-windows-and-windows-server-releases"></a>Limites de mémoire pour les versions de Windows et de Windows Server
 
@@ -67,10 +67,10 @@ Le tableau suivant spécifie les limites de la mémoire physique pour Windows 10
 
 | Version               | Limite sur x86    | Limite sur x64     |
 |-----------------------|-----------------|------------------|
-| Windows 10 Entreprise | 4 Go<br/> | 6 To<br/>   |
-| Windows 10 Éducation  | 4 Go<br/> | 2 To<br/>   |
+| Windows 10 Entreprise | 4 Go<br/> | 6 To<br/>   |
+| Windows 10 Éducation  | 4 Go<br/> | 2 To<br/>   |
 | Windows 10 Professionnel pour les Stations de travail  | 4 Go<br/> | 6 To<br/>   |
-| Windows 10 Professionnel        | 4 Go<br/> | 2 To<br/>   |
+| Windows 10 Pro        | 4 Go<br/> | 2 To<br/>   |
 | Windows 10 Famille       | 4 Go<br/> | 128 Go<br/> |
 
 
@@ -137,7 +137,7 @@ le tableau suivant spécifie les limites de la mémoire physique pour Windows 7.
 | Version                | Limite sur x86    | Limite sur x64      |
 |------------------------|-----------------|-------------------|
 | Windows 7 Édition Intégrale     | 4 Go<br/> | 192 Go<br/> |
-| Windows 7 Entreprise   | 4 Go<br/> | 192 Go<br/> |
+| Windows 7 Entreprise   | 4 Go<br/> | 192 Go<br/> |
 | Windows 7 Professionnel | 4 Go<br/> | 192 Go<br/> |
 | Windows 7 Édition Familiale Premium | 4 Go<br/> | 16 Go<br/>  |
 | Windows 7 Édition Familiale Basique   | 4 Go<br/> | 8 Go<br/>   |
@@ -200,7 +200,7 @@ le tableau suivant spécifie les limites de la mémoire physique pour Windows Vi
 | Windows Vista Professionnel     | 4 Go<br/> | 128 Go<br/> |
 | Windows Vista Édition Familiale Premium | 4 Go<br/> | 16 Go<br/>  |
 | Windows Vista Édition Familiale Basique   | 4 Go<br/> | 8 Go<br/>   |
-| Windows Vista Starter      | 1 Go<br/> |                   |
+| Windows Vista Starter      | 1 Go<br/> |                   |
 
 
 

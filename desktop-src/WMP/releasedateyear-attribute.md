@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6adc2301dd3ed21db4bb48f86f056f43d46719eebdd68b9d032d8c420a9741a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27919f7f59a0e8ca232267964c3edf60c32f43ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118333296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010911"
 ---
 # <a name="releasedateyear-attribute"></a>Attribut ReleaseDateYear
 
@@ -29,13 +29,13 @@ L’attribut **ReleaseDateYear** est la partie année de la date de la version d
 -   [Pistes de CD](cd-track-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

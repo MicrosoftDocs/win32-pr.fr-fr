@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b6adb47a940ce6795047a1aca8bb7cbdc0899a142c132ab8f6f39e6bb089f1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fda2c1b181ebea1840b153b8b2df8328b3f2cc8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116294"
 ---
 # <a name="tbn_getinfotip-notification-code"></a>\_Code de notification TBN GETINFOTIP
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMTBGETINFOTIP**](/windows/win32/api/commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée par le contrôle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La prise en charge de l’info-bulle dans la barre d’outils permet à la barre d’outils d’afficher des info-bulles pour les éléments dont la taille est de INFOTIPSIZE caractères. Si ce code de notification n’est pas traité, la barre d’outils utilise le texte de l’élément pour l’info-bulle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

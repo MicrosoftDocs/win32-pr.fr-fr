@@ -9,12 +9,12 @@ keywords:
 - mode d’index de couleurs OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa78096369ec9ba01d6e0dcd3d67535a0d368ef7a5018d3679f9f64dcdf74d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0368461d6ece7b823a8627f664daace027fd76c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119554629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110337"
 ---
 # <a name="choosing-between-rgba-and-color-index-mode"></a>Choix entre le mode RVBA et le mode de Color-Index
 

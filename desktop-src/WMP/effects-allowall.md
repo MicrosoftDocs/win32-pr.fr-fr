@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7a87aa8336e3961b31716c8d6bbfaa6aee71374a0f3c6e17b644a47136df550
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56760021fe34522072677e9524fe6636e519e20f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996842"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192788"
 ---
 # <a name="effectsallowall"></a>EFFECTs. AutoriserTout
 
@@ -42,11 +42,11 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cet attribut est défini sur false, seules les visualisations apparaissant dans les balises d' **effets** peuvent être recycles à l’aide du précédent/suivant. Si la valeur est true, toutes les visualisations inscrites sur le système de l’utilisateur peuvent être recyclees. Si la valeur est true et que vous spécifiez des visualisations dans les balises d' **effets** , les attributs spécifiés dans ces balises sont appliqués à toutes les visualisations sur le système de l’utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

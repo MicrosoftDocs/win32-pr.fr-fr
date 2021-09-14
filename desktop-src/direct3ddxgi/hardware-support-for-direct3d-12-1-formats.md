@@ -4,12 +4,12 @@ ms.assetid: 0DC50FF3-3193-4F3B-9976-EE504C6FCC87
 title: Prise en charge des formats du matériel Direct3D de niveau de fonctionnalité 12.1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 065192ffadf8667f82c0e1b0fc6fac165f103a7ed28982cba1fbc0e14ae47cce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2d20b00a2cfb5b0343a2ebb1a56a1253ddd1966
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120068759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295695"
 ---
 # <a name="format-support-for-direct3d-feature-level-121-hardware"></a>Prise en charge des formats du matériel Direct3D de niveau de fonctionnalité 12.1
 
@@ -32,7 +32,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 > Les nombres des formats sont principalement, mais pas tous, dans l’ordre numérique croissant, &mdash; certains ne sont pas triés par ordre numérique et sont répertoriés avec d’autres formats pertinents. Notez également que les *types* sans type dans un nom de format peuvent signifier un type *partiellement* typé, et non strictement typés (reportez-vous à la section Remarques sur le [format](#format-notes) à la fin de la rubrique).
 
 ## <a name="dxgi_format_unknownsuplsup-0"></a>DXGI_FORMAT_UNKNOWN<sup>L</sup> (0)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 0 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -83,7 +83,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32b32a32_typelesssuppcssup-1"></a><sup>Pc</sup> DXGI_FORMAT_R32G32B32A32_TYPELESS (1)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -134,7 +134,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32b32a32_floatsupfcssup-2"></a>DXGI_FORMAT_R32G32B32A32_FLOAT<sup>FCS</sup> (2)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -185,7 +185,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32b32a32_uintsupfcssup-3"></a>DXGI_FORMAT_R32G32B32A32_UINT<sup>FCS</sup> (3)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -236,7 +236,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32b32a32_sintsupfcssup-4"></a>DXGI_FORMAT_R32G32B32A32_SINT<sup>FCS</sup> (4)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -287,7 +287,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32b32_typelesssuppcssup-5"></a><sup>Pc</sup> DXGI_FORMAT_R32G32B32_TYPELESS (5)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 96 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -338,7 +338,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r32g32b32_floatsupfcssup-6"></a>DXGI_FORMAT_R32G32B32_FLOAT<sup>FCS</sup> (6)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 96 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -389,7 +389,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r32g32b32_uintsupfcssup-7"></a>DXGI_FORMAT_R32G32B32_UINT<sup>FCS</sup> (7)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 96 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -440,7 +440,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r32g32b32_sintsupfcssup-8"></a>DXGI_FORMAT_R32G32B32_SINT<sup>FCS</sup> (8)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 96 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -491,7 +491,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r16g16b16a16_typelesssuppcssup-9"></a><sup>Pc</sup> DXGI_FORMAT_R16G16B16A16_TYPELESS (9)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -542,7 +542,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16b16a16_floatsupfcssup-10"></a>DXGI_FORMAT_R16G16B16A16_FLOAT<sup>FCS</sup> (10)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -593,7 +593,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16b16a16_unormsupfcssup-11"></a>DXGI_FORMAT_R16G16B16A16_UNORM<sup>FCS</sup> (11)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -644,7 +644,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16b16a16_uintsupfcssup-12"></a>DXGI_FORMAT_R16G16B16A16_UINT<sup>FCS</sup> (12)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -695,7 +695,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16b16a16_snormsupfcssup-13"></a>DXGI_FORMAT_R16G16B16A16_SNORM<sup>FCS</sup> (13)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -746,7 +746,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16b16a16_sintsupfcssup-14"></a>DXGI_FORMAT_R16G16B16A16_SINT<sup>FCS</sup> (14)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -797,7 +797,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32_typelesssuppcssup-15"></a><sup>Pc</sup> DXGI_FORMAT_R32G32_TYPELESS (15)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -848,7 +848,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32_floatsupfcssup-16"></a>DXGI_FORMAT_R32G32_FLOAT<sup>FCS</sup> (16)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -899,7 +899,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32_uintsupfcssup-17"></a>DXGI_FORMAT_R32G32_UINT<sup>FCS</sup> (17)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -950,7 +950,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g32_sintsupfcssup-18"></a>DXGI_FORMAT_R32G32_SINT<sup>FCS</sup> (18)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1001,7 +1001,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32g8x24_typelesssupvsup-19"></a>DXGI_FORMAT_R32G8X24_TYPELESS<sup>V</sup> (19)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1052,7 +1052,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_d32_float_s8x24_uintsupvsup-20"></a>DXGI_FORMAT_D32_FLOAT_S8X24_UINT<sup>V</sup> (20)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1103,7 +1103,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r32_float_x8x24_typelesssupvsup-21"></a>DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS<sup>V</sup> (21)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1154,7 +1154,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_x32_typeless_g8x24_uintsupvsup-22"></a>DXGI_FORMAT_X32_TYPELESS_G8X24_UINT<sup>V</sup> (22)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1205,7 +1205,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r10g10b10a2_typelesssuppcssup-23"></a><sup>Pc</sup> DXGI_FORMAT_R10G10B10A2_TYPELESS (23)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1256,7 +1256,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r10g10b10a2_unormsupfcssup-24"></a>DXGI_FORMAT_R10G10B10A2_UNORM<sup>FCS</sup> (24)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1307,7 +1307,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r10g10b10a2_uintsupfcssup-25"></a>DXGI_FORMAT_R10G10B10A2_UINT<sup>FCS</sup> (25)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1358,7 +1358,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r10g10b10_xr_bias_a2_unormsupfcssup-89"></a>DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM<sup>FCS</sup> (89)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1409,7 +1409,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r11g11b10_floatsupfnssup-26"></a>DXGI_FORMAT_R11G11B10_FLOAT<sup>FNS</sup> (26)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1460,7 +1460,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8b8a8_typelesssuppcssup-27"></a><sup>Pc</sup> DXGI_FORMAT_R8G8B8A8_TYPELESS (27)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1511,7 +1511,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8b8a8_unormsupfcssup-28"></a>DXGI_FORMAT_R8G8B8A8_UNORM<sup>FCS</sup> (28)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1562,7 +1562,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8b8a8_unorm_srgbsupfcssup-29"></a>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB<sup>FCS</sup> (29)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1613,7 +1613,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8b8a8_uintsupfcssup-30"></a>DXGI_FORMAT_R8G8B8A8_UINT<sup>FCS</sup> (30)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1664,7 +1664,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8b8a8_snormsupfcssup-31"></a>DXGI_FORMAT_R8G8B8A8_SNORM<sup>FCS</sup> (31)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1715,7 +1715,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8b8a8_sintsupfcssup-32"></a>DXGI_FORMAT_R8G8B8A8_SINT<sup>FCS</sup> (32)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1766,7 +1766,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16_typelesssuppcssup-33"></a><sup>Pc</sup> DXGI_FORMAT_R16G16_TYPELESS (33)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1817,7 +1817,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16_floatsupfcssup-34"></a>DXGI_FORMAT_R16G16_FLOAT<sup>FCS</sup> (34)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1868,7 +1868,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16_unormsupfcssup-35"></a>DXGI_FORMAT_R16G16_UNORM<sup>FCS</sup> (35)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1919,7 +1919,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16_uintsupfcssup-36"></a>DXGI_FORMAT_R16G16_UINT<sup>FCS</sup> (36)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -1970,7 +1970,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16_snormsupfcssup-37"></a>DXGI_FORMAT_R16G16_SNORM<sup>FCS</sup> (37)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2021,7 +2021,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16g16_sintsupfcssup-38"></a>DXGI_FORMAT_R16G16_SINT<sup>FCS</sup> (38)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2072,7 +2072,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32_typelesssuppcssup-39"></a><sup>Pc</sup> DXGI_FORMAT_R32_TYPELESS (39)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2123,7 +2123,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_d32_floatsupfcssup-40"></a>DXGI_FORMAT_D32_FLOAT<sup>FCS</sup> (40)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2174,7 +2174,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32_floatsupfcssup-41"></a>DXGI_FORMAT_R32_FLOAT<sup>FCS</sup> (41)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2225,7 +2225,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32_uintsupfcssup-42"></a>DXGI_FORMAT_R32_UINT<sup>FCS</sup> (42)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2276,7 +2276,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r32_sintsupfcssup-43"></a>DXGI_FORMAT_R32_SINT<sup>FCS</sup> (43)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2327,7 +2327,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r24g8_typelesssupvsup-44"></a>DXGI_FORMAT_R24G8_TYPELESS<sup>V</sup> (44)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2378,7 +2378,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_d24_unorm_s8_uintsupvsup-45"></a>DXGI_FORMAT_D24_UNORM_S8_UINT<sup>V</sup> (45)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2429,7 +2429,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r24_unorm_x8_typelesssupvsup-46"></a>DXGI_FORMAT_R24_UNORM_X8_TYPELESS<sup>V</sup> (46)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2480,7 +2480,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_x24_typeless_g8_uintsupvsup-47"></a>DXGI_FORMAT_X24_TYPELESS_G8_UINT<sup>V</sup> (47)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2531,7 +2531,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_r8g8_typelesssuppcssup-48"></a><sup>Pc</sup> DXGI_FORMAT_R8G8_TYPELESS (48)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2582,7 +2582,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8_unormsupfcssup-49"></a>DXGI_FORMAT_R8G8_UNORM<sup>FCS</sup> (49)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2633,7 +2633,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8_uintsupfcssup-50"></a>DXGI_FORMAT_R8G8_UINT<sup>FCS</sup> (50)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2684,7 +2684,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8_snormsupfcssup-51"></a>DXGI_FORMAT_R8G8_SNORM<sup>FCS</sup> (51)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2735,7 +2735,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8_sintsupfcssup-52"></a>DXGI_FORMAT_R8G8_SINT<sup>FCS</sup> (52)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2786,7 +2786,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16_typelesssuppcssup-53"></a><sup>Pc</sup> DXGI_FORMAT_R16_TYPELESS (53)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2837,7 +2837,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16_floatsupfcssup-54"></a>DXGI_FORMAT_R16_FLOAT<sup>FCS</sup> (54)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2888,7 +2888,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_d16_unormsupfcssup-55"></a>DXGI_FORMAT_D16_UNORM<sup>FCS</sup> (55)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2939,7 +2939,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16_unormsupfcssup-56"></a>DXGI_FORMAT_R16_UNORM<sup>FCS</sup> (56)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -2990,7 +2990,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16_uintsupfcssup-57"></a>DXGI_FORMAT_R16_UINT<sup>FCS</sup> (57)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3041,7 +3041,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16_snormsupfcssup-58"></a>DXGI_FORMAT_R16_SNORM<sup>FCS</sup> (58)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3092,7 +3092,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r16_sintsupfcssup-59"></a>DXGI_FORMAT_R16_SINT<sup>FCS</sup> (59)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3143,7 +3143,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8_typelesssuppcssup-60"></a><sup>Pc</sup> DXGI_FORMAT_R8_TYPELESS (60)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3194,7 +3194,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8_unormsupfcssup-61"></a>DXGI_FORMAT_R8_UNORM<sup>FCS</sup> (61)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3245,7 +3245,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8_uintsupfcssup-62"></a>DXGI_FORMAT_R8_UINT<sup>FCS</sup> (62)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3296,7 +3296,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8_snormsupfcssup-63"></a>DXGI_FORMAT_R8_SNORM<sup>FCS</sup> (63)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3347,7 +3347,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8_sintsupfcssup-64"></a>DXGI_FORMAT_R8_SINT<sup>FCS</sup> (64)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3398,7 +3398,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_a8_unormsupfnssup-65"></a>DXGI_FORMAT_A8_UNORM<sup>FNS</sup> (65)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3449,7 +3449,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r9g9b9e5_sharedexpsupfncsup-67"></a>DXGI_FORMAT_R9G9B9E5_SHAREDEXP<sup>FNC</sup> (67)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3500,7 +3500,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_r8g8_b8g8_unormsupfncsup-68"></a>DXGI_FORMAT_R8G8_B8G8_UNORM<sup>FNC</sup> (68)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3551,7 +3551,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_g8r8_g8b8_unormsupfncsup-69"></a>DXGI_FORMAT_G8R8_G8B8_UNORM<sup>FNC</sup> (69)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3602,7 +3602,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_bc1_typelesssuppccsup-70"></a>DXGI_FORMAT_BC1_TYPELESS<sup>PCC</sup> (70)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3653,7 +3653,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc1_unorm-supfccsup-71"></a>DXGI_FORMAT_BC1_UNORM <sup>FCC</sup> (71)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3704,7 +3704,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc1_unorm_srgb-supfccsup-72"></a>DXGI_FORMAT_BC1_UNORM_SRGB <sup>FCC</sup> (72)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3755,7 +3755,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc2_typelesssuppccsup-73"></a>DXGI_FORMAT_BC2_TYPELESS<sup>PCC</sup> (73)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3806,7 +3806,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc2_unorm-supfccsup-74"></a>DXGI_FORMAT_BC2_UNORM <sup>FCC</sup> (74)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3857,7 +3857,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc2_unorm_srgb-supfccsup-75"></a>DXGI_FORMAT_BC2_UNORM_SRGB <sup>FCC</sup> (75)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3908,7 +3908,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc3_typelesssuppccsup-76"></a>DXGI_FORMAT_BC3_TYPELESS<sup>PCC</sup> (76)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -3959,7 +3959,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc3_unorm-supfccsup-77"></a>DXGI_FORMAT_BC3_UNORM <sup>FCC</sup> (77)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4010,7 +4010,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc3_unorm_srgb-supfccsup-78"></a>DXGI_FORMAT_BC3_UNORM_SRGB <sup>FCC</sup> (78)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4061,7 +4061,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc4_typelesssuppccsup-79"></a>DXGI_FORMAT_BC4_TYPELESS<sup>PCC</sup> (79)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4112,7 +4112,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc4_unorm-supfccsup-80"></a>DXGI_FORMAT_BC4_UNORM <sup>FCC</sup> (80)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4163,7 +4163,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc4_snorm-supfccsup-81"></a>DXGI_FORMAT_BC4_SNORM <sup>FCC</sup> (81)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4214,7 +4214,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc5_typelesssuppccsup-82"></a>DXGI_FORMAT_BC5_TYPELESS<sup>PCC</sup> (82)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4265,7 +4265,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc5_unorm-supfccsup-83"></a>DXGI_FORMAT_BC5_UNORM <sup>FCC</sup> (83)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4316,7 +4316,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc5_snorm-supfccsup-84"></a>DXGI_FORMAT_BC5_SNORM <sup>FCC</sup> (84)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4367,7 +4367,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b5g6r5_unormsupfnssup-85"></a>DXGI_FORMAT_B5G6R5_UNORM<sup>FNS</sup> (85)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4418,7 +4418,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b5g5r5a1_unormsupfnssup-86"></a>DXGI_FORMAT_B5G5R5A1_UNORM<sup>FNS</sup> (86)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4469,7 +4469,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b8g8r8a8_typelesssuppcssup-90"></a><sup>Pc</sup> DXGI_FORMAT_B8G8R8A8_TYPELESS (90)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4520,7 +4520,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b8g8r8a8_unormsupfcssup-87"></a>DXGI_FORMAT_B8G8R8A8_UNORM<sup>FCS</sup> (87)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4571,7 +4571,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b8g8r8a8_unorm_srgbsupfcssup-91"></a>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB<sup>FCS</sup> (91)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4622,7 +4622,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b8g8r8x8_typelesssuppcssup-92"></a><sup>Pc</sup> DXGI_FORMAT_B8G8R8X8_TYPELESS (92)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4673,7 +4673,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b8g8r8x8_unormsupfcssup-88"></a>DXGI_FORMAT_B8G8R8X8_UNORM<sup>FCS</sup> (88)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4724,7 +4724,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_b8g8r8x8_unorm_srgbsupfcssup-93"></a>DXGI_FORMAT_B8G8R8X8_UNORM_SRGB<sup>FCS</sup> (93)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4775,7 +4775,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc6h_typelesssuppccsup-94"></a>DXGI_FORMAT_BC6H_TYPELESS<sup>PCC</sup> (94)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4826,7 +4826,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc6h_uf16-supfccsup-95"></a>DXGI_FORMAT_BC6H_UF16 <sup>FCC</sup> (95)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4877,7 +4877,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc6h_sf16-supfccsup-96"></a>DXGI_FORMAT_BC6H_SF16 <sup>FCC</sup> (96)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4928,7 +4928,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc7_typelesssuppccsup-97"></a>DXGI_FORMAT_BC7_TYPELESS<sup>PCC</sup> (97)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -4979,7 +4979,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc7_unorm-supfccsup-98"></a>DXGI_FORMAT_BC7_UNORM <sup>FCC</sup> (98)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -5030,7 +5030,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_bc7_unorm_srgb-supfccsup-99"></a>DXGI_FORMAT_BC7_UNORM_SRGB <sup>FCC</sup> (99)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 128 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -5081,7 +5081,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | ![obligatoire](images/letter-r.jpg) |
 
 ## <a name="dxgi_format_ayuvsupvsup-100"></a>DXGI_FORMAT_AYUV<sup>V</sup> (100)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5132,7 +5132,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_y410supvsup-101"></a>DXGI_FORMAT_Y410<sup>V</sup> (101)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5183,7 +5183,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_y416supvsup-102"></a>DXGI_FORMAT_Y416<sup>V</sup> (102)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 64 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5234,7 +5234,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_nv12supvsup-103"></a>DXGI_FORMAT_NV12<sup>V</sup> (103)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -5285,7 +5285,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_p010supvsup-104"></a>DXGI_FORMAT_P010<sup>V</sup> (104)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5336,7 +5336,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_p016supvsup-105"></a>DXGI_FORMAT_P016<sup>V</sup> (105)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5387,7 +5387,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_420_opaquesupvsup-106"></a>DXGI_FORMAT_420_OPAQUE<sup>V</sup> (106)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -5438,7 +5438,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_yuy2supvsup-107"></a>DXGI_FORMAT_YUY2<sup>V</sup> (107)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![obligatoire](images/letter-r.jpg) |
@@ -5489,7 +5489,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_y210supvsup-108"></a>DXGI_FORMAT_Y210<sup>V</sup> (108)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5540,7 +5540,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_y216supvsup-109"></a>DXGI_FORMAT_Y216<sup>V</sup> (109)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 32 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5591,7 +5591,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_nv11supvsup-110"></a>DXGI_FORMAT_NV11<sup>V</sup> (110)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5642,7 +5642,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_ai44supvsup-111"></a>DXGI_FORMAT_AI44<sup>V</sup> (111)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5693,7 +5693,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_ia44supvsup-112"></a>DXGI_FORMAT_IA44<sup>V</sup> (112)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5744,7 +5744,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_p8supvsup-113"></a>DXGI_FORMAT_P8<sup>V</sup> (113)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 8 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |
@@ -5795,7 +5795,7 @@ Pour vérifier par programmation la prise en charge du format dans D3D11 et D3D1
 | Ressource en mosaïque | \- |
 
 ## <a name="dxgi_format_a8p8supvsup-114"></a>DXGI_FORMAT_A8P8<sup>V</sup> (114)
-| Cible | Assistance |
+| Cible | Support |
 | - | - |
 | Bits par élément (BPE) | 16 |
 | Prise en charge du format | ![facultatif](images/letter-o.jpg) |

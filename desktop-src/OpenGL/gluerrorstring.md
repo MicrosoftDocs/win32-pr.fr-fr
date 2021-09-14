@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: beef90cfced2b33b612e15c1ef6918de81997520483acfb141f3a307ad64096d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cdcfad0e2a943bf3a475317f32d37921878a8f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011475"
 ---
 # <a name="gluerrorstring-function"></a>gluErrorString fonction)
 
@@ -47,7 +47,7 @@ Code d’erreur OpenGL ou GLU.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluErrorString** génère une chaîne d’erreur à partir d’un code d’erreur OpenGL ou Glu. La chaîne est au format ISO Latin 1. Par exemple, **gluErrorString**(GL \_ de mémoire insuffisante \_ \_ ) retourne la chaîne « mémoire insuffisante ».
 
@@ -55,7 +55,7 @@ Les codes d’erreur GLU standard sont \_ Glu \_ enum non valide, Glu \_ valeur 
 
 La fonction **gluErrorString** génère des chaînes d’erreur en ANSI uniquement. Dans la mesure du possible, utilisez **gluErrorStringWIN**, qui autorise les chaînes d’erreur ANSI ou Unicode. Cela facilite la localisation de votre programme en vue de son utilisation dans un autre langage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

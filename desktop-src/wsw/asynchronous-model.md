@@ -1,6 +1,6 @@
 ---
 title: Modèle asynchrone
-description: La plupart des opérations dans l’API des services Web Windows peuvent être effectuées de façon synchrone ou asynchrone.
+description: la plupart des opérations dans Windows API de Services Web peuvent être effectuées de façon synchrone ou asynchrone.
 ms.assetid: d0b3f154-2219-4085-a652-e9aeb126598c
 keywords:
 - Services Web de modèle asynchrone pour Windows
@@ -9,17 +9,17 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c0c5e38dfbc0bc2ed397949da86f9a572a5b1ed5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295163"
 ---
 # <a name="asynchronous-model"></a>Modèle asynchrone
 
-La plupart des opérations dans l’API des services Web Windows peuvent être effectuées de façon synchrone ou asynchrone. Pour appeler une fonction de façon synchrone, transmettez une valeur null pour la structure de [**\_ \_ contexte WS Async**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) . Pour spécifier qu’une fonction peut être exécutée de façon asynchrone, transmettez un **\_ \_ contexte WS Async** non null à la fonction.
+la plupart des opérations dans Windows API de Services Web peuvent être effectuées de façon synchrone ou asynchrone. Pour appeler une fonction de façon synchrone, transmettez une valeur null pour la structure de [**\_ \_ contexte WS Async**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) . Pour spécifier qu’une fonction peut être exécutée de façon asynchrone, transmettez un **\_ \_ contexte WS Async** non null à la fonction.
 
-Lorsqu’elle est appelée de façon asynchrone, une fonction peut néanmoins se terminer de façon synchrone ou asynchrone. Si la fonction se termine de façon synchrone, elle retourne une valeur qui indique le succès ou l’erreur final, et cette valeur est toujours autre chose que **WS \_ S \_ Async** (voir les [valeurs de retour des services Web Windows](windows-web-services-return-values.md)). Une valeur de retour de **WS \_ S \_ Async**, toutefois, indique que la fonction se termine de façon asynchrone. Lorsque la fonction se termine de façon asynchrone, un rappel est appelé pour signaler la fin de l’opération. Ce rappel indique la valeur finale de réussite ou d’erreur. Le rappel n’est pas appelé si l’opération se termine de façon synchrone.
+Lorsqu’elle est appelée de façon asynchrone, une fonction peut néanmoins se terminer de façon synchrone ou asynchrone. si la fonction se termine de façon synchrone, elle retourne une valeur qui indique le succès ou l’erreur final, et cette valeur est toujours autre chose que **WS \_ S \_ ASYNC** (consultez [Windows les valeurs de retour des Services Web](windows-web-services-return-values.md)). Une valeur de retour de **WS \_ S \_ Async**, toutefois, indique que la fonction se termine de façon asynchrone. Lorsque la fonction se termine de façon asynchrone, un rappel est appelé pour signaler la fin de l’opération. Ce rappel indique la valeur finale de réussite ou d’erreur. Le rappel n’est pas appelé si l’opération se termine de façon synchrone.
 
 Pour créer un contexte asynchrone, initialisez les champs **callback** et **callbackState** de la structure de [**\_ \_ contexte WS Async**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) . Le champ **callbackState** est utilisé pour spécifier un pointeur vers les données définies par l’utilisateur qui sont passées à la fonction de [**\_ \_ rappel WS Async**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback) .
 
@@ -79,7 +79,7 @@ Le modèle asynchrone utilise les éléments d’API suivants.
 
 
 
- 
+ 
 
 
 
@@ -89,7 +89,7 @@ Le modèle asynchrone utilise les éléments d’API suivants.
 
 
 
- 
+ 
 
 
 
@@ -99,7 +99,7 @@ Le modèle asynchrone utilise les éléments d’API suivants.
 
 
 
- 
+ 
 
 
 
@@ -111,7 +111,7 @@ Le modèle asynchrone utilise les éléments d’API suivants.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -132,9 +132,9 @@ Le modèle asynchrone utilise les éléments d’API suivants.
 [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afe2b475927d2ffec27c32bb32c0d5bb3afa38cea40ae84405fa659f5342b352
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 833b5cb59095f5aecc8c0172857c8761fd92449a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119716999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192135"
 ---
 # <a name="wm_unichar-message"></a>\_Message WM UNICHAR
 
@@ -68,11 +68,11 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message **WM \_ UNICHAR** est similaire à [**WM \_ char**](wm-char.md), mais il utilise le format UTF (Unicode Transformation Format)-32, alors que **WM \_ char** utilise UTF-16.
 
@@ -82,7 +82,7 @@ Ce message est conçu pour envoyer ou poster des caractères Unicode dans des fe
 
 Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont les touches ALT et droite de la section principale du clavier. les touches Inser, DEL, début, fin, PAGE précédente, PAGE suivante et flèche dans les clusters à gauche du pavé numérique ; et les touches de division (/) et de saisie dans le pavé numérique. D’autres claviers peuvent prendre en charge le bit de clé étendue dans le paramètre *lParam* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -110,7 +110,7 @@ Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont l
 [**WM- \_ touche**](wm-keydown.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

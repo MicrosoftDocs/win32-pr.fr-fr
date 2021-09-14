@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0697aff759309bc3a988e6f24a024d5c05bd8ec27dae85921ee09d3847f3dfa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b7d54da86ffdde896a44580567b0cd381725d5e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192352"
 ---
 # <a name="externalonloginchange-event"></a>External. OnLoginChange, événement
 
@@ -42,13 +42,13 @@ il s’agit d’une propriété en écriture seule qui spécifie le nom de la fo
 
 La fonction qui gère cet événement n’accepte aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement se produit chaque fois que le plug-in du magasin en ligne appelle [IWMPContentPartnerCallback :: Notify](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify), en passant wmpcnLoginStateChange dans le paramètre de *type* . parfois, le plug-in effectue cet appel pour notifier Lecteur Windows Media qu’une modification a été apportée à l’état de connexion de l’utilisateur. Dans d’autres cas, le plug-in effectue cet appel pour informer le joueur qu’une tentative de connexion a échoué. Le paramètre *pContext* de la méthode **Notify** spécifie si la notification est destinée à un changement d’état de connexion ou à une tentative d’ouverture de session qui a échoué.
 
 étant donné que chaque appel à `Notify(wmpcnLoginStateChange, ...)` amène Lecteur Windows Media à déclencher l’événement **OnLoginChange** , le gestionnaire d’événements **OnLoginChange** est parfois appelé à la suite d’une modification de l’état de connexion et parfois à la suite d’un échec de tentative de connexion. Pour déterminer l’état actuel de la connexion de l’utilisateur, le gestionnaire d’événements **OnLoginChange** doit appeler [External. userLoggedIn](external-userloggedin.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

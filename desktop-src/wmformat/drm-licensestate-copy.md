@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 245c200651e191d79bd2d33ef469487b26d490549bdef85db92c0f6c58b10caa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 02ae90fecba85bf1b2fc0985fa89ea8417171204
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119658849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295915"
 ---
 # <a name="drm_licensestate_copy"></a>\_Copie DRM LicenseState \_
 
@@ -31,7 +31,7 @@ La propriété de **\_ \_ copie DRM LicenseState** contient une structure de [**
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 

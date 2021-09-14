@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 753b05b9d59bb98742d5c49102b604cc0a499a4dcdc6c624489d261400279297
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cc174fdc8617a8ff59afc5a12740eaba715114f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118234838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295362"
 ---
 # <a name="driver_info_8-structure"></a>\_Structure info \_ 8 du pilote
 
@@ -264,7 +264,7 @@ la première version autorisée des pilotes fournis avec Windows et dont ce pilo
 
 Les chaînes de ces membres sont contenues dans le fichier. inf qui est utilisé pour ajouter le pilote.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

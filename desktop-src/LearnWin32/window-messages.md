@@ -4,12 +4,12 @@ description: Messages de fenêtre (Prise en main avec Win32 et C++)
 ms.assetid: 90c20456-44ed-4f0f-a6d3-b6c5660f0bc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e3655ddbd053cf9f84b4298518c4616679e83fe1eb48fb60011e865ca8a605
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c00da564396e0f95947e33fb7d8db8b217ac5cdf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118387512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094270"
 ---
 # <a name="window-messages-get-started-with-win32-and-c"></a>Messages de fenêtre (Prise en main avec Win32 et C++)
 

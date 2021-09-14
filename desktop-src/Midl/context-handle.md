@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d71c47554454118d584110ec43211a302e12cd77
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103724957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093717"
 ---
 # <a name="context_handle-attribute"></a>attribut de handle de contexte \_
 
@@ -71,7 +71,7 @@ Spécifie zéro, un ou plusieurs attributs qui s’appliquent à la fonction. Le
 *pointeur-decl* 
 </dt> <dd>
 
-Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de pointeur est le même que le déclarateur de pointeur utilisé dans C ; elle est construite à partir de l' **\*** indicateur, de modificateurs tels que **Far** et de l’identificateur [**const**](const.md).
+Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de pointeur est le même que le déclarateur de pointeur utilisé dans C ; elle est construite à partir de l' **\* *indicateur _, de modificateurs tels que _* Far** et du qualificateur [**const**](const.md).
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ Spécifie zéro, un ou plusieurs attributs directionnels, attributs de champ, at
 
 Spécifie l’identificateur qui spécifie le type de handle de contexte tel que défini dans une déclaration [**typedef**](typedef.md) qui prend l’attribut de **\[ \_ handle \] de contexte** . La routine d’arrêt est facultative.
 
-**Windows ServerÂ 2003 et WINDOWSÂ XP :** Une interface unique peut prendre en charge des handles de contexte sérialisés et non sérialisés, ce qui permet à une méthode sur une interface d’accéder exclusivement à un handle de contexte (sérialisé), tandis que d’autres méthodes accèdent à ce handle de contexte en mode partagé (non sérialisé). Ces fonctionnalités d’accès sont comparables aux mécanismes de verrouillage en lecture/écriture. les méthodes qui utilisent un handle de contexte sérialisé sont des utilisateurs exclusifs (enregistreurs), tandis que les méthodes qui utilisent un handle de contexte non sérialisé sont des utilisateurs partagés (lecteurs). Les méthodes qui détruisent ou modifient l’état d’un handle de contexte doivent être sérialisées. Les méthodes qui ne modifient pas l’état d’un handle de contexte, telles que les méthodes qui lisent simplement un handle de contexte, peuvent être non sérialisées. Notez que les méthodes de création sont implicitement sérialisées.
+**Windows ServerÂ 2003 et WindowsÂ XP :** Une interface unique peut prendre en charge des handles de contexte sérialisés et non sérialisés, ce qui permet à une méthode sur une interface d’accéder exclusivement à un handle de contexte (sérialisé), tandis que d’autres méthodes accèdent à ce handle de contexte en mode partagé (non sérialisé). Ces fonctionnalités d’accès sont comparables aux mécanismes de verrouillage en lecture/écriture. les méthodes qui utilisent un handle de contexte sérialisé sont des utilisateurs exclusifs (enregistreurs), tandis que les méthodes qui utilisent un handle de contexte non sérialisé sont des utilisateurs partagés (lecteurs). Les méthodes qui détruisent ou modifient l’état d’un handle de contexte doivent être sérialisées. Les méthodes qui ne modifient pas l’état d’un handle de contexte, telles que les méthodes qui lisent simplement un handle de contexte, peuvent être non sérialisées. Notez que les méthodes de création sont implicitement sérialisées.
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ Spécifie l’identificateur qui spécifie le type de handle de contexte tel que
 
 L’attribut de **\[ \_ handle \] de contexte** peut apparaître en tant qu’attribut de type [**typedef**](typedef.md) IDL, en tant qu’attribut de type de retour de fonction ou en tant qu’attribut de paramètre. Quand vous appliquez l’attribut de **\[ \_ handle \] de contexte** à une définition de type, vous devez également fournir une routine d’arrêt de contexte. Pour plus d’informations, consultez [routine de fonctionnement du contexte de serveur](/windows/desktop/Rpc/server-context-run-down-routine) .
 
-Quand vous utilisez le compilateur MIDL en mode par défaut ([**/ms. \_ ext**](-ms-ext.md)), un descripteur de contexte peut être n’importe quel type pointeur sélectionné par l’utilisateur, à condition qu’il soit conforme aux exigences des handles de contexte décrits ici. Les données associées à ce type de descripteur de contexte ne sont pas transmises sur le réseau et ne doivent être manipulées que par l’application serveur. Les compilateurs IDL DCE restreignent les handles de contexte aux pointeurs de type [**void**](void.md) **\*** . Par conséquent, cette fonctionnalité n’est pas disponible lorsque vous utilisez le commutateur [**/OSF**](-osf.md) du compilateur MIDL.
+Quand vous utilisez le compilateur MIDL en mode par défaut ([**/ms. \_ ext**](-ms-ext.md)), un descripteur de contexte peut être n’importe quel type pointeur sélectionné par l’utilisateur, à condition qu’il soit conforme aux exigences des handles de contexte décrits ici. Les données associées à ce type de descripteur de contexte ne sont pas transmises sur le réseau et ne doivent être manipulées que par l’application serveur. Les compilateurs IDL DCE restreignent les handles de contexte aux pointeurs de type [**void**](void.md)  * *\** _. Par conséquent, cette fonctionnalité n’est pas disponible lorsque vous utilisez le commutateur MIDL [_ */OSF* *](-osf.md) du compilateur MIDL.
 
 Comme avec d’autres types de handles, le handle de contexte est opaque pour l’application cliente, et toutes les données qui lui sont associées ne sont pas transmises. Sur le serveur, le handle de contexte sert de handle sur le contexte actif, et toutes les données associées au type de descripteur de contexte sont accessibles.
 
@@ -164,13 +164,13 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown (PCONTEXT_HANDLE_TYPE);
 [Liaison et Handles](/windows/desktop/Rpc/binding-and-handles)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**handle implicite \_**](implicit-handle.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**localisé**](local.md)
@@ -212,9 +212,9 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown (PCONTEXT_HANDLE_TYPE);
 [**unique**](unique.md)
 </dt> <dt>
 
-[**void**](void.md)
+[**nullité**](void.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

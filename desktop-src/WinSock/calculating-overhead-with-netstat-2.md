@@ -5,11 +5,11 @@ title: Calcul de la surcharge avec netstat
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a7843c3cd445bee66e25a9f191ae4b78093faea0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516248"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010470"
 ---
 # <a name="calculating-overhead-with-netstat"></a>Calcul de la surcharge avec netstat
 
@@ -91,7 +91,7 @@ Unknown protocols     52812
 [Comportement de l’application](application-behavior-2.md)
 </dt> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

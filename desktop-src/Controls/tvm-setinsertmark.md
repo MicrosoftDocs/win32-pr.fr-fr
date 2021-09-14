@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3004395dcc7ea0b83af2fc2b7dae370c303228f79599215d5b6d264379b793
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff5a9cc9b05e9cd7dc3281d778734bee1048ffd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115589"
 ---
 # <a name="tvm_setinsertmark-message"></a>TVM \_ SETINSERTMARK message
 
@@ -43,15 +43,15 @@ Valeur **booléenne** qui spécifie si la marque d’insertion est placée avant
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans certains cas, la marque d’insertion peut apparaître à deux emplacements après le développement d’un nœud. Si vous utilisez des marques d’insertion, il est recommandé de forcer une actualisation du contrôle après le développement d’un nœud.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

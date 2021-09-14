@@ -4,12 +4,12 @@ ms.assetid: 66b46a57-288b-49e5-bf97-90c6d61ccfaa
 title: AVEncDDLoRoSurroundMixLvl_x10, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23286c8f36e9a303e7ea3f027773e02c0136299c0482491c4517fff25dbf2f0f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ddac359d11b472eccea1e14158d29daa7adeb90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111870"
 ---
 # <a name="avencddlorosurroundmixlvl_x10-property"></a>AVEncDDLoRoSurroundMixLvl \_ x10, propriété
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur est spécifiée comme décibels (dB) x 10.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

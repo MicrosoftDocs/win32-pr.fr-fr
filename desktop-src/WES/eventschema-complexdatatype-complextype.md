@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f86b15defc32469dd1a4abd0f6366e1a93d4b83441b1e1518ff7ac999f30bd59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 598f2cc02f1e3675ff0c8fd6eae7f9a5e02b9407
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192840"
 ---
 # <a name="complexdatatype-complex-type"></a>Type complexe ComplexDataType
 
@@ -60,11 +60,11 @@ Définit une structure qui contient un ou plusieurs éléments de données.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**EvtRender**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) restitue le contenu d’une structure sous la forme d’un objet blob binaire ; la fonction ne rend pas les éléments de données individuels de la structure.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

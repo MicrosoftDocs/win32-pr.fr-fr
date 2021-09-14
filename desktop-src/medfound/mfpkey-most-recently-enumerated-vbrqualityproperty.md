@@ -4,12 +4,12 @@ ms.assetid: 7d67e41f-060b-49a1-9e17-5db081ef4210
 title: MFPKEY_MOST_RECENT_ENUMERATED_VBRQUALITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68e609f8dc7b95eb9cfd4bf537af47d1a11cb4ba625f0bbc65897b008ff03a31
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccd3b5f3aae6dc5347672cf6697c3431163dcbd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117689793"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236009"
 ---
 # <a name="mfpkey_most_recent_enumerated_vbrquality-property"></a>MFPKEY \_ \_ \_ propriété VBRQUALITY énumérée la plus récente \_
 
@@ -23,11 +23,11 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ UI4**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque l’encodeur agit comme une Media Foundation transformation (MFT) et qu’il énumère un type de sortie sur un appel à [**IMFTransform :: GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype), vous pouvez interroger la table MFT pour obtenir la propriété **\_ \_ \_ \_ VBRQUALITY énumérée la plus récente de MFPKEY** . La valeur retournée indique la qualité VBR du type de média de sortie retourné le plus récemment. Vous pouvez ensuite utiliser cette valeur pour définir la propriété [**MFPKEY \_ souhaitée \_ VBRQUALITY**](mfpkey-desired-vbrqualityproperty.md) de l’encodeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

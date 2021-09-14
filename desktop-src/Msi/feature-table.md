@@ -4,12 +4,12 @@ ms.assetid: 1faee1d5-6e39-43ea-bf92-a0b3986a13a1
 title: Tableau des fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65dcf9177c44f407876cbe339925ca4524034a1335393161bb40310d60c158ab
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: efa91df750c4994a2d8a2308705213e48c864518
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119251759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091245"
 ---
 # <a name="feature-table"></a>Tableau des fonctionnalités
 
@@ -21,10 +21,10 @@ La table des fonctionnalités définit la structure de l’arborescence logique 
 |-----------------|------------------------------|-----|----------|
 | Fonctionnalité         | [Identificateur](identifier.md) | O   | N        |
 | Parent de la fonctionnalité \_ | [Identificateur](identifier.md) | N   | O        |
-| Titre           | [Text](text.md)             | N   | O        |
+| Intitulé           | [Text](text.md)             | N   | O        |
 | Description     | [Text](text.md)             | N   | O        |
 | Affichage         | [Integer](integer.md)       | N   | O        |
-| Niveau           | [Integer](integer.md)       | N   | N        |
+| Level           | [Integer](integer.md)       | N   | N        |
 | Répertoire\_     | [Identificateur](identifier.md) | N   | O        |
 | Attributs      | [Integer](integer.md)       | N   | N        |
 
@@ -153,7 +153,7 @@ Certains attributs sont exclusifs les uns des autres. Si vous tentez de définir
 
 Notez que si une fonctionnalité enfant est installée, sa fonctionnalité parente est également installée. Si une fonctionnalité parente est installée, sa fonctionnalité enfant n’est pas nécessairement installée, sauf si ses attributs msidbFeatureAttributesFollowParent et msidbFeatureAttributesUIDisallowAbsent sont définis. Cette relation hiérarchique de l’installation des fonctionnalités parent et enfant est également utilisée pour les installations et installations de l’interface utilisateur qui utilisent des propriétés de ligne de commande.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Plusieurs colonnes temporaires supplémentaires sont ajoutées à cette table lorsqu’elle est chargée en mémoire pour les calculs utilisés par la sélection de l’interface utilisateur et de l’évaluation des coûts.
 

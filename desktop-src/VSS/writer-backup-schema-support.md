@@ -4,12 +4,12 @@ ms.assetid: ea504f8e-26d9-499e-b3e9-03515b480a75
 title: Prise en charge du schéma de sauvegarde de l’enregistreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56b037591d6deda2657acdfe4f4e4755fef96b52bafc92e4cc51e4ef7119de1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 593df12f552f206d5d0eedbf8d021b69ef955c6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118344242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192444"
 ---
 # <a name="writer-backup-schema-support"></a>Prise en charge du schéma de sauvegarde de l’enregistreur
 

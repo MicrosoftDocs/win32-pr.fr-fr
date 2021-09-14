@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa1152c753501b2e2385de8c56af614d62cfb367fcca8468aaa032e9536e8d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91bcbb71e1c5324a9907d735492364561be49a60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192360"
 ---
 # <a name="externalonchangeviewerror-event"></a>External. OnChangeViewError, événement
 
@@ -79,7 +79,7 @@ La même chaîne qui a été passée dans le paramètre **ViewParams** de **chan
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

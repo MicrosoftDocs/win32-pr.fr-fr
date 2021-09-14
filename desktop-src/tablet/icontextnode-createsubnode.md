@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: c7b4bc39431d6b4608586e60bdeffb7cd6c79bf95f944e436c16a683e24e634d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02c10cc50b90b96cc1ce4aadfa97f86a6c516ed3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092310"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235097"
 ---
 # <a name="icontextnodecreatesubnode-method"></a>IContextNode :: CreateSubNode, méthode
 
@@ -54,11 +54,11 @@ Pointeur vers le nouvel [**IContextNode**](icontextnode.md).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur \* *ppContextNodeCreated* lorsque vous n’avez plus besoin d’utiliser le nœud de contexte.
@@ -69,7 +69,7 @@ Le nouveau [**IContextNode**](icontextnode.md) est ajouté à la collection de n
 
 Pour obtenir la liste des types de nœuds de contexte, consultez [types de nœuds de contexte](context-node-types.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

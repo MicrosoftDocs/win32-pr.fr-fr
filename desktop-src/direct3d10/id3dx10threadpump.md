@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: ef95e4087d2d50e00bf7637119038f35378b8ef1657c23ac8b7a11e62acad3a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aecab39b655998533c80f1fff56e3f10d941f551
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119046867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292058"
 ---
 # <a name="id3dx10threadpump-interface"></a>Interface ID3DX10ThreadPump
 
@@ -50,7 +50,7 @@ L’interface **ID3DX10ThreadPump** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La pompe de thread charge et traite les données dans un processus en 3 étapes. Il va :
 
@@ -126,7 +126,7 @@ API qui prennent une pompe de thread comme paramètre.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

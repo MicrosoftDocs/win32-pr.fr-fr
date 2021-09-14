@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 984bbe63444593707de7e410ebd9cb47fb60bac4766ea6ee57660f034e45924d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91f63bc496469f6edc26b4f9176f3f9157464bdd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119797869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116941"
 ---
 # <a name="stn_clicked-notification-code"></a>STN \_ a cliqué sur le code de notification
 
@@ -53,7 +53,7 @@ Handle vers le contrôle statique.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -75,7 +75,7 @@ Handle vers le contrôle statique.
 [STN \_ DBLCLK](stn-dblclk.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Contrôles statiques](static-controls.md)

@@ -4,12 +4,12 @@ description: Une barre de menus est la zone d’une fenêtre située immédiatem
 ms.assetid: 63b496c7-ae3b-49b5-8c22-41fc9a8f3981
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1212ba3c56673ab638e5aeedcc0ce20aea68dda2ad55e0904906d9f809c234ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a239a0bb5f860132ba0f9b9393129c2c7a093dae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010690"
 ---
 # <a name="menu-bar-msaa-ui-element-reference"></a>Barre de menus (référence des éléments d’interface utilisateur MSAA)
 
@@ -59,7 +59,7 @@ Les contrôles de barre de menus prennent en charge les propriétés [**IAccessi
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 Le système déclenche plusieurs événements [**\_ \_ MENUSTART du système d’événements**](event-constants.md) qui n’ont pas toujours un événement [**MENUEND du \_ système \_ d’événements**](event-constants.md) correspondant. En outre, le système ne déclenche pas les [**événements \_ \_ MENUPOPUPSTART**](event-constants.md) et [**\_ \_ MENUPOPUPEND**](event-constants.md) du système d’événements de manière cohérente. Il s’agit d’un problème connu qui est traité.
 

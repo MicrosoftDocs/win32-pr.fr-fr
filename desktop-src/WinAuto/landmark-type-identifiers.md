@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87cc838073588bea54f2eb0838032753f4a007d39557e1c657b2abc0e812eaf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6e0a926d5a6d894a9657b0ec8bc9f93638f090a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133842"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010695"
 ---
 # <a name="landmark-type-identifiers"></a>Identificateurs de type d’éléments de repère
 
@@ -94,7 +94,7 @@ Indique que le repère est lié aux éléments de type de recherche.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2a4be005392e01bceedd2582c61edfa60b808ef98414237109ec276dc016f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36dd2764b6a8951a337c990dcbcfb8e5aff9c56b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117310"
 ---
 # <a name="rb_getpalette-message"></a>\_Message GETPALETTE RB
 
@@ -35,11 +35,11 @@ Récupère la palette actuelle du contrôle rebar.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un **HPALETTE** qui spécifie la palette actuelle du contrôle rebar.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

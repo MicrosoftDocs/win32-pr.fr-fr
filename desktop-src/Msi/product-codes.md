@@ -4,12 +4,12 @@ ms.assetid: 6fbad59b-27b7-4ac1-bad5-8a608c7b270f
 title: Codes de produit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2afe0c96e78d14bc989d4acdc7195d374b82466c4b345a999df7085468587e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: edca03d54dcd14068e89b2314b729e672b0c631c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110945"
 ---
 # <a name="product-codes"></a>Codes de produit
 

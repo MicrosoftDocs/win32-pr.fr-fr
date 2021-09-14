@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac3be7b9b7f62d69a1207e60f58189f152f109531d83e4f7b80b6e13ca6f6da3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: abe566d1e1b3cc7d257c4756fe123423fc344a7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116173"
 ---
 # <a name="tcm_setcurfocus-message"></a>\_Message SETCURFOCUS TCM
 
@@ -39,17 +39,17 @@ Index de l’onglet qui obtient le focus.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le contrôle onglet a le style de [**\_ boutons TCS**](tab-control-styles.md) (mode bouton), l’onglet avec le focus peut être différent de l’onglet sélectionné. Par exemple, lorsqu’un onglet est sélectionné, l’utilisateur peut appuyer sur les touches de direction pour définir le focus sur un autre onglet sans modifier l’onglet sélectionné. En mode bouton, **TCM \_ SETCURFOCUS** définit le focus d’entrée sur le bouton associé à l’onglet spécifié, mais il ne modifie pas l’onglet sélectionné.
 
 Si le contrôle onglet n’a pas le style de [**\_ boutons TCS**](tab-control-styles.md) , le fait de modifier le focus modifie également l’onglet sélectionné. Dans ce cas, le contrôle onglet envoie les codes de notification [TCN \_ SELCHANGING](tcn-selchanging.md) et [TCN \_ selChange](tcn-selchange.md) à sa fenêtre parente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

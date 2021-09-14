@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8150843ab14148d398b11cba82aa52711621c15962976ca37d5332a6ae58f24
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5c27fa1bde6437b55689494751410145995862d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010823"
 ---
 # <a name="videofullscreen"></a>VIDEO. fullScreen
 
@@ -42,11 +42,11 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété ne peut être spécifiée qu’au moment de l’exécution, une fois qu’un fichier a été chargé. Il doit donc être défini dans un gestionnaire d’événements de script. Le bouton d’échappement est utilisé pour revenir à un affichage normal.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

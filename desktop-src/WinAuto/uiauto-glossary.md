@@ -1,18 +1,18 @@
 ---
-title: Glossaire (fonctionnalités d’accessibilité de Windows)
+title: glossaire (Windows fonctionnalités d’accessibilité)
 description: Page de glossaire
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: c45583f2-a6e8-4a01-9577-9b604b5bbc62
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 16679c63f0716058e53c7c9d164a24593c481dff
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106513757"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010522"
 ---
-# <a name="glossary-windows-accessibility-features"></a>Glossaire (fonctionnalités d’accessibilité de Windows)
+# <a name="glossary-windows-accessibility-features"></a>glossaire (Windows fonctionnalités d’accessibilité)
 
 ## <a name="a"></a>Un
 
@@ -60,7 +60,7 @@ Tout programme qui utilise UI Automation ou Microsoft Active Accessibility pour 
 **fournisseur côté client**
 </dt> <dd>
 
-Composant logiciel implémenté par un client UI Automation pour récupérer des informations sur l’interface utilisateur d’une application qui ne prend pas en charge ou ne prend pas entièrement en charge l’Automation d’interface utilisateur. En règle générale, les fournisseurs côté client (proxys) communiquent avec l’application à travers la limite de processus en envoyant et en recevant des messages Windows.
+Composant logiciel implémenté par un client UI Automation pour récupérer des informations sur l’interface utilisateur d’une application qui ne prend pas en charge ou ne prend pas entièrement en charge l’Automation d’interface utilisateur. en règle générale, les fournisseurs côté client (proxys) communiquent avec l’application à travers la limite de processus en envoyant et en recevant des messages Windows.
 
 </dd> <dt>
 
@@ -396,7 +396,7 @@ Composant Runtime qui implémente l’infrastructure UI Automation.
 **Infrastructure UI Automation**
 </dt> <dd>
 
-Composant Windows intégral qui prend en charge l’accès par programme à la plupart des éléments d’interface utilisateur sur le bureau. Il permet aux produits de technologie d’assistance tels que les lecteurs d’écran de fournir des informations sur l’interface utilisateur aux utilisateurs finaux et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard. UI Automation permet également aux scripts de test automatisés d’interagir avec l’interface utilisateur.
+composant Windows intégral qui prend en charge l’accès par programme à la plupart des éléments d’interface utilisateur sur le bureau. Il permet aux produits de technologie d’assistance tels que les lecteurs d’écran de fournir des informations sur l’interface utilisateur aux utilisateurs finaux et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard. UI Automation permet également aux scripts de test automatisés d’interagir avec l’interface utilisateur.
 
 </dd> <dt>
 
@@ -417,7 +417,7 @@ Implémentation d’interfaces UI Automation qui expose des informations de prog
 **Arborescence UI Automation**
 </dt> <dd>
 
-Représentation hiérarchique de tous les éléments UI Automation sur le bureau Windows. L’arborescence se compose d’un élément racine qui représente le Bureau actuel et dont les éléments enfants représentent des fenêtres d’application. Chacun de ces éléments enfants peut contenir des éléments qui représentent des éléments de l’interface utilisateur, tels que des menus, des boutons, des barres d’outils et des zones de liste. Ces éléments peuvent contenir des éléments tels que des éléments de liste.
+représentation hiérarchique de tous les éléments UI Automation sur le bureau de Windows. L’arborescence se compose d’un élément racine qui représente le Bureau actuel et dont les éléments enfants représentent des Windows d’application. Chacun de ces éléments enfants peut contenir des éléments qui représentent des éléments de l’interface utilisateur, tels que des menus, des boutons, des barres d’outils et des zones de liste. Ces éléments peuvent contenir des éléments tels que des éléments de liste.
 
 </dd> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 99b735f52ac4d311af6e35f7e214322c55345e4c029e73a342baa52dfa72de6c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c89ff554b049e6730a64ebf7e5f017fc8a5652f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312990"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010396"
 ---
 # <a name="swbemqualifiersetitem-method"></a>SWbemQualifierSet. Item, méthode
 
@@ -59,7 +59,7 @@ Réservé. La valeur par défaut est 0 (zéro).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, l’objet [**SWbemQualifier**](swbemqualifier.md) demandé est retourné.
 
@@ -90,7 +90,7 @@ Le qualificateur spécifié n’existe pas.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

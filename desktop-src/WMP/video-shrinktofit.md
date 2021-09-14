@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 186c43ce664f4da5490168232310a9e4cd640651a035a16097c8875d74270b2e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0eb049ac8a307b243a7b4b82bdd0f2834f30b315
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010815"
 ---
 # <a name="videoshrinktofit"></a>VIDÉO. shrinkToFit
 
@@ -42,11 +42,11 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si aucune largeur ou hauteur n’est spécifiée, cet attribut est ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

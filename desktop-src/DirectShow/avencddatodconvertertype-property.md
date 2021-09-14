@@ -4,12 +4,12 @@ ms.assetid: 44a82d6c-9cf9-440f-904d-5931dcb6117b
 title: Propriété AVEncDDAtoDConverterType (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9057646597e213f7745e90cbc67eb8023df9ebec4faab81894a880372f4326d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 999880964b462f6d2e90196eeb6df369509a0a42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118403845"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111922"
 ---
 # <a name="avencddatodconvertertype-property"></a>Propriété AVEncDDAtoDConverterType
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncDDAtoDConverterType**](/windows/win32/api/codecapi/ne-codecapi-eavencddatodconvertertype) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

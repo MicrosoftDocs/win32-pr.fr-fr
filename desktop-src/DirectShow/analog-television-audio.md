@@ -4,12 +4,12 @@ ms.assetid: 793ab1bf-89a7-4592-b5a7-db597bdaec73
 title: Télévision analogique audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b1f250b920eeec6e1a3e39f3ffdaea952c92f71d1cbd6d4b4d70405cb55417
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9413789302275c47557ae8b40eccdf17f02f4f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118001827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112241"
 ---
 # <a name="analog-television-audio"></a>Télévision analogique audio
 

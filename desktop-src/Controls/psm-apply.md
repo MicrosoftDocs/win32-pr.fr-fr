@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f753eb2465ec835f467493bdbd83d10b8ba174b11c83abffcb91d20f8beba002
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67d798d4a9a2f780ac81cc84c90a57d0efd4e299
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119544159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117546"
 ---
 # <a name="psm_apply-message"></a>\_Message d’application PSM
 
@@ -43,11 +43,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si toutes les pages ont correctement appliqué les modifications, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La feuille de propriétés envoie le code de notification [PSN \_ KILLACTIVE](psn-killactive.md) à la page actuelle. Si la page active retourne la **valeur false**, la feuille de propriétés envoie le code de notification d' [ \_ application PSN](psn-apply.md) à toutes les pages actives. Vous pouvez envoyer le \_ message d’application PSM de manière explicite ou à l’aide de la macro [**PropSheet \_ apply**](/windows/desktop/api/Prsht/nf-prsht-propsheet_apply) .
 
@@ -56,7 +56,7 @@ La feuille de propriétés envoie le code de notification [PSN \_ KILLACTIVE](ps
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

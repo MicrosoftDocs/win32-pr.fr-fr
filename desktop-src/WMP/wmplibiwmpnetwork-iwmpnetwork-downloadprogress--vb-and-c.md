@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96c2b47895d595a570191d9aa66b90b1cdc53392f8f111d64307074e5689f2ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b10b767845ac951e1364e15c7f6f1d729882e0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118331978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192220"
 ---
 # <a name="iwmpnetworkdownloadprogress-property"></a>IWMPNetwork ::d propriété ownloadProgress
 
@@ -48,7 +48,7 @@ Public ReadOnly Property downloadProgress As System.Int32
 
 **System. Int32** qui est la progression du téléchargement exprimée sous forme de pourcentage.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque le contrôle de Lecteur Windows Media est connecté à un fichier multimédia numérique qui peut être lu et téléchargé en même temps, la propriété **downloadProgress** obtient le pourcentage du fichier total téléchargé. Cette fonctionnalité est actuellement prise en charge uniquement pour les fichiers multimédias numériques téléchargés à partir de serveurs Web. Un fichier de l’un des formats suivants peut être téléchargé et lu simultanément :
 
@@ -139,7 +139,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

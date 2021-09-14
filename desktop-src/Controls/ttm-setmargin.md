@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04e5792b33f7f9f5a997759ba390c1b8a713308f95c4ba3f7b5cd0460747ff62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ed46bf40833a3046d15386782897eb6b573b29c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119914059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115814"
 ---
 # <a name="ttm_setmargin-message"></a>\_Message atténuation SETMARGIN
 
@@ -52,15 +52,15 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ce message n’a aucun effet lorsque l’application s’exécute sur Windows Vista et que les styles visuels sont activés pour l’info-bulle. Vous pouvez désactiver les styles visuels pour l’info-bulle à l’aide de [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9742436a-e233-4641-a0d5-aa240cde5f28
 title: EC_SEGMENT_STARTED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b33d9f75dc4fa8e86b13e61c78b98a19248c16f2f627e1c1b09e536b31a73f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7e7df85bddb78fe2687a017b481e6db62ba37c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111094"
 ---
 # <a name="ec_segment_started"></a>\_segment EC \_ démarré
 
@@ -37,13 +37,13 @@ Un nouveau segment a démarré.
 
 Cet événement n’est pas envoyé à l’application. Les applications ne peuvent pas remplacer l’action par défaut pour cet événement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un filtre envoie une [**\_ fin \_ de \_ segment ce**](ec-end-of-segment.md) à la fin d’un segment, il envoie cet événement au début du segment. Le gestionnaire de graphique de filtre utilise cette notification d’événement pour calculer le \_ nombre \_ de \_ notifications de la fin de segment qu’il doit attendre à la fin du segment.
 
 Par défaut, les filtres n’envoient pas d’événements [**\_ \_ de fin de \_ segment EC**](ec-end-of-segment.md) à la fin des segments et ne doivent donc pas envoyer cet événement. Pour plus d’informations, consultez [**IMediaSeeking :: SetPositions**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setpositions).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 797f649ddd7a6634ecf3d42b7167e6d9d21587fdc09e24197a88fc239fb5fe3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22a93625b7becbe083a42fbd6fcc71ad801173ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119973829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292150"
 ---
 # <a name="esentexception-constructor-string"></a>Constructeur EsentException (String)
 
@@ -62,7 +62,7 @@ protected EsentException(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentException, classe](./esentexception-class.md)
 

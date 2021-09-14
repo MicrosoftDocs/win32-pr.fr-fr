@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f068f842a6e8e42f46a6fe8953aeeb667366b5925729594a2ccd60bd789c8afc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1da8a27ba41e5c4e201a5bdf0197992c30bce80b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192224"
 ---
 # <a name="iwmpnetworkbufferingprogress-property"></a>IWMPNetwork :: bufferingProgress, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property bufferingProgress As System.Int32
 
 **System. Int32** qui correspond à la progression de la mise en mémoire tampon exprimée en pourcentage.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est réinitialisée à zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 
@@ -132,7 +132,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

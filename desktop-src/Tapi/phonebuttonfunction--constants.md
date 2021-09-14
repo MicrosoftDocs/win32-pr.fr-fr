@@ -4,12 +4,12 @@ ms.assetid: 33d369d0-2221-403e-8fbc-a9a1cbd640ad
 title: Constantes PHONEBUTTONFUNCTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a7c7151018d7ff0146137d293aa1543b74a84c5e8ac11d6641b0fc408003854
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4874fbfbd1e6900b58a604ba50c33c873eb5abc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117761311"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011076"
 ---
 # <a name="phonebuttonfunction_-constants"></a>\_Constantes PHONEBUTTONFUNCTION
 
@@ -487,13 +487,13 @@ Augmente le volume du son via le haut-parleur combiné du téléphone ou le haut
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la plage 0x80000000 à 0xFFFFFFFF peuvent être assignées pour les extensions spécifiques à l’appareil ; les valeurs de la plage comprise entre 0x00000000 et 0x7FFFFFFF sont réservées.
 
 Les **\_ constantes PHONEBUTTONFUNCTION** ont des valeurs qui se trouvent généralement sur les jeux de téléphones actuels. Ces fonctions de bouton peuvent être utilisées pour appeler la fonction correspondante à partir du commutateur à l’aide de [**lineDevSpecificFeature**](/windows/desktop/api/Tapi/nf-tapi-linedevspecificfeature). Notez que TAPI ne définit pas la sémantique des fonctions de bouton ; Il fournit uniquement l’accès à la fonction correspondante. Le comportement associé à chacune des valeurs de fonction ci-dessus est générique et peut varier en fonction de l’environnement de téléphonie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

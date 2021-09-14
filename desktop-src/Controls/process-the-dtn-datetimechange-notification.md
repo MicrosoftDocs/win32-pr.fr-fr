@@ -4,12 +4,12 @@ description: Cette rubrique montre comment traiter la notification des modificat
 ms.assetid: AE029962-E9D3-47BC-A24F-312B54137F18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9490059a202eff69a05b34a086e74d6df52758713fd5b66d899d1ab114a31040
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5434c7ebbda673f76a757375e9a3d23504483d42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829920"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117598"
 ---
 # <a name="how-to-process-the-dtn_datetimechange-notification"></a>Comment traiter la notification DTN \_ DATETIMECHANGE
 

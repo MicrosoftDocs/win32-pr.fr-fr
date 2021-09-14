@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c2f6da5153457a871918afea60ac1251496454831a09426f16579ac47342406
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ee6de1c45402f8bdc154f9f10be00140d7c766c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078873"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117621"
 ---
 # <a name="pgn_calcsize-notification-code"></a>\_Code de notification PGN CALCSIZE
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMPGCALCSIZE**](/windows/desktop/api/Commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

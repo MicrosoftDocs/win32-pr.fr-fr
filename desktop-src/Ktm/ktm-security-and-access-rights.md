@@ -4,12 +4,12 @@ ms.assetid: c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae
 title: Sécurité KTM et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0baf273b45a886e40c731c44c261f836fdc0b79012f906a1b4adfe07083be8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed4e42c9aaf8498ff16ebd1d32f539fef5b54b17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118388890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094485"
 ---
 # <a name="ktm-security-and-access-rights"></a>Sécurité KTM et droits d’accès
 

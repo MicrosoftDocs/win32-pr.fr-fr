@@ -4,12 +4,12 @@ ms.assetid: 68BF6074-09CB-4D6E-8BFD-FBA297391286
 title: programmation de la mémoire persistante dans l’intégration de Windows NVML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 750a05f28ca4698091f79b1004bbbb00ff69752e0ff45f2153cc4f0b7fe20a26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c9f033963a8fecded8943eb053781d05a78d568
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235613"
 ---
 # <a name="persistent-memory-programming-in-windows---nvml-integration"></a>programmation de la mémoire persistante dans l’intégration de Windows NVML
 

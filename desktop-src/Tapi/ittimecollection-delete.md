@@ -4,12 +4,12 @@ ms.assetid: 0445d659-7b83-4462-b199-511fd8270f32
 title: ITTimeCollection ::D méthode supprimable (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6376f3f91728a0cd0c8a66003ac53c55414bedbc29bddb6e6eddcde6c7c80e52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9aad562660a2d563193e5074b52f4d1a513bb39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060767"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011107"
 ---
 # <a name="ittimecollectiondelete-method"></a>ITTimeCollection ::D méthode supprimable
 
@@ -39,7 +39,7 @@ Index du composant [**ITTime**](ittime.md) à supprimer. (Le tableau d’index e
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

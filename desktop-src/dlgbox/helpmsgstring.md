@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8a446164bb7ae51d36d1a89219f6c3b84eff74b9af3a40c2121b3bd205a581
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac3f7a883f50b06c8d142cb83bedf0bfa2920191
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119741739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292015"
 ---
 # <a name="helpmsgstring-message"></a>Message HELPMSGSTRING
 
@@ -52,17 +52,17 @@ Pointeur vers la structure d’initialisation de la boîte de dialogue commune. 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez spécifier la constante **HELPMSGSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 
 Lorsque vous créez la boîte de dialogue, utilisez le membre **hwndOwner** de la structure d’initialisation pour identifier la fenêtre de réception des messages **HELPMSGSTRING** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -106,7 +106,7 @@ Lorsque vous créez la boîte de dialogue, utilisez le membre **hwndOwner** de l
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

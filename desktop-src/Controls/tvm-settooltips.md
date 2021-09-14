@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd18a5217db0d105841722d208904c1b65199504750576acf1ff8035f31bd585
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efd9d5957a38d873993405a5283545472433e958
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115558"
 ---
 # <a name="tvm_settooltips-message"></a>TVM \_ SETTOOLTIPS message
 
@@ -39,15 +39,15 @@ Handle d’un contrôle ToolTip.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle ToolTip précédemment défini pour le contrôle Tree-View, ou **null** si les info-bulles n’ont pas été utilisées précédemment.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En cas de création, les contrôles d’arborescence créent automatiquement un contrôle ToolTip enfant. Pour empêcher l’affichage d’un contrôle d’arborescence à l’aide d’info-bulles, créez le contrôle avec le style [**TV \_ noInfos**](tree-view-control-window-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

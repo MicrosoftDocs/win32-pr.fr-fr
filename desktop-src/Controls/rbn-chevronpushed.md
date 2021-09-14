@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3f5f8d52558251524e9d978c52ae703565a9641febdd53190925cfb8b127160
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab28d992b6d4a617b7aa7ee144eb50aef3b0e834
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119985319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117185"
 ---
 # <a name="rbn_chevronpushed-notification-code"></a>\_Code de notification RBN CHEVRONPUSHED
 
@@ -45,15 +45,15 @@ Pointeur vers la structure [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de cette notification n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’une application reçoit ce code de notification, il est chargé d’afficher un menu contextuel contenant des éléments pour chaque outil masqué. Utilisez le membre **RC** de la structure [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) pour rechercher la position correcte du menu contextuel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

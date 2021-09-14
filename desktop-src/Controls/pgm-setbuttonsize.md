@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b120ed4bd6b7090621e09dd24b9e6a23b037fb5aed83e7ac6fc43254393330e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ecf8c164ed960675c1a68be36acfe0eff40f972f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120046789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117641"
 ---
 # <a name="pgm_setbuttonsize-message"></a>\_Message SETBUTTONSIZE PGM
 
@@ -39,17 +39,17 @@ Valeur de type **int** qui contient la nouvelle taille de bouton, en pixels.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **int** qui contient la taille de bouton précédente, en pixels.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le contrôle de pagineur a le style [**PG \_ horiment**](pager-control-styles.md) , la taille du bouton détermine la largeur des boutons du pagineur. Si le contrôle de pagineur a le style [**PG \_ vert**](pager-control-styles.md) , la taille du bouton détermine la hauteur des boutons du pagineur. Par défaut, le contrôle pager définit sa taille de bouton sur trois-quarts de la largeur de la barre de défilement.
 
 La taille minimale du bouton du pagineur est actuellement de 12 pixels. Toutefois, cela peut changer par conséquent, vous ne devez pas dépendre de cette valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

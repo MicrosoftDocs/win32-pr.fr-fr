@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Shell32.dll
 ms.openlocfilehash: a121e4f87be1163429156f22dfe7bd55f1345f43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296066"
 ---
 # <a name="shellparent-property"></a>Shell. Parent, propriété
 
@@ -49,9 +49,9 @@ Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte du **parent** pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte du **Parent** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -126,7 +126,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

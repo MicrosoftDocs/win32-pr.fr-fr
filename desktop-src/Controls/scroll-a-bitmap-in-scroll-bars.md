@@ -4,12 +4,12 @@ description: Cette section décrit les modifications que vous pouvez apporter à
 ms.assetid: FA6FEA49-25EB-4C18-AD07-74BD77501906
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084d8fff259326c4eb73838f1f6e2b650aab40d54882633a76e2fbf120a1ae89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a01a93fbb005b75d7cd860bc8545c4e77a80767
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118005282"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116997"
 ---
 # <a name="how-to-scroll-a-bitmap"></a>Comment faire défiler une bitmap
 

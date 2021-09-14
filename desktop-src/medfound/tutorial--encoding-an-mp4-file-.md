@@ -4,12 +4,12 @@ ms.assetid: 60873aa6-46ec-4a73-94b9-0d8ac602f850
 title: 'Didacticiel : encodage d’un fichier MP4'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 242777f04015f5444be5e0d8424ca06fc4b95cd84ca88c2b997d7b7466c734af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae895ef321b35f080bf946384ee32d83c2c539fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235817"
 ---
 # <a name="tutorial-encoding-an-mp4-file"></a>Didacticiel : encodage d’un fichier MP4
 

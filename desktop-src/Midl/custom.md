@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ace6a558da428da07a432653391e0e48b7a5545bb1a83eb40d9c950abfa9d9aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef7c4210091cc028d7724cb40724f22a91eb7d74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643668"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093694"
 ---
 # <a name="custom-attribute"></a>attribut personnalisé
 
@@ -66,7 +66,7 @@ Nom de l'élément.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez l’attribut **\[ personnalisé \]** pour définir votre propre attribut. Par exemple, vous pouvez créer un attribut à valeur de chaîne qui donne le ProgID pour une classe.
 
@@ -97,7 +97,7 @@ Pour récupérer une valeur d’attribut personnalisée, appelez l’un des él�
 [Syntaxe du fichier ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[**universel**](uuid.md)
+[**uuid**](uuid.md)
 </dt> </dl>
 
  

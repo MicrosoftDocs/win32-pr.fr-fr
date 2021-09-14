@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7516d6aab26659fa2bba57bd961671b4dca0f92d367d5d9bb1f048e8fd19eb2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57ccf8cf2d36ab7e4aaf76fdbe5c28582650fcda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119505949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292523"
 ---
 # <a name="iwmpmediacollectionsetdeleted-method"></a>IWMPMediaCollection :: setDeleted, méthode
 
@@ -69,11 +69,11 @@ Valeur **System. Boolean** qui spécifie si l’élément doit être déplacé v
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ne supprime pas les fichiers de l’ordinateur de l’utilisateur, mais les déplace simplement dans le dossier éléments supprimés.
 
@@ -125,7 +125,7 @@ End If
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

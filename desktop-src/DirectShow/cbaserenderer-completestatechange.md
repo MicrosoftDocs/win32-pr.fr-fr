@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 260cd5692e10fb6e6adaa3ed715944eb773064afaea68f5e0909fa08f45adfb9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d2465aeed3347f6ebc592dbe01bc3580a30983e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111309"
 ---
 # <a name="cbaserenderercompletestatechange-method"></a>Méthode CBaseRenderer. CompleteStateChange
 
@@ -49,15 +49,15 @@ virtual HRESULT CompleteStateChange(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK si la transition est terminée. Sinon, retourne S \_ false.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CBaseRenderer ::P ause**](cbaserenderer-pause.md) appelle cette méthode pour mettre à jour l’état de la transition d’État. En général, la transition vers suspendue ne se termine pas tant que le filtre n’a pas reçu d’exemple. Toutefois, dans certaines situations, la transition se termine immédiatement : par exemple, si le filtre n’est pas connecté ou si la fin du flux a été atteinte. Cette méthode vérifie les différents critères, puis appelle la méthode [**CBaseRenderer :: Ready**](cbaserenderer-ready.md) ou la méthode [**CBaseRenderer :: nochapy**](cbaserenderer-notready.md) pour mettre à jour l’état de transition.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

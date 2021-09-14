@@ -4,12 +4,12 @@ ms.assetid: cc3c26ed-a007-4350-99be-0ebd94953689
 title: Calcul des valeurs de paramètre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad23cb9c50413fed36dde205ef97be0139dd6152f0a301f230793ef2cb131684
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89dac0767d7d19bc4331e1a9ee032ec5b3eaae2e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111386"
 ---
 # <a name="calculating-parameter-values"></a>Calcul des valeurs de paramètre
 

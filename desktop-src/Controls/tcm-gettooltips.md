@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb68710c13c8b6b236782b133caa5b6f3609fef931e3b1e395b9944e9ab9a651
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e49334a1fa7124dd6e7a0f0b739cd1ebd24b51b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166932"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116194"
 ---
 # <a name="tcm_gettooltips-message"></a>\_Message GETTOOLTIPS TCM
 
@@ -35,15 +35,15 @@ Récupère le handle du contrôle ToolTip associé à un contrôle onglet. Vous 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle ToolTip en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un contrôle onglet crée un contrôle ToolTip s’il a le [**style \_ info-bulles TCS**](tab-control-styles.md) . Vous pouvez également assigner un contrôle ToolTip à un contrôle onglet à l’aide du message [**\_ SETTOOLTIPS TCM**](tcm-settooltips.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

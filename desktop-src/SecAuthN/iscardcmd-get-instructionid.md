@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 586d980362d55020b655bd592a2f98b665941d90b22a8d5bc5719b3b98f63ce6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b0125237ef94a5d6173f517483b9ae8781d5607
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011234"
 ---
 # <a name="iscardcmdget_instructionid-method"></a>ISCardCmd :: \_ InstructionId, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers l’octet qui est l’ID d’instruction de l’APDU au retour.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir l’identificateur d’instruction sur une nouvelle valeur, appelez [**put \_ InstructionId**](iscardcmd-put-instructionid.md).
 
@@ -93,7 +93,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

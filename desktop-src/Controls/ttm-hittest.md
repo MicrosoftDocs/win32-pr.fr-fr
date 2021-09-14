@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 105edd555a1da1ba037f7dda114e1d9f9ef53048c02a7cb11e1df1ff0c01ad2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7b515ccb5c283b66760f24c02749368e424e6fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115837"
 ---
 # <a name="ttm_hittest-message"></a>\_Message atténuation HITTEST
 
@@ -41,15 +41,15 @@ Pointeur vers une structure [**TTHITTESTINFO**](/windows/win32/api/commctrl/ns-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si l’outil occupe le point spécifié, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message doit être envoyé lorsque l’indicateur de piste TTF est défini pour l’outil \_ . Pour plus d’informations sur cet indicateur, consultez [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa). ATTÉNUATION \_ HITTEST échoue si \_ la piste ttf n’est pas définie, même si le point d’accès se trouve dans le rectangle d’outils.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

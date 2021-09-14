@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5283b2853709742713f79afb761cc39739f6df7467a1de869c545c705c8488ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72cfa7325d1a8e1eab27383d7df918c8896933bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116338"
 ---
 # <a name="tbn_begindrag-notification-code"></a>\_Code de notification TBN BEGINDRAG
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

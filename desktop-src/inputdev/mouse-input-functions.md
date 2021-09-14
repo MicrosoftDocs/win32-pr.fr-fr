@@ -5,11 +5,11 @@ ms.assetid: a666b25b-a75c-4500-8077-fabe07589a1d
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 08b9dffed2446addaced30341364d2f755fcd4c5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471745"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192556"
 ---
 # <a name="mouse-input-functions"></a>Fonctions d’entrée de souris
 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 49ee48ad1e66caf5ed8facbf09ebf2c517c8c895
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093926"
 ---
 # <a name="i-switch"></a>Commutateur/i
 
@@ -44,7 +44,7 @@ Plusieurs répertoires peuvent apparaître avec chaque commutateur **/i** , et p
 
 Le paramètre de commutateur **/i** est également passé par le compilateur MIDL au préprocesseur c du compilateur c. Lorsque le [**commutateur \_ /CPP cmd**](-cpp-cmd.md) est présent et que le commutateur [**/CPP \_ OPT**](-cpp-opt.md) n’est pas, le compilateur MIDL concatène la chaîne spécifiée par le commutateur **/CPP \_ cmd** avec les options **/i**, [**/d**](-d.md)et [**/u**](-u.md) et utilise cette chaîne concaténée pour appeler le préprocesseur C pour chaque fichier source IDL et ACF. Le commutateur du compilateur MIDL **/i** n’est pas passé au préprocesseur lorsque le commutateur du compilateur MIDL **/non \_ CPP** ou **/CPP \_ OPT** est spécifié.
 
-Dans les environnements de système d’exploitation Microsoft (Windows 64 bits, Windows 32 bits, Windows 16 bits et MS-DOS), les répertoires sont recherchés dans l’ordre suivant :
+dans les environnements de système d’exploitation Microsoft (64 bits Windows, 32 bits Windows, 16 bits Windows et MS-DOS), les répertoires sont recherchés dans l’ordre suivant :
 
 1.  Répertoire actif
 2.  Répertoires spécifiés par le commutateur **/i** (dans l’ordre suivant le commutateur)
@@ -77,9 +77,9 @@ Quand aucun répertoire n’est spécifié avec le commutateur **/i** , le commu
 [**/non \_ Def \_ idir**](-no-def-idir.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

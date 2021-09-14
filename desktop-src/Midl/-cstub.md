@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47b4f635b6d09c85b345eea6dcb7320294e226ad6f2540f01af1e9b3e8098671
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 878f6eee47deaac3887c3f9936c18b0185cc807a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093945"
 ---
 # <a name="cstub-switch"></a>commutateur/cstub
 
@@ -38,7 +38,7 @@ Spécifie un nom de fichier qui remplace le nom du fichier stub client par défa
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nom de fichier spécifié remplace le nom de fichier par défaut. Par défaut, le nom de fichier est obtenu en ajoutant l’extension \_ c. c au nom du fichier IDL. Ce commutateur n’affecte pas les interfaces OLE.
 

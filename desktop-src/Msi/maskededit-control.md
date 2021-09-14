@@ -4,12 +4,12 @@ ms.assetid: 8cc14683-3dbb-404f-87af-09a5f5b90b19
 title: MaskedEdit (contrôle)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30a6490cf2eb05d001d00a1cd8b5b3d33520ea735ebe0d05f064d4053847b691
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee7568df9969ebabab6311e519d0a5a625feb8dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117805104"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011913"
 ---
 # <a name="maskededit-control"></a>MaskedEdit (contrôle)
 
@@ -69,7 +69,7 @@ Pour modifier la valeur d’un attribut qui utilise un événement, abonnez le c
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle MaskedEdit crée une fenêtre parente de la classe **Button** avec les styles **BS \_ OwnerDraw** et **WS \_ ex \_ CONTROLPARENT** . Elle crée plusieurs fenêtres enfants dans cette fenêtre.
 

@@ -4,12 +4,12 @@ ms.assetid: 640CD70D-4424-407F-B801-6796199D260B
 title: Attribut MFSampleExtension_ForwardedDecodeUnitType (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a639af642bc2f30896ef25ea89c22e00de96c73dcb6ace22e7ade5423ee79b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afe577b9c90c6a6288c7d6de053e648ef3195b03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295371"
 ---
 # <a name="mfsampleextension_forwardeddecodeunittype-attribute"></a>\_Attribut MFSampleExtension ForwardedDecodeUnitType
 
@@ -23,7 +23,7 @@ Spécifie le type, NALU ou SEI, d’une unité attachée à un [**IMFSample**](/
 
 La valeur de cet attribut est une valeur de l’énumération de [**\_ type d' \_ \_ unité \_ de décodage personnalisée MF**](mf-custom-decode-unit-type-enum.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

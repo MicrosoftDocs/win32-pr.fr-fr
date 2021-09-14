@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c82e1665e4c49461c3c7bd1c315b31f4f72c7e3f0e5331d9f0326347d36105
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f73d0386d786e4d3004c78b1acccda7e9be8fc16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119582159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093586"
 ---
 # <a name="force_allocate-attribute"></a>forcer l’allocation de l' \_ attribut
 
@@ -31,7 +31,7 @@ L’attribut ACF \[ **force \_ allocate** \] force un paramètre de pointeur à 
 
 Cet attribut n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 RPC tente de réduire les allocations de mémoire sur le serveur en fournissant des pointeurs aux mémoires tampons de mémoire internes. Cette approche peut provoquer des problèmes pour les applications qui tentent d’appeler directement l' [**\_ utilisateur MIDL \_**](midl-user-free-1.md) sur les pointeurs fournis par RPC, car un pointeur qui a été optimisé ne peut pas être libéré. Le marquage d’un paramètre avec l' **\[ \_ allocation \] forcée** empêche cette optimisation pour tous les pointeurs qui le dérivent.
 

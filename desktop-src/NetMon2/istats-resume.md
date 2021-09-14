@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 72c73107ea4bf4662d4251a7c9e06ed1844feca88cb0ce6700887e65f6f08021
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee7818da3d8a02e41488d473d3cf26607d3b84ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119063819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011536"
 ---
 # <a name="istatsresume-method"></a>IStats :: Resume, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas capturées tant que la méthode IStats :: Resume n’est pas appelée pour redémarrer la capture.
 
@@ -65,7 +65,7 @@ Lorsque vous utilisez les méthodes **Pause** et **Resume** pour contrôler la c
 
 Pour arrêter la capture, appelez [IStats :: Stop](istats-stop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

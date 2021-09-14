@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2008ddabdb412c117a3cfac5f2eb5ebf1e722f5f3729fb7c8b2ee0c394c454
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a96d859faa80e3e2269981d206c96e780d05c37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118939046"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110486"
 ---
 # <a name="freeuiinfo-function"></a>FreeUiInfo fonction)
 
@@ -53,7 +53,7 @@ Structure. La mémoire allouée vers laquelle pointe cette structure sera libér
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

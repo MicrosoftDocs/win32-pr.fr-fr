@@ -7,11 +7,11 @@ keywords:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b0e1bbabc30918efaed0e286b5df231537ed5543
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106525833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191960"
 ---
 # <a name="eap_cred_logon_resp"></a>\_ \_ réponse d’ouverture de session EAP cred \_
 
@@ -39,14 +39,14 @@ La structure de **\_ réponse aux \_ connexions \_ EAP cred** est utilisée pour
 
 La structure du **\_ \_ \_ REEE d’ouverture de session d’identification EAP** est identique à la structure de [**\_ \_ \_ demande d’ouverture de session EAP cred**](eap-cred-logon-req.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Eaptypes. h</dt> </dl> |
 
 

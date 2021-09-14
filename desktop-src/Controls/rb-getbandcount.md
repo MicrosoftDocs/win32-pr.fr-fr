@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a8c20a499e7bb65f08e3f3d1ebdcec874469d76bfe422ca65145cc70fb91e04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c976c014e8f4e209fb426910d445ab3945aeeb17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118409629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117341"
 ---
 # <a name="rb_getbandcount-message"></a>\_Message GETBANDCOUNT RB
 
@@ -35,11 +35,11 @@ Récupère le nombre de bandes actuellement dans le contrôle rebar.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **uint** qui représente le nombre de bandes affectées au contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

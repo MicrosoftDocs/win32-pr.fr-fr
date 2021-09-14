@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db2a26dacd63c00d1dd793163facce0ab4a45302e85dde11522f8844977eb0ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d9c8a717151041fb83b7a0206acf570a6ad7f76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118167972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116606"
 ---
 # <a name="tb_setbitmapsize-message"></a>TO \_ SETBITMAPSIZE message
 
@@ -43,15 +43,15 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La taille ne peut être définie qu’avant l’ajout de bitmaps à la barre d’outils. Si une application ne définit pas explicitement la taille de la bitmap, la taille par défaut est de 16 par 15 pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

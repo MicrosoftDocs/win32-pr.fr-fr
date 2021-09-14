@@ -4,12 +4,12 @@ description: Un menu contextuel affiche une liste de commandes de menu.
 ms.assetid: 9dbfa2d7-a086-4348-8b84-7e36d33e2d27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b578a6af66585e06c4d9392f7051a8ebf14c8c24865bac59bf0c4fa43c7deaa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 785fe8ac7a70352116b3a77cf30034092de04a23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010665"
 ---
 # <a name="pop-up-menu-msaa-ui-element-reference"></a>Menu contextuel (référence des éléments d’interface utilisateur MSAA)
 
@@ -51,7 +51,7 @@ Un menu contextuel prend en charge les propriétés [**IAccessible**](/windows/d
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 -   Les objets de menu contextuel ne déclenchent pas les événements de [**\_ \_ création**](event-constants.md) d’objet d’événement et de [**\_ \_ destruction d’objet d’événement**](event-constants.md) .
 -   Les menus à plusieurs colonnes ne prennent pas en charge les indicateurs [**NAVDIR \_ Left**](navigation-constants.md) ou [**NAVDIR \_ Right**](navigation-constants.md) de la méthode [**accNavigate**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate) .

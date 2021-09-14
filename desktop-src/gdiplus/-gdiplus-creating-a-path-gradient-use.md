@@ -5,18 +5,18 @@ title: Création d’un dégradé de tracé
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 729ef39793547b1485525f8cf1fd5b344773e7a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192144"
 ---
 # <a name="creating-a-path-gradient"></a>Création d’un dégradé de tracé
 
 La classe [**PathGradientBrush**](/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush) vous permet de personnaliser la façon dont vous remplissez une forme avec des couleurs à variation progressive. Un objet **PathGradientBrush** possède un chemin d’accès de limite et un point central. Vous pouvez spécifier une couleur pour le point central et une autre couleur pour la limite. Vous pouvez également spécifier des couleurs distinctes pour chacun des points situés le long de la limite.
 
 > [!Note]  
-> Dans GDI+, un chemin d’accès est une séquence de lignes et de courbes gérée par un objet [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) . Pour plus d’informations sur les chemins d’accès GDI+, consultez [chemins](-gdiplus-paths-about.md) d’accès et [construction et traçage de chemins d'](-gdiplus-constructing-and-drawing-paths-use.md)accès.
+> dans GDI+, un chemin d’accès est une séquence de lignes et de courbes gérée par un objet [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) . pour plus d’informations sur les chemins d’accès GDI+, consultez [chemins](-gdiplus-paths-about.md) d’accès et [construction et traçage de chemins d'](-gdiplus-constructing-and-drawing-paths-use.md)accès.
 
  
 

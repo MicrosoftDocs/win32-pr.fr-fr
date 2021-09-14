@@ -4,12 +4,12 @@ ms.assetid: d282de02-62f4-4a12-a77c-f602f6db0216
 description: 'En savoir plus sur : PPP et Device-Independent pixels'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9b3aebca97ac466f5158b07d1d976994030b4ba2c83b361a5d7a6d88b572fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e6f04e1a056611fcdfe8b59ff65b38ecec99eaf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118388343"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094410"
 ---
 # <a name="dpi-and-device-independent-pixels"></a>PPP et Device-Independent pixels
 

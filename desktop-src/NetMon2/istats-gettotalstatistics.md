@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 7c98d947ad81dd1f2dc3e0dd19de144729ea8a069aefc12a820548aaeac4d15d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e6566a58212e8f20d0d999302f41ab97cb9f005e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119742659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011544"
 ---
 # <a name="istatsgettotalstatistics-method"></a>IStats :: GetTotalStatistics, méthode
 
@@ -55,7 +55,7 @@ Indicateur utilisé pour indiquer Moniteur réseau comment gérer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -73,13 +73,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode retourne les données uniquement lorsqu’une capture est en cours, y compris pendant la suspension de la capture.
 
 Moniteur réseau stocke également les [*statistiques de conversation*](c.md), qui peuvent être récupérées en appelant la méthode [IStats :: GetConversationStatistics](istats-getconversationstatistics.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

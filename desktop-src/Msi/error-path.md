@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 7787fcd5bad5550b933b2a866308c1d5b77dd24f60fce23ebc3b227829528307
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a2e462790d6f929943fe2fe364228cd73d3deb7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118378150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091337"
 ---
 # <a name="errorpath-property"></a>Error. Path, propriété
 
@@ -38,7 +38,7 @@ propVal = Error.Path
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur est valide uniquement pour les erreurs de type msmErrorFileCreate ou msmErrorDirCreate. Vous pouvez déterminer le type d’erreur en appelant la propriété [**type**](error-type.md) de l’objet [**Error**](error-object.md) .
 
@@ -46,7 +46,7 @@ Cette valeur est valide uniquement pour les erreurs de type msmErrorFileCreate o
 
 Consultez la fonction [**obtenir le \_ chemin**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_path) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

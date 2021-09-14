@@ -4,12 +4,12 @@ ms.assetid: 65d2f40e-c42c-4d71-b9b3-7662a8be0953
 title: EC_NOTIFY_WINDOW (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 355d4ec8b5b6bea55a2f32f01cc2f83aabeab84443b28e431e5b0d6155acc6d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3165247f05e2fb945f02fee43149b84480bd4b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820111"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111142"
 ---
 # <a name="ec_notify_window"></a>\_fenêtre EC Notify \_
 
@@ -37,11 +37,11 @@ Zéro.
 
 Cet événement est utilisé en interne par DirectShow. Le gestionnaire de graphes de filtre ne transmet pas cet événement à l’application. Les applications ne peuvent pas remplacer l’action par défaut pour cet événement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’un convertisseur vidéo est connecté, il vérifie si la broche de sortie en amont prend en charge l’interface [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) . Si c’est le cas, le convertisseur envoie cet événement au filtre amont.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89a78fa6650d850cad2b6de8cc77f1d44b49b8325bf6856b989953fc6511f56f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d492bc19f82300f460666b3213c545fe95b8db85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117081"
 ---
 # <a name="sb_gettiptext-message"></a>\_Message SB GETTIPTEXT
 
@@ -45,15 +45,15 @@ Pointeur vers une mémoire tampon de caractères qui reçoit le texte d’info-b
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Avertissement de sécurité :** L’utilisation incorrecte de ce message peut entraîner des problèmes pour votre application. Par exemple, si le texte est trop grand pour la mémoire tampon *lParam* , cela peut provoquer un dépassement de capacité de la mémoire tampon. vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

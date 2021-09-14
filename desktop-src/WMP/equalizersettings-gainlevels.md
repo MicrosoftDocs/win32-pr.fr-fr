@@ -3,7 +3,7 @@ title: EQUALIZERSETTINGS.gainLevels
 description: L’attribut gainLevels spécifie ou récupère le niveau de gain de la bande correspondant à l’index fourni.
 ms.assetid: fb70e2ef-4cee-457e-a06b-7a1ae6930986
 keywords:
-- Lecteur Windows Media EQUALIZERSETTINGS. gainLevels
+- EQUALIZERSETTINGS. gainLevels Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d083ac829582f2abc45837cf441b2f0a565ee03a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523938"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011004"
 ---
 # <a name="equalizersettingsgainlevels"></a>EQUALIZERSETTINGS.gainLevels
 
@@ -46,7 +46,7 @@ Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur e
 
 Cet attribut accepte un paramètre, mais sa valeur est spécifiée dans le code de script de la même façon que les autres valeurs d’attribut. Elle ne peut pas être spécifiée dans l’élément EQUALIZERSETTINGS et ne peut pas être utilisée avec l’attribut Listening **wmpprop** . Au lieu de cela, les attributs de niveau de gain numéroté sont fournis pour ces situations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

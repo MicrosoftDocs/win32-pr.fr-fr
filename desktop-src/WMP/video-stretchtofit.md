@@ -3,7 +3,7 @@ title: VIDÉO. stretchToFit
 description: L’attribut stretchToFit spécifie une valeur indiquant si la vidéo est étirée sur la largeur et la hauteur définies pour le contrôle Video.
 ms.assetid: 257f5f01-a447-4637-aa73-e5800b263ba5
 keywords:
-- VIDEO. stretchToFit lecteur Windows Media
+- VIDEO. stretchToFit Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c67f172e12b366ad5fda9ea112453786fd2784da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544361"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010806"
 ---
 # <a name="videostretchtofit"></a>VIDÉO. stretchToFit
 
@@ -46,7 +46,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
 Si aucune largeur ou hauteur n’est spécifiée, cet attribut est ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

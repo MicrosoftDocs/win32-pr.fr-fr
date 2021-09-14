@@ -4,12 +4,12 @@ ms.assetid: 94cfa199-5be7-4dc2-a78e-a9d1313a26ad
 title: 'DirectShow : annexe'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1b7429a3771a667a632e32bc351619a810ebc4ffdbae14339b38aa19876936
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35f29034d5b35e5706270b82724df9ef811e597d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112218"
 ---
 # <a name="directshow-appendix"></a>DirectShow : annexe
 

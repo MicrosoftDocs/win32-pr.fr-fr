@@ -5,11 +5,11 @@ title: AM_RATE_UseRateVersion, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4dd33ef96c50ecc3da0711f08f0c7ffbf0a20825
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112285"
 ---
 # <a name="am_rate_userateversion-property"></a>\_ \_ Propriété USERATEVERSION rate AM
 
@@ -29,7 +29,7 @@ Si le décodeur ne prend pas en charge la version spécifiée, il doit faire éc
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

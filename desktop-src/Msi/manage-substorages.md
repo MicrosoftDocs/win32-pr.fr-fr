@@ -4,12 +4,12 @@ ms.assetid: a0248dfb-e406-4ce6-ab11-1e428aa67af4
 title: Gérer les sous-stockages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f6d3a0716854755e595133771ede65b11212cdd0fd19b4502bab0c631a9d26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01876efdb85bdc89df1b4d64332d44674e5e860e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945594"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011919"
 ---
 # <a name="manage-substorages"></a>Gérer les sous-stockages
 

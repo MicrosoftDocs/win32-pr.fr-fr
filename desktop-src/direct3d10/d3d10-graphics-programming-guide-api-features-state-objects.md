@@ -5,11 +5,11 @@ title: Objets d’État (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1a51c05e3e220e510c462265941549f91e6368a9
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335423"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292051"
 ---
 # <a name="state-objects-direct3d-10"></a>Objets d’État (Direct3D 10)
 

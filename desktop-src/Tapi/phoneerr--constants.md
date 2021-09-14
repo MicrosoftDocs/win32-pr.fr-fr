@@ -4,12 +4,12 @@ ms.assetid: 763a9dc2-3e70-4169-a66e-3aac78ef8d33
 title: Constantes PHONEERR_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b66c4dd2078b7de1572137ee1d759e7b186328dc5604c9790e444db428eb774a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b41ba5d14f4aa12318dd4bc9f2b20e4e9e2e6b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011070"
 ---
 # <a name="phoneerr_-constants"></a>\_Constantes PHONEERR
 
@@ -367,13 +367,13 @@ L’opération a été appelée avant toute application appelée [**phoneInitial
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs 0xC0000000 à 0xFFFFFFFF sont disponibles pour les extensions spécifiques à l’appareil ; les valeurs 0x80000000 à 0xBFFFFFFF sont réservées ; et 0x00000000 à 0x7FFFFFFF sont utilisés en tant qu’identificateurs de demande.
 
 Si une application obtient une erreur indiquant qu’elle n’est pas spécifiquement gérée (par exemple, une erreur définie par une extension spécifique à l’appareil), elle doit traiter l’erreur comme un \_ OPERATIONFAILED PHONEERR (pour une raison non spécifiée).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3551af9d-ce5e-4b98-a3c2-b4c00d61b7e4
 title: Propriété AVEncDDSurround3dBAttenuation (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b71b6f5a540d18afadc656def4d64d17a00c35f92a7827bf9f4ab84ab591d71
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bdc831fa8d53502aa725d20b8f21feae4e515271
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824426"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111830"
 ---
 # <a name="avencddsurround3dbattenuation-property"></a>Propriété AVEncDDSurround3dBAttenuation
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncDDSurround3dBAttenuation**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

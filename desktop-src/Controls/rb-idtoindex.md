@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b13d243498d821e64be19beebb04fab3f198442aced73ced6f424d32d7177ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7c7acd85862bc4787a6b32d2fdd3c897a52913b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119642599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117274"
 ---
 # <a name="rb_idtoindex-message"></a>\_Message IDTOINDEX RB
 
@@ -39,11 +39,11 @@ Identificateur défini par l’application de la bande en question. Il s’agit 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de la bande de base zéro en cas de réussite, ou-1 dans le cas contraire. S’il existe des identificateurs de bande en double, le premier est retourné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

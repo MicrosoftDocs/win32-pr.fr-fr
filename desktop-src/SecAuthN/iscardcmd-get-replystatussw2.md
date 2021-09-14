@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 60004c56d9d6dec8aa7b5afc9c77e3c5af813020db387172b06a0c802bd9fd8b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ff503758a50437b4b7ff974fe4455d4b92ce978
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119481539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011216"
 ---
 # <a name="iscardcmdget_replystatussw2-method"></a>ISCardCmd :: \_ ReplyStatusSW2, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers l’octet qui contient la valeur de l’octet SW2 sur le retour.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’octet d’État SW2 de la réponse APDU est en lecture seule.
 
@@ -95,7 +95,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

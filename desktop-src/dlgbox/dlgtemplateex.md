@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ab23b93a72edb2da6784797dd47bdfb4a839e2e9ce662adfc6ffbe09e468ac17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c3db7127e23e3133e11fe9c1600d37695e3b1ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118503450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192015"
 ---
 # <a name="dlgtemplateex-structure"></a>DLGTEMPLATEEX, structure
 
@@ -270,7 +270,7 @@ Ce membre est présent uniquement si le membre de **style** spécifie **DS \_ Se
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser un modèle de boîte de dialogue étendu à la place d’un modèle de boîte de dialogue standard dans les fonctions [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), [**CreateDialogIndirect**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirecta)et [**DialogBoxIndirect**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta) .
 
@@ -284,7 +284,7 @@ Si vous spécifiez des chaînes de caractères dans les tableaux **menu**, **Win
 
 Les membres **x**, **y**, **CX** et **CY** spécifient des valeurs dans les unités de la boîte de dialogue. Vous pouvez convertir ces valeurs en unités d’écran (pixels) à l’aide de la fonction [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -323,7 +323,7 @@ Les membres **x**, **y**, **CX** et **CY** spécifient des valeurs dans les unit
 [**\_SetFont WM**](/windows/desktop/winmsg/wm-setfont)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Boîtes de dialogue](dialog-boxes.md)

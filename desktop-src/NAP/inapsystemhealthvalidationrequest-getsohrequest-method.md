@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e9c140af202de263e99f0fa8ec72186da6e995ec
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882618"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110653"
 ---
 # <a name="inapsystemhealthvalidationrequestgetsohrequest-method"></a>INapSystemHealthValidationRequest :: GetSoHRequest, méthode
 
@@ -62,7 +62,7 @@ Valeur **booléenne** qui est **true** si la SoH a été créée par le NapAgent
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -78,7 +78,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *sohRequest* peut retourner la **valeur null** si le client n’a pas envoyé de [**sohRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) à l’SHV. Dans ce scénario, le SHV peut remplir un **SoHResponse** avec le code d’erreur de l' [**\_ \_ \_ SOH NAP manquant**](nap-error-constants.md).
 

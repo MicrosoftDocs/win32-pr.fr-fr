@@ -4,12 +4,12 @@ ms.assetid: f1bf32ba-ecb7-435f-aefc-f60fdd355620
 title: EC_SAMPLE_NEEDED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0058f8d0b7f8404a59f8c7e4fc5a4029c5ebaf4bc4f5c1b2678b1ed8c0f4f90c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: da73d02604e128fdf94edb8f84d1526cfcdb586e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119686119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111101"
 ---
 # <a name="ec_sample_needed"></a>\_exemple EC \_ requis
 
@@ -41,7 +41,7 @@ Aucun.
 
 Le mélangeur pour le filtre EVR envoie ce message lorsqu’il a besoin d’un nouvel exemple d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

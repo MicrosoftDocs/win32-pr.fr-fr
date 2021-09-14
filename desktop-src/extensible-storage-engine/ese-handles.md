@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269349(v=EXCHG.10)
 ms:contentKeyID: 32765636
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 5177de8b7fbc07d592bb599941a1fd02810bbbf81e16b65cd15c6ebdfd75d3d1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc91a4586fc1619c55b5f45afbca39ce04c0c6cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010309"
 ---
 # <a name="ese-handles"></a>Handles ESE
 

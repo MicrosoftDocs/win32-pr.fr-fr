@@ -15,12 +15,12 @@ keywords:
 - attributs d’élément de photo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9a5d36e77e9b58b642469bf8900eb32b3b789882afb7862bf8f44f5ab8cc22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6482151e2d9bbb15cff236f420b1386e5b68bfec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192748"
 ---
 # <a name="photo-item-attributes"></a>Attributs d’élément de photo
 

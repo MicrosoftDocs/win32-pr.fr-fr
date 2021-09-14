@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 538a89439909afe346ae8776d31a2104c7f6014664a33bdd3864bf43b0387e80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f85263c7c4330a692dc08949870a0eaa92f2b22c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669664"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115594"
 ---
 # <a name="tvm_setindent-message"></a>TVM \_ SETINDENT message
 
@@ -39,15 +39,15 @@ Largeur, en pixels, de la mise en retrait. Si ce paramètre est inférieur à la
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de mise en retrait minimale définie par le système est généralement de cinq pixels, mais elle n’est pas fixe. Pour récupérer la valeur exacte du retrait minimal sur un système particulier, envoyez un message de **TVM \_ SETINDENT** avec *wParam* défini à zéro. Envoyez ensuite un message [**TVM \_ GETINDENT**](tvm-getindent.md) pour récupérer la valeur de retrait minimale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

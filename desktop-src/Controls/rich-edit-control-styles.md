@@ -31,12 +31,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcc88ea2c3c5d32dff9920b2699474a810f29b14dcf50d9b4c2401863c875778
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 620f73beb726eea065d8c8a63a635ff04fdeba37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117118"
 ---
 # <a name="rich-edit-control-styles"></a>Styles de contrôle RichEdit
 
@@ -84,7 +84,7 @@ Les contrôles RichEdit ne prennent pas en charge les styles de contrôle d’é
 -   [**\_OEMCONVERT es**](edit-control-styles.md)
 -   [**\_majuscules**](edit-control-styles.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

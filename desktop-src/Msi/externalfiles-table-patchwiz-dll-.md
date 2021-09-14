@@ -4,12 +4,12 @@ ms.assetid: c75591c2-5266-4a99-8104-53815f6550e2
 title: Table ExternalFiles (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2573556e8e4e00cf9004b83520468724ad1c959704cf8be32769a7ee41e24ebf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71f0002961408be9f43685ef40cd2ccff729e48b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636876"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091266"
 ---
 # <a name="externalfiles-table-patchwizdll"></a>Table ExternalFiles (Patchwiz.dll)
 
@@ -28,7 +28,7 @@ La table ExternalFiles contient les colonnes suivantes.
 | IgnoreOffsets | text    |     | O        |
 | IgnoreLengths | text    |     | O        |
 | RetainOffsets | text    |     | N        |
-| Commande         | entier |     | O        |
+| JSON         | entier |     | O        |
 
 
 
@@ -100,7 +100,7 @@ Si deux versions ou plus sont spécifiées pour le même fichier externe, la tab
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table accepte les variables d’environnement en tant que chemins d’accès commençant par la version 4,0 de Patchwiz.dll.
 

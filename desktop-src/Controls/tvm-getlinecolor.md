@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ed83649795ccbd9b41270272f5a8984ddf257c3f5881a0c0fb69232081974e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fd55149f38fb17238e13135e798ebbe55b15009
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115669"
 ---
 # <a name="tvm_getlinecolor-message"></a>TVM \_ GETLINECOLOR message
 
@@ -35,15 +35,15 @@ Le message **TVM \_ GETLINECOLOR** obtient la couleur de la ligne active.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la couleur de la ligne active ou la \_ valeur CLR par défaut si aucune valeur n’a été spécifiée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message récupère uniquement les couleurs de ligne. Pour récupérer les couleurs de' + 'et'-'à l’intérieur des boutons, utilisez le message [**TVM \_ GETTEXTCOLOR**](tvm-gettextcolor.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -67,11 +67,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b373091ec34e71afbac32fca962ec380513acfcd
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010574"
 ---
 # <a name="automation-element-property-identifiers"></a>Identificateurs de propriété d’élément Automation
 
@@ -365,7 +365,7 @@ Type Variant : <strong>VT_I4</strong><br/> Valeur par défaut : 0<br/></td>
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -381,7 +381,7 @@ Type Variant : <strong>VT_I4</strong><br/> Valeur par défaut : 0<br/></td>
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des propriétés UI Automation](uiauto-propertiesoverview.md)

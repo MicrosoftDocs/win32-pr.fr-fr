@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ca3a5613ff348b6ef725a772f54a527997c7db8b772202ad2085687799ca8c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8df6e379183693bc072a7b7fccad0954fd6bcb75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119615499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010788"
 ---
 # <a name="videosettingshue"></a>VIDEOSETTINGS. Hue
 
@@ -31,7 +31,7 @@ L’attribut **Hue** spécifie ou récupère le paramètre teinte de la vidéo.
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) dont la valeur est comprise entre-127 et + 127 et une valeur par défaut de 0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

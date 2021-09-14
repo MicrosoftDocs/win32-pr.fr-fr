@@ -4,12 +4,12 @@ description: Le système gère un ensemble de paramètres d’accessibilité qui
 ms.assetid: efa289bb-5965-4002-93df-116ab2621efc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a289162366f5d69c501ffbea55108167324c11a1c865184105afd587f36bcfd3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d5f089b28d36ffa982ca6568996126a812263af9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118327787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010729"
 ---
 # <a name="accessibility-parameters"></a>Paramètres d’accessibilité
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3ba5400239f03e159c629f01a344cb34ef4e2de16650f248c618df6dcd80d5d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1387724609ab29852f1b6a2a8f9df5032def1a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118219889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296095"
 ---
 # <a name="newwdevents-object"></a>Objet NewWDEvents
 
@@ -44,7 +44,7 @@ L’objet **NewWDEvents** a ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

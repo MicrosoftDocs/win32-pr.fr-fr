@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8659270ffded1724ce308e2a6c69aeefb34271f2be39f4468d8e7e460b20fd3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a60b31fd88d05f00229f27a616a29483a29bd49d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120005709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192915"
 ---
 # <a name="templatelisttype-complex-type"></a>Type complexe TemplateListType
 
@@ -46,7 +46,7 @@ Définit une liste de modèles qui spécifient les données à inclure avec les 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

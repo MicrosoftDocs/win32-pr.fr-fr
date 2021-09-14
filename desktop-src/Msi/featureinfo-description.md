@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c6ef6879c6247b7df8f9c8786cb9532aa69977e61a0a35e5a08c60462429aa3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5c6cfb28ecc2b515817728c8b029bc9b00eeb50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636793"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091237"
 ---
 # <a name="featureinfodescription-property"></a>Propriété FeatureInfo. Description
 
@@ -37,7 +37,7 @@ propVal = FeatureInfo.Description
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

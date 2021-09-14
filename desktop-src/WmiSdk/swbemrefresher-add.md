@@ -17,11 +17,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: ebe9da221314252b2b143bf674cd7bb7177329b5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106524769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010378"
 ---
 # <a name="swbemrefresheradd-method"></a>SWbemRefresher. Add, méthode
 
@@ -75,11 +75,11 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’appel réussit, un objet [**SWbemRefreshableItem**](swbemrefreshableitem.md) qui contient un objet actualisable unique est retourné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

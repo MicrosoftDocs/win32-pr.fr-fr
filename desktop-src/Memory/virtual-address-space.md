@@ -4,12 +4,12 @@ ms.assetid: 747f9f53-a595-4f4b-8b81-3123d59edb2f
 title: Espace d’adressage virtuel (gestion de la mémoire)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a5c9b6aa7fce3be508cae2afd67767f9deaa25e1fe4aa38c4530529f64d7df7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6584d0404799e6b0e5ab343c7d8b39d7f8d741a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120040079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094009"
 ---
 # <a name="virtual-address-space-memory-management"></a>Espace d’adressage virtuel (gestion de la mémoire)
 

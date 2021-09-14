@@ -4,12 +4,12 @@ ms.assetid: 814eca94-2bb5-4aff-8de3-473da71d4400
 title: Rendre un composant COM dans un package existant privé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5119e2d9417f51bb815fe9c76cd47be496e4c03cab81e4e0ccd2b7c49c7b8b63
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4935d20c5034af81a52c18d35454553b04cfb97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118629030"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011924"
 ---
 # <a name="make-a-com-component-in-an-existing-package-private"></a>Rendre un composant COM dans un package existant privé
 

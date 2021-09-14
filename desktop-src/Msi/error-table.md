@@ -4,12 +4,12 @@ ms.assetid: 3c817468-cba7-46bf-9208-5e6699c02fb6
 title: Table des erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4878dee0f6aa7261207815641e17071f38e19c2beda0ed33903be6bcd34ebd4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5cfcba5f68eb48621891c7a48aeedea2329996f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119811039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091333"
 ---
 # <a name="error-table"></a>Table des erreurs
 
@@ -52,7 +52,7 @@ Le tableau suivant répertorie les messages réservés. pour obtenir la liste de
 
 
 
-| Error | Message                                                    | Remarques                                                                                                                                                                                                      |
+| Error | Message                                                    | Notes                                                                                                                                                                                                      |
 |-------|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | {{Erreur irrécupérable :}}                                          | Préfixe d’en-tête pour les erreurs irrécupérables (INSTALLMESSAGE \_ FATALEXIT). Le texte entouré d’accolades doubles {{Text}} est visible uniquement dans le fichier journal. Le texte n’est pas affiché à l’utilisateur dans l’interface utilisateur.                  |
 | 1     | Erreur \[ 1 \] .                                               | Préfixe d’en-tête pour les erreurs ( \_ erreur INSTALLMESSAGE)                                                                                                                                                             |
@@ -87,7 +87,7 @@ Le tableau suivant répertorie les messages réservés. pour obtenir la liste de
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le modèle n’inclut pas la mise en forme du numéro d’erreur dans le champ 1. Lors du traitement de l’erreur, le programme d’installation joint un préfixe d’en-tête au modèle en fonction du type de message. Ces en-têtes sont également stockés dans la table des erreurs.
 

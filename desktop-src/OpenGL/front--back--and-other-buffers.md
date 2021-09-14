@@ -11,12 +11,12 @@ keywords:
 - mémoires tampons de stencil OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcd64f980aad1df8576accd8c37d19521a5368e1fe295393d54c2836f2db8566
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fea487b73af356853bee2054db292cdfe740bd16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120082319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011502"
 ---
 # <a name="front-back-and-other-buffers"></a>Mémoires tampons avant, arrière et autres
 

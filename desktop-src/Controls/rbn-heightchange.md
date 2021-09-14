@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 217eb4c5cd5e373eb759668386f29f93c47cc3b787364851c8501b47f6b608f5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bfe0601e8cb22ec9b86768741c5b455aa7f21eef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119984999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117157"
 ---
 # <a name="rbn_heightchange-notification-code"></a>\_Code de notification RBN HEIGHTCHANGE
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de cette notification n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les contrôles Rebar qui utilisent le style [**CCS \_ vert**](common-control-styles.md) envoient ce code de notification lorsque leur largeur change.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

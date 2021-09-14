@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57226d3497639107db9378926734a8a6d4507c3436aa65a89109d88d15f91d32
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 59fac3449ee48659980681c836d24406c4db7e2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119685859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110510"
 ---
 # <a name="copyhelperattribute-function"></a>CopyHelperAttribute fonction)
 
@@ -59,7 +59,7 @@ Structure existante à copier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -77,7 +77,7 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

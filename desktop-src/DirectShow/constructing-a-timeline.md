@@ -4,12 +4,12 @@ ms.assetid: 4909f797-d296-4c9f-83fb-543e48bbe75d
 title: Construction d’une chronologie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2b085e6d84aa01e43874ebcb0d38bc0f8cac74a8d16f0cc3267caa3174d4977
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c16b1134eb92b3e3ac5a0f1919d7c4a2736b206
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954188"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111225"
 ---
 # <a name="constructing-a-timeline"></a>Construction d’une chronologie
 

@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 347e44a8516b48dcd779d3ac19fbc9b5bbf5d37ad565f36a0b9b10a083d395c3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ae5b2537d2571355f26c46f03aed3489fb2b6069
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119858369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295718"
 ---
 # <a name="cd3dx12_heap_desc-structure"></a>\_Structure DESC du tas CD3DX12 \_
 
@@ -158,7 +158,7 @@ Définit le & opérateur de passage par référence pour le type de \_ structure
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

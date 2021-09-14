@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d1b1019266035dbb56890f2145b28d1cb570f88b0e999b56f7b865431faf08
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2b004964729d17b1fd8773257c835f762b38aa1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119900719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010795"
 ---
 # <a name="videosettingscontrast"></a>VIDEOSETTINGS. Contrast
 
@@ -31,7 +31,7 @@ L’attribut **Contrast** spécifie ou récupère le paramètre de contraste de 
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) dont la valeur est comprise entre-127 et + 127 et une valeur par défaut de 0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Le compilateur MIDL génère jusqu’à trois fonctions pour chaque
 ms.assetid: 948f1dd7-c8b0-4fa0-88d8-9d122de52ba1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 681d898a077ff55bb03a76fbd7579e28a8bcdf18c792330b32b1eb832c6b9058
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4674617bc98c92dbc684a29d1a3c91ac6a7429e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011394"
 ---
 # <a name="type-serialization"></a>Sérialisation de type
 

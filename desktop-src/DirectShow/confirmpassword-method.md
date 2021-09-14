@@ -4,12 +4,12 @@ ms.assetid: 4dddc28d-edf7-45a2-ae1f-1c37b5df2eea
 title: Méthode ConfirmPassword (segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f14b3a40a37828bc978b5dd302a14b4f65053d982ac0da68d43284fe2ac3f3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62817247ca661f92ceb5ba0e2bc9bb11381d73ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111249"
 ---
 # <a name="confirmpassword-method"></a>Méthode ConfirmPassword
 
@@ -46,11 +46,11 @@ Spécifie le nouveau mot de passe sous forme de chaîne.
 
 Retourne la valeur true si le mot de passe spécifié correspond au mot de passe existant, false dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, le paramètre *sUserName* est ignoré sur cette et toutes les méthodes associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

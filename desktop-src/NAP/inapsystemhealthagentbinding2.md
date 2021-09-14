@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c42db59c23826855ca6cda7529eb9dcbbadfb2a1ee2a5aa93d9bd45587c45a87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9a7491a2e78d66399f9ca246bcee9182e4f95d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011649"
 ---
 # <a name="inapsystemhealthagentbinding2-interface"></a>Interface INapSystemHealthAgentBinding2
 
@@ -56,11 +56,11 @@ L’interface **INapSystemHealthAgentBinding2** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les API de cette interface renverront **RPC \_ E \_ Disconnected** si le NapAgent est arrêté. Cet objet est automatiquement récupéré et est de nouveau lié au NapAgent, une fois qu’il a redémarré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

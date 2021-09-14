@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 510dc7a763d50b42f06b2510e609e0bc7c3c6f31fa1f4c08393964cef75487fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2dacf0fc59ef62447ca12b7a470689e13967d687
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117149"
 ---
 # <a name="readermodeinfo-structure"></a>READERMODEINFO, structure
 
@@ -137,11 +137,11 @@ Informations supplémentaires requises par l’application, lues par l’appelan
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure n’est pas déclarée dans un en-tête public. Pour l’utiliser, vous devez inclure la déclaration ci-dessus dans votre propre en-tête.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

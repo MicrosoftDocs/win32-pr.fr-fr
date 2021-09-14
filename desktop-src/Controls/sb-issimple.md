@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e983da6ebec42131800b9faa168c0d2cb6c247da936951a8eb933f8b80af03f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 71a5c523bef45065b103051962d7f147816c505d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119825889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117074"
 ---
 # <a name="sb_issimple-message"></a>\_Message SB ISSIMPLE
 
@@ -35,11 +35,11 @@ Vérifie un contrôle de barre d’État pour déterminer s’il est en mode sim
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro si le contrôle de barre d’État est en mode simple, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

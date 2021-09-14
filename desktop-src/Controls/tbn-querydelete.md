@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a01d1322ce8461c5cdb53fc76cfc220bbb5d292dedbe589d8b6ada5a48756d55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a416545ecf7ad8562c1327160d683a109eccb3b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077883"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116277"
 ---
 # <a name="tbn_querydelete-notification-code"></a>\_Code de notification TBN QUERYDELETE
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour autoriser la suppression du bouton ou **false** pour empêcher la suppression du bouton.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

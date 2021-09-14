@@ -5,11 +5,11 @@ title: Lecture et écriture à partir d’un affichage des fichiers
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4458f98e1ea4239c01b77983ac13a9cb2eec5d86
-ms.sourcegitcommit: ccf7dea7222b925441486fa564a1a61b69395562
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "123463068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094061"
 ---
 # <a name="reading-and-writing-from-a-file-view"></a>Lecture et écriture à partir d’un affichage des fichiers
 

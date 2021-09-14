@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 420f06e71c6920c266c96d8b2580549fa0eaace2bd3abdd37524502d4039aa7b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2544eae629876e4527ea4e47477b50ea59b796c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078283"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116686"
 ---
 # <a name="tb_hasaccelerator-message"></a>TO \_ HASACCELERATOR message
 
@@ -45,7 +45,7 @@ Pointeur vers un **entier** qui reçoit le nombre de boutons qui ont le caractè
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
@@ -53,11 +53,11 @@ La valeur de retour n’est pas utilisée.
 
 L’utilisation de ce message peut compromettre la sécurité de votre programme.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Tout d’abord, le système interroge tous les boutons de barre d’outils pour faire correspondre les accélérateurs. Si aucune correspondance n’est trouvée, le système envoie la notification [TBN \_ MAPACCELERATOR](tbn-mapaccelerator.md) à la fenêtre parente, en demandant l’index du bouton qui contient le caractère d’accélérateur spécifié. Si le parent fournit un index, le nombre est défini sur 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

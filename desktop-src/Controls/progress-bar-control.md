@@ -4,12 +4,12 @@ description: Une barre de progression est une fenêtre qu’une application peut
 ms.assetid: 1db7a5c9-71cd-4ebc-86b8-8159f30348fa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e46b8950da2cadcc1dc3d8f36d9005487be245440a76f700ec7fdfe2a196d87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f00c80b1f9e97cec1657fe979a19437f607251b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120061661"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117558"
 ---
 # <a name="about-progress-bar-controls"></a>À propos des contrôles de barre de progression
 

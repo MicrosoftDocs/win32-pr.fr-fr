@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd42e27be4768fc0817aa76bb366429e236b3a82c45d081a05485b8520a23a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d82d34a60ea736d10c8ec5ee8a001370c6b64c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117807822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093757"
 ---
 # <a name="byte_count-attribute"></a>attribut de nombre d’octets \_
 
@@ -40,7 +40,7 @@ Spécifie zéro, un ou plusieurs attributs de fonction ACF.
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la fonction définie dans le fichier IDL. Le nom de la fonction est obligatoire.
@@ -61,7 +61,7 @@ Spécifie le nom du paramètre de pointeur en [**\[ sortie \]**](out-idl.md)seul
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le **\[ \_ nombre \] d’octets** de l’attribut ACF représente une extension Microsoft de l’IDL DCE. Par conséquent, cet attribut n’est pas disponible lorsque vous utilisez le commutateur du compilateur MIDL [**/OSF**](-osf.md).
 

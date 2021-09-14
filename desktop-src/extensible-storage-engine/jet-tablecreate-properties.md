@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103995
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6f5802c42bbf32548e1d42e507013fc0235eafdd1bd989b75f628b43a1b327eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c79440fa5e04acefe54ed271460d6bd11bc57fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118252153"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295486"
 ---
 # <a name="jet_tablecreate-properties"></a>Propriétés de la JET_TABLECREATE
 
@@ -120,7 +120,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_TABLECREATE](./jet-tablecreate-class.md)
 

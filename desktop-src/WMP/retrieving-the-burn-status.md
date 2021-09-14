@@ -3,23 +3,23 @@ title: Récupération de l’état d’avancement
 description: Récupération de l’état d’avancement
 ms.assetid: 63b6525d-00be-4c68-8473-3bc1a58fde15
 keywords:
-- Lecteur Windows Media, gravure de CD
-- Windows Media Player Object Model, gravage de CD
+- Lecteur Windows Media, gravage de CD
+- modèle d’objet Lecteur Windows Media, gravage de CD
 - modèle d’objet, gravage de CD
-- Contrôle ActiveX du lecteur Windows Media, gravure de CD
-- Contrôle ActiveX, gravage de CD
-- Windows Media Player Mobile contrôle ActiveX, gravure de CD
-- Lecteur Windows Media Mobile, gravure de CD
+- contrôle de ActiveX Lecteur Windows Media, gravure de CD
+- contrôle de ActiveX, gravure de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, gravage de CD
+- Lecteur Windows Media Mobile, gravage de CD
 - Gravage de CD, récupération de l’état de gravure
 - gravure de CD, récupération de l’état d’avancement
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8e9b9ab1d865b728c3a23b9b77f45ab022226605
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010896"
 ---
 # <a name="retrieving-the-burn-status"></a>Récupération de l’état d’avancement
 
@@ -38,7 +38,7 @@ Dans l’exemple de code qui suit, les contrôles de boîte de dialogue suivants
 
 
 
- 
+ 
 
 Vous pouvez surveiller la progression de l’opération de gravure en appelant régulièrement [IWMPCdromBurn :: obten \_ burnProgress](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnprogress) pendant la gravure du CD. Cette méthode récupère une valeur de progression pour l’ensemble de l’opération de gravure. La valeur récupérée est un nombre qui représente le pourcentage de brûlures terminées, de 0 à 100.
 
@@ -207,9 +207,9 @@ if (SUCCEEDED(hr))
 [**Récupération de l’état du lecteur et du disque**](retrieving-the-drive-and-disc-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13b50aa69c43e27b4797f6619b4efa14b90f16dd2b4bee45df2db6b708e58f66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed4fa677f1bb5a3414e6cf6dc761b83414c2d68b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093609"
 ---
 # <a name="explicit_handle-attribute"></a>\_attribut handle explicite
 
@@ -44,7 +44,7 @@ Spécifie le nom de l’interface.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous utilisez l’attribut **\[ \_ handle \] explicite** , chaque procédure a un handle primitif comme premier paramètre, même si le fichier IDL ne contient pas ce handle dans sa liste de paramètres. Les prototypes émis dans le fichier d’en-tête et les routines stub contiennent le paramètre supplémentaire, et ce paramètre est utilisé comme handle pour diriger l’appel distant.
 

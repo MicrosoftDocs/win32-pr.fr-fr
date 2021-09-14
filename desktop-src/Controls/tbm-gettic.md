@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b7cdd2c28f9add787c41da3cde3fabc3a5dff33812b3dd9c07a26a603d3a79e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d534d5100e20cc544c31fca2fc9e49cda3bd976
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829603"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116430"
 ---
 # <a name="tbm_gettic-message"></a>\_Message TBM GETTIC
 
@@ -39,11 +39,11 @@ Index de base zéro identifiant une graduation. Les index valides se trouvent da
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la position logique de la graduation spécifiée, ou-1 si *wParam* ne spécifie pas d’index valide.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

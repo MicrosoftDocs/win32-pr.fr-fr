@@ -5,11 +5,11 @@ title: Clés de registre de gestion de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 48e8c53bd54f8caeb82aad58ceed61cc5644c112
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094102"
 ---
 # <a name="memory-management-registry-keys"></a>Clés de registre de gestion de la mémoire
 
@@ -19,9 +19,9 @@ Pour les systèmes 32 bits, ces clés de registre de gestion de la mémoire doiv
 
 **HKEY \_ \_** Contrôle actuel du jeu de \\  \\ **contrôle** de \\  \\ **session** \\  du système d’ordinateur local gestion de la mémoire
 
-**Windows Server 2008 et Windows Vista :** Ces clés de Registre sont disponibles sur les systèmes 32 bits à partir de Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
+**Windows Server 2008 et Windows Vista :** ces clés de registre sont disponibles sur les systèmes 32 bits à partir de Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
 
-Pour les limites de mémoire et d’espace d’adressage par défaut sur les systèmes 32 bits et 64 bits, consultez [limites de mémoire pour les versions de Windows](memory-limits-for-windows-releases.md).
+pour les limites de mémoire et d’espace d’adressage par défaut sur les systèmes 32 bits et 64 bits, consultez [limites de mémoire pour les versions de Windows](memory-limits-for-windows-releases.md).
 
 Le tableau suivant décrit les clés de registre de gestion de la mémoire qui peuvent être utilisées pour configurer les limites de mémoire sur les systèmes 32 bits. Toutes ces clés ont un \_ type DWORD reg et les valeurs possibles sont comprises entre 0 et 2 048 Mo. La valeur par défaut est 0, ce qui signifie qu’aucune limite n’est appliquée. Les valeurs sont automatiquement arrondies à la limite d’allocation de VA du système suivante, qui est de 2 Mo sur les systèmes 32 bits sur lesquels l' [extension d’adresse physique](physical-address-extension.md) (PAE) est activée et 4 Mo sur les systèmes 32 bits sur lesquels PAE n’est pas activé.
 

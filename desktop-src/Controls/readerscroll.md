@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 554530e556161b4128199cda0a1a9d791f4f0ed75e8915c311d8945445486ac3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0db5a80b84a30362e3bdbce45fe7485ad0dd6884
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117133"
 ---
 # <a name="readerscroll-callback-function"></a>ReaderScroll fonction de rappel
 
@@ -71,13 +71,13 @@ Distance à faire défiler verticalement. Si l' \_ indicateur RMF HORIZONTALONLY
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **bool**](/windows/desktop/WinProg/windows-data-types)**
 
 Cette fonction doit toujours retourner **true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque l’application reçoit une notification de cette fonction, l’application est chargée de faire défiler la fenêtre en mode lecteur dans le sens spécifié par les paramètres *DX* et *dy* .
 
@@ -102,7 +102,7 @@ ReaderScrollCallback(PREADERMODEINFO prmi, int dx, int dy)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

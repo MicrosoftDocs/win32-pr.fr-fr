@@ -6,11 +6,11 @@ title: mofcomp
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: da63525e4bb8a32f3628b68295e5cc8ade0b08de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863325"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010449"
 ---
 # <a name="mofcomp"></a>mofcomp
 
@@ -64,7 +64,7 @@ Les fichiers MOF listés dans cette entrée de Registre doivent résider sur l�
 <span id="-check"></span><span id="-CHECK"></span>**-vérifier**
 </dt> <dd>
 
-Demande que le compilateur effectue une vérification de la syntaxe uniquement et imprime les messages d’erreur appropriés. Aucun autre commutateur ne peut être utilisé avec ce commutateur. Lorsque ce commutateur est utilisé, aucune connexion à Windows Management Instrumentation (WMI) n’est établie et aucune modification n’est apportée au référentiel WMI.
+Demande que le compilateur effectue une vérification de la syntaxe uniquement et imprime les messages d’erreur appropriés. Aucun autre commutateur ne peut être utilisé avec ce commutateur. lorsque ce commutateur est utilisé, aucune connexion à Windows Management Instrumentation (WMI) n’est établie et aucune modification n’est apportée au référentiel wmi.
 
 </dd> <dt>
 
@@ -169,7 +169,7 @@ Nom de la sortie spécifique à la langue. Utilisé avec le commutateur **-Amend
 <span id="-AMENDMENT__Locale_"></span><span id="-amendment__locale_"></span><span id="-AMENDMENT__LOCALE_"></span>**-Amendement : <** _paramètres régionaux_*_>_*
 </dt> <dd>
 
-Divise le fichier MOF en versions indépendantes du langage et spécifiques. Le compilateur MOF crée une forme indépendante du langage du fichier MOF dont tous les qualificateurs modifiés ont été supprimés. Une version localisée du fichier MOF est également créée avec une extension de nom de fichier MFL. Les paramètres *régionaux* spécifient le nom de l’espace de noms enfant qui contient les définitions de classe localisées. Le format des paramètres *régionaux* est MS \_ xxx, où xxx est la valeur hexadécimale du LCID Windows. Par exemple, les paramètres régionaux pour l’anglais américain sont MS \_ 409.
+Divise le fichier MOF en versions indépendantes du langage et spécifiques. Le compilateur MOF crée une forme indépendante du langage du fichier MOF dont tous les qualificateurs modifiés ont été supprimés. Une version localisée du fichier MOF est également créée avec une extension de nom de fichier MFL. Les paramètres *régionaux* spécifient le nom de l’espace de noms enfant qui contient les définitions de classe localisées. le format des paramètres *régionaux* est MS \_ xxx, où xxx est la valeur hexadécimale de l’Windows LCID. Par exemple, les paramètres régionaux pour l’anglais américain sont MS \_ 409.
 
 </dd> <dt>
 
@@ -255,7 +255,7 @@ Lorsqu’une erreur se produit lors de la mise à jour de l’espace de stockage
 
 **Windows 8 :** Lors de l’installation d’un fournisseur, mofcomp traite les \[ \] qualificateurs de clé et \[ statique \] comme true s’ils sont présents, indépendamment de leurs valeurs réelles. D’autres qualificateurs sont considérés comme false s’ils sont présents, mais ne sont pas explicitement définis sur true.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

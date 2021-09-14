@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101175
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4692bb786effae9fef0692e10095aeda89f2c9bf0c787ddd5c71162ba519e157
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d16e745213723663005a2379778937ac85a143f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119622465"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010306"
 ---
 # <a name="esentbuffertoosmallexception-methods"></a>Méthodes EsentBufferTooSmallException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentBufferTooSmallException, classe](./esentbuffertoosmallexception-class.md)
 

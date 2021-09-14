@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b69169e950cf3794d613bfd1d79d4953ce8f8a8bb01efe9ff17d6fa5961071
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4958892dd9784ee72b51adfedbbcdee81817b52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119899969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192227"
 ---
 # <a name="iwmpnetworkbufferingcount-property"></a>IWMPNetwork :: bufferingCount, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property bufferingCount As System.Int32
 
 **System. Int32** qui est le nombre de mises en mémoire tampon.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est réinitialisée à zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 
@@ -94,7 +94,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

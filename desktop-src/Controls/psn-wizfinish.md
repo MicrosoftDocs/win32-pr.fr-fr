@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9a11b018a57126c0882862271fa209fcd507224a46180ebb5fbaed4355fc040
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0654384b0944d90731288922c32326e42019cdc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117373"
 ---
 # <a name="psn_wizfinish-notification-code"></a>\_Code de notification PSN WIZFINISH
 
@@ -45,19 +45,19 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 -   Retourne la **valeur true** pour empêcher la fin de l’Assistant.
 -   [Version 5,80.](common-control-versions.md) et versions ultérieures. Retourne un handle de fenêtre pour empêcher la fin de l’Assistant. L’Assistant va définir le focus sur cette fenêtre. La fenêtre doit appartenir à la page de l’Assistant.
 -   Retourne **false** pour permettre à l’Assistant de se terminer.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit utiliser la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur MSGRESULT de la boîte de \_ dialogue, et la procédure de boîte de dialogue doit retourner **true**.
 
 [Version 5,80.](common-control-versions.md) Si votre application retourne la **valeur true** pour empêcher la finition d’un Assistant, elle n’a aucun contrôle sur la fenêtre sur laquelle la page reçoit le focus. Normalement, les applications qui doivent arrêter un Assistant peuvent le faire en retournant le handle de la fenêtre sur la page de l’Assistant qui doit recevoir le focus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

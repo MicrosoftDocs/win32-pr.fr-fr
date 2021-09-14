@@ -4,12 +4,12 @@ ms.assetid: 0d1a62a2-7595-4c10-a1cf-d32dda337ecd
 title: Propriété AVEncMPVQScaleType (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7651c865828e951b13b14f2ea460c171b195669d3c4c225c9ddb5eaf2697bbc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8e3936acd9a74acfeb2a3bc48f2f73f1706fd4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159500"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111734"
 ---
 # <a name="avencmpvqscaletype-property"></a>Propriété AVEncMPVQScaleType
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncMPVQScaleType**](/windows/desktop/api/codecapi/ne-codecapi-eavencmpvqscaletype) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

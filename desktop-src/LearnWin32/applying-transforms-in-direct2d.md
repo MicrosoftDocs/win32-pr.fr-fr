@@ -4,12 +4,12 @@ description: Application de transformations dans Direct2D
 ms.assetid: 4b54dcfc-f915-4e4a-aa88-ee23c341c2a4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab83cb9a7981ada944de07e362c2f568889a84a4f90f2171150fbab948ab3a6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8edddbb3150f16428c56bd4c6da828c9b2ce594e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118388489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094441"
 ---
 # <a name="applying-transforms-in-direct2d"></a>Application de transformations dans Direct2D
 

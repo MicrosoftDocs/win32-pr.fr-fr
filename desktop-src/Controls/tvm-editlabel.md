@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ba9f9d0af4d6afb3c454f5e5477ccd67728bdec7f378b0f0a04adc901ba322
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3608c3f959c45571d9bc085518b763cf505180ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408586"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115737"
 ---
 # <a name="tvm_editlabel-message"></a>TVM \_ EDITLABEL message
 
@@ -41,11 +41,11 @@ Handle de l’élément à modifier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle d’édition utilisé pour modifier le texte de l’élément en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message envoie un code de notification [TVN \_ BEGINLABELEDIT](tvn-beginlabeledit.md) au parent du contrôle Tree-View.
 
@@ -53,7 +53,7 @@ Lorsque l’utilisateur termine ou annule la modification, le contrôle d’édi
 
 Le contrôle doit avoir le focus avant d’envoyer ce message au contrôle. Le focus peut être défini à l’aide de la fonction [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

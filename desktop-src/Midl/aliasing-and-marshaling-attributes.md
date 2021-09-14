@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 68ac66aa04210a878c67ee6bcf1a50ff21fa1d1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029791"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093802"
 ---
 # <a name="aliasing-and-marshaling-attributes"></a>Attributs d’alias et de marshaling
 
@@ -21,16 +21,16 @@ Utilisez des attributs d’alias et de marshaling pour contrôler la façon dont
 
 
 
-| Attribut                             | Utilisation                                                                                                                         |
+| Attribut                             | Usage                                                                                                                         |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [**appeler \_ en tant que**](call-as.md)           | Mappe une fonction qui n’est pas accessible à distance à un appel de procédure distante.                                                                      |
+| [**appeler \_ en tant que**](call-as.md)           | Cartes une fonction qui n’est pas accessible à distance à un appel de procédure distante.                                                                      |
 | [**IID \_ est**](iid-is.md)             | Fournit l’identificateur d’interface de l’interface COM qui est l’objet du pointeur.                                     |
 | [**transmettre \_ en tant que**](transmit-as.md)   | Convertit un type de données en un type plus simple pour la transmission sur un réseau.                                                       |
 | [**Marshal de câble \_**](wire-marshal.md) | Semblable à [**transmit \_ As**](transmit-as.md) , mais vous implémentez les routines de dimensionnement, de marshaler, de démarshaler et de libération des données. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -39,9 +39,9 @@ Utilisez des attributs d’alias et de marshaling pour contrôler la façon dont
 [Conversion de type et marshaling des attributs ACF](type-conversion-and-marshaling-acf-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6e3ad30db7ec43bcc0ee6c1470dc608ccf1625390486d9fcd0fd4bf018affdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aaafb97f836135aa9dd112372b1931c8561cb40b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118338104"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292554"
 ---
 # <a name="playernewmedia-method"></a>Player. newMedia, méthode
 
@@ -49,15 +49,15 @@ retVal = Player.newMedia(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un objet **multimédia** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *URL* ne doit pas être une chaîne vide ou avoir la valeur null.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

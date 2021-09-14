@@ -4,12 +4,12 @@ ms.assetid: ef37d644-473f-4e51-9785-5b44fe0dce42
 title: Énumération d’un segment de mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c8e995dde36911947e1c510103503a99a307219bc2661a7efb9569fdab4ca20
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 79ad6ea7e23f480b4d4e27885d296f1be1632053
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094174"
 ---
 # <a name="enumerating-a-heap"></a>Énumération d’un segment de mémoire
 

@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: b3570f5826f91b35b07478e1ea34940a27d706cf
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192044"
 ---
 # <a name="mad---ps"></a>Mad-PS
 
@@ -29,7 +29,7 @@ Multiplier et ajouter une instruction. Définit le registre de destination sur (
 
 
 
- 
+ 
 
 where
 
@@ -48,7 +48,7 @@ where
 
 
 
- 
+ 
 
 L’extrait de code suivant montre les opérations effectuées.
 
@@ -69,9 +69,9 @@ dest.w = src0.w * src1.w + src2.w;
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

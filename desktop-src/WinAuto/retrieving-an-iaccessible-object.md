@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility fournit des fonctions telles que Acc
 ms.assetid: 971cbead-128b-465a-8e77-2a20217f8d0f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3e490b743799705dd4022f8d3ea6658de2ac9f5d996da736a151bc0c74ee8e7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 89237916597f27c7179fce9516df1e0ecf43a6db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010651"
 ---
 # <a name="retrieving-an-iaccessible-object"></a>Récupération d’un objet IAccessible
 

@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: 272b781cf70f1dede9d4eea64b45d3d9d793a119
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528826"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112246"
 ---
 # <a name="amoviesetupregisterfilter2-function"></a>AMovieSetupRegisterFilter2 fonction)
 
@@ -65,7 +65,7 @@ Valeur indiquant s’il faut inscrire le filtre ; **True** indique que le filtr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -75,13 +75,13 @@ La fonction [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) appelle 
 
 En règle générale, un filtre utilise [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) et n’appelle pas cette fonction directement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>DLLSETUP. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Dllsetup. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

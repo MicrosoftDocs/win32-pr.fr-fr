@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72d00d2ab10df54b5f4b3869f1d573167ee1f35f5d0b3991af14ece867c5a19e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee4625f0a9c2f51e9d7147c9564fcd4fb1fa7117
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011488"
 ---
 # <a name="gludeletetess-function"></a>gluDeleteTess fonction)
 
@@ -51,11 +51,11 @@ Objet de pavage à détruire (créé avec [**gluNewTess**](glunewtess.md)).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluDeleteTess** détruit l’objet de pavage indiqué et libère toute mémoire qu’il utilisait.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,22 +4,22 @@ ms.assetid: 44c89bd8-774a-4b4f-9608-9a1926ef3b7d
 title: Propriété PrimaryVolumeSpaceRequired
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08c644c53b5a36c8ba834a52c22ca3ba2b192499cbf351f122d8ed2b6a66a57f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ae1b210e57ee054191d908e4962c7568f0c6acf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110950"
 ---
 # <a name="primaryvolumespacerequired-property"></a>Propriété PrimaryVolumeSpaceRequired
 
 Le programme d’installation définit la valeur de la propriété **PrimaryVolumeSpaceRequired** sur une chaîne représentant le nombre total d’octets requis par toutes les fonctionnalités sélectionnées sur le volume référencé par la propriété [**PrimaryVolumePath**](primaryvolumepath.md) . Comme avec la propriété [**PrimaryVolumeSpaceAvailable**](primaryvolumespaceavailable.md) , ce nombre est exprimé en unités de 512 octets.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Remarque Si cette valeur doit être affichée dans un contrôle de [texte](text-control.md)statique, le bit de mise [en forme peut](formatsize-control-attribute.md) être utilisé pour mettre automatiquement en forme et étiqueter ce nombre en unités de kilo-octets ou mégaoctets selon le cas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

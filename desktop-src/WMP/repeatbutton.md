@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2a9e72d737ceccfac5046f286c7be095fe40f73c02a5872226aaf19912ec6fe6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8082b13e887c2a8341d72419d1ccf0d95a19a206
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010907"
 ---
 # <a name="repeatbutton"></a>REPEATBUTTON
 
@@ -32,11 +32,11 @@ down="wmpprop:player.settings.getMode('loop')"
 sticky="true"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cela crée un contrôle **Button** qui active ou désactive la répétition. Les info-bulles sont localisées. Toutes les propriétés de ce **bouton** peuvent être remplacées en les spécifiant explicitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

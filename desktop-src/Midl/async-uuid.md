@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a784cadf470fa312a82e473f3934dbda1a2b6dce20d2ae34c7074c309398cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39fd7b4d9d9bf7a595415e55de778a419d91051c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117808233"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093781"
 ---
 # <a name="async_uuid-attribute"></a>\_attribut UUID Async
 
@@ -81,7 +81,7 @@ Spécifie les instructions IDL qui forment la définition de l’interface.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’utilisation de cet attribut requiert Windows versions 2000 ou ultérieures de Windows.
 
@@ -127,10 +127,10 @@ interface IMyInterface : IUnknown
 [**dans**](in.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
-[**dessin**](object.md)
+[**object**](object.md)
 </dt> <dt>
 
 [**à**](out-idl.md)

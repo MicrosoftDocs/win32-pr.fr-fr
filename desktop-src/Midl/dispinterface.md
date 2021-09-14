@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3df65adc3bfa486907df0465f2fca5a1427f6d0b1eb89b5c02e6f199be71e9e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f7cc2b6087b53ff81aa7270a209266dd8248884
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118384666"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093654"
 ---
 # <a name="dispinterface-attribute"></a>dispinterface (attribut)
 
@@ -95,7 +95,7 @@ Le *type* peut être n’importe quel type déclaré ou intégré, ou un pointeu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le compilateur MIDL accepte l’ordonnancement des paramètres suivant (de gauche à droite) :
 
@@ -241,7 +241,7 @@ dispinterface MyObject
 [**chaîne**](string.md)
 </dt> <dt>
 
-[**universel**](uuid.md)
+[**uuid**](uuid.md)
 </dt> <dt>
 
 [**vararg**](vararg.md)

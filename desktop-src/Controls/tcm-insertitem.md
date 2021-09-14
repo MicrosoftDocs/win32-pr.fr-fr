@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c3c17714218562d7ddc82497a7ef27e131e30a2ff04daf36970dfbcf5cc354
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58002006944a221571e37c37d25259d0aaa74fc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116178"
 ---
 # <a name="tcm_insertitem-message"></a>\_Message INSERTITEM de TCM
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index du nouvel onglet en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
