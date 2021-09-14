@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f9cae0305a8fdca5c9fd419cf610b0ebbb547331
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880767"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236910"
 ---
 # <a name="syntax"></a>Syntaxe
 
@@ -239,7 +239,7 @@ Compresser les matrices dans l’ordre ligne-principal.
 
 \[dans \] les fichiers qui contiennent le ou les nuanceurs et/ou les effets.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez les `/mergeUAVs` `/matchUAVs` options, et `/shtemplate` pour aligner les emplacements de liaison UAV pour une chaîne de nuanceurs.
 

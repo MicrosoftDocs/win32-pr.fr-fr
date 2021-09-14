@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2858e7484c82663b2ba6866d0f17b5528921619dbfa80cbb76ec0eabbb39a332
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86f57159a2fdd444f22593ec66fa99510a5260b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005617"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237599"
 ---
 # <a name="icertstorestorehandle-property"></a>ICertStore :: StoreHandle, propriété
 
@@ -50,13 +50,13 @@ Si les méthodes d’accès aux propriétés **placent \_ StoreHandle** et **obt
 
 Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez appeler la méthode [**CloseHandle**](icertstore-closehandle.md) ou la fonction [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore) pour libérer le contexte.
 
 Si vous définissez la propriété **StoreHandle** , l’état de la totalité de l’objet de [**magasin**](store.md) est réinitialisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d7a62fd76fd3a458640c417c2de50af510ffbb96780ed4f91cb2355564df8d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bb9fde4af32356da79e7c8941b76f51e0714b4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292983"
 ---
 # <a name="playlistplaylist"></a>PLAYLIST. playlist
 
@@ -31,11 +31,11 @@ L’attribut **playlist** spécifie ou récupère l’objet **playlist** auquel 
 
 Cet attribut est un objet **playlist** en lecture/écriture sans valeur par défaut.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la sélection spécifiée n’est pas valide ou si aucune valeur n’est spécifiée, l’élément **playlist** affiche l’élément multimédia en cours de lecture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 94654c538cc0637e6c90e0b14d3433b979762b00
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622715"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218372"
 ---
 # <a name="provider-complex-type"></a>Type complexe du fournisseur
 
@@ -242,7 +242,7 @@ Définit un fournisseur et les compteurs qu’il fournit.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4ab16355-1341-4c7a-b570-bd33f11dde00
 title: Objets de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ff5e9495d64c38272bac54ffac03d1d087b9286887b4e4e520c6a447765efac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ea3476e7edad1d32fe1e11635bd65622d2a8375
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117768371"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237642"
 ---
 # <a name="cryptography-objects"></a>Objets de chiffrement
 
@@ -30,7 +30,7 @@ Les objets suivants fonctionnent avec les [*magasins de certificats*](../secglos
 
 | Object                                             | Description                                                                                                             |
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**Certificate**](certificate.md)                 | Un seul certificat numérique.                                                                                           |
+| [**Certificat**](certificate.md)                 | Un seul certificat numérique.                                                                                           |
 | [**CertificatePolicies**](certificatepolicies.md) | Collection d’objets [**PolicyInformation**](policyinformation.md) .                                                 |
 | [**Certificats**](certificates.md)               | Collection d’objets de [**certificat**](certificate.md) .                                                               |
 | [**CertificateStatus**](certificatestatus.md)     | Fournit des informations d’État sur un certificat.                                                                           |
@@ -102,7 +102,7 @@ Les objets suivants sont exportés pour modifier les comportements par défaut d
 
 | Object                                         | Description                                                                                                                                     |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Algorithm**](algorithm.md)                 | Définit la longueur de l’algorithme et de la [*clé*](../secgloss/k-gly.md) à utiliser dans les opérations de chiffrement. |
+| [**Algorithme**](algorithm.md)                 | Définit la longueur de l’algorithme et de la [*clé*](../secgloss/k-gly.md) à utiliser dans les opérations de chiffrement. |
 | [**Attribut**](attribute.md)                 | Fournit une seule partie des informations ajoutées sur une signature, telles que l’heure de la signature.                                                    |
 | [**Attributs**](attributes.md)               | Collection d’objets [**attribute**](attribute.md) .                                                                                           |
 | [**BasicConstraints**](basicconstraints.md)   | Fournit un accès en lecture seule aux contraintes de base sur les utilisations d’un certificat.                                                                    |
@@ -119,7 +119,7 @@ Les objets suivants sont exportés pour modifier les comportements par défaut d
 | [**Qualificateur**](qualifier.md)                 | Représente un pointeur CPS (certification Practice Statement) ou un qualificateur d’avis utilisateur.                                                           |
 | [**Qualificateurs**](qualifiers.md)               | Représente une collection de qualificateurs.                                                                                                          |
 | [**Paramètres**](settings.md)                   | Active ou désactive les boîtes de dialogue pour demander l’identité de l’expéditeur ou du signataire si cette identité n’est pas spécifiée.                                     |
-| [**Outils**](utilities.md)                 | Fournit des fonctionnalités pour les tâches courantes.                                                                                                        |
+| [**Eau, gaz et électricité**](utilities.md)                 | Fournit des fonctionnalités pour les tâches courantes.                                                                                                        |
 
 
 

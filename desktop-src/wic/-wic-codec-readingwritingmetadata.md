@@ -4,12 +4,12 @@ ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: Vue d’ensemble de la lecture et de l’écriture des métadonnées d’image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 191ffbe919e09acb153505fd3b43b50453b67708259206bffe66a0322d485a1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 484d562b71184c20adf054f1de2a4203878da9b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119088137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293246"
 ---
 # <a name="overview-of-reading-and-writing-image-metadata"></a>Vue d’ensemble de la lecture et de l’écriture des métadonnées d’image
 
@@ -590,7 +590,7 @@ Si la **validation** échoue pour une raison quelconque, vous devrez recoder l�
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

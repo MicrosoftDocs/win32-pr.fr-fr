@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: bab1451ada84576ee33623dfdaa7d8dcad189e6d4ef8050b0b79fafaba11b49c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fd5c10ce6385e377c72d21f4557d27d2345737d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118905648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218017"
 ---
 # <a name="sslopenprivatekey-function"></a>SslOpenPrivateKey fonction)
 
@@ -72,7 +72,7 @@ Ce paramètre est réservé à un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -92,11 +92,11 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La clé privée obtenue fait partie d’une [*paire de clés publique/privée*](/windows/desktop/SecGloss/p-gly) au sein d’un [*certificat*](/windows/desktop/SecGloss/c-gly). Cette fonction extrait simplement la clé privée du certificat spécifié par le paramètre *pCertContext* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

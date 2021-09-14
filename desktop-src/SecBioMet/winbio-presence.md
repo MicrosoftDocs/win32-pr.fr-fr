@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2671faaee7bc277f9389d7c993e4d511dac03db459755b40bf3f659ff5256a56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a4a917f09f419ce8dd5eb59c9c277293261bffa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118909577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237804"
 ---
 # <a name="winbio_presence-structure"></a>\_Structure de présence WINBIO
 
@@ -104,7 +104,7 @@ Informations spécifiques au facteur sur la position d’un individu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**EngineAdapterIdentifyAll**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn) crée un tableau de structures de **\_ présence WINBIO** et envoie ce tableau au service biométrique. Le service biométrique utilise le tableau pour mettre à jour son modèle interne d’êtres humains près de l’ordinateur.
 
@@ -185,7 +185,7 @@ Les combinaisons de valeurs suivantes dans le tableau de structures de **\_ pré
 
 Lorsqu’un individu que l’adaptateur de moteur associe à un identificateur de suivi particulier quitte le frame de l’appareil photo et cesse d’apparaître dans les valeurs renvoyées par la fonction [**EngineAdapterIdentifyAll**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn) , l’identificateur de suivi finit par expirer. Lorsque l’identificateur de suivi expire, le service biométrique génère une structure de [**\_ \_ Résultat asynchrone WINBIO**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) côté client où le **\_ Résultat asynchrone WINBIO \_ . Le membre Parameters. MonitorPresence. ChangeType** est **WINBIO \_ type de modification \_ \_**. L’adaptateur de moteur peut empêcher le service biométrique de générer cette structure avec la valeur de l' **élément de \_ modification de \_ type \_ WINBIO** en incluant une structure de **\_ présence WINBIO** dans le tableau retourné par **EngineAdapterIdentifyAll** , où la **\_ présence WINBIO.** Le membre d’État est **S \_ OK** et la **\_ présence WINBIO. Le membre Identity. type** est un **WINBIO d’ID de \_ \_ type \_ null** , comme décrit précédemment dans ces remarques. Cette action prolonge l’heure d’expiration pour l’identificateur de suivi sans entraîner d’activité côté client.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

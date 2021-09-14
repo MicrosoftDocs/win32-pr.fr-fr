@@ -4,12 +4,12 @@ description: Les commandes sont des actions que les utilisateurs peuvent effectu
 ms.assetid: 64DF83BC-CC6D-4F0F-A1B2-AB3CF6DA33B3
 ms.topic: reference
 ms.date: 10/20/2020
-ms.openlocfilehash: fbbe0180011a2930d52230bff2653145f3cea6159f68c4cc3661eca1065b07f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ece3f8f4fe395bb6ccf20a2b8b3db6bb36b00aee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119818524"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293267"
 ---
 # <a name="commands-design-basics"></a>Commandes (concepts de base de la conception)
 

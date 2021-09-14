@@ -4,12 +4,12 @@ ms.assetid: b9ff5296-9076-4492-833c-7402b7090f8f
 title: Activation des vérifications d’accès au niveau du composant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3063873923d3d4c491312ca4efccd9bcd665b46bf1bdfc882b69dbe4942757f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5da2de5f9d2f4f2d39f43330c8320c0bb0218bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291811"
 ---
 # <a name="enabling-access-checks-at-the-component-level"></a>Activation des vérifications d’accès au niveau du composant
 

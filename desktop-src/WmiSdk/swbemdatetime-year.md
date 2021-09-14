@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c0c7896da8f7996e319ad61711ad6868af2023c4d612377e0f72d54b475fb3b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fe8988b3772f0f5d976c38eb5e9cc44fb9c4ede
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292835"
 ---
 # <a name="swbemdatetimeyear-property"></a>SWbemDateTime. Year, propriété
 
@@ -60,7 +60,7 @@ La valeur n’était pas comprise dans la plage de 0000 à 9999.
 
 Pour obtenir des exemples d’utilisation de l’objet [**SWbemDateTime**](swbemdatetime.md) pour convertir des valeurs [**DateTime**](datetime.md) CIM vers et à partir du format **fileTime** ou du format de **\_ Date VT** , consultez [tâches WMI : dates et heures](wmi-tasks--dates-and-times.md). Pour obtenir une description du format **DateTime** CIM, consultez [format de date et d’heure](date-and-time-format.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

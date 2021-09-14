@@ -4,12 +4,12 @@ description: Une zone de groupe est un rectangle qui entoure un ensemble de cont
 ms.assetid: c6cd81a1-76c0-41c5-bb7f-4796ea7e3114
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f06675a1ffa88e83bc3c5e36f5d8410682e797169b83e98aa1680b0f0c50d28b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a105242aabd49d87241a2a49bdaca5c19edd350b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119860319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291891"
 ---
 # <a name="group-box-msaa-ui-element-reference"></a>Zone de groupe (référence des éléments d’interface utilisateur MSAA)
 

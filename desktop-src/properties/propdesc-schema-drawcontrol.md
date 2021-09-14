@@ -5,11 +5,11 @@ title: drawControl
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 58a330854f19005f7f2863c337451b1dcc56cea3
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122632047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235535"
 ---
 # <a name="drawcontrol"></a>drawControl
 
@@ -19,7 +19,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [dr
 
 Cette forme du contrôle n’autorise pas la modification de propriété.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -53,7 +53,7 @@ Cette forme du contrôle n’autorise pas la modification de propriété.
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -87,7 +87,7 @@ Cette forme du contrôle n’autorise pas la modification de propriété.
 </thead>
 <tbody>
 <tr class="odd">
-<td>Valeur par défaut</td>
+<td>Default</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Le type par défaut est &quot; String &quot; (valeur multiple) et le contrôle par défaut est &quot; MultiValueText &quot; . Tout autre type entraîne l’utilisation du &quot; &quot; contrôle StaticText.</td>
 </tr>
 <tr class="even">

@@ -4,12 +4,12 @@ description: un adaptateur de capteur encapsule un périphérique biométrique e
 ms.assetid: 32cf28d3-cb78-442d-81db-7827f55b0ba8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ebad4ef849eab4ce0ac2dad110f6272733f1b62da19c47ffc2fe0ec0d3699c7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1cefc5e9221a56a7766e6af6a47449db4405b369
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237828"
 ---
 # <a name="sensor-adapter-functions"></a>Fonctions d’adaptateur de capteur
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76de649a069b0cfec74fabe1a41d6cfa659b39448257a4bc966065e1bce98ea9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6e94bfa6084c67428fb89e57b9152283cc3d4a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118434618"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293879"
 ---
 # <a name="asfleakybucketpairs"></a>ASFLeakyBucketPairs
 
@@ -31,7 +31,7 @@ L’attribut **ASFLeakyBucketPairs** est un attribut facultatif qui décrit les 
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut a le format suivant :
 

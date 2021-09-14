@@ -4,12 +4,12 @@ ms.assetid: 37f75b15-3f52-4259-a6d9-5a1a14f88379
 title: Fourniture de données de compteurs à l’aide de la version 2,0
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 8e839fb72f8cbd8272f9afd89aa3456e1e0b08fc7197dd992b1069fec7ce108d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67976c8a0b6c77582ed8c50c2e5cf753c77fcf6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143792"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218268"
 ---
 # <a name="providing-counter-data-using-version-20"></a>Fourniture de données de compteurs à l’aide de la version 2,0
 

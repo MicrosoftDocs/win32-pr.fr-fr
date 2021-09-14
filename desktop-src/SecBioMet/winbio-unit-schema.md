@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae91ae5353aa0e9c02414e90a8364d86bdc56c0cdcc4f4586656f28f92f100ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c217be1e0c6bde740c815f5a990509a6a87ef0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118909168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237785"
 ---
 # <a name="winbio_unit_schema-structure"></a>Structure de schéma d' \_ unité WINBIO \_
 
@@ -157,7 +157,7 @@ Structure [**de \_ version de WINBIO**](winbio-version.md) qui contient les num�
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

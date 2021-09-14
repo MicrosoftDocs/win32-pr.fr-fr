@@ -4,12 +4,12 @@ ms.assetid: ebd5fcac-0238-4f30-9fd5-a0c5cf9028ef
 title: Limitations OLE sur les Flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a3a1c606a4446129d9e6592c9b352dd0b3e06ae5c77bb378c2430a32cbc568
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8ccf2a259b004605381792a4eb9da62d329be91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119754249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218953"
 ---
 # <a name="ole-limitations-on-streams"></a>Limitations OLE sur les Flux
 

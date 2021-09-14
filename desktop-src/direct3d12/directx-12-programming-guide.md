@@ -6,12 +6,12 @@ ms.custom: 19H1
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/19/2019
-ms.openlocfilehash: c7dfaf55b44da4a05616db7b7f64c262a3c5b6920ab2c0665e1196d70b539215
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94afd9125a2e73665e3783419651f34fd72285ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293579"
 ---
 # <a name="direct3d-12-programming-guide"></a>Guide de programmation pour Direct3D 12
 

@@ -1,20 +1,20 @@
 ---
-description: Une méthode de fournisseur est une méthode implémentée par un fournisseur Windows Management Instrumentation (WMI).
+description: une méthode de fournisseur est une méthode implémentée par un fournisseur Windows Management Instrumentation (WMI).
 ms.assetid: 9c692bc7-246b-4619-a371-cc9e0e2d5a6e
 ms.tgt_platform: multiple
 title: Appel d’une méthode de fournisseur
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d180ed8d05a1105c15f06b3df5f47006c5dafcf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519430"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291874"
 ---
 # <a name="calling-a-provider-method"></a>Appel d’une méthode de fournisseur
 
-Une méthode de fournisseur est une méthode implémentée par un fournisseur Windows Management Instrumentation (WMI). La méthode se trouve dans une classe définie par un fournisseur pour représenter des données à partir d’un logiciel ou d’un matériel. Par exemple, la classe de [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service) a des méthodes pour démarrer, arrêter, reprendre, suspendre et changer des services.
+une méthode de fournisseur est une méthode implémentée par un fournisseur Windows Management Instrumentation (WMI). La méthode se trouve dans une classe définie par un fournisseur pour représenter des données à partir d’un logiciel ou d’un matériel. Par exemple, la classe de [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service) a des méthodes pour démarrer, arrêter, reprendre, suspendre et changer des services.
 
 Les méthodes de fournisseur ne doivent pas être confondues avec les types de méthodes suivants :
 
@@ -24,7 +24,7 @@ Les méthodes de fournisseur ne doivent pas être confondues avec les types de m
 
 ## <a name="calling-a-provider-method-using-scripting"></a>Appel d’une méthode de fournisseur à l’aide de scripts
 
-Tout langage Automation, tel que VBScript, PowerShell ou perl, peut appeler une méthode WMI. Certains langages peuvent utiliser l' [accès direct](/windows), mais d’autres doivent utiliser [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) pour exécuter indirectement la méthode du fournisseur.
+Tout langage Automation, tel que VBScript, PowerShell ou perl, peut appeler une méthode WMI. Certains langages peuvent utiliser l' [accès direct](/windows), mais d’autres doivent utiliser [**SWbemServices. ExecMethod**](swbemservices-execmethod.md) pour exécuter indirectement la méthode du fournisseur.
 
 <span id="direct_access"></span><span id="DIRECT_ACCESS"></span>
 
@@ -51,7 +51,7 @@ La procédure suivante décrit comment appeler une méthode de fournisseur à l�
 
 6.  Appelez la méthode et examinez la valeur de retour pour déterminer si la méthode a réussi.
 
-L’exemple de code suivant crée un processus Notepad et obtient l’ID de processus à l’aide de l’accès direct.
+l’exemple de code suivant crée un processus de Bloc-notes et obtient l’ID de processus à l’aide de l’accès direct.
 
 
 ```VB
@@ -94,17 +94,17 @@ catch
 
 <span id="indirect_access"></span><span id="INDIRECT_ACCESS"></span>
 
-La procédure suivante décrit comment appeler une méthode de fournisseur à l’aide de l’API de script et du [**SWbemServices.ExecMethod**](swbemservices-execmethod.md).
+La procédure suivante décrit comment appeler une méthode de fournisseur à l’aide de l’API de script et de [**SWbemServices. ExecMethod**](swbemservices-execmethod.md).
 
-**Pour appeler une méthode de fournisseur à l’aide de l’API de script et SWbemServices.ExecMethod**
+**Pour appeler une méthode de fournisseur à l’aide de l’API de script et de SWbemServices. ExecMethod**
 
 1.  Récupérez la définition de classe WMI pour exécuter une méthode statique. Récupérez l’instance de classe WMI pour exécuter une méthode non statique.
 2.  Récupérez la méthode à exécuter à partir de la collection [**SWbemObject. Methods \_**](swbemobject-methods-.md) de votre classe ou instance à l’aide de la méthode [**SWbemObjectSet. Item**](swbemobjectset-item.md) .
 3.  Obtenez un objet [**Parameters**](swbemmethod-inparameters.md) pour la méthode et configurez les paramètres comme décrit dans [construction d’objets inparamètres](constructing-inparameters-objects.md).
-4.  Appelez la méthode **SWbemServices.ExecMethod** pour exécuter et assigner la valeur de retour à un objet [**SWbemObject**](swbemobject.md) pour stocker les paramètres de sortie.
+4.  Appelez la méthode **SWbemServices. ExecMethod** pour exécuter et assigner la valeur de retour à un objet [**SWbemObject**](swbemobject.md) pour stocker les paramètres de sortie.
 5.  Vérifiez les valeurs dans l’objet paramètres de sortie pour vérifier que la méthode s’est exécutée correctement.
 
-L’exemple de code VBScript suivant exécute la même opération que le script précédent par l’approche indirecte par le biais de l’appel de [**SWBemServices.ExecMethod**](swbemservices-execmethod.md).
+L’exemple de code VBScript suivant exécute la même opération que le script précédent par l’approche indirecte via l’appel de [**SWBemServices. ExecMethod**](swbemservices-execmethod.md).
 
 
 ```VB
@@ -143,7 +143,7 @@ La procédure suivante décrit comment appeler une méthode de fournisseur à l�
 
 **Pour appeler une méthode de fournisseur à l’aide de C++**
 
-1.  Connectez-vous à WMI.
+1.  Connecter à WMI.
 
     Pour appeler une méthode dans WMI, vous devez d’abord disposer d’une connexion active à un espace de noms WMI. Pour plus d’informations, consultez [création d’une application WMI à l’aide de C++](creating-a-wmi-application-using-c-.md) et [initialisation de com pour une application WMI](initializing-com-for-a-wmi-application.md).
 

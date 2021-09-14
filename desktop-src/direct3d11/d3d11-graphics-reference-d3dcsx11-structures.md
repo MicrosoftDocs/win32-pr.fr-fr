@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les structures D3DCSX 1
 ms.assetid: ED42B8D1-F4C9-489F-999B-A53BC96BA337
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399eab798158246328fbf9124348e1e667a774ba4262df09564f03063ed2dba2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d590b1310a5b57e52a9029e2de78acd7f7e5de9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118300658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237029"
 ---
 # <a name="d3dcsx-11-structures"></a>Structures D3DCSX 11
 

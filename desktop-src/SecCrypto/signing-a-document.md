@@ -4,12 +4,12 @@ ms.assetid: 67a36123-4fce-4d40-83c3-b9668221276b
 title: Signature d’un document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526bc4cd98d6cab40efc884a2377f3720c9849dbb7f6c1d4e8da5d49898bfa64
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ce1754cdfa1e89c23525474bae880dc2809c242
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118898163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237444"
 ---
 # <a name="signing-a-document"></a>Signature d’un document
 

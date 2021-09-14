@@ -21,11 +21,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4bda00540d613b6d0efd4a080251ebd6407560ed
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315005"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293458"
 ---
 # <a name="about-icons"></a>À propos des icônes
 
@@ -89,7 +89,7 @@ La *grande icône système* est principalement utilisée par les applications, m
 
 Les fonctions [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect)et [**SHGetFileInfo**](/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa) peuvent être utilisées pour travailler avec des icônes dans des tailles autres que System large.
 
-La *petite icône de Shell* est utilisée dans l’Explorateur Windows et les boîtes de dialogue courantes. Actuellement, la taille minimale du système est définie par défaut.
+la *petite icône de shell* est utilisée dans l’explorateur de Windows et les boîtes de dialogue courantes. Actuellement, la taille minimale du système est définie par défaut.
 
 ### <a name="to-retrieve-the-size-of-the-shell-small-icon"></a>Pour récupérer la taille de la petite icône de Shell
 
@@ -109,7 +109,7 @@ La grande icône de Shell est utilisée sur le bureau.
 1.  Utilisez la fonction [**SHGetFileInfo**](/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa) avec **SHGFI \_ SHELLICONSIZE** pour récupérer un handle de la liste d’images système.
 2.  Appelez ensuite la fonction [**ImageList \_ GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize) pour connaître la taille de l’icône.
 
-Le menu Démarrer utilise soit des petites icônes de Shell, soit des grandes icônes de Shell, selon que la case à cocher **utiliser de grandes icônes** est activée ou non.
+le menu Démarrer utilise des petites icônes de shell ou des grandes icônes de shell, selon que la case à cocher **utiliser de grandes icônes** est activée ou non.
 
 Votre application doit fournir des groupes d’images d’icône dans les tailles suivantes :
 
@@ -135,7 +135,7 @@ La fonction [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winus
 
 Vous pouvez récupérer l’image d’une icône à l’aide de la fonction [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) et la dessiner à l’aide de la fonction [**DrawIconEx**](/windows/desktop/api/Winuser/nf-winuser-drawiconex) . Pour dessiner l’image par défaut pour une icône, spécifiez l’indicateur **di \_ compat** dans l’appel à **DrawIconEx**. Si vous ne spécifiez pas l’indicateur de **\_ compatibilité di** , **DrawIconEx** dessine l’icône à l’aide de l’image spécifiée par l’utilisateur.
 
-Quand le système affiche une icône, il doit extraire l’image d’icône appropriée du fichier. exe ou. dll. Le système utilise les étapes suivantes pour sélectionner l’image d’icône :
+Quand le système affiche une icône, il doit extraire l’image d’icône appropriée du fichier .exe ou .dll. Le système utilise les étapes suivantes pour sélectionner l’image d’icône :
 
 1.  Sélectionnez la **ressource \_ \_ icône de groupe RT** . Si plusieurs ressources existent, le système utilise la première ressource indiquée dans la ressource script.
 2.  Sélectionnez l’image **d' \_ icône RT** appropriée dans la ressource **\_ \_ icône de groupe RT** . Si plusieurs images existent, le système utilise les critères suivants pour choisir une image :
@@ -146,7 +146,7 @@ Quand le système affiche une icône, il doit extraire l’image d’icône appr
 > [!Note]  
 > Le système traite toutes les profondeurs de couleur de 8 bpp ou plus comme égaux. Par conséquent, il n’existe aucun avantage à inclure une image de 16x16 256 et une image de 16 x 16 couleurs dans la même ressource : le système choisira simplement la première image qu’il rencontre. Lorsque l’affichage est en mode 8 BPP, le système choisit une icône de 16 couleurs sur une icône de couleur 256 et affiche toutes les icônes à l’aide de la palette système par défaut.
 
- 
+ 
 
 Pour afficher une icône animée, utilisez un contrôle statique comme indiqué dans le fragment de code suivant.
 
@@ -168,10 +168,10 @@ La fonction [**CopyIcon**](/windows/desktop/api/Winuser/nf-winuser-copyicon) cop
 
 La fonction [**CopyImage**](/windows/desktop/api/Winuser/nf-winuser-copyimage) crée une icône basée sur l’icône source spécifiée. La nouvelle icône peut être plus grande ou plus petite que l’icône source.
 
-Pour plus d’informations sur l’ajout, la suppression ou le remplacement des ressources d’icône dans les fichiers exécutables (. exe), consultez [ressources](resources.md).
+Pour plus d’informations sur l’ajout, la suppression ou le remplacement des ressources d’icône dans les fichiers exécutables (.exe), consultez [ressources](resources.md).
 
 La fonction [**DuplicateIcon**](/windows/desktop/api/Shellapi/nf-shellapi-duplicateicon) effectue une copie réelle de l’icône.
 
- 
+ 
 
- 
+ 

@@ -1,26 +1,26 @@
 ---
 title: Énumérations WMDM
-description: En savoir plus sur les énumérations que Windows Media Gestionnaire de périphériques définit, telles que WMDM_ENUM_PROP_VALID_VALUES_FORM et WMDM_FIND_SCOPE.
+description: en savoir plus sur les énumérations que Windows Media Gestionnaire de périphériques définit, comme WMDM_ENUM_PROP_VALID_VALUES_FORM et WMDM_FIND_SCOPE.
 ms.assetid: 205fe651-a712-4d9a-9ebf-bf7e8ec05ed0
 keywords:
-- Gestionnaire de périphériques Windows Media, énumérations
+- Windows Gestionnaire de périphériques de média, énumérations
 - Gestionnaire de périphériques, énumérations
 - Référence de programmation, énumérations
-- informations de référence sur les Gestionnaire de périphériques Windows Media, énumérations
+- référence pour Windows Gestionnaire de périphériques de média, énumérations
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ec50acdfcf780f65a638c3761f3f6164d29afb74
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067916"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237156"
 ---
 # <a name="wmdm-enumerations"></a>Énumérations WMDM
 
-Cette rubrique documente une fonctionnalité du kit de développement logiciel (SDK) Gestionnaire de périphériques Windows Media. Nous vous recommandons de migrer votre application pour utiliser l’API des appareils mobiles Windows. Pour plus d’informations, consultez le kit de développement logiciel Windows Mobile Devices.
+cette rubrique documente une fonctionnalité du kit de développement logiciel (SDK) Gestionnaire de périphériques Windows Media. nous vous recommandons de migrer votre application pour qu’elle utilise l’API Windows des appareils mobiles. pour plus d’informations, consultez le kit de développement logiciel (SDK) d’appareils mobiles Windows.
 
-Windows Media Gestionnaire de périphériques définit les énumérations suivantes.
+Windows Le Gestionnaire de périphériques de média définit les énumérations suivantes.
 
 
 

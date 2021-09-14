@@ -4,12 +4,12 @@ ms.assetid: 7aec54cb-40ac-495c-99d9-9c397b740b21
 title: Installation et inscription du codec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc13a2d937e82eae3517b9b20440f4acbb10b16af3fa0b872eb0ddd6c2a8d6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d83616071bebdbab14bfdc7dd0f879df3d49789d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293239"
 ---
 # <a name="codec-installation-and-registration"></a>Installation et inscription du codec
 
@@ -69,7 +69,7 @@ vous devez informer Microsoft des extensions pour les nouveaux codecs que vous d
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation de IWICMetadataBlockWriter](-wic-imp-iwicmetadatablockwriter.md)

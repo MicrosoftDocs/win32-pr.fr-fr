@@ -8,12 +8,12 @@ keywords:
 - flux de script, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f95c4c43fcb29ec2f77dacbf5a66b1c8c36c666d80fd5f5c09779a4ecaf22f05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e063865b301c8c7c2a4171aa530a89464306c0ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117655987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219601"
 ---
 # <a name="configuring-script-streams"></a>Configuration des Flux de script
 

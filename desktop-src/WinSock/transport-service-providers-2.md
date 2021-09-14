@@ -4,12 +4,12 @@ ms.assetid: 4ded519d-d9c2-4ef3-80f5-e6ec40adf938
 title: Fournisseurs de services de transport
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d860db59b5a27d19cdc5263069161f105d79e15cfd7353789f8fdcf9944799ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 114eefa67bbb2d7afdf46b74f1a9524e7a77b7c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117927173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237120"
 ---
 # <a name="transport-service-providers"></a>Fournisseurs de services de transport
 

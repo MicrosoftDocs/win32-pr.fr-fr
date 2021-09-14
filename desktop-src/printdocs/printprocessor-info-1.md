@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 0aa94a2df1c44b53ec9fb8211f7eaed8c955f9f2c1cd824cd4634c754f8c337e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ac35f85e904e9a80d9f244a1421b54fd0994a43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824738"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293410"
 ---
 # <a name="printprocessor_info_1-structure"></a>PRINTPROCESSOR \_ information \_ 1 (structure)
 
@@ -48,7 +48,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

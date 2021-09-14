@@ -4,12 +4,12 @@ description: Un contrôle répond aux accélérateurs de clavier afin que l’ut
 ms.assetid: 59aca5cb-f109-49ee-897d-43610501f7f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26081d36c62b11163ceb8c41421ea0370d18b3ce9bf16be68e4e8a06a5f1a489
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cbe03058fdb0192a0f8f7b13032612288045775b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293679"
 ---
 # <a name="keyboard-handling-for-controls"></a>Gestion du clavier pour les contrôles
 

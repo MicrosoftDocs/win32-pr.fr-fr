@@ -33,11 +33,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: ee95d29ed1913993aa37062137807bf8d635eecc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544744"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236700"
 ---
 # <a name="getrecordsizegrbit-enumeration"></a>Énumération GetRecordSizeGrbit
 
@@ -76,7 +76,7 @@ public enum GetRecordSizeGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">

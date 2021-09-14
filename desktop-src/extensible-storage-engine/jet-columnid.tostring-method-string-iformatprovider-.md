@@ -21,11 +21,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 163fcd773224e183b5c83d764c8dac508b269592
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527466"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236694"
 ---
 # <a name="jet_columnidtostring-method-string-iformatprovider"></a>JET_COLUMNID. ToString, méthode (String, IFormatProvider)
 
@@ -73,7 +73,7 @@ public string ToString(
     
     [IFormatProvider](/dotnet/api/system.iformatprovider) à utiliser pour mettre en forme la valeur. -ou-null pour obtenir les informations de format numérique à partir des paramètres régionaux actuels du système d’exploitation.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. String](/dotnet/api/system.string)  
 [Chaîne](/dotnet/api/system.string) contenant la valeur de l’instance actuelle au format spécifié.  

@@ -4,12 +4,12 @@ description: Le système crée automatiquement la station Windows Interactive.
 ms.assetid: 5b908cb6-3a72-4afc-aed0-8411e8d0888f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52a3cc85a3194bea6c8eaea00a7ce794901426e794c962e1b23713561f8fc744
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34aff24a29432e3e394a199bf881aa386bf17e71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118030515"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293890"
 ---
 # <a name="window-station-and-desktop-creation"></a>Station Windows et création de bureau
 

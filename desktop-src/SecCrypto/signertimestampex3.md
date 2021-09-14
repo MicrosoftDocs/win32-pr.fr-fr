@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Mssign32.dll
 ms.openlocfilehash: 7eb5c19292b451b1a3d0265da4bb178eafcc6f00
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237455"
 ---
 # <a name="signertimestampex3-function"></a>SignerTimeStampEx3 fonction)
 
@@ -104,7 +104,7 @@ Algorithme de hachage à utiliser pour exécuter des horodatages conformes à la
 *psRequest* \[ dans, facultatif\]
 </dt> <dd>
 
-facultatif. Adresse d’une structure [**d' \_ attributs**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attributes) de chiffre qui contient des attributs supplémentaires ajoutés à la demande d’horodatage.
+Optionnel. Adresse d’une structure [**d' \_ attributs**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attributes) de chiffre qui contient des attributs supplémentaires ajoutés à la demande d’horodatage.
 
 Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas inclus.
 
@@ -113,7 +113,7 @@ Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas
 *pSipData* \[ dans, facultatif\]
 </dt> <dd>
 
-facultatif. Valeur 32 bits qui est passée en tant que données supplémentaires aux fonctions du [*package d’interface de sujet*](../secgloss/s-gly.md) (SIP). Le format et le contenu de ce paramètre sont définis par le fournisseur SIP.
+Optionnel. Valeur 32 bits qui est passée en tant que données supplémentaires aux fonctions du [*package d’interface de sujet*](../secgloss/s-gly.md) (SIP). Le format et le contenu de ce paramètre sont définis par le fournisseur SIP.
 
 Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas inclus.
 
@@ -158,7 +158,7 @@ Si la fonction échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

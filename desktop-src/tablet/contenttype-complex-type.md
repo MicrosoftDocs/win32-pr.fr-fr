@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 8c066263e932cdb958a489cb8702b046e8489e6c021c89557c439ae84e266c56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 462c9df0ec4e5ded26c3b4aeefa94af79f380a95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092953"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294035"
 ---
 # <a name="contenttype-complex-type"></a>Type complexe ContentType
 
@@ -27,7 +27,7 @@ Définit le type qui contient une forme de contenu dans un fichier journal XML.
 <xs:complexType name="ContentType" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

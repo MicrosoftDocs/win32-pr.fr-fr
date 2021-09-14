@@ -4,12 +4,12 @@ ms.assetid: 186b55fc-d1b1-4187-a748-efaee114eca9
 title: MFNETSOURCE_BUFFERINGTIME, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b6de79344913d77a30dc05dcad4e4f8dd3608e0d35009b1d8e5254e08790993
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21c165e58ebd5f2aec0f1ca7ce38281f8c94896d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243806"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236117"
 ---
 # <a name="mfnetsource_bufferingtime-property"></a>MFNETSOURCE \_ propriété BUFFERINGTIME
 
@@ -39,7 +39,7 @@ Les applications peuvent utiliser cette propriété pour configurer la source r�
 
 La valeur par défaut de cette propriété est de 5 secondes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

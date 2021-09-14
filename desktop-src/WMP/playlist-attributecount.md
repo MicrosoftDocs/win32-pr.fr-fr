@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63616096dbfc3989a93d3dc8010dd0ed1f256ccd9e9bf2cc7b3c825c88a63d0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e42d72e029f232bb6dabc074b412406a1bb64c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054297"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293075"
 ---
 # <a name="playlistattributecount"></a>Playlist. attributeCount
 
@@ -33,7 +33,7 @@ La propriété **attributeCount** récupère le nombre d’attributs associés �
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que les sélections peuvent provenir de nombreuses sources différentes, elles peuvent avoir plusieurs jeux de propriétés différents. Cette méthode récupère le nombre total de propriétés disponibles afin que les autres méthodes de l’objet **playlist** puissent y accéder.
 
@@ -79,7 +79,7 @@ function onLoad() {
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

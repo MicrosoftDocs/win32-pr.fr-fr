@@ -4,12 +4,12 @@ description: Inconvénients
 ms.assetid: ce6885d9-7056-42bc-85d1-27ce32b1be5e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b2b9d41a632c202a25c3383ffb2d1069505c0dc988651e9fc886cfeecca5bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a22e409414a1df60e2dd9dff3adbfc6000b953a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292774"
 ---
 # <a name="disadvantages"></a>Inconvénients
 

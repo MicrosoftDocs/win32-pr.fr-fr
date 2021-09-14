@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 6de5d1108ab09c9658af307d6a67c5a94a5dc35514720a221540de263f516c9a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b62b0a7e871a29ff0a8edd28eb8cd5e18e97c1a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119960279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237552"
 ---
 # <a name="iscrdenrgetcaname-method"></a>ISCrdEnr :: getCAName, méthode
 
@@ -75,7 +75,7 @@ Pointeur vers une chaîne qui retourne le nom de l’autorité de certification.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="c"></a>C++
 
@@ -87,11 +87,11 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom de l’autorité de certification.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nom de l’autorité de certification par défaut est le prénom dans la liste des autorités de certification disponibles.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

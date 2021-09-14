@@ -5,11 +5,11 @@ title: Encodeur vidéo Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c7f7b70b9a754aefda3158ae355eb84c24b71b7e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474715"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224364"
 ---
 # <a name="microsoft-mpeg-2-video-encoder"></a>Encodeur vidéo Microsoft MPEG-2
 
@@ -66,7 +66,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’encodeur vidéo MPEG-2 peut générer les types de sortie suivants :
 
@@ -78,7 +78,7 @@ Il prend en charge les profils et niveaux MPEG-2 suivants :
 
 
 
-| Profil        | Niveaux                     | Remarques                                            |
+| Profil        | Niveaux                     | Notes                                            |
 |----------------|----------------------------|----------------------------------------------------|
 | Profil simple | Principal                       |                                                    |
 | Profil Main   | Faible, main, haute, haute-1440 |                                                    |
@@ -133,7 +133,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 | [**AVEncVideoOutputChromaResolution**](avencvideooutputchromaresolution-property.md)         | 4:2:0                                                            | **eAVEncVideoChromaResolution \_ 420** (4:2:0)<br/> **eAVEncVideoChromaResolution \_ SameAsSource**<br/>                                                                                                     |
 | [**AVEncVideoOutputFrameRate**](avencvideooutputframerate-property.md)                       |                                                                  | Doit être identique à la fréquence d’images d’entrée.                                                                                                                                                                            |
 | [**AVEncVideoOutputScanType**](avencvideooutputscantype-property.md)                         | Comme dans l’entrée                                                    | **eAVEncVideoOutputScan \_ SameAsInput**                                                                                                                                                                               |
-| [**AVEncVideoPixelAspectRatio**](avencvideopixelaspectratio-property.md)                     | Un-à-un (1:1)                                                              |                                                                                                                                                                                                                      |
+| [**AVEncVideoPixelAspectRatio**](avencvideopixelaspectratio-property.md)                     | 1:1                                                              |                                                                                                                                                                                                                      |
 
 
 
@@ -321,7 +321,7 @@ Actuellement, l’encodeur ne prend pas en charge les fonctionnalités suivantes
 
 L’encodeur introduit une latence d’encodage d’au moins un groupe d’images.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a46be5c66fb2dc6f9f6739a57778deef04b113f174208c5d56fe0712589aaf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 895d528780b8dc0f51f9072a0ca0a2cfb7095104
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293742"
 ---
 # <a name="wmperiod-attribute"></a>Attribut WM/period
 
@@ -29,7 +29,7 @@ L’attribut **WM/period** correspond à la période du contenu.
 -   [Pistes de CD](cd-track-attributes.md)
 -   [attributs de fichier multimédia Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia numérique.
 
@@ -39,7 +39,7 @@ la constante du kit de développement logiciel (SDK) du Format multimédia Windo
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

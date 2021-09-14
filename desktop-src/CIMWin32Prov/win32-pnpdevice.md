@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a136c86c0fd0744c555af2071943d99ca8569a33ce9c59d9d22191c4a78d2a32
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c17dc6d4169854469d630e2a622eacc85e8a587c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119972039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219273"
 ---
 # <a name="win32_pnpdevice-class"></a>\_Classe PnPDevice Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance [**Win32 \_ PnPEntity**](win32-pnpentity.md) qui rep
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

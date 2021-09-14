@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56dcb57c6572ee8ea9fd10ba753d6d0ffb0149e759cb2250bae7d07ecbfa474f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d03edc8a33fb854aa8790de2415a7039b2792698
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118334520"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292931"
 ---
 # <a name="playlistindex-attribute"></a>Attribut PlaylistIndex
 
@@ -30,13 +30,13 @@ L’attribut **PlaylistIndex** est l’index de l’élément multimédia dans s
 -   [Autres éléments](other-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est un attribut temporaire. Il n’est pas stocké dans la bibliothèque ou le fichier multimédia numérique.
 
 Les éléments multimédias peuvent être des éléments de sélection. Cet attribut est l’index de base zéro qui représente la position de l’élément multimédia dans la sélection. Si l’élément multimédia ne fait pas partie d’une sélection, la valeur de cet attribut est une chaîne vide ("").
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

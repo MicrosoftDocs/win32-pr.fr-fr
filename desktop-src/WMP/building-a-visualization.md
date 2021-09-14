@@ -21,12 +21,12 @@ keywords:
 - présélections dans les visualisations, présélection d’onde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9d21cbbb67c30711919d9d0cbf559dcb83e48493687d9bca3574ce066186620
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: faed09c473af9a8e784b9a2e9f6891283a99a41a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119573369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237144"
 ---
 # <a name="building-a-visualization"></a>Génération d’une visualisation
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 962d4bc3e8cffb778df56d78a9ddaf0641f57f8f96c8f7b024745a4b879f2f81
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 866d1d82d939f143c4385caa5d94c68ffe3758f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118909931"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237815"
 ---
 # <a name="winbio_policy_source-enumeration"></a>Énumération de la source de la \_ stratégie WINBIO \_
 
@@ -72,7 +72,7 @@ Stratégie de groupe définie par l’administrateur informatique pour l’entre
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

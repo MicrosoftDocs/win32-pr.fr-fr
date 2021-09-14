@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 64b3e4180a34c45890408f8ba92cc79465fffa7f1028152e27f8d5c0aa40e3e1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ee690c9564df3b8c75eca6eec8eeb88b7531f4ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120009129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294054"
 ---
 # <a name="calldivideresultsstrokeids-function"></a>CallDivideResultsStrokeIds fonction)
 
@@ -81,7 +81,7 @@ Tableau des ID de trait de l’encre dans le dessin.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction peut retourner l’une de ces valeurs.
 
@@ -96,7 +96,7 @@ Cette fonction peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

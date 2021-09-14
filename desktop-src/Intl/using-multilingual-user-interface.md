@@ -4,12 +4,12 @@ ms.assetid: caf167ad-f9a8-4093-9581-57bc507d1f6a
 title: utilisation de interface utilisateur multilingue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00bcd970b71957fe865f30d031d0706f37cccdbd527ee65fb6e4a812f2836bb0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 287acc88d144c7775d2125cbb4a055784370d87f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119764619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224004"
 ---
 # <a name="using-multilingual-user-interface"></a>utilisation de interface utilisateur multilingue
 

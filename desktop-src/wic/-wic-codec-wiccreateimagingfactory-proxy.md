@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Windowscodecs.lib
-ms.openlocfilehash: c26ba9fbe1f230a4269fb6b71f15a39d00a80b4a3e1f19c3e5d8681e5008c5d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6717764d0c25d64f99ab5d864bd0e77a63b88330
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118033403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293242"
 ---
 # <a name="wiccreateimagingfactory_proxy-function"></a>\_Fonction proxy WICCreateImagingFactory
 
@@ -52,17 +52,17 @@ Type : **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iw
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette fonction est une application auxiliaire pour la création d’une fabrique WIC pour la liaison de DLL explicite, qui était nécessaire pour Windows XP. Dans un usage normal, vous pouvez utiliser [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) à la place (consultez [fabriques de classes d’API WIC](./-wic-api.md#class-factories)), car cela est toujours inclus dans toutes les versions plus récentes de Windows.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

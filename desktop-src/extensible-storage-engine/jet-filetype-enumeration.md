@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9fc1eb6da5e60a1e224fbc4313cb11778ec5616e56e090eb35a8cc70ff96216b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e1f6b21d521babdf7b5c36411ea8bd19d5ebba3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119617149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236669"
 ---
 # <a name="jet_filetype-enumeration"></a>Énumération JET_filetype
 

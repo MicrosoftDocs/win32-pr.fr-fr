@@ -4,12 +4,12 @@ ms.assetid: de40287f-d4a7-4b6b-a30b-bd0acad2df26
 title: Structures de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e516ca3dc7ddfbb75447fb8c4fb03ef7d1f226b67b547188911453a5f9adf881
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4918a3b62a088aea2a61d9d7b2e06260dc8ffeff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117768243"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237629"
 ---
 # <a name="cryptography-structures"></a>Structures de chiffrement
 
@@ -315,8 +315,8 @@ Les constantes et les OID prédéfinis de l’extension actuelle, ainsi que la s
 | \_Attributs de clé x509 \_         | \_attributs de clé szOID \_                                                          | [**\_ \_ informations sur les attributs de clé du certificat \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_attributes_info)                |
 | Utilisation de la \_ clé x509 \_              | utilisation de la \_ clé szOID \_                                                               | [**BLOB de chiffrement \_ binaire \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob)                                     |
 | \_Restriction de \_ l’utilisation \_ de la clé x509 | RESTRICTION d’utilisation de la \_ clé szOID \_ \_                                                  | [**\_informations de \_ restriction d’utilisation \_ \_ de la clé de certificat**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_usage_restriction_info) |
-| Aucun                          | \_mappages de stratégie szOID \_                                                         | Non implémenté                                                                |
-| Aucun                          | szOID \_ \_ répertoire \_ ATTRS                                                      | Non implémenté                                                                |
+| None                          | \_mappages de stratégie szOID \_                                                         | Non implémenté                                                                |
+| None                          | szOID \_ \_ répertoire \_ ATTRS                                                      | Non implémenté                                                                |
 
 
 

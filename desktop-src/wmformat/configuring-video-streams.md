@@ -8,12 +8,12 @@ keywords:
 - flux vidéo, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22bc6e011f32d1ea9a9905c718ad8ff0c13f7d57650a30316ecfec6332978fdb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9d2389026dc1061064c5e687da60c3350ad94a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219564"
 ---
 # <a name="configuring-video-streams"></a>Configuration de la vidéo Flux
 

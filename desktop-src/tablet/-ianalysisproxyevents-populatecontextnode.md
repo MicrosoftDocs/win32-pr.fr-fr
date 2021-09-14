@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ff6378f7ecf3ff597f4c02740e30544ff65651d0a7fcd6d6d490ebabf2161ef7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8aebe4ba777d62f90aa00c45ea0f1644e2b8183
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294070"
 ---
 # <a name="_ianalysisproxyeventspopulatecontextnode-event"></a>\_IAnalysisProxyEvents ::P événement opulateContextNode
 
@@ -54,11 +54,11 @@ Objet [**IContextNode**](icontextnode.md) partiellement rempli.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cet événement lorsque votre application gère sa propre structure de données, qui est synchronisée avec celle du [**IInkAnalyzer**](iinkanalyzer.md). Lorsque le **IInkAnalyzer** déclenche cet événement, votre application doit remplir le *pContextNodeToPopulate*. Pendant la phase d’analyse, le **IInkAnalyzer** déclenche cet événement pour obtenir des informations sur les zones dans lesquelles il analyse l’encre.
 
@@ -68,7 +68,7 @@ Pour plus d’informations sur la synchronisation des données de votre applicat
 
 Pendant l’analyse en arrière-plan, le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement après avoir déclenché l’événement [**\_ IAnalysisEvents :: ReadyToReconcile**](-ianalysisevents-readytoreconcile.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

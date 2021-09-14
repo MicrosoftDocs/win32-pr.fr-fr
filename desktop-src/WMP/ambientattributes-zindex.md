@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c0ebccb050d80371b5865316dd341c8e371d3bfd399d14545b312cf8d265bac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 52480cc387c0a9e5e45c4b8e8fd2dae4199dbd16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120124039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237150"
 ---
 # <a name="ambientattributeszindex"></a>AmbientAttributes. zIndex
 
@@ -31,7 +31,7 @@ L’attribut **ZIndex** spécifie ou récupère l’ordre dans lequel le contrô
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) avec une valeur par défaut de zéro. La plage est celle d’un entier long signé.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’image bitmap d’arrière-plan d’une **vue** ou d’un sous- **affichage** a un index z fixe égal à zéro. Si vous souhaitez qu’un contrôle soit derrière l’arrière-plan, **ZIndex** doit être défini sur un nombre négatif.
 
@@ -41,7 +41,7 @@ L’attribut **ZIndex** n’est pas pris en charge par les éléments **Browser*
 
 Les éléments **BUTTONELEMENT** utilisent le **ZIndex** de leur **BUTTONGROUP**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

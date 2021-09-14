@@ -4,12 +4,12 @@ ms.assetid: 48c766e5-a69d-47d2-a885-f24b80e910d8
 title: Glossaire Uniscribe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 808ff2e9620810fe2ec344a037437e6ce8d62bff9460a53cf7b777cedc9d46b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e154e65c103ce6e4287ac8aa2e76e0be4206f9fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146968"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224153"
 ---
 # <a name="uniscribe-glossary"></a>Glossaire Uniscribe
 

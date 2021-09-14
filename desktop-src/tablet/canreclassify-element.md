@@ -4,12 +4,12 @@ ms.assetid: d1b9bd7f-e420-4290-a542-f1216b6ef203
 title: Élément CanReClassify
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffe64efef37f30c0bdcaebc2b20fb7637fb60da5acb1d771ede3b6bee6e23cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f243b4237e0dd9195a2a254a06cd86dceb31b63
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967738"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294050"
 ---
 # <a name="canreclassify-element"></a>Élément CanReClassify
 

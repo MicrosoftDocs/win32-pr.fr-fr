@@ -5,17 +5,17 @@ title: Détermination de l’activation ou non de la sécurité Role-Based
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 90ccf6f95b9c8776a45c071f6d4ea3326eda035c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111435"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291814"
 ---
 # <a name="determining-whether-role-based-security-is-enabled"></a>Détermination de l’activation ou non de la sécurité Role-Based
 
 À l’aide de la méthode [**ISecurityCallContext :: IsSecurityEnabled**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled) disponible à partir de l’objet de contexte de l’appel de sécurité, vous pouvez déterminer si la sécurité est activée pour l’objet en cours. Vous devez appeler **IsSecurityEnabled** avant d’utiliser ISecurityCallContext ::[**IsCallerInRole**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole) pour vérifier l’appartenance à un rôle, car **IsCallerInRole** retourne la valeur true si la sécurité n’est pas activée.
 
-Les développeurs Microsoft Visual Basic appellent [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext) pour obtenir une référence à un objet [**SecurityCallContext**](securitycallcontext.md) , puis appeler [**IsSecurityEnabled**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled), comme illustré dans l’exemple suivant :
+les développeurs Microsoft Visual Basic appellent [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext) pour obtenir une référence à un objet [**SecurityCallContext**](securitycallcontext.md) , puis appeler [**IsSecurityEnabled**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled), comme illustré dans l’exemple suivant :
 
 
 ```VB

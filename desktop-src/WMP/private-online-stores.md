@@ -11,12 +11,12 @@ keywords:
 - Registre, magasins en ligne privés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0667c19ffde3bb3c78b539253650e4f6f0b84cfbfd940f4d06237f987b99efd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e11490a8a12659dfc1e2c5445167e8d71abaf00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292890"
 ---
 # <a name="private-online-stores"></a>Magasins en ligne privés
 

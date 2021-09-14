@@ -14,12 +14,12 @@ keywords:
 - exemples compressés, diffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd9199fb1deefdd3c7408bc9039639bd723b06c380c03d249c9c71a1d792c1e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4ce835075f5bd760014a3b1b776ba3627adb076
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118699929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293802"
 ---
 # <a name="to-deliver-compressed-samples-with-the-asynchronous-reader"></a>Pour distribuer des exemples compressés avec le lecteur asynchrone
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b56ddcb42f118a5a672b6678079825b6cb3d6aba5fbdc54953fb566e4222f583
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7eca04f47f6e157d5ede529c47fb6ae65b4333cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293058"
 ---
 # <a name="playlistbackgroundimage"></a>PLAYLIST. backgroundImage
 
@@ -31,13 +31,13 @@ L’attribut **BackgroundImage** spécifie ou récupère l’image d’arrière-
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la hauteur et la largeur de l’image sont inférieures à la hauteur et à la largeur de l’élément de **sélection** , l’image est affichée en mosaïque. Les formats pris en charge sont BMP, JPG, GIF et PNG.
 
 Si vous spécifiez la valeur « gradient » pour l’image d’arrière-plan, l’arrière-plan de la sélection s’affiche sous la forme d’un dégradé de couleur. Cela signifie que la couleur d’arrière-plan transite graduellement entre les valeurs [playlist. BackgroundColor](playlist-backgroundcolor.md) (en haut de l’arrière-plan) et [playlist. statusColor](playlist-statuscolor.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

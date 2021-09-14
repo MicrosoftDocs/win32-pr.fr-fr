@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/19/2018
 ms.openlocfilehash: f82b01ba33cfa6660f266a481b2eaaab20ade236
-ms.sourcegitcommit: 60ff57d8cf94ae7a47c6046ad49f7c7256a7edb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "115006794"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292751"
 ---
 # <a name="what-is-direct3d-12"></a>Qu’est-ce que Direct3D 12?
 

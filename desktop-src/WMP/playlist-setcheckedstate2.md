@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b6b95cb332c5f5a9d86e6f49484b27c1ab5802f28b18195f610395a1c732e369
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37cc9c821ae783e79d327e93b0c2f297fb75eab1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118336218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292967"
 ---
 # <a name="playlistsetcheckedstate2"></a>PLAYLIST. setCheckedState2
 
@@ -50,11 +50,11 @@ La méthode **setCheckedState2** définit l’état activé de l’élément ave
 
 Cette méthode retourne une **valeur booléenne**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut fonctionner avec des sélections imbriquées et remplace la méthode **setCheckedState** , qui ne peut pas. Vous pouvez définir tous les éléments à l’État demandé en spécifiant 1 dans le paramètre *Item* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

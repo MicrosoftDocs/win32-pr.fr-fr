@@ -4,12 +4,12 @@ description: Les développeurs de serveurs doivent s’assurer que les WinEvents
 ms.assetid: 253e0162-20e6-4e89-b563-aae9cf7e53a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7e148578f55f59d2827fd13a637baf5139c3f934ddf24059e437185c15349b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af6273411115e908303e863a34908e15ef91b19c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119860389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291899"
 ---
 # <a name="generating-appropriate-winevents"></a>Génération de WinEvents appropriée
 
@@ -21,7 +21,7 @@ Pour envoyer un événement, les serveurs appellent [**NotifyWinEvent**](/window
 
 ## <a name="general-events"></a>Événements généraux
 
-Les WinEvents générales peuvent être envoyés pour tous les éléments d’interface utilisateur. Ce sont, entre autres, les suivantes :
+Les WinEvents générales peuvent être envoyés pour tous les éléments d’interface utilisateur. En voici quelques-uns :
 
 -   [**Événement \_ \_Création d’objet**](event-constants.md) (lors de la création d’un objet)
 -   [**Événement \_ \_Destruction d’objet**](event-constants.md) (lorsqu’un objet est détruit)

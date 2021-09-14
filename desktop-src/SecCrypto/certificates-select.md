@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 50e10a9487318c7b89e89afb3d10d5974524c821b76618ca8ffd1f282e844f65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfd5b1cb5e269c14e05de25262fda711549bf02d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117770484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237702"
 ---
 # <a name="icertificates2select-method"></a>ICertificates2 :: Select, méthode
 
@@ -65,7 +65,7 @@ Valeur booléenne qui indique si l’utilisateur peut sélectionner plusieurs ce
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Objet de [**certificats**](certificates.md) qui contient les certificats sélectionnés dans la boîte de dialogue.
 
@@ -73,7 +73,7 @@ Objet de [**certificats**](certificates.md) qui contient les certificats sélect
 
 **Capicom 2,0, CAPICOM 2.0.0.1, CAPICOM 2.0.0.2 et ca-2.0.0.3** de la façon suivante : L’objet de [**certificats**](certificates.md) retourné contient des copies des certificats dans la collection à partir de laquelle la sélection a été effectuée. Les modifications apportées aux certificats de l’objet **certificats** retournés ne sont pas reflétées dans cette collection.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

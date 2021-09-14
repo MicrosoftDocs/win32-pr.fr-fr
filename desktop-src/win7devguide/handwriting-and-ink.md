@@ -4,12 +4,12 @@ description: Avec la prolifération des Tablet PC sur le marché, les fonctionna
 ms.assetid: 22caf8b3-d519-418f-b662-180d270b7cfb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4704300ed28d1ca10987ad0c22633ba65a3f529ec8ebeab63f7ea62137839d87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c10bec217a9568419b3b150c932fc236c7d735bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118708936"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293199"
 ---
 # <a name="handwriting-and-ink"></a>Écriture manuscrite et encre
 

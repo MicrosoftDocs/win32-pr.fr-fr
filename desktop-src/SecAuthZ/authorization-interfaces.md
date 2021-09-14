@@ -4,12 +4,12 @@ ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: Interfaces d’autorisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e485090de7ee2b64ac30be64eabee7b3e05dd932b3758bda7be01323ae09d74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff566127c90abcaebd91fc26af23734680bd2e11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118914211"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218172"
 ---
 # <a name="authorization-interfaces"></a>Interfaces d’autorisation
 

@@ -4,12 +4,12 @@ ms.assetid: 086aca6c-8d1f-4e54-9e1c-642be50b303c
 title: Utilisation de séparateurs de ligne et de paragraphe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 857d7cae4dc7bd720ca94e9780bcb83588650b3df578cd0216e2424c1b28d5af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f2c9511ba2a8889b3c9139daf1d088d91ed746db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119764629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224028"
 ---
 # <a name="using-line-and-paragraph-separators"></a>Utilisation de séparateurs de ligne et de paragraphe
 

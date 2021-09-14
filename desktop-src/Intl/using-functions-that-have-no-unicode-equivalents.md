@@ -4,12 +4,12 @@ ms.assetid: 9e02c8fe-4fed-4b77-9b09-35850350859a
 title: Utilisation de fonctions qui n’ont pas d’équivalents Unicode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e00781db9bce98c335c4a9071b9643ef5fdcb3716478cbffe12a5b53b33e2313
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0850eea442b98c81918c7c6733da65f730936be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119787879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224049"
 ---
 # <a name="using-functions-that-have-no-unicode-equivalents"></a>Utilisation de fonctions qui n’ont pas d’équivalents Unicode
 

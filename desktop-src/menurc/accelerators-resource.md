@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e7ba2d19bbab6346f7a62afe56269f762cd94f7ef1730654fb6ac1abf317e4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2aeb09ca52438f7b2f4903e5403eeb722e5d7d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118235738"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235746"
 ---
 # <a name="accelerators-resource"></a>Ressource ACCÉLÉRATEURs
 
@@ -168,7 +168,7 @@ L’exemple suivant illustre l’utilisation de touches accélérateur.
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> <dt>
 
-[**Version**](version-statement.md)
+[**VERSION**](version-statement.md)
 </dt> </dl>
 
  

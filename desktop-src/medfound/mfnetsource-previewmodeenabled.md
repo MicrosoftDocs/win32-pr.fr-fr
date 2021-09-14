@@ -4,12 +4,12 @@ ms.assetid: 8aa8c6ac-8746-4bf6-9f57-b1426495a275
 title: MFNETSOURCE_PREVIEWMODEENABLED, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e03940828c6fa32b9e0367a03f960d4d64d88edf691100817ed31883013ce1b5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1170135b0feb90a79bf5e26d36a02e262fdc1977
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236105"
 ---
 # <a name="mfnetsource_previewmodeenabled-property"></a>MFNETSOURCE \_ propriété PREVIEWMODEENABLED
 
@@ -31,11 +31,11 @@ VT \_ bool
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ PREVIEWMODEENABLED** définit le GUID de la clé de propriété. L’identificateur de propriété (PID) est égal à zéro. Cette propriété est définie sur la source réseau en passant un pointeur **IPropertyStore** vers le programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

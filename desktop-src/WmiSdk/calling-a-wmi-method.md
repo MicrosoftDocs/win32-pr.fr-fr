@@ -5,12 +5,12 @@ ms.assetid: 8d559eee-3dbf-4132-b1c0-a6925b8feb56
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d1de14f06388454228528d5a419b551ae2ed0d72c82e3b78c9e04855db6619
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 892561785280e78ecf29da1030883994990fc822
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291870"
 ---
 # <a name="how-to-call-a-wmi-method"></a>Comment appeler une méthode WMI
 

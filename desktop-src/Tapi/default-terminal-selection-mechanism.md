@@ -4,12 +4,12 @@ ms.assetid: fbdc7359-b44e-4605-baea-eef5155340c7
 title: Mécanisme de sélection par défaut des terminaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb295c9ea54b0f8572b3ab87f3c8eb9b33ee10773191e3904070c2618b593175
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5512797434fac028e91bf64a88bb9a22b8968c87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118867416"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237209"
 ---
 # <a name="default-terminal-selection-mechanism"></a>Mécanisme de sélection par défaut des terminaux
 

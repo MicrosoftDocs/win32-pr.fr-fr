@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e83cce80b218d4cc8482d013537b7fae562312f242bc3549f4fa5069b1c677c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef788ecbe85defc7d3593f0c12c035e516f095eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027756"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219508"
 ---
 # <a name="iwmdrmencryptscatterinitencryptscatter-method"></a>IWMDRMEncryptScatter :: InitEncryptScatter, méthode
 
@@ -57,7 +57,7 @@ Tableau d’une ou de plusieurs structures d' [**\_ informations de \_ diffusion
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -75,7 +75,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

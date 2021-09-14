@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d5b2b5e126555a0d09ea88017e2a290c180434b18fb8a61f668afd8e12fa02a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f44b4187699cb4a55d0c6215e3f31b430a87d299
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219492"
 ---
 # <a name="iwmdrmsecuritygetcontentenablersfromhashes-method"></a>IWMDRMSecurity :: GetContentEnablersFromHashes, méthode
 
@@ -82,7 +82,7 @@ Nombre d’éléments dans le tableau *prgContentEnablers* . Si *prgContentEnabl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -96,13 +96,13 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous utilisez l’interface **IMFContentEnabler** pour renouveler des composants révoqués, vous devez clarifier le processus pour l’utilisateur. Cette clarification doit être apportée car le processus de mise à jour envoie des informations de l’ordinateur client vers un site Web Microsoft.
 
 Quand vous appelez **IMFContentEnabler :: AutomaticEnable**, le activateur de contenu lance le navigateur par défaut avec l’adresse du service de mise à jour sur le site Web Microsoft. Un identificateur unique qui identifie le composant révoqué est envoyé au service de mise à jour. Le service redirige ensuite le navigateur vers une page Web à partir de laquelle l’utilisateur peut être en mesure de télécharger et d’installer la nouvelle version du composant révoqué.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

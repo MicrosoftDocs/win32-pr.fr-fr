@@ -4,12 +4,12 @@ ms.assetid: 47f03f17-6019-4586-a765-a1c3a6dadbf8
 title: Structures de raccourcis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67ee11876606240e62b5da2ce723868c9b28e535be0add288c75de5f5ca86210
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2b901522f31d29b094ec25befff97fe21a8f09d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293319"
 ---
 # <a name="flicks-structures"></a>Structures de raccourcis
 

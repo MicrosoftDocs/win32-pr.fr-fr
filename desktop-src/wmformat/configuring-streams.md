@@ -12,12 +12,12 @@ keywords:
 - IWMStreamConfig
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d55db0d02c8eae3ddd3ec780f5d6470d87628a6f7b12feceb5faa413b2e4546
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bc159fbd5390eb430e035db676685153d0cf174
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118199315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219596"
 ---
 # <a name="configuring-streams"></a>Configuration de Flux
 

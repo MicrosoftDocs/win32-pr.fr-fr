@@ -4,12 +4,12 @@ ms.assetid: 45e80314-90b1-4fcf-9c8f-c9840ae1775b
 title: Événement WPCEVENT_IM_FEATURE (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8046e755540a2282e84ea25c5278cf0c0b113264e78a3db31b6bd8a42de599cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee28f004560ed287bc3cb94cbee1bda876355834
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951440"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235626"
 ---
 # <a name="wpcevent_im_feature-event"></a>\_Événement de fonctionnalité de messagerie instantanée WPCEVENT \_
 
@@ -54,7 +54,7 @@ ID de cette conversation.
 
 </dd> <dt>
 
-*MediaType* 
+*Média* 
 </dt> <dd>
 
 Valeur de l’énumération de la [**\_ \_ fonctionnalité de messagerie instantanée WPCFLAG**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_im_feature) qui indique des informations sur les fonctionnalités accessibles pendant une interaction de messagerie instantanée.
@@ -103,7 +103,7 @@ Description des données dans la fonctionnalité.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

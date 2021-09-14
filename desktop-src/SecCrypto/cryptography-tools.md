@@ -4,12 +4,12 @@ ms.assetid: 21adbcfb-fadd-4818-9dc5-23bfd526b525
 title: Outils de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9547ba1d3a13958859c2f0504c60a1a1bbe4a67403c9709bb57900b73ad3a50d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8003bb002bd8d203547779c96bc15491a5418169
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120100979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237612"
 ---
 # <a name="cryptography-tools"></a>Outils de chiffrement
 
@@ -72,7 +72,7 @@ Les outils de publication et la DLL de signature sont installés dans le \\ rép
 
 
 
-| Nom de fichier                    | Remarques                                                                                                                                                                                             |
+| Nom de fichier                    | Notes                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Cert2SPC.exe](cert2spc.md) | crée un [*certificat SPC (Software Publisher certificate*](../secgloss/s-gly.md) ) à des fins de test uniquement.<br/> |
 | [CertMgr.exe](certmgr.md)   | Gère les certificats, les listes CTL et les [*listes de révocation de certificats*](../secgloss/c-gly.md) (CRL).<br/>             |

@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 58d27b97bb6683f32c145b92c1fda65fe0a786d5cb502e644580b57366119840
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0564f758d47e516873b8df5020f3f03a5bcb0727
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119708339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293275"
 ---
 # <a name="peninputpanel-class"></a>PenInputPanel, classe
 
@@ -94,7 +94,7 @@ La classe **PenInputPanel** possède ces méthodes.
 | [**CommitPendingInput**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput) | Envoie l’encre collectée au module de reconnaissance et publie le résultat de la reconnaissance.<br/>                                                                                                                      |
 | [**EnableTsf**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf)                   | Quand la **valeur true est affectée**, **PenInputPanel** tente d’envoyer du texte au contrôle attaché via Text Services Framework (TSF) et permet d’utiliser l’interface utilisateur de correction.<br/>    |
 | [**DéplacerVers**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto)                         | Définit la position de l’objet **PenInputPanel** sur une position d’écran statique.<br/>                                                                                                               |
-| [**Générer**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh)                       | Met à jour et restaure les propriétés **PenInputPanel** en fonction des paramètres du panneau de saisie Tablet PC, positionne automatiquement le panneau de saisie du stylet et définit l’interface utilisateur sur le panneau par défaut.<br/> |
+| [**Actualiser**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh)                       | Met à jour et restaure les propriétés **PenInputPanel** en fonction des paramètres du panneau de saisie Tablet PC, positionne automatiquement le panneau de saisie du stylet et définit l’interface utilisateur sur le panneau par défaut.<br/> |
 
 
 
@@ -126,11 +126,11 @@ La classe **PenInputPanel** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

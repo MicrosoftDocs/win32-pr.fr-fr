@@ -4,12 +4,12 @@ ms.assetid: 3a4b925a-4fb4-4189-a571-8083454fed0e
 title: Choix d’un codec vidéo (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b560666ddeebb88fc3bb720cbc9f1be26308e7ecd8a4ad872fbb1f0991826fe2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9186c7e7e60f5822ec2e50e3e5c7e16e96b91839
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236351"
 ---
 # <a name="choosing-a-video-codec-microsoft-media-foundation"></a>Choix d’un codec vidéo (Microsoft Media Foundation)
 

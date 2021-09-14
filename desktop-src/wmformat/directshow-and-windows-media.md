@@ -9,12 +9,12 @@ keywords:
 - DirectShow, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b975347d26414dda0c1f54c0b71ac852541bd58c314e3724725c3768ddfc7bfd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd4ca8eb4b1051d6685efa0bf73052ad9e7b31fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293159"
 ---
 # <a name="directshow-and-windows-media"></a>support DirectShow et Windows
 

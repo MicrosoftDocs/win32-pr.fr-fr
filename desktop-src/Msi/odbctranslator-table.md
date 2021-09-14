@@ -4,12 +4,12 @@ ms.assetid: fecb7454-29bb-4ddf-b4d5-2e56c20ff2dc
 title: Table ODBCTranslator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd59c535963b3c42e94c8c904d448540072913b56bedb58c3e0bddc72dd6c6c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9fdf85f73b649e18c0980508e234bf7599e69c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118942890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218969"
 ---
 # <a name="odbctranslator-table"></a>Table ODBCTranslator
 
@@ -70,7 +70,7 @@ fichier DLL d’installation pour le convertisseur, s’il est différent de la 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les actions [InstallODBC](installodbc-action.md) et [RemoveODBC](removeodbc-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

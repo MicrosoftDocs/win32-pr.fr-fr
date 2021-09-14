@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f49f316f7c740b434f761bbe4c00906c8f76b5027af9fcc87317af2a51960dab
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2bf1e1cb908ce9a86f23f75d17bf2e76797997db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119840689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293938"
 ---
 # <a name="splitbuttonbuttonitem-property"></a>Propriété SplitButton. ButtonItem
 
@@ -56,9 +56,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Facultatif.
+Optionnel.
 
 Peut se produire au plus une fois pour chaque [**SplitButton**](windowsribbon-element-splitbutton.md).
 
@@ -143,11 +143,11 @@ Cette section de code montre les déclarations de contrôle [**SplitButton**](wi
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
 | Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |

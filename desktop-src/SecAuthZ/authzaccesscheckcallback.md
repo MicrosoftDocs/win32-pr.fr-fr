@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 5079b740d268174715b6c944787bb687cd9b8b1ecb12a27c04eeb26c79811034
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82e100092dd7c59e9cc689aa8723365fae8bed29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784155"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218137"
 ---
 # <a name="authzaccesscheckcallback-callback-function"></a>AuthzAccessCheckCallback fonction de rappel
 
@@ -71,19 +71,19 @@ Les résultats sont **vrais** si la logique détermine que l’entrée du contr�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la fonction retourne **true**.
 
 Si la fonction ne peut pas effectuer l’évaluation, elle retourne **false**. Utilisez [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) pour renvoyer une erreur à la fonction de vérification d’accès.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les variables d’attribut de sécurité doivent être présentes dans le contexte client si elles sont référencées dans une expression conditionnelle ; sinon, le terme d’expression conditionnelle qui les référence prend la valeur Unknown.
 
 Pour plus d’informations, consultez la vue d’ensemble du [fonctionnement de AccessCheck](how-dacls-control-access-to-an-object.md) et de la [stratégie d’autorisation centralisée](centralized-authorization-policy.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ ms.assetid: 7eaa9d8b-0c21-487c-9093-79ddffcae131
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f9240d8c816adcf2674efcc2e7428d22b765f542
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293902"
 ---
 # <a name="ui_pkey_colortype"></a>Interface utilisateur de l’IU \_ \_ ColorType
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_SWATCHCOLORTYPE
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur de l’IU \_ \_ ColorType est utilisée par une application pour interroger le paramètre de couleur du contrôle [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) .
 

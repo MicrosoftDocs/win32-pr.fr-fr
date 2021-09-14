@@ -4,12 +4,12 @@ ms.assetid: c6dfd3bc-191f-42d1-b9de-cc85a2da0a99
 title: Contrôle parental Top-Level interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221c989a1c4aed25a15fe0942bb5f1f540246a40d349e452ce4efe518454d523
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 321475097e25b812aca8d1e65f8b88843ebb1055
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117869174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294135"
 ---
 # <a name="parental-controls-top-level-user-interface"></a>Contrôle parental Top-Level interface utilisateur
 

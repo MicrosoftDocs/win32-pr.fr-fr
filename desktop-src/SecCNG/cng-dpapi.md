@@ -4,12 +4,12 @@ ms.assetid: 048DEA72-39E1-4129-A554-F7D08442C2D9
 title: DPAPI CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0273522580c806caa5fe7848ff32a2017cfb37c4499dee21f5a3787ecae57b63
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebd0771b9838b2dbcfbedb3d025a7f650429bba5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908628"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237749"
 ---
 # <a name="cng-dpapi"></a>DPAPI CNG
 

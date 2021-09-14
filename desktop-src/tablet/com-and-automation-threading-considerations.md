@@ -5,11 +5,11 @@ title: Considérations relatives aux threads COM et Automation
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: afe0cf67d427ce89074a605f664e94f35d3d3eaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515400"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293330"
 ---
 # <a name="com-and-automation-threading-considerations"></a>Considérations relatives aux threads COM et Automation
 
@@ -26,7 +26,7 @@ Les considérations suivantes relatives aux threads Tablet PC sont spécifiques 
 
 À l’exception des contrôles [InkPicture](inkpicture-control.md) et [InkEdit](inkedit-control.md) , les objets Tablet PC sont thread-safe et sont marqués comme les deux. Si elles sont marquées comme étant toutes les deux, elles peuvent s’exécuter dans un thread cloisonné (STA, Single-Threaded Apartment) ou un cloisonnement multithread (MTA).
 
-Windows Forms utilise le modèle STA, car les Windows Forms sont basés sur des fenêtres Win32 natives qui sont intrinsèquement des threads cloisonnés.
+Windows forms utilisent le modèle STA, car les windows forms sont basés sur des fenêtres Win32 natives qui sont intrinsèquement des threads cloisonnés.
 
 ## <a name="sta-and-mta-applications"></a>Applications STA et MTA
 

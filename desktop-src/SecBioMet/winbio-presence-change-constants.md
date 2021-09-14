@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08cce9cc74bafdba6cf8d1aa11abccdaf7315370223ff6edf47eaba167af84f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2c864c82ddca6faec134716778dc2e795675371
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118909718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237809"
 ---
 # <a name="winbio_presence_change-constants"></a>\_Constantes de modification de présence WINBIO \_
 
@@ -41,7 +41,7 @@ décrit les types de modifications qui peuvent se produire lorsque le Windows Bi
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

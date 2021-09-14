@@ -4,12 +4,12 @@ description: les instructions de définition de ressources prises en charge sur 
 ms.assetid: 53740997-854b-447c-9ab1-de8e17c0de1e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8b7bf01f95c700f12d130490673ef4f0df61cb84ae8077ca759655a2c4a1577
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa15ae7207c80737e284151f0dfd3d7981935943
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118235576"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293443"
 ---
 # <a name="common-resource-attributes"></a>Attributs de ressources communes
 

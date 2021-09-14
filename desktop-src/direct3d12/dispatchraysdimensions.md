@@ -12,12 +12,12 @@ api_name:
 - DispatchRaysDimensions
 api_type:
 - NA
-ms.openlocfilehash: 4f68b7bdd5f5ea92074b366b9f981f490a9801079b29def17ba66770abd3c5f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e35c967ad831c82912d2962da72d9ad17eab1c15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293575"
 ---
 # <a name="dispatchraysdimensions"></a>DispatchRaysDimensions
 

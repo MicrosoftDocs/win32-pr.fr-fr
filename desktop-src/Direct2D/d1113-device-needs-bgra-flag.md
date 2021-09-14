@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: e847fae90972a7d88ae0a00e8b22b8962a952492f93ccf8addd03fb33baab6c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42961506c3ca1fc6794f85c3372f406365562584
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075553"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114054"
 ---
 # <a name="d1113-device-needs-bgra-flag"></a>D1113 : indicateur BGRA de l’appareil requis
 

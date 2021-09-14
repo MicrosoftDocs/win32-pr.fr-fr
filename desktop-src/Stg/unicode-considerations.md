@@ -4,12 +4,12 @@ description: La fonction de service WriteFmtUserTypeStg, utilisée dans la méth
 ms.assetid: 34a1d30e-4401-474e-999e-832b963064bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a06f8fa9592d3f29ccf82d42f38a48b2dc57d36bccf79b22b8fe159bad337cc0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a7bef75ec88318f4a2af8c5c7b693f0fc7c877f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118886737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237210"
 ---
 # <a name="unicode-considerations"></a>Considérations relatives à Unicode
 

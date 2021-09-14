@@ -5,11 +5,11 @@ title: Vue d’ensemble des métadonnées WIC
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 44f5031759dd73861a97aace623b35f229b75952
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472025"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293978"
 ---
 # <a name="wic-metadata-overview"></a>Vue d’ensemble des métadonnées WIC
 
@@ -165,16 +165,16 @@ WIC prend en charge plusieurs formats de métadonnées courants. Le tableau suiv
 
 | Formats de métadonnées pris en charge | Version de la spécification de métadonnées | Prise en charge du format d’image | Prend en charge l’encodage de métadonnées rapide |
 |----------------------------|--------------------------------|----------------------|---------------------------------|
-| App0                       | JFIF 1,02                      | JPEG                 | No                              |
-| App1                       | JFIF 1,02                      | JPEG, TIFF           | No                              |
-| App13                      | Unknown                        | JPEG, TIFF           | No                              |
-| IFD                        | TIFF 6,0                       | JPEG, TIFF           | Yes                             |
-| IRB                        | Unknown                        | JPEG, TIFF           | No                              |
-| Exif                       | EXIF 2,2                       | JPEG, TIFF           | Yes                             |
-| XMP                        | XMP 1,0 (septembre 2005)            | JPEG, TIFF           | Yes                             |
-| GPS                        | EXIF 2,2                       | JPEG, TIFF           | Yes                             |
-| IPTC                       | IPTC 4,0                       | JPEG, TIFF           | Yes                             |
-| Financière                       | PNG 1,2                        | PNG                  | No                              |
+| App0                       | JFIF 1,02                      | JPEG                 | Non                              |
+| App1                       | JFIF 1,02                      | JPEG, TIFF           | Non                              |
+| App13                      | Unknown                        | JPEG, TIFF           | Non                              |
+| IFD                        | TIFF 6,0                       | JPEG, TIFF           | Oui                             |
+| IRB                        | Unknown                        | JPEG, TIFF           | Non                              |
+| Exif                       | EXIF 2,2                       | JPEG, TIFF           | Oui                             |
+| XMP                        | XMP 1,0 (septembre 2005)            | JPEG, TIFF           | Oui                             |
+| GPS                        | EXIF 2,2                       | JPEG, TIFF           | Oui                             |
+| IPTC                       | IPTC 4,0                       | JPEG, TIFF           | Oui                             |
+| Financière                       | PNG 1,2                        | PNG                  | Non                              |
 
 
 
@@ -224,7 +224,7 @@ Le tableau suivant décrit les composants de métadonnées WIC. Ces composants v
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

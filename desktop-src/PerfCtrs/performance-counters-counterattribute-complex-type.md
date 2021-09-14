@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 333024a9681f58c3db7c271ceaf4c14c6d06aef68817ea4ca8ee211fa261e79e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee1b34a3a802f0f7c79815956c3a364522ce0962
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117793733"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218489"
 ---
 # <a name="counterattribute-complex-type"></a>Type complexe counterAttribute
 
@@ -66,7 +66,7 @@ Définit un attribut d’un compteur qui spécifie le mode d’affichage des don
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

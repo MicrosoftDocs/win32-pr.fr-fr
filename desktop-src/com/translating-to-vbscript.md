@@ -4,12 +4,12 @@ description: Conversion en VBScript
 ms.assetid: 12eac4bd-06d9-45db-81c2-0591200cbacc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9241dbcbfd15ff50da5e6a9cb32db2318d21c7f70aab6d2420a8e80c59229852
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14b9f64e25a22ffe83c148c1fd1b7a7603b8f3f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118550583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291859"
 ---
 # <a name="translating-to-vbscript"></a>Conversion en VBScript
 

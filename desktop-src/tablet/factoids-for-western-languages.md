@@ -4,12 +4,12 @@ ms.assetid: d4728506-7484-4c4c-a5ae-e98d699f7e76
 title: Factoids pour les langues occidentales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e417c9662252213d761760a1486f9808a2d18bc3236073fe8c8d7746c396beb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de98cfce0203a2a3a94509d6586c1596390ca16b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119936539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294027"
 ---
 # <a name="factoids-for-western-languages"></a>Factoids pour les langues occidentales
 

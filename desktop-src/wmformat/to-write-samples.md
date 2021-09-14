@@ -10,11 +10,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 738014b3c42441e878105d12a8ebf23ce4b266f7
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219473"
 ---
 # <a name="to-write-samples"></a>Pour écrire des exemples
 
@@ -36,7 +36,7 @@ Lorsque vous avez terminé de passer des exemples, appelez [**IWMWriter :: EndW
 
 **Remarque** Il est important que les exemples de tous les flux du fichier soient transmis au writer en cours de synchronisation les uns avec les autres. Autrement dit, chaque fois que cela est possible, vous devez passer des exemples à l’enregistreur dans l’ordre de la durée de la présentation dans la tolérance de synchronisation spécifiée dans [**IWMWriterAdvanced :: SetSyncTolerance**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance). Les meilleurs résultats sont obtenus lorsque les données sont remises à chaque flux en unités d’une seconde ou moins.
 
-Les flux doivent également se terminer à peu près en même temps. Par exemple, vous ne devez pas écrire un fichier avec un flux audio d’une durée de 45 secondes et un flux vidéo de 50 secondes. Si vous encodez un fichier de ce type avec des entrées non modifiées, certaines données audio à la fin du flux seront supprimées (même s’il s’agit du flux plus petit). Pour que l’encodage de fichier fonctionne, vous devez ajouter 5 secondes de silence à l’entrée audio afin qu’un flux ne se termine pas plusieurs secondes avant un autre. Il n’est pas nécessaire pour les types de flux avec des échantillons intermittents, tels que les flux de texte ou d’image, à remplir de cette manière. Les flux de commandes de script doivent également suivre toutes ces règles.
+Flux doit également se terminer à peu près en même temps. Par exemple, vous ne devez pas écrire un fichier avec un flux audio d’une durée de 45 secondes et un flux vidéo de 50 secondes. Si vous encodez un fichier de ce type avec des entrées non modifiées, certaines données audio à la fin du flux seront supprimées (même s’il s’agit du flux plus petit). Pour que l’encodage de fichier fonctionne, vous devez ajouter 5 secondes de silence à l’entrée audio afin qu’un flux ne se termine pas plusieurs secondes avant un autre. Il n’est pas nécessaire pour les types de flux avec des échantillons intermittents, tels que les flux de texte ou d’image, à remplir de cette manière. Les flux de commandes de script doivent également suivre toutes ces règles.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -51,9 +51,9 @@ Les flux doivent également se terminer à peu près en même temps. Par exemple
 [**Écriture de fichiers ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

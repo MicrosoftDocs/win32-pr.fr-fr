@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 3defa68f68e0c2e81bdb093005db1e173442b9686ca4c98a4966c755b2fb52dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67afe9909fcabb8df880706b2b077ea602ccade6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294007"
 ---
 # <a name="iinkanalyzergetrecognizedstring-method"></a>IInkAnalyzer :: GetRecognizedString, méthode
 
@@ -46,11 +46,11 @@ Chaîne de résultat optimale de l’opération de reconnaissance pour l’ensem
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour *pbstrRecognizedString* lorsque vous n’avez plus besoin d’utiliser la chaîne.
@@ -121,7 +121,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

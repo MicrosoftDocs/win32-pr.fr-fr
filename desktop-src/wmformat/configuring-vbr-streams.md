@@ -1,6 +1,6 @@
 ---
-title: Configuration de flux VBR
-description: Configuration de flux VBR
+title: Configuration de VBR Flux
+description: Configuration de VBR Flux
 ms.assetid: 83caabb7-b7fa-4b0a-a608-d5a86e4101b8
 keywords:
 - flux, configuration des flux VBR
@@ -12,13 +12,13 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f6667dc9cf66932cf8af90da0b0e59ad27860ab3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940676"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219588"
 ---
-# <a name="configuring-vbr-streams"></a>Configuration de flux VBR
+# <a name="configuring-vbr-streams"></a>Configuration de VBR Flux
 
 Vous pouvez utiliser l’encodage VBR (variable binaire rate) pour produire des flux de haute qualité pour les fichiers locaux ou pour le téléchargement et la diffusion. Il existe trois options pour VBR : basée sur la qualité (une passe), sans contrainte (deux passes) et contraint (deux passes). Pour plus d’informations sur les types d’encodage VBR, consultez l' [encodage VBR (variable bit rate)](variable-bit-rate--vbr--encoding.md).
 
@@ -35,7 +35,7 @@ Vous pouvez configurer l’encodage VBR dans un profil en définissant les propr
 
 
 
- 
+ 
 
 Les sections suivantes décrivent comment utiliser les différents types de codage à vitesse de transmission variable.
 
@@ -49,18 +49,18 @@ Les sections suivantes décrivent comment utiliser les différents types de coda
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: Contrôle des sessions de suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5970eb160812991677aac775af60d08458c269152edca4aa2e30cdf30c111d96
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b03f1917354679e7a68f9dbd001fc3aa10f09db0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224308"
 ---
 # <a name="controlling-event-tracing-sessions"></a>Contrôle des sessions de suivi d’événements
 

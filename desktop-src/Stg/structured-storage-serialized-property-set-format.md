@@ -6,12 +6,12 @@ keywords:
 - structured Stockage Strctd Stg, fundamentals, format de jeu de propriétés sérialisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5acbc5300c04b4fe5a9b2a9ce2610eefc8608b3921ef52968a7165c4362ff7cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ea03d5ccab337897be801840080e83a6fa86880
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117959773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237299"
 ---
 # <a name="structured-storage-serialized-property-set-format"></a>Format de jeu de propriétés sérialisé Stockage sérialisé
 

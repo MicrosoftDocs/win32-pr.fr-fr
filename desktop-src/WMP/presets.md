@@ -26,11 +26,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e024427d19da0a30f54d9ebc0590feedb8d0f97f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196626"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292907"
 ---
 # <a name="presets"></a>Présélections
 
@@ -44,7 +44,7 @@ Si vous modifiez l’une des informations prédéfinies, vous devez également m
 
 La fonction **IWMPEffects :: Render** se trouve dans le fichier *nom_projet*. cpp, où *ProjectName* est le nom du projet que vous avez choisi lors de l’exécution de l’Assistant.
 
-Le code généré dans la fonction **Render** utilise une instruction switch pour choisir entre deux présélections. La présélection actuelle est celle que l’utilisateur sélectionne dans le lecteur Windows Media. Si vous souhaitez modifier le code qui s’exécute pour une présélection particulière ou ajouter ou soustraire une présélection, modifiez l’instruction switch en conséquence.
+Le code généré dans la fonction **Render** utilise une instruction switch pour choisir entre deux présélections. la présélection actuelle est celle que l’utilisateur sélectionne dans Lecteur Windows Media. Si vous souhaitez modifier le code qui s’exécute pour une présélection particulière ou ajouter ou soustraire une présélection, modifiez l’instruction switch en conséquence.
 
 Les deux présélections sont définies par **les \_ barres prédéfinies** et les énumérations de **\_ portée prédéfinies** . Le choix de la présélection qui sera appelée est défini par m \_ nPreset.
 
@@ -90,7 +90,7 @@ IDS_SCOPEPRESETNAME     "projectname Wave"
 
 
 
-où *nom_projet* est le nom du projet que vous avez choisi lors de l’exécution de l’Assistant. C’est à cet endroit que vous allez modifier les noms réels des présélections, et c’est ainsi que le lecteur Windows Media les appelle et les affiche.
+où *nom_projet* est le nom du projet que vous avez choisi lors de l’exécution de l’Assistant. c’est à cet endroit que vous allez modifier les noms réels des présélections et c’est ainsi qu’il sera fait appel et affiché par Lecteur Windows Media.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -99,9 +99,9 @@ où *nom_projet* est le nom du projet que vous avez choisi lors de l’exécutio
 [**Implémentation de votre code**](implementing-your-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

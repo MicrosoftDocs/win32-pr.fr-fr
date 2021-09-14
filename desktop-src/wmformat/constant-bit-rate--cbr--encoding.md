@@ -12,15 +12,15 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0d3ded3709e2e7a3e5b567b91a127ad3486a0b66
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219556"
 ---
 # <a name="constant-bit-rate-cbr-encoding"></a>Encodage à débit binaire constant (CBR)
 
-L’encodage à débit binaire constant (CBR) est la méthode par défaut d’encodage avec le kit de développement logiciel (SDK) de format Windows Media. Lorsque vous utilisez l’encodage CBR, vous spécifiez la vitesse de transmission cible d’un flux et le codec utilise la quantité de compression nécessaire pour l’obtenir.
+l’encodage à débit binaire Constant (CBR) est la méthode par défaut d’encodage avec le kit de développement logiciel (SDK) de Format multimédia Windows. Lorsque vous utilisez l’encodage CBR, vous spécifiez la vitesse de transmission cible d’un flux et le codec utilise la quantité de compression nécessaire pour l’obtenir.
 
 Avec l’encodage CBR, la vitesse de transmission et la taille du flux encodé sont connues avant l’encodage. Par exemple, si vous encodez une chanson de trois minutes à 32 000 bits par seconde, vous savez que la taille du fichier est d’environ 704 kilo-octets (32 000 BPS x 180 secondes/8 bits par octet/1 024). Vous savez également que la bande passante requise pour diffuser le contenu encodé est environ 32 000 bits par seconde.
 
@@ -45,9 +45,9 @@ En général, les variations de la qualité d’un fichier CBR sont plus prononc
 [**Encodage à vitesse de transmission variable (VBR)**](variable-bit-rate--vbr--encoding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

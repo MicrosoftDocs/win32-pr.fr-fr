@@ -15,11 +15,11 @@ api_type:
 api_location:
 - Scrdenrl.dll
 ms.openlocfilehash: 86a78f03929bc6cdcfc7b611944b81c59a1c9fc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237551"
 ---
 # <a name="iscrdenrgetcerttemplatecount-method"></a>ISCrdEnr :: getCertTemplateCount, méthode
 
@@ -66,7 +66,7 @@ Pointeur vers une **valeur de type long** qui retourne le nombre de modèles de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="c"></a>C++
 
@@ -78,14 +78,14 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Valeur de **type long** qui représente le nombre de modèles de certificats.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

@@ -4,12 +4,12 @@ description: Direct2D et GDI sont des API de rendu 2D en mode immédiat et offre
 ms.assetid: 0028a0c3-445d-46b7-b55b-46dff3bce9ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: daa5fcb0f186915570d220a2807f816eae7a20fb393fbcd3113f6abf686fcd44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f05dce8719f4d07d3160c65b88570391c3eb736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117826540"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114141"
 ---
 # <a name="comparing-direct2d-and-gdi-hardware-acceleration"></a>Comparaison de l’accélération matérielle de Direct2D et GDI
 
@@ -86,7 +86,7 @@ pour cette raison, [GDI](/windows/desktop/gdi/windows-gdi) a été de nouveau mo
 
 Pour assurer la compatibilité, [GDI](/windows/desktop/gdi/windows-gdi) effectue une grande partie de son rendu à la mémoire d’ouverture à l’aide de l’UC. En revanche, [Direct2D](./direct2d-portal.md) traduit ses appels d’API en opérations de dessin et primitives Direct3D. Le résultat est ensuite rendu sur le GPU. Une partie du rendu GDI ? s est effectuée sur le GPU lorsque la mémoire d’ouverture est copiée sur la surface de mémoire vidéo représentant la fenêtre GDI.
 
-### <a name="scalability"></a>Scalabilité
+### <a name="scalability"></a>Extensibilité
 
 Les appels de rendu de [Direct2D](./direct2d-portal.md)sont tous des flux de commandes indépendants vers le GPU. Chaque fabrique Direct2D représente un appareil Direct3D différent. [GDI](/windows/desktop/gdi/windows-gdi) utilise un flux de commande pour toutes les applications sur le système. La méthode GDI peut entraîner une accumulation de la surcharge du contexte de rendu du GPU et de l’UC.
 

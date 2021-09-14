@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: df9eb6e1e748088abaa4780aedfded4e26977018d70dd79f518159185594a90b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ada60a64bb4e7d8b4604b18982630dabd7e44256
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293315"
 ---
 # <a name="iinkanalyzergetnodesfromtextrange-method"></a>IInkAnalyzer :: GetNodesFromTextRange, méthode
 
@@ -70,11 +70,11 @@ Objets [**IContextNode**](icontextnode.md) auxquels limiter la recherche.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plage de texte spécifiée doit être relative à la partie *pNodesToSearch* de la chaîne reconnue du [**IInkAnalyzer**](iinkanalyzer.md), plutôt qu’à la chaîne reconnue du **IInkAnalyzer** entier.
 
@@ -87,7 +87,7 @@ Par exemple, si la chaîne reconnue est « je suis tardif » et que vous appel
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

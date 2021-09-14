@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13598199ccee156ab45481ac0a3f65dde160337e8ad1e20aade134405993987f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5baa2af39a6f12b75f847d226fb15a48c35994c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053777"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293730"
 ---
 # <a name="wmvideoframerate-attribute"></a>Attribut WM/VideoFrameRate
 
@@ -27,13 +27,13 @@ L’attribut **WM/VideoFrameRate** est une valeur décimale qui spécifie la fr�
 
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMVideoFrameRate.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

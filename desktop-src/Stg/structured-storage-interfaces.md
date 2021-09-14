@@ -6,12 +6,12 @@ keywords:
 - Interfaces de Stockage structurées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 345c7b10ae4f73a80b3a263b9a9487c2172382b176404871b363aff336441a09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0010a0d4dec4908111c8a5bb939f795f0a2b2eb3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237311"
 ---
 # <a name="structured-storage-interfaces"></a>Interfaces de Stockage structurées
 

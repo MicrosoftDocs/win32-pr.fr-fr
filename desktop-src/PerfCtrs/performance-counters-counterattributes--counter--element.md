@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 118d144a70c422204f1c2603c6d6d65d13a970d15c676d4a00a090f4aa3f7d42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64fb794d5ab38417d0ecd4ddabba9a28b33c28db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218492"
 ---
 # <a name="counterattributes-counter-element"></a>Élément counterAttributes (Counter)
 
@@ -28,7 +28,7 @@ Identifie une liste d’attributs qui décrit comment le compteur doit être aff
 
 L’élément **counterAttributes** est défini par le type complexe [**Counter**](performance-counters-counter-complex-type.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a21d0100-e020-4e74-b8e3-bb7071194828
 title: MFPKEY_VIDEOSCALING, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da2dc069d70b167dd8da6cb308d70149aec1028f3aaf4e50b5c1cc8ab11104c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 555cec22533b7817c509d5419391039b10c92576
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887650"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235937"
 ---
 # <a name="mfpkey_videoscaling-property"></a>MFPKEY \_ propriété VIDEOSCALING
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La mise à l’échelle vidéo est un type d’optimisation de perception qui peut améliorer la qualité visuelle de la vidéo encodée à des vitesses de transmission faibles. L’optimisation de la mise à l’échelle vidéo réduit les artefacts prononcés, mais peut sacrifier les détails de l’image. Cette optimisation affecte la plage de luminance de la vidéo encodée comme décrit ci-dessous, mais n’affecte pas la résolution physique de la vidéo de sortie.
 
@@ -45,7 +45,7 @@ Cette propriété peut être définie sur l’une des valeurs suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

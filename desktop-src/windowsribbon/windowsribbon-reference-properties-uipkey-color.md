@@ -4,12 +4,12 @@ description: Identifie la propriété de couleur de l’interface utilisateur \_
 ms.assetid: cf0d1bea-0d31-4136-b077-27f4e40ed301
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 803d61221087faacf95d926864c8f9682cf30202b4d4440bb33b553dfe75c8f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebee0613a16ebfb950438d2544896c005dab25f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119449509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293903"
 ---
 # <a name="ui_pkey_color"></a>Couleur de l’interface utilisateur \_ \_
 
@@ -25,7 +25,7 @@ propertyDescription
       type = VT_UI4
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 \_ \_ La couleur de l’IU est utilisée par une application pour interroger la valeur de couleur du contrôle [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) .
 

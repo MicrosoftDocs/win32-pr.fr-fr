@@ -5,11 +5,11 @@ ms.assetid: 05ff1771-8058-4c86-8f45-735bf41dc128
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b06e516aa06465c67966cc076a0ca524d4ae4003
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842641"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218505"
 ---
 # <a name="requirements-for-network-management-functions-on-servers-and-workstations"></a>Configuration requise pour les fonctions de gestion de réseau sur les serveurs et les stations de travail
 
@@ -47,6 +47,6 @@ Par défaut, seuls les administrateurs et les utilisateurs avec pouvoir peuvent 
 
 Pour plus d’informations sur le contrôle de l’accès aux objets sécurisables, consultez [Access Control](/windows/desktop/SecAuthZ/access-control), [privilèges](/windows/desktop/SecAuthZ/privileges)et [objets sécurisables](/windows/desktop/SecAuthZ/securable-objects). Pour plus d’informations sur l’appel de fonctions qui requièrent des privilèges d’administrateur, consultez [exécution avec des privilèges spéciaux](/windows/desktop/SecBP/running-with-special-privileges).
 
- 
+ 
 
- 
+ 

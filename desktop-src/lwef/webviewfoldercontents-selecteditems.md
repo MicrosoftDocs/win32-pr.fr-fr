@@ -3,9 +3,9 @@ title: WebViewFolderContents.SelectedItems, méthode (Shldisp.h)
 description: WebViewFolderContents. SelectedItems, méthode-obtient un objet FolderItems qui représente tous les éléments sélectionnés dans la vue.
 ms.assetid: 683acac4-f157-4a75-a3f8-c693887c1ea5
 keywords:
-- SelectedItems, méthode fonctionnalités d’environnement Windows héritées
-- SelectedItems, méthode fonctionnalités d’environnement Windows héritées, objet WebViewFolderContents
-- Objet WebViewFolderContents fonctionnalités d’environnement Windows héritées, SelectedItems, méthode
+- fonctions de l’environnement Windows héritées de la méthode SelectedItems
+- SelectedItems, méthode héritage Windows fonctionnalités d’environnement, objet WebViewFolderContents
+- objets WebViewFolderContents hérités (fonctionnalités de l’environnement Windows), SelectedItems, méthode
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 25a242991f6f9472610dffa20593f9cab5d8c310
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292287"
 ---
 # <a name="webviewfoldercontentsselecteditems-method"></a>WebViewFolderContents. SelectedItems, méthode
 
@@ -40,7 +40,7 @@ retVal = WebViewFolderContents.SelectedItems()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **FolderItems**](../shell/folderitems.md)\*\***
 
@@ -48,7 +48,7 @@ Référence d’objet à l’objet [**FolderItems**](../shell/folderitems.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript Embedded en HTML.
+l’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript incorporée en HTML.
 
 
 ```HTML
@@ -82,13 +82,13 @@ L’exemple suivant illustre l’utilisation correcte de cette méthode pour JSc
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

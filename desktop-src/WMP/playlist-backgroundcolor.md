@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27a2594e8a20ee7f9321254975487750baa27effbf5d01208078e602d03bb8ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57ed142eaaf7239df054093421db9ad7dddc28ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293062"
 ---
 # <a name="playlistbackgroundcolor"></a>PLAYLIST. backgroundColor
 
@@ -31,7 +31,7 @@ L’attribut **backgroundColor** spécifie ou récupère la couleur d’arrière
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. elle a une valeur par défaut égale à la couleur de la fenêtre système Windows.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

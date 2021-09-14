@@ -16,11 +16,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0bfc2e88c162068de2b97c9df5071398e2fab068
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106540923"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293643"
 ---
 # <a name="d3d12getformatplanecount-function"></a>D3D12GetFormatPlaneCount fonction)
 
@@ -60,13 +60,13 @@ Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dx
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UINT8**
 
 Nombre de plans pour le format spécifié sur la carte virtuelle spécifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

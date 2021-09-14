@@ -7,12 +7,12 @@ keywords:
 - Jeux de propriétés UserDefined
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d76c679fd8b4059e821598bed37d68735c45f914e4685e43a1c514b832e199e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 411c6081ec098539baa2b26b6594d04216f5b455
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118886835"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237251"
 ---
 # <a name="the-documentsummaryinformation-and-userdefined-property-sets"></a>Jeux de propriétés DocumentSummaryInformation et UserDefined
 
@@ -38,7 +38,7 @@ Le tableau suivant répertorie les propriétés ajoutées au jeu de propriétés
 | Lignes              | **PIDDSI \_ LINECOUNT**   | 0x00000005                | **VT \_**                        |
 | Paragraphes         | **PIDDSI \_ PARCOUNT**    | 0x00000006                | **VT \_**                        |
 | Diapositives             | **PIDDSI \_ SLIDECOUNT**  | 0x00000007                | **VT \_**                        |
-| Remarques              | **PIDDSI \_ NOTECOUNT**   | 0x00000008                | **VT \_**                        |
+| Notes              | **PIDDSI \_ NOTECOUNT**   | 0x00000008                | **VT \_**                        |
 | HiddenSlides       | **PIDDSI \_ HIDDENCOUNT** | 0x00000009                | **VT \_**                        |
 | MMClips            | **PIDDSI \_ MMCLIPCOUNT** | Stop                | **VT \_**                        |
 | ScaleCrop          | **\_échelle PIDDSI**       | 0x0000000B                | **VT \_ bool**                      |

@@ -5,11 +5,11 @@ ms.assetid: 46d497b5-c325-4395-8512-1ed4b88441de
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7dc34dc699488b5952d52dfd13f49ea63aaa85aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237246"
 ---
 # <a name="the-evolution-of-file-systems"></a>L’évolution des systèmes de fichiers
 
@@ -25,9 +25,9 @@ Toutefois, dans un monde d’objets de composant, le stockage de données dans u
 
 La solution fournie par COM consiste à implémenter un deuxième niveau d’indirection : un système de fichiers dans un fichier. Le stockage de fichiers plats exige qu’une grande séquence contiguë d’octets sur le disque soit manipulée par le biais d’un seul descripteur de fichier avec un seul pointeur de recherche. En revanche, le stockage structuré COM définit comment traiter une entité de système de fichiers unique comme une collection structurée de deux types d’objets (stockages et flux) qui agissent comme des répertoires et des fichiers.
 
- 
+ 
 
- 
+ 
 
 
 

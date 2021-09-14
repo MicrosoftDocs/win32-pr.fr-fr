@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sfcfiles.dll
-ms.openlocfilehash: 3201621808708229419542acd7fa0caab0aa7f6e7d38bfe723b7f53bc68c4005
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b38b761372db656308e778fd96ea48607cf1f21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293718"
 ---
 # <a name="sfcgetfiles-function"></a>SfcGetFiles fonction)
 
@@ -56,11 +56,11 @@ Pointeur vers un emplacement contenant une valeur ULONG qui correspond au nombre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est STATUs \_ successful. Si la fonction échoue, elle retourne le code d’erreur NTSTATUS approprié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

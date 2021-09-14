@@ -4,12 +4,12 @@ ms.assetid: 76d42a3d-22f5-47f9-89e8-7c5c098ac62e
 title: Blocs de construction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dbf34cc0159bdf2efe9b68255292a8b644ab10e684f44c11fa60d484bd45516
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b32e6121ddfaabfc860239019ce62df65bdc36c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119714289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294058"
 ---
 # <a name="building-blocks"></a>Blocs de construction
 

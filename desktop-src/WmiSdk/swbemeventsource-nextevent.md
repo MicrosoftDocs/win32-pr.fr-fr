@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6ce39d442b48f32c2aafcd6e24c1c214dce82a19435b6b36bce65d5426161859
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02fbc32557ab29c66849a4249d26cc2ca41564e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119050067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292830"
 ---
 # <a name="swbemeventsourcenextevent-method"></a>Méthode SWbemEventSource. NextEvent
 
@@ -51,7 +51,7 @@ Nombre de millisecondes pendant lesquelles l’appel attend un événement avant
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode **NextEvent** réussit, elle retourne un objet [**SWbemObject**](swbemobject.md) qui contient l’événement demandé. Si l’appel expire, l’objet retourné est **null** et une erreur est générée.
 
@@ -68,7 +68,7 @@ L’événement demandé n’est pas arrivé dans le laps de temps spécifié da
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 19E94CA6-C5E0-4e2f-A931-B08B6E2BF4DC
 title: System. photo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f6109e2796305036c7dd97903cd582b98a44807dcd20397052baac440fefee4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e2b058690bbe641ed4587297a6b25acff59c045
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118709236"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293218"
 ---
 # <a name="systemphoto"></a>System. photo
 

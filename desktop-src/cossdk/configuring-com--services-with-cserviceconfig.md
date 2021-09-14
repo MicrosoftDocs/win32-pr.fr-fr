@@ -5,11 +5,11 @@ title: Configuration des services COM+ avec CServiceConfig
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bc8bbc6c3131347f450340863db70fd9b3999730
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291823"
 ---
 # <a name="configuring-com-services-with-cserviceconfig"></a>Configuration des services COM+ avec CServiceConfig
 
@@ -21,7 +21,7 @@ La classe [**CServiceConfig**](cserviceconfig.md) est utilisée pour configurer 
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IServiceInheritanceConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iserviceinheritanceconfig)<br/>         | Interface par défaut de la classe. Elle est utilisée pour initialiser rapidement un grand nombre des services COM+.<br/>                                                                                              |
 | [**IServiceComTIIntrinsicsConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iservicecomtiintrinsicsconfig)<br/> | Utilisé pour configurer les informations intrinsèques de l’COM Transaction Integrator (COMTI). COMTI permet aux développeurs d’intégrer des programmes de transaction basés sur des macroordinateurs à des applications basées sur des composants.<br/> |
-| [**IServiceIISIntrinsicsConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iserviceiisintrinsicsconfig)<br/>     | Utilisé pour configurer les informations intrinsèques du Internet Information Services (IIS).<br/>                                                                                                             |
+| [**IServiceIISIntrinsicsConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iserviceiisintrinsicsconfig)<br/>     | utilisé pour configurer les informations intrinsèques du Internet Information Services (IIS).<br/>                                                                                                             |
 | [**IServicePartitionConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iservicepartitionconfig)<br/>             | Utilisé pour configurer le mode d’utilisation des partitions COM+ avec les services.<br/>                                                                                                                             |
 | [**IServiceSxSConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iservicesxsconfig)<br/>                         | Utilisé pour configurer des assemblys côte à côte.<br/>                                                                                                                                                    |
 | [**IServiceSynchronizationConfig**](/windows/desktop/api/ComSvcs/nn-comsvcs-iservicesynchronizationconfig)<br/> | Utilisé pour configurer les services de synchronisation COM+.<br/>                                                                                                                                              |

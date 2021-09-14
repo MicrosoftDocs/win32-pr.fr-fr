@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: 1569d162aef358130910081bee80354cb64f690d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973290"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293339"
 ---
 # <a name="notificationicon-sample"></a>NotificationIcon, exemple
 
@@ -63,16 +63,16 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **NotificationIcon** .
 2.  Entrez `msbuild NotificationIcon.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **NotificationIcon** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **NotificationIcon** .
 2.  Double-cliquez sur l’icône du fichier NotificationIcon. sln pour ouvrir le projet dans Visual Studio.
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’Explorateur Windows.
-2.  Sur la ligne de commande, entrez `NotificationIcon.exe` . Vous pouvez également, à partir de l’Explorateur Windows, double-cliquer sur l’icône de NotificationIcon.exe.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’explorateur de Windows.
+2.  Sur la ligne de commande, entrez `NotificationIcon.exe` . vous pouvez également, à partir de Windows Explorer, double-cliquer sur l’icône de NotificationIcon.exe.
 
 > [!Note]  
 > Les icônes de notification spécifiées avec un GUID sont protégées contre l’usurpation en validant qu’une seule application les enregistre. Cette inscription est effectuée la première fois que vous appelez l’interface \_ NotifyIcon de l’interpréteur de commandes (NIM \_ Add,...) et le nom du chemin d’accès complet de l’application appelante est stocké. Si, par la suite, vous déplacez votre fichier binaire vers un emplacement différent, le système n’autorise pas l’ajout de l’icône. Pour plus d’informations, consultez [**\_ NotifyIcon de l’interpréteur**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) de commandes.

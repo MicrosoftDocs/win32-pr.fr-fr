@@ -6,12 +6,12 @@ keywords:
 - Espace de noms D2D1, classes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b13f3fddcd1939de335dce47d26637780183894fcaa53d16bb0e01aa3ba1dcd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71527ad35bdec7e2ea69be16839a5f0e5a1780fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114154"
 ---
 # <a name="direct2d-helper-classes"></a>Classes d’assistance Direct2D
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2776bf3661013f1e622bbc2e1c553f2551c62808
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363508"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293675"
 ---
 # <a name="legacysecurereferences"></a>LegacySecureReferences
 
@@ -24,7 +24,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
    LegacySecureReferences = value
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une valeur de **reg \_ SZ** . La valeur « Y » ou « y » indiquent que **AddRef** et **Release** sont sécurisés. Si cette valeur de Registre est absente ou est définie sur une valeur autre que « Y » ou « y », **AddRef** et **Release** ne sont pas sécurisés. L’activation de références sécurisées ralentit les appels distants.
 

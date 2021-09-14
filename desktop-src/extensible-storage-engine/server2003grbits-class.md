@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 09ea51356b684f28109a164670ba7271dcacfc554306167ed30b2c1413592189
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be4722a95546a52b3cf845b7e32a312b66c62fe0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119471679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294214"
 ---
 # <a name="server2003grbits-class"></a>Server2003Grbits, classe
 
@@ -62,7 +62,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres Server2003Grbits](./server2003grbits-members.md)
 

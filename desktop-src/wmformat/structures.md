@@ -8,12 +8,12 @@ keywords:
 - ASF (format des systèmes avancés), structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 319be2d061132f59c1c75ebb295c8ceb8ae87ffbcce48e8259a1faedcf18d666
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f730ba3cbc5bd8bbec2a9f01c72df1fe46f0b64
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293818"
 ---
 # <a name="windows-media-format-sdk-structures"></a>Windows Structures du SDK Media format
 

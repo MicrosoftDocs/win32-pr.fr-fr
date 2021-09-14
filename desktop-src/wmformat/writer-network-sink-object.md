@@ -10,12 +10,12 @@ keywords:
 - objets du récepteur réseau du writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2011fd161fc4ac5e1cd03d955f06259e6499e343970cc309b1e8c41db051a32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c85af356c1d326ddaaf3703ca87c3b7bdd1628b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117843724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293110"
 ---
 # <a name="writer-network-sink-object"></a>Objet récepteur réseau de l’enregistreur
 

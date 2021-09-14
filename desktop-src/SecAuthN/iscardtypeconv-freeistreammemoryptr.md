@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 62e91f9d8fca06c812370091b407edb73fed433a4c576857a7e089db28d6d856
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12912b8130ed6e1ccaa995f88069b59e96f57c09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922388"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218177"
 ---
 # <a name="iscardtypeconvfreeistreammemoryptr-method"></a>ISCardTypeConv :: FreeIStreamMemoryPtr, méthode
 
@@ -56,7 +56,7 @@ Pointeur vers le bloc de mémoire géré par l’interface **IStream** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes :
 
@@ -73,11 +73,11 @@ La méthode retourne l’une des valeurs possibles suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction libère complètement et correctement le pointeur d’octet pointant vers le bloc de mémoire HGLOBAL géré par l’interface **IStream** . Le pointeur d’octet est acquis par un appel à [**GetAtIStreamMemory**](iscardtypeconv-getatistreammemory.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

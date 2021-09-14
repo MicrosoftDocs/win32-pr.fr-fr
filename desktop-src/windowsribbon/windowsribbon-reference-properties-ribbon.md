@@ -4,12 +4,12 @@ description: Documentation de référence sur les clés de propriété pour la v
 ms.assetid: 1cd690a5-d283-4fb4-ac76-48b014ac2394
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd9532b8cc2844449a2acb227bba91bf4e0860456ca82a5d0edd6ee702743fed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49e0f53365e21ec285d970821fd8fb2d1a9701e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850465"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293930"
 ---
 # <a name="ribbon-properties"></a>Propriétés du ruban
 

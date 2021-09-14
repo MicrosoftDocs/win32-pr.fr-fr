@@ -4,12 +4,12 @@ description: Les contrôles Edit permettent à un utilisateur d’afficher et de
 ms.assetid: a42c73f2-4005-4db9-84bc-637c9c4310f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3844dcdf99f925813765ae46494b0ff70345c086f3845304fff0e53d70f07d22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0dde6e562b651b91376bc7d675b2b71ac999cf48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118829843"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291907"
 ---
 # <a name="edit-control-msaa-ui-element-reference"></a>Edit, contrôle (référence des éléments d’interface utilisateur MSAA)
 
@@ -55,7 +55,7 @@ Les contrôles d’édition prennent en charge les propriétés [**IAccessible**
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 -   Microsoft Active Accessibility ne prend pas en charge la sélection du texte contenu dans les contrôles Edit et Rich Edit, car le texte est exposé sous la forme d’une chaîne dans la propriété **value** de l’objet.
 -   le contrôle richedit fourni par Riched20.dll (utilisé dans les éditeurs de texte comme WordPad dans Windows 98) n’envoie pas de WinEvents lorsque la position du signe insertion est modifiée pendant la sélection du texte. Quand les utilisateurs appuient sur la touche Maj et les touches de direction pour sélectionner du texte, l’objet caret ne déclenche pas l' [**objet d’événement \_ \_ LOCATIONCHANGE**](event-constants.md) WinEvent. Lorsque la sélection est définie par programme par le biais de messages Rich Edit, l’objet caret n’envoie aucun événement pour indiquer sa nouvelle position.

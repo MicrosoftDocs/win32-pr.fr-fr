@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 08b9ea7e483f6580e3f896a6a3f54a65e9117597538564889df8a5afb2fe795f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d2392f2240ca9ca61525b27993e16bcab979a97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218396"
 ---
 # <a name="hexint32type-simple-type-performance-counters"></a>Type simple HexInt32Type (compteurs de performance)
 
@@ -40,7 +40,7 @@ Le type simple **HexInt32Type** est un **XS : String** qui est limité par le m
 
     La valeur peut contenir de un à huit caractères hexadécimaux (par exemple, 0xA ou 0xac7bd361).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

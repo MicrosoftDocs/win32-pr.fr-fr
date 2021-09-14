@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e648dd59ab7c650aad38379dbc7320446c262b4a4970caa1fcca612c4e21b443
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fcc5f8ef5dc76428ca892d079b60692e6949a5ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293039"
 ---
 # <a name="playlistcolumns"></a>PLAYLIST. colonnes
 
@@ -69,7 +69,7 @@ nom de la base de noms \_ = nom convivial ; nom de la base de noms \_ \_ = \_ n
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’une des colonnes n’existe pas dans la bibliothèque, elle est laissée vide.
 
@@ -77,7 +77,7 @@ Vous pouvez spécifier au maximum 31 colonnes.
 
 Si vous spécifiez une colonne dupliquée, les données de la première colonne sont alignées à gauche, mais toutes les autres colonnes dupliquées sont alignées à droite. Par exemple, si vous avez deux colonnes de durée, les données sont alignées à gauche dans le premier et aligné à droite dans la seconde.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

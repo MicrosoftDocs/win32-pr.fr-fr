@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5503d11d5c73f2bf955b25da9b5dbccbc18d41b9bc9b84bc3235993562938b5c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c979fd76ffb4ee97f62362d53fac4151de17bae6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119612199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292814"
 ---
 # <a name="swbemlasterrorpath_-property"></a>SWbemLastError. Path, \_ propriété
 
@@ -42,7 +42,7 @@ SWbemLastError.Path_ As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Seule la propriété de [**classe**](swbemobjectpath-class.md) de l’instance [**SWbemObjectPath**](swbemobjectpath.md) retournée peut être modifiée. Si vous essayez de modifier une autre propriété ou si vous essayez d’appeler les méthodes [**SetAsClass**](swbemobjectpath-setasclass.md) ou [**SetAsSingleton**](swbemobjectpath-setassingleton.md) , vous recevez une erreur de **wbemErrReadOnly**.
 
@@ -50,7 +50,7 @@ Pour cette raison, vous ne pouvez pas modifier l’objet [**SWbemNamedValueSet**
 
 Toutefois, si vous appelez [**SWbemObject. Clone \_**](swbemobject-clone-.md) pour créer une copie, la propriété [**path \_**](swbemobject-path-.md) de la copie est entièrement modifiable.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

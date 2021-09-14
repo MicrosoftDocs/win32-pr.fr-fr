@@ -4,12 +4,12 @@ description: Les propriétés réelles suivent la table des valeurs de jeu de pr
 ms.assetid: 8523458b-8b1b-4e9f-8f96-d7601e57675c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e6372db4d3f1d7bfee9b6c9d2435f9c8d5a7be6d7cce123c5b8b2185ac092c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8383a860f07e908b72a7b25091f3cc2e280e4407
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117959550"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237221"
 ---
 # <a name="type-indicators"></a>Indicateurs de type
 

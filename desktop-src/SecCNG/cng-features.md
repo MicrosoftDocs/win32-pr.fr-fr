@@ -4,12 +4,12 @@ ms.assetid: 400a2b6e-6bbe-4ba4-abde-a2f625007517
 title: Fonctionnalités CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 434c72075c04b0c280c85831ca78d930c0fcc047de19609d11764bcf63ddad56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df40606a255adc90bd36540571979c1c34579611
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908446"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237744"
 ---
 # <a name="cng-features"></a>Fonctionnalités CNG
 

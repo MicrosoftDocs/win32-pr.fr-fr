@@ -4,12 +4,12 @@ ms.assetid: AF58F393-895C-4241-B423-BBADA9B1AE41
 title: Pseudo-handles de l’algorithme CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb8058f33fce4f353a71301da18d8dace1ea03ba1698671b42b163556ee80a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aaade3f795cdd542c0e731925fbadb8267984582
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908825"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237767"
 ---
 # <a name="cng-algorithm-pseudo-handles"></a>Pseudo-handles de l’algorithme CNG
 
@@ -135,7 +135,7 @@ ms.locfileid: "118908825"
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 à compter de Windows 10, CNG fournit des handles d’algorithme prédéfinis pour de nombreux algorithmes. Vous pouvez utiliser ces handles dans toutes les situations qui requièrent un handle d’algorithme. Toutefois, tout appel à [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) échoue, car le handle d’algorithme est partagé et ne peut pas être modifié. En outre, ces handles ne peuvent pas être utilisés au niveau IRQL = DISPATCH en mode noyau.
 

@@ -5,11 +5,11 @@ ms.assetid: b3d6d617-e423-4ed5-9d29-be72c5dd8b49
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9c5ec0fcc3b6ea358e8238061bc74e2933d8bf87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218100"
 ---
 # <a name="engine-adapter-wrappers"></a>Wrappers d’adaptateur de moteur
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: aeae2ac3cb57f8ddbb2343ee3f42d30fa8def370
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218537"
 ---
 # <a name="mciwndm_setrepeat-message"></a>\_Message MCIWNDM SETREPEAT
 
@@ -49,7 +49,7 @@ Nouvel état de l’indicateur de répétition. Spécifiez **true** pour activer
 
 Retourne zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À l’heure actuelle, MCIAVI est le seul périphérique qui prend en charge la lecture continue.
 

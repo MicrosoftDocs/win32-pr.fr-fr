@@ -4,12 +4,12 @@ description: Visual Basic Interfaces privées
 ms.assetid: 782e5d87-680e-4d0c-b1e6-cf97d1a37ce5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd69e70d351245ebafa62d521a133726be568a0437f4e04ece4ef761535f4625
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5af32f46c02b9b76cdf3dd83e9a22a028aaa88d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291843"
 ---
 # <a name="visual-basic-private-interfaces"></a>Visual Basic Interfaces privées
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: e2ed15da1c2eaf38ed8ac0617756ddb85d713f490b1a3a26af0db11da834b206
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa035b89c531f3b2d230ab849ba20b945dd2d25c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119337209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294075"
 ---
 # <a name="_ianalysisproxyeventscontextnodepropertiesupdated-event"></a>\_Événement IAnalysisProxyEvents :: ContextNodePropertiesUpdated
 
@@ -54,17 +54,17 @@ Objet [**IContextNode**](icontextnode.md) dont les propriétés sont mises à jo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cet événement lorsque votre application gère sa propre structure de données, qui est synchronisée avec celle du [**IInkAnalyzer**](iinkanalyzer.md). Cet événement se produit pendant la phase de rapprochement de l’analyse de l’encre, ou en réponse à une méthode d’analyseur d’encre qui modifie les propriétés d’un [**IContextNode**](icontextnode.md) (consultez [**IContextNode :: GetPropertyData**](icontextnode-getpropertydata.md)).
 
 Pour plus d’informations sur la synchronisation des données de votre application avec [**IInkAnalyzer**](iinkanalyzer.md), consultez [Data proxy with Ink Analysis](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Documentation de référence sur les clés de propriété pour l’
 ms.assetid: 4d002be3-fa0d-4694-bcd2-26900b34060c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cd521f85273ef1413f0e16b0c02c93aa10d4724b857894b38f3045caa28c53d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a36336ce31536b357be1498aa12d4f56da41c5cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850418"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293922"
 ---
 # <a name="state-properties"></a>Propriétés de l’État
 

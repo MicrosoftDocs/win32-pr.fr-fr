@@ -5,11 +5,11 @@ title: Élément de contenu [lecteur de journal]
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d544aebac1292a81c9a4acd05cb25da80977027e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293323"
 ---
 # <a name="content-element-journal-reader"></a>Lecteur du journal des éléments de contenu \[\]
 
@@ -33,7 +33,7 @@ Contient le contenu d’une page de journal.
 
 [**Dessin**](drawing-element.md)
 
-[**Texte**](text-element.md)
+[**Financière**](text-element.md)
 
 [**Image**](image-element.md)
 

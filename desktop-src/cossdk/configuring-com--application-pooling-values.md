@@ -4,12 +4,12 @@ ms.assetid: faba5cb7-745e-4fdf-a3e0-62132da4a843
 title: Configuration des valeurs de regroupement d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25d3407cd644b68cfc3ef279a9e67603aa1dc2db85302b22dbf0c6ae7219fd3b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98922699fff7af7146250bdb504a1f46be08718e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128971"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291827"
 ---
 # <a name="configuring-com-application-pooling-values"></a>Configuration des valeurs de regroupement d’applications COM+
 

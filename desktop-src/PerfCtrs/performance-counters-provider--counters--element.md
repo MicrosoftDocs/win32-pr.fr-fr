@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fc6b1ee4d5f20c0d91c996e20844d3f1a356aeef59f779c110af9c0718ca59ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bec1c1cccd46290ea9336f3e2a3055a5a2eece61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218385"
 ---
 # <a name="provider-counters-element"></a>Provider (compteurs) (élément)
 
@@ -28,7 +28,7 @@ Identifie le fournisseur et les compteurs qu’il fournit.
 
 L’élément **Provider** est défini par le type complexe [**Counters**](performance-counters-counters-complex-type.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

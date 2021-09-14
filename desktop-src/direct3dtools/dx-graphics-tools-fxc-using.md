@@ -6,12 +6,12 @@ keywords:
 - fxc, compilation hors connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a15d3a71dbfb79541a75bd38cb28140d832b45e75a88a52b2d0c8988865f12
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8e7c2bf96a24cb586a5d229a395cbf6dc0cb9ee1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119406329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236909"
 ---
 # <a name="offline-compiling"></a>Compilation hors connexion
 

@@ -4,12 +4,12 @@ ms.assetid: 1c9cbb18-9295-4847-86c1-d596668cbe57
 title: Utilisation des types de données génériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77a61bed094506f0d31718b0b88fe519028ba1db785ebda3e00404a7aa3257e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d0e2604f87b12e86076bed47f509c6398fa8482b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119535460"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224044"
 ---
 # <a name="using-generic-data-types"></a>Utilisation des types de données génériques
 

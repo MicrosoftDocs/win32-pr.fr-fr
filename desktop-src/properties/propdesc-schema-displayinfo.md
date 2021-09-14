@@ -5,11 +5,11 @@ title: displayInfo
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9b0bbc3cf0f17d24672e30a110d95341c1cb902d
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235541"
 ---
 # <a name="displayinfo"></a>displayInfo
 
@@ -17,7 +17,7 @@ Spécifie les informations d’affichage d’une propriété. Il ne doit y avoir
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [displayInfo]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```

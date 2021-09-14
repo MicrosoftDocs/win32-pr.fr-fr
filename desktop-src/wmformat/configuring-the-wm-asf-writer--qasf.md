@@ -21,12 +21,12 @@ keywords:
 - Rédacteur ASF WM, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba4559fc1780bdb9a9b398471cc842e2f3cf46f9c84a483229b01b3b6fa4a1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72f954522c4acae89e6f6dd001561811088c2a9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118199175"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219577"
 ---
 # <a name="configuring-the-wm-asf-writer-qasf"></a>Configuration de l’enregistreur ASF de WM (QASF)
 

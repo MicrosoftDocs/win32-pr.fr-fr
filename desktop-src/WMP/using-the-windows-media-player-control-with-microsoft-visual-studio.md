@@ -25,12 +25,12 @@ keywords:
 - Visual Studio, incorporation de programme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73bb9597b8ad5baadbd51625c68a1d7fb7ebc1791c2d6e8015fb79ba2cab3be6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44b01fecd6acdfd5ccc9a7d823740ef3915bf9c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118830448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293759"
 ---
 # <a name="using-the-windows-media-player-control-with-microsoft-visual-studio"></a>utilisation du contrôle Lecteur Windows Media avec Microsoft Visual Studio
 

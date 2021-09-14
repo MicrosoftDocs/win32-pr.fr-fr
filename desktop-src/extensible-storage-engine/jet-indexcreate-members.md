@@ -8,11 +8,11 @@ ms:contentKeyID: 55103641
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: cbe9ce962221db30c8cdae90461fa55fc0baea19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294235"
 ---
 # <a name="jet_indexcreate-members"></a>Membres JET_INDEXCREATE
 
@@ -64,7 +64,7 @@ Haut
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
 <td><a href="dn335156(v=exchg.10).md">cbKeyMost</a></td>
-<td>Obtient ou définit la taille maximale autorisée, en octets, pour les clés dans l’index. La taille de clé maximale prise en charge minimale est JET_cbKeyMostMin (255) qui est la taille de clé maximale héritée. La taille de clé maximale dépend de la taille de page de la base de données <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>. La <a href="dn351156(v=exchg.10).md">taille de clé</a>maximale peut être récupérée avec. Ce paramètre est ignoré sur Windows XP et Windows Server 2003. Contrairement à l’API non managée, <strong>IndexKeyMost ()</strong> (JET_bitIndexKeyMost) n’est pas nécessaire, elle est ajoutée automatiquement.</td>
+<td>Obtient ou définit la taille maximale autorisée, en octets, pour les clés dans l’index. La taille de clé maximale prise en charge minimale est JET_cbKeyMostMin (255) qui est la taille de clé maximale héritée. La taille de clé maximale dépend de la taille de page de la base de données <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>. La <a href="dn351156(v=exchg.10).md">taille de clé</a>maximale peut être récupérée avec. ce paramètre est ignoré sur Windows XP et Windows Server 2003. Contrairement à l’API non managée, <strong>IndexKeyMost ()</strong> (JET_bitIndexKeyMost) n’est pas nécessaire, elle est ajoutée automatiquement.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>

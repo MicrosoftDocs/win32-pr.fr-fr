@@ -4,12 +4,12 @@ description: La directive \ if contrôle la compilation conditionnelle du fichie
 ms.assetid: 4d0f26a0-1a2d-4fad-b5ce-b9441397d2c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3d898d0089ab6abeefb8c11e3a781446e498ed7c0f490545189987ec4857f0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 364d6f5eb818813f61f6428446effb4793b96b2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119599710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294151"
 ---
 # <a name="if"></a>\#que
 
@@ -28,7 +28,7 @@ Expression à vérifier. Cette valeur est un nom défini, une constante entière
 
 </dd> </dl>
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Cet exemple compile l’instruction [**bitmap**](bitmap-resource.md) uniquement si la valeur affectée à la valeur est inférieure à 3 :
 

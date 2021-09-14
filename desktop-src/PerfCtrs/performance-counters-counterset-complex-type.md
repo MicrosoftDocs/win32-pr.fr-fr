@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 95d3abd57a14648013a74b841b898c8a4abf229815e56a68ffc95dbafa1567f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e753fab4308f1e981ab06e9470742ace46840a39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119775399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218428"
 ---
 # <a name="counterset-complex-type"></a>Type complexe counterSet
 
@@ -118,7 +118,7 @@ Définit une liste de compteurs logiquement liés.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

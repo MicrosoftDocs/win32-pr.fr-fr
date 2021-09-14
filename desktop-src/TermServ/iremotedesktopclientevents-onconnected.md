@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df3812f560185d9ae7422d992c3d1d89dc2af48fe7cbcbaf637c66bfd8461439
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5c5aa5239a3071570a5dcf838d36626897ec93f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120124929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237192"
 ---
 # <a name="iremotedesktopclienteventsonconnected-method"></a>IRemoteDesktopClientEvents :: OnConnected, méthode
 
@@ -41,11 +41,11 @@ void OnConnected();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

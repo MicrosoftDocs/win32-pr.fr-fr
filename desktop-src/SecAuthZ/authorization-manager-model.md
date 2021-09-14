@@ -4,12 +4,12 @@ ms.assetid: c6d37b2e-b149-43e2-8155-cb2f669e421c
 title: Modèle du gestionnaire d’autorisations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20973b8b3e1b35780cc771c04302430b44352a112745842dcbdb66e92b948aad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3455c9577f24b260bd02f947d0af99ec85570bd5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784192"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218169"
 ---
 # <a name="authorization-manager-model"></a>Modèle du gestionnaire d’autorisations
 

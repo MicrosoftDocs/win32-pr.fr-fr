@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29cb8155a4424aa0d9b4c4ffa7fde17c8df569c966b0f6a998ac8f93cd4fc227
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 153b27dd8aaabfc12975ac122361b438711610e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118336704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292982"
 ---
 # <a name="playlistplaylistitemsvisible"></a>PLAYLIST. playlistItemsVisible
 
@@ -42,11 +42,11 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La zone éléments de la sélection comprend les en-têtes de colonnes, le contenu des colonnes et les barres de défilement (le cas échéant).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

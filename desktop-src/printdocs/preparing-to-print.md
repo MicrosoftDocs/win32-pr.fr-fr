@@ -4,12 +4,12 @@ ms.assetid: 98ae97e2-25c1-455c-8283-45bb07fb8251
 title: 'Procédure : collecter des informations de travail d’impression à partir de l’utilisateur'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51ccbd221a707fad8059b99f84cc011473450430e7b56578b5e8368cd5bd1c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c4ddbc874ddbb36aa9b82e8eafeadb46883f528
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119947829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293430"
 ---
 # <a name="how-to-collect-print-job-information-from-the-user"></a>Procédure : collecter des informations de travail d’impression à partir de l’utilisateur
 

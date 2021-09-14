@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4ccd66085f96ac7f3567ca3bf993d7d31c9bc70437199701fe88165adf52d03e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8efb9221f39b8544eabe8f6c00d21f6cfdf20c14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120126719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237695"
 ---
 # <a name="certificates-object"></a>Objet Certificates
 
@@ -58,9 +58,9 @@ L’objet **Certificates** possède ces méthodes.
 | Méthode                                | Description                                                                                                                                                           |
 |:--------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Complémentaires**](certificates-add.md)       | Ajoute un objet [**certificat**](certificate.md) à la collection.<br/> (Héritée de **CertificatesICertificates2**)                                        |
-| [**Effacer**](certificates-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> (Héritée de **CertificatesICertificates2**)                                |
+| [**Effacé**](certificates-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> (Héritée de **CertificatesICertificates2**)                                |
 | [**Rechercher**](certificates-find.md)     | Retourne un objet de **certificats** qui contient tous les certificats qui correspondent aux critères de recherche spécifiés.<br/> (Héritée de **CertificatesICertificates2**) |
-| [**Installez**](certificates-remove.md) | Supprime un objet de [**certificat**](certificate.md) unique de la collection.<br/> (Héritée de **CertificatesICertificates2**)                            |
+| [**Remove**](certificates-remove.md) | Supprime un objet de [**certificat**](certificate.md) unique de la collection.<br/> (Héritée de **CertificatesICertificates2**)                            |
 | [**Enregistrer**](certificates-save.md)     | Enregistre les certificats dans un fichier spécifié.<br/> (Héritée de **CertificatesICertificates2**)                                                                |
 | [**Sélectionner**](certificates-select.md) | Affiche une boîte de dialogue permettant de sélectionner des certificats et retourne une collection de ces certificats sélectionnés.<br/> (Héritée de **CertificatesICertificates2**)  |
 
@@ -84,13 +84,13 @@ L’objet **Certificates** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet **certificats** peut être créé et il est sécurisé pour l’écriture de scripts. Le ProgID de l’objet **Certificates** est «CAPICOM. Certificats. 2».
 
 **CAPICOM 1. *x*:** le ProgID de l’objet **Certificates** est «CAPICOM. Certificats. 1».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

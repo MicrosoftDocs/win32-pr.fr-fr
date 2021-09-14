@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e342bdef882fbff89d4c67c3accfbff7287a2ad9
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114121"
 ---
 # <a name="crop-effect"></a>Effet de rognage
 
@@ -32,7 +32,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Crop.
 | Avant                                                     |
 |------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg) |
-| Après                                                      |
+| After                                                      |
 | ![image après la transformation.](images/8-crop.png)       |
 
 
@@ -78,7 +78,7 @@ ulated à l’aide des équations ici : <dl> Longueur de sortie en pixels = (Re
 Hauteur de sortie en pixels = (Rect. Bottom-Rect.Top) \* (dpi/96 de l’utilisateur)  
 </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

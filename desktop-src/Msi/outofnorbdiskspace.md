@@ -4,12 +4,12 @@ ms.assetid: 910d6c1d-38d3-4680-b256-2bf30689ce11
 title: Propriété OutOfNoRbDiskSpace
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 275eec4c78a1fe0074fe8e91f7dcab3b660cade46eb8810aa992edf6a45fb989
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8fa9cdd7c1d444e141103ca148344dd26ea1d2a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118942769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218844"
 ---
 # <a name="outofnorbdiskspace-property"></a>Propriété OutOfNoRbDiskSpace
 
@@ -19,7 +19,7 @@ Un développeur d’un package d’installation peut gérer la situation lorsque
 
 La propriété **OutOfNoRbDiskSpace** est valide à tout moment après l’exécution de l' [action CostFinalize](costfinalize-action.md) . L’état de la propriété **OutOfNoRbDiskSpace** est mis à jour de manière dynamique chaque fois que le coût total d’installation est recalculé (par exemple, chaque fois que l’état d’installation d’une fonctionnalité est modifié via la [boîte de dialogue de sélection](selection-dialog.md)). Les actions de résolution de sélection utilisent cette valeur pour annuler une installation et générer une boîte de dialogue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

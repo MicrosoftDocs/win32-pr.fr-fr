@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed62a9f868aa39cbc0cfc7702afc99849005a22106892696eca857ffb20673af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afa0eeb6cb1d610f28cc82f578617f7bd71cf886
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118747787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293498"
 ---
 # <a name="mpnotify-enumeration"></a>Énumération MPNOTIFY
 
@@ -636,7 +636,7 @@ Le service AM a rencontré un programme malveillant qui a peut-être provoqué u
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

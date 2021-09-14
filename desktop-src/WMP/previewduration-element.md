@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dd01180b56816aa3458396f1c6183518d4365dce2f41643328e899057ed1ee72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a944e86a4bd82bf57961d4d6b474c34afadba6b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292898"
 ---
 # <a name="previewduration-element"></a>Élément PREVIEWDURATION
 
@@ -49,7 +49,7 @@ Durée (en heures, minutes, secondes et centièmes de seconde) pendant laquelle 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément définit la durée pendant laquelle un clip est lu en mode aperçu. Si cet élément apparaît dans un élément **entry** ou **ref** , il s’applique à l’élément défini par cet élément. S’il apparaît dans l’étendue d’un élément **ASX** , il s’applique à chaque clip dans le métafichier. Un élément **PREVIEWDURATION** dans un élément **ref** est prioritaire sur un élément dans un **élément** Entry et est prioritaire sur un élément **PREVIEWDURATION** dans un élément **ASX** . Si aucun élément **PREVIEWDURATION** n’est défini pour un clip, la durée d’aperçu par défaut est de 10 secondes.
 
@@ -66,7 +66,7 @@ L’élément **Duration** remplace un élément **PREVIEWDURATION** .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

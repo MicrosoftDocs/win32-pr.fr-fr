@@ -1,17 +1,17 @@
 ---
 description: Contient le niveau de confiance retourné par l’analyseur d’encre journal pour le InkWord.
 ms.assetid: cb0ed0d0-5e2f-44a3-b72b-61cbfd22bae8
-title: Élément confidence
+title: Élément Confidence
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e86e4169767f3bf40d49e71e84214d50d3c0c0b4ecf5d3f7a9034ee6c8ea279d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a5fdaaed8d9c57822ad94ec49183a399ed317917
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119936979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294043"
 ---
-# <a name="confidence-element"></a>Élément confidence
+# <a name="confidence-element"></a>Élément Confidence
 
 Contient le niveau de confiance retourné par l’analyseur d’encre journal pour le [**InkWord**](inkword-element.md).
 

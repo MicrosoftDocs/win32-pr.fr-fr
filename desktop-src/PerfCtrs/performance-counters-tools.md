@@ -4,12 +4,12 @@ ms.assetid: 3f47a52c-2d36-4a74-9d7f-df37645b8e72
 title: Outils des compteurs de performances
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: a4f1640a269b87cce7452e54a2557dcc9c34fe154ae9e9f95fdd3794e275b59e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc40dd5dfe640e09ac6f7258856389f04d60215f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218297"
 ---
 # <a name="performance-counters-tools"></a>Outils des compteurs de performances
 

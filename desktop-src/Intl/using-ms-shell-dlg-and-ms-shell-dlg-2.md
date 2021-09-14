@@ -4,12 +4,12 @@ ms.assetid: ac3b57a6-5b92-4366-ad71-c501cec60997
 title: Utilisation de MS Shell Dlg et MS Shell Dlg 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c29b6f45267ee9f123e5a6dddcd044d667fbe4553af8b3f580edd633b2293ef2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ad43f972e776151551fa312ce2bd8ed6d19be58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118389506"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224017"
 ---
 # <a name="using-ms-shell-dlg-and-ms-shell-dlg-2"></a>Utilisation de MS Shell Dlg et MS Shell Dlg 2
 

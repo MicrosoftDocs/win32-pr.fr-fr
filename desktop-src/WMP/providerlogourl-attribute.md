@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c86154aba55d83d7fd6aca5910ec41456127b6205515c8563c31f805378006c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7fb479cc12775b87167fdae35d20d59f8b60a07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292883"
 ---
 # <a name="providerlogourl-attribute"></a>Attribut ProviderLogoURL
 
@@ -28,13 +28,13 @@ L’attribut **ProviderLogoURL** est l’adresse du logo du fournisseur des vale
 -   [Éléments audio](audio-item-attributes.md)
 -   [DVD](dvd-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

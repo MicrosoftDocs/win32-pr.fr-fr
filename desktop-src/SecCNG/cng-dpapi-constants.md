@@ -4,12 +4,12 @@ ms.assetid: 4E43FAA9-7D6F-43DB-A998-189411E0AB4C
 title: Constantes CNG CNG (NCryptprotect. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1afc589afa113250728b46639b7cd47442034f7b3bc82264099f334919a94c76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ece376a0b7282f26ef933b249a1356b2d012d438
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237761"
 ---
 # <a name="cng-dpapi-constants"></a>Constantes CNG CNG
 
@@ -183,7 +183,7 @@ Représente le fournisseur de protection de clé Microsoft qui est disponible un
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

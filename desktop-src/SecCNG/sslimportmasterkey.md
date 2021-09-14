@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 546cfeb39ac413b99b5b8021dc7dd6f0f57a89dbfb87880a63b0db2324cda0d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e21c4cd0f6e51662124e02881b82c905dba68c9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118906060"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218065"
 ---
 # <a name="sslimportmasterkey-function"></a>SslImportMasterKey fonction)
 
@@ -110,7 +110,7 @@ Définissez ce paramètre sur **l' \_ \_ \_ indicateur de serveur SSL NCRYPT** p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -130,7 +130,7 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction déchiffre le secret de prémaster, calcule le secret principal SSL et retourne un handle vers cet objet à l’appelant. Cette clé principale peut ensuite être utilisée pour dériver la clé de session SSL et terminer le protocole de transfert SSL.
 
@@ -139,7 +139,7 @@ Cette fonction déchiffre le secret de prémaster, calcule le secret principal S
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

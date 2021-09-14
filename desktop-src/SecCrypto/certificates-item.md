@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 927f52570b515c6699458cfb802b5c315201d401e9bcf5e0be76ab41863bd47e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbafaf20f74910e8ea5eb525f48374a2807fa030
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117770538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237726"
 ---
 # <a name="certificatesitem-property"></a>Certificates. Item, propriété
 
@@ -41,7 +41,7 @@ Certificates.Item( _
 
 Objet de [**certificat**](certificate.md) qui représente le certificat indexé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

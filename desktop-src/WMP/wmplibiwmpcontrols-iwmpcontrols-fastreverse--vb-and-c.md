@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88bbc1442ca223765b498560d078879c9a7033011117b7f663d4d40ff26bdd93
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7061481aea13b0ed83c3a3d0eb47ca24b940358b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237132"
 ---
 # <a name="iwmpcontrolsfastreverse-method"></a>IWMPControls :: fastReverse, méthode
 
@@ -49,11 +49,11 @@ Implements IWMPControls.fastReverse
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **fastReverse** analyse le clip en sens inverse à cinq fois la vitesse normale, en affichant uniquement les images clés s’il s’agit d’un fichier vidéo. L’appel de **fastReverse** équivaut à spécifier-5,0 pour le taux en définissant la propriété **IWMPSettings. rate** . si la fréquence est modifiée par la suite, ou si **IWMPControls. play** ou **IWMPControls. stop** est appelé, Lecteur Windows Media cessera de tourner rapidement.
 
@@ -106,7 +106,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

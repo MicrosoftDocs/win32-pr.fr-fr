@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d5e7bc92aa798766538af19cae440542705a859040aed7fc8d9510e3724051f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36b2f6f5811c844e4e43544f5b56b8de66cb3bf7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237581"
 ---
 # <a name="ichaincontextchaincontext-property"></a>IChainContext :: ChainContext, propriété
 
@@ -52,13 +52,13 @@ Si les méthodes d’accès aux propriétés **placent \_ chainContext** et **ob
 
 Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez appeler la méthode [**FreeContext**](ichaincontext-freecontext.md) ou la fonction [**CertFreeCertificateChain**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfreecertificatechain) pour libérer le contexte.
 
 Si vous définissez la propriété **chainContext** , l’état de la totalité de l’objet [**chaîne**](chain.md) est réinitialisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

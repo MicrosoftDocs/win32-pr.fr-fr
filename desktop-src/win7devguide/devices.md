@@ -4,12 +4,12 @@ description: les appareils sont un élément fondamental de l’expérience du P
 ms.assetid: faed8ec8-2f12-4090-a003-b14b3d26e02a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 775389f1a3548e2e94b8b2c25f9b46560cef5fc61a5e486f5dff28871da9f9e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9cbfa699d129fd6d8343a0645fc6ed22aa9618ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119086732"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293203"
 ---
 # <a name="devices-windows-7-developer-guide"></a>appareils (Guide du développeur Windows 7)
 

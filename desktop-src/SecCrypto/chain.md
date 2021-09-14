@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 861f3233c4b089dc62e56977dd2d55c59fae71aed799fa73958421a111c1ccd6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fa3432767ccfdb60a2e3bc0a50ddbbcf565e0aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237684"
 ---
 # <a name="chain-object"></a>Chaîne (objet)
 
@@ -76,19 +76,19 @@ L’objet de **chaîne** a ces propriétés.
 | Propriété                                              | Type d’accès          | Description                                                                                                                                                                                 |
 |:------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Certificats**](chain-certificates.md)<br/> | Lecture seule<br/> | Récupère une collection de [**certificats**](certificates.md) qui représente les certificats dans la chaîne. Il s’agit de la propriété par défaut.<br/> (Héritée de **ChainIChain2IChain**) |
-| [**Statut**](chain-status.md)<br/>             | Lecture seule<br/> | Récupère l’état de validité de la chaîne ou d’un certificat spécifique dans la chaîne.<br/> (Héritée de **ChainIChain2IChain**)                                                       |
+| [**État**](chain-status.md)<br/>             | Lecture seule<br/> | Récupère l’état de validité de la chaîne ou d’un certificat spécifique dans la chaîne.<br/> (Héritée de **ChainIChain2IChain**)                                                       |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet de **chaîne** peut être créé et il est sécurisé pour les scripts. Le ProgID de l’objet **chaîne** est «CAPICOM. Chaîne. 2».
 
 **CAPICOM 1. *x*:** le ProgID de l’objet **chaîne** est CAPICOM. Chaîne. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

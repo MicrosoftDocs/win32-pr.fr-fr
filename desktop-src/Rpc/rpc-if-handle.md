@@ -6,12 +6,12 @@ keywords:
 - RPC_IF_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4652fbd08c583ad0a33638e52face9569e6ff701cb6dc2b775c7060134b60437
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9590973d5ae1e82d89d6151e224b771d9f55ecc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926438"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218233"
 ---
 # <a name="rpc_if_handle"></a>\_handle RPC if \_
 
@@ -24,7 +24,7 @@ typedef void __RPC_FAR* RPC_IF_HANDLE;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La bibliothèque Runtime RPC utilise des descripteurs d’interface pour accéder à la structure de données de spécification d’interface. Le compilateur MIDL crée automatiquement une structure de données de spécification d’interface à partir de chaque fichier IDL et crée une variable globale de type RPC \_ si \_ handle pour la spécification de l’interface.
 
@@ -48,7 +48,7 @@ Hello \_ ServerIfHandle
 
 Étant donné que les \_ parties « ClientIfHandle » et « \_ ServerIfHandle » des noms nécessitent 15 caractères, l’élément *If-Name* ne peut pas comporter plus de 16 caractères.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

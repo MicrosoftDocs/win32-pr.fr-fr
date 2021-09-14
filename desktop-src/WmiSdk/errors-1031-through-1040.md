@@ -6,11 +6,11 @@ title: Erreurs 1031 à 1040
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5986ba80a55d2d8f3d4a87b0587331765aa38d67
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886874"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237065"
 ---
 # <a name="errors-1031-through-1040"></a>Erreurs 1031 à 1040
 

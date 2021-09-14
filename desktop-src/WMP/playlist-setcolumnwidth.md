@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5805871facea0074b257934d9297f7f678598c6def56aad589bfe6a2b1b8fb87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a751285ee2eff615f6d5827d57deebac74f34305
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118335756"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292959"
 ---
 # <a name="playlistsetcolumnwidth"></a>PLAYLIST. setColumnWidth
 
@@ -50,7 +50,7 @@ La méthode **setColumnWidth** spécifie la largeur de colonne et modifie le mod
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

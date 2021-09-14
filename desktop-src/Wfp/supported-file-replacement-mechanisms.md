@@ -4,12 +4,12 @@ ms.assetid: a757e6cf-59df-4894-a0dc-40174b0aa147
 title: Mécanismes de remplacement des ressources pris en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8f839e65ddd07bbde6bb4e089c3235ee6930dec910c07c1c318e666b034afb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2aaaa1d9cc8d24d8cd172be71ee40790bf8161a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293715"
 ---
 # <a name="supported-resource-replacement-mechanisms"></a>Mécanismes de remplacement des ressources pris en charge
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f9e651b68669cfe46762668e6d618d50e3501aaf5cfd67aa1056cccabb38d279
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab86510f1450080844a6fe7e476381e81bed1ce1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118507342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236945"
 ---
 # <a name="samplebiassamplebiassfloatfloatintfloatuint-function-for-texture2darray"></a>Fonction SampleBias :: SampleBias (S, float, float, int, float, uint) pour Texture2DArray
 
@@ -124,7 +124,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Détermination du type d’événement à recevoir
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9172e3246a31cb42ada3b9f5099bc3b0575959c125dedd44d7c6ed745134a4a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 477f3d10536e5b0622e1e64b6cec9abdf4183c7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119374649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237096"
 ---
 # <a name="determining-the-type-of-event-to-receive"></a>Détermination du type d’événement à recevoir
 

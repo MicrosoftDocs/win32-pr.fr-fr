@@ -4,12 +4,12 @@ ms.assetid: 69cd8713-b40c-4fec-a256-9c2ee3d73da5
 title: Nouveautés des processus et des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efe8b53349f5c6f19dd9beda1ffe6b933fbff63533988a40937453194df57295
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee7dfb708a2890bab1fcd3fd66385f74bd8513b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117792957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218265"
 ---
 # <a name="whats-new-in-processes-and-threads"></a>Nouveautés des processus et des threads
 

@@ -4,12 +4,12 @@ ms.assetid: 87a897cd-d3aa-488a-b129-9837d3500d0d
 title: Ce qu’est un document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 180c303a21dbed39908d87831a1e01e2965b09a68e1e23a6e1f8793e247556f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bcd5dbedf6ee3a7e2713bd3591b182c606cfb0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119718539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293382"
 ---
 # <a name="what-a-printcapabilities-document-is-not"></a>Ce qu’est un document PrintCapabilities
 

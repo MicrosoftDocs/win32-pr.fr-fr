@@ -4,12 +4,12 @@ ms.assetid: bd0a4382-f014-4f03-990d-d2f96aa76ab8
 title: Choix des formats à prendre en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8b8b2197c37db603388a4191e08114800aaba37ee8e89803c7ddfb08be18d3e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 891fa1c21dd3178e925deab27525afa7fa70fa22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120110999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293327"
 ---
 # <a name="choosing-which-formats-to-support"></a>Choix des formats à prendre en charge
 

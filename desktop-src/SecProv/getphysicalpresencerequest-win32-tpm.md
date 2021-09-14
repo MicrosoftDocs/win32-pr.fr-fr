@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Win32_tpm.dll
 ms.openlocfilehash: 7d88ec523e983e60cacab57b41307381b05e8de6
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237383"
 ---
 # <a name="getphysicalpresencerequest-method-of-the-win32_tpm-class"></a>Méthode GetPhysicalPresenceRequest de la \_ classe TPM Win32
 
@@ -100,11 +100,11 @@ Le tableau suivant répertorie les codes de retour courants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -125,7 +125,7 @@ les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 [**\_TPM Win32**](win32-tpm.md)
 </dt> <dt>
 
-[**Effacer**](clear-win32-tpm.md)
+[**Effacé**](clear-win32-tpm.md)
 </dt> <dt>
 
 [**Désactiver**](disable-win32-tpm.md)

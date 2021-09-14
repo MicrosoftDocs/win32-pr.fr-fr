@@ -4,12 +4,12 @@ ms.assetid: d67518e3-c379-4a50-aeda-31afaa7f05dd
 title: Syntaxe du schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a55fbae9b74fe9537430c926870e422cb1a9cd0e025d4aedf702865a8822c740
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4ef52dbdbdfacc2d3cc947b46558319577a75b1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119662369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235577"
 ---
 # <a name="syntax-of-the-print-schema"></a>Syntaxe du schéma d’impression
 

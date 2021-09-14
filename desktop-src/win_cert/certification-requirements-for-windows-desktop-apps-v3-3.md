@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: ccb2bbcff3e3b00235c88ebc470c1a45e5063f1d
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293175"
 ---
 # <a name="certification-requirements-for-windows-desktop-apps-v33"></a>conditions de Certification pour les applications de bureau Windows v 3.3
 
@@ -207,7 +207,7 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 | 26 janvier, 2012 | 1.1     | Mise à jour de la section \# 2.                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md) |
 | 31 mai, 2012 | 1.2     | Ajout de résultats de test de synthèse             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md) |
 | 29 juin, 2012 | 3.0     | Windows 8 document final               | [3.0](archive--certification-requirements-for-windows-desktop-apps-v3-0.md) |
-| 18 juin, 2013 | 3.1     | document Windows 8.1                   | [3.1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md) |
+| 18 juin, 2013 | 3.1     | document Windows 8.1                   | [3,1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md) |
 | 20 février, 2014 | 3.2     | Mise à jour interne                        |                                                                              |
 | 18 mars, 2014 | 3.3     | Mise à jour Windows 8.1 1                   | 3.3                                                                          |
 

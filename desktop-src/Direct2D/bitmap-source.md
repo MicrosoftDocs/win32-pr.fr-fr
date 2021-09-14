@@ -6,12 +6,12 @@ keywords:
 - effet de source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19889372c7ebd4268f1b6fd8b77c360f290cc416631e9fb5e1cd3a0b0320844c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a439c94f0f520b318b3cb3511775dbec58b6e139
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119833320"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114197"
 ---
 # <a name="bitmap-source-effect"></a>Effet de source bitmap
 
@@ -29,7 +29,7 @@ Le CLSID de cet effet est CLSID \_ D2D1BitmapSource.
 -   [Orientation](#orientation)
 -   [Modes alpha](#alpha-modes)
 -   [Remarques](#remarks)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="effect-properties"></a>Propriétés d’effet
@@ -55,7 +55,7 @@ L’effet est interpolé à l’aide de ce mode lorsqu’il met à l’échelle 
 
 
 
-| Name                                                       | Description                                                                                                                                                                                                                          |
+| Nom                                                       | Description                                                                                                                                                                                                                          |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Mode d' \_ interpolation BITMAPSOURCE \_ d2d1 \_ le plus proche \_ voisin | Échantillonne le point unique le plus proche et l’utilise. Ne génère pas de mipmap.                                                                                                                                                           |
 | \_Mode d' \_ interpolation d2d1 BITMAPSOURCE \_ \_ linéaire            | Utilise un échantillon à quatre points et une interpolation linéaire. Ne génère pas de mipmap.                                                                                                                                                        |
@@ -73,7 +73,7 @@ La propriété orientation peut être utilisée pour appliquer un indicateur d�
 
 
 
-| Name                                                                    | Description                                                        |
+| Nom                                                                    | Description                                                        |
 |-------------------------------------------------------------------------|--------------------------------------------------------------------|
 | D2D1 de l' \_ \_ orientation BITMAPSOURCE \_ par défaut                                | Par défaut. L’effet ne change pas l’orientation de l’entrée.   |
 | D2D1 l’orientation de BITMAPSOURCE de l' \_ \_ \_ \_ horizontale                       | Retourne l’image horizontalement.                                      |
@@ -127,7 +127,7 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
 
 
-| Name                                           | Description                                            |
+| Nom                                           | Description                                            |
 |------------------------------------------------|--------------------------------------------------------|
 | D2D1 \_ \_ mode Alpha \_ BITMAPSOURCE \_ prémultiplié | La sortie d’effet utilise une alpha prémultipliée.<br/> |
 | \_ \_ Mode Alpha BITMAPSOURCE \_ d2d1 \_ simple      | La sortie d’effet utilise l’alpha simple.<br/>      |
@@ -136,7 +136,7 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour optimiser les performances lors de l’utilisation conjointe de WIC et de [Direct2D](./direct2d-portal.md) , vous devez utiliser [**IWICFormatConverter**](/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) pour convertir au format de pixel approprié en fonction du scénario de votre application et de la précision native de l’image.
 
@@ -156,7 +156,7 @@ Dans la plupart des cas, le pipeline [Direct2D](./direct2d-portal.md) de votre a
 
 Étant donné que de nombreux formats d’image prennent en charge plusieurs niveaux de précision, vous devez utiliser [**IWICBitmapSource :: GetPixelFormat**](/windows/desktop/wic/-wic-codec-iwicbitmapsource-getpixelformat-proxy) pour obtenir le format de pixel d’image s natif, puis utiliser [**IWICPixelFormatInfo**](/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo) pour déterminer le nombre de bits par canal de précision disponibles pour ce format. Notez également que tous les matériels ne prennent pas en charge les formats de pixel haute précision. Dans ce cas, votre application peut avoir besoin de revenir à l’appareil WARP pour prendre en charge la haute précision.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

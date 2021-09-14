@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: d057914ef9a77c7a545817b205f919afa66fdd3bc154363f7e33a9a5ba43c446
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 131b5ecf874554c3642808570a53ee8b20ad0e68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293415"
 ---
 # <a name="printprocessor_caps_1-structure"></a>\_Structure PRINTPROCESSOR Cap \_ 1
 
@@ -70,13 +70,13 @@ Nombre maximal de copies que l’imprimante peut gérer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les valeurs de tous les membres de structure sont fournies par la fonction [**GetPrintProcessorCapabilities**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) , qui est documentée dans le Kit de pilotes Windows (WDK).
 
 Le spouleur appelle la fonction [**GetPrintProcessorCapabilities**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) d’un processeur d’impression lorsqu’une application appelle [**GetPrinterData**](getprinterdata.md), en spécifiant un nom de valeur au format PrintProcCaps \_ *DataType*, où *DataType* est le nom d’un type de données d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

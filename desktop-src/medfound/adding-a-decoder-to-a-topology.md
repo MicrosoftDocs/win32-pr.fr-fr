@@ -5,11 +5,11 @@ title: Ajout d’un décodeur à une topologie
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 506963ee65490365b60788808a4da87c21355247
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294163"
 ---
 # <a name="adding-a-decoder-to-a-topology"></a>Ajout d’un décodeur à une topologie
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: caa213dbebc7db07851bc8df41b5d9379d3dfe97ee207f9b2578b0567fd9b65b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e81f77c37904f26e87f22b8e2b3b88763fe86cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118892015"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237384"
 ---
 # <a name="getlockstatus-method-of-the-win32_encryptablevolume-class"></a>Méthode GetLockStatus de la \_ classe Win32 EncryptableVolume
 
@@ -59,7 +59,7 @@ Spécifie si le contenu du volume est accessible à partir de Windows.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -75,7 +75,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez [**UnlockWithExternalKey**](unlockwithexternalkey-win32-encryptablevolume.md) et [**UnlockWithNumericalPassword**](unlockwithnumericalpassword-win32-encryptablevolume.md) pour accéder au contenu du volume. Utilisez la méthode [**Lock**](lock-win32-encryptablevolume.md) pour abandonner l’accès au contenu du volume.
 
@@ -83,7 +83,7 @@ Le volume qui contient le système d’exploitation en cours d’exécution est 
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

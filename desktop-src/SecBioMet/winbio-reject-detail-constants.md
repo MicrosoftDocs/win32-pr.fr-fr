@@ -53,12 +53,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad5ac7a2f96555aa8ccfb305c66061ba4e0ffd468f18a1a93be215c367f034be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d9d23dcf568e5ed25fb5081283a421b1c0dbb07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118909347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237797"
 ---
 # <a name="winbio_reject_detail-constants"></a>WINBIO \_ rejeter les \_ constantes de détail
 
@@ -113,7 +113,7 @@ Les constantes suivantes peuvent être utilisées pour spécifier la raison de l
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

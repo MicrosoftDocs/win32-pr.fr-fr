@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0b5930d1579c07cb80127e96392c67c417ce832dd90423916d3780bbc37ece3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c7a00d4a91f4fe871565b25f165e81df0f533ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118156484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219076"
 ---
 # <a name="cmediatypecmediatype-destructor"></a>CMediaType. ~ CMediaType, destructeur
 
@@ -40,7 +40,7 @@ Méthode de destructeur.
 
 Le destructeur appelle la fonction [**FreeMediaType**](freemediatype.md) sur lui-même.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

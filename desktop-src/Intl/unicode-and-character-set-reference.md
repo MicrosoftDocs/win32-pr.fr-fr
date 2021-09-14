@@ -4,12 +4,12 @@ ms.assetid: 6f66840a-1c65-4235-b9ae-76dadbe15ed0
 title: Unicode et référence de jeu de caractères
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b18be2c37d6843c82019d1ab0f2f7826f62674dc6caa1d87dd029f803d7b9a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 665dd5f3ea6cf4cc3554d56beda6531125679586
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224209"
 ---
 # <a name="unicode-and-character-set-reference"></a>Unicode et référence de jeu de caractères
 

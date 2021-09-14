@@ -4,12 +4,12 @@ ms.assetid: bc14d36a-b299-4c61-ade2-43fad142d21d
 title: Obtention d’outils de création de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a85fb75c0317a6737393e67f12a7a03cd8b76c68a8261c9d26d10d06cbe484c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4dac673c7cfa191cecb1b576e1b17f2f4a7a1f4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119327879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218993"
 ---
 # <a name="obtaining-merge-module-authoring-tools"></a>Obtention d’outils de création de module de fusion
 
