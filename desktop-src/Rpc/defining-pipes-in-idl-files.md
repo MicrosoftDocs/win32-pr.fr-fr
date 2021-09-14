@@ -4,12 +4,12 @@ description: Lorsqu’un canal est défini dans un fichier IDL, le compilateur M
 ms.assetid: f6c282e4-3056-48c4-bd12-dfcae6d238d7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd237690f45fd6ca73d62f54a5dccf0409f4424e1e96407c116b39ef5d882a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 115be7fc5d00458d13df102afebe9ba5b55de070
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120022069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009149"
 ---
 # <a name="defining-pipes-in-idl-files"></a>Définition de canaux dans des fichiers IDL
 

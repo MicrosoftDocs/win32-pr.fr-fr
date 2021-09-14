@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102541
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6ab87975ef813a54880e8af74e6590d728799cec4c1e5bb0ab4032e708663f2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b27cc004dc8998c6896ca8eb8eae4539ba58ce3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119477703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007866"
 ---
 # <a name="esentrecordtoobigforbackwardcompatibilityexception-properties"></a>Propriétés EsentRecordTooBigForBackwardCompatibilityException
 
@@ -69,7 +69,7 @@ Le type [EsentRecordTooBigForBackwardCompatibilityException](./esentrecordtoobig
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac579b1e1be1cf54a26c5a8628fb73390d3d4c1138d4f928fa716650d5ddabbb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dffac6c3a912cd85d1a23ef43cb348e0231d6309
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118880997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193652"
 ---
 # <a name="systemmonitoryaxislabel-property"></a>SystemMonitor. YAxisLabel, propriété
 
@@ -44,7 +44,7 @@ Property YAxisLabel As String
 
 **Windows XP et Windows 2000 :** Il n’existe aucune limite à la longueur du titre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

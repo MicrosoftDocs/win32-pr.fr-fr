@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 59f3fc25fda5f4bf4221417636ac25ab7d0f9a15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194735"
 ---
 # <a name="keymaterial-sharedkey-element"></a>Élément keyMaterial (sharedKey)
 
@@ -53,7 +53,7 @@ Des caractères Unicode peuvent être entrés là où les caractères ANSI ou AS
 
 Le matériel de clé retourné par [**WlanGetProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile) est toujours chiffré. En outre, si le matériel de clé non chiffré est transmis à [**WLanSetProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile), le matériel de clé est automatiquement chiffré avant d’être stocké dans le magasin de profils.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Le matériel de clé n’est jamais chiffré.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Le matériel de clé n’est jamais chiffré.
 
 Si votre processus s’exécute dans le contexte du compte LocalSystem, vous pouvez déchiffrer le matériel de clé en appelant [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata).
 
@@ -61,14 +61,14 @@ Si votre processus s’exécute dans le contexte du compte LocalSystem, vous pou
 
 Pour afficher des exemples de profils qui utilisent l’élément **keyMaterial** , consultez exemple de [profil de non-diffusion](non-broadcast-profile-sample.md), exemple de [Profil WPA-Personnel](wpa-personal-profile-sample.md)et exemple de profil [WPA2-Personal](wpa2-personal-profile-sample.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

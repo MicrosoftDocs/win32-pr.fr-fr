@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7399215d118e86ecfc1c58fab79b17866658a6d057d39b7df26199f86d7568ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62c0d6bd9e1751e34c980bc95f790314017eeb49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008877"
 ---
 # <a name="counteritemvalue-property"></a>CounterItem. Value (propriété)
 
@@ -42,7 +42,7 @@ Property Value As Double
 
 Dernière valeur échantillonnée du compteur. La valeur est-1 si une erreur se produit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit de la propriété par défaut de l’objet [**CounterItem**](counteritem.md) .
 

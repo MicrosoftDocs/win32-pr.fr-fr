@@ -4,12 +4,12 @@ ms.assetid: 44f69e05-1f08-48da-abb7-7e0a96c0cd26
 title: Fonctions de notification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc6a0a45689bf7dbe4433b018e330278b9c275a567c47fbdd2aa1da82582df0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84e5ca0bbcd9f2f184abd312fe15d4923e5cf14b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007721"
 ---
 # <a name="notification-functions"></a>Fonctions de notification
 

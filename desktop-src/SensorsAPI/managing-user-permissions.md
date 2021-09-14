@@ -4,12 +4,12 @@ ms.assetid: c755edcf-18c1-43d5-9dfe-c073e1f96b5f
 title: Gestion des autorisations utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f02fac57959b493683d0fe0a007602e5a7af3f78dc959d0e7eca2811595c23dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ecb65fa5a9962be4850aa4711cafa03fb7658212
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008962"
 ---
 # <a name="managing-user-permissions"></a>Gestion des autorisations utilisateur
 

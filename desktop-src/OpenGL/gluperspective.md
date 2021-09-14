@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 973040fc9d9f23e6cfba5e30ceea89a1c13cfbaab0071cc7905080cfcdf60f12
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf30fc7dc4c6ba5a56efd3def6a5a7178f81ed49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194383"
 ---
 # <a name="gluperspective-function"></a>gluPerspective fonction)
 
@@ -75,13 +75,13 @@ Distance entre la visionneuse et le plan de découpage Far (toujours positive).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluPerspective** spécifie un frustum d’affichage dans le système de coordonnées universel. En général, les proportions dans **gluPerspective** doivent correspondre aux proportions de la fenêtre d’affichage associée. Par exemple, l' *aspect* = 2,0 signifie que l’angle de vue de la visionneuse est deux fois plus large dans *x* que dans *y*. Si la fenêtre d’affichage est deux fois plus larges que sa hauteur, elle affiche l’image sans distorsion.
 
 La matrice générée par **gluPerspective** est multipliée par la matrice actuelle, tout comme si [**glMultMatrix**](glmultmatrix.md) était appelé avec la matrice générée. Pour charger la matrice de perspective sur la pile de matrice actuelle, faites précéder l’appel à **gluPerspective** d’un appel à [**glLoadIdentity**](glloadidentity.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

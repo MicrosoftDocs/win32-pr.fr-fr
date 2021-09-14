@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: be43fa99021ec5612a148ba42db1b11e1fd6d885fa64fa003c0dfa672688d555
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f562443f9ca66def7e053f5958b17e70af50140
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009342"
 ---
 # <a name="expertreallocmemory-function"></a>ExpertReallocMemory fonction)
 
@@ -70,7 +70,7 @@ Au retour, code d’erreur si la fonction échoue. Si le code d’erreur est NME
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un pointeur vers la mémoire allouée.
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_OperatingSystem
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94dbc8fccc44906d52bcef1a8750a7039b8b45fe43f5776366100976f2b25c14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9566fa7ae4a06a4748d1f59d7466ddc61e0575c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118422180"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230675"
 ---
 # <a name="cim_operatingsystem-methods"></a>\_Méthodes CIM OperatingSystem
 

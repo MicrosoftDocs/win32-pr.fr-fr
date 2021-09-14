@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2b76a37fa7088835ad0238065b0647ff0beb973c1c3ffa1b892f6e0958d97a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 089357488c7eae18e26258018473e9008fb29d24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119489689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194412"
 ---
 # <a name="glubuild1dmipmaps-function"></a>gluBuild1DMipmaps fonction)
 
@@ -91,7 +91,7 @@ Pointeur vers les données de l’image en mémoire.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluBuild1DMipmaps** obtient l’image d’entrée et génère toutes les images mipmap (à l’aide de [**gluScaleImage**](gluscaleimage.md)) afin que l’image d’entrée puisse être utilisée comme image de texture mipmapped. La fonction [**glTexImage1D**](glteximage1d.md) est ensuite appelée pour charger chacune des images. Si la largeur de l’image d’entrée n’est pas une puissance de deux, l’image est mise à l’échelle à la puissance de deux la plus proche pour que les des mipmaps soient générés.
 
@@ -99,7 +99,7 @@ Une valeur de retour de zéro indique une réussite. Dans le cas contraire, un c
 
 Pour obtenir une description des valeurs acceptables pour le paramètre *format* , consultez **glTexImage1D**. Pour obtenir une description des valeurs acceptables pour le paramètre de *type* , consultez [**glDrawPixels**](gldrawpixels.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

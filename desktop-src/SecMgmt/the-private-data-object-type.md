@@ -4,12 +4,12 @@ ms.assetid: e26eee57-2a2f-40a3-a946-cacda61e0542
 title: Type d’objet de données privé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9190938634f95329003e901647ae0f7801014ed6654d21699c310f02b7e78e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3a831d3314ca36813ee75ba4c4b54df7cea3aa1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118893088"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009008"
 ---
 # <a name="the-private-data-object-type"></a>Type d’objet de données privé
 

@@ -4,12 +4,12 @@ ms.assetid: 1D2847A7-15E9-42E0-90EB-7F43E76D3E44
 title: Mise à jour de la compatibilité des disques Émulation 512 octets (512e)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd26cfe1b5417af75906431291a51650757c08464f0c1dc6966ef7f58223423
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74b654473fa8be5fbea997bd063df2c1f898a7d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134175"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216828"
 ---
 # <a name="512-byte-emulation-512e-disk-compatibility-update"></a>Mise à jour de la compatibilité des disques Émulation 512 octets (512e)
 

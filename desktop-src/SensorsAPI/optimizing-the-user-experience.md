@@ -4,12 +4,12 @@ ms.assetid: 481d0b00-a3e2-46c6-883a-5ca183f5fead
 title: Optimisation de l’expérience utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30fb31aff2912c1f908e5efedace28325e54dce02926f0d04aae3152bab9bd51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef389fc479a2f778b1b3a9a001c2481ce2e439a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118889680"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008961"
 ---
 # <a name="optimizing-the-user-experience"></a>Optimisation de l’expérience utilisateur
 

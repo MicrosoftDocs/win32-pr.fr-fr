@@ -4,12 +4,12 @@ ms.assetid: 535d644d-4045-4ff1-9c12-a3d5f665453d
 title: INTERNET_PORT (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ca41ee7291f7dc9c1f3d42805145ca3c049a925ffd365aef2864856aec33d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fb0f5e18e8dba25db231185e34b53c033682367
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133142"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228341"
 ---
 # <a name="internet_port"></a>\_port Internet
 
@@ -56,7 +56,7 @@ Port HTTPs Internet par défaut.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

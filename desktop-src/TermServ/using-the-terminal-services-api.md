@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, utilisation de l’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a1910521e9592310e68e4adaee5451ed2808dab32d4559789dacf7ba2db9fcc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48b8c240ce8a86b4a333245032294cbd59809f2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217356"
 ---
 # <a name="using-the-remote-desktop-services-api"></a>Utilisation de l’API Services Bureau à distance
 

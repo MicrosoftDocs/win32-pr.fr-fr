@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: ffec440adc903ddb9a5157e8e5f36037e092f0c4bf0cd52da79b0839220366ce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b0e2fa0813c4b384b17ea45af45f9938bcd85c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119962729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194500"
 ---
 # <a name="varlensmallinttodword-function"></a>VarLenSmallIntToDword fonction)
 
@@ -70,11 +70,11 @@ Indicateur qui signale si le petit entier de longueur variable est échangé en 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un pointeur vers la valeur **DWORD**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

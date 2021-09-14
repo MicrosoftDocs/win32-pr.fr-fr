@@ -4,12 +4,12 @@ ms.assetid: 395d7830-9a70-473a-8a89-4b4db48d5774
 title: Interface IEnumTime (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c79d780374bcf121dcb5010aef51725f9836e511bed4b86c855970bb47b838e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2336f435ec322694847c776ac92ade93e8791207
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008758"
 ---
 # <a name="ienumtime-interface"></a>Interface IEnumTime
 
@@ -31,10 +31,10 @@ L’interface **IEnumTime** possède ces méthodes.
 
 | Méthode                           | Description                                                                                        |
 |:---------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**Répliqué**](ienumtime-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
+| [**Clone**](ienumtime-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
 | [**Suivant**](ienumtime-next.md)   | Obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération.<br/>                 |
-| [**Initialisation**](ienumtime-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
-| [**Saut**](ienumtime-skip.md)   | Ignore le nombre spécifié d’éléments dans la séquence d’énumération.<br/>           |
+| [**Réinitialiser**](ienumtime-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
+| [**Ignorer**](ienumtime-skip.md)   | Ignore le nombre spécifié d’éléments dans la séquence d’énumération.<br/>           |
 
 
 

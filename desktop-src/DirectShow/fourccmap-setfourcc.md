@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 03ac14c7174fde7184bfdbfbb5d82d3fc1288d46ff37158bbbab146c34db5ed9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 435eb209e39ffad29f041e2e117a45d735abffed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119536829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007550"
 ---
 # <a name="fourccmapsetfourcc-method"></a>FOURCCMap :: SetFOURCC, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers la partie d’identificateur global unique (**GUID**) retournée d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 

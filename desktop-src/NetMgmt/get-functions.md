@@ -5,11 +5,11 @@ ms.assetid: 9c97420d-bc8a-42c9-b7ea-3d2ebc0034b3
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f8da830e1b86d3de3359d3ed3627a8d392737569
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009408"
 ---
 # <a name="get-functions"></a>Fonctions d’extraction
 
@@ -28,7 +28,7 @@ Les fonctions d’extraction de gestion de réseau sont répertoriées ci-dessou
 
 
 
- 
+ 
 
 Les informations retournées par la fonction [**NetQueryDisplayInformation**](/windows/desktop/api/Lmaccess/nf-lmaccess-netquerydisplayinformation) sont disponibles aux niveaux suivants :
 
@@ -36,9 +36,9 @@ Les informations retournées par la fonction [**NetQueryDisplayInformation**](/w
 -   [**\_ordinateur net Display \_**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_machine)
 -   [**\_utilisateur NET Display \_**](/windows/desktop/api/Lmaccess/ns-lmaccess-net_display_user)
 
- 
+ 
 
- 
+ 
 
 
 

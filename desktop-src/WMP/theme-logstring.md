@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bec56c84f857f715c41a8000eccd195db0b6123fb636a52956adb7c3e66bcfc1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 273cd08d41d0ce3302f64719d67155cff963e6a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228389"
 ---
 # <a name="themelogstring"></a>THÈME. logString
 
@@ -43,7 +43,7 @@ La méthode **logString** consigne une chaîne définie par l’utilisateur dans
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

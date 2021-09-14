@@ -4,12 +4,12 @@ ms.assetid: 13f3cf1a-e303-469c-9166-bba96046188b
 title: Propriété USERNAME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44846c35ae84ad157a2295a502e3335faffc5a78e2534c613b34b620a8648e9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e9d6d4b7708207d2ed538f3cf72816cace9974c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009602"
 ---
 # <a name="username-property"></a>Propriété USERNAME
 
@@ -19,7 +19,7 @@ La propriété **username** est un utilisateur effectuant une installation.
 
 La valeur par défaut peut être placée dans la table de propriétés. Si la propriété **username** n’est pas définie, elle est automatiquement définie à l’aide des valeurs du Registre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez la propriété [**NOUSERNAME**](nousername.md) pour supprimer le paramètre automatique du **nom d’utilisateur**.
 

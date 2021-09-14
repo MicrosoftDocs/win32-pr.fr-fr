@@ -6,11 +6,11 @@ ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 768c09a2498c343e6d59a6af99cf6e11e1ed64a7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104313045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008610"
 ---
 # <a name="imsrdpclientnonscriptable4-properties"></a>Propriétés IMsRdpClientNonScriptable4
 
@@ -27,9 +27,9 @@ L’interface [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) ex
 -   [**Propriété TrustedZoneSite**](imsrdpclientnonscriptable4-trustedzonesite.md)
 -   [**Propriété WarnAboutPrinterRedirection**](imsrdpclientnonscriptable4-warnaboutprinterredirection.md)
 
- 
+ 
 
- 
+ 
 
 
 

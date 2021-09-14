@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, connexion du client et du serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f477802ffb4b72f33ce951bf811b1cb9b770a8272f646507dfaa450934569f32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98a22ea7a9a6dd30f2b9495b6d2ee868aac217f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118931226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229235"
 ---
 # <a name="connecting-the-client-and-the-server"></a>Connexion du client et du serveur
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b9489c2e966abdf3c329d952a76bd30de487cca99a3e00c8ff46431a163ec9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 297f0e3e67134f911932aa7784396c244dc79f42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117954504"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193651"
 ---
 # <a name="systemmonitor-object"></a>Objet SystemMonitor
 
@@ -68,9 +68,9 @@ L’objet **systemmonitor** a ces méthodes.
 | [**DisplayProperties**](systemmonitor-displayproperties.md) | affiche la boîte de dialogue **propriétés du Graph** .<br/>                                                                                                                 |
 | [**GetLogViewRange**](systemmonitor-getlogviewrange.md)     | Récupère la date de début utilisée pour récupérer les valeurs de compteur à partir des fichiers journaux.<br/>                                                                               |
 | [**LoadSettings**](systemmonitor-loadsettings.md)           | Ajoute les compteurs dans le fichier de modèle HTML au moniteur système.<br/>                                                                                            |
-| [**Insérer**](systemmonitor-paste.md)                         | Ajoute la liste des compteurs copiés dans le presse-papiers à la collection actuelle de compteurs. <br/>                                                        |
+| [**Coller**](systemmonitor-paste.md)                         | Ajoute la liste des compteurs copiés dans le presse-papiers à la collection actuelle de compteurs. <br/>                                                        |
 | [**Rejournaliser**](systemmonitor-relog.md)                         | Rejournalise les données de compteur dans un nouveau fichier. Vous pouvez également utiliser cette méthode pour spécifier un nouveau type de fichier et réduire le nombre d’échantillons contenus dans le fichier journal.<br/> |
-| [**Initialisation**](systemmonitor-reset.md)                         | Supprime tous les objets [**CounterItem**](counteritem.md) de l’objet de collection de **compteurs** .<br/>                                                               |
+| [**Réinitialiser**](systemmonitor-reset.md)                         | Supprime tous les objets [**CounterItem**](counteritem.md) de l’objet de collection de **compteurs** .<br/>                                                               |
 | [**SaveAs**](systemmonitor-saveas.md)                       | Enregistre les valeurs de compteur de la vue du graphique dans un fichier journal.<br/>                                                                                                     |
 | [**ScaleToFit**](systemmonitor-scaletofit.md)               | Mettre à l’échelle les valeurs de compteur pour les adapter au graphique.<br/>                                                                                                                     |
 | [**SetLogViewRange**](systemmonitor-setlogviewrange.md)     | Définit la date de début utilisée pour récupérer les valeurs de compteur à partir des fichiers journaux.<br/>                                                                                    |
@@ -99,7 +99,7 @@ L’objet **systemmonitor** a ces propriétés.
 | [**DisplayType**](systemmonitor-displaytype.md)<br/>                             | Récupère ou définit le type de graphique utilisé pour représenter graphiquement les données du compteur de performance.<br/>                                                                                                                                              |
 | [**EnableDigitGrouping**](systemmonitor-enabledigitgrouping.md)<br/>             | Récupère ou définit une valeur qui détermine si SYSMON utilise le regroupement de chiffres lors de l’affichage de valeurs numériques.<br/>                                                                                                                      |
 | [**EnableToolTips**](systemmonitor-enabletooltips.md)<br/>                       | Récupère ou définit une valeur qui détermine si une info-bulle est affichée lorsque la souris pointe sur un compteur dans l’une des vues du graphique.<br/>                                                                                             |
-| [**Police**](systemmonitor-font.md)<br/>                                           | Récupère ou définit la police utilisée dans le contrôle.<br/>                                                                                                                                                                              |
+| [**Font**](systemmonitor-font.md)<br/>                                           | Récupère ou définit la police utilisée dans le contrôle.<br/>                                                                                                                                                                              |
 | [**CouleurTexte**](systemmonitor-forecolor.md)<br/>                                 | Récupère ou définit la couleur du texte qui apparaît dans le contrôle.<br/>                                                                                                                                                         |
 | [**GraphTitle**](systemmonitor-graphtitle.md)<br/>                               | Récupère ou définit le titre du graphique.<br/>                                                                                                                                                                                    |
 | [**GridColor**](systemmonitor-gridcolor.md)<br/>                                 | Récupère ou définit la couleur des lignes de la grille utilisées dans le graphique.<br/>                                                                                                                                                             |
@@ -133,7 +133,7 @@ L’objet **systemmonitor** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

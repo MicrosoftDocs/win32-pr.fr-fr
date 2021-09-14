@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e5dd0cec7e4d0d6d3223da4486d4569f8bc611e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843473"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008831"
 ---
 # <a name="systemmonitorborderstyle-property"></a>SystemMonitor. BorderStyle, propriété
 
@@ -48,8 +48,8 @@ Vous pouvez définir cette propriété sur l’une des valeurs suivantes.
 
 | Valeur                                                                                                                                                                                                                                                                                                                                                                                                   | Signification                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| <span id="System.Windows.Forms.FormBorderStyle.VbBSNone"></span><span id="system.windows.forms.formborderstyle.vbbsnone"></span><span id="SYSTEM.WINDOWS.FORMS.FORMBORDERSTYLE.VBBSNONE"></span><dl> <dt>**System. Windows. Forms. FormBorderStyle. VbBSNone**</dt> <dt>0</dt> </dl>                     | Aucune bordure. Il s’agit de la valeur par défaut.<br/> |
-| <span id="System.Windows.Forms.FormBorderStyle.VbFixedSingle"></span><span id="system.windows.forms.formborderstyle.vbfixedsingle"></span><span id="SYSTEM.WINDOWS.FORMS.FORMBORDERSTYLE.VBFIXEDSINGLE"></span><dl> <dt>**System. Windows. Forms. FormBorderStyle. VbFixedSingle**</dt> <dt>1</dt> </dl> | Fixe, bordure simple.<br/>                 |
+| <span id="System.Windows.Forms.FormBorderStyle.VbBSNone"></span><span id="system.windows.forms.formborderstyle.vbbsnone"></span><span id="SYSTEM.WINDOWS.FORMS.FORMBORDERSTYLE.VBBSNONE"></span><dl> <dt>**Système. Windows. Forms. FormBorderStyle. VbBSNone**</dt> <dt>0</dt> </dl>                     | Aucune bordure. Il s’agit de la valeur par défaut.<br/> |
+| <span id="System.Windows.Forms.FormBorderStyle.VbFixedSingle"></span><span id="system.windows.forms.formborderstyle.vbfixedsingle"></span><span id="SYSTEM.WINDOWS.FORMS.FORMBORDERSTYLE.VBFIXEDSINGLE"></span><dl> <dt>**Système. Windows. Forms. FormBorderStyle. VbFixedSingle**</dt> <dt>1</dt> </dl> | Fixe, bordure simple.<br/>                 |
 
 
 

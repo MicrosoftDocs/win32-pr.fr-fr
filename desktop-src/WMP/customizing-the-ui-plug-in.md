@@ -9,12 +9,12 @@ keywords:
 - Plug-ins d’interface utilisateur, personnalisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb7182d2f4710432638bd273e17226954f2b14f0fc831d64aa4078ed796e00cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4572c4ce5102443c3100ddd20719fe17fe62ffc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117936233"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228474"
 ---
 # <a name="customizing-the-ui-plug-in"></a>Personnalisation du plug-in d’interface utilisateur
 

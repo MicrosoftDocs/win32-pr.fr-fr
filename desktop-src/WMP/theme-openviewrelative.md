@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a26040bb8f47d85be99f0d8df602bdd69835cfa648ac6d5898f786e4518acdb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80ec93055535640b84c33dde2b61ee59cd5bfdcf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228372"
 ---
 # <a name="themeopenviewrelative"></a>THÈME. openViewRelative
 
@@ -57,7 +57,7 @@ La méthode **openViewRelative** ouvre une **vue** dans une nouvelle fenêtre à
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La position spécifiée pour la **vue** est utilisée la première fois que cette méthode est appelée, après laquelle l’utilisateur peut faire glisser la **vue** vers un autre emplacement. La nouvelle position est enregistrée et, lors des appels suivants, la position la plus récente est utilisée.
 
@@ -78,7 +78,7 @@ La position spécifiée pour la **vue** est utilisée la première fois que cett
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

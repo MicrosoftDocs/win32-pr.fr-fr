@@ -4,12 +4,12 @@ ms.assetid: a9648287-65d9-47d8-b32b-33f74b4fcd07
 title: Constructeurs Metafile. Metafile
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 9a993cb8d0e21e57fe495e5948546ab8ea51e2829af3bd42b962a0be9408e419
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ae5fa3343aebace286591760a47a55fbbef7c9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007747"
 ---
 # <a name="metafilemetafile-constructors"></a>Constructeurs Metafile. Metafile
 

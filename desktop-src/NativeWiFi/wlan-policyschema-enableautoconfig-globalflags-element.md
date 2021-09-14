@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 77b09bf046cdbadb58c888a3084d14ed14794064bf9f11c110ccecaff105fceb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5105b8e634aa5affa8648b763a82bbd60cbaec17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119684409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194812"
 ---
 # <a name="enableautoconfig-globalflags-element-lan_policy-for-wlan"></a>enableAutoConfig (globalFlags), élément (LAN_policy) pour WLAN 
 
@@ -33,7 +33,7 @@ Cet élément est obligatoire. Lorsqu’un profil est créé par le service de c
 
 L’élément **enableAutoConfig** est défini par l’élément [**globalFlags**](wlan-policyschema-globalflags-wlanpolicy-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

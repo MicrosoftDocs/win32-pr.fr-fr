@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: d7a44fe02983038658247fedaec7122f09306548
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228179"
 ---
 # <a name="operators"></a>Opérateurs
 
@@ -264,7 +264,7 @@ Le langage HLSL prend en charge les opérateurs de bits suivants, qui suivent la
 
 | Opérateur          |  Fonction                 |
 |-----------|-------------------|
-| ~         | Not logique       |
+| ~         | NOT logique       |
 | <<  | Décalage vers la gauche        |
 | >>  | Décalage vers la droite       |
 | &         | AND logique       |
@@ -528,7 +528,7 @@ int j = +i2;       // j = +2
 
 Lorsqu’une expression contient plusieurs opérateurs, la priorité des opérateurs détermine l’ordre d’évaluation. La priorité des opérateurs pour le langage HLSL suit la même priorité que C.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les accolades ( {,} ) commencent et terminent un bloc d’instructions. Lorsqu’un bloc d’instructions utilise une seule instruction, les accolades sont facultatives.
 

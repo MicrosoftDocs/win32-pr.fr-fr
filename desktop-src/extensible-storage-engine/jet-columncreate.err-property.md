@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6fea46189c81455e25376328764da57a6bbc7691cb02470c62feb17c64fc87ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b648f0df28ab2a00b85625febed151d5c198158
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119731369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007781"
 ---
 # <a name="jet_columncreateerr-property"></a>JET_COLUMNCREATE. Err (propriété)
 

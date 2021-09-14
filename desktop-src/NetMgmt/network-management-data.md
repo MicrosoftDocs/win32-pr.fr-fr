@@ -5,11 +5,11 @@ ms.assetid: 88306477-aa7d-4128-aed3-fca07688b483
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 013e110a718d02d696a88703506f7a4f3ac774c6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382796"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009367"
 ---
 # <a name="network-management-data"></a>Données de gestion de réseau
 
@@ -27,6 +27,6 @@ Les rubriques suivantes décrivent les mémoires tampons de données, l’aligne
 -   [Erreurs d’allocation de mémoire tampon RPC](rpc-buffer-allocation-errors.md)
 -   [Champs d’informations obsolètes](obsolete-information-fields.md)
 
- 
+ 
 
- 
+ 

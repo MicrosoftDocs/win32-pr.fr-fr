@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e286ce75fbcfab03f7e46cb6b58fda52343e3b9643f5d9eb462807d67b9c32c6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f6be91f00b79f2c2a47235a389b82ffb9255d586
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008682"
 ---
 # <a name="boottriggerdelay-property"></a>BootTrigger. Delay, propriété
 
 Pour les scripts, obtient ou définit une valeur qui indique la durée entre le démarrage du système et le démarrage de la tâche.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```VB

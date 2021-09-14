@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e5cba39f6816e301f2d36e21e6f81c7bb1f6bb4792fe4ea8017de5d452faf357
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05bdd066f4b7c33ad06f089551f16f0489608c83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118801487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007996"
 ---
 # <a name="id3dxprtbufferscalebuffer-method"></a>ID3DXPRTBuffer :: ScaleBuffer, méthode
 
@@ -49,7 +49,7 @@ Valeur constante utilisée pour mettre à l’échelle la mémoire tampon. Chaqu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

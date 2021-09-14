@@ -10,11 +10,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bcfe58474c5f2a7e104f3e96626fffc685e68021
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193591"
 ---
 # <a name="about-text-services-framework"></a>À propos de Text Services Framework
 
@@ -27,9 +27,9 @@ Les rubriques suivantes résument les fonctionnalités de TSF.
 -   [Architecture](architecture.md)
 -   [Comment configurer Text Services Framework](how-to-set-up-tsf.md)
 
- 
+ 
 
- 
+ 
 
 
 

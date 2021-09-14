@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 6e958c6a2b873bb78e66645ce2a2ae8100e2acbc
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812526"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228858"
 ---
 # <a name="executiontimelimit-triggerbasetype-element"></a>Élément ExecutionTimeLimit (triggerBaseType)
 
@@ -48,13 +48,13 @@ L’élément **ExecutionTimeLimit** est défini par le type complexe [**trigger
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Pour le développement de scripts, la limite de durée d’exécution est spécifiée à l’aide de la propriété [**Trigger.ExecutionTimeLimit**](trigger-executiontimelimit.md) qui est héritée par tous les objets déclencheurs.
+Pour le développement de scripts, la limite de durée d’exécution est spécifiée à l’aide de la propriété [**Trigger. ExecutionTimeLimit**](trigger-executiontimelimit.md) qui est héritée par tous les objets déclencheurs.
 
 Pour le développement C++, le délai d’exécution est spécifié à l’aide de la propriété [**ITrigger :: ExecutionTimeLimit**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_executiontimelimit) qui est héritée par les interfaces de déclencheur All.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

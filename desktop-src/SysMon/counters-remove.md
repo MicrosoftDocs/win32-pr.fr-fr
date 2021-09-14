@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77226d87c49fdfd2e9d8d26c2699bcb4606de29a21bf2bd20a12ad0b70d6daa4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa82a1a988be3554c265c097ba2a582035547391
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117956651"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008865"
 ---
 # <a name="countersremove-method"></a>Compteurs. Remove, méthode
 
@@ -49,7 +49,7 @@ Index de l’objet [**CounterItem**](counteritem.md) à supprimer de la collecti
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -65,11 +65,11 @@ Cette méthode ne retourne pas de valeur.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour supprimer tous les compteurs de la collection, vous pouvez appeler [**systemmonitor. Reset**](systemmonitor-reset.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

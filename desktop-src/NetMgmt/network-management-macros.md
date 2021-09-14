@@ -5,11 +5,11 @@ ms.assetid: b295fae7-0893-4f3b-a414-2fe38f2261b5
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3a28f47e38c538e43959c46408734fb6bf199802
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194696"
 ---
 # <a name="network-management-macros"></a>Macros de gestion de réseau
 
@@ -20,9 +20,9 @@ Les macros suivantes peuvent être utilisées avec des tampons de données d’a
 
 Pour plus d’informations, consultez [fonctions d’alerte](alert-functions.md).
 
- 
+ 
 
- 
+ 
 
 
 

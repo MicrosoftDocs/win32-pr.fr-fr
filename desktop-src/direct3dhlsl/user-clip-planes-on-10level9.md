@@ -4,12 +4,12 @@ description: à partir de Windows 8, le langage HLSL (High Level Shader Language
 ms.assetid: C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd6ffd624e688dbe5e3591e10ee5c005a9d4564dc5a536e9c89cfcee50067c2a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 968831ca39f2501a44b00f202fd8dfda1f92d1e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119948969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007967"
 ---
 # <a name="user-clip-planes-on-feature-level-9-hardware"></a>Plans de clip utilisateur sur le matériel de niveau de fonctionnalité 9
 
@@ -26,13 +26,13 @@ ms.locfileid: "119948969"
     -   [Plan de découpage de l’espace](#clip-space-clip-plane)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="background"></a>Arrière-plan
+## <a name="background"></a>Contexte
 
 Vous pouvez accéder aux plans de clips utilisateur dans l’API Microsoft Direct3D 9 via les méthodes [**IDirect3DDevice9 :: SetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane) et [**IDirect3DDevice9 :: GetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane) . Dans Microsoft Direct3D 10 et versions ultérieures, vous pouvez accéder aux plans d’utilisateur à l’aide de la sémantique [SV \_ ClipDistance](dx-graphics-hlsl-semantics.md) . mais avant Windows 8, SV \_ ClipDistance n’était pas disponible [](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) pour \_ le matériel de niveau de fonctionnalité 9 x dans les api direct3d 10 ou direct3d 11. donc, avant Windows 8, le seul moyen d’accéder aux plans de l’utilisateur avec le matériel de niveau de fonctionnalité 9 \_ x consistait à utiliser l’API Direct3D 9. les applications direct3d Windows store ne peuvent pas utiliser l’API direct3d 9. Ici, nous décrivons la syntaxe que vous pouvez utiliser pour accéder aux plans de l’utilisateur via l’API Direct3D 11 au niveau de la fonctionnalité 9 \_ x et versions ultérieures.
 
 Les applications utilisent des plans de coupe pour définir un ensemble de plans invisibles dans le monde 3D qui découpent (éliminent) toutes les primitives dessinées. Windows ne dessine pas de pixel qui se trouve du côté négatif des plans de coupe. Les applications peuvent ensuite utiliser des plans de clip pour restituer les réflexions planaires.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 Utilisez cette syntaxe pour déclarer des plans d’éléments en tant qu’attributs de fonction dans une [déclaration de fonction](dx-graphics-hlsl-function-syntax.md). Par exemple, nous utilisons ici la syntaxe sur un fragment de nuanceur de sommets :
 

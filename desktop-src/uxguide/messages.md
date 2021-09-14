@@ -4,12 +4,12 @@ description: Les messages sont n’importe quel type de message dont les utilisa
 ms.assetid: 700F1F1F-B41D-4C0A-B2EC-91C84E46E526
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 140c57420c650abe9a4adfacfebe7268b08db49625e5c0f8e21ca423fe88b453
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dba3296c9824b2153184c45b6a021ea823b4d151
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118211973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231113"
 ---
 # <a name="messages-design-basics"></a>Messages (concepts de base de la conception)
 

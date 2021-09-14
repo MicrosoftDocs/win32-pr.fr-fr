@@ -4,12 +4,12 @@ ms.assetid: 68e17a55-4dd5-40cd-8996-25fa278ddd19
 title: Netsh.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c283206a8000c101b437bee851f9a78f6f20f0d87de544e8b5db49909ea9bf6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aab092def0dc12071ee9dd62fd7554a53c9a7f97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118993639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216708"
 ---
 # <a name="netshexe"></a>Netsh.exe
 

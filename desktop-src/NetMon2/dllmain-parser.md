@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: 5df58ef86971fcf60e79fbae8e92313dbd0b0371e2311cc30b494950e4f37dd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1db69d51f3a46bbe219ef7f7bdea67e8e8970e4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229661"
 ---
 # <a name="dllmain-parser-callback-function"></a>Fonction de rappel de l’analyseur DllMain
 
@@ -73,7 +73,7 @@ Non utilisé maintenant.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La DLL de l’analyseur retourne toujours la **valeur true**.
 

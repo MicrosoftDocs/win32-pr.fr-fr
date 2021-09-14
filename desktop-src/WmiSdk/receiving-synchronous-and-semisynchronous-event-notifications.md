@@ -1,20 +1,20 @@
 ---
-description: Utilisez SWbemServices.ExecQuery pour demander tous les événements existants.
+description: Utilisez SWbemServices. ExecQuery pour demander tous les événements existants.
 ms.assetid: bc99719a-7e33-4e2d-8355-f8fc97c66f71
 ms.tgt_platform: multiple
 title: Réception des notifications d’événements synchrones et semi-synchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8657767150012124c3ccb0df8d95896f51b36ef47fa00998cf786df9beddf977
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15327c66f7ba3e59824c94d54a206ec348c85952
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118817258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008231"
 ---
 # <a name="receiving-synchronous-and-semisynchronous-event-notifications"></a>Réception des notifications d’événements synchrones et semi-synchrones
 
-Utilisez [**SWbemServices.ExecQuery**](swbemservices-execquery.md) pour demander tous les événements existants.
+Utilisez [**SWbemServices. ExecQuery**](swbemservices-execquery.md) pour demander tous les événements existants.
 
 L’exemple de code suivant montre comment interroger les événements d’un journal.
 
@@ -22,7 +22,7 @@ L’exemple de code suivant montre comment interroger les événements d’un jo
 
 pour plus d’informations, consultez [déterminer le Type d’événement à recevoir](determining-the-type-of-event-to-receive.md), recevoir [des notifications d’événements](receiving-event-notifications.md)et [WQL (SQL pour WMI)](wql-sql-for-wmi.md).
 
-L’appel par défaut à [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) utilise la communication semi-synchrone. Les indicateurs **wbemFlagForwardOnly** et **wbemFlagReturnImmediately** sont définis par défaut pour le paramètre *IFlags* . Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
+L’appel par défaut à [**SWbemServices. ExecNotificationQuery**](swbemservices-execnotificationquery.md) utilise la communication semi-synchrone. Les indicateurs **wbemFlagForwardOnly** et **wbemFlagReturnImmediately** sont définis par défaut pour le paramètre *IFlags* . Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
 La procédure suivante décrit comment recevoir une notification d’événements semi-synchrone à l’aide de VBScript.
 
@@ -36,7 +36,7 @@ La procédure suivante décrit comment recevoir une notification d’événement
 
 4.  spécifiez une fréquence d’interrogation de Windows Management Instrumentation (WMI) dans une requête, telle que « dans les 10 », pour interroger toutes les 10 secondes. Pour plus d’informations, consultez [dans la clause in](within-clause.md).
 
-5.  Appelez [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) à l’aide de la requête.
+5.  Appelez [**SWbemServices. ExecNotificationQuery**](swbemservices-execnotificationquery.md) à l’aide de la requête.
 
 6.  Parcourez la collection que vous recevez.
 

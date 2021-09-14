@@ -4,12 +4,12 @@ description: Meilleures pratiques relatives à l’équilibrage de charge
 ms.assetid: 260cf8dd-13b8-4b46-93a6-5333e794c0d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16fe4af9dffe758c89d1a494d4cc2597e057c563ca8c85db87d789ae91b89698
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c68b85f60b75cb5a0fc75bd5ad8bd438608a9b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928594"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194112"
 ---
 # <a name="load-balancing-best-practices"></a>Meilleures pratiques relatives à l’équilibrage de charge
 

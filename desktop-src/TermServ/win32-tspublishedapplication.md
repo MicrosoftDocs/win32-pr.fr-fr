@@ -33,12 +33,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3330a2fb20238c34f6eecb0d78cd7d126a8895a5260abb338ab445713f988e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3825087d05b622818c74f011f30b325ed8ff7f60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119137662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008568"
 ---
 # <a name="win32_tspublishedapplication-class"></a>\_Classe TSPublishedApplication Win32
 

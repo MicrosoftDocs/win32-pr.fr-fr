@@ -10,12 +10,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf069baca3d9ff56c0d3d98e79bb553df7e8acf1fadf7b5888c5b5d211f7a874
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d464f6cc52539e31fee5e234af2c045dfff7e413
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228216"
 ---
 # <a name="hardware-feature-levels"></a>Niveaux de fonctionnalité matérielle
 

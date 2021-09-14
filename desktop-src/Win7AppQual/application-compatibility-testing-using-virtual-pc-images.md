@@ -4,12 +4,12 @@ ms.assetid: 316B4258-3C8D-4B74-A6B8-1D1C02372720
 title: Test de compatibilité des applications à l'aide d'images Virtual PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c510da059ab8791f5dd360455fb0abe73542c369d135b8f1bd5b7f914ad8faf0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d05ca2e85c5d33f301b886c5706fcb8a8e1ab394
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216764"
 ---
 # <a name="application-compatibility-testing-using-virtual-pc-images"></a>Test de compatibilité des applications à l'aide d'images Virtual PC
 

@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, meilleures pratiques, prévention des blocages du client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da79573e59e30c58a7c236b35293b678c93dde6bf999b477de054d6f3c62971
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18d4b5fc92ca18b575d081cd7b5abf90929e7df5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118927294"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233495"
 ---
 # <a name="preventing-client-side-hangs"></a>Prévention des blocages côté client
 

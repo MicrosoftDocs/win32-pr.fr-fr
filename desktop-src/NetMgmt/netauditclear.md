@@ -15,16 +15,16 @@ api_type:
 - NA
 api_location: ''
 ms.openlocfilehash: 9b884d93a1455ddc29cffc4cd3d528f72e44a238
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106518034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009396"
 ---
 # <a name="netauditclear"></a>NetAuditClear
 
 La fonction **NetAuditClear** est obsolète. Il est inclus pour la compatibilité avec les versions 16 bits de Windows. D’autres applications doivent utiliser la [journalisation des événements](/windows/desktop/EventLog/event-logging).
 
- 
+ 
 
- 
+ 

@@ -5,11 +5,11 @@ ms.assetid: 47402a4a-5f8d-4648-b3ea-06c95b2a1fc1
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3f8b9a302f12e7838240ee8bfeac1ea78a3884a1
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104381738"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193640"
 ---
 # <a name="command-blocking"></a>Blocage des commandes
 
@@ -20,11 +20,11 @@ Pour les commandes de la version 1,2 du module de plateforme sécurisée, il exi
 > [!Note]  
 > La liste des commandes bloquées localement n’est pas conservée après une mise à niveau du système d’exploitation. Les commandes qui sont bloquées dans la liste stratégie de groupe sont conservées.
 
- 
+ 
 
-Pour les commandes de la version 2,0 du module de plateforme sécurisée, la logique de blocage est inversée. elle utilise une liste de commandes autorisées. Cette logique bloquera automatiquement les commandes qui n’étaient pas connues lors de la première création de la liste. Lorsque des commandes sont ajoutées à la spécification du module de plateforme sécurisée après la livraison d’une version de Windows, ces nouvelles commandes sont automatiquement bloquées. Seule une mise à jour du Registre ajoute ces nouvelles commandes à la liste des commandes autorisées.
+Pour les commandes de la version 2,0 du module de plateforme sécurisée, la logique de blocage est inversée. elle utilise une liste de commandes autorisées. Cette logique bloquera automatiquement les commandes qui n’étaient pas connues lors de la première création de la liste. lorsque des commandes sont ajoutées à la spécification du module de plateforme sécurisée après la livraison d’une version de Windows, ces nouvelles commandes sont automatiquement bloquées. Seule une mise à jour du Registre ajoute ces nouvelles commandes à la liste des commandes autorisées.
 
-À compter de Windows 10 1809 (Windows Server 2019), les commandes TPM 2,0 autorisées ne peuvent plus être manipulées via les paramètres du Registre. Pour ces versions de Windows 10, les commandes TPM 2,0 autorisées sont fixes dans le pilote du module de plateforme sécurisée. Les commandes TPM 1,2 peuvent toujours être bloquées et débloquées par le biais de modifications du Registre. 
+à compter de Windows 10 1809 (Windows Server 2019), les commandes TPM 2,0 autorisées ne peuvent plus être manipulées via les paramètres du registre. pour ces versions Windows 10, les commandes tpm 2,0 autorisées sont fixes dans le pilote du module de plateforme sécurisée. Les commandes TPM 1,2 peuvent toujours être bloquées et débloquées par le biais de modifications du Registre. 
 
 ## <a name="direct-registry-access"></a>Accès direct au registre
 
@@ -44,7 +44,7 @@ Pour déterminer les listes à utiliser pour bloquer les commandes TPM, deux val
 
 **Pour accéder à l’éditeur d’objets stratégie de groupe**
 
-1.  Cliquez sur **Start**.
+1.  Cliquez sur **Start** (Démarrer).
 2.  Cliquez sur **Exécuter**.
 3.  Dans la zone **Ouvrir** , tapez **gpedit.msc**. Cliquez sur **OK**. L’éditeur d’objets de stratégie de groupe s’ouvre.
 4.  Développez Configuration de l' **ordinateur**.
@@ -58,37 +58,37 @@ Les listes de commandes TPM 1.2 bloquées spécifiques peuvent être modifiées 
 
     ```
     HKEY_LOCAL_MACHINE
-       Software
-          Policies
-             Microsoft
-                Tpm
-                   BlockedCommands
-                      List
+       Software
+          Policies
+             Microsoft
+                Tpm
+                   BlockedCommands
+                      List
     ```
 
 -   Liste locale :
 
     ```
     HKEY_LOCAL_MACHINE
-       SYSTEM
-          CurrentControlSet
-             Services
-                SharedAccess
-                   Parameters
-                      Tpm
-                         BlockedCommands
-                            List
+       SYSTEM
+          CurrentControlSet
+             Services
+                SharedAccess
+                   Parameters
+                      Tpm
+                         BlockedCommands
+                            List
     ```
 
 -   Liste par défaut :
 
     ```
     HKEY_LOCAL_MACHINE
-       Software
-          Microsoft
-             Tpm
-                BlockedCommands
-                   List
+       Software
+          Microsoft
+             Tpm
+                BlockedCommands
+                   List
     ```
 
 Sous chacune de ces clés de Registre figure une liste de valeurs de registre de type de Registre \_ sz. Chaque valeur représente une commande TPM bloquée. Chaque clé de registre a un champ « nom de la valeur » et un champ « données de valeur ». Les deux champs (« nom de la valeur » et « données de valeur ») doivent correspondre exactement à la valeur décimale du numéro de commande du module de plateforme sécurisée à bloquer.
@@ -99,18 +99,18 @@ La liste des commandes TPM 2,0 spécifiques autorisées peut être modifiée dir
 
     ```
     HKEY_LOCAL_MACHINE
-       Software
-          Microsoft
-             Tpm
-                AllowedW8Commands
-                   List
+       Software
+          Microsoft
+             Tpm
+                AllowedW8Commands
+                   List
     ```
 
-Pour Windows 8, Windows Server 2012 et versions ultérieures, les clés de Registre **BlockedCommands** et **AllowedW8Commands** déterminent respectivement les commandes TPM bloquées ou autorisées pour les comptes d’administrateur. Les comptes d’utilisateur disposent respectivement d’une liste de commandes TPM bloquées ou autorisées dans les clés de Registre **BlockedUserCommands** et **AllowedW8UserCommands** . Dans Windows 10, version 1607, de nouvelles clés de Registre ont été introduites pour les applications AppContainer : **BlockedAppContainerCommands** et **AllowedW8AppContainerCommands**.
+par Windows 8, Windows Server 2012 et versions ultérieures, les clés de registre **BlockedCommands** et **AllowedW8Commands** déterminent respectivement les commandes TPM bloquées ou autorisées pour les comptes d’administrateur. Les comptes d’utilisateur disposent respectivement d’une liste de commandes TPM bloquées ou autorisées dans les clés de Registre **BlockedUserCommands** et **AllowedW8UserCommands** . dans Windows 10, version 1607, de nouvelles clés de registre ont été introduites pour les applications AppContainer : **BlockedAppContainerCommands** et **AllowedW8AppContainerCommands**.
 
- 
+ 
 
- 
+ 
 
 
 

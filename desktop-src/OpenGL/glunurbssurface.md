@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50f56232ac891cbdfba18195741d875ecc5436112772ed4fa665903374e96602
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c784741eded406a49bba90f67544a406ab024a6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119554189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194388"
 ---
 # <a name="glunurbssurface-function"></a>gluNurbsSurface fonction)
 
@@ -131,7 +131,7 @@ Type de l’aire. Le paramètre de *type* peut être n’importe lequel des type
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez **gluNurbsSurface** dans une définition de surface NURBS pour décrire la forme d’une surface NURBS (avant tout rognage). Pour marquer le début d’une définition de surface NURBS, utilisez la fonction [**gluBeginSurface**](glubeginsurface.md) . Pour marquer la fin d’une définition de surface NURBS, utilisez la fonction [**gluEndSurface**](gluendsurface.md) . Appelez **gluNurbsSurface** dans une définition de surface NURBS uniquement.
 
@@ -141,7 +141,7 @@ Vous pouvez supprimer une surface NURBS en utilisant les fonctions [**gluNurbsCu
 
 Un **gluNurbsSurface** avec des nœuds de *\_ nombre de sknot* dans les nœuds direction *u* et *\_ nombre de tknot* dans la direction *v* avec les commandes *sorder* et *torder* doit avoir les points de contrôle (*sknot \_ Count*  - *sorder*) multipied par (*tknot \_ Count*  - *torder*).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -37,11 +37,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d791b5eff3346f61f999ea1f4f78bc41a5acea0e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008608"
 ---
 # <a name="imsrdpclientnonscriptable4trustedzonesite-property"></a>IMsRdpClientNonScriptable4 :: TrustedZoneSite, propriété
 
@@ -49,7 +49,7 @@ Spécifie si le site Web à partir duquel l’utilisateur a lancé la connexion 
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++

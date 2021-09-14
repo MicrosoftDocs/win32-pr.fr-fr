@@ -4,12 +4,12 @@ ms.assetid: 835c3753-fdcc-4afe-94c3-c954aaf1c832
 title: Publication et diffusion d’événements dans COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7de1625d1e18340d71b3ad3a53c06d2db79b9fd1f913e7a49274644bc3a715c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47a444b64501156191590c115d6000f4c0bda153
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118812860"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008182"
 ---
 # <a name="publishing-and-delivering-events-in-com"></a>Publication et diffusion d’événements dans COM+
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d12f337c8d4889e0d2e94bac0c0a4dce74f3a80fda9261d245b91ce5612754d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 361f7d903b6231e92f331ab38a3a9f51bc3ec679
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119651399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228468"
 ---
 # <a name="customsliderhoverimage"></a>CUSTOMSLIDER.hoverImage
 
@@ -31,7 +31,7 @@ L’attribut **hoverImage** spécifie ou récupère l’image qui apparaît lors
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est facultatif. S’il n’est pas spécifié, le fichier spécifié dans l’attribut **image** sera utilisé.
 
@@ -39,7 +39,7 @@ Cet attribut est facultatif. S’il n’est pas spécifié, le fichier spécifi�
 
 Les types de fichiers image pris en charge sont BMP, JPG, PNG et GIF (à l’exclusion des GIF animés).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

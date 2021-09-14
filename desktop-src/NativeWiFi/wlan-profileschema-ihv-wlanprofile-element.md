@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 1cfcd9ee463ef91d04d0bebbeac800d48da32fdd777edc2a08ccf0051410160d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d2d2902522c84ebe2939d42301a491521ac8a70f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194744"
 ---
 # <a name="ihv-wlanprofile-element"></a>Élément IHV (WLANProfile)
 
@@ -116,12 +116,12 @@ L’élément est défini par l’élément [**WLANProfile**](wlan-profileschema
 | [**OUI**](wlan-profileschema-oui-ouiheader-element.md)             |                                                                   | Contient une hexBinary de 3 octets qui identifie le IHV.<br/>                                                                                                                                                                                                                                                                                                                                   |
 | [**OUIHeader**](wlan-profileschema-ouiheader-ihv-element.md)       |                                                                   | Identifie le IHV.<br/>                                                                                                                                                                                                                                                                                                                                                                    |
 | [**caution**](wlan-profileschema-security-ihv-element.md)         |                                                                   | Contient des paramètres de sécurité spécifiques au IHV. Les paramètres de sécurité Microsoft et les paramètres de sécurité IHV s’excluent mutuellement. Le profil entier n’est pas valide si les deux paramètres de sécurité sont présents.<br/>                                                                                                                                                                                            |
-| [**entrer**](wlan-profileschema-type-ouiheader-element.md)           |                                                                   | Contient une valeur hexBinary de 1 octet qui est utilisée pour différencier les cartes réseau par le même IHV.<br/>                                                                                                                                                                                                                                                                                                        |
+| [**type**](wlan-profileschema-type-ouiheader-element.md)           |                                                                   | Contient une valeur hexBinary de 1 octet qui est utilisée pour différencier les cartes réseau par le même IHV.<br/>                                                                                                                                                                                                                                                                                                        |
 | [**useMSOneX**](wlan-profileschema-usemsonex-ihv-element.md)       | [boolean](/dotnet/api/system.boolean) | Spécifie l’origine des paramètres de sécurité 802.1 X utilisés par un composant de sécurité IHV. Quand [**useMSOneX**](wlan-profileschema-usemsonex-ihv-element.md) a la valeur true, les composants de sécurité IHV utilisent les paramètres 802.1 x définis par Microsoft. Quand **useMSOneX** a la valeur false, les composants de sécurité IHV utilisent les paramètres 802.1 x fournis par le fournisseur. Par défaut, **useMSOneX** a la valeur false. Cet élément est facultatif.<br/> |
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

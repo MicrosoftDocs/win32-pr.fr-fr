@@ -5,11 +5,11 @@ ms.assetid: 85ee217d-6e0b-4160-9cec-a652c1daa9a0
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2fafc97e4d9c9d76b965ab67bcd57f4f33100625
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842533"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194171"
 ---
 # <a name="indicate-errors-by-exceptions"></a>Indiquer les erreurs par exceptions
 
@@ -42,6 +42,6 @@ L’indication des erreurs dans les routines de serveur RPC en levant des except
 [Gestion des exceptions](exception-handling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ce3b1e921635850e9ffa713c55a812a806ac4e757e772569e7db817410ad3d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92372f7ea9479f7fcdd632546a0bd7dd2f0b465e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119770649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217449"
 ---
 # <a name="imstscnonscriptable-interface"></a>Interface IMsTscNonScriptable
 
@@ -85,7 +85,7 @@ L’interface **IMsTscNonScriptable** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’ajout d’un mot de passe au contrôle Bureau à distance ActiveX est facultatif. si vous fournissez un mot de passe au contrôle, vous devez appliquer un seul des trois formats précédents au contrôle avant d’initialiser la connexion avec un appel à la méthode [**Connecter**](imstscax-connect.md) .
 
@@ -104,7 +104,7 @@ L’interface **IMsTscNonScriptable** a été étendue par les interfaces suivan
 -   [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 -   [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

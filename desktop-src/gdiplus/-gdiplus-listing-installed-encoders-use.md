@@ -5,11 +5,11 @@ title: Liste des encodeurs installés
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f310e9d366cdacde019373724f2b9feb3b94aef8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007733"
 ---
 # <a name="listing-installed-encoders"></a>Liste des encodeurs installés
 

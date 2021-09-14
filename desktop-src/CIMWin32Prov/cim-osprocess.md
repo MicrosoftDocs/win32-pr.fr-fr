@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 62cb209f37a89fd0d2456c2f9760060a69af8cbb45d2dd15b608a1201409c509
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b11738669c87b402f12932ad65237a512360427
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119921309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230657"
 ---
 # <a name="cim_osprocess-class"></a>\_Classe CIM OSProcess
 

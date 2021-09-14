@@ -18,18 +18,18 @@ keywords:
 - DXVA (DirectX Video Acceleration), ordre des opérations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 840549c9a148fdfe8cc67daf46645ffb0925369057fe71f0c17217bfd36823ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 896147fe11b4b7f5fb91d8dc288e616b643bd5ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119930755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230970"
 ---
 # <a name="enabling-directx-video-acceleration"></a>Activation de l’accélération vidéo DirectX
 
 Cette section décrit comment activer l’accélération vidéo de Microsoft® DirectX® lors de la lecture de contenu diffusé en continu dans un lecteur personnalisé.
 
-## <a name="background"></a>Arrière-plan
+## <a name="background"></a>Contexte
 
 DirectX Video Acceleration (DirectX VA) est une spécification d’API pour l’accélération matérielle des opérations de décodage 2D. Il permet aux décodeurs logiciels de décharger certaines opérations gourmandes en ressources du processeur vers la carte graphique en vue de leur traitement. Pour les utilisateurs finaux, cela rend possible une vidéo à débit élevé, telle que la lecture de DVD plein écran sur des ordinateurs plus anciens équipés de cartes graphiques compatibles DirectX VA.
 

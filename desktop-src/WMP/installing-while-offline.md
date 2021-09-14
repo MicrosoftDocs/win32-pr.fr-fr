@@ -14,12 +14,12 @@ keywords:
 - installation de magasins en ligne en mode hors connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3051aca9634bc2c53950baa783bcf62fc6861c616facd9dc563d70d011c2459
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cad7048926f218ea7be74a2522eb32c58241a017
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216977"
 ---
 # <a name="installing-while-offline"></a>Installation en mode hors connexion
 

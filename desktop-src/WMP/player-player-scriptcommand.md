@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27f54aac54cf56e65b71dbd604d57d5ae9404a0148db139779ced3aa9e0da0f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f9ca7ec22694956e1d91d055e8db057a91ecca4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118572427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008357"
 ---
 # <a name="playerscriptcommand-event"></a>Événement Player. commande
 
@@ -57,11 +57,11 @@ Chaîne spécifiant le type de commande de script.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 les commandes peuvent être incorporées parmi les sons et les images d’un fichier ou d’un flux de média Windows. Les commandes sont une paire de chaînes Unicode associées à une heure désignée dans le flux. lorsque le flux atteint l’heure associée à la commande, le contrôle Lecteur Windows Media envoie un événement **commande** avec deux paramètres. Un paramètre spécifie le type de commande en cours d’envoi, tandis que l’autre paramètre spécifie la commande. Le type de paramètre est utilisé pour déterminer la façon dont le paramètre de commande est traité. Tout type de commande peut être incorporé dans un fichier ou un flux à gérer par l’événement **commande** .
 
@@ -73,7 +73,7 @@ le tableau suivant répertorie les types de commande de script qui sont traités
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CAPTION                | Le contrôle affiche le texte associé dans la balise DIV spécifiée par *ClosedCaption*. **captioningID**.                                                                  |
 | ÉVÉNEMENT                  | Indique au contrôle d’exécuter les instructions définies pour l’événement spécifié.                                                                                          |
-| EXTENSION               | Le contrôle réinitialise sa propriété **URL** , tente d’ouvrir le fichier spécifié et commence à lire immédiatement le nouveau flux.                                        |
+| FILENAME               | Le contrôle réinitialise sa propriété **URL** , tente d’ouvrir le fichier spécifié et commence à lire immédiatement le nouveau flux.                                        |
 | OPENEVENT              | Met en mémoire tampon la commande de type d’événement associée pour l’exécution en temps opportun du script d’événement.                                                                                 |
 | SYNCHRONIZEDLYRICLYRIC | Le paramètre *param* contient le texte Lyric synchronisé. Lecteur Windows Media affiche le texte lyric dans la zone de légende fermée de la fonctionnalité de **diffusion** en cours. |
 | TEXT                   | Le contrôle affiche le texte associé dans la balise DIV spécifiée par *ClosedCaption*. **captioningID**.                                                                  |

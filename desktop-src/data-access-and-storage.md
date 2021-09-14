@@ -4,12 +4,12 @@ ms.assetid: 8097ee91-f9f9-4e49-a501-5c54153eced8
 title: accès aux données et Stockage
 ms.topic: reference
 ms.date: 02/06/2019
-ms.openlocfilehash: cb921444d38516c1ec45a2e7f115166714f5a75f0372f74a030fe46531050fbc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06b978af6f3aa652a3bb37eb165d5b3fe0bf059f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118545530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008171"
 ---
 # <a name="data-access-and-storage"></a>accès aux données et Stockage
 

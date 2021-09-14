@@ -4,12 +4,12 @@ ms.assetid: c4f7744c-ff57-4d9d-8632-7e5bbb73449a
 title: Considérations sur la sécurité du service SOAP COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c67e034dfeaa4ec7f8688420aafcaec434653c942665ec3e3cbaa1535b51980d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a238860e154e9928672a64ef44f9db37e9c8ad2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118548548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228275"
 ---
 # <a name="com-soap-service-security-considerations"></a>Considérations sur la sécurité du service SOAP COM+
 

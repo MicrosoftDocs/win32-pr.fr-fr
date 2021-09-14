@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4656290a861247dc474e46cb396314f762f0084f45ae60d32198aa7bb464f8d6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cea8996273a0c9d03123ce58f5fbb0dfb099be94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119320049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007661"
 ---
 # <a name="ccm_setwindowtheme-message"></a>\_Message CCM SETWINDOWTHEME
 
@@ -39,11 +39,11 @@ Pointeur vers une chaîne Unicode qui contient le style visuel de contrôle à d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Pour utiliser ce message, vous devez fournir un manifeste spécifiant Comclt32.dll version 6,0. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).

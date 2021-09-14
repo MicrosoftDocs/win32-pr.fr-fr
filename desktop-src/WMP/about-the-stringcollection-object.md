@@ -13,12 +13,12 @@ keywords:
 - StringCollection, objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae871dbe749764b97fa6be1691ad6ba546ba2829dffcc52bc086fea6c49a61ab
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1dba88fcd4a87b0905fc2beca249a227ef4ac9cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120124079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008498"
 ---
 # <a name="about-the-stringcollection-object"></a>À propos de l’objet StringCollection
 

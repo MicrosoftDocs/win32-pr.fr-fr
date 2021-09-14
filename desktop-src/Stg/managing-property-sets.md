@@ -6,12 +6,12 @@ keywords:
 - Gestion des jeux de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8b6b81c466232d4fd325d53a3cfe67ebb1cbc60c757a6dfe135a021ab7892a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af3f9862d3074a5221bf1d5d975754486a562f87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117960883"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008913"
 ---
 # <a name="managing-property-sets"></a>Gestion des jeux de propriétés
 

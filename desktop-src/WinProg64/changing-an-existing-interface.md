@@ -6,12 +6,12 @@ keywords:
 - modification des interfaces existantes 64-bit Windows programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 782587471de5616750501552445599a94571ff2275d080347937c595e2cd7668
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 51a656ee768dcc2e88725d2cff0ddc5604fd771f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119899069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008302"
 ---
 # <a name="changing-an-existing-interface"></a>Modification d’une interface existante
 

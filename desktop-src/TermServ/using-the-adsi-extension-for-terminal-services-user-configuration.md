@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance à l’aide de l’extension ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe63a725531c21b64ed0ac10abdeb4f710465532ab95f7c416c88f6142f1d55e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8f115fecf1cce5c518e93206402f76e077109611
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119423689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217369"
 ---
 # <a name="using-the-adsi-extension-for-remote-desktop-services-user-configuration"></a>Utilisation de l’extension ADSI pour Services Bureau à distance Configuration utilisateur
 

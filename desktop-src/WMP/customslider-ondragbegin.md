@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 600a725b9b03acc130d9dfe2bfcd59aa7834de53e71aec4a9aa95a795d0aa999
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 142074d187bb673ea33aec479cc3d790956d4bdb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117750213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228426"
 ---
 # <a name="customsliderondragbegin"></a>CUSTOMSLIDER.onDragBegin
 
@@ -27,7 +27,7 @@ Le gestionnaire d’événements **onDragBegin** gère un événement qui se pro
 onDragBegin
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

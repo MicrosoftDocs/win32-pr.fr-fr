@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac46eeef411e1d728994d829d95727cdaf4020c2ef1b7511391b6ca0d2e31ff7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ea7e8c36ad05e2f9a4573d8e2433d705f354239
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119864559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193331"
 ---
 # <a name="axwindowsmediaplayerstatus-property"></a>AxWindowsMediaPlayer. Status, propriété
 
@@ -50,13 +50,13 @@ Public ReadOnly Property status As System.String
 
 System. String qui est l’État.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs contenues dans cette propriété sont sujettes à modification à tout moment et doivent être utilisées à des fins d’affichage uniquement.
 
 AxWindowsMediaPlayer. L’événement **statuschange** est déclenché à chaque modification de la valeur de cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6d63d1d9-18e9-457a-a1b5-930d85cd26e3
 title: Énumérations de l’API de distribution d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 329006a6927a9cffa5fe4f2c86f7c694a76e36a73b16e4b6375dadad686a3060
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b56e2a2e2916b7b7cf55b41543a5075fb8a082d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009218"
 ---
 # <a name="peer-distribution-api-enumerations"></a>Énumérations de l’API de distribution d’homologue
 

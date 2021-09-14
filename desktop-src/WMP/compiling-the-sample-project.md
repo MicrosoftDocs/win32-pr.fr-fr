@@ -19,12 +19,12 @@ keywords:
 - Assistant projet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55b2f5a4b6d29b227b08654cfcde2a89cc97b224fc756251ae9554f029f22416
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1ea2382e5852965b246f1ef303e5e70d160cb22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193284"
 ---
 # <a name="compiling-the-sample-project"></a>Compilation de l’exemple de Project
 

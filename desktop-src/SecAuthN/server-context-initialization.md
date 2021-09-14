@@ -4,12 +4,12 @@ ms.assetid: 2a0aeadf-e099-4264-8522-e498f437bf75
 title: Initialisation du contexte de serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d4a81c8033dc6b5dda8baca9ee7dfcc87d2b14c1cd139ff4a7f8eda99603f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1362c8fd71e079392f10a8e35f76ad511de3c49f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118918328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193851"
 ---
 # <a name="server-context-initialization"></a>Initialisation du contexte de serveur
 

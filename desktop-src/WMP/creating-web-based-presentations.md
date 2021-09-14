@@ -14,12 +14,12 @@ keywords:
 - création de présentations basées sur le Web, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80dcc653f3119b302fff077ddbbcc364a39b06c06cf216e439d81d5b659a834e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 117ee00164b50d319699f6e1d1806c4d8bf374af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228533"
 ---
 # <a name="creating-web-based-presentations"></a>Création de présentations Web-Based
 

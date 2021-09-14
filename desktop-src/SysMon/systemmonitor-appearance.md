@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9200c66f83a47f15421480967e8ea1ae9509b13e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008840"
 ---
 # <a name="systemmonitorappearance-property"></a>SystemMonitor. Appearance, propriété
 
@@ -67,7 +67,7 @@ Vous pouvez définir cette propriété sur l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une propriété ambiante. La valeur de cette propriété est déterminée par le conteneur. La définition de la valeur de cette propriété peut affecter l’illusion du contrôle et du conteneur en tant qu’application unique.
 

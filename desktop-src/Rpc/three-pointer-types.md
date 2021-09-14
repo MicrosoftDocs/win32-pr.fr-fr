@@ -4,12 +4,12 @@ description: MIDL prend en charge trois types de pointeurs pour s’adapter à u
 ms.assetid: 6684c252-6fbe-49ca-9967-6d4baf5dc298
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9627c71b07c86ab2deb7e28bddcf6d30b1747cf7d44874620f4053383a5a948a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efdcc9548568c8fca24d8abb40bf0eaa8b6e7da3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194016"
 ---
 # <a name="three-pointer-types"></a>Trois types pointeur
 

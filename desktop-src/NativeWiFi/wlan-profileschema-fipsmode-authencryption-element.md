@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 62a60670622084e3179e9720022c68ad5909ab4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194772"
 ---
 # <a name="fipsmode-authencryption-element"></a>Élément FIPSMode (authEncryption)
 
@@ -35,7 +35,7 @@ Contrairement à la plupart des éléments du \_ schéma de profil WLAN, cet él
 
 La valeur de l’élément **FipsMode** est ignorée si le pilote de miniport de l’interface sans fil ne prend pas en charge le mode FIPS.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge. Si **FipsMode** est présent dans un profil, l’élément est ignoré.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge. Si **FipsMode** est présent dans un profil, l’élément est ignoré.
 
 ``` syntax
 <xs:element name="FIPSMode"
@@ -53,14 +53,14 @@ Ce paramètre peut être défini sur la ligne de commande à l’aide de la comm
 
 Pour afficher un exemple de profil qui utilise l’élément **FipsMode** , consultez [exemple de profil FIPS](fips-profile-sample.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

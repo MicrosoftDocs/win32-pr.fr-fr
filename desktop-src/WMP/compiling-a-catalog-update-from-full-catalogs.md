@@ -17,12 +17,12 @@ keywords:
 - catalogues complets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 306412d98f315a6a63aa40974b03a51a388b6db5c9e09c8d5b8907ef2cc15704
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abaa6d1bc0d3dbc4fefaffe1498be03259716a5e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008486"
 ---
 # <a name="compiling-a-catalog-update-from-full-catalogs"></a>Compilation d’une mise à jour de catalogue à partir de catalogues complets
 

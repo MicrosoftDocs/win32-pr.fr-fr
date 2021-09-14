@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 01f0521ca7833cd74c3cb45b5a650fbd12aae485e36a153b57e6d9b10b49d1f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94f77549d0ea2a9c59d7de8367a6133085cc2771
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117733070"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008038"
 ---
 # <a name="d3ddevinfo_d3d9cacheutilization-structure"></a>D3DDEVINFO \_ D3D9CACHEUTILIZATION, structure
 
@@ -62,7 +62,7 @@ Taux d’accès pour la recherche des vertex transformés dans le cache de verte
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un cache efficace est généralement plus proche d’un taux d’accès de 90% et un cache inefficace est généralement plus proche d’un taux d’accès de 10% (même si un faible pourcentage n’est pas nécessairement un problème).
 

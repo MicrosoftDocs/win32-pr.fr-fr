@@ -7,12 +7,12 @@ keywords:
 - OpenGL, meilleures pratiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fe91602d4a30767ed1e66e62d33445bf37152ede2cf9f8450e056f577cb3045
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7e5b6fa33f8d6841d0fd47d1a655ef99facc84e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118936829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194347"
 ---
 # <a name="opengl-performance-tips"></a>Astuces de performances OpenGL
 

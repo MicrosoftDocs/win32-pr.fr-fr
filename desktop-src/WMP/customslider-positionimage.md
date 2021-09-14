@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 727601ceb7ed078e40a284ab291f2e182a4270682b5f1db104515e31d3dbe2ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc92a9c263e2b450e64d526ccfc7976fdd6227a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117749989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228419"
 ---
 # <a name="customsliderpositionimage"></a>CUSTOMSLIDER.positionImage
 
@@ -32,7 +32,7 @@ L’attribut **positionImage** spécifie ou récupère l’image interactive uti
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est obligatoire et doit être spécifié.
 
@@ -134,7 +134,7 @@ Le code suivant illustre l’utilisation des attributs **CUSTOMSLIDER** .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

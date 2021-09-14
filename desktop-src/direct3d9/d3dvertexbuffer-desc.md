@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 1f1809bbf9352b022d2acfb15b119db47b0feab6302020cdaf5b24746945aa05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2c0838743f8190eeb0e5c825e7125d2e48c0b6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119750579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008033"
 ---
 # <a name="d3dvertexbuffer_desc-structure"></a>D3DVERTEXBUFFER \_ desc, structure
 

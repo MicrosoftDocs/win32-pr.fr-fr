@@ -4,12 +4,12 @@ ms.assetid: 02bfe923-9915-439e-ac7c-a570416d054a
 title: Interface de programmation d’applications de téléphonie version 2,2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ea4317fbf603c4b0185440d71db5861db59af9dd7c5ae1e8fe49664100bb329
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e0dc158210350979105d765dc939f600f61d8bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008707"
 ---
 # <a name="telephony-application-programming-interface-version-22"></a>Interface de programmation d’applications de téléphonie version 2,2
 

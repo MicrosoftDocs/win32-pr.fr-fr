@@ -8,12 +8,12 @@ keywords:
 - création d’apparences, d’interfaces utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6b11dee2a6236f2a279756644a88d69e267c5da93240b5e12c19c32d86e30a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8070ef6fd4589f762624d7a0b5ee1d380a264066
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117749859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008473"
 ---
 # <a name="designing-the-interface"></a>Conception de l’interface
 

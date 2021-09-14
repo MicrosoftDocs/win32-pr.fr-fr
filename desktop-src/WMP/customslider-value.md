@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3a256274fe2170ad50c164f7bf6768f82e3266db7a4ea5e2c6c8e28edd083c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89be4edd43fc79c8a8938a3861c982068760bcf3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118579707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228408"
 ---
 # <a name="customslidervalue"></a>CUSTOMSLIDER. Value
 
@@ -39,7 +39,7 @@ La **valeur** doit être supérieure ou égale à **min** et inférieure ou éga
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément **CUSTOMSLIDER** , consultez l’attribut [positionImage](customslider-positionimage.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

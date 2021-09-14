@@ -9,12 +9,12 @@ keywords:
 - objets incorporés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c45c14138df39142f503882c8d735ff1638618e028870af6aa67c25bc1a98b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39e4f819e6f42cc4e8d2ed81e47c79efe5ff7407
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118879676"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193531"
 ---
 # <a name="embedded-objects-text-services-framework"></a>Objets incorporés (Text Services Framework)
 

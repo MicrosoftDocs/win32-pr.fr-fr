@@ -1,19 +1,19 @@
 ---
-description: La recherche-protocole d’application MS est une convention d’interrogation de l’index de recherche Windows.
+description: la recherche-protocole d’application ms est une convention d’interrogation de l’index de recherche de Windows.
 ms.assetid: ab2695ed-4ef3-4687-81b0-416ca7086e5f
 title: Interrogation de l’index avec le protocole search-ms
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c0d835b6db1c9b05b97d5d075b62158069d89029
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231264"
 ---
 # <a name="querying-the-index-with-the-search-ms-protocol"></a>Interrogation de l’index avec le protocole search-ms
 
-La **recherche-**  [protocole d’application](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85)) MS est une convention d’interrogation de l’index de recherche Windows. Le protocole permet aux applications, telles que l’Explorateur Windows, d’interroger l’index avec des arguments de valeur de paramètre, notamment des arguments de propriété, des recherches précédemment enregistrées, une syntaxe de requête avancée (AQS), une syntaxe de requête naturelle (NQS) et des identificateurs de code de langue (LCID) pour l’indexeur et la requête elle-même.
+la **recherche-**[protocole d’application](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85)) ms est une convention d’interrogation de l’index de recherche de Windows.   le protocole permet aux applications, telles que Windows Explorer, d’interroger l’index avec des arguments de valeur de paramètre, notamment des arguments de propriété, des recherches précédemment enregistrées, une syntaxe de requête avancée (AQS), une syntaxe de requête naturelle (NQS) et des identificateurs de code de langue (lcid) pour l’indexeur et la requête elle-même.
 
 Cette section est organisée comme suit :
 
@@ -31,13 +31,13 @@ Cette section est organisée comme suit :
 [Interrogation de l’index programmatiquement](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
-[Utilisation des approches SQL et AQS pour interroger l’index](-search-3x-wds-qryidx-overview.md)
+[utilisation d’approches SQL et AQS pour interroger l’Index](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
 [Interrogation de l’index avec ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md)
 </dt> <dt>
 
-[Interrogation de l’index avec la syntaxe SQL de Windows Search](-search-sql-windowssearch-entry.md)
+[interrogation de l’Index avec Windows syntaxe de SQL de recherche](-search-sql-windowssearch-entry.md)
 </dt> <dt>
 
 [Utilisation de la syntaxe de requête avancée par programmation](-search-3x-advancedquerysyntax.md)

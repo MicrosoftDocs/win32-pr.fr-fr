@@ -4,12 +4,12 @@ ms.assetid: 3f2aa9bd-49ca-4fa6-b718-7cbeeef857c7
 title: Personnes proches des boutiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 945a49d174f53037427aaa2f45dc0f567dc0acdba57e4a0b0231954e7e66fe90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d18bf60e43aba278862fbd19f3c8909e344bc67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194287"
 ---
 # <a name="people-near-me-stores"></a>Personnes proches des boutiques
 

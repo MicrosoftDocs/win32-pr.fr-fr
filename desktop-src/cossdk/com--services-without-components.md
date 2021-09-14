@@ -4,12 +4,12 @@ ms.assetid: 5ef67411-334b-476e-b9b7-3677b24ab7df
 title: Services COM+ sans composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b395186875c37fb42e5011ee0486aa6de86ffe62b73c8ea1a54c09e82a27c588
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1eeed5a9af96e241d137714d151cc632dd0f20e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119638449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228288"
 ---
 # <a name="com-services-without-components"></a>Services COM+ sans composants
 

@@ -10,12 +10,12 @@ keywords:
 - prise en charge des images pour les appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2105693f207d2c7f91a9e93b1570a9bd13aac317cfa74d0d8d5674a199a5e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ffdf318df39935e844cc84919bb4d6e50cc259a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117936280"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228522"
 ---
 # <a name="custom-image-support-for-devices"></a>Prise en charge d’images personnalisées pour les appareils
 

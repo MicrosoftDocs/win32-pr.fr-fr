@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: a31801236720d0a01eefe7f41ac6bd260c1364bb81c437cf6a85088c1c022b9c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4932e34979b0913f27874e57cfa881f18fb16364
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118527599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228210"
 ---
 # <a name="d3dcolor_xrgb-macro"></a>D3DCOLOR \_ macro XRGB
 
@@ -62,11 +62,11 @@ Composant bleu de la couleur. Cette valeur doit être comprise entre 0 et 255.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur [**D3DCOLOR**](d3dcolor.md) qui correspond aux valeurs RVB fournies.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - Lecteur Windows Media, tapez 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91bf8ac5b65507117e98424f80d62aab540c585914033c54d663d10e6becd7c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8210a52e0c531f5043d75ff66a5c7eb46cc3e416
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217041"
 ---
 # <a name="information-common-to-type-1-and-type-2-online-stores"></a>Informations communes aux magasins en ligne de type 1 et de type 2
 

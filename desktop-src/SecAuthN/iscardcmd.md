@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: e6bce160cfb326f0c44b2fca1c6676b895d9eeeec434826d7fc595fc178c47d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f14291f3777dcdc8b661f96f94d987209100a365
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008138"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009142"
 ---
 # <a name="iscardcmd-interface"></a>Interface ISCardCmd
 
@@ -59,7 +59,7 @@ L’interface **ISCardCmd** possède ces méthodes.
 | Méthode                                       | Description                                                                                                |
 |:---------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
 | [**BuildCmd**](iscardcmd-buildcmd.md)       | Construit une commande APDU valide pour la transmission à une carte à puce.<br/>                               |
-| [**Effacer**](iscardcmd-clear.md)             | Efface les mémoires tampons de messages APDU et de réponse.<br/>                                             |
+| [**Effacé**](iscardcmd-clear.md)             | Efface les mémoires tampons de messages APDU et de réponse.<br/>                                             |
 | [**Encapsuler**](iscardcmd-encapsulate.md) | Encapsule la commande APDU donnée dans une autre commande APDU pour la transmettre à une carte à puce.<br/> |
 
 

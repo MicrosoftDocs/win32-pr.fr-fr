@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 814b419909591e45c07b3ed499072ec4871cdeb1f4c5a355277a03d0623d264c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9f70d2d1a0caf63411fcd2b44d5ed8bdcbecd00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194612"
 ---
 # <a name="nmcolumnvariant-structure"></a>NMCOLUMNVARIANT, structure
 
@@ -179,7 +179,7 @@ Pointeur vers une chaîne.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 75002a82-5300-4758-9fe4-56537af5168c
 title: Conception d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 307daed4b32be3b6130a11632419feb988652aac5545489adb5b14f3eaf5aad9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a1b28aa9e8b1658855ca0ef5134722d54650962
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118547998"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232710"
 ---
 # <a name="designing-com-applications"></a>Conception d’applications COM+
 

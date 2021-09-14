@@ -4,12 +4,12 @@ ms.assetid: 32402d21-3e00-4095-93b9-b0357f534342
 title: Installation de l’infrastructure homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41a24df9b169fcd3840a0639942ca2e7670bf7a9534a5e654b35ecef4fbc1ae2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 738d9ed1edae69e60e32c11944eb9e33af136760
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009227"
 ---
 # <a name="installing-the-peer-infrastructure"></a>Installation de l’infrastructure homologue
 

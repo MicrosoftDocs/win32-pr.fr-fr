@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd98da15f079b4a98d8865076a84442aa2cec8966ab7fd3ac7c483ede0b347fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc55bd3f235072e557c1d5bf858e32e9a05cf692
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118980439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007769"
 ---
 # <a name="jet_dbinfomiscbkinfocopyprev-property"></a>JET_DBINFOMISC. bkinfoCopyPrev, propriété
 
@@ -40,7 +40,7 @@ Obtient des informations sur la dernière sauvegarde de copie réussie.
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` vb
 'Declaration
@@ -64,7 +64,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_BKINFO](./jet-bkinfo-structure2.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_DBINFOMISC](./jet-dbinfomisc-class.md)
 

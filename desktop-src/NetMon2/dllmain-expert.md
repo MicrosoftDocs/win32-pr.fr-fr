@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: 3aa546d4bc75b237d7c77ed3fa7179a0c957309a31964a7e6c498e1cc998c71e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 914f50b75e83fdc67448770b32ac8d0f8e8ab656
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117796255"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229667"
 ---
 # <a name="dllmain-expert-callback-function"></a>Fonction de rappel d’expert DllMain
 
@@ -66,19 +66,19 @@ Le paramètre n’est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est **true**.
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système d’exploitation appelle la fonction d’expert **DllMain** lorsqu’un processus charge ou décharge la dll d’expert. La fonction d’expert **DllMain** doit être exportée uniquement si l’expert dispose d’une interface utilisateur pour l’affichage de la configuration ou des résultats, puis uniquement pour retourner la valeur *HINSTANCE* appropriée.
 
 La fonction d’expert **DllMain** est basée sur la fonction [**DllMain**](/windows/desktop/Dlls/dllmain) de la bibliothèque de liens dynamiques.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

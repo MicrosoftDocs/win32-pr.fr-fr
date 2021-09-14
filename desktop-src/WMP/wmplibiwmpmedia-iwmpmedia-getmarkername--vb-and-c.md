@@ -3,9 +3,9 @@ title: Méthode IWMPMedia getMarkerName
 description: La méthode getMarkerName retourne le nom du marqueur à l’index spécifié.
 ms.assetid: 77f893cf-1669-41e3-9f62-8a1081e37add
 keywords:
-- méthode getMarkerName lecteur Windows Media
-- méthode getMarkerName lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, méthode getMarkerName
+- Lecteur Windows Media de la méthode getMarkerName
+- méthode getMarkerName Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, méthode getMarkerName
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8e6ba6a7bb640a397cce9c7dfd22b5f9b6203c47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521722"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228353"
 ---
 # <a name="iwmpmediagetmarkername-method"></a>IWMPMedia :: getMarkerName, méthode
 
@@ -60,7 +60,7 @@ Implements IWMPMedia.getMarkerName
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. String** qui est le nom du marqueur.
 
@@ -131,7 +131,7 @@ markerNames.Lines = markers
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

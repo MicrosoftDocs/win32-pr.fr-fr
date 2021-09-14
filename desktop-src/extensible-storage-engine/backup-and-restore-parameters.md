@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: d6b82d3ffa1f55d79ac516ede469d422e7aced99
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007950"
 ---
 # <a name="backup-and-restore-parameters"></a>Paramètres de sauvegarde et de restauration
 
@@ -43,12 +43,12 @@ Le chemin d’accès complet à chaque base de données est conservé dans les j
 | <p>Tapez :</p> | <p>Chemin d’accès au dossier (String)</p> | 
 | <p>Plage valide :</p> | <p>0 – 246 caractères</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
@@ -63,16 +63,16 @@ Ce paramètre est utile lorsque l’application souhaite modifier en toute trans
 
 | Étiquette | Valeur |
 |--------|-------|
-| <p>Valeur par défaut :</p> | <p>Faux</p> | 
-| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Valeur par défaut :</p> | <p>False</p> | 
+| <p>Tapez :</p> | <p>Boolean</p> | 
 | <p>Plage valide :</p> | <p>False, True</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Oui</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
@@ -87,16 +87,16 @@ Lorsque ce paramètre a la valeur true, tous les fichiers journaux des transacti
 
 | Étiquette | Valeur |
 |--------|-------|
-| <p>Valeur par défaut :</p> | <p>Faux</p> | 
-| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Valeur par défaut :</p> | <p>False</p> | 
+| <p>Tapez :</p> | <p>Boolean</p> | 
 | <p>Plage valide :</p> | <p>False, True</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>Yes</p> | 
-| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Oui</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Oui</p> | 
+| <p>Affecte les ressources :</p> | <p>Oui</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
@@ -110,15 +110,15 @@ Ce paramètre configure la durée autorisée entre un appel à [JetOSSnapshotFre
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>20000 (Windows XP et Windows Server 2003);</p><p>70000 (Windows Server 2003 SP1)</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
 | <p>Étendue :</p> | <p>Global</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Oui</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
@@ -131,16 +131,16 @@ Lorsque ce paramètre a la valeur true, toutes les pages d’une base de donnée
 
 | Étiquette | Valeur |
 |--------|-------|
-| <p>Valeur par défaut :</p> | <p>Faux</p> | 
-| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Valeur par défaut :</p> | <p>False</p> | 
+| <p>Tapez :</p> | <p>Boolean</p> | 
 | <p>Plage valide :</p> | <p>False, True</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>Yes</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Oui</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 

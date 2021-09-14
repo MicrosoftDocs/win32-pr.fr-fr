@@ -14,12 +14,12 @@ keywords:
 - versions de Lecteur Windows Media, modèle objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49dd3b7862e2d9c5580950ad2eb718bd1c8125a5d22ec6a08533c140de545086
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a5341067e2daad0f44fbdd7075f0f543bac2fd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117749740"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008464"
 ---
 # <a name="differences-between-the-object-models"></a>Différences entre les modèles objet
 

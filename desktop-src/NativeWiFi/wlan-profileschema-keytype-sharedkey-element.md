@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 88c9a48d1c70cd156fa3d8f63bd3b70d69a99a1151a18c95ffd556b2503c9575
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 134f9da4100c9479255507d4686dd19d3d484dea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118619282"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194731"
 ---
 # <a name="keytype-sharedkey-element"></a>KeyType (sharedKey), élément
 
@@ -42,7 +42,7 @@ L’élément KeyType (sharedKey) indique si la clé partagée sera une clé ré
 
 L’élément est défini par l’élément [**sharedKey**](wlan-profileschema-sharedkey-security-element.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque l’élément de [**chiffrement**](wlan-profileschema-encryption-authencryption-element.md) a la valeur WEP, **KeyType** doit être défini sur **networkKey**.
 
@@ -50,7 +50,7 @@ Lorsque l’élément de [**chiffrement**](wlan-profileschema-encryption-authenc
 
 Pour afficher des exemples de profils qui utilisent l’élément **KeyType** , consultez exemple de [profil de non-diffusion](non-broadcast-profile-sample.md), exemple de [Profil WPA-Personnel](wpa-personal-profile-sample.md)et exemple de profil [WPA2-Personal](wpa2-personal-profile-sample.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

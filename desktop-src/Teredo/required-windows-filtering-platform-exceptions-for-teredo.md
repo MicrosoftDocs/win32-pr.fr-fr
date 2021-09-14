@@ -1,19 +1,19 @@
 ---
-title: Exceptions de la plateforme de filtrage Windows pour Teredo
-description: Les exceptions qui permettent aux applications de recevoir le trafic non sollicité via Teredo via un pare-feu doivent être créées à l’aide des API de la plateforme de filtrage Windows.
+title: Windows Filtrage des exceptions de plateforme pour Teredo
+description: les Exceptions qui permettent aux applications de recevoir le trafic non sollicité via Teredo via un pare-feu doivent être créées à l’aide de Windows api de filtre de la plateforme.
 ms.assetid: 8e562757-cd31-4c83-bf4a-92c2e0d3f2ed
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4cd4d84b97afeaf1157eaac3cd9cc5fc3e24aff0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102024"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193455"
 ---
-# <a name="windows-filtering-platform-exceptions-for-teredo"></a>Exceptions de la plateforme de filtrage Windows pour Teredo
+# <a name="windows-filtering-platform-exceptions-for-teredo"></a>Windows Filtrage des exceptions de plateforme pour Teredo
 
-Les exceptions qui permettent aux applications de recevoir le trafic non sollicité via [Teredo](about-teredo.md) via un pare-feu doivent être créées à l’aide des API de la [plateforme de filtrage Windows](/windows/desktop/FWP/windows-filtering-platform-start-page) . Pour ce faire, vous devez ouvrir les exceptions entrantes et sortantes basées sur l’application (application <app name> ) dans la sous-couche Teredo de ALE pour le trafic IPv6. Cela garantit que seules les applications avec l’exception Teredo peuvent utiliser Teredo. Soyez vigilant lors de la création de ces exceptions. L’utilisation de l’option générale « \* » (tout) peut permettre aux programmes non enregistrés avec la sous-couche Teredo ou le trafic du tunnel de transmettre le pare-feu et de compromettre la sécurité.
+les Exceptions qui permettent aux applications de recevoir le trafic non sollicité via [Teredo](about-teredo.md) via un pare-feu doivent être créées à l’aide de Windows api de filtre de la [plateforme](/windows/desktop/FWP/windows-filtering-platform-start-page) . Pour ce faire, vous devez ouvrir les exceptions entrantes et sortantes basées sur l’application (application <app name> ) dans la sous-couche Teredo de ALE pour le trafic IPv6. Cela garantit que seules les applications avec l’exception Teredo peuvent utiliser Teredo. Soyez vigilant lors de la création de ces exceptions. L’utilisation de l’option générale « \* » (tout) peut permettre aux programmes non enregistrés avec la sous-couche Teredo ou le trafic du tunnel de transmettre le pare-feu et de compromettre la sécurité.
 
 Dans tous les cas, au moins une application bloquée est nécessaire, mais il peut y avoir zéro ou plusieurs applications autorisées ajoutées par un pare-feu en fonction du nombre d’applications qui doivent être autorisées.
 
@@ -169,6 +169,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: ee72f60b-1e5b-4b69-bda0-2ae80734c144
 title: Utilisation des groupes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bce7280afe226fea20cde633a3971f62f606e1814ad4ab62bcc09025a125e72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7bebf958d0c3fdee6ad0dc400d495c54ec2e6fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119519389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009240"
 ---
 # <a name="how-to-work-with-groups"></a>Utilisation des groupes
 

@@ -149,12 +149,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: d16c72bb778029acdebb9fcf328d0d06a5e55c5b38f8f4b43520c2c8492ca064
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff2b88b384107dbf202e39bf6243ed67461eb2e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009101"
 ---
 # <a name="microsoftinteropsecurityazrolesiazauthorizationstore-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzAuthorizationStore
 
@@ -196,7 +196,7 @@ L’interface **Microsoft. Interop. Security. azroles. IAzAuthorizationStore** p
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. DeletePolicyReaderName**        | [**IAzAuthorizationStore ::D eletePolicyReaderName**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername)<br/>               |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. DeletePropertyItem**            | [**IAzAuthorizationStore ::D eletePropertyItem**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepropertyitem)<br/>                       |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. GetProperty**                   | [**IAzAuthorizationStore :: GetProperty**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-getproperty)<br/>                                     |
-| **Microsoft.Interop.Security.Azroles.IAzAuthorizationStore.Initialize**                    | [**IAzAuthorizationStore :: Initialize**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-initialize)<br/>                                       |
+| **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. Initialize**                    | [**IAzAuthorizationStore :: Initialize**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-initialize)<br/>                                       |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. OpenApplication**               | [**IAzAuthorizationStore::OpenApplication**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-openapplication)<br/>                             |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. OpenApplicationGroup**          | [**IAzAuthorizationStore::OpenApplicationGroup**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-openapplicationgroup)<br/>                   |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore. SetProperty**                   | [**IAzAuthorizationStore :: SetProperty**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-setproperty)<br/>                                     |

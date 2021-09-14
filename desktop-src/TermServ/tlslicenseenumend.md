@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c0518b9c27b01484b7fb92dd254ae6f1ccdf01d36ef602541209b9f38abd205
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bbd494ec539ee78008fa3df274282da1e9db6c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193420"
 ---
 # <a name="tlslicenseenumend-function"></a>TLSLicenseEnumEnd fonction)
 
@@ -83,7 +83,7 @@ Le descripteur n’est pas valide.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne les valeurs de retour possibles suivantes.
 
@@ -103,7 +103,7 @@ L’argument n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

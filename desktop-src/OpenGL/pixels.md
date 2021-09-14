@@ -9,12 +9,12 @@ keywords:
 - framebuffers, conversion de fragments en pixels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cbaf4e2263cd1978fe16d0fb1b4b96c6dfb6065986bb8648c124fec5b56b810
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb6660452930683943da780fad3aeb001e531711
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009305"
 ---
 # <a name="pixels"></a>Pixels
 

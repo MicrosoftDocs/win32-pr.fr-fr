@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 94e40950ce4a8bf24a6a4301db133779b34ce4ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518098"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008883"
 ---
 # <a name="counteritemgetvalue-method"></a>CounterItem. GetValue, méthode
 
@@ -68,7 +68,7 @@ Indique si la valeur est valide.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

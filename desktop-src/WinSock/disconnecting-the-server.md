@@ -4,12 +4,12 @@ ms.assetid: 67f33645-d57a-48bd-9f0c-9e816f528204
 title: Déconnexion du serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f644b8727898a9d77ab5aa5fb10b0a0ae5b58cdf88a3beb1b9642215d142b6b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6abf7754da39a891b3d29c69f6c835706debd36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119898359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008289"
 ---
 # <a name="disconnecting-the-server"></a>Déconnexion du serveur
 

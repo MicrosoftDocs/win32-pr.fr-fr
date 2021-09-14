@@ -8,12 +8,12 @@ keywords:
 - Kit de développement logiciel (SDK), fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9fcd1de0241bc5902df29b77b364abcbba12cd92045a0a363d472000beed147
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2187ae6c7ae1cd0cd0b38616ab36f934f69bee94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216940"
 ---
 # <a name="windows-media-player"></a>Lecteur Windows Media
 

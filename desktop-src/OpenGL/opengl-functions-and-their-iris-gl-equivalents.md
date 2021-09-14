@@ -9,12 +9,12 @@ keywords:
 - portage vers OpenGL à partir de IRIS GL, équivalents du GL IRIS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ac4e2b5e17a08b39d7b776306014e0a28512951fceb7ae47a12b505efcc7620
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d972d0e2f2fd955a42e3c7f3b7ef7070cea7fbd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118936849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233538"
 ---
 # <a name="opengl-functions-and-their-iris-gl-equivalents"></a>Fonctions OpenGL et leurs équivalents de la comptabilité IRIS
 

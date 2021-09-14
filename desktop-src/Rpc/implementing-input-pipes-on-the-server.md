@@ -4,12 +4,12 @@ description: Pour commencer à envoyer des données à un serveur, un client app
 ms.assetid: 6abaa851-41bf-4a03-8d12-cd595d74c8c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf133fce019328b9fa7d6b2a03e47d516de5ca74310d611ecea1686c0b9a3a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d60c2436129b59619f5a9954c70823631d72ae3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194196"
 ---
 # <a name="implementing-input-pipes-on-the-server"></a>Implémentation de canaux d’entrée sur le serveur
 

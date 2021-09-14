@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: e49b7653a434f54bfa706aea0bde63048d6b511e5143ade34f0b4e8225a6042b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4af451bea1f08df2af0a673b26e84c9df2a0954b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014265"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193915"
 ---
 # <a name="iscardlocateconfigurecardnamesearch-method"></a>ISCardLocate :: ConfigureCardNameSearch, méthode
 
@@ -84,7 +84,7 @@ Spécifie quand l' [*interface utilisateur*](../secgloss/u-gly.md) est affichée
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -101,7 +101,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour localiser la [*carte à puce*](../secgloss/s-gly.md), appelez [**FindCard**](iscardlocate-findcard.md).
 
@@ -109,7 +109,7 @@ Pour obtenir la liste de toutes les méthodes fournies par cette interface, cons
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

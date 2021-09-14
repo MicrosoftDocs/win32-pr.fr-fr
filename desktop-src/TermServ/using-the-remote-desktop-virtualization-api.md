@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance à l’aide de l’API de virtualisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7075c3a0cfcabc2df0dcb8438b7de5a748eb2b0340e26bf3d1e51afdb182f81e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cda9ebfc014a2c8ec20d299bbb8be9183b25ce89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119423629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217361"
 ---
 # <a name="using-the-remote-desktop-virtualization-api"></a>Utilisation de l’API de virtualisation Bureau à distance
 

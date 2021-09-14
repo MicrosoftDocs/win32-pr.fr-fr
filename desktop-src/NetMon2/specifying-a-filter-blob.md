@@ -4,12 +4,12 @@ ms.assetid: fa87bb7d-c481-4eb1-b116-b22643a7c9da
 title: Spécification d’un objet BLOB de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486a5dfe318da50a921560c92b82a3a3bf05a9434a4ac609b7f135afd7bf5a34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8754b8f7ea5388b730fd2dfb65e26e24a906d648
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119555349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194544"
 ---
 # <a name="specifying-a-filter-blob"></a>Spécification d’un objet BLOB de filtre
 

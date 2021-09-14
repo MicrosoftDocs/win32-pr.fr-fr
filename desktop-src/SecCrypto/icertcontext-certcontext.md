@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5c517384bdffd8723c1e9e0d96683cc4bd4918361acdf19df77286bfbac962b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38bd1c704ca709fc1e4b6072bb68c2105dc5db9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119006367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233315"
 ---
 # <a name="icertcontextcertcontext-property"></a>ICertContext :: CertContext, propriété
 
@@ -50,13 +50,13 @@ Si les méthodes d’accès aux propriétés **placent \_ CertContext** et **obt
 
 Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez appeler la méthode [**FreeContext**](icertcontext-freecontext.md) ou la fonction [**CertFreeCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfreecertificatecontext) pour libérer le contexte.
 
 Si vous définissez la propriété **CertContext** , l’état de l’intégralité de l’objet de [**certificat**](certificate.md) est réinitialisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

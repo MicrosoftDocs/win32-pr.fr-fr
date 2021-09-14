@@ -4,12 +4,12 @@ ms.assetid: 1dc2fab9-b044-4ae3-8c16-fa450f9ef714
 title: Constantes PHONEPRIVILEGE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae9b3f3848af8c9858522bd924ccb77d7bf1682f09b66c0cfdcb5527b93416dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6d04c074e03d6f0b7f7a6c58e4268e0bd5057a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117761291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008730"
 ---
 # <a name="phoneprivilege_-constants"></a>\_Constantes PHONEPRIVILEGE
 

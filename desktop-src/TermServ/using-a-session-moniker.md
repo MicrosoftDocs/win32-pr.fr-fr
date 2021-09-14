@@ -5,12 +5,12 @@ ms.assetid: de4967b6-6a53-4888-84f9-3fa29cbebe34
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 788fc5c65c3e2efd3e566a3fdde6982fefe5bb14fbefd98ca8abd335955b7efc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 700d251aa1136747529b66b975d4cbedf9b14dcf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217396"
 ---
 # <a name="using-a-session-moniker"></a>Utilisation d’un moniker de session
 

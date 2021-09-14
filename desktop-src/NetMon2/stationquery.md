@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: a2e46f4c0d213091a3915b5310d7768a193d33e5ac3391fd3bc3c6781e32cb57
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de76c4da7bc27d76c04aeeaa7a46d69134e411ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118363055"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194531"
 ---
 # <a name="stationquery-structure"></a>STATIONQUERY, structure
 
@@ -131,11 +131,11 @@ Nom d’utilisateur Unicode. Ce membre s’applique à Moniteur réseau 2,0 ou v
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un tableau de ces structures est utilisé par la structure [QUERYTABLE](querytable.md) pour fournir une liste des ordinateurs qui utilisent actuellement Moniteur réseau pour capturer des données.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

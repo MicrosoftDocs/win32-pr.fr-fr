@@ -4,12 +4,12 @@ ms.assetid: d1f44646-98ee-4e3a-a81a-83d6c87c23f4
 title: Spécification d’un jeu de remise
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2f3f7d559c83e3c56bc6ea202b3a0e339dbc1b76d93fc2af1b73f5a2c60c4e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9acb421963bea3ffaa70b6165c6ffceee138e38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194548"
 ---
 # <a name="specifying-a-handoff-set"></a>Spécification d’un jeu de remise
 

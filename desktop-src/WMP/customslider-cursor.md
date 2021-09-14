@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f04d9886fffb1f6fad85ac5119348655484b23ee3d5f690c0ad805271e7f0eeb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e836dc7ec6efececf81789efe43d8b19d0df1783
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119651569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228467"
 ---
 # <a name="customslidercursor"></a>CUSTOMSLIDER. Cursor
 
@@ -50,7 +50,7 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

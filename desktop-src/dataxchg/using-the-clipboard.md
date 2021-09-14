@@ -13,11 +13,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9d7c7e7d6db6f25bc1016eefbcc5afc9f5e0db44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315461"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008167"
 ---
 # <a name="using-the-clipboard"></a>Utilisation du presse-papiers
 
@@ -677,7 +677,7 @@ LPARAM lParam;
 
 ## <a name="monitoring-clipboard-contents"></a>Surveiller le contenu du presse-papiers
 
-Il existe trois façons de surveiller les modifications apportées au Presse-papiers. La méthode la plus ancienne consiste à créer une fenêtre de la visionneuse du presse-papiers. Windows 2000 a ajouté la possibilité d’interroger le numéro de séquence du presse-papiers, et Windows Vista a ajouté la prise en charge des écouteurs de format du presse-papiers. La visionneuse du presse-papiers Windows est prise en charge pour la compatibilité descendante avec les versions antérieures de Windows. Les nouveaux programmes doivent utiliser les écouteurs de format du presse-papiers ou le numéro de séquence du presse-papiers.
+Il existe trois façons de surveiller les modifications apportées au Presse-papiers. La méthode la plus ancienne consiste à créer une fenêtre de la visionneuse du presse-papiers. Windows 2000 a ajouté la possibilité d’interroger le numéro de séquence du presse-papiers et Windows Vista a ajouté la prise en charge des écouteurs de format du presse-papiers. La visionneuse du presse-papiers Windows est prise en charge pour la compatibilité descendante avec les versions antérieures de Windows. Les nouveaux programmes doivent utiliser les écouteurs de format du presse-papiers ou le numéro de séquence du presse-papiers.
 
 ## <a name="querying-the-clipboard-sequence-number"></a>Interrogation du numéro de séquence du presse-papiers
 
@@ -1080,6 +1080,6 @@ BOOL WINAPI IsDisplayableFormat(UINT uFormat)
 
 
 
- 
+ 
 
- 
+ 

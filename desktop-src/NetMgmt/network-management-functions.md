@@ -4,12 +4,12 @@ description: Les fonctions de gestion de réseau peuvent être regroupées comme
 ms.assetid: dd159e2e-f37e-46b2-b980-008b73d40b39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9e9aba93607e3609f0d20f7208184f169fb871ee67f5f2917445683f70e4f04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a169d097fbe86c95aa9aa3120c3f732a8edd2c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117796960"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194704"
 ---
 # <a name="network-management-functions"></a>Fonctions de gestion de réseau
 

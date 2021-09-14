@@ -47,12 +47,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cfdf044adf5623a7fafd424f6051105bf83d3d0f5f4338b16b7bf3a7fe07126c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0dcfb44fdcd035ca47cbe3056da2a081ef2ae07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230700"
 ---
 # <a name="cim_nfs-class"></a>\_Classe NFS CIM
 
@@ -534,7 +534,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> <dt>
 
-**Suspendre**
+**Interruption**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**

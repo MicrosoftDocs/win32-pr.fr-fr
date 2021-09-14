@@ -4,12 +4,12 @@ ms.assetid: 7245725b-40dd-4282-b681-f0b2c191db94
 title: 'Événement IWinHttpRequestEvents :: OnResponseStart'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb08273bfbab92e957b932f463ce4b91ee53e3663dcd886f5e02b73698fff3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a299c535dd854bff07f2c24989096f7b9e49fc3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117744222"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008326"
 ---
 # <a name="iwinhttprequesteventsonresponsestart-event"></a>Événement IWinHttpRequestEvents :: OnResponseStart
 
@@ -45,7 +45,7 @@ Spécifie le type de contenu reçu, par exemple « text/html » ou « image/G
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 

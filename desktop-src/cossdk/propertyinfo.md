@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: cf5c354711ec9ca34af1809707a7a869d39a3026ca5cb7ca11d2245c02be049b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd9fdd2262d4499efd6a86fbc5b99bae786016f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118547576"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008185"
 ---
 # <a name="propertyinfo-collection"></a>PropertyInfo, collection
 
@@ -42,16 +42,16 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 -   [Nom](#name)
 
-### <a name="name"></a>Nom
+### <a name="name"></a>Name
 
 
 
 | Entrée | Valeur |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de la propriété. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                                                         |
+| Access         | Lecture seule                                                                                                                                                                                         |
 | Type           | String                                                                                                                                                                                           |
-| Default        | None                                                                                                                                                                                             |
+| Valeur par défaut        | None                                                                                                                                                                                             |
 | Système minimal | Windows 2000                                                                                                                                                                                     |
 
 

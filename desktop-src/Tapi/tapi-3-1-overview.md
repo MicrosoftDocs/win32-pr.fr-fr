@@ -4,12 +4,12 @@ ms.assetid: 1f7ccef8-5aad-48e7-90e9-a378dd83a870
 title: Vue d’ensemble de TAPI 3,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c55aff75690894cc8c8a0d5e692b0c9b019a39116a617dbf2a4ae050200f6892
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b30b70ccdc1c4a0985107d2bd2fc36bfbe4e3fca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008704"
 ---
 # <a name="tapi-31-overview"></a>Vue d’ensemble de TAPI 3,1
 

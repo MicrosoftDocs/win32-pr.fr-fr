@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a52c9faa6d5ce6acd99921908b178d5a128c18bbdfb69665e929977293ec8fca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df999e327591309f015d8720f61643625eced4d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117956796"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008861"
 ---
 # <a name="counteritem-object"></a>Objet CounterItem
 
@@ -61,22 +61,22 @@ L’objet **CounterItem** a ces propriétés.
 |:----------------------------------------------------------|:--------------------------------------------------------------------------------|
 | [**Couleur**](counteritem-color.md)<br/>             | Récupère ou définit la couleur utilisée pour représenter sous forme de graphique la valeur de compteur.<br/>         |
 | [**LineStyle**](counteritem-linestyle.md)<br/>     | Récupère ou définit le style de ligne utilisé pour représenter sous forme de graphique la valeur de compteur.<br/>    |
-| [**Chemin**](counteritem-path.md)<br/>               | Récupère le chemin d’accès du compteur.<br/>                                   |
+| [**Chemin d’accès**](counteritem-path.md)<br/>               | Récupère le chemin d’accès du compteur.<br/>                                   |
 | [**ScaleFactor**](counteritem-scalefactor.md)<br/> | Récupère ou définit le facteur d’échelle utilisé pour représenter sous forme de graphique la valeur de compteur.<br/>  |
-| [**Sélectionné**](counteritem-selected.md)<br/>       | Récupère ou définit une valeur qui indique si le compteur est sélectionné.<br/> |
+| [**Volumes sélectionnés**](counteritem-selected.md)<br/>       | Récupère ou définit une valeur qui indique si le compteur est sélectionné.<br/> |
 | [**Valeur**](counteritem-value.md)<br/>             | Récupère la valeur actuelle du compteur.<br/>                          |
 | [**Parent**](counteritem-visible.md)<br/>         | Récupère ou définit une valeur qui indique si le compteur est graphique.<br/>  |
-| [**Width**](counteritem-width.md)<br/>             | Récupère ou définit la largeur de ligne utilisée pour représenter sous forme de graphique la valeur de compteur.<br/>    |
+| [**Largeur**](counteritem-width.md)<br/>             | Récupère ou définit la largeur de ligne utilisée pour représenter sous forme de graphique la valeur de compteur.<br/>    |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La [**valeur**](counteritem-value.md) est la propriété par défaut de **CounterItem**.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

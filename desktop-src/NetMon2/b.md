@@ -4,12 +4,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 title: B (Moniteur réseau)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7889dd4fbfccc4668df25c30b9f722d68c42ca72a1f7dc5676998e818c6e4e35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 855ebbb406a9c53ef661a5196e18aedc4b3e7697
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009352"
 ---
 # <a name="b-network-monitor"></a>B (Moniteur réseau)
 

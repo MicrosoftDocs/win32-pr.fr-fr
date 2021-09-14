@@ -4,12 +4,12 @@ description: 'La procédure de création d’un appel synchrone est simple : le
 ms.assetid: ab65d38d-836a-48d4-87c1-8812cbc8ff92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 384a153b826e570920fca2a92f5b53ed2079c561cbcda899b793cef1f39473bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22dcd7a6509cd07e12357a96222baa04f9e4c942
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216537"
 ---
 # <a name="making-an-asynchronous-call"></a>Exécution d’un appel asynchrone
 

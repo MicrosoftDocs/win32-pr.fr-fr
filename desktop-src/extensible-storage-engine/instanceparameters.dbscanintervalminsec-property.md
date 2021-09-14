@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6681b891e2e70c0f4e2f335a039819df2a5f109b5baa99e6ea33bf12110a7d97
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6630f106675ac7ae7d5c82039d8321c0a78bee62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120063779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007802"
 ---
 # <a name="instanceparametersdbscanintervalminsec-property"></a>InstanceParameters. DbScanIntervalMinSec, propriété
 

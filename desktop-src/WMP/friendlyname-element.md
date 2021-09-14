@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f48f14dac372767c0553f3215a2336a5ebedbfb1a363ec91d17309efb2cced21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d93484937f14b233c995a041acc21f5e5eae383b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008439"
 ---
 # <a name="friendlyname-element"></a>FriendlyName, élément
 
@@ -46,7 +46,7 @@ Cet élément n’a pas d’attributs.
 | Hierarchy       | Élément         |
 |-----------------|-----------------|
 | Éléments parents | **ServiceInfo** |
-| Éléments enfants  | Aucun            |
+| Éléments enfants  | None            |
 
 
 

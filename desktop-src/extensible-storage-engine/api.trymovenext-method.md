@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2e0f44caef2cef6d168668525b8dbd4066d1519f7e3d80ee5de9baec5a10d10c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b4b4e1f296e5549ba3823f698cdcb5cc9f9f42a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119738379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007952"
 ---
 # <a name="apitrymovenext-method"></a>API. TryMoveNext, méthode
 
@@ -76,7 +76,7 @@ public static bool TryMoveNext(
     
     Curseur à positionner.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si le déplacement a réussi.  

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 04fd659d9afe006b3bdab3d2cef058400698940f71345e09a791e6f72608ed2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46472c59c14bd515e744a7ccfa908752783d27fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118982899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007951"
 ---
 # <a name="apitryseek-method"></a>API. TrySeek, méthode
 
@@ -86,7 +86,7 @@ public static bool TrySeek(
     
     Option Seek.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si un enregistrement correspondant au critère a été trouvé.  

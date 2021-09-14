@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 687738cce6bb311d7e8223877b716abdaef180340ab570f430659ee2e98458ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36e35a6ea905f20e1cb30eddc5b270786614403b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119519439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194380"
 ---
 # <a name="glupartialdisk-function"></a>gluPartialDisk fonction)
 
@@ -99,7 +99,7 @@ Angle de balayage, en degrés, de la partie disque.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluPartialDisk** restitue un disque partiel sur le plan *z* = 0. Un disque partiel est similaire à un disque complet, sauf que seul le sous-ensemble du disque de *startAngle* à *startAngle*  +  *SweepAngle* est inclus (où 0 degré est le long de l’axe des y positif, 90 degrés sur l’axe x positif, 180 degrés sur l’axe y négatif et 270 degrés sur l’axe x négatif).
 
@@ -109,7 +109,7 @@ En ce qui concerne l’orientation, le côté z positif du disque partiel est co
 
 Si vous avez activé la texturation (avec [**gluQuadricTexture**](gluquadrictexture.md)), **gluPartialDisk** génère des coordonnées de texture linéairement, où *r*  =  *outerRadius*, la valeur de *(r*, 0, 0) est (1, 0,5); à (0, *r*, 0) il est (0,5, 1); à (*r*, 0, 0) il est (0, 0,5); et à (0, *r*, 0) il est (0,5, 0).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee8c4737ff7513441532275e24f2cfe20f8e30fa2932e854cc566eb032c49d0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2b3ec0c1bd771f59a4e456cb8e57c3bb3e9e394
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118555137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008250"
 ---
 # <a name="making-an-asynchronous-call-with-vbscript"></a>Exécution d’un appel asynchrone avec VBScript
 
@@ -27,7 +27,7 @@ Lorsque vous utilisez des appels de récepteur asynchrones comme [**SWbemSink. O
 
 La définition de cette valeur de Registre garantit l’authentification des objets de données renvoyés au récepteur. Si **UnsecAppAccessControlDefault** est défini sur un (1), WMI effectue la vérification de l’accès des données renvoyées. Les vérifications d’accès vérifient que les données proviennent de la source correcte. Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md).
 
-Les méthodes asynchrones avec des noms qui se terminent par « Async \_ » retournent toujours immédiatement après leur appel afin qu’un programme puisse continuer à s’exécuter. Par exemple, [**SWbemServices.ExecQuery**](swbemservices-execquery.md) est synchrone et bloque l’exécution jusqu’à ce que tous les objets soient retournés. La méthode [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md) est la version asynchrone qui ne se bloque pas. Une façon plus sécurisée d’effectuer l’appel àSWbemServices.Exele non-blocage **cQuery** consiste à effectuer l’appel [*semisynchronously*](gloss-s.md). Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md) et [exécution d’un appel semi-synchrone avec VBScript](making-a-semisynchronous-call-with-vbscript.md).
+Les méthodes asynchrones avec des noms qui se terminent par « Async \_ » retournent toujours immédiatement après leur appel afin qu’un programme puisse continuer à s’exécuter. Par exemple, [**SWbemServices. ExecQuery**](swbemservices-execquery.md) est synchrone et bloque l’exécution jusqu’à ce que tous les objets soient retournés. La méthode [**SWbemServices. ExecQueryAsync**](swbemservices-execqueryasync.md) est la version asynchrone qui ne se bloque pas. Une façon plus sécurisée d’effectuer l’appel au non-blocage de **SWbemServices. ExecQuery** consiste à effectuer l’appel [*semisynchronously*](gloss-s.md). Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md) et [exécution d’un appel semi-synchrone avec VBScript](making-a-semisynchronous-call-with-vbscript.md).
 
 Le paramètre *IFlags* pour les appels asynchrones est toujours défini par défaut sur zéro (0). Les méthodes asynchrones ne fournissent pas de collection [**SWbemObjectSet**](swbemobjectset.md) à la sous-routine sink. Au lieu de cela, la sous-routine d’événement [**SWbemSink. OnObjectReady**](swbemsink-onobjectready.md) de votre script ou application reçoit chaque objet tel qu’il est fourni.
 

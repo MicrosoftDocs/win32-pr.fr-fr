@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser Microsoft DirectX Graphics i
 ms.assetid: f8ef981c-363e-4ac8-8734-69c68f346950
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa74a41f95095c4de9ad58615c5b860153c72d1fcd706286b295653a8004d187
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af16aba0131d93a5f72732931a68f132126b5d48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118098254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008055"
 ---
 # <a name="how-to-enumerate-adapters"></a>Comment : énumérer des adaptateurs
 

@@ -4,12 +4,12 @@ ms.assetid: 6f4ae117-2120-4c1e-b69f-641ce2e633fa
 title: Déboguer un service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b79217e4c2e9fe9f17457693260e9041e303511d3805b3bd636622fcbabdf29
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ebd99acfc6ad0e436b7f726c96af9e5d1c58442
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120126439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233129"
 ---
 # <a name="debugging-a-service"></a>Déboguer un service
 

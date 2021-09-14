@@ -5,15 +5,15 @@ title: Énumération CallQualityProperty (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f2ca3af31e0b85a443bb34ac1992b3d3b5c89bfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008779"
 ---
 # <a name="callqualityproperty-enumeration"></a>Énumération CallQualityProperty
 
-\[ Cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette énumération n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’énumération **CallQualityProperty** est utilisée par les méthodes [**ITCallQualityControl :: GetRange**](itcallqualitycontrol-getrange.md), [**ITCallQualityControl :: obten**](itcallqualitycontrol-get.md)et [**ITCallQualityControl :: Set**](itcallqualitycontrol-set.md) pour indiquer que la propriété de qualité d’appel est traitée.
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 293aabf86769a8cfa678df79a04b5158b9c1d19c80d660b144c4a33cbf32c56f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37278b9111818957e6d5fb3032f1bf33ad3a6ec3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118363678"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194560"
 ---
 # <a name="setstringinblob-function"></a>SetStringInBlob fonction)
 
@@ -78,7 +78,7 @@ Pointeur vers la variable où un pointeur vers la chaîne sera retourné.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -86,7 +86,7 @@ Si la fonction échoue, la valeur de retour est une valeur NMERR qui indique le 
 
 Si les informations de **propriétaire**, de **catégorie** ou de **balise** spécifiées n’existent pas, la valeur de retour est NMERR l' \_ entrée d’objet BLOB \_ \_ n' \_ \_ existe pas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 88fea2ec-7b53-44bb-841d-486c5c879c68
 title: Chemins (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f54dae290138314cac3dae8d259591939490764d371e9a2caf9423801e985ec2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 768d01d2d945c8252125a43ee2dc79f985703da1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117695475"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007719"
 ---
 # <a name="paths-gdi"></a>Chemins (GDI+)
 

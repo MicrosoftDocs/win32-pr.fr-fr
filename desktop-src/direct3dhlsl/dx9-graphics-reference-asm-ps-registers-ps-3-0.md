@@ -14,11 +14,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: e1cd0173beabc8fbe21ad15e88e23fc1b6e84892
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232272"
 ---
 # <a name="ps_3_0-registers"></a>\_registres PS 3 \_ 0
 
@@ -46,9 +46,9 @@ Le registre de position (vPos) est une nouveauté pour ce modèle. Il contient l
 
 
 
-| S’inscrire | Nom                                                                                      | Count | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut   | DCL obligatoire |
+| S’inscrire | Name                                                                                      | Count | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut   | DCL obligatoire |
 |----------|-------------------------------------------------------------------------------------------|-------|-----|---------------|---------------|-----------|---------|------------|--------------|
-| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)                 | 10    | R   | 1             | Illimité     | 4         | &      | Aucun       | Oui          |
+| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)                 | 10    | R   | 1             | Illimité     | 4         | &      | None       | Oui          |
 | r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)               | 32    | R/W (Lecture/écriture) | 3             | Illimité     | 4         | Non      | None       | Non           |
 | c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-ps-registers-constant-float.md)     | 224   | R   | 1             | Illimité     | 4         | Non      | 0000       | Non           |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-ps-registers-constant-integer.md) | 16    | R   | 1             | 1             | 4         | Non      | 0000       | Non           |
@@ -73,7 +73,7 @@ Le nombre de readports est le nombre de registres différents (pour chaque type 
 
 
 
-| S’inscrire | Nom                                                                              | Count                                                                             | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
+| S’inscrire | Name                                                                              | Count                                                                             | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
 |----------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|-----------|---------|----------|--------------|
 | c #     | [Registre des couleurs de sortie](dx9-graphics-reference-asm-ps-registers-output-color.md) | Voir [les textures à plusieurs éléments (Direct3D 9)](/windows/desktop/direct3d9/multiple-element-textures) | W   | 4         | Non      | None     | Non           |
 | oDepth   | [Registre de profondeur de sortie](dx9-graphics-reference-asm-ps-registers-output-depth.md) | 1                                                                                 | W   | 1         | Non      | None     | Non           |

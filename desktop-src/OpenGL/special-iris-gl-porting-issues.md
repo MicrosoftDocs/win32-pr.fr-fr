@@ -8,12 +8,12 @@ keywords:
 - Portage OpenGL, IRIS GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0ac9a7262bf00681c270cfe085ce8ac75e05b60eb8702a189f7d3ad36d2855f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1273a873f3a39a5d237f9a5845a72f87156e001c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009270"
 ---
 # <a name="special-iris-gl-porting-issues"></a>Problèmes spéciaux de Portage du GL IRIS
 

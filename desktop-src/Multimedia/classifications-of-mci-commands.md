@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1524e6aa2094679e91acddb9dbfbb8cb480eb39f
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009563"
 ---
 # <a name="classifications-of-mci-commands"></a>Classifications des commandes MCI
 
@@ -74,7 +74,7 @@ La liste suivante récapitule les commandes de base. L’utilisation de ces comm
 | [**sort**](resume.md) | [**\_reprise MCI**](mci-resume.md) | Reprend la diffusion ou l’enregistrement sur un appareil suspendu.                                                                                                                                                                                        |
 | [**été**](save.md)     | [**\_enregistrement MCI**](mci-save.md)     | Enregistre les données dans un fichier sur disque.                                                                                                                                                                                                              |
 | [**Demandez**](seek.md)     | [**\_recherche MCI**](mci-seek.md)     | Effectue une recherche vers l’avant ou vers l’arrière.                                                                                                                                                                                                              |
-| [**définie**](set.md)       | [**jeu de MCI \_**](mci-set.md)       | Définit l’état de fonctionnement de l’appareil.                                                                                                                                                                                                 |
+| [**set**](set.md)       | [**jeu de MCI \_**](mci-set.md)       | Définit l’état de fonctionnement de l’appareil.                                                                                                                                                                                                 |
 | [**status**](status.md) | [**ÉTAT MCI**](mci-status.md)  | Obtient des informations d’État sur l’appareil. Il s’agit également d’une commande obligatoire. étant donné que certains de ses indicateurs ne sont pas nécessaires, ils sont également répertoriés ici. (Les éléments facultatifs prennent en charge les appareils qui utilisent un média linéaire avec des positions identifiables.) |
 | [**erreur**](stop.md)     | [**\_arrêt MCI**](mci-stop.md)     | Arrête la durée de la diffusion.                                                                                                                                                                                                                          |
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c27b7c6dbef585763ecfda1abdc7beadfa3d883476033424ff868a3d56c4bb96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d50d25488a05e6076c99802ce738edf02298ade
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008383"
 ---
 # <a name="mediacollectiongetattributestringcollection-method"></a>Méthode MediaCollection. getAttributeStringCollection
 
@@ -57,11 +57,11 @@ retVal = MediaCollection.getAttributeStringCollection(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un objet **StringCollection** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

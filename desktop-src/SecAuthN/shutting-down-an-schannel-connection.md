@@ -4,12 +4,12 @@ ms.assetid: 7081ba1f-df3c-41b4-96da-24d44e74d714
 title: Arrêt d’une connexion Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb700c8ac896d0e64b82b25371ea67cc343d8297c95445ca4126c5718d8024a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc61b67083ceee65da714069c2b30ba1bfd5c89b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118918058"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193839"
 ---
 # <a name="shutting-down-an-schannel-connection"></a>Arrêt d’une connexion Schannel
 

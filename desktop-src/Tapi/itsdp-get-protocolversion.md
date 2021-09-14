@@ -4,12 +4,12 @@ ms.assetid: 7c62357c-427f-40f9-a9d2-c4e1a8400e97
 title: 'ITSdp :: get_ProtocolVersion, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b54bd664a2a1147b341d46a83c4a2fa72c66585a11fc8eaef154aa213cab8945
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 652c6c3d6723a10cfe474376cf8b9f1342321db8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119774489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193484"
 ---
 # <a name="itsdpget_protocolversion-method"></a>ITSdp :: \_ ProtocolVersion, méthode
 
@@ -39,7 +39,7 @@ Pointeur désignant la version du protocole.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

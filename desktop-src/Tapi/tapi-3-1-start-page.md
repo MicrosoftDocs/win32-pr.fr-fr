@@ -5,11 +5,11 @@ title: Interface de programmation d’applications de téléphonie version 3,1
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6b2a9d99a9e4319a1450ccbc72d3db32f6ec3d92
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122625635"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008703"
 ---
 # <a name="telephony-application-programming-interface-version-31"></a>Interface de programmation d’applications de téléphonie version 3,1
 
@@ -41,7 +41,7 @@ TAPI version 3,1 permet le développement d’applications de communication pour
 
 
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Rubrique</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">Vue d'ensemble</a><br/></td><td>Informations générales sur l’architecture et les composants TAPI.<br/></td></tr><tr class="even"><td>Référence<br/></td><td>Documentation pour :<br/><ul><li><a href="call-and-media-controls-reference.md">Référence des contrôles d’appel et de média</a></li><li><a href="call-center-controls-reference.md">Référence des contrôles du centre d’appels</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">Référence Rendezvous</a></li></ul></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Rubrique</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">Vue d'ensemble</a><br/></td><td>Informations générales sur l’architecture et les composants TAPI.<br/></td></tr><tr class="even"><td>Informations de référence<br/></td><td>Documentation pour :<br/><ul><li><a href="call-and-media-controls-reference.md">Référence des contrôles d’appel et de média</a></li><li><a href="call-center-controls-reference.md">Référence des contrôles du centre d’appels</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">Référence Rendezvous</a></li></ul></td></tr></tbody></table>
 
 
 

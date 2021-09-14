@@ -4,12 +4,12 @@ ms.assetid: 06d8dd6f-7a8d-4da5-a99d-9c9d8fb90cfa
 title: Fonctions d’assistance (API d’inscription de certificats)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c99282099f93482e3064a00eed146464a8d537e70d803b3b51389f92d9f93912
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8ee272e7b11c3fccf7975c5356302a2961b32ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119669829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009027"
 ---
 # <a name="helper-functions-certificate-enrollment-api"></a>Fonctions d’assistance (API d’inscription de certificats)
 

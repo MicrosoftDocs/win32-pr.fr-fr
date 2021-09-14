@@ -12,12 +12,12 @@ keywords:
 - Fichiers désactivés dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b7d7c052ed0de1a3e231bc204b87a84f1e9e10262acfe43df310d76f76577b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9608c67ded6625d46126955ad42a24548a9d002c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997353"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008463"
 ---
 # <a name="disabled-file"></a>Fichier désactivé
 

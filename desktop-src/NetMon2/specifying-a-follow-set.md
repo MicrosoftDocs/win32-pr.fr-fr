@@ -4,12 +4,12 @@ ms.assetid: 9e73c724-a540-42f8-b273-4f02c39d81c4
 title: Spécification d’un jeu de suivi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b11320872cc07d69f5796e344a1d5ed4dea4594e48f9697901126d915fd7b42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b9e36268be82d2fed7c3d0c56a078e41dff1733
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118363045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194543"
 ---
 # <a name="specifying-a-follow-set"></a>Spécification d’un jeu de suivi
 

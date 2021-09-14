@@ -4,12 +4,12 @@ ms.assetid: 6d0574da-f0ec-4ed9-bfb0-023dff2ac6fe
 title: Implémentation de RecognizeFrame
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39d3f9a79325c0c75a7a83cfb99a34ff3de1f073573dee13d39a846b575f6285
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d970eee80a04168b3fa06b117c2c219c506da7ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890493"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009329"
 ---
 # <a name="implementing-recognizeframe"></a>Implémentation de RecognizeFrame
 

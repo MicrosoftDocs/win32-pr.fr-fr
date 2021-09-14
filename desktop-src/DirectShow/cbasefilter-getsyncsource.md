@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 632350f925f843f05bdf7820bc8c14a4570f152afc741d5ed58f1827ad205251
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64f2d46ded16384e53e5281632bc0a064021f673
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007646"
 ---
 # <a name="cbasefiltergetsyncsource-method"></a>Méthode CBaseFilter. GetSyncSource
 
@@ -49,7 +49,7 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IReferenc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le \_ pointeur S ou OK \_ .
 

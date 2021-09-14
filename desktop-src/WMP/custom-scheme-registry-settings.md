@@ -13,12 +13,12 @@ keywords:
 - paramètres de Registre du schéma personnalisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af1f20b69570a18d256049bb0e785099e43b091d080e4f9f65e62655c3103d68
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a02649d9536140fff0ff0d3188a5b25feb49688
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117750392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228521"
 ---
 # <a name="custom-scheme-registry-settings"></a>Paramètres du registre du schéma personnalisé
 

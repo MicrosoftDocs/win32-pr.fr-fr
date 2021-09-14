@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 38773412d135aa4068f0f843c1a6ef64af06a841
-ms.sourcegitcommit: 9d7585cb0b840d0d1a2b7fd02135181e69d0dc9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "104548494"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228215"
 ---
 # <a name="hardware-tiers"></a>Niveaux matériels
 
@@ -26,7 +26,7 @@ Les niveaux de matériel du niveau 1 au niveau 3 ont des ressources accrues disp
 
 | Ressources disponibles pour le pipeline                                                                                                              | Niveau 1                                                                   | Niveau 2        | Niveau 3        |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|---------------|---------------|
-| Niveaux de fonctionnalité                                                                                                                                   | 11.0 +                                                                    | 11.0 +         | 11.1 +         |
+| Niveaux de fonctionnalité                                                                                                                                   | 11.0+                                                                    | 11.0+         | 11.1 +         |
 | Nombre maximal de descripteurs dans une vue de mémoire tampon constante (CBV), un Affichage des ressources de nuanceur (SRV) ou un tas de vue d’accès non ordonné (UAV) utilisé pour le rendu | 1 000 000                                                                | 1 000 000     | 1000000 +    |
 | Nombre maximal de vues de mémoire tampon constante dans toutes les tables de descripteurs par étape de nuanceur                                                                | 14                                                                       | 14            | **tas complet** |
 | Nombre maximal de vues de ressources de nuanceur dans toutes les tables de descripteurs par étape de nuanceur                                                                | 128                                                                      | **tas complet** | tas complet     |

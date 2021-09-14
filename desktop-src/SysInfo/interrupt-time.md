@@ -4,12 +4,12 @@ ms.assetid: 56fe322e-53ea-4186-9b5e-352f69b09109
 title: Temps d’interruption
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e0da8fa92fc51cdceef6f0052dda7a2cd27d7b21b24d11bd8ec7b1ea4aff18b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6018d97ab0eecd1182c02b734357ca13fbe12632
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193720"
 ---
 # <a name="interrupt-time"></a>Temps d’interruption
 

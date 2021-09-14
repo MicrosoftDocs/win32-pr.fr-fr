@@ -4,12 +4,12 @@ ms.assetid: 3ca8518d-42f0-428c-b94c-ff244d17b314
 title: 'Configuration 2 : trafic IPv6 entre les nœuds de différents sous-réseaux d’un interréseau IPv4 (6to4)'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d976aa3ea21d990ea22f861fbf05a816866e6b0d21502211e23a0e331a2f851
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1abd5477005e6a1e71c13aaf19a734e9191097d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118112498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008293"
 ---
 # <a name="configuration-2-ipv6-traffic-between-nodes-on-different-subnets-of-an-ipv4-internetwork-6to4"></a>Configuration 2 : trafic IPv6 entre les nœuds de différents sous-réseaux d’un interréseau IPv4 (6to4)
 

@@ -4,12 +4,12 @@ description: Pour qu’une application reçoive le trafic Teredo, l’applicatio
 ms.assetid: 2fc74d86-9696-4ba9-adbe-e5558ae7d7c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a67d7de38ed91de7d8d8afeada6fe9705ff55f2af1b726ed5c5d49b271464dc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbc2fcf0f7c8b1f5fe51afc056dc8c8ff7c7916a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118354442"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193452"
 ---
 # <a name="required-firewall-exceptions-for-teredo"></a>Exceptions de pare-feu requises pour Teredo
 

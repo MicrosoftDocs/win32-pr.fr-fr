@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 394e10c460b406e510b1423f299b4a8724492f5a5b180212ff121f4ad593041e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c54e62f82f52fedc7de7c7c4af1cd3ed1ccdf149
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194379"
 ---
 # <a name="glupickmatrix-function"></a>gluPickMatrix fonction)
 
@@ -83,7 +83,7 @@ La fenêtre d’affichage actuelle (à partir d’un appel [**glGetIntegerv**](g
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluPickMatrix** crée une matrice de projection que vous pouvez utiliser pour restreindre le dessin à une petite zone de la fenêtre d’affichage.
 
@@ -129,7 +129,7 @@ glMatrixMode(GL_MODELVIEW);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

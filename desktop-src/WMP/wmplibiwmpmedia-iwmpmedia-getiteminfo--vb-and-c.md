@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce8fa8b55074781dd835e116b0403391fe9343af30d5236610219dca8aba810b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 523e57e68d13df55395cd4deca6e09904723bbaf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118331989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228366"
 ---
 # <a name="iwmpmediagetiteminfo-method"></a>IWMPMedia :: getItemInfo, méthode
 
@@ -60,11 +60,11 @@ Implements IWMPMedia.getItemInfo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. String** qui est la valeur de l’attribut spécifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode retourne les métadonnées pour un élément multimédia individuel ou un élément multimédia qui fait partie d’une sélection.
 
@@ -76,7 +76,7 @@ Si l’élément multimédia provient d’une bibliothèque qui a été récupé
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

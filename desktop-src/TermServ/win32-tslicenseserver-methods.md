@@ -5,12 +5,12 @@ ms.assetid: 743582EA-6D2F-48C5-AA69-593261BE5892
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edc61d4bd203dd8b8cf3ca771070841a02332a43f9c18cbdd63d4324037d7ba9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2feacaec639184075a9954a4f2ae4837f9128efd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119769549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193412"
 ---
 # <a name="win32_tslicenseserver-methods"></a>\_Méthodes TSLicenseServer Win32
 

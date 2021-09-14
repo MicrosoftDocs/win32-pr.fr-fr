@@ -4,12 +4,12 @@ ms.assetid: ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e
 title: Constantes de format de fichier image (Gdiplusimaging. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad71973c870f90844a033679cd2961d988def604343af06539db3450d65461a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cd13a62f5b71680efc89ab8c65990302eedd328
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117696504"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231917"
 ---
 # <a name="image-file-format-constants"></a>Constantes de format de fichier image
 

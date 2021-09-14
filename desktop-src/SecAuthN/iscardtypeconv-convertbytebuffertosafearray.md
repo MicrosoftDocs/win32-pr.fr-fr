@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: f3807f8289b0d3198863d8029be3fc48ff55b151c798e64a20d927a4b3efbce6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb6f646df60ab505c41c45bea34fd2d59aa3bb4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193852"
 ---
 # <a name="iscardtypeconvconvertbytebuffertosafearray-method"></a>ISCardTypeConv :: ConvertByteBufferToSafeArray, méthode
 
@@ -56,7 +56,7 @@ Pointeur vers le SAFEARRAY à retourner.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes :
 
@@ -73,7 +73,7 @@ La méthode retourne l’une des valeurs possibles suivantes :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

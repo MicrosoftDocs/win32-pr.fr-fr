@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b8e4300765f340b99da5d06b7651c4daaae4c97b043c6ceb5017aa43b2e2dcb1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 328eb1b0247c2c2c514ca9116a04e9add23f596d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120024149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232290"
 ---
 # <a name="ps_2_0-registers"></a>\_registres PS 2 \_ 0
 
@@ -26,16 +26,16 @@ Les nuanceurs de pixels dépendent des registres pour obtenir des données de ve
 
 
 
-| S’inscrire | Nom                                                                                          | Count      | R/W (Lecture/écriture)        | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut                  | DCL obligatoire |
+| S’inscrire | Name                                                                                          | Count      | R/W (Lecture/écriture)        | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut                  | DCL obligatoire |
 |----------|-----------------------------------------------------------------------------------------------|------------|------------|---------------|---------------|-----------|---------|---------------------------|--------------|
-| v\#      | [Registre des couleurs d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | illimitées     | 4         | N       | Partiel (0001). Voir la remarque 4 | O            |
-| r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | Voir la remarque 1 | R/W (Lecture/écriture)        | 3             | illimitées     | 4         | N       | Aucun                      | N            |
+| v\#      | [Registre des couleurs d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | Illimité     | 4         | N       | Partiel (0001). Voir la remarque 4 | O            |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | Voir la remarque 1 | R/W (Lecture/écriture)        | 3             | Illimité     | 4         | N       | None                      | N            |
 | c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-ps-registers-constant-float.md)         | 32         | R          | 1             | 2             | 4         | N       | 0000                      | N            |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-ps-registers-constant-integer.md)     | 16         | Voir la remarque 2 | 1             | 1             | 4         | N       | 0000                      | N            |
 | b\#      | [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md)     | 16         | Voir la remarque 2 | 1             | 1             | 1         | N       | FALSE                     | N            |
-| P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | Voir la remarque 2 | 1             | 1             | 1         | N       | Aucun                      | O            |
+| P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | Voir la remarque 2 | 1             | 1             | 1         | N       | None                      | O            |
 | s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | Voir la remarque 3 | 1             | 1             | 4         | N       | Voir la remarque 5                | O            |
-| t\#      | [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | Aucun                      | O            |
+| t\#      | [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | None                      | O            |
 
 
 
@@ -55,10 +55,10 @@ Le nombre de readports est le nombre de registres différents (pour chaque type 
 
 
 
-| S’inscrire | Nom                                                                              | Count                                                                             | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
+| S’inscrire | Name                                                                              | Count                                                                             | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
 |----------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|-----------|---------|----------|--------------|
-| c #     | [Registre des couleurs de sortie](dx9-graphics-reference-asm-ps-registers-output-color.md) | Voir [les textures à plusieurs éléments (Direct3D 9)](/windows/desktop/direct3d9/multiple-element-textures) | W   | 4         | N       | Aucun     | N            |
-| oDepth   | [Registre de profondeur de sortie](dx9-graphics-reference-asm-ps-registers-output-depth.md) | 1                                                                                 | W   | 1         | N       | Aucun     | N            |
+| c #     | [Registre des couleurs de sortie](dx9-graphics-reference-asm-ps-registers-output-color.md) | Voir [les textures à plusieurs éléments (Direct3D 9)](/windows/desktop/direct3d9/multiple-element-textures) | W   | 4         | N       | None     | N            |
+| oDepth   | [Registre de profondeur de sortie](dx9-graphics-reference-asm-ps-registers-output-depth.md) | 1                                                                                 | W   | 1         | N       | None     | N            |
 
 
 

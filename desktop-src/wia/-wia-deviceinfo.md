@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Wiascr.dll
 ms.openlocfilehash: 69b34a97483a8a6ce231890454148c7948f63e4e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467176"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231084"
 ---
 # <a name="deviceinfo-object"></a>Objet DeviceInfo
 
@@ -58,8 +58,8 @@ L’objet **DeviceInfo** a ces propriétés.
 | <a href="-wia-iwiadeviceinfo-id.md"><strong>Identifi</strong></a><br /> | Lecture seule<br /> | Récupère l’ID du périphérique matériel WIA. <br /> | 
 | <a href="-wia-iwiadeviceinfo-manufacturer.md"><strong>Fabricant</strong></a><br /> | Lecture seule<br /> | Récupère le nom du fabricant de cet appareil matériel.<br /> | 
 | <a href="-wia-iwiadeviceinfo-name.md"><strong>Name</strong></a><br /> | Lecture seule<br /> | Nom du périphérique matériel WIA tel qu’il apparaît dans l’interface utilisateur.<br /> | 
-| <a href="-wia-iwiadeviceinfo-port.md"><strong>Port</strong></a><br /> | Lecture seule<br /> | Récupère le port auquel le périphérique matériel WIA est connecté.<br /> | 
-| <a href="-wia-iwiadeviceinfo-type.md"><strong>Type</strong></a><br /> | Lecture seule<br /> | Récupère le type d’appareil matériel WIA. Les valeurs possibles sont les suivantes : <br /><ul><li>DigitalCamera</li><li>Scanneur</li><li>StreamingVideo</li><li>Par défaut</li></ul> | 
+| <a href="-wia-iwiadeviceinfo-port.md"><strong>Importer</strong></a><br /> | Lecture seule<br /> | Récupère le port auquel le périphérique matériel WIA est connecté.<br /> | 
+| <a href="-wia-iwiadeviceinfo-type.md"><strong>Type</strong></a><br /> | Lecture seule<br /> | Récupère le type d’appareil matériel WIA. Les valeurs possibles sont les suivantes : <br /><ul><li>DigitalCamera</li><li>Scanneur</li><li>StreamingVideo</li><li>Valeur par défaut</li></ul> | 
 | <a href="-wia-iwiadeviceinfo-uiclsid.md"><strong>UIClsid</strong></a><br /> | Lecture seule<br /> | Récupère l’ID de classe de l’interface utilisateur fournie par le fabricant pour cet appareil matériel WIA. La valeur est une représentation sous forme de chaîne d’un GUID. <br /> | 
 
 

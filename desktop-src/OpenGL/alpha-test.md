@@ -7,12 +7,12 @@ keywords:
 - test alpha OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f28f218ce926b7d7ef1e77828cea67241937327b6ccec9940dc2bf4fbd2193b7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 31a148b09f5663a08f3415ffca27b80fca69c90e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194455"
 ---
 # <a name="alpha-test"></a>Test alpha
 

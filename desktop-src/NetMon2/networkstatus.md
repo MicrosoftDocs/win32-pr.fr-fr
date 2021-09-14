@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3031cd8bd8f1af4e5ea5f03aec93b9a2f28b3ec098a8110563bb89869c97ae3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 067a57dabfb5222deb27de44c60c6eb121cd8c36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194623"
 ---
 # <a name="networkstatus-structure"></a>NETWORKSTATUS, structure
 
@@ -76,13 +76,13 @@ Indicateurs qui décrivent l’état actuel du NPP.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de l’utilisation de cette structure, vous devez allouer la mémoire pour la structure avant de pouvoir l’utiliser et libérer la mémoire lorsque la structure n’est plus nécessaire.
 
 La liste Voir aussi en bas de cette rubrique répertorie toutes les méthodes qui utilisent cette structure.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

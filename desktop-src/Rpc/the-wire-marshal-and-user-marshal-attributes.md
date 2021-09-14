@@ -4,12 +4,12 @@ description: Cette section décrit l’implémentation de la conversion de type 
 ms.assetid: 0ee2ce86-cd14-4659-a69f-6336145359da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31cd6391648cf2ac94cead13b55f7724e7e4125cb99f9a2610ad032dc08a5447
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a789f11fa15a20eab0fcd468cc410bb5a7200717
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923468"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194024"
 ---
 # <a name="the-wire_marshal-and-user_marshal-attributes"></a>Attributs du marshaleur \_ de câble et du Marshal d’utilisateur \_
 

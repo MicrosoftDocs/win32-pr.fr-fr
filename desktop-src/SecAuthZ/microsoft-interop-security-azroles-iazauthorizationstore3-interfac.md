@@ -162,12 +162,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 76b44a4b37cd59edb3be6d38c234a8c72314e05f266516f52ee11ac99ff866e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bee4241ce49a354bc72c5a11a17b111835a045e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117781087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009081"
 ---
 # <a name="microsoftinteropsecurityazrolesiazauthorizationstore3-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzAuthorizationStore3
 
@@ -212,7 +212,7 @@ L’interface **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3** 
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. DeletePropertyItem**                | [**AzAuthorizationStore ::D eletePropertyItem**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepropertyitem)<br/>                                   |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. GetProperty**                       | [**AzAuthorizationStore :: GetProperty**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-getproperty)<br/>                                                 |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. GetSchemaVersion**                  | [**IAzAuthorizationStore3::GetSchemaVersion**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-getschemaversion)<br/>                            |
-| **Microsoft.Interop.Security.Azroles.IAzAuthorizationStore3.Initialize**                        | [**AzAuthorizationStore :: Initialize**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-initialize)<br/>                                                   |
+| **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. Initialize**                        | [**AzAuthorizationStore :: Initialize**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-initialize)<br/>                                                   |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. IsFunctionalLevelUpgradeSupported** | [**IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-isfunctionallevelupgradesupported)<br/> |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. IsUpdateNeeded**                    | [**IAzAuthorizationStore3::IsUpdateNeeded**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-isupdateneeded)<br/>                                |
 | **Microsoft. Interop. Security. azroles. IAzAuthorizationStore3. OpenApplication**                   | [**AzAuthorizationStore::OpenApplication**](/windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-openapplication)<br/>                                         |

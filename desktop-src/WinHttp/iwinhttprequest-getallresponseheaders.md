@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: d853cfd80038081865eeefbbc456f470485b69a2dae02384e91e8b4d78d90810
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74c113216cf41e2f9816176dd28ba5e84208c635
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228317"
 ---
 # <a name="iwinhttprequestgetallresponseheaders-method"></a>IWinHttpRequest :: GetAllResponseHeaders, méthode
 
@@ -47,11 +47,11 @@ Reçoit les informations d’en-tête obtenues.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode retourne tous les en-têtes contenus dans la dernière réponse du serveur. Les en-têtes individuels sont délimités par une combinaison de retour chariot et de saut de ligne (ASCII 13 et 10). La dernière entrée est suivie de deux délimiteurs (13, 10, 13, 10). Appelez cette méthode uniquement après l’appel de la méthode [**Send**](iwinhttprequest-send.md) .
 
@@ -173,7 +173,7 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6f35b40febff058d5bbd9f48c5ac6d10168d48d6e587b51ab2730704724e48c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0843c7789afc1500565d2737d863cbc8af114d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007650"
 ---
 # <a name="cbasefiltergetfiltergraph-method"></a>Méthode CBaseFilter. GetFilterGraph
 
@@ -40,7 +40,7 @@ IFilterGraph* GetFilterGraph();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de [**CBaseFilter :: m \_ pGraph**](cbasefilter-m-pgraph.md).
 

@@ -4,12 +4,12 @@ ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: Application Verifier (Windows 7 et Windows Server 2008 R2 livre de recettes sur la qualité des applications)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d5318994d3c3f3142922e57ffeec4ea6e9609410edb78a4c081035b10dbf8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bac2a8bc900ea9d1f35ae228371226355657b930
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134132"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216761"
 ---
 # <a name="application-verifier-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>Application Verifier (Windows 7 et Windows Server 2008 R2 livre de recettes sur la qualité des applications)
 

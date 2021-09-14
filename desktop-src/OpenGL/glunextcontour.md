@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4607fbeea8e8aa46b365204bf1853c392c1a38f5ded594d840c6e9eea063da2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c7b798eba50205053c019e3e8d1708c9ed834e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194408"
 ---
 # <a name="glunextcontour-function"></a>gluNextContour fonction)
 
@@ -74,7 +74,7 @@ Type du contour en cours de définition. Les valeurs suivantes sont valides.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez la fonction **gluNextContour** pour décrire les polygones avec plusieurs contournements. Une fois que vous avez décrit le premier profil à travers une série d’appels [**gluTessVertex**](glutessvertex.md) , un appel **gluNextContour** indique que le contour précédent est terminé et que le contour suivant va commencer. Effectuez une autre série d’appels **gluTessVertex** pour décrire le nouveau profil. Répétez ce processus jusqu’à ce que tous les profils aient été décrits.
 
@@ -99,7 +99,7 @@ gluNextContour(tess, GLU_INTERIOR);
 gluEndPolygon(tess);
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

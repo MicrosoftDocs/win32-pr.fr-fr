@@ -10,12 +10,12 @@ keywords:
 - codes de contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63d610b396125cf190764b53106ca6535a214e2c8166f4e69de884c113fd77ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69c00e235ce0f0e68e98f4f0e37221eac0903682
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117935848"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008465"
 ---
 # <a name="device-io-control-codes"></a>Codes de contrôle d’e/s de périphérique
 

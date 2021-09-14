@@ -4,12 +4,12 @@ ms.assetid: f3fce8ef-903a-4b9d-b76c-562739d02eb3
 title: Conteneurs Graphics imbriqués
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d88b3a768e5b156eb5d28410ad69d58227e9660618764ca4b084b5e35662b839
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 29f9d9feac3494b423d844cb1e3da359af33eaec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120114979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007724"
 ---
 # <a name="nested-graphics-containers"></a>Conteneurs Graphics imbriqués
 

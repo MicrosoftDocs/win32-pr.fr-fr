@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 794cd84dd62518cc3089b8644f41b5545aeaf547b275c703a4cb87f5fec2b4a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed9a04df634fe54c82230ade679afb3259519173
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008880"
 ---
 # <a name="counteritemscalefactor-property"></a>CounterItem. ScaleFactor, propriété
 
@@ -44,7 +44,7 @@ Facteur d’échelle utilisé pour afficher les valeurs de compteur sous forme d
 
 **avant Windows Vista :** Les valeurs valides sont comprises entre-7 et 7 (les valeurs correspondent à 0,0000001-1000000,0).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cette propriété uniquement si vous souhaitez modifier le facteur d’échelle par défaut du compteur (chaque compteur définit son propre facteur d’échelle). La valeur de cette propriété est définie sur Integer. MaxValue si le compteur utilise son facteur d’échelle par défaut pour représenter les valeurs dans un graphique.
 

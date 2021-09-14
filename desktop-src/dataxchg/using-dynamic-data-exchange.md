@@ -16,12 +16,12 @@ keywords:
 - DDE (échange dynamique de données), éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3a279e02b65d5540e5494512a44eefdfecdb18607cb12731cf7daa0d8569de
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9fe20c4dedc38303fe9bcb9c4b0fae42d03ee536
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953663"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008168"
 ---
 # <a name="using-dynamic-data-exchange"></a>Utilisation de échange dynamique de données
 

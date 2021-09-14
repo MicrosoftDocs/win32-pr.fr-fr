@@ -13,11 +13,11 @@ api_type:
 - UserDefined
 api_location: ''
 ms.openlocfilehash: c78caa3b8e08ade9c674a11d113a8b91b8f5fad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228918"
 ---
 # <a name="scesvcattachmentconfig-callback-function"></a>SceSvcAttachmentConfig fonction de rappel
 
@@ -45,7 +45,7 @@ Pointeur vers une structure d' [**\_ \_ informations de rappel SCESVC**](/window
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette fonction réussit, elle retourne SCESTATUS \_ Success. Sinon, elle retourne un code d’erreur. Pour plus d’informations sur les codes d’erreur de configuration de la sécurité, consultez [Attachment Return values](management-return-values.md).
 
@@ -60,14 +60,14 @@ Cette fonction doit effectuer les opérations suivantes :
 
 Pour plus d’informations, consultez [implémentation de SceSvcAttachmentConfig](implementing-scesvcattachmentconfig.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

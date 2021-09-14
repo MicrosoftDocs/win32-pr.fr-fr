@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 456f7598b9e1f1d2c2a6e76e58a0b06142980835c3c6d71d9ab10c2230ac386f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a449a7b00516f4fee613722d1cc126eb74227948
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118337973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008364"
 ---
 # <a name="playerplaylistcollectionplaylistremoved-event"></a>Événement Player. PlaylistCollectionPlaylistRemoved
 
@@ -49,7 +49,7 @@ Player.PlaylistCollectionPlaylistRemoved(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 

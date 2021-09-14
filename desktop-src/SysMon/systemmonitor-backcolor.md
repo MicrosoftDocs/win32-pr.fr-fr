@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb01c28b7e8eebe476416934a4d89dee461e0ed5c2ccf6e968b4db0c38178e1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eecbdf6ceaf9938a1b5a607a67410ddc6d05438b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118882955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008839"
 ---
 # <a name="systemmonitorbackcolor-property"></a>SystemMonitor. BackColor, propriété
 
@@ -42,7 +42,7 @@ Property BackColor As stdole.OLE_COLOR
 
 Couleur d’arrière-plan du graphique et des vues de rapport.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété ambiante. La valeur de cette propriété est déterminée par le conteneur. La définition de la valeur de cette propriété peut affecter l’illusion du contrôle et du conteneur en tant qu’application unique.
 

@@ -4,12 +4,12 @@ ms.assetid: b1747b7e-a505-4b23-93bc-cef4e77bf825
 title: Création d’un HMAC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eb600b00c0bfa3ac8af24cd297b1e2dd67933e2990216dafe84713ee5e831c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 364314081bd1d84d6d9bfff889c234470cc6775c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876665"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228995"
 ---
 # <a name="creating-an-hmac"></a>Création d’un HMAC
 

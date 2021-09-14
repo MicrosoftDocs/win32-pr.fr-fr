@@ -4,12 +4,12 @@ ms.assetid: 43dcdac7-ed8e-4150-83eb-585e0e92f13c
 title: État de sauvegarde VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35701e1b576d9ea2e5464516589ae419dc73b74898768af06e974da05afffa8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9aa9250139aee9f48f9880fd4a657fa7c6c4991
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119056217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008545"
 ---
 # <a name="vss-backup-state"></a>État de sauvegarde VSS
 

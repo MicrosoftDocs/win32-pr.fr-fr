@@ -7,12 +7,12 @@ keywords:
 - installation 64 bits Windows programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26f06eaa527142145791e4ed29e2420d16b1d7a2f4fbe9a77801857a844ed7b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13a5f8f623776ffa637718fc0d565f2c71a7b8e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119643599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008306"
 ---
 # <a name="application-installation-on-64-bit-systems"></a>Installation d’applications sur des systèmes 64 bits
 

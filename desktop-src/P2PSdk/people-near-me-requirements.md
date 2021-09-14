@@ -4,12 +4,12 @@ ms.assetid: c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf
 title: Conditions requises pour les personnes près de moi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ebbb904175184b6e9d06c807aa4b4ed645c93633114d6b9b64085e34dfa3683
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff6afb97800041e0fcd9a10a6d95334b832fb363
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119518349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194292"
 ---
 # <a name="people-near-me-requirements"></a>Conditions requises pour les personnes près de moi
 

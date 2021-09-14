@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, installation et configuration d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf5cf5d408e2b23042074031ce0307b3a13cf3461df31cc39899b0315f99e8c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90837261c571276a74bb3a5354c7b9a5db2da6cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194167"
 ---
 # <a name="installing-and-configuring-rpc-applications"></a>Installation et configuration des applications RPC
 

@@ -36,12 +36,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee16b557ab58a11b5994236137ddfd549a0eb0294f04c619f5245de78e379029
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd4dd1b118f2fabf22f10e47c0b8467b0ddf6388
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217268"
 ---
 # <a name="win32_rdcentralpublisheddeploymentsettings-class"></a>\_Classe RDCentralPublishedDeploymentSettings Win32
 
@@ -587,7 +587,7 @@ Type d’accès : lecture/écriture
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

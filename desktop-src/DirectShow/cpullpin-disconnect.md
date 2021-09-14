@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0491bfba7e5b739a2b46674cc2f6506017810d4f1e51693d4478720c67a4a4da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec13a7f29a06bab4f79ddb58932796f8363adadc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007605"
 ---
 # <a name="cpullpindisconnect-method"></a>CPullPin. Disconnect, méthode
 
@@ -40,11 +40,11 @@ HRESULT Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette méthode interrompt toute connexion effectuée dans la méthode [**CPullPin :: Connecter**](cpullpin-connect.md) . Appelez cette méthode à l’intérieur de votre méthode [**IPIN ::D éconnecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-disconnect) . (Si votre code confidentiel est dérivé de [**CBasePin**](cbasepin.md), remplacez [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md) pour appeler cette méthode.)
 

@@ -4,12 +4,12 @@ description: Le tableau suivant fournit la liste des codes d’erreur pour les f
 ms.assetid: 8ef49677-b81d-42f2-8de1-40193a3afcde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32eedb06dd3cdd0295b4b87b054ddb4c86186dc39d1c0ba592843e454804d1a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 282857a4fbfa95a1a86160e406c2dacac612f19a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194719"
 ---
 # <a name="network-management-error-codes"></a>Codes d’erreur de gestion de réseau
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e6a3ccca0495516e088b7f3924f5a1ee8d6ab44e65608074cba10c122f34c3c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a17ca6e35f4ba19e8417ad9dad1d2f7f1a227bae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119136362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008529"
 ---
 # <a name="map-patternmaptype-element"></a>Élément MAP (PatternMapType)
 

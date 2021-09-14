@@ -4,12 +4,12 @@ ms.assetid: e0fb8ba1-1783-4b36-93d8-f1242425d8bd
 title: Courbes ouvertes et fermées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 383f7c68909a73291c00c6e760d1cc6554b061d5749b33e6e90ba3a986c71906
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7587ec950f8a0abc21f8c9cfb000a7333e87297
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885124"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007720"
 ---
 # <a name="open-and-closed-curves"></a>Courbes ouvertes et fermées
 

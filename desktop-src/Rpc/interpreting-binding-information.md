@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, interprétation de la liaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5578683b06ac75b99e2865d55512449ad2217984234a9bf9d3cf7e8360c053e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 423564a844bfbf959de8a2fcf4dfff5ae86b8b6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194148"
 ---
 # <a name="interpreting-binding-information"></a>Interprétation des informations de liaison
 

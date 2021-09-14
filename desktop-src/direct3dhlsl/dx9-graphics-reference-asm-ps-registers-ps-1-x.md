@@ -12,11 +12,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 68e3645c3e634c4e9cd886600977882dcc3e2018
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232296"
 ---
 # <a name="ps_1_1__ps_1_2__ps_1_3__ps_1_4-registers"></a>registres PS 1 \_ \_ 1 PS 1 2 PS 1 \_ \_ \_ \_ \_ \_ \_ \_ 3 PS 1 \_ \_ \_ \_ 4
 
@@ -33,7 +33,7 @@ Les registres stockent les données pour une utilisation par le nuanceur de pixe
 
 
 
-| Nom |  Type              | Version 1 \_ 1 | Version 1 \_ 2      | Version 1 \_ 3     | Version 1 \_ 4             |
+| Name |  Type              | Version 1 \_ 1 | Version 1 \_ 2      | Version 1 \_ 3     | Version 1 \_ 4             |
 |------|--------------------|----------|------|------|--------------|
 | c\#  | Registre de constante  | 8        | 8    | 8    | 8            |
 | r\#  | Registre temporaire | 2        | 2    | 2    | 6            |
@@ -73,7 +73,7 @@ La limite de lecture du port spécifie le nombre de registres différents de cha
 
 
 
-| Nom     | Type                   | Version 1 \_ 1 | Version 1 \_ 2      | Version 1 \_ 3     | Version 1 \_ 4             |
+| Name     | Type                   | Version 1 \_ 1 | Version 1 \_ 2      | Version 1 \_ 3     | Version 1 \_ 4             |
 |------|--------------------|----------|------|------|--------------|
 | c\#  | Registre de constante  | 2        | 2    | 2    | 2            |
 | r\#  | Registre temporaire | 2        | 2    | 2    | 3            |
@@ -99,9 +99,9 @@ Les types de registres sont identifiés en fonction de la capacité en lecture s
 
 
 
-| Nom     |  Type                  | Version 1 \_ 1 | Version 1 \_ 2     | Version 1 \_ 3     | Version 1 \_ 4 |
+| Name     |  Type                  | Version 1 \_ 1 | Version 1 \_ 2     | Version 1 \_ 3     | Version 1 \_ 4 |
 |------|--------------------|----------|------|------|--------------------|
-| Nom | Type               | 1\_1     | 1\_2 | 1 \_ 3 | 1\_4               |
+| Name | Type               | 1\_1     | 1\_2 | 1 \_ 3 | 1\_4               |
 | c\#  | Registre de constante  | RO       | RO   | RO   | RO                 |
 | r\#  | Registre temporaire | L/E       | L/E   | L/E   | L/E                 |
 | t\#  | Registre de texture   | L/E       | L/E   | L/E   | Voir la remarque suivante |
@@ -125,7 +125,7 @@ La plage est la valeur de données de Registre maximale et minimale. Les plages 
 
 
 
-| Nom | Type               | Plage                                               | Versions     |
+| Name | Type               | Plage                                               | Versions     |
 |------|--------------------|-----------------------------------------------------|--------------|
 | c\#  | Registre de constante  | -1 à + 1                                            | Toutes les versions |
 | r\#  | Registre temporaire | \- PixelShader1xMaxValue à + PixelShader1xMaxValue | Toutes les versions |

@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f96eac56f737d6f945c3d59d5cdf844e9cc65058a0460f620e6051830806ab99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 535ebdc8928cceb282dd62de56f8c6fbadc94e90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217305"
 ---
 # <a name="virtualchannelgetinstance-entry-point"></a>Point d’entrée VirtualChannelGetInstance
 
@@ -71,11 +71,11 @@ Adresse d’un tableau de pointeurs qui reçoit les pointeurs d’interface. Si 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si ce point d’entrée est correctement exécuté, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

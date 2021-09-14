@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51f1d716d36aafbd3625ae1144e0adde1abf0898bee4cbe6831d627cea97bb9b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 33edcf6bdff9e1587269df9eb49c3729099d091e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119618769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193312"
 ---
 # <a name="axwindowsmediaplayeruimode-property"></a>AxWindowsMediaPlayer. uiMode, propriété
 
@@ -53,7 +53,7 @@ System. String qui est l’une des valeurs suivantes.
 | Valeur     | Description                                                                                                                                                                                                     | Exemple audio                                                   | Exemple de vidéo                                                   |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
 | invisibles | Lecteur Windows Media est incorporée sans interface utilisateur visible (fenêtre contrôles, vidéo ou visualisation).                                                                                                  | (Rien ne s’affiche.)                                         | (Rien ne s’affiche.)                                         |
-| aucun      | Lecteur Windows Media est incorporée sans contrôles, et avec la fenêtre vidéo ou visualisation uniquement affichée.                                                                                                   | ![UIMODE = 'none’avec l’audio](images/uimode-none-audio-v11.png) | ![UIMODE = 'none’avec vidéo](images/uimode-none-video-v11.png) |
+| Aucun      | Lecteur Windows Media est incorporée sans contrôles, et avec la fenêtre vidéo ou visualisation uniquement affichée.                                                                                                   | ![UIMODE = 'none’avec l’audio](images/uimode-none-audio-v11.png) | ![UIMODE = 'none’avec vidéo](images/uimode-none-video-v11.png) |
 | minimales      | Lecteur Windows Media est incorporée avec la fenêtre d’état, les contrôles lecture/pause, arrêter, muet et volume affichés en plus de la fenêtre vidéo ou visualisation.                                                    | ![UIMODE = 'mini’avec l’audio](images/uimode-mini-audio-v11.png) | ![UIMODE = 'mini’avec vidéo](images/uimode-mini-video-v11.png) |
 | complet      | Par défaut. Lecteur Windows Media est incorporée à la fenêtre d’état, à la barre de recherche, aux commandes lecture/pause, arrêter, muet, suivant, précédent, avance rapide, rembobiner et volume, en plus de la fenêtre vidéo ou de visualisation. | ![UIMODE = 'Full’avec l’audio](images/uimode-full-audio-v11.png) | ![UIMODE = 'Full’avec vidéo](images/uimode-full-video-v11.png) |
 | custom    | Lecteur Windows Media est incorporée avec une interface utilisateur personnalisée. Ne peut être utilisé que dans les programmes C++.                                                                                                                | (L’interface utilisateur personnalisée s’affiche.)                           | (L’interface utilisateur personnalisée s’affiche.)                           |
@@ -62,7 +62,7 @@ System. String qui est l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette propriété spécifie l’apparence du Lecteur Windows Media incorporé. Lorsque **UIMODE** a la valeur « None », « mini » ou « Full », une fenêtre est présente pour l’affichage des clips vidéo et des visualisations audio. Cette fenêtre peut être masquée en mode mini ou en mode complet en affectant à l’attribut **Height** de la balise **OBJECT** la valeur 40, qui est mesurée à partir du bas et laisse la partie Controls de l’interface utilisateur visible. Si aucune interface incorporée n’est souhaitée, affectez la valeur zéro aux attributs **Width** et **Height** .
 
@@ -125,7 +125,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,11 +13,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 65d6a405dcb1f65b53f7863333ec2f32060c50d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512043"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008819"
 ---
 # <a name="text-services-framework-return-values"></a>Valeurs de retour de l’infrastructure Text services
 
@@ -29,9 +29,9 @@ Les valeurs de retour regroupent dans les catégories suivantes.
 -   [Valeurs de retour du gestionnaire](manager-return-values.md)
 -   [Valeurs de retour du magasin de texte](text-store-return-values.md)
 
- 
+ 
 
- 
+ 
 
 
 

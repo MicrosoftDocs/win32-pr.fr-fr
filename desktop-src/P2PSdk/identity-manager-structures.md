@@ -4,12 +4,12 @@ ms.assetid: 687478b5-0c58-47c3-94c2-f44976436ec2
 title: Structures Identity Manager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e72ec29f39ce65b71a40abb6bdc1d933c4358c799328908c6218932e06d02e48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8932c582710494f3740a5c3947f8cd486d890ba2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009230"
 ---
 # <a name="identity-manager-structures"></a>Structures Identity Manager
 

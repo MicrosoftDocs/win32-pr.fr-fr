@@ -4,12 +4,12 @@ description: Les handles de liaison implicite permettent à votre application de
 ms.assetid: cf4e179b-8d97-4597-89e6-c8967b9db6c7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d49618ec505cc776c346a504fb19b65db539dadb90d030e45efbabcf08371db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f5fda8501224d66518ad2e86f13fb769c4b2fa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118929074"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194184"
 ---
 # <a name="implicit-binding-handles"></a>Handles de liaison implicites
 

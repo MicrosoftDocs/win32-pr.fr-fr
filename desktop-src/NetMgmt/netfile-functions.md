@@ -5,11 +5,11 @@ ms.assetid: 3cfb5222-7e02-4bc3-959e-0fc7bc4f0f19
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 46b56d1c6d50463989e64386f5829a8e663cddd4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508261"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009377"
 ---
 # <a name="netfile-functions-network-management"></a>Fonctions Netfile (gestion de réseau)
 

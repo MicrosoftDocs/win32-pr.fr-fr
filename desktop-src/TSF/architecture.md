@@ -27,11 +27,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1e0a300307b3099b4a28a883d5c830c4078cd0bb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104567140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193576"
 ---
 # <a name="architecture-text-services-framework"></a>Architecture (Text Services Framework)
 

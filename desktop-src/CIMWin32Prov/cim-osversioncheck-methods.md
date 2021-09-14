@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_OSVersionCheck
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e556a29de484a3cddaa0ab1b05f507f13f98a2da520ced6c41aec2b12b09fec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc4a854c626b01f85010bd2265c01327e384d519
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230652"
 ---
 # <a name="cim_osversioncheck-methods"></a>\_Méthodes OSVERSIONCHECK CIM
 

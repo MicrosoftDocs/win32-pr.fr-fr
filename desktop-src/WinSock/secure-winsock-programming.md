@@ -4,12 +4,12 @@ ms.assetid: 70210e86-ead6-4b0c-ae47-66b2ef0a8d11
 title: Programmation Winsock sécurisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2c3644e18a45da4a1d4fa9c20bd2d023ba41d02fed3014f2992c219601bf963
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a70d7a0710a4446486835ec14435fa7d7ba1458c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118559717"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008258"
 ---
 # <a name="secure-winsock-programming"></a>Programmation Winsock sécurisée
 

@@ -9,12 +9,12 @@ keywords:
 - Recherche d’un service à l’aide d’une requête RnR AD, exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 076bf1cbd2c421c9d76b595a381f2884a398c0db42002e9deedfdd2e5084095d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee1202c981de8b4f1e0bd4f4299b1aabf1be520d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118191376"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007701"
 ---
 # <a name="example-code-for-locating-a-service-using-an-rnr-query"></a>Exemple de code pour la localisation d’un service à l’aide d’une requête RnR
 

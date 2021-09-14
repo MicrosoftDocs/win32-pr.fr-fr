@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef81f4b3008f68129026a90d1b2e98e8c13c298537952175e116c9c8e02c4f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 073a8f8267ab9e7f7cbd50f15f4f3f20594d2e39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119769449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193383"
 ---
 # <a name="restoredefaults-method-of-the-win32_tspermissionssetting-class"></a>Méthode RestoreDefaults de la \_ classe Win32 TSPermissionsSetting
 
@@ -41,11 +41,11 @@ uint32 RestoreDefaults();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une réussite en cas de réussite, sinon échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les autorisations par défaut sont les suivantes :
 
@@ -55,7 +55,7 @@ Les autorisations par défaut sont les suivantes :
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

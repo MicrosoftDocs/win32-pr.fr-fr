@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: e1b3908f77b72f7f9a5ca0583193784ba054a50ab59aa63dad1c13b9f03317e5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eafa700f86e51310096835e2f24b53a28e66f800
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008972"
 ---
 # <a name="resumeconversion-method-of-the-win32_encryptablevolume-class"></a>Méthode ResumeConversion de la \_ classe Win32 EncryptableVolume
 
@@ -42,7 +42,7 @@ uint32 ResumeConversion();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -61,7 +61,7 @@ Si cette méthode est utilisée sur un volume entièrement chiffré ou entièrem
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette méthode est utilisée sur un volume avec chiffrement/déchiffrement suspendu, l’exécution correcte de cette méthode amène [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md) à indiquer que le chiffrement ou le déchiffrement est en cours.
 

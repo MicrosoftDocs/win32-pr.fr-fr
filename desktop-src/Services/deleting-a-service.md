@@ -5,11 +5,11 @@ title: Suppression d’un service
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 40b1e0e95e0ea943487a0d3fa513afa2c0563d3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233123"
 ---
 # <a name="deleting-a-service"></a>Suppression d’un service
 

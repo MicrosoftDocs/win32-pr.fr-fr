@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3413deb3c606177c937aef72a8437769dc2a97acdcbee97200880c96f36f9fc7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d3db3f35b5589a6cd17791d72aa9931124ccfbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007642"
 ---
 # <a name="cdeferredcommand-class"></a>CDeferredCommand, classe
 
@@ -56,7 +56,7 @@ Les décomptes de références contrôlent la durée de vie de la `CDeferredComm
 | [**IsStreamTime**](cdeferredcommand-isstreamtime.md)         | Spécifie si la commande doit être exécutée au moment du flux ou de la présentation.                                         |
 | Méthodes IDeferredCommand                                      | Description                                                                                                             |
 | [**Annuler**](cdeferredcommand-cancel.md)                     | Annule une demande [**CDeferredCommand :: Invoke**](cdeferredcommand-invoke.md) précédemment mise en file d’attente.                        |
-| [**Confiance**](cdeferredcommand-confidence.md)             | Actuellement non implémenté.                                                                                              |
+| [**Garantir**](cdeferredcommand-confidence.md)             | Actuellement non implémenté.                                                                                              |
 | [**Reporter**](cdeferredcommand-postpone.md)                 | Spécifie une nouvelle heure de présentation pour une commande précédemment mise en file d’attente.                                                      |
 | [**GetHRESULT,**](cdeferredcommand-gethresult.md)             | Récupère la valeur **HRESULT** de la méthode appelée.                                                                  |
 

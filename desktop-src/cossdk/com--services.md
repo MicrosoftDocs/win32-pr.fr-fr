@@ -4,12 +4,12 @@ ms.assetid: dd4a9943-070b-4f84-8c0e-6c6e070d8e5b
 title: Services COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68e3ee0b314fc3e6320d7b5880d0336cb5ed613f897f7bc550b6d9a493327e2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47e40ca48b96e3f322ad99cf7c31973b8b131e89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991496"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228287"
 ---
 # <a name="com-services"></a>Services COM+
 

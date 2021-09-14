@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 23a590679fd2b4a147a8bc0f92a4d4c7b4afb8c746526de9fba7cfc388e4e1c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c198c8c109d5aa5b841272173966ec7d9fd22299
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119742199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194496"
 ---
 # <a name="vines_ip_address-structure"></a>Structure d' \_ adresse IP Vines \_
 
@@ -54,7 +54,7 @@ Identificateur d’un sous-réseau spécifique sur l’ensemble du réseau.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

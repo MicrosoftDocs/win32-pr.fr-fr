@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: be0b9ff09336e770c526bb55180d93d9e19f3dbf2f32378b3cf708a1525e0bac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1dd73733d77c80ba4f3880464000f823e0e35092
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117670212"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231072"
 ---
 # <a name="iwiadevmgr2-interface"></a>Interface IWiaDevMgr2
 
@@ -51,7 +51,7 @@ L’interface **IWiaDevMgr2** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface **IWiaDevMgr2** , comme toutes les interfaces COM (Component Object Model), hérite des méthodes d’interface [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) .
 
@@ -67,7 +67,7 @@ L’interface **IWiaDevMgr2** , comme toutes les interfaces COM (Component Objec
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

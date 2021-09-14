@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 41bc7b4ac7fb263073a88cd998190b0fa6e044d528f9d3f4613c3284f28c0f47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f530995a2388d3ec2627ac5ce128271ed085a779
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118302574"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228221"
 ---
 # <a name="id3dx10meshoptimize-method"></a>ID3DX10Mesh :: Optimize, méthode
 
@@ -69,7 +69,7 @@ Adresse d’un pointeur vers une [**interface ID3D10Blob**](/windows/desktop/api
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -81,7 +81,7 @@ Cette méthode génère un nouveau maillage. Avant d’exécuter Optimize, une a
 
 Cette méthode est très similaire à la méthode [**ID3DX10Mesh :: CloneMesh**](id3dx10mesh-clonemesh.md) , à ceci près qu’elle peut effectuer une optimisation lors de la génération du nouveau clone de la maille. Le maillage de sortie hérite de tous les paramètres de création du maillage d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

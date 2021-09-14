@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d83225faa022de6e4a0823be3db971c71da503a885a46c1941fc1e5578f711b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 68ad05576e248d3ad6c2551a8654a9198ca3c0f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120100229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008662"
 ---
 # <a name="eventtriggersubscription-property"></a>Propriété EventTrigger. subscription
 
@@ -40,7 +40,7 @@ EventTrigger.Subscription As String
 
 Chaîne de requête qui identifie l’événement qui déclenche le déclencheur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la lecture ou de l’écriture de votre propre XML pour une tâche, l’abonnement aux événements est spécifié à l’aide de l’élément [**subscription**](taskschedulerschema-subscription-eventtriggertype-element.md) du schéma planificateur de tâches.
 

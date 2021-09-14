@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101331
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b834979adf3273c988db5d61745bc3096a4e81a72db8290c281e05464b5a9834
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24ea776492b86ca789da3e3c37d3a4a8f3f2a7b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119737029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007920"
 ---
 # <a name="esentcolumndoesnotfitexception-methods"></a>Méthodes EsentColumnDoesNotFitException
 

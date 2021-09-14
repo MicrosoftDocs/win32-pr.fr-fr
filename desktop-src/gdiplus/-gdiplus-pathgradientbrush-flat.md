@@ -4,12 +4,12 @@ ms.assetid: edd469df-b3e1-4ede-9194-00ce9b3be38b
 title: PathGradientBrush, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e85dd1dbe1d041021afd0705bacdfef645b6b04c855f2468853134036814ca9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f15c710b5ac69a57f0368ef71f8fe4cf029db3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007718"
 ---
 # <a name="pathgradientbrush-functions"></a>PathGradientBrush, fonctions
 

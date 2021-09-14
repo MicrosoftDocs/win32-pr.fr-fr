@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f024ab7e3808ff00b2d53483b1a96b18ba7a758f72d44b14147a4786dc49897d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cbe7f021bc29895db6678b171027a8b46972c6aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118082579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216281"
 ---
 # <a name="esentbuffertoosmallexception-class"></a>EsentBufferTooSmallException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentBufferTooSmallException](./esentbuffertoosmallexception-members.md)
 

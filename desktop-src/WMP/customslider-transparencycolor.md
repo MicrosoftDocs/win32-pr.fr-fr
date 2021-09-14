@@ -3,7 +3,7 @@ title: CUSTOMSLIDER. transparencyColor
 description: L’attribut transparencyColor spécifie ou récupère la couleur de transparence des images de curseur personnalisées.
 ms.assetid: 39bdac82-7c84-4c79-b3f0-ec4828263ccd
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. transparencyColor
+- CUSTOMSLIDER. transparencyColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 12955d942f4de846f7d9701cb237e5d50f38904f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540024"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228413"
 ---
 # <a name="customslidertransparencycolor"></a>CUSTOMSLIDER. transparencyColor
 
@@ -41,7 +41,7 @@ Toute partie des images de curseur personnalisées contenant la valeur **transpa
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément **CUSTOMSLIDER** , consultez l’attribut [positionImage](customslider-positionimage.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

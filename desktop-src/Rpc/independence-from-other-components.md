@@ -6,12 +6,12 @@ keywords:
 - Indépendance par rapport aux autres composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8174ffa0469550d3a7b274fb28f2f30dd807314e6bd596b75469f717f5924a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ba20a47a5bb30d8e23c1a90d666bc6b957ebb98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194172"
 ---
 # <a name="independence-from-other-components"></a>Indépendance par rapport aux autres composants
 

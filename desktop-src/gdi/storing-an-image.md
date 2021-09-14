@@ -5,17 +5,17 @@ title: Stockage d’une image
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1bf47a869481d9ec7d71d594ddb238be14f9b152
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007753"
 ---
 # <a name="storing-an-image"></a>Stockage d’une image
 
 De nombreuses applications stockent les images de manière permanente sous forme de fichiers. Par exemple, les applications de dessin stockent des images, des feuilles de calcul et des graphiques de magasin, des dessins de magasins d’applications CAO, etc.
 
-Si vous écrivez une application qui stocke une image bitmap dans un fichier, vous devez utiliser le format de fichier bitmap décrit dans [stockage bitmap](bitmap-storage.md). Pour stocker une image bitmap dans ce format, vous devez utiliser une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)ou [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) et un tableau de structures [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) , ainsi qu’un tableau d’index de palette.
+si vous écrivez une application qui stocke une image bitmap dans un fichier, vous devez utiliser le format de fichier bitmap décrit dans [bitmap Stockage](bitmap-storage.md). Pour stocker une image bitmap dans ce format, vous devez utiliser une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)ou [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) et un tableau de structures [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) , ainsi qu’un tableau d’index de palette.
 
 L’exemple de code suivant définit une fonction qui utilise une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) et alloue de la mémoire pour et initialise des membres dans une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)) . Notez que la structure **BITMAPINFO,** ne peut pas être utilisée avec une structure [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header) ou [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) .
 

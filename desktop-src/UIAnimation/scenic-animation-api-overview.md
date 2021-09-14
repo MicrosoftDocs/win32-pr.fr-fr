@@ -13,12 +13,12 @@ keywords:
 - Animation gestion de la contention Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc0892cffa3e79428e19cbe5b1a3c27d7abda62365c4ceb15731101aa857f0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a60b02b29d8d434cc93420f36c3cdca4428f94c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118348001"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193363"
 ---
 # <a name="windows-animation-overview"></a>Windows Vue d’ensemble de l’animation
 

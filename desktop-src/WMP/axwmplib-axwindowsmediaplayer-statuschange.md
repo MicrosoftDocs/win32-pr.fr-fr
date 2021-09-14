@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a2c454948adba5c53fc6d0cfaf7ae922e1466bcce28d4ef583ac241c0877c85
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3ef3224afadb1f98a3067913a8beb095d4e46e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119509319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193327"
 ---
 # <a name="statuschange-event-of-the-axwindowsmediaplayer-object"></a>Événement StatusChange de l’objet AxWindowsMediaPlayer
 
@@ -43,7 +43,7 @@ Private Sub player_StatusChange(
 
 Cet événement ne contient pas de données.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

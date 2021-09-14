@@ -10,12 +10,12 @@ keywords:
 - mémoires tampons d’accumulation OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8a9e1999da2d76f19f6cc0a4c86072f68a1aa239829edcb3f22bf8c873ed181
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91ca91cb3ba35535ba2470297070dffc932a1c33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118936238"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009304"
 ---
 # <a name="porting-accumulation-buffer-calls"></a>Portage des appels de tampon d’accumulation
 

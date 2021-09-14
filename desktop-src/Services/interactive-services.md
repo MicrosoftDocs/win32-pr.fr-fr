@@ -4,12 +4,12 @@ ms.assetid: 3d6e090a-00b1-47d8-a4fb-620f3db8ba9c
 title: Services interactifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6b99eb41d26d6740a30a314654d92fdd4522f5597ea6e4cbb2a3d443de8120
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57dda3018b4b37e8c5ee56d67cd1db2c56da9b67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118889467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233088"
 ---
 # <a name="interactive-services"></a>Services interactifs
 

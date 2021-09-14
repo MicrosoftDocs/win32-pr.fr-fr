@@ -4,12 +4,12 @@ ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
 title: Dual-Stack Sockets pour les applications Winsock IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 424580569fb3bed5e81c6232cb99dc2d53a30af1ab2c23c9b4afa6945c0a6eb9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 943d8150586bcf14a905ab32dcacaea63b7d6982
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119132662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008285"
 ---
 # <a name="dual-stack-sockets-for-ipv6-winsock-applications"></a>Dual-Stack Sockets pour les applications Winsock IPv6
 

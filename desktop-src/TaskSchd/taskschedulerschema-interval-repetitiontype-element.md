@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ec6f2724f4374ed94fff47e6577a2887ca953cae0af66de9c64971cd80aa2050
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bfb87884438f1a39a5bd6f08eb9bb855311eb5d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120099999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228762"
 ---
 # <a name="interval-repetitiontype-element"></a>Interval (élément repetitionType)
 
@@ -53,7 +53,7 @@ L’élément est défini par le type complexe [**repetitionType**](taskschedule
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de script, l’intervalle du modèle de répétition est spécifié à l’aide de la propriété [**RepetitionPattern. Interval**](repetitionpattern-interval.md) .
 
@@ -63,7 +63,7 @@ Pour le développement C++, l’intervalle du modèle de répétition est spéci
 
 Pour obtenir un exemple complet du code XML d’une tâche qui utilise un intervalle de répétition, consultez [exemple de déclencheur quotidien (XML)](daily-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

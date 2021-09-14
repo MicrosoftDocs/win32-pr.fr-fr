@@ -13,12 +13,12 @@ keywords:
 - créer ActiveX contrôle par programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f57b3f4ba9d8c297aee9feb14fc05a35306e1a85d8a718aef6721b92475e19c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 222c207b33dcc13a5392f79dad267d6ee82a677c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118340962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228540"
 ---
 # <a name="creating-the-windows-media-player-control-programmatically"></a>création du contrôle Lecteur Windows Media par programmation
 

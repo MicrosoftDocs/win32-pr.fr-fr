@@ -5,11 +5,11 @@ title: Tâches de service SOAP COM+
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d2f660bb08d3eeadd8996996251d584719883b1d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228258"
 ---
 # <a name="com-soap-service-tasks"></a>Tâches de service SOAP COM+
 

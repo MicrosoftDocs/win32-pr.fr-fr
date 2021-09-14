@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, génération de fichiers stub
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c03fbffb165e94b89e6801c212d0a8b63cd4e77fab28ad4a4afc4b4243ae0e79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e092663711be60a3a0dc0dd8a4e99c0fa92a3ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194239"
 ---
 # <a name="generating-the-stub-files"></a>Génération des fichiers stub
 

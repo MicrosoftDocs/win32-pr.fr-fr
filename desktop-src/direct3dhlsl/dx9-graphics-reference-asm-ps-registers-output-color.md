@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 038446bb7d588222e04028727a447b6a47c941ab6a18a3ba4216f46e93440961
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 316160e39ce172d56e4ecac17dfbd1d53077005b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232307"
 ---
 # <a name="output-color-register"></a>Registre des couleurs de sortie
 
 Les registres de sortie de couleur de nuanceur de pixels (oC #) sont des registres en écriture seule qui génèrent les résultats dans plusieurs cibles de rendu.
 
-Syntaxe
+Syntax
 
 
 

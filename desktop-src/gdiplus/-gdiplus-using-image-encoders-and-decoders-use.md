@@ -4,12 +4,12 @@ ms.assetid: f9a5b4b1-4e25-42c8-a96b-a3104841e5f3
 title: Utilisation d’encodeurs et de décodeurs d’images
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c3509b8fc48ff8c9ef2c52093a6fd06a4349602c6e904df24cf7e528e9f8e34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40c55c75e00b3d624d27ba888ae26afb3a5ee0fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007704"
 ---
 # <a name="using-image-encoders-and-decoders"></a>Utilisation d’encodeurs et de décodeurs d’images
 

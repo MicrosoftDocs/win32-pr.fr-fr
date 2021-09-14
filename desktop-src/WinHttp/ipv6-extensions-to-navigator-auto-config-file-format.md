@@ -4,12 +4,12 @@ ms.assetid: 40116a01-b18f-432a-8542-b56b3f55c692
 title: Extensions IPv6 du format de fichier de configuration automatique du navigateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a6db6d687cfde0c3289026e8fa36c77c3ff5372727d1604652160b0683169b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46b57fce93caaf7790136ee9ac7db04017d9ac11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119644009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228330"
 ---
 # <a name="ipv6-extensions-to-navigator-auto-config-file-format"></a>Extensions IPv6 du format de fichier de configuration automatique du navigateur
 

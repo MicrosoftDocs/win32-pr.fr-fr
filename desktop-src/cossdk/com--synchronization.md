@@ -4,12 +4,12 @@ ms.assetid: a348959a-fa23-495c-ba1c-85bc3ae92396
 title: Synchronisation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 187e116d1182a94947157f7187bc930bf91d5386226f6049e9dd27234548ff48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 134305ef97e4bfafa0808fc19e96f578c5016127
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228240"
 ---
 # <a name="com-synchronization"></a>Synchronisation COM+
 

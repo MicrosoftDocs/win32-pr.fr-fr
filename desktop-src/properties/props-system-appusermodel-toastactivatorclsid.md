@@ -4,12 +4,12 @@ ms.assetid: 134dc14e-6034-4ec2-8a25-8493b7f3d84a
 title: System. AppUserModel. ToastActivatorCLSID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c036721f0badf399fac1eb9c906692f16e1d509461859547eac9145c71bd765
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9029cca50f7187bcd52db47757ea9e2b26f02e80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118055871"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231510"
 ---
 # <a name="systemappusermodeltoastactivatorclsid"></a>System. AppUserModel. ToastActivatorCLSID
 

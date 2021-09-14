@@ -16,12 +16,12 @@ keywords:
 - Document ServiceInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7962f7548f8c880e60320d3a7fb071e2a076ffafdac9a56b4cf6d8aa41b5d60
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02214b9d7180296fa11bb877f978c6bde85f3a4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217113"
 ---
 # <a name="example-serviceinfo-document-for-a-type-2-online-store"></a>Exemple de document ServiceInfo pour un magasin de type 2 en ligne
 

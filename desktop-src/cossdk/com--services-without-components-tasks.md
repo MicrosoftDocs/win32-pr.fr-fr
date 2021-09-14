@@ -4,12 +4,12 @@ ms.assetid: 69001046-938b-4429-8a22-276185dba1a2
 title: Tâches des services COM+ sans composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e61ba9b9b12651e8f983a0600464f06d98c404a5cca33232162d2ca3ddc44a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea5cd513fb7a1b2ccaa6b6fdcdb64207d5355566
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118548576"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228300"
 ---
 # <a name="com-services-without-components-tasks"></a>Tâches des services COM+ sans composants
 

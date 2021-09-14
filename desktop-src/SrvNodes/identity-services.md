@@ -4,12 +4,12 @@ ms.assetid: 0d65abae-c11e-4cb8-8cbc-576f0dab18af
 title: Services d’identité
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c64da83cffaddc08ad5cf5733523f81630d5c3bb214570030e23305bb51df1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13d09e4b8d961f3f0e4d7341252ee96ac91bd1bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117963016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008939"
 ---
 # <a name="identity-services"></a>Services d’identité
 

@@ -4,12 +4,12 @@ description: L’interface IDispatch a été initialement conçue pour prendre e
 ms.assetid: 5a95f002-4fd5-43d3-9b50-7b3f7790300a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 710fb0bc8142dfa863967114d3841506c220b3c058db042b867607ffe56cd5e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4641ca3e4cc18b96441aefbbc46231e3f7753a94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228342"
 ---
 # <a name="idispatch-interface-and-accessibility"></a>Interface IDispatch et accessibilité
 

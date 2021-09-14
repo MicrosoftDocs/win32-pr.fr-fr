@@ -4,12 +4,12 @@ ms.assetid: E7A1A16A-95B3-4B45-81AD-A19E33F15AE4
 title: Ciblage de votre application pour Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e045dff2f46501c4715e2ffebe484dfeadb3aa9f276d79c7e7c1afdbec6ba7e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0bd280451e5a1dd6a5162dd7b9ccb34495d22be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117763110"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193692"
 ---
 # <a name="targeting-your-application-for-windows"></a>Ciblage de votre application pour Windows
 

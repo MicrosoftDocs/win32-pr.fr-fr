@@ -9,12 +9,12 @@ keywords:
 - palettes de matériel OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58407a5ddafe862caa73edd498c4da529b0ac987880828177d0d0b284601efed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3dac7d122ec36201e0156a141efc3291a87c7150
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118936275"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229248"
 ---
 # <a name="palettes-and-the-palette-manager"></a>Palettes et gestionnaire de palette
 

@@ -26,12 +26,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32fa825963f76323512cfafc11e3e7471212bca4258094469c2a5d733b23168a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0dae7610381745f6ced2a01e76f8545b33d1205
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119137482"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008557"
 ---
 # <a name="win32_tsstartmenuapplication-class"></a>\_Classe TSStartMenuApplication Win32
 
@@ -277,7 +277,7 @@ Chemin d’accès virtuel de l’application. Cela comprend les variables d’en
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs.
 

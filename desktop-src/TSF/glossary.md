@@ -17,12 +17,12 @@ keywords:
 - Applications compatibles TSF, définitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b159fa18c2f571474b049ac2a68395274fdab7b00afc8993e540b2fbcfd3fd7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bc44d685ff521b42d47618578ea80c5f7b3007e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117953377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193507"
 ---
 # <a name="glossary-text-services-framework"></a>Glossaire (Text Services Framework)
 

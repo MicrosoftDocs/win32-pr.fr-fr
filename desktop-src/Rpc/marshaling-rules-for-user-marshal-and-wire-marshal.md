@@ -5,11 +5,11 @@ ms.assetid: 077cdd1a-9630-459e-8749-ab0c70b16ecb
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e97f073a5745570aae5c52d4a61d2454b960d77a
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194075"
 ---
 # <a name="marshaling-rules-for-user_marshal-and-wire_marshal"></a>Règles de marshaling pour le marshaling d’utilisateur \_ et le \_ marshaling de câble
 

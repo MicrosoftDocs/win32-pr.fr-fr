@@ -1,5 +1,5 @@
 ---
-title: SystemMonitor.Batméthode chingLock
+title: Méthode SystemMonitor. BatchingLock
 description: Verrouille le moniteur système pour l’empêcher d’échantillonner les données de compteur à partir du nouveau compteur ou fichier journal.
 ms.assetid: 6b9d683a-7a97-44a4-9eb6-6caaafe2abdd
 keywords:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f028a3cb985a530b6e034ceabe430d2dda7b12e337af40d6510a3a8d77bd0d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b858a6920b039d911ae571d81744eb99dea4ef4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118882935"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008832"
 ---
-# <a name="systemmonitorbatchinglock-method"></a>SystemMonitor.Batméthode chingLock
+# <a name="systemmonitorbatchinglock-method"></a>Méthode SystemMonitor. BatchingLock
 
 Verrouille le moniteur système pour l’empêcher d’échantillonner les données de compteur à partir du nouveau compteur ou fichier journal.
 
@@ -57,11 +57,11 @@ Identifie la source des données que vous verrouillez. Utilisez la même valeur 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez appeler cette méthode deux fois, une fois pour verrouiller la source (true) et une fois pour déverrouiller la source (false).
 

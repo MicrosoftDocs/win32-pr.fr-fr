@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3881cab3f5e818a4d6c244b9b2e951711202f38cdb86ee9ce5856747defeacc6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e56159f18f4011b934f8ab2c611f703450268f13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118340908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228414"
 ---
 # <a name="customslidertooltip"></a>CUSTOMSLIDER. toolTip
 
@@ -31,7 +31,7 @@ L’attribut **ToolTip** spécifie ou récupère le texte d’info-bulle du curs
 
 Cet attribut est une **chaîne** en lecture/écriture d’une longueur maximale de 1024 caractères. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est affichée.
 
@@ -39,7 +39,7 @@ Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est af
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément **CUSTOMSLIDER** , consultez l’attribut [positionImage](customslider-positionimage.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

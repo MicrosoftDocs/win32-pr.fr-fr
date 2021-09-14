@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa180834d70c8dd078beafc360400c931e7058994f1cc46d4e9abb011987d158
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc2aff2bee7641075bbac1dd04526ee751ea077a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135122"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008413"
 ---
 # <a name="mediagetiteminfobytype-method"></a>Méthode Media. getItemInfoByType
 
@@ -65,13 +65,13 @@ retVal = Media.getItemInfoByType(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un **nombre**, une **chaîne**, un objet **MetadataPicture** ou un objet **MetadataText** comme indiqué dans le tableau suivant.
 
 
 
-| Attribut                   | Valeur retournée                   |
+| Attribut                   | Valeur de retour                   |
 |-----------------------------|--------------------------------|
 | **SyncState**               | **Number** (**unsigned long**) |
 | **Synchronisation des WM et des paroles \_** | Objet **MetadataText**        |
@@ -85,7 +85,7 @@ Cette méthode retourne un **nombre**, une **chaîne**, un objet **MetadataPictu
 
 Pour les attributs dont la valeur sous-jacente est **booléenne**, cette méthode retourne la chaîne « true » ou « false ».
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode récupère les métadonnées pour un élément multimédia numérique individuel ou un élément multimédia qui fait partie d’une sélection.
 

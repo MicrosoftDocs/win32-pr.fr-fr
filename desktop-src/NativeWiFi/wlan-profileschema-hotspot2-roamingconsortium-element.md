@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: ca2ee96deaddad14d8def14c59b490eaea54803d779e288dbf826f6514d674a0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e53fa274cbc56de6be026ef0e466ec501cf9124
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119684149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194747"
 ---
 # <a name="roamingconsortium-hotspot2-element"></a>Élément RoamingConsortium (Hotspot2)
 

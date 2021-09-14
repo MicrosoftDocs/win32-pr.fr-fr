@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: ec0dddd2106acddc5d09354ba7919eb32a8217a115410a9830803aaae589c891
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b774f71b4be111efcdbdaf8bc41b40d4b0efaa95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008008"
 ---
 # <a name="id3dxfilesavedatagettype-method"></a>ID3DXFileSaveData :: GetType, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers le GUID représentant le modèle dans ce nœud de données de fich
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
