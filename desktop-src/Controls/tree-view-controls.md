@@ -4,12 +4,12 @@ description: Un contrôle Tree-View est une fenêtre qui affiche une liste hiér
 ms.assetid: 10cc7949-dd77-412d-bad1-db8d8a049582
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ea08743a7ac138a6cea5f766dd91aee2ec714acc2d4c8b98e1f2bee26c42ff9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: df70a2d3c2f841b022930a07ee2f140ee5bfc8e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119769811"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115906"
 ---
 # <a name="about-tree-view-controls"></a>À propos des contrôles Tree-View
 

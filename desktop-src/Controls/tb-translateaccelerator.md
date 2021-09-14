@@ -6,12 +6,12 @@ keywords:
 - TB_TRANSLATEACCELERATOR les contrôles de Windows de message
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d49b2c928158ddffc860b65eb25856cf8f91e2bbe196db51e1c754a834999d8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a2e482fa9264204964d24b9b3355525ddc55192
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118167175"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116493"
 ---
 # <a name="tb_translateaccelerator-message"></a>TO, \_ message TRANSLATEACCELERATOR
 

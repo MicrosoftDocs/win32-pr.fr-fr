@@ -16,12 +16,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77c76ad276f6cb6dfc12bc272fbbc86c83617a0d00d36d77cf2ab0ca113811d7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fec99bb4d91bde86d901c0e7ed4761bafd15f3a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116925"
 ---
 # <a name="str_getptr-function"></a>\_Fonction Str GetPtr
 
@@ -73,7 +73,7 @@ Taille de *pszDest*, en caractères.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **int**
 
@@ -83,11 +83,11 @@ Si *pszDest* n’a pas la **valeur null**, retourne le nombre de caractères cop
 
 Si *pszDest* ne peut pas contenir la totalité de la chaîne pointée par *PszSource*, (*cchDest*-1) caractères sont copiés, la chaîne se termine par null et *cchDest* retournée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Chaîne \_ GetPtr** est disponible en tant que versions ANSI (**Str \_ GetPtrA**) et Unicode (**Str \_ GetPtrW**). Ces fonctions ne sont pas exportées par nom ou déclarées dans un fichier d’en-tête public. Pour les utiliser, vous devez utiliser [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) et la requête ordinale 233 (**Str \_ GetPtrA**) ou 235 (**str \_ GetPtrW**) à partir de ComCtl32.dll pour obtenir un pointeur de fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

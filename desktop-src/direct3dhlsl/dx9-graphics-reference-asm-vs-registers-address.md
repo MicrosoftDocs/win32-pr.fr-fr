@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: e58f42848034d12063611e14b82cb2f2d132cb43
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840466"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292675"
 ---
 # <a name="address-register"></a>Registre d’adresses
 
@@ -39,7 +39,7 @@ Tous les nuanceurs doivent initialiser le registre d’adresses avant de l’uti
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,9 +48,9 @@ Tous les nuanceurs doivent initialiser le registre d’adresses avant de l’uti
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

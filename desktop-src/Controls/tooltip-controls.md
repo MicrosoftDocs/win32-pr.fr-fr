@@ -5,17 +5,17 @@ ms.assetid: 1020cec7-57b4-4463-9419-f80fd14fa12c
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e9c1042523c86e794865da5d38fb023ee37d60b4
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031937"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115954"
 ---
 # <a name="about-tooltip-controls"></a>À propos des contrôles ToolTip
 
 Les info-bulles s’affichent automatiquement ou s’affichent quand l’utilisateur place le pointeur de la souris sur un outil ou un autre élément d’interface utilisateur. L’info-bulle apparaît près du pointeur et disparaît lorsque l’utilisateur clique sur un bouton de la souris, éloigne le pointeur de l’outil ou attend simplement quelques secondes.
 
-Le contrôle ToolTip de l’illustration suivante affiche des informations sur un fichier sur le bureau Windows. Lorsque vous déplacez la souris sur l’illustration, vous devez également voir une info-bulle en direct qui contient du texte descriptif.
+le contrôle tooltip de l’illustration suivante affiche des informations sur un fichier sur le bureau Windows. Lorsque vous déplacez la souris sur l’illustration, vous devez également voir une info-bulle en direct qui contient du texte descriptif.
 
 ![capture d’écran montrant du texte dans une info-bulle qui apparaît sur un fichier sur le Bureau](images/tt-desktop.png)
 
@@ -96,7 +96,7 @@ Si vous spécifiez la \_ valeur LPSTR TEXTCALLBACK dans le membre **lpszText** ,
 > [!Note]  
 > La longueur maximale du texte d’info-bulle standard est de 80 caractères. Pour plus d’informations, consultez la structure [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) . Le texte info-bulle multiligne peut être plus long.
 
- 
+ 
 
 De nombreuses applications créent des barres d’outils qui contiennent des outils qui correspondent à des commandes de menu. Pour ces outils, il est pratique que le contrôle ToolTip affiche le même texte que l’élément de menu correspondant. Le système supprime automatiquement les caractères d’accélérateur esperluette (&) de toutes les chaînes passées à un contrôle ToolTip, puis met fin à la chaîne au premier caractère de tabulation ( \\ t), à moins que le contrôle n’ait le style de [**\_ préfixe TTS**](tooltip-styles.md) .
 
@@ -104,7 +104,7 @@ Pour récupérer le texte d’un outil, utilisez le message [**atténuation \_ G
 
 ## <a name="messaging-and-notification"></a>Messagerie et notification
 
-Le texte info-bulle s’affiche normalement lorsque le pointeur de la souris est placé sur une zone, généralement le rectangle défini par un outil tel qu’un contrôle bouton. Toutefois, Microsoft Windows envoie uniquement des messages liés à la souris à la fenêtre qui contient le pointeur, pas le contrôle ToolTip lui-même. Les informations relatives à la souris doivent être relayées vers le contrôle ToolTip afin qu’il affiche le texte d’info-bulle à l’heure et au lieu appropriés.
+Le texte info-bulle s’affiche normalement lorsque le pointeur de la souris est placé sur une zone, généralement le rectangle défini par un outil tel qu’un contrôle bouton. toutefois, Microsoft Windows envoie uniquement des messages liés à la souris à la fenêtre qui contient le pointeur, pas le contrôle tooltip lui-même. Les informations relatives à la souris doivent être relayées vers le contrôle ToolTip afin qu’il affiche le texte d’info-bulle à l’heure et au lieu appropriés.
 
 Vous pouvez avoir des messages relayés automatiquement dans les cas suivants :
 
@@ -146,8 +146,8 @@ Le tableau suivant décrit les messages traités par la procédure de fenêtre p
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bba5a6719bcbd820d94b6d736a12644f8b2539cc81064f942616c62bce55823f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: af89374161d5e3f9d9ab6affc2b3b498a39cbf68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119769529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115894"
 ---
 # <a name="ttm_adjustrect-message"></a>\_Message atténuation ADJUSTRECT
 
@@ -43,11 +43,11 @@ La structure **Rect** pour contenir un rectangle de fenêtre d’info-bulle ou u
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro si le rectangle est correctement ajusté et retourne zéro si une erreur se produit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est particulièrement utile lorsque vous souhaitez utiliser un contrôle ToolTip pour afficher le texte intégral d’une chaîne habituellement tronquée. Elle est couramment utilisée avec les contrôles ListView et TreeView. En général, vous envoyez ce message en réponse à un code de notification [ttn \_ Show](ttn-show.md) afin que vous puissiez positionner le contrôle ToolTip correctement.
 
@@ -76,7 +76,7 @@ if (MyStringIsTruncated) {
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

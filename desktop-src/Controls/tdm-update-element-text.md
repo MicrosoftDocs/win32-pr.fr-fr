@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5abf6eb91b3eadfea71d0c9a4b5386e44db100c3a548998d5113636ff7f8cc29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c155b426b92645c0b9cdbabe00c44ffa722b89f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116057"
 ---
 # <a name="tdm_update_element_text-message"></a>\_Message texte de l’élément de mise à jour TDM \_ \_
 
@@ -56,11 +56,11 @@ Pointeur vers une chaîne Unicode qui contient le nouveau texte.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour éviter le découpage, le nouveau texte ne doit pas être plus long que le texte existant. La définition du texte sur une chaîne plus petite n’entraîne pas le redimensionnement de la boîte de dialogue.
 
@@ -68,7 +68,7 @@ Si le membre **pszExpandedInformation** de la structure [**TASKDIALOGCONFIG**](/
 
 Les éléments ci-dessus s’appliquent également aux pieds de page et pieds de \_ page TDE.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

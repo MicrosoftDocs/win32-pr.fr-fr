@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 547af5014bbf897d320894c4924911b830997ec3d8532e2ce2c7b63f361a11da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd6eab8184049d8bf876a7e782b9adc2091d5fac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119542823"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115785"
 ---
 # <a name="ttm_trackposition-message"></a>\_Message atténuation TRACKPOSITION
 
@@ -43,15 +43,15 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle ToolTip choisit où afficher la fenêtre d’info-bulle en fonction des coordonnées que vous fournissez avec ce message. La fenêtre d’info-bulle s’affiche alors à côté de l’outil auquel elle correspond. Pour que les fenêtres d’info-bulle s’affichent à des coordonnées spécifiques, incluez l' \_ indicateur de l’Absolute dans le membre **uFlags** de la structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) lors de l’ajout de l’outil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -73,7 +73,7 @@ Le contrôle ToolTip choisit où afficher la fenêtre d’info-bulle en fonction
 [**ATTÉNUATION \_ TRACKACTIVATE**](ttm-trackactivate.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Utilisation des contrôles ToolTip](using-tooltip-contro.md)

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 58eacc277eac2d55aca0e6068698d11110768cfbe3ab6b564b97a0607715a7ec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f921ca795e761522828de14ede61894defe44f6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292659"
 ---
 # <a name="rwstructuredbuffer"></a>RWStructuredBuffer
 
@@ -31,7 +31,7 @@ Mémoire tampon de lecture/écriture qui peut accepter un type T qui est une str
 | [**DecrementCounter**](sm5-object-rwstructuredbuffer-decrementcounter.md) | Décrémente le compteur masqué de l’objet. |
 | [**GetDimensions**](sm5-object-rwstructuredbuffer-getdimensions.md)       | Obtient les dimensions de ressource.           |
 | [**IncrementCounter**](sm5-object-rwstructuredbuffer-incrementcounter.md) | Incrémente le compteur masqué de l’objet. |
-| [**Load**](rwstructuredbuffer-load.md)                                    | Lit les données de la mémoire tampon.                      |
+| [**Chargera**](rwstructuredbuffer-load.md)                                    | Lit les données de la mémoire tampon.                      |
 | [**Opérateur\[\]**](sm5-object-rwstructuredbuffer-operatorindex.md)        | Retourne une variable de ressource.            |
 
 
@@ -52,9 +52,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Pris en charge |
+| Modèle de nuanceur                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Prise en charge |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Nuanceur [modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur plus élevés [nuanceur de modèle 4](dx-graphics-hlsl-sm4.md) (disponible par le biais de l’API Direct3D 11 en utilisant le niveau de fonctionnalité 10,0 ou 10,1 ([**\_ \_ niveau de fonctionnalité D3D**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level) \_ 10 \_ X) sur les appareils qui prennent en charge les nuanceurs de calcul. Pour plus d’informations sur la prise en charge du nuanceur de calcul sur du matériel de niveau inférieur, consultez [nuanceurs de calcul sur du matériel de niveau inférieur](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-compute-shaders).)<br/> | oui       |
+| Nuanceur [modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur plus élevés [nuanceur de modèle 4](dx-graphics-hlsl-sm4.md) (disponible par le biais de l’API Direct3D 11 en utilisant le niveau de fonctionnalité 10,0 ou 10,1 ([**\_ \_ niveau de fonctionnalité D3D**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level) \_ 10 \_ X) sur les appareils qui prennent en charge les nuanceurs de calcul. Pour plus d’informations sur la prise en charge du nuanceur de calcul sur du matériel de niveau inférieur, consultez [nuanceurs de calcul sur du matériel de niveau inférieur](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-compute-shaders).)<br/> | Oui       |
 
 
 
@@ -64,7 +64,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

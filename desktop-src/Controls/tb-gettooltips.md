@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41f326ffcc12e9fcf115b6f010e9fc8f7e327ce6381ce9a2fb3d397d8e322f92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 488212b34f9f1816797f097a5a1f42d2ea4f68c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118168225"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116693"
 ---
 # <a name="tb_gettooltips-message"></a>TO \_ GETTOOLTIPS message
 
@@ -35,11 +35,11 @@ Récupère le handle du contrôle ToolTip, le cas échéant, associé à la barr
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle ToolTip, ou **null** si la barre d’outils n’est associée à aucune info-bulle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

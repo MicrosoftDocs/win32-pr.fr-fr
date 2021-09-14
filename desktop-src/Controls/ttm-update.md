@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 571f167b67b41164c451aeadfb55edda61b21b13ef5311d5172cdc49bec4fa32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36943b333691588df5b159d1922719eda1fb0a1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166122"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115777"
 ---
 # <a name="ttm_update-message"></a>\_Message de mise à jour atténuation
 
@@ -35,11 +35,11 @@ Force le redessinage de l’info-bulle actuelle.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

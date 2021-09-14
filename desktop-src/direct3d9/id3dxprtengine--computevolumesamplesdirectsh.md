@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a3aaa8f9332a80e35ffde43d145be1ed885caeaca6d61e4eb9190baba09b73ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 757e227907eab73848f43b2b8e2f40f9b4b1071b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292682"
 ---
 # <a name="id3dxprtenginecomputevolumesamplesdirectsh-method"></a>ID3DXPRTEngine :: ComputeVolumeSamplesDirectSH, méthode
 
@@ -89,19 +89,19 @@ Pointeur vers un objet [**ID3DXPRTBuffer**](id3dxprtbuffer.md) de sortie qui pro
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode calcule la lumière d’une source distante arrivant à chaque point dans l’espace spécifié par pSampleLocs. Les coefficients SH représentent le mappage, à chaque point de pSampleLocs, du luminance source au luminance de l’incident transféré.
 
 Pour utiliser cette méthode avec succès, vous devez définir l’échantillonnage sur une sphère avec UseSphere = **true** et UseCosine = **false** dans [**ID3DXPRTEngine :: SetSamplingInfo**](id3dxprtengine--setsamplinginfo.md); Sinon, cette méthode retourne une erreur avec D3DERR \_ INVALIDCALL.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

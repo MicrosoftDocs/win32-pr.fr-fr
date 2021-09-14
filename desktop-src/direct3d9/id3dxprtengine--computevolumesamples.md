@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: edc13e8b6f0e5c725e957be22f1b297f825a4f3b622ced68adf19b34a0b64b5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd77fff723f0cf7e3dc2a52be6a40ff6f0d71fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118293500"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292683"
 ---
 # <a name="id3dxprtenginecomputevolumesamples-method"></a>ID3DXPRTEngine :: ComputeVolumeSamples, méthode
 
@@ -89,7 +89,7 @@ Pointeur vers un objet [**ID3DXPRTBuffer**](id3dxprtbuffer.md) de sortie qui pro
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -99,7 +99,7 @@ Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode �
 
 Cette méthode calcule la façon dont la lumière de la fonction luminance source est réfléchie à partir de la surface qui représente la scène (pSurfDataIn) et arrive à chaque point dans l’espace spécifié par pSampleLocs. Les coefficients SH représentent le mappage, à chaque point de pSampleLocs, du luminance source au luminance de l’incident transféré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

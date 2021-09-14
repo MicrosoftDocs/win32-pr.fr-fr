@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfcd4bf71cfcbc36e098bc83568bdf519209ec82cc9889b6b5ec3934d349f737
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9d870df628b06031374260c679f792f0b7218a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120061139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116397"
 ---
 # <a name="tbm_setrange-message"></a>\_Message TBM SEtrange
 
@@ -43,17 +43,17 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la position actuelle du curseur est en dehors de la nouvelle plage, le message **TBM \_ SetRange** définit la position du curseur sur la nouvelle valeur maximale ou minimale.
 
 Étant donné que ce message prend des valeurs entières non signées 2 16 bits, la plage maximale que ce message peut spécifier est comprise entre 0 et 65 535. Pour spécifier des valeurs de plage plus grandes, utilisez les messages [**TBM \_ SETRANGEMIN**](tbm-setrangemin.md) et [**TBM \_ SETRANGEMAX**](tbm-setrangemax.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12d07c66add48fa8022f7b8505bee377be184af3ed8195251b3a92b46d0ff58c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f9a84c3420eaf64710ac1f8764db20d2cfc88b7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119318849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116569"
 ---
 # <a name="tb_sethotimagelist-message"></a>TO \_ SETHOTIMAGELIST message
 
@@ -39,15 +39,15 @@ Handle de la liste d’images qui sera définie.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de la liste d’images utilisée précédemment pour afficher les boutons actifs, ou **null** si aucune liste d’images n’a été définie précédemment.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un bouton est actif lorsque le curseur se trouve sur celui-ci. Les contrôles ToolBar doivent avoir le style de [**\_ liste**](toolbar-control-and-button-styles.md) [**TBSTYLE \_ plat**](toolbar-control-and-button-styles.md) ou TBSTYLE pour avoir des éléments chauds.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

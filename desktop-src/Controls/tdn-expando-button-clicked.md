@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ac901777ab7599592e5646946f19d9e2456b6afbe911645259adbf7459e3995
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4f3c36379a8efc40c7873d817b832705b3c1e084
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116034"
 ---
 # <a name="tdn_expando_button_clicked-notification-code"></a>\_Bouton TDN expando- \_ \_ clic sur le code de notification
 
@@ -53,15 +53,15 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple de la section syntaxe montre le cast en wParam avant l’envoi de la notification. **LParam** n’est pas utilisé et doit être égal à zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - personnalisation des boîtes de dialogue courantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6272cbff88b7544ea945851f4f347cb43031b93ae08852bc139c7fb7ca6dd91d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7eaa71c4f6fc6aa038ef150eb53935f6b3ec280
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118786119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292639"
 ---
 # <a name="customizing-common-dialog-boxes"></a>Personnalisation des boîtes de dialogue courantes
 
@@ -42,7 +42,7 @@ Quand vous créez un modèle de boîte de dialogue personnalisé en modifiant le
 |-------------------------------|---------------|--------------|
 | **Couleur**                     | Color. DLG     | ColorDlg. h   |
 | **Rechercher**                      | FindText. DLG  | Dlgs. h       |
-| **Police**                      | Font. DLG      | Dlgs. h       |
+| **Font**                      | Font. DLG      | Dlgs. h       |
 | **Ouvrir** (sélection multiple) | FileOpen. DLG  | Dlgs. h       |
 | **Ouvrir** (sélection unique)   | FileOpen. DLG  | Dlgs. h       |
 | **Mise en page**                | Prnsetup. DLG  | Dlgs. h       |
@@ -92,7 +92,7 @@ Le tableau suivant indique le type de procédure de raccordement à fournir pour
 |------------------------------------------|-----------------------------------------------------|
 | **Couleur**                                | [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc)                      |
 | **Rechercher** ou **remplacer**                  | [*FRHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpfrhookproc)                      |
-| **Police**                                 | [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)                      |
+| **Font**                                 | [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)                      |
 | **Ouvrir** ou **Enregistrer sous** (style Explorateur) | [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)                    |
 | **Ouvrir** ou **Enregistrer sous** (ancien style)      | [*OFNHookProcOldStyle*](/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) |
 | **Imprimer**                                | [*PrintHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpprinthookproc)                |

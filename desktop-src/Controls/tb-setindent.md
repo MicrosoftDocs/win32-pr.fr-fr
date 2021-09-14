@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3e800e9c61af3a22f8622fa7dc6d0ae3286f22e7403ebfc387b6a773d4d4c88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05dfaf8a87737e4087b11f5c5acb8e822ed7f802
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116557"
 ---
 # <a name="tb_setindent-message"></a>TO \_ SETINDENT message
 
@@ -39,11 +39,11 @@ Valeur qui spécifie la mise en retrait, en pixels.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

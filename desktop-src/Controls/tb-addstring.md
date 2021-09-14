@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0556add41addb4a58d5734ab900af4a43c2018b533723145ed4f9c8272e3890
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fba57c298a2b903a65c429ae6b4f9d55fc9ed2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078373"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116858"
 ---
 # <a name="tb_addstring-message"></a>TO \_ message ADDSTRING
 
@@ -49,13 +49,13 @@ Identificateur de ressource de la ressource de type chaîne, ou pointeur vers un
 
 Retourne l’index de la première nouvelle chaîne en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si *wParam* a la **valeur null**, *lParam* pointe vers un tableau de caractères avec une ou plusieurs chaînes se terminant par un caractère null. La dernière chaîne dans le tableau doit se terminer par deux caractères null.
 
 Si *wParam* est le HINSTANCE de l’application ou d’un autre module contenant une ressource de type chaîne, *lParam* est l’identificateur de ressource de la chaîne. Chaque élément de la chaîne doit commencer par un caractère de séparation arbitraire, et la chaîne doit se terminer par deux caractères. Par exemple, le texte de trois boutons peut apparaître dans la table de chaînes sous la forme « /New/Open/Save// ». Le message retourne l’index de « New » dans le pool de chaînes de la barre d’outils, et les autres éléments se trouvent à des positions consécutives.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

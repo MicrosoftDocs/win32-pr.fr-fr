@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e03053981ed16b97d68d5b2f0c77db64062d64fd2df7b5a347e4757736d4844
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4c076f001a1dff62541c3aa32bc12744b30c012
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116481"
 ---
 # <a name="tbm_getbuddy-message"></a>\_Message TBM GETBUDDY
 
@@ -50,11 +50,11 @@ Valeur indiquant le descripteur de fenêtre associée qui sera récupéré, par 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de la fenêtre associée à l’emplacement spécifié par *wParam*, ou **null** si aucune fenêtre associée n’existe à cet emplacement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

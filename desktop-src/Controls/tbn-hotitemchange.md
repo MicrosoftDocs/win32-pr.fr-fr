@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b51765a3c0590b4584b817772cec73df626363dfce6a5ef472ceec6c3ea023f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d314a7250128a0f3e6b3fed54e5765487619d8e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118167037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116289"
 ---
 # <a name="tbn_hotitemchange-notification-code"></a>\_Code de notification TBN HOTITEMCHANGE
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMTBHOTITEM**](/windows/win32/api/commctrl/ns-com
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro pour permettre à l’élément d’être mis en surbrillance, ou différent de zéro pour empêcher la mise en surbrillance de l’élément.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

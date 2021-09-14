@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 457b8ca82d570b9d6c55cf97392803fce9a81cbe1d5db8122fcdaa975dd99d5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74c7f6a8d1d36737d09cfb4d307129200a51180c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669932"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116801"
 ---
 # <a name="tb_getbuttoninfo-message"></a>TO \_ GETBUTTONINFO message
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**TBBUTTONINFO**](/windows/desktop/api/Commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de base zéro du bouton, ou-1 si une erreur se produit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand vous utilisez [**to \_ ADDBUTTONS**](tb-addbuttons.md) ou [**to \_ INSERTBUTTON**](tb-insertbutton.md) pour placer des boutons dans la barre d’outils, le texte du bouton est généralement spécifié par son index de pool de chaînes. **To \_ GETBUTTONINFO** ne récupère pas cette chaîne. Pour utiliser **to \_ GETBUTTONINFO** pour récupérer le texte du bouton, vous devez d’abord définir la chaîne de texte avec [**to \_ SETBUTTONINFO**](tb-setbuttoninfo.md). Une fois que vous avez défini le texte du bouton avec **to \_ SETBUTTONINFO**, vous ne pouvez plus utiliser l’index du pool de chaînes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

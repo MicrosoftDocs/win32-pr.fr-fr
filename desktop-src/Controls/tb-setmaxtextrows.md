@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d6a1e1a2cda7b3dced4cf538623578d48b41d38925629f2985a35974baed229
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0984c0b73280ec90c4e659d3bb3b4cc89cdcf4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118167479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116534"
 ---
 # <a name="tb_setmaxtextrows-message"></a>TO \_ SETMAXTEXTROWS message
 
@@ -39,15 +39,15 @@ Nombre maximal de lignes de texte qui peuvent être affichées.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour que le texte soit renvoyé à la ligne, vous devez définir la largeur de bouton maximale en envoyant un message [**\_ SETBUTTONWIDTH to**](tb-setbuttonwidth.md) . Le texte est renvoyé à la ligne au niveau d’un saut de mot ; les sauts de ligne (« \\ n ») dans le texte sont ignorés. Le texte dans les \_ barres d’outils de liste TBSTYLE est toujours affiché sur une seule ligne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32a73b7da3efee0b1bb1ba829cf40356e6060a5f7e7fdfcc2467e2cca32226a5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 409297306901980fa8b831e5c1129a13c596ef0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116310"
 ---
 # <a name="tbn_getbuttoninfo-notification-code"></a>\_Code de notification TBN GETBUTTONINFO
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si les informations sur le bouton ont été copiées dans la structure spécifiée, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle ToolBar alloue une mémoire tampon et le récepteur (fenêtre parente) doit copier le texte dans cette mémoire tampon. Le membre **cchText** contient la longueur de la mémoire tampon allouée par la barre d’outils lorsque TBN \_ GETBUTTONINFO est envoyé à la fenêtre parente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

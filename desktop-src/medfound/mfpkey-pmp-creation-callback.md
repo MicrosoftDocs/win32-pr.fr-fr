@@ -4,12 +4,12 @@ ms.assetid: 7277C5E0-BB91-4EEA-9529-64E66D179CDC
 title: MFPKEY_PMP_Creation_Callback, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 655d61865eaecd89fa84664fc5c25f89762180ac9007e21cc7cbc98f7a68b056
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2b18e04a15e035a9e4dc04a4039ce230342031a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235950"
 ---
 # <a name="mfpkey_pmp_creation_callback-property"></a>\_Propriété de \_ rappel de création PMP MFPKEY \_
 
@@ -31,7 +31,7 @@ VT \_ inconnu
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Certains contenus protégés peuvent nécessiter l’utilisation de cette propriété. Dans ce cas, le processus de résolution source échoue avec le code d’erreur **MF \_ E \_ Resolution \_ requiert un \_ \_ \_ rappel de création PMP**.
 
@@ -52,7 +52,7 @@ Dans la méthode [**IMFAsyncCallback :: Invoke**](/windows/desktop/api/mfobject
     -   *pCallback*: pointeur [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) obtenu à l’étape 3.
     -   *pState*: pointeur [**IMFPMPHost**](/windows/desktop/api/mfidl/nn-mfidl-imfpmphost) obtenu à l’étape 2.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

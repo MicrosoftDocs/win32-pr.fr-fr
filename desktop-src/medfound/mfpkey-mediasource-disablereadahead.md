@@ -5,11 +5,11 @@ title: MFPKEY_MediaSource_DisableReadAhead, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d06fe354431a24e15152268ba0ea6352e535c5e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236010"
 ---
 # <a name="mfpkey_mediasource_disablereadahead-property"></a>MFPKEY \_ MediaSource \_ DisableReadAhead, propriété
 
@@ -41,7 +41,7 @@ Pour une lecture audio/vidéo classique, cette propriété doit avoir la valeur 
 
 Toutes les sources de média ne prennent pas en charge cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0e159ce522ea27361f93beaa96da06959fba6f92fedf5981dfd049ddc7f36cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7972a9d40347995e9d641e7fc8706f9ad4c58bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115797"
 ---
 # <a name="ttm_settitle-message"></a>\_Message atténuation SETTITLE
 
@@ -61,11 +61,11 @@ Pointeur vers la chaîne de titre. Vous devez assigner une valeur à *lParam*.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le titre d’une info-bulle s’affiche au-dessus du texte, dans une police différente. Il n’est pas suffisant d’avoir un titre ; l’info-bulle doit également comporter du texte ou elle ne s’affiche pas.
 
@@ -87,7 +87,7 @@ DestroyIcon(hIcon);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

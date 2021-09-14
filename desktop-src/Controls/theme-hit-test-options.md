@@ -4,12 +4,12 @@ description: Cette section répertorie les valeurs d’option utilisées avec le
 ms.assetid: a0d5c6c8-bb50-46e1-98ae-2374842344c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e3f9f3c7ba8b5c7a2c4468177befc3083bb2ed613b674cdb02f7fd3ad7f10c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 638a7aaca83c658ad852b195cdb9514210a14c16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166524"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115998"
 ---
 # <a name="hit-test-options"></a>Options de test de positionnement
 

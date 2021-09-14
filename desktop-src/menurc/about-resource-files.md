@@ -4,12 +4,12 @@ description: décrit comment inclure des ressources dans votre application Windo
 ms.assetid: af7c7aed-5d28-40ac-ad00-da0986fd89c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f351592c57cb628204ad6528a48bfa1a10507f5e7aad90a524ea2f6034f304
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c43e9df59cf0b6507b6c6a53c42299b8792634f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119034467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235763"
 ---
 # <a name="about-resource-files"></a>À propos des fichiers de ressources
 

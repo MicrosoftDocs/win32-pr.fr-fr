@@ -4,12 +4,12 @@ ms.assetid: 9d1f52ef-ff49-4c0d-a48a-93aeccbe7f2b
 title: Événement WPCEVENT_EMAIL_CONTACT (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d84a450c53705dae2db777081f7177f43505e0481ae38a67c1b90e507fa4a5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0974030e53756b44f2be2e8550707161f2d6d461
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235643"
 ---
 # <a name="wpcevent_email_contact-event"></a>Événement de contact de \_ messagerie WPCEVENT \_
 
@@ -82,7 +82,7 @@ Nom du compte de messagerie de cet utilisateur.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

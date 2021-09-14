@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f05f67eb20c78f764957e73d2293d32e88f25a73d44d6b58f9a1c310b8d9d8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f23722b68f28a5157948ac6277858193366242fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115925"
 ---
 # <a name="trbn_thumbposchanging-notification-code"></a>\_Code de notification TRBN THUMBPOSCHANGING
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**NMTRBTHUMBPOSCHANGING**](/windows/win32/api/commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour empêcher le déplacement du curseur à la position spécifiée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Envoyez cette notification aux clients qui n’écoutent pas les messages [**WM \_ HSCROLL**](wm-hscroll.md) ou [**WM \_ VSCROLL**](wm-vscroll.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

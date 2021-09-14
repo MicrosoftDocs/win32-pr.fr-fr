@@ -11,11 +11,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: ebbfbc1061d8bca03f52dd8cb7583fbe23ebb33a
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885246"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292438"
 ---
 # <a name="scripting-api-constants"></a>Constantes d’API de script
 
@@ -72,7 +72,7 @@ Définissez les erreurs qui peuvent être retournées par l' [API de script pour
 <span id="WbemFlagEnum"></span><span id="wbemflagenum"></span><span id="WBEMFLAGENUM"></span>[**WbemFlagEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum)
 </dt> <dd>
 
-Définit les constantes utilisées par [**SWbemServices.ExecQuery**](swbemservices-execquery.md), [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md), [**SWbemServices. SubclassesOf**](swbemservices-subclassesof.md)et [**SWbemServices. InstancesOf**](swbemservices-instancesof.md).
+Définit des constantes utilisées par [**SWbemServices. ExecQuery**](swbemservices-execquery.md), [**SWbemServices. ExecQueryAsync**](swbemservices-execqueryasync.md), [**SWbemServices. SubclassesOf**](swbemservices-subclassesof.md)et [**SWbemServices. InstancesOf**](swbemservices-instancesof.md).
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ Définit les constantes de délai d’attente. Cette constante est utilisée par
 
 Vous pouvez combiner des indicateurs pour affecter plusieurs aspects de l’appel d’API.
 
-Par exemple, pour créer un [*appel semi-synchrone*](gloss-s.md) , le paramètre *IFlags* dans un appel [**cQuery \_SWbemServices.Exe**](swbemservices-execquery.md) doit contenir deux indicateurs : **WbemFlagReturnImmediately** et **WbemFlagForwardOnly**. La valeur de **WbemFlagReturnImmediately** est 16 et la valeur de **WbemFlagForwardOnly** est 32. Étant donné que les constantes ne sont pas accessibles par leur nom, les valeurs de ces indicateurs sont combinées, produisant une valeur *IFlags* de 48.
+Par exemple, pour créer un appel [*semi-synchrone*](gloss-s.md) , le paramètre *IFlags* dans un appel [**SWbemServices. ExecQuery \_**](swbemservices-execquery.md) doit contenir deux indicateurs : **WbemFlagReturnImmediately** et **WbemFlagForwardOnly**. La valeur de **WbemFlagReturnImmediately** est 16 et la valeur de **WbemFlagForwardOnly** est 32. Étant donné que les constantes ne sont pas accessibles par leur nom, les valeurs de ces indicateurs sont combinées, produisant une valeur *IFlags* de 48.
 
 L’exemple de script suivant illustre l’appel.
 

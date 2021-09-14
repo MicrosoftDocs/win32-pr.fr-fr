@@ -4,12 +4,12 @@ ms.assetid: 255162c5-ad12-4236-81df-7ed43d75854d
 title: Constantes D3DX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1204016132da7ef7ccd61213e60c90e8e31122a3a87895ec7475f42e6202fef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fff5757b020c14a6b371c4acfdb8ec075ca028c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118803224"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292711"
 ---
 # <a name="d3dx-constants"></a>Constantes D3DX
 

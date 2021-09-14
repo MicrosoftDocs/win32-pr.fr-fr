@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56d191034fc1551d4ffc1840498e352e2f3cd82985f1bbc5a7ae8d5350a41fb1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5bb1346f63e9bb10b919c678373e0e8df0724861
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120046339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116429"
 ---
 # <a name="tbm_getticpos-message"></a>\_Message TBM GETTICPOS
 
@@ -43,11 +43,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la distance, en coordonnées clientes, à partir de la gauche ou du haut de la zone cliente du TrackBar jusqu’à la graduation spécifiée. La valeur de retour est la coordonnée x de la graduation pour un TrackBar horizontal ou la coordonnée y pour un TrackBar vertical. Si *wParam* n’est pas un index valide, la valeur de retour est-1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que les première et dernière graduations ne sont pas disponibles par le biais de ce message, les index valides sont décalés par rapport à leur position de graduation sur le TrackBar. Si la différence entre [**TBM \_ GETRANGEMIN**](tbm-getrangemin.md) et [**TBM \_ GETRANGEMAX**](tbm-getrangemax.md) est inférieure à deux, alors il n’y a pas d’index valide et ce message échoue.
 
@@ -59,7 +59,7 @@ L’exemple suivant illustre la relation entre les graduations sur un TrackBar, 
   0 1 2 3 4 5 6 7      // Index numbers for the identifiable positions.
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

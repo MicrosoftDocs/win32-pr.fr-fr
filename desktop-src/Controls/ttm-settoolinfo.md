@@ -3,7 +3,7 @@ title: Message TTM_SETTOOLINFO (commctrl. h)
 description: Définit les informations gérées par un contrôle ToolTip pour un outil.
 ms.assetid: ba18f651-2e52-46e2-871b-c1760e94ab59
 keywords:
-- TTM_SETTOOLINFO les contrôles de message Windows
+- TTM_SETTOOLINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 327dd853e3304f8233b95c947a890c4f49298cc7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466798"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115793"
 ---
 # <a name="ttm_settoolinfo-message"></a>\_Message atténuation SETTOOLINFO
 
@@ -41,7 +41,7 @@ Pointeur vers une structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
@@ -51,14 +51,14 @@ Certaines propriétés internes d’un outil sont établies lorsque l’outil es
 
 Lors de l’appel de **atténuation \_ SETTOOLINFO**, la chaîne vers laquelle pointe le membre **LpszText** de la structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) ne doit pas dépasser 80 **TCHARs** , y compris le caractère **null** de fin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ SETTOOLINFOW** (Unicode) et **atténuation \_ SETTOOLINFOA** (ANSI)<br/>           |
 

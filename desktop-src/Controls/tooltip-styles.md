@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dddd890f8bf3aad35d20ec2eabcbe34f89b3ef262fbe30586f9a0a893f85e3b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff8b89aed88caddceae815414b9f2b4d93a550c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751021"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115945"
 ---
 # <a name="tooltip-styles"></a>Styles d’info-bulle
 
@@ -43,11 +43,11 @@ Cette section répertorie les styles de contrôle utilisés avec les contrôles 
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un contrôle ToolTip a toujours les \_ styles de fenêtre popup et WS \_ ex \_ TOOLWINDOW, que vous les spécifiiez ou non lors de la création du contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

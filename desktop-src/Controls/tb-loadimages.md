@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df2cfae5e1658dec2652eb68cae4283dd0df697ad055434f1290cc0da7c2b485
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0b0ba6bf75855a0b81ac56438489d7eced3d589
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118168195"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116646"
 ---
 # <a name="tb_loadimages-message"></a>TO \_ LOADIMAGES message
 
@@ -62,11 +62,11 @@ Handle d’instance. Ce paramètre doit être défini sur HINST \_ COMMCTRL.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Nombre d’images dans la liste d’images. Retourne zéro si la barre d’outils n’a pas de liste d’images ou si la liste d’images existante est vide.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez utiliser les valeurs d’index d’image appropriées lorsque vous préparez des structures [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) avant d’envoyer le message [**to \_ ADDBUTTONS**](tb-addbuttons.md) . Pour obtenir la liste des valeurs d’index d’image pour ces bitmaps prédéfinies, consultez la rubrique [valeurs d’index d’image du bouton standard de la barre d’outils](toolbar-standard-button-image-index-values.md).
 
@@ -82,7 +82,7 @@ SendMessage(hWndToolbar, TB_LOADIMAGES, (WPARAM)IDB_STD_SMALL_COLOR, (LPARAM)HIN
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

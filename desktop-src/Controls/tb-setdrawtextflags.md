@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 849bbb0e661c9e8afe246894d2d2f59d99d15a3f096ad2295a7018cf3df26ca4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 890a24239ff2257ffaccff6613b3765711b2ef7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119543879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116577"
 ---
 # <a name="tb_setdrawtextflags-message"></a>TO \_ SETDRAWTEXTFLAGS message
 
@@ -43,15 +43,15 @@ Un ou plusieurs des indicateurs DT \_ , spécifiés dans [**DrawText**](/windows
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne les indicateurs de dessin de texte précédents.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *wParam* vous permet de spécifier les indicateurs qui seront utilisés lors du dessin du texte, même si ces indicateurs sont désactivés. Par exemple, si vous ne souhaitez pas que l' \_ indicateur DT Center soit utilisé lors du dessin de texte, vous devez ajouter l' \_ indicateur DT Center à *wParam* et ne pas spécifier l' \_ indicateur DT Center dans *lParam*. Cela empêche le contrôle de passer l' \_ indicateur DT Center à la fonction [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

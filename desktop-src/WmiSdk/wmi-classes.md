@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1da15af60f1d1a32d652c8776e20ef36d65c1ff158dc6ac7465886361c5862c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa764d39c1fb048e125898a1f7e6d5cadf7f127d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292418"
 ---
 # <a name="wmi-classes"></a>Classes WMI
 
@@ -119,7 +119,7 @@ Description de la propriété.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Fournit plus d’informations sur la classe, le cas échéant. Fournit également des informations de dérivation, le cas échéant.
 

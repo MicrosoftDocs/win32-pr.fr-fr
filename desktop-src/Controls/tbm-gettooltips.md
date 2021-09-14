@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c97c94ab3a696f5967f724e76d2d8702a01275bedc06ad7c13907d57710a078
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e02b0b757b1aabfef2c9df2e80ca9f96542ba4a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078063"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116417"
 ---
 # <a name="tbm_gettooltips-message"></a>\_Message TBM GETTOOLTIPS
 
@@ -35,11 +35,11 @@ Récupère le handle du contrôle ToolTip assigné au TrackBar, le cas échéant
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle ToolTip assigné au TrackBar, ou **null** si les info-bulles ne sont pas utilisées. Si le contrôle TrackBar n’utilise pas le style des [**\_ info-bulles tbs**](trackbar-control-styles.md) , la valeur de retour est **null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a7110084f2abe39cbae51815d1e59972cb016ea267275f0481d21e1f8b908a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb0b7ad631e8b56824ae65a2b262c5478611e75f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118167459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116558"
 ---
 # <a name="tb_setimagelist-message"></a>TO \_ SETIMAGELIST message
 
@@ -43,11 +43,11 @@ Handle de la liste d’images à définir. Si ce paramètre a la **valeur null**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de la liste d’images utilisée précédemment pour afficher les boutons dans leur état par défaut, ou **null** si aucune liste d’images n’a été définie précédemment.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Votre application est chargée de libérer la liste d’images après la destruction de la barre d’outils.
@@ -101,7 +101,7 @@ Enfin, les boutons sont ajoutés au contrôle Toolbar avec un message [**\_ ADDB
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

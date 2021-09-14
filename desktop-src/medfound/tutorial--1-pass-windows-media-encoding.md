@@ -1,35 +1,35 @@
 ---
-description: L’encodage fait référence au processus de conversion de médias numériques d’un format dans un autre. Par exemple, la conversion de son MP3 au format Windows Media Audio comme défini par la spécification ASF (Advanced Systems Format).
+description: L’encodage fait référence au processus de conversion de médias numériques d’un format dans un autre. par exemple, la conversion de son MP3 au format Windows Media Audio comme défini par la spécification ASF (Advanced Systems format).
 ms.assetid: 4fe202d8-c8f5-4e9a-ad40-1aea8f767362
-title: 'Didacticiel : 1-passer l’encodage Windows Media'
+title: 'didacticiel : encodage de média de Windows Pass'
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5d670b107f315966a048a2f847183431f9a57bd4
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761461"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235824"
 ---
-# <a name="tutorial-1-pass-windows-media-encoding"></a>Didacticiel : 1-passer l’encodage Windows Media
+# <a name="tutorial-1-pass-windows-media-encoding"></a>didacticiel : encodage de média de Windows Pass
 
-L’encodage fait référence au processus de conversion de médias numériques d’un format dans un autre. Par exemple, la conversion de son MP3 au format Windows Media Audio comme défini par la spécification ASF (Advanced Systems Format).
+L’encodage fait référence au processus de conversion de médias numériques d’un format dans un autre. par exemple, la conversion de son MP3 au format Windows Media Audio comme défini par la spécification ASF (Advanced Systems format).
 
 **Remarque**  La spécification ASF définit un type de conteneur pour le fichier de sortie (. WMA ou. wmv) qui peut contenir des données multimédias dans n’importe quel format, compressé ou non compressé. Par exemple, un conteneur ASF comme un fichier. WMA peut contenir des données multimédias au format MP3. Le processus d’encodage convertit le format réel des données contenues dans le fichier.
 
-Ce didacticiel montre l’encodage d’une source d’entrée de contenu clair (non protégée par DRM) dans le contenu Windows Media et l’écriture de données dans un nouveau fichier ASF (. WM \* ) à l’aide de composants ASF de couche de pipeline. Ces composants seront utilisés pour générer une topologie d’encodage partielle, qui sera contrôlée par une instance de la session multimédia.
+ce didacticiel montre l’encodage d’une source d’entrée de contenu clair (non protégé par DRM) dans Windows contenu multimédia et l’écriture de données dans un nouveau fichier asf (. wm \* ) à l’aide de composants asf de couche de pipeline. Ces composants seront utilisés pour générer une topologie d’encodage partielle, qui sera contrôlée par une instance de la session multimédia.
 
-Dans ce didacticiel, vous allez créer une application console qui prend les noms de fichiers d’entrée et de sortie, et le mode d’encodage comme arguments. Le fichier d’entrée peut être dans un format compressé ou non compressé. Les modes d’encodage valides sont « CBR » (vitesse binaire constante) ou « VBR » (vitesse de transmission variable). L’application crée une source de média pour représenter la source spécifiée par le nom de fichier d’entrée, et le récepteur de fichiers ASF pour archiver le contenu encodé du fichier source dans un fichier ASF. Pour simplifier l’implémentation du scénario, le fichier de sortie n’aura qu’un seul flux audio et un seul flux vidéo. L’application insère le codec Windows Media Audio 9,1 Professional pour la conversion de format de flux audio et le codec Windows Media Video 9 pour le flux vidéo.
+Dans ce didacticiel, vous allez créer une application console qui prend les noms de fichiers d’entrée et de sortie, et le mode d’encodage comme arguments. Le fichier d’entrée peut être dans un format compressé ou non compressé. Les modes d’encodage valides sont « CBR » (vitesse binaire constante) ou « VBR » (vitesse de transmission variable). L’application crée une source de média pour représenter la source spécifiée par le nom de fichier d’entrée, et le récepteur de fichiers ASF pour archiver le contenu encodé du fichier source dans un fichier ASF. Pour simplifier l’implémentation du scénario, le fichier de sortie n’aura qu’un seul flux audio et un seul flux vidéo. l’application insère le codec Windows Media Audio 9,1 Professional pour la conversion de format de flux Audio et le codec Windows Media Video 9 pour le flux vidéo.
 
 Pour un encodage à taux binaire constant, avant le début de la session d’encodage, l’encodeur doit connaître la vitesse de transmission cible qu’il doit atteindre. Dans ce didacticiel, pour le mode « CBR », l’application utilise la vitesse de transmission disponible avec le premier type de média de sortie récupéré à partir de l’encodeur pendant la négociation de type de média comme vitesse de transmission cible. Pour l’encodage à taux binaire variable, ce didacticiel montre l’encodage avec une vitesse de transmission variable en définissant un niveau de qualité. Les flux audio sont encodés au niveau de qualité 98 et les flux vidéo au niveau de qualité 95.
 
-La procédure suivante résume les étapes d’encodage du contenu Windows Media dans un conteneur ASF à l’aide d’un mode d’encodage à passage.
+la procédure suivante résume les étapes à suivre pour encoder Windows contenu multimédia dans un conteneur ASF à l’aide d’un mode d’encodage passe-1.
 
 1.  Créer une source de média pour le spécifié à l’aide du programme de résolution source.
 2.  Énumérer les flux dans la source du média.
 3.  Créez le récepteur de média ASF et ajoutez des récepteurs de flux en fonction des flux de la source du média qui doivent être encodés.
 4.  Configurez le récepteur multimédia avec les propriétés d’encodage requises.
-5.  Créez les encodeurs Windows Media pour les flux dans le fichier de sortie.
+5.  créez les encodeurs de média Windows pour les flux dans le fichier de sortie.
 6.  Configurez les encodeurs avec les propriétés définies sur le récepteur multimédia.
 7.  Générez une topologie d’encodage partielle.
 8.  Instanciez la session multimédia et définissez la topologie sur la session multimédia.
@@ -39,8 +39,8 @@ La procédure suivante résume les étapes d’encodage du contenu Windows Media
 
 Ce didacticiel contient les sections suivantes :
 
--   [Conditions préalables](#prerequisites)
--   [Configurer le projet](#set-up-the-project)
+-   [Composants requis](#prerequisites)
+-   [Configurer le Project](#set-up-the-project)
 -   [Créer la source du média](#create-the-media-source)
 -   [Créer le récepteur de fichiers ASF](#create-the-asf-file-sink)
     -   [Créer l’objet de profil ASF](#create-the-asf-profile-object)
@@ -52,12 +52,12 @@ Ce didacticiel contient les sections suivantes :
     -   [Créer le nœud de topologie source pour la source du média](#create-the-source-topology-node-for-the-media-source)
     -   [Instancier les encodeurs requis et créer les nœuds de transformation](#instantiate-the-required-encoders-and-create-the-transform-nodes)
     -   [Créer les nœuds de topologie de sortie pour le récepteur de fichiers](#create-the-output-topology-nodes-for-the-file-sink)
-    -   [Connecter les nœuds source, de transformation et récepteur](#connect-the-source-transform-and-sink-nodes)
+    -   [Connecter les nœuds Source, de transformation et de récepteur](#connect-the-source-transform-and-sink-nodes)
 -   [Gestion de la session d’encodage](#handling-the-encoding-session)
 -   [Mettre à jour les propriétés d’encodage dans le récepteur de fichiers](#update-encoding-properties-in-the-file-sink)
 -   [Implémenter main](#implement-main)
 -   [Tester le fichier de sortie](#test-the-output-file)
--   [Codes d’erreur courants et conseils de débogage](#common-error-codes-and-debugging-tips)
+-   [Codes d’erreur courants et Astuces de débogage](#common-error-codes-and-debugging-tips)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="prerequisites"></a>Prérequis
@@ -69,17 +69,17 @@ Ce didacticiel part des principes suivants :
 
         **Remarque**  Si vous effectuez une conversion (en convertissant un fichier de taux binaire plus élevé en un fichier de vitesse de transmission inférieur sans modifier les formats), vous utiliserez la [source du média ASF](asf-media-source.md).
 
-    -   [Encodeurs Windows Media](windows-media-encoders.md)
+    -   [Windows Encodeurs multimédias](windows-media-encoders.md)
     -   [Récepteurs de média ASF](asf-media-sinks.md)
     -   [Objet ASF ContentInfo](asf-contentinfo-object.md)
     -   [Profil ASF](asf-profile.md)
 
--   Vous êtes familiarisé avec les encodeurs Windows Media et les différents types d’encodage, notamment le [codage à vitesse de transmission constant](constant-bit-rate-encoding.md) et l' [encodage à vitesse de transmission variable basé sur la qualité](quality-based-variable-bit-rate--vbr--encoding.md).
+-   vous êtes familiarisé avec les encodeurs Windows Media et les différents types d’encodage, notamment le [codage à vitesse de transmission Constant](constant-bit-rate-encoding.md) et l' [encodage à vitesse de transmission Variable basé sur la qualité](quality-based-variable-bit-rate--vbr--encoding.md).
 -   Vous êtes familiarisé avec les opérations de l’encodeur MFT. En particulier, la création d’une instance de l’encodeur et la définition des types d’entrée et de sortie sur l’encodeur.
 -   Vous êtes familiarisé avec les objets de topologie et comment créer une topologie d’encodage. Pour plus d’informations sur les topologies et les nœuds de topologie, consultez [création de topologies](creating-topologies.md).
 -   Vous êtes familiarisé avec le modèle d’événement de la [session de média](media-session.md)et les opérations de contrôle de Workflow. Pour plus d’informations, consultez [événements de session multimédia](media-session-events.md).
 
-## <a name="set-up-the-project"></a>Configurer le projet
+## <a name="set-up-the-project"></a>Configurer le Project
 
 1.  Incluez les en-têtes suivants dans votre fichier source :
 
@@ -494,9 +494,9 @@ L’exemple de code suivant crée des flux de sortie en fonction des flux dans l
 
 ### <a name="create-a-compressed-audio-media-type"></a>Créer un type de média audio compressé
 
-Si vous souhaitez inclure un flux audio dans le fichier de sortie, créez un type audio en spécifiant les caractéristiques du type encodé en définissant les attributs requis. Pour vous assurer que le type audio est compatible avec l’encodeur audio Windows Media, instanciez la MFT de l’encodeur, définissez les propriétés d’encodage et récupérez un type de média en appelant [**IMFTransform :: GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype). Obtenez le type de sortie requis en parcourant tous les types disponibles, en obtenant les attributs de chaque type de média et en sélectionnant le type le plus proche de vos spécifications. Dans ce didacticiel, récupérez le premier type disponible dans la liste des types de médias de sortie pris en charge par l’encodeur.
+Si vous souhaitez inclure un flux audio dans le fichier de sortie, créez un type audio en spécifiant les caractéristiques du type encodé en définissant les attributs requis. pour vous assurer que le type audio est compatible avec l’encodeur audio Windows Media, instanciez la MFT de l’encodeur, définissez les propriétés d’encodage et récupérez un type de média en appelant [**IMFTransform :: GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype). Obtenez le type de sortie requis en parcourant tous les types disponibles, en obtenant les attributs de chaque type de média et en sélectionnant le type le plus proche de vos spécifications. Dans ce didacticiel, récupérez le premier type disponible dans la liste des types de médias de sortie pris en charge par l’encodeur.
 
-**Remarque**  Pour Windows 7, Media Foundation fournit une nouvelle fonction, [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes) , qui récupère la liste des types audio compatibles. Cette fonction obtient uniquement les types de médias pour l’encodage CBR.
+**Remarque**  pour Windows 7, Media Foundation fournit une nouvelle fonction, [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes) , qui récupère la liste des types audio compatibles. Cette fonction obtient uniquement les types de médias pour l’encodage CBR.
 
 Un type audio complet doit avoir les attributs suivants définis :
 
@@ -508,7 +508,7 @@ Un type audio complet doit avoir les attributs suivants définis :
 -   [**\_octets de \_ données audio MF MT- \_ \_ octets \_ par \_ seconde**](mf-mt-audio-avg-bytes-per-second-attribute.md)
 -   [**\_bits de \_ sortie audio MF \_ \_ par \_ échantillon**](mf-mt-audio-bits-per-sample-attribute.md)
 
-L’exemple de code suivant crée un type audio compressé en obtenant un type compatible à partir de l’encodeur Windows Media Audio. L’implémentation de SetEncodingProperties est présentée dans la section « créer l’objet ASF ContentInfo » de ce didacticiel.
+l’exemple de code suivant crée un type audio compressé en obtenant un type compatible à partir de l’encodeur Windows Media Audio. L’implémentation de SetEncodingProperties est présentée dans la section « créer l’objet ASF ContentInfo » de ce didacticiel.
 
 
 ```C++
@@ -779,14 +779,14 @@ Il existe deux façons de créer un type de média vidéo complet.
 
     
 
--   Procurez-vous un type de média compatible à partir de l’encodeur vidéo Windows Media en définissant les propriétés d’encodage, puis en appelant [**IMFTransform :: GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype). Cette méthode retourne le type partiel. Veillez à convertir le type partiel en un type complet en ajoutant les informations suivantes :
+-   procurez-vous un type de média compatible à partir de l’encodeur vidéo multimédia Windows en définissant les propriétés d’encodage, puis en appelant [**IMFTransform :: GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype). Cette méthode retourne le type partiel. Veillez à convertir le type partiel en un type complet en ajoutant les informations suivantes :
 
     -   Définissez la vitesse de transmission vidéo dans l’attribut vitesse de [**\_ \_ \_ transmission moyenne MF MT**](mf-mt-avg-bitrate-attribute.md) .
     -   Ajoutez des données privées de codec en définissant l’attribut de [**\_ \_ \_ données utilisateur MF MT**](mf-mt-user-data-attribute.md) . Pour obtenir des instructions détaillées, consultez « données de codec privées » dans [configuration d’un encodeur WMV](configuring-a-wmv-encoder.md).
 
     Comme [**IWMCodecPrivateData :: GetPrivateData**](../wmformat/iwmcodecprivatedata-getprivatedata.md) vérifie la vitesse de transmission avant de retourner les données privées du codec, veillez à définir la vitesse de transmission avant d’obtenir les données privées du codec.
 
-    L’exemple de code suivant crée un type de vidéo compressé en obtenant un type compatible à partir de l’encodeur Windows Media Video. Il crée également un type de vidéo non compressé et le définit comme entrée de l’encodeur. Elle est implémentée dans la fonction d’assistance CreateUncompressedVideoType. GetOutputTypeFromWMVEncoder convertit le type partiel retourné en un type complet en ajoutant des données privées de codec. L’implémentation de SetEncodingProperties est présentée dans la section « créer l’objet ASF ContentInfo » de ce didacticiel.
+    l’exemple de code suivant crée un type de vidéo compressé en obtenant un type compatible à partir de l’encodeur Windows Media Video. Il crée également un type de vidéo non compressé et le définit comme entrée de l’encodeur. Elle est implémentée dans la fonction d’assistance CreateUncompressedVideoType. GetOutputTypeFromWMVEncoder convertit le type partiel retourné en un type complet en ajoutant des données privées de codec. L’implémentation de SetEncodingProperties est présentée dans la section « créer l’objet ASF ContentInfo » de ce didacticiel.
 
     ```C++
     //-------------------------------------------------------------------
@@ -1308,7 +1308,7 @@ L’objet ASF ContentInfo est un composant de niveau WMContainer conçu principa
     
 
 4.  Appelez [**IMFASFContentInfo :: GetEncodingConfigurationPropertyStore**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore) pour récupérer la Banque de propriétés globale du récepteur de fichiers. Dans cet appel, vous devez passer 0 dans le premier paramètre. Pour plus d’informations, consultez « Propriétés globales du récepteur de fichiers » dans [définition des propriétés dans le récepteur de fichiers](setting-properties-in-the-file-sink.md).
-5.  Définissez la valeur de la variable [**MFPKEY ASFMEDIASINK de la \_ vitesse de \_ \_ transmission**](mfpkey-asfmediasink-autoadjust-bitrate-property.md) par variante pour \_ que les valeurs de compartiment avec fuite dans le multiplexeur ASF soient correctement ajustées. Pour plus d’informations sur cette propriété, consultez « initialisation du multiplexeur et paramètres des compartiments de fuites » dans [création de l’objet multiplexeur](creating-the-multiplexer-object.md).
+5.  Définissez la valeur de la variable [**MFPKEY ASFMEDIASINK de la \_ vitesse de \_ \_ transmission**](mfpkey-asfmediasink-autoadjust-bitrate-property.md) par variante pour \_ que les valeurs de compartiment avec fuite dans le multiplexeur ASF soient correctement ajustées. pour plus d’informations sur cette propriété, consultez « initialisation du multiplexeur et Paramètres de compartiment des fuites » dans [création de l’objet multiplexeur](creating-the-multiplexer-object.md).
 
     L’exemple de code suivant définit les propriétés de niveau de flux dans la Banque de propriétés du récepteur de fichiers.
 
@@ -1337,7 +1337,7 @@ L’objet ASF ContentInfo est un composant de niveau WMContainer conçu principa
     
 
     > [!Note]  
-    > D’autres propriétés peuvent être définies au niveau global pour le récepteur de fichiers. Pour plus d’informations, consultez « Configuration de l’objet ContentInfo avec les paramètres de l’encodeur » dans [définition des propriétés dans l’objet ContentInfo](setting-properties-in-the-contentinfo-object.md).
+    > D’autres propriétés peuvent être définies au niveau global pour le récepteur de fichiers. pour plus d’informations, consultez « configuration de l’objet ContentInfo avec l’encodeur Paramètres » dans [définition des propriétés dans l’objet contentinfo](setting-properties-in-the-contentinfo-object.md).
 
      
 
@@ -1366,7 +1366,7 @@ L’exemple de code suivant crée l’objet d’activation pour le récepteur de
 
 ## <a name="build-the-partial-encoding-topology"></a>Créer la topologie d’encodage partiel
 
-Ensuite, vous allez créer une topologie d’encodage partielle en créant des nœuds de topologie pour la source du média, les encodeurs Windows Media requis et le récepteur de fichiers ASF. Après avoir ajouté les nœuds de topologie, vous allez connecter les nœuds source, transformation et récepteur. Avant d’ajouter des nœuds de topologie, vous devez créer un objet de topologie vide en appelant [**MFCreateTopology**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopology).
+ensuite, vous allez créer une topologie d’encodage partielle en créant des nœuds de topologie pour la source du média, les encodeurs de média Windows requis et le récepteur de fichiers ASF. Après avoir ajouté les nœuds de topologie, vous allez connecter les nœuds source, transformation et récepteur. Avant d’ajouter des nœuds de topologie, vous devez créer un objet de topologie vide en appelant [**MFCreateTopology**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopology).
 
 ### <a name="create-the-source-topology-node-for-the-media-source"></a>Créer le nœud de topologie source pour la source du média
 
@@ -1594,7 +1594,7 @@ done:
 
 ### <a name="instantiate-the-required-encoders-and-create-the-transform-nodes"></a>Instancier les encodeurs requis et créer les nœuds de transformation
 
-Le pipeline Media Foundation n’insère pas automatiquement les encodeurs Windows Media requis pour les flux qu’il doit Encoder. L’application doit ajouter les encodeurs manuellement. Pour ce faire, énumérez les flux dans le profil ASF que vous avez créé à l’étape décrite dans la section « créer l’objet profil ASF » de ce didacticiel. Pour chaque flux dans la source et le flux correspondant dans le profil, instanciez les encodeurs requis. Pour cette étape, vous avez besoin d’un pointeur vers l’objet d’activation pour le récepteur de fichiers que vous avez créé à l’étape décrite dans la section « créer le récepteur de fichiers ASF » de ce didacticiel.
+le pipeline Media Foundation n’insère pas automatiquement les encodeurs de média Windows requis pour les flux qu’il doit encoder. L’application doit ajouter les encodeurs manuellement. Pour ce faire, énumérez les flux dans le profil ASF que vous avez créé à l’étape décrite dans la section « créer l’objet profil ASF » de ce didacticiel. Pour chaque flux dans la source et le flux correspondant dans le profil, instanciez les encodeurs requis. Pour cette étape, vous avez besoin d’un pointeur vers l’objet d’activation pour le récepteur de fichiers que vous avez créé à l’étape décrite dans la section « créer le récepteur de fichiers ASF » de ce didacticiel.
 
 Pour obtenir une vue d’ensemble de la création d’encodeurs par le biais d’objets d’activation, consultez [utilisation des objets d’activation d’un](using-an-encoder-s-activation-objects.md)encodeur.
 
@@ -1948,7 +1948,7 @@ done:
 
 
 
-### <a name="connect-the-source-transform-and-sink-nodes"></a>Connecter les nœuds source, de transformation et récepteur
+### <a name="connect-the-source-transform-and-sink-nodes"></a>Connecter les nœuds Source, de transformation et de récepteur
 
 Au cours de cette étape, vous allez connecter le nœud source au nœud de transformation qui référence l’activation de l’encodage que vous avez créée à l’étape décrite dans la section « instancier les encodeurs requis et créer les nœuds de transformation » de ce didacticiel. Le nœud de transformation sera connecté au nœud de sortie contenant l’objet d’activation pour le récepteur de fichiers.
 
@@ -2527,10 +2527,10 @@ La liste suivante décrit une liste de vérification pour tester le fichier enco
 -   La taille du fichier est supérieure à zéro Ko et la durée de lecture correspond à la durée du fichier source.
 -   Pour le flux vidéo, vérifiez la largeur et la hauteur du frame, ainsi que la fréquence d’images. Ces valeurs doivent correspondre aux valeurs que vous avez spécifiées dans le profil ASF que vous avez créé à l’étape décrite dans la section « créer l’objet de profil ASF ».
 -   Pour le flux audio, la vitesse de transmission doit être proche de la valeur que vous avez spécifiée sur le type de média cible.
--   Ouvrez le fichier dans le lecteur Windows Media et vérifiez la qualité de l’encodage.
+-   ouvrez le fichier dans Lecteur Windows Media et vérifiez la qualité du codage.
 -   Ouvrez le fichier ASF dans ASFViewer pour afficher la structure d’un fichier ASF. Cet outil peut être téléchargé à partir de ce [site Web Microsoft](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea).
 
-## <a name="common-error-codes-and-debugging-tips"></a>Codes d’erreur courants et conseils de débogage
+## <a name="common-error-codes-and-debugging-tips"></a>Codes d’erreur courants et Astuces de débogage
 
 La liste suivante décrit les codes d’erreur courants que votre peut recevoir et les conseils de débogage.
 
@@ -2556,11 +2556,11 @@ La liste suivante décrit les codes d’erreur courants que votre peut recevoir 
 
 -   La session multimédia renvoie \_ \_ le type D3D non pris en charge MF E \_ \_ dans l’état de l’événement.
 
-    Cette erreur est retournée lorsque le type de média de la source indique un mode entrelacé mixte qui n’est pas pris en charge par Windows Media Video encodeur. Si votre type de média vidéo compressé est défini pour utiliser le mode progressive, le pipeline doit utiliser une transformation de désentrelacement. Étant donné que le pipeline ne parvient pas à trouver une correspondance (indiquée par ce code d’erreur), vous devez insérer manuellement un décodeur (processeur vidéo de transcodage) entre le décodeur et les nœuds de l’encodeur.
+    cette erreur est retournée lorsque le type de média de la source indique un mode entrelacé mixte qui n’est pas pris en charge par Windows Media Video encodeur. Si votre type de média vidéo compressé est défini pour utiliser le mode progressive, le pipeline doit utiliser une transformation de désentrelacement. Étant donné que le pipeline ne parvient pas à trouver une correspondance (indiquée par ce code d’erreur), vous devez insérer manuellement un décodeur (processeur vidéo de transcodage) entre le décodeur et les nœuds de l’encodeur.
 
 -   La session multimédia renvoie E \_ INVALIDARG dans l’état de l’événement.
 
-    Cette erreur est retournée lorsque les attributs de type de média de la source ne sont pas compatibles avec les attributs du type de média de sortie défini sur l’encodeur Windows Media.
+    cette erreur est retournée lorsque les attributs de type de média de la source ne sont pas compatibles avec les attributs du type de média de sortie défini sur l’encodeur multimédia Windows.
 
 -   [**IWMCodecPrivateData :: GetPrivateData**](../wmformat/iwmcodecprivatedata-getprivatedata.md) retourne HRESULT 0X80040203 « une erreur de syntaxe s’est produite lors de la tentative d’évaluation d’une chaîne de requête »
 

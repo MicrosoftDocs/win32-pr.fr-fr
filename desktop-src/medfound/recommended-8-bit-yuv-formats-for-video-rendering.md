@@ -4,12 +4,12 @@ ms.assetid: 675d4c60-4c58-4f15-9bae-ffb0c389c608
 title: Formats YUV 8 bits recommandés pour le rendu vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc6e30f33c59bedf9a2e842d2d33328bd97d8078d21bda90ae84af9af00ec113
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4505eb17f833040e0148ac98912f16af860b55b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119722078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235896"
 ---
 # <a name="recommended-8-bit-yuv-formats-for-video-rendering"></a>Formats YUV 8 bits recommandés pour le rendu vidéo
 

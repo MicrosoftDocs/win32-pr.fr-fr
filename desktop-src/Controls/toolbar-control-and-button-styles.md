@@ -38,11 +38,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3ce24bc7efc501afb08a906f066bebcb370a16cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528501"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115966"
 ---
 # <a name="toolbar-control-and-button-styles"></a>Styles de contrôle et de bouton de barre d’outils
 
@@ -99,7 +99,7 @@ Pour le shell version 4,72 et les versions antérieures, les indicateurs de styl
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

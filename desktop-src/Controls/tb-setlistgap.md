@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6192a002fcc2aec52c6c294b9eaad3fc55af3bfa3d01a092ae44f5c6d4087559
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 224a709b7beefcfdf49ea7838f905977487aca8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116541"
 ---
 # <a name="tb_setlistgap-message"></a>TO \_ SETLISTGAP message
 
@@ -43,15 +43,15 @@ Ignoré.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’intervalle entre les boutons s’applique uniquement à la fenêtre de contrôle de barre d’outils qui reçoit ce message. La réception de ce message déclenche une redessine de la barre d’outils, si la barre d’outils est actuellement visible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ ms.assetid: b5a00a81-8d23-4844-8b0a-776e7cceced8
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6f615da972f14bb88c4915504c089dd6b40d9aca
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115965"
 ---
 # <a name="about-toolbar-controls"></a>À propos des contrôles ToolBar
 
@@ -57,13 +57,13 @@ Les comportements de dimensionnement et de positionnement par défaut de la barr
 
 ## <a name="transparent-toolbars"></a>Barres d’outils transparentes
 
-Les contrôles ToolBar prennent en charge une apparence transparente qui permet d’afficher la zone cliente sous la barre d’outils. Il existe deux types de barres d’outils transparentes, celles avec des boutons plats et des boutons à trois dimensions. Si vous souhaitez que votre application corresponde à l’interface Windows, utilisez la barre d’outils style transparent transparent.
+Les contrôles ToolBar prennent en charge une apparence transparente qui permet d’afficher la zone cliente sous la barre d’outils. Il existe deux types de barres d’outils transparentes, celles avec des boutons plats et des boutons à trois dimensions. si vous souhaitez que votre application corresponde à l’interface Windows, utilisez la barre d’outils style transparent transparent.
 
 La capture d’écran suivante montre les deux types de barres d’outils transparentes, sans utiliser les styles visuels.
 
 ![capture d’écran de deux fenêtres avec différents styles de barres d’outils, mais les deux barres d’outils sont transparentes](images/toolbartrans.jpg)
 
-La capture d’écran suivante montre une barre d’outils transparente telle qu’elle peut apparaître dans Windows Vista, avec les styles visuels activés. La couleur d’arrière-plan de la boîte de dialogue a été modifiée pour rendre la transparence plus évidente.
+la capture d’écran suivante montre une barre d’outils transparente telle qu’elle peut apparaître dans Windows Vista, avec les styles visuels activés. La couleur d’arrière-plan de la boîte de dialogue a été modifiée pour rendre la transparence plus évidente.
 
 ![capture d’écran d’une fenêtre dans Windows Vista avec une barre d’outils transparente](images/tb-transparent.png)
 
@@ -102,10 +102,10 @@ Vous pouvez également stocker des images de bouton dans un ensemble de [listes 
 
 
 
-|  État        |  Description                                                                                                                                                                                            |
+|  State        |  Description                                                                                                                                                                                            |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Normal   | Boutons dans leur état par défaut.                                                                                                                                                              |
-| À chaud      | Boutons situés sous le pointeur ou appuyés. Les éléments à chaud sont pris en charge uniquement dans les contrôles Toolbar qui ont le style à [**\_ deux dimensions TBSTYLE**](toolbar-control-and-button-styles.md) . |
+| Chaud      | Boutons situés sous le pointeur ou appuyés. Les éléments à chaud sont pris en charge uniquement dans les contrôles Toolbar qui ont le style à [**\_ deux dimensions TBSTYLE**](toolbar-control-and-button-styles.md) . |
 | Désactivé | Boutons désactivés.                                                                                                                                                                   |
 
 

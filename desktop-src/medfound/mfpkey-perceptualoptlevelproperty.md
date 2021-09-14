@@ -4,12 +4,12 @@ ms.assetid: f44fd932-d8f8-46c7-b17c-27e6141408ab
 title: MFPKEY_PERCEPTUALOPTLEVEL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f9eb74ae025dbddbdea7f76c2af8b15e912cf80ebd06e810a5214bf9798d1bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d86857ca9d7e4205afc0baf9c212e92606511ffc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235956"
 ---
 # <a name="mfpkey_perceptualoptlevel-property"></a>MFPKEY \_ propriété PERCEPTUALOPTLEVEL
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’optimisation de perception conservatrice est un processus par lequel le codec tente d’identifier les régions « importantes » et « sans importance » dans la trame vidéo. Après avoir identifié ces régions du cadre, le codec offre une priorité plus élevée à la qualité des régions importantes, au détriment de la qualité des régions inimportants.
 
@@ -35,7 +35,7 @@ L’optimisation de la perception insiste sur le fait que l’image semble corre
 
 Les résultats de l’optimisation varient considérablement en fonction du type de vidéo encodé. Cette fonctionnalité peut être parfaitement adaptée aux encodages à faible débit et à faible résolution (par exemple, la diffusion Web), mais elle doit probablement être évitée pour la qualité vidéo d’archivage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Une boîte de dialogue de tâche est une boîte de dialogue qui peu
 ms.assetid: vs|controls|~\controls\toolbar\taskdialogsoverview.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2367e3cadff68f10af9d883d4ed7959e4e862a6f406a83361ea2f40b2f69c78
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2eb5cafa452a4ed653c404d053e888c6de644236
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120061425"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116874"
 ---
 # <a name="about-task-dialogs"></a>À propos des boîtes de dialogue de tâche
 
@@ -39,7 +39,7 @@ Les illustrations montrent les éléments suivants :
 | Titre de la fenêtre           | Légende de la fenêtre.                                                                                                                                                                                                                                                                                                                                                               | **pszWindowTitle**                                         |
 | Icône principale              | Grande icône qui signifie l’objectif de la boîte de dialogue de tâche.                                                                                                                                                                                                                                                                                                                          | **hMainIcon** ou **pszMainIcon**                           |
 | Instruction principale       | Texte principal.                                                                                                                                                                                                                                                                                                                                                                      | **pszMainInstruction**                                     |
-| Content                | Texte supplémentaire.                                                                                                                                                                                                                                                                                                                                                                          | **pszContent**                                             |
+| Contenu                | Texte supplémentaire.                                                                                                                                                                                                                                                                                                                                                                          | **pszContent**                                             |
 | Barre de progression           | Barre animée qui affiche la progression d’une tâche.                                                                                                                                                                                                                                                                                                                                | **dwFlags**                                                |
 | Cases d’option          | Options définies par l’application pour l’utilisateur.                                                                                                                                                                                                                                                                                                                                            | **pRadioButtons**                                          |
 | Bouton personnalisé          | Bouton qui ne fait pas partie des boutons courants. Il peut s’agir d’un bouton normal ou, comme indiqué dans l’illustration, d’un lien de commande comportant jusqu’à deux lignes de texte.                                                                                                                                                                                                                    | **pButtons**                                               |

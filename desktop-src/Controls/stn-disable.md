@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 793c4faaba723955d079891458b0d1823ca4fbd9c6053083cab5c886a1acbcb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2763fce96b043ec6aebf5339a9f93d6fdf4a8abb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118670536"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116937"
 ---
 # <a name="stn_disable-notification-code"></a>STN \_ désactiver le code de notification
 
@@ -53,7 +53,7 @@ Handle vers le contrôle statique.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -75,7 +75,7 @@ Handle vers le contrôle statique.
 [STN \_ activer](stn-enable.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Contrôles statiques](static-controls.md)

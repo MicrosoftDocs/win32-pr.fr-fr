@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54ed3b8afed7b96e657984a437ff54b1099f196b8dc3d0035468835152b5a841
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 072ff9b8a107fe19afb1fee6107a2f05bad36025
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078083"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116454"
 ---
 # <a name="tbm_getpos-message"></a>\_Message TBM GETPOS
 
@@ -35,11 +35,11 @@ Récupère la position logique actuelle du curseur dans un TrackBar. Les positio
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur 32 bits qui spécifie la position logique actuelle du curseur de la barre de défilement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

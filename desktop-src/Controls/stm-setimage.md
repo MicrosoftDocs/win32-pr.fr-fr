@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d48cc8aeb5e28ac67a6bbe25636be1a2f6f9b89f225568be02e517e1ad04dc55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27c4f9c216d2e987727a1e2fa9bc6de12a823d52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116942"
 ---
 # <a name="stm_setimage-message"></a>\_Message SETIMAGE STM
 
@@ -56,11 +56,11 @@ Handle de l’image à associer au contrôle statique.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un handle vers l’image précédemment associée au contrôle statique, le cas échéant ; dans le cas contraire, la **valeur est null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour associer une image à un contrôle statique, le contrôle doit avoir le style approprié. Le tableau suivant indique le style requis pour chaque type d’image.
 
@@ -85,7 +85,7 @@ Pour associer une image à un contrôle statique, le contrôle doit avoir le sty
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

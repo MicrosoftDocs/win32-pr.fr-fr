@@ -4,12 +4,12 @@ ms.assetid: 158fe3a1-42e6-461d-b56b-5419cd961fca
 title: 'didacticiel : copie de Flux ASF à l’aide d’objets WMContainer'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2149358d216e044f3392b882a997ef4aa455ae799b6ece450bca11f0f22a6781
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44bac13626a8c80f474eeb029db4eb1351273910
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237873"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235818"
 ---
 # <a name="tutorial-copying-asf-streams-by-using-wmcontainer-objects"></a>didacticiel : copie de Flux ASF à l’aide d’objets WMContainer
 

@@ -4,12 +4,12 @@ ms.assetid: 7dfd85e6-936e-4b78-a2cb-a5d59153e1c4
 title: GUID de sous-type de vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc442b68a77e3df50667979c9d2d1654d26e45882af1b70d04b3fc8c014ce72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38829480aed7372496fc196cc6c55d781b672a2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117688372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235788"
 ---
 # <a name="video-subtype-guids"></a>GUID de sous-type de vidéo
 

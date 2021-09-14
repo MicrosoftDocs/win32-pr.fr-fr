@@ -21,12 +21,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5adb0371e3796c5d512ff3582a5c65850dc6cf8261f138934d46640aa57bf28
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef4a19306855b7f38d03aa00323b26407f108bfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115921"
 ---
 # <a name="tree-view-control-item-states"></a>États des éléments de contrôle Tree-View
 
@@ -49,7 +49,7 @@ Cette section répertorie les indicateurs d’état d’élément utilisés pour
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous définissez ou récupérez l’index d’image de superposition ou l’index d’images d’état d’un élément, vous devez spécifier les masques suivants dans le membre **stateMask** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) :
 
@@ -59,7 +59,7 @@ Lorsque vous définissez ou récupérez l’index d’image de superposition ou 
 
 Ces valeurs peuvent également être utilisées pour masquer les bits d’État qui ne sont pas intéressants.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

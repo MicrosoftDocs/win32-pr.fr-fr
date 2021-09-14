@@ -4,12 +4,12 @@ description: Cette rubrique montre comment sous-classer des zones de liste déro
 ms.assetid: 9897EA94-1BF7-4711-AED6-5E9C863C287A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea674cfecf3c84ce4a1fa2abb1f23f8f208a8b8fd220736bbcec61bea7880b34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b48301309597c53f02ca87d1d1748ab1fe05139
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078443"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116922"
 ---
 # <a name="how-to-subclass-a-combo-box"></a>Comment sous-classe une zone de liste déroulante
 

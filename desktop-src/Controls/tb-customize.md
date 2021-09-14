@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 765c4fe1cba535903ff1e60804ee6d4ec5743f5d3726212f9aca16742a40913b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dada0ef195e898b7a46487a2d775e46d6af854ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116826"
 ---
 # <a name="tb_customize-message"></a>TO \_ personnaliser le message
 
@@ -43,18 +43,18 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > La barre d’outils doit gérer les notifications [TBN \_ QUERYINSERT](tbn-queryinsert.md) et [TBN \_ QUERYDELETE](tbn-querydelete.md) pour que la boîte de dialogue **personnaliser la barre d’outils** s’affiche. Si la barre d’outils ne gère pas ces notifications, la **\_ personnalisation to** n’a aucun effet.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

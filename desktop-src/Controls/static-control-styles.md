@@ -41,12 +41,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 972da9fc0a656f1106b2a33877783e1091a62659c03be28d65ad451a63491de3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b5ce264341042231b3e48f03978f5dea201f9ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119797919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116978"
 ---
 # <a name="static-control-styles"></a>Styles de contrôle statiques
 
@@ -89,11 +89,11 @@ Pour créer un contrôle statique à l’aide de la fonction [**CreateWindow**](
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser un style qui tronque des mots ou des chaînes avec des points de suspension pour du texte multiligne, [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) ou [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) peut être utilisé sur un contrôle owner-draw avec des indicateurs de mise en forme **DT \_ WordBreak** et **DT \_ ENDELLIPSIS** Set.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

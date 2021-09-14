@@ -4,12 +4,12 @@ ms.assetid: 4364ff87-816e-4b64-b5e9-c53dd6c9bb33
 title: Attribut VIDEO_ZOOM_RECT (EVR. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e6ce19c808545d400f53b9c0091cdbcc20c8efbc13372ae5386e419d244143
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dda4efca5beab844baf3b3f53074d6b3012e8621
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737144"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235781"
 ---
 # <a name="video_zoom_rect-attribute"></a>IMAGE de l' \_ \_ attribut Rect de zoom
 
@@ -19,7 +19,7 @@ Spécifie le rectangle source pour le mixage vidéo du [convertisseur vidéo am�
 
 Tableau d’octets
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est une structure [**MFVideoNormalizedRect**](/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect) .
 
@@ -61,7 +61,7 @@ HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect& nr
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

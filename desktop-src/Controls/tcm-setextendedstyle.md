@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a4a28bcf4cffe9aa2559f96a990d23511ece9fbbfc65468f84a4a874dce678a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4c789b45eaae6cb3b1bc4fed6f216ec5010b463
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116162"
 ---
 # <a name="tcm_setextendedstyle-message"></a>\_Message SETEXTENDEDSTYLE TCM
 
@@ -43,17 +43,17 @@ Valeur qui spécifie les styles du contrôle onglet étendu. Cette valeur est un
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** qui contient les styles étendus du contrôle onglet précédent.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *wParam* vous permet de modifier un ou plusieurs styles étendus sans avoir à récupérer d’abord les styles existants. Par exemple, si vous transmettez des [**TCS \_ ex \_ FLATSEPARATORS**](tab-control-extended-styles.md) pour *wParam* et 0 pour *lParam*, le style **TCS \_ ex \_ FLATSEPARATORS** est effacé, mais tous les autres styles restent les mêmes.
 
 Pour des raisons de compatibilité descendante, la macro [**TabCtrl \_ SetExtendedStyle**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_setextendedstyle) n’a pas été mise à jour pour utiliser *dwExMask*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

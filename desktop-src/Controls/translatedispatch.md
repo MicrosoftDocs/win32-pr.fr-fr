@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 08f726c3f56579260e96a882f1123d035df37cb3f7f71fd0ecbc47d41672359c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1230ed1e65f8d739f9a0a05e4788eb919c45c4cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115926"
 ---
 # <a name="translatedispatch-callback-function"></a>TranslateDispatch fonction de rappel
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**MSG**](/windows/win32/api/winuser/ns-winuser-msg)
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **bool**](/windows/desktop/WinProg/windows-data-types)**
 
@@ -81,7 +81,7 @@ TranslateDispatchCallback(LPMSG lpmsg)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
