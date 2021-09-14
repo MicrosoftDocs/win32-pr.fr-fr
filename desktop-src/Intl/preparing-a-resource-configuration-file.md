@@ -4,12 +4,12 @@ ms.assetid: 292b57ea-1c7e-49b6-876c-4ad307a2ec43
 title: Préparation d’un fichier de configuration de ressource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b862f48f15997300f079a39de0eb385c535758d9392dc452e1d338d86c8d59e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac162ad7f6d20148e0ef60cb9dc15da41cc27186
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007327"
 ---
 # <a name="preparing-a-resource-configuration-file"></a>Préparation d’un fichier de configuration de ressource
 
@@ -195,7 +195,7 @@ Voici les types de ressources standard et leurs identificateurs numériques :
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous incluez des types de ressources icône (3), boîte de dialogue (5), chaîne (6) ou VERSION (16) dans l’élément neutralResources, vous devez dupliquer cette entrée dans l’élément localizedResources. Vous pouvez voir ce qui est illustré dans l’exemple ci-dessus, où le type de ressource 16 apparaît dans les sections ressources neutres et ressources localisées.
 

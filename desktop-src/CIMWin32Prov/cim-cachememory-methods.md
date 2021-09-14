@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_CacheMemory
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ee3d0c5b609d47ee58014735a1d9ce41743dcb3b41cf5a46b3e3ccdb6f4648
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9208658dc24d4260cef5d92055c41bc3b8277c9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119700979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239465"
 ---
 # <a name="cim_cachememory-methods"></a>\_Méthodes CACHEMEMORY CIM
 

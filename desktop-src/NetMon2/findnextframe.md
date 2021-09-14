@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: 2e303f7f9031ad451ad19be8bc8cbcd3abae3f46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222649"
 ---
 # <a name="findnextframe-function"></a>FindNextFrame fonction)
 
@@ -96,7 +96,7 @@ Numéro de trame le plus élevé dans la capture dans laquelle la recherche est 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un handle vers le frame suivant.
 
@@ -108,7 +108,7 @@ Le filtre de capture est défini principalement par le paramètre *ProtocolName*
 
 Le pointeur *ProtocolOffset* est retourné à l’analyseur appelant, qui ajoute le **mot** au pointeur retourné en verrouillant le frame (avec [ParserTemporaryLockFrame](parsertemporarylockframe.md)) pour obtenir le **LPBYTE** du protocole recherché. Au retour, le HFRAME qui a réussi le filtre est donné à l’analyseur. Si l’analyseur constate que ce frame n’est pas celui qui est recherché, l’analyseur peut remettre le HFRAME à la fonction **FindNextFrame** pour accéder au frame suivant. Les adresses source et de destination ne sont pas requises et peuvent être passées comme **null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Échantillonne des données à partir de l’élément/texture spé
 ms.assetid: FC0DF03E-9C21-4E88-96ED-EEFE86017E7C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9193930aadf8874c759fde3beac7d7da4c9d01b709f6e0b1840b36fe0675ef8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72e82696ecc5b01847f87b39cbfeba0c665bcde4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118790787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191640"
 ---
 # <a name="sample_b-sm4---asm"></a>exemple \_ b (SM4-ASM)
 
@@ -38,7 +38,7 @@ ms.locfileid: "118790787"
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les données sources peuvent provenir de n’importe quel type de ressource, autre que des mémoires tampons. Un décalage supplémentaire est appliqué au niveau de détail calculé dans le cadre de l’exécution de l’instruction.
 
@@ -68,11 +68,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

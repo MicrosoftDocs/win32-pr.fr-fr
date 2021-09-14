@@ -4,12 +4,12 @@ ms.assetid: d2828269-6841-41a8-8d45-f864c7e85857
 title: Utilisation du filtre tee Smart
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8897a93e8be7582a4acce1a2822160c58cfe1df79eb2093bd5d96bad9629b64
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5260469634c613fe05c25eb9f55e24e108e8c434
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240617"
 ---
 # <a name="using-the-smart-tee-filter"></a>Utilisation du filtre tee Smart
 

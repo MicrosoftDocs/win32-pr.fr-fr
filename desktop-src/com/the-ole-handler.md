@@ -4,12 +4,12 @@ description: Un gestionnaire OLE est une DLL contenant plusieurs composants inte
 ms.assetid: 5a01b4be-38cf-4019-ba20-ee67b836a3e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecca46971d3ad4fdea7df6a502b2897439e03817849ad776d3e0b13a213a94f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb9579f18b44a36a794ff807d9d616dd3a06dd1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129631"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221689"
 ---
 # <a name="the-ole-handler"></a>Le gestionnaire OLE
 

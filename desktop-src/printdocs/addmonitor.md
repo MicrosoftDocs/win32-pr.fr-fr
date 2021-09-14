@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Winspool.drv
 ms.openlocfilehash: 40b45c4dc05580837a2cf4a001cf8d18e646e5cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220697"
 ---
 # <a name="addmonitor-function"></a>AddMonitor fonction)
 
@@ -66,7 +66,7 @@ Notez que l’appel échoue si l’environnement ne correspond pas à l’enviro
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 
@@ -87,7 +87,7 @@ Pour déterminer les moniteurs de port actuellement installés, appelez la fonct
 
 Pour supprimer un moniteur ajouté par **AddMonitor**, appelez la fonction [**DeleteMonitor**](deletemonitor.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

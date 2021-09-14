@@ -4,12 +4,12 @@ ms.assetid: 2e6482b5-382d-4b17-b71e-6d2e4483a45e
 title: L’application utilise
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f6dd2141c725a4062425b86974ae4d2c3d28420da07841584f6712b833c13e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f588d2a7baa7dc781e9e2c7a3653230e57a2ed6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117773675"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222292"
 ---
 # <a name="application-uses"></a>L’application utilise
 

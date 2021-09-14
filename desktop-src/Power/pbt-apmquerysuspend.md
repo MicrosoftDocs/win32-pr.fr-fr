@@ -4,12 +4,12 @@ ms.assetid: 83cb0fdc-437e-4d03-87f0-6a416281c0d5
 title: Événement PBT_APMQUERYSUSPEND (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e8063ce68a88c8a39cb6f9ab8a4f559aed41242eaae25fab616ace8793b16ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 277e4faf7617037b917dedab3193e421a381166a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007135"
 ---
 # <a name="pbt_apmquerysuspend-event"></a>\_Événement PBT APMQUERYSUSPEND
 
@@ -69,11 +69,11 @@ Indicateurs d’action. Si le bit 0 est 1, l’application peut inviter l’util
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour autoriser l’interruption de la demande. Pour refuser la demande, retournez **la \_ requête \_ de diffusion Deny**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application doit traiter cet événement aussi rapidement que possible. L’application peut demander à l’utilisateur des instructions sur la façon de se préparer à la suspension uniquement si le bit 0 dans le paramètre *Flags* est défini. Toutefois, si ce message est émis parce que l’utilisateur ferme le couvercle de l’ordinateur portable, il ne sera pas possible d’inviter l’utilisateur. Les applications doivent respecter un certain comportement lorsqu’elles ferment le couvercle de l’ordinateur portable ou appuient sur le bouton d’alimentation et permettent à la transition de s’effectuer correctement.
 

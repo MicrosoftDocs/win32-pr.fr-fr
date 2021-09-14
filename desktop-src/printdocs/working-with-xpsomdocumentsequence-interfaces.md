@@ -4,12 +4,12 @@ ms.assetid: e7d01f21-0b5d-4385-89e8-14021800e234
 title: Utilisation des interfaces IXpsOMDocumentSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edac74809de63c1ae4e688bb99214d11b091ee4e877c921e9280abc9c6868121
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f108cbadf735b334f758102915abbda239a4e974
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119098661"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220641"
 ---
 # <a name="working-with-ixpsomdocumentsequence-interfaces"></a>Utilisation des interfaces IXpsOMDocumentSequence
 
@@ -20,7 +20,7 @@ Cette rubrique explique comment utiliser les interfaces qui fournissent l’acc�
 | Nom de l’interface                                                          | Interfaces enfants logiques                            | Description                                                              |
 |-------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------|
 | [**IXpsOMDocumentSequence**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence)<br/>     | [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)<br/> | Regroupe un ensemble de FixedDocuments dans une liste ordonnée.<br/>          |
-| [**IXpsOMDocumentCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection)<br/> | Aucun<br/>                                     | Collection de FixedDocuments dans une séquence de documents XPS.<br/> |
+| [**IXpsOMDocumentCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection)<br/> | None<br/>                                     | Collection de FixedDocuments dans une séquence de documents XPS.<br/> |
 
 
 

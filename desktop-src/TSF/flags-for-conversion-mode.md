@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c8c3a452e3115e66e4f0f6e75999cad9bce7e1eadf14b4cadd24fae640a327
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 022712ff45f213992bf3d40bd0149959e4864faa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118879215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193523"
 ---
 # <a name="flags-for-conversion-mode"></a>Indicateurs pour le mode de conversion
 
@@ -61,7 +61,7 @@ Les valeurs suivantes sont utilisées comme valeur de la [ \_ \_ \_ \_ phrase IN
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

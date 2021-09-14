@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4877c5e1088e2cf801987d2729d02f64075fc73d1d48daba1fc83b20041c1758
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af3a54db81a388184da148cd411895ebb910de7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006543"
 ---
 # <a name="win32_1394controllerdevice-class"></a>\_Classe 1394ControllerDevice Win32
 
@@ -200,7 +200,7 @@ Cette propriété est héritée de la [**\_ ControlledBy CIM**](cim-controlledby
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ 1394ControllerDevice** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 
@@ -268,7 +268,7 @@ Number of Hard Resets :
 Number of Soft Resets :
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

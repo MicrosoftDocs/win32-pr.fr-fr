@@ -4,12 +4,12 @@ ms.assetid: bcd9fe61-0f92-41bc-b953-a66e01e43a75
 title: Inverser les régions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1920b2bcc764bcc1c6e93c3a0c18bacf84a87e5bc2536d1bd503a0d47138166b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7e3c4b4d01f9ed8f09e819d59bf3268a1ccae4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914280"
 ---
 # <a name="inverting-regions"></a>Inverser les régions
 

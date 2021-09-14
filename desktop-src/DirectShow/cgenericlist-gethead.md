@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: afe8de9a0f23cdee1a06bff18a5460ee2789086748c44b7668931cd80121dc34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1805be6125d2037356cc7e9e285af21d21ecb2a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006783"
 ---
 # <a name="cgenericlistgethead-method"></a>Méthode CGenericList. GetHead
 
@@ -40,11 +40,11 @@ OBJECT* GetHead();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers un objet de type **Object** (le type de modèle).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

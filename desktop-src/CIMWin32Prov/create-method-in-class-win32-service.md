@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3baa83179ac6c5040aa85a5fcf2af0d932a4c8e9cdc2d10742c5c8aaa66abb5f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 71bc0f4edb879fc4a51a012bc53db67031056f47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007021"
 ---
 # <a name="create-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Créer une méthode de la classe Win32_Service (fournisseurs WMI CIMWin32)
 
@@ -199,7 +199,7 @@ Service qui doit être démarré automatiquement par le gestionnaire de contrôl
 
 </dd> <dt>
 
-Manuelle
+Manuel
 </dt> <dd>
 
 Service qui doit être démarré par le gestionnaire de contrôle des services lorsqu’un processus appelle la méthode [**StartService**](startservice-method-in-class-win32-service.md) .
@@ -257,7 +257,7 @@ Tableau qui contient les noms des services qui doivent démarrer avant le démar
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -438,7 +438,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les services sont généralement installés de l’une des deux manières suivantes : dans le cadre de l’installation du système d’exploitation ou à l’aide d’un programme d’installation fourni par le développeur du service. Toutefois, certains services, en particulier ceux créés en interne, peuvent ne pas avoir de programme d’installation. Dans ces instances, vous pouvez utiliser la méthode **Create** pour installer des services par programme.
 
@@ -467,7 +467,7 @@ errReturn = objService.Create ("DbService", "Personnel Database", _
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

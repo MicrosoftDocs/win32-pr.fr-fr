@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4129730ae3ce2f3a95db41d8bc65025c3195056cbd4a1afddbfeb83d9bb33ea9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d380ef738af3b684606e86a7c36dc04217c54b7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119073653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006724"
 ---
 # <a name="coutputqueuereset-method"></a>COutputQueue. Reset, méthode
 
@@ -40,15 +40,15 @@ void Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode réinitialise la variable de membre [**COutputQueue :: m \_ HR**](coutputqueue-m-hr.md) sur S \_ OK. L’objet peut recevoir à nouveau des exemples de supports. par exemple, après une opération de vidage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

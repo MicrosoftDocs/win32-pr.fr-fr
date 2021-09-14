@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b95d2591c8eef4b3df22cd8af301bfee9862dd2e3124ecd1cda8d92a589f91df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af9242ccf75bc1e5443f040399ffbd8a939ed92e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119493534"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008006"
 ---
 # <a name="id3dxkeyframedanimationsetgetrotationkeys-method"></a>ID3DXKeyframedAnimationSet :: GetRotationKeys, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers un tableau alloué par l’utilisateur de quaternions [**D3DXKEY \
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

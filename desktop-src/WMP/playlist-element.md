@@ -10,12 +10,12 @@ keywords:
 - éléments, PLAYLIST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fed45a2b8d7a0c0c5a2e19a783fbecf1041ecf2550c9f9a3a31e4b7c1aab894d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9d66aa832a146b0fb8942fae6481095918f9a81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118336745"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193224"
 ---
 # <a name="playlist-element"></a>Élément PLAYLIST
 

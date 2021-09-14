@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 323afb66d251d58bf13670fd335da2bd26ad2193ce03d5aa799ddb0f28e875fc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fd72ef0281615c0b56176e86ee9bb3659b498a0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119744719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222729"
 ---
 # <a name="compareaddresses-function"></a>CompareAddresses fonction)
 
@@ -54,7 +54,7 @@ Pointeur vers la deuxième adresse.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si les adresses sont identiques, la fonction retourne la valeur zéro.
 
@@ -62,13 +62,13 @@ Si le paramètre *lpAddress1* spécifie une adresse qui est inférieure à l’a
 
 Si le paramètre *lpAddress1* spécifie une adresse qui est supérieure à l’adresse que le paramètre *lpAddress2* spécifie, la valeur de retour est un nombre positif.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une adresse qui est inférieure à une autre adresse indique un frame précédent. Une adresse supérieure à une autre adresse indique une trame ultérieure.
 
 Moniteur réseau fournit deux autres fonctions, [CompareFrameDestAddress](compareframedestaddress.md) et [CompareFrameSourceAddress](compareframesourceaddress.md), que vous pouvez utiliser pour comparer des adresses. La fonction **CompareFrameDestAddress** compare une adresse donnée à l’adresse de destination du frame, et la fonction **CompareFrameSourceAddress** compare une adresse donnée à l’adresse source du frame.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

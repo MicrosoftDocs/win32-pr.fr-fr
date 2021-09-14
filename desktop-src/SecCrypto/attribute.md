@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c3e07c771a34e89cfbcbba5695450e195ef55482e0a27bee008f3ea8251bf8bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34c0800874dc9380b8c9034df2867fc3d1fb578d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222260"
 ---
 # <a name="attribute-object"></a>Attribute (objet)
 
@@ -54,11 +54,11 @@ L’objet **attribut** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet d' **attribut** peut être créé et il est sécurisé pour les scripts. Le ProgID de l’objet **attribut** est CAPICOM. Attribut. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

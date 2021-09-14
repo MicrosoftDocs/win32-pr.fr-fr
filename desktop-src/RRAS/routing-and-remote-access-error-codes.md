@@ -12,11 +12,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 5664bc6a4b6b820d7ce72b0605cea8339aa96b16
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007062"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>Codes d’erreur de routage et d’accès distant
 

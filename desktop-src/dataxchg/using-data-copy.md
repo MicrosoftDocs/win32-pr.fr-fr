@@ -9,12 +9,12 @@ keywords:
 - Message WM_COPYDATA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b231a03a30c578590dabf04d740f917a791a86d0e868d3587ff0b63bf283866f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e1e44c4abb9aba68d4db1544f5c7d52220cdc681
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119730553"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008169"
 ---
 # <a name="using-data-copy"></a>Utilisation de la copie de données
 

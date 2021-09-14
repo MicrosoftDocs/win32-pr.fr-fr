@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cbc5a1add320d711c92020074b3de810d134e88953a8413c0efd2e6b6fdd954
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e263e35802af752fa262c898d036fccaa37aff87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118359908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222620"
 ---
 # <a name="glgetstring-function"></a>glGetString fonction)
 
@@ -73,7 +73,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glGetString** retourne un pointeur vers une chaîne statique décrivant certains aspects de la connexion OpenGL actuelle.
 
@@ -93,7 +93,7 @@ Le format et le contenu de la chaîne retournée par **glGetString** dépendent 
 
 Si une erreur est générée, **glGetString** retourne zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

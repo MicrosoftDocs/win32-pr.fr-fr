@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 02d52c28d224ff39b5dbec8681c1ac7a87e04507217a8f16ee39bf2a433ae914
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5d2bf23da1c3b501a7b53370df70e9cf3716608
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006669"
 ---
 # <a name="crendererinputpinendflush-method"></a>Méthode CRendererInputPin. EndFlush
 
@@ -40,11 +40,11 @@ HRESULT EndFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

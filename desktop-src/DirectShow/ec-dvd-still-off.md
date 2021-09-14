@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 406f51ebe380490affd618c3af0a3d2a0e428f8ffbeb0685eb0e0693a6f01132
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 811bc85deafb40676041280daa0a1cdd8f8b3dda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119906019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195435"
 ---
 # <a name="ec_dvd_still_off"></a>\_DVD ce \_ toujours \_ désactivé
 
@@ -42,13 +42,13 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement indique que toutes les actives ont encore été libérées.
 
 Cet événement est déclenché dans tous les domaines.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

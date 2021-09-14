@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 619a3cd277425b555bc64139c3e59c959cc6abd19d6da22c2129830c38496a24
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cd3f4e53c61fef1f030f654bbb0363cd7c97381
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007569"
 ---
 # <a name="dbglog-macro"></a>DbgLog macro)
 
@@ -70,7 +70,7 @@ Arguments supplémentaires pour la chaîne de format.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette macro ne retourne pas de valeur.
 

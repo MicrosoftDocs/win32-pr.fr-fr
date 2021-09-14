@@ -4,12 +4,12 @@ description: La prise en charge native des appareils biométriques est incorpor�
 ms.assetid: 616ba95a-27a3-4eac-b802-5217954ed04e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a72b7bb6eab6a062b4dae51f729641607bcadc05dc7b0c50d12f6d59d729ae9f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0f524437ba60f0ad5c1518225f91ff23c789a917
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119622699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222356"
 ---
 # <a name="biometric-framework-overview"></a>Vue d’ensemble du Framework biométrique
 

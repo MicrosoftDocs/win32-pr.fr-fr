@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 52ffe68de6294038e24332d15761cf8a63458077f6b04976841a69b06b4ff185
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c0336c8dbb38ef27a73f43206b78fc8f4207cfa9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120064913"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914871"
 ---
 # <a name="esentinvalidcolumnexception-constructor-overload-list"></a>Liste de surcharge du constructeur EsentInvalidColumnException
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

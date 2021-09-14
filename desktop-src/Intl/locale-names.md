@@ -4,12 +4,12 @@ ms.assetid: 221aae7b-3a7c-4995-ae78-50d97de436d8
 title: Noms de paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fed4c09900544e96c0f05166d1f4054972e9d8ff89fc108c185695a7506859bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9808db94615cba4416c12995b9c969eaaf5a3fee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147401"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240155"
 ---
 # <a name="locale-names"></a>Noms de paramètres régionaux
 

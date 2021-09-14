@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d9c0c90780e4bcd35da2d410f7b4743547cbd8d31ac06293c411f2415e4e408
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a50a2ae9fe4ca77198f9e63548f709e0f571fdb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239358"
 ---
 # <a name="dtm_getrange-message"></a>\_Message DTM GETRANGE
 
@@ -39,7 +39,7 @@ Pointeur vers un tableau à deux éléments de structures [**SystemTime**](/wind
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** qui est une combinaison de GDTR \_ min ou GDTR \_ Max. Le premier élément du tableau [**SystemTime**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) contient l’heure minimale autorisée si GDTR \_ min est défini. Le deuxième élément du tableau **SystemTime** contient le temps maximal autorisé si GDTR \_ Max est défini.
 

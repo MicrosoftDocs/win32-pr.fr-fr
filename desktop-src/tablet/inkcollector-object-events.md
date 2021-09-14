@@ -1,15 +1,15 @@
 ---
-description: 'Le tableau suivant décrit les threads sur lesquels les événements d’objets InkCollector peuvent se déclencher. EventThreadsCursorButtonDownFires sur le thread d’encre. CursorButtonUpFires sur le thread d’encre. CursorDownFires sur le thread d’encre. CursorInRangeFires sur le thread d’encre. CursorOutOfRangeFires sur le thread d’encre. Événement DoubleClick (Automation uniquement). Se déclenche sur le thread d’interface utilisateur de l’application. DoubleClick (bibliothèque managée uniquement) est déclenché sur le thread d’interface utilisateur de l’application. GestureFires sur le thread d’encre. MouseDownFires sur le thread d’interface utilisateur de l’application. MouseMoveFires sur le thread d’interface utilisateur de l’application. MouseUpFires sur le thread d’interface utilisateur de l’application. MouseWheelFires sur le thread d’interface utilisateur de l’application. NewInAirPacketsFires sur le thread d’encre. NewPacketsFires sur le thread d’encre. StrokeFires sur l’encre thread.SystemGestureFires sur le thread d’encre. TabletAddedFires sur le thread d’encre. TabletRemovedFires sur le thread d’encre. '
+description: 'Le tableau suivant décrit les threads sur lesquels les événements d’objets InkCollector peuvent se déclencher. EventThreadsCursorButtonDownFires sur le thread d’encre. CursorButtonUpFires sur le thread d’encre. CursorDownFires sur le thread d’encre. CursorInRangeFires sur le thread d’encre. CursorOutOfRangeFires sur le thread d’encre. Événement DoubleClick (Automation uniquement). Se déclenche sur le thread d’interface utilisateur de l’application. DoubleClick (bibliothèque managée uniquement) est déclenché sur le thread d’interface utilisateur de l’application. GestureFires sur le thread d’encre. MouseDownFires sur le thread d’interface utilisateur de l’application. MouseMoveFires sur le thread d’interface utilisateur de l’application. MouseUpFires sur le thread d’interface utilisateur de l’application. MouseWheelFires sur le thread d’interface utilisateur de l’application. NewInAirPacketsFires sur le thread d’encre. NewPacketsFires sur le thread d’encre. StrokeFires sur le thread d’encre. SystemGestureFires sur le thread d’encre. TabletAddedFires sur le thread d’encre. TabletRemovedFires sur le thread d’encre. '
 ms.assetid: 39a1c868-eb7e-4139-806d-27d86175cbcf
 title: Événements de l’objet InkCollector
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a543bd1a461bfbc88382255accf1b5bfdf628886699093d8bd930f1b349c2461
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73b5d0031c6a471f3958efa5a8a1f95a5150e8eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220089"
 ---
 # <a name="inkcollector-object-events"></a>Événements de l’objet InkCollector
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 15c91c71a4cb65bfaffa07bf16e09bec0d16b7b4
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239808"
 ---
 # <a name="drv_install-message"></a>Message d’installation de DRV \_
 
@@ -72,7 +72,7 @@ Le paramètre *lParam1* n’est pas utilisé.
 
 Certains pilotes installables ajoutent des informations de configuration à la valeur affectée à la valeur de registre associée au pilote.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

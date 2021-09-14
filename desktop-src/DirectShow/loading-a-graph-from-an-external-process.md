@@ -4,12 +4,12 @@ ms.assetid: 1c657c7f-46d7-4feb-88a7-4a3227c9070b
 title: chargement d’un Graph à partir d’un processus externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e92fdaebb9ce3cb6615153daf66a8991477bf76e16ac3298e8e8b2fb59d74b4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eac42db3a87b00b1cb8f3a9ae5297215ae9bd3fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119831053"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007499"
 ---
 # <a name="loading-a-graph-from-an-external-process"></a>chargement d’un Graph à partir d’un processus externe
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: db67425defce2b2247aa7ba94a9742c53a671c27287d76474223cbc050725f5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9d9597c3022d18ba0c6d476710f1c43430babc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118494016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917692"
 ---
 # <a name="esentobsoleteexception-class"></a>EsentObsoleteException, classe
 

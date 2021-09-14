@@ -4,12 +4,12 @@ ms.assetid: cb1f34dd-dab4-4ffb-a73b-79a214290509
 title: Valeurs de retour d’encodage/décodage ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c48bc5bc122f322650c7913ea9d1978d5113da31fa650a23e8f439555d7ed0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6cfae63484753564784cdfdfee0073d8f37e90ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119880099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222289"
 ---
 # <a name="asn1-encodingdecoding-return-values"></a>Valeurs de retour d’encodage/décodage ASN. 1
 

@@ -4,12 +4,12 @@ ms.assetid: d8390bd4-0339-4955-992c-92b8c9f6bf88
 title: Sous-types vidéo DV (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ee08bad5970d016ada2bf129132bf34261be9ba856071d9f90f1e73de91978
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cbacb15f5801d959fbc5150546cff04dea687753
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120102949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195476"
 ---
 # <a name="dv-video-subtypes"></a>Sous-types vidéo DV
 
@@ -62,7 +62,7 @@ Deux sous-types DV supplémentaires sont définis dans le fichier d’en-tête U
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant indique les débits de données pris en charge, en mégabits par seconde (Mbits/s), pour les pilotes MSDV et UVC.
 
@@ -81,7 +81,7 @@ pour les flux de 25 mbits/s, le comportement du pilote MSDV a changé dans Windo
 
 les filtres [](dv-splitter-filter.md) de [décodage dv Video et dv](dv-video-decoder-filter.md) DirectShow prennent uniquement en charge les formats de magnétoscope numérique SDL. Les données peuvent être PAL ou NTSC. Des filtres ou codecs tiers peuvent être disponibles pour analyser d’autres formats DV, à condition que le débit de données soit pris en charge par le pilote MSDV ou UVC.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

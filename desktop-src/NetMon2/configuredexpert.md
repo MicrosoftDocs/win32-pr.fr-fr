@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Netmon.h
 ms.openlocfilehash: 3f3d40bf5d38c6b5151691a7d15bd93bef01eee5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222700"
 ---
 # <a name="configuredexpert-structure"></a>CONFIGUREDEXPERT, structure
 
@@ -62,7 +62,7 @@ Pointeur vers une structure [**EXPERTCONFIG**](expertconfig.md) .
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

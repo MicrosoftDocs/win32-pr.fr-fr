@@ -4,12 +4,12 @@ ms.assetid: f5464614-f6bb-427d-5488-3ba0fd4c6e8d
 title: Fonctions vectorielles au niveau du composant
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aee8de793dc6d1c4cd7880581a20dbf43bbba38487728e37d3bf92724fd0f26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70d7bae881827e0662a06c46dd54971ce5ed591d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917959"
 ---
 # <a name="component-wise-vector-functions"></a>Fonctions vectorielles au niveau du composant
 

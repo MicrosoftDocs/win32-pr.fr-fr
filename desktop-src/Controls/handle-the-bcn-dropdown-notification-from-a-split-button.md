@@ -4,12 +4,12 @@ description: Cette rubrique décrit une manière possible de répondre à la \_ 
 ms.assetid: 847DD645-AE29-4F62-BC32-F235BA409E1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae037c5756257451bb560144609c1647a102d4a5a91bfec2b7c24aa9c6c980f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a368dd28c5347f438feff75fbddb129a420caae7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120047219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006291"
 ---
 # <a name="how-to-handle-the-bcn_dropdown-notification-from-a-split-button"></a>Gestion \_ de la notification de liste déroulante BCN à partir d’un bouton partagé
 

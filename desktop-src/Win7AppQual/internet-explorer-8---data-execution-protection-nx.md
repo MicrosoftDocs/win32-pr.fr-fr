@@ -4,12 +4,12 @@ ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8-protection de l’exécution des données/NX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1f969aa2e934f36142995150b6484dad2fa5067f6cbb5ab3a947055af375ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb0208cc20e78c30f42b09af78460990be20b002
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221900"
 ---
 # <a name="internet-explorer-8---data-execution-protectionnx"></a>Internet Explorer 8-protection de l’exécution des données/NX
 

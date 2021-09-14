@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c687d476b5dc5aa65e876839dcd0c94c0f77c96f133db710d6b98f7114ab724
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ffbe9f5032c193cb612f68ca8ed6ec6b04ce8094
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119320149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007663"
 ---
 # <a name="ccm_setunicodeformat-message"></a>\_Message CCM SETUNICODEFORMAT
 
@@ -39,7 +39,7 @@ Valeur qui détermine le jeu de caractères utilisé par le contrôle. Si cette 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 

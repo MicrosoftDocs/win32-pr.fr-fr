@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 27266484cffa503583df32b60c6e8a0c04f344f4
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364192"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239730"
 ---
 # <a name="icm_draw_query-message"></a>ICM \_ CRÉER un \_ message de requête
 
@@ -53,7 +53,7 @@ Retourne ICERR \_ OK si le pilote peut restituer des données au format spécifi
 
 ce message diffère du [**ICM \_ DRAW \_ BEGIN**](icm-draw-begin.md) message en ce sens qu’il interroge le pilote de manière générale. **ICM \_ DESSINER \_ commencer** détermine si le pilote peut dessiner les données à l’aide du format spécifié dans des conditions spécifiques, telles que l’étirement de l’image.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

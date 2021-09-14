@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 29ee0ab0a9a927b3860760877457735198465b7c28789a542c040fc9e9e788a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2597b3f83a65dafd2da0198aade5243acc1184fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118367415"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222785"
 ---
 # <a name="capturefile_header_values-structure"></a>\_Structure de valeurs d’en-tête CAPTUREFILE \_
 
@@ -174,7 +174,7 @@ Ce membre n’est pas utilisé.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

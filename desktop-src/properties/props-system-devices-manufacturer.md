@@ -4,12 +4,12 @@ ms.assetid: ddd9a6e4-dc14-4ffc-aef0-6aab9e7c9442
 title: System.Devices.Manufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035674ddf46529c895d7c952b7e3a94697f5797e39817ac78cf5690f387546c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f0651282c60e2c5917cc7779d9ff83188f303b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118467540"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220473"
 ---
 # <a name="systemdevicesmanufacturer"></a>System.Devices.Manufacturer
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

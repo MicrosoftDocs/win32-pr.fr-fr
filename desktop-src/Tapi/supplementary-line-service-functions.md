@@ -4,12 +4,12 @@ ms.assetid: d4338b3c-cd84-4abb-b74e-9df895c8355b
 title: Fonctions de service en ligne supplémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0f2bdd609f092adebd5270a4cc8a3fe35bedce17ad57d8e4e85b5875001255f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 21a29831369fd6b886d57cfae075b5b8bf7a83b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119476342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222105"
 ---
 # <a name="supplementary-line-service-functions"></a>Fonctions de service en ligne supplémentaires
 
@@ -34,7 +34,7 @@ Voici un regroupement fonctionnel des fonctions de service en ligne supplémenta
 -   [Appels effectués](basic-telephony-services-reference.md)
 -   [Contrôle multimédia](#media-control)
 -   [Surveillance des médias](#media-monitoring)
--   [Proxies](#proxies)
+-   [Proxys](#proxies)
 -   [Qualité de service](#quality-of-service)
 -   [Envoi d’informations au tiers distant](#sending-information-to-remote-party)
 -   [Gestion des fournisseurs de services](#service-provider-management)

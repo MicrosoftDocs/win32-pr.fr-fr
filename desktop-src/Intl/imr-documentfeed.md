@@ -4,12 +4,12 @@ ms.assetid: 1a007bed-15e5-4400-9d2f-32e37e1765d2
 title: IMR_DOCUMENTFEED le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbef4c83d35fa02e2c879d76b9520df6d01588c07cb725b13e66888e9dd27722
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc4fe46f95b7ad17ba7bb7850ec3fb9ca980519f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118948776"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007399"
 ---
 # <a name="imr_documentfeed-notification-code"></a>\_Code de notification IMR DOCUMENTFEED
 
@@ -44,7 +44,7 @@ Pointeur vers une mémoire tampon destinée à contenir la structure [**RECONVER
 
 Retourne la structure actuelle de la chaîne de reconversion. Si *lParam* a la valeur **null**, l’application retourne la taille requise pour que la mémoire tampon contienne la structure. La commande retourne 0 en cas d’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’IME met en cache les chaînes converties pour une meilleure précision de conversion. L’une des limitations de mise en cache de l’IME est qu’elle perd la chaîne convertie dans les circonstances suivantes :
 
@@ -54,7 +54,7 @@ L’IME met en cache les chaînes converties pour une meilleure précision de co
 
 Avec la commande **IMR \_ DOCUMENTFEED** , l’IME peut actualiser ses chaînes mises en cache à tout moment. L’utilisation de cette commande améliore la précision de la conversion.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

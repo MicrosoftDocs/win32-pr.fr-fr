@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 4d565d1e9b567ff0c3320d6e0ba6023a6c4917720a2a13f32f98164cb7632123
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e3665709564f578046273facbd3311253d8c2b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008119"
 ---
 # <a name="d3dxvec4catmullrom-function-d3dx10mathh"></a>D3DXVec4CatmullRom, fonction (D3DX10Math. h)
 
@@ -104,7 +104,7 @@ Type : **[ **D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointeur vers une structure D3DXVECTOR4 qui est le résultat de l’interpolation Catmull-Rom.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À partir de quatre points (P1, P2, P3, P4), recherchez une fonction Q (s) de ce type :
 

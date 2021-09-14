@@ -5,21 +5,21 @@ title: Extensions Winsock Secure Socket
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4b62ee593b3abbb3bb0f8dbf27b79d6868f04fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918875"
 ---
 # <a name="winsock-secure-socket-extensions"></a>Extensions Winsock Secure Socket
 
 Les extensions de socket sécurisé de Winsock permettent à une application de socket de contrôler la sécurité de leur trafic sur un réseau. Ces extensions permettent à une application de fournir la stratégie de sécurité et les exigences de son trafic réseau, et d’interroger les paramètres de sécurité appliqués. Par exemple, une application peut utiliser ces extensions pour interroger le jeton de sécurité d’homologue qui peut être utilisé pour effectuer des vérifications d’accès au niveau de l’application.
 
-Les extensions de socket sécurisé sont conçues pour intégrer les services fournis par IPsec et d’autres protocoles de sécurité à l’aide de Winsock Framework. Avant Windows Vista, sur Windows Server 2003 et Windows XP, IPsec a été configuré par un administrateur via des stratégies locales et de domaine. Sur Windows Vista, les extensions Secure Socket permettent à la place des applications de configurer et de contrôler entièrement ou partiellement la sécurité de leur trafic réseau au niveau du Socket.
+Les extensions de socket sécurisé sont conçues pour intégrer les services fournis par IPsec et d’autres protocoles de sécurité à l’aide de Winsock Framework. avant Windows Vista, sur Windows Server 2003 et Windows XP, IPsec a été configuré par un administrateur via des stratégies locales et de domaine. sur Windows Vista, secure socket extensions permet à la place des applications de configurer et de contrôler entièrement ou partiellement la sécurité de leur trafic réseau au niveau du socket.
 
-Les applications peuvent déjà sécuriser le trafic réseau à l’aide d’API publiques, telles que la gestion IPsec, la plateforme de filtrage Windows et l’interface SSPI (Security Support Provider Interface). Toutefois, l’utilisation de ces API peut rendre l’application plus difficile à développer et peut compliquer la configuration et le déploiement de. Les extensions Winsock Secure Socket ont été conçues pour simplifier le développement d’applications réseau qui nécessitent un trafic réseau sécurisé en laissant Winsock gérer la plus grande partie de la complexité.
+les Applications peuvent déjà sécuriser le trafic réseau à l’aide d’api publiques, telles que la gestion IPsec, la plateforme de filtrage Windows et l’Interface SSPI (Security Support Provider Interface). Toutefois, l’utilisation de ces API peut rendre l’application plus difficile à développer et peut compliquer la configuration et le déploiement de. Les extensions Winsock Secure Socket ont été conçues pour simplifier le développement d’applications réseau qui nécessitent un trafic réseau sécurisé en laissant Winsock gérer la plus grande partie de la complexité.
 
-Ces extensions de socket sécurisé sont disponibles sur Windows Vista et versions ultérieures.
+ces extensions de socket sécurisé sont disponibles sur Windows Vista et versions ultérieures.
 
 ## <a name="secure-socket-functions"></a>Fonctions de socket sécurisé
 
@@ -33,7 +33,7 @@ Les fonctions d’extension de socket sécurisé sont les suivantes :
 -   [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity)
 
 > [!Note]  
-> Les fonctions de socket sécurisé ne prennent actuellement en charge que le protocole IPsec et sont disponibles sur Windows Vista et versions ultérieures.
+> les fonctions de socket sécurisé ne prennent actuellement en charge que le protocole IPsec et sont disponibles sur Windows Vista et versions ultérieures.
 
  
 
@@ -65,15 +65,15 @@ Le [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsarev
 ![architecture de base des extensions Winsock Secure Socket](images/ss-arch.png)
 
 -   Une application appelle les fonctions de socket sécurisé pour définir ou interroger les paramètres de sécurité d’un Socket.
--   Les fonctions de socket sécurisé sont un ensemble de fonctions d’extension de type sécurisé qui encapsulent les appels à la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) à l’aide de valeurs nouvellement définies pour le paramètre *DwIoControlCode* disponible sur Windows Vista et versions ultérieures. Ces IOCTL sont gérées par la pile réseau.
+-   les fonctions de socket sécurisé sont un ensemble de fonctions d’extension de type sécurisé qui encapsulent les appels à la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) à l’aide de valeurs nouvellement définies pour le paramètre *dwIoControlCode* disponible sur Windows Vista et versions ultérieures. Ces IOCTL sont gérées par la pile réseau.
 -   La pile réseau dirigera l’appel vers l’application de la [couche application (ALE)](../fwp/application-layer-enforcement--ale-.md) avec le descripteur du point de terminaison. Pour les fonctions [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname)et [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) , ALE configure les paramètres de l’application sur le point de terminaison local. Pour la fonction [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) , ALE lira les informations demandées à partir des points de terminaison locaux et distants applicables.
--   En fonction des événements de socket, l’application de la couche application (ALE) applique des stratégies pour l’architecture du socket sécurisé à l’aide de la plateforme de filtrage Windows. Pour plus d’informations, consultez [à propos de la plateforme de filtrage Windows](../fwp/about-windows-filtering-platform.md) et de l' [application de la couche application (ALE)](../fwp/application-layer-enforcement--ale-.md).
+-   en fonction des événements de socket, l’application de la couche application (ALE) applique des stratégies pour l’architecture du socket sécurisé à l’aide de la plateforme de filtrage Windows. pour plus d’informations, consultez [à propos](../fwp/about-windows-filtering-platform.md) de la Windows de filtrage de la plateforme et de l' [application de la couche application (ALE)](../fwp/application-layer-enforcement--ale-.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[À propos de la plateforme de filtrage Windows](../fwp/about-windows-filtering-platform.md)
+[à propos de la plateforme de filtrage Windows](../fwp/about-windows-filtering-platform.md)
 </dt> <dt>
 
 [Exemples de Winsock avancés utilisant Secure Socket extensions](advanced-winsock-samples-using-secure-socket-extensions.md)
@@ -100,7 +100,7 @@ Le [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsarev
 [Plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md)
 </dt> <dt>
 
-[Fonctions de l’API de la plateforme de filtrage Windows](../fwp/fwp-functions.md)
+[Windows Filtrage des fonctions API de la plateforme](../fwp/fwp-functions.md)
 </dt> </dl>
 
  

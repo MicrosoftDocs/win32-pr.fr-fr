@@ -3,7 +3,7 @@ title: Message WM_PAINTCLIPBOARD (winuser. h)
 description: Envoyé au propriétaire du presse-papiers par une fenêtre de la visionneuse du presse-papiers lorsque le presse-papiers contient des données au \_ format CF OWNERDISPLAY et que la zone cliente de la visionneuse du presse-papiers doit être redessinée.
 ms.assetid: 85aeefa5-e3d9-4689-a068-47b59ec7b571
 keywords:
-- WM_PAINTCLIPBOARD l’échange de données de message
+- WM_PAINTCLIPBOARD des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8148af6b513fd1fa956d48f22dc86e618544b073
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518074"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008155"
 ---
 # <a name="wm_paintclipboard-message"></a>\_Message WM PAINTCLIPBOARD
 
@@ -50,7 +50,7 @@ Handle d’un objet de mémoire global qui contient une structure [**PAINTSTRUCT
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
@@ -82,7 +82,7 @@ Le propriétaire du presse-papiers doit utiliser la fonction [**GlobalLock**](/w
 [**\_SIZECLIPBOARD WM**](wm-sizeclipboard.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

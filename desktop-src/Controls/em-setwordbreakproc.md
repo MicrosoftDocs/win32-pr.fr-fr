@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90617545fab7c8c5cf75babd98e9d6ef85c5713778c52a6a00966a131d0a0581
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e85335562c9e9881093d89293e7e2ace9cf43b0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120048018"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006345"
 ---
 # <a name="em_setwordbreakproc-message"></a>\_Message SETWORDBREAKPROC em
 
@@ -43,11 +43,11 @@ Adresse de la fonction WordWrap définie par l’application. Pour plus d’info
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fonction WordWrap analyse une mémoire tampon de texte qui contient du texte à envoyer à l’écran, en recherchant le premier mot qui ne tient pas sur la ligne active de l’écran. La fonction WordWrap place ce mot au début de la ligne suivante à l’écran.
 
@@ -55,7 +55,7 @@ Une fonction WordWrap définit le point auquel le système doit couper une ligne
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

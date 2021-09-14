@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 5b15d8c711813251c7ad2593939a2d3284f79acaa4a3204ea89cb59bc26ce23c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f4a2cffa77b2a66267daf0a67a59698ae3e3b8eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008137"
 ---
 # <a name="d3dxvec3project-function-d3dx10mathh"></a>D3DXVec3Project, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Pointeur vers une structure D3DXMATRIX représentant la matrice universelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le vecteur projeté de l’espace de l’objet à l’espace à l’écran.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec3Project peut être utilisée comme paramètre pour une autre fonction.
 

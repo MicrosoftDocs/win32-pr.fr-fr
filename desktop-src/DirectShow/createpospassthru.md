@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0118299bd328d09d77ccbb8d5258b25c0ac57bdc21fc7a47f642374e8be12357
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08735a0bac2cc5aa8f5bb61461f10097435ad9c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006690"
 ---
 # <a name="createpospassthru-function"></a>CreatePosPassThru fonction)
 
@@ -73,17 +73,17 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface **IUnknown**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite. Sinon, retourne une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode utilise l’interface [**ISeekingPassThru**](/windows/desktop/api/Strmif/nn-strmif-iseekingpassthru) pour créer l’objet. L’objet est chargé dynamiquement à partir de Quartz.dll.
 
 Si la fonction est réussie, l’interface **IUnknown** retournée a un nombre de références en attente. L’appelant doit libérer l’interface.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

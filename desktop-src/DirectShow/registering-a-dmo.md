@@ -4,12 +4,12 @@ ms.assetid: 9f74fc1c-b903-4725-b667-3c56a2726dbc
 title: Inscription d’un DMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab5635f7b05edb13da80adb62104db5c412fa55608ec2f9b5214380b7d9a095e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19c5364304fd5f6a9557c84a4b27c86d29fa4e84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119904539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195387"
 ---
 # <a name="registering-a-dmo"></a>Inscription d’un DMO
 

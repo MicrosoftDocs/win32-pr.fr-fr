@@ -4,12 +4,12 @@ ms.assetid: 1d8f8662-df1f-4f84-8b65-c152f79cc5c6
 title: Utilisation des fichiers journaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82281694b72a2c28bb0e65ee4db16bd9ba33b8ed9c6e5e74dbf6c6cbf559507a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba2032b90036f8f58c07d8c7e80e7e7ac2b2701c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143742"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239610"
 ---
 # <a name="working-with-log-files"></a>Utilisation des fichiers journaux
 

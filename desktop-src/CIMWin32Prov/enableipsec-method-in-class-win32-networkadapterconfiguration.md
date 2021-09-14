@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3a4b13d7cdd083fd5b343741823c8a7136ce1603941ba525978ecec4f73e4b1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6988d68f9939752e3c8c2c9ace063b895a2d3720
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118419487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007001"
 ---
 # <a name="enableipsec-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableIPSec de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -65,7 +65,7 @@ Liste des protocoles autorisés à s’exécuter sur l’adresse IP. Une valeur 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie lorsqu’un redémarrage n’est pas nécessaire, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et tout autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -420,7 +420,7 @@ DHCP n’est pas activé sur la carte.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les ports sont sécurisés uniquement lorsque la propriété **IPFilterSecurityEnabled** dans [**Win32 \_ NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md) a la **valeur true**.
 
@@ -428,7 +428,7 @@ Les ports sont sécurisés uniquement lorsque la propriété **IPFilterSecurityE
 
 L’exemple de script [activer IPSec sur une carte réseau](https://Gallery.TechNet.Microsoft.Com/ff821218-c392-42fb-a77c-c3eab899587c) , sur la Galerie TechNet, utilise **EnableIPSec** pour activer la sécurité IP pour une carte réseau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

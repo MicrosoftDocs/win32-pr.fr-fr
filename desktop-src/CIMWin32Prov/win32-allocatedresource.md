@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b5bbc459a020758398eef8de3db8d809378a1a88095c69fd91a170ce3930e3b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 87a57e53a85e4433ae325fc2ed441211db75b79f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119816659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006541"
 ---
 # <a name="win32_allocatedresource-class"></a>\_Classe AllocatedResource Win32
 
@@ -86,11 +86,11 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplace
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ AllocatedResource** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

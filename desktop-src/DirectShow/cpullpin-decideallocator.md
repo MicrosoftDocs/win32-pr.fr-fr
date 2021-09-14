@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e02fe78631c6ddee01b7acc96d761f71b80e8d3e1738d2ed6f6ae40d70b0c5d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91ffa139b916b1594e0729a0f8d52f07c62eda12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007607"
 ---
 # <a name="cpullpindecideallocator-method"></a>Méthode CPullPin. DecideAllocator
 
@@ -57,11 +57,11 @@ Pointeur vers une structure de [**\_ propriétés d’Allocator**](/windows/win3
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle la méthode [**IAsyncReader :: RequestAllocator**](/windows/desktop/api/Strmif/nf-strmif-iasyncreader-requestallocator) pour négocier un allocateur. Elle transmet le paramètre *pAlloc* directement à la méthode **RequestAllocator** . Elle transmet le paramètre *pProps* à **RequestAllocator** si *pProps* n’est pas **null**; dans le cas contraire, elle crée une structure de **\_ Propriétés Allocator** avec une requête par défaut de trois tampons de 64 Ko.
 

@@ -14,12 +14,12 @@ keywords:
 - référence pour le modèle objet, les types énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a7cf5893e522b4410a56c5ce4e4d2c1bf8f0d3c5903cfcb097f2012331db72
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b5f0bd389548c81da21217e28f9c90a8e771a5f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193256"
 ---
 # <a name="windows-media-player-sdk-enumeration-types"></a>Lecteur Windows Media Types d’énumération SDK
 

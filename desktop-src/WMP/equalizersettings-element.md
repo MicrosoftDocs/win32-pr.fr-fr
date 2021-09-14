@@ -10,12 +10,12 @@ keywords:
 - éléments, EQUALIZERSETTINGS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: facd5d9630536947614166bc8444ad38e33020920ce679180824ef9a3b007bc0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae20500dfba656450c3102ee80b4a06e089fe8ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191763"
 ---
 # <a name="equalizersettings-element"></a>Élément EQUALIZERSETTINGS
 

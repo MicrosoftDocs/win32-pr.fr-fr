@@ -17,12 +17,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - d3d12.h
-ms.openlocfilehash: 179acfa051212a2f98eb94441cbfad9fd7d9bbab47e4616f82a4f4cff3d41035
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5be3f6f825370c467388805c84096240441d09a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120069629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918476"
 ---
 # <a name="id3d12resourcegetdesc-method"></a>ID3D12Resource :: GetDesc, méthode
 
@@ -41,7 +41,7 @@ D3D12_RESOURCE_DESC GetDesc();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : description de la **[ **\_ ressource \_ D3D12**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc)**
 

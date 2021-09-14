@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102917
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9c68c6020823661d4cbf07a1a2ad156bc139408ca9c89409e4059636d41e5afd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f0652aa51f94b92eb6e58a635e4ba5f1be027b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117707652"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920975"
 ---
 # <a name="esentslvstreamingfilealreadyexistsexception-properties"></a>Propriétés EsentSLVStreamingFileAlreadyExistsException
 
@@ -69,7 +69,7 @@ Le type [EsentSLVStreamingFileAlreadyExistsException](./esentslvstreamingfilealr
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

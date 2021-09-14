@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 21549ec6427b82c6d229d2e3962689bc8879815429f3a68fd32d54283c30d6a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c30ef0b27185b5300ac5cec877ed4e4b38685c12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119639769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195431"
 ---
 # <a name="ec_dvd_subpicture_stream_change"></a>modification du flux de sous- \_ image de DVD EC \_ \_ \_
 
@@ -42,13 +42,13 @@ Valeur booléenne qui indique l’état activé/désactivé de la sous-image.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La sous-image peut changer automatiquement à l’aide d’une commande de navigation créée sur le disque, ainsi que via le contrôle d’application à l’aide de [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2).
 
 Cet événement est déclenché dans tous les domaines.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

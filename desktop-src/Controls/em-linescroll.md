@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6da4adbd789a8d9ae3344a1a49d39c7f5fbe22b7ec1ca51fcc6cead98ea7780
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 646e225ef269ccddca2cdc29caf635d94c1671e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120048639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006446"
 ---
 # <a name="em_linescroll-message"></a>\_Message LINESCROLL em
 
@@ -45,13 +45,13 @@ Nombre de lignes à faire défiler verticalement.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est envoyé à un contrôle d’édition multiligne, la valeur de retour est **true**.
 
 Si le message est envoyé à un contrôle d’édition sur une seule ligne, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle ne défile pas verticalement après la dernière ligne de texte dans le contrôle d’édition. Si la ligne actuelle plus le nombre de lignes spécifié par le paramètre *lParam* dépasse le nombre total de lignes dans le contrôle d’édition, la valeur est ajustée de sorte que la dernière ligne du contrôle d’édition soit défilante en haut de la fenêtre Modifier-contrôle.
 
@@ -59,7 +59,7 @@ Le contrôle ne défile pas verticalement après la dernière ligne de texte dan
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Le **message \_ LINESCROLL em** fait défiler le texte verticalement dans un contrôle d’édition multiligne. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

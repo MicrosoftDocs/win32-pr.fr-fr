@@ -4,12 +4,12 @@ ms.assetid: be6286e9-d125-40ad-b33e-b4e734ac2709
 title: Impression (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49f5807c976ef3224bc4b66afc0bb8637d79d725f12cbdebd3199d9710ae529a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e3b60010bcb63c553a96c5d70826f3fe0d3d4aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885080"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007716"
 ---
 # <a name="printing-gdi"></a>Impression (GDI+)
 

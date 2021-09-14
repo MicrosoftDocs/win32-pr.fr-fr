@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 6d74371478b30037e75b1c168dc235735ba6bd219fa461245262ff55a508ae5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49fb1767b7074da6480a47c52eb1384fb935317b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967834"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220316"
 ---
 # <a name="shell-and-shlwapi-dll-versions"></a>Versions des DLL Shell et Shlwapi
 

@@ -4,12 +4,12 @@ ms.assetid: e3da5962-a652-409e-b0ec-eb93671049b4
 title: Commande IMC_CLOSESTATUSWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31393c57c01f8f90d042e9bde1fe5bc742d606e099064e13f8de5baefeb46f58
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 207f04d53f269318f87ed11038cbd6817d5e607e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007423"
 ---
 # <a name="imc_closestatuswindow-command"></a>\_Commande IMC CLOSESTATUSWINDOW
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la fenêtre d’État IME est déjà masquée, cette commande ne fait rien. Bien qu’une application puisse envoyer cette commande à la fenêtre IME, l’application ne reçoit pas la [commande \_ CLOSESTATUSWINDOW IMN](imn-closestatuswindow.md) correspondante.
 

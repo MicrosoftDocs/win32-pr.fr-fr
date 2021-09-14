@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de3826b440099ef2edfdee59d555325210be424d25a8a317887be1090e1238b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26dcb2081ce6ca8aeeb6b7c5c8b9038bd4dc2860
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239274"
 ---
 # <a name="cbasemediafilterm_state-member"></a>CBaseMediaFilter :: m, \_ membre d’État
 
 Indique l’état actuel de l’objet.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++

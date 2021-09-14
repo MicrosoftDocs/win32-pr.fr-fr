@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 059ea8162241c61d88fc93f565fa0aa4ba8aee223212e6fab254ed9d5dec4eea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cea2448111266696398d1581aaecdbec2fb5859e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119739169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221476"
 ---
 # <a name="eapmethodtype-complex-type"></a>Type complexe EapMethodType
 
@@ -57,19 +57,19 @@ Le [**type**](eapcommonschema-type-eapmethodtype-element.md) et l’ID d' [**aut
 | Élément                                                                | Type         | Description                                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Faut**](eapcommonschema-authorid-eapmethodtype-element.md)     | unsignedInt  | Fait référence à l’auteur de la méthode. <br/>                                                                                                                                                                                                                 |
-| [**Type**](eapcommonschema-type-eapmethodtype-element.md)             | unsignedByte | Fait référence au type de méthode EAP. <br/>                                                                                                                                                                                                               |
+| [**Entrer**](eapcommonschema-type-eapmethodtype-element.md)             | unsignedByte | Fait référence au type de méthode EAP. <br/>                                                                                                                                                                                                               |
 | [**VendorId**](eapcommonschema-vendorid-eapmethodtype-element.md)     | unsignedInt  | Fait référence au fournisseur qui a défini la méthode-si l’élément [**type**](eapcommonschema-type-eapmethodtype-element.md) est 254 (méthode EAP développée). Le [**ID**](eapcommonschema-vendorid-eapmethodtype-element.md) de l’argument est facultatif. <br/> |
 | [**#D3**](eapcommonschema-vendortype-eapmethodtype-element.md) | unsignedInt  | Est le type défini par le fournisseur pour la méthode. Le [**module**](eapcommonschema-vendortype-eapmethodtype-element.md) de la est facultatif. <br/>                                                                                                           |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il n’est pas [**nécessaire que les**](eapcommonschema-authorid-eapmethodtype-element.md) éléments de réfaut de réfaut et [**ID**](eapcommonschema-vendorid-eapmethodtype-element.md) de données soient identiques pour une méthode particulière.
 
 Les [**éléments de**](eapcommonschema-authorid-eapmethodtype-element.md)réfaut-réid, type, [**ID**](eapcommonschema-vendorid-eapmethodtype-element.md) de [**certificat et**](eapcommonschema-vendortype-eapmethodtype-element.md) [**type**](eapcommonschema-type-eapmethodtype-element.md)d’élément sont chacun un numéro unique émis par l’IANA (Internet Assigned Numbers Authority).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

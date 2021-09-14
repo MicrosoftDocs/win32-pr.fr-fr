@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 15326b2ad7b09ec46ec6d8cc77d59107baa211ce2ba1a71eaf5f65fea5ff2382
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2df44a190d2cc127da390556e52f3f960b07d57b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006677"
 ---
 # <a name="crendererinputpinbreakconnect-method"></a>Méthode CRendererInputPin. BreakConnect
 
@@ -40,11 +40,11 @@ HRESULT BreakConnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

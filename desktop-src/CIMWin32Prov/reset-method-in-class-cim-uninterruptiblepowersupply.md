@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 331792346a125cada1434826a1b69982a0ab16310d4eb632149e4b2bbcc5b3ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54068e460ef2a1c6e6eee7500c018c485b81bd6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118418532"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239424"
 ---
 # <a name="reset-method-of-the-cim_uninterruptiblepowersupply-class"></a>Méthode Reset de la \_ classe CIM UninterruptiblePowerSupply
 
@@ -43,7 +43,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 

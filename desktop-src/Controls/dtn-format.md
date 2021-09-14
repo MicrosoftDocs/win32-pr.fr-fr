@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75fb4279f6ec6b95ded673083a024d32785dd5156588852663e6c307f8351dc4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fadd11b090777d2226eeed85f32d2062e8340e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006815"
 ---
 # <a name="dtn_format-notification-code"></a>\_Code de notification au format DTN
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMDATETIMEFORMAT**](/windows/win32/api/commctrl/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le propriétaire du contrôle doit retourner zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La gestion de ce code de notification permet au propriétaire du contrôle de fournir une chaîne personnalisée que le contrôle affichera. (Pour plus d’informations sur les champs de rappel, consultez [champs de rappel](date-and-time-picker-controls.md).)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

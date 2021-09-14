@@ -4,12 +4,12 @@ ms.assetid: 74dec302-5ef7-41db-abe9-c3e9cbed17de
 title: Sous-types vidéo du convertisseur de mixage vidéo (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd4f8f37cc32187d6606f9c276349d6455915edcf50f459a4c849dab429c135c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c157c239d9ba8120b20913519181b0ba571d2100
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239022"
 ---
 # <a name="video-mixing-renderer-video-subtypes"></a>Sous-types vidéo du convertisseur de mixage vidéo
 

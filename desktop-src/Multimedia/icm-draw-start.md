@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 538659eb9878be819ee6ec1506403fcce314eb0b
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195308"
 ---
 # <a name="icm_draw_start-message"></a>ICM \_ DESSINER le \_ message de début
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est utilisé par le matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones.
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5976211d0aea5936278353a9fb1b172585c0ee63531dde229ef4bf561c5dbb4e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2541c493b1b2e3805e3705c71e890c6a6aaa98ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222532"
 ---
 # <a name="ip_network-structure"></a>\_Structure de réseau IP
 
@@ -58,7 +58,7 @@ Spécifie le masque de réseau. Appliquez ce masque à l’adresse IP afin d’e
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

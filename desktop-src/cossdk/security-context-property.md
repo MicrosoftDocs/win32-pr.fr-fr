@@ -4,12 +4,12 @@ ms.assetid: 7ffae145-be13-4a2c-beb1-eaa1d11ad9a7
 title: Propriété de contexte de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31c537dc8c9b925fff5f7fc4f3da99fd361bfb02f61008b7d7af8a421b9f1d11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54b061ef7c0d0d0c146b626c11fd550c48ab488a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118546820"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008173"
 ---
 # <a name="security-context-property"></a>Propriété de contexte de sécurité
 

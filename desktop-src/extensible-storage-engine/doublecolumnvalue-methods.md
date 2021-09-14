@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.doub
 ms:contentKeyID: 55100992
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: dacdad45509a566d7a2eae8a9c279eb197f46d21a685a5959dad77be49126a4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af11b6cf614fd818e483e77bc4407f6da0bde3b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118083284"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221361"
 ---
 # <a name="doublecolumnvalue-methods"></a>Méthodes DoubleColumnValue
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [DoubleColumnValue, classe](./doublecolumnvalue-class.md)
 

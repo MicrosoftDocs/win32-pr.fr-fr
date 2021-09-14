@@ -5,11 +5,11 @@ title: Conception pour l’évolutivité
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 54ab0aa9d67afaac14c6d8f59df34183bde36113
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543070"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918591"
 ---
 # <a name="designing-for-scalability"></a>Conception pour l’évolutivité
 
@@ -26,8 +26,8 @@ La liste suivante décrit les problèmes d’extensibilité et suggère des solu
 
      
 
--   Durée de vie des objets. Pour être évolutive, une application COM+ doit prêter une attention particulière à la durée de vie des objets. Bien qu’un objet existe, il consomme des ressources. Il est important de s’assurer que les durées de vie des objets qui détiennent des ressources coûteuses sont gérées avec soin. Pour les objets à forte demande qui ne consomment pas de ressources coûteuses, le [regroupement d’objets com+](com--object-pooling.md) peut augmenter l’évolutivité, car vous pouvez modifier administrativement les valeurs de regroupement pour tirer parti de tout le matériel que vous pourriez avoir. Et c’est un moyen naturel de régir les connexions : par exemple, si vous disposez d’une licence pour 20 connexions SQL, vous pouvez dicter cela avec le paramètre de pool max.
--   Regroupement des composants d’application. Pour améliorer l’évolutivité d’une application COM+, les composants de niveau intermédiaire doivent être divisés en services qui dépendent du temps et du temps. Cela vous permet de vous concentrer sur l’utilisation éventuelle d’un service Microsoft Windows pour implémenter une action de composant requise. Par exemple, vous pouvez choisir d’utiliser un service comme [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) ou des [composants en file d’attente com+](com--queued-components.md) pour gérer des tâches asynchrones indépendantes du temps.
+-   Durée de vie des objets. Pour être évolutive, une application COM+ doit prêter une attention particulière à la durée de vie des objets. Bien qu’un objet existe, il consomme des ressources. Il est important de s’assurer que les durées de vie des objets qui détiennent des ressources coûteuses sont gérées avec soin. Pour les objets à forte demande qui ne consomment pas de ressources coûteuses, le [regroupement d’objets com+](com--object-pooling.md) peut augmenter l’évolutivité, car vous pouvez modifier administrativement les valeurs de regroupement pour tirer parti de tout le matériel que vous pourriez avoir. et c’est un moyen naturel de régir les connexions : par exemple, si vous disposez d’une licence pour 20 connexions SQL, vous pouvez dicter cela avec le paramètre de Pool Max.
+-   Regroupement des composants d’application. Pour améliorer l’évolutivité d’une application COM+, les composants de niveau intermédiaire doivent être divisés en services qui dépendent du temps et du temps. cela vous permet de vous concentrer sur l’utilisation éventuelle d’un service Microsoft Windows pour implémenter une action de composant requise. Par exemple, vous pouvez choisir d’utiliser un service comme [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) ou des [composants en file d’attente com+](com--queued-components.md) pour gérer des tâches asynchrones indépendantes du temps.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

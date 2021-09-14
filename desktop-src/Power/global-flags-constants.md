@@ -4,12 +4,12 @@ ms.assetid: d98190ef-f70e-4796-960e-ff32d2cf6f4f
 title: Constantes d’indicateurs globales (PowrProf. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2dfd23559959bee72e8572cc700a948df1e92dcdb37a03c41b52cdca4d578c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fd31340e3e7daf4f9dd034c3fa2db333680a626
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007154"
 ---
 # <a name="global-flags-constants"></a>Constantes d’indicateurs globaux
 
@@ -27,7 +27,7 @@ Les constantes d’indicateurs globales sont utilisées pour activer ou désacti
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

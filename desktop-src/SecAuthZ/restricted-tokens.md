@@ -4,12 +4,12 @@ ms.assetid: 06580ab9-ff58-4aa9-bf88-9536a2e1981d
 title: Jetons restreints
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53f63402997d9e1304ca75ca117554ce52c3aa727f44b3b8316c28e1ecfcea45
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fee8e6c89915e3edd0a9206f84a0d3d5697a3cb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118912007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193819"
 ---
 # <a name="restricted-tokens"></a>Jetons restreints
 

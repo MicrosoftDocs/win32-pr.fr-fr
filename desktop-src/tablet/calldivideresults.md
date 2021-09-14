@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 2e5f3060f261ba84b70272ed358a7c544f2b0e1582de310ed759b4ea40714359
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11878e6a0ac953b9b7eb27ce21bb67001f9d88d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220268"
 ---
 # <a name="calldivideresults-function"></a>CallDivideResults fonction)
 
@@ -153,7 +153,7 @@ Tableau contenant les angles de rotation des lignes pour obtenir les meilleurs r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction peut retourner l’une de ces valeurs.
 
@@ -169,11 +169,11 @@ Cette fonction peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour éviter les fuites de mémoire, vous devez libérer les ressources pour *pastrWords*, *pastrLines* et *pastrParagraphs*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 955843e7171aaa64e5fa7027b0e0f6049613e31c2d3c647fd705623456ac4e56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cbed5ceaca1e4e404c47766fa41b8b095216b277
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008140"
 ---
 # <a name="d3dxvec3hermite-function-d3dx10mathh"></a>D3DXVec3Hermite, fonction (D3DX10Math. h)
 
@@ -104,7 +104,7 @@ Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le résultat de l’interpolation spline Hermite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **D3DXVec3Hermite** interpole de (positiona, tangenta) à (PositionB, tangentB) à l’aide de l’interpolation spline Hermite.
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de46c684c102442fca8e9e8b70de86aae524f92a754818e1b83d05068c1a01f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff8c45eacf497faac4f89fc37334a17d881db085
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118116082"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193083"
 ---
 # <a name="iwmpcdromripstoprip-method"></a>IWMPCdromRip :: stopRip, méthode
 
@@ -49,11 +49,11 @@ Implements IWMPCdromRip.stopRip
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

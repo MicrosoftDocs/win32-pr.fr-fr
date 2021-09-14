@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 46f7bbc66d76fd9d07390e6d78f25cc96111801cea8f715d84b81e704518cbbc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d9651189cab228eaa5dacc9c2f5963201bbc65c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119577009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193940"
 ---
 # <a name="iscardiso7816updatebinary-method"></a>ISCardISO7816 :: UpdateBinary, méthode
 
@@ -74,7 +74,7 @@ Au retour, elle est remplie avec la commande APDU construite par cette opératio
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -91,7 +91,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La commande encapsulée ne peut être exécutée que si l’état de sécurité de la carte à puce répond aux attributs de sécurité du fichier élémentaire en cours de traitement.
 
@@ -103,7 +103,7 @@ Pour obtenir la liste de toutes les méthodes fournies par cette interface, cons
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

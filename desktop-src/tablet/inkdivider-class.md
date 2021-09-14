@@ -15,12 +15,12 @@ api_type:
 api_location:
 - Inkdiv.dll
 - Inkdiv.dll.dll
-ms.openlocfilehash: d7dd98aaef627bac6a26340464c14c4e46c07d6a23f32c2664651503b5d79014
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0658504303968803bd2abff063694701d121390
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118220830"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220044"
 ---
 # <a name="inkdivider-class"></a>InkDivider, classe
 
@@ -54,7 +54,7 @@ La classe **InkDivider** possède ces méthodes.
 
 | Méthode                              | Description                                                                                                                                                        |
 |:------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Diviser**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-divide) | Retourne un objet [**IInkDivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) qui contient des informations structurelles sur les traits de l’objet **InkDivider** .<br/> |
+| [**Divide**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-divide) | Retourne un objet [**IInkDivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) qui contient des informations structurelles sur les traits de l’objet **InkDivider** .<br/> |
 
 
 
@@ -76,7 +76,7 @@ La classe **InkDivider** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -100,7 +100,7 @@ Si vous n’assignez pas de contexte de module de reconnaissance à l’objet **
 
 Le **InkDivider** ne prend pas actuellement en charge les langues verticales. Pour que l’objet **InkDivider** reconnaisse ces langues correctement, l’objet [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) de la langue doit prendre en charge la fonctionnalité d’entrée gratuite et les caractères doivent être écrits de gauche à droite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

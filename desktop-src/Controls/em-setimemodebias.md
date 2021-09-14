@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4812c21558fba07be2709c0fd1a011f31d79fad17e0b4146fa0c7d65843a087
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48fbd93971a57cffa3441c2a3db0816572f761d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118672669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006386"
 ---
 # <a name="em_setimemodebias-message"></a>\_Message SETIMEMODEBIAS em
 
@@ -54,11 +54,11 @@ Il doit s’agir de la même valeur que *wParam*.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne le nouveau paramètre de décalage du mode IME.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque l’IME génère une liste de choix alternatifs pour un jeu de caractères, ce message définit les critères selon lesquels certains des choix s’affichent en haut de la liste.
 
@@ -66,7 +66,7 @@ Pour définir le décalage du mode Text Services Framework (TSF), utilisez [**em
 
 L’application doit appeler [**em \_ ISIME**](em-isime.md) avant d’appeler cette fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

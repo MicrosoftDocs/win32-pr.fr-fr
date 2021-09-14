@@ -8,12 +8,12 @@ keywords:
 - Portage OpenGL, exemple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0e52bffc88a227be9ece261aef1f6f42fbd6e5089eeda7b4b45570c860d7772
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a84fb4c39c9f322a091ac2ca92cdb914ff359997
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194471"
 ---
 # <a name="a-porting-sample"></a>Exemple de Portage
 

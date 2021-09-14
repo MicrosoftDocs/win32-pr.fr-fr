@@ -4,12 +4,12 @@ description: Traduction de la syntaxe d’objet COM pour les langages de program
 ms.assetid: 021e0085-c720-401e-9637-76580e67b307
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb6871046a80537dd39b4c9b502d945e28e46e719e637c4e6a629179dd3c6454
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf9d1ec65e5b4ff8f3b61106a4b7a8c9ee3134b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119500079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221657"
 ---
 # <a name="translating-com-object-syntax-for-programming-languages"></a>Traduction de la syntaxe d’objet COM pour les langages de programmation
 

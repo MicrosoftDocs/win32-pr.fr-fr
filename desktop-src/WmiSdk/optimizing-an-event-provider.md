@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Optimisation d’un fournisseur d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613fa6b054f979d0f7d1a33a87f927df9ef129a280cf7cd1675cbe0cf9818473
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70eaabfbbd462b831059b10590d7959bdef05cbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117923406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008241"
 ---
 # <a name="optimizing-an-event-provider"></a>Optimisation d’un fournisseur d’événements
 

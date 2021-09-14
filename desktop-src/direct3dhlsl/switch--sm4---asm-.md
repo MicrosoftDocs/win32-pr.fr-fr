@@ -4,12 +4,12 @@ description: Transfère le contrôle à un autre bloc d’instructions dans le c
 ms.assetid: ECAEECFD-B955-4356-B5C9-1D6A04C71D8F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39cb304c1ccf59c188a4e1f20f2b136897d833c80d6eb67cb0eb683d628ab9aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: feed346b8aa33feecc13fe2a6ffad59c961b0173
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117724350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918191"
 ---
 # <a name="switch-sm4---asm"></a>Switch (SM4-ASM)
 
@@ -34,7 +34,7 @@ Transfère le contrôle à un autre bloc d’instructions dans le corps du commu
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une  / construction [endswitch](endswitch--sm4---asm-.md) de commutateur se comporte exactement comme une construction de **commutateur** dans le langage C, avec l’exception suivante : pour [](case--sm4---asm-.md)les / instructions [par défaut](default--sm4---asm-.md) du cas d3d11 qui passent à la **casse** suivante / **par défaut** sans [saut](break--sm4---asm-.md) de code, il ne peut pas y avoir de code. Il est possible que plusieurs instructions **case** , y compris **default**, apparaissent séquentiellement, partageant le même bloc de code.
 
@@ -83,11 +83,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

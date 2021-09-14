@@ -4,12 +4,12 @@ ms.assetid: 1406ade4-77d8-49a7-8f36-cc49ff007a26
 title: Épingler les connexions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cfcd407e785e15f4243f3113a63569f8b4b84de517cdde0f63a88eaef79f85c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b509abddf4a915b65dfd322f76b4afb132a7f835
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119432289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007470"
 ---
 # <a name="pin-connections"></a>Épingler les connexions
 

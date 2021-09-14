@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5f2a503cfac8e6cef8b32ee4e84cb8fa78f930d4e1126fcd0af488f3908c540f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2ca60021c921e47de3c7afd5b8ee0bb2ea5e6d12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006951"
 ---
 # <a name="rename-method-of-the-win32_computersystem-class"></a>Renommer la méthode de la \_ classe Win32 ComputerSystem
 
@@ -65,7 +65,7 @@ Chaîne qui spécifie le nom du compte à utiliser lors de la connexion au contr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur 0 (zéro) en cas de réussite. Une valeur de retour différente de zéro indique une erreur. En cas de réussite, un redémarrage est nécessaire. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -77,7 +77,7 @@ Retourne une valeur 0 (zéro) en cas de réussite. Une valeur de retour différe
 **Autre** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser la méthode **Rename** pour renommer un ordinateur si vous êtes membre du groupe Administrateurs local. Toutefois, vous ne pouvez pas utiliser la méthode à distance pour les ordinateurs du domaine.
 
@@ -405,7 +405,7 @@ return 0; // Program successfully completed.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

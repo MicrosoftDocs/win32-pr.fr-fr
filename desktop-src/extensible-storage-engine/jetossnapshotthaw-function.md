@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 445fa1d2370f13ae39615d4228b245899173ad8d
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850726"
 ---
 # <a name="jetossnapshotthaw-function"></a>JetOSSnapshotThaw fonction)
 
@@ -71,7 +71,7 @@ Si cette fonction aboutit, une session d’instantané se termine et le comporte
 
 Si cette fonction échoue, la session d’instantané en cours se termine, mais le gel d’IOs pendant la période de capture instantanée n’a pas été respecté en interne.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les entrées du journal des événements seront générées pour les différentes étapes de l’instantané.
 

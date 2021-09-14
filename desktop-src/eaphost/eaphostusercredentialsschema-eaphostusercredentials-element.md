@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a18922ef19bd828067ddb0153aa7c6369ecfeebd0446f5a6481f91fa64ca21b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 690770091219e51b3ebb550a1a72e50f76b20542
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118274419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221401"
 ---
 # <a name="eaphostusercredentials-element"></a>Élément EapHostUserCredentials
 
@@ -71,7 +71,7 @@ Il existe un point d’extension pour d’autres espaces de noms.
 
 L’élément **processContents** active les futures améliorations du schéma. L’élément **processContents** est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

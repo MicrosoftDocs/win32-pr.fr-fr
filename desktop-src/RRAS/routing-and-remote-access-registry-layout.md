@@ -6,12 +6,12 @@ keywords:
 - Routage et accès à distance service RRAS, disposition du registre de routage et d’accès distant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd3388c2a11f69a473a334105d2872872b98b17b4956f12f886e50ada89f406f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f6ed72b569a8fe2efe1423ce2429c31cd0a0a65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120027399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007059"
 ---
 # <a name="routing-and-remote-access-registry-layout"></a>Disposition du Registre du routage et de l’accès distant
 

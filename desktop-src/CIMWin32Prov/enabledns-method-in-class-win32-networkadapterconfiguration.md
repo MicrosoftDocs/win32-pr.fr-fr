@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8dfe86439e9760fb06e8cd29e9140e73e71030744b064408df6275ced4a2e30c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc217211455d8804de47b2b3ffc761d4328fa49a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118676595"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007003"
 ---
 # <a name="enabledns-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableDNS de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -77,7 +77,7 @@ Suffixe de domaine DNS ajouté à un nom d’hôte lors de la résolution de nom
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie lorsqu’un redémarrage n’est pas nécessaire, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et tout autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -452,7 +452,7 @@ objNetworkSettings.EnableDNS strHostName, , , arrDNSSuffixes
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

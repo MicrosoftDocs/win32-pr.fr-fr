@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: effe2df53508cd9c1f6523356eb7296458208c3ee0e61c1dd12c94bd87b6ad31
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22bb45234c8be832f8ea30ed70b50c8f4919b7e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239249"
 ---
 # <a name="cbasemediafilterstop-method"></a>CBaseMediaFilter. Stop, méthode
 
@@ -40,15 +40,15 @@ HRESULT Stop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans la classe de base, cette méthode affecte à la variable d' [**\_ État CBaseMediaFilter :: m**](cbasemediafilter-m-state.md) la valeur State \_ Stopped, mais ne fait rien d’autre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

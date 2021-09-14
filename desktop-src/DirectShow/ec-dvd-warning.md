@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: a2f2d604b46a4c4bc2213fe74210defdf408336b69218589ff42209cebe025e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7f25d4565c2afeb4619f7832f6d5742e07dcca0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195403"
 ---
 # <a name="ec_dvd_warning"></a>\_avertissement de DVD EC \_
 
@@ -42,7 +42,7 @@ Si *pParam1* est égal à l' \_ Avertissement DVD \_ ouvert, à la recherche d�
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

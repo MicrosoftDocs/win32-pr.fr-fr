@@ -4,12 +4,12 @@ ms.assetid: 735af042-9800-4f75-a5c9-e1cf17b4a472
 title: Exemple de code de diffusion vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a325512d18d3e7156de017c969906e02ed8834ba9522c969b5deb2166f741860
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 90e9a738503174e7bcc6c0d0e7c1250e39348b4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238985"
 ---
 # <a name="video-streaming-sample-code"></a>Exemple de code de diffusion vidéo
 

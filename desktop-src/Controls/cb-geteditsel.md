@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 220750e96e08455eb36e6b6d698fb99056ad3dca6dfbb51054c6cd7cc33fd7e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 319ce4a3c7a5a61903d4fc3bf04eed223e749787
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118171604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006838"
 ---
 # <a name="cb_geteditsel-message"></a>\_Message GETEDITSEL CB
 
@@ -43,7 +43,7 @@ Pointeur vers une valeur **DWORD** qui reçoit la position de fin de la sélecti
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est une valeur **DWORD** de base zéro avec la position de départ de la sélection dans le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) et avec la position de fin du premier caractère après le dernier caractère sélectionné dans le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).
 
@@ -67,7 +67,7 @@ end = HIWORD(range);
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

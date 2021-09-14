@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8475bce93ec31da51b829cbd552e3fd9d9d5c784b51ca2efa883fb06cf661db5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a2f608d7dbbd4eec51139b6f285529849f708af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117724087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918143"
 ---
 # <a name="texture1darraysamplesfloatintfloatuint-function"></a>Texture1DArray :: Sample (S, float, int, float, uint), fonction
 
@@ -114,7 +114,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

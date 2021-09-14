@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Netmon.h
 ms.openlocfilehash: 76ba55b7544e35a07b74a41788a3befa766f87bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542938"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222705"
 ---
 # <a name="configure-callback-function"></a>Configurer la fonction de rappel
 
@@ -84,7 +84,7 @@ Handle de la fenêtre parente. Utilisez la poignée pour ouvrir une boîte de di
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit (autrement dit, s’il existe une configuration en cours), la valeur de retour est **true**.
 
@@ -100,7 +100,7 @@ Les données de configuration peuvent également être **null** lorsque la fonct
 
 Le début de la structure de données [**EXPERTCONFIG**](expertconfig.md) comprend une section privée qui stocke les informations de taille de la structure. La taille de la structure **EXPERTCONFIG** doit inclure la longueur **DWORD** réservée qui apparaît au début de la structure. Par exemple, si vos données de configuration nécessitent 20 octets d’espace de stockage, allouez 24 octets pour stocker les données. Si un *ppConfig* a la **valeur null**, la fonction **configure** appelle la fonction [**ExpertAllocMemory**](expertallocmemory.md) pour allouer une nouvelle configuration dont la taille est correcte. Si la mémoire tampon n’est pas suffisante pour contenir les données de l’expert, l’expert doit appeler la fonction [**ExpertReallocMemory**](expertreallocmemory.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

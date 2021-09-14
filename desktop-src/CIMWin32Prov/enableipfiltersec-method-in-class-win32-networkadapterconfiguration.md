@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a529b0628c70cacaf822045e173ddda9205c3c7c9dd726f2a12f0d29410d4cec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3429e2c2ba78e013da9195961b76ff84ffda9b68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080013"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007000"
 ---
 # <a name="enableipfiltersec-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableIPFilterSec de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Si la **valeur est true**, IPSec est activé globalement pour toutes les cartes 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie lorsqu’un redémarrage n’est pas nécessaire, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et tout autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur la carte.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la sécurité est activée, les caractéristiques de sécurité opérationnelles d’une carte réseau peuvent être contrôlées à l’aide de la méthode [**EnableIPSec**](enableipsec-method-in-class-win32-networkadapterconfiguration.md) spécifique à la carte réseau.
 
@@ -426,7 +426,7 @@ objNetworkSettings.EnableIPFilterSec(True)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

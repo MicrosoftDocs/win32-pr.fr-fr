@@ -4,12 +4,12 @@ ms.assetid: 6298fa7b-ddc8-4924-9616-6eed67ec48db
 title: Configuration d’experts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 103ea457e63f8584a9c7970382b999e5128286ae66ff3e09eddb45dd2870d63c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 152d728de1dc5a40836a9a2cc2c822a389e3f973
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144266"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222692"
 ---
 # <a name="configuring-experts"></a>Configuration d’experts
 

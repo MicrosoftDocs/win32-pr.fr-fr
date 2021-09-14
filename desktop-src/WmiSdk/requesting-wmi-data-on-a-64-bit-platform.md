@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Demande de données WMI sur une plateforme 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 320aaec9f11600e3b963a01fe9dcddbd6c4f1f3fd98df8ff2311417ddcd6fef7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd392d482f083a3c1b1dff3b90d70f1857aeebb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008214"
 ---
 # <a name="requesting-wmi-data-on-a-64-bit-platform"></a>Demande de données WMI sur une plateforme 64 bits
 
@@ -44,7 +44,7 @@ Sur un système 64 bits qui possède des versions côte à côte d’un fourniss
 
 Les applications C++ peuvent utiliser l’interface [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) avec [**IWbemServices :: ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod) pour communiquer l’utilisation d’un fournisseur qui n’est pas un fournisseur par défaut à WMI.
 
-dans les scripts et les Visual Basic, vous devez créer un objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) contenant les indicateurs pour le paramètre *objWbemNamedValueSet* de [**SWbemServices.ExecMethod**](swbemservices-execmethod.md). Pour plus d’informations sur la configuration des objets de paramètres pour cet appel, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+dans les scripts et les Visual Basic, vous devez créer un objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) contenant les indicateurs pour le paramètre *objWbemNamedValueSet* de [**SWbemServices. ExecMethod**](swbemservices-execmethod.md). Pour plus d’informations sur la configuration des objets de paramètres pour cet appel, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 Vous pouvez exécuter des scripts et des applications en toute sécurité à l’aide des indicateurs de contexte dans les systèmes d’exploitation plus anciens, car WMI les ignore dans les systèmes dans lesquels ils ne sont pas implémentés. Alors que les versions 32 bits et 64 bits du fournisseur de Registre système existent, Notez qu’il n’existe qu’une seule version de l’espace de stockage WMI.
 
@@ -52,7 +52,7 @@ Vous pouvez exécuter des scripts et des applications en toute sécurité à l�
 
 La série d’exemples suivante utilise le [fournisseur Registry](/previous-versions/windows/desktop/regprov/system-registry-provider), qui a des versions 32 bits et 64 bits côte à côte préinstallées sur les systèmes d’exploitation 64 bits. Dans ces exemples, les clients 32 bits obtiennent les données retournées par le fournisseur à partir du nœud 32-bit **\_ \_ \\ \\ Wow6432Node \\ Microsoft**. les clients 64 bits obtiennent les données retournées par le fournisseur à partir du nœud 64-bit de la **\_ \_ \\ \\ \\ journalisation Microsoft du logiciel de l’ordinateur local**.
 
-Les scripts montrent comment appeler les méthodes de la classe Registry [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) via [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) pour obtenir des données à partir de la ruche de Registre 32 bits.
+Les scripts montrent comment appeler les méthodes de la classe Registry [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) par le biais de [**SWbemServices. ExecMethod**](swbemservices-execmethod.md) pour obtenir des données à partir de la ruche de Registre 32 bits.
 
 le script suivant récupère les données du fournisseur qui correspondent à la largeur en bits de l’appelant, dans ce cas 64 bits, car il s’agit d’un script s’exécutant sous l’hôte de script Windows 64 bits (WSH). Le script obtient la valeur du nœud de Registre 64 de la clé **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ WBEM \\ CIMOM \\ Logging** plutôt que le nœud 32-bit **HKEY \_ local \_ machine \\ Software \\ Wow6432Node \\ Microsoft \\ WBEM \\ CIMOM**.
 

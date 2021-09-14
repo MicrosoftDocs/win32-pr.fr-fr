@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a92b4370d82848ac0bf289b3b40de37fbee62975ad208d56bde4844a2cbb13a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 170e92b6c31ce038f1bccc4003248b8ae86d5f79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119579059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007037"
 ---
 # <a name="cim_computersystemresource-class"></a>\_Classe CIM ComputerSystemResource
 
@@ -89,7 +89,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ ComputerSystemResource** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 
@@ -97,7 +97,7 @@ WMI n’implémente pas cette classe. Pour plus d’informations sur les classes
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
