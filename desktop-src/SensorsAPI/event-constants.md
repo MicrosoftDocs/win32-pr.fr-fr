@@ -4,12 +4,12 @@ ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
 title: Constantes d’événement (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1b16be770777c8e679e74123ce1c40c385893afee11ff3792dd58df007ae4c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc9fb3ced92c1fe263538f2ce27c3fc65fdd7676
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118890227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324730"
 ---
 # <a name="event-constants-sensorsh"></a>Constantes d’événement (sensors. h)
 
@@ -57,7 +57,7 @@ La plateforme de capteur réserve ce GUID pour une utilisation ultérieure.
 
 <dl></dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

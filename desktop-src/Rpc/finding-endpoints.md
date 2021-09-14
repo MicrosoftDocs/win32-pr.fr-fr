@@ -4,12 +4,12 @@ description: Les programmes serveur écoutent les points de terminaison pour les
 ms.assetid: 330bbe9f-b7e9-4a5b-86d8-824edec960d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 024a85704287db7e5f78bb67eee9b64a7c6dc84ce5724623450d36f743e5fa9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb0a97df3408a4d3c24dff9de28553f9e4b2210d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120021279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311533"
 ---
 # <a name="finding-endpoints"></a>Recherche de points de terminaison
 

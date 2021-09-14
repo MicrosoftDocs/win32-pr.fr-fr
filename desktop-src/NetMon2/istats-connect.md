@@ -15,11 +15,11 @@ api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
 ms.openlocfilehash: e6521e77453ec77f81422c7903b1a394512a4c1b
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471185"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011550"
 ---
 # <a name="istatsconnect-method"></a>IStats :: Connecter, méthode
 
@@ -99,7 +99,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque la méthode **Connecter** est appelée, Moniteur réseau appelle automatiquement la méthode **IStats :: configure** à l’aide de l’objet BLOB fourni par le paramètre *hInputBlob* . notez que les codes d’erreur retournés par l’appel à **IStats :: configure** sont passés en retour et retournés par l’appel de **IStats :: Connecter** .
 
@@ -119,7 +119,7 @@ L’objet BLOB d’erreur retourné par le paramètre *hErrorBlob* contient des 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

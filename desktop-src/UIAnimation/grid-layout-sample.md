@@ -4,12 +4,12 @@ description: montre comment utiliser Windows Animation, à l’aide de Direct2D 
 ms.assetid: f2f24058-c532-45ad-bde8-d05cfffcd505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf287dc7d6f96b9b5db4ce3fff7d30c34b1f8b998518dbdddc9d7abbda793330
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc4d691ffa6396e294fd2dfbd07eaf9329f19519
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118999679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232967"
 ---
 # <a name="grid-layout-sample"></a>Exemple de disposition en grille
 

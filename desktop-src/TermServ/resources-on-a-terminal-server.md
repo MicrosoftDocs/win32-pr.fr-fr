@@ -5,12 +5,12 @@ ms.assetid: ab193a9f-7424-42bf-8cea-28628096edc6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ba87ea7569b8ef9daeccb54890bb8882d423621b414fdd8df28c0c4e67b750
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81e099787ae3d0acd9028405b244f7fbc2e2117e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120009189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324525"
 ---
 # <a name="resources-on-a-remote-desktop-session-host-server"></a>Ressources sur un serveur hôte de session Bureau à distance
 

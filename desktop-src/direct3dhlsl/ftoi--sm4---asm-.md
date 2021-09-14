@@ -5,11 +5,11 @@ ms.assetid: 580AB4A6-0C1C-409B-B2B9-BA1D37772F46
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c02ce1b506d112a59d3087f59d219557575b8def
-ms.sourcegitcommit: 8c658e9872a2173e3dcec94195f9067fbcd85d3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "104316668"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310781"
 ---
 # <a name="ftoi-sm4---asm"></a>ftoi (sm4 - asm) 
 

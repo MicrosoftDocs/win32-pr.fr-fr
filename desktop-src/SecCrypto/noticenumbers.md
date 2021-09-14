@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: b2bd6e653eabe9b25588fd29517ac94e0c878fdb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090757"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123125"
 ---
 # <a name="noticenumbers-object"></a>Objet NoticeNumbers
 
@@ -48,27 +48,27 @@ L’objet **NoticeNumbers** a ces propriétés.
 
 | Propriété                                              | Type d’accès          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](noticenumbers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. Cette propriété est masquée dans Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Saut**](noticenumbers-count.md)<br/>       | Lecture seule<br/> | Récupère le nombre d’objets d' [**extension**](extension.md) dans la collection.<br/>                                                                                                                                    |
+| [**\_NewEnum**](noticenumbers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. cette propriété est masquée dans Visual Basic scripting Edition (VBScript).<br/> |
+| [**Nombre**](noticenumbers-count.md)<br/>       | Lecture seule<br/> | Récupère le nombre d’objets d' [**extension**](extension.md) dans la collection.<br/>                                                                                                                                    |
 | [**Élément**](noticenumbers-item.md)<br/>         | Lecture seule<br/> | Récupère l’objet d' [**extension**](extension.md) qui représente le numéro d’avis indexé de la collection.<br/> Il s’agit de la propriété par défaut.<br/>                                                            |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Impossible de créer l’objet **NoticeNumbers** .
 
 L’objet NoticeNumbers est utilisé dans la propriété [**qualifier. NoticeNumbers**](qualifier-noticenumbers.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

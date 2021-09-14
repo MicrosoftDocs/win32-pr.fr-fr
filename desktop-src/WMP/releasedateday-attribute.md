@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df82859bc5f7154294c188025efb1c8a143c4120d62c3d4e43c68f54fa2bb6b8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5d3ced8e5cb2416c08aadfc2fdac3cd6f99fa481
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010912"
 ---
 # <a name="releasedateday-attribute"></a>Attribut ReleaseDateDay
 
@@ -29,13 +29,13 @@ L’attribut **ReleaseDateDay** est la partie jour de la date de la version d’
 -   [Pistes de CD](cd-track-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: Compte LocalService
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d67051b95d6e5d18179bb2dc69928e68edb0f3e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233087"
 ---
 # <a name="localservice-account"></a>Compte LocalService
 
@@ -23,14 +23,14 @@ Le compte LocalService possède sa propre sous-clé sous la clé de Registre **H
 
 Le compte LocalService dispose des privilèges suivants :
 
--   **Se \_ \_Nom de ASSIGNPRIMARYTOKEN** (désactivé)
--   **Se \_ \_Nom de l’audit** (désactivé)
--   **Se \_ MODIFIER \_ le \_ nom** de la notification (activé)
--   **Se \_ CRÉER \_ un \_ nom global** (activé)
--   **Se \_ \_Nom d’emprunt d’identité** (activé)
--   **Se \_ AUGMENTER \_ le \_ nom du quota** (désactivé)
--   **Se \_ \_Nom** de l’arrêt (désactivé)
--   **Se \_ Détacher le \_ nom** (désactivé)
+-   **se \_ \_Nom de ASSIGNPRIMARYTOKEN** (désactivé)
+-   **se \_ \_Nom de l’audit** (désactivé)
+-   **se \_ MODIFIER \_ le \_ nom** de la notification (activé)
+-   **se \_ CRÉER \_ un \_ nom global** (activé)
+-   **se \_ \_Nom d’emprunt d’identité** (activé)
+-   **se \_ AUGMENTER \_ le \_ nom du quota** (désactivé)
+-   **se \_ \_Nom** de l’arrêt (désactivé)
+-   **se \_ Détacher le \_ nom** (désactivé)
 -   Tous les privilèges attribués aux utilisateurs et aux utilisateurs authentifiés
 
 Pour plus d’informations, consultez [sécurité des services et droits d’accès](service-security-and-access-rights.md).

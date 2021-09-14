@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 582341c97b6373fa0c04abf69642930328a34223a7c7b0dbc7792d8c7aec4680
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea9a8090a794f23693ae4fef10556bc207f16531
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119093089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313121"
 ---
 # <a name="folderparsename-method"></a>Folder. ParseName, méthode
 
@@ -48,13 +48,13 @@ Chaîne qui spécifie le nom de l’élément.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **FolderItem**](folderitem.md)\*\***
 
 Référence d’objet à l’objet [**FolderItem**](folderitem.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **ParseName** ne doit pas être utilisé pour les dossiers virtuels tels que mes documents.
 
@@ -146,7 +146,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

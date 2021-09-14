@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d3fc6b8ceb848d4738ff2d77b4441a29354bf09248e0de88008072dbf867e8a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9cc822e07022a01439fbe7e41243bd1b78e636b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118719923"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296103"
 ---
 # <a name="ncm_setallowtype-message"></a>\_Message NCM SETALLOWTYPE
 
@@ -47,17 +47,17 @@ NCM_SETALLOWTYPE
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’ensemble de masques est le critère utilisé pour valider une adresse réseau dans le message [**NCM \_ GETADDRESS**](ncm-getaddress.md) .
 
 Utilisez ce message pour un contrôle d’adresse réseau uniquement. Pour instancier, utilisez la classe **msctls \_ NetAddress** définie dans shellapi. h. Appelez [**InitNetworkAddressControl**](/windows/desktop/api/Shellapi/nf-shellapi-initnetworkaddresscontrol) au moment de l’exécution avant d’envoyer ce message. Cette commande initialise la bibliothèque de contrôles communs qui contient le contrôle d’adresse réseau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Ajout de 2 vecteurs au niveau du composant.
 ms.assetid: 405A513C-B2DD-43B9-A86D-1D173B084C51
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a6a0fbec409f7184c0af3b305603fcf468ef867234e8b6791bff0d1d527ad3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e34f0a95ad9ee9ae4bdeed317eef133e3773311
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118795398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232632"
 ---
 # <a name="add-sm4---asm"></a>Add (SM4-ASM)
 
@@ -36,7 +36,7 @@ Ajout de 2 vecteurs au niveau du composant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant présente les résultats obtenus lors de l’exécution de l’instruction avec différentes classes de nombres, en supposant qu’aucun dépassement de capacité ou négatif ne se produit. F signifie nombre réel fini.
 
@@ -76,11 +76,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

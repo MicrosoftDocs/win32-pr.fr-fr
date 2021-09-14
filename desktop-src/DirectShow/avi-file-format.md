@@ -4,12 +4,12 @@ ms.assetid: 986de213-4d25-4768-a6bc-37891cd38353
 title: Format de fichier AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24c51f07436797ad8b8762be623349032d03da00c99ea5d39e3e90a54ec43af9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e70c474caac3edf316238c3fe87dcf042737a975
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111502"
 ---
 # <a name="avi-file-format"></a>Format de fichier AVI
 

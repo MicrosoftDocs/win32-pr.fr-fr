@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 165f1b8fa6adce4ffba079eff025ed1a3d8ce61e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322121"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292023"
 ---
 # <a name="nrm---ps"></a>NRM-PS
 

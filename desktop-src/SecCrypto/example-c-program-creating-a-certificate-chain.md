@@ -4,12 +4,12 @@ ms.assetid: 960f2bb9-130f-494f-9af0-0ab8ae3eb6e2
 title: 'Exemple de programme C : création d’une chaîne de certificats'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59bbc8e447a23a950280cb4cb9b9f20e7a7d4d09bb2384de19ca510c403dedd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1857540f16cddfa754a0765d273a944e9a4a9044
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117765563"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123178"
 ---
 # <a name="example-c-program-creating-a-certificate-chain"></a>Exemple de programme C : création d’une chaîne de certificats
 

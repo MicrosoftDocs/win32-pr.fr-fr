@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ae7013428b471f0c82483e5bf9de9ac412ab7d5d
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010519"
 ---
 # <a name="handling-text-related-events"></a>Gestion des événements liés au texte
 

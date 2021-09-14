@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed0ca3c8333c7261c8332bcc124c905c5540f5cdf0dbefe3f34f121eb901cc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4c425184bf4b338177ec892ed5362c085dd8cb7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118338124"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011002"
 ---
 # <a name="playercurrentitemchange-event"></a>Événement Player. CurrentItemChange
 
@@ -40,7 +40,7 @@ Player.CurrentItemChange()
 
 Cet événement n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -64,7 +64,7 @@ l’exemple de JScript suivant montre un gestionnaire d’événements pour le *
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

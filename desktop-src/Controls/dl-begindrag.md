@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e2c843398b21ad51df51ae706a515c2e6f9831b89d32092b87148598b4bed5f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0f2d3ee211641c5b5e02482f914145fdf2e119f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119968329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124109"
 ---
 # <a name="dl_begindrag-notification-code"></a>\_Code de notification DL BEGINDRAG
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **true** pour commencer l’opération glisser ou **false** pour empêcher l’opération glisser.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors du traitement de ce code de notification, une procédure de fenêtre détermine généralement l’élément de liste à la position de curseur spécifiée à l’aide de la fonction [**LBItemFromPt**](/windows/desktop/api/Commctrl/nf-commctrl-lbitemfrompt) . Elle retourne ensuite **true** ou **false**, selon que l’élément doit ou non être glissé. Avant de retourner **true**, la procédure de fenêtre doit enregistrer l’index de l’élément de liste afin que l’application sache quel élément déplacer ou copier lorsque l’opération glisser est terminée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

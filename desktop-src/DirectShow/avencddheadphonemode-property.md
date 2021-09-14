@@ -4,12 +4,12 @@ ms.assetid: f33259f4-bb96-4d6d-8d03-6975bc32e226
 title: Propriété AVEncDDHeadphoneMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b92b0c554bf7d6c1d6ef7c0fdd4ea1b51bf50d1beab444a8700777c3195487cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df75a6c726fc748e623ae9bded67ca6e1197b990
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119690179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111890"
 ---
 # <a name="avencddheadphonemode-property"></a>Propriété AVEncDDHeadphoneMode
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncDDHeadphoneMode**](/windows/desktop/api/codecapi/ne-codecapi-eavencddheadphonemode) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

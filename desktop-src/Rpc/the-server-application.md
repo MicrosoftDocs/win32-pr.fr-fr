@@ -4,12 +4,12 @@ description: Affichez la partie application serveur d’un exemple d’appel de 
 ms.assetid: 82ccfd67-6626-49c4-8974-86ebc5841444
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c393e16a4c26b39efb95d23a2745f75cbeb984cac466c869046f9775f94c80c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34b8a2bb66fd415a9b8f778134edb4903f88a717
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923988"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311406"
 ---
 # <a name="the-server-application"></a>Application serveur
 

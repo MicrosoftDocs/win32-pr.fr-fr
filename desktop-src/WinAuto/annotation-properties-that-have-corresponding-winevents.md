@@ -4,12 +4,12 @@ description: Soyez prudent lors du remplacement des propriétés qui changent fr
 ms.assetid: 2505d015-9381-4e1c-a10f-6db3fbb25ca3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 753a17498daf9966ed1c3dfa98dc64fbdb2290011842c4fe9c194f50bf408ee1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 04a8849c66cb0067b63be1c846e9e140ae06f4b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010716"
 ---
 # <a name="annotation-properties-that-have-corresponding-winevents"></a>Propriétés d’annotation qui ont des WinEvents correspondants
 

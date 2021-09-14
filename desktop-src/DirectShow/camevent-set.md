@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 84059a66a77744b7ea570473474f6b773beae8005b7c4a68e73e59c76829f13a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9caeed17d42d121ae9263bf6c1fcd011ed573c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111354"
 ---
 # <a name="cameventset-method"></a>CAMEvent. Set, méthode
 
@@ -40,18 +40,18 @@ void Set();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le comportement varie selon que l’objet est un événement de réinitialisation automatique ou un événement de réinitialisation manuelle :
 
 -   **Réinitialisation automatique**: si des threads attendent cet événement, un thread est libéré et l’événement est réinitialisé. Si aucun thread n’attend cet événement, l’événement reste signalé.
 -   **Réinitialisation manuelle**: tous les threads en attente de cet événement sont libérés. L’événement reste signalé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

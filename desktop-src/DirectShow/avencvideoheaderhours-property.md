@@ -4,12 +4,12 @@ ms.assetid: 94830520-910a-4254-933c-6d95a3f0b6a4
 title: Propriété AVEncVideoHeaderHours (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc53495ba0b09a6081f781505309d44e3f795c61e596d8591eec1b405d09e25f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d5f5e3e423943a918fe73773c887942ad03a4e26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119342439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111626"
 ---
 # <a name="avencvideoheaderhours-property"></a>Propriété AVEncVideoHeaderHours
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La plage valide de cette propriété est comprise entre 0 et 23 inclus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

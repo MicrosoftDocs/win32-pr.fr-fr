@@ -4,12 +4,12 @@ ms.assetid: a3af8340-d367-417b-9759-7282edf1d694
 title: À propos des services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58bcd2058ec8f8de5cbe56a521e2d83919a17532c00dab175d93305edd3684d2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 87aeec6dfcdc4e2dc0cc0ab3ef084b7927b2c3bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120126479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233147"
 ---
 # <a name="about-services"></a>À propos des services
 

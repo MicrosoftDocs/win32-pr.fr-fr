@@ -43,12 +43,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 60419d947036516e093d481f3fc0d8caa097671c13bd4fe3fc8e95d21cc3cb83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b0054920f3cb2ae323a9655b1b028da473e119f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117832479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123937"
 ---
 # <a name="button-styles"></a>Styles des boutons
 
@@ -116,7 +116,7 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir des illustrations des styles de bouton principal, tels que la \_ case à cocher BS et la zone de zone \_ , consultez [types de boutons](button-types-and-styles.md).
 
@@ -124,7 +124,7 @@ L’apparence d’un texte ou d’une icône ou les deux sur un contrôle Button
 
 
 
-| \_Icône BS ou \_ ensemble de bitmaps BS ? | BM \_ SETIMAGE appelé ? | Résultat              |
+| \_Icône BS ou \_ ensemble de bitmaps BS ? | BM \_ SETIMAGE appelé ? | Résultats              |
 |-----------------------------|----------------------|---------------------|
 | Oui                         | Oui                  | Afficher l’icône uniquement.     |
 | Non                          | Oui                  | Affichez l’icône et le texte. |
@@ -135,7 +135,7 @@ L’apparence d’un texte ou d’une icône ou les deux sur un contrôle Button
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

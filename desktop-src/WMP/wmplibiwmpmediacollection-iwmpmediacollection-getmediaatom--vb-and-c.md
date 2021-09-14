@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getMediaAtom
 description: La méthode getMediaAtom retourne l’index d’un attribut spécifié dans le jeu d’attributs disponibles.
 ms.assetid: 01e3d073-677b-4939-96d3-63ae96eaa25d
 keywords:
-- méthode getMediaAtom lecteur Windows Media
-- méthode getMediaAtom lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getMediaAtom
+- Lecteur Windows Media de la méthode getMediaAtom
+- méthode getMediaAtom Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getMediaAtom
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 08487cf60c351ff4f8e0741209655cb78c30c3f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292527"
 ---
 # <a name="iwmpmediacollectiongetmediaatom-method"></a>IWMPMediaCollection :: getMediaAtom, méthode
 
@@ -60,7 +60,7 @@ Implements IWMPMediaCollection.getMediaAtom
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Int32** qui est l’index.
 
@@ -70,7 +70,7 @@ Le numéro d’index récupéré avec cette méthode peut être passé à **IWMP
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

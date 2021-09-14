@@ -5,11 +5,11 @@ ms.assetid: a92f845e-b0fc-4e23-9d06-ca16d2becf0b
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 954b01ff3271b9f74fac2c130c697a70e910fc93
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444300"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234773"
 ---
 # <a name="ui_pkey_fontproperties_verticalpositioning"></a>IU \_ \_ FontProperties \_ VerticalPositioning
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_FONTVERTICALPOSITION
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur \_ \_ FontProperties \_ VerticalPositioning est utilisée par une application pour interroger la valeur des contrôles **Superscript** et **indice** .
 

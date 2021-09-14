@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8c519ed936d2e71d9eee88435a94acc8c567a9a9
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124368012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110750"
 ---
 # <a name="wm_cap_set_audioformat-message"></a>\_Message AUDIOFORMAT de l’ensemble de connexions WM \_ \_
 

@@ -4,12 +4,12 @@ ms.assetid: fbf75dbe-3fa1-424b-83bb-cfd0b179107c
 title: non pris en charge dans Windows Installer 3,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b33334133fafa5e37f8bd7dfe4edfd30962c4e605bf2a675661e9d57aca4184
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3a221d80f56c5737cc5ae92a040a005ae42449e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111017"
 ---
 # <a name="not-supported-in-windows-installer-31"></a>non pris en charge dans Windows Installer 3,1
 
@@ -88,7 +88,7 @@ les fonctionnalités suivantes ne sont pas prises en charge dans Windows Install
     -   [**Programme d’installation. ProductElevated**](installer-productelevated.md)
     -   [**Programme d’installation. ProductInfoFromScript**](installer-productinfofromscript.md)
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 le service Windows Installer doit s’exécuter sur Windows Vista pour permettre l’utilisation du [gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md), du [*contrôle de compte d’utilisateur*](u-gly.md)et des mises à [jour correctives du contrôle de compte d’utilisateur (UAC)](user-account-control--uac--patching.md). pour plus d’informations, consultez [utilisation de Windows Installer avec le gestionnaire de redémarrage](using-windows-installer-with-restart-manager.md) et [utilisation de Windows Installer avec](using-windows-installer-with-uac.md) [le contrôle de compte d’utilisateur](user-account-control--uac--patching.md)et la mise à jour corrective.
 

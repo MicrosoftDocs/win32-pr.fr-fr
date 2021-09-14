@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 02f0df4d31ca978b8b58b50cd0c91710056aa9ac0f3cac1ae370a4edba6a9edf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c54ed89e112482df4a54f35e24a04694e88fa490
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119626589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232631"
 ---
 # <a name="asuint-function"></a>asuint fonction)
 
@@ -69,7 +69,7 @@ Modèle de *valeur* élevée 32 bits.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est une autre version de l’intrinsèque [**asuint**](dx-graphics-hlsl-asuint.md) qui est disponible dans les modèles de nuanceur précédents et qui a été introduite pour le Shader Model 5. La fonction d’origine (reconnue dans le compilateur HLSL par sa signature différente) reste disponible pour le Shader Model 5.
 
@@ -79,9 +79,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -91,7 +91,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

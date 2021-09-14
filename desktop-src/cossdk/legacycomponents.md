@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0815c9124020ff08e7033f7d1f18f8d9c5b6736763d401a3564bbdd8c6ffdf34
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5761950dcb0ceb5c857daf37ba2236733ec30c22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311010"
 ---
 # <a name="legacycomponents-collection"></a>Collection LegacyComponents
 
@@ -75,7 +75,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------|
 | Description    | Spécifie les comptes d’utilisateurs qui sont autorisés ou non à accéder au composant. |
-| Accès         | Lecture/écriture                                                                       |
+| Access         | Lecture/écriture                                                                       |
 | Type           | String                                                                          |
 | Valeur par défaut        | N/A                                                                             |
 | Système minimal | Windows XP                                                                      |
@@ -91,7 +91,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------|
 | Description    | Spécifie si le serveur doit être exécuté sur l’ordinateur de stockage de données. |
-| Accès         | Lecture/écriture                                                        |
+| Access         | Lecture/écriture                                                        |
 | Type           | Valeurs possibles de chaîne : "N" "Y"                                    |
 | Default        | "N"                                                              |
 | Système minimal | Windows XP                                                       |
@@ -107,7 +107,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------|
 | Description    | L’ID de l'application. |
-| Accès         | Lecture seule            |
+| Access         | Lecture seule            |
 | Type           | String              |
 | Valeur par défaut        | N/A                 |
 | Système minimal | Windows XP          |
@@ -123,7 +123,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------|
 | Description    | Le nom de l’application. |
-| Accès         | Lecture seule                     |
+| Access         | Lecture seule                     |
 | Type           | String                       |
 | Valeur par défaut        | N/A                          |
 | Système minimal | Windows XP                   |
@@ -139,7 +139,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Définit le niveau d’authentification pour les appels, avec les valeurs correspondant aux paramètres d’authentification de l’appel de procédure distante (RPC). Lorsque COMAdminAuthenticationDefault est choisi, le paramètre dans la propriété DefaultAuthenticationLevel de la collection [**LocalComputer**](localcomputer.md) est utilisé. |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                             |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                             |
 | Type           | Valeurs possibles longues : COMAdminAuthenticationDefault (0) COMAdminAuthenticationNone (1) COMAdminAuthenticationConnect (2) COMAdminAuthenticationCall (3) COMAdminAuthenticationPacket (4) COMAdminAuthenticationIntegrity (5) COMAdminAuthenticationPrivacy (6)                                              |
 | Default        | COMAdminAuthenticationDefault (0)                                                                                                                                                                                                                                                                     |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                            |
@@ -160,7 +160,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Représente le type de bits binaire du composant. sur les systèmes qui utilisent la Windows 64 bits, cette propriété permet de faire la distinction entre les composants 64 bits et les composants 32 bits. |
-| Accès         | Lecture seule                                                                                                                                                              |
+| Access         | Lecture seule                                                                                                                                                              |
 | Type           | Valeurs possibles longues : COMAdmin32BitComponent (0x1) COMAdmin64BitComponent (0X2)                                                                                         |
 | Default        | N/A                                                                                                                                                                   |
 | Système minimal | Windows XP                                                                                                                                                            |
@@ -176,7 +176,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------|
 | Description    | Nom de la classe. |
-| Accès         | Lecture seule               |
+| Access         | Lecture seule               |
 | Type           | String                 |
 | Valeur par défaut        | N/A                    |
 | Système minimal | Windows XP             |
@@ -192,7 +192,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | GUID du composant. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                  |
+| Access         | Lecture seule                                                                                                                                                  |
 | Type           | String                                                                                                                                                    |
 | Valeur par défaut        | N/A                                                                                                                                                       |
 | Système minimal | Windows XP                                                                                                                                                |
@@ -208,7 +208,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------|
 | Description    | Spécifie le chemin d’accès complet à une application serveur surragate. |
-| Accès         | Lecture/écriture                                                  |
+| Access         | Lecture/écriture                                                  |
 | Type           | String                                                     |
 | Valeur par défaut        | N/A                                                        |
 | Système minimal | Windows XP                                                 |
@@ -224,7 +224,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|--------------------------------------------------------------------|
 | Description    | Spécifie le chemin d’accès complet à une DLL du gestionnaire personnalisé in-process 32 bits. |
-| Accès         | Lecture/écriture                                                          |
+| Access         | Lecture/écriture                                                          |
 | Type           | String                                                             |
 | Valeur par défaut        | N/A                                                                |
 | Système minimal | Windows XP                                                         |
@@ -240,7 +240,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------|
 | Description    | Spécifie le chemin d’accès complet à une DLL de serveur in-process 32 bits. |
-| Accès         | Lecture/écriture                                                  |
+| Access         | Lecture/écriture                                                  |
 | Type           | String                                                     |
 | Valeur par défaut        | N/A                                                        |
 | Système minimal | Windows XP                                                 |
@@ -256,7 +256,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Si l’application ou le composant COM+ est désactivé, IsEnabled a la valeur false. Si l’application ou le composant COM+ est activé, IsEnabled a la valeur true. |
-| Accès         | Lecture/écriture                                                                                                                                 |
+| Access         | Lecture/écriture                                                                                                                                 |
 | Type           | Bool                                                                                                                                      |
 | Default        | Vrai                                                                                                                                      |
 | Système minimal | Windows XP                                                                                                                                |
@@ -272,7 +272,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------------------------------------------------------------------|
 | Description    | Spécifie les comptes d’utilisateurs autorisés ou non à démarrer ce composant. |
-| Accès         | Lecture/écriture                                                                              |
+| Access         | Lecture/écriture                                                                              |
 | Type           | String                                                                                 |
 | Valeur par défaut        | N/A                                                                                    |
 | Système minimal | Windows XP                                                                             |
@@ -288,7 +288,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Spécifie le chemin d’accès complet à une application serveur locale 32 bits. Pour aider à protéger la sécurité du système, utilisez des chaînes entre guillemets dans le chemin d’accès pour indiquer l’emplacement où se termine le nom de fichier exécutable et les arguments Begin. Par exemple, « \\ C : \\ Program Files fichiers de la \\ société \\Application.exe\\ «param1 param2 ». |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                   |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                   |
 | Type           | String                                                                                                                                                                                                                                                                                      |
 | Valeur par défaut        | N/A                                                                                                                                                                                                                                                                                         |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                  |
@@ -304,7 +304,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------|
 | Description    | Spécifie le chemin d’accès complet à l’application de service. |
-| Accès         | Lecture/écriture                                           |
+| Access         | Lecture/écriture                                           |
 | Type           | String                                              |
 | Valeur par défaut        | N/A                                                 |
 | Système minimal | Windows XP                                          |
@@ -320,7 +320,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Définit le mot de passe utilisé par le processus serveur pour ouvrir une session sous l’identité RunAs spécifiée. Le mot de passe doit être défini en même temps que l’identité RunAs, avant d’utiliser [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges), car le mot de passe et l’identité sont validés avant d’être enregistrés. Si le mot de passe et l’identité ne sont pas synchronisés, le composant ne peut pas être lancé tant qu’il n’est pas réinitialisé par un administrateur. |
-| Accès         | WriteOnly                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Access         | WriteOnly                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Type           | String                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Valeur par défaut        | NULL                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -336,7 +336,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom identifiant le composant. Cette propriété est retournée lorsque la méthode de propriété Name est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                             |
+| Access         | Lecture seule                                                                                                                             |
 | Type           | String                                                                                                                               |
 | Valeur par défaut        | N/A                                                                                                                                  |
 | Système minimal | Windows XP                                                                                                                           |
@@ -352,7 +352,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------|
 | Description    | Spécifie l’ordinateur serveur distant. |
-| Accès         | Lecture/écriture                             |
+| Access         | Lecture/écriture                             |
 | Type           | String                                |
 | Valeur par défaut        | N/A                                   |
 | Système minimal | Windows XP                            |
@@ -368,7 +368,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Spécifie l’utilisateur sous dont l’identité doit être exécutée par le composant. Le mot de passe doit être défini en même temps que l’identité RunAs, avant d’utiliser [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges), car le mot de passe et l’identité sont validés avant d’être enregistrés. Si le mot de passe et l’identité ne sont pas synchronisés, le composant ne peut pas être lancé tant qu’il n’est pas réinitialisé par un administrateur. |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                         |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                         |
 | Type           | String                                                                                                                                                                                                                                                                                                                                                                                            |
 | Valeur par défaut        | N/A                                                                                                                                                                                                                                                                                                                                                                                               |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -384,7 +384,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------|
 | Description    | Spécifie les paramètres passés à l’application lorsqu’elle est appelée en tant qu’application de service. |
-| Accès         | Lecture/écriture                                                                                 |
+| Access         | Lecture/écriture                                                                                 |
 | Type           | String                                                                                    |
 | Valeur par défaut        | N/A                                                                                       |
 | Système minimal | Windows XP                                                                                |
@@ -400,7 +400,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indique le niveau de confiance de la stratégie de restriction logicielle (SRP) du composant. Le niveau de confiance du SRP fait référence au niveau de confiance que vous êtes prêt à attribuer à un composant. Un niveau de confiance SRP non restreint correspond à la \_ valeur enum LEVELID FULLYTRUSTED plus sécurisée \_ , tandis qu’un niveau de confiance SRP non autorisé correspond à la \_ valeur enum non autorisée LEVELID plus sûre \_ . L’énumération pour les niveaux de confiance est définie dans Winsafer. h. |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Type           | Valeurs possibles longues : LEVELID sécurisé \_ non \_ autorisé (0x0) Safe \_ LEVELID \_ FULLYTRUSTED (0x40000)                                                                                                                                                                                                                                                                                                                                         |
 | Default        | \_FULLYTRUSTED LEVELID plus \_ sécurisé                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -418,7 +418,7 @@ La sécurité la plus stricte doit être attachée à un composant que vous ête
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Détermine le mode d’affectation des instances du composant aux threads pour l’exécution de la méthode. Les valeurs correspondent aux modèles de thread COM.                                                  |
-| Accès         | Lecture seule                                                                                                                                                                            |
+| Access         | Lecture seule                                                                                                                                                                            |
 | Type           | Valeurs possibles longues : COMAdminThreadingModelApartment (0) COMAdminThreadingModelFree (1) COMAdminThreadingModelMain (2) COMAdminThreadingModelBoth (3) COMAdminThreadingModelNeutral (4) |
 | Default        | N/A                                                                                                                                                                                 |
 | Système minimal | Windows XP                                                                                                                                                                          |

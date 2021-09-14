@@ -4,12 +4,12 @@ ms.assetid: a72404b8-1ec9-4f58-b3a6-09811070ea29
 title: Obtention des informations d’identification Digest par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d5a0bb39f59680f2b5232dae1e6cc5c83673cf31c7cc3e0aa1325d5641e161
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12e870d6bad1c3b4ef9e889a91444e98159bc758
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117786587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123354"
 ---
 # <a name="obtaining-default-digest-credentials"></a>Obtention des informations d’identification Digest par défaut
 

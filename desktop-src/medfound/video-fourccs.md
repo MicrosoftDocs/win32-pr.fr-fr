@@ -5,11 +5,11 @@ title: Vidéo FOURCCs
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b804962308d0ecc5bf32fcddf5176905d0e17fbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313613"
 ---
 # <a name="video-fourccs"></a>Vidéo FOURCCs
 
@@ -23,7 +23,7 @@ DWORD fccYUY2 = FCC('YUY2');
 DWORD fccYUY2 = '2YUY';  // Declares the FOURCC 'YUY2'.
 ```
 
-(Dans le dernier exemple, l’inversion de l’ordre des octets est nécessaire car Windows utilise une architecture Little endian. 'Y' = 0x59, 'U' = 0x55, et' 2 ' = 0x32, donc' 2YUY’est 0x32595559.)
+(dans le dernier exemple, l’inversion de l’ordre des octets est nécessaire, car Windows utilise une architecture little endian. 'Y' = 0x59, 'U' = 0x55, et' 2 ' = 0x32, donc' 2YUY’est 0x32595559.)
 
 Certaines API [DirectX Video Acceleration 2,0](directx-video-acceleration-2-0.md) utilisent une valeur **D3DFORMAT** pour décrire un format vidéo. Un code FOURCC peut également être utilisé dans ce contexte :
 
@@ -48,16 +48,16 @@ Le tableau suivant répertorie certains codes FOURCC courants.
 | FICHIERS MP4 À       | Codec Microsoft MPEG 4 version 3. Ce codec n’est plus pris en charge.                                                  |
 | Mp4v       | Vidéo MPEG-4 part 2.                                                                                                  |
 | 'MPG1'       | Vidéo MPEG-1.                                                                                                         |
-| 'MSS1'       | Contenu encodé avec le codec d’écran Windows Media Video 7.                                                          |
-| 'MSS2'       | Contenu encodé avec le codec d’écran Windows Media Video 9.                                                          |
+| 'MSS1'       | contenu encodé avec le codec d’écran Windows Media Video 7.                                                          |
+| 'MSS2'       | contenu encodé avec le codec d’écran Windows Media Video 9.                                                          |
 | UYVY       | Vidéo YUV stockée au format 4:2:2 compressé. Semblable à YUY2 mais avec un classement des données différent.                         |
-| 'WMV1'       | Contenu encodé avec le codec Windows Media Video 7.                                                                 |
-| 'WMV2'       | Contenu encodé avec le codec Windows Media Video 8.                                                                 |
-| 'WMV3'       | Contenu encodé avec le codec Windows Media Video 9.                                                                 |
-| 'WMVA'       | Contenu encodé avec la version obsolète la plus ancienne du codec de profil avancé Windows Media Video 9.                 |
-| 'WMVP'       | Contenu encodé avec le codec d’image Windows Media Video 9,1.                                                         |
-| 'WVC1'       | SMPTE 421M (« VC-1 »). Contenu encodé avec le profil avancé Windows Media Video 9.                                     |
-| 'WVP2'       | Contenu encodé avec le codec Windows Media Video 9,1 image v2.                                                      |
+| 'WMV1'       | contenu encodé avec le codec Windows Media Video 7.                                                                 |
+| 'WMV2'       | contenu encodé avec le codec Windows Media Video 8.                                                                 |
+| 'WMV3'       | contenu encodé avec le codec Windows Media Video 9.                                                                 |
+| 'WMVA'       | contenu encodé avec la version obsolète la plus ancienne du codec de profil avancé Windows Media Video 9.                 |
+| 'WMVP'       | contenu encodé avec le codec d’Image Windows Media Video 9,1.                                                         |
+| 'WVC1'       | SMPTE 421M (« VC-1 »). contenu encodé avec le profil avancé Windows Media Video 9.                                     |
+| 'WVP2'       | contenu encodé avec le codec Windows Media Video 9,1 Image v2.                                                      |
 | YUY2       | Vidéo YUV stockée au format 4:2:2 compressé.                                                                              |
 | 'YV12'       | Vidéo YUV stockée au format 4:2:0 ou 4:1:1 planaire. Identique à I420/IYUV, sauf que les plans vous et V sont basculés. |
 | YVU9       | Vidéo YUV stockée au format 16:1:1 planaire.                                                                             |

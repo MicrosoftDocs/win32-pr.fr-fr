@@ -4,12 +4,12 @@ description: Il existe plusieurs types de boutons et un ou plusieurs styles de b
 ms.assetid: bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5c3614f90c36d5a81603153ec7c8612d61e73e2e98c7f668cb53a6ad2bb584b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 682cc39ed2f88ce88f499757fbc4f902bfdceeea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117832493"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123934"
 ---
 # <a name="button-types"></a>Types de bouton
 
@@ -92,7 +92,7 @@ L’application peut vérifier si une case d’option est activée à l’aide d
 [Styles de bouton](button-styles.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Utilisation des boutons](using-buttons.md)

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a2664a99fb103b41bd3b5040b3876b0cb92b8f9c010f420f93af7eb62a6f32bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d456eae826e8a2e173b92fac4be716fb24bcb92d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117860246"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313098"
 ---
 # <a name="folder2offlinestatus-property"></a>Dossier2. OfflineStatus, propriété
 
@@ -96,7 +96,7 @@ Le serveur est hors connexion, mais peut être atteint.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Les Fichiers hors connexion doivent être activés par le biais des options de dossier pour que **OfflineStatus** fonctionne correctement. Si l’option Fichiers hors connexion n’est pas activée, la propriété retourne **OFS \_ inactive**.
@@ -180,7 +180,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

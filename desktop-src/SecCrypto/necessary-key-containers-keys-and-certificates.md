@@ -4,12 +4,12 @@ ms.assetid: b03528ff-0170-4dde-ae35-f5c3951d6b1f
 title: Conteneurs de clés, clés et certificats nécessaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee5f86f887050d0d7abe440c89cc9c9444dba26854645d5ad6d16279af91e1e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d2d1f01a59c83ea21437608608e033a2ee0f8fae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123138"
 ---
 # <a name="necessary-key-containers-keys-and-certificates"></a>Conteneurs de clés, clés et certificats nécessaires
 

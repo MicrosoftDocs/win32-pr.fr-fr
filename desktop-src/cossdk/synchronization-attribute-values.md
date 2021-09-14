@@ -4,12 +4,12 @@ ms.assetid: 7f044ee5-b99e-4f0c-a680-b1e2672949fc
 title: Valeurs d’attribut de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7867dec9e6494c3e6e3d864e8841785f6c4fac96b2bb54ead0f24b0cbe7ea6b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4606726d5202a1453e98d5bf609084982f8f824e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310897"
 ---
 # <a name="synchronization-attribute-values"></a>Valeurs d’attribut de synchronisation
 

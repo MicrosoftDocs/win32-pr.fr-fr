@@ -4,12 +4,12 @@ ms.assetid: 9dd3ff5b-4c7c-41a8-b1b9-7ea380175193
 title: Utilisation de l’encodage VBR (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50a9e1a61baf0539c0597e68f24dfad1496918012e52f778a1b7a64de27e5faa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdd1f317308d79c696e26a8671cc9d84ca8effa4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117871228"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313621"
 ---
 # <a name="using-vbr-encoding-microsoft-media-foundation"></a>Utilisation de l’encodage VBR (Microsoft Media Foundation)
 

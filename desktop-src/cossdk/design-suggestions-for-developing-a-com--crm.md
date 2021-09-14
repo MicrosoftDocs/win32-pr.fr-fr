@@ -4,12 +4,12 @@ ms.assetid: dde1b978-6d35-4a75-91fd-69dfcc6c43d2
 title: Suggestions de conception pour le développement d’un CRM COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a286b2aa75b266a41b249b29203b16f0441e6276a9de03a25efc622ac2bd3fdf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8dcdb59f0ea23fb6879300d0bacec7df12970d81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128751"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232715"
 ---
 # <a name="design-suggestions-for-developing-a-com-crm"></a>Suggestions de conception pour le développement d’un CRM COM+
 

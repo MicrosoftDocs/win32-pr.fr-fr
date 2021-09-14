@@ -4,12 +4,12 @@ ms.assetid: db6c2f0e-f451-4d2d-984f-b507083e8358
 title: Propriété AVEncVideoInverseTelecineThreshold (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 297dae601c5112714272a2d1c2e0b1a7ebeee5faa3aa2fabebc32e79c1745c9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3427a8ff1491277c2e36640560acf728c0ef7208
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111585"
 ---
 # <a name="avencvideoinversetelecinethreshold-property"></a>Propriété AVEncVideoInverseTelecineThreshold
 
@@ -40,11 +40,11 @@ La valeur de cette propriété est comprise dans la plage suivante.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cette propriété si l’encodeur effectue un télécinéma inverse avec une source vidéo analogique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

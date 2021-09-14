@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c8fb5165be78032429dce7957cd0975753515d55969b04415c61be2a7dc5ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54631d5c4ef752cffd989f8fa02f8cb512c67da3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119675369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011477"
 ---
 # <a name="gluendsurface-function"></a>gluEndSurface fonction)
 
@@ -51,7 +51,7 @@ Objet NURBS (créé avec [**gluNewNurbsRenderer**](glunewnurbsrenderer.md)).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les fonctions [**gluBeginSurface**](glubeginsurface.md) et **gluEndSurface** marquent le début et la fin des définitions de la surface NURBS, qui sont définies avec des appels à **gluNurbsSurface**.
 
@@ -78,7 +78,7 @@ gluBeginSurface(nobj);
 gluEndSurface(nobj);
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

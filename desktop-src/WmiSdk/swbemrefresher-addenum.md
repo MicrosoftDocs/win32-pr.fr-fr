@@ -17,11 +17,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: cffa406a3a45869038f5e6fed12b23b6b84fde27
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761401"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010379"
 ---
 # <a name="swbemrefresheraddenum-method"></a>Méthode SWbemRefresher. AddEnum
 
@@ -75,11 +75,11 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’appel réussit, un objet [**SWbemRefreshableItem**](swbemrefreshableitem.md) qui contient un énumérateur pour toutes les instances de la classe spécifiée est retourné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

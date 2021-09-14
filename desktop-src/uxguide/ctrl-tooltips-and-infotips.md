@@ -4,12 +4,12 @@ description: Une info-bulle est une petite fenêtre contextuelle qui étiquette 
 ms.assetid: 80979281-eefb-485a-b42f-7f9e05665357
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 4df7950529b2ac78c9d9bbf51c8996f17bcd985898a286f8d58e05db3b94d27e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8911c5a008d2de6cec2bd564fd786a23c670d633
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118041135"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234911"
 ---
 # <a name="tooltips-and-infotips"></a>Info-bulles et info-bulles
 
@@ -137,7 +137,7 @@ Astuces avoir plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="timeouts"></a>Délais d’expiration
+### <a name="timeouts"></a>Délais d'attente
 
 -   **Utilisez les délais d’attente initial et de réaffichage par défaut. Titre**
     -   Les miniatures qui ne sont pas redondantes et affichées sur le côté de leur objet associé peuvent être affichées immédiatement (sans aucun délai). Toutefois, utilisez le délai d’expiration initial par défaut pour les miniatures redondantes (par exemple, une grande info-bulle pour un petit objet graphique) ou des miniatures couvrant l’objet associé.

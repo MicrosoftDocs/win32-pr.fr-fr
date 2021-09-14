@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7e6a579cb7ff0210a7c820b3dc22bccb6838ac41196da306431d90a0b5a6e105
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b688c5b12fa82269ba18ff032abcbe82ebe859a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119566409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111258"
 ---
 # <a name="cmediatypecmediatype-constructor-mtypeh---no-parameters"></a>Constructeur CMediaType. CMediaType (mtype. h)-aucun paramètre
 
@@ -40,11 +40,11 @@ CMediaType();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le constructeur appelle la méthode [**CMediaType :: InitMediaType**](cmediatype-initmediatype.md) pour initialiser le type de média.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise                   | Valeur                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

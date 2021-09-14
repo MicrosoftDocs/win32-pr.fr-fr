@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb546b7113247f09d8929364984d5e73c3e28b6541d2ca04bd631405040bf6fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d5799b1b1be5e938ce1e234948a1f7d878122f30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120089039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124126"
 ---
 # <a name="cb_setcuebanner-message"></a>\_Message SETCUEBANNER CB
 
@@ -43,15 +43,15 @@ Pointeur vers une mémoire tampon de chaîne Unicode se terminant par un caract�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 1 en cas de réussite, ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La bannière de signal est du texte affiché dans le contrôle d’édition d’une zone de liste déroulante lorsqu’il n’y a aucune sélection.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: edaca987dbba57127c922161fbc6c6cd9473732ba1b7d1339618009335c904cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8c3c59cfd3eadfb8aec56c6814a2af6ce9ff900
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117979731"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123105"
 ---
 # <a name="oidvalue-property"></a>OID. Propriété Value
 
@@ -39,11 +39,11 @@ OID.Value As String
 
 Valeur du numéro d’OID en pointillés de l’identificateur. Pour connaître les valeurs possibles, consultez Wincrypt. h.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la propriété **valeur** est définie, la propriété [**FriendlyName**](oid-friendlyname.md) est définie sur le nom complet correspondant. Si la propriété **FriendlyName** est définie, la propriété **value** est définie sur la valeur en pointillé correspondante.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

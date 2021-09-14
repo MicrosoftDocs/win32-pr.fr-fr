@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 25582be51d3206c17076c702bb159f13b012d5964a10cc4ebd7908459447fcc6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5d18ebc99f48bf72599afe750863d684b8158608
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011580"
 ---
 # <a name="profilelist-lanpolicy-element"></a>Élément profileList (LANPolicy)
 
@@ -41,11 +41,11 @@ Quand [**enableAutoConfig**](lan-policyschema-enableautoconfig-globalflags-eleme
 
 L’élément **profileList** est défini par l’élément [**LANPolicy**](lan-policyschema-lanpolicy-element.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément doit contenir exactement un profil réseau. Si plusieurs profils sont spécifiés dans la stratégie, seul le premier réseau sera appliqué.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

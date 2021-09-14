@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 43c399b4ce63f84c41bcb2d65140356ac20a6ddd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311825"
 ---
 # <a name="glcopypixels-function"></a>glCopyPixels fonction)
 
@@ -103,7 +103,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                               |
+| Nom                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *type* n’est pas une valeur acceptée.<br/>                                                                                          |
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | La *largeur* ou la hauteur était négative.<br/>                                                                                     |
@@ -113,7 +113,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glCopyPixels** copie un rectangle de pixels aligné à l’écran, de l’emplacement trame spécifié vers une région relative à la position raster actuelle. Son fonctionnement est bien défini uniquement si la région source de pixel entière se trouve dans la partie exposée de la fenêtre. Les résultats des copies en dehors de la fenêtre, ou à partir des régions de la fenêtre qui ne sont pas exposées, sont dépendants du matériel et non définis.
 
@@ -147,7 +147,7 @@ Pour copier le pixel de couleur dans l’angle inférieur gauche de la fenêtre 
 
 **glCopyPixels**(0, 0, 1, 1, \_ couleur GL);
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

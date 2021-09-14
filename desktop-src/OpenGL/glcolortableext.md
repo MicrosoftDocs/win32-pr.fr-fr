@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0f42a0be9d2cd9b39a86a9f55d776c61b25fa448
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122475375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311829"
 ---
 # <a name="glcolortableext-function"></a>glColorTableEXT fonction)
 
@@ -157,7 +157,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                               |
+| Nom                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | la *largeur* était un entier non valide.<br/>                                                                                            |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *target*, *internalFormat*, *format* ou *type* n’est pas une valeur acceptée.<br/>                                                 |
@@ -165,7 +165,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les textures de palette sont définies à l’aide d’une palette de couleurs et d’un ensemble de données d’image composé d’index pour les entrées de couleur d’une palette (une table des couleurs).
 
@@ -182,7 +182,7 @@ Lorsque le paramètre *cible* est \_ une texture \_ de proxy de GL \_ 1D ou \_ u
 
 Pour récupérer les données de la table des couleurs réelles spécifiées par la fonction **glColorTableEXT** , appelez [**glGetColorTableEXT**](glgetcolortableext.md). Pour récupérer les paramètres, tels que la *largeur* et le *format*, de la table de couleurs spécifiée par la fonction **GlColorTableEXT** , appelez la fonction **glGetColorTableParameterivEXT** ou **glGetColorTableParameterfvEXT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

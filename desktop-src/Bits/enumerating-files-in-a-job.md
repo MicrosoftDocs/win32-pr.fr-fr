@@ -9,12 +9,12 @@ keywords:
 - BITS de transfert de fichiers, énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a986b8a8869008db34e97c1cc7e0cd733c301f5cdc57ce4ef6e313ff382479
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0db704e47a0e075801de2434ed30ba6fb8d8c91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234318"
 ---
 # <a name="enumerating-files-in-a-job"></a>Énumération de fichiers dans un travail
 

@@ -5,11 +5,11 @@ title: Argument de syntaxe (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 95bbf8523ba3a71dc19cf172bf1416f67d04f6f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525527"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313238"
 ---
 # <a name="syntax-argument-windows-search"></a>Argument de syntaxe (Windows Search)
 

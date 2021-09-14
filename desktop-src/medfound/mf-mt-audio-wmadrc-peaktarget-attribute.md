@@ -4,12 +4,12 @@ ms.assetid: 73f4e763-dcb7-48cd-ab80-37635d973da0
 title: Attribut MF_MT_AUDIO_WMADRC_PEAKTARGET (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 806f81c0095481ab5e0694614a54e8374d8bd73445b825493253898ff6f6f0f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48391adfaa19dcc00ea4d7a30b909b4573f67222
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314034"
 ---
 # <a name="mf_mt_audio_wmadrc_peaktarget-attribute"></a>Attribut PEAKTARGET de l’WMADRC MF \_ MT \_ audio \_ \_
 
@@ -19,7 +19,7 @@ niveau de volume maximal cible d’un fichier Windows Media Audio.
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cet attribut s’applique aux types de média audio pour Windows Media Audio codecs. Il spécifie le niveau de volume maximal cible du contenu. Le décodeur peut utiliser cette valeur pour effectuer un contrôle de plage dynamique.
 
@@ -27,7 +27,7 @@ La méthode [**IMFASFContentInfo ::P arseheader**](/windows/desktop/api/wmconta
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 37f25590-69c2-43bd-a5d4-2262457cb39d
 title: Propriété AVEncAudioDualMono (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7255177290ebbe15104d0264a821e9c17ecdf90b605fbaab435f6d39c577548
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b58cbd901079d8f4dede1efae140791ae99c7fed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112018"
 ---
 # <a name="avencaudiodualmono-property"></a>Propriété AVEncAudioDualMono
 
@@ -29,11 +29,11 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncAudioDualMono**](/windows/win32/api/codecapi/ne-codecapi-eavencaudiodualmono) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété ne s’applique pas aux encodeurs audio MPEG. Pour l’audio MPEG, utilisez la propriété [**AVEncMPACodingMode**](avencmpacodingmode-property.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

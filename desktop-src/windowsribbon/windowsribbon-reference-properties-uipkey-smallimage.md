@@ -4,12 +4,12 @@ description: Identifie la propriété SmallImage de l’interface utilisateur \_
 ms.assetid: 247fccfb-4075-4682-974b-efd048e54dac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66a39c1840cb91c4a8509c4e35ea6d51b7e118a87cb63eca968ea453dbbefca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd9ee411666a86419ade4804618bab5b9c617bfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118201341"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234749"
 ---
 # <a name="ui_pkey_smallimage"></a>IU \_ \_ SmallImage
 
@@ -25,7 +25,7 @@ propertyDescription
       type = IUIImage
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur \_ \_ SmallImage est utilisée par une application pour interroger la petite image associée à un contrôle de ruban.
 

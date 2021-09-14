@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a162103a8a67cfcb4589c7f030db8ca7d93a89ee6fb7f12f1c0e2a40a4841ef6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3948b37c2efeb7d21e664da354571c2bdf9ab298
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117821596"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234174"
 ---
 # <a name="cvideotransformfilterm_tdecodestart-member"></a>CVideoTransformFilter :: m \_ tDecodeStart, membre
 
@@ -36,7 +36,7 @@ int m_tDecodeStart;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

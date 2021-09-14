@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cdba8d4c1d524f00f5aa399d2fceac9ddbe57b3c7837243be08e001fec2672e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ce2ad8c91b772b3d7da98469db2946cd1c6d2b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294951"
 ---
 # <a name="jet_unicodeindexcontentequals-method"></a>JET_UNICODEINDEX. Méthode ContentEquals
 
@@ -61,12 +61,12 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - Autres  
+  - other  
     Type : [Microsoft.ISAM.esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
@@ -77,7 +77,7 @@ True si les deux instances sont égales.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_UNICODEINDEX](./jet-unicodeindex-class.md)
 

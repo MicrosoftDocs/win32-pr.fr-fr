@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 356f7239cbdbe3972f11fcc95dd9bf44dc1b06d086a8e44c9131c0061f3ec211
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3559787dfdacc68130dcaef073f32d07d4a0df8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118155262"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111066"
 ---
 # <a name="iamtimelineobjremove-method"></a>IAMTimelineObj :: Remove, méthode
 
@@ -43,11 +43,11 @@ HRESULT Remove();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez cette méthode uniquement si l’application Insère immédiatement l’objet dans la chronologie. Il s’agit d’une opération non valide pour appeler cette méthode sans réinsérer l’objet. Pour supprimer définitivement un objet, appelez [**IAMTimelineObj :: RemoveAll**](iamtimelineobj-removeall.md).
 
@@ -61,7 +61,7 @@ Appelez cette méthode uniquement si l’application Insère immédiatement l’
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

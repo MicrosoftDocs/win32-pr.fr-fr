@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 3a9d7a25e5dd2035bd0b060ae11904e351489309b3a5e3c65c0e1582dce77500
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf8e20008d2a77cae3a47728f4e38fff8ae0b09b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118906171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233387"
 ---
 # <a name="sslgeneratesessionkeys-function"></a>SslGenerateSessionKeys fonction)
 
@@ -86,7 +86,7 @@ Ce paramètre est réservé à un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -106,7 +106,7 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

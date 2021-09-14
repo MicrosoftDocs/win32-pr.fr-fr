@@ -4,12 +4,12 @@ ms.assetid: 6b652730-23f0-4295-b6e0-907508dee352
 title: Utilisation des pièces jointes de sécurité de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9074e6905da6622912ae43aa6929549cd8e8252b9c240a7a8e8c914e1a45e475
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4eadde41c80421c16d6c5008b3e34f8846a03a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004686"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233303"
 ---
 # <a name="using-service-security-attachments"></a>Utilisation des pièces jointes de sécurité de service
 

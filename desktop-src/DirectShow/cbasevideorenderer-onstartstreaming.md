@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b2a55d509c900c7be68d3225826c208755d31ef66e0c24119bd1d044dad1aefc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 403d465d4ff9fe8ae9101b13e2ec5e6c04bdddf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157054"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123750"
 ---
 # <a name="cbasevideorendereronstartstreaming-method"></a>Méthode CBaseVideoRenderer. OnStartStreaming
 
@@ -40,15 +40,15 @@ HRESULT OnStartStreaming();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre substitue [**CBaseRenderer :: OnStartStreaming**](cbaserenderer-onstartstreaming.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - WS_SECURITY_TOKEN
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9b577188e5dbd718de36703aec4602f9dcc94f28a74fa45f8f66af49ccdd5cc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d52e69a46f206f1def7cc2e7e2d03c2e5f1369f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120109659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234365"
 ---
 # <a name="ws_security_token"></a>\_jeton de sécurité WS \_
 
@@ -24,11 +24,11 @@ typedef struct _WS_SECURITY_TOKEN WS_SECURITY_TOKEN;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e8cb276b37e64b6bb34751ed2d034666f7ceeddd90d8e52e47b2a1fca499ff9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12dd61dee7416ce8ca7ac07cba62cbc769df5973
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118658333"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123733"
 ---
 # <a name="cbasevideorendererprepareperformancedata-method"></a>Méthode CBaseVideoRenderer. PreparePerformanceData
 
@@ -57,17 +57,17 @@ Temps d’intertramage, en unités de temps de référence.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre définit **m \_ trLate** à la valeur de *trLate* et **m \_ trFrame** à la valeur de *trFrame*.
 
 Lorsque la fonction membre [**CBaseVideoRenderer :: RecordFrameLateness**](cbasevideorenderer-recordframelateness.md) est appelée à partir de [**CBaseVideoRenderer :: OnRenderStart**](cbasevideorenderer-onrenderstart.md) ou [**CBaseVideoRenderer :: OnDirectRender**](cbasevideorenderer-ondirectrender.md), elle passe les valeurs de **m \_ trLate** et **m \_ trFrame** pour la mise à jour des statistiques. `PreparePerformanceData` est appelé à partir de [**CBaseVideoRenderer :: OnWaitEnd**](cbasevideorenderer-onwaitend.md) pour définir ces valeurs de membre de données.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

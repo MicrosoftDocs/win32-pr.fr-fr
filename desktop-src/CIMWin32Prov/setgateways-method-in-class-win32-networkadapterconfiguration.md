@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 190076822a181d7b0731cb1e7b42eb0cd9d35e37c64aa0736245d1e58994763b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 215bfa736a0f9d67ae587ac1f0e1b4aa394b85d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124042"
 ---
 # <a name="setgateways-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetGateways de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -57,7 +57,7 @@ Affecte une valeur comprise entre 1 et 9999, qui est utilisée pour calculer les
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie lorsqu’un redémarrage n’est pas nécessaire, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et toute autre valeur en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -338,7 +338,7 @@ Méthode non prise en charge lorsque la carte réseau est en mode DHCP.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode fonctionne uniquement lorsque la carte d’interface réseau (NIC) est en mode IP statique.
 
@@ -352,7 +352,7 @@ L’exemple VBScript [attribuer une adresse IP statique](https://Gallery.TechNet
 
 L' [adresse IP statique, puis la jointure à un](https://Gallery.TechNet.Microsoft.Com/Static-IP-and-then-join-to-130d4b8a) exemple PowerShell de domaine facilite la reconstruction des machines.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

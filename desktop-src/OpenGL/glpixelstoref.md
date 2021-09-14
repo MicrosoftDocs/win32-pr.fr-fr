@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 928cf7ccc054a94840e146e0e2ce6a7afdb74f7cde5f59569ec1cf71acbb3dfa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc35613be68bb142b14a7e8278d6e0b89f05d78e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324838"
 ---
 # <a name="glpixelstoref-function"></a>glPixelStoref fonction)
 
@@ -89,7 +89,7 @@ Valeur définie pour l' *pname* .
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glPixelStore** définit les modes de stockage en pixels qui affectent le fonctionnement des [**glDrawPixels**](gldrawpixels.md) et [**glReadPixels**](glreadpixels.md) suivants, ainsi que la décompression des modèles de polygone stipple (consultez [**glPolygonStipple**](glpolygonstipple.md)), des bitmaps (consultez [**GlBitmap**](glbitmap.md)) et des modèles de texture (consultez [**glTexImage1D**](glteximage1d.md), [**glTexImage2D**](glteximage2d.md), [**glTexSubImage1D**](gltexsubimage1d.md)et [**glTexSubImage2D**](gltexsubimage2d.md)).
 
@@ -99,14 +99,14 @@ Le tableau suivant indique le type, la valeur initiale et la plage de valeurs va
 
 | Pname                    | Type    | Valeur initiale | Plage valide   |
 |--------------------------|---------|---------------|---------------|
-| \_octets d’échange de packs GL \_ \_    | Boolean | false         | True ou False |
-| \_octets d’échange de packs GL \_ \_    | Boolean | false         | True ou False |
+| \_octets d’échange de packs GL \_ \_    | Booléen | false         | True ou False |
+| \_octets d’échange de packs GL \_ \_    | Booléen | false         | True ou False |
 | \_longueur de \_ ligne du Pack GL \_    | entier | 0             | \[0, ?)        |
 | \_ \_ lignes ignorées du Pack GL \_     | entier | 0             | \[0, ?)        |
 | \_Ignorer les \_ \_ pixels du Pack GL   | entier | 0             | \[0, ?)        |
 | \_alignement du Pack GL \_      | entier | 4             | 1, 2, 4 ou 8 |
-| \_octets de swap de décompression GL \_ \_  | Boolean | false         | True ou False |
-| COMPTABILITÉ \_ DÉcompresser \_ LSB en \_ premier   | Boolean | false         | True ou False |
+| \_octets de swap de décompression GL \_ \_  | Booléen | false         | True ou False |
+| COMPTABILITÉ \_ DÉcompresser \_ LSB en \_ premier   | Booléen | false         | True ou False |
 | \_DÉcompresser \_ la \_ longueur de ligne  | entier | 0             | \[0, ?)        |
 | \_DÉcompresser \_ les \_ lignes ignorées   | entier | 0             | \[0, ?)        |
 | \_DÉcompresser \_ les \_ pixels ignorés | entier | 0             | \[0, ?)        |
@@ -148,7 +148,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glPixelStor
 
 **glGet** avec l’argument GL \_ décompresser l' \_ alignement
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 119f3ffaa5863584b55210306b38b011c758f9bab0febac47547bdfe469b5ac0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72aaf6bb4c1ff8bf108086a8a42a618267c4bc06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123777"
 ---
 # <a name="cbaseinputpingetallocator-method"></a>Méthode CBaseInputPin. GetAllocator
 
@@ -49,17 +49,17 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IMemAlloc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur de la fonction **CoCreateInstance** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode crée un objet [**CMemAllocator**](cmemallocator.md) . Substituez cette méthode si votre filtre utilise un allocateur à partir d’un code confidentiel en aval ou d’un allocateur personnalisé.
 
 Si la méthode est réussie, l’interface **IMemAllocator** a un nombre de références en attente. Veillez à le libérer lorsque vous avez terminé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

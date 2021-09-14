@@ -4,12 +4,12 @@ description: La procédure suivante décrit les étapes que le client doit utili
 ms.assetid: e079c585-6457-4c2c-82bd-e95d233c4aa6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a524c162aed66fec2112c3d0aeb61743b94c2eee131a10f935dba876a480baae
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 85a650a762600c254979aaea974379b4021d0d73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311578"
 ---
 # <a name="use-the-event-notification-callback"></a>Utiliser le rappel de notification d’événement
 

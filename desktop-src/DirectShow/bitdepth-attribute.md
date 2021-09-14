@@ -4,12 +4,12 @@ ms.assetid: 91a79d4e-a374-4dbc-9ec9-69cf3e1087e1
 title: Attribut bitdepth
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96edc8bc2a2002f91c59e19e19326b3bd62d48dfa726e5f4fc8d1467d1ae9bb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cfe73531d9ef5cf8b9f21c62aa514c42bb9a364
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111437"
 ---
 # <a name="bitdepth-attribute"></a>Attribut bitdepth
 
@@ -26,9 +26,9 @@ Doit être 16, 24 ou 32. La valeur par défaut est 16.
 
 ## <a name="applies-to"></a>S'applique à
 
-[**group**](group-element.md)
+[**Communauté**](group-element.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cet attribut uniquement si l’attribut de type est `video` .
 

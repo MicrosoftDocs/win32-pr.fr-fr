@@ -4,12 +4,12 @@ description: Pour annuler une connexion à une ressource réseau, une applicatio
 ms.assetid: a1c80222-4986-4c51-86a5-a1caacb4b2fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbb5c74faa1e1f8b75d0e3b604d89615c6ad1481384a661253ee204dd3ee6081
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22cc5fb9536a5d073a6c99d8b49a00e3c2771546
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118566919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311077"
 ---
 # <a name="canceling-a-network-connection"></a>Annulation d’une connexion réseau
 

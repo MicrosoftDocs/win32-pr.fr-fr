@@ -4,12 +4,12 @@ ms.assetid: 07689d15-3e46-45f7-bdd5-ae51308ddbce
 title: Propriété AVDecVideoPixelAspectRatio (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e383dd49fc9f84d59ebc0e666a14c069424d47696a4b12595072d46adfcb4eff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19ce01fbe8d8e7992b35265a67f1833ae41bdde2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118663420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112042"
 ---
 # <a name="avdecvideopixelaspectratio-property"></a>Propriété AVDecVideoPixelAspectRatio
 
@@ -25,11 +25,11 @@ Cette propriété est en lecture seule.
 
 **CODECAPI \_ AVDecVideoPixelAspectRatio**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les 16 bits supérieurs de la valeur contiennent la largeur, tandis que les 16 bits inférieurs contiennent la hauteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Lorsque vous utilisez la sérialisation de procédure, une procédu
 ms.assetid: 98367b00-696b-44c4-a747-92ecac34ba1e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 023b514aa5a2e5be1b937a3989c3446bcc6e61c76f885381ce257286b5c625b4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77696761a9aa5fe1471e9ebf24a57303b15d0ff3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311485"
 ---
 # <a name="procedure-serialization"></a>Sérialisation de procédure
 

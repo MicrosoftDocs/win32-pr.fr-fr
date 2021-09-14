@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e9ae4d4c7c47012b71a70916f5861975176b86e6612cb2a4fec3ea6c9c6e17cb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5ada0fcaba729eff37f41f1ae7666841175689ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010348"
 ---
 # <a name="rwtexture2darray"></a>RWTexture2DArray
 
@@ -29,7 +29,7 @@ Ressource en lecture/écriture.
 | Méthode                                                             | Description                   |
 |--------------------------------------------------------------------|-------------------------------|
 | [**GetDimensions**](sm5-object-rwtexture2darray-getdimensions.md) | Obtient les dimensions de ressource. |
-| [**Load**](rwtexture2darray-load.md)                              | Lit les données de texture.           |
+| [**Chargera**](rwtexture2darray-load.md)                              | Lit les données de texture.           |
 | [**Opérateur\[\]**](sm5-object-rwtexture2darray-operatorindex.md)  | Obtient une variable de ressource.     |
 
 
@@ -62,9 +62,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -74,7 +74,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

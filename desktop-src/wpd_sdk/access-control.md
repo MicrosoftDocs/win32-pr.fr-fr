@@ -4,12 +4,12 @@ ms.assetid: d17137f9-b206-4ced-82e5-96a7d927c89b
 title: Access Control (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83caa01b08409afd196ea0507cb47986928a1d947b6ff7907640e4f9bd5b390f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1a7820f38a41cbf9ff0199e5fde8de8ed3609063
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119657909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234516"
 ---
 # <a name="access-control-wpd-api"></a>Access Control (API WPD)
 

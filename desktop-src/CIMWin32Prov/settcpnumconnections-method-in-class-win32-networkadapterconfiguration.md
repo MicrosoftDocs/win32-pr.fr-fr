@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d28fcbe9c437d686b4f19383635fcbd9d2e0b954359cdb4e0af1b66a11c16764
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5708c7ce80930c0924b560cc7b84e5af45ad7962
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119700049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124284"
 ---
 # <a name="settcpnumconnections-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetTcpNumConnections de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Nombre maximal de connexions ouvertes simultanément par TCP. La plage de valeur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -408,7 +408,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 L’exemple VBScript [de modification de nombre autorisé de connexions TCP](https://Gallery.TechNet.Microsoft.Com/016d09f3-28aa-47eb-b439-100b89999bab) définit le nombre maximal autorisé de connexions TCP ouvertes simultanément sur un ordinateur à 10.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

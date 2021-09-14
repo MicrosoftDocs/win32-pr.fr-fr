@@ -4,12 +4,12 @@ ms.assetid: eca3f9b7-6051-4654-8016-a9c679519bc7
 title: Attribut MFASFSPLITTER_PACKET_BOUNDARY (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0904c6b5a002d6aa18361365946a176521674ea22f7a45cc042b89d844c4210d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 044fd3ed635dc7cb45db1cb9e5c480481b06cd31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119464059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313846"
 ---
 # <a name="mfasfsplitter_packet_boundary-attribute"></a>MFASFSPLITTER \_ attribut de limite de paquet \_
 
@@ -21,7 +21,7 @@ Spécifie si une mémoire tampon contient le début d’un paquet ASF (Advanced 
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si une mémoire tampon de média expose l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) via **QueryInterface** et que la valeur de cet attribut est différente de zéro, le séparateur ASF traite la mémoire tampon comme le début d’un nouveau paquet.
 
@@ -31,7 +31,7 @@ Pour les données ASF avec des tailles de paquets fixes, cet attribut n’est pa
 
 Notez que les implémentations standard du [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) fournies par Media Foundation n’exposent pas [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes). Pour utiliser cet attribut, vous devez fournir votre propre implémentation de **IMFMediaBuffer**; par exemple, en encapsulant les mémoires tampons retournées par [**MFCreateMemoryBuffer**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

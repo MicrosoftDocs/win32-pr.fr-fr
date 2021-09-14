@@ -5,22 +5,22 @@ ms.assetid: d925f71c-fc5a-4ff2-8f5d-9434c162b4b4
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 04610b75e8ca4ea7602d00b840bbbd9002397d9e
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234900"
 ---
 # <a name="first-experience"></a>Première expérience
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Dans la première expérience idéale, les utilisateurs installent votre programme et l’utilisent immédiatement de manière productive, sans avoir à répondre à une série de questions ou à apprendre un ensemble de choses.
 
 Une interface utilisateur de première expérience aide les utilisateurs à passer de leur première exposition à un nouveau programme ou une nouvelle fonctionnalité à l’utilisation quotidienne.
 
-Pour les programmes Windows, la première expérience initiale se produit lorsque les utilisateurs exécutent le programme d’installation. Les programmes d’installation sont généralement :
+pour les programmes Windows, la première expérience initiale se produit lorsque les utilisateurs exécutent le programme d’installation. Les programmes d’installation sont généralement :
 
 -   Oblige l’utilisateur à accepter un contrat de licence utilisateur final (CLUF).
 -   Demandez une clé de produit.
@@ -30,7 +30,7 @@ Pour les programmes Windows, la première expérience initiale se produit lorsqu
 
 ![capture d’écran de la boîte de dialogue « tapez votre clé de produit » ](images/exper-first-exper-image1.png)
 
-Une partie de l’expérience d’installation de Windows classique.
+une partie d’une expérience d’installation de Windows classique.
 
 La première expérience continue ensuite à la première utilisation du programme ou de la fonctionnalité. Cette première utilisation peut :
 
@@ -110,14 +110,14 @@ Vous n’avez qu’une seule chance de faire une bonne première impression et l
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Limitez les premières expériences aux tâches et aux paramètres nécessaires à l’utilisation d’un programme ou d’une fonctionnalité, et incluez-les uniquement lorsqu’il n’existe aucune meilleure solution.** Pour plus d’options, consultez le tableau précédent.
     -   **Exception :** Ajoutez des paramètres de personnalisation de personnalisation ou de programme à la première expérience si leur personnalisation fait partie de l’expérience de base ou cruciale pour l’identification personnelle de l’utilisateur avec le programme.
 
 ![capture d’écran de la boîte de dialogue’taper un nom d’ordinateur' ](images/exper-first-exper-image3.png)
 
-Windows demande aux utilisateurs le nom de l’ordinateur et le choix de l’arrière-plan lors de l’installation, car ces paramètres aident à former une connexion émotionnelle au produit.
+Windows demande au utilisateur le nom de l’ordinateur et le choix de l’arrière-plan lors de l’installation, car ces paramètres permettent d’obtenir une connexion émotionnelle au produit.
 
 -   **Utilisez l’expérience d’installation** pour les tâches et les paramètres s’ils s’appliquent à tous les utilisateurs ou si la modification des paramètres nécessite une élévation.
 -   **Utilisez la première expérience d’utilisation** pour les tâches et les paramètres s’ils s’appliquent à des utilisateurs individuels.
@@ -137,7 +137,7 @@ Windows demande aux utilisateurs le nom de l’ordinateur et le choix de l’arr
     Une expérience d’installation qui facilite le processus principal des tâches si l’utilisateur n’envisage pas de personnaliser l’installation.
 
 -   **N’encombrez pas les utilisateurs avec des tâches et des paramètres :**
-    -   **Commencez doucement.** Commencez avec des paramètres de personnalisation simples et progressez vers des tâches et des paramètres plus complexes et techniques. Par exemple, le programme d’installation de Windows démarre avec les informations personnelles et se termine par la configuration du réseau.
+    -   **Commencez doucement.** Commencez avec des paramètres de personnalisation simples et progressez vers des tâches et des paramètres plus complexes et techniques. par exemple, Windows programme d’installation commence par les informations personnelles et se termine par la configuration du réseau.
     -   **Utilisez une première expérience contextuelle** pour les tâches et les paramètres s’ils s’appliquent uniquement aux fonctionnalités qui ne sont pas fondamentales pour le programme principal.
 
         ![capture d’écran de la boîte de dialogue « Configuration audio et vidéo » ](images/exper-first-exper-image6.png)
@@ -159,17 +159,17 @@ Windows demande aux utilisateurs le nom de l’ordinateur et le choix de l’arr
 
     Dans cet exemple, une application de commerce électronique explique comment utiliser les informations personnelles.
 
--   **Présentez les premières expériences en mode plein écran uniquement si les utilisateurs ne peuvent pas effectuer d’autres tâches de manière productive.** Par exemple, le programme d’installation de Windows s’affiche en mode plein écran pour dissuader les utilisateurs d’effectuer d’autres tâches pendant l’installation de Windows. La plupart des premières expériences ne doivent pas être en plein écran.
+-   **Présentez les premières expériences en mode plein écran uniquement si les utilisateurs ne peuvent pas effectuer d’autres tâches de manière productive.** par exemple, Windows installation est présentée en mode plein écran pour dissuader les utilisateurs d’effectuer d’autres tâches pendant l’installation de Windows. La plupart des premières expériences ne doivent pas être en plein écran.
 
 ### <a name="settings"></a>Paramètres
 
 -   **Pour tous les paramètres, sélectionnez le plus sûr (pour éviter la perte de données ou l’accès au système), la valeur la plus sûre et la valeur privée par défaut.** Si la sécurité et la sécurité ne sont pas des facteurs, sélectionnez la valeur la plus probable ou la plus pratique. Choisir les valeurs par défaut appropriées est un moyen efficace de simplifier la première expérience.
 -   **Demander aux utilisateurs de s’abonner à :**
 
-    -   Paramètres avec implications juridiques, tels que les contrats de licence utilisateur final (CLUF). Ces paramètres ne peuvent pas avoir de sélections par défaut.
-    -   Fonctionnalités qui effectuent des modifications automatiques de la configuration du système, telles que les mises à jour automatiques de Windows.
+    -   Paramètres avec des implications juridiques, telles que les contrats de licence utilisateur final (cluf). Ces paramètres ne peuvent pas avoir de sélections par défaut.
+    -   fonctionnalités qui effectuent des modifications de configuration système automatiques, telles que Windows les mises à jour automatiques.
     -   Fonctionnalités qui révèlent des informations d’identification personnelle (PII) ou des informations système.
-    -   Les modifications apportées au bureau de l’utilisateur au-delà de l’ajout d’entrées au menu Démarrer, telles que l’ajout d’icônes au bureau ou à la barre de lancement rapide.
+    -   les modifications apportées au bureau de l’utilisateur au-delà de l’ajout d’entrées à la menu Démarrer, telles que l’ajout d’icônes au bureau ou à la barre de lancement rapide.
     -   Logiciels facultatifs, tels que les améliorations du produit, les abonnements et les produits tiers.
 
     ![capture d’écran de la boîte de dialogue Choisir les fonctionnalités souhaitées ](images/exper-first-exper-image9.png)
@@ -186,7 +186,7 @@ Windows demande aux utilisateurs le nom de l’ordinateur et le choix de l’arr
     -   Si la durée d’attente est généralement supérieure à deux minutes, faciliter l’exécution d’autres tâches pour les utilisateurs. Affichez le temps d’attente estimé, et recommandez-vous que les utilisateurs effectuent une autre tâche en attendant et rendent l’achèvement des tâches évident en modifiant l’écran de manière significative.
 -   **Reconsidérez les didacticiels de présentation pendant la première expérience.** Les utilisateurs les plus susceptibles de vouloir utiliser votre programme immédiatement et sont intéressés par les didacticiels ultérieurement.
 -   **N’utilisez pas de notifications de publication de fonctionnalités dans la première expérience.** Au lieu d’utiliser une [notification de publication de fonctionnalités](mess-notif.md), vous pouvez concevoir la fonctionnalité de manière à ce qu’elle soit plus facile à découvrir dans les contextes là où elle est nécessaire, ou à ne rien faire d’autre et permettre aux utilisateurs de découvrir la fonctionnalité de manière autonome.
--   **N’utilisez pas de notifications au cours de l’expérience Windows initiale.** Pour améliorer sa première expérience, Windows 7 supprime toutes les notifications affichées au cours des premières heures d’utilisation. Concevez votre programme en supposant que les utilisateurs ne verront pas ces notifications.
+-   **n’utilisez pas de notifications au cours de l’expérience de Windows initiale.** pour améliorer sa première expérience, Windows 7 supprime toutes les notifications affichées au cours des premières heures d’utilisation. Concevez votre programme en supposant que les utilisateurs ne verront pas ces notifications.
 
  
 

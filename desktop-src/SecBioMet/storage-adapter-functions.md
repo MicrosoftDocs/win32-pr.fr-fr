@@ -4,12 +4,12 @@ description: Un adaptateur de stockage gère les bases de données de modèles.
 ms.assetid: bfb0c9e5-a95e-4054-bc83-98ff682994a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7072847c6d1ca653bd9e8edad9c51b7736354b447feeafda7c465973d4c25aea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04b5b864ab37416bb215769a700bae410c9b882c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011185"
 ---
 # <a name="storage-adapter-functions"></a>Stockage Fonctions de l’adaptateur
 

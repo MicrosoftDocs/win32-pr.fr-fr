@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 20ca9874447f4d606f7559dc60322f206c4726feb5cbe070b188bb04173427ea
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 97ead4df1d45b110c3d0a91976dc8eca6ffd72c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124041"
 ---
 # <a name="setigmplevel-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetIGMPLevel de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -72,7 +72,7 @@ Définit le niveau auquel le système prend en charge la multidiffusion IP et pa
 
 </dt> <dd></dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -431,7 +431,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 L’exemple VBScript [de modification du niveau IGMP pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/b92f894c-5cf8-4484-b5f0-d54761bacd5c) désactive la multidiffusion IGMP sur un ordinateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

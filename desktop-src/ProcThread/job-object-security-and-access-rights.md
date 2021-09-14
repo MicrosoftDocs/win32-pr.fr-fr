@@ -4,12 +4,12 @@ ms.assetid: 8d212292-f087-41e4-884e-cec4423dac49
 title: Sécurité de l’objet de travail et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e62111a630b5fd8ee4639505bedec192155f3775f4c284ff1455b8eea63d21d7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d6f5207e459bab2ae444282355844401e0b82e9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324829"
 ---
 # <a name="job-object-security-and-access-rights"></a>Sécurité de l’objet de travail et droits d’accès
 

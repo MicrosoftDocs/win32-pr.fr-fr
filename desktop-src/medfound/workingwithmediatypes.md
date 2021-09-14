@@ -4,12 +4,12 @@ ms.assetid: 1aaf7554-1a5f-439a-afb1-a031607e1a1e
 title: utilisation des Types de médias DMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a75d7eb65e92a89d5d413d8cc04a7dbb9f1891d6b23a9cc3c1242fbae46f1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db172538280a5dcdc6f4ffe91c19ac1d51e91ef9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119100915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313533"
 ---
 # <a name="working-with-dmo-media-types"></a>utilisation des Types de médias DMO
 

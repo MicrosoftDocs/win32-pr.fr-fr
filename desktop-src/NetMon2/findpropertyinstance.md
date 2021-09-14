@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: ac8b7d34b33bb76bfffc26b3ae6fc455857fafb65a9a2aef7e91fd0c2763adc2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21f94a3e4a1eb9619b39cff534a778235980a278
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118938580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110374"
 ---
 # <a name="findpropertyinstance-function"></a>FindPropertyInstance fonction)
 
@@ -54,19 +54,19 @@ Handle vers la propriété que vous souhaitez rechercher. Le descripteur de prop
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit (autrement dit, si la propriété est trouvée), la valeur de retour est un pointeur vers la première instance de la propriété.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer l’instance suivante de la propriété, appelez [FindPropertyInstanceRestart](findpropertyinstancerestart.md).
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md)peuvent appeler la fonction **FindPropertyInstance** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

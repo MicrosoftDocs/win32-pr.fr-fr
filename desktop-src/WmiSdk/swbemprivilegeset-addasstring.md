@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f474f1650cae338a7790ac6d5cb66a248be6c6658d5f2577efcc56870000cc66
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b3a740141b14766080a09d01b36b5c0202351eda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119860059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010444"
 ---
 # <a name="swbemprivilegesetaddasstring-method"></a>Méthode SWbemPrivilegeSet. AddAsString
 
@@ -59,7 +59,7 @@ Valeur booléenne qui active ou désactive ce privilège. La valeur par défaut 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, cette méthode retourne un objet [**SWbemPrivilege**](swbemprivilege.md) qui représente le nouveau privilège. Dans le cas contraire, un objet null est retourné.
 
@@ -99,7 +99,7 @@ objNewPort.Put_
 
 Un exemple de code qui utilise cette méthode est également décrit dans la rubrique [**SWbemPrivilegeSet**](swbemprivilegeset.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

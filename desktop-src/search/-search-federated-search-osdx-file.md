@@ -4,12 +4,12 @@ ms.assetid: 62cd88cd-e6ff-4e46-887d-e62f7018c065
 title: création d’un fichier de Description OpenSearch dans Windows recherche fédérée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f58b29a860c7d53583b7fd17ddd942bb21b08d649ea7e54d5b2278be2f8d4c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 406b166d6963517d692ef9de8292190d7eb92102
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119456863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313234"
 ---
 # <a name="creating-an-opensearch-description-file-in-windows-federated-search"></a>création d’un fichier de Description OpenSearch dans Windows recherche fédérée
 
@@ -289,7 +289,7 @@ les mappages par défaut des éléments XML RSS à Windows propriétés système
 | Chemin d’accès XML RSS                  | Windows Shell, propriété (nom canonique) |
 |-------------------------------|-----------------------------------------|
 | Lien                          | System. ItemUrl                          |
-| Titre                         | System. ItemName                         |
+| Intitulé                         | System. ItemName                         |
 | Auteur                        | System.Author                           |
 | pubDate                       | System. DateModified                     |
 | Description                   | Résumé système.                      |

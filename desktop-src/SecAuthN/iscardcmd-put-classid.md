@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: c632b25e3fcef3f08b79dffa6f72dcc7ae3409d744de02527b3be495638b2ba9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed4b1f273ebe9ea0a5e105ec3d88fc8446f7a831
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311358"
 ---
 # <a name="iscardcmdput_classid-method"></a>ISCardCmd ::p ut \_ ClassID, méthode
 
@@ -48,7 +48,7 @@ Octet qui représente l’identificateur de classe.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -64,7 +64,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer l’identificateur de classe actuel, appelez [**obtenir \_ ClassID**](iscardcmd-get-classid.md).
 
@@ -91,7 +91,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: EAF75483-90A4-4BB1-82A5-EFBB2219A55B
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ccab225046525e2171799af8c60c9c6d78d63250b3c26fbb24902cf516f4c98
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b41cab37a1b7753873b377c89b502169c06b97a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118350126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324656"
 ---
 # <a name="remote-desktop-activex-control-reference"></a>référence de contrôle de ActiveX Bureau à distance
 

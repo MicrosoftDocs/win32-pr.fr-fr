@@ -4,12 +4,12 @@ description: Une fois que le serveur a envoyé une réponse, le client appelle R
 ms.assetid: 48fb3777-d90a-474b-a1fa-9d034b5791e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24500e176a7c5a36342b4188e687c557d48646deef1de39845257d8e04ff7c45
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9143daaf1f276f784086e2ec17efb47dfd1fb6e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311454"
 ---
 # <a name="receiving-the-asynchronous-reply"></a>Réception de la réponse asynchrone
 

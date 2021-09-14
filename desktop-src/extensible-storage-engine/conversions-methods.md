@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.conv
 ms:contentKeyID: 55101015
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8cfb9be5ae27484da8e56613cc4b44f274f0a7151003b9e1b39b200eb390f53f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf9850069169050883eefa7157a458f616658494
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118982523"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010311"
 ---
 # <a name="conversions-methods"></a>Méthodes de conversion
 

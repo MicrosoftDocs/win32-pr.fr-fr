@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b4a7e490809efa2e2d9f1ad27bca697c6333e682
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124368028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110710"
 ---
 # <a name="wm_cap_set_preview-message"></a>Message d’aperçu de l' \_ ensemble de connexions WM \_ \_
 
@@ -49,7 +49,7 @@ Indicateur d’aperçu. Spécifiez **true** pour ce paramètre pour activer le m
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mode aperçu utilise des ressources processeur importantes. Les applications peuvent désactiver l’aperçu ou réduire le taux d’aperçu lorsqu’une autre application a le focus. Le membre **fLiveWindow** de la structure [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) indique si le mode aperçu est actuellement activé.
 

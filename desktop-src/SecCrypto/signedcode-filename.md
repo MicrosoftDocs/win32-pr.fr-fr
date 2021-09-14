@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 981ff6e1343f836ef145d1dac8c66b93d7a89c885a04cb2fe024740d7e35a53d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6e31e57376f987b2b5cb47e5e6bd8a0d5e85fba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123058"
 ---
 # <a name="signedcodefilename-property"></a>SignedCode. FileName, propriété
 
@@ -39,11 +39,11 @@ SignedCode.FileName As String
 
 Chemin du fichier exécutable.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur de la propriété **filename** est modifiée, l’état de la totalité de l’objet [**SignedCode**](signedcode.md) est réinitialisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

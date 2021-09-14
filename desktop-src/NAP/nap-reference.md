@@ -4,12 +4,12 @@ description: La documentation de référence NAP est divisée en sections suivan
 ms.assetid: e391be3c-95ab-4c80-a5d8-8a8fef28e56b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6651253c99cdf84c1ed0bbdf35e3df6318586868037ac343a9e19f6271e52bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c55c6b05870fbd8758e34ac74b54ec6d27ef733
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118620808"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110578"
 ---
 # <a name="nap-reference"></a>Référence NAP
 
@@ -21,7 +21,7 @@ ms.locfileid: "118620808"
 La documentation de référence NAP est divisée en sections suivantes.
 
 -   [Constantes](nap-constants.md)
--   [Datatypes](nap-datatypes.md)
+-   [Types de données](nap-datatypes.md)
 -   [Types énumérés](nap-enumerated-types.md)
 -   [Interfaces](nap-interfaces.md)
 -   [Structures](nap-structures.md)

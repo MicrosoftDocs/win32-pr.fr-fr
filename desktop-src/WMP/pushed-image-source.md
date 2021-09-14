@@ -10,12 +10,12 @@ keywords:
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b336f19900b53a4ae9fff39ce76af9fe52daac4de9e94fb09dcf7b0561f1dde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 021c77a305e0f6981823c8a1e471862554c32e08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010956"
 ---
 # <a name="pushed-image-source"></a>Source de l’image Push
 

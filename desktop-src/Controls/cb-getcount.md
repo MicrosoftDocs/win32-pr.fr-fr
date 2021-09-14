@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8215046ae9558fd03388b2b0637233c2f69832ea07a7f20fd24ddc0a5eb3c177
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7900aadf3ba87cc7603a3fe15f4974911c9f9a37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117832277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123913"
 ---
 # <a name="cb_getcount-message"></a>\_Message CB GETCOUNT
 
@@ -43,15 +43,15 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est le nombre d’éléments dans la zone de liste. Si une erreur se produit, il s’agit de CB \_ Err.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’index est de base zéro, le nombre retourné est donc supérieur à la valeur d’index du dernier élément.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - interfaces, IGridProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db3e40a99fcc6dc7dd76bd4445aa5a4deb919ec498fa21889c9a54fcbf957e6e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 328d8536a367389a6d17422bd6f6476a3e82aa11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010502"
 ---
 # <a name="grid-control-pattern"></a>Grid (modèle de contrôle)
 
@@ -55,11 +55,11 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                        | Type de membre | Remarques |
+| Membres nécessaires                                        | Type de membre | Notes |
 |---------------------------------------------------------|-------------|-------|
-| [**RowCount**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igridprovider-get_rowcount)       | Propriété    | Aucun  |
-| [**ColumnCount**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igridprovider-get_columncount) | Propriété    | Aucun  |
-| [**GetItem**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igridprovider-getitem)         | Méthode      | Aucun  |
+| [**RowCount**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igridprovider-get_rowcount)       | Propriété    | None  |
+| [**ColumnCount**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igridprovider-get_columncount) | Propriété    | None  |
+| [**GetItem**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igridprovider-getitem)         | Méthode      | None  |
 
 
 

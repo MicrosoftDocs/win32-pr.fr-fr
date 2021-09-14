@@ -4,12 +4,12 @@ ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: Interfaces de base de diffusion multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de5268855231169c6c0a7ffab02aa5145a7c1813511421b04b2420773e1588ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b715a68bd65a2fa3a3923edf10f0e2d1f6c22edb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111465"
 ---
 # <a name="base-multimedia-streaming-interfaces"></a>Interfaces de base de diffusion multimédia
 

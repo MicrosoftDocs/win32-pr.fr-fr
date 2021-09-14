@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fd3bfc5dc463d84c935f994519060c33f89b8c0a
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124368036"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110709"
 ---
 # <a name="wm_cap_set_scale-message"></a>Message de mise à l’échelle du jeu de \_ connexions WM \_ \_
 
@@ -49,7 +49,7 @@ Indicateur de mise à l’échelle de l’aperçu. Spécifiez **true** pour que 
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La mise à l’échelle des images d’aperçu contrôle la présentation immédiate des frames capturés dans la fenêtre de capture. Elle n’a aucun effet sur la taille des frames enregistrés dans le fichier.
 

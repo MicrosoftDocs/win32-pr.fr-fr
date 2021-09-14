@@ -20,12 +20,12 @@ keywords:
 - affichage des pages Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d72185dec8ae9a2119d8c3218478e7ebb5a2df4d7740b25c9f4ecc016aa392e5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c7cd96932573802d0a75f95a437b2c7284b3de44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324265"
 ---
 # <a name="using-html-with-windows-media-player"></a>utilisation de HTML avec Lecteur Windows Media
 

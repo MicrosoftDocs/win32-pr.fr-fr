@@ -28,12 +28,12 @@ keywords:
 - Prise en charge du fournisseur pour IADsPrintQueueOperations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c393cb8476830617a300f33eac741bd27b3cacbd686442dd4def5bf6c35526e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf12803929d96a61aac6603be2c528084c91693c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118178828"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124358"
 ---
 # <a name="provider-support-of-adsi-interfaces"></a>Prise en charge par le fournisseur des interfaces ADSI
 
@@ -163,7 +163,7 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 | [**TelephoneMobile**](iadsuser-property-methods.md)        | Prise en charge     | Non pris en charge   |
 | [**TelephoneNumber**](iadsuser-property-methods.md)        | Prise en charge     | Non pris en charge   |
 | [**TelephonePager**](iadsuser-property-methods.md)         | Prise en charge     | Non pris en charge   |
-| [**Titre**](iadsuser-property-methods.md)                  | Prise en charge     | Non pris en charge   |
+| [**Intitulé**](iadsuser-property-methods.md)                  | Prise en charge     | Non pris en charge   |
 
 
 
@@ -183,7 +183,7 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 | [**MemorySize**](/windows/desktop/api/Iads/nn-iads-iadscomputer)             | Interface non prise en charge | Non pris en charge |
 | [**Modèle**](/windows/desktop/api/Iads/nn-iads-iadscomputer)                  | Interface non prise en charge | Non pris en charge |
 | [**Adresses**](/windows/desktop/api/Iads/nn-iads-iadscomputer)           | Interface non prise en charge | Non pris en charge |
-| [**Exploitation**](/windows/desktop/api/Iads/nn-iads-iadscomputer)        | Interface non prise en charge | Prise en charge   |
+| [**OperatingSystem**](/windows/desktop/api/Iads/nn-iads-iadscomputer)        | Interface non prise en charge | Prise en charge   |
 | [**OperatingSystemVersion renvoyée**](/windows/desktop/api/Iads/nn-iads-iadscomputer) | Interface non prise en charge | Prise en charge   |
 | [**Propriétaire**](/windows/desktop/api/Iads/nn-iads-iadscomputer)                  | Interface non prise en charge | Prise en charge   |
 | [**PrimaryUser**](/windows/desktop/api/Iads/nn-iads-iadscomputer)            | Interface non prise en charge | Non pris en charge |
@@ -317,9 +317,9 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 
 | Propriété                        | LDAP            | NT           |
 |---------------------------------|-----------------|-----------------|
-| [**Saut**](/windows/desktop/api/Iads/nn-iads-iadscontainer)  | Non implémenté | Non implémenté |
+| [**Nombre**](/windows/desktop/api/Iads/nn-iads-iadscontainer)  | Non implémenté | Non implémenté |
 | [**Indicateurs**](/windows/desktop/api/Iads/nn-iads-iadscontainer)  | Prise en charge       | Non implémenté |
-| [**Filtres**](/windows/desktop/api/Iads/nn-iads-iadscontainer) | Prise en charge       | Prise en charge       |
+| [**Filtrer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) | Prise en charge       | Prise en charge       |
 
 
 
@@ -379,7 +379,7 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 
 | Propriété                                                                        | LDAP      | NT       |
 |---------------------------------------------------------------------------------|-----------|-------------|
-| [**Contrôler**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)                                       | Prise en charge | Non pris en charge |
+| [**Control**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)                                       | Prise en charge | Non pris en charge |
 | [**DaclDefaulted**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)                                 | Prise en charge | Non pris en charge |
 | [**DiscretionaryAcl**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)                              | Prise en charge | Non pris en charge |
 | [**Groupe**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)                                         | Prise en charge | Non pris en charge |
@@ -417,7 +417,7 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 | [**Ajouter**](/windows/desktop/api/Iads/nf-iads-iadscollection-add)                     | Interface non prise en charge | Non pris en charge |
 | [**Obtient la \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadscollection-get__newenum) | Interface non prise en charge | Prise en charge   |
 | [**GetObject**](/windows/desktop/api/Iads/nf-iads-iadscollection-getobject)         | Interface non prise en charge | Prise en charge   |
-| [**Installez**](/windows/desktop/api/Iads/nf-iads-iadscollection-remove)               | Interface non prise en charge | Prise en charge   |
+| [**Remove**](/windows/desktop/api/Iads/nf-iads-iadscollection-remove)               | Interface non prise en charge | Prise en charge   |
 
 
 
@@ -429,8 +429,8 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 
 | Propriété                                           | LDAP                                                      | NT       |
 |----------------------------------------------------|-----------------------------------------------------------|-------------|
-| [**Saut**](/windows/desktop/api/Iads/nn-iads-iadsmembers)                       | Pris en charge pour GroupCollection, mais pas pour UserCollection | Non pris en charge |
-| [**Filtres**](/windows/desktop/api/Iads/nn-iads-iadsmembers)                      | Prise en charge                                                 | Prise en charge   |
+| [**Nombre**](/windows/desktop/api/Iads/nn-iads-iadsmembers)                       | Pris en charge pour GroupCollection, mais pas pour UserCollection | Non pris en charge |
+| [**Filtrer**](/windows/desktop/api/Iads/nn-iads-iadsmembers)                      | Prise en charge                                                 | Prise en charge   |
 | Méthode                                             | LDAP                                                      | NT       |
 | [**Obtient la \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadsmembers-get__newenum) | Prise en charge                                                 | Prise en charge   |
 
@@ -494,7 +494,7 @@ Pour plus d’informations sur la propriété ou la méthode prise en charge pou
 | [**Suspendre**](/windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-pause)         | Prise en charge | Pris en charge. |
 | [**PrintJobs**](/windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-printjobs) | Prise en charge | Prise en charge  |
 | [**Purge**](/windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-purge)         | Prise en charge | Prise en charge  |
-| [**Reprendre**](/windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-resume)       | Prise en charge | Prise en charge  |
+| [**Sort**](/windows/desktop/api/Iads/nf-iads-iadsprintqueueoperations-resume)       | Prise en charge | Prise en charge  |
 
 
 

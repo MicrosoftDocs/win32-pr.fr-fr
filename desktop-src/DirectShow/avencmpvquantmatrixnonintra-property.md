@@ -4,12 +4,12 @@ ms.assetid: 087e47c1-2a8a-4687-85c1-ac18708174e1
 title: Propriété AVEncMPVQuantMatrixNonIntra (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4bf5898240e2504e3219d419732993b68784fd4c3848ee1928ff1db9262ea02
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fb70fa38d263365d9de2890be9756b46e09547ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119258249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111709"
 ---
 # <a name="avencmpvquantmatrixnonintra-property"></a>Propriété AVEncMPVQuantMatrixNonIntra
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est une chaîne qui contient les coefficients 64 8 bits encodés sous la forme d’une chaîne de valeurs hexadécimales (128 caractères).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

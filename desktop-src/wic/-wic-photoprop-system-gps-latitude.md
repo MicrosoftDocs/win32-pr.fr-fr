@@ -4,12 +4,12 @@ ms.assetid: 0f8cea07-da96-4d2a-8444-6073b51e1236
 title: Stratégie de métadonnées de photo System. GPS. Latitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41dd1eb0ee21ab02eeb8c83d5ea84f28c07c2811929f2b8c973cace4a4a06fd7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5320869c1e8fd0d4b17bb17da455fc939bf44b9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118710623"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324944"
 ---
 # <a name="systemgpslatitude-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. Latitude
 
@@ -41,7 +41,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
 
 
-| Commande | Chemin                     | Format de disque |
+| JSON | Chemin d’accès                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 2} |             |
 | 2     | /xmp/exif:GPSLatitude    |             |
@@ -54,7 +54,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
 
 
-| Commande | Chemin                     | Format de disque |
+| JSON | Chemin d’accès                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 2} |             |
 | 2     | /xmp/exif:GPSLatitude    |             |
@@ -67,7 +67,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
 
 
-| Commande | Chemin                     |
+| JSON | Chemin d’accès                     |
 |-------|--------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 2} |
 | 2     | /xmp/exif:gpslatitude    |
@@ -82,7 +82,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 2}       |             |
 | 2     | /ifd/xmp/exif:GPSLatitude |             |
@@ -95,7 +95,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 2}       |             |
 | 2     | /ifd/xmp/exif:GPSLatitude |             |
@@ -108,7 +108,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
 
 
-| Commande | Chemin                      |
+| JSON | Chemin d’accès                      |
 |-------|---------------------------|
 | 1     | /IFD/GPS/{UShort = 2}       |
 | 2     | /ifd/xmp/exif:gpslatitude |
@@ -117,7 +117,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LatitudeNumerator
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

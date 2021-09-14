@@ -5,11 +5,11 @@ ms.assetid: 53ba32de-85d2-477a-944a-963e1d5e1e95
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0f961c4cb02bd69a95ee7b409fd464ae0b7bb0f6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010645"
 ---
 # <a name="samples-ui-automation"></a>Exemples (UI Automation)
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b60550a6e7325883927aba5ca63908106f4742b5c6b17ff61305288ae237d02f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5540e969f4de28ed213d06ba7cd27d027f33e13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234678"
 ---
 # <a name="drm_licensestate_playback"></a>\_Lecture DRM LicenseState \_
 
@@ -31,7 +31,7 @@ La propriété de **\_ \_ lecture DRM LicenseState** contient une structure de [
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 

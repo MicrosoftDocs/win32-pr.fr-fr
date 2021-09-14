@@ -16,11 +16,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2ef45b5f655e3ef09350c508271233de49f964a4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010501"
 ---
 # <a name="griditem-control-pattern"></a>GridItem (modèle de contrôle)
 
@@ -51,15 +51,15 @@ Les propriétés suivantes sont requises pour implémenter l’interface [**IGri
 
 | Membres nécessaires                                                  | Type de membre | Notes |
 |-------------------------------------------------------------------|-------------|-------|
-| [**Haut**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_row)                       | Propriété    | Aucun  |
-| [**Chronique**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_column)                 | Propriété    | Aucun  |
-| [**RowSpan**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_rowspan)               | Propriété    | Aucun  |
-| [**ColumnSpan**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_columnspan)         | Propriété    | Aucun  |
-| [**ContainingGrid**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_containinggrid) | Propriété    | Aucun  |
+| [**Haut**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_row)                       | Propriété    | None  |
+| [**Chronique**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_column)                 | Propriété    | None  |
+| [**RowSpan**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_rowspan)               | Propriété    | None  |
+| [**ColumnSpan**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_columnspan)         | Propriété    | None  |
+| [**ContainingGrid**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-igriditemprovider-get_containinggrid) | Propriété    | None  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement.
 
@@ -79,9 +79,9 @@ Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

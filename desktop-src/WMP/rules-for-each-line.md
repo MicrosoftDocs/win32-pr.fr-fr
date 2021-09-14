@@ -8,12 +8,12 @@ keywords:
 - fichiers de définition d’apparence, règles pour les lignes de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc95bc262f43e27d0f132bac306a5efe4c5b106dc33238e9f49208469738a8a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b2adaf52156a2feed7893976099cacb82a19fcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118833599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010883"
 ---
 # <a name="rules-for-each-line"></a>Règles pour chaque ligne
 

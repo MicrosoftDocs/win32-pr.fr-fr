@@ -4,12 +4,12 @@ description: emplacements de détection des informations d’erreur étendues de
 ms.assetid: 73c4d044-363f-4bf5-a8ea-37d8a227183a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd5f4ac679428c0ce3e933f7d537867fd96c490caf2880b6b6e2d69cc08f74a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05effd769a6da711b881c4b475b4ade8d7c1812f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120021331"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311558"
 ---
 # <a name="extended-error-information-detection-locations"></a>Emplacements de détection des informations d’erreur étendues
 

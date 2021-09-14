@@ -7,12 +7,12 @@ keywords:
 - convertir en coordonnées de fenêtre OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fa74b42457349b14e151099a3c4238e855ad0001e1b8f9416808a1279b82345
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8ec3d8922890cfa3a79c5dacd94e93a06c53a73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311633"
 ---
 # <a name="transforming-to-window-coordinates"></a>Transformer en coordonnées de fenêtre
 

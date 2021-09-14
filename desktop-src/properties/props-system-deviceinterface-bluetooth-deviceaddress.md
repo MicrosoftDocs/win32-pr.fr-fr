@@ -4,12 +4,12 @@ ms.assetid: 41588629-d1cd-4274-989b-0e81cbdc1e87
 title: System. DeviceInterface. Bluetooth. DeviceAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e2ea679b0672fb5eeea1db8798042ecd812006463cceb781673ed67b5fe006f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1244c13d93ec832d77159a802ee87ae884d48502
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118232257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295339"
 ---
 # <a name="systemdeviceinterfacebluetoothdeviceaddress"></a>System. DeviceInterface. Bluetooth. DeviceAddress
 

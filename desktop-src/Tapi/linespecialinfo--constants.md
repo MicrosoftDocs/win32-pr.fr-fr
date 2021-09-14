@@ -4,12 +4,12 @@ ms.assetid: b94f8a6f-b84d-4976-b4d4-10dee5a1a4d8
 title: Constantes LINESPECIALINFO_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1585146040db4392a271f5095420eee61f9873906443b58198676de806cb37f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78154757515ebd5bfa36778795c26ef9fdc96db1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324700"
 ---
 # <a name="linespecialinfo_-constants"></a>\_Constantes LINESPECIALINFO
 
@@ -67,13 +67,13 @@ Les spécificités relatives à la tonalité des informations spéciales sont ac
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 
 Des tonalités spéciales sont définies pour les messages de notification et ne sont généralement pas utilisées à des fins de facturation ou de supervision.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

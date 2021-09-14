@@ -4,12 +4,12 @@ ms.assetid: a8b5b8c7-47c9-4561-be96-af8416d854dc
 title: 'ITStreamQualityControl :: méthode d’extraction (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1a82a448320115664ab0664c2f7d8cde9f8049c7ee2cb86ccf7e46f856ceafe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6758678dfacc8e0fe169189beaa8e890e801c907
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120080499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311170"
 ---
 # <a name="itstreamqualitycontrolget-method"></a>ITStreamQualityControl :: méthode d’extraction
 
@@ -55,7 +55,7 @@ Valeur de l’énumération [**TAPIControlFlags**](tapicontrolflags.md) indiquan
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -70,7 +70,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

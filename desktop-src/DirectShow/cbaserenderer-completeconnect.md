@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 833e19a6e7b100aac5322a54455c04c263569e33b3422d5957e5eeee15bbd283
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9d2d35f99a3b3b8dc5b668b8ee9a9f94f0a53dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157840"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111333"
 ---
 # <a name="cbaserenderercompleteconnect-method"></a>Méthode CBaseRenderer. CompleteConnect
 
@@ -49,15 +49,15 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La broche d’entrée du filtre appelle cette méthode à l’intérieur de sa propre `CompleteConnect` méthode, qui est appelée pour terminer une connexion de code confidentiel. (Pour plus d’informations, consultez [**CBasePin :: CompleteConnect**](cbasepin-completeconnect.md).) Le filtre appelle la méthode [**CBaseRenderer :: SetRepaintStatus**](cbaserenderer-setrepaintstatus.md) pour activer les événements de [**\_ redessin ce**](ec-repaint.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0ae4c4d7818a0cbd344d95b342fcdccd179b2b2b2b6538a57c451b47bda60306
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef3bc9ad5d6203077275f3665c4b0efc98265fbe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124002"
 ---
 # <a name="setpmtudiscovery-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetPMTUDiscovery de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Si la **valeur est true**, le protocole TCP est activé pour tenter de découvri
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En détectant le chemin MTU et en limitant les segments TCP à cette taille, TCP peut éliminer la fragmentation sur les routeurs sur le chemin qui connecte les réseaux avec différents MTU. La fragmentation affecte le débit TCP et la congestion du réseau. Si vous affectez la **valeur false** à ce paramètre, un MTU de 576 octets est utilisé pour toutes les connexions qui ne sont pas des ordinateurs sur le sous-réseau local
 
@@ -412,7 +412,7 @@ En détectant le chemin MTU et en limitant les segments TCP à cette taille, TCP
 
 L’exemple VBScript [activer la découverte PMTU sur toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/dd68dc8d-d452-484c-add7-2da5c87c3568) permet à un ordinateur de découvrir automatiquement l’unité de transmission maximale sur un réseau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

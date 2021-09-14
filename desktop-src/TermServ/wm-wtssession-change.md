@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f29bef7eb7778602a256f80cb04e47eae905a245783906c3388b576aecedee18
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db8f1dc421aa160824a194588711e84f961ea4dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119419839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011020"
 ---
 # <a name="wm_wtssession_change-message"></a>Message de modification de WM \_ WTSSESSION \_
 
@@ -193,17 +193,17 @@ Identificateur de la session.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est envoyé uniquement aux applications qui ont été inscrites pour recevoir ce message en appelant [**WTSRegisterSessionNotification**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsregistersessionnotification).
 
 Des exemples de la façon dont les applications peuvent répondre à ce message incluent la libération ou l’acquisition de ressources spécifiques à la console, la détermination de la façon dont un écran doit être peint ou le déclenchement des effets d’animation de la console.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3e5c9528e8f91778c53ed4761c98bb67d405ec14
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364555"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233670"
 ---
 # <a name="mom_positioncb-message"></a>\_Message MOM POSITIONCB
 
@@ -47,7 +47,7 @@ Non utilisé.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La lecture de la mémoire tampon de flux continue même pendant l’exécution de la fonction de rappel. Les événements qui se trouvent après l’événement de **\_ \_ rappel MEVT F** dans la mémoire tampon sont planifiés et envoyés à temps, quel que soit le temps passé dans la fonction de rappel.
 

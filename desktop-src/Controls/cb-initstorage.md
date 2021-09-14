@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1be1aeccdde2c81c87956a42e72440732ff9eb2732cbd066f51308816c01f64a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e78c2ae2592d89ba7a0f6392666dac0404d52e39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120089089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124129"
 ---
 # <a name="cb_initstorage-message"></a>Message de la CB- \_ INITSTORAGE
 
@@ -43,7 +43,7 @@ Quantité de mémoire à allouer pour les chaînes d’élément, en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est réussi, la valeur de retour est le nombre total d’éléments pour lesquels la mémoire a été préallouée, c’est-à-dire le nombre total d’éléments ajoutés par tous les messages **CB \_ INITSTORAGE** réussis.
 
@@ -51,11 +51,11 @@ Si le message échoue, la valeur de retour est CB \_ ERRSPACE.
 
 Le message alloue de la mémoire et retourne les valeurs de réussite et d’erreur décrites ci-dessus.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message **CB \_ INITSTORAGE** permet d’accélérer l’initialisation des zones de liste déroulante qui ont un grand nombre d’éléments (plus de 100). Il réserve la quantité de mémoire spécifiée afin que les messages [**CB \_ ADDSTRING**](cb-addstring.md), [**CB \_ INSERTSTRING**](cb-insertstring.md)et [**CB \_ dir**](cb-dir.md) suivants prennent le plus de temps possible. Vous pouvez utiliser des estimations pour les paramètres *wParam* et *lParam* . Si vous surestime, la mémoire supplémentaire est allouée, si vous sous-estimez que l’allocation normale est utilisée pour les éléments qui dépassent la quantité demandée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

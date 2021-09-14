@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96434d4ea2341a8d33fcb9673898f4adca5eae7ace27eb7a7cafb9d482d74a53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 402e3b28d5423314b499213c9ddb02bca482d629
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232877"
 ---
 # <a name="iwmpnetworkgetproxyexceptionlist-method"></a>IWMPNetwork :: getProxyExceptionList, méthode
 
@@ -60,11 +60,11 @@ Implements IWMPNetwork.getProxyExceptionList
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. String** qui est une liste délimitée par des points-virgules des hôtes pour lesquels le serveur proxy est contourné. La valeur est significative uniquement lorsque **IWMPNetwork. getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une liste d’ordinateurs, de domaines et/ou d’adresses qui contournent le serveur proxy lorsque la partie hôte de l’URL cible correspond à une entrée de la liste.
 
@@ -135,7 +135,7 @@ proxyExceptionList.Lines = proxyExList
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

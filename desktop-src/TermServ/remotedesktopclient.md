@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cad76c8c189854a28709765c5677d047590216ae8ab6271d44c595f7b24fdd88
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fb10b23f52f53e2d89fd5a81449818a8fe374116
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119865898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324605"
 ---
 # <a name="remotedesktopclient-class"></a>RemoteDesktopClient, classe
 
@@ -46,7 +46,7 @@ La classe **RemoteDesktopClient** possède ces méthodes.
 | Méthode                                                                                      | Description                                                                                                                                                        |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent)                                     | Attache un gestionnaire d’événements à un événement.<br/>                                                                                                                  |
-| [**Connecter**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle client du conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).<br/>                         |
+| [**Connexion**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle client du conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).<br/>                         |
 | [**DeleteSavedCredentials**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials)               | Supprime les informations d’identification enregistrées pour l’ordinateur distant spécifié.<br/>                                                                                            |
 | [**detachEvent**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-detachevent)                                     | Détache un gestionnaire d’événements d’un événement.<br/>                                                                                                                |
 | [**Déconnecter**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-disconnect)                                       | Déconnecte la connexion active.<br/>                                                                                                                      |
@@ -87,7 +87,7 @@ La classe **RemoteDesktopClient** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

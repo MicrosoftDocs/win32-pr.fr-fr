@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 773185563db798877d38d3fb877fe1b4459468e4eeb4d45aed922203bd813418
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb943d7ade48f6684cdc10cb4b1ad7e48f87e65c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011244"
 ---
 # <a name="iscardcmdget_apdu-method"></a>ISCardCmd :: obtient la \_ méthode APDU
 
@@ -48,7 +48,7 @@ Pointeur vers la mémoire tampon d’octets mappée via un objet **IStream** qui
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour copier le APDU à partir d’un objet [**IByteBuffer**](ibytebuffer.md) (**IStream**) dans le APDU encapsulé dans cet objet d’interface, appelez [**put \_ APDU**](iscardcmd-put-apdu.md).
 
@@ -93,7 +93,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

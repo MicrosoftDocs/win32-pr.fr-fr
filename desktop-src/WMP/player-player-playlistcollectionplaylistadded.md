@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e72dcacbb60c141348a295fe086957b1404475e9e3be90433f8bdbe816fc834
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e6a229aff95d29ae93433dab538521d88c50c1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118572588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292110"
 ---
 # <a name="playerplaylistcollectionplaylistadded-event"></a>Événement Player. PlaylistCollectionPlaylistAdded
 
@@ -49,7 +49,7 @@ Player.PlaylistCollectionPlaylistAdded(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -61,7 +61,7 @@ la valeur des paramètres d’événement est spécifiée par Lecteur Windows Me
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

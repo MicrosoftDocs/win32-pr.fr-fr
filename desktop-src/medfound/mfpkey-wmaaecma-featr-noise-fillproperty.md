@@ -4,12 +4,12 @@ ms.assetid: 8bb64686-8f02-4e0d-a664-aeee1744fc8e
 title: MFPKEY_WMAAECMA_FEATR_NOISE_FILL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec3f2f6780157da97263bd6e68ac5f38c9448a5633fafe6481b082ed033331dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea0c0af2b47767a7798d9b583ac55ad5112ddf1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313765"
 ---
 # <a name="mfpkey_wmaaecma_featr_noise_fill-property"></a>\_Propriété de \_ remplissage du \_ bruit \_ de MFPKEY WMAAECMA
 
@@ -31,7 +31,7 @@ VARIANTE \_ true
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le remplissage du bruit ajoute une petite quantité de bruit aux portions du signal où le découpage de centre a supprimé les échos résiduels. Cela permet à l’utilisateur d’obtenir une meilleure expérience que de laisser des trous silencieux dans le signal.
 
@@ -52,7 +52,7 @@ La valeur par défaut de cette propriété est \_ true (activé). Avant de défi
 
 Le DSP utilise cette propriété uniquement lorsque le traitement AEC est activé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

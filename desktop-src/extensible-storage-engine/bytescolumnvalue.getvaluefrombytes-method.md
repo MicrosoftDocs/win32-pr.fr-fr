@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6f9446ce83b6d4fb2949a30280e9e86bda527f7d1c684818c11608f1cd4ef5b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f4651851d6dea72663d002b5f4269f33919e836
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117901980"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291982"
 ---
 # <a name="bytescolumnvaluegetvaluefrombytes-method"></a>Méthode BytesColumnValue. GetValueFromBytes
 
@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>Paramètres
 
-  - valeur  
+  - value  
     Entrer \[\]  
     
     Tableau d'octets.
@@ -97,7 +97,7 @@ protected override void GetValueFromBytes(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [BytesColumnValue, classe](./bytescolumnvalue-class.md)
 

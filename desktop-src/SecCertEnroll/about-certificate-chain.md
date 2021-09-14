@@ -4,12 +4,12 @@ ms.assetid: 53701ede-269c-4949-b839-3f2b64cb5510
 title: Chaîne de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a6227746690468e934475904fcc0bd895d995e2a674b9a4c6e9d01bc792fdba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e7509adb164c98cf07912af00af0d91c27ab8df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118904858"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123313"
 ---
 # <a name="certificate-chain"></a>Chaîne de certificats
 

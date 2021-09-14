@@ -4,12 +4,12 @@ ms.assetid: 5e65a3d8-04b9-46ba-b4e5-a976e1923bfd
 title: Activation et désactivation de l’exécution automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbd14a1dfd3aadb94f3586dec783ea6d394f717f500b5ac103c65fcb813baf14
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a567f50db75cd129346e193e66ba0ae5f74fa955
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120090779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313150"
 ---
 # <a name="enabling-and-disabling-autorun"></a>Activation et désactivation de l’exécution automatique
 

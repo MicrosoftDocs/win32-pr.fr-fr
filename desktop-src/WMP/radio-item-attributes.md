@@ -3,30 +3,30 @@ title: Attributs d’élément radio
 description: Attributs d’élément radio
 ms.assetid: a36b6867-ab40-4fce-b3d0-149d53a9b87b
 keywords:
-- Windows Media Player, attributs d’élément radio
-- Windows Media Player Mobile, attributs d’élément radio
-- Modèle objet du lecteur Windows Media, attributs d’élément radio
+- Lecteur Windows Media, attributs d’élément radio
+- Lecteur Windows Media Mobile, attributs d’élément radio
+- Lecteur Windows Media modèle objet, attributs d’élément radio
 - modèle objet, attributs d’élément radio
-- Contrôle ActiveX, attributs d’élément radio
-- Contrôle ActiveX du lecteur Windows Media, attributs d’élément radio
-- Contrôle ActiveX Windows Media Player Mobile, attributs d’élément radio
+- contrôle ActiveX, attributs d’élément radio
+- Lecteur Windows Media contrôle ActiveX, attributs d’élément radio
+- Lecteur Windows Media contrôle Mobile ActiveX, attributs d’élément radio
 - référence pour le modèle objet, les attributs d’élément radio
 - attributs, éléments de radio
 - attributs d’élément radio
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 81ad5326d87c4a1a75a9adf7d2e49dbd38319fe1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839561"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010947"
 ---
 # <a name="radio-item-attributes"></a>Attributs d’élément radio
 
 Les attributs suivants sont disponibles pour un élément radio dans la bibliothèque.
 
-**Remarque** Les attributs d’élément radio sont pris en charge dans le lecteur Windows Media 9. Le lecteur Windows Media 10 ou version ultérieure ne prend pas en charge ces attributs.
+**Remarque** les attributs d’élément Radio sont pris en charge dans Lecteur Windows Media série 9. Lecteur Windows Media 10 ou version ultérieure ne prend pas en charge ces attributs.
 
 -   [Attribut Abstract](abstract-attribute.md)
 -   [Attribut AcquisitionTime](acquisitiontime-attribute.md)
@@ -53,9 +53,9 @@ Les attributs suivants sont disponibles pour un élément radio dans la biblioth
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

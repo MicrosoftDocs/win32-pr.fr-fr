@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a5fd02168c19a5424ef455380bd9e1251f2e8f6c48a9dd8ea5ec4e9e1a1b1e4d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c440d8cb5c720bf6922707f04bc75e2383755c1e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124299"
 ---
 # <a name="setdnsdomain-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDNSDomain de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -51,7 +51,7 @@ Exemple : « microsoft.com »
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -406,7 +406,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un appel de méthode dépendant de l’instance qui s’applique sur la base de chaque adaptateur. Le paramètre s’applique à l’adaptateur ciblé.
 
@@ -418,7 +418,7 @@ L’exemple de code [modifier la configuration TCP/IP pour un ordinateur](https:
 
 l’exemple d’activation de la [Paramètres DHCP sur un ordinateur](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) en VBScript sur la galerie TechNet utilise **SetDNSDomain** pour configurer tous les paramètres généralement requis pour activer DHCP sur un ordinateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

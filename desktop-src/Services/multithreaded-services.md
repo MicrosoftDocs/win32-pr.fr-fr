@@ -4,12 +4,12 @@ ms.assetid: 86e04b43-5f6f-409e-ac18-d7efada4d3d3
 title: Services multithread
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32b4b51f740e0a3773115b9048ec34619910936f1531fba1260740df28873b67
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5795a170f912050d115537407fcb491305a35ba3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003727"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233076"
 ---
 # <a name="multithreaded-services"></a>Services multithread
 

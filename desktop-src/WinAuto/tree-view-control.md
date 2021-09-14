@@ -4,12 +4,12 @@ description: Un contrôle Tree View affiche une liste hiérarchique d’élémen
 ms.assetid: 5b104a77-71e5-4555-acde-1e63ac7ea5c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20986197b9075443ee5186cc68445b6bea55930493a4d6e43d0ce9c539f4d185
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0781f5cb20038fb0b23d816153ab59411bf93dc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118324909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010596"
 ---
 # <a name="tree-view-control-msaa-ui-element-reference"></a>Contrôle Tree View (référence des éléments de l’interface utilisateur MSAA)
 
@@ -67,7 +67,7 @@ Un contrôle Tree View prend en charge les propriétés [**IAccessible**](/windo
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 La propriété **accLocation** des éléments de la vue arborescence retourne l’emplacement uniquement du texte de l’élément. Les coordonnées retournées par **accLocation** pour les éléments de l’arborescence n’incluent pas l’icône située à gauche du texte.
 

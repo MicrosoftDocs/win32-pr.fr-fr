@@ -4,12 +4,12 @@ ms.assetid: e51dffed-d1cb-4a12-8615-0c0f612f993b
 title: Spécification des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f2264784d3edaad5b46017e3d337f8abfec66e1b60d18ba54388b03beddb13b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c98cb254498236b85ab5c2bc0df3bd32892227b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119627999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233855"
 ---
 # <a name="specifying-components"></a>Spécification des composants
 

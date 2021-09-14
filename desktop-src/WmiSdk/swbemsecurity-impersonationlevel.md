@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: cde6bca09198d6e05f1ae0143ee07d1aedd465df68258303f1d6ca2b4b7699f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b996d5920aba91fddf880ee9ddf6bf8081fb39f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119639579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010372"
 ---
 # <a name="swbemsecurityimpersonationlevel-property"></a>SWbemSecurity. ImpersonationLevel, propriété
 
@@ -43,7 +43,7 @@ SWbemSecurity.ImpersonationLevel As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En tant que niveau d’emprunt d’identité DCOM, cette propriété peut être définie sur l’une des valeurs suivantes :
 
@@ -87,7 +87,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"& _
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

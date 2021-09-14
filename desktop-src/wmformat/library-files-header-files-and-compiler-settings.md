@@ -17,12 +17,12 @@ keywords:
 - DRM (gestion des droits numériques), paramètres du compilateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 537742e40778120ff1b712b2170a1c451f7598b935717a574048b619321fa96d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03b0b10ea03cc08d5b689b74f9c647f7d0138fac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084736"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234653"
 ---
 # <a name="library-files-header-files-and-compiler-settings"></a>fichiers de bibliothèque, fichiers d’en-tête et Paramètres du compilateur
 

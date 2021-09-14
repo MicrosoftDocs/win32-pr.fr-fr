@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: c2b5187ab0afb432e845c74d29144c02edf94cdb62f291ae69e88ea5a5fdf198
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ed659efe388f4eb9c9ac8afd6aa2c74fd0af7d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119063869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233634"
 ---
 # <a name="irtcgettotalstatistics-method"></a>IRTC :: GetTotalStatistics, méthode
 
@@ -55,7 +55,7 @@ Indicateur utilisé pour indiquer Moniteur réseau comment gérer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -73,13 +73,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode retourne les données uniquement lorsqu’une capture est en cours, y compris pendant la suspension de la capture.
 
 Moniteur réseau stocke également les [*statistiques de conversation*](c.md). Pour récupérer des statistiques de conversation, appelez la méthode [IRTC :: GetConversationStatistics](irtc-getconversationstatistics.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

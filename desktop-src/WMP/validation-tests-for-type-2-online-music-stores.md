@@ -6,12 +6,12 @@ keywords:
 - Lecteur Windows Media Magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2cb1b4d44b1bd3c6289311c6b276de7c75ed1bcd955431796a36d272811942
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: beefd0945f9d1a9ae61e61f8be74beada1695baf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901304"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010839"
 ---
 # <a name="validation-tests-for-on-boarding-type-2-online-stores"></a>Tests de validation pour les magasins de type 2 en ligne intégrés
 
@@ -370,7 +370,7 @@ Tout d’abord, effectuez les étapes suivantes pour acheter du contenu, puis ef
     vérifiez que les colonnes suivantes s’affichent dans la bibliothèque de Lecteur Windows Media (ajoutez-les si ce n’est pas le cas) :
 
     -   Artiste de l’album
-    -   Titre
+    -   Intitulé
     -   Titre de l’album
     -   Fournisseur de contenu
     -   Genre

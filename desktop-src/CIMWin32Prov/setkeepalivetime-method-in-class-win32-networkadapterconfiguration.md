@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2aa9ea7474c3c53f2f073c263de0be987be3161704957105cdb2cca903706f95
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1dc2674f3c09626749b4c7ac6151349401670e27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124033"
 ---
 # <a name="setkeepalivetime-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetKeepAliveTime de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Intervalle, en millisecondes, que le protocole TCP attend pour vérifier qu’un
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le système distant est toujours accessible et fonctionne, il accuse réception de la transmission Keep Alive. Les paquets Keep Alive ne sont pas envoyés par défaut. Cette fonctionnalité peut être activée dans une connexion par une application.
 
@@ -412,7 +412,7 @@ Si le système distant est toujours accessible et fonctionne, il accuse récepti
 
 L’exemple VBScript [modifier l’heure de maintien de l’activité pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/35c1b0ac-285d-4baa-be6e-d3fb0b461676) configure l’heure de maintien de l’activité pour toutes les cartes réseau d’un ordinateur à 300 000 millisecondes (5 minutes).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

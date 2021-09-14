@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e69c990b01ed885b80c96e3e36ad28c2793baf618fea68b0e20006390c2adeed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d970160c07c90e84585c87ed1abf740fbe3c6318
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118331639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232853"
 ---
 # <a name="iwmpnetworkgetproxysettings-method"></a>IWMPNetwork :: getProxySettings, méthode
 
@@ -60,7 +60,7 @@ Implements IWMPNetwork.getProxySettings
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Int32** qui est l’une des valeurs suivantes.
 
@@ -77,7 +77,7 @@ Implements IWMPNetwork.getProxySettings
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -146,7 +146,7 @@ End Select
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

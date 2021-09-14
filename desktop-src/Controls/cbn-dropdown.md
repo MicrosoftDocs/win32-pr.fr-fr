@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 978ac01818f3e9ed7da9f3f1decc7398ab4af32df8f884041bec327640a8014d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 018dac2a17a656c11ac697836390ee64e55875db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119438299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123841"
 ---
 # <a name="cbn_dropdown-notification-code"></a>\_Code de notification de liste déroulante CBN
 
@@ -53,11 +53,11 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce code de notification n’est envoyé que si la zone de liste déroulante [**SCC \_**](combo-box-styles.md) ou le style [**\_ DropDownList CBS**](combo-box-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

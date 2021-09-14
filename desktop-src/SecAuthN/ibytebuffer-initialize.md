@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 28a525b26d49dd5df8a2be3ba6a5af5a16459c26e191368badae34ca381488e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 245f9282174ddeef66b130597f0f20ddf21ededc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119417629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011304"
 ---
 # <a name="ibytebufferinitialize-method"></a>IByteBuffer :: Initialize, méthode
 
@@ -56,11 +56,11 @@ Si la **valeur** n’est pas null, il s’agit des données initiales à écrire
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand vous utilisez un nouveau flux [**IByteBuffer**](ibytebuffer.md) , appelez cette méthode avant d’utiliser l’une des autres méthodes **IByteBuffer** .
 
@@ -81,7 +81,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

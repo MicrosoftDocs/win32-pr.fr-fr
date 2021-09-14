@@ -4,12 +4,12 @@ ms.assetid: ad1eac9d-b182-49b2-bd2c-2d76e2026d80
 title: WPD_RESOURCE_THUMBNAIL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5497b2c8dccd8c1181cb049e0a0a445809b041ba8ee954d9115b00b4d8e2e130
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4fc26af624f756f55ccb10ccf3f8c7bf3e6a6035
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119770939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234407"
 ---
 # <a name="wpd_resource_thumbnail"></a>\_miniature des ressources wpd \_
 
@@ -19,7 +19,7 @@ Ce type de ressource doit prendre en charge les attributs suivants.
 
 
 
-| Nom de l'attribut                                                                                                            | Obligatoire ou facultatif                                   |
+| Nom d’attribut                                                                                                            | Obligatoire ou facultatif                                   |
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [\_largeur du média wpd \_](media-properties.md)                                                                 | Obligatoire.                                              |
 | [\_hauteur du média wpd \_](media-properties.md)                                                               | Obligatoire.                                              |

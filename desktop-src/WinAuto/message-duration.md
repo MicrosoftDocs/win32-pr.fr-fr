@@ -4,12 +4,12 @@ description: Les applications utilisent généralement des fenêtres indépendan
 ms.assetid: a3f7a8d8-78e7-4fb0-8ee2-bd9341857153
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2657f71c60a489fbedffdf2730dd37f388b749f27fa68ac57e039b2f27d5f60
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2a99a43ace763da94944da334b0865c768cc920
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118828287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010686"
 ---
 # <a name="message-duration-parameter"></a>Paramètre de durée du message
 

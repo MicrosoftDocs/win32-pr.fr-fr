@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4af16c5f143d44a743b4e8f327b7d89f616b833707e09dc365a087ef37243f40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1976980d1a22f4246f0ace686941cc4bcec87c92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117980065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123118"
 ---
 # <a name="oidfriendlyname-property"></a>OID. FriendlyName, propriété
 
@@ -39,11 +39,11 @@ OID.FriendlyName As String
 
 Nom complet de l' [**OID**](oid.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la propriété **FriendlyName** est définie, la propriété [**value**](oid-value.md) est définie sur la valeur en pointillé correspondante. Si la propriété **valeur** est définie, la propriété **FriendlyName** est définie sur le nom complet correspondant.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

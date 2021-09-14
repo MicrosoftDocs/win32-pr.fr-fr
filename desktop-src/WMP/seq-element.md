@@ -3,7 +3,7 @@ title: Seq, élément
 description: L’élément SEQ contient des éléments qui définissent une sélection statique ou des éléments qui définissent une sélection intelligente.
 ms.assetid: 849f7b38-25f2-4708-a83c-e651812a1a72
 keywords:
-- Seq, élément Windows Media Player
+- seq, élément Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: b08b3f4dfa448e48f3a9d2472c6ddb46a4d4dfaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542263"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010859"
 ---
 # <a name="seq-element"></a>Seq, élément
 
@@ -66,7 +66,7 @@ Lorsqu’un élément **Seq** contient uniquement des éléments **multimédias*
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -89,7 +89,7 @@ Lorsqu’un élément **Seq** contient uniquement des éléments **multimédias*
 [**Élément smartPlaylist**](smartplaylist-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

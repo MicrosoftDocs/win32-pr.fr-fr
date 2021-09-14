@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a11fc496374f2a7f0b7842e22212013149f44f22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508886"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110685"
 ---
 # <a name="inapclientmanagementgetnapclientinfo-method"></a>INapClientManagement :: GetNapClientInfo, méthode
 
@@ -78,7 +78,7 @@ Pointeur vers un pointeur vers une structure [**CountedString**](/windows/win32/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne un code d’État HRESULT incluant, sans s’y limiter, l’un des éléments suivants.
 
@@ -95,14 +95,14 @@ La méthode retourne un code d’État HRESULT incluant, sans s’y limiter, l�
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>NapManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |

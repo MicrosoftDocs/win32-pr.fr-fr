@@ -10,12 +10,12 @@ keywords:
 - OPL (niveaux de protection de sortie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f76804b70df5db085484cb769e4c60f046aedadd9cd177480de90b8a3eb5ad6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e5e5c1e08615b55aa1fb63e6d0c4e7bb82887c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234546"
 ---
 # <a name="output-protection-levels"></a>Niveaux de protection de sortie
 

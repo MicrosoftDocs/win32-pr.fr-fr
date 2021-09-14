@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: defa19ffdebfb448e1a89c141da0b275c1df1bffdcfa9e3914293400d706b7ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98cbea5bb88614d5606dd3d5cb165be59f632556
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119577119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123922"
 ---
 # <a name="cb_dir-message"></a>\_Message du répertoire CB
 
@@ -60,19 +60,19 @@ Pointeur **LPCTSTR** vers une chaîne se terminant par un caractère null qui sp
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la valeur de retour est l’index de base zéro du dernier nom ajouté à la liste.
 
 Si une erreur se produit, la valeur de retour est CB \_ Err. Si l’espace est insuffisant pour stocker les nouvelles chaînes, la valeur de retour est CB \_ ERRSPACE.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si *wParam* inclut l' \_ indicateur de répertoire DDL et que *lParam* spécifie tous les sous-répertoires d’un répertoire de premier niveau, par exemple C : \\ temp \\ \* , la zone de liste inclura toujours une entrée « .. » pour le répertoire racine. Cela est vrai même si le répertoire racine contient des attributs système ou masqués et que les \_ indicateurs système DDL et DDL ne \_ sont pas spécifiés. Le répertoire racine d’un volume NTFS a des attributs système et masqués.
 
 La liste affiche les noms de fichiers longs, le cas échéant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

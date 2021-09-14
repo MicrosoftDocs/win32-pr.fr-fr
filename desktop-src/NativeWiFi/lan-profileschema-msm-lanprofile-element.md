@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 25334050e95ff20cf35ed1071bf2b1c006e29c0f9374923199a96c09bbae0471
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9e58895ae36a304e713ecdb21b4008a2027e8c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011570"
 ---
 # <a name="msm-lanprofile-element"></a>Élément MSM (LANProfile)
 
@@ -70,7 +70,7 @@ L’élément **MSM** est défini par l’élément [**LANProfile**](lan-profile
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

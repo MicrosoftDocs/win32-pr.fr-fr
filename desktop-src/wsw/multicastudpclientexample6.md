@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3e43d321fffefbdf29acd93d0ccd1a6deea99f5dd37cffd0c92311a717fc606
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d36b8a2117f91e43b0e4ecbbcce12cbe1c8cd2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119444509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234396"
 ---
 # <a name="multicastudpclientexample6"></a>MulticastUdpClientExample6
 

@@ -4,12 +4,12 @@ ms.assetid: 976e170d-2941-473b-b48d-3c53ff5251b2
 title: AVEncDDLtRtCenterMixLvl_x10, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c18f166ed22942acf5211712ca25708c20e61e88474e565aac3e47021f457a71
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cbeb950e77ada2111c395412b43f687bf8ac1c30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120103479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111869"
 ---
 # <a name="avencddltrtcentermixlvl_x10-property"></a>AVEncDDLtRtCenterMixLvl \_ x10, propriété
 
@@ -29,11 +29,11 @@ Cette propriété est en lecture/écriture.
 
 La valeur est spécifiée comme décibels (dB) x 10.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est en lecture/écriture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

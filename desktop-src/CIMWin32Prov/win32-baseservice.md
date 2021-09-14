@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b2ce4673b6739639475264f79a60a7fd1b1c7bc5a0f16153d22305a77812759a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b46f3b4bd37770a5f3a7c1a2d2faa93d49bc079a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119504369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124275"
 ---
 # <a name="win32_baseservice-class"></a>\_Classe BaseService Win32
 
@@ -100,7 +100,7 @@ La classe **Win32 \_ BaseService** possède ces méthodes.
 | [**Modifier**](change-method-in-class-win32-baseservice.md)                         | Modifie un service.<br/>                                                |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-baseservice.md)       | Modifie le mode de démarrage d’un service.<br/>                              |
 | [**Créer**](create-method-in-class-win32-baseservice.md)                         | Crée un nouveau service.<br/>                                             |
-| [**DELETE**](delete-method-in-class-win32-baseservice.md)                         | Supprime un service existant.<br/>                                       |
+| [**Supprimer**](delete-method-in-class-win32-baseservice.md)                         | Supprime un service existant.<br/>                                       |
 | [**InterrogateService**](interrogateservice-method-in-class-win32-baseservice.md) | Demande que le service met à jour son état dans Service Manager.<br/> |
 | [**PauseService**](pauseservice-method-in-class-win32-baseservice.md)             | Tente de placer le service dans l'état de pause.<br/>                 |
 | [**ResumeService**](resumeservice-method-in-class-win32-baseservice.md)           | Tente de placer le service dans l'état de reprise.<br/>                |
@@ -466,7 +466,7 @@ Service fourni aux processus appelant.
 
 </dd> <dt>
 
-**Démarré**
+**Cours**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -496,7 +496,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("startMode"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("mode de démarrage")
 </dt> </dl>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 Cette propriété est héritée [**du \_ service CIM**](cim-service.md).
 
@@ -809,11 +809,11 @@ Valeur de balise unique pour ce service dans le groupe. La valeur 0 (zéro) indi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ BaseService** est dérivée [**du \_ service CIM**](cim-service.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

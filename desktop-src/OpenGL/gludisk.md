@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83abb24f665cbcbf978a6423868751794371606cf412f609876a8f17d42c115a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a9a9e8b547790049c93360f060e944aafcea4511
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119489529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011486"
 ---
 # <a name="gludisk-function"></a>gluDisk fonction)
 
@@ -83,7 +83,7 @@ Nombre de sonneries concentriques sur l’origine dans laquelle le disque est su
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluDisk** restitue un disque sur le plan *z* = 0. Le disque a un rayon de *outerRadius* et contient un trou circulaire concentrique avec un rayon de *innerRadius*. Si *innerRadius* a la valeur 0, aucun trou n’est généré. Le disque est divisé autour de l’axe z en tranches (comme les tranches de pizzas), ainsi que sur l’axe z dans les anneaux (comme spécifié par les *tranches* et les *boucles*, respectivement).
 
@@ -91,7 +91,7 @@ En ce qui concerne l’orientation, le côté *z* positif du disque est considé
 
 Si la texturation est activée (avec [**gluQuadricTexture**](gluquadrictexture.md)), des coordonnées de texture sont générées de façon linéaire, où *r*  =  *outerRadius*, la valeur de (*r*, 0, 0) est (1, 0,5); à (0, *r*, 0) il est (0,5, 1); à (-*r*, 0, 0) il est (0, 0,5); et à (0,-*r*, 0) il est (0,5, 0).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

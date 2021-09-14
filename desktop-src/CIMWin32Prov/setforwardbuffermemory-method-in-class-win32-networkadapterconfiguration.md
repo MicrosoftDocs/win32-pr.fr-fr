@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1672c8d60cfdf8b831cfbcae9a1da1de5a6baa6225f220856ea579f7857c6650
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 30179610e6eee121a86119fa347067b40ef04c2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119440049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124289"
 ---
 # <a name="setforwardbuffermemory-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetForwardBufferMemory de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Taille, en octets, de la file d’attente de paquets du routeur utilisée pour s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque l’espace de la mémoire tampon est rempli, le routeur commence à ignorer les paquets aléatoirement dans sa file d’attente.
 
@@ -414,7 +414,7 @@ Les tampons de données de file d’attente de paquets ont une longueur de 256 o
 
 L’exemple VBScript [de modification de la mémoire tampon de transfert pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/da5712dc-f854-4099-98a9-59c0ff20a524) configure la mémoire tampon de transfert pour toutes les cartes réseau d’un ordinateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

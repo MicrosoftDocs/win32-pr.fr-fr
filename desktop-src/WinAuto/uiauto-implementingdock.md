@@ -15,12 +15,12 @@ keywords:
 - interfaces, IDockProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb0afd6a291a9e26c43d1aff957c7b7e9cd8c752040a661551b8eaf5b12b86e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87381669889ca7dd33811a030a718448f4b79cb5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118115097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010504"
 ---
 # <a name="dock-control-pattern"></a>Dock (modèle de contrôle)
 
@@ -53,8 +53,8 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 | Membres nécessaires                                                | Type de membre | Notes |
 |-----------------------------------------------------------------|-------------|-------|
-| [**DockPosition**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idockprovider-get_dockposition)       | Propriété    | Aucun  |
-| [**SetDockPosition**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idockprovider-setdockposition) | Méthode      | Aucun  |
+| [**DockPosition**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idockprovider-get_dockposition)       | Propriété    | None  |
+| [**SetDockPosition**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idockprovider-setdockposition) | Méthode      | None  |
 
 
 

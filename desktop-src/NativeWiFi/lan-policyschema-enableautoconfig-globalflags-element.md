@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 2842da69b07136df80d15ea84553aecdf2c62d417c73f7ec85d9c315b819a397
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af1ca32f177140bbfc6563f74df5afc519ee0c75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011590"
 ---
 # <a name="enableautoconfig-globalflags-element-lan_policy"></a>enableAutoConfig (globalFlags), élément (LAN_policy)
 
@@ -35,7 +35,7 @@ Lorsque **enableAutoConfig** a la valeur true, les machines peuvent utiliser le 
 
 L’élément **enableAutoConfig** est défini par l’élément [**globalFlags**](lan-policyschema-globalflags-lanpolicy-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

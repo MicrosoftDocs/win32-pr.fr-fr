@@ -6,12 +6,12 @@ keywords:
 - OpenGL, Glossaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3cc5903284afdebb5d55703b8e570c0ed8ecf6806fca9660b6e774783097c92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ce4eaaeb55cbd22aeb04008007b273e162adacc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233514"
 ---
 # <a name="opengl-glossary"></a>Glossaire OpenGL
 

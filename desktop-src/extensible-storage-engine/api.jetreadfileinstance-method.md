@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8ea64b78f36ac8dc29df7c98fa3f8c8ade484017d07dbc833b9809c766892b09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80eaf61fd9cd07fce80d32fddf7056f6bff683c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119977899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010327"
 ---
 # <a name="apijetreadfileinstance-method"></a>API. JetReadFileInstance, méthode
 
@@ -105,7 +105,7 @@ public static void JetReadFileInstance(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: 2b00ed29-8b48-4a54-83e8-d5e69e5f883e
 title: Débogage de composants écrits en Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff0dc8e4d98a41f0059de8e3eb44deeb9dcd8e4fbfdc6dba0510bd227a189c40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 085dd1d6f45cc7f6665851b232402ecee01c069f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295734"
 ---
 # <a name="debugging-components-written-in-visual-basic"></a>Débogage de composants écrits en Visual Basic
 

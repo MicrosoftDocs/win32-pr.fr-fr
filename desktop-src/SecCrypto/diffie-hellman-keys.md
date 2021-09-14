@@ -4,12 +4,12 @@ ms.assetid: 623a8c9e-3f6a-470b-be30-dec13342bb90
 title: Clés de Diffie-Hellman
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4082650b030ab1643b83cb154718176d445c98788b15a7bcadd1db97c30bab7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f00eaddd580ac74e18e26498175f87b5d81b8e20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123229"
 ---
 # <a name="diffie-hellman-keys"></a>Clés de Diffie-Hellman
 

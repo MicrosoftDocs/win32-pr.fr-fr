@@ -4,12 +4,12 @@ ms.assetid: 293b424c-4cd4-43a9-9b56-687c753a34f2
 title: Déploiement de proxys d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e651338e4bd89cb4fe5cb77789e5e10392f62e065da0f61ec4ea19f7cca312b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f5e6439574602005ca53917945fa9005f8959b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118547988"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232728"
 ---
 # <a name="deploying-application-proxies"></a>Déploiement de proxys d’application
 

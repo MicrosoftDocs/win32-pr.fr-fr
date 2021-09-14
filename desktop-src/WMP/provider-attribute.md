@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b885275d165cba8ab9bb1e790c6f4983579b7919c4bbefb335d5c0ddc0607f0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e16291eca203077332238a6b526d11a8bcb5b48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118570690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010958"
 ---
 # <a name="provider-attribute"></a>Attribut provider
 
@@ -31,7 +31,7 @@ L’attribut **Provider** est une chaîne qui identifie le fournisseur des valeu
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

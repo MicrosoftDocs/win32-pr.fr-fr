@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5b52b141-ced3-4d38-8584-7dfcfe12ab56
-ms.openlocfilehash: f5616dbace23cbca4401d9c2c38dc56eec4ff71308945ababcc758b54d3804e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2c630ef36f6e4b2b58f3902c3d5728a31ad1f0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118050102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313101"
 ---
 # <a name="folder2-object"></a>Dossier2, objet
 
@@ -40,7 +40,7 @@ L’objet **dossier2** possède ces méthodes.
 | Méthode                                                                 | Description                                                                          |
 |:-----------------------------------------------------------------------|:-------------------------------------------------------------------------------------|
 | [**DismissedWebViewBarricade**](folder2-dismissedwebviewbarricade.md) | Appelée en réponse à la barricade d’affichage Web qui est ignorée par l’utilisateur.<br/> |
-| [**Synchroniser**](folder2-synchronize.md)                             | Synchronise tous les fichiers hors connexion dans le dossier.<br/>                             |
+| [**Non**](folder2-synchronize.md)                             | Synchronise tous les fichiers hors connexion dans le dossier.<br/>                             |
 
 
 
@@ -54,7 +54,7 @@ L’objet **dossier2** possède les propriétés suivantes.
 
 | Propriété                                                                            | Type d’accès          | Description                                                               |
 |:------------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------|
-| [**HaveToShowWebViewBarricade**](folder2-havetoshowwebviewbarricade.md)<br/> | Lecture seule<br/> | Non pris en charge actuellement.<br/>                                       |
+| [**HaveToShowWebViewBarricade**](folder2-havetoshowwebviewbarricade.md)<br/> | Lecture seule<br/> | Actuellement non pris en charge.<br/>                                       |
 | [**OfflineStatus**](folder2-offlinestatus.md)<br/>                           | Lecture seule<br/> | Contient l’état hors connexion du dossier.<br/>                     |
 | [**Rythme**](folder2-self.md)<br/>                                             | Lecture seule<br/> | Contient l’objet [**FolderItem**](folderitem.md) du dossier.<br/> |
 
@@ -62,7 +62,7 @@ L’objet **dossier2** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

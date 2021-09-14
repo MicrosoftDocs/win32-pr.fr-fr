@@ -7,12 +7,12 @@ keywords:
 - SNMP SNMP, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dfb56450edbb6d5f18daa635e30e08e5914eb48fefb28013a66276dbc9a0a05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71df55c79244c0f74ef685271834adc01ca7e981
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119886389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011359"
 ---
 # <a name="snmp-service"></a>Service SNMP
 

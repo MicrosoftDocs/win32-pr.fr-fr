@@ -15,12 +15,12 @@ keywords:
 - partenariats entre les appareils et les Lecteur Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4c018934ed06e5872d5866a463bdd909ea2501a1872ded29231be222572b2ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cfc3fa20e1e8a4b6a4c7993ea7dcc5842719f2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232961"
 ---
 # <a name="about-partnerships"></a>À propos des partenariats
 

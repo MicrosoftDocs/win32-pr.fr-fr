@@ -21,12 +21,12 @@ keywords:
 - incorporation, .NET Framework solutions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b443bab0d48301062df502252a70538dd04457db87ccd31430cbcea09418639
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af0e6b09474c9340733cf45fb7c49a57100a1b11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134312"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292259"
 ---
 # <a name="using-the-windows-media-player-control-in-a-net-framework-solution"></a>utilisation du contrôle Lecteur Windows Media dans une Solution .NET Framework
 

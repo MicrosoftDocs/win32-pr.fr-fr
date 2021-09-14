@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 893c557ca5c20dd73f10f2a31d3b416d76116deb206f5d04420d35443d902130
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f58948573db281aacb00e227ff0fbc2f1cdf82b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117984459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110430"
 ---
 # <a name="network-blocklist-element"></a>Élément de réseau (de blocage)
 
@@ -31,7 +31,7 @@ L’élément réseau (de blocage) définit un réseau bloqué. Un ordinateur ne
 
 L’élément **réseau** est défini [**par l’élément de la**](wlan-policyschema-blocklist-networkfilter-element.md) en-dessus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

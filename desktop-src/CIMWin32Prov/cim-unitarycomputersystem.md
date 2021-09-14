@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c128cefe67da15f017ae21dfd7293b86c0deedf04eb1da35018475a2ed37d002
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e14812fda7971ffe045e8e36752c983cf5350402
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124326"
 ---
 # <a name="cim_unitarycomputersystem-class"></a>\_Classe CIM UnitaryComputerSystem
 
@@ -774,7 +774,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ UnitaryComputerSystem** est dérivée de [**CIM \_ ComputerSystem**](cim-computersystem.md).
 
@@ -782,7 +782,7 @@ WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

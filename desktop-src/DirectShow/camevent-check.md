@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1a961d7df45ddac7ade5e39f91c1aed56609ce2d2eeb8e7423799c9a4903884e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a112d1b9484acb4d7e9cc2992b8dee629f40e23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118955538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111377"
 ---
 # <a name="cameventcheck-method"></a>CAMEvent. Check, méthode
 
@@ -40,11 +40,11 @@ BOOL Check();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Retourne la **valeur true** si l’événement est défini, ou **false** dans le cas contraire. Cette méthode appelle la méthode [**CAMEvent :: wait**](camevent-wait.md) avec un délai d’attente de zéro. Si l’objet est un événement à réinitialisation automatique, cette méthode réinitialise l’événement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

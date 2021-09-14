@@ -4,12 +4,12 @@ ms.assetid: 258ea139-581f-4b94-9655-43ecf1e77f10
 title: Composants WMContainer ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c4d39edd9241a856d5ef854d91bc1198cb090ddf653960b19905407c28279a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d7d1c1b76683cfe01dc0970ab1c077580215d2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118736740"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313570"
 ---
 # <a name="wmcontainer-asf-components"></a>Composants WMContainer ASF
 

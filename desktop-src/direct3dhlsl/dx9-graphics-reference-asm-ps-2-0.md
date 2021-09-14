@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: a2433c8490af06d23d8dccef676ec206fdbb88c0
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010982"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295615"
 ---
 # <a name="ps_2_0"></a>PS \_ 2 \_ 0
 

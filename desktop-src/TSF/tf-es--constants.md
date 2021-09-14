@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fa8ed96adc1d6f6d66671e91f7a70bce856663e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324708"
 ---
 # <a name="tf_es_-constants"></a>\_ \_ \* Constantes TF es
 
@@ -39,7 +39,7 @@ Les constantes suivantes sont utilisées par la méthode [ITfContext :: Request
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -47,7 +47,7 @@ Les constantes suivantes sont utilisées par la méthode [ITfContext :: Request
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                 |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                      |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                      |
 | En-tête<br/>                   | <dl> <dt>Msctf. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Msctf. idl</dt> </dl> |
 

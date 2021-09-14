@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5b766cd2f42717cf22e18ea38e1866c841e4c808219d80494e7e675e05f7ce9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e60c7a1675fec6880587b0c178565e6e217c416
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119616469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124381"
 ---
 # <a name="jet_setcolumn-constructor"></a>Constructeur JET_SETCOLUMN
 
@@ -52,7 +52,7 @@ public JET_SETCOLUMN()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SETCOLUMN](./jet-setcolumn-class.md)
 

@@ -4,12 +4,12 @@ description: Une chaîne de format est un jeton interprété que le moteur de ND
 ms.assetid: 548283bd-023a-41dd-b1d0-661305d019e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a8c14fa649e71411c5706193e83fd9a09d30f8a0c57fec411d8c34fef675ab5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 563dd9e4145a7d83b2e49f180329c05c1d55155d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118929866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311514"
 ---
 # <a name="format-strings"></a>Chaînes de format
 
