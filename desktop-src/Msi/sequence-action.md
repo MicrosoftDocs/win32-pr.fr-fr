@@ -4,12 +4,12 @@ ms.assetid: 1393bfaa-8649-40d3-9ff8-5e119c34aed3
 title: Action de séquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 854f0a783926c4cec4c0f92559f50a11dccbdfebebe21bace31df2e6be7e2073
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c68bedaaa3d6cc985b9795e6f640e0799131a578
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120040209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230034"
 ---
 # <a name="sequence-action"></a>Action de séquence
 

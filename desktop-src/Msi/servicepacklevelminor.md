@@ -4,22 +4,22 @@ ms.assetid: 74ce5eea-5430-48d3-9640-f23c8bbdc937
 title: Propriété ServicePackLevelMinor
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 905305f1d9db239682ca50de9151ef6086e020b432ad0f409143a3502932a98b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c057f33ada8abe4acd68ff824ffb0d2b0282632e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229992"
 ---
 # <a name="servicepacklevelminor-property"></a>Propriété ServicePackLevelMinor
 
 La propriété **ServicePackLevelMinor** est utilisée conjointement avec la propriété [**ServicePackLevel**](servicepacklevel.md) . Elle contient le numéro de révision mineure de la Service Pack installée sur l’ordinateur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette propriété est définie uniquement sur Windows 2000.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

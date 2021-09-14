@@ -4,12 +4,12 @@ ms.assetid: 81688d31-e560-4dd0-8d84-efb50206c76e
 title: Table ServiceInstall
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3850b957df4dd0af662354c14f82717e4b86ad597f151c6a45bb8dc1bebea5af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b502583802a26c10bfd9572375149720c7c597f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230003"
 ---
 # <a name="serviceinstall-table"></a>Table ServiceInstall
 
@@ -26,7 +26,7 @@ La table ServiceInstall est utilisée pour installer un service et contient les 
 | StartType      | [DoubleInteger](doubleinteger.md) | N   | N        |
 | ErrorControl   | [DoubleInteger](doubleinteger.md) | N   | N        |
 | LoadOrderGroup | [Correct](formatted.md)         | N   | O        |
-| Dépendances   | [Correct](formatted.md)         | N   | O        |
+| Les dépendances   | [Correct](formatted.md)         | N   | O        |
 | StartName      | [Correct](formatted.md)         | N   | O        |
 | Mot de passe       | [Correct](formatted.md)         | N   | O        |
 | Arguments      | [Correct](formatted.md)         | N   | O        |
@@ -193,7 +193,7 @@ Cette colonne contient une description localisable pour le service en cours de c
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’action [InstallServices](installservices-action.md) dans les [*tables de séquence*](s-gly.md) traite les informations de cette table. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

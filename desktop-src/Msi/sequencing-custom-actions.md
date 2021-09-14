@@ -4,12 +4,12 @@ ms.assetid: 1aea75b1-a498-405e-9208-91672455496b
 title: Séquencement des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26d86449b67809f782560e35d32b1b1e42434153ced776a27fd479a7b80a25a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad7c24fb91247a36880cb808c9b8e10437312cf7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230015"
 ---
 # <a name="sequencing-custom-actions"></a>Séquencement des actions personnalisées
 

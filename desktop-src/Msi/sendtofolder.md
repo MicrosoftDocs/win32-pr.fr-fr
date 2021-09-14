@@ -4,18 +4,18 @@ ms.assetid: 403e868a-b844-4860-bb9f-744ca931a3a8
 title: Propriété SendToFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8fd5966d8a3d1eef52e9fcb6dc31f695ee2fa91108936491ee39348920a212e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9cb12ccc16ea754e2dfd6ebffe752d132abb089a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120040289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230046"
 ---
 # <a name="sendtofolder-property"></a>Propriété SendToFolder
 
 Le programme d’installation définit la propriété **SendToFolder** sur le chemin d’accès complet du dossier SendTo de l’utilisateur actuel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

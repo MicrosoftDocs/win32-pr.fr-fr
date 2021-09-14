@@ -5,11 +5,11 @@ title: Table ServiceControl
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1b0c360991ce4a72698ac1b667d82a98ba64b7a0
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230004"
 ---
 # <a name="servicecontrol-table"></a>Table ServiceControl
 
@@ -24,7 +24,7 @@ La table ServiceControl contient les colonnes suivantes.
 
 
 
-| Colonne         | Type                         | Clé : | Nullable |
+| Colonne         | Type                         | Clé | Nullable |
 |----------------|------------------------------|-----|----------|
 | ServiceControl | [Identificateur](identifier.md) | O   | N        |
 | Nom           | [Correct](formatted.md)   | N   | N        |
@@ -115,7 +115,7 @@ Clé externe vers la colonne de l’une des [tables de composants](component-tab
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les actions [StartServices](startservices-action.md), [StopServices](stopservices-action.md)et [DeleteServices](deleteservices-action.md) dans les [*tables de séquences*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

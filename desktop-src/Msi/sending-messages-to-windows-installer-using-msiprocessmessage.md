@@ -4,12 +4,12 @@ ms.assetid: ca73bd0a-6f4e-453c-9e38-14cfd602d42c
 title: envoyer des Messages à Windows Installer à l’aide de MsiProcessMessage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1c639e45b22c2406f446ab31072ceb02ab9b3e906f5973b1436356d96f3782
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3bcd8c8a704c1f4dd24763f7f47ff0d8898a95c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230052"
 ---
 # <a name="sending-messages-to-windows-installer-using-msiprocessmessage"></a>envoi de Messages à Windows Installer à l’aide de MsiProcessMessage
 
