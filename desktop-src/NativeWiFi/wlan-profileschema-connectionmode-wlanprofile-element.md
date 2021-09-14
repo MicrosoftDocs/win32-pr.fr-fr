@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: a6ef18eff8ba27a3169399f1f10e0707c4e0b3c010d54830ad8f8f997c5e1b50
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3dafb9561bf8b5e3c5c66eb23bd5e286cbd38118
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119684439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194800"
 ---
 # <a name="connectionmode-wlanprofile-element"></a>Élément connectionMode (WLANProfile)
 
@@ -46,7 +46,7 @@ Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md
 
 L’élément **connectionMode** est défini par l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant décrit les valeurs d’énumération.
 
@@ -65,7 +65,7 @@ Le tableau suivant décrit les valeurs d’énumération.
 
 Pour afficher des exemples de profils qui utilisent l’élément **connectionMode** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

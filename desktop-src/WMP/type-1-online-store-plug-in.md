@@ -20,12 +20,12 @@ keywords:
 - IWMPContentPartner
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3ee6a342ff250c5f96bb0e1b7547df8f8f7b4c09e0f957bcae81afa0b342b15
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2fe42095d08262520734603a5418ac6831ce6685
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119762469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403807"
 ---
 # <a name="type-1-online-store-plug-in"></a>Type 1 plug-in de magasin en ligne
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 162944eeb4ee7ca0c72102b704e9f75851bbfb41885e6b79e86d1a438487473f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d4d43f73ab42021235db39adba0a77bc783b97a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118314665"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292827"
 ---
 # <a name="swbemlasterrorclone_-method"></a>SWbemLastError. Clone, \_ méthode
 
@@ -43,7 +43,7 @@ objWbemObject = .Clone_( _
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la **méthode \_ clone** réussit, elle retourne un nouvel objet [**SWbemLastError**](swbemlasterror.md) .
 
@@ -74,13 +74,13 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez la **méthode \_ clone** pour dupliquer une définition ou une instance de classe. Cette méthode est utile lorsque vous devez sauvegarder la copie d’origine de l’objet lors de la modification d’une nouvelle copie. Utilisez également cette méthode pour créer de nombreuses nouvelles instances à partir d’une seule instance source. Par exemple, utilisez [**SWbemObject. SpawnInstance \_**](swbemobject-spawninstance-.md) pour créer une instance de démarrage unique et utilisez **SWbemLastError. \_ clone** pour produire rapidement 100 copies de l’instance. Par la suite, vous pouvez modifier les objets, en attribuant des valeurs spécifiques à chaque objet.
 
 Il n’est pas possible d’utiliser cette méthode pour convertir une définition de classe en instance ou pour convertir une instance en une définition de classe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

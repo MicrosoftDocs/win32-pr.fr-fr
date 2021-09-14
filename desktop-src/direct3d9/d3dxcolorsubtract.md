@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a1d0d9c884dbbfb8e4ae718985be90d22002bd0f2a4cf25f45d02ded12718d2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47f28ea3a3fb6d1556e699fed3820e228faf6604
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118300139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520204"
 ---
 # <a name="d3dxcolorsubtract-function"></a>D3DXColorSubtract fonction)
 
@@ -69,7 +69,7 @@ Pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
@@ -79,7 +79,7 @@ Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction **D3DXColorSubtract** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

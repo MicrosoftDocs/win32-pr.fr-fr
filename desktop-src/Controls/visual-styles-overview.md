@@ -4,12 +4,12 @@ description: cette rubrique décrit les styles visuels et identifie les composan
 ms.assetid: 5B5D7BB6-684F-478D-BF5F-B8D18BBCFF2E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 237ac858e1a60e615a6af177728102fb7e6ea1737a3a2d94d93091264b02121a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5663730c752fbf16c4f229a031eafa0c65bb9dbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077721"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115209"
 ---
 # <a name="visual-styles-overview"></a>Vue d’ensemble des styles visuels
 

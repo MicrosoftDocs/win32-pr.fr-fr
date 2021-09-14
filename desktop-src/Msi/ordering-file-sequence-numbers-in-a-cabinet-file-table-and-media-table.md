@@ -4,12 +4,12 @@ ms.assetid: 481fdc45-82db-4128-93de-388562f636e9
 title: Classement des numéros séquentiels dans un fichier CAB, table de fichiers et table Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f64558a570c7184da36feba8aeea6d2a7dc32c0d8add4c6963dece131c4849
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 07f9cd530d90fb0ef4d805b8ff2c96398cd97e55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119327865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218897"
 ---
 # <a name="ordering-file-sequence-numbers-in-a-cabinet-file-table-and-media-table"></a>Classement des numéros séquentiels dans un fichier CAB, table de fichiers et table Media
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3efe5eb228d378778a817dcdbb8e7e56ee3d5d497fe00c0aa7b2adc645d27b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab33d4c3d235a7bba67219378063cb9811601e68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404141"
 ---
 # <a name="playlistleftstatus"></a>PLAYLIST. leftStatus
 
@@ -31,7 +31,7 @@ L’attribut **leftStatus** spécifie ou récupère le texte d’état affiché 
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut peut combiner tout texte avec des mots clés spécifiques qui affichent les informations souhaitées, telles que la durée totale de la sélection. Les mots clés sont entourés par des symboles de pourcentage (%) pour les distinguer du texte ordinaire.
 
@@ -60,7 +60,7 @@ Les mots clés suivants peuvent être utilisés.
 
 La valeur « temps total :% Duration% » pour une sélection qui contient une durée totale de sept minutes affiche « temps total : 07:00 ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

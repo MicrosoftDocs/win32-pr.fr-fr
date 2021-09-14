@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102841
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1d47357a08daa6816acf8d96d771f160a99b0a15e6ea2565c6cadc86d8bdb971
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfafb8df382f0cdfdee49e5e15fcd00f0528b225
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119835499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192939"
 ---
 # <a name="esentslvfileinvalidpathexception-properties"></a>Propriétés EsentSLVFileInvalidPathException
 
@@ -69,7 +69,7 @@ Le type [EsentSLVFileInvalidPathException](./esentslvfileinvalidpathexception-cl
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSLVFileInvalidPathException, classe](./esentslvfileinvalidpathexception-class.md)
 

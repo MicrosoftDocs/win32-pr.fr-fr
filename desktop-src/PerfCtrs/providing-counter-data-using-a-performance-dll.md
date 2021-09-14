@@ -4,12 +4,12 @@ ms.assetid: 030316e5-f9f3-4333-9bb4-7ad301bbe7bf
 title: Fourniture de données de compteur à l’aide d’une DLL de performance
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 165e6a8797c50a22acff1d3cd3ded7f8b06a0ee2a7153300e98e46bea1127f27
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e14b8a0e59b1fc9af3d8cad6e895d4a0067b9ae6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218289"
 ---
 # <a name="providing-counter-data-using-a-performance-dll"></a>Fourniture de données de compteur à l’aide d’une DLL de performance
 

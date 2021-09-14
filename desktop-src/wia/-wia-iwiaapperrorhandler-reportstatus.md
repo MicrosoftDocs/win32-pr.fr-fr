@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 9cc727845489740fae54dcc96bf5bc903bceb0205688c1c60bee3df980f66845
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1285b5391014919d7108f207917b0c44c03fa360
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404519"
 ---
 # <a name="iwiaapperrorhandlerreportstatus-method"></a>IWiaAppErrorHandler :: ReportStatus, méthode
 
@@ -79,7 +79,7 @@ Pourcentage effectué de l’opération en cours.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -97,7 +97,7 @@ Retourne *hrStatus* si la récupération à partir de l’erreur n’est pas pos
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *lPercentComplete* permet à une fenêtre de gestionnaire d’erreurs d’afficher la progression. Par exemple, un pilote peut fournir une estimation du temps nécessaire à la mise en route. Le paramètre *lPercentComplete* passé dans **IWiaAppErrorHandler :: ReportStatus** est la même valeur que le **lPercentComplete** que le pilote définit dans la structure [**WiaTransferParams**](-wia-wiatransferparams.md) .
 
@@ -107,7 +107,7 @@ Si le niveau de gravité de la valeur de *hrStatus* est \_ réussite, l’utilis
 
 Si *hrStatus* est \_ une erreur de gravité, le gestionnaire d’erreurs doit afficher une boîte de dialogue modale détenue par la fenêtre parente de l’application.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

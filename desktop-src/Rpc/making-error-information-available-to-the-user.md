@@ -4,12 +4,12 @@ description: Lorsqu’un appelant reçoit une erreur et doit avertir l’utilisa
 ms.assetid: 18689280-7124-46e4-9341-ad8d0c1705db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c334b0d5b5044a13b507945cfa9d8ac97b67eb120f496f83c080d2b79b857f9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18386dbebd443aced4f5680922549c0ecb0eba55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928574"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194096"
 ---
 # <a name="making-error-information-available-to-the-user"></a>Mise à disposition des informations d’erreur pour l’utilisateur
 

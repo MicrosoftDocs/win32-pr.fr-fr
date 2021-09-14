@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7767a1c7e9dc9182fe521d2d903b52d3b88dadb3
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520100"
 ---
 # <a name="jetossnapshotabort-function"></a>JetOSSnapshotAbort fonction)
 
@@ -70,11 +70,11 @@ Si cette fonction est exécutée correctement, la session d’instantané se ter
 
 Si cette fonction échoue, la session d’instantané n’est pas abandonnée.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cette fonction doit être appelée à la place de [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) pour informer le moteur que l’instantané a été abandonné pour des raisons qui ne sont pas liées au moteur. Ces informations peuvent être utilisées ultérieurement pour aider à émettre des messages du journal des événements concernant la session d’instantané ou pour aider à déterminer d’autres actions appropriées.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

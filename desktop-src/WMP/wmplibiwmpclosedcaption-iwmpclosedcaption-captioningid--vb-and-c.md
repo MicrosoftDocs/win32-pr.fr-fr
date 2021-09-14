@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f6d4c10beb3f0fd94da0365d67b6c5ab480d36d5a3786021f538e9dcf4e90c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 343234fce2b93ac02255731a38025f6d7b9fac6f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118116055"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193080"
 ---
 # <a name="iwmpclosedcaptioncaptioningid-property"></a>IWMPClosedCaption :: captioningId, propriété
 
@@ -48,11 +48,11 @@ Public Property captioningId As System.String
 
 **System. String** qui correspond à l’ID de l’élément HTML.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nom d’élément spécifié peut être n’importe quel élément HTML dans la page Web, à condition qu’il prenne en charge l’attribut **InnerHtml** . si la page web contient plusieurs frames, le nom de l’élément ne peut faire référence qu’à un élément dans le même frame que le contrôle Lecteur Windows Media.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

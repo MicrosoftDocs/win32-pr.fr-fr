@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété visible de l’objet Command, qui
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07ebc5dee52ff3ab388674bd844e476f0bcc768595b1ba5e69d3c3be5435553f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af4efec1ad8a97d6412a560a81836273b93ebf2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519552"
 ---
 # <a name="visible-property-command-object"></a>Visible, propriété (objet Command)
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si la [**commande**](/windows/desktop/
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Affectez à cette propriété la **valeur false** lorsque vous souhaitez inclure une entrée vocale pour vos propres interfaces sans les faire apparaître dans le menu contextuel du caractère. Si vous définissez la propriété [**Caption**](caption-property.md) d’un objet [**Command**](/windows/desktop/lwef/the-command-object) sur la chaîne vide (""), le texte de légende n’apparaît pas dans le menu contextuel (par exemple, une ligne vide), quel que soit son paramètre de propriété [**visible**](visible-property.md) .
 

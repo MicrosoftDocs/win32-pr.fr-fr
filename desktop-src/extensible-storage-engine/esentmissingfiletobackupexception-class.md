@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4305b8b7a9de330144718348f5c508e593ec36210a62489f6f2baba4bf5a073c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5941140df070abb3a273378f3ec275eaf1c6fdd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119734289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192959"
 ---
 # <a name="esentmissingfiletobackupexception-class"></a>EsentMissingFileToBackupException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentMissingFileToBackupException](./esentmissingfiletobackupexception-members.md)
 

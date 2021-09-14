@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 032c0122bc472a8b2deace8cc48d41926778a11b
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520557"
 ---
 # <a name="statusbar-control-type"></a>StatusBar (type de contrôle)
 
@@ -118,7 +118,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Nous vous recommandons d’utiliser des contrôles d’édition comme éléments de grille enfants dans une barre d’État. Grâce aux contrôles d’édition, il est plus facile d’associer l’objectif du champ d’État à sa valeur à l’aide de la propriété nom et valeur de l’élément. Étant donné que les contrôles de texte ne doivent pas prendre en charge le modèle de contrôle **value** , ils ne doivent pas être utilisés en tant qu’éléments de grille enfants.
 
@@ -126,7 +126,7 @@ Nous vous recommandons d’utiliser des contrôles d’édition comme éléments
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

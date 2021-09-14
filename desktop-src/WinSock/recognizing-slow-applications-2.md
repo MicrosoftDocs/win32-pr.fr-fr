@@ -4,12 +4,12 @@ ms.assetid: cacf55d8-ab64-47a4-a55b-59a3c4e3877b
 title: Reconnaître les applications lentes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 775239b76cfd287a446596f9a4a0eda6298caab35c31f70fade378ec0d44d586
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07be9484a3b08951b8b64989757459531ff72906
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118111813"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403962"
 ---
 # <a name="recognizing-slow-applications"></a>Reconnaître les applications lentes
 

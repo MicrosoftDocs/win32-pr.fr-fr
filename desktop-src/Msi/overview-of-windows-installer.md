@@ -4,12 +4,12 @@ ms.assetid: 28d2c205-795e-4ed0-8c16-925ad8f638d2
 title: vue d’ensemble de Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5c5caae4f939983d0d246f3b3bd82ee55f20344481a01c50316aa66926b2553
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4f692bb98b885673473b76fbcc95d90b8bd46d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218833"
 ---
 # <a name="overview-of-windows-installer"></a>vue d’ensemble de Windows Installer
 

@@ -4,26 +4,26 @@ description: Énumération des sélections de synchronisation
 ms.assetid: 830c3ea5-2937-48b5-b89f-ef68a6649ca3
 keywords:
 - Lecteur Windows Media, sélections de synchronisation
-- Modèle objet du lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media modèle objet, sélections de synchronisation
 - modèle objet, sélections de synchronisation
 - Lecteur Windows Media Mobile, sélections de synchronisation
-- Contrôle ActiveX du lecteur Windows Media, sélections de synchronisation
-- Contrôle ActiveX Windows Media Player Mobile, sélections de synchronisation
-- Contrôle ActiveX, sélections de synchronisation
+- contrôle de ActiveX Lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections de synchronisation
+- contrôle de ActiveX, sélections de synchronisation
 - sélections, synchronisation
 - sélections de métafichiers, synchronisation
-- Sélections de métafichiers Windows Media, synchronisation
+- Windows Sélections de métafichiers multimédia, synchronisation
 - sélections de synchronisation, énumération
 - appareils mobiles, énumération
 - énumérations, sélections de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 29679380cec1844e9a790ac4ff047bfa4bf05288
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106509635"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193260"
 ---
 # <a name="enumerating-synchronization-playlists"></a>Énumération des sélections de synchronisation
 
@@ -158,9 +158,9 @@ Pour l’implémentation de la fonction SortPlaylist, consultez [Tri des sélect
 [**Attributs de synchronisation**](sync-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

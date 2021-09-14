@@ -4,12 +4,12 @@ ms.assetid: d3101a9b-9658-4a21-b1f6-2920b723926c
 title: Message WM_GETICON (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2df8922fa09cf425594a07768f0d7c9ae0ac09222647f181f45331c2b0d47fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83d2444e70646d8122a7228094187738811a3f68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119587419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293895"
 ---
 # <a name="wm_geticon-message"></a>\_Message WM GETICON
 
@@ -54,13 +54,13 @@ PPP de l’icône en cours de récupération. Cela peut être utilisé pour four
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HICON**
 
 La valeur de retour est un handle vers la grande ou la petite icône, en fonction de la valeur de *wParam*. Lorsqu’une application reçoit ce message, elle peut renvoyer un descripteur à une grande ou petite icône, ou passer le message à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’une application reçoit ce message, elle peut renvoyer un descripteur à une grande ou petite icône, ou transmettre le message à [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
@@ -68,7 +68,7 @@ Lorsqu’une application reçoit ce message, elle peut renvoyer un descripteur �
 
 Une fenêtre qui n’a pas d’icône définie explicitement (avec **WM \_ SETICON**) utilise l’icône de la classe de fenêtre inscrite. dans ce cas, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) retourne 0 pour un message **WM \_ GETICON** . Si l’envoi d’un message **WM \_ GETICON** à une fenêtre retourne 0, essayez ensuite d’appeler la fonction [**GetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-getclasslongptra) pour la fenêtre. Si la valeur renvoyée est 0, essayez la fonction [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -93,7 +93,7 @@ Une fenêtre qui n’a pas d’icône définie explicitement (avec **WM \_ SETIC
 [**\_SETICON WM**](wm-seticon.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

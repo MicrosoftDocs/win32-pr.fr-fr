@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 8ed41cbab38e24958705c24aefc9ea5e9e67357e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114855"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403958"
 ---
 # <a name="swbemservicesex-object"></a>Objet SWbemServicesEx
 
@@ -51,7 +51,7 @@ L’objet **SWbemServicesEx** a ces méthodes.
 
 Les méthodes de cette classe peuvent être appelées en mode semi-synchrone ou en mode asynchrone. Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

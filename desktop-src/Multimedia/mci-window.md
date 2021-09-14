@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 41b4d630dbc9dbc7403e93cd0bda3de2eef1e5cb
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363871"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194992"
 ---
 # <a name="mci_window-command"></a>\_Commande de fenêtre MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les appareils graphiques doivent créer une fenêtre par défaut lorsqu’un appareil est ouvert, mais ne doivent pas l’afficher tant qu’ils n’ont pas reçu la commande [MCI \_ Play](mci-play.md) . La \_ commande de fenêtre MCI est utilisée pour fournir une fenêtre créée par l’application à l’appareil et pour modifier les caractéristiques d’affichage d’une fenêtre d’affichage définie par l’application ou par défaut. Si l’application fournit la fenêtre d’affichage, vous devez préparer la mise à jour d’un rectangle non valide dans la fenêtre.
 

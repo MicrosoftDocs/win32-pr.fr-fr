@@ -8,12 +8,12 @@ keywords:
 - DRM (gestion des droits numériques), fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e389efdbfd3edef3f3c881cab8482c8ed03b6bb09eb4a7773caa59b4b9b1ad4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bd9c30b350fdf430d5b20bbe112c5309ac9da4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118704868"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293866"
 ---
 # <a name="digital-rights-management-features"></a>Fonctionnalités de Rights Management numérique
 

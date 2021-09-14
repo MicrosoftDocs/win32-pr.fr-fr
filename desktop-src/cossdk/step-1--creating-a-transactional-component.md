@@ -4,12 +4,12 @@ ms.assetid: 9ab9ac2d-bf1d-419c-8f6b-e2ee80a4bf20
 title: 'Étape 1 : création d’un composant transactionnel'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f5c87fb5c5f615ee04a3233f1a563d5ae5230e4dd18908c78e94092ff0f5c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdc378d85e628504e8724b765362b3397826f5e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118305407"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310929"
 ---
 # <a name="step-1-creating-a-transactional-component"></a>Étape 1 : création d’un composant transactionnel
 

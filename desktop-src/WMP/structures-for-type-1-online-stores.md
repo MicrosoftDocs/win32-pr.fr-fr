@@ -9,12 +9,12 @@ keywords:
 - structures, type 1 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00dcbe823dae0037175edcf875d9d049f815080b40bcd33b5e34800e49052263
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7142e2cae2f0056361e3ef86ce3451b6e17575cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118832100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520273"
 ---
 # <a name="structures-for-type-1-online-stores"></a>Structures pour les magasins de type 1 en ligne
 

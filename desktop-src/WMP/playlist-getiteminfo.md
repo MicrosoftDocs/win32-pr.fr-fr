@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b48a9106a4aba6a5080724faccc856a1515e7a7398a1c75df2fa1e99bf86f342
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b1151528d6cf4e36aaed1cb4dc48a70f4083c4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118834876"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193220"
 ---
 # <a name="playlistgetiteminfo-method"></a>Méthode playlist. getItemInfo
 
@@ -49,11 +49,11 @@ strRetVal = Playlist.getItemInfo(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **chaîne**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -61,7 +61,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 Consultez la propriété [attributeCount](playlist-attributecount.md) pour obtenir un exemple de code qui utilise cette propriété.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 78540c29239df9118732561562985021a512e104b0ddc5e05d43d89f37dd5e33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2e1ffdc5ad27524d3d2fc5b37b3a060a90c7575
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194732"
 ---
 # <a name="msm-wlanprofile-element"></a>Élément MSM (WLANProfile)
 
@@ -311,7 +311,7 @@ L’élément est défini par l’élément [**WLANProfile**](wlan-profileschema
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément [**FipsMode**](wlan-profileschema-fipsmode-authencryption-element.md) peut être inséré en tant qu’enfant de l’élément [**authEncryption**](wlan-profileschema-authencryption-security-element.md) . L’élément [**Onex**](onexschema-onex-element.md) peut être inséré en tant qu’enfant de l’élément de [**sécurité (MSM)**](wlan-profileschema-security-msm-element.md) .
 
@@ -319,7 +319,7 @@ L’élément [**FipsMode**](wlan-profileschema-fipsmode-authencryption-element.
 
 Pour afficher des exemples de profils qui utilisent l’élément **MSM** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

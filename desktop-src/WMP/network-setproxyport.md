@@ -3,9 +3,9 @@ title: Méthode Network. setProxyPort
 description: La méthode setProxyPort spécifie le port du proxy à utiliser. | Méthode Network. setProxyPort
 ms.assetid: 09cfce4a-191c-4596-b678-15d9328d5c53
 keywords:
-- méthode setProxyPort lecteur Windows Media
-- méthode setProxyPort lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode setProxyPort
+- Lecteur Windows Media de la méthode setProxyPort
+- Lecteur Windows Media de la méthode setProxyPort, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode setProxyPort
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2438688535e4727688ddbd5d67fd65cbed15864d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531793"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193244"
 ---
 # <a name="networksetproxyport-method"></a>Méthode Network. setProxyPort
 
@@ -57,7 +57,7 @@ Network.setProxyPort(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -71,7 +71,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **setProxyPort** pour spécifier le numéro de port du proxy du lecteur Windows Media pour le protocole MMS. Le numéro de port est récupéré à partir d’un élément INPUT HTML avec ID = "PORT". L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **setProxyPort** pour spécifier le numéro de port du proxy Lecteur Windows Media pour le protocole MMS. Le numéro de port est récupéré à partir d’un élément INPUT HTML avec ID = "PORT". L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript
@@ -94,7 +94,7 @@ alert("Proxy settings must be manual!");
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d6af41bb02c82a28b667a2b5ad62d942c036c7f744a68fa9bb79188e26ae8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee62b03e221f44db829a7167d642a766af8e129c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117795134"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194436"
 ---
 # <a name="glpushmatrix-function"></a>glPushMatrix fonction)
 
@@ -57,7 +57,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe une pile de matrices pour chaque mode de matrice. En \_ mode MODELVIEW GL, la profondeur de la pile est au moins égale à 32. Dans les deux autres modes, \_ la projection GL et \_ la texture GL, la profondeur est au moins égale à 2. La matrice actuelle dans n’importe quel mode est la matrice située en haut de la pile pour ce mode.
 
@@ -85,7 +85,7 @@ matrice de texture **glGet** avec argument GL \_ \_
 
 **glGet** avec argument de la profondeur de la \_ \_ pile texture Max \_ . GL \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

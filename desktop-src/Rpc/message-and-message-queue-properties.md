@@ -4,12 +4,12 @@ description: Un message contient des propriétés qui spécifient une étiquette
 ms.assetid: d0c9126e-a2c6-4d70-b87a-154a570899fc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c18b3a4751cd3be4473067dd9ca5aca17717672e6b67b559c10c502513fa2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0139a588b52f1de1de43d8ec50aebdaf57b995ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928108"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194056"
 ---
 # <a name="message-and-message-queue-properties"></a>Propriétés des messages et des files d’attente de messages
 

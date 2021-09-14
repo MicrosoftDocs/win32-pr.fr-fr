@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 773bb54ec4d132e629f21513ffa617cbe3435d35941e7c98c55810d267f614c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45923c0c3ea3bfc28e67634e3b447e46b62765f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118821154"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404102"
 ---
 # <a name="__instanceproviderregistration-class"></a>\_\_InstanceProviderRegistration, classe
 
@@ -202,7 +202,7 @@ Le fournisseur prend en charge la suppression d’une classe ou d’une instance
 
 </dd> <dt>
 
-Faux
+False
 </dt> <dd>
 
 Le fournisseur ne prend pas en charge la suppression des données et retourne le **\_ fournisseur WBEM E \_ \_ non \_ compatible** à partir de [**DeleteClassAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync) ou [**DeleteInstanceAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync).
@@ -268,7 +268,7 @@ Le fournisseur prend en charge la récupération de données en implémentant [*
 
 </dd> <dt>
 
-Faux
+False
 </dt> <dd>
 
 Le fournisseur ne prend pas en charge la récupération de données et retourne le **\_ fournisseur WBEM E \_ \_ non \_ compatible** à partir de [**GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
@@ -327,11 +327,11 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **\_ \_ InstanceProviderRegistration** est dérivée de [**\_ \_ ObjectProviderRegistration**](--objectproviderregistration.md), qui est dérivée de [**\_ \_ ProviderRegistration**](--providerregistration.md). Seuls les administrateurs peuvent inscrire un fournisseur d’instances en créant une instance de [**\_ \_ Win32Provider**](--win32provider.md) et **\_ \_ InstanceProviderRegistration**. Seuls les administrateurs peuvent supprimer un fournisseur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e722625449893771726a83738c3b0d7bc8bc523c
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363943"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195080"
 ---
 # <a name="mci_sysinfo-command"></a>\_Commande MCI sysinfo
 
@@ -96,7 +96,7 @@ Pointeur vers une structure de valeur [**MCI \_ sysinfo \_**](mci-sysinfo-parms.
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le membre **wDeviceType** de la structure identifiée par *lpSysInfo* est utilisé pour indiquer le type d’appareil de la requête. Si le paramètre *wDeviceID* est défini sur MCI \_ All \_ Device \_ ID, il remplace la valeur de **wDeviceType**. Pour obtenir la liste des types d’appareils, consultez [types d’appareils MCI](mci-device-types.md).
 

@@ -5,11 +5,11 @@ ms.assetid: 9F4CF9E0-4D9D-4300-B432-432C560F34BB
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 653c84be0d30a036bf93d852268e44bcca08bbcb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990705"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519780"
 ---
 # <a name="if-sm4---asm"></a>if (SM4-ASM)
 
@@ -57,7 +57,7 @@ L’exemple suivant montre comment utiliser cette instruction.
 
 -   Les opérandes sources (si 4 vecteurs de composant) doivent utiliser un sélecteur de composant unique.
 -   Le registre 32 bits fourni par *src0* est testé à un niveau binaire. Si un bit est différent de zéro, **si \_ z** est true. Si tous les bits sont nuls, si la valeur **\_ NZ** est true.
--   Les blocs de contrôle de Flow peuvent imbriquer jusqu’à 64 de profondeur par sous-routine (et main). Le compilateur HLSL ne génère pas de sous-routines qui dépassent cette limite. Le comportement des instructions de workflow de contrôle au-delà de 64 niveaux de profondeur (par sous-routine) n’est pas défini.
+-   les blocs de contrôle Flow peuvent s’imbriquer jusqu’à 64 de profondeur par sous-routine (et main). Le compilateur HLSL ne génère pas de sous-routines qui dépassent cette limite. Le comportement des instructions de workflow de contrôle au-delà de 64 niveaux de profondeur (par sous-routine) n’est pas défini.
 
 Cette instruction s’applique aux étapes suivantes du nuanceur :
 

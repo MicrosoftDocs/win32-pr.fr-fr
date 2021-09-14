@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 02311531d3adb2be2832708d5a5295f9514f6a6e3d20a48205d1f720592d9e61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 60d6f3b26e525375f834bde151548e4d41ce53f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118696248"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219329"
 ---
 # <a name="wpd_section_data_units_values-enumeration"></a>\_ \_ \_ Énumération des valeurs d’unités de données de la section wpd \_
 
@@ -54,7 +54,7 @@ Les unités spécifiées sont exprimées en millisecondes.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

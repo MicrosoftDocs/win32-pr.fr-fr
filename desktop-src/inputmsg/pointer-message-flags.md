@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 70d329c6a48eb92f6f50ff49d5543c2aaf5cfc3ce9ef23b48290c7aa029eecf7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 853566dc6db7cfafed6a73b9a1ba3032001f02cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119602350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519949"
 ---
 # <a name="pointer-message-flags"></a>Indicateurs de message de pointeur
 
@@ -212,11 +212,11 @@ Indique que le pointeur se met anormalement en mode, par exemple lorsque le syst
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 LE bouton XButton1 et XBUTTON2 sont des boutons supplémentaires utilisés sur de nombreux périphériques de souris. Elles retournent les mêmes données que les boutons de la souris standard.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

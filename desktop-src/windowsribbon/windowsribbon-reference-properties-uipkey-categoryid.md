@@ -4,12 +4,12 @@ description: Identifie la propriété de la propriété de code de catégorie de
 ms.assetid: c1e81b2f-3f89-4bc5-a69b-64e841778790
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5631f74d7db42e81e6723cc810811743dd1dd46e8aa4d1491226a67d56aab25
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: be628dfecadf3b927e4a99510f661130bd9d34c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119441519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293906"
 ---
 # <a name="ui_pkey_categoryid"></a>Code de catégorie d’interface utilisateur \_ \_
 
@@ -25,7 +25,7 @@ propertyDescription
       type = VT_UI4
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface de \_ \_ groupe de lignes de l’interface utilisateur est utilisée par une application pour interroger les ID des catégories utilisées pour regrouper des éléments connexes dans un contrôle de Galerie.
 

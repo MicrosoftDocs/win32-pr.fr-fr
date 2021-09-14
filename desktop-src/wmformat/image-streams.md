@@ -12,12 +12,12 @@ keywords:
 - flux d’images, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2067710e6b2be627bd16125d73e567a2f1ba1557ae01b81f55712d8c5a7b8bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 280d029715a3c722d05ee335a3a88ae4632cabbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118702863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293138"
 ---
 # <a name="image-streams"></a>Image Flux
 

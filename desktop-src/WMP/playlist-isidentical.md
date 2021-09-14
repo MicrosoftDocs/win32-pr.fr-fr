@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76ad745b54c3361cebcb54be384b83afed7d229d023e29b85856e4aef3a26474
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f800beb49da8ce6456d25c4ff1db6bd4bf536ed0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118834544"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293003"
 ---
 # <a name="playlistisidentical-method"></a>Méthode playlist. isIdentical
 
@@ -49,11 +49,11 @@ Objet de **sélection** à comparer à l’objet actuel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **valeur booléenne**.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

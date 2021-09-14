@@ -7,11 +7,11 @@ keywords:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d18095f06532db4c8f2b963574610272dc46622f
-ms.sourcegitcommit: 780d4b1601c45658ef0b799b80d13f45a53d808d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "106512300"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193608"
 ---
 # <a name="tbs-structures"></a>Structures TBS
 

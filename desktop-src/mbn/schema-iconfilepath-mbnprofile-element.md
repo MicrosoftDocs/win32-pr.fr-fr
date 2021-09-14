@@ -11,12 +11,12 @@ api_name:
 - ICONFilePath
 api_type:
 - Schema
-ms.openlocfilehash: ea662a7519a8705818ef502f5b797f437b0f89bee649d0bde18ce6f71b099d74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b1e98f76fe2f83ce214076223b5a1439bd0ea45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519520"
 ---
 # <a name="iconfilepath-mbnprofile-element"></a>Élément ICONFilePath (MBNProfile)
 
@@ -40,7 +40,7 @@ L’élément est facultatif.
 
 L’élément **ICONFilePath** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

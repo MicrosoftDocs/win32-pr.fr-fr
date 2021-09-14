@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 4c3a5cd33a6a5584ea9373df22df51a09e3e763d284a0f979f0b24e3651dc3d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b8a940fd08e1ab19b18969a763448b65fffd9d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119100527"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519484"
 ---
 # <a name="isvaliddevmode-function"></a>IsValidDevmode fonction)
 
@@ -56,13 +56,13 @@ Taille en octets de la mémoire tampon d’octets en entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **True** si [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) est structurellement valide. Si des erreurs mineures sont détectées, la fonction les corrige et retourne la **valeur true**.
 
 **False**, si le [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) présente un ou plusieurs problèmes structurels significatifs. Par exemple, son membre **dmSize** est mal aligné ou spécifie une mémoire tampon qui est trop petite. **False** également si **PDevmode** a la **valeur null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucun champ de pilote d’imprimante privée de l' [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) n’est activé, mais uniquement les champs publics.
 
@@ -70,7 +70,7 @@ Les appelants doivent utiliser **dmSize** + **dmDriverExtra** pour **DevmodeSize
 
 Cette fonction est exécutable dans Least-Privileged contexte de compte d’utilisateur (LUA).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

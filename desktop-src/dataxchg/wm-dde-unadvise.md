@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bbd0ac8e056cc43be764e745f824b50fc90b3cb2f0c50c9061d111fb3bc178d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dba83badcb689789d2654d99780bcb8cc503511d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117915103"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193016"
 ---
 # <a name="wm_dde_unadvise-message"></a>\_Message d' \_ innotification DDE
 
@@ -54,13 +54,13 @@ Le mot de poids fort contient un atome global qui identifie l’élément pour l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application cliente alloue le mot de poids fort de *lParam* en appelant la fonction [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma) .
 
 L’application serveur publie le message d’accusé de réception [**\_ DDE DDE \_**](wm-dde-ack.md) pour répondre positivement ou négativement. Lors de la publication d’un accusé de réception **\_ DDE DDE \_**, le serveur peut réutiliser l’Atom, ou il peut supprimer l’atome et en créer un nouveau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -103,7 +103,7 @@ L’application serveur publie le message d’accusé de réception [**\_ DDE DD
 [**\_avis DDE \_ WM**](wm-dde-advise.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

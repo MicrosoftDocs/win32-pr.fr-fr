@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f6c2a61b6603c0bfb38025548eaa4b0943bcdd1a5e81cb1ac27c17969fe87ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 736e9afa17f571428fada48660726b606268796a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118334841"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404126"
 ---
 # <a name="playlistcollectionimportplaylist-method"></a>Méthode PlaylistCollection. importPlaylist
 
@@ -49,11 +49,11 @@ Objet **playlist** à ajouter.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne l’objet **playlist** qui a été ajouté.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les sélections qui ne contiennent pas d’éléments multimédias ne peuvent pas être ajoutées à la bibliothèque à l’aide de cette méthode. Pour créer une playlist vide dans la bibliothèque, utilisez la méthode **newPlaylist** . Vous pouvez ensuite remplir la playlist obtenue avec des éléments multimédias à l’aide d’une *sélection*. **appendItem** ou *playlist*. **InsertItem**.
 
@@ -61,7 +61,7 @@ Si vous transmettez cette méthode à une sélection automatique, la requête es
 
 Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

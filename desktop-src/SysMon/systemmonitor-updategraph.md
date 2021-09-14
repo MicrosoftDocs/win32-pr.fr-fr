@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65e8604978f6dc786941a41f3be73170f40377502828b0e53d0b42c4af820300
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6215209466f54ea88f51b4b9777e2a6007917df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118881007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193656"
 ---
 # <a name="systemmonitorupdategraph-method"></a>SystemMonitor :: UpdateGraph, méthode
 
@@ -40,11 +40,11 @@ Sub UpdateGraph()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

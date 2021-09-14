@@ -5,11 +5,11 @@ ms.assetid: 21f76bea-a313-46b7-99b3-422f17376a5a
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 71e21f2c6a2292b7d49fae3b15691703fa34667a
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "106512294"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193631"
 ---
 # <a name="power-management-tpm-base-services"></a>Gestion de l’alimentation (services de base GPC)
 
@@ -17,9 +17,9 @@ Le TBS reçoit des événements de gestion de l’alimentation. Lors de la réce
 
 Lorsqu’un ordinateur entre en état de veille, y compris S3 (veille) et S4 (mise en veille prolongée), le module de plateforme sécurisée est éteint. Par conséquent, tous les États TPM non persistants sont perdus. Avant d’entrer dans ces États, les logiciels d’application sont censés se préparer à la perte des États de module de plateforme sécurisée volatils. Lorsque le système revient d’un état de veille, le TBS se synchronise avec le module de plateforme sécurisée afin que l’état de TBS soit cohérent avec l’état du module de plateforme sécurisée. Les logiciels d’application devront peut-être réémettre des commandes qui ont été interrompues.
 
- 
+ 
 
- 
+ 
 
 
 

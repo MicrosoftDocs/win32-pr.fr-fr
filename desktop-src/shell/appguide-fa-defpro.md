@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: edaadb5aa40b9a4eb6654c99bc950c2189cae7bec0610e9857afa181f306819d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 127855b8cc532d800beda024dea59d17ba7c87ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119338209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313165"
 ---
 # <a name="guidelines-for-file-associations-and-default-programs"></a>Instructions pour les associations de fichiers et les programmes par défaut
 

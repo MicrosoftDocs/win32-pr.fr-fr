@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e042e2a1d84d9e654cd4b50c5e5d726cc0306d64261e3e7d750bb6db73c77a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2da4d4d443c730d19c791a486fed4be0241b8c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117930629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519849"
 ---
 # <a name="iwmpcdromcollectioncount-property"></a>IWMPCdromCollection :: Count, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property count As System.Int32
 
 **System. Int32** qui correspond au nombre de lecteurs disponibles.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -81,7 +81,7 @@ System.Windows.Forms.MessageBox.Show(&quot;Number of available CD and DVD drives
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

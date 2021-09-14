@@ -6,11 +6,11 @@ title: WQL (SQL for WMI)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 72e2c80473874390851e81a5f2acebcd6d7e1497
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520529"
 ---
 # <a name="wql-sql-for-wmi"></a>WQL (SQL for WMI)
 
@@ -104,7 +104,7 @@ le Langage de requêtes WMI (WQL) (WQL) est un sous-ensemble des American Nation
 <td>Spécifie un intervalle d’interrogation ou de regroupement.<br/> Utilisez cette clause avec des requêtes d’événements.<br/></td>
 </tr>
 <tr class="odd">
-<td>false<br/></td>
+<td>FALSE<br/></td>
 <td>Opérateur booléen qui prend la valeur 0 (zéro).</td>
 </tr>
 </tbody>

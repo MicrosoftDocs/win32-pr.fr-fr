@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 30e420d369ee09dfd2d92b5e5d79cf94c7013566
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520560"
 ---
 # <a name="splitbutton-control-type"></a>SplitButton (type de contrôle)
 
@@ -142,7 +142,7 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

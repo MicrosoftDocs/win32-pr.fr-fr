@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: f1c5b64c7aa7f6aa43a281e3df6adb0d391b4628e29f867be71e613e020cf35d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ffec7588f2b364234328575037aa3a7d878446d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119977039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520105"
 ---
 # <a name="apiretrievecolumnasuint64-method"></a>API. RetrieveColumnAsUInt64, méthode
 
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

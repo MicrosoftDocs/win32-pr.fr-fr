@@ -4,12 +4,12 @@ ms.assetid: ee55364e-8ffe-4a78-a49a-250756561770
 title: Valeurs de retour de la gestion de la sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf20090ed4bbdfbeebb8fd77eafa8b9430df5aa816463ee32adb25116c7c3bd2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd2c67b79d03896960f7eb9a8631e1cd268284e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118894252"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193760"
 ---
 # <a name="security-management-return-values"></a>Valeurs de retour de la gestion de la sécurité
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: 4507bed7a5f3f461c80b8eed1e5c07c15cfd34b7aab7a02c3e803a43a88ae132
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d04d2367f914c2e8d64a3c9c64fb55df1e51e47c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404039"
 ---
 # <a name="idirectxfiledatareference-interface"></a>Interface IDirectXFileDataReference
 
@@ -45,7 +45,7 @@ L’interface **IDirectXFileDataReference** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fois que vous avez déterminé qu’un objet est un objet de référence de données, utilisez la méthode [**IDirectXFileDataReference :: Resolve**](idirectxfiledatareference--resolve.md) pour récupérer l’objet référencé défini précédemment dans le fichier. Pour plus d’informations sur l’identification d’un objet de référence de données, consultez l’interface [**IDirectXFileData**](idirectxfiledata.md) .
 
@@ -60,7 +60,7 @@ typedef interface IDirectXFileDataReference *LPDIRECTXFILEDATAREFERENCE;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

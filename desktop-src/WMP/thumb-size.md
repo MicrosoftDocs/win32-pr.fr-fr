@@ -3,7 +3,7 @@ title: Taille de curseur
 description: Taille de curseur
 ms.assetid: 002cf66c-6960-4e1c-a19a-faf3215811b3
 keywords:
-- Windows Media Player Mobile Skins, trackbars
+- Lecteur Windows Media Skins mobiles, trackbars
 - habillages, trackbars
 - informations de référence sur les habillages, trackbars
 - trackbars dans les habillages, taille de curseur
@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f62a1abf62f64509ff1b51c91518be718ab1b378
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196526"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403832"
 ---
 # <a name="thumb-size"></a>Taille de curseur
 
@@ -28,9 +28,9 @@ Vous devez définir la largeur et la hauteur de l’image Thumb en pixels. Il s�
 [**Trackbars**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

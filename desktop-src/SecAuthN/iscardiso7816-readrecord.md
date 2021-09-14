@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 16edb529cb5a1cf6e2badd19c3ac37f1e7ec69649fb854f98ff0b515c573f874
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cb9697315a6f9dd2436cd7a64d54fa6b44e00f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141082"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193952"
 ---
 # <a name="iscardiso7816readrecord-method"></a>ISCardISO7816 :: ReadRecord, méthode
 
@@ -73,7 +73,7 @@ Codage du contrôle de référence.
 | <span id="Last_Occur"></span><span id="last_occur"></span><span id="LAST_OCCUR"></span><dl> <dt>**Dernière exécution**</dt> </dl>     | Position du bit :-----001<br/> Lire la dernière occurrence. <br/>                    |
 | <span id="Next_Occur"></span><span id="next_occur"></span><span id="NEXT_OCCUR"></span><dl> <dt>**Suivant**</dt> </dl>     | Position du bit :-----010<br/> Lire l’occurrence suivante. <br/>                    |
 | <span id="Previous"></span><span id="previous"></span><span id="PREVIOUS"></span><dl> <dt>**Précédente**</dt> </dl>             | Position du bit :-----011<br/> Lire l’occurrence précédente. <br/>                |
-| <span id="Secret"></span><span id="secret"></span><span id="SECRET"></span><dl> <dt>**Secret**</dt> </dl>                     | Position du bit :---xxxxx<br/>                                                      |
+| <span id="Secret"></span><span id="secret"></span><span id="SECRET"></span><dl> <dt>**Confidentialité**</dt> </dl>                     | Position du bit :---xxxxx<br/>                                                      |
 
 
 
@@ -99,7 +99,7 @@ Au retour, elle est remplie avec la commande APDU construite par cette opératio
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -116,7 +116,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La commande encapsulée ne peut être exécutée que si l’état de sécurité de la [*carte à puce*](../secgloss/s-gly.md) répond aux attributs de sécurité du fichier élémentaire en cours de lecture.
 
@@ -130,7 +130,7 @@ Pour obtenir la liste de toutes les méthodes fournies par cette interface, cons
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

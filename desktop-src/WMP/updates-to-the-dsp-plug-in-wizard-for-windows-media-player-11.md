@@ -11,12 +11,12 @@ keywords:
 - Visual Studio, assistant de plug-in DSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2fb6ffaa9384f46e4630b16310a599de8508d953aabd4a5cdf277e91c130641
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a8efe798a3c324f9ecfac0a5b6021db4ea5abdf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119762169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403790"
 ---
 # <a name="updates-to-the-dsp-plug-in-wizard-for-windows-media-player-11"></a>mises à jour de l’assistant de Plug-in DSP pour Lecteur Windows Media 11
 

@@ -20,12 +20,12 @@ keywords:
 - IWMPSubscriptionService
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a254fe0aeed0d03f4437c408f4c00c181fdeb07cf75df8ff9d7a1139ea284150
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6d2f3aeeaa7456c3452b498a1a728e24c96783c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117476"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403801"
 ---
 # <a name="type-2-online-store-plug-in"></a>Plug-in de magasin en ligne de type 2
 

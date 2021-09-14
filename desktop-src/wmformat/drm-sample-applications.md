@@ -11,12 +11,12 @@ keywords:
 - DRM (gestion des droits numériques), exemples d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efd21fc5351b1987eb2476e46a56ef09a51302004c5a29ef4d98bb09535521c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f49d38a7a0f4865e319db0dc55841ce9e67c297e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119085984"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219532"
 ---
 # <a name="microsoft-windows-media-drm-client-sample-applications"></a>exemples d’Applications clientes Windows Microsoft Media DRM
 

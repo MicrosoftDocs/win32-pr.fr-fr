@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4767f839c5d21610e7e425aea4a20a52c3cb0d8658848f578a33ca403f4ad60
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3177197b9c149c2fca2c7678a8fe03c6b412e2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293863"
 ---
 # <a name="drm_level"></a>\_Niveau DRM
 
@@ -31,7 +31,7 @@ ms.locfileid: "117848682"
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le niveau de sécurité DRM d’une application est déterminé par la bibliothèque wmstubdrm particulière à laquelle il est lié au moment de la compilation. Pour plus d’informations sur ces niveaux de sécurité, consultez [obtention de la bibliothèque DRM requise](obtaining-the-required-drm-library.md). Utilisez [**IWMHeaderInfo :: setAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) pour définir cette propriété lors de la protection des fichiers ASF avec la version 1 de DRM.
 

@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e147b48ffb80e1114133b59018cef514eefd2ae7
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193075"
 ---
 # <a name="iwmpclosedcaptionsamistyle-property"></a>IWMPClosedCaption :: SAMIStyle, propriété
 
@@ -48,7 +48,7 @@ Public Property SAMIStyle As System.String
 
 **System. String** qui est le nom spécifié dans l’identificateur de style d’un fichier sami.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un fichier SAMI peut contenir plusieurs définitions de style de format. Les styles SAMI sont définis entre le &lt; style &gt; et les </STYLE> balises dans le fichier sami. Un style est défini avec une chaîne de texte précédée d’un \# caractère. Par exemple :
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 70679a2decc62011df70e68c119365bb8a98f7bdb06af6d7989eac18e7c14fd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e65a8315e796db032dfa6e9cb8898d19437bad05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193911"
 ---
 # <a name="iscardlocate-interface"></a>Interface ISCardLocate
 
@@ -61,7 +61,7 @@ L’interface **ISCardLocate** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

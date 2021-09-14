@@ -4,12 +4,12 @@ description: mise à jour de plateforme pour Windows Vista
 ms.assetid: 661f88f9-e5ba-412d-8cb4-f3f186568b74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d272893699222e2a34263839afae03afc814b032d9473d7687403265a711468
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a97e083c8b7458b8a475631da30b8409cbd802c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964558"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293179"
 ---
 # <a name="platform-update-for-windows-vista"></a>mise à jour de plateforme pour Windows Vista
 
@@ -43,7 +43,7 @@ pour Windows vista, les utilisateurs finaux obtiennent la mise à jour de la pla
 
  
 
-## <a name="additional-resources"></a>Ressources complémentaires
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [article de la Base de connaissances sur la mise à jour de plateforme pour Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644)
 

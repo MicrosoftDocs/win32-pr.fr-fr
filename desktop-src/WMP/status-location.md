@@ -9,12 +9,12 @@ keywords:
 - affichage de l’État dans les apparences, emplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1111c511c2ab52ff4233a497384606238f8afa351ab786deb6e3f5a20247a9a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b47cb08b0a1fde8b3bbc24e4300f880c3896ebf6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193160"
 ---
 # <a name="status-location"></a>Emplacement de l’État
 

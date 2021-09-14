@@ -6,11 +6,11 @@ ms.assetid: 15E35DCF-C6C1-446A-B09B-6428F9C8A633
 ms.topic: article
 ms.date: 02/03/2020
 ms.openlocfilehash: 9d804afb3db40bceee95281aec4884b343a72444
-ms.sourcegitcommit: f2fe9d9bd65333b74f2af8e30eddbb1643b40c8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "106538794"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520321"
 ---
 # <a name="pointer-input-messages-and-notifications-glossary"></a>Messages d’entrée du pointeur et Glossaire des notifications
 
@@ -39,9 +39,9 @@ Une seule mise à jour pour tous les pointeurs associés, à l’heure, avec une
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f86f9e8ea4339eb76bdc77087780fcfa9be09f47c92a154c5f89109d90337b41
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 03f8ae8e1e83abcf3b340398d45aefde4c7141e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119464279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520213"
 ---
 # <a name="creating-a-new-permanent-event-consumer-class"></a>Création d’une classe de consommateur d’événements permanente
 

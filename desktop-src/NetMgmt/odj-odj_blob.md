@@ -5,12 +5,12 @@ ms.assetid: ada2c597-9ab9-4cc0-b5ba-4b533eec5502
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: aa1c2b593e0e9f63a52672eb3b29ee83fbf86ea91d7f4860f2351a8e4538f05d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 079ea531b0cb392539679c10574c0cc0f1601318
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119779569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517797"
 ---
 # <a name="odj_blob-structure"></a>Structure ODJ_BLOB
 

@@ -4,12 +4,12 @@ description: La clé de Registre AssumePhase2Fragmentation détermine si le serv
 ms.assetid: 3d6ececf-8871-4038-9706-4da57857d25a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caee785b0c89b92aaf4b01c590425c451b9a977664e915874e7eb5ad1edf46aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b0fa35692ec3ac741e2bd2fdb43607dfe1cb948
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118275836"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519741"
 ---
 # <a name="assumephase2fragmentation"></a>AssumePhase2Fragmentation
 

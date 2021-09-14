@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, appels asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d8399071cae6ea39aaac3f966e7e799b2c93b32a152048a7d18282b465f929
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa06f60b43a7dff3a29223ff1d8e9ad726c0e938
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194092"
 ---
 # <a name="making-the-asynchronous-call"></a>Exécution de l’appel asynchrone
 

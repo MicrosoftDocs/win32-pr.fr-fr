@@ -4,12 +4,12 @@ description: Par défaut, le fournisseur de services partagés fournit des clés
 ms.assetid: 0ba7212c-6ee8-4a92-94d0-f09f84b05bf3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 292926f53e5af0e75957f9b363d3917b1c5f68ef3a4e0a0acf7111c6b37b6518
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36a8c8e8cfb2f3b4f8f241b2401878576cbe7f90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020231"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194140"
 ---
 # <a name="key-acquisition-functions"></a>Fonctions d’acquisition de clé
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6238d3dbb45d4f832f44f3b67e83b9285a3bd206b3209c494121d78700a20763
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcfcdc75bcf10b922a242574bfabe267c949fa52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193976"
 ---
 # <a name="iscardfileaccess-interface"></a>Interface ISCardFileAccess
 
@@ -62,18 +62,18 @@ L’interface **ISCardFileAccess** possède ces méthodes.
 | [**GetFileCapabilities**](iscardfileaccess-getfilecapabilities.md) | Récupère les fonctionnalités de fichier.<br/>                                                                                                      |
 | [**GetProperties**](iscardfileaccess-getproperties.md)             | Récupère les données primitives référencées par des balises pour l’objet spécifié.<br/>                                                           |
 | [**Invalidate**](iscardfileaccess-invalidate.md)                   | Rend le fichier spécifié non valide.<br/>                                                                                               |
-| [**Afficher**](iscardfileaccess-open.md)                               | Ouvre le fichier spécifié pour une utilisation ultérieure.<br/>                                                                                         |
-| [**Lire**](iscardfileaccess-read.md)                               | Lit et retourne les données spécifiées à partir d’un fichier donné.<br/>                                                                           |
+| [**Ouvrir**](iscardfileaccess-open.md)                               | Ouvre le fichier spécifié pour une utilisation ultérieure.<br/>                                                                                         |
+| [**En lecture**](iscardfileaccess-read.md)                               | Lit et retourne les données spécifiées à partir d’un fichier donné.<br/>                                                                           |
 | [**Réhabiliter**](iscardfileaccess-rehabilitate.md)               | Rend un fichier (EF ou DF) qui a été précédemment rendu non valide à l’aide de la commande Invalidate, accessible par l’application.<br/> |
 | [**Seek**](iscardfileaccess-seek.md)                               | Sélectionne l’objet à partir duquel l’autorisation de lecture/écriture sera effectuée.<br/>                                                                 |
 | [**SetProperties**](iscardfileaccess-setproperties.md)             | Définit les données primitives référencées par des balises pour l’objet spécifié.<br/>                                                                |
-| [**Écriture**](iscardfileaccess-write.md)                             | Écrit des données dans un fichier ouvert en cours.<br/>                                                                                             |
+| [**Write**](iscardfileaccess-write.md)                             | Écrit des données dans un fichier ouvert en cours.<br/>                                                                                             |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

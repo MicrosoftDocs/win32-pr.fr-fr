@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8decb1746391c1337440eb475a8a8face3f8b7466b73015db48e3991841a3c43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac7d628b554696fffd254a45b9b1021d68e2a55e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118086774"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519732"
 ---
 # <a name="baseeapmethodconfig-complex-type"></a>Type complexe BaseEapMethodConfig
 
@@ -38,11 +38,11 @@ Le type complexe **BaseEapMethodConfig** est un élément d’espace réservé p
 </xs:complexType>
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode EAP effectue une validation de schéma sur le contenu de l’élément **BaseEapMethodConfig** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

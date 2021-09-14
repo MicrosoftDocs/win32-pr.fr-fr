@@ -4,12 +4,12 @@ ms.assetid: 69db198d-fb4c-482b-bf49-5c636ac2f86b
 title: 'ITParticipant :: EnumerateStreams, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1ec901c81bb0df666877ee06462b88da965b41bedd961e71cebbf25cd78ee30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbc92c617ed4baee3ecc33aec65cbdcf50986a27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140302"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193487"
 ---
 # <a name="itparticipantenumeratestreams-method"></a>ITParticipant :: EnumerateStreams, méthode
 
@@ -39,7 +39,7 @@ Pointeur vers le pointeur d’interface [**IEnumStream**](/windows/desktop/api/t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -54,11 +54,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**IEnumStream**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream) retournée par **ITParticipant :: EnumerateStreams**. L’application doit appeler **Release** sur l’interface **IEnumStream** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

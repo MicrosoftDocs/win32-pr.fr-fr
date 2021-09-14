@@ -18,12 +18,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a16f539d232271843c891760f319fc26decc87a9b1c3bcf4a3d575ffb7d86856
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fcf0a4c98ae49d1cdf3b7e36e8a278f184cd4632
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119900639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292875"
 ---
 # <a name="windows-media-metafile-guide"></a>Windows Guide du métafichier multimédia
 

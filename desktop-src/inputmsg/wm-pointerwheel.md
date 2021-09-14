@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 93144125c21da2d29a0d71f56d8d865da4a07dda6adff2f25ce3528fca72b475
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad1177b2e92e47ca40c745e6cd5f1ea2cf259215
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118756527"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520328"
 ---
 # <a name="wm_pointerwheel-message"></a>Message WM_POINTERWHEEL
 
@@ -71,19 +71,19 @@ Utilisez les macros suivantes pour récupérer les coordonnées d’écran physi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer les unités de défilement de la roue, utilisez le **inputData** de la structure retournée par l’appel de [**POINTER_INFO**](/previous-versions/windows/desktop/api) la fonction [**GetPointerInfo**](/previous-versions/windows/desktop/api) . Ce champ contient une valeur signée et est exprimé dans un multiple de **WHEEL_DELTA**. Une valeur positive indique une rotation vers l’avant et une valeur négative indique une rotation vers l’arrière.
 
 Notez que les entrées de la roue peuvent être remises même si le curseur de la souris se trouve en dehors de la fenêtre de l’application. Les messages de roulette sont remis de manière très similaire aux entrées du clavier. La fenêtre de focus de la file d’attente de messages foregournd reçoit les messages de roulette.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

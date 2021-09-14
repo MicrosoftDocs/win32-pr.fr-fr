@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70cfd95de751d51be3ab4b61bc361687738422a6d31c234576e812efcd57bd4a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a149ef6ce6ebadacbac6f0dd35247d793ca7000
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519568"
 ---
 # <a name="mpthreat_category-enumeration"></a>\_Énumération de la catégorie MPTHREAT
 
@@ -132,7 +132,7 @@ Catégorie de menace | Description
 <span id="MP_THREAT_CATEGORY_VULNERABILTIY"></span><span id="mp_threat_category_vulnerabiltiy"></span>Pack d’e **\_ catégorie de menace \_ \_ VULNERABILTIY** | Toute faiblesse, tout processus administratif ou toute activité qui rend un appareil vulnérable à une attaque par une menace.
 <span id="MP_THREAT_CATEGORY_POLICY"></span><span id="mp_threat_category_policy"></span>Pack d’e **\_ \_ \_ stratégie de catégorie de menace** | Ensemble de règles définies par un administrateur, qui contrôlent les fonctionnalités sur les appareils de bureau et mobiles, tels que les mises à jour logicielles.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

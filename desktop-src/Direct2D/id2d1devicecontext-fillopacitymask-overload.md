@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 377fc9f87117f34893a07c8a302875001e9e91efb3ff74d967519fa98cfec52c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bed73db9efdb2ee1a284a8ca151b7b1f5d1c2759
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119967019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113010"
 ---
 # <a name="id2d1devicecontextfillopacitymask-methods"></a>ID2D1DeviceContext :: FillOpacityMask, méthodes
 

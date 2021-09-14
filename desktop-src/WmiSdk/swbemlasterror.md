@@ -39,12 +39,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a73312c38857b57f3ffeec8fcaf8a9ea5847001393d0a03d4916da76ffcb8c0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a00d8e3421800acab7cc4958ddc1e6a75f101958
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118314458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193040"
 ---
 # <a name="swbemlasterror-object"></a>Objet SWbemLastError
 
@@ -69,7 +69,7 @@ L’objet **SWbemLastError** a ces méthodes.
 |:---------------------------------------------------------|:---------------------------------------------------------------------------------------------|
 | **Associateurs\_**                                        | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/> |
 | **AssociatorsAsync\_**                                   | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/> |
-| [**Répliqué\_**](swbemlasterror-clone-.md)                 | Effectue une copie de l’objet en cours.<br/>                                               |
+| [**Clone\_**](swbemlasterror-clone-.md)                 | Effectue une copie de l’objet en cours.<br/>                                               |
 | [**CompareTo\_**](swbemlasterror-compareto-.md)         | Teste si deux objets sont égaux.<br/>                                                   |
 | **Supprimer\_**                                             | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/> |
 | **DeleteAsync\_**                                        | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/> |
@@ -101,10 +101,10 @@ L’objet **SWbemLastError** a ces propriétés.
 |:--------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Dérivation\_**<br/>                                   | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
 | **Méthodes\_** <br/>                                     | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
-| [**Chemin\_**](swbemlasterror-path-.md)<br/>             | Lecture seule<br/> | Contient un objet [**SWbemObjectPath**](swbemobjectpath.md) qui représente le chemin d’accès de l’objet de la classe ou de l’instance actuelle.<br/>                    |
+| [**Chemin d’accès\_**](swbemlasterror-path-.md)<br/>             | Lecture seule<br/> | Contient un objet [**SWbemObjectPath**](swbemobjectpath.md) qui représente le chemin d’accès de l’objet de la classe ou de l’instance actuelle.<br/>                    |
 | [**Propriétés\_**](swbemlasterror-properties-.md)<br/> | Lecture seule<br/> | Représente la collection de propriétés de l’objet **SWbemLastError** . Cette propriété est un objet [**SWbemPropertySet**](swbempropertyset.md) .<br/> |
 | **Qualificateurs\_**<br/>                                   | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
-| **Sécurité\_**<br/>                                     | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
+| **Caution\_**<br/>                                     | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
 
 
 
@@ -238,7 +238,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

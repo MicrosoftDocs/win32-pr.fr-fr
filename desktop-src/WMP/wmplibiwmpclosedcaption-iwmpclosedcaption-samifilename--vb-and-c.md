@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 973b0757eca4251e74180d829205ee6c7080ca821db2eeada3abc825bb4b5073
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d251f2bbf0c8839ab9a0005c69e1869c47af16ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117930322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193079"
 ---
 # <a name="iwmpclosedcaptionsamifilename-property"></a>IWMPClosedCaption :: SAMIFileName, propriété
 
@@ -48,7 +48,7 @@ Public Property SAMIFileName As System.String
 
 **System. String** qui est le nom du fichier sami (Synchronized Accessible Media Interchange).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le fichier SAMI doit utiliser une extension de nom de fichier. SMI ou. sami.
 
@@ -58,7 +58,7 @@ Une fois que vous avez défini une valeur à l’aide de **SAMIFileName**, cette
 
 pour que Lecteur Windows Media utilise le fichier SAMI par défaut associé à un élément multimédia particulier, définissez **SAMIFileName** sur une chaîne de longueur nulle ("") avant de lire l’élément multimédia suivant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

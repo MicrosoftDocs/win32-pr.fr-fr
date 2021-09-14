@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 22fbf4ae15c508808a49f513a63a7ae58f22b450
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953235"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404312"
 ---
 # <a name="columnvaluesetgrbit-property"></a>ColumnValue. SetGrbit, propriété
 
@@ -66,7 +66,7 @@ Type : [Microsoft. ISAM. esent. Interop. SetColumnGrbit](./setcolumngrbit-enume
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnValue, classe](./columnvalue-class.md)
 

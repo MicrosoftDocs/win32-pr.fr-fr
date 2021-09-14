@@ -4,12 +4,12 @@ description: Les structures de gestion de réseau peuvent être regroupées comm
 ms.assetid: a4b05054-bef2-4cab-89f6-725d92ee75b8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e71d5e6b8244d8177d013653d4e102fece0eba8c18baa4a9918c3e6280eb8bdb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 247dd9afc6fb38cbede332e90f2b648a0e2bbc26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119891229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194691"
 ---
 # <a name="network-management-structures"></a>Structures de gestion de réseau
 

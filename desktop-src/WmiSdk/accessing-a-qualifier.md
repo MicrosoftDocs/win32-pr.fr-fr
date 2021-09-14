@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Accès à un qualificateur WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45601de8e7b3f8ef7054742812c24f9a81dcedf5417f7b7ba501f2471adedc58
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c88a5826255046bc0898dae43b9aa25ec5c7648
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118820617"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403772"
 ---
 # <a name="accessing-a-wmi-qualifier"></a>Accès à un qualificateur WMI
 
@@ -43,7 +43,7 @@ Vous pouvez récupérer les qualificateurs d’un objet WMI dans PowerShell en e
 
 Vous pouvez récupérer les qualificateurs sur une instance WMI en C# en extrayant d’abord l’objet, puis en examinant les qualificateurs en tant que collection.
 
-**Pour récupérer un qualificateur à l’aide de C# (Microsoft.SysTEM. Gestion**
+**Pour récupérer un qualificateur à l’aide de C# (Microsoft. System. Management)**
 
 1.  Récupérez la classe dont vous souhaitez afficher les qualificateurs en créant un objet CimInstance à l’aide du nom de classe et de l’espace de noms spécifiés.
 

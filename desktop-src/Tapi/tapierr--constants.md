@@ -4,12 +4,12 @@ ms.assetid: 6d1cf18b-efeb-4703-9b8e-fce59b61b63f
 title: Constantes TAPIERR_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f84e8f5cbe840ba428575d3ea6aeff40242fdbd2b97440d7538893421eab7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e8a60e2a625ff456a4a8aa2730b80000e92ff54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311145"
 ---
 # <a name="tapierr_-constants"></a>\_Constantes TAPIERR
 
@@ -217,11 +217,11 @@ Un handle de fenêtre inconnu a été référencé.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les autres \_ valeurs TAPIERR sont obsolètes et ne doivent pas être utilisées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

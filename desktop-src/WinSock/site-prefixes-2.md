@@ -4,12 +4,12 @@ ms.assetid: cc3aa99d-cf45-460c-bdc1-3e9a19806fe4
 title: Préfixes de site IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dd37370aa14bd6883f83e93d661f10b96d804dc3b85cf47173da4b1f0ee0f90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bed8a21c59f9b6727c98ccb7fdacf4e9ec6ea5cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118111293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403892"
 ---
 # <a name="ipv6-site-prefixes"></a>Préfixes de site IPv6
 

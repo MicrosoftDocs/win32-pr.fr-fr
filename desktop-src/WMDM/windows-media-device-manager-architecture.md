@@ -17,12 +17,12 @@ keywords:
 - plug-ins, Windows Gestionnaire de périphériques architecture multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deadb7e5a85c4d7331a276a515add2ace30e566c2b683404b7b4466bf891dbbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9fda87e4ed4bce2c82bbb9c0863c119851965940
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055596"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192811"
 ---
 # <a name="windows-media-device-manager-architecture"></a>Windows Architecture du Gestionnaire de périphériques multimédia
 

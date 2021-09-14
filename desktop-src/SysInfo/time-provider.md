@@ -1,19 +1,19 @@
 ---
-description: le système d’exploitation Microsoft Windows prend en charge un large éventail de périphériques matériels et de protocoles de temps réseau à l’aide de l’architecture du fournisseur de temps.
+description: Le système d’exploitation Microsoft Windows prend en charge un large éventail de périphériques matériels et de protocoles de temps réseau à l’aide de l’architecture du fournisseur de temps.
 ms.assetid: a7575373-eeda-4f2a-85e5-d1b50994e7ae
 title: Fournisseur de temps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67f2073e94bdf893793b4ae1df2974226aa197de4ff429be9ce8f2a2e4b5f597
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c844e2c4d0d49e87e978a47621338b167c4f5a23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117957903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193683"
 ---
 # <a name="time-provider"></a>Fournisseur de temps
 
-le système d’exploitation Microsoft Windows prend en charge un large éventail de périphériques matériels et de protocoles de temps réseau à l’aide de l’architecture du *fournisseur de temps* . Les fournisseurs de temps d’entrée récupèrent des horodatages précis à partir du matériel ou du réseau, et les fournisseurs de temps de sortie fournissent des horodateurs à d’autres clients sur le réseau.
+Le système d’exploitation Microsoft Windows prend en charge un large éventail de périphériques matériels et de protocoles de temps réseau à l’aide de l’architecture du *fournisseur de temps* . Les fournisseurs de temps d’entrée récupèrent des horodatages précis à partir du matériel ou du réseau, et les fournisseurs de temps de sortie fournissent des horodateurs à d’autres clients sur le réseau.
 
 Les fournisseurs de temps sont gérés par le *Gestionnaire du fournisseur de temps*. Il est responsable du chargement, du démarrage et de l’arrêt des fournisseurs de temps comme indiqué par le gestionnaire de contrôle des services. Cette interface rend l’écriture d’un fournisseur de temps plus facile que l’écriture d’un service complet.
 

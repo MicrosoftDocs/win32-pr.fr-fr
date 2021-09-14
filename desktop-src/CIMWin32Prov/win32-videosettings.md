@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2e03c8488ba3af60b9796ae369ed7444bc249b13e9ec2edb37c33cc90d492d63
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38e949b6b6501dc51b39448d72e6bf61f37fbecb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079603"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219236"
 ---
 # <a name="win32_videosettings-class"></a>\_Classe VideoSettings Win32
 
@@ -84,11 +84,11 @@ Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmis
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ VideoSettings** est dérivée de [**CIM \_ VideoSetting**](cim-videosetting.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

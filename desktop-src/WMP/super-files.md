@@ -12,12 +12,12 @@ keywords:
 - Super fichiers dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcbd6734e0491b5fc0e6552db14b3c0ab4489e466e7851ef4b474e84d2d85183
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ece533f81f8866eb0f9848d7296cc23bcd37f453
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520257"
 ---
 # <a name="super-files"></a>Super fichiers
 

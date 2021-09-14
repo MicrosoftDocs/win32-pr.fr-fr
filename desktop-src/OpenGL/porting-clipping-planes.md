@@ -10,12 +10,12 @@ keywords:
 - plans de découpage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f314b7c6453de3b0933970b7d520a8c161d6eef4a9bb98ea891c73665fba4933
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3b531b39daf6670a3a99d9a4cbcf55158ea2d4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194311"
 ---
 # <a name="porting-clipping-planes"></a>Portage des plans de découpage
 

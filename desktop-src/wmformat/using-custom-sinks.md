@@ -16,15 +16,15 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e324d654fa8c85d6145b0f4bf8f20de1f06e125f
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723482"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293119"
 ---
 # <a name="using-custom-sinks"></a>Utilisation de récepteurs personnalisés
 
-Si vous avez besoin d’écriture spéciale, vous pouvez créer vos propres récepteurs de writer. L’enregistreur maintient une communication unidirectionnelle avec un récepteur en effectuant des appels aux méthodes de [**IWMWriterSink**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink). Pour créer votre propre récepteur, implémentez l’interface **IWMWriterSink** dans une classe de votre application. Ce processus est très similaire à l’implémentation d’une autre interface de rappel utilisée par les objets du kit de développement logiciel (SDK) du format Windows Media. Pour plus d’informations sur les rappels, consultez [utilisation des méthodes de rappel](using-the-callback-methods.md).
+Si vous avez besoin d’écriture spéciale, vous pouvez créer vos propres récepteurs de writer. L’enregistreur maintient une communication unidirectionnelle avec un récepteur en effectuant des appels aux méthodes de [**IWMWriterSink**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink). Pour créer votre propre récepteur, implémentez l’interface **IWMWriterSink** dans une classe de votre application. ce processus est très similaire à l’implémentation d’une autre interface de rappel utilisée par les objets du kit de développement logiciel (SDK) de Format multimédia Windows. Pour plus d’informations sur les rappels, consultez [utilisation des méthodes de rappel](using-the-callback-methods.md).
 
 La mémoire tampon reçue dans [**IWMWriterSink :: OnHeader**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwritersink-onheader) doit être écrite au début du fichier, et toutes les mémoires tampons reçues dans [**OnDataUnit**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwritersink-ondataunit) doivent être écrites de manière séquentielle. **OnHeader** sera appelé au début, mais peut également être appelé à d’autres moments, et si c’est le cas, vous devriez, si possible, remplacer l’en-tête d’origine. Si votre application n’est pas en mesure de le faire pour une raison quelconque, ignorez simplement les appels **OnHeader** suivants.
 
@@ -37,9 +37,9 @@ Votre récepteur personnalisé doit communiquer son état à votre application d
 [**Utilisation des récepteurs d’écriture**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

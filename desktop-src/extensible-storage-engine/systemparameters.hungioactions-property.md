@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a2e1acd3d7fe377ad352a5b98569207cbd5110034e5dca5beaa28cedc39b4c26
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 78c07ba3a8cbbdca4c516a4ea30331e76277bb7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119603629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520093"
 ---
 # <a name="systemparametershungioactions-property"></a>Propriété SystemParameters. HungIOActions
 
@@ -65,7 +65,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [SystemParameters (classe)](./systemparameters-class.md)
 

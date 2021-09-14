@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9d803986626f728db78b03933d65629e06d6021f63a5b7806503d7eec7176b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 710926a966713901733ac9bbee3d188458ebcf65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293027"
 ---
 # <a name="playlistcopying"></a>PLAYLIST. copie
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture seule.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

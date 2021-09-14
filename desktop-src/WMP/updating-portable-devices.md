@@ -14,12 +14,12 @@ keywords:
 - appareils mobiles, Lecteur Windows Media magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8b6abc07eeecd61d287308bcc256c01f321219968d33d400b5b79aeff33d9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b29f5314f4eba1af43b3858304f02f8a7e0107df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403781"
 ---
 # <a name="updating-portable-devices"></a>Mise à jour des appareils mobiles
 

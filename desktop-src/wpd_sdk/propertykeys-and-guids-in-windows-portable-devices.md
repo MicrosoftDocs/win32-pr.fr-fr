@@ -4,12 +4,12 @@ ms.assetid: 3f9e9f29-37dd-47b0-997e-de81966efce2
 title: PROPERTYKEYs et guid dans Windows appareils mobiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80100b043383074f58bc27fe8e9782c4fd6d2e4f3841a28f37035f39d23cc7c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c28cbe76b76eda04852cd1afcbb11b85b0a185d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120054869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219364"
 ---
 # <a name="propertykeys-and-guids-in-windows-portable-devices"></a>PROPERTYKEYs et guid dans Windows appareils mobiles
 

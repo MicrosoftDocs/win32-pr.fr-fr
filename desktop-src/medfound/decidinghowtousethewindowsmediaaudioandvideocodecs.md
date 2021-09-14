@@ -4,12 +4,12 @@ ms.assetid: ec571d31-6542-421a-8027-d4c61ce00035
 title: Utilisation des objets codec et DSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f411c292a9b933ca480e3de053317005b14fa03a0f073b7ecfd3b67f3c4d02
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a88670298bfc16ca1dc5053cabeb4f4e631c5c47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120061959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520292"
 ---
 # <a name="using-the-codec-and-dsp-objects"></a>Utilisation des objets codec et DSP
 

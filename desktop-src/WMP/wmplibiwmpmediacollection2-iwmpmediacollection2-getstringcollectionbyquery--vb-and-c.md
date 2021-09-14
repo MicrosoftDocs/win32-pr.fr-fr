@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 054dd5b76cb6dcf3e6cb29ba624cd1f5c0f281d69c4b2b5e5125f5de9b4e7b04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 322781bc9ddec3e6f8d74d7229f16ce38e519f05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117745967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403993"
 ---
 # <a name="iwmpmediacollection2getstringcollectionbyquery-method"></a>IWMPMediaCollection2 :: getStringCollectionByQuery, méthode
 
@@ -96,17 +96,17 @@ Valeur **System. Boolean** qui indique si l’ensemble de valeurs de chaîne doi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPStringCollection** pour le jeu récupéré de valeurs de chaîne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les requêtes composées utilisant **IWMPQuery** ne respectent pas la casse.
 
 Lorsque la requête composée spécifiée par le paramètre *pQuery* contient une condition construite sur l’attribut **MediaType** , cette condition est ignorée. La valeur du paramètre *bstrMediaType* est toujours utilisée. Par exemple, si la requête composée contient la condition « MediaType est égal à audio » et que la valeur du paramètre *bstrMediaType* est « Video », la sélection résultante contiendra uniquement les éléments vidéo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

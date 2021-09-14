@@ -1,22 +1,22 @@
 ---
-title: État (kit de développement logiciel Windows Media Player)
+title: état (kit de développement logiciel Lecteur Windows Media)
 description: Statut
 ms.assetid: b8d6d026-819c-4889-a894-c82fe81ec922
 keywords:
-- Apparences mobiles du lecteur Windows Media, affichage de l’État
+- Lecteur Windows Media Apparences mobiles, affichage de l’État
 - apparences, affichage de l’État
 - référence pour les apparences, affichage de l’État
 - affichage de l’État dans les apparences, à propos de
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6f6f1cd9e0df209d6a37ed880765fd607e939765
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032181"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193159"
 ---
-# <a name="status-windows-media-player-sdk"></a>État (kit de développement logiciel Windows Media Player)
+# <a name="status-windows-media-player-sdk"></a>état (kit de développement logiciel Lecteur Windows Media)
 
 Vous souhaiterez peut-être utiliser un affichage d’État dans votre apparence. Si c’est le cas, l’élément Status doit être défini dans le fichier de définition d’apparence. Vous pouvez également afficher ces informations à l’aide de l’attribut Status dans l’élément de texte.
 

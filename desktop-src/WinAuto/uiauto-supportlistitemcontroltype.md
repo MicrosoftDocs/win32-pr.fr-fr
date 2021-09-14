@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3cf7275212d44b795f354cb895c2d64727e375ea
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122483195"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192651"
 ---
 # <a name="listitem-control-type"></a>ListItem (type de contrôle)
 
@@ -137,7 +137,7 @@ Le tableau suivant répertorie les événements UI Automation qui répertorient 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un conteneur héberge des éléments de liste, les principaux moyens de navigation doivent être placés dans les éléments de la liste. Placer le focus sur des sous-éléments via la navigation dans la liste peut être confus pour les utilisateurs et les outils d’accessibilité. Si le conteneur héberge une liste verticale d’éléments, le fait d’appuyer sur les touches haut et bas doit parcourir les éléments, mais le fait d’appuyer sur les touches de direction droite et gauche peut accéder aux sous-éléments de l’élément ayant le focus, tels que les colonnes de liste ou les sous-éléments d’interface utilisateur.
 
@@ -145,7 +145,7 @@ Si un conteneur héberge des éléments de liste, les principaux moyens de navig
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

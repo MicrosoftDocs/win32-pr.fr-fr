@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 323464d32a2529475823003e51d5bbf0b15c616e32edb0622efe5be7f94dfb4c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cde2e70b04602de5936e945789007a6c5fea8542
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119611459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294186"
 ---
 # <a name="wm_ncmousehover-message"></a>\_Message WM NCMOUSEHOVER
 
@@ -52,11 +52,11 @@ Structure de [**points**](/previous-versions//dd162808(v=vs.85)) qui contient le
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le suivi de survol s’arrête lorsque ce message est généré. L’application doit appeler à nouveau [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) si elle nécessite un suivi supplémentaire du comportement de pointage de la souris.
 
@@ -75,7 +75,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -115,7 +115,7 @@ yPos = GET_Y_LPARAM(lParam);
 [**\_MOUSEHOVER WM**](wm-mousehover.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

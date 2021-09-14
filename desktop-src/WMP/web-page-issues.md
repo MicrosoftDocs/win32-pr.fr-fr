@@ -25,12 +25,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c952d143e260aac5613fccdc3d6f8ed3403801441a000b953ef5e8387c924857
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 882d8993ba3690cf8c4a068f9861ccf39cd1a95c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193115"
 ---
 # <a name="web-page-issues"></a>Problèmes de page Web
 

@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 78f8902d25010690953cfae8a03ff9e500b4ebda
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512633"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122138"
 ---
 # <a name="retrieving-large-results-sets"></a>Récupération de jeux de résultats volumineux
 
@@ -29,7 +29,7 @@ Côté serveur, la recherche paginée rend l’opération évolutive. Par exempl
 > [!Note]  
 > Tous les services d’annuaire ne prennent pas en charge les recherches paginées. Active Directory implémente l’architecture de taille de page.
 
- 
+ 
 
 De nombreux serveurs d’annuaire spécifient une limite administrative pour le nombre maximal d’objets qu’ils peuvent retourner si un client ne spécifie pas la taille de la page. Lorsque la limite administrative est atteinte, ADSI génère l’erreur Win32 **\_ \_ administration \_ Limit \_ a dépassé** Win32 Error.
 
@@ -40,14 +40,14 @@ Pour le compte du client, ADSI gère la taille de page en toute transparence. Le
 Pour plus d’informations sur l’utilisation de l’option de délai de recherche avec une interface de recherche spécifique, consultez :
 
 -   [Pagination avec IDirectorySearch](paging-with-idirectorysearch.md)
--   [Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+-   [recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 -   [Recherche avec OLE DB](searching-with-ole-db.md)
 
 Une recherche paginée est transparente pour votre application, car l’interface ADSI continue à récupérer des pages de résultats supplémentaires jusqu’à ce qu’elle atteigne la fin du jeu de résultats ou la fin de la limite de temps que vous avez définie. Lorsque vous utilisez une recherche paginée, la limite de taille ne remplace pas la taille de la page. La limite de taille peut être utilisée uniquement lorsque vous récupérez un jeu de résultats qui contient moins de 1000 entrées.
 
- 
+ 
 
- 
+ 
 
 
 

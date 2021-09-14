@@ -4,12 +4,12 @@ ms.assetid: 2bb1c94a-55b6-4aee-b86d-ee9e1f8ed290
 title: Optimisation des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fee37ba48764f6249410a6dfc2512245aa6ca6dfca68cff09ec15e06a42f9156
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86215855bb02314d7eb54c774541b0a2086c7c99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118627642"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218737"
 ---
 # <a name="patch-optimization"></a>Optimisation des correctifs
 
@@ -47,7 +47,7 @@ si un correctif modifie uniquement les tables suivantes, Windows Installer 3,0 o
 -   [\_Colonnes](-columns-table.md)
 -   [\_Stockages](-storages-table.md)
 -   [\_Flux](-streams-table.md)
--   [\_Elles](-tables-table.md)
+-   [\_Tables](-tables-table.md)
 -   [\_Table TransformView](-transformview-table.md)
 -   [\_Validation](-validation-table.md)
 

@@ -4,12 +4,12 @@ ms.assetid: 13174c5d-c810-4b5d-9d1e-60ed30b8c44d
 title: Obtention d’informations de contexte pour les actions personnalisées d’exécution différée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76f9016a37eb97c99dc94840617a91ba17da68a0409d6130c15cb17078c60d11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a13cd956509a5b8a4c92e0a53bfa455154a59bcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118943272"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218996"
 ---
 # <a name="obtaining-context-information-for-deferred-execution-custom-actions"></a>Obtention d’informations de contexte pour les actions personnalisées d’exécution différée
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: COOKER_MIN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23ae137cf5521ebc6e4811556599d354ee5991ca9d0844502e27f928ce6539a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3059f8c9b3464fb4893c24d820e25b19472e95ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131511"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403883"
 ---
 # <a name="cooker_min"></a>minimum de cuiseur \_
 

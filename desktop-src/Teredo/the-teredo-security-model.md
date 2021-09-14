@@ -4,12 +4,12 @@ description: la technologie Teredo, couplée avec Sécurité Windows Center et W
 ms.assetid: 7e47107e-ad15-4e55-9771-8a00a040388e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52c43e931324ac400449d136fcc8aa84b6f5995d95b431642690c1c6ae852cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dcb3735ee796233f76ebda0e577e941a98b2498c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117942294"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193447"
 ---
 # <a name="the-teredo-security-model"></a>Modèle de sécurité Teredo
 

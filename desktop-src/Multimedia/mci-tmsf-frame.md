@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7c5a6620137aea397c3f1bc04ff7fe821666d837
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195076"
 ---
 # <a name="mci_tmsf_frame-macro"></a>\_Macro de \_ cadre TMSF MCI
 
@@ -47,11 +47,11 @@ Heure au format TMSF.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le composant frames des informations de TMSF spécifiées.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’heure au format TMSF est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les pistes, le prochain octet le moins significatif contenant les minutes, le prochain octet le moins significatif contenant les secondes et l’octet le plus significatif contenant les frames.
 

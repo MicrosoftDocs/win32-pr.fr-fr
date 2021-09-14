@@ -5,11 +5,11 @@ title: IPPROTO_TCP socket, options
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 20d261a639c10faa8c8ef52ba1ae88a0fbc52a16
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545435"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292863"
 ---
 # <a name="ipproto_tcp-socket-options"></a>\_Options de socket TCP IPPROTO
 
@@ -108,7 +108,7 @@ Pour énumérer les protocoles et découvrir les propriétés prises en charge p
 <td>Obtient ou définit le nombre de secondes pendant lesquelles une connexion TCP reste inactive avant que les sondes KeepAlive soient envoyées à l’adresse distante.
 <blockquote>
 [!Note]<br />
-Cette option est disponible à partir de Windows 10, version 1709.
+cette option est disponible à partir de Windows 10, version 1709.
 </blockquote>
 <br/></td>
 </tr>
@@ -120,28 +120,28 @@ Cette option est disponible à partir de Windows 10, version 1709.
 <td>Obtient ou définit le nombre de secondes qu’une connexion TCP attendra pour une réponse KeepAlive avant d’envoyer une autre sonde KeepAlive.
 <blockquote>
 [!Note]<br />
-Cette option est disponible à partir de Windows 10, version 1709.
+cette option est disponible à partir de Windows 10, version 1709.
 </blockquote>
 <br/></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="windows-support-for-ipproto_tcp-options"></a>Prise en charge de Windows pour les \_ options TCP IPPROTO
+## <a name="windows-support-for-ipproto_tcp-options"></a>prise en charge Windows pour les \_ options TCP IPPROTO
 
 | Option | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|
 | \_BSDURGENT TCP | x | x | x | x |
 | TCP \_ expédié \_ 1122 | x | x | x | x |
-| \_KEEPCNT TCP | À compter de Windows 10, version 1703 | | | |
+| \_KEEPCNT TCP | à partir de Windows 10, version 1703 | | | |
 | \_MAXRT TCP | x | x | x | x |
 | TCP- \_ délai | x | x | x | x |
 | \_horodateurs TCP | x | x | x | x |
-| \_FASTOPEN TCP | À compter de Windows 10, version 1607 | | | |
+| \_FASTOPEN TCP | à partir de Windows 10, version 1607 | | | |
 
 <br/>
 
- | Option | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/me |
+ | Option | Windows Server 2003 | Windows XP | Windows 2000 | Windows 4 | Windows 9x/Me |
 |-|-|-|-|-|-|
 | \_BSDURGENT TCP | x | x | x | x | |
 | TCP \_ expédié \_ 1122 | x | x | x | | |
@@ -153,10 +153,10 @@ Cette option est disponible à partir de Windows 10, version 1709.
 
 ## <a name="remarks"></a>Notes
 
-Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé et le niveau **\_ TCP IPPROTO** est défini dans le fichier d’en-tête *Ws2def. h* qui est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Les options de socket **\_ TCP IPPROTO** , à l’exception de **TCP \_ BSDURGENT**, sont définies dans le fichier d’en-tête *Ws2ipdef. h* qui est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . L’option **TCP \_ BSDURGENT** pour les raisons historiques est définie dans le fichier d’en-tête *mswsock. h* . Les fichiers d’en-tête *Ws2def. h* et *Ws2ipdef. h* ne doivent jamais être utilisés directement.
+dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’organisation des fichiers d’en-tête a changé et le niveau **\_ TCP IPPROTO** est défini dans le fichier d’en-tête *Ws2def. h* qui est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Les options de socket **\_ TCP IPPROTO** , à l’exception de **TCP \_ BSDURGENT**, sont définies dans le fichier d’en-tête *Ws2ipdef. h* qui est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . L’option **TCP \_ BSDURGENT** pour les raisons historiques est définie dans le fichier d’en-tête *mswsock. h* . Les fichiers d’en-tête *Ws2def. h* et *Ws2ipdef. h* ne doivent jamais être utilisés directement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | <dl> <dt>Ws2def. h (inclure Winsock2. h); </dt> <dt>Winsock2. h sur Windows Server 2003, Windows XP et windows 2000</dt> </dl> |
+| En-tête | <dl> <dt>Ws2def. h (inclure Winsock2. h);</dt> <dt>Winsock2. h sur Windows Server 2003, Windows XP et Windows 2000</dt> </dl> |

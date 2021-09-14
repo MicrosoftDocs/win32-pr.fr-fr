@@ -11,12 +11,12 @@ api_name:
 - IgnorePassword
 api_type:
 - Schema
-ms.openlocfilehash: 683fafb763e3f8613afa1b8dca99020856d67a03fdb44e993adf032ce166ceab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40211a8f848d8d0551ed39297178bc985d9efba4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519525"
 ---
 # <a name="ignorepassword-userlogoncred-element"></a>Élément IgnorePassword (UserLogonCred)
 
@@ -34,7 +34,7 @@ Cet élément est facultatif.
 
 L’élément **IgnorePassword** est défini par l’élément [**UserLogonCred**](schema-userlogoncred-contexttype-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -8,12 +8,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 735ad81a5911b16c159ffb8c63173421a55295e20e34090eb483065e1a7d311c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2858861956a40bf969309be474105052e4692cde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119832993"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113361"
 ---
 # <a name="how-to-render-by-using-a-direct2d-device-context"></a>Comment effectuer le rendu à l’aide d’un contexte de périphérique Direct2D
 

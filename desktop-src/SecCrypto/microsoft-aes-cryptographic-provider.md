@@ -4,12 +4,12 @@ ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Fournisseur de services de chiffrement AES Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ead697543c9846bbc47b61bd26d721811569b2bcea6584b75fad031d9451195
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b2449c53cb828a94c8dd596133c3a8c21c9b0388
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119683169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193820"
 ---
 # <a name="microsoft-aes-cryptographic-provider"></a>Fournisseur de services de chiffrement AES Microsoft
 

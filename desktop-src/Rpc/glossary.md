@@ -4,12 +4,12 @@ description: Ce glossaire comprend des termes clés et des concepts relatifs aux
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fa5dc92e6399a66311387807bb1f49aa675450b9b58b4980ea1e68a527b24c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a4c82bc9f1bcd78f09d226111bfe567e998397f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194223"
 ---
 # <a name="glossary-rpc"></a>Glossaire (RPC)
 
@@ -25,7 +25,7 @@ ms.locfileid: "120020869"
 -   [L](l-glos.md)
 -   [M](m-glos.md)
 -   [N](n-glos.md)
--   [O](o-glos.md)
+-   [Sorties](o-glos.md)
 -   [P](p-glos.md)
 -   [Question](q.md)
 -   [R](r-glos.md)

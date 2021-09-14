@@ -4,12 +4,12 @@ ms.assetid: 4a921b0d-9934-48e2-8837-be0bd7b7fa7a
 title: Entrées d’objets BLOB spéciales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0659fa05219dcc715c6c00b3d28635e2500f73e4e5bece72049ee43839a0820
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5cfc40029e0a0f88c2f7bd242881b0d750a5dfa1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118363137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194552"
 ---
 # <a name="special-blob-entries"></a>Entrées d’objets BLOB spéciales
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, écoute des appels client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62f94453a3250cfc1adae72aa0af96297a741beb501839f7f7831e3f88a8c218
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f375a4620e301f59d168bf5f7a4dbeedc0fb89f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194119"
 ---
 # <a name="listening-for-client-calls"></a>Écoute des appels clients
 

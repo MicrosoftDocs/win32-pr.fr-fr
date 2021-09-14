@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f427dc67695ebaca3e3e7502f2f1961b738a8f775ace394948ef445f3ad9a64e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1521738af4411baa2c11f3d20722e09e2d22a83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118703085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404476"
 ---
 # <a name="iconfigasfwriterconfigurefilterusingprofileguid-method"></a>IConfigAsfWriter :: ConfigureFilterUsingProfileGuid, méthode
 
@@ -48,7 +48,7 @@ HRESULT ConfigureFilterUsingProfileGuid(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -64,7 +64,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 à partir du kit de développement logiciel (SDK) Windows Media Format 9 Series, aucun nouveau profil système n’a été défini. Seuls les GUID de profil système de version 8 (ou version antérieure) peuvent être utilisés avec cette méthode.
 

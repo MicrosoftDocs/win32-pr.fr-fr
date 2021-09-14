@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e316e4daf533f66bba9d34a6ac89c61094db536e19e710d1c5c235edb7d250c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc7718f8f48ddfd316d1312dbdff3a5da1f45dfb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113401"
 ---
 # <a name="d2dsampleinputatoffset-function"></a>D2DSampleInputAtOffset fonction)
 
@@ -52,11 +52,11 @@ Décalage UV.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne un **float4**, au format TEXCOORDN.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple suivant illustre la fonction utilisée dans le cadre d’un masque de dégradé de mise en surbrillance et d’ombres.
 
@@ -81,7 +81,7 @@ D2D_PS_ENTRY(HighlightsAndShadowsGradientMask)
 }  
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

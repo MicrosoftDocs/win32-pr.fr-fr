@@ -4,12 +4,12 @@ ms.assetid: 024744d3-362f-4162-8d0a-d4dac61de808
 title: Utilisation de l’interface multidocument
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09453e6f4a9301c8cdfc9d675ae1efd7853594fc472a446a021e3bd3e075fc50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5e24aed7abc3640b441345520203c8a02e025e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219820"
 ---
 # <a name="using-the-multiple-document-interface"></a>Utilisation de l’interface multidocument
 
@@ -162,7 +162,7 @@ La procédure de fenêtre pour une fenêtre frame MDI est semblable à celle d�
 
 
 
-| Message                                  | Réponse                                                                                                                                                                                                                                                            |
+| Message                                  | response                                                                                                                                                                                                                                                            |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM, \_ commande**](../menurc/wm-command.md)     | Active la fenêtre enfant MDI choisie par l’utilisateur. Ce message est envoyé lorsque l’utilisateur choisit une fenêtre enfant MDI dans le menu fenêtre de la fenêtre frame MDI. L’identificateur de fenêtre accompagnant ce message identifie la fenêtre enfant MDI à activer. |
 | [**\_MENUCHAR WM**](../menurc/wm-menuchar.md)   | Ouvre le menu fenêtre de la fenêtre enfant MDI active quand l’utilisateur appuie sur la combinaison de touches ALT + – (moins).                                                                                                                                                      |
@@ -181,7 +181,7 @@ La procédure de fenêtre frame dans MULTIPAD est appelée MPFrameWndProc. La ge
 
 
 
-| Message                                       | Réponse                                                                                                                                                                                                                                                  |
+| Message                                       | response                                                                                                                                                                                                                                                  |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_CHILDACTIVATE WM**](wm-childactivate.md) | Effectue le traitement de l’activation lorsque les fenêtres enfants MDI sont dimensionnées, déplacées ou affichées. Ce message doit être transmis.                                                                                                                                        |
 | [**\_GETMINMAXINFO WM**](wm-getminmaxinfo.md) | Calcule la taille d’une fenêtre enfant MDI agrandie, en fonction de la taille actuelle de la fenêtre du client MDI.                                                                                                                                                  |

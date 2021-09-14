@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: cc169b8a18f97cd6fd8f51a0e8d1456e3619cfbebf0cbf1f107adfac2787bb54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c24eb6e57e81c6c44922b2d6643be65198951ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118314593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404095"
 ---
 # <a name="swbemlasterrorcompareto_-method"></a>SWbemLastError. CompareTo, \_ méthode
 
@@ -136,7 +136,7 @@ Fait en sorte que les versions de qualificateur soient ignorées. Cet indicateur
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La **méthode \_ CompareTo** retourne la valeur booléenne **true** si les objets correspondent ; sinon, elle retourne **false**.
 
@@ -167,7 +167,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - recherche avec ActiveX Data Objects ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52eba3dd5bc9013500aa4def7a31104d1408d4818b78a35ff75f09f2454f4d21
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e9e73f630892169c7086daf9bb1e7b6c13bfdf0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119770449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122097"
 ---
 # <a name="searching-with-activex-data-objects-ado"></a>rechercher à l’aide d’ActiveX Data Objects (ADO)
 

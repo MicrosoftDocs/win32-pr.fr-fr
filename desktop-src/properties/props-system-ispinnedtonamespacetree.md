@@ -4,12 +4,12 @@ ms.assetid: 00937acb-1ce2-44f6-96a1-69e5dbb665f6
 title: System. IsPinnedToNameSpaceTree
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ced83fdcd60ea50b8791033aa331758bc808535ab84996daafe7e779dd85f455
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31058aff69c26df9da4c6baea02a809a9a1b3fd5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119716569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313413"
 ---
 # <a name="systemispinnedtonamespacetree"></a>System. IsPinnedToNameSpaceTree
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

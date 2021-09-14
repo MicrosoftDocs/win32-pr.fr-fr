@@ -4,12 +4,12 @@ description: Au début de la programmation informatique, chaque programme était
 ms.assetid: b64d5338-a06a-4a27-bedb-c9011fa5a5a3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 852dfa1dfa007ad28a23679a49f7cf4df15995fded3f222df5cc7fb8f5ad3bfa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bcc0fd51404290b3d673982001cb3ee91bf1747
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311422"
 ---
 # <a name="the-programming-model"></a>Le modèle de programmation
 

@@ -5,11 +5,11 @@ title: Constantes d’ordinateur de fichier image (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7c8c43767ce0d86edf2285241772ea060573efc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526985"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193723"
 ---
 # <a name="image-file-machine-constants"></a>Constantes d’ordinateur de fichier image
 
@@ -41,7 +41,7 @@ Unknown
 Interagit avec l’hôte et non un invité WOW64
 
 > [!Note]  
-> Cette constante est disponible à partir de Windows 10, version 1607 et Windows Server 2016.
+> cette constante est disponible à partir de Windows 10, version 1607 et Windows Server 2016.
 
  
 
@@ -108,7 +108,7 @@ Big-endian MIPS
 
 
 
-MIPS Little-endian WCE v2
+minimum de MIPS-endian WCE v2
 
 
 </dt> </dl> </dd> <dt>
@@ -228,7 +228,7 @@ Little-Endian ARM/Thumb-2
 ARM Thumb-2 Little-Endian
 
 > [!Note]  
-> Cette constante est disponible à partir de Windows 7 et de Windows Server 2008 R2.
+> cette constante est disponible à partir de Windows 7 et Windows Server 2008 R2.
 
  
 
@@ -428,7 +428,7 @@ M32R Little-endian
 ARM64 Little-Endian
 
 > [!Note]  
-> Cette constante est disponible à partir de Windows 8.1 et de Windows Server 2012 R2.
+> cette constante est disponible à partir de Windows 8.1 et Windows Server 2012 R2.
 
  
 
@@ -448,13 +448,13 @@ CEE
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Winnt. h</dt> </dl> |
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 754e5e931911dedc74e42a1f7af8a207b400d4ba64949535cfa962e271b47181
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e372c1025a74dfb304cacdb0f3a4cf18bcdbabd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117984304"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194764"
 ---
 # <a name="hotspot2-wlanprofile-element"></a>Élément Hotspot2 (WLANProfile)
 

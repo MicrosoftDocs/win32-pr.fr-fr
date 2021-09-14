@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f3396392f8010e58d81cb7d8970a4fc5fd022c87bbcb152fa6911154039c564
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 184819f02ef666240768eee0a890ed1e0b62b873
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118571294"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193207"
 ---
 # <a name="playlistitemerrorcolor"></a>PLAYLIST. itemErrorColor
 
@@ -31,7 +31,7 @@ L’attribut **itemErrorColor** spécifie ou récupère la couleur de surbrillan
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. Sa valeur par défaut est « Red ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

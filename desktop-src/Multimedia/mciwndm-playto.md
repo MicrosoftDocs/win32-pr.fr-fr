@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7cf0104204dc0306615ead91be036459cdf3c11d
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364308"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218620"
 ---
 # <a name="mciwndm_playto-message"></a>\_Message MCIWNDM point
 
@@ -49,7 +49,7 @@ Emplacement de fin. Les unités de l’emplacement de fin dépendent du format d
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette macro est définie à l’aide des macros [**MCIWndSeek**](/windows/desktop/api/Vfw/nf-vfw-mciwndseek) et [**MCIWndPlayTo**](/windows/desktop/api/Vfw/nf-vfw-mciwndplayto) , qui à leur tour utilisent la commande [MCI \_ Seek](mci-seek.md) et le message **MCIWNDM \_ point** .
 

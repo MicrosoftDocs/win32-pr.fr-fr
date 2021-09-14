@@ -4,12 +4,12 @@ ms.assetid: b0d0c725-9220-43a5-af1c-d3c5c72e1ef3
 title: Modes de Run-Time MPEG-2 demux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0bffe5f58a18ae9e935985e8dae8dc340c3895bd2dc1a2a89965355832e701f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6e4e7a1dea0bfeccd60d8680a31b99cc10271ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072963"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219036"
 ---
 # <a name="mpeg-2-demux-run-time-modes"></a>Modes de Run-Time MPEG-2 demux
 

@@ -7,12 +7,12 @@ keywords:
 - contrôle graphique OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d8169b1f9e1cb1ff112306db42d34c60f1ab6c2f40d56a330081d71ce2a317
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c6bb138a2d8c597fae2d92a1d1394c8ff05b03cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119486349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194348"
 ---
 # <a name="opengl-graphic-control"></a>Contrôle graphique OpenGL
 

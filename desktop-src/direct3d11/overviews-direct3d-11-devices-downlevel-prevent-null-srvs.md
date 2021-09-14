@@ -4,12 +4,12 @@ description: Cette rubrique explique comment contourner le pilote recevant des v
 ms.assetid: c832c199-59b8-4079-a159-45490a2f6a94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5021a197e4121603be374cd985a085a28faab8941316739a8985c0793004c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bacacf7704cffe12df44b9b0be667632307adb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404071"
 ---
 # <a name="preventing-unwanted-null-pixel-shader-srvs"></a>Prévention des SRVs de nuanceurs de pixels NULL indésirables
 

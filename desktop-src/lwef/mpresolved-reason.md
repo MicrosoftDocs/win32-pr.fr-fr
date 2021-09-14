@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a365ef55d9fe2d76e619f3c772cc1df2e6c5e1c8c33721f24dc844d064b33398
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab31fc8b734852ccdf15278f535d916228b43976
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519921"
 ---
 # <a name="mpresolved_reason-enumeration"></a>MPRESOLVED \_ Reason, énumération
 
@@ -64,7 +64,7 @@ Suffisamment de temps s’est écoulé. La valeur par défaut est d’une semain
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

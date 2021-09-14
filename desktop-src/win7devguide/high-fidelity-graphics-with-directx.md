@@ -4,12 +4,12 @@ description: les développeurs d’applications Windows ont longtemps utilisé M
 ms.assetid: db555657-90b9-4db2-a0c2-bfaa526a8dd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9ecb5d6403745162f19b16eea15c22ef7f9676b14bd291226af2f8321483b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cda45f911293b9d31b9ae28d89c25ed93ce33696
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119086642"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293959"
 ---
 # <a name="high-fidelity-graphics-with-directx"></a>Graphiques haute fidélité avec DirectX
 

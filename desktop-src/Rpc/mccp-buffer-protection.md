@@ -4,12 +4,12 @@ description: à partir de Windows Vista, le moteur de marshaling RPC prend d’a
 ms.assetid: 37fe743b-c64e-469d-b8f4-abab9f05c813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6b95234eed76c3d8f0fdc34b0b53e9cf02bcae2fd6db62694e1a3aadd602076
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a70d04de57974bd9665d659129590d72513eb83e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928405"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194072"
 ---
 # <a name="mccp-buffer-protection"></a>Protection de la mémoire tampon MCCP
 

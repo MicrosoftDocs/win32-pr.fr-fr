@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Construction d’objets inparamètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bc13a51687954331a050337fe785bab29b23ee9c72785ffde78d4f8a8e0d198
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbf9a351caec1ca7af3113bead4078670c88a5f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403884"
 ---
 # <a name="constructing-inparameters-objects"></a>Construction d’objets inparamètres
 
-Un objet [**Parameters**](swbemmethod-inparameters.md) contient la liste de paramètres pour appeler des méthodes de fournisseur lors de l’utilisation d’un type **ExecMethod** d’appel. Les méthodes [**SWbemObject.Exe\_ cMethod**](swbemobject-execmethod-.md), [**SWbemObject.Exe\_ cMethodAsync**](swbemobject-execmethodasync-.md), [**SWbemServices.ExecMethod**](swbemservices-execmethod.md)et [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md) requièrent tous un objet **Parameters** .
+Un objet [**Parameters**](swbemmethod-inparameters.md) contient la liste de paramètres pour appeler des méthodes de fournisseur lors de l’utilisation d’un type **ExecMethod** d’appel. Les méthodes [**SWbemObject. \_ ExecMethod**](swbemobject-execmethod-.md), [**SWbemObject. \_ ExecMethodAsync**](swbemobject-execmethodasync-.md), [**SWbemServices. ExecMethod**](swbemservices-execmethod.md)et [**SWbemServices. ExecMethodAsync**](swbemservices-execmethodasync.md) requièrent toutes un objet **Parameters** .
 
 La procédure suivante décrit comment construire un objet [**inparamètres**](swbemmethod-inparameters.md) .
 

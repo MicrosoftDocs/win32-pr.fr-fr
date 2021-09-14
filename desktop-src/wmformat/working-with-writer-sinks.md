@@ -11,12 +11,12 @@ keywords:
 - récepteurs d’écriture, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 407e5bf2e87bfbf3084d19f75170a12be693d804d4d902f919096dca5aeab057
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d5b690d9e1ab25d15f7c1e8612bf20e32f87c81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118194866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404186"
 ---
 # <a name="working-with-writer-sinks"></a>Utilisation des récepteurs d’écriture
 

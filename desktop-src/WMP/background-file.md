@@ -3,21 +3,21 @@ title: Fichier d’arrière-plan
 description: Fichier d’arrière-plan
 ms.assetid: 67abe36c-8057-44d7-8ae9-f481a5b65416
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, fichiers d’arrière-plan
-- Windows Media Player Mobile Skins, fichiers d’arrière-plan
+- Lecteur Windows Media Skins mobiles, fichiers d’arrière-plan
 - apparences, fichiers d’arrière-plan
 - Fichiers d’arrière-plan dans les apparences
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 485467117d86d6376fa5d44e2dac293b86982e78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193295"
 ---
 # <a name="background-file"></a>Fichier d’arrière-plan
 
@@ -36,9 +36,9 @@ Il s’agit de l’image d’arrière-plan que les utilisateurs verront au préa
 [**Fichiers art**](art-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - Plug-ins d’interface utilisateur, types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4843d02ec003017f9bb1bc6eeb6a942bca87a8e55af095f0c626ffb0d861cdc1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5228c9ab7ff97c9f0d03b1b8d1320d303b178e56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119571700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403792"
 ---
 # <a name="ui-plug-in-overview"></a>Vue d’ensemble du plug-in d’interface utilisateur
 

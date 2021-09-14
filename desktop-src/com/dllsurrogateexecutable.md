@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 877297673b0a518006ecf903f447984f9023da34
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292770"
 ---
 # <a name="dllsurrogateexecutable"></a>DllSurrogateExecutable
 
@@ -25,7 +25,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
       DllSurrogateExecutable = file
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur est de type **reg \_ SZ**. Il fonctionne conjointement avec la valeur [**DllSurrogate**](dllsurrogate.md) pour éviter toute ambiguïté lors de l’utilisation de la fonction [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) . **DllSurrogate** indique si un substitut personnalisé doit être utilisé, et ces informations sont passées en tant que premier paramètre pour **CreateProcess**. Selon l’implémentation de **CreateProcess**, ces informations peuvent être ambiguës. Si **DllSurrogateExecutable** est spécifié, com transmet la valeur en tant que premier paramètre de **CreateProcess**. Si **DllSurrogateExecutable** n’est pas spécifié, com transmet **null** comme valeur pour le premier paramètre de **CreateProcess**.
 

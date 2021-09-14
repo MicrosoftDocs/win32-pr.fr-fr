@@ -4,12 +4,12 @@ ms.assetid: 14ae2c97-8596-46db-a55c-ef706d2cd00b
 title: Documents XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 587f9b421c64287647e39d13d98a9f826f591d7be907ac14df21d649b3a66c80
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 625c2f04a43db9433fe125b52a4bbc08e37fb4f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120092113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293435"
 ---
 # <a name="xps-documents"></a>Documents XPS
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98dbacf3d6439dc379c41163557189b98b8cdcc27db82eb4ec1bb04ad8de03be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 754544dec05319a6d4f1ce0d14b593969d543813
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118336755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193223"
 ---
 # <a name="playlistforegroundcolor"></a>PLAYLIST. foregroundColor
 
@@ -31,7 +31,7 @@ L’attribut **foregroundColor** spécifie ou récupère la couleur de premier p
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. elle a une valeur par défaut égale à la couleur du texte du système Windows.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

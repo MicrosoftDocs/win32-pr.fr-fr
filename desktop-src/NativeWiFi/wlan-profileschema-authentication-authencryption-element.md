@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: e04e8b7bde5f564ad5075fee2755a5f95c945e7d59822c1cd4cce8e0d0e2450b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02895da685c78484c907af51745264abb81086da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194807"
 ---
 # <a name="authentication-authencryption-element"></a>Élément Authentication (authEncryption)
 
@@ -54,7 +54,7 @@ L’élément Authentication (authEncryption) spécifie la méthode d’authenti
 
 L’élément est défini par l’élément [**authEncryption**](wlan-profileschema-authencryption-security-element.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant décrit les valeurs d’énumération.
 
@@ -79,7 +79,7 @@ Pour plus d’informations sur les méthodes d’authentification 802,11, consul
 
 Pour afficher des exemples de profils qui utilisent l’élément **Authentication** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

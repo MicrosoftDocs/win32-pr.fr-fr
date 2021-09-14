@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2720081b1228f649239ca281fcc762a51600abde42cc9f76794c368e4c1ffb53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bb2d292f63575d6a570296556dbc0622e6672b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118284999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403729"
 ---
 # <a name="texture2darraygathercmpbluesfloatfloatintuint-function"></a>Texture2DArray :: GatherCmpBlue (S, float, float, int, uint) (fonction)
 
@@ -88,7 +88,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **TemplateType**
 

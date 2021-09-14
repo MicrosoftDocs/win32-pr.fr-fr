@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c2fff66ae4ad7deca4aa49536e973c4e62cfc7ebd64ccb1acc620081f82cfd2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ee13cc3aa357327eea7d547e73002d410712285
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117747091"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293051"
 ---
 # <a name="playlistcolumncount"></a>PLAYLIST. columnCount
 
@@ -31,7 +31,7 @@ L’attribut **ColumnCount** récupère le nombre de colonnes affichées.
 
 Cet attribut est un **nombre** en lecture seule (**long**).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

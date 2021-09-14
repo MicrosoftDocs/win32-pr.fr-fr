@@ -14,17 +14,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 212cd7267db87b3892daad2868afab1358cec4c1
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122629910"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293943"
 ---
 # <a name="sizedefinition-element"></a>Élément SizeDefinition
 
 Représente un modèle de disposition personnalisé de contrôles de ruban.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <SizeDefinition
@@ -56,7 +56,7 @@ Représente un modèle de disposition personnalisé de contrôles de ruban.
 <tr class="odd">
 <td><strong>Nom</strong><br/></td>
 <td>XS : positiveInteger ou XS : String ou XS : Token<br/></td>
-<td>Yes<br/></td>
+<td>Oui<br/></td>
 <td>Lorsque <a href="windowsribbon-element-ribbon-sizedefinitions.md"><strong>Ribbon. SizeDefinitions</strong></a> est le parent, sinon facultatif.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String ou XS : Token)<br/> </dt> <dd> Chaîne ou valeur entière comprise entre 2 et 59999, inclusive ou 0X2 et 0xea5f en hexadécimal, inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -87,7 +87,7 @@ Représente un modèle de disposition personnalisé de contrôles de ruban.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Optionnel.
 

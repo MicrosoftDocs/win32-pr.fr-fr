@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 4b3ae66c684ab6a0e2573e2c82d6087a3405ce3d8bef5704bb392337699daaea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f2b800a07c0b979468a5df5a8be67e6adee39de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403888"
 ---
 # <a name="msmcaevent_pcibuserror-class"></a>MSMCAEvent \_ PCIBusError, classe
 
@@ -414,11 +414,11 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **MSMCAEvent \_ PCIBusError** est dérivée de [**WmiEvent**](wmievent.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

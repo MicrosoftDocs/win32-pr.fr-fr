@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 695e0ee00aca0fe7743a028e0e7830e1839c0b2f89b42a94e9ce1dbe29ef35ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4560a7ca2766ee0bbadc582af878bca87e0834e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293070"
 ---
 # <a name="playlistattributename"></a>Playlist. attributeName
 
@@ -39,7 +39,7 @@ La propriété **AttributeName** récupère le nom d’un attribut au niveau d�
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nombre d’attributs est récupéré par la propriété **attributeCount** . Avec un index donné, **AttributeName** retourne une **chaîne** qui peut être utilisée conjointement avec **setItemInfo** ou **getItemInfo** pour spécifier ou récupérer une valeur pour l’attribut.
 
@@ -49,7 +49,7 @@ pour plus d’informations sur les attributs pris en charge par Lecteur Windows 
 
 Consultez la propriété [attributeCount](playlist-attributecount.md) pour obtenir un exemple de code qui utilise cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

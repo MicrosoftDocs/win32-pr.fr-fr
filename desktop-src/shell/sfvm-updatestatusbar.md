@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 106782383b90af85dca82e445dfc21f77e0f3def73174da9147aadc988f2694e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 14045c797d7292099c1c7b2c67f5958609d8d6b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404265"
 ---
 # <a name="sfvm_updatestatusbar-message"></a>\_Message SFVM UPDATESTATUSBAR
 
@@ -46,7 +46,7 @@ Valeur **booléenne** qui a la valeur **true** si la barre d’État est en cour
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand vous recevez cette notification :
 
@@ -68,7 +68,7 @@ Le texte de la barre d’État par défaut est le suivant.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

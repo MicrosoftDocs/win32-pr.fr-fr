@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 4efe7feaaf3f136889cc326e8321960c67f128ef
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883314"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293178"
 ---
 # <a name="archive-certification-requirements-for-windows-desktop-apps-v31"></a>Archive : conditions de Certification pour les applications de bureau Windows v 3.1
 

@@ -4,12 +4,12 @@ description: En savoir plus sur les séquences d’appel EAPHost. ces séquences
 ms.assetid: 6bf379aa-34ab-40b6-9ca7-24bf44e7fed0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e45d1452980a852f5dfa9d4d86946a5776493fdea1f5daeda525b100c09acfa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1cad96c7eb073410bb2704e7cbfea04d24cce86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519744"
 ---
 # <a name="eaphost-call-sequence"></a>Séquence d’appel EAPHost
 

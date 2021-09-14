@@ -20,12 +20,12 @@ keywords:
 - versions de Lecteur Windows Media, nouvelles fonctionnalités de la version 12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 976c9b0995188f9d6c6db6e7394ec0019047ff18b51940ada202c8c7ea713f39
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d16b21077df1f4a9c11edbfa20032ed473f872a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193112"
 ---
 # <a name="whats-new-in-windows-media-player-12"></a>Nouveautés de Windows Media Player 12
 

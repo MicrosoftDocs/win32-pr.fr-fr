@@ -1,21 +1,21 @@
 ---
 title: Créer des applications clientes
-description: Comment utiliser l’API Windows Biometric Framework pour créer des applications clientes.
+description: comment utiliser l’API Windows Biometric Framework pour créer des applications clientes.
 ms.assetid: 7bef37ee-7685-4aaa-8dad-3c5a9c335eca
 keywords:
-- API Windows Biometric Framework API Windows Biometric Framework, applications clientes
+- Windows api de Framework biométrique Windows Biometric Framework api, applications clientes
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 98c2b25df11897a4e5f164c079dc2cd31faa4e77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510843"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193815"
 ---
 # <a name="create-client-applications"></a>Créer des applications clientes
 
-Les rubriques suivantes expliquent comment utiliser l’API Windows Biometric Framework pour créer des applications clientes qui utilisent des pools de capteurs privés.
+les rubriques suivantes expliquent comment utiliser l’API Windows Biometric Framework pour créer des applications clientes qui utilisent des pools de capteurs privés.
 
 ## <a name="enroll-biometric-information"></a>Inscrire des informations biométriques
 
@@ -1054,7 +1054,7 @@ e_Exit:
 
 ## <a name="manage-credentials"></a>Gérer les informations d’identification
 
-Le fournisseur d’informations d’identification et le gestionnaire d’informations d’identification sont des composants de la Windows Biometric Framework. Le fournisseur récupère les informations d’identification de l’utilisateur à partir du magasin sécurisé et répond aux demandes d’élévation de connexion, de déverrouillage, de modification de mot de passe et d’élévation UAC. Il répond également pendant un changement rapide d’utilisateur pour ouvrir une session sur le nouvel utilisateur. Le gestionnaire mappe les informations d’identification d’ouverture de session aux identités biométriques et stocke en toute sécurité les informations d’identification. Les mappages sont généralement créés par des applications d’inscription tierces lors de l’inscription biométrique, mais ils peuvent également être créés par le fournisseur d’informations d’identification biométriques Windows lors de l’ouverture de session si l’utilisateur inscrit tente de s’authentifier de manière biométrique, mais n’est pas inscrit ou les informations d’identification ne correspondent pas à celles de la banque sécurisée.
+le fournisseur d’informations d’identification et le gestionnaire d’informations d’identification sont des composants de la Windows Biometric Framework. Le fournisseur récupère les informations d’identification de l’utilisateur à partir du magasin sécurisé et répond aux demandes d’élévation de connexion, de déverrouillage, de modification de mot de passe et d’élévation UAC. Il répond également pendant un changement rapide d’utilisateur pour ouvrir une session sur le nouvel utilisateur. Le gestionnaire mappe les informations d’identification d’ouverture de session aux identités biométriques et stocke en toute sécurité les informations d’identification. les mappages sont généralement créés par des applications d’inscription tierces lors de l’inscription biométrique, mais ils peuvent également être créés par le fournisseur d’informations d’identification biométriques Windows lors de l’ouverture de session si l’utilisateur inscrit tente de s’authentifier de manière biométrique, mais qu’il n’est pas inscrit ou que les informations d’identification ne correspondent pas à celles du magasin sécurisé.
 
 ### <a name="credential-manager-api-guidelines"></a>Instructions pour les API du gestionnaire d’informations d’identification
 
@@ -1496,9 +1496,9 @@ e_Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

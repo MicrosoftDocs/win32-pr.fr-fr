@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c9485ab187df87fca5145b98362354f3095d93b90ee68108e8fae97dac528aa1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b16b0942ff8d64b30221d13eade7d44183a79a2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119483409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519696"
 ---
 # <a name="baseeapuserpropertiesv1-schema-complex-types"></a>Types complexes de schéma baseeapuserpropertiesv1
 

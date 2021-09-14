@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: d8dc5b0af5746328ead68be3896148b7a4ddf79d6844a6d4ae976b2f29592d6b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9c5e7653790e193c03b1cf4e0c489ea39c3eec3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118045063"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404259"
 ---
 # <a name="ianalysisregion-interface"></a>Interface IAnalysisRegion
 
@@ -38,7 +38,7 @@ L’interface **IAnalysisRegion** possède ces méthodes.
 
 | Méthode                                                           | Description                                                                                                                                    |
 |:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Répliqué**](ianalysisregion-clone.md)                           | Crée une copie du **IAnalysisRegion**.<br/>                                                                                          |
+| [**Clone**](ianalysisregion-clone.md)                           | Crée une copie du **IAnalysisRegion**.<br/>                                                                                          |
 | [**ExcludeRectangle**](ianalysisregion-excluderectangle.md)     | Limite la zone du **IAnalysisRegion** à la partie de sa zone qui ne croise pas le rectangle spécifié.<br/>           |
 | [**ExcludeRegion**](ianalysisregion-excluderegion.md)           | Limite la zone du **IAnalysisRegion** à la partie de sa zone qui ne croise pas le **IAnalysisRegion** spécifié.<br/> |
 | [**GetBounds**](ianalysisregion-getbounds.md)                   | Récupère le rectangle englobant du **IAnalysisRegion**.<br/>                                                                        |
@@ -57,7 +57,7 @@ L’interface **IAnalysisRegion** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette interface représente une zone qui est construite à partir de régions rectangulaires. [**IInkAnalyzer**](iinkanalyzer.md) retourne ou interprète les coordonnées d’une zone dans l’espace de coordonnées dans lequel elle reçoit les données de trait.
 
@@ -76,7 +76,7 @@ Pour modifier la zone d’un **IAnalysisRegion** existant, utilisez les méthode
 
 Cette interface est équivalente au système. Windows. Classe Ink. AnalysisCore. AnalysisRegionBase dans la .NET Framework.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 
