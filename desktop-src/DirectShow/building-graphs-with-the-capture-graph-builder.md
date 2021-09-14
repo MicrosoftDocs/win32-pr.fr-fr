@@ -4,12 +4,12 @@ ms.assetid: 0329c4f0-ee6f-423e-b38b-169204e3a31c
 title: création de graphiques avec le générateur de Graph de Capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3312dfb4ce37c5af981180e669b39f711cdfb5b2b9219f2b2f69f11bd32e7f39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e4e48347a73cdac545723ac226cc58a0175dec5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119274669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111417"
 ---
 # <a name="building-graphs-with-the-capture-graph-builder"></a>création de graphiques avec le générateur de Graph de Capture
 

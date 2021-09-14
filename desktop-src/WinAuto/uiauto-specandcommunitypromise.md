@@ -10,12 +10,12 @@ keywords:
 - UI Automation, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed9a71b5946f7e0b38241a1d7ef7ced9832203bfd4f0637032903f4dad948607
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c1d369493fae6bd82f882dc9251df7185be7b862
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122621"
 ---
 # <a name="ui-automation-specification-and-community-promise"></a>Spécification UI Automation et promesse de la communauté
 
@@ -59,7 +59,7 @@ Cette promesse de Microsoft ne garantit pas que (i) l’une des demandes de brev
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)

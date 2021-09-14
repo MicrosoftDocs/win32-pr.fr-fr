@@ -4,12 +4,12 @@ ms.assetid: 10fb56dd-3c96-4944-9b53-aee76c269528
 title: Hébergement multiple et PGM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e19ab149c8068c1a13f2c8089a567157618ef7287e8ef632145e5b934d626c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 142527c7fdf3e5d34d80c51e4002bc21ad47691c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118112083"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122533"
 ---
 # <a name="multihoming-and-pgm"></a>Hébergement multiple et PGM
 

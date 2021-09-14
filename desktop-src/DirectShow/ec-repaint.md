@@ -4,12 +4,12 @@ ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: EC_REPAINT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7edd498d84aaace460a10c88d5579c2f5a87bba42e1a5f393786134bbe727af3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba86b54d6d465330ec1635ed7301ce774ef7cb27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120102789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111106"
 ---
 # <a name="ec_repaint"></a>redessin ce \_
 
@@ -45,11 +45,11 @@ Si *lParam1* a la **valeur null**, ou si le code PIN ne prend pas en charge [**I
 
 Par défaut, le gestionnaire de graphes de filtre ne transmet pas cet événement à l’application.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les convertisseurs vidéo envoient ce message lorsqu’ils reçoivent un message de [**\_ peinture WM**](/windows/desktop/gdi/wm-paint) et n’ont pas de données à afficher.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

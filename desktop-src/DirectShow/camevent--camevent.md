@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f4cb03bc4415ac2f0f191d1f3a1c85e2ef920e2efafaf6748c9f924f1efd1b8e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70db4419e6e9ca1c077fb60e7adc671e16cceca6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111385"
 ---
 # <a name="cameventcamevent-destructor"></a>CAMEvent. ~ CAMEvent, destructeur
 
@@ -36,7 +36,7 @@ Méthode de destructeur.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

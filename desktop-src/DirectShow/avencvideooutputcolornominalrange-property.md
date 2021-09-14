@@ -4,12 +4,12 @@ ms.assetid: 815d4bf5-3f11-4d45-8f92-b01e12d7dcc3
 title: Propriété AVEncVideoOutputColorNominalRange (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3f2d6cdadf48acd1635de0705a4cd66afc1d53da9544599903a4826376eda60
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7c1059d781da1d40efdad5463d47f1ec1c0d9a79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119342059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111550"
 ---
 # <a name="avencvideooutputcolornominalrange-property"></a>Propriété AVEncVideoOutputColorNominalRange
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncVideoColorNominalRange**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideocolornominalrange) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

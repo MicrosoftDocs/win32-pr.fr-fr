@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac2d874f6138bcc1fbc97952d4464e56e05b0a497c7b0ff98e9c05e8c8434e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f59c4c342f693038040f374bbdbcdb8ab226f74d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118133454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110613"
 ---
 # <a name="initializenapagentnotifier-function"></a>InitializeNapAgentNotifier fonction)
 
@@ -60,7 +60,7 @@ Handle d’événement utilisé pour la notification. L’appelant doit passer u
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 
 
@@ -75,7 +75,7 @@ Handle d’événement utilisé pour la notification. L’appelant doit passer u
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction n’est pas thread-safe.
 
@@ -83,7 +83,7 @@ Chaque processus qui requiert un abonnement aux notifications de service NapAgen
 
 Une fois qu’un processus ne nécessite pas d’autres notifications, le processus doit appeler [**UninitializeNapAgentNotifier**](uninitializenapagentnotifier.md) pour le *type* spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

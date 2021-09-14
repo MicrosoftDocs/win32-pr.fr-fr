@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 50aab34fe73f617409ae3f1e33d132a45f8ea771722c42629d9f0e3df5ebb115
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e07afb4dfb10e38d90184ba5747f200d1bc716d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111301"
 ---
 # <a name="cbaserendererisendofstream-method"></a>Méthode CBaseRenderer. IsEndOfStream
 
@@ -40,11 +40,11 @@ BOOL IsEndOfStream();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’indicateur [**CBaseRenderer :: m \_ bEOS**](cbaserenderer-m-beos.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

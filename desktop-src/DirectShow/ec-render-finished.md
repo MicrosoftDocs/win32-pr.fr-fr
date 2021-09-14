@@ -4,18 +4,18 @@ ms.assetid: a7d207c0-3d93-468a-b463-1eab68b286a2
 title: EC_RENDER_FINISHED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dcf99c8517a209a8791c02a4f8811af8ef43c6bdc5b6ed4a4d02dbe7a69fcac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10b2b6b113b1aa60d5e354fe51beb95995f2337e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820040"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111102"
 ---
 # <a name="ec_render_finished"></a>\_rendu EC \_ terminé
 
 Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

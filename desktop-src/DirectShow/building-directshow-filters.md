@@ -4,12 +4,12 @@ ms.assetid: fb907263-e7f3-42d6-80f9-a9f16fc21033
 title: génération de filtres de DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d87d1983d3bfd42d1a1582ef696b6793acdd0856dde2bd2d589e809acc614314
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7090eed702b1abe8ee863d5fa3ac9c1fd413690e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794320"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111422"
 ---
 # <a name="building-directshow-filters"></a>génération de filtres de DirectShow
 

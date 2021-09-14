@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, DataGrid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a87f8c3f7e8e5039440741a0f2dfff5b20fbac9a46864611fedaf967094e7b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7fa37093402fc3c4c195b4b68ecc74652af2d6a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122598"
 ---
 # <a name="datagrid-control-type"></a>DataGrid (type de contrôle)
 
@@ -51,38 +51,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataGrid
-<ul>
-<li>Header (0, 1 ou 2)
-<ul>
-<li>HeaderItem (nombre de lignes ou colonnes)</li>
-</ul></li>
-<li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataGrid
-<ul>
-<li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>DataGrid<ul><li>Header (0, 1 ou 2)<ul><li>HeaderItem (nombre de lignes ou colonnes)</li></ul></li><li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li></ul></li></ul> | <ul><li>DataGrid<ul><li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li></ul></li></ul> | 
+
 
 
 
@@ -94,7 +67,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur        | Remarques                                                                                                                                                                                                                                                                                                        |
+| Propriété UI Automation                                                                                              | Valeur        | Notes                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.   | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                 |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.   | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                                                                                                                                     |
@@ -141,7 +114,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                                                    |
+| Événement UI Automation                                                                                                                                        | Notes                                                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                                                          |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                      |                                                                                                                                                          |
@@ -172,44 +145,11 @@ L’affichage de contrôle et l’affichage de contenu de l’arborescence UI Au
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Arborescence UI Automation-vue de contrôle</th>
-<th>Arborescence UI Automation-affichage du contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DataGrid (tri, table, sélection, grille)
-<ul>
-<li>En-tête
-<ul>
-<li>&quot;Nom &quot; de HeaderItem (Invoke)</li>
-<li>HeaderItem &quot; date &quot; de modification (Invoke)</li>
-<li>&quot;Taille HeaderItem &quot; (Invoke)</li>
-</ul></li>
-<li>Groupe &quot; Contoso &quot; (TableItem, GridItem, SelectionItem, table *, Grid*)
-<ul>
-<li>&quot;Receivable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-<li>&quot;Payable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-</ul></li>
-</ul></td>
-<td>DataGrid (Table, Grid, Selection)
-<ul>
-<li>Groupe &quot; Contoso &quot; (TableItem, GridItem, SelectionItem, table *, Grid*)
-<ul>
-<li>&quot;Receivable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-<li>&quot;Payable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Arborescence UI Automation-vue de contrôle | Arborescence UI Automation-affichage du contenu | 
+|-----------------------------------|-----------------------------------|
+| DataGrid (tri, table, sélection, grille)<ul><li>En-tête<ul><li>HeaderItem « Nom » (Invoke)</li><li>HeaderItem « Date de modification » (Invoke)</li><li>HeaderItem « Taille » (Invoke)</li></ul></li><li>Groupe « contoso » (TableItem, GridItem, SelectionItem, table *, Grid*)<ul><li>DataItem « comptes Receivable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li><li>DataItem « comptes Payable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li></ul></li></ul> | DataGrid (Table, Grid, Selection)<ul><li>Groupe « contoso » (TableItem, GridItem, SelectionItem, table *, Grid*)<ul><li>DataItem « comptes Receivable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li><li>DataItem « comptes Payable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li></ul></li></ul> | 
+
 
 
 
@@ -221,7 +161,7 @@ L’affichage de contrôle et l’affichage de contenu de l’arborescence UI Au
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

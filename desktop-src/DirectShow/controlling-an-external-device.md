@@ -4,12 +4,12 @@ ms.assetid: 5347cd55-a27e-40b9-857c-09e3665a1817
 title: Contrôle d’un périphérique externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92f530bb48f35a6e35a0ab75d0559cc3c6770c4d0d1dfb2948f871982f70eb0b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 84cb82de59877f2527c92da9123d8a9d5a59d41e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119652129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111217"
 ---
 # <a name="controlling-an-external-device"></a>Contrôle d’un périphérique externe
 

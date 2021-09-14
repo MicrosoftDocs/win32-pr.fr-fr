@@ -4,12 +4,12 @@ ms.assetid: bb46b171-d70a-4e01-88c4-321a210a0220
 title: Propriété AVEncVideoCodedVideoAccessUnitSize (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcce45dbd232226aa5e0013cbead8e4ff2d8d82b5362d1d6a43cf45c2d030407
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be3a6e499749d862fdcc63f28b1a9a02f476d1c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118663164"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111665"
 ---
 # <a name="avencvideocodedvideoaccessunitsize-property"></a>Propriété AVEncVideoCodedVideoAccessUnitSize
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété est retournée sous la forme d’une plage de valeurs. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

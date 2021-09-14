@@ -4,12 +4,12 @@ ms.assetid: f2b89578-22f5-4b3b-bc43-7cf4f7eb5f0e
 title: EC_LENGTH_CHANGED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4182c143ba729093a052c450b7b09ca4d3f446141d8d8ee35f0cf3f03bcf5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30936dee7af1f89ea9d99dd011566bdf297339ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111173"
 ---
 # <a name="ec_length_changed"></a>longueur des EC \_ \_ modifiés
 
@@ -37,7 +37,7 @@ Zéro.
 
 le gestionnaire de Graph de filtre stocke la nouvelle heure d’arrêt.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

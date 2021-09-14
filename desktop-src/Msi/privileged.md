@@ -4,12 +4,12 @@ ms.assetid: 483ab73a-3ff7-4111-a6b5-eac990d85bd7
 title: Privileged, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bfe61f17e5ef3453021c98bac8eb383171a678adfb204886ecdaa840e0df832
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f5d28a7079e7ab12b9832447172f1b3b2c8650a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110946"
 ---
 # <a name="privileged-property"></a>Privileged, propriété
 
@@ -19,13 +19,13 @@ La propriété **Privileged** indique si l’installation est effectuée dans le
 
 Le programme d’installation ne définit pas cette propriété si l’utilisateur n’est pas autorisé à installer avec des privilèges élevés.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les développeurs de packages d’installation peuvent utiliser la propriété **Privileged** pour rendre l’installation conditionnelle sur la stratégie système, sur l’utilisateur en tant qu’administrateur ou sur une attribution par un administrateur.
 
 en cas d’exécution sur Windows Vista, les **privilèges** et les [**AdminUser**](adminuser.md) sont les mêmes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

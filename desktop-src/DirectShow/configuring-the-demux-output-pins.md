@@ -4,12 +4,12 @@ ms.assetid: c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a
 title: Configuration des broches de sortie demux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0456b7354c23048bafe012439d5d2c4fa1843df601ee2d8e49aa62dfc01a4b9f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b56a24af3f49f26efe4ff6afad075a3cef61fcd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119813609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111254"
 ---
 # <a name="configuring-the-demux-output-pins"></a>Configuration des broches de sortie demux
 

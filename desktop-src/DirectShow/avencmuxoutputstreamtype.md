@@ -4,12 +4,12 @@ ms.assetid: c3ee20b9-cae9-4a84-b173-3a4919202b3d
 title: Propriété AVEncMuxOutputStreamType (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4eaf82ad054cb086a35ff4bd207786ceadd24a5f7acb8db528bb5cee6faef8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fecb5b8c169c8bcd8c3a5caa975c37e7f15a9bfb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111698"
 ---
 # <a name="avencmuxoutputstreamtype-property"></a>Propriété AVEncMuxOutputStreamType
 
@@ -27,7 +27,7 @@ Spécifie le type de flux de sortie produit par un multiplexeur.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncMuxOutput**](/windows/win32/api/codecapi/ne-codecapi-eavencmuxoutput) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

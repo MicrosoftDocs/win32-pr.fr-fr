@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f0fd5895ada4bbbd1bf4ad24710f7782fdfb9c932f2d9446ff0d992335437da9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdd37ba72d9467c16d46b2aec3ec40c206466eaf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540552"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111378"
 ---
 # <a name="cameventcamevent-constructor"></a>Constructeur CAMEvent. CAMEvent
 
@@ -59,13 +59,13 @@ Pour la compatibilité descendante avec les versions antérieures de strmbase. l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’événement commence dans un État non signalé.
 
 Avec un événement de réinitialisation automatique, la méthode [**CAMEvent :: wait**](camevent-wait.md) réinitialise l’événement à l’état non signalé lorsque la méthode est retournée. Avec un événement de réinitialisation manuelle, l’événement reste signalé jusqu’à ce que vous appeliez la méthode [**CAMEvent :: Reset**](camevent-reset.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

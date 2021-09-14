@@ -4,12 +4,12 @@ ms.assetid: 1d9a6a22-bb82-45e1-80d2-88627c90340c
 title: Propriété AVEncStatAudioPeakPCMValue (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 330f3eea62ce5f0232504786c63e87c233bd802f6d06fad6306f476f9d6b5361
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 00d75444631a63c946d4020fe91cdd3a980fc393
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111690"
 ---
 # <a name="avencstataudiopeakpcmvalue-property"></a>Propriété AVEncStatAudioPeakPCMValue
 
@@ -25,13 +25,13 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncStatAudioPeakPCMValue**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est disponible une fois l’encodage terminé.
 
 Cette propriété s’applique uniquement à l’encodage VBR (Quality-based bit rate).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

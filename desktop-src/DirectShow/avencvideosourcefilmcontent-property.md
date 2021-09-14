@@ -4,12 +4,12 @@ ms.assetid: 21b0449b-eed0-4879-a938-a7b01b349f22
 title: Propriété AVEncVideoSourceFilmContent (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe76c04da1c6d2e1f0bb9dd4782eec1fe9a85f31011709300fb3ef3aac612c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 859a547ca67b5ffbf476ae0eff04562c75dd7bfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118663153"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111517"
 ---
 # <a name="avencvideosourcefilmcontent-property"></a>Propriété AVEncVideoSourceFilmContent
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncVideoFilmContent**](/windows/win32/api/codecapi/ne-codecapi-eavencvideofilmcontent) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

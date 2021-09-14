@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6a9d9f38dab9877aee38773e5c900ee125d2ba6a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122605"
 ---
 # <a name="combobox-control-type"></a>ComboBox (type de contrôle)
 
@@ -53,7 +53,7 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 | Affichage de contrôle | Affichage de contenu | 
 |--------------|--------------|
-| <ul><li>Liste déroulante<ul><li>Edit (0 ou 1)</li><li>List (0 ou 1)</li><li>List Item (enfant de List. De 0 à plusieurs)</li><li>Button (1)</li></ul></li></ul> | <ul><li>Liste déroulante<ul><li>List Item (De 0 à plusieurs)</li></ul></li></ul> | 
+| <ul><li>ComboBox<ul><li>Edit (0 ou 1)</li><li>List (0 ou 1)</li><li>List Item (enfant de List. De 0 à plusieurs)</li><li>Button (1)</li></ul></li></ul> | <ul><li>ComboBox<ul><li>List Item (De 0 à plusieurs)</li></ul></li></ul> | 
 
 
 
@@ -73,7 +73,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                     |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                                                                                                                                         |
 | [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | Consultez les remarques. | Pris en charge s’il existe un rectangle englobant. Si tous les points du rectangle englobant ne sont pas cliquables et que l’élément effectue un test de positionnement spécialisé, substituez et fournissez un point cliquable.                                                                                                             |
-| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | Liste déroulante   |                                                                                                                                                                                                                                                                                                                  |
+| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | ComboBox   |                                                                                                                                                                                                                                                                                                                  |
 | [**UIA \_ HelpTextPropertyId**](uiauto-automation-element-propids.md)                         | Consultez les remarques. | Le texte d’aide pour les contrôles de zone de liste modifiable doit expliquer pourquoi l’utilisateur est invité à choisir une option dans la zone de liste déroulante. Le texte est semblable aux informations présentées dans une info-bulle. Par exemple, « Sélectionnez un élément pour définir la résolution d’affichage de votre moniteur ».                                                |
 | [**UIA \_ IsContentElementPropertyId**](uiauto-automation-element-propids.md)         | TRUE       | Les contrôles de zone de liste modifiable sont toujours inclus dans l’affichage de contenu de l’arborescence UI Automation.                                                                                                                                                                                                                            |
 | [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | TRUE       | Les contrôles de zone de liste modifiable sont toujours inclus dans l’affichage de contrôle de l’arborescence UI Automation.                                                                                                                                                                                                                            |
@@ -127,7 +127,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

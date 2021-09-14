@@ -4,12 +4,12 @@ ms.assetid: 77b04001-f524-49c0-b2cf-be32ad16564b
 title: Propriété AVEncVideoHeaderFrames (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d20f90c50baed4278bf7c91a5838235e764ccf196dfb2575eac202d33fd88955
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c49d31a4b399f9f3af7ecb85cba65aa8fe536ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275691"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111629"
 ---
 # <a name="avencvideoheaderframes-property"></a>Propriété AVEncVideoHeaderFrames
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La plage valide de cette propriété dépend de la fréquence d’images.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

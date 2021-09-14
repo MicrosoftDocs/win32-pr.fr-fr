@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d273db41b832b8141fe13bdf0538b51fb221688949792e214c9f81c1e7b96e69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2a18791f5055a7574b9e130cf10c0cd1246f6eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118553123"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122481"
 ---
 # <a name="wmi-tasks-for-scripts-and-applications"></a>Tâches WMI pour les scripts et les applications
 

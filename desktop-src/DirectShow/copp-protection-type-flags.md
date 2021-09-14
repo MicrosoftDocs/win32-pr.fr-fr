@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: 75038b22a30be41389311fd1a7cfb830f870859b01ba48fd9a791a42cee86dc6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 57e9ccc9420659ac09c19f2bbb7a18db519c07bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119214049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111189"
 ---
 # <a name="copp-protection-type-flags"></a>Indicateurs de type de protection COPP
 
@@ -44,7 +44,7 @@ Les constantes suivies sont utilisées avec le protocole de protection de sortie
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Certaines méthodes retournent un seul indicateur à partir de ce type d’énumération, et certaines méthodes retournent une opération or au niveau du bit d' **un ou plusieurs** indicateurs.
 
@@ -55,7 +55,7 @@ Ces indicateurs sont utilisés dans les requêtes et les commandes COPP suivante
 -   Type de protection
 -   Définir le niveau de protection
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

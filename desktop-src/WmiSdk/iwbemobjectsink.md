@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Fastprox.dll
-ms.openlocfilehash: 6bfce21edca92c95276f382d16007f8b319b9f3b80fc5c3c721f7232ea0b4618
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 980865605eadfd5e4cb61a511317dec7838b8e47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122521"
 ---
 # <a name="iwbemobjectsink-interface"></a>Interface IWbemObjectSink
 
@@ -60,7 +60,7 @@ L’interface **IWbemObjectSink** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de l’implémentation d’un récepteur d’abonnement aux événements (**IWbemObjectSink** ou [**IWbemEventSink**](iwbemeventsink.md)), n’appelez pas WMI à partir des méthodes d' [**indication**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate) ou [**SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus) sur l’objet récepteur. Par exemple, l’appel de [**IWbemServices :: CancelAsyncCall**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall) pour annuler le récepteur à partir d’une implémentation de [**indique**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate) qu’il peut interférer avec l’État WMI. Pour annuler un abonnement à un événement, définissez un indicateur et appelez **IWbemServices :: CancelAsyncCall** à partir d’un autre thread ou objet. Pour les implémentations qui ne sont pas liées à un récepteur d’événements, telles que les récupérations d’objets, d’enum et de requêtes, vous pouvez rappeler dans WMI.
 
@@ -160,7 +160,7 @@ HRESULT QuerySink::SetStatus(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

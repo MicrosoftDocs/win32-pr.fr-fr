@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4c8e14c24ab7457c82faaebade127585208641ebac0379b71b990a15abd4efbe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 02814762b687d93d46ed06332c3675f4e2465a16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110409"
 ---
 # <a name="wlan_policy-schema"></a>\_Schéma de stratégie WLAN
 

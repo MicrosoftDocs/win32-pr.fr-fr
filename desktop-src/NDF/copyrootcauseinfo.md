@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98bb09fd9a61da536ddd17a4067838b33d4f86ffb8ee29fb404dc861220a5166
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5093d7af6458668a763aa206cacd22a0526aa521
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119685829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110505"
 ---
 # <a name="copyrootcauseinfo-function"></a>CopyRootCauseInfo fonction)
 
@@ -59,7 +59,7 @@ Structure existante à copier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -77,7 +77,7 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

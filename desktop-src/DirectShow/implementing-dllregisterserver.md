@@ -4,12 +4,12 @@ ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: Implémentation de DllRegisterServer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e39d55b73dd70a21c10df26a100f964917a57dd9f036ebd5c2708359bca1dd50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b994e80a181b69efffbe6123382957e7a38f8278
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117998090"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111061"
 ---
 # <a name="implementing-dllregisterserver"></a>Implémentation de DllRegisterServer
 

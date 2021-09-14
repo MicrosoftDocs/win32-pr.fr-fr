@@ -4,12 +4,12 @@ ms.assetid: f99df68f-d7e8-4dbf-b958-84fe3f0821f0
 title: EC_PLEASE_REOPEN (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efafbcd441dc62b48612e325a3520f9b3cfbdeb9b3b4d5b11144e12f9f22acd4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1c02b1a945a773717f1dd1f1cfe237b764faa09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119686179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111130"
 ---
 # <a name="ec_please_reopen"></a>réouverture de la communauté \_ \_
 
@@ -41,7 +41,7 @@ Aucun.
 
 le filtre de [Source du média Windows](windows-media-source-filter.md) hérité envoie cet événement. Les nouveaux filtres ne doivent pas envoyer cet événement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0a4560cf2626f2b7cfc03eed1d8650e2073e1861fd72b4a2797b02749911e085
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d2476f4eb33d7e74d0de8363fa88d5e688a2e73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119063889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110370"
 ---
 # <a name="irtcgetconversationstatistics-method"></a>IRTC :: GetConversationStatistics, méthode
 
@@ -79,7 +79,7 @@ Indicateur utilisé pour indiquer à Moniteur réseau d’effacer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -98,13 +98,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut uniquement être appelée pendant que vous capturez des données ; Si vous appelez cette méthode alors que la capture en cours est suspendue, la méthode échoue. Pour démarrer une capture, appelez la méthode [IRTC :: Start](irtc-start.md) .
 
 Pour récupérer d’autres types de statistiques, appelez la méthode [IRTC :: GetTotalStatistics](irtc-gettotalstatistics.md) .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

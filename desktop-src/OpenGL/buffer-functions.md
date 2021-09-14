@@ -6,12 +6,12 @@ keywords:
 - WGL, mémoire tampon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96b03a12cd07b76d1329f51cc982508c707e011701b072a42b099df05327842d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66a93858b8085171a9139bc5ab329e531ddbb699
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118618593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110345"
 ---
 # <a name="buffer-functions"></a>Fonctions de mémoire tampon
 

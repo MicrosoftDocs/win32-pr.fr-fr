@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes MSFT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f903231d14acea4736e5b3b9d0b5e22b65f1498bdea92bfeec3c09b35cbd8161
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90fd8ff1feb8d0926a505167f3916765b0dcdd75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117923490"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122518"
 ---
 # <a name="msft-classes"></a>Classes MSFT
 

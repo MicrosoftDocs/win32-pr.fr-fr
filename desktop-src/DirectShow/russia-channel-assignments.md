@@ -4,12 +4,12 @@ ms.assetid: 7585ce79-39ef-4174-833a-c314289fec43
 title: Affectations de canaux russes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e336b3b6c5b0e8afba56625014a6798284c7a16fcef5a147d381f916a178ba3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 099e1f6929077a9370b543e1725d700ccdd24229
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111062"
 ---
 # <a name="russia-channel-assignments"></a>Affectations de canaux russes
 

@@ -4,12 +4,12 @@ ms.assetid: de7b5222-3a29-40cc-af1a-2672bd68b7c9
 title: EC_ERRORABORTEX (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18f0cb010e6ebf94f69cd8bbebfc7cdeea16d1d085069ad2f12fedb6fbf4a266
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b3bf1e1f24f9d5b07312f542c1ce4ea671f601d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111185"
 ---
 # <a name="ec_errorabortex"></a>\_ERRORABORTEX EC
 
@@ -41,7 +41,7 @@ Aucun.
 
 le filtre de [Source du média Windows](windows-media-source-filter.md) hérité envoie cet événement. Les nouveaux filtres ne doivent pas envoyer cet événement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

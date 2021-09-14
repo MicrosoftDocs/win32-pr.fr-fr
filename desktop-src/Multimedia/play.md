@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dbf262db152677ef5a2f29de9526152c1d48d4c9
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110837"
 ---
 # <a name="play-command"></a>commande Play
 
@@ -101,7 +101,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’émettre des commandes qui utilisent des valeurs de position, vous devez définir le format d’heure souhaité à l’aide de la commande [Set](set.md) . Cette commande commence à la vitesse actuelle, telle qu’elle est définie avec la commande « Speed » définie. La direction est inversée si l’indicateur « Reverse » est spécifié, ou si l’indicateur « to » est spécifié en tant que valeur inférieure à l’indicateur « from ». Si l’indicateur « from » n’est pas spécifié, la lecture commence à la position actuelle. Les indicateurs « to » et « reverse » ne peuvent pas être utilisés ensemble.
 

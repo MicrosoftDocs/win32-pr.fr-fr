@@ -4,12 +4,12 @@ ms.assetid: 75c0d63c-3ff1-4ba1-9323-55f4ae06fe0f
 title: Propriété AVEncVideoHeaderMinutes (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6ca0b35d581acc34e56633a39756c4ef59f8bf48c361c18f00ddac79763e5a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19a59c24095e3455b469805659e8fbfd0af233e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111625"
 ---
 # <a name="avencvideoheaderminutes-property"></a>Propriété AVEncVideoHeaderMinutes
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La plage valide de cette propriété est comprise entre 0 et 59 inclus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

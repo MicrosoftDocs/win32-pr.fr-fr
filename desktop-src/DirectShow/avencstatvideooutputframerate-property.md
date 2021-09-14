@@ -4,12 +4,12 @@ ms.assetid: 3148562c-0ddb-4679-92ab-769d7b96bdb4
 title: Propriété AVEncStatVideoOutputFrameRate (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812c448c330c44b1b01a119874e85317daee0d8f1d09f957270c8bc0e7132a51
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c5960f542f6e9ad85b81f91a2bec4188716266ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119258079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111669"
 ---
 # <a name="avencstatvideooutputframerate-property"></a>Propriété AVEncStatVideoOutputFrameRate
 
@@ -25,11 +25,11 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncStatVideoOutputFrameRate**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est disponible une fois l’encodage terminé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

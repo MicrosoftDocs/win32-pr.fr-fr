@@ -4,12 +4,12 @@ ms.assetid: caa17027-8f11-47d3-83da-7ca83b27c978
 title: Propriété AVEncMPVIntraVLCTable (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 755928278cfd726cf5d963cb339ddf362b0372087289e32fc352894483467d40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5391e143f7fe2a57b0a989d77246e46210c72a4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119276119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111742"
 ---
 # <a name="avencmpvintravlctable-property"></a>Propriété AVEncMPVIntraVLCTable
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncMPVIntraVLCTable**](/windows/desktop/api/codecapi/ne-codecapi-eavencmpvintravlctable) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

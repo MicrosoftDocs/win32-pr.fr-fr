@@ -4,18 +4,18 @@ ms.assetid: 17790b20-bee7-43ac-acc9-9fce8249b81a
 title: Propriété PIDTemplate
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c50550bab7dc32208828d1d0445f99f8f36ccd354cbf9d2ea7e4bff5235462a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e15938a34d32d22bb7b7ee8fbf701f126b806bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118377360"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110986"
 ---
 # <a name="pidtemplate-property"></a>Propriété PIDTemplate
 
 La propriété **PIDTemplate** contient la chaîne utilisée comme modèle pour la propriété [**PIDKEY**](pidkey.md) . Pour connaître la syntaxe utilisée dans le modèle, consultez type de contrôle [MaskedEdit](maskededit-control.md) . L' [Action ValidateProductID](validateproductid-action.md) utilise cette valeur pour valider l’ID du produit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

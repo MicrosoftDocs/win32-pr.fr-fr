@@ -4,12 +4,12 @@ ms.assetid: e657e971-4624-4c87-ad51-6bf0cd1f9246
 title: Propriété AVEncVideoCBRMotionTradeoff (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21d3db1f310de6468b57d469fbf699919ab86429e7242344622ca498b9e59f39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b746559f48858f995cbd87184a2f13ada33db7c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111666"
 ---
 # <a name="avencvideocbrmotiontradeoff-property"></a>Propriété AVEncVideoCBRMotionTradeoff
 
@@ -40,7 +40,7 @@ La valeur de cette propriété est comprise dans la plage suivante.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

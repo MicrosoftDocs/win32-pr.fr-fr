@@ -4,12 +4,12 @@ ms.assetid: 56f3685f-3df8-4358-b04e-3efc04b58008
 title: DirectShow Référence de classe de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 950a4eff89e235194be974256492bd23701f69e5f64181a2e805cf67c1fd62f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8816656f0ae87224cc95886ad32aaa1a098f177
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118663046"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111469"
 ---
 # <a name="directshow-base-class-reference"></a>DirectShow Référence de classe de base
 

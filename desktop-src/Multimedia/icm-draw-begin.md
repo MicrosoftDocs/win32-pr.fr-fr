@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: db7b9e20a0b0621038e1c7e092a871a6727566cf
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110898"
 ---
 # <a name="icm_draw_begin-message"></a>ICM \_ DESSINER le \_ message de début
 
@@ -67,7 +67,7 @@ Retourne ICERR \_ OK si le pilote prend en charge le dessin des données à l’
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 si vous souhaitez que le pilote décompresse les données dans une mémoire tampon, envoyez le message de début de la [**ICM de \_ décompression \_**](icm-decompress-begin.md) .
 

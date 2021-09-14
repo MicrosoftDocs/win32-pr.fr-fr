@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: dbb1301de2a2d70edf8c61de002c28e48b00a5d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867278"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110389"
 ---
 # <a name="name-ssid-element"></a>nom (SSID), élément
 
@@ -52,20 +52,20 @@ Lorsque les informations de profil sont converties en SSID, l’élément [**Hex
 
 Lorsqu’un SSID est stocké dans un profil, l’élément [**Hex**](wlan-profileschema-hex-ssid-element.md) est toujours généré. L’élément **Name** est généré uniquement si la conversion ASCII en Unicode du SSID et de la génération de profil XML réussit. Certaines informations du SSID d’origine peuvent être perdues lorsqu’elles sont converties en un **nom**.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Les caractères d’échappement XML, tels que les &, ne sont pas affichés. Évitez d’utiliser des caractères d’échappement XML dans des noms SSID pour les profils déployés sur Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Les caractères d’échappement XML, tels que les &, ne sont pas affichés. évitez d’utiliser des caractères d’échappement XML dans des noms SSID pour les profils déployés sur Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2.
 
 ## <a name="examples"></a>Exemples
 
 Pour afficher des exemples de profils qui utilisent l’élément **Name** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

@@ -4,12 +4,12 @@ ms.assetid: dae29a60-b9f0-47d3-af4c-e08138df3382
 title: Propriété AVEncMPVLevel (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0201dbc256c3633e791ffede05a52c0836a433c1538ca78291bcf8a8ae9c0b1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8878b9c78e8bba72eb8f2745bf240e94a555600
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111738"
 ---
 # <a name="avencmpvlevel-property"></a>Propriété AVEncMPVLevel
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncMPVLevel**](/windows/desktop/api/codecapi/ne-codecapi-eavencmpvlevel) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
