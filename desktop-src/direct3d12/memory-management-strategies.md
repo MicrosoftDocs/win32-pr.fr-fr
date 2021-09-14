@@ -5,12 +5,12 @@ ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7797b933a759afd0ccfb959672e5c595cefa21712f3488e61b4f99b8a57b0893
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dad04055a5acdeeeaead3a56f0bd04e64aa90fe0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119123801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012943"
 ---
 # <a name="memory-management-strategies"></a>Stratégies de gestion de la mémoire
 
@@ -55,7 +55,7 @@ Pour gérer efficacement les ressources dans les scénarios liés à la mémoire
 
 
 
-| Classification      | Exemples                                                                                         | Objets et fonctionnalités d’API                                                                                           | Remarques sur la gestion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| classification ;      | Exemples                                                                                         | Objets et fonctionnalités d’API                                                                                           | Remarques sur la gestion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Critique            | Interface utilisateur du jeu                                                                                          | Allocateur de commande, files d’attente de commandes, tas de requêtes, ressources et tas de ressources.                                      | Ces éléments doivent se trouver dans la mémoire non paginable/toujours validée.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Mis à l’échelle/facultatif    | Modèles et textures spécifiques au niveau, chaînes de permutation, zones de ciel, modèles de caractères de joueur de première personne | Les ressources et les tas. Les ressources validées, mais également les ressources placées et réservées peuvent fonctionner aussi bien.          | Intégrer le budget de la résidence en mémoire dans les algorithmes de rendu. Choisissez le niveau approprié des détails disponibles et Réévaluez moins d’une fois par image. Les techniques incluent l’utilisation de ressources de taille variable et l’évolution de la chaîne de permutation.<br/>                                                                                                                                                                                                                                                                                                                                                 |

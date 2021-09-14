@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 63a0cfd212767a0219af83d734d3562edacc84901098afcf77c786d8895f32d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af2097ee682aec7da0ca36df9e4b465fb360f814
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118512875"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295599"
 ---
 # <a name="ps_1_4-source-register-modifiers-for-texld-texcrd"></a>\_ \_ modificateurs de Registre source PS 1 4 pour texld, texcrd
 
@@ -37,7 +37,7 @@ Ces modificateurs fournissent une fonctionnalité de division projective en divi
 
  
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Le \_ \_ modificateur DZ ou DB effectue les opérations suivantes :
 

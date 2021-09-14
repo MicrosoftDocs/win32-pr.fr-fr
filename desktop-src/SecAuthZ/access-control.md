@@ -4,12 +4,12 @@ ms.assetid: d9ce4ec5-5c09-4b33-93a1-39638a925986
 title: Access Control (autorisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b34be93577446066fcaf7e01e634c60632c68c430198a375eadc2efbcec3e701
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31c0198f0ce0de77750e0587d9b54c1e20cee756
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013756"
 ---
 # <a name="access-control-authorization"></a>Access Control (autorisation)
 

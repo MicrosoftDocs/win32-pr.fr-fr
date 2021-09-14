@@ -4,12 +4,12 @@ ms.assetid: 199d72be-bbe1-4777-a913-2e4b92576bfa
 title: Action MsiUnpublishAssemblies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f640338e13f53b115ca3b93aa2a63987efb5aa7cf053d4c8a59d8d20d0f7e3fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91d398c66781e6e356b110828c56de6f5e616775
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118943896"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021296"
 ---
 # <a name="msiunpublishassemblies-action"></a>Action MsiUnpublishAssemblies
 
@@ -34,7 +34,7 @@ L’action MsiUnpublishAssemblies doit venir après l' [action InstallInitialize
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L' [action MsiPublishAssemblies](msipublishassemblies-action.md) gère la publication des assemblys publiés ou installés.
 

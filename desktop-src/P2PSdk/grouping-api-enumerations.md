@@ -4,12 +4,12 @@ ms.assetid: 7f7e926c-e8dc-48c0-b5b9-0dc98686a174
 title: Regroupement des énumérations d’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b238b135296aee82611eabe7224ab9bfc39d9662f27fcf8c8bf68adf4e7cdd0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34ce48a9f4b3b3894be90b809bc29d83496642d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013908"
 ---
 # <a name="grouping-api-enumerations"></a>Regroupement des énumérations d’API
 

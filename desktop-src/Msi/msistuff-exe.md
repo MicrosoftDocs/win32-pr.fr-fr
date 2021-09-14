@@ -4,12 +4,12 @@ ms.assetid: df79574c-d0e7-45e3-97c1-d62f700260ce
 title: Msistuff.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a29c3fd904f137679cf1ce42f3718be151e07c3368b03e6f2807dbfc08656ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b56d6b183128971501fd3ad8ddb7a88d08cee70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021310"
 ---
 # <a name="msistuffexe"></a>Msistuff.exe
 

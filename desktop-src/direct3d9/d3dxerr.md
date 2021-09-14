@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9.h
-ms.openlocfilehash: 2fc6f72ab88a3c85eff592e289364a1f67eb9c220a7592397eda14b8bf4aace6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c1dd03500a493b30d7c1d3bfdfdf800b65a6d82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118988509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012819"
 ---
 # <a name="d3dxerr-enumeration"></a>Énumération D3DXERR
 
@@ -111,7 +111,7 @@ Impossible de supprimer le dernier élément.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le code \_ d’installation FACDD est utilisé pour générer des codes d’erreur, comme dans les macros suivantes.
 
@@ -128,7 +128,7 @@ enum _D3DXERR {
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

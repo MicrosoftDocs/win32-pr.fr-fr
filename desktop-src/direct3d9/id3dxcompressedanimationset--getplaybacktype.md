@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9f607a534dd390380b6505ab040fbfa8e187dd903451bb90c6fdfa51a9dd0c71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86437821b989d198f9f65288b37c80b609bd1946
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310813"
 ---
 # <a name="id3dxcompressedanimationsetgetplaybacktype-method"></a>ID3DXCompressedAnimationSet :: GetPlaybackType, méthode
 
@@ -38,13 +38,13 @@ D3DXPLAYBACK_TYPE GetPlaybackType();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXPLAYBACK \_**](./d3dxplayback-type.md)**
 
 Type de la boucle de lecture du jeu d’animations. Consultez [**\_ type D3DXPLAYBACK**](./d3dxplayback-type.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

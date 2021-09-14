@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: b1227c94edbf5816a8f1e867436462a743e6961e3ca70bb7b8a521c289312f18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2607ea2e13be2dcccc3c1b6beebd40c86822d0a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011274"
 ---
 # <a name="iscardattachbyreader-method"></a>ISCard :: AttachByReader, méthode
 
@@ -81,13 +81,13 @@ Valeur de protocole préférée.
 **T1**
 </dt><span id="RAW"></span><span id="raw"></span><dt>
 
-**PREMIÈRE**
+**RAW**
 </dt><span id="T0_T1"></span><span id="t0_t1"></span><dt>
 
 **T0 \| T1**
 </dt> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -102,7 +102,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de [*carte*](../secgloss/s-gly.md) à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
@@ -153,7 +153,7 @@ void main()
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

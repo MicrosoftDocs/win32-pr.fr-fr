@@ -4,12 +4,12 @@ ms.assetid: f115ee54-3333-4109-8004-d71904a7a943
 title: ACCESS_MASK (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d13378b44d17bedd818efd5fc84310b304a2f683a3331237e8cca208be8de810
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d10d9e8db246c2705911cc57221400f40da014d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785466"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013753"
 ---
 # <a name="access_mask"></a>masque d’accès \_
 
@@ -23,7 +23,7 @@ typedef ACCESS_MASK* PACCESS_MASK;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les bits de cette valeur sont alloués comme suit.
 
@@ -84,7 +84,7 @@ Les constantes suivantes définies dans Winnt. h représentent les droits d’ac
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -100,7 +100,7 @@ Les constantes suivantes définies dans Winnt. h représentent les droits d’ac
 
 <dl> <dt>
 
-[Access Control](access-control.md)
+[Contrôle d’accès](access-control.md)
 </dt> <dt>
 
 [Structures de Access Control de base](authorization-structures.md)

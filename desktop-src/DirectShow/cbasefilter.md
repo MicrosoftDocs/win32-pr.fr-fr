@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fbffdf47e019494570506dac164735a2471d0617daa190ad74fb3c8910a7dede
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe032d0614b1067c9351b643d457a718b4917a8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118659633"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296786"
 ---
 # <a name="cbasefilter-class"></a>CBaseFilter, classe
 
@@ -82,13 +82,13 @@ Plusieurs classes de base dérivent de `CBaseFilter` , y compris [**CSource**](c
 | [**QueryVendorInfo**](cbasefilter-queryvendorinfo.md)         | Récupère une chaîne contenant des informations sur le fournisseur.                                                  |
 | Méthodes IAMovieSetup                                           | Description                                                                                        |
 | [**S’inscrire**](cbasefilter-register.md)                       | Ajoute le filtre au registre.                                                                   |
-| [**Annuler l’inscription**](cbasefilter-unregister.md)                   | Supprime le filtre du Registre.                                                              |
+| [**Unregister**](cbasefilter-unregister.md)                   | Supprime le filtre du Registre.                                                              |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

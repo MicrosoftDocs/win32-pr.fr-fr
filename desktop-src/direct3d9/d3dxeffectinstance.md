@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 7a4384866ed5a2bfc433caeca1ccd13c4b0f33de1ae43844391625e11211e618
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6874da0fd04b34036152d58e94b16006e185e117
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118096162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012820"
 ---
 # <a name="d3dxeffectinstance-structure"></a>D3DXEFFECTINSTANCE, structure
 
@@ -74,7 +74,7 @@ Pointeur vers un tableau d’éléments [**D3DXEFFECTDEFAULT**](d3dxeffectdefaul
 
 </dd> </dl>
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

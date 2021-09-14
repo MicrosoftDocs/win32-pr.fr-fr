@@ -4,12 +4,12 @@ ms.assetid: 49f1c1f9-d342-47e0-8888-2eadc5dbd000
 title: Signatures numériques et fichiers CAB externes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40edd8527eb93a6b970b3a8ce18fec8cc81f4688804a4e18f7ec5cdd748f3eca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f10e921b324a43a919a417f47953c0a44e4777ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091577"
 ---
 # <a name="digital-signatures-and-external-cabinet-files"></a>Signatures numériques et fichiers CAB externes
 

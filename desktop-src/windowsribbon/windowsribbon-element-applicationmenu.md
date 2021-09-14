@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 915e44718dfdb9f14b39eb645acd84028ca6289d33e29a853334221acffacd6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fcf64d3fa3b618a4e66777b8fd4c0d831a33126
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118707598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295954"
 ---
 # <a name="applicationmenu-element"></a>Élément ApplicationMenu
 
@@ -40,10 +40,10 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -87,7 +87,7 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Obligatoire.
 

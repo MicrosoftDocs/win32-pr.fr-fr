@@ -5,12 +5,12 @@ ms.assetid: 7342DA09-25E9-4154-83BA-B03ADBB8B671
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00cc3d78314b5c9130f69c65ebc5fa056d51d7305135025ecf2e4329ecbe6350
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df4d2f3a823f5f4b5d2d5f365235d7e3f8817207
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012870"
 ---
 # <a name="stream-output-counters"></a>Compteurs de sortie de flux
 

@@ -4,12 +4,12 @@ ms.assetid: c2dd494b-b51d-4d3a-ab8f-f6d64a62feb3
 title: Contrôle DirectoryCombo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a61e53a526b2d045ec72ce5de90ad99400624a62769fbe95b7def044f74c62d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76729786c1e305e0ed4902750bd47f6a10427f57
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947333"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091566"
 ---
 # <a name="directorycombo-control"></a>Contrôle DirectoryCombo
 
@@ -53,7 +53,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe COMBOBOX à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ CBS DropDownList**, **CBS \_ OWNERDRAWFIXED**, **CBS \_ HASSTRINGS**, **WS \_ Child**, **WS \_ Group**, **WS \_ TABSTOP** et **WS \_ VSCROLL** .
 

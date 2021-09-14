@@ -4,12 +4,12 @@ ms.assetid: b4df27e2-9790-4b18-a173-25fa8b0ecd4d
 title: ICE35
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4ee42f97a049b165d41fef7391f0031836865dbf7bafec6b1b5e2fb868e75a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cea6a98079d3c57e0c796332cf0cd5f11045a07b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021568"
 ---
 # <a name="ice35"></a>ICE35
 
@@ -17,7 +17,7 @@ ICE35 valide que les composants contenant des fichiers compressés stockés dans
 
 ICE35 interroge la colonne CAB de la [table Media](media-table.md) pour déterminer quels fichiers sont compressés et stockés dans un fichier CAB. Il interroge la [table de fichiers](file-table.md) pour identifier les composants qui contiennent ces fichiers. Enfin, il vérifie la [table des composants](component-table.md) pour déterminer si les bits d’exécution à partir de la source sont définis dans la colonne attributs.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE35 publie un message d’erreur s’il existe un fichier compressé stocké dans un fichier CAB appartenant à un composant avec le bit msidbComponentAttributesSourceOnly défini dans la colonne attributs de la [table des composants](component-table.md). avec Windows Installer 2,0 ou une version ultérieure, la valeur d’un message d’avertissement est remplacée par une erreur. un package qui prend uniquement en charge Windows Installer 2,0 et versions ultérieures a la \_ propriété PID PAGECOUNT du flux d’informations de synthèse définie sur une valeur d’au moins 200.
 
@@ -25,7 +25,7 @@ ICE35 publie un message d’avertissement si un fichier compressé est stocké d
 
 Si plusieurs fichiers d’un composant se trouvent dans un fichier CAB, ICE35 signale les erreurs pour chaque fichier dont l’exécution provient du bit source défini.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE35 signale les erreurs et avertissements suivants pour l’exemple indiqué à l’aide d’une version antérieure à la version 2,0 de Windows Installer.
 
@@ -88,7 +88,7 @@ ICE35 signale les erreurs et avertissements suivants pour l’exemple indiqué �
 
 
 
-| Raccourci  | Située\_ |
+| Raccourci  | Icône\_ |
 |-----------|--------|
 | Shortcut1 | Icon2  |
 

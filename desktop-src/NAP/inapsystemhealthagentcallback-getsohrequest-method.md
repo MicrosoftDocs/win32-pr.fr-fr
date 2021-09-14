@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 96b9770607685dbd69e115f4f18d646b6d552fae
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884475"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011642"
 ---
 # <a name="inapsystemhealthagentcallbackgetsohrequest-method"></a>INapSystemHealthAgentCallback :: GetSoHRequest, méthode
 
@@ -54,7 +54,7 @@ Pointeur COM vers un objet [**INapSystemHealthAgentRequest**](inapsystemhealthag
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 
 
@@ -73,7 +73,7 @@ Quand une valeur de retour (à l’exception **\_ de HRESULT de \_ Win32 (RPC \_
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md) =  [ **failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [](sohattributetype-enum.md)  =  sohAttributeTypeErrorCodes &lt; erreur : code&gt;
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode de rappel est déclarée par le système NAP et doit être implémentée par l’enregistreur SHA.
 

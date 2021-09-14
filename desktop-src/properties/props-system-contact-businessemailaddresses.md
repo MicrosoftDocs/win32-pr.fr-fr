@@ -4,12 +4,12 @@ ms.assetid: f8566b9a-0b21-4ff1-80d4-6423b4b67e6d
 title: System. contact. BusinessEmailAddresses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 790ca8771773c8e81fd9716f16497d7cd345e5252b8cd99c23d49d143561612c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63e271e188b932dc597823a736476e07ae712660
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118730239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294835"
 ---
 # <a name="systemcontactbusinessemailaddresses"></a>System. contact. BusinessEmailAddresses
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

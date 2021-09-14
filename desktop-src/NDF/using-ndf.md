@@ -4,12 +4,12 @@ description: Network diagnostics Framework (NDF) est fourni avec Windows Vista, 
 ms.assetid: 1eccd402-5b5a-46a0-91df-98b5c70a5967
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7a5c020be46aac69190c3af2fbe4ce329e67b8ef80a9bc9de212ead111f720a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 380bf4c9770ca2791a825a06ba08f409b6f3eb15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021143"
 ---
 # <a name="using-ndf"></a>Utilisation d’NDF
 

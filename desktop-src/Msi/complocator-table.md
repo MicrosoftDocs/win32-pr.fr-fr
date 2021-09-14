@@ -4,12 +4,12 @@ ms.assetid: 8b527307-51bf-47b3-a0b2-3421cc5278b7
 title: Table CompLocator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad6a51ad618521ff49b2a5b13f76fcfbae4207b5cdf4d77e76d3e128816bbb82
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e9fcb4a3c4f2e2c6f3ca3c92f6dc7466326bd11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092121"
 ---
 # <a name="complocator-table"></a>Table CompLocator
 
@@ -69,7 +69,7 @@ Le tableau suivant répertorie les valeurs valides. Si elle est absente, le type
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table est utilisée avec la [table AppSearch](appsearch-table.md).
 

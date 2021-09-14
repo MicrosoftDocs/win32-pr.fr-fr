@@ -14,12 +14,12 @@ keywords:
 - dossiers d’analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1206defcdc387659567ceedcf7347a3ab99ca45d9926a9bd32c4f75280a8a46
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c3d6af341df706cd85c4158197b27babad09c86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055507"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311118"
 ---
 # <a name="about-folder-monitoring"></a>À propos de la surveillance des dossiers
 

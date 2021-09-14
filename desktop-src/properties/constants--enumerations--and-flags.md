@@ -4,12 +4,12 @@ ms.assetid: ff735b9c-e444-4e6f-8e80-0b2a5d770386
 title: constantes, énumérations et indicateurs (Windows système de propriétés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24e39d357ae741ae49c4fa98c886e8c08b3594a2ea3a7e4e045def96abe8c2fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8681c773181b69b24b1fe2d01d380d730c33e220
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119718208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295351"
 ---
 # <a name="constants-enumerations-and-flags"></a>Constantes, énumérations et indicateurs
 

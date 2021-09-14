@@ -4,12 +4,12 @@ ms.assetid: 6bf06e90-5a1c-461c-8053-93cf4d4bfc95
 title: Structures d’API graphiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ca23bddb23afe460b244c7663fe7c4c1f84029b095a74ce0d2a712227ecb9d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f85b4c4f5da5a89a821e1abbf669d5eae0c6cb1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013919"
 ---
 # <a name="graphing-api-structures"></a>Structures d’API graphiques
 

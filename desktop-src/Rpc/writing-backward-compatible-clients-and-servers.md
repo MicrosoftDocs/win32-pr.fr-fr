@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, meilleures pratiques, compatibilité descendante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a55cc3731e75893fa1ab1390769131c3d1ad7263c15b08daebd9049f49f87c0f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eac5ae011c8a9c346bc0f89fb73e26265d487721
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011365"
 ---
 # <a name="writing-backward-compatible-clients-and-servers"></a>Écriture de clients et de serveurs à compatibilité descendante
 

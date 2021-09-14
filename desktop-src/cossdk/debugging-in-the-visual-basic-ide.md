@@ -4,12 +4,12 @@ ms.assetid: d31efc97-c286-434d-93f5-77b34ec16205
 title: débogage dans l’IDE Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 284e97a766256cd281b3515bdd142d15ff5208e2c1a1555438c428daeca8f3a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74574fdb289e1ad334337f17943c6961b95bf288
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118548008"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295730"
 ---
 # <a name="debugging-in-the-visual-basic-ide"></a>débogage dans l’IDE Visual Basic
 

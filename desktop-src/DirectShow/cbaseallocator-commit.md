@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba9c373a15d5200d6466fef5c519a59a1052c8e5854ebe38c5a8b027d21188a5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b49fae72e5588105b1235c1f0c461d5cc45cfa2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296858"
 ---
 # <a name="cbaseallocatorcommit-method"></a>CBaseAllocator. Commit, méthode
 
@@ -40,7 +40,7 @@ HRESULT Commit();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -55,7 +55,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’appeler cette méthode, appelez la méthode [**CBaseAllocator :: SetProperties**](cbaseallocator-setproperties.md) pour spécifier les exigences en matière de mémoire tampon.
 
@@ -63,7 +63,7 @@ Cette méthode appelle la méthode virtuelle [**CBaseAllocator :: Alloc**](cbas
 
 Vous devez appeler cette méthode avant d’appeler la méthode [**CBaseAllocator :: GetBuffer**](cbaseallocator-getbuffer.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

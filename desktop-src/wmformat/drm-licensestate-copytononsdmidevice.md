@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9546adc9c4cad2e2a56bcf1b295b5823121396daf86e4fd94ac7a54e3787d807
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bfebf4392ecffb6220b0eeda6e49e3c6ca89084c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120110470"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295910"
 ---
 # <a name="drm_licensestate_copytononsdmidevice"></a>\_LICENSESTATE DRM \_ CopyToNonSDMIDevice
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ LicenseState \_ CopyToNonSDMIDevice
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 

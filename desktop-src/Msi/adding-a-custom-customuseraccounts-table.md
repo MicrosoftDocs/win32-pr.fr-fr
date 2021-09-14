@@ -4,12 +4,12 @@ ms.assetid: 1545b4f1-3ccf-4745-90d8-15f1f79d8455
 title: Ajout d’une table CustomUserAccounts personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ede08ad733e2870e970416da3de345bfc89b7e63147bc848f3d36ffe66721585
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d58366c725ecc135b9583c926a16383a5ad5a01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092862"
 ---
 # <a name="adding-a-custom-customuseraccounts-table"></a>Ajout d’une table CustomUserAccounts personnalisée
 

@@ -4,12 +4,12 @@ ms.assetid: f521cfb8-32a8-4b62-b258-5b99cc3e0416
 title: Exemple de raccourci MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b38f674a63e854fbcd4439229c5aded5b0efe6cfc17d3e475f8a52f30db949
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0392713c1eaedabaa989baecd79478a9b329e955
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118640286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092970"
 ---
 # <a name="a-mui-shortcut-example"></a>Exemple de raccourci MUI
 
@@ -67,7 +67,7 @@ pour ajouter les chaînes de ressources utilisées par Windows les Interfaces ut
     | MsiTest       | TARGETDIR         | MsiTest:.  |
     | MUIFolder     | MsiTest           | MUI        |
     | MUIFolder \_ CS | MUIFolder         | cs-CZ      |
-    | MUIFolder \_ en | MUIFolder         | fr-FR      |
+    | MUIFolder \_ en | MUIFolder         | en-US      |
     | MUIFolder \_ ja | MUIFolder         | ja-JP      |
     | DesktopFolder | TARGETDIR         | .          |
 
@@ -96,7 +96,7 @@ pour ajouter les chaînes de ressources utilisées par Windows les Interfaces ut
 
     
 
-    | Fonctionnalité               | Parent de la fonctionnalité \_       | Titre                 | Attributs |
+    | Fonctionnalité               | Parent de la fonctionnalité \_       | Intitulé                 | Attributs |
     |-----------------------|-----------------------|-----------------------|------------|
     | FeatureParent1 \_ local |                       | FeatureParent1 \_ local | 16         |
     | FeatureChild1 \_ local  | FeatureParent1 \_ local | FeatureParent1 \_ local | 0          |

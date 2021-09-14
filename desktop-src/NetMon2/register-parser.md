@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 4c24f719018f155fab26df4673b7dc3be18546675532657cb8fb3a0271763af2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bc49cc083cf6ba46594473a041d9a1ad138efa22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021045"
 ---
 # <a name="register-parser-callback-function"></a>Enregistrer la fonction de rappel de l’analyseur
 
@@ -46,7 +46,7 @@ Handle du protocole que Moniteur réseau fournit lors de l’appel de **Register
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Aucun.
 
@@ -73,7 +73,7 @@ Si la DLL de l’analyseur contient plusieurs analyseurs et que l’analyseur pe
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

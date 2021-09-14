@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e7575601bec8b995aa03cd3472f04463503635c59546e5d93f8094920fb44438
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e72967f0fb6addb70af1792ffabf0457b1d20c29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119772329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228750"
 ---
 # <a name="january-monthstype-element"></a>Élément de janvier (monthsType)
 
@@ -56,7 +56,7 @@ Le code XML suivant définit un calendrier de mois qui exécute la tâche en jan
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

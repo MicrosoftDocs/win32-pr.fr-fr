@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0425289b7ffd686f0d908f9789a2c24606978f37e05dfada5b937b8ce05b21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eedcd7c7390e01849371eee2cbb24ffa2593900d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013863"
 ---
 # <a name="ras_ppp_ipcp_result-structure"></a>\_Structure du \_ résultat IPCP PPP \_ IPX
 
@@ -57,7 +57,7 @@ Chaîne Unicode terminée par le caractère null qui spécifie l’adresse IP af
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

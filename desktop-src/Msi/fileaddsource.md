@@ -4,18 +4,18 @@ ms.assetid: 52e328e7-7a98-4762-86a1-48e52fd55882
 title: Propriété FILEADDSOURCE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7678c42e683b70fc61e563c57ee234c523078bcdd737bf8f28bc2c05302fbb43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24b99ea1d9f4d6e212b74d6c4ee54655dce98c60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636561"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021737"
 ---
 # <a name="fileaddsource-property"></a>Propriété FILEADDSOURCE
 
 La valeur de la propriété **FILEADDSOURCE** désigne une liste de clés de fichier délimitée par des virgules qui doivent être installées pour être exécutées à partir du média source. Pour chaque clé de fichier de la liste, le programme d’installation détermine le composant qui contrôle ce fichier, puis examine toutes les fonctionnalités liées à ce composant par la table [FeatureComponents](featurecomponents-table.md) et installe la fonctionnalité qui nécessite le moins d’espace disque. Les clés de fichier de la liste doivent être présentes dans la colonne fichier de la table [file](file-table.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que les noms de clé de fichier respectent la casse. Notez également que si l’indicateur de bit LocalOnly est défini dans la colonne attributs de la table des [composants](component-table.md) pour un composant, le composant est installé pour s’exécuter localement.
 
@@ -38,7 +38,7 @@ Par exemple, si la ligne de commande spécifie : ADDLOCAL = ALL, ADDSOURCE = My
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - Interface IMediaObject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dbf44a527d61d924045a4bcceded5d90bb174fef608e3b7667338e99aa1efe9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfbbecd749242b67bc5c8f36b3c7a2c0a5fbe461
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118583906"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311121"
 ---
 # <a name="about-imediaobject"></a>À propos de IMediaObject
 

@@ -4,12 +4,12 @@ ms.assetid: F2DAB2E3-8B24-49A3-A2DD-E83B5181E9A2
 title: Attribution de privilèges à un compte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4ba4fb5266a66aac67b17c70fc6bbcaa1a397a8593534144c688daaee5a0b3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0865a59b8bad75e687fd12f6bfc42c2cd39f664d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119623009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011193"
 ---
 # <a name="assigning-privileges-to-an-account"></a>Attribution de privilèges à un compte
 

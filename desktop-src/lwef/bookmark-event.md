@@ -4,12 +4,12 @@ description: Signet, événement
 ms.assetid: 6733cd4e-2ba0-4cff-b68d-abfea284f748
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c6a6dcd072b87c6a924c8d33e6ebb73c75c927bdf955f51612703d3fc18af79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0695ccd04f93eae46eaae66955c84fefb9e0c963
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118976709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012394"
 ---
 # <a name="bookmark-event"></a>Signet, événement
 
@@ -41,7 +41,7 @@ Signet du **sous-** *agent* \_  **(ByVal** - *BookmarkID * * *)**
 
 </dd> </dl>
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Pour spécifier un événement Bookmark, utilisez la méthode [**Speak**](speak-method.md) avec une balise **MRK** dans le texte fourni. Pour plus d’informations sur les balises, consultez balises de sortie vocale.
 

@@ -4,12 +4,12 @@ ms.assetid: 19463fc7-8362-4943-8907-22c38f66fe25
 title: Création de tables FeatureComponents du module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52b2da3e25d84f4f10edad6566edeba5a10d43c5617340d40c733aa23d31f4b5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3522f32f91a66df93e9096bf9c528f8d00e11f6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650298"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092513"
 ---
 # <a name="authoring-merge-module-featurecomponents-tables"></a>Création de tables FeatureComponents du module de fusion
 

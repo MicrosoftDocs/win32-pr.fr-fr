@@ -4,12 +4,12 @@ ms.assetid: 07408bce-88c7-43ef-b437-7b2ce37fca91
 title: PathIterator, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9307e2a71cd6b66d0f0f8425916484b4ccfb6c19c1c2e9b81062a6f6b9f7f792
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69a7fb23096a03837d68030d3f78d4c25c773390
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036477"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012413"
 ---
 # <a name="pathiterator-functions"></a>PathIterator, fonctions
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**Gr
 
 
 
-| Fonction plate                                                                                                                                                    | Méthode Wrapper                                                                                                                                                                                                     | Remarques                                                                                                                                                                         |
+| Fonction plate                                                                                                                                                    | Méthode Wrapper                                                                                                                                                                                                     | Notes                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreatePathIter ( \* \* itérateur GpPathIterator, GpPath \* chemin)<br/>                                                                    | [**GraphicsPathIterator :: GraphicsPathIterator (dans le \* chemin d’accès const GraphicsPath)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-graphicspathiterator(constgraphicspathiterator_))<br/>                                                      | Crée un nouvel objet [**GraphicsPathIterator**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator) et l’associe à un objet GraphicsPath.                                    |
 | GpStatus WINGDIPAPI GdipDeletePathIter ( \* itérateur GpPathIterator)<br/>                                                                                     | GraphicsPathIterator :: ~ GraphicsPathIterator () <br/>                                                                                                                                                          | Libère les ressources utilisées par l’objet [**GraphicsPathIterator**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator) .                                                                |

@@ -4,12 +4,12 @@ ms.assetid: b0ae1b52-b0c5-4f1c-94c6-628d39ef40e3
 title: Recyclage des applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73cf0237f10602ab48080a54bedd33a9a2d580f8f951d5d9241b60bbca416e2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa1fc162a58a0cbec2898765af2d35e06d73eda0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129231"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012997"
 ---
 # <a name="com-application-recycling"></a>Recyclage des applications COM+
 

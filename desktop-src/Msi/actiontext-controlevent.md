@@ -4,12 +4,12 @@ ms.assetid: 2b4928fe-2d5c-46c1-8a31-cbebbc78d304
 title: ActionText ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a216cb30dbcaa0be9972f12f7a83c8e45e5bb5686d93ce210bf96087aa3c4552
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: caf03829818ea7ce7732ca5f51f1710a11e8d07f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092882"
 ---
 # <a name="actiontext-controlevent"></a>ActionText ControlEvent,
 

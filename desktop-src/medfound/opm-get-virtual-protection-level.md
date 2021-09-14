@@ -4,12 +4,12 @@ ms.assetid: 635d54de-2735-4390-8bac-ba63b9503909
 title: OPM_GET_VIRTUAL_PROTECTION_LEVEL (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09fb4130b4ad700de2328114dbf900ff7d122045b277c8a5ae812332c730a5d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c7ac36abd0a043a74a18401205bbb5e661ac17d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296259"
 ---
 # <a name="opm_get_virtual_protection_level"></a>\_niveau de \_ \_ protection \_ de l’offre OPM
 
@@ -29,7 +29,7 @@ Le niveau de protection *virtuel* est le niveau demandé par l’application lor
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le niveau de protection est retourné dans le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . La signification de cette valeur dépend du mécanisme de protection qui est interrogé. Pour chaque mécanisme de protection, la valeur de **ulInformation** est un indicateur d’une énumération différente, comme indiqué dans le tableau suivant.
 
@@ -48,7 +48,7 @@ Le niveau de protection est retourné dans le membre **ulInformation** de la str
 
 Cette requête est équivalente à la \_ requête DXVA COPPQueryLocalProtectionLevel utilisée dans le protocole Copp (Certified Output Protection Protocol).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30c184d998890907633845f235a8b5c569d56b708955e572345d89ca8b38f0a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 190e6deff5cc9c95e0a080026a59bcc128656ae4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118773582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012567"
 ---
 # <a name="esentsecondaryindexcorruptedexception-constructor"></a>Constructeur EsentSecondaryIndexCorruptedException
 
@@ -54,7 +54,7 @@ public EsentSecondaryIndexCorruptedException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSecondaryIndexCorruptedException, classe](./esentsecondaryindexcorruptedexception-class.md)
 

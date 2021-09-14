@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae3a79d7bd5c8747efc42e25c71527c35e47598d6d1d1c9f88ae3ed929ea68ba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 15df7beefbfa411d00b5a069b68f4ef8cabdff58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119451429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295454"
 ---
 # <a name="wm_nclbuttonup-message"></a>\_Message WM NCLBUTTONUP
 
@@ -52,11 +52,11 @@ Structure de [**points**](/previous-versions//dd162808(v=vs.85)) qui contient le
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) teste le point spécifié pour déterminer l’emplacement du curseur et effectue l’action appropriée. Le cas échéant, **DefWindowProc** envoie le message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) à la fenêtre.
 
@@ -77,7 +77,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 Si c’est le cas, le système envoie le message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) à la fenêtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -117,7 +117,7 @@ Si c’est le cas, le système envoie le message [**WM \_ SYSCOMMAND**](/windows
 [**\_SYSCOMMAND WM**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

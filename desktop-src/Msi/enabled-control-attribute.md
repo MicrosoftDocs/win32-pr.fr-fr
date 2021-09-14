@@ -4,12 +4,12 @@ ms.assetid: d84b1b55-34e1-4173-b945-39a809014d55
 title: Attribut de contrôle activé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a40de14ac0205c52cce46c6050de0282e62df90d50f3bcdeb576771c9107ffc5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eb7c5cbbbc12353fc07cf50404a1feae1d98f1b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091413"
 ---
 # <a name="enabled-control-attribute"></a>Attribut de contrôle activé
 
@@ -35,7 +35,7 @@ Tous les contrôles. L’apparence de certains contrôles qui ne sont pas associ
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez également utiliser la [table ControlCondition](controlcondition-table.md) pour désactiver ou activer un contrôle en fonction de la valeur d’une propriété ou d’une instruction conditionnelle.
 

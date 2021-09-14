@@ -13,12 +13,12 @@ keywords:
 - licences, DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b899e44ffdff5d2a7f3c5fb3237b477ae0143327a331f63bd9717e3ae4320483
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0fbf2d7c0a25b2b19241d90743f43f46a71d7e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118700833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295874"
 ---
 # <a name="licenses"></a>Licences
 

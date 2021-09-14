@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d23df592abd125fd64362af89b6f81c5e9dcc20f0aa6cc998974a8fd2d4d87f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 809694cacf0c30acf88ddf7d14c7f5ea1f654436
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953738"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012239"
 ---
 # <a name="csourcestreamdobufferprocessingloop-method"></a>Méthode CSourceStream. DoBufferProcessingLoop
 
@@ -40,7 +40,7 @@ virtual HRESULT DoBufferProcessingLoop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -55,7 +55,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode implémente la boucle principale qui traite les données et les remet en aval. Chaque fois que vous parcourez la boucle, la méthode récupère un échantillon de média vide à partir de l’allocateur. Il passe l’exemple à la méthode [**CSourceStream :: FillBuffer**](csourcestream-fillbuffer.md) . La méthode **FillBuffer** , que la classe dérivée doit implémenter, génère des données multimédias et les place dans l’exemple de mémoire tampon.
 
@@ -67,7 +67,7 @@ La boucle se termine lorsque l’un des éléments suivants se produit :
 
 La `DoBufferProcessingLoop` méthode gère la notification de fin de flux. Si une erreur se produit, elle envoie un événement [**EC \_ ERRORABORT**](ec-errorabort.md) au gestionnaire de graphique de filtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: Action FindRelatedProducts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8201a2e86f9dec09931b17cd4dd594c45e4bf78de32ba438b8824a6f540563fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a87973631e51315df17a156bc8c57aa9facd84f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142878"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021726"
 ---
 # <a name="findrelatedproducts-action"></a>Action FindRelatedProducts
 

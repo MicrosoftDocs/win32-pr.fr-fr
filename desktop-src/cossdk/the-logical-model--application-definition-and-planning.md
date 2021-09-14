@@ -4,12 +4,12 @@ ms.assetid: 6dc0a0ab-2cfa-4cc9-92a6-0d7554dd3397
 title: 'Modèle logique : définition et planification de l’application'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d19a493ebdacebac27edd291e747b5c42612f5fffd3ac7ea489f99b41de272b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: acb09b0d377fcd9bf5e2319868f4006b5dbfce75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310878"
 ---
 # <a name="the-logical-model-application-definition-and-planning"></a>Modèle logique : définition et planification de l’application
 

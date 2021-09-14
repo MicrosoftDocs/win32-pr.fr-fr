@@ -4,12 +4,12 @@ ms.assetid: e9ce25aa-4fb1-4357-9f4e-5bf649e29447
 title: Exemple d’introduction utilisant le catalogue d’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bfd085cbe9a829a1248ddf36057c9d9f79de9d576236a2621b237063340cf95
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db24f3985538b7189534c9fef3ef279ed240e3a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120070589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311017"
 ---
 # <a name="introductory-example-using-the-com-administration-catalog"></a>Exemple d’introduction utilisant le catalogue d’administration COM+
 

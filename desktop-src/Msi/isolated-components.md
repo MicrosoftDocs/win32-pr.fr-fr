@@ -4,12 +4,12 @@ ms.assetid: eb5f7088-30e0-4644-813a-c93e6f56ccbf
 title: Composants isolés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08095e72862a94474b7096950ac5ed3b331e806456e72982ee9d7374ab9511b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f29f614dfd819e093c5729a9a97a076247d281d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011999"
 ---
 # <a name="isolated-components"></a>Composants isolés
 

@@ -4,12 +4,12 @@ ms.assetid: 1d3566ac-e95d-48ed-bce4-fb4604d5f762
 title: Table ComboBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dea20677ab6ede02f76a1061d5f715eb0b8d6d87a1744d1eb89b7e0918a018e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e209ac8a7c27c36fd5c1bbd3c97822617c48f5c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380294"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092182"
 ---
 # <a name="combobox-table"></a>Table ComboBox
 
@@ -22,7 +22,7 @@ La table de zone de liste déroulante contient les colonnes suivantes.
 | Colonne   | Type                         | Clé | Nullable |
 |----------|------------------------------|-----|----------|
 | Propriété | [Identificateur](identifier.md) | O   | N        |
-| Commande    | [Integer](integer.md)       | O   | N        |
+| JSON    | [Integer](integer.md)       | O   | N        |
 | Valeur    | [Correct](formatted.md)   | N   | N        |
 | Texte     | [Text](text.md)             | N   | O        |
 
@@ -64,7 +64,7 @@ Texte visible et localisable à assigner à l’élément. Si cette entrée ou l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contenu des champs de valeur et de texte est mis en forme par la fonction [**MsiFormatRecord**](/windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda) lorsque le contrôle est créé. par conséquent, ils peuvent contenir toute expression que la fonction **MsiFormatRecord** peut interpréter. La mise en forme se produit uniquement lorsque le contrôle est créé et qu’elle n’est pas mise à jour si une propriété impliquée dans l’expression est modifiée pendant la durée de vie du contrôle.
 

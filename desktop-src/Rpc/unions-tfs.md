@@ -4,12 +4,12 @@ description: Les unions encapsulées et sans encapsulées, ainsi que leur format
 ms.assetid: de13151a-f4a4-4440-b287-454df4a1e3e1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e5948a0557ea968a385324244d569d3578ec5d6c0dec4af5261866ed3ba2dc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9f35f0ff23132705330bf1f8566443ac8aa81d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011388"
 ---
 # <a name="rpc-unions"></a>Unions RPC
 

@@ -4,12 +4,12 @@ ms.assetid: 3d813e46-f06e-4147-874c-30b5fc6f50d9
 title: Autorisation de l’accès anonyme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b9c7a082a0494cf4523d8f83ffec8e7f94ae74ffcab62a88ab029042e1c0f9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd169d4eb609094d805efe7601e736cb17cd14a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118914282"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013714"
 ---
 # <a name="allowing-anonymous-access"></a>Autorisation de l’accès anonyme
 

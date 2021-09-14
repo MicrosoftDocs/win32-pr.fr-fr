@@ -4,12 +4,12 @@ ms.assetid: 2e238d31-98b2-4c79-96b0-9e6949010a73
 title: MFPKEY_DECODERCOMPLEXITYPROFILE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca206357a3f3a396ac6d07ea16a1b72bc245c641095a5523e46139dfd6af7f76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f39544830a0a05e21779a637da61d3bcb310fcd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119604219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227543"
 ---
 # <a name="mfpkey_decodercomplexityprofile-property"></a>MFPKEY \_ propriété DECODERCOMPLEXITYPROFILE
 
@@ -23,7 +23,7 @@ Spécifie le profil de complexité du contenu encodé.
 
 **VT \_ BSTR**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous ne pouvez lire cette valeur qu’une fois l’encodage terminé.
 
@@ -66,7 +66,7 @@ Pour la vidéo, cette propriété a l’une des valeurs suivantes :
 
 Pour le contenu vidéo, vous pouvez demander un niveau de profil en définissant [MFPKEY \_ DECODERCOMPLEXITYREQUESTED](mfpkey-decodercomplexityrequestedproperty.md) avant de commencer l’encodage. Le codec tentera d’effectuer un encodage dans les paramètres du niveau de complexité demandé, mais les autres paramètres que vous configurerez seront prioritaires. Vous devez toujours vérifier la valeur du profil de complexité réel après l’encodage au cas où votre demande n’a pas pu être honorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

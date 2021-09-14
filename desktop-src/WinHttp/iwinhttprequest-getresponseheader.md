@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 1566ea05f78f9e90a97db3a14c61f7c59cfc61ecdb1eb390823d99a32d4983ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e51b0973c7b078c7de592565db19bf6e029c5a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119643879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295095"
 ---
 # <a name="iwinhttprequestgetresponseheader-method"></a>IWinHttpRequest :: GetResponseHeader, méthode
 
@@ -55,11 +55,11 @@ Reçoit les informations d’en-tête obtenues.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode retourne la valeur de l’en-tête de réponse nommé dans l' *en-tête*. N’oubliez pas que les clients Automation, tels que le script, obtiennent les données d’en-tête comme valeur de retour de l’appel de fonction, et non par le biais d’un paramètre de fonction. Appelez cette méthode uniquement après l’appel de la méthode [**Send**](iwinhttprequest-send.md) .
 
@@ -190,7 +190,7 @@ WScript.Echo( WinHttpReq.GetResponseHeader("Date"));
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

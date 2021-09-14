@@ -4,22 +4,22 @@ ms.assetid: 6730170a-0f73-4a84-b3fb-bd15c72917c7
 title: Propriété CommonFiles64Folder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 025645f7e5ef4b841115c1bedcfa4b6fccf027913b2b1708895f7ab21bd5d9df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c44a6720e609cfa79cd0e4adbfd5136c7a92a5ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092149"
 ---
 # <a name="commonfiles64folder-property"></a>Propriété CommonFiles64Folder
 
 Le programme d’installation définit la propriété **CommonFiles64Folder** sur le chemin d’accès complet du dossier de fichiers communs 64 bits prédéfini. La propriété [**CommonFilesFolder**](commonfilesfolder.md) existante est définie sur le dossier 32 bits correspondant.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le programme d’installation définit cette propriété sur l’Windows 64 bits. Cette propriété n’est pas utilisée sur les Windowss 32 bits. lors de l’utilisation de l’Windows 64 bits, la valeur peut être « C : \\ Program files fichiers \\ communs ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

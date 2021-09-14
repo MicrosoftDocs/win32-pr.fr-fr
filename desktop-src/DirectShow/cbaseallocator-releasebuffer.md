@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5d1096cc7cd4ed31346b38719a3f622edf780408fd50262d93515f68d92b421d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e339f3a8186e845e28261633806a61b1b15c281
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118661505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010135"
 ---
 # <a name="cbaseallocatorreleasebuffer-method"></a>Méthode CBaseAllocator. ReleaseBuffer
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand le nombre de références d’un exemple de média atteint zéro, l’exemple appelle **ReleaseBuffer** avec lui-même comme paramètre. Cette méthode effectue les actions suivantes.
 
@@ -62,7 +62,7 @@ Quand le nombre de références d’un exemple de média atteint zéro, l’exem
 -   Si la méthode [**CBaseAllocator :: SetNotify**](cbaseallocator-setnotify.md) a été appelée précédemment, appelle la méthode **IMemAllocatorNotifyCallbackTemp :: NotifyRelease** .
 -   Lorsque le dernier échantillon est publié, s’il y a un appel [**CBaseAllocator ::D ecommit**](cbaseallocator-decommit.md) , appelle la méthode [**CBaseAllocator :: Free**](cbaseallocator-free.md) pour libérer la mémoire tampon. (Dans la classe de base, **Free** est une méthode virtuelle pure.)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

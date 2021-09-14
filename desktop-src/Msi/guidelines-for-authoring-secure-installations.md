@@ -4,12 +4,12 @@ ms.assetid: 04d91a9b-0528-4acb-8e11-fc817009db1f
 title: Instructions pour la création d’installations sécurisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f796594fe665875f63751d0da4cac5bd7cde621e04b4d1d35585c74755dd719
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9d18e66c38480149ddad9e381c6461ffe50cf0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021668"
 ---
 # <a name="guidelines-for-authoring-secure-installations"></a>Instructions pour la création d’installations sécurisées
 

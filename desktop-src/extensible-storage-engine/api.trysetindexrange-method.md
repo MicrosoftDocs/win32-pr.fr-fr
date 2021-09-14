@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cbc04a7fe79f14976e509928e243030b641e8a89703e638861e95d60653fc081
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d175fdfc931d24742d61f962a45e690a5c49c2be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012615"
 ---
 # <a name="apitrysetindexrange-method"></a>API. TrySetIndexRange, méthode
 
@@ -86,14 +86,14 @@ public static bool TrySetIndexRange(
     
     Option Seek.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si la recherche a réussi.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

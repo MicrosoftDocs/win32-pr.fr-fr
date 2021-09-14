@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 5a0e69986e7415a5a12eca7c450b0d7ff064c650d33c35997b9a166b01592c41
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad9115bf7bb0912362455986e77d5792cceec3b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119444799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295166"
 ---
 # <a name="wpd_service_inheritance_types-enumeration"></a>\_ \_ Énumération des types d’héritage du service wpd \_
 
@@ -46,7 +46,7 @@ Le service hérite en implémentant une définition de service abstraite.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

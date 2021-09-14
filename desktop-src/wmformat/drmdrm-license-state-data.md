@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63ba00384ec7c3340aa099f1b427cd8953969704bd0585f0da58cd4fd0ffd6ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b02f38b8f09b7b444949e9477635e6b8770fc168
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119708929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295206"
 ---
 # <a name="drm_license_state_data-structure-wmdrmsdkh"></a>Structure DRM_LICENSE_STATE_DATA (wmdrmsdk. h)
 
@@ -108,7 +108,7 @@ Zéro, un ou plusieurs des indicateurs suivants combinés avec une **opération 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est récupérée en appelant **IWMDRMLicenseQuery :: QueryLicenseState**.
 
@@ -118,7 +118,7 @@ Les éléments du tableau **dwCount** correspondent aux dates ou aux plages de d
 
 Dans certains cas, les utilisateurs ont peut-être émis plus d’une licence pour un fichier. Par exemple, ils peuvent avoir acquis une licence qui a autorisé cinq lectures jusqu’à la fin du mois et acquis ultérieurement une deuxième licence pour des droits illimités. Dans ce cas, l’indicateur de \_ données de l' \_ État de licence DRM \_ \_ est défini dans **dwVague** ( `dwVague & DRM_LICENSE_STATE_DATA_VAGUE != 0` ) et le composant DRM utilise un algorithme pour déterminer l’ensemble de droits le plus probable qui ont été appliqués. Lorsqu’une licence expire, le composant DRM examine les licences restantes, et ainsi de suite jusqu’à ce que toutes les licences aient expiré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

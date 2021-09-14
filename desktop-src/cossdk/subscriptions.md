@@ -4,12 +4,12 @@ ms.assetid: 190e88f3-1d87-4c27-9451-0a633cbae829
 title: Abonnements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48810ae90f3507ea7afb661b106c4d05f8cc5b9a4f1b09aafdfb26d9fdb03a75
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9973eb76fc22354f1a2fc8e381c90cf5be1efee3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118546171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310917"
 ---
 # <a name="subscriptions"></a>Abonnements
 

@@ -4,12 +4,12 @@ ms.assetid: 48c84e6d-b21f-468e-8847-f5e2acd5b44a
 title: MFPKEY_WMAVOICE_ENC_BufferWindow, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d05df85a6f1460666f82f494df0d41fdebd811a578817639eb6f7d41f0bf9ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35d5035979ffd161eb7694690fbf2566db5dfd1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119603449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295375"
 ---
 # <a name="mfpkey_wmavoice_enc_bufferwindow-property"></a>MFPKEY \_ WMAVOICE \_ enc \_ BufferWindow, propriété
 
@@ -29,7 +29,7 @@ VT \_
 
 2177 pour 10 et 20 Kbits/s
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

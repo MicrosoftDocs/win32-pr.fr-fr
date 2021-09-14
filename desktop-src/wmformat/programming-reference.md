@@ -9,12 +9,12 @@ keywords:
 - ASF (format avancé des systèmes), informations de référence sur la programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60d600833202da1522d07dfcedebb8892f92975cac59bb0117f3367b44ada5b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44c316b85e91c31b513fbfcdff003ba37efea93b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295850"
 ---
 # <a name="windows-media-format-sdk-programming-reference"></a>Windows Informations de référence sur la programmation du SDK Media format
 

@@ -4,12 +4,12 @@ ms.assetid: 091429ff-a8f4-4e1b-929f-1559cd173c3d
 title: Création de tables de registre de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03726481905d4efee2405d0b383f53833d840090fea74e2d41fc6ae67a8e5bd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d10e31ac82d190c87019da5bc77408b58122a523
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092490"
 ---
 # <a name="authoring-merge-module-registry-tables"></a>Création de tables de registre de module de fusion
 

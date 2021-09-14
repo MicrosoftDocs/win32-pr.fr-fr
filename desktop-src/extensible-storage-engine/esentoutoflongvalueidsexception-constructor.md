@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 15c9939f68e08be418f742edd474f8b406f371710c4e6666ce5a8751bce3209c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb9ef6cabfc906542ff5e124ca52668d32ddbec8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118262196"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295515"
 ---
 # <a name="esentoutoflongvalueidsexception-constructor"></a>Constructeur EsentOutOfLongValueIDsException
 
@@ -54,7 +54,7 @@ public EsentOutOfLongValueIDsException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentOutOfLongValueIDsException, classe](./esentoutoflongvalueidsexception-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: ec7c1e7e-844a-43d4-b756-02bc1062d7b8
 title: Considérations sur la programmation du filtre de mot de passe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9270a08c51b4b3e6b07923ad9461dc2e2dd418c3be1f1a181c07f940d71ba7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ad13a52f66c29142248ca07179d8692887b1acb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013595"
 ---
 # <a name="password-filter-programming-considerations"></a>Considérations sur la programmation du filtre de mot de passe
 

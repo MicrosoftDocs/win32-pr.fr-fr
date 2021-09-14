@@ -4,12 +4,12 @@ ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Décodeur audio Microsoft MPEG-1/DD/AAC (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd20bfc2ad8a366b46ac0c0600d8cc7a8bca5abacae621e8ea7d02f5f1cb4d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a685fa2be32dd963cdc7de08ec716117e6a7016e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120051249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012158"
 ---
 # <a name="microsoft-mpeg-1ddaac-audio-decoder"></a>Décodeur audio Microsoft MPEG-1/DD/AAC
 
@@ -137,7 +137,7 @@ msmpeg2adec.dll
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les flux mono sont toujours décodés en stéréo.
 
@@ -220,7 +220,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

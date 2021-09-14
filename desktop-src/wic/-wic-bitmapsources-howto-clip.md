@@ -4,12 +4,12 @@ ms.assetid: c9834827-8e1d-436d-be82-c1a2a2f7ca5c
 title: Comment découper une source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69315aae20ffd464249de1163d9fc0f1b8189111df115917a1350764c4397aff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43919e03d5d866d37ad4af203e741d2b10e60889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117668712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295239"
 ---
 # <a name="how-to-clip-a-bitmap-source"></a>Comment découper une source bitmap
 

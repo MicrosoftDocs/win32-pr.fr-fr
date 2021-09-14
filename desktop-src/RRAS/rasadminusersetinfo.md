@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51bc4b56b9aa606892002fbef0eda8036c45442c06ce06b8561afba57620b7a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16d35f62713a3f4669db191891d2fb6b1694cabe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120028429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013867"
 ---
 # <a name="rasadminusersetinfo-function"></a>RasAdminUserSetInfo fonction)
 
@@ -65,7 +65,7 @@ Pointeur vers la structure d' [**\_ utilisateur RAS \_ 0**](ras-user-0-str.md) q
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
@@ -85,11 +85,11 @@ Si la fonction échoue, la valeur de retour peut être l’un des codes d’erre
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la définition des autorisations RAS pour un utilisateur, le membre **bfPrivilege** de la structure de l' [**\_ utilisateur RAS \_ 0**](ras-user-0-str.md) doit spécifier au moins l’un des indicateurs de rappel. Par exemple, pour définir les privilèges d’un utilisateur afin d’autoriser les droits d’accès à distance, mais aucun privilège de rappel, définissez **bfPrivilege** sur RASPRIV \_ DialinPrivilege \| RASPRIV \_ nocallback.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

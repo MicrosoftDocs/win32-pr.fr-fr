@@ -4,12 +4,12 @@ ms.assetid: e4695018-e9c3-400c-b4bb-6160e154d2cf
 title: Ajout d’informations de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df31ad20fef317d5d67f7f45a7b877511d4c35b05b1517c529693e787306b44c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb299116b4e5c567d1e1f4b18f23c1e5b0447fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092822"
 ---
 # <a name="adding-registry-information"></a>Ajout d’informations de Registre
 

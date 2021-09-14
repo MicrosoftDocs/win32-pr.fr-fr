@@ -13,11 +13,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 68ccdd222f4fe205e58adf5195df694ec1256804
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310853"
 ---
 # <a name="transientsubscriptions-collection"></a>Collection TransientSubscriptions
 
@@ -70,7 +70,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|-------------------------------------|
 | Description    | Description de l’abonnement. |
 | Access         | Lecture/écriture                           |
-| Type           | Chaîne                              |
+| Type           | String                              |
 | Valeur par défaut        | ""                                  |
 | Système minimal | Windows 2000                        |
 
@@ -78,7 +78,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="enabled"></a>activé
+### <a name="enabled"></a>Activé
 
 
 
@@ -102,7 +102,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Lors de l’abonnement à une classe d’événements, utilisé pour représenter le GUID de l’ID de partition contenant la classe d’événements. Quand vous vous abonnez à des classes d’événements, l’abonné a la possibilité de s’abonner à une classe d’événements dans la même partition ou dans une partition différente. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                          |
-| Type           | Chaîne                                                                                                                                                                                                                                             |
+| Type           | String                                                                                                                                                                                                                                             |
 | Valeur par défaut        | NULL                                                                                                                                                                                                                                               |
 | Système minimal | Windows Server 2003                                                                                                                                                                                                                                |
 
@@ -118,7 +118,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------------------------------------------------------------------|
 | Description    | CLSID de la classe d’événements. Vous pouvez indiquer un EventCLSID ou un PublisherID, mais pas les deux. |
 | Access         | WriteOnce                                                                                    |
-| Type           | Chaîne                                                                                       |
+| Type           | String                                                                                       |
 | Valeur par défaut        | N/A                                                                                          |
 | Système minimal | Windows 2000                                                                                 |
 
@@ -134,7 +134,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------------------------------------------------------------------------------------------|
 | Description    | Chaîne qui indique les critères de filtre. Peut être un CLSID pour une classe [**PublisherFilter**](/windows/desktop/api/EventSys/nn-eventsys-ipublisherfilter) . |
 | Access         | Lecture/écriture                                                                                                            |
-| Type           | Chaîne                                                                                                               |
+| Type           | String                                                                                                               |
 | Valeur par défaut        | N/A                                                                                                                  |
 | Système minimal | Windows 2000                                                                                                         |
 
@@ -150,7 +150,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Identificateur de l’abonnement. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
 | Access         | WriteOnce                                                                                                                                                        |
-| Type           | Chaîne                                                                                                                                                           |
+| Type           | String                                                                                                                                                           |
 | Valeur par défaut        | &lt;Généré&gt;                                                                                                                                                |
 | Système minimal | Windows 2000                                                                                                                                                     |
 
@@ -166,7 +166,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------|
 | Description    | IID pour lequel l’interface est abonnée. |
 | Access         | WriteOnce                        |
-| Type           | Chaîne                           |
+| Type           | String                           |
 | Valeur par défaut        | N/A                              |
 | Système minimal | Windows 2000                     |
 
@@ -182,7 +182,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------------------|
 | Description    | Méthode sur l’interface à laquelle s’abonner. |
 | Access         | Lecture/écriture                                    |
-| Type           | Chaîne                                       |
+| Type           | String                                       |
 | Valeur par défaut        | N/A                                          |
 | Système minimal | Windows 2000                                 |
 
@@ -198,7 +198,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de l’abonnement. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                              |
-| Type           | Chaîne                                                                                                                                                                                                                                 |
+| Type           | String                                                                                                                                                                                                                                 |
 | Valeur par défaut        | « Nouvel abonnement »                                                                                                                                                                                                                     |
 | Système minimal | Windows 2000                                                                                                                                                                                                                           |
 
@@ -230,7 +230,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|-------------------------------------------------------------------------------------|
 | Description    | ID du serveur de publication. Vous pouvez indiquer un EventCLSID ou un PublisherID, mais pas les deux. |
 | Access         | WriteOnce                                                                           |
-| Type           | Chaîne                                                                              |
+| Type           | String                                                                              |
 | Valeur par défaut        | ""                                                                                  |
 | Système minimal | Windows 2000                                                                        |
 
@@ -262,7 +262,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Lors de l’abonnement à une classe d’événements dans la même partition, utilisée pour représenter le GUID de l’ID de partition de l’abonné. Quand vous vous abonnez à des classes d’événements, l’abonné a la possibilité de s’abonner à une classe d’événements dans la même partition ou dans une partition différente. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                       |
-| Type           | Chaîne                                                                                                                                                                                                                                                          |
+| Type           | String                                                                                                                                                                                                                                                          |
 | Valeur par défaut        | &lt;Généré&gt;                                                                                                                                                                                                                                               |
 | Système minimal | Windows Server 2003                                                                                                                                                                                                                                             |
 
@@ -278,7 +278,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|-------------------------------------------------------------------------|
 | Description    | Nom de l’utilisateur auquel s’applique l’abonnement lorsque PerUser a la valeur true. |
 | Access         | Lecture/écriture                                                               |
-| Type           | Chaîne                                                                  |
+| Type           | String                                                                  |
 | Valeur par défaut        | N/A                                                                     |
 | Système minimal | Windows 2000                                                            |
 

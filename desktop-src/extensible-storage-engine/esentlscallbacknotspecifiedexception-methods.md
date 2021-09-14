@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102183
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 11d860e532f7f244b17712da6503a03e1e342584d9aae49032bd6a29f0ea8188
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d353f95fad3ae325a43955d9562ae440c8ea95d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118080152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012595"
 ---
 # <a name="esentlscallbacknotspecifiedexception-methods"></a>Méthodes EsentLSCallbackNotSpecifiedException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentLSCallbackNotSpecifiedException, classe](./esentlscallbacknotspecifiedexception-class.md)
 

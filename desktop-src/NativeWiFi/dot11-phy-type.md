@@ -14,11 +14,11 @@ api_type:
 api_location:
 - windot11.h
 ms.openlocfilehash: 4e8fc4a1154b9f95fad5024607435861b9e98ae1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011609"
 ---
 # <a name="dot11_phy_type-enumeration"></a>\_ \_ Énumération de type PHY DOT11
 
@@ -67,7 +67,7 @@ Spécifie un type PHY.
 <span id="dot11_phy_type_fhss"></span><span id="DOT11_PHY_TYPE_FHSS"></span>**\_FHSS du \_ type de PHY dot11 \_**
 </dt> <dd>
 
-Spécifie un PHY-Spectrum (FHSS) à saut de fréquence. Les périphériques Bluetooth peuvent utiliser FHSS ou une adaptation de FHSS.
+Spécifie un PHY-Spectrum (FHSS) à saut de fréquence. les appareils Bluetooth peuvent utiliser FHSS ou une adaptation de FHSS.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ Spécifie le type de PHY 802.11 n.
 
 Spécifie le type de PHY AC 802.11. Il s’agit du type PHY à débit très élevé spécifié dans IEEE 802.11 AC.
 
-Cette valeur est prise en charge sur Windows 8.1, Windows Server 2012 R2 et versions ultérieures.
+cette valeur est prise en charge sur Windows 8.1, Windows Server 2012 R2 et versions ultérieures.
 
 </dd> <dt>
 
@@ -140,14 +140,14 @@ Spécifie le début de la plage utilisée pour définir les types PHY qui sont d
 
 Un IHV peut attribuer une valeur pour ses types PHY propriétaires à partir du **\_ fabricant du type de PHY dot11 \_ \_ \_ Démarrer** par le biais du **type de \_ PHY dot11 \_ \_ \_ end**. Le IHV doit attribuer un nombre unique à partir de cette plage pour chacun de ses types PHY propriétaires.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Windot11. h</dt> </dl> |
 

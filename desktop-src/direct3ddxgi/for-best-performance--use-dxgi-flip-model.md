@@ -5,12 +5,12 @@ title: Pour des performances optimales, utilisez DXGI Flip Model
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: RS5
-ms.openlocfilehash: ce999bc735042132902158cfd6bd6d41296d29a3afc98ab27d9480dc6bd8b3b3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2a1e671c03f468fd62b0b5bad0f008f84e62ca3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295698"
 ---
 # <a name="for-best-performance-use-dxgi-flip-model"></a>Pour des performances optimales, utilisez DXGI Flip Model
 
@@ -84,7 +84,7 @@ Le modèle traditionnel pour les applications dans le passé a été de fournir 
 
 Vous devrez peut-être migrer votre contenu d’un GPU vers un autre dans le cadre de l’opération de présentation ou de composition. C’est souvent le cas sur les ordinateurs portables à plusieurs GPU ou sur des systèmes avec des GPU externes branchés. Étant donné que ces configurations sont plus courantes et que les affichages haute résolution deviennent plus courants, le coût de la présentation d’un utilise permutation à résolution complète augmente. Si la cible de votre utilise permutation n’est pas le point principal de l’interaction de l’utilisateur, comme c’est souvent le cas avec des titres VR qui présentent une préversion 2D de la scène VR dans une fenêtre secondaire, envisagez d’utiliser une résolution inférieure utilise permutation pour réduire la quantité de bande passante qui doit être transférée entre les différentes GPU.
 
-## <a name="other-considerations"></a>Autres éléments à prendre en compte
+## <a name="other-considerations"></a>Autres considérations
 
 La première fois que vous demandez au GPU d’écrire dans la mémoire tampon d’arrière-plan utilise permutation est la durée pendant laquelle le GPU est bloqué en attendant que la mémoire tampon devienne disponible. Dans la mesure du possible, retardez ce point autant que possible dans le frame.
 

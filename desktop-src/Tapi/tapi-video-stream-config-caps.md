@@ -4,12 +4,12 @@ ms.assetid: 8812755a-50e8-4d8e-ab67-7a3a4b2a4a67
 title: Structure TAPI_VIDEO_STREAM_CONFIG_CAPS (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d2bc7dc02570b2778f84aaa5f00685e57a54833ddc13c347b62e731e23181c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 525a35cb7c7332aa4e80fe8d5e2436e75e2d5c08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311154"
 ---
 # <a name="tapi_video_stream_config_caps-structure"></a>\_Structure d' \_ \_ \_ embouts de la configuration du flux vidéo TAPI
 
@@ -177,7 +177,7 @@ Nombre maximal de bits par seconde.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

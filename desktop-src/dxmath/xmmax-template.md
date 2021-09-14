@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.reference.xmmax(t,t)
 title: Modèle XMMax (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 362f486861400223024da5442c5103722bf35dcf8cba715da1397ad4b54c19b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6f8de32a32004289249cea269400d711831d640
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295011"
 ---
 # <a name="xmmax-template"></a>Modèle XMMax
 
@@ -46,7 +46,7 @@ template<class T> T XMMax(
 
 Retourne le plus grand des deux objets d’entrée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 `XMMax` est un modèle et le type T est spécifié quand le modèle est instancié.
 
@@ -66,7 +66,7 @@ Retourne le plus grand des deux objets d’entrée.
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

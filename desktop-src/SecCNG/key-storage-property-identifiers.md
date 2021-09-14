@@ -4,12 +4,12 @@ ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
 title: identificateurs de propriété de clé Stockage (Ncrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b8fca27591837a555e4f75040ba16056c42e16ce488c0bb99f2d8f7de70bd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 813a15ba106989cb558eba181bc893d75c6d1bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013659"
 ---
 # <a name="key-storage-property-identifiers"></a>identificateurs de propriété de clé Stockage
 
@@ -553,7 +553,7 @@ Les valeurs suivantes sont utilisées pour définir les limites des données de 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

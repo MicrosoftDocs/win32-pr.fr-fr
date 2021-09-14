@@ -6,12 +6,12 @@ keywords:
 - OpenGL sur Windows, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6883ebc03b1354d775f744e8afae5cff353f60fb7a9819573843c98c96de5599
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 817f1866c4000ec359f55360cc6369d8cfc8e1ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013983"
 ---
 # <a name="using-opengl-on-windows"></a>Utilisation de OpenGL sur Windows
 

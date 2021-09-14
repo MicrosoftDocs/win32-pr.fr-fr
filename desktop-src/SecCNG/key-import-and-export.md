@@ -4,12 +4,12 @@ ms.assetid: 37bda1e0-5dd2-455c-9627-4e7e1b0e04d3
 title: Importation et exportation de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a4b6c26069911d771697bf06f7464aa14ab7f099e4a0e06991d2fd992efa44a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8be59cc5f5c4b3d1a98fa30cf4e967d5469d2f1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013660"
 ---
 # <a name="key-import-and-export"></a>Importation et exportation de clé
 

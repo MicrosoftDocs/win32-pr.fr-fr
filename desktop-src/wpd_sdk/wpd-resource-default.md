@@ -4,12 +4,12 @@ ms.assetid: e534ea86-4932-45c7-87e7-03926202fa7e
 title: WPD_RESOURCE_DEFAULT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d939cf58033baded231363b39410c2e527fe303075c94255a00ba96831a609b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d04d6c7ec7d0623e2ed42c61115c6ae2145bf066
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295835"
 ---
 # <a name="wpd_resource_default"></a>\_ressource wpd \_ par défaut
 
@@ -23,7 +23,7 @@ Ce type de ressource doit prendre en charge les attributs suivants.
 
 
 
-| Nom de l'attribut                                                                                                            | Obligatoire ou facultatif                                   |
+| Nom d’attribut                                                                                                            | Obligatoire ou facultatif                                   |
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [\_ \_ \_ taille totale de l’attribut de ressource wpd \_](resource-attribute-properties.md)              | Obligatoire.                                              |
 | [l' \_ attribut de ressource wpd \_ \_ peut \_ lire](attributes.md)                                     | Obligatoire si les clients peuvent lire cette ressource.            |

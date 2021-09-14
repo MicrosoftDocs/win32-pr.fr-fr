@@ -1,19 +1,19 @@
 ---
-description: Dans le modèle de programmation COM+, vous pouvez concevoir vos composants pour faire ce qu’ils font le mieux&\# 8212, en activant la logique métier ou en établissant une connexion de base de données&\# 8212 ; et s’appuient sur l’infrastructure de traitement des transactions de Microsoft Windows pour automatiser les transactions.
+description: dans le modèle de programmation COM+, vous pouvez concevoir vos composants pour faire ce qu’ils font le mieux&\# 8212, en activant la logique métier ou en établissant une connexion de base de données&\# 8212 ; et s’appuient sur l’infrastructure de traitement des transactions de Microsoft Windows pour automatiser les transactions.
 ms.assetid: 50086e6e-024b-4a09-b8be-8f55b6bfadb2
 title: Gestion des transactions automatiques dans COM+
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 371730173acd4943f460afbf2feab7ada83078fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524055"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310993"
 ---
 # <a name="managing-automatic-transactions-in-com"></a>Gestion des transactions automatiques dans COM+
 
-Dans le modèle de programmation COM+, vous pouvez concevoir vos composants pour faire ce qu’ils font le mieux, en activant la logique métier ou en établissant une connexion de base de données, et s’appuyant sur l’infrastructure de traitement des transactions de Microsoft Windows pour automatiser les transactions.
+dans le modèle de programmation COM+, vous pouvez concevoir vos composants pour faire ce qu’ils font le mieux (en activant la logique métier ou en établissant une connexion de base de données) et s’appuyer sur l’infrastructure de traitement des transactions de Microsoft Windows pour automatiser les transactions.
 
 ## <a name="starting-a-transaction"></a>Démarrage d'une transaction
 

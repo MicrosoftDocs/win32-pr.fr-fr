@@ -5,11 +5,11 @@ title: Terminer une session
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5736b6be452413811f3530f44db280fe4e2a682f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311206"
 ---
 # <a name="complete-a-session"></a>Terminer une session
 
@@ -21,7 +21,7 @@ Plusieurs demandes d’achèvement d’appel peuvent être en attente pour une a
 
 **TAPI 2. x :** Consultez [**lineCompleteCall**](/windows/win32/api/tapi/nf-tapi-linecompletecall), [**lineUncompleteCall**](/windows/win32/api/tapi/nf-tapi-lineuncompletecall).
 
-**TAPI 3. x :** Consultez [**ITBasicCallControl :: Connect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect), [**ITBasicCallControl ::D éconnecter**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect).
+**TAPI 3. x :** consultez [**ITBasicCallControl :: Connecter**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect), [**ITBasicCallControl ::D éconnecter**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect).
 
  
 

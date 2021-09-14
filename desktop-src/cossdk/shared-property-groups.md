@@ -4,12 +4,12 @@ ms.assetid: f73d631e-2552-4358-903a-739e2df3657d
 title: Groupes de propriétés partagées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cda375c09b164e4ed380ba7d89477f2225b5b6004f98299ec9fd9b46f80abee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 776dafe5c7e9752ce3ed1c88b01fd909b4b145de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310958"
 ---
 # <a name="shared-property-groups"></a>Groupes de propriétés partagées
 

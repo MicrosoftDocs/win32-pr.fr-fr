@@ -4,12 +4,12 @@ ms.assetid: 95d9b8b4-0b65-451a-8629-f0b276d6e35d
 title: ICE60
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce8d2cbf9136ea6195a138c586d4408dc0d2e5ff411b52fd73fec8a569c5d186
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e26c6f296fd514f582a699a5f839a7e145169e3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021523"
 ---
 # <a name="ice60"></a>ICE60
 
@@ -20,7 +20,7 @@ ICE60 vérifie que les fichiers de la [table de fichiers](file-table.md) remplis
 
 Si vous ne corrigez pas un avertissement signalé par ICE60, il est généralement possible de réinstaller un fichier en cas de réparation d’un produit. Cela est dû au fait que le fichier à installer dans la réparation et le fichier existant sur le disque ont la même version (il s’agit du même fichier) mais des langues différentes. La table file indique la langue comme étant null, mais le fichier lui-même a une valeur Language dans la ressource. En fonction des [règles](file-versioning-rules.md)de contrôle de version des fichiers, le programme d’installation privilégie le fichier à installer, de sorte qu’il est recopié inutilement.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE60 publie un avertissement ou une erreur si un fichier de la [table de fichiers](file-table.md) qui n’est pas une police et a une version n’a pas de langue.
 

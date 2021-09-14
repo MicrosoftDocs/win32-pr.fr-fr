@@ -4,12 +4,12 @@ ms.assetid: d502c0a9-17e5-467a-8b02-8b254e77b96b
 title: ICE36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97c3d951e90ac9f3dc46a564757c1a1d5a1737bf054740e3109a26c8c7b91055
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7f24eebc1b591edde418c59b6765d7ee91a00dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635302"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021567"
 ---
 # <a name="ice36"></a>ICE36
 
@@ -19,7 +19,7 @@ Pendant la publication, le programme d’installation installe toutes les icône
 
 Si aucune icône n’est référencée dans la propriété ou la table et qu’aucune interface utilisateur n’est fournie pour créer une référence au moment de l’exécution, vous devez supprimer l’icône pour obtenir de meilleures performances.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE36 publie un message si une icône de la table d’icônes n’est pas référencée dans la [classe](class-table.md), le [ProgID](progid-table.md)ou les tables de [raccourcis](shortcut-table.md) et si aucune interface utilisateur n’est fournie pour créer une telle référence au moment de l’exécution.
 
@@ -74,7 +74,7 @@ Icon Bloat. Icon Icon4 is not used in the Class, Shortcut, or ProgID table. This
 
 
 
-| Raccourci  | Située\_ |
+| Raccourci  | Icône\_ |
 |-----------|--------|
 | Shortcut1 | Icon2  |
 

@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4e476501c91c3e7508c0aefdc1d9d6c99a057840b5a126879c8b4ff3608f68
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c97abe59bdd0334fe4b7badf03e44ddc03b85495
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119460750"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012857"
 ---
 # <a name="updatesubresources-heap-allocating-function"></a>Updatesubresources par (allocation du tas) (fonction)
 
@@ -110,13 +110,13 @@ Pointeur vers un tableau (de longueur *NumSubresources*) de pointeurs vers des s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 Taille en octets de la mémoire tampon.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7227846d-b755-4af9-acc3-e27742a5097a
 title: Table AdminUISequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12feb7080d6d97ee86456bee694cdad57eee9873c9c7f64aecf0f4bd05817cc0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8fb460f65d223e75ebd50a7587f5b3f4adeced8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118381697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092766"
 ---
 # <a name="adminuisequence-table"></a>Table AdminUISequence
 

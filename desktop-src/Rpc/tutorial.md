@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, didacticiel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cd7259e5f5f0b9d0d273ff99a7cd5b42d15d57beaa60300fadecb7045a96876
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7c19b0d8ec3b3eb55cf29ccfd87eca43775c2ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011400"
 ---
 # <a name="tutorial"></a>Didacticiel
 

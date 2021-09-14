@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: b4b7d498979c94de048e72058df4c8bf87fb8607220efe808554d66deb5d89ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d13d624f2cfb24bfa6946ca6c45fe799602f55b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021682"
 ---
 # <a name="getfilesmodulefiles-property"></a>GetFiles. ModuleFiles, propriété
 
@@ -38,7 +38,7 @@ propVal = GetFiles.ModuleFiles
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que l’ordre des fichiers figurant dans la collection ne peut pas être dans le même ordre que celui indiqué dans la table file.
 
@@ -48,7 +48,7 @@ Si le module n’a pas de table de fichiers ou ne contient pas de fichiers dans 
 
 Consultez la fonction [**obtenir \_ ModuleFiles**](/windows/win32/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

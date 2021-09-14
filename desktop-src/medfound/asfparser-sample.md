@@ -4,12 +4,12 @@ ms.assetid: 6be1e12f-7d4a-4564-88ae-14fd71fd2cf9
 title: Exemple ASFParser
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50db441be45d28899bc8f2ace68b8f09af40e679449d26aec7adf25ab4fb9e2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c159b481e22d77b0bee9adccbbb74073398c12b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296370"
 ---
 # <a name="asfparser-sample"></a>Exemple ASFParser
 
@@ -40,7 +40,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 7.  Pour tester les exemples du flux audio, cliquez sur le bouton **tester l’audio** .
 8.  Pour tester les exemples du flux vidéo, cliquez sur le bouton **afficher la bitmap** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

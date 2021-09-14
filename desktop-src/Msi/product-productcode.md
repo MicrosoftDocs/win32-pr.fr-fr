@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d1c60d9a6eeb705ba094453edab4e21afcd6ec34081e3d6abd1ef3d72502269e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e14fc36e2141d3d5a64142c3a6c853ad36be9995
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021277"
 ---
 # <a name="productproductcode-property"></a>Propriété Product. ProductCode
 
@@ -37,7 +37,7 @@ propVal = Product.ProductCode
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

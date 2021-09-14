@@ -4,12 +4,12 @@ ms.assetid: d560096f-6baa-4fea-8786-f4e3d5ee6bf4
 title: Table AppSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450ab07a397366ca01e664b88321942e4f6a7800cd9e04c4d0cbbe048eed8b87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9419a768a51364b4f22444288e6728a87289aa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092638"
 ---
 # <a name="appsearch-table"></a>Table AppSearch
 
@@ -48,7 +48,7 @@ La \_ colonne signature contient un identificateur unique appelé signature et e
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’action [AppSearch](appsearch-action.md) dans les [*tables de séquence*](s-gly.md) traite les informations de cette table. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

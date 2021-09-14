@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 3beb3498cf9e3d2873ea7dcfe3a108618eeddb513bc8207d1e819cce2fe976d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b202a536f3c20126c05f072c029fe316f90ce4fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118891002"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013585"
 ---
 # <a name="win32_encryptablevolume-class"></a>\_Classe EncryptableVolume Win32
 
@@ -87,7 +87,7 @@ La classe **Win32 \_ EncryptableVolume** possède ces méthodes.
 | [**DisableKeyProtectors**](disablekeyprotectors-win32-encryptablevolume.md)                                             | Désactive tous les protecteurs de clé associés à ce volume.<br/>                                                                                                                                                                                                                   |
 | [**EnableAutoUnlock**](enableautounlock-win32-encryptablevolume.md)                                                     | Permet de déverrouiller automatiquement un volume de données lorsque le volume est monté.<br/>                                                                                                                                                                                              |
 | [**EnableKeyProtectors**](enablekeyprotectors-win32-encryptablevolume.md)                                               | Active tous les protecteurs de clé désactivés.<br/>                                                                                                                                                                                                                                       |
-| [**Encrypt**](encrypt-win32-encryptablevolume.md)                                                                       | Commence le chiffrement d’un volume entièrement déchiffré ou reprend le chiffrement d’un volume partiellement chiffré.<br/>                                                                                                                                                                       |
+| [**Codage**](encrypt-win32-encryptablevolume.md)                                                                       | Commence le chiffrement d’un volume entièrement déchiffré ou reprend le chiffrement d’un volume partiellement chiffré.<br/>                                                                                                                                                                       |
 | [**EncryptAfterHardwareTest**](encryptafterhardwaretest-win32-encryptablevolume.md)                                     | Commence le chiffrement d’un volume entièrement déchiffré après un test matériel.<br/>                                                                                                                                                                                                       |
 | [**FindValidCertificates**](findvalidcertificates-win32-encryptablevolume.md)                                           | Énumère tous les certificats sur le système qui correspondent aux critères indiqués et retourne une liste d’empreintes numériques.<br/>                                                                                                                                                             |
 | [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md)                                               | Indique l’état du chiffrement ou du déchiffrement sur le volume.<br/>                                                                                                                                                                                                        |
@@ -111,7 +111,7 @@ La classe **Win32 \_ EncryptableVolume** possède ces méthodes.
 | [**IsAutoUnlockKeyStored**](isautounlockkeystored-win32-encryptablevolume.md)                                           | Indique s’il existe dans le volume du système d’exploitation en cours d’exécution toutes les clés externes et les informations associées qui peuvent être utilisées pour déverrouiller automatiquement des volumes de données.<br/>                                                                                           |
 | [**IsKeyProtectorAvailable**](iskeyprotectoravailable-win32-encryptablevolume.md)                                       | Indique si les protecteurs sont disponibles pour le volume.<br/>                                                                                                                                                                                                                 |
 | [**IsNumericalPasswordValid**](isnumericalpasswordvalid-win32-encryptablevolume.md)                                     | Indique si le mot de passe numérique répond aux exigences de format spéciales.<br/>                                                                                                                                                                                            |
-| [**Verrou**](lock-win32-encryptablevolume.md)                                                                             | Démonte le volume et supprime la clé de chiffrement du volume de la mémoire système.<br/>                                                                                                                                                                                           |
+| [**Verrouillage**](lock-win32-encryptablevolume.md)                                                                             | Démonte le volume et supprime la clé de chiffrement du volume de la mémoire système.<br/>                                                                                                                                                                                           |
 | [**PauseConversion**](pauseconversion-win32-encryptablevolume.md)                                                       | Suspend le chiffrement ou le déchiffrement d’un volume.<br/>                                                                                                                                                                                                                           |
 | [**PrepareVolume**](preparevolume-win32-encryptablevolume.md)                                                           | Crée un volume BitLocker avec le type de système de fichiers spécifié du volume de détection.<br/>                                                                                                                                                                                    |
 | [**ProtectKeyWithCertificateFile**](protectkeywithcertificatefile-win32-encryptablevolume.md)                           | Valide l’identificateur d’objet (OID) d’utilisation améliorée de la clé (EKU) du fichier de certificat fourni.<br/>                                                                                                                                                                           |
@@ -229,11 +229,11 @@ Pour activer les connexions à distance, le trafic WMI distant doit être autori
 
 Le paramètre de sécurité espace de noms par défaut comprend une entrée pour permettre la modification par défaut. Pour plus d’informations sur l’audit de l’espace de noms WMI, consultez [accès aux espaces de noms WMI](../wmisdk/access-to-wmi-namespaces.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

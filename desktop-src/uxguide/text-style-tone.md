@@ -4,12 +4,12 @@ description: La tonalité en écriture est l’attitude que le rédacteur transm
 ms.assetid: b9a03709-301f-46de-b4b4-0dd1214c0ed7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 20bd9fff1093607bfc554eb458f0e1904fda0a496772ce244922d03e9890d982
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6009491b54de9035b253a10b9fd48f2233947104
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119841682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295282"
 ---
 # <a name="style-and-tone"></a>Style et ton
 
@@ -194,7 +194,7 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
 -   Une terminologie cohérente favorise l’apprentissage et une meilleure compréhension des concepts techniques. L’incohérence oblige les utilisateurs à déterminer si les différents mots et actions ont la même signification.
 
-    Exemples :
+    Exemples :
 
     basculer, basculer
 

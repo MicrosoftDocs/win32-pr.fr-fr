@@ -4,12 +4,12 @@ ms.assetid: e8c66bad-f594-4926-b3b4-c8b245dcfa83
 title: Gestion des sources d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e7555bc9595ba10d9ce569c15c2a8138a05348e503d86a025f0cfe1783843fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7fc45253af20ae5f9792ee3a5ec7dd318c80295
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011918"
 ---
 # <a name="managing-installation-sources"></a>Gestion des sources d’installation
 

@@ -4,12 +4,12 @@ description: Le modèle actuel mis en file d’attente est déconseillé
 ms.assetid: 271CD4F7-0992-47DB-AF5A-B77570EF681A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7cb1d4d07a824c2c6f9d0136259aec98b89c53e1320ceb6402241f881e312fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5713009cd5cd3a575d0d634f81fce7a289d1c1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118211344"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295270"
 ---
 # <a name="queued-present-model-is-being-deprecated"></a>Le modèle actuel mis en file d’attente est déconseillé
 

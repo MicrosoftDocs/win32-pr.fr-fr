@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 0dbf88d02e59cca59e4bb3ee14ffd90c1741478f8b6a90ea296087388b9bb099
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 404b45a6fe5193a0550b3ecc11feeae264125110
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295839"
 ---
 # <a name="storage-properties"></a>Propriétés de stockage
 
@@ -43,7 +43,7 @@ Windows Les appareils mobiles prennent en charge les propriétés de stockage su
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

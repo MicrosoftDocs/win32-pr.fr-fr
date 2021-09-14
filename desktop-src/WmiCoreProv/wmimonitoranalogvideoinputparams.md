@@ -22,11 +22,11 @@ api_type:
 api_location:
 - WmiProv.dll
 ms.openlocfilehash: 900bf4353de0c81acb5aa2c69578256b0212a2c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013092"
 ---
 # <a name="wmimonitoranalogvideoinputparams-class"></a>WmiMonitorAnalogVideoInputParams, classe
 
@@ -235,7 +235,7 @@ Indique si la synchronisation sur le vert est prise en charge.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

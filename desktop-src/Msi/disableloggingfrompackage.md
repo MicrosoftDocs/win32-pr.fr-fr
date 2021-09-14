@@ -4,12 +4,12 @@ ms.assetid: 775d5cd8-75c5-46d6-919d-01d2cd6565e6
 title: DisableLoggingFromPackage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac9e1469132ac7d4dd9a93e1a6e3b855f16764d0014dd9126333147ed300fb1a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7848f3bf330d93c4e41a00c238d2bb56857a7cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119745409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091530"
 ---
 # <a name="disableloggingfrompackage"></a>DisableLoggingFromPackage
 

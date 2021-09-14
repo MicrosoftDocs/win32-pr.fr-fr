@@ -5,16 +5,16 @@ ms.assetid: 08BA5B8D-A7C6-4B63-A6E9-5CF3D47D934F
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 70744aa7bcf1665328080437511632a87cf0903f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295987"
 ---
 # <a name="experiences"></a>Expériences
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les expériences sont les expériences courantes et les cas d’utilisation de toutes les applications, comme la configuration, la première exécution et l’impression. Découvrez les meilleures pratiques pour la création de ces expériences et la communication de votre personnalisation d’application.
 

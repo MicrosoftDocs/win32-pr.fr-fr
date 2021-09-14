@@ -5,11 +5,11 @@ title: Accélération des transactions en avertissant l’objet racine
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 21f3865382434ee070db753a0f9113577531558d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310930"
 ---
 # <a name="speeding-transactions-by-notifying-the-root-object"></a>Accélération des transactions en avertissant l’objet racine
 
@@ -21,7 +21,7 @@ Toutefois, à moins que l’objet qui appelle [**SetAbort**](/windows/desktop/ap
 
 Bien qu’il existe de nombreuses approches que vous pouvez prendre pour gérer les erreurs, votre approche doit clairement coordonner les communications entre les objets intérieurs et l’objet racine.
 
-Les fragments de code Visual Basic suivants montrent une approche de la gestion des erreurs. Dans le premier fragment, un objet intérieur appelle [**SetAbort**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setabort), génère une erreur et génère un message d’erreur, comme suit :
+les fragments de code Visual Basic suivants montrent une approche de la gestion des erreurs. Dans le premier fragment, un objet intérieur appelle [**SetAbort**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setabort), génère une erreur et génère un message d’erreur, comme suit :
 
 ``` syntax
 Dim ObjCtx As ObjectContext

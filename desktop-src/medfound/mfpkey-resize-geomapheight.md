@@ -4,12 +4,12 @@ ms.assetid: f5e73e9b-14ff-4185-a33a-4fee5c5b4ef9
 title: MFPKEY_RESIZE_GEOMAPHEIGHT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71da78f3e404a4aca04e4ee02557d1a81934a1f8bdd4fedb4b6cf8923ec531b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d9419be625d4de437572c69115915e1e62d555c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296287"
 ---
 # <a name="mfpkey_resize_geomapheight-property"></a>MFPKEY \_ REdimensionner la \_ propriété GEOMAPHEIGHT
 
@@ -27,7 +27,7 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

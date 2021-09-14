@@ -5,11 +5,11 @@ title: Attribut MF_MEDIA_ENGINE_EXTENSION (Mfmediaengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4496b40e9b69091b588ad38ad47d943dce5e1966
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104393863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295411"
 ---
 # <a name="mf_media_engine_extension-attribute"></a>\_Attribut d' \_ extension du moteur multimédia MF \_
 
@@ -31,14 +31,14 @@ Cet attribut est utilisé avec la méthode [**IMFMediaEngineClassFactory :: Cre
 
 Cet attribut est facultatif. Utilisez-le pour fournir un objet qui implémente l’interface [**IMFMediaEngineExtension**](/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension) . Cette interface permet à l’application de charger des ressources multimédias personnalisées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Mfmediaengine. h</dt> </dl> |
 
 

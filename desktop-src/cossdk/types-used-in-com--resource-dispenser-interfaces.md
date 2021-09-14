@@ -4,12 +4,12 @@ ms.assetid: f4b3a828-3d66-455c-9b0c-30086f3ffe23
 title: Types utilisés dans les interfaces de distributeur de ressources COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e98473ce108ea280532c2188e911b488e42669b98273b14fc229d003905b581
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81c4d0f62ec7c61a9bc0f189c1ee02d1868a3242
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118305229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310830"
 ---
 # <a name="types-used-in-com-resource-dispenser-interfaces"></a>Types utilisés dans les interfaces de distributeur de ressources COM+
 

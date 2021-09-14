@@ -4,12 +4,12 @@ ms.assetid: c5292a3c-57bb-4203-96a1-6d747f554178
 title: ICE27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fadedada0b2bd7ae936e12ad4c980f4ab0394c55e711db286fa6312ba446b9fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4eb4b90b313f5f78874fb93ce9d32c3650b97064
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021586"
 ---
 # <a name="ice27"></a>ICE27
 
@@ -25,7 +25,7 @@ L’action personnalisée ICE27 valide les éléments suivants :
 
 | Section table de séquence | Plage dans la séquence d’action                                                                       | Actions appartenant à la section                                                                                                                                                                                                                     |
 |------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Recherche                 | {Start} à [CostInitialize](costinitialize-action.md)                                         | Actions qui recherchent des applications existantes. [AppSearch](appsearch-action.md)<br/> [CCPSearch](ccpsearch-action.md)<br/>                                                                                                         |
+| Rechercher                 | {Start} à [CostInitialize](costinitialize-action.md)                                         | Actions qui recherchent des applications existantes. [AppSearch](appsearch-action.md)<br/> [CCPSearch](ccpsearch-action.md)<br/>                                                                                                         |
 | Coûts                | Action [CostInitialize](costinitialize-action.md) à [CostFinalize](costfinalize-action.md)  | Actions qui effectuent des [coûts de fichier](file-costing.md). [CostInitialize](costinitialize-action.md)<br/> [FileCost](filecost-action.md)<br/> [CostFinalize](costfinalize-action.md)<br/>                                           |
 | Sélection              | [CostFinalize](costfinalize-action.md) à [InstallValidate](installvalidate-action.md)       | Actions qui définissent des dossiers ou des États de fonctionnalités. [Action SetODBCFolders](setodbcfolders-action.md)<br/>                                                                                                                                        |
 | Exécution              | [InstallValidate](installvalidate-action.md) à [InstallFinalize](installfinalize-action.md) | Actions de script, telles que l’inscription, la publication, l’installation (où vous copiez des fichiers). Notez que l' [action InstallFinalize](installfinalize-action.md) doit se trouver dans la table si et seulement s’il existe des actions dans la section exécution.<br/> |
@@ -43,11 +43,11 @@ ICE27 valide les tables suivantes :
 -   [InstallUISequence](installuisequence-table.md)
 -   [InstallExecuteSequence](installexecutesequence-table.md)
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE27 publie un message d’erreur s’il existe des tables de séquence dans le package avec une organisation ou un séquençage d’action non valide.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 
 

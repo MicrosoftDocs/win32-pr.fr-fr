@@ -4,12 +4,12 @@ ms.assetid: 00b72389-1f0e-469d-af07-db515071e0fb
 title: MFPKEY_REENCQPREF, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bef455a49b5ab841f76e5e81aeb1d308142d9a743f421e9de3d89662a1d45b3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b824cdb65eed5c8402ee4164d14091c4223295a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973478"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296291"
 ---
 # <a name="mfpkey_reencqpref-property"></a>MFPKEY \_ propriété REENCQPREF
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

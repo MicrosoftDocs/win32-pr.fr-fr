@@ -4,12 +4,12 @@ ms.assetid: 8e2d7c8d-5734-49aa-ad29-16d4d32cccb4
 title: Table de conditions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09d9ccb265d69f99a58e155657a0e9d058ba61a920088184ec2b67c3e4506a0b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 74d9a3c27d43b7d71bc8e5b0593771bc86a3ca4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092062"
 ---
 # <a name="condition-table"></a>Table de conditions
 
@@ -22,7 +22,7 @@ La table de condition contient les colonnes suivantes.
 | Colonne    | Type                         | Clé | Nullable |
 |-----------|------------------------------|-----|----------|
 | Fonctionnalité\_ | [Identificateur](identifier.md) | O   | N        |
-| Niveau     | [Integer](integer.md)       | O   | N        |
+| Level     | [Integer](integer.md)       | O   | N        |
 | Condition | [Condition](condition.md)   | N   | O        |
 
 
@@ -58,7 +58,7 @@ Pour plus d’informations sur la syntaxe des instructions conditionnelles, cons
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fonctionnalité peut être désactivée définitivement en affectant à la colonne niveau la valeur 0.
 

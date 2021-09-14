@@ -20,12 +20,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 65edfa1c49ae1f6a0573110a06d910d04c31e42d4744e88578f72220bf020272
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00c4daa26d18294c00aad7b4926a017d2f3f6343
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311086"
 ---
 # <a name="using-playlists-in-windows-media-download-packages-deprecated"></a>utilisation des sélections dans les Packages de téléchargement de médias Windows (déconseillés)
 

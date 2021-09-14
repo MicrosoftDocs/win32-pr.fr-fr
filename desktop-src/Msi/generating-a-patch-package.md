@@ -4,12 +4,12 @@ ms.assetid: 7fa661aa-d52c-4b08-961f-90ec778f02ff
 title: Génération d’un package de correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0577c678bbb378da425ff438a0e165dcba95d6e1fc1eecc1d9c311fe2c78bca2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0ef64ac66cd0201ae99080ec86e32230bc88407b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021689"
 ---
 # <a name="generating-a-patch-package"></a>Génération d’un package de correctifs
 

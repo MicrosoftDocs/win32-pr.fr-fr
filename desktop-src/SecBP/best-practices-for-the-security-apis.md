@@ -4,12 +4,12 @@ ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: Meilleures pratiques pour les API de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 934bf52d99456d599f91ec23c6e5472bb4e130565cf1acb56763f29f6396c0b6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fa821cfbaa9874d17559ad0e81f636fbaddd14f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119622879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011189"
 ---
 # <a name="best-practices-for-the-security-apis"></a>Meilleures pratiques pour les API de sécurité
 

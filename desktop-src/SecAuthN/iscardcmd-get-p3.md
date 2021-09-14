@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 4ebf19856126d65824b9214973aa90412475afeecf707a17f9b9434d9852945f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1072fc9c4ca3b2a238cc8893104df1a831c99c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011226"
 ---
 # <a name="iscardcmdget_p3-method"></a>ISCardCmd :: obtient \_ P3, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers l’octet qui est le P3 de l’APDU au retour.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre P3 est en lecture seule et ne peut donc pas être défini.
 
@@ -95,7 +95,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

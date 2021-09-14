@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 16e836be1610e8c2399a263120d847f3fada4b638332ee81914031f7a8e3ffb7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2d8269112325d470cae59cff6e615f04fbdfab91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010134"
 ---
 # <a name="cbaseallocatorsetnotify-method"></a>Méthode CBaseAllocator. SetNotify
 
@@ -51,17 +51,17 @@ Pointeur vers l’interface [**IMemAllocatorNotifyCallbackTemp**](/windows/deskt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode implémente la méthode [**IMemAllocatorCallbackTemp :: SetNotify**](/windows/desktop/api/Strmif/nf-strmif-imemallocatorcallbacktemp-setnotify) . L’Allocator n’expose pas l’interface [**IMemAllocatorCallbackTemp**](/windows/desktop/api/Strmif/nn-strmif-imemallocatorcallbacktemp) , sauf si l’indicateur *fEnableReleaseCallback* a la valeur **true** dans le constructeur [**CBaseAllocator**](cbaseallocator.md) .
 
 Cette méthode définit la variable de membre [**CBaseAllocator :: m \_ pNotify**](cbaseallocator-m-pnotify.md) sur la valeur *pNotify* et incrémente le décompte de références sur l’interface. Si *m \_ pNotify* n’est pas **null**, la méthode **ReleaseBuffer** de l’allocateur appelle [**IMemAllocatorNotifyCallbackTemp :: NotifyRelease**](/windows/desktop/api/Strmif/nf-strmif-imemallocatornotifycallbacktemp-notifyrelease). Consultez la section Notes dans cette méthode pour plus d’informations sur l’implémentation du rappel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

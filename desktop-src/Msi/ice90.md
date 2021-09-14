@@ -4,12 +4,12 @@ ms.assetid: 47565d9b-c3c2-4a5c-8f91-2b3912a63b47
 title: ICE90
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fba38ba074bf939431f497e8aab73ec0640d7bbc66fb0998498ce190d99fd92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7b4063d06aa5a0a8688e2a411040d4b64f58f75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021461"
 ---
 # <a name="ice90"></a>ICE90
 
@@ -17,7 +17,7 @@ ICE90 publie un avertissement s’il détecte que le répertoire d’un raccourc
 
 Cette action personnalisée ICE valide la table de raccourcis et utilise la table de répertoires. Si la table de répertoires n’est pas présente, elle retourne sans valider la table de raccourcis et ne publie aucune erreur ou avertissement.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE90 publie l’avertissement suivant.
 

@@ -4,12 +4,12 @@ ms.assetid: 877c5890-588d-4978-8fb2-b4ecf4134068
 title: Objet de classe d’événements COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5650969895cdfa63f07e6ba77e617a962335101d4f56aeb21a5b439b27daaf1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aae397f647354ac24395fa073365160829a687a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118546151"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310885"
 ---
 # <a name="the-com-event-class-object"></a>Objet de classe d’événements COM+
 

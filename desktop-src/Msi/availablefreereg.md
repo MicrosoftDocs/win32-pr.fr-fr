@@ -4,12 +4,12 @@ ms.assetid: 95afc397-2f28-4ab9-8d95-d071c2f1f498
 title: Propriété AVAILABLEFREEREG
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b45508494f9ba87ec8261b38ea18f83d0b3ad9796f7390b70349211cbf244df3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 517073748195c47ee27b68adbe70d6c69f3f585b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092426"
 ---
 # <a name="availablefreereg-property"></a>Propriété AVAILABLEFREEREG
 
@@ -19,7 +19,7 @@ La valeur maximale de la propriété **AVAILABLEFREEREG** est de 2 millions kilo
 
 cette propriété est définie uniquement sur Windows 2000.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété **AVAILABLEFREEREG** doit être définie sur une valeur suffisamment grande pour garantir un espace suffisant dans le registre pour toutes les informations d’inscription ajoutées par l’installation. La valeur minimale requise pour garantir un espace suffisant dépend de l’emplacement de l' [action AllocateRegistrySpace](allocateregistryspace-action.md) dans la séquence d’action, car le programme d’installation augmente automatiquement l’espace en fonction des besoins lors de l’enregistrement des informations dans les tables [Registry](registry-table.md), [Class](class-table.md), [Selfreg](selfreg-table.md), [extension](extension-table.md), [MIME](mime-table.md)et [verb](verb-table.md) . Le programme d’installation n’augmente pas l’espace total du Registre à la quantité spécifiée par **AVAILABLEFREEREG** jusqu’à atteindre AllocateRegistrySpace dans la séquence d’action.
 
@@ -27,7 +27,7 @@ Si AllocateRegistrySpace est l’une des premières actions de la séquence d’
 
 Si l’action AllocateRegistrySpace peut être créée dans la séquence d’action après toutes les [actions standard](standard-actions.md) qui écrivent des données d’inscription, telles que [WriteRegistryValues](writeregistryvalues-action.md) et [RegisterClassInfo](registerclassinfo-action.md), la valeur de **AVAILABLEFREEREG** doit uniquement être définie sur l’espace nécessaire pour enregistrer des actions personnalisées, inscrire des bibliothèques de types et toute autre information non encore inscrite dans les tables.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

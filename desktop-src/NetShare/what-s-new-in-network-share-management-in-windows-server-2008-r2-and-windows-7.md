@@ -4,12 +4,12 @@ ms.assetid: 85b98a7e-7897-4bf2-b56f-37785261b9da
 title: nouveautés de la gestion des partages réseau dans Windows Server 2008 R2 et Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97769d34ba1428986ee4d23b8fc6f9c1a7e986750b7f2aaada673a438e682502
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 10fec60eea0898674ddcf0ccee88b87c7dfbcf44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021006"
 ---
 # <a name="whats-new-in-network-share-management-in-windows-server-2008-r2-and-windows-7"></a>nouveautés de la gestion des partages réseau dans Windows Server 2008 R2 et Windows 7
 

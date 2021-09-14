@@ -4,12 +4,12 @@ ms.assetid: d2c6afde-cede-4ed1-ac1a-8ddb1bc73ec2
 title: Ajout et suppression d’une application et absence de trace dans le registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfa6d3884a91efefac9cab1409a36e1843941469aae9822154be5534313b05c2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 36804633a51e0e2f4beafc37e9f830e1743a5ac0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092861"
 ---
 # <a name="adding-and-removing-an-application-and-leaving-no-trace-in-the-registry"></a>Ajout et suppression d’une application et absence de trace dans le registre
 

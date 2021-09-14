@@ -4,12 +4,12 @@ ms.assetid: 3434ea7d-edc3-a8eb-3481-9e76ba724800
 title: Fonctions de chargement de vecteurs de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51842e117cc55cc94e93bb5e06179d735b6e6666af138bc6c23ede9ed928028d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fe794550cc3363101897c2a44fed5965dd9db31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297102"
 ---
 # <a name="directxmath-library-vector-load-functions"></a>Fonctions de chargement de vecteurs de la bibliothèque DirectXMath
 

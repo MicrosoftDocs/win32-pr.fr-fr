@@ -4,12 +4,12 @@ description: la procédure suivante ajoute des fichiers d’en-tête et de class
 ms.assetid: f342d6af-2835-446f-8628-8b1008a2e613
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b06f6640ed1812745d8a73f2e9da80070fb844b5e1dd6a25cb6e03c3caae2e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f342d9847c2d7ecddecc2ba20af7b94052818cb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118311343"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295771"
 ---
 # <a name="adding-an-activex-control-to-a-visual-c-project"></a>ajout d’un contrôle ActiveX à un Visual C++ Project
 

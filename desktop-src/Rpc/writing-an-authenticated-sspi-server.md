@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, écriture d’un serveur SSPI authentifié
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 462f153905d6b654a0533c7bd05bff0e9627869d6910fb1fea05fe9340b788a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19b1cb06cfc626bc8130f3c4b0cee0a7b6d7893e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011366"
 ---
 # <a name="writing-an-authenticated-sspi-server"></a>Écriture d’un serveur SSPI authentifié
 

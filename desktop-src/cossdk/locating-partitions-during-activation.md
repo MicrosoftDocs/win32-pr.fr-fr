@@ -5,11 +5,11 @@ title: Recherche de partitions pendant l’activation
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 58e8912c8277d79c1a20300a1a880644801d0bcb
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104562136"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310997"
 ---
 # <a name="locating-partitions-during-activation"></a>Recherche de partitions pendant l’activation
 
@@ -69,7 +69,7 @@ HRESULT hr = CoGetObject(
 
 
 
-Dans Visual Basic Code, la syntaxe d’un moniker de partition est la suivante :
+dans Visual Basic code, la syntaxe d’un moniker de partition est la suivante :
 
 
 ```VB
@@ -78,7 +78,7 @@ GetObject("partition:partitionGUID/new:CLSID") As Object
 
 
 
-L’exemple suivant montre un extrait de code Visual Basic, dans lequel un moniker de partition est utilisé en tant qu’argument de la fonction **GetObject** :
+l’exemple suivant montre un extrait de code Visual Basic, dans lequel un moniker de partition est utilisé en tant qu’argument de la fonction **GetObject** :
 
 
 ```VB

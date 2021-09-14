@@ -5,11 +5,11 @@ title: ICE80
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5d5233f260e9cc248bdb2d0c19b47956a2b7dbe1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021483"
 ---
 # <a name="ice80"></a>ICE80
 
@@ -17,7 +17,7 @@ ICE80 valide que la valeur de la propriété de [**Résumé de modèle**](templa
 
 ICE80 vérifie également que l’ID de langue spécifié par la propriété [**ProductLanguage**](productlanguage.md) doit être contenu dans la propriété [**Résumé du modèle**](template-summary.md) .
 
-Pour plus d’informations, consultez [Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md).
+pour plus d’informations, consultez [Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md).
 
 ## <a name="result"></a>Résultats
 
@@ -25,7 +25,7 @@ ICE80 publie les erreurs suivantes.
 
 
 
-| Error                                                                                                                                                                   | Description                                                                                                                                                                                                               |
+| Erreur                                                                                                                                                                   | Description                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ce package contient le composant 64 bit « \[ 1 \] », mais la propriété [**Résumé du modèle**](template-summary.md) ne contient pas Intel64, x64 ou Arm64.                    | La [table Component](component-table.md)contient un composant avec l’attribut **msidbComponentAttributes64bit** et la propriété [**Résumé du modèle**](template-summary.md) ne contient pas Intel64, x64 ou Arm64.        |
 | Ce package contient le script d’action personnalisée 64 bits « \[ 1 \] », mais la propriété [**Résumé du modèle**](template-summary.md) ne contient pas Intel64, x64 ou Arm64.         | La [table CustomAction](customaction-table.md) contient une action personnalisée de script avec **msidbCustomActionType64BitScript** mais la propriété [**Résumé du modèle**](template-summary.md) ne contient pas Intel64, x64 ou Arm64. |
@@ -50,7 +50,7 @@ ICE80 publie les erreurs suivantes.
 [Référence ICE](ice-reference.md)
 </dt> <dt>
 
-[Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
+[Windows Programme d’installation sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
 </dt> </dl>
 
  

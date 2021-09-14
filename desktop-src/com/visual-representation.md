@@ -4,12 +4,12 @@ description: Un contrôle prend en charge le positionnement et l’affichage lui
 ms.assetid: a7940560-360c-4c0d-9ac1-d051adb0b83e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1037b9f13d3122d19ec5ca429b2189426ac7ff69145e087828571c62aeb6f741
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9711dccbc7aa17f0b4a2ff228b2e2e4421e5083b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118549427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095453"
 ---
 # <a name="visual-representation"></a>Représentation visuelle
 

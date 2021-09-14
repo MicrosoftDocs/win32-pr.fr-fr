@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 1f4ee85e2e9b1b7288aa8954c42d76c33b3be29b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519133"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010266"
 ---
 # <a name="esentslvrootpathinvalidexception-class"></a>EsentSLVRootPathInvalidException, classe
 
@@ -68,7 +68,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentSLVRootPathInvalidException](./esentslvrootpathinvalidexception-members.md)
 

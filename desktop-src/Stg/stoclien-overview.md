@@ -6,12 +6,12 @@ keywords:
 - Présentation de StoClien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a28c8d0f4740b5a1d5f93934fb055d16e2ed9d843bcb11b210e6cde9589d53b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee37f6f84cf981bda637abbd96ff8e8f0314d8ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013547"
 ---
 # <a name="stoclien-overview"></a>Présentation de StoClien
 
@@ -19,7 +19,7 @@ ms.locfileid: "119661849"
 
 L’objectif principal de l’exemple [StoClien](structured-storage-client-sample--stoclien-.md) est la manière dont le client utilise le stockage structuré et comment il demande à un composant serveur d’utiliser ce stockage. L’exemple StoClien illustre un modèle de programmation de services de stockage structuré.
 
-## <a name="functionality"></a>Fonctionnalités
+## <a name="functionality"></a>Fonctionnalité
 
 La fonctionnalité [StoClien](structured-storage-client-sample--stoclien-.md) est similaire aux exemples « Scribble » dans certaines versions de Microsoft Visual C++. La différence entre l’exemple StoClien et l’exemple [StoServe](structured-storage-server-sample--stoserve-.md) est une architecture interne basée sur la technologie com. Une distinction architecturale claire est conservée entre le client COM et le serveur COM.
 
@@ -53,7 +53,7 @@ MSDEV STOCLIEN. DSP
 
 vous pouvez également double-cliquer sur le fichier Stoclient. dsp dans Windows Explorer pour charger un exemple de projet dans Visual Studio. dans Visual Studio, vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage. n’oubliez pas que, dans le cadre du kit de développement logiciel (SDK) du serveur, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour plus d’informations, consultez [Comment générer des exemples](how-to-build-samples.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple de client et d’autres exemples associés doivent être compilés avant que vous puissiez exécuter le client. Pour plus d’informations sur la création des exemples, consultez [Comment générer des exemples](how-to-build-samples.md). Si vous avez généré les exemples appropriés, Stoclien.exe est l’exécutable client à exécuter pour cet exemple.
 

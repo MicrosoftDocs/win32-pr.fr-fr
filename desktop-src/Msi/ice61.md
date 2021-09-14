@@ -4,12 +4,12 @@ ms.assetid: 9f6834c6-74eb-4219-8111-7b722ea41a3a
 title: ICE61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c772a076decaa385d01047daa45871aeeaf7898d4cf3347606c4066d1f7f2b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 89f5a685d5b0a4f2bd5ce8dac70a738cbe2e0b9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119580979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021520"
 ---
 # <a name="ice61"></a>ICE61
 
@@ -25,11 +25,11 @@ ICE61 vérifie la table de mise à niveau pour s’assurer que les conditions su
 
 Si vous ne corrigez pas un avertissement ou une erreur signalée par ICE61, les problèmes liés à la mise à niveau de votre application sont généralement problématiques. En fonction de l’erreur exacte, il peut y avoir n’importe quoi, en laissant les fichiers de l’ancienne version en arrière-plan, en supprimant les fichiers de l’ancienne version, même s’ils sont requis par la nouvelle application, ou en cas de défaillance complète de la mise à niveau.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE61 publie un avertissement ou une erreur si l’une des conditions ci-dessus n’est pas remplie.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE61 signale les erreurs et avertissements suivants pour les exemples indiqués.
 

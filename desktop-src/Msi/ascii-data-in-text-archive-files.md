@@ -4,12 +4,12 @@ ms.assetid: 105d2b85-c6e1-4719-83b4-1693c14ef4f4
 title: Données ASCII dans les fichiers d’archive de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da7fa327d19b59793862bd2c06ce814b17979e8e8a6f72d41b1af677b715b4ea
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d43deeb7918b75a71770ab9d09535972f6e8bb4b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092558"
 ---
 # <a name="ascii-data-in-text-archive-files"></a>Données ASCII dans les fichiers d’archive de texte
 
@@ -21,7 +21,7 @@ Lorsqu’une table qui contient uniquement des caractères ASCII est exportée v
 
 
 
-| Name  | Données      |
+| Nom  | Données      |
 |-------|-----------|
 | Livres | Books. IBD |
 | Voitures  | Cars. IBD  |

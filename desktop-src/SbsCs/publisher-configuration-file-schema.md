@@ -4,12 +4,12 @@ ms.assetid: 501151ee-67f5-4127-b048-91ea4a42f9e7
 title: Publisher Schéma du fichier de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0e7d2b794d2fadd8e7906b2e4eeacc252fd6b6b802898070185ac2ae4c97f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88a8e3d86adc71efda144bb5eed72876bf99911a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141992"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011338"
 ---
 # <a name="publisher-configuration-file-schema"></a>Publisher Schéma du fichier de configuration
 

@@ -4,12 +4,12 @@ ms.assetid: e647388e-5211-463d-9e3e-b502af01fc0c
 title: Appliquer une transformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 001737b1a08ea33ce233fa0aad90e96e23a1079f2c28f9d6308219cba270f6ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9e86acc495fc2a0bb8dff562832e58d29483256
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118381608"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092685"
 ---
 # <a name="apply-a-transform"></a>Appliquer une transformation
 

@@ -9,12 +9,12 @@ keywords:
 - NURBS (non-uniform rational B-spline) OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c1b366571be7a9210576e78540c77970667aca2f37ec8a092de07edb97493d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f85e9a2045c417007c34d714ae6635ebfaf1180
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118932769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013985"
 ---
 # <a name="using-nurbs-curves-and-surfaces"></a>Utilisation des courbes et des surfaces NURBS
 

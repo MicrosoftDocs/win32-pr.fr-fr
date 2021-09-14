@@ -7,12 +7,12 @@ keywords:
 - WNet WNet, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af41dc376324836d0d128eee8149ffd4eb572868e10db7796c30cbff196e44d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 806ca0009cc4702aceaddf2a9670c9d490608889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311070"
 ---
 # <a name="using-windows-networking"></a>utilisation de la mise en réseau Windows
 

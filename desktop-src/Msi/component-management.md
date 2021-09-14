@@ -4,12 +4,12 @@ ms.assetid: fbb139e3-c81b-44fc-9e92-bada0be02862
 title: Gestion des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a818e6ceab0ed793ded2bdd0034d9fe8355d16fbbea1d5c78d521f4682b7c373
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aeff6c25556879429330170ec8190b1296576517
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092106"
 ---
 # <a name="component-management"></a>Gestion des composants
 
