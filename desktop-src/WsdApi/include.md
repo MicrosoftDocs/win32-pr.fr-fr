@@ -4,12 +4,12 @@ ms.assetid: 450ccfa6-b189-4557-bcb9-4aa29ac2356e
 title: include, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8029f58d9d1627a315fcfd02aa4f311d0a717361abf587aa92c52134b78e5958
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c8237ec865cd3cfbb80f500358e8f363be8f230
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119856589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852387"
 ---
 # <a name="include-element"></a>include, élément
 
@@ -30,7 +30,7 @@ Comprend le contenu d’une macro ou d’un fichier dans la sortie générée.
 | Attribut            | Type                         | Obligatoire      | Description                                              |
 |----------------------|------------------------------|---------------|----------------------------------------------------------|
 | **file**<br/>  | chaîne de caractères \_<br/> | Non<br/> | Chemin d’accès au fichier à inclure.<br/> <br/>  |
-| **macro**<br/> | chaîne de caractères \_<br/> | Non<br/> | Nom de la macro à inclure.<br/> <br/> |
+| **macrovirus**<br/> | chaîne de caractères \_<br/> | Non<br/> | Nom de la macro à inclure.<br/> <br/> |
 
 
 
@@ -48,7 +48,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut de **macro** ou l’attribut de **fichier** doit être spécifié. Ne spécifiez pas les deux attributs.
 

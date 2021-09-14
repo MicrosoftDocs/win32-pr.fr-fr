@@ -3,7 +3,7 @@ title: Message EM_SCROLL (winuser. h)
 description: Fait défiler le texte verticalement dans un contrôle d’édition multiligne. Ce message revient à envoyer un message WM \_ VSCROLL au contrôle d’édition. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: 616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97
 keywords:
-- EM_SCROLL les contrôles de message Windows
+- EM_SCROLL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 09eb185fb14ef866ab0e7ea8c8064445193347d1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006426"
 ---
 # <a name="em_scroll-message"></a>\_Message de défilement em
 
@@ -56,7 +56,7 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est réussi, le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) de la valeur de retour est **true** et le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est le nombre de lignes que la commande défile. Le nombre retourné peut ne pas être le même que le nombre réel de lignes défilantes si le défilement se déplace au début ou à la fin du texte. Si le paramètre *wParam* spécifie une valeur non valide, la valeur de retour est **false**.
 
@@ -66,14 +66,14 @@ Pour faire défiler jusqu’à la position d’un caractère ou d’une ligne sp
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

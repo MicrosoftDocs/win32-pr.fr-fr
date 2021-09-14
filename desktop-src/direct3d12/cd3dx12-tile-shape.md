@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b02f699ab06ef93f3eeace3ce515b0947030e4824e2cb0fa51034c3e33f51dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 998a14e1bd4898d83d049ea50bc056abaeb68544
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119987869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915447"
 ---
 # <a name="cd3dx12_tile_shape-structure"></a>Structure de la \_ forme de vignette CD3DX12 \_
 
@@ -78,7 +78,7 @@ Définit le & opérateur de passage par référence pour le type de structure pa
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

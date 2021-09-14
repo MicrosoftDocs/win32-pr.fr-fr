@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 941aceb8c8f91657c7f78aba3d83a627fc413ed20d71217c933c6fba9b6f39e2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8f235fb054643623510ea23e73001aaeb070be3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006503"
 ---
 # <a name="em_formatrange-message"></a>\_Message FormatRange em
 
@@ -43,17 +43,17 @@ Structure [**FormatRange**](/windows/desktop/api/Richedit/ns-richedit-formatrang
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne l’index du dernier caractère qui tient dans la région, plus 1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est généralement utilisé pour mettre en forme le contenu d’un contrôle RichEdit pour un périphérique de sortie tel qu’une imprimante.
 
 Après avoir utilisé ce message pour mettre en forme une plage de texte, il est important de libérer les informations mises en cache en renvoyant **\_ FormatRange em** , mais avec *lParam* défini sur **null**; sinon, une fuite de mémoire se produit. De même, après avoir utilisé ce message pour un appareil, vous devez libérer les informations mises en cache avant de l’utiliser à nouveau pour un autre appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -75,7 +75,7 @@ Après avoir utilisé ce message pour mettre en forme une plage de texte, il est
 [**\_DISPLAYBAND em**](em-displayband.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Impression de contrôles RichEdit](printing-rich-edit-controls.md)

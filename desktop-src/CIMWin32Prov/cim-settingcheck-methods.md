@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_SettingCheck
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf2f6120c0567f19e76ce3c55e6e8f9d5556715d67fe3a6eaf7b17937878a7e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c447938946b1b63ba8272159d37cb52be5c3d196
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006566"
 ---
 # <a name="cim_settingcheck-methods"></a>\_Méthodes SETTINGCHECK CIM
 

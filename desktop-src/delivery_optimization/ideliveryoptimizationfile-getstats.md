@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f4e2f0a3b680e682944740cb570bfb4889b22ba8e7ec56d3aefc9e34fcdd6a37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08c5cff0672130049c325a00cb63c8dbc5c2e8ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915656"
 ---
 # <a name="ideliveryoptimizationfilegetstats-method"></a>IDeliveryOptimizationFile :: GetStats, méthode
 
@@ -50,11 +50,11 @@ Retourne les statistiques de téléchargement et de téléchargement pour un fic
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode doit retourner **S_OK**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

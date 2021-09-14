@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dd0bec0f21fb652ccc5c8d543f04816468fff9bc28db74a68a1d05c072a895a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93507b8aeefa9c0ea16f70f67e221ecc4218427f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915667"
 ---
 # <a name="bg_file_progress-structure"></a>Structure BG_FILE_PROGRESS
 
@@ -66,13 +66,13 @@ Pour les téléchargements, la valeur est **true** si le fichier est disponible 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour déterminer si le fichier doit être transféré, vous pouvez :
 
 -   Comparez **bytesTransferred** à **bytesTotal**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

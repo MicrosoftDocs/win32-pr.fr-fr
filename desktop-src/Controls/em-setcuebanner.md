@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b08694d7368a994c639f236f18537e13d81f57083521599c23671941c74889bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d740bf0a3a055f45c6d104d44349f078d3bf9ad2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118673102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006407"
 ---
 # <a name="em_setcuebanner-message"></a>\_Message SETCUEBANNER em
 
@@ -43,11 +43,11 @@ Pointeur vers une chaîne Unicode qui contient le texte à afficher en tant que 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la méthode retourne la **valeur true**. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un contrôle d’édition utilisé pour commencer une recherche peut afficher « entrer la recherche ici » en texte gris comme une file d’attente textuelle. Lorsque l’utilisateur clique sur le texte, le texte disparaît et l’utilisateur peut taper.
 
@@ -58,7 +58,7 @@ Vous ne pouvez pas définir une bannière de signal sur un contrôle d’éditio
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

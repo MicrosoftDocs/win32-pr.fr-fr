@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08e03818ae36946192ed35fee508bacb1c7cc2cbb22dc43e77ee9ee48eac8509
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 890ef921a33dc387b17fddaa504bd15fa61ac505
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006466"
 ---
 # <a name="em_getwordbreakprocex-message"></a>\_Message GETWORDBREAKPROCEX em
 
@@ -43,11 +43,11 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le message retourne l’adresse de la procédure en cours.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

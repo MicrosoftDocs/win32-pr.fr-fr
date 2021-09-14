@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 69f4a40055adea1440436cc54cecc5735db95bc01787cb779cc8a7d6c51b0011
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: daadb5b0ad8155062e75ea4eca566a0afbf3631b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120543"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998512"
 ---
 # <a name="id3dxprtbuffer-interface"></a>Interface ID3DXPRTBuffer
 
@@ -60,7 +60,7 @@ L’interface **ID3DXPRTBuffer** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface **ID3DXPRTBuffer** est obtenue en appelant les fonctions [**D3DXCreatePRTBuffer**](d3dxcreateprtbuffer.md) ou [**D3DXCreatePRTBufferTex**](d3dxcreateprtbuffertex.md) .
 
@@ -74,7 +74,7 @@ typedef interface ID3DXPRTBuffer *LPD3DXPRTBUFFER;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

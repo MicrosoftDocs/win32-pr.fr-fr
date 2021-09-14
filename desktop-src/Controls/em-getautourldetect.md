@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d60fc8efdc6e554e379a9381239920cf70ef07ffca22240e62cfc6892ca2e636
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e68e4f2991c5f8780cb587594289674e07ec992
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019946"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006501"
 ---
 # <a name="em_getautourldetect-message"></a>\_Message GETAUTOURLDETECT em
 
@@ -43,13 +43,13 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la détection d’URL automatique est active, la valeur de retour est 1.
 
 Si la détection d’URL automatique est inactive, la valeur de retour est 0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la détection d’URL automatique est activée, la modification riche de Microsoft vérifie constamment le texte tapé pour une URL valide. La modification complète reconnaît les URL qui commencent par ces préfixes :
 
@@ -68,7 +68,7 @@ Lorsque la détection d’URL automatique est activée, la modification riche de
 
 La modification complète reconnaît également les noms de chemins standard qui commencent par \\ \\ . Quand la modification complète localise une URL, elle modifie la couleur du texte de l’URL, souligne le texte et notifie le client à l’aide de l' [ \_ éditeur de liens](en-link.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8911c7261af0bf2e140a551b0146b7764cd541368898e6d3905f5dee2eaa4c53
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cd6167402abd36db8f436f6e27b18213642f010b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119813433"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006719"
 ---
 # <a name="coutputqueue-class"></a>COutputQueue, classe
 
@@ -41,7 +41,7 @@ Pour utiliser cette classe, créez un objet **COutputQueue** pour chaque broche 
 | [**IPin::EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush)                               | [**EndFlush**](coutputqueue-endflush.md)               |
 | [**IPin :: EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream)                         | [**EOS**](coutputqueue-eos.md)                         |
 | [**IPin::NewSegment**](/windows/desktop/api/Strmif/nf-strmif-ipin-newsegment)                           | [**NewSegment**](coutputqueue-newsegment.md)           |
-| [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive)                 | [**Çoive**](coutputqueue-receive.md)                 |
+| [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive)                 | [**Recevoir**](coutputqueue-receive.md)                 |
 | [**IMemInputPin::ReceiveMultiple**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivemultiple) | [**ReceiveMultiple**](coutputqueue-receivemultiple.md) |
 
 
@@ -86,9 +86,9 @@ Si vous le souhaitez, vous pouvez configurer l' `COutputQueue` objet pour remett
 | [**EOS**](coutputqueue-eos.md)                              | Fournit un appel de fin de flux à la broche d’entrée.                                                         |
 | [**SendAnyway**](coutputqueue-sendanyway.md)                | Remet les exemples en attente.                                                                            |
 | [**NewSegment**](coutputqueue-newsegment.md)                | Remet un nouveau segment à la broche d’entrée.                                                                 |
-| [**Çoive**](coutputqueue-receive.md)                      | Remet un échantillon de média à la broche d’entrée.                                                                |
+| [**Recevoir**](coutputqueue-receive.md)                      | Remet un échantillon de média à la broche d’entrée.                                                                |
 | [**ReceiveMultiple**](coutputqueue-receivemultiple.md)      | Remet un lot d’exemples de supports à la broche d’entrée.                                                      |
-| [**Initialisation**](coutputqueue-reset.md)                          | Réinitialise l’objet afin qu’il puisse recevoir plus de données.                                                      |
+| [**Réinitialiser**](coutputqueue-reset.md)                          | Réinitialise l’objet afin qu’il puisse recevoir plus de données.                                                      |
 | [**IsIdle**](coutputqueue-isidle.md)                        | Détermine si l’objet attend des données.                                                       |
 | [**SetPopEvent**](coutputqueue-setpopevent.md)              | Spécifie un événement qui est signalé chaque fois que l’objet supprime un échantillon de la file d’attente.                 |
 
@@ -96,7 +96,7 @@ Si vous le souhaitez, vous pouvez configurer l' `COutputQueue` objet pour remett
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

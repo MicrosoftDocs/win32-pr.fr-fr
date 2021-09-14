@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d328a4311746f6fdab9cf7eaa3376c7ba49c2b13b9db1d3aaac19142d2d583d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f906db9540f0429e1e7831284e55edf8c29b6a03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006778"
 ---
 # <a name="cmediacontrolgetidsofnames-method"></a>CMediaControl. GetIDsOfNames, méthode
 
@@ -81,7 +81,7 @@ Pointeur vers un tableau alloué par l’appelant, dont chaque élément contien
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs suivantes.
 
@@ -98,7 +98,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

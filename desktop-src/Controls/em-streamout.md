@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63236083c1964d29cb915e4bfc51303b30b730e01f76f2b186cc200d1dcfce6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5cbdef51348593f8dbcfdb1ef579aca7dba6f96e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006341"
 ---
 # <a name="em_streamout-message"></a>\_Message STREAMOUT em
 
@@ -75,15 +75,15 @@ Pointeur vers une structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-ri
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne le nombre de caractères écrits dans le flux de données.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous envoyez un **message \_ em STREAMOUT** , le contrôle RichEdit effectue des appels répétés à la fonction [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) spécifiée par le membre **pfnCallback** de la structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) . À chaque fois qu’il appelle la fonction de rappel, le contrôle passe une mémoire tampon contenant une partie du contenu du contrôle. Ce processus se poursuit jusqu’à ce que le contrôle ait passé tout son contenu à la fonction de rappel, ou jusqu’à ce qu’une erreur se produise.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 0c21868dc705a5c9f3b40649540fcaadb1f9219a7443d58c59964606cb7ed7d0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aab8e9a5f77affc464763b1c5a5045eaa4fc042a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006600"
 ---
 # <a name="irenderenginegettimelineobject-method"></a>IRenderEngine :: GetTimelineObject, méthode
 
@@ -52,7 +52,7 @@ Reçoit un pointeur vers l’interface [**IAMTimeline**](iamtimeline.md) de la c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En cas de retour, si la valeur de *\* ppTimeline* est non **null**, l’interface **IAMTimeline** a un nombre de références en suspens. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -82,7 +82,7 @@ En cas de retour, si la valeur de *\* ppTimeline* est non **null**, l’interfac
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

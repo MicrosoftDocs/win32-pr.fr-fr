@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874feba3022571a69f816a94bc5f56cb29a94929c47a2a8d408b1c8fac7b26ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 40a88aa96787e1fda5cdeb8f77f478a4d51635cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119438109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006464"
 ---
 # <a name="em_getzoom-message"></a>\_Message GETZOOM em
 
@@ -44,15 +44,15 @@ Reçoit le dénominateur du rapport de zoom.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le message retourne la **valeur true** si le message est traité, ce qui est le cas si *wParam* et *lParam* n’ont pas la **valeur null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Modifier :** pris en charge dans Windows 10 1809 et versions ultérieures. Le contrôle d’édition doit avoir le jeu de styles étendus **es \_ ex \_ zoomable** . pour que ce message ait un effet, consultez [modifier les styles étendus de contrôle](edit-control-window-extended-styles.md). Pour plus d’informations sur le contrôle d’édition, consultez [modifier des contrôles](edit-controls.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

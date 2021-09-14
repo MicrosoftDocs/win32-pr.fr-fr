@@ -7,12 +7,12 @@ keywords:
 - Configuration de C++ pour le développement ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a7401977ea1980acb0f62e24d93c3aadf480cda8ef47a8e8d6e5c88ccbcb0fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77f2350b88402c921d014b0c93756759a1d0f744
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119082283"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122089"
 ---
 # <a name="setting-up-visual-c-60-for-adsi-development"></a>Configuration de Visual C++ 6,0 pour le développement ADSI
 

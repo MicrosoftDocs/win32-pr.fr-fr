@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5984c20273d2daa0a2e39fc6caf6dde88c8b274502a50e1a5e5eb3cca2b6f94c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e5095c599dfa78740ce4cb081e4d52c33b2debd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117831200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006384"
 ---
 # <a name="em_setlangoptions-message"></a>\_Message SETLANGOPTIONS em
 
@@ -43,11 +43,11 @@ Spécifie les options de langue. Pour obtenir la liste des valeurs possibles, co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne la valeur 1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message **em \_ SETLANGOPTIONS** contrôle les éléments suivants :
 
@@ -61,7 +61,7 @@ Le message **em \_ SETLANGOPTIONS** contrôle les éléments suivants :
 
 Ce message définit les valeurs de tous les indicateurs d’option de langage. Pour modifier un sous-ensemble des indicateurs, envoyez le message [**em \_ GETLANGOPTIONS**](em-getlangoptions.md) pour obtenir les indicateurs d’option actuels, modifiez les indicateurs que vous devez modifier, puis envoyez le **message \_ SETLANGOPTIONS em** avec le résultat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

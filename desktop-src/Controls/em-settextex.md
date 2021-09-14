@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1227e88fc489c274a5c1b194aa79b4b031ad5f0c07bab4110e5b28b3c7cffbf7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfdd7dece965f70fe41d40edf44d365795d44fc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120048039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006348"
 ---
 # <a name="em_settextex-message"></a>\_Message SETTEXTEX em
 
@@ -43,7 +43,7 @@ Pointeur vers le texte se terminant par null à insérer. Ce texte est une chaî
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération définit tout le texte et s’effectue correctement, la valeur de retour est 1.
 
@@ -51,7 +51,7 @@ Si l’opération définit la sélection et s’effectue correctement, la valeur
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

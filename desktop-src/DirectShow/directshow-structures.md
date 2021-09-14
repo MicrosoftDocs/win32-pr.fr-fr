@@ -4,12 +4,12 @@ ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
 title: DirectShow Celles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fca0c1c877026b1df1b423f66c22cd9c5525927e3c693c5ee5afb93496e970d3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 61bf15858ea602d27b17c8853d0e911ebb37cfad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119966339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006623"
 ---
 # <a name="directshow-structures"></a>DirectShow Celles
 
@@ -89,7 +89,7 @@ cette section décrit les structures de DirectShow.
 | [**PERFINFO \_ DShow \_ STREAMTRACE**](perfinfo-dshow-streamtrace.md)          | Données pour un événement de trace de type GUID \_ STREAMTRACE.                                                                                                                                                                     |
 | [**\_mappage PID**](pid-map.md)                                                 | Identifie le contenu d’un ID de paquet de flux de transport MPEG-2.                                                                                                                                                      |
 | [**informations sur le code confidentiel \_**](/windows/win32/api/strmif/ns-strmif-pin_info)                                               | Contient des informations sur un code confidentiel.                                                                                                                                                                                     |
-| [**Qualité**](/windows/win32/api/strmif/ns-strmif-quality)                                                  | Définit un message de contrôle qualité.                                                                                                                                                                                    |
+| [**Qualitative**](/windows/win32/api/strmif/ns-strmif-quality)                                                  | Définit un message de contrôle qualité.                                                                                                                                                                                    |
 | [**REGFILTER2**](/windows/desktop/api/strmif/ns-strmif-regfilter2)                                            | Décrit un filtre pour l’inscription par le biais de l’interface [**IFilterMapper2**](/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2) .                                                                                                                   |
 | [**REGFILTERPINS**](/windows/desktop/api/strmif/ns-strmif-regfilterpins)                                      | Contient les informations de code confidentiel pour l’enregistrement d’un filtre.                                                                                                                                                                    |
 | [**REGFILTERPINS2**](/windows/desktop/api/strmif/ns-strmif-regfilterpins2)                                    | Contient des informations relatives à l’inscription d’un filtre par le biais de l’interface [**IFilterMapper2**](/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2) .                                                                                                         |

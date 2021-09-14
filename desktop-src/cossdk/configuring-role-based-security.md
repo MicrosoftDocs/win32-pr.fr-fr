@@ -4,12 +4,12 @@ ms.assetid: f53b9945-cd34-4afc-a03a-dd72b0af160d
 title: Configuration de la sécurité de Role-Based
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aba7df6b11bf44b53adaa9776435e43eabe3188fccb789a01d996f45331298dd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9eafa71430dfa13f497b0e4f7f7cea45229a422e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915695"
 ---
 # <a name="configuring-role-based-security"></a>Configuration de la sécurité de Role-Based
 

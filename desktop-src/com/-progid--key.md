@@ -5,11 +5,11 @@ ms.assetid: f9ef2934-0815-4a6f-9283-8f748eee083b
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0a9ef64515d2dda4512af0086970cb2ab61b4830
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998951"
 ---
 # <a name="progid-key"></a>Clé ProgID
 
@@ -32,11 +32,11 @@ Un identificateur programmatique (ProgID) est une entrée de Registre qui peut �
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser un ProgID dans des situations de programmation où il n’est pas possible d’utiliser un CLSID. Les ProgID ne doivent pas apparaître dans l’interface utilisateur. Il n’est pas garanti que les ProgID soient uniques, donc ils ne peuvent être utilisés que lorsque des collisions de noms sont gérables.
 
-Le format d’un ProgID est <*programme*>. <*composant*>. <*version* , séparé par des points et sans espaces, comme dans> ument. 6. Le ProgID doit respecter les exigences suivantes :
+Le format d’un ProgID est <*programme*>. <*composant*>. <*version* , séparé par des points et sans espaces, comme dans Word. document. 6. Le ProgID doit respecter les exigences suivantes :
 
 -   Ne pas comporter plus de 39 caractères.
 -   Ne pas contenir de signes de ponctuation (y compris les traits de soulignement), à l’exception d’un ou plusieurs points.

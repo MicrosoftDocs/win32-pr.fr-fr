@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: abe08007a92959276216cac0a592d79c72147b7db0f31a51cb1673c030d1a7de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdc8ea1a3324395e5230ca6d47487b61c8c02ba9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006569"
 ---
 # <a name="cim_serviceservicedependency-class"></a>\_Classe CIM ServiceServiceDependency
 
@@ -153,7 +153,7 @@ Le service ne doit pas être démarré.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \_ ServiceServiceDependency**, consultez [classes Win32](win32-provider.md).
 
@@ -161,7 +161,7 @@ La classe **CIM \_ ServiceServiceDependency** est dérivée de la [**\_ dépenda
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

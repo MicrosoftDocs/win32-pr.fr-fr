@@ -6,12 +6,12 @@ keywords:
 - Options de Bluetooth et de Socket Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 631eb2b041fcc320723155d4a5df1742e6c0dc79cb579815de141334906708e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 84040a98c3dae1fec292e4f0a7086f11d1ee546c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122049"
 ---
 # <a name="bluetooth-and-socket-options"></a>Options de Bluetooth et de Socket
 

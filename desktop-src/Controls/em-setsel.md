@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 190d8a62b874d3449e0a9bf5d334a515000fb0436ba73753a8657936363071b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4981fa179ae4bdd454ab0b0a6d7485185ed31d2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006352"
 ---
 # <a name="em_setsel-message"></a>\_Message SETSEL em
 
@@ -43,11 +43,11 @@ Position du caractère de fin de la sélection.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de début peut être supérieure à la valeur de fin. La plus petite des deux valeurs spécifie la position de caractère du premier caractère dans la sélection. La valeur la plus élevée spécifie la position du premier caractère au-delà de la sélection.
 
@@ -61,7 +61,7 @@ Si le début est égal à 0 et que la fin est égale à-1, tout le texte du cont
 
 Si le contrôle d’édition a le style [**es \_ NOHIDESEL**](edit-control-styles.md) , le texte sélectionné est mis en surbrillance, que le contrôle ait le focus ou non. Sans le style **es \_ NOHIDESEL** , le texte sélectionné est mis en surbrillance uniquement lorsque le contrôle d’édition a le focus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

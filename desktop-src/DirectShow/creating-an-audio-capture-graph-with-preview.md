@@ -4,12 +4,12 @@ ms.assetid: 73c0b799-060b-4b20-b072-6a0c5c30de20
 title: création d’un Graph de Capture Audio avec aperçu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 241d5522f04e40704d635d7d4cc925fd81045579c01ae05dbdebd725611139fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2962dc0ffa08e19618d81a03515e970dcb439913
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006684"
 ---
 # <a name="creating-an-audio-capture-graph-with-preview"></a>création d’un Graph de Capture Audio avec aperçu
 

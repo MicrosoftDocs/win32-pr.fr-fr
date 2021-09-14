@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 0a7ce5a4fe90e911faaf8927fe584004eec7a68eae7b5c75f1c3a92f017fd4bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d065540eb036b26cdd19791dc393d32c5b45e3ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118295784"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998611"
 ---
 # <a name="id3dxeffectstatemanagerlightenable-method"></a>ID3DXEffectStateManager :: méthode éclaircie
 
@@ -59,7 +59,7 @@ True pour activer la lumière ; sinon, false.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -68,7 +68,7 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   L’effet échouera pendant [**ID3DXEffect :: BeginPass**](id3dxeffect--beginpass.md).
 -   L’appel de l’état d’effet dynamique (tel que [**IDirect3DDevice9 :: Eclaircir**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-lightenable)) échouera.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

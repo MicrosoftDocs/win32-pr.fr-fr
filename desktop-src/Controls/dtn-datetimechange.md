@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be916859a8c963c81d1f68410e9e821c430832610aa85378a6ae6162e0488bf1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a40072a54732a0a3575e3153ddb901ca1df291b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006819"
 ---
 # <a name="dtn_datetimechange-notification-code"></a>\_Code de notification DTN DATETIMECHANGE
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMDATETIMECHANGE**](/windows/win32/api/commctrl/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le propriétaire du contrôle doit retourner zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8427e666668303456d16c00ae460a608a51bc31cd59e0ee6fa6851031057695b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 643954cf266c52ccbeae082ffacf317c91bc7b33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006830"
 ---
 # <a name="cb_getitemdata-message"></a>\_Message GETITEMDATA CB
 
@@ -43,13 +43,13 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est la valeur associée à l’élément. Si une erreur se produit, il s’agit de CB \_ Err.
 
 Si l’élément se trouve dans une zone de liste déroulante owner-drawn créée sans le style [**CBS \_ HASSTRINGS**](combo-box-styles.md) , la valeur de retour est la valeur contenue dans le paramètre *lParam* du message [**CB \_ ADDSTRING**](cb-addstring.md) ou [**CB \_ INSERTSTRING**](cb-insertstring.md) , qui a ajouté l’élément à la zone de liste déroulante. Si le **style \_ HASSTRINGS CBS** n’a pas été utilisé, la valeur de retour est le paramètre *lParam* contenu dans un message [**CB \_ SETITEMDATA**](cb-setitemdata.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

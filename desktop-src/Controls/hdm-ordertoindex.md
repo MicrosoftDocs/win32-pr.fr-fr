@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7afd006c90684137ffc484dac62ab40c04d90c0cdbc87f51102d8e9119e8b14d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b65d10fb27c9a07639ebbd5770a53d72cbf0aba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006269"
 ---
 # <a name="hdm_ordertoindex-message"></a>\_Message HDM ORDERTOINDEX
 
@@ -39,11 +39,11 @@ Ordre dans lequel l’élément apparaît dans le contrôle d’en-tête, de gau
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne INT qui indique l’index de l’élément. Si *wParam* n’est pas valide (valeur négative ou trop grande), le retour est égal à *wParam*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

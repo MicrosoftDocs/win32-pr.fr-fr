@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e3ad9636c32e40bfa95f1f3b2c209eab42023205e0a967cc91804ec314a103
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c4aac9d8f9a430c056f8b91a9306d77c182f4c96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120089189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006826"
 ---
 # <a name="cb_getitemheight-message"></a>\_Message GETITEMHEIGHT CB
 
@@ -43,11 +43,11 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour correspond à la hauteur, en pixels, des éléments de liste dans une zone de liste déroulante. Si la zone de liste déroulante a le style [**CBS \_ OWNERDRAWVARIABLE**](combo-box-styles.md) , il s’agit de la hauteur de l’élément spécifié par le paramètre *wParam* . Si *wParam* a la valeur-1, la valeur de retour est la hauteur de la partie de contrôle d’édition (ou de texte statique) de la zone de liste déroulante. Si une erreur se produit, la valeur de retour est CB \_ Err.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

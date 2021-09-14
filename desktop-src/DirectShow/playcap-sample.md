@@ -4,12 +4,12 @@ ms.assetid: 3faba514-23b7-4107-aca6-5b113a0ca164
 title: Exemple PlayCap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27acecdfd0757d4fd9b085b7d09d1372ead0a33b2aebd95684e1a33367b57765
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f916ac1241410eee5046e1ad24a9350bf4256c83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998977"
 ---
 # <a name="playcap-sample"></a>Exemple PlayCap
 

@@ -4,12 +4,12 @@ ms.assetid: 050dfae8-4f20-9688-e356-32d66fdf6250
 title: Informations de référence sur la programmation DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b2bce19e40812438d57fc26a4a3f85a7276f74b52f62b96489081a9e69516a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8862e622ac9fe78faabac332d6ef9ff3d2e73d3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119118189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915079"
 ---
 # <a name="directxmath-programming-reference"></a>Informations de référence sur la programmation DirectXMath
 

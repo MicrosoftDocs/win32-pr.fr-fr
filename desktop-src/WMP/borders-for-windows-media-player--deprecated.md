@@ -9,12 +9,12 @@ keywords:
 - bordures, comparaison avec les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c32e16fa6e334c5c47f24feadc777b82cee1a12477211bc4e613d22e8fdc4521
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8a48ff3ec17230002e9c6b4a1eb17e3024375a58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852735"
 ---
 # <a name="borders-for-windows-media-player-deprecated"></a>bordures pour la Lecteur Windows Media (déconseillée)
 
@@ -46,7 +46,7 @@ Pour plus d’informations, consultez [élément Skin (déconseillé)](skin-elem
 
 ## <a name="including-content-with-a-border"></a>Inclusion de contenu avec une bordure
 
-vous pouvez inclure du contenu avec une bordure à l’aide d’un fichier de téléchargement Windows Media (avec l’extension de nom de fichier. wmd). Procédez comme suit :
+vous pouvez inclure du contenu avec une bordure à l’aide d’un fichier de téléchargement Windows Media (avec l’extension de nom de fichier. wmd). Suivez ces étapes :
 
 1.  Créez la bordure. Veillez à la créer de telle sorte que le redimensionnement ne supprimera pas la composition de la bordure. Par exemple, n’incluez pas de fichier d’arrière-plan ; rendre l’arrière-plan transparent pour qu’une visualisation puisse s’exécuter derrière.
 2.  compressez le contenu de l’apparence (art, JScript fichiers et le fichier de définition d’apparence) dans un fichier avec l’extension de nom de fichier. wmz.

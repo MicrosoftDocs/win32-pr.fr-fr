@@ -4,12 +4,12 @@ ms.assetid: 1d40745f-9282-45ca-96e1-ed2a6f03cb98
 title: Utilitaires de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f68b8ff1e2b8cb48de2997895ba1a5ee6b50570d6c94ea94700e15c81eb4d061
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cac574e5a7129e9a1f07167898d367e6bfa30173
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953228"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006657"
 ---
 # <a name="debugging-utilities"></a>Utilitaires de débogage
 

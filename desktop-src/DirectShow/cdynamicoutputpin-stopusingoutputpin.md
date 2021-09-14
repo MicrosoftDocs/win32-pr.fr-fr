@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f69e5ac6d79307ae6479bd5fb3decbb5e653ebde02c5fe3706ac2272f25e61bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 758f711dfa5aa40d9cdea6332de71be3a7708836
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006797"
 ---
 # <a name="cdynamicoutputpinstopusingoutputpin-method"></a>Méthode CDynamicOutputPin. StopUsingOutputPin
 
@@ -36,7 +36,7 @@ virtual void StopUsingOutputPin();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

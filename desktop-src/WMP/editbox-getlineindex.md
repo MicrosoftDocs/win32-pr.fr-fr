@@ -3,7 +3,7 @@ title: EDITBOX. getLineIndex
 description: La méthode getLineIndex récupère l’index de caractère du premier caractère sur la ligne avec l’index de ligne spécifié.
 ms.assetid: 1298227a-d839-44fc-bacb-44c3c968bd94
 keywords:
-- EDITBOX. getLineIndex Windows Media Player
+- EDITBOX. getLineIndex Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 5f55027bb7d577b7080ad2f006a5a006e718c2d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541783"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852621"
 ---
 # <a name="editboxgetlineindex"></a>EDITBOX. getLineIndex
 
@@ -49,7 +49,7 @@ Si l’index de ligne spécifié est 1, la ligne contenant le point d’insertio
 
 Cette méthode ne peut être appelée qu’une fois que le contrôle est visible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

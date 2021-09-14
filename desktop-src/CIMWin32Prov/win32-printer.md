@@ -102,12 +102,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5f1a91ac90560343a38e546590005e8b984d13843eba8195381daa204e2d22cb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 48fc170cb3e85d44dc3e01140fe2c881a7ec975b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006538"
 ---
 # <a name="win32_printer-class"></a>\_Classe d’imprimantes Win32
 
@@ -231,7 +231,7 @@ La **classe \_ Printer Win32** possède ces méthodes.
 | [**PrintTestPage**](printtestpage-method-in-class-win32-printer.md)                 | Imprime une page de test.<br/>                                                                                                                                                                                    |
 | [**RenamePrinter**](renameprinter-method-in-class-win32-printer.md)                 | Renomme une imprimante.<br/>                                                                                                                                                                                     |
 | **Réinitialiser**                                                                            | Non implémenté. Pour plus d’informations sur l’implémentation de cette méthode, consultez la méthode [**Reset**](reset-method-in-class-cim-controller.md) dans l' [**\_ imprimante CIM**](cim-printer.md).<br/>                 |
-| [**Reprendre**](resume-method-in-class-win32-printer.md)                               | Reprend la file d’attente à l’impression en pause.<br/>                                                                                                                                                                            |
+| [**Sort**](resume-method-in-class-win32-printer.md)                               | Reprend la file d’attente à l’impression en pause.<br/>                                                                                                                                                                            |
 | [**SetDefaultPrinter**](setdefaultprinter-method-in-class-win32-printer.md)         | Définit l’imprimante par défaut.<br/>                                                                                                                                                                              |
 | **SetPowerState**                                                                    | Non implémenté. Pour plus d’informations sur l’implémentation de cette méthode, consultez la méthode [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) dans l' [**\_ imprimante CIM**](cim-printer.md).<br/> |
 | [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class-win32-printer.md) | Écrit une version mise à jour du descripteur de sécurité qui contrôle l’accès à l’imprimante.<br/>                                                                                                              |
@@ -1279,7 +1279,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd>
@@ -5186,7 +5186,7 @@ Si la **valeur est true**, l’imprimante est disponible en tant que ressource r
 
 </dd> <dt>
 
-**Partage**
+**ShareName**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -5486,7 +5486,7 @@ Si la **valeur est true**, vous pouvez faire une mise en file d’attente des tr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ Printer** est dérivée de l' [**\_ imprimante CIM**](cim-printer.md). avant d’appeler [**SWbemObject. \_ Put**](../wmisdk/swbemobject-put-.md) ou [**IWbemServices ::P utinstance**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstance) pour une instance d' **\_ imprimante Win32** , le privilège **SeLoadDriverPrivilege** (**wbemPrivilegeLoadDriver** pour Visual Basic et LoadDriver pour les monikers de script) doit être activé. Pour plus d’informations, consultez [**constantes de privilège**](../wmisdk/privilege-constants.md) et [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md). L’exemple de code VBScript suivant montre comment activer le privilège **SetLoadDriverPrivilege** dans le script.
 
@@ -5593,7 +5593,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

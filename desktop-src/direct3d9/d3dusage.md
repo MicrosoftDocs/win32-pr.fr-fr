@@ -28,12 +28,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 7f9a16fecc110a7bef8e6c065d8772ee72c46b77abf63857d23b734c555eba2d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d028d4a84c796c35913ffefd431739e1659eca3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119750589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998722"
 ---
 # <a name="d3dusage"></a>D3DUSAGE
 
@@ -64,7 +64,7 @@ Le tableau suivant récapitule les options d’utilisation disponibles.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="usage-and-resource-combinations"></a>Combinaisons d’utilisation et de ressources
 
@@ -109,7 +109,7 @@ Les fonctions de texturation [D3DXCreatexxx](dx9-graphics-reference-d3dx-functio
 
 Pour plus d’informations sur les types de pool et leurs restrictions avec certaines utilisations, consultez [**D3DPOOL**](./d3dpool.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

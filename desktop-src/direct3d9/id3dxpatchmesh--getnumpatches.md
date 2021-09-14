@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d132cf12e160b7812f63ad06df29d64d25af7c5ca36ca6f76045fd857619cfa2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a507062491aefc24bae68e538353bb04d22d1f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119675099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998532"
 ---
 # <a name="id3dxpatchmeshgetnumpatches-method"></a>ID3DXPatchMesh :: GetNumPatches, méthode
 
@@ -38,13 +38,13 @@ DWORD GetNumPatches();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
 Nombre de correctifs.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 778caa6538992d927a0451518fcb28b82891773563614ba97c9d9df121fb69f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 235de630b20757a571b1917a975d1425bee06cde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118545318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852357"
 ---
 # <a name="wm_sizeclipboard-message"></a>\_Message WM SIZECLIPBOARD
 
@@ -50,17 +50,17 @@ Handle d’un objet de mémoire global qui contient une structure [**Rect**](/pr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand la fenêtre de la visionneuse du presse-papiers est sur le point d’être détruite ou redimensionnée, un message **WM \_ SIZECLIPBOARD** est envoyé avec un rectangle null (0, 0, 0, 0) en tant que nouvelle taille. Cela permet au propriétaire du presse-papiers de libérer ses ressources d’affichage.
 
 Le propriétaire du presse-papiers doit utiliser la fonction [**GlobalLock**](/windows/desktop/api/winbase/nf-winbase-globallock) pour verrouiller l’objet mémoire qui contient [**Rect**](/previous-versions//dd162897(v=vs.85)). Avant de retourner, le propriétaire du presse-papiers doit déverrouiller l’objet à l’aide de la fonction [**GlobalUnlock**](/windows/desktop/api/winbase/nf-winbase-globalunlock) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -76,7 +76,7 @@ Le propriétaire du presse-papiers doit utiliser la fonction [**GlobalLock**](/w
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

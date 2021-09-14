@@ -4,12 +4,12 @@ ms.assetid: ed8463f8-8a3d-e89e-89e2-8d72a7f45cd6
 title: Migration de code à partir de la bibliothèque XNA Math
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11afe17e4e8e63ed06b34aed5fe573951b4e5383a78eb3c2c68f5b742c6560a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5dc7a48d30711a870c28b677e458a4f72c3b3c40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119740119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851607"
 ---
 # <a name="code-migration-from-the-xna-math-library"></a>Migration de code à partir de la bibliothèque XNA Math
 

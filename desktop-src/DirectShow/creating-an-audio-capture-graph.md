@@ -4,12 +4,12 @@ ms.assetid: 2302bb40-a5db-473a-afeb-71905ac41f47
 title: Création d’un Graph de capture audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8ff89cff8662bb5da81860053221596b18e89ab2300134cf2ff8826ae99b787
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6bd3c731a7dc498fcb7180bc56ae6a7f94dbec6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006683"
 ---
 # <a name="creating-an-audio-capture-graph"></a>Création d’un Graph de capture audio
 
