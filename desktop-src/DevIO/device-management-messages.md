@@ -4,12 +4,12 @@ ms.assetid: 6f05ecca-ae59-49aa-b423-676045972c1d
 title: Messages de gestion des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ddb4e830a03d7c7dd6717bd7229bae6cda28171dd5b351cd0027fcdf90bf9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b37052d6d7146275e0f15d91f9bb8984d547763f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119572939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114349"
 ---
 # <a name="device-management-messages"></a>Messages de gestion des appareils
 

@@ -4,12 +4,12 @@ ms.assetid: 3918ba49-1549-4f0c-b9fd-303ef46b810e
 title: Fonctions de gestion des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a648fb5141d9efa977e573e3b0abb32fe6c504f11647a2dc392e9838da63ca6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 587778b489b16355046b0b5af5cbba31c1a39639
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118956898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114353"
 ---
 # <a name="device-management-functions"></a>Fonctions de gestion des appareils
 
