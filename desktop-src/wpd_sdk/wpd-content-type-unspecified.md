@@ -4,12 +4,12 @@ ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e6f68cf5ee2a989bbef1554217c579eab77566ee0a3d3f894961d2ac08759f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd955ee5ebf31b2348efd3f70c85ae9c004edb83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118193310"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195823"
 ---
 # <a name="wpd_content_type_unspecified"></a>\_type de contenu wpd \_ \_ non spécifié
 
@@ -33,17 +33,17 @@ Ce type d’objet prend en charge les propriétés suivantes.
 | [\_nom du \_ fichier d’origine de l’objet wpd \_ \_](object-properties.md)                              | Obligatoire si l’objet représente un fichier.                                     |
 | [\_objet wpd \_ non \_ utilisable](object-properties.md)                                       | Recommandé si l’objet n’est pas destiné à être consommé par l’appareil.         |
 | [\_références d’objets wpd \_](object-properties.md)                                                | Obligatoire si l’objet a des références à d’autres objets.                       |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Facultatif.                                                                     |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Facultatif.                                                                     |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Optionnel.                                                                     |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Optionnel.                                                                     |
 | [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                  | Obligatoire si l’objet est protégé par la technologie DRM.                        |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Facultatif.                                                                     |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Optionnel.                                                                     |
 | [Date de modification de l' \_ objet wpd \_ \_](object-properties.md)                                         | Recommandé.                                                                  |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Facultatif.                                                                     |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Optionnel.                                                                     |
 | [\_ \_ références arrière des objets wpd \_](object-properties.md)                                                                | Recommandé si l’objet est référencé par un autre objet.                    |
-| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Facultatif.                                                                     |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Facultatif.                                                                     |
+| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Optionnel.                                                                     |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Optionnel.                                                                     |
 | [l' \_ objet wpd \_ peut \_ Supprimer](object-properties.md)                                                                     | Obligatoire si l’objet ne peut pas être supprimé.                                     |
-| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | Facultatif.                                                                     |
+| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | Optionnel.                                                                     |
 
 
 

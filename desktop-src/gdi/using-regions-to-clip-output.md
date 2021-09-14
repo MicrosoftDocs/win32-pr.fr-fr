@@ -4,12 +4,12 @@ ms.assetid: 78371180-e0b6-4d01-8c3b-751cfaa3ff03
 title: Utilisation de régions pour découper la sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1240251e1f2bcc65a7c082a021b34418a183b97bfd359231d17a09b5af485b5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 86948e35972a0de61106ff77958b65adb0b5ef70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119360149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196891"
 ---
 # <a name="using-regions-to-clip-output"></a>Utilisation de régions pour découper la sortie
 

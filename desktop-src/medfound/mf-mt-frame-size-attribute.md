@@ -4,12 +4,12 @@ ms.assetid: 9f10a972-406f-47ef-b71c-86ed771c9a9a
 title: Attribut MF_MT_FRAME_SIZE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0801e9fb074521c7ca22a0feb21d84687ad0d00aad8156e16733786523f6e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d3d6278cdbd4c279c498839cb183b3331fe1efc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118060180"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313981"
 ---
 # <a name="mf_mt_frame_size-attribute"></a>\_Attribut de \_ taille de trame MT MF \_
 
@@ -19,7 +19,7 @@ Largeur et hauteur d’une image vidéo, en pixels.
 
 **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les 32 bits de poids fort contiennent la largeur et les 32 inférieurs contiennent la hauteur.
 
@@ -46,7 +46,7 @@ inline HRESULT GetFrameSize(IMFMediaType *pType, UINT32 *pWidth, UINT32 *pHeight
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

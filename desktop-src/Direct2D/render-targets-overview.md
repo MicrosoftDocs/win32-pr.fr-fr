@@ -8,11 +8,11 @@ ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
 ms.openlocfilehash: 1770447d1468d7a09990696f8d523458bd2d0e46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112561"
 ---
 # <a name="render-targets-overview"></a>Vue d’ensemble des cibles de rendu
 
@@ -147,6 +147,6 @@ HRESULT DemoApp::OnRender()
 
 Le code a été omis de cet exemple.
 
- 
+ 
 
- 
+ 

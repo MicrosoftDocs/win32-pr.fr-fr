@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 145381cc6d702dd338176ffa89983de137285dcd7aef946d3ece956eb450880c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43264c37ed9830026f87998823017d17c9d75f7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119447839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195999"
 ---
 # <a name="microsoft-windows-media-drm-client-structures"></a>Structures clientes DRM Microsoft Windows Media
 

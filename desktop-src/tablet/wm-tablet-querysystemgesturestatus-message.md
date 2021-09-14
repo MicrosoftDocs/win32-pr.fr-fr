@@ -4,12 +4,12 @@ ms.assetid: 5b747b3c-3b77-4913-932f-182114d1f674
 title: Message WM_TABLET_QUERYSYSTEMGESTURESTATUS (Tpcshrd. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cbde7fb6147771cadcac8dba4d6fc104432d6c6793a9e72238d99b4b64b5065
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 395196f963cae9b8d18697276e546f1eba05b245
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118041701"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196232"
 ---
 # <a name="wm_tablet_querysystemgesturestatus-message"></a>\_Message QUERYSYSTEMGESTURESTATUS de tablette WM \_
 
@@ -41,7 +41,7 @@ Valeur de point qui représente les coordonnées d’écran.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En gérant ce message, vous pouvez désactiver dynamiquement les raccourcis pour les régions d’une fenêtre.
 
@@ -121,7 +121,7 @@ void SetTabletpenserviceProperties(HWND hWnd){
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

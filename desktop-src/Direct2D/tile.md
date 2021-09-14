@@ -6,12 +6,12 @@ keywords:
 - effet de vignette
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0df10143a727fb8ce6585264b65b6db46d75c731070f2ea46ff8e7dffd59dd2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c5def48ab30cadb28673179f6eec5d7ffa7e19e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112489"
 ---
 # <a name="tile-effect"></a>Effet de vignette
 
@@ -67,7 +67,7 @@ Cet effet génère une image bitmap de taille infinie logiquement.
 
 Vous pouvez juxtaposer une image et générer une certaine taille sans effets supplémentaires en définissant la taille quand vous appelez [**ID2D1DeviceContext ::D rawimage**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

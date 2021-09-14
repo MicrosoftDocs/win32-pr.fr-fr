@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser IWICImageEncoder pour enregi
 ms.assetid: F0D8BFC7-723A-4577-B2DF-4D656A18E2FC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c6020b29be3771575919ccb0200718e8e608afded584471625cfa922aee8da8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b19146d838474046fd634cb5524ddf2367fd1d6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160365"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112549"
 ---
 # <a name="how-to-save-direct2d-content-to-an-image-file"></a>Guide pratique pour enregistrer le contenu Direct2D dans un fichier image
 

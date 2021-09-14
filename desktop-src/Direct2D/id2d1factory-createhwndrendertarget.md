@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 241d0977adb4ec19472303165538e1a4c1fcafe87d0b781cd64bd34cdac92190
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 984de8aea923c5b90d05fb79bc0c9edc319fb4bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118002921"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112969"
 ---
 # <a name="id2d1factorycreatehwndrendertarget-methods"></a>ID2D1Factory :: CreateHwndRenderTarget, méthodes
 
@@ -34,7 +34,7 @@ Crée un [**ID2D1HwndRenderTarget**](/previous-versions/windows/desktop/legacy/d
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous créez une cible de rendu et que l’accélération matérielle est disponible, vous allouez des ressources sur le GPU de l’ordinateur. En créant une cible de rendu une fois et en la conservant le plus longtemps possible, vous obtenez des avantages en matière de performances. Votre application doit créer des cibles de rendu une seule fois et les conserver pendant toute la durée de vie de l’application ou jusqu’à ce que l’erreur de [**\_ recréation de la \_ cible D2DERR**](direct2d-error-codes.md) soit reçue. Lorsque vous recevez cette erreur, vous devez recréer la cible de rendu (et toutes les ressources qu’elle a créées).
 
@@ -62,7 +62,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

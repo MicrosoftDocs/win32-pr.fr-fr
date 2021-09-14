@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6bce69d5f14a522f403eed54b56a340ab02316507766c0cc6d60ff897ec73541
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bdc33773a31a7c9ddfd7adb0f3fb20f8fcf6d520
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234162"
 ---
 # <a name="cvideotransformfilterreceive-method"></a>CVideoTransformFilter. Receive, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
@@ -64,7 +64,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle [**CVideoTransformFilter :: ShouldSkipFrame**](cvideotransformfilter-shouldskipframe.md) pour déterminer si elle doit remettre cet exemple ou simplement la supprimer. Si **ShouldSkipFrame** retourne **false** (indiquant que l’exemple doit être remis), la méthode effectue les opérations suivantes :
 
@@ -74,7 +74,7 @@ Cette méthode appelle [**CVideoTransformFilter :: ShouldSkipFrame**](cvideotra
 
 En outre, cette méthode recherche les modifications de format sur l’exemple d’entrée ou de sortie, en appelant [**IMediaSample :: GetMediaType**](/windows/desktop/api/Strmif/nf-strmif-imediasample-getmediatype). En cas de modification du format, la méthode définit le type de connexion sur le code confidentiel correspondant. Avant de définir le nouveau type, il appelle **StopStreaming**. Une fois le nouveau type défini, il appelle **StartStreaming**. La classe dérivée peut utiliser ces méthodes pour mettre à jour son état interne. La classe dérivée peut également avoir besoin de vérifier le nouveau format dans sa méthode **Transform** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

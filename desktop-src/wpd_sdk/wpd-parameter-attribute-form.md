@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: f50665768d62d8155bd0ac9001f4ae5029766d7d5b27a942941f8f41b9492e10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 528008edbb74d5eda626b9868814ad621e676fa9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195784"
 ---
 # <a name="wpdparameterattributeform-enumeration"></a>Énumération WpdParameterAttributeForm
 
@@ -78,7 +78,7 @@ Le paramètre est un identificateur d’objet.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

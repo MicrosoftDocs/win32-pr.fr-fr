@@ -5,11 +5,11 @@ ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: a75c6530898071bb2ef28cf730b0cd4f83be9cbe
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983282"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196204"
 ---
 # <a name="notifications-design-basics"></a>Notifications (concepts de base de la conception)
 

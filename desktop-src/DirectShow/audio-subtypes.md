@@ -4,12 +4,12 @@ ms.assetid: 55012be5-2d61-4d38-aab7-0c42f161f555
 title: Sous-types audio
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0dba310287838b18030c7c9472da5d5d33b206ca059f831518e188a86e2b12c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 82b9ccbe83a20f23976e506124c674119eee3a96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112153"
 ---
 # <a name="audio-subtypes"></a>Sous-types audio
 

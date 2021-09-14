@@ -4,12 +4,12 @@ ms.assetid: 9463EB8C-2CA3-4F8F-8A2A-B1292879DD1B
 title: Attribut MF_SOURCE_READER_ENABLE_TRANSCODE_ONLY_TRANSFORMS (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bc5362c93138ef301ac65ace799ad64d59ac9110af349822e0efa98d410686e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04a9559254216a102613d97824601c004c71bfd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119605016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313893"
 ---
 # <a name="mf_source_reader_enable_transcode_only_transforms-attribute"></a>L' \_ \_ attribut de \_ \_ transformation de transcodage \_ uniquement \_ des lecteurs source MF
 
@@ -21,7 +21,7 @@ Permet au [lecteur source](source-reader.md) d’utiliser des Media Foundation t
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Certains MFTs, en particulier les décodeurs, sont optimisés pour le transcodage plutôt que pour la lecture. Par défaut, le lecteur source ne chargera pas ces transformations. Affectez la **valeur true** à cet attribut si vous souhaitez utiliser le transcodage MFTS avec le lecteur source.
 
@@ -29,7 +29,7 @@ Une application peut définir cet attribut s’il ne traite pas les données en 
 
 En interne, cet attribut oblige le lecteur source à inclure l’indicateur de **\_ \_ \_ transcodage \_ d’indicateur d’énumération MFT uniquement** lorsqu’il appelle [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

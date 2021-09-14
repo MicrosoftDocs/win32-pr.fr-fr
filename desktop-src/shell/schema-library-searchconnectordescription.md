@@ -5,11 +5,11 @@ title: Élément searchConnectorDescription (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: eddf7c2795f5c87009bc17b5fa3899d339ceed3c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885965"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196444"
 ---
 # <a name="searchconnectordescription-element-library-schema"></a>Élément searchConnectorDescription (schéma de bibliothèque)
 
@@ -131,14 +131,14 @@ reportez-vous à la documentation du schéma dans [Windows Search](/previous-ver
 
 | Attribut | Description                                                                      |
 |-----------|----------------------------------------------------------------------------------|
-| publisher | facultatif. Nom complet du serveur de publication qui fournit le connecteur de recherche.      |
-| product   | Facultatif. Nom complet du produit auquel le connecteur de recherche s’applique. |
+| publisher | Optionnel. Nom complet du serveur de publication qui fournit le connecteur de recherche.      |
+| product   | Optionnel. Nom complet du produit auquel le connecteur de recherche s’applique. |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l' &lt; &gt; élément searchConnectorDescription d’une bibliothèque utilise la même définition de schéma que le &lt; searchConnectorDescription &gt; pour Windows recherche fédérée. bien qu’ils utilisent les mêmes schémas, les connecteurs de recherche pour Windows la recherche fédérée ne peuvent pas être inclus dans une bibliothèque.
 

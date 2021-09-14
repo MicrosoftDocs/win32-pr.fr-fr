@@ -5,11 +5,11 @@ title: Attributs XML
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 20fa19a64dd5d3c59f7c5d26b86186912065a5f1
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883472"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196671"
 ---
 # <a name="xml-attributes"></a>Attributs XML
 
@@ -30,7 +30,7 @@ Bien que les parties privées ne soient pas autorisées à introduire de nouvell
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom de l'attribut</th>
+<th>Nom d’attribut</th>
 <th>Types de données et valeurs</th>
 <th>Objectif</th>
 <th>Notes</th>
@@ -70,13 +70,13 @@ L’exemple suivant montre comment identifier une instance d’option à l’aid
 <td>la <br/></td>
 <td>Énumération<br/> Valeurs autorisées :<br/>
 <ul>
-<li>Aucun <br/></li>
+<li>None <br/></li>
 <li>PrintTicketSettings <br/></li>
 <li>AdminSettings <br/></li>
 <li>DeviceSettings <br/></li>
 </ul></td>
 <td>Indique si l’option est disponible pour la sélection ou pour l’utilisation. <br/></td>
-<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> Aucun <br/>
+<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> None <br/>
 <ul>
 <li>L’option n’est pas restreinte. <br/></li>
 </ul>

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 605962315e4eab2cdbd5beab264747d282d78ef7c6f44b3bbcbf2f249bac7548
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e79a012413b3b3d78a9c4617f01ca6cc01cf7e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118473488"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196759"
 ---
 # <a name="ibasicdevicediscoveredoncurrentnetwork-method"></a>IBasicDevice ::D méthode iscoveredOnCurrentNetwork
 
@@ -48,7 +48,7 @@ Reçoit un pointeur vers une valeur booléenne qui est **true** si l’appareil 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 

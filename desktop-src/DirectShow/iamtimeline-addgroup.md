@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: f9557b7937bc0426d0d0c2d8efc24ada968d047460c2d7b3c2f8b1c4c3abccff
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0de10defd5e7aa840322599fb32104f1dc5bb5a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119330289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234095"
 ---
 # <a name="iamtimelineaddgroup-method"></a>IAMTimeline :: AddGroup, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,7 +52,7 @@ Pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) du groupe.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, les chronologies prennent en charge un maximum de 32 groupes.
 
@@ -82,7 +82,7 @@ Actuellement, les chronologies prennent en charge un maximum de 32 groupes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

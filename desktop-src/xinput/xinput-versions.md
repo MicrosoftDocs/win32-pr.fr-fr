@@ -4,12 +4,12 @@ description: XInput est une API multiplateforme qui a été fournie pour une uti
 ms.assetid: e89a6c81-f170-4385-f942-3606f9747244
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 277712308ca6083147d10138ba4d78e7e0fa086df95a78ab2b8317abca567dba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3d3624b8ea12872058ed1d874aa242a5806aec2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118430781"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225465"
 ---
 # <a name="xinput-versions"></a>Versions de XInput
 

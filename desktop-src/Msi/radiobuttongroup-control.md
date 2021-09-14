@@ -4,12 +4,12 @@ ms.assetid: 896a85e9-0ad7-4890-8dfd-1c1e6ba5f31b
 title: Contrôle RadioButtonGroup
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b43c648f1909adb9e933ad470c736b07d56a2c16311cb132767d941fc9adc44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70601f636528196986fdaad58f899a3c2ab80e03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118626959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233915"
 ---
 # <a name="radiobuttongroup-control"></a>Contrôle RadioButtonGroup
 
@@ -54,7 +54,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 en raison de la façon dont Windows dessine le frame, il y a un écart entre le haut de la fenêtre du contrôle et le cadre visible, même s’il n’y a pas de légende.
 

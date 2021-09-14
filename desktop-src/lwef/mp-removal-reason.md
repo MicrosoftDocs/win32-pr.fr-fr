@@ -4,7 +4,7 @@ description: Raison de la suppression de la signature FastPath.
 ms.assetid: A09B4903-E53C-4DA1-BD0B-6DE0124FCAB3
 keywords:
 - MP_REMOVAL_REASON énumération des fonctionnalités d’environnement Windows héritées
-- PMP_REMOVAL_REASON des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMP_REMOVAL_REASON de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -16,11 +16,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 03ce70f46bd95d4183343990b40594326ed5d3b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743188"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196851"
 ---
 # <a name="mp_removal_reason-enumeration"></a>Énumération des raisons de suppression du pack d' \_ installation \_
 
@@ -64,14 +64,14 @@ Automatique.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

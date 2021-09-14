@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 87c4d7c585ce9a6cbae1702d4c49da3dcea5a0a465d32d8a6221d6c5783114ce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d60a0efbe9bffda671fb3be87d60357766d645e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119709399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196387"
 ---
 # <a name="shell-miscellaneous-utility-functions"></a>Fonctions utilitaires diverses de l’interpréteur de commandes
 

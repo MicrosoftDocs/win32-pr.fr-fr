@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d2a79a5a4ab6b0422705fe737ba3da4a6fd4f923
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233784"
 ---
 # <a name="mm_mim_data-message"></a>MM \_ MIM \_ message de données
 
@@ -71,7 +71,7 @@ Les deux octets de données MIDI sont facultatifs, en fonction de l’octet d’
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI est désactivé ; chaque message est développé pour inclure l’octet d’État MIDI.
 

@@ -4,12 +4,12 @@ ms.assetid: e82cdd22-7d3f-4858-befd-43fa6f9f915e
 title: Attribut MF_MT_PIXEL_ASPECT_RATIO (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 230e14e07a8011f89d16b095728bc80cbe19faa16ef9427156868f93c2ccb412
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 50c0d28ea11ba664208fcfe5fc356f1f57f2878e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313941"
 ---
 # <a name="mf_mt_pixel_aspect_ratio-attribute"></a>\_Attribut des \_ \_ \_ proportions de pixels MF MT
 
@@ -19,7 +19,7 @@ Proportions de pixels pour un type de média vidéo.
 
 **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les 32 bits supérieurs contiennent le numérateur des proportions de pixels et les 32 bits inférieurs contiennent le dénominateur. Le numérateur est le composant horizontal des proportions ; le dénominateur est le composant vertical.
 
@@ -29,7 +29,7 @@ Les proportions de pixels décrivent la forme des pixels de l’image vidéo aff
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

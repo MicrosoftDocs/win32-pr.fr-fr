@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: a915425900bccb15145546658d51d50dcaee14880f8f219bd1908efaa17bd3c3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3984153a0551de999563b8775ceb5acba1696e39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120008409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196299"
 ---
 # <a name="icontextnodereparentstrokebyidtonode-method"></a>IContextNode :: ReparentStrokeByIdToNode, méthode
 
@@ -54,11 +54,11 @@ Objet [**IContextNode**](icontextnode.md) vers lequel déplacer les données de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet [**IContextNode**](icontextnode.md) spécifié doit être l’un des types suivants des constantes de [type de nœud de contexte](context-node-types.md) : **InkWord**, **InkDrawing**, **InkBullet** ou **UnclassifiedInk**. Si vous tentez de déplacer un trait vers tout autre type d’objet **IContextNode** , la valeur de retour **E \_ INVALIDARG** est retournée.
 
@@ -73,7 +73,7 @@ L’analyseur d’encre ne supprime pas les nœuds de contexte vides de l’arbo
 
 Un nœud vide génère des erreurs s’il se trouve dans l’arborescence pendant une opération d’analyse de l’encre. Pour supprimer un nœud de l’arborescence de l’analyseur d’encre, appelez la méthode [**IContextNode ::D eletesubnode**](icontextnode-deletesubnode.md) du nœud parent (voir [**IContextNode :: GetParentNode**](icontextnode-getparentnode.md)).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: AM_RATE_SimpleRateChange, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 928dc477f5f8c6492d407ddc8b56f49170dec4f4
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112289"
 ---
 # <a name="am_rate_simpleratechange-property"></a>\_ \_ Propriété SIMPLERATECHANGE rate AM
 
@@ -27,7 +27,7 @@ Cette propriété est utilisée pour envoyer des modifications de taux au décod
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

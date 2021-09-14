@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1602f947ee7d6699002be1e5074f8c723db7f9534460f39f7fe3fe29e66f68f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81a43c3ca7e1151f18608bec5554c034ba537af5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112686"
 ---
 # <a name="infiniterectu-function"></a>InfiniteRectU fonction)
 
@@ -44,7 +44,7 @@ Type : **[ **d2d1 \_ rect \_ U**](d2d1-rect-u.md)**
 
 Nouveau rectangle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: DXVA-HD, exemple
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 71ae1945a98bc668aa12cc6cdf8d9e4693cbde27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861802"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196787"
 ---
 # <a name="dxva-hd-sample"></a>DXVA-HD, exemple
 
@@ -28,7 +28,7 @@ Cet exemple illustre les interfaces DXVA-HD suivantes :
 -   [**\_Appareil IDXVAHD**](/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device)
 -   [**IDXVAHD \_ VideoProcessor**](/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -42,7 +42,7 @@ Cet exemple illustre les interfaces DXVA-HD suivantes :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/DXVA_HD).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/DXVA_HD).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

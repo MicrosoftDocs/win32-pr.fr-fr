@@ -4,12 +4,12 @@ ms.assetid: 427f0dca-f945-4c89-a87a-a7c86291b1c5
 title: Attribut MF_PD_ASF_FILEPROPERTIES_FLAGS (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ebc42bac8ae6efd8c28fe93a4114b7e0b2e85f4daaba708a35e06231e62de9e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ee294642188a0f2e22143feeca6791fea591cbb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119449049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313902"
 ---
 # <a name="mf_pd_asf_fileproperties_flags-attribute"></a>MF \_ PD \_ ASF \_ - \_ attribut flags
 
@@ -19,7 +19,7 @@ Spécifie si un fichier ASF (Advanced Systems Format) est diffusé ou recherché
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF. La valeur de l’attribut est une opération or au niveau du bit des indicateurs suivants :
 
@@ -46,7 +46,7 @@ Si l’indicateur de diffusion est défini, les attributs suivants dans le descr
 
 En outre, les valeurs d’attribut taille de paquet [**\_ maximale MF PD \_ ASF \_ FichierPropriétés \_ Max \_ \_**](mf-pd-asf-fileproperties-max-packet-size-attribute.md) et [**MF \_ PD \_ ASF \_ FichierPropriétés \_ Min \_ Packet \_ Size**](mf-pd-asf-fileproperties-min-packet-size-attribute.md) sont définies sur la taille de paquet réelle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

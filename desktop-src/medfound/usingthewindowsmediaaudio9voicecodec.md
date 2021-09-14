@@ -4,12 +4,12 @@ ms.assetid: 771acb04-33a4-4ea3-8f50-e5e3dbdf9495
 title: utilisation du Codec Windows Media Audio Voice
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87e53c84a6915b8bc118015f1524e5126085e7ac199cc4726c88739b0a82738d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d636bd97b76e23acc6b68da87c8a206b17dea60a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972668"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313637"
 ---
 # <a name="using-the-windows-media-audio-voice-codec"></a>utilisation du Codec Windows Media Audio Voice
 

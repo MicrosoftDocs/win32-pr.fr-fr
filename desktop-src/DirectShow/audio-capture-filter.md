@@ -4,12 +4,12 @@ ms.assetid: f76d5c82-33b2-4579-9420-8f97eca53ede
 title: Filtre de capture audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b02ee093e5c0e35a496773a7b39941fbaecc87646129d749e334a8bc779d51c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2a630452565fafad3c4a4420154efd8fe6b282f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118001324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112170"
 ---
 # <a name="audio-capture-filter"></a>Filtre de capture audio
 
@@ -36,7 +36,7 @@ Ce filtre peut fonctionner avec plusieurs périphériques matériels. par consé
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les broches d’entrée représentent des connexions matérielles physiques et ne sont jamais connectées à d’autres filtres dans DirectShow.
 

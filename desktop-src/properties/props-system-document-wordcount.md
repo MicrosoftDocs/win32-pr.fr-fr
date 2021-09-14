@@ -1,17 +1,17 @@
 ---
-description: System.Document. WordCount
+description: System. document. WordCount
 ms.assetid: 1c2b18d5-dcfc-40ab-bc2e-f8a092ff8b46
-title: System.Document. WordCount
+title: System. document. WordCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f22445d3e7f1e36ecb42a42991505c388a46f21b9f41bf00caec3c61aae1423
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 43e922b5025b0bd685ca86d8d9a220cc133e8d0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119775309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196547"
 ---
-# <a name="systemdocumentwordcount"></a>System.Document. WordCount
+# <a name="systemdocumentwordcount"></a>System. document. WordCount
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

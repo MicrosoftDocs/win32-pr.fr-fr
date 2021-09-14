@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c9f4a12c03e7e001845437f57f9799c7b0861f4f8f9b6cfac56aaa2bb80e51a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b44181f926f77ecc7cc22673622d4a0d3dcb7d26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119566919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234264"
 ---
 # <a name="cfactorytemplatem_lpfninit-member"></a>CFactoryTemplate :: m \_ lpfnInit, membre
 
@@ -43,7 +43,7 @@ Le type de pointeur de fonction est [**LPFNInitRoutine**](lpfninitroutine.md). S
 -   *bLoading*: **true** lorsque la dll est chargée, **false** lorsque la dll est déchargée.
 -   *rclsid*: pointeur vers CLISD de l’objet, spécifié dans la variable de membre [**CFactoryTemplate :: m \_ ClsID**](cfactorytemplate-m-clsid.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

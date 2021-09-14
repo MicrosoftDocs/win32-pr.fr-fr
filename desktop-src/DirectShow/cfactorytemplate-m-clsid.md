@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: efe09727ba26a85c7318d67f003accdaea994b87b7c9a5e5718637ac1de91c4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b7d205525c0aebaa1217bb6ebffc785f0e16baa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074222"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234269"
 ---
 # <a name="cfactorytemplatem_clsid-member"></a>CFactoryTemplate :: m \_ ClsID, membre
 
@@ -36,7 +36,7 @@ const CLSID *m_ClsID;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

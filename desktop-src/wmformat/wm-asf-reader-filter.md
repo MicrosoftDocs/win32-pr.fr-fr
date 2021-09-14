@@ -11,12 +11,12 @@ keywords:
 - ASF (format avancé des systèmes), lecteur ASF WM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c825835e6d838a8a5d9b058f8bcf6ef52bd2a3d6a645787e0cf44da0f7573c78
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26bde36b1b2cfa7644d6e75d8d1ff96260b2e457
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117844922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195891"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media Format 11)
 
@@ -49,7 +49,7 @@ Le tableau suivant contient des informations sur le filtre de lecteur ASF WM, te
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le lecteur ASF WM implémente partiellement les interfaces **IWMReaderAdvanced** et **IWMReaderAdvanced2** afin de permettre aux applications d’accéder aux méthodes d’information sur l’objet lecteur. L’implémentation du filtre passe simplement les appels par le biais de à l’interface sur l’objet lecteur. Les méthodes de streaming ne sont pas implémentées, car le filtre doit avoir un contrôle total sur le processus de diffusion en continu. Les méthodes **IWMReaderAdvanced** et **IWMReaderAdvanced2** suivantes sont implémentées :
 

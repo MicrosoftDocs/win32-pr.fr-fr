@@ -4,12 +4,12 @@ ms.assetid: 94e2a411-96b8-4506-8491-78f4f5f286ce
 title: Utilisation du programme de résolution source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81265f2edeb573ccdfb2b4ea8f2664d08f9bca8a2170459c9c53890ecd3b52cf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e992199b097ff3f3337f92216b684d68e46bca13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313670"
 ---
 # <a name="using-the-source-resolver"></a>Utilisation du programme de résolution source
 

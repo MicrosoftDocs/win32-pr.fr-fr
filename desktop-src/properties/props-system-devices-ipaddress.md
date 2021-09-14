@@ -4,12 +4,12 @@ ms.assetid: bf06dd91-b0e8-434e-8551-6a2a659b8093
 title: System. Devices. IpAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90636a7a68f356def83d8c9bf7e0042ceeaa0e43d6002145853aada7ef6d8c25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f66fc185e53ef6f9024d82f5f9305e486ba00f5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118054018"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196604"
 ---
 # <a name="systemdevicesipaddress"></a>System. Devices. IpAddress
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

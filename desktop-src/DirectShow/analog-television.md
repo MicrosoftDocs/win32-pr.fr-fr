@@ -4,12 +4,12 @@ ms.assetid: 9f2c18ec-3684-42a8-a3df-5f8827b27642
 title: Télévision analogique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 886c2b3f93ca70fb4a533f131611431c4a15df51169f70ed49f321c0ccfc8c2d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33af8ba94831afed59d783598dbf6bc0eaee0ec6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824756"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112234"
 ---
 # <a name="analog-television"></a>Télévision analogique
 

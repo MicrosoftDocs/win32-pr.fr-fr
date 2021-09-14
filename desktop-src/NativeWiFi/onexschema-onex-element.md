@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 2a0a58d4f06b30004620f7e222cdbf8a439c9bb57ab4f7ca97e3b86eaacb2e3e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b3e3d91087a394efb7909d36d6244bfbf6115e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119684869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233639"
 ---
 # <a name="onex-element"></a>Élément OneX
 
@@ -240,16 +240,16 @@ L’espace de noms cible de l’élément OneX est `https://www.microsoft.com/ne
 | [**singleSignOn**](onexschema-singlesignon-onex-element.md)                       |         | Spécifie les informations de configuration du réseau à authentification unique.<br/>                                                                                                                                                       |
 | [**startPeriod**](onexschema-startperiod-onex-element.md)                         |         | Spécifie la durée d’attente, en secondes, avant l’envoi d’un EAPOL-Start.<br/>                                                                                                                                  |
 | [**supplicantMode**](onexschema-supplicantmode-onex-element.md)                   |         | Spécifie la méthode de transmission utilisée pour les paquets EAPOL.<br/>                                                                                                                                                      |
-| [**entrer**](onexschema-type-singlesignon-element.md)                               |         | Spécifie quand l’authentification unique est effectuée. Lorsque la valeur `preLogon` est définie sur, l’authentification unique est effectuée avant que l’utilisateur ouvre une session. Lorsque la valeur `postLogon` est définie sur, l’authentification unique est effectuée immédiatement après la connexion de l’utilisateur.<br/> |
+| [**type**](onexschema-type-singlesignon-element.md)                               |         | Spécifie quand l’authentification unique est effectuée. Lorsque la valeur `preLogon` est définie sur, l’authentification unique est effectuée avant que l’utilisateur ouvre une session. Lorsque la valeur `postLogon` est définie sur, l’authentification unique est effectuée immédiatement après la connexion de l’utilisateur.<br/> |
 | [**userBasedVirtualLan**](onexschema-userbasedvirtuallan-singlesignon-element.md) | boolean | Spécifie si le réseau local virtuel (VLAN) utilisé par l’appareil change en fonction des informations d’identification de l’utilisateur.<br/>                                                                                                                   |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour afficher la liste des éléments enfants dans une structure de type arborescence, consultez [éléments de schéma Onex](onexschema-elements.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 872140e8-fd39-446c-a84f-1e04ea95076e
 title: Attribut MF_TRANSCODE_QUALITYVSSPEED (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7498cd319f347d8509f42e1713e1b2e267b32406eceb073ea9ca1e4cb4ea8d80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec4d95fab92276e926189c885dad2ecb8f164a97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119604668"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313866"
 ---
 # <a name="mf_transcode_qualityvsspeed-attribute"></a>\_Attribut QUALITYVSSPEED de transcodage MF \_
 
@@ -38,7 +38,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut a la même valeur GUID que la propriété [AVEncCommonQualityVsSpeed](../directshow/avenccommonqualityvsspeed-property.md) définie pour [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi)et a la même interprétation.
 
@@ -46,7 +46,7 @@ l’application peut définir cet attribut sur le profil de transcodage avant de
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

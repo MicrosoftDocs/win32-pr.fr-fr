@@ -4,12 +4,12 @@ ms.assetid: 08347831-7100-4220-a83b-693bb7b98ccb
 title: Mise à l’échelle des couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7877db07ff1a11dcb985f8b0ca8ec3cc017f25fe45f00e989c9108891f8ff1ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 370155306f7b1a177358d7cf28d329ebb0d75f8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196868"
 ---
 # <a name="scaling-colors"></a>Mise à l’échelle des couleurs
 
@@ -21,7 +21,7 @@ Une transformation de mise à l’échelle multiplie un ou plusieurs des quatre 
 |------------------------|--------------|
 | Rouge                    | \[0 \] \[ 0\]   |
 | Vert                  | \[1 \] \[ 1\]   |
-| Bleu                   | \[2 \] \[ 2\]   |
+| Blue                   | \[2 \] \[ 2\]   |
 | Alpha                  | \[3 \] \[ 3\]   |
 
 

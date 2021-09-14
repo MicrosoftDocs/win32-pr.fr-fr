@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a351c9e1b4fc36c816e87aeaae79a591bb43768a4e098bf315990fc1e1794fe4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6e7fe86f041a818db77c28ed9461d8c8fb48ad64
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112789"
 ---
 # <a name="id2d1rendertargetcreatelayer-methods"></a>ID2D1RenderTarget :: CreateLayer, méthodes
 
@@ -35,7 +35,7 @@ Crée une ressource de couche qui peut être utilisée avec cette cible de rendu
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La couche se redimensionne automatiquement, si nécessaire.
 
@@ -84,7 +84,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

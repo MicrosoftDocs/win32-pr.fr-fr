@@ -4,12 +4,12 @@ ms.assetid: e12ab57e-ebc2-46af-afdf-d78d4db16fcf
 title: Attribut MF_TRANSFORM_ASYNC_UNLOCK (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82a0a8f328095c3a5c567171fa6a625a77e5623d126dfb2be9f34fef556984be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e7876b3f1fca80e881414399d40e69112a64d8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118244175"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313862"
 ---
 # <a name="mf_transform_async_unlock-attribute"></a>\_Attribut de \_ déverrouillage asynchrone de transformation MF \_
 
@@ -57,7 +57,7 @@ HRESULT UnlockAsyncMFT(IMFTransform *pMFT)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

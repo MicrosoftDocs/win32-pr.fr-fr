@@ -4,12 +4,12 @@ ms.assetid: b384861d-4e71-4e07-8b44-5c1cbcb3a70f
 title: Comment créer un décodeur à l’aide d’un nom de fichier image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 867581e06692188913e4bb1af4956956c462c46bc189a4983f3c5d24bc38c986
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 113ea82b741f2a8dab6c92d6391d65eb7d7e99c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119811989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196159"
 ---
 # <a name="how-to-create-a-decoder-using-an-image-filename"></a>Comment créer un décodeur à l’aide d’un nom de fichier image
 

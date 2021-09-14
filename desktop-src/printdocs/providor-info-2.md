@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 969af36fe0a64bb586fbf62912ca27c6ebba9ba0a627701e4bc57f6202bfe1b5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d40f5843bf68254b92e3d814d9f308ba4f058889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120091679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196687"
 ---
 # <a name="providor_info_2-structure"></a>\_Structure PROVIDOR info \_ 2
 
@@ -48,11 +48,11 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est utilisée lors de l’appel de [**AddPrintProvidor**](addprintprovidor.md), niveau 2, pour ajouter le fournisseur d’impression spécifié à la fin de la liste des commandes du fournisseur d’impression. Le fournisseur est immédiatement utilisé pour le routage si l’appel a échoué.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

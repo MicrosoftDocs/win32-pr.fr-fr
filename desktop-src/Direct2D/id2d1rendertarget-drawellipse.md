@@ -13,11 +13,11 @@ api_type:
 ms.date: 07/02/2019
 ms.topic: reference
 ms.openlocfilehash: 9647591b5033b912283500a0ddb1dba20004ec38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523527"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112762"
 ---
 # <a name="id2d1rendertargetdrawellipse-methods"></a>ID2D1RenderTarget ::D méthodes rawEllipse
 
@@ -42,7 +42,7 @@ La méthode **DrawEllipse** ne retourne pas de code d’erreur en cas d’échec
 
 Pour obtenir un exemple, consultez [Comment dessiner et remplir une forme de base](how-to-draw-an-ellipse.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

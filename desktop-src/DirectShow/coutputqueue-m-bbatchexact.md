@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6b5859744c3670ccc789ae5d87a619b3b32c3731580d473ff8cc6d775348771f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a5f38d8a0e7335025688f52015ff9ed4d4892820
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195596"
 ---
 # <a name="coutputqueuem_bbatchexact-member"></a>COutputQueue :: m \_ bBatchExact, membre
 
@@ -40,7 +40,7 @@ const BOOL m_bBatchExact;
 
 Si la valeur est **true**, l’objet attend jusqu’à ce qu’il dispose d’un lot complet d’exemples de supports avant d’en émettre un. Dans le cas contraire, il fournit des exemples à mesure qu’ils arrivent. La variable membre [**COutputQueue :: m \_ lBatchSize**](coutputqueue-m-lbatchsize.md) définit la taille du lot.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

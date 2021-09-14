@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 4c67a341bcc7fcac041f02cc183c02e024e60b121150aba0ce62da2f973ccbec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de25d73e9fb331538ecdbf5f22306d85c282b338
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117843231"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195840"
 ---
 # <a name="email-properties"></a>Propriétés de l’e-mail
 
@@ -40,7 +40,7 @@ Windows Appareils mobiles prend en charge les propriétés de messagerie suivant
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

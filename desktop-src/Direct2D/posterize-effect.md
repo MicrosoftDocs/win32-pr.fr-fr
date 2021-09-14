@@ -4,12 +4,12 @@ description: L’effet Postérisation réduit le nombre de couleurs uniques dans
 ms.assetid: e6686998-1246-b3b7-6f4f-212568c3191c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21372ee43935441168609cc81ef053ac96fd3fdbbd7cd3c16578f13d1a47fda1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2c98c55154300f7b29c23c24e97570335c6e930f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112590"
 ---
 # <a name="posterize-effect"></a>Effet Postérisation
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Posterize.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -52,7 +52,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet Postérisation sont définies par l’énumération [**\_ \_ props d2d1**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_posterize_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

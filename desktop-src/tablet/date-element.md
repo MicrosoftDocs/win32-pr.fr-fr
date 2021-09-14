@@ -5,11 +5,11 @@ title: Élément Date
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8edb372e33214924f95933134440bed7a83d334f
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432591"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196324"
 ---
 # <a name="date-element"></a>Élément Date
 

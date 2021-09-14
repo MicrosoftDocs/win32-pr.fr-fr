@@ -4,12 +4,12 @@ description: inverse les couleurs d’une image.
 ms.assetid: aa859cd4-0fb0-9902-3add-748d0cca63ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd718d5a6f23dc1e1ab0bae0cbe9b39411379af43e56097aee106409826c635
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba6a39a273417cb479f2f99a1e08cf20c16e1398
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120076712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112674"
 ---
 # <a name="invert-effect"></a>Effet négatif
 
@@ -19,7 +19,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Invert.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -30,7 +30,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Invert.
 
 Cet effet n’a pas de propriétés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

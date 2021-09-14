@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 972224decdad339876e4f72c40cad5b3ba28de98446ff358fd36cb7f86bee0af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b4e259ef5b8ef410db072a7f942d139f682bc90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196007"
 ---
 # <a name="microsoft-windows-media-drm-client-interfaces"></a>Interfaces clientes DRM Microsoft Windows Media
 

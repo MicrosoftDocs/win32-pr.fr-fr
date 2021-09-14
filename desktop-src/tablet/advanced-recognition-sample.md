@@ -5,11 +5,11 @@ title: Exemple de reconnaissance avancée
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7e23a078ded9c6967f8e45780f8cb3a739b246f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196347"
 ---
 # <a name="advanced-recognition-sample"></a>Exemple de reconnaissance avancée
 
@@ -27,7 +27,7 @@ Microsoft System Center ASP.NET 2.0 2007 offre les fonctionnalités suivantes :
 
 Les interfaces utilisées sont les suivantes : [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer), **IInkRecoContext**, [**IInkRecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult), **IInkRecognitionGuide**, **IInkWordList**, [**IInkGesture**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture), **IInkCollector**, **IInkDisp**, **IInkRenderer**, **IInkDrawingAttributes**, **IInkStrokes** et **IInkStroke**.
 
-## <a name="ink-and-project-headers"></a>En-têtes d’encre et de projet
+## <a name="ink-and-project-headers"></a>en-têtes d’encre et de Project
 
 Tout d’abord, incluez les en-têtes pour les interfaces d’automatisation Tablet PC. Celles-ci sont installées avec le kit de développement logiciel (SDK) de plateforme Tablet PC. Le fichier TpcError. h contient les définitions des codes d’erreur de l’API Tablet PC.
 

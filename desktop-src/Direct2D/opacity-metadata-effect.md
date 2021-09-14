@@ -4,12 +4,12 @@ description: Vous pouvez utiliser cet effet pour marquer une zone d’une image 
 ms.assetid: 25B34A31-8533-4339-BBF7-2D7E5488E301
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be14699214337dc3f8c6e9e525f128a382c14ee479af08b99ea1f9eadd00041d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d84d90ba1c4b1186e3e682ec94a0c9c17bdfc73e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118665319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112609"
 ---
 # <a name="opacity-metadata-effect"></a>Effet de métadonnées d’opacité
 
@@ -34,7 +34,7 @@ Le CLSID de cet effet est CLSID \_ D2D1OpacityMetadata.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

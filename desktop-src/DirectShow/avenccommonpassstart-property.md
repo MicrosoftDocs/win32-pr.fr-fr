@@ -4,12 +4,12 @@ ms.assetid: a062be3f-7806-4f1c-b98e-2c9ed31f010c
 title: Propriété AVEncCommonPassStart (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7830537e6345d43927c7009e0e3ec9148505217818e981d7354a100a4ff2d68e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 87d5be37fc4866aea6f442d4d8a2c0f74c6609cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120000139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111942"
 ---
 # <a name="avenccommonpassstart-property"></a>Propriété AVEncCommonPassStart
 
@@ -29,7 +29,7 @@ Cette propriété est en écriture seule.
 
 La valeur de cette propriété est l’étape d’encodage à démarrer. Pour obtenir la plage des valeurs prises en charge, interrogez la propriété [**AVEncCommonMultipassMode**](avenccommonmultipassmode-property.md) de l’encodeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

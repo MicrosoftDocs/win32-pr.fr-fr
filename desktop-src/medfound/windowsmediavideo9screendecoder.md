@@ -4,12 +4,12 @@ ms.assetid: 6688a830-7a54-4f58-947e-26013e191b5f
 title: Windows Décodeur d’écran Media Video 9 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c2e081423c4c5efc2d44fdf78c7c6a94a00dae86d40d761a06ab0de07fa5d1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd9dcdce920fa39437edb769fd575a7d7a0d68fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119462389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313578"
 ---
 # <a name="windows-media-video-9-screen-decoder"></a>Windows Décodeur d’écran Media Video 9
 
@@ -47,7 +47,7 @@ Les types de sortie suivants sont pris en charge par le décodeur d’écran ver
 -   MFVideoFormat \_ RGB555
 -   MFVideoFormat \_ RGB8
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 un objet décodeur d’écran expose l’interface [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) afin que l’objet puisse être utilisé en tant qu’objet DirectX Media (DMO) et expose l’interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) afin que l’objet puisse être utilisé en tant que Media Foundation Transform (MFT).
 
@@ -55,7 +55,7 @@ un décodeur d’écran se comporte comme un DMO ou une table MFT en fonction de
 
 
 
-| Système d’exploitation            | Comportement du décodeur                                                                                                                                                        |
+| Système d'exploitation            | Comportement du décodeur                                                                                                                                                        |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows XP                  | un décodeur d’écran de média Windows se comporte toujours comme DMO.                                                                                                                 |
 | Windows Vista et Windows 7 | par défaut, un décodeur d’écran de média Windows se comporte comme un DMO. Si vous obtenez une interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) sur un décodeur d’écran, celui-ci se comporte comme une table MFT. |
@@ -66,7 +66,7 @@ un décodeur d’écran se comporte comme un DMO ou une table MFT en fonction de
 
 Vous pouvez utiliser le même CLSID (CLSID \_ CMSSCDecMediaObject) pour créer le décodeur d’écran de la version 7 et le décodeur d’écran de la version 9. le contenu encodé FOURCC pour Windows Media Video écran Version 7 est « MSS1 ». Le décodeur d’écran de la version 7 prend en charge le \_ type d’entrée MEDIASUBTYPE MSS1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

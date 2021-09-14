@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5715bf8db51017c16997530256c6dfb83b3b3fc5
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364563"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233687"
 ---
 # <a name="mmiom_read-message"></a>MMIOM \_ lire le message
 
@@ -56,7 +56,7 @@ Nombre d’octets à lire à partir du fichier.
 
 Retourne le nombre d’octets réellement lus à partir du fichier. Si le nombre d’octets ne peut pas être lu, la valeur de retour est 0. En cas d’erreur, la valeur de retour est 1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La procédure d’e/s est responsable de la mise à jour du membre **lDiskOffset** de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) pour refléter la nouvelle position de fichier après l’opération de lecture.
 

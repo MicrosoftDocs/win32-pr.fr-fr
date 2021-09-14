@@ -4,12 +4,12 @@ ms.assetid: 3b064758-2ae5-4441-801c-5400e4ef3790
 title: À propos du rendu vidéo dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59d2d39cab75f2943a052b157296673f504a1220c17369d5a1639215f074a359
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 699e8ecf133f362e699e6b9d650d11da5bf43347
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112377"
 ---
 # <a name="about-video-rendering-in-directshow"></a>À propos du rendu vidéo dans DirectShow
 

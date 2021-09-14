@@ -10,12 +10,12 @@ keywords:
 - objets de récepteur push du writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 859e4d2d5cf2530e655b74705b1d6f9ef93960d28f523c00e0da7a7336ab258d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a19ea9855219dcb4572ef187ad93e03696b88492
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195856"
 ---
 # <a name="writer-push-sink-object"></a>Objet récepteur push de l’enregistreur
 

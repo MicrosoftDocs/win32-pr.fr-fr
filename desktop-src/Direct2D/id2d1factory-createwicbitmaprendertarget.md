@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 177f5459d8245292e2962e502882bb86643f3f8b777efd8a336fde5f8c671897
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4025028582c254e7a5724a575ef0d7f1c7d91570
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112957"
 ---
 # <a name="id2d1factorycreatewicbitmaprendertarget-methods"></a>ID2D1Factory :: CreateWicBitmapRenderTarget, méthodes
 
@@ -35,13 +35,13 @@ crée une cible de rendu qui est rendue en bitmap WIC (Microsoft Windows Imaging
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Votre application doit créer des cibles de rendu une seule fois et les conserver pendant toute la durée de vie de l’application ou jusqu’à ce que l’erreur de [**\_ recréation de la \_ cible D2DERR**](direct2d-error-codes.md) soit reçue. Lorsque vous recevez cette erreur, vous devez recréer la cible de rendu (et toutes les ressources qu’elle a créées).
 
 **Remarque**   cette méthode n’est pas prise en charge sur les Windows Phone et échoue quand elle est appelée sur un appareil avec le code d’erreur 0x8899000b (aucun périphérique de rendu matériel n’est disponible pour cette opération). étant donné que le Windows Phone Emulator prend en charge le rendu de distorsion, cette méthode échouera quand elle est appelée sur l’émulateur avec un code d’erreur différent, 0x88982f80 (wincodec \_ err \_ unsupportedpixelformat).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5e21943f-363c-4831-bc09-aadf6f4a0ad5
 title: Utilisation de l’audio High-Definition (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c3eac918929b6495401a0eeaee31fe6d7a01d2df0eced9866da829381392edf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d05e7bd9311574c3d25f9069ea60c9d269d24390
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313646"
 ---
 # <a name="using-high-definition-audio-microsoft-media-foundation"></a>Utilisation de l’audio High-Definition (Microsoft Media Foundation)
 

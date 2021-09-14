@@ -4,12 +4,12 @@ ms.assetid: 6158551c-d073-416b-adc3-adc6e335f2d5
 title: System. contact. DisplayMobilePhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa21f68ce6d45255fd3ffb733b7e961a59e149c047378f9690f434ee078e9c56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 141d692439e565e19bd74e80936671eea2e4a78c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118730105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227375"
 ---
 # <a name="systemcontactdisplaymobilephonenumbers"></a>System. contact. DisplayMobilePhoneNumbers
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

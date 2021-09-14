@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 344cb55314c3cafc2e84479944342633c74bd5a35754c9f7a4f6d53a30da58fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f6b79e8434a2174bcb05659f6656a46cc2d43cbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112929"
 ---
 # <a name="id2d1geometrycomputearea-methods"></a>ID2D1Geometry :: ComputeArea, méthodes
 
@@ -54,7 +54,7 @@ hr = m_pCircleGeometry1->ComputeArea(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

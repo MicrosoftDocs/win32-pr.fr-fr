@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bc4ee059eb47e08ae827392e8f29968463bb9bd4ca86e0c6b8a87a9f3bbd5667
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 087612acf99a41966ccd98d3b41d2b83255a86f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119697709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234252"
 ---
 # <a name="cfactorytemplatem_pamoviesetup_filter-member"></a>CFactoryTemplate :: m \_ pAMovieSetup, \_ membre de filtre
 
@@ -40,7 +40,7 @@ const AMOVIESETUP_FILTER *m_pAMovieSetup_Filter;
 
 Utilisez cette structure pour procéder à l’inscription automatique d’un filtre. Si votre composant n’est pas un filtre, cette variable membre peut avoir la **valeur null**. pour plus d’informations, consultez comment inscrire des filtres de DirectShow.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

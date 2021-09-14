@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: b5f48462d926d96acebf4a74f0a843d82f9cd97190585b954565d5da649ff9f8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4a5d469179f341f3bad5d2b9b5ed25a5715be694
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196183"
 ---
 # <a name="iwiapreviewupdatepreview-method"></a>IWiaPreview :: UpdatePreview, méthode
 
@@ -69,13 +69,13 @@ Spécifie un pointeur vers l’élément [**IWiaItem2**](-wia-iwiaitem2.md) , qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode passe l’image mise en cache et non filtrée via le filtre de traitement d’image, qui écrit ensuite les données filtrées dans le flux fourni par l’application. Le composant d’aperçu WIA 2,0 récupère ce flux en appelant la méthode [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) du filtre de traitement d’image, qui appelle ensuite l’implémentation **GetNextStream** du rappel de l’application. Avant d’appeler **IWiaPreview :: UpdatePreview**, une application doit d’abord appeler [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md) pour acquérir l’image à partir du scanneur ; dans le cas contraire, la méthode retourne une erreur.
 
@@ -112,7 +112,7 @@ UpdateRegion(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ keywords:
 - ASF (format des systèmes avancés), création de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff4bec466a9f38dfedaa7e860fdc5e3eda56e0ca5fa1f1240bc18c54dfd51513
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c13c1af0d3699c89d26f007e00675ea563639c4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119590619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195855"
 ---
 # <a name="writing-asf-files"></a>Écriture de fichiers ASF
 

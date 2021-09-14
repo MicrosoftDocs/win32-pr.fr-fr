@@ -4,12 +4,12 @@ ms.assetid: 9273ff1f-382e-4c58-b571-4852545915b3
 title: MFTIME (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a08ac4e82c5cb97615b47430baa1c3388677ac160487c132dd41b7454ce985
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0e82c99c3c4a42b652c04595d086951c3c1a71a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313713"
 ---
 # <a name="mftime"></a>MFTIME
 
@@ -39,7 +39,7 @@ inline LONG MFTimeToMsec(const LONGLONG& time)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ef361c85-8f3b-4719-80f2-853c84ae7277
 title: Utilisation de la vidéo (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9819c7f3c949f841b040ec2c73bf37a9957f8cc40d7f595b2fd65f723dd762
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 002b32fab6dafea91fb9c15d59a4ca3cca2f03f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117688139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313522"
 ---
 # <a name="working-with-video-microsoft-media-foundation"></a>Utilisation de la vidéo (Microsoft Media Foundation)
 

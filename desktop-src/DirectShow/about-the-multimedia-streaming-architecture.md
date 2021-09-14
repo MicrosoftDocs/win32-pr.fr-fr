@@ -4,12 +4,12 @@ ms.assetid: 185c7012-968a-4d9c-9baa-4d20f953068b
 title: À propos de l’architecture de diffusion multimédia en continu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd7af9ef5a5bfcf1fd11a4a19b52ba889edb3133ae9ca4cf68c3307715736a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85d66d8ca38b7b5510fce5ff3f5e7efd600552b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118664413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112401"
 ---
 # <a name="about-the-multimedia-streaming-architecture"></a>À propos de l’architecture de diffusion multimédia en continu
 

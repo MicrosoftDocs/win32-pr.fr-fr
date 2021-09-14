@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - combase.h
-ms.openlocfilehash: fe50295f87e2932d3eb0fe53aac4896343a31441f8fa832bbaa69d5256846414
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55a225185733a822591d8f93c2eca3674d51a340
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112261"
 ---
 # <a name="amoviesetup_filter-structure"></a>\_Structure de filtre AMOVIESETUP
 
@@ -78,7 +78,7 @@ Pointeur vers un tableau de structures [**AMOVIESETUP \_ pin**](amoviesetup-pin.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour plus d’informations sur l’utilisation de cette structure, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md). Utilisez cette structure uniquement pour les filtres qui sont enregistrés dans la catégorie de filtre par défaut (CLSID \_ LegacyAmFilterCategory). Pour inscrire un filtre dans une autre catégorie, utilisez la méthode [**IFilterMapper2 :: RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) , comme décrit dans [implémentation de DllRegisterServer](implementing-dllregisterserver.md).
 
@@ -87,7 +87,7 @@ pour plus d’informations sur l’utilisation de cette structure, consultez [co
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

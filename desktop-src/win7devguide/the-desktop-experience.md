@@ -4,12 +4,12 @@ description: le nouveau bureau de Windows 7 apporte vie à vos applications.
 ms.assetid: e706167a-435b-4c32-bb64-87113f368866
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a8d62c94cfaae137a921979e514c9500376be4abf858da5b64eee5ac3c8ec6c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3476f70c46aecceb365e17dba1803b876fd51e8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119811411"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196108"
 ---
 # <a name="the-desktop-experience"></a>Expérience utilisateur
 

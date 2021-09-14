@@ -4,12 +4,12 @@ ms.assetid: ff36b2c3-8763-4640-a049-b5880fd26929
 title: Stratégie de métadonnées de photo System. photo. PhotometricInterpretation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5479c747e2a1cc60a1867a7dc5906e5c4710abf9da33b5328980e0188403ecd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35b371ce9257d526f941f3fdb33949e8788a7112
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118204683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196119"
 ---
 # <a name="systemphotophotometricinterpretation-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. PhotometricInterpretation
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                | Format de disque |
+| JSON | Chemin d’accès                                | Format de disque |
 |-------|-------------------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 262}              | ushort      |
 | 2     | /xmp/tiff:PhotometricInterpretation | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                | Format de disque |
+| JSON | Chemin d’accès                                | Format de disque |
 |-------|-------------------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 262}              | ushort      |
 | 2     | /xmp/tiff:PhotometricInterpretation | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                |
+| JSON | Chemin d’accès                                |
 |-------|-------------------------------------|
 | 1     | /App1/IFD/{UShort = 262}              |
 | 2     | /xmp/tiff:photometricinterpretation |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                    | Format de disque |
+| JSON | Chemin d’accès                                    | Format de disque |
 |-------|-----------------------------------------|-------------|
 | 1     | /IFD/{UShort = 262}                       | ushort      |
 | 2     | /ifd/xmp/tiff:PhotometricInterpretation | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                    | Format de disque |
+| JSON | Chemin d’accès                                    | Format de disque |
 |-------|-----------------------------------------|-------------|
 | 1     | /IFD/{UShort = 262}                       | ushort      |
 | 2     | /ifd/xmp/tiff:PhotometricInterpretation | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                    |
+| JSON | Chemin d’accès                                    |
 |-------|-----------------------------------------|
 | 1     | /IFD/{UShort = 262}                       |
 | 2     | /ifd/xmp/tiff:photometricinterpretation |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

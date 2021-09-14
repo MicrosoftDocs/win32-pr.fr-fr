@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 459b975129cc6268b54a181e5a5e9a6c7e3bd0175c4a65da5dc08480671b970d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 59667e2895164ddfdb2ed688c55ac424315cd822
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119771209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195895"
 ---
 # <a name="wmasfpacketcount"></a>WM/ASFPacketCount
 
@@ -31,7 +31,7 @@ L’attribut **WM/ASFPacketCount** contient le nombre de paquets dans la section
 
 **\_type WMT \_ QWord**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est en lecture seule et s’applique à l’ensemble du fichier (flux 0).
 

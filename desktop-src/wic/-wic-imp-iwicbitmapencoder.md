@@ -4,12 +4,12 @@ ms.assetid: b671e941-ded6-4bde-bc4d-461f13feade0
 title: Implémentation de IWICBitmapEncoder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69d02105470f837dba0689b665473c01c42f6cd6497a85424ea6eea3371696f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 590dffcf762d22155a89a8143994d9a4d8bcab02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119088011"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196147"
 ---
 # <a name="implementing-iwicbitmapencoder"></a>Implémentation de IWICBitmapEncoder
 
@@ -162,7 +162,7 @@ Si vous fournissez une version préliminaire JPEG, vous n’êtes pas obligé d�
 [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Interfaces d’encodeur](-wic-encoderinterfaces.md)

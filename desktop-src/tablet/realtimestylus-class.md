@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - RTSCom.dll
-ms.openlocfilehash: ea3fd1cba6e23997cdf9896e793c5776ce84b245bea10868f7f505c54de21aa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e0b7e92d4a3da0bf8186f001bc9f9bec850bedd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118715997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196243"
 ---
 # <a name="realtimestylus-class"></a>RealTimeStylus, classe
 
 Implémente l’interface com [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

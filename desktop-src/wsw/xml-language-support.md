@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebcf9eae98e15778fb95b47db2253bf553da16336317f7cdee69c20aa298584c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a13425d2ed9c878c3a63dd5b5908ffbab4f2f177
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119880719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225540"
 ---
 # <a name="xml-language-support"></a>Prise en charge du langage XML
 

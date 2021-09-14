@@ -4,12 +4,12 @@ ms.assetid: c2def964-6f2d-4b79-bfbf-a6719baf3c13
 title: Utilisation d’une collection Strokes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35673ef17882f246969e7c74869f47b09b604195c74bb1456c3624713a42045d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cdeb03ce8168cec489dfed954a091f50f8d846d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119221869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196223"
 ---
 # <a name="working-with-a-strokes-collection"></a>Utilisation d’une collection Strokes
 

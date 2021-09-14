@@ -5,11 +5,11 @@ title: Décodeur audio Dolby
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1ae38516edd935def5d9b2b041c942a729c45c61
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196791"
 ---
 # <a name="dolby-audio-decoder"></a>Décodeur audio Dolby
 
@@ -57,8 +57,8 @@ Le tableau suivant répertorie les attributs requis et facultatifs pour le type 
 | <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
 | <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Pour plus d’informations, consultez le tableau précédent. | 
 | <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Taux d’échantillonnage, en échantillons par seconde. | facultatif. Les valeurs valides sont les suivantes : 48000, 44100, 32000, 24000, 22050 et 16000. Si cet attribut n’est pas défini, la valeur par défaut est 48000. <br /><blockquote>[!Note]<br />Les flux Dolby AC-3 sont limités aux trois tarifs les plus élevés de cette liste.</blockquote><br /> | 
-| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant. | facultatif. Les valeurs valides sont comprises entre 1 (mono) et 8 (configuration de canal 7,1). Si cet attribut n’est pas défini, la valeur par défaut est 2 (stéréo). | 
-| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. S’il est spécifié, la valeur doit être cohérente avec le nombre de canaux audio. Si l’attribut n’est pas défini, le décodeur utilise un masque de canal par défaut, en fonction du nombre de canaux. | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant. | Optionnel. Les valeurs valides sont comprises entre 1 (mono) et 8 (configuration de canal 7,1). Si cet attribut n’est pas défini, la valeur par défaut est 2 (stéréo). | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | Optionnel. S’il est spécifié, la valeur doit être cohérente avec le nombre de canaux audio. Si l’attribut n’est pas défini, le décodeur utilise un masque de canal par défaut, en fonction du nombre de canaux. | 
 
 
 
@@ -149,7 +149,7 @@ Le décodeur audio Dolby implémente la méthode [**IMFTransform :: GetAttribut
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le décodeur accepte uniquement les flux Dolby bruts, comme défini par un/52B. les charges utiles telles que les Flux élémentaires par paquets (PES) ne sont pas prises en charge. Pour Dolby Digital plus, le décodeur décode jusqu’à 5,1 canaux. sur Windows 10, les flux de canal 7,1 sont décodés sans downmix. Sur les versions précédentes du système d’exploitation, si le flux est 7,1 canaux, seul le canal 5,1 downmix sera décodé. Si le flux est Dolby Digital plus avec plus d’un sous-flux indépendant, seul le sous-flux indépendant 0 est décodé. Le décodeur ignore les autres sous-flux indépendants. En outre, le décodeur ignore tous les sous-flux dépendants. Le décodeur prend en charge le déchiffrement et le décodage des flux protégés par la technologie de Rights Management numérique (DRM).
 
@@ -167,7 +167,7 @@ Si le type de sortie est **KSDATAFORMAT \_ SubType \_ IEC61937 \_ Dolby \_ Digit
 
 La table MFT du décodeur est inscrite avec l’indicateur d' **énumération MFT d’indicateur \_ \_ \_ FIELDOFUSE**, qui indique que la table MFT doit être déverrouillée par l’application avant d’être utilisée. Pour plus d’informations, consultez [restrictions relatives au champ d’utilisation](field-of-use-restrictions.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: System. contact. DisplayHomePhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ecb92d9b95a493a342c48d0f1671ae5502f8c6ab
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227381"
 ---
 # <a name="systemcontactdisplayhomephonenumbers"></a>System. contact. DisplayHomePhoneNumbers
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

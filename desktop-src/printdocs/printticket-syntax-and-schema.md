@@ -4,12 +4,12 @@ ms.assetid: 2f595ff9-ac0e-414c-a266-43feea3de034
 title: Schéma et syntaxe PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4810c73ec643fea7972c926f03061ac5c95e0020f31ef1175eed57e1b89e0f2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c627746dad0179ff437cf87e77bbc5a7580645e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196707"
 ---
 # <a name="printticket-syntax-and-schema"></a>Schéma et syntaxe PrintTicket
 

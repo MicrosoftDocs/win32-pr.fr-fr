@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 177ee7ecf78050976887001d5fcedc722a9fa688cf8e6b9626316d2a0a4fc231
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e07e86be3666b06063ef81c896eab6ee7a918657
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118009318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225228"
 ---
 # <a name="uncompressex-method-of-the-win32_shortcutfile-class"></a>Méthode UncompressEx de la \_ classe Win32 ShortcutFile
 
@@ -70,7 +70,7 @@ Si la **valeur est true**, la modification de la propriété sera appliquée de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été décompressé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -167,7 +167,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

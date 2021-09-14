@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61984861d9e39f706319af59cf1efd8963a84e0c94237bd0a986d4b32b859315
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7bf0436a7b0b8c87713a1d1e59d9abe8b2e98fd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196944"
 ---
 # <a name="jet_indexcreategrbit-property"></a>JET_INDEXCREATE. Grbit, propriété
 
@@ -66,7 +66,7 @@ Type : [Microsoft. ISAM. esent. Interop. CreateIndexGrbit](./createindexgrbit-e
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_INDEXCREATE](./jet-indexcreate-class.md)
 

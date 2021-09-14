@@ -4,12 +4,12 @@ ms.assetid: 880DF017-5841-4C0A-82AF-F092DEF5406B
 title: Attribut MF_MT_VIDEO_3D_FORMAT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4100a605ecc7e8fe1c171b02341822972061363e7cd1b322162291dbd75b2c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66f2b12f907edb2875b3b121607509288787c8e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117692068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313906"
 ---
 # <a name="mf_mt_video_3d_format-attribute"></a>\_Attribut de \_ \_ format vidéo 3D \_ MF MT
 
@@ -19,13 +19,13 @@ Pour un type de média vidéo, spécifie la manière dont les images vidéo 3D s
 
 **MFVideo3DFormat** stocké en tant que **UInt32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est un membre de l’énumération [**MFVideo3DFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideo3dformat) . L’attribut s’applique uniquement si l’attribut [ \_ \_ \_ 3D MF MT Video](mf-mt-video-3d.md) a la **valeur true**.
 
 Cet attribut est requis pour les formats vidéo 3D non compressés. Elle est facultative pour la vidéo 3D compressée. Une source de média qui fournit des frames encodés peut être en mesure de définir l’attribut, en fonction des informations contenues dans le conteneur de fichiers. Dans le cas contraire, l’attribut doit être défini par le décodeur dans le type de média de sortie du décodeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: Réglage de la télévision analogique
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1b85d0826340b913df88cb20dc538bc85943949b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514728"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112238"
 ---
 # <a name="analog-television-tuning"></a>Réglage de la télévision analogique
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f4b69089499944f6123a1a68b55fa0c198c51e7fed90a90b6ea68de442ae7bfd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec3c6e61cf12e3ce8f01011e87a89d7532a814fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127197048"
 ---
 # <a name="esentslvpagesnotreservedexception-class"></a>EsentSLVPagesNotReservedException, classe
 
@@ -68,7 +68,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentSLVPagesNotReservedException](./esentslvpagesnotreservedexception-members.md)
 

@@ -4,12 +4,12 @@ ms.assetid: 14fe4963-ab9b-4c78-9f17-791c68378ef0
 title: À propos du panneau de saisie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044e8c3a43127bd765fd5004329352956e4be8bb9f214f8dda8896fa318832a9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7db733e49e49d428b5ff8072a1315787d9fafd25
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119844409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196372"
 ---
 # <a name="about-the-input-panel"></a>À propos du panneau de saisie
 

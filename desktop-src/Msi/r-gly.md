@@ -4,12 +4,12 @@ ms.assetid: 868cb5b7-d5ab-41c7-a6d4-d7964a8ff6de
 title: R (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ad5e18472c1f5f579165f70cb411abf6ec2ffa937bd0d0804b4a303b19b7393
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2622ddd13bcd0c6ed7969e88eb27d41e281bf2f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118376101"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233922"
 ---
 # <a name="r-windows-installer"></a>R (Windows Installer)
 

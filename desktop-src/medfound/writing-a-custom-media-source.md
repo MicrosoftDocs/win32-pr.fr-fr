@@ -4,12 +4,12 @@ ms.assetid: 82db6f32-ad94-4563-b8bd-8a5072c5b221
 title: Écriture d’une source de média personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e240277d5bbbabe5068f3a5f10bdb0312c29410def51bdced14715c1d3d68b07
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8769fa16d4dcbfd3438b66f9a9e78c34274735a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119343189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313514"
 ---
 # <a name="writing-a-custom-media-source"></a>Écriture d’une source de média personnalisée
 

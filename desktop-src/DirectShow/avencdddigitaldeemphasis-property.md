@@ -4,12 +4,12 @@ ms.assetid: 5d2d9f1d-fdc3-448f-8d9f-f75a73a63cd3
 title: Propriété AVEncDDDigitalDeemphasis (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a9eb0c7404c1efad35c811cc0acf438fb00fe785de5155fbfd5cb06f43db3d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 42662de5aebda80db8f2011a923e4a86e2c831fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120084599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111898"
 ---
 # <a name="avencdddigitaldeemphasis-property"></a>Propriété AVEncDDDigitalDeemphasis
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncDDDigitalDeemphasis**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

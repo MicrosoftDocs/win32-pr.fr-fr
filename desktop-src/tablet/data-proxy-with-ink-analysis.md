@@ -4,12 +4,12 @@ ms.assetid: 33ba9292-3bc7-41ba-a602-e2fc94cd3a57
 title: Proxy de données avec analyse de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad79a37a3220351adad56c0a131392e96964714114ba1e0a982833b07bc85077
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52717b955625e67f50c20703dd0e84449aa1037f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092778"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196328"
 ---
 # <a name="data-proxy-with-ink-analysis"></a>Proxy de données avec analyse de l’encre
 

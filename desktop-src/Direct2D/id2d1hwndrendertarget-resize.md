@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 31ffcae6473924e12ca428fd48927fd1507840dce4fdbce3a18e8f82ffe9fcaf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f15af87c59c943bd7d5dc8ece708d3603bddce6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112885"
 ---
 # <a name="id2d1hwndrendertargetresize-methods"></a>ID2D1HwndRenderTarget :: Resize, méthodes
 
@@ -34,11 +34,11 @@ Modifie la taille de la cible de rendu avec la taille de pixel spécifiée.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après l’appel de cette méthode, le contenu de la mémoire tampon d’arrière-plan de la cible de rendu n’est pas défini, même si l’option [**d2d1 présente l’option \_ conserver le \_ \_ \_ contenu**](/windows/win32/api/d2d1/ne-d2d1-d2d1_present_options) a été spécifiée lors de la création de la cible de rendu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

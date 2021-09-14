@@ -4,12 +4,12 @@ description: Convertit les données JPEG d’échantillonnages planaires et de c
 ms.assetid: E4492996-54DA-4C5F-B44C-8FBE97C8DD7D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5302300cc539571fabb1c3d786686ffc514636133391e706fc5963002656764
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c581effbadecc19c39161d2a2ec4af051d4195d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112449"
 ---
 # <a name="ycbcr-effect"></a>Effet YCbCr
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1YCbCr.
 -   [Modes de sous-échantillonnage](#subsampling-modes)
 -   [Modes d’interpolation](#interpolation-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="effect-properties"></a>Propriétés d’effet
@@ -77,7 +77,7 @@ La taille de l’image bitmap de sortie dépend de la matrice de transformation 
 
 L’effet exécute l’opération de transformation, puis applique un cadre englobant autour du résultat. La bitmap de sortie correspond à la taille du cadre englobant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

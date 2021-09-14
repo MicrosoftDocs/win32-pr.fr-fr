@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 1f84d127f892a5182a3ff32d5d80a349097b200b1a9fb1fc2f5ccf8f7fe9ba54
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c96166473109d6909457b9ac7a645b6e00e15698
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112834"
 ---
 # <a name="id2d1propertiesgetvalue-methods"></a>ID2D1Properties :: GetValue, méthodes
 

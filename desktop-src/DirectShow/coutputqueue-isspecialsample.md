@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c192196869f86e8d78da2f6b38a661373e115753d99e554f4b7a868eb0b484fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc57847d6a977c740bbf50bae220a89b0ed6fab1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195604"
 ---
 # <a name="coutputqueueisspecialsample-method"></a>Méthode COutputQueue. IsSpecialSample
 
@@ -49,15 +49,15 @@ Pointeur vers un élément de la file d’attente.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si *pSample* est un message de contrôle, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**COutputQueue :: QueueSample**](coutputqueue-queuesample.md) peut recevoir des messages de contrôle en plus des exemples de supports. Un message de contrôle est une constante définie (castée en un \_ type PTR long) qui indique au thread d’effectuer une action. Les messages de contrôle ne contiennent pas de données multimédias. Pour plus d’informations, consultez **COutputQueue :: QueueSample**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

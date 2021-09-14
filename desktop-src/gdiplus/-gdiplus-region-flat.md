@@ -4,12 +4,12 @@ ms.assetid: 2f1d3631-7104-421a-a577-ef764bffe034
 title: Fonctions de région (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f81efdd4218d9470614c0beae70972b0ca351abedc1a4b1bfd47d0f1f726703
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc17e8cac440f9a749767bd5cce30fe31f2d5b29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196876"
 ---
 # <a name="region-functions-gdi"></a>Fonctions de région (GDI+)
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ de la
 
 
 
-| Fonction plate                                                                                                                                            | Méthode Wrapper                                                                                                                                                                                       | Remarques                                                                                                                                                                                                                                                                                                           |
+| Fonction plate                                                                                                                                            | Méthode Wrapper                                                                                                                                                                                       | Notes                                                                                                                                                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateRegion ( \* \* région GpRegion)<br/>                                                                                     | [**Region :: Region ()**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(constregion_))<br/>                                                                                                                                 | Crée une région qui est infinie. Il s'agit du constructeur par défaut.                                                                                                                                                                                                                                               |
 | GpStatus WINGDIPAPI GdipCreateRegionRect (GDIPCONST GpRectF \* Rect, GpRegion \* \* Region)<br/>                                                       | [**Region :: Region (dans const RectF& Rect)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(inconstrectf_))<br/>                                                                                                  | Crée une région qui est définie par un rectangle.                                                                                                                                                                                                                                                                  |

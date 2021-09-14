@@ -4,12 +4,12 @@ description: MPIO (Multipath I/O) prend désormais en charge les blocs de demand
 ms.assetid: 5373D9ED-34AF-4D66-8888-49F1EBF768F4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3b3a5ce3050bf7fddc2bd77da30e766c7b9cd67a8c4f49c753da5302b104c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f558f8088b5066b51447c5f2ea23edd5154d5c10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119932209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196196"
 ---
 # <a name="multipath-io-now-supports-extended-storage-request-blocks"></a>MPIO (Multipath I/O) prend désormais en charge les blocs de demande de stockage étendu
 

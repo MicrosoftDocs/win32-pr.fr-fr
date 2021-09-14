@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e740a4afcbec9d4852d920a8ab312fb871700c0a1fab56d70fa7b3239cea7e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee89eb1bd8228fb5aa6bf649bf3e703847f9d605
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017607"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112649"
 ---
 # <a name="matrix4x3fmatrix4x3f-constructor"></a>Matrix4x3F :: Matrix4x3F (), constructeur
 
@@ -40,7 +40,7 @@ inline Matrix4x3F();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

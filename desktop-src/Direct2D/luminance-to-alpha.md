@@ -6,12 +6,12 @@ keywords:
 - effet luminance vers alpha
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 803070fea76b47c1334803a4e7f8fef510cc77c8b3bc05c8477b572cb0451670
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8fb4c6fb78a1d49498b2adab6716d41e93d30deb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112658"
 ---
 # <a name="luminance-to-alpha-effect"></a>Effet luminance vers alpha
 
@@ -77,7 +77,7 @@ Cet effet consomme et génère des images alpha prémultipliées. L’effet ne f
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

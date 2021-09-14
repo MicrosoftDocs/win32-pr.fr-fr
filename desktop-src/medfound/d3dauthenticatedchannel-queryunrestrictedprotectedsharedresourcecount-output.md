@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: af3bcdce8573939a9c638a73085cc5ebee82e73bde1a5169daed588cec111078
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3fd30cff59d35f845903e7f4fdb08cdff61df3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117880112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196816"
 ---
 # <a name="d3dauthenticatedchannel_queryunrestrictedprotectedsharedresourcecount_output-structure"></a>\_Structure de \_ sortie D3DAUTHENTICATEDCHANNEL QUERYUNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT
 
@@ -56,7 +56,7 @@ Nombre de ressources protégées et partagées qui peuvent être ouvertes par n�
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,17 +5,17 @@ title: Composant Windows Imaging
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f00bb18e2e432abbe3cfb3b72d28ceb4182e63ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203804"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196132"
 ---
 # <a name="windows-imaging-component"></a>Composant Windows Imaging
 
 ## <a name="purpose"></a>Objectif
 
-Le composant WIC (Windows Imaging Component) est une plateforme extensible qui fournit une API de bas niveau pour les images numériques.  WIC prend en charge les formats d’image Web standard, les images de plage dynamique élevée et les données d’appareil photo brutes.  WIC prend également en charge des fonctionnalités supplémentaires telles que :
+le composant WIC (Windows Imaging Component) est une plateforme extensible qui fournit une API de bas niveau pour les images numériques.  WIC prend en charge les formats d’image Web standard, les images de plage dynamique élevée et les données d’appareil photo brutes.  WIC prend également en charge des fonctionnalités supplémentaires telles que :
 
 -   Prise en charge intégrée des formats de métadonnées standard
 -   Framework extensible pour les codecs d’image, les formats de pixel et les formats de métadonnées.

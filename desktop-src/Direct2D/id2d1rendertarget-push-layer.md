@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e1f4f5ddeace0144f6314ee7eae8a640e489d99c43f4e21f6e6c260fd003dd0f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a5609192162ae0b0c0e2af8f1b84429d8710509
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112729"
 ---
 # <a name="id2d1rendertargetpushlayer-methods"></a>ID2D1RenderTarget ::P méthodes ushLayer
 
@@ -34,7 +34,7 @@ Ajoute la couche spécifiée à la cible de rendu afin qu’elle reçoive toutes
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) permet à un appelant de commencer à rediriger le rendu vers une couche. Toutes les opérations de rendu sont valides dans une couche. L’emplacement de la couche est affecté par le jeu de transformations universelles sur la cible de rendu.
 
@@ -91,7 +91,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - ASF (Advanced Systems Format), fonctionnalités clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e394db59877612fb401552fc30a37c66f271e20e8c018c3525a0b617158abd9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aea60a6ab30e6f977e1c827718aac4b3bddec8b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118704066"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195979"
 ---
 # <a name="features"></a>Fonctionnalités
 

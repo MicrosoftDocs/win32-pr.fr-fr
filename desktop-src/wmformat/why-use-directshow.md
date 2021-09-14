@@ -19,12 +19,12 @@ keywords:
 - WDM (Windows Driver Model)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a5edce48be7a806011ba59ab5a2c5328840a18399f6f7eea65d649d52c62402
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f90fa1de01a7b136b938f9b09cc7fb2b3c229fad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119839419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195907"
 ---
 # <a name="why-use-directshow"></a>Pourquoi utiliser DirectShow ?
 

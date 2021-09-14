@@ -5,17 +5,17 @@ title: MFPKEY_WMA_ELEMENTARY_STREAM, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3c35088457eb9e3c21691cef1a16241d72a4b268
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313770"
 ---
 # <a name="mfpkey_wma_elementary_stream-property"></a>\_Propriété de \_ flux élémentaire MFPKEY WMA \_
 
 Non pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

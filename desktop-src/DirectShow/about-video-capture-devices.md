@@ -4,12 +4,12 @@ ms.assetid: 1bf6e64f-c3cf-45a4-9f87-1b8cf503d98b
 title: À propos des périphériques de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff3fff9f3d009006e300afdbe9986bfdc8d0a32ea618fdd2748efe0bd650b5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98ab9797c11b5c22f6196a5b4e781e50ce34edec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160182"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112389"
 ---
 # <a name="about-video-capture-devices"></a>À propos des périphériques de capture vidéo
 

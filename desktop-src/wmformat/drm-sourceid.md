@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80d9294cfdc76ff9210ad080bf3079bdfdb70ffb64faf35e2ef3e4164064a2b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3ea60249ea9326499de7eaa7422d9362e7f0b2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119085940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196004"
 ---
 # <a name="drm_sourceid"></a>\_SOURCEID DRM
 
@@ -31,7 +31,7 @@ L' **attribut \_ SourceId DRM** contient un identificateur qui associe le conten
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les identificateurs sources sont utilisés pour différencier le contenu protégé d’une façon non standard du contenu protégé à l’aide de la norme standard Windows Media DRM.
 

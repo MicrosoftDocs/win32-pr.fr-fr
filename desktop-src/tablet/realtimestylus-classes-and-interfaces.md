@@ -4,12 +4,12 @@ ms.assetid: fc0900b4-f08b-4a93-bbc0-d3db067d7917
 title: Classes et interfaces RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd842219a23accc076ff7fdc8564ccb3ce0c472cb7e26ab036f1048456461f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34769b2c268bcdfe2becf9e759344d972092fe28
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119589949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196240"
 ---
 # <a name="realtimestylus-classes-and-interfaces"></a>Classes et interfaces RealTimeStylus
 

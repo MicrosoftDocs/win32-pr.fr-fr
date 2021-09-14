@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 9f0b501b83a2877006543687bdc1d29ba3db8cc06af362422af0990cae4f0c72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e785d9425e003e5550b2b025fc73367b8e30b3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967798"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196343"
 ---
 # <a name="alternateslisttype-complex-type"></a>Type complexe AlternatesListType
 
@@ -27,7 +27,7 @@ Définit le type qui contient la liste des alternatives de reconnaissance pour u
 <xs:complexType name="AlternatesListType" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

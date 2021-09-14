@@ -4,12 +4,12 @@ ms.assetid: fdadcb85-c564-4d05-a4d7-af53a0107455
 title: Utilisation des extensions d’unités de données (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4680626f06c93e63f293699360d98ac995eedc3b3351fe617c182dbc176165ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21c16053ee078f5adcd48767f53d9e6e1c0eeb02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313649"
 ---
 # <a name="using-data-unit-extensions-microsoft-media-foundation"></a>Utilisation des extensions d’unités de données (Microsoft Media Foundation)
 

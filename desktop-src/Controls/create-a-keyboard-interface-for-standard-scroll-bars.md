@@ -4,12 +4,12 @@ description: Bien qu’un contrôle de barre de défilement fournisse une interf
 ms.assetid: 249D0077-6E61-479A-91D5-A4BD9752B82E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f25994639a40a6380bbf2f9cc0075e8a78b9e15787dbdf1babf0e6a15550faf1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43b739638d95d9f3e530718f8e9b9e6168069420
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195743"
 ---
 # <a name="how-to-create-a-keyboard-interface-for-standard-scroll-bars"></a>Comment créer une interface clavier pour les barres de défilement standard
 

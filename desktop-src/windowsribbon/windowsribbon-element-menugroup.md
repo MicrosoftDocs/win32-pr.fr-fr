@@ -14,17 +14,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: dad52aebe4a90d132827f01400fc7a1f2bbf1fde
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624715"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196083"
 ---
 # <a name="menugroup-element"></a>Élément MenuGroup
 
 Représente un conteneur de contrôles à afficher dans une galerie, un menu ou une barre d’outils.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <MenuGroup
@@ -57,7 +57,7 @@ Représente un conteneur de contrôles à afficher dans une galerie, un menu ou 
 <tr class="odd">
 <td><strong>Classe</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Spécifie la taille et le style de disposition des éléments dans l’interface utilisateur du menu.<br/> Une ressource d’image peut être fournie en deux tailles (grande et petite) et associée à l’élément dans le balisage à l’aide des éléments de propriété <a href="windowsribbon-element-command-largeimages.md"><strong>Command. LargeImages</strong></a> et <a href="windowsribbon-element-command-smallimages.md"><strong>Command. SmallImages</strong></a> . Si une seule image est fournie, l’infrastructure la redimensionne si nécessaire.<br/> Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> (StandardItems)<br/> </dt> <dd> Par défaut. <br/> Style : petites images et texte en surbrillance.<br/><img src="images/markup/menugroup-standarditems.png" alt="Screen shot of a StandardItems button." /></dd> <dt><span></span><span></span><strong></strong> (MajorItems)<br/> </dt> <dd> Style : grande image et texte en gras.<br/>
 <blockquote>
@@ -69,7 +69,7 @@ Si <strong>MenuGroup</strong> est un enfant de <a href="windowsribbon-element-ap
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -85,7 +85,7 @@ Si <strong>MenuGroup</strong> est un enfant de <a href="windowsribbon-element-ap
 | Élément                                                                             | Description                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)<br/> | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -114,7 +114,7 @@ Si <strong>MenuGroup</strong> est un enfant de <a href="windowsribbon-element-ap
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Obligatoire.
 

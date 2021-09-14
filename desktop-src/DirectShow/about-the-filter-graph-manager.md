@@ -4,12 +4,12 @@ ms.assetid: a227539a-7f9a-4f8d-99fe-f9ab67df9ef4
 title: à propos du gestionnaire de Graph de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38ce7c9c9af137853efba501cace7680b533c13994a559102fd08dc48efa2076
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dedf716b84ee62818e323bfaa082b6252e5faad0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112402"
 ---
 # <a name="about-the-filter-graph-manager"></a>à propos du gestionnaire de Graph de filtre
 

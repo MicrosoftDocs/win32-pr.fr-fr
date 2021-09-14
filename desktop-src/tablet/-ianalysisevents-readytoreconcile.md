@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: b65606675d8ae5aed694df87f35667a71fad2576344231a4e329783be4b31426
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4f3144f34dc680f9bc31f51b9e6b4284a70fb9bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120111269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226692"
 ---
 # <a name="_ianalysiseventsreadytoreconcile-event"></a>\_Événement IAnalysisEvents :: ReadyToReconcile
 
@@ -37,11 +37,11 @@ HRESULT ReadyToReconcile();
 
 Cet événement n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) effectue un rapprochement automatique lorsque l’indicateur **\_ AutomaticReconciliation AnalysisModes** de l’analyseur d’encre est défini (consultez [**méthode IInkAnalyzer :: SetAnalysisModes**](iinkanalyzer-setanalysismodes.md)). Lorsque l’indicateur **AnalysisModes \_ AutomaticReconciliation** n’est pas défini, votre application doit rapprocher manuellement les résultats de l’analyse en arrière-plan.
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur la synchronisation des données de votre applicat
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement lors de l’analyse en arrière-plan.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

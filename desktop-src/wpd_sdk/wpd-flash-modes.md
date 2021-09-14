@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 72e9b6cb2b52f1d90c584b6f425711769b25ea0c5d44065b5aa377d2811592e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 09a2a5b95e86d9d17267cafcfbf723e734ffc74f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120005919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195816"
 ---
 # <a name="wpd_flash_modes-enumeration"></a>\_ \_ Énumération des modes flash wpd
 
@@ -94,11 +94,11 @@ Spécifie que le flash doit être synchronisé avec d’autres périphériques f
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette énumération est utilisée par la propriété du [ \_ \_ \_ \_ mode flash de l’image wpd](still-image-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

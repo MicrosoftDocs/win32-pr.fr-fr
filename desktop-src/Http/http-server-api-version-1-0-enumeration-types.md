@@ -4,12 +4,12 @@ ms.assetid: 8f2f2361-3251-4e2a-9cac-8f678c8f5007
 description: 'En savoir plus sur : API serveur HTTP version 1,0 types d’énumération'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1195e3798a2cf1f9d77e49b89c7823a5bd9758dccdd612b850ec39b35b56a4bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d4b2be03533e50e0337070f0e5cc9eb8825013b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118394350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234030"
 ---
 # <a name="http-server-api-version-10-enumeration-types"></a>Types d’énumération de l’API du serveur HTTP 1,0
 

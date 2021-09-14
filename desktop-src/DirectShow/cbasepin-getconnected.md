@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8bac5bc971f67c7678d2160cadb452995165638db4bb44d2ed1c89b3ab08f882
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e5c583b06a9c25126a611736002c455a2c93ed90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195664"
 ---
 # <a name="cbasepingetconnected-method"></a>Méthode CBasePin. GetConnected
 
@@ -40,11 +40,11 @@ IPin* GetConnected();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipin) de l’autre pin.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le code pin n’est pas connecté, cette méthode retourne la **valeur null**. Appelez la méthode [**CBasePin :: IsConnected**](cbasepin-isconnected.md) pour déterminer si le code PIN est connecté.
 
@@ -66,7 +66,7 @@ if (m_MyPin->IsConnected())
 
 Ce modèle de codage est très pratique ; mais comme l’illustre l’exemple, vous devez veiller à ne pas déréférencer un pointeur **null** lorsque le code confidentiel n’est pas connecté.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

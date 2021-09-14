@@ -5,11 +5,11 @@ title: Comment créer un décodeur à l’aide d’un flux
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1b0a76badec0e2587f9136cfa6bc3ff041b76592
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538376"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196156"
 ---
 # <a name="how-to-create-a-decoder-using-a-stream"></a>Comment créer un décodeur à l’aide d’un flux
 
@@ -82,7 +82,7 @@ Pour créer un décodeur bitmap à l’aide d’un flux
 
     
 
-4.  Créez un [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
+4.  créez un [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
 
     ```C++
     // Create WIC factory

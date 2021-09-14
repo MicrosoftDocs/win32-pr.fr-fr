@@ -4,12 +4,12 @@ ms.assetid: 76F7013D-C172-4D31-93BC-EA3D186EB14C
 title: Propriété AVDecVideoFastDecodeMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f36cd765754e73924caae401495e597ec69828ed62f08466884b10365517d17
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 355c085731befedbcb9245a67870d9d609a92c6f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119503138"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112053"
 ---
 # <a name="avdecvideofastdecodemode-property"></a>Propriété AVDecVideoFastDecodeMode
 
@@ -29,7 +29,7 @@ La valeur de cette propriété peut être comprise entre 0 et 32, où 0 indique 
 
 L’énumération [**eAVFastDecodeMode**](/windows/desktop/api/codecapi/ne-codecapi-eavfastdecodemode) contient des modes prédéfinis pour cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

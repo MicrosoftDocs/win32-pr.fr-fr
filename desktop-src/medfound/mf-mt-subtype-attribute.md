@@ -5,11 +5,11 @@ title: Attribut MF_MT_SUBTYPE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 34f156e356a0e80d6b2c4bff1ae6f266e4d64b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313922"
 ---
 # <a name="mf_mt_subtype-attribute"></a>\_Attribut de \_ sous-type MF MT
 
@@ -21,7 +21,7 @@ GUID de sous-type pour un type de média.
 
 ## <a name="remarks"></a>Notes
 
-Le GUID de sous-type définit un type de format de média spécifique dans un type principal. Par exemple, dans la vidéo, les sous-types sont RVB-24, RVB-32, UYVY, AYUV, et ainsi de suite. Dans l’audio, les sous-types incluent l’audio PCM, le Windows Media Audio 9, et ainsi de suite.
+Le GUID de sous-type définit un type de format de média spécifique dans un type principal. Par exemple, dans la vidéo, les sous-types sont RVB-24, RVB-32, UYVY, AYUV, et ainsi de suite. dans l’audio, les sous-types incluent l’audio PCM, le Windows Media Audio 9, et ainsi de suite.
 
 Pour connaître les valeurs possibles, consultez les rubriques suivantes :
 
@@ -30,14 +30,14 @@ Pour connaître les valeurs possibles, consultez les rubriques suivantes :
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Découvrez comment une application énumère les appareils à l’a
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6cfe1c1b4dee11383a4c36eaea43974f7e0439ae4ff2370a90e99b1702a8e0d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6465b04e6f1a18a0bdb74f0ce883cf9161371fb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195839"
 ---
 # <a name="enumerating-devices-wpd"></a>Énumération des appareils (WPD)
 

@@ -1,17 +1,17 @@
 ---
 description: Cette propriété représente la durée totale entre chaque ouverture et enregistrement, accumulée depuis la création du document. Cela est mesuré en unités de 100 ns, et non en millisecondes. VT \_ fileTime pour les gestionnaires IPropertySetStorage (hérité).
 ms.assetid: 27d374ae-366c-4b2c-88a8-93e760db6fba
-title: System.Document. TotalEditingTime
+title: System. document. TotalEditingTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f40ea0715492be71e9896699906ac9de953cb2993e05d11bd55f1f89b9e88f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b135433713028d302ed4dac82b530a332917434
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119597939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196552"
 ---
-# <a name="systemdocumenttotaleditingtime"></a>System.Document. TotalEditingTime
+# <a name="systemdocumenttotaleditingtime"></a>System. document. TotalEditingTime
 
 Cette propriété représente la durée totale entre chaque ouverture et enregistrement, accumulée depuis la création du document. Cela est mesuré en unités de 100 ns, et non en millisecondes. VT \_ fileTime pour les gestionnaires IPropertySetStorage (hérité)
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

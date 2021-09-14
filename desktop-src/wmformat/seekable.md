@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a254d06b36230bb6920f2f13d646edc5f1cdac75efe15864e0c84ba847cf50f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4db701be363c194c75bd698062d79a0c0c407cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118699985"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195932"
 ---
 # <a name="seekable"></a>Identifiable
 
@@ -31,7 +31,7 @@ L’attribut **recherché** est un attribut de niveau fichier qui spécifie si u
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut codé.
 

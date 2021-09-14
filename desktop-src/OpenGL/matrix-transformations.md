@@ -9,12 +9,12 @@ keywords:
 - matrice de projection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e3c88ffcfebc989400cfa9a85c16f355c0a7090ff4d16531cf03c3697ee869
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3db0ebd8bd13b8d2cee32b8873f697ab073140bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118937318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233598"
 ---
 # <a name="matrix-transformations"></a>Transformations de matrice
 

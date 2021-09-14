@@ -4,12 +4,12 @@ ms.assetid: 9fa299fe-3713-4fa8-95c6-be15f144103a
 title: Utilisation de l’objet diviseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a31c7ab0c99c0ac4007abe164a887694c8e41fb8c8892dfe2637efaf25b10f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9fd158f85d368d764bce17e8b481ebe625a4d6d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118966568"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196216"
 ---
 # <a name="working-with-the-divider-object"></a>Utilisation de l’objet diviseur
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: a1e1a1b717aeb2814b469fc34a9e038052abb6720dde0ed75982f27716978de5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 360f46eb7242de01d5e734c5efa17399f23adf7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907003"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234155"
 ---
 # <a name="cvideotransformfilter-class"></a>CVideoTransformFilter, classe
 
@@ -42,7 +42,7 @@ Si le filtre supprime un frame, il continue à déposer des frames jusqu’à ce
 | Méthodes protégées                                                               | Description                                                                                    |
 | [**AbortPlayback**](cvideotransformfilter-abortplayback.md)                    | Utilisé pour signaler une erreur de diffusion en continu.                                                              |
 | [**AlterQuality**](cvideotransformfilter-alterquality.md)                      | Notifie le filtre qu’une modification de qualité est demandée.                                        |
-| [**Çoive**](cvideotransformfilter-receive.md)                                | Reçoit un exemple de support, le traite et remet un échantillon de sortie au filtre en aval. |
+| [**Recevoir**](cvideotransformfilter-receive.md)                                | Reçoit un exemple de support, le traite et remet un échantillon de sortie au filtre en aval. |
 | [**ShouldSkipFrame**](cvideotransformfilter-shouldskipframe.md)                | Détermine si le filtre doit supprimer un échantillon spécifié.                                  |
 | [**StartStreaming**](cvideotransformfilter-startstreaming.md)                  | Appelé lorsque le filtre bascule à l’état suspendu.                                           |
 | M&#233;thodes publiques                                                                  | Description                                                                                    |

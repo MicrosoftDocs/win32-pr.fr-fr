@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: f785931cf70ae48082cb45c436dd1c50b7c329fef61619738a3ef0a08240d7b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b624c26c81549372e0e09b4a08ce73f6cd3dd27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118742646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196811"
 ---
 # <a name="d3dauthenticatedconfigure_encryptionwhenaccessible"></a>D3DAUTHENTICATEDCONFIGURE \_ ENCRYPTIONWHENACCESSIBLE
 
@@ -35,14 +35,14 @@ Définit le niveau de chiffrement effectué avant que le contenu protégé soit 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les types de canaux suivants prennent en charge cette requête :
 
 -   **\_Matériel du pilote D3DAUTHENTICATEDCHANNEL \_**
 -   **\_Logiciel du pilote D3DAUTHENTICATEDCHANNEL \_**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

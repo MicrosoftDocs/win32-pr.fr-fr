@@ -4,12 +4,12 @@ description: Atténue l’image d’entrée des bords en couleur définie par l�
 ms.assetid: 34da221f-44a2-1d01-d88d-d7846b9770b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c4f955595cfcf081b6de20d7bf81427f83df82806d9eb64e6046921503782f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3fe9302a86a49b060aa05ecb856ce43122d946d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074966"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112469"
 ---
 # <a name="vignette-effect"></a>Effet vignette
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Vignette.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -47,7 +47,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet vignette sont définies par l’énumération [**d2d1 \_ vignette \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_vignette_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|

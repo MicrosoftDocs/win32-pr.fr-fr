@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 15ccbee300cbfe1b08bc0509472ac3afcaa9ea3db54f6f1e38131cc08d2e8381
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4dc9fd0573f3f98f0ec1110079f95f56a8c42e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196424"
 ---
 # <a name="guidance-for-implementing-in-process-extensions"></a>Conseils pour l’implémentation des extensions de In-Process
 

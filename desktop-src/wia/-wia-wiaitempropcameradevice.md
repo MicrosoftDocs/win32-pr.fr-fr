@@ -56,11 +56,11 @@ api_type:
 api_location:
 - wiadef.h
 ms.openlocfilehash: f33e7f2dfd17e535e47026aee173feccb7c69584
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624195"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196175"
 ---
 # <a name="camera-device-property-constants"></a>Constantes de propriété de périphérique d’appareil photo
 
@@ -580,7 +580,7 @@ Les constantes de propriété d’appareil suivantes, avec leurs chaînes associ
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

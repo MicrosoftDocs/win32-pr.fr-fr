@@ -6,12 +6,12 @@ keywords:
 - Direct2D, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69b5ab192fedffdcfc6ab3eb401a4bbaa1757fe2e8e84c843d6ad48feec93385
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e43529490d6115cb60d4093ba3d28fbf42fd62c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075003"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112562"
 ---
 # <a name="direct2d-reference"></a>Référence Direct2D
 

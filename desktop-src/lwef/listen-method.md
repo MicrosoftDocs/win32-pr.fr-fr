@@ -4,12 +4,12 @@ description: Méthode Listen
 ms.assetid: ceb3b62f-2a33-4a13-b608-4cfa800be38a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc87a57d1ebdd3f36a2d56d85e0754f5005fd6c356fc9af98760bd0db90605f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6813fb155074c4cc47a51ec7241eddd332edbcc3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118748659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196848"
 ---
 # <a name="listen-method"></a>Méthode Listen
 
@@ -41,7 +41,7 @@ Active le mode d’écoute (reconnaissance vocale) pour une période programmée
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La définition de cette méthode sur **true** active le mode d’écoute (active la reconnaissance vocale) pendant une période de temps fixe (10 secondes). Bien que vous ne puissiez pas définir la valeur du délai d’attente, vous pouvez désactiver le mode d’écoute avant l’expiration du délai d’attente. Si vous (ou un autre client) avez correctement défini le mode d’écoute sur et que vous tentez d’affecter à cette propriété la **valeur true** avant l’expiration du délai d’attente, la méthode réussit et réinitialise le délai d’attente. Toutefois, si le mode d’écoute est activé parce que l’utilisateur appuie sur la touche d’écoute, la méthode aboutit, mais le délai d’attente est ignoré et le mode d’écoute se termine en fonction de l’interaction de l’utilisateur avec la clé d’écoute.
 

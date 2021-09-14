@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc272ed230a67811497f0eebb99624d74369c8c55419fba970f326fba502e8b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc3d67e0c71c95db49b633feeb3048cc9f104b2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118747925"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196843"
 ---
 # <a name="mpclean_precheck_data-structure"></a>\_Structure de données de PRÉVÉRIFICATION MPCLEAN \_
 
@@ -64,7 +64,7 @@ Informations de ressource sur la ressource qui bloque. Par exemple, lorsque la p
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

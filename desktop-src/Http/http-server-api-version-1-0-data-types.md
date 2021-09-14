@@ -9,12 +9,12 @@ keywords:
 - Type de HTTP_URL_CONTEXT HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 151ef975470ca21c6e82e5bc7bd7bd8b99a70573385375e8552b6660ce78f631
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 681e24c06334a9010287e2084d9d6a04428ca6a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950798"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234035"
 ---
 # <a name="http-server-api-version-10-data-types"></a>Types de données de l’API du serveur HTTP 1,0
 

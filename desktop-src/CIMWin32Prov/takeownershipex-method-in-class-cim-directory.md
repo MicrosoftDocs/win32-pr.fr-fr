@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5637e45c6dad7eec3f79ffd045a4a8d0dd3f3ba51ed5a60c09916c11802b1130
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b02a6c40e99405c150a372f8eb15fe648f2df60a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119332779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225289"
 ---
 # <a name="takeownershipex-method-of-the-cim_directory-class"></a>Méthode TakeOwnerShipEx de la \_ classe de répertoire CIM
 
@@ -70,7 +70,7 @@ Si la **valeur est true**, la méthode est appliquée de manière récursive aux
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -193,7 +193,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
@@ -228,7 +228,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

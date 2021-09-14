@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 3e1df4b58750d5b2d82eb518d5dfc0ef24bdbe4e5569ebcaf708b8df60691d04
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b6fda19aef9629214aaa410fd43c4d64f16dd29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119449439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196812"
 ---
 # <a name="d3dauthenticatedconfigure_cryptosession"></a>D3DAUTHENTICATEDCONFIGURE \_ CRYPTOSESSION
 
@@ -35,7 +35,7 @@ Associe une session de chiffrement à un appareil de décodage de DirectX Video 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fois cette commande envoyée, vous pouvez envoyer la requête [D3DAUTHENTICATEDQUERY \_ OUTPUTID](d3dauthenticatedquery-outputid.md) pour savoir quelles sorties vidéo sont associées à la session de chiffrement.
 
@@ -44,7 +44,7 @@ Les types de canaux suivants prennent en charge cette commande :
 -   **D3DAUTHENTICATEDCHANNEL \_ d3d9**
 -   **\_Logiciel du pilote D3DAUTHENTICATEDCHANNEL \_**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

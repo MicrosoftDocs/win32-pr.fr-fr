@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 66641be49f8d118abc24c1a9a3fc8452fdacb51894452689276d87c910774d9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d81accf59401a46dd6b5611e15a67eeec68d5d82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117675711"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196383"
 ---
 # <a name="thumbnail-handlers"></a>Gestionnaires de miniatures
 
@@ -67,7 +67,7 @@ Les images miniatures de ce cache sont stockées dans un ensemble de tailles dis
 -   32x32
 -   96 x 96
 -   256 x 256
--   1024x1024
+-   1024 x 1024
 
 > [!Note]  
 > Ces valeurs sont sujettes à modification. Vous ne devez pas supposer que toute taille particulière sera toujours utilisée.

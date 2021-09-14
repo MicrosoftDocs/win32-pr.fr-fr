@@ -4,12 +4,12 @@ ms.assetid: 6a3e682c-55c6-4728-9d14-5eb0290f3dcc
 title: Implémentation de IWICBitmapSourceTransform
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79caa17fdb874b9cbee73a9a371c4ba454e72c6eb249a6ca7d626fdd9c86aea0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0809e1e56fe3c05c8803bb70106c4a24a466eafe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118711074"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196144"
 ---
 # <a name="implementing-iwicbitmapsourcetransform"></a>Implémentation de IWICBitmapSourceTransform
 
@@ -111,7 +111,7 @@ Pour en savoir plus sur la création d’un codec avec WIC activé, consultez [i
 [**IWICMetadataBlockReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation de IWICMetadataBlockReader](-wic-imp-iwicmetadatablockreader.md)

@@ -4,12 +4,12 @@ ms.assetid: 92a8d19f-1c9e-4e02-a3d4-f2869ec871df
 title: Lire un document XPS dans un modèle d’objet XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0361f00d148f8f29ab36577683cecc0087ff91af81469e7de527de90a8b1a795
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c5c3b703de24be58db875618b575cebf9c1c0b27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120112189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196683"
 ---
 # <a name="read-an-xps-document-into-an-xps-om"></a>Lire un document XPS dans un modèle d’objet XPS
 
@@ -44,7 +44,7 @@ L’exemple de code suivant suppose que l’initialisation décrite dans [initia
 
 Pour créer un modèle d’objet XPS à partir d’un document XPS stocké sous forme de flux, appelez [**IXpsOMObjectFactory :: CreatePackageFromStream**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagefromstream).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous écrivez un modèle d’objet XPS immédiatement après y avoir lu un package XPS, une partie du contenu d’origine peut être perdue ou modifiée.
 

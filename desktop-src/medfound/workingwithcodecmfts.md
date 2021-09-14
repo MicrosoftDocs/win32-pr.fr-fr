@@ -4,12 +4,12 @@ ms.assetid: 61567043-e76e-4166-9344-c57661e5752a
 title: Utilisation du codec MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf39b4a413059542ff05dd0fb2e82c3a89117018ba68f489a968c85423e82866
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 008610dbf6bf17205de15b89440d1bdacee3c489
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119602209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313542"
 ---
 # <a name="working-with-codec-mfts"></a>Utilisation du codec MFTs
 

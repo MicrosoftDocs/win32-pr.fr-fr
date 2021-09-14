@@ -4,18 +4,18 @@ ms.assetid: 2d4c72ec-05d7-4a03-b58a-3c1a567b16c1
 title: Propriété MsiLogFileLocation
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dec682aa6e28211aa1a1b240bb3cf1e96479c6bec6dcbeaa1ef3ecffc35943f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06dc64ae1f1c37f432147a66be66460002b382ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118627817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233964"
 ---
 # <a name="msilogfilelocation-property"></a>Propriété MsiLogFileLocation
 
 La valeur de la propriété **MsiLogFileLocation** est définie sur le chemin d’accès complet du fichier journal, lorsque la journalisation est activée. La propriété **MsiLogFileLocation** peut être utilisée pour afficher le fichier journal, ou l’emplacement du fichier journal, dans une interface utilisateur à la fin de l’installation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

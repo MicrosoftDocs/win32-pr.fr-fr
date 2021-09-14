@@ -4,12 +4,12 @@ ms.assetid: b483fa7d-d31d-4855-89e5-f733541cd92d
 title: Composants qualifiés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c9a5ccd757516402a951afa3a105d51e3a0b3d22a88614983997dbcd6d07f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd2197aade7f3efd5d73e666c190c4447cac9fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118376302"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233927"
 ---
 # <a name="qualified-components"></a>Composants qualifiés
 

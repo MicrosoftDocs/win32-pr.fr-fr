@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2c53e739237f2d61a6c59c7fac96e1b97e6343fa6dd209bcf72700cefab7d599
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6a9314fd06734adcc367b7be34dc8d6d1b9d996
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119073983"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195660"
 ---
 # <a name="cmediatypeallocformatbuffer-method"></a>Méthode CMediaType. AllocFormatBuffer
 
@@ -49,17 +49,17 @@ Taille requise pour le bloc de format, en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers le nouveau bloc en cas de réussite. Sinon, retourne la **valeur null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la méthode alloue correctement un nouveau bloc de format, il libère le bloc de format existant. Si l’allocation échoue, la méthode laisse le bloc de format existant.
 
 La méthode met à jour les membres **cbFormat** et **pbFormat** de la structure du **\_ \_ type de média am** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

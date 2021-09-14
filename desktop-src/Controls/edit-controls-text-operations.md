@@ -4,12 +4,12 @@ description: Le système traite automatiquement toutes les opérations de texte 
 ms.assetid: 9af3a1bc-4c87-4cc9-966d-50742be7c811
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8698fbd38241a0e5c3f40e69f7ab401fc22e3982e2bc70001733bc71daf49689
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9640616cf70b9a2933ef9d4c3fdb2accbfdcabf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119826369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195707"
 ---
 # <a name="edit-control-text-operations"></a>Modifier les opérations de texte de contrôle
 

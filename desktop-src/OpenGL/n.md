@@ -13,12 +13,12 @@ keywords:
 - B-spline rationnelle non uniforme (NURBS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70fe10bf562a9623e195c691296a7a187b8428bbcd0e2662e021f4efb2adadbf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc8f81b022e92c0df932c2b3b308f58d3d7ffe54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118937048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233561"
 ---
 # <a name="n-opengl"></a>N (OpenGL)
 

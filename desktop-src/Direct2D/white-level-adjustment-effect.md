@@ -3,12 +3,12 @@ title: Effet de la carte de ton blanc
 description: Cet effet permet de mettre à l’échelle de manière linéaire le niveau de blanc d’une image. Cela s’avère particulièrement utile lorsque vous convertissez un espace de luminance à l’écran et un espace de luminance référencé, ou vice versa.
 ms.topic: article
 ms.date: 02/01/2019
-ms.openlocfilehash: 646ad47ad671618f29d1691878de93b5e5141855787c53fdad44025487835ad4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 70a38f37f5a5461b968099bebe4be120a727c053
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119292629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112458"
 ---
 # <a name="white-level-adjustment-effect"></a>Effet de réglage du niveau blanc
 
@@ -23,7 +23,7 @@ Les propriétés de cet effet sont identifiées par l' [**énumération D2D1_WHI
 | InputWhiteLevel, D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL | FLOAT | Niveau de blanc de l’image d’entrée, en nits. |
 | OutputWhiteLevel, D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL | FLOAT | Niveau de blanc de l’image de sortie, en nits. |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 Cet effet est destiné à être combiné avec l' [effet carte de tonalité HDR](hdr-tone-map-effect.md) pour vous permettre de restituer des images HDR dans Direct2D avec une gestion des couleurs et un mappage des tons appropriés. Pour plus d’informations, consultez les **Remarques** de cette rubrique. ces effets sont destinés à toute infrastructure qui souhaite fournir une expérience d’affichage d’image hdr de meilleure qualité qui gère tous les formats d’image hdr Windows et s’adapte aux fonctionnalités de l’affichage (que ce soit en hdr ou WCG/SDR).
 
 sur Windows, tout le contenu SDR/WCG est supposé être dans un espace de luminance à l’écran, ce qui signifie que le niveau de blanc du contenu doit être mis à l’échelle jusqu’au niveau blanc de l’affichage avant d’être présenté au final. Toutefois, ce n’est pas toujours la responsabilité de votre application. En revanche, le contenu HDR est supposé être dans un espace de luminance à la scène, ce qui signifie qu’il ne doit pas être mis à l’échelle pour correspondre au niveau de blanc de l’affichage. Cela dit, votre application devra peut-être effectuer une mise à l’échelle dans certaines circonstances lors du rendu du contenu HDR pour s’assurer qu’il s’agit du résultat net.
@@ -54,7 +54,7 @@ Notez que, dans les cas où un réglage du niveau de blanc n’est pas requis pa
 - En mode SDR/WCG, la conversion se produit après la composition DWM et s’applique à tout le contenu présenté à cet affichage. L’affichage effectue implicitement cette conversion.
 - En mode HDR, la conversion est effectuée automatiquement par le DWM avant la composition, tant que la surface de composition de votre application est SDR.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

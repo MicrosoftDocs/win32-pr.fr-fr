@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\editcontrols\editcontrols.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c806bea409d33aa5c96daa4ab067fe7aed3619d201ffac64891af90489c226d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cd65b1161bb8e12a39ec38c09c11b727e839e25
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195704"
 ---
 # <a name="edit-control-windows-controls"></a>contrôle d’édition (contrôles Windows)
 

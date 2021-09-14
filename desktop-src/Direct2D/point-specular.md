@@ -6,12 +6,12 @@ keywords:
 - effet d’éclairage spéculaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37adb0c6ea0ca946abf819730dcc378f421bf2c220dc0ab8d41916f570501d0f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 355c573888604af8dfac443f4f53554a8a780071
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112601"
 ---
 # <a name="point-specular-lighting-effect"></a>Effet d’éclairage spéculaire par point
 
@@ -27,7 +27,7 @@ Le CLSID de cet effet est CLSID \_ D2D1PointSpecular.
 -   [Constante d’éclairage spéculaire et exposant](#specular-lighting-constant-and-exponent)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scales-modes)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -124,7 +124,7 @@ La propriété *SpecularConstant* K ? définit la quantité de lumière réflé
 > [!Note]  
 > Si vous ne sélectionnez pas de mode, l’effet par défaut est D2D1 \_ POINTSPECULAR \_ Scale \_ mode \_ linéaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

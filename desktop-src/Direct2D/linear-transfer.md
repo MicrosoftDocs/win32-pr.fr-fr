@@ -6,12 +6,12 @@ keywords:
 - effet de transfert linéaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dcb2bb688d1e8ebf4b1b1ebfdd531d900755b46840bada2bade49d957ed0f6c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfedbb79f057ee871ce23cc086034afc3e6cdda0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119385292"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112666"
 ---
 # <a name="linear-transfer-effect"></a>Effet de transfert linéaire
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1LinearTransfer.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -31,7 +31,7 @@ Le CLSID de cet effet est CLSID \_ D2D1LinearTransfer.
 | Avant                                                          |
 |-----------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)      |
-| Après                                                           |
+| After                                                           |
 | ![image après la transformation.](images/13-lineartransfer.png) |
 
 
@@ -93,7 +93,7 @@ Cet effet fonctionne sur les images alpha directes et prémultipliées. L’effe
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - FilePicker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05bb23faf2b9d50f12219f3b99c07ec835558addc55e67d4843dee049946a60d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4346cc0e337374fa41313cb77debf4faca781669
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112669"
 ---
 # <a name="how-to-load-an-image-into-direct2d-effects-using-the-filepicker"></a>Comment charger une image dans des effets Direct2D à l’aide de FilePicker
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 54b4ca167d1b3afefdb28b7cae7bb772c7cfb81ae702ae399e8687c3fc526249
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2376821027d1ef51f2e96dab62c7e9a56542c61d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118768922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127197028"
 ---
 # <a name="esenttoomanyactiveusersexception-class"></a>EsentTooManyActiveUsersException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentTooManyActiveUsersException](./esenttoomanyactiveusersexception-members.md)
 

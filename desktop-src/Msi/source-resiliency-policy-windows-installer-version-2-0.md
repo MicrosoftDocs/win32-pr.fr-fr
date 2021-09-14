@@ -4,12 +4,12 @@ ms.assetid: 21b1a31e-efe3-4d45-b1c5-fe6ed9b19fed
 title: Stratégie de résilience source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4951c1183da8998986863fe5dae744fc58c23387306c91153b50ab63e38e0a3d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 605c420198234405c23cb9672ca25c621b76390e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233903"
 ---
 # <a name="source-resiliency-policy"></a>Stratégie de résilience source
 

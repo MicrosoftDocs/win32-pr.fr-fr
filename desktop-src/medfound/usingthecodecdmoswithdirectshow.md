@@ -4,12 +4,12 @@ ms.assetid: 5b930447-6bf2-4bb3-8dfb-05f4c1e7cd64
 title: Utilisation des codecs de média de fenêtre dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 495a2675335474351da80b9845fba67f9e967d637d7c9d9c749ffc2f12ce3ea4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cb521c0e3897dc2415fbd613f97b755a146657d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120012179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313641"
 ---
 # <a name="using-the-window-media-codecs-in-directshow"></a>Utilisation des codecs de média de fenêtre dans DirectShow
 

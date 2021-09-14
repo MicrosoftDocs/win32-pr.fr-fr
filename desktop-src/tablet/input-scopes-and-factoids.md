@@ -4,12 +4,12 @@ ms.assetid: 9faf6d22-b80d-4020-ac74-ee40b31ae9d4
 title: Étendues d’entrée et Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 881ebd26cbfb70cb215103b9a6face356af078e47b74a2e9140886f81f457eef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bbb46e21a0524f806daa4eed789fde31e285109
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118450969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196264"
 ---
 # <a name="input-scopes-and-factoids"></a>Étendues d’entrée et Factoids
 

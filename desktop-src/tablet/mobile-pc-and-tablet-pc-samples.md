@@ -4,12 +4,12 @@ ms.assetid: 4ede7d0e-e826-4b3a-8a46-0f3162c19cb0
 title: Exemples tablette et Touch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1cf87ca2cc35da58fe05a72436288413af9f72ecff63a1b2418fb071ca5a025
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8562dcc1baa42f44d6ca675344d658b1bf693cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118449782"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196248"
 ---
 # <a name="tablet-and-touch-samples"></a>Exemples tablette et Touch
 

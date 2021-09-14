@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 816d690a7e57df83b3f521f4591c3334269d0fccebbaeac480e7aacb46253273
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f67ba528943bc2a468419fc84db44359745d4a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234281"
 ---
 # <a name="cfactorytemplatecreateinstance-method"></a>CFactoryTemplate. CreateInstance, méthode
 
@@ -57,15 +57,15 @@ Pointeur vers une variable qui reçoit une valeur **HRESULT** indiquant la réus
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une instance de l’objet de classe.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **IClassFactory :: CreateInstance** appelle cette méthode de classe. Cette méthode appelle la fonction vers laquelle pointe la variable membre [**CFactoryTemplate :: m \_ lpfnNew**](cfactorytemplate-m-lpfnnew.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

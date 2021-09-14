@@ -4,12 +4,12 @@ ms.assetid: 9e1af25f-d55c-45db-8c76-abf814e16700
 title: Exemple WavSink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d1bd754e426d848e9d84aea337225ea51940d8727c63d1e1c78c93aeea43110
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e96ecca551b6ea3e6837f211f0afcb34818d635
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737134"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313590"
 ---
 # <a name="wavsink-sample"></a>Exemple WavSink
 
@@ -32,7 +32,7 @@ l’exemple WavSink contient deux projets Visual Studio :
 -   WavSink. vcproj génère une bibliothèque statique qui contient l’implémentation du récepteur multimédia.
 -   WriteWavFile. vcproj génère une application console qui utilise le récepteur multimédia pour produire un fichier. wav. Cette application est liée à la bibliothèque créée par le projet WavSink.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

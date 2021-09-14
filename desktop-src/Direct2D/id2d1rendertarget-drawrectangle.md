@@ -13,11 +13,11 @@ api_type:
 ms.date: 07/02/2019
 ms.topic: reference
 ms.openlocfilehash: 4c1f846ca0bc1ddcb52696667edcb87291ae05df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112758"
 ---
 # <a name="id2d1rendertargetdrawrectangle-methods"></a>ID2D1RenderTarget ::D méthodes rawRectangle
 
@@ -128,7 +128,7 @@ HRESULT DemoApp::OnRender()
 
 Pour obtenir un didacticiel connexe, consultez [création d’une application Direct2D simple](direct2d-quickstart.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

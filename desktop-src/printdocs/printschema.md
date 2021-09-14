@@ -4,12 +4,12 @@ ms.assetid: 98d5f8ec-54bd-4e88-b632-ed427b599cb6
 title: Schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 403ada0b5acea0bd69441db10d688b7de587114704f81bb65e74567e8e0c7001
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae3ac50b9a2f2aba9cda7dc73f183e1f3571cc9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196720"
 ---
 # <a name="print-schema"></a>Schéma d’impression
 

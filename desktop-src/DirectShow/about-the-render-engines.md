@@ -4,12 +4,12 @@ ms.assetid: 80299b1a-09bf-4660-95d3-41a2b0074745
 title: À propos des moteurs de rendu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92a398cbe342ed2e92fc23e7da034dd69cae492208e3201b3419b3999594a135
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70fe3a9956bee0d167de9e6618187bfd1f2a6e39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118664373"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112397"
 ---
 # <a name="about-the-render-engines"></a>À propos des moteurs de rendu
 

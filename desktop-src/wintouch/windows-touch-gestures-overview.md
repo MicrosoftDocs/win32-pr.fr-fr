@@ -9,12 +9,12 @@ keywords:
 - gestes, prise en charge héritée
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: f2a0f6229afe4ad0d894a1cc2d40489f5d8371de3d7c42cefdccde619119df75
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2290477aa8b26e937fe6d5f300ed1fea32872f5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119587252"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196048"
 ---
 # <a name="windows-touch-gestures-overview"></a>Windows Vue d’ensemble des gestes tactiles
 

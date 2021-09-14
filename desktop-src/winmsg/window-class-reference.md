@@ -5,11 +5,11 @@ title: Référence de classe de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 09229905628525f66a0e8ca810a4ca7533bccf6f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196063"
 ---
 # <a name="window-class-reference"></a>Référence de classe de fenêtre
 

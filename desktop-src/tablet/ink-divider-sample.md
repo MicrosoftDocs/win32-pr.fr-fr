@@ -4,12 +4,12 @@ ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: Exemple de diviseur d’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c74592606ba98ec913dd419deda1b2b766066e17545e95f18a14980f36dafde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a272d6a5530938e6fecfeefc9f46ffdd0835d045
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196284"
 ---
 # <a name="ink-divider-sample"></a>Exemple de diviseur d’encre
 
@@ -25,7 +25,7 @@ Quand le formulaire est mis à jour, l’échantillon dessine un rectangle englo
 |----------------------|--------------------|-------------------|
 | Word<br/>      | Vert<br/>   | 1<br/>      |
 | Ligne<br/>      | Magenta<br/> | 3<br/>      |
-| Paragraph<br/> | Bleu<br/>    | 5<br/>      |
+| Paragraph<br/> | Blue<br/>    | 5<br/>      |
 | Dessin<br/>   | Rouge<br/>     | 1<br/>      |
 
 

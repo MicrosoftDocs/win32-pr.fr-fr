@@ -8,11 +8,11 @@ title: ProfileCreationType (dans MBNProfileExt)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 719e95406be13c6b47b6db32ec2c9f28fab0bde3
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986872"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196839"
 ---
 # <a name="span-idwwan_profile_v4element_profilecreationtypespanprofilecreationtype-in-mbnprofileext"></a><span id="WWAN_profile_v4.element_ProfileCreationType"></span>ProfileCreationType (dans MBNProfileExt)
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur cet élément, consultez la documentation de l’
 [&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
 **&lt;ProfileCreationType&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <ProfileCreationType>
@@ -61,7 +61,7 @@ Les éléments suivants portent le même nom que celui-ci, mais ils ont un conte
 
 -   **[ProfileCreationType (dans ModemDMConfigProfile)](element-1-profilecreationtype.md)**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4cc44e5a-3578-448b-9b19-1b71e1ae2cb9
-ms.openlocfilehash: e8d2499e130363e25d21cd3cbeb8e27d3b14ba9fc3a88f670084a82ffda2c098
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 26677173cce2b72d1a0ba6bdc941cd2407908712
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196420"
 ---
 # <a name="shellbrowseforfolder-method"></a>Shell. BrowseForFolder, méthode
 
@@ -91,7 +91,7 @@ Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="jscript"></a>JScript
 
@@ -177,7 +177,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

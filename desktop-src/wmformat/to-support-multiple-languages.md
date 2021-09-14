@@ -14,12 +14,12 @@ keywords:
 - ASF (format des systèmes avancés), prise en charge des langues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa610d5a9b0c92fb205ecdc234a18d816190223b5bca843a542e7222695fa24f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bc070bda1cc25c6b7fd0fa583a8ac63a55fa603
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118699100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195919"
 ---
 # <a name="to-support-multiple-languages"></a>Pour prendre en charge plusieurs langues
 

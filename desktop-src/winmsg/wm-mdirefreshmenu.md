@@ -4,12 +4,12 @@ ms.assetid: 6450d84a-a0b9-45d0-9e0c-757d26502059
 title: Message WM_MDIREFRESHMENU (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 707059d3cc51703819968f929f9692dbb2422ee3f9fa77e2edb697f12257faf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4eafa7b84dc9389e57d379a30019505e85fb602
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118200065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196064"
 ---
 # <a name="wm_mdirefreshmenu-message"></a>\_Message WM MDIREFRESHMENU
 
@@ -40,7 +40,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HMENU**
 
@@ -48,11 +48,11 @@ Si le message est correctement exécuté, la valeur de retour est le handle du m
 
 Si le message échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après l’envoi de ce message, une application doit appeler la fonction [**DrawMenuBar**](/windows/win32/api/winuser/nf-winuser-drawmenubar) pour mettre à jour la barre de menus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -77,7 +77,7 @@ Après l’envoi de ce message, une application doit appeler la fonction [**Draw
 [**\_MDISETMENU WM**](wm-mdisetmenu.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Interface multidocument](multiple-document-interface.md)

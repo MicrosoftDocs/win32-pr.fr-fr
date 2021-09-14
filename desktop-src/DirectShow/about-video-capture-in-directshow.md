@@ -4,12 +4,12 @@ ms.assetid: 84d722aa-f178-4a1e-8102-c7fc3cb2efb0
 title: À propos de la capture vidéo dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4618373d30cd4906284fb68a3afb93e565c46defd9004cd9bd599a8a19772b01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1db6c5d90dc0215711331bb8e706a47192c974c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112381"
 ---
 # <a name="about-video-capture-in-directshow"></a>À propos de la capture vidéo dans DirectShow
 

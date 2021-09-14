@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf7522ebb7eb3d2accee2a914de46ae5c90fb29653765a0fa3d541a46f83b563
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81467b51eb22586d537c7ea8032e13a30da19c55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825164"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112646"
 ---
 # <a name="matrix4x3f-class"></a>Matrix4x3F, classe
 
@@ -47,7 +47,7 @@ La classe **Matrix4x3F** contient ces constructeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

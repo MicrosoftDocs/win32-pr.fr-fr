@@ -6,12 +6,12 @@ keywords:
 - effet unpremultiply
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a152803956b9839b881404be013c521dc0f5bfc764b2f07a8462275b523ba762
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5628ea646443a08abffa4549ad25147deb609acf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118664877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112473"
 ---
 # <a name="unpremultiply-effect"></a>Effet Unpremultiply
 
@@ -25,7 +25,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Unpremultiply.
 
 La taille de la bitmap de sortie est la même que la taille de la bitmap d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

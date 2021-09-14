@@ -11,12 +11,12 @@ keywords:
 - postviewing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7800f3ba50f9f1d61793a0d2ada2db0c03d6b88551ac1147e17872aa8e428c39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abb3c1c83ebd38ff04c2022e529693d3d43b8b35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118196403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195916"
 ---
 # <a name="to-use-writer-postview"></a>Pour utiliser l’enregistreur Postview
 

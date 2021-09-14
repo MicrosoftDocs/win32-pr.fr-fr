@@ -1,17 +1,17 @@
 ---
 description: Indique la date et l’heure de création d’un document. Ces informations sont stockées dans le document et ne sont pas obtenues à partir du système de fichiers.
 ms.assetid: 00d8faa6-6b9c-4981-aeb1-17f8f14b1926
-title: System.Document. DateCreated
+title: System. document. DateCreated
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aae38ac3c5f77a42240e4b0e2ada41751182a5da2fab8e0a8914de639936a25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b50ae3ef5f6a5c27454e6b408a03e63a4c6228e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118466759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196571"
 ---
-# <a name="systemdocumentdatecreated"></a>System.Document. DateCreated
+# <a name="systemdocumentdatecreated"></a>System. document. DateCreated
 
 Indique la date et l’heure de création d’un document. Ces informations sont stockées dans le document et ne sont pas obtenues à partir du système de fichiers.
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

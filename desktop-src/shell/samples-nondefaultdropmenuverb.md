@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1c4623b9143e0a23762cfc44dd8dfc4f46b827a0f6433098d45d8a784ead81f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d326e012fb78b04fd542f88d49c370e8aeab613
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196448"
 ---
 # <a name="nondefaultdropmenuverb-sample"></a>NonDefaultDropMenuVerb, exemple
 
@@ -22,12 +22,12 @@ Montre comment étendre le menu contextuel glisser-déplacer (parfois appelé me
 
 Cette rubrique contient les sections suivantes.
 
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

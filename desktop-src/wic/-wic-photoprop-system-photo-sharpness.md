@@ -4,12 +4,12 @@ ms.assetid: 0fda4832-940b-4b5a-bd20-7e48c7800925
 title: Stratégie de métadonnées de photo System. photo. Sharpity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 717106c08cf127d8865cd19812bb8991ed4a5d64c8d6efc8a55e1846a31ca923
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48d635691f0b0e0801c1e37a006faa686aff0a8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118032360"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196116"
 ---
 # <a name="systemphotosharpness-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. Sharpity
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          | Format de disque |
+| JSON | Chemin d’accès                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41994} | ushort      |
 | 2     | /XMP/EXIF : netteté           | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          | Format de disque |
+| JSON | Chemin d’accès                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41994} | ushort      |
 | 2     | /XMP/EXIF : netteté           | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          |
+| JSON | Chemin d’accès                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41994} |
 | 2     | /XMP/EXIF : netteté           |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                     | Format de disque |
+| JSON | Chemin d’accès                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41994} | ushort      |
 | 2     | /IFD/XMP/EXIF : netteté  | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                     | Format de disque |
+| JSON | Chemin d’accès                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41994} | ushort      |
 | 2     | /IFD/XMP/EXIF : netteté  | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                     |
+| JSON | Chemin d’accès                     |
 |-------|--------------------------|
 | 1     | /IFD/EXIF/{UShort = 41994} |
 | 2     | /IFD/XMP/EXIF : netteté  |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

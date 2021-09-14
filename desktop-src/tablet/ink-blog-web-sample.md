@@ -4,12 +4,12 @@ ms.assetid: b6c3ad92-3ab1-4311-b318-13939e1a1a5a
 title: Exemple de blog manuscrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8796a05861d278015205b5ba0d3775e2e47af6a57ce1fee426c5c0c5011dacd3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c24f132d355a95c9cb8debebe074df3f976e3b5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196287"
 ---
 # <a name="ink-blog-web-sample"></a>Exemple de blog manuscrit
 

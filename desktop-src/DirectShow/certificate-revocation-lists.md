@@ -4,12 +4,12 @@ ms.assetid: 146e7e4a-4281-4f5c-8346-d6c0d5f5442f
 title: Listes de révocation de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 703bb8813e95ebfe07783fa07284b2ae7dad0df2ff8a9205234ee9a4514192d0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b51ddee9f77b147d69b8895b3335d41e041da7f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119537302"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234282"
 ---
 # <a name="certificate-revocation-lists"></a>Listes de révocation de certificat
 

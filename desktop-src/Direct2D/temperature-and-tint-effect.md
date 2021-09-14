@@ -4,12 +4,12 @@ description: Effet de température et de teinte
 ms.assetid: 8df72105-26ea-2dea-a4de-ef06902b7e0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f77cd293520e21811c6d8845daa56b60cabac6c8b88bdf1f1f5b1d20408fb73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc2c3628e1fdcb1c72a84a9e08736e4215d55514
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825120"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112505"
 ---
 # <a name="temperature-and-tint-effect"></a>Effet de température et de teinte
 
@@ -34,7 +34,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet température et teinte sont définies par l’énumération [**d2d1 \_ TEMPERATUREANDTINT \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

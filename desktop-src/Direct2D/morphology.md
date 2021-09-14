@@ -8,12 +8,12 @@ keywords:
 - effet d’érosion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0737c9153faad1f23337b20b6406f6c1a794a7e1efa25de154eb2f867a347b7f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f43cf41810ae0b16c9bc96dd37473a0231fc132c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119385052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112634"
 ---
 # <a name="morphology-effect"></a>Effet morphologique
 
@@ -72,7 +72,7 @@ m_d2dContext->EndDraw();
 
 
 
-| Name                           | Description                                                    |
+| Nom                           | Description                                                    |
 |--------------------------------|----------------------------------------------------------------|
 | \_Mode morphologique \_ d2d1 \_ ÉROD  | La valeur maximale de chaque canal RVB dans le noyau est utilisée. |
 | \_Mode morphologique d2d1 \_ en \_ retard | La valeur minimale de chaque canal RVB dans le noyau est utilisée. |
@@ -105,7 +105,7 @@ Pour le mode ÉROD, la taille de la bitmap de sortie diminue :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

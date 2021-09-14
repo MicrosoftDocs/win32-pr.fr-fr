@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e6379c290f3d4ee3de6e60d0d1f5edf0eb7d6c1439395e920eed807af1b9ecfb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 348931ab760379efd6fbe3a31bfd07b1bf19179a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112877"
 ---
 # <a name="id2d1imagesourcefromwicensurecached-methods"></a>ID2D1ImageSourceFromWic :: EnsureCached, méthodes
 
@@ -34,7 +34,7 @@ Charge des données d’image dans des caches de sources d’images si ces donn�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

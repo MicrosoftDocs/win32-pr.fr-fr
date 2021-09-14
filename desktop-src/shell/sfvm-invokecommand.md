@@ -4,12 +4,12 @@ ms.assetid: 6b9e4a4d-ec45-489c-bbff-d123d5756b75
 title: Message SFVM_INVOKECOMMAND (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b33eba78e0680fe940569c7a7ccfb4a27c61c3ffcb6eead0f2ff6436ec74f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e5fc9709827250e5cf8060400bbecb714ae5998
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226721"
 ---
 # <a name="sfvm_invokecommand-message"></a>\_Message SFVM commande InvokeCommand
 
@@ -37,11 +37,11 @@ ID de commande de la barre d’outils ou de l’élément de menu sélectionné.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message sert essentiellement la même fonction qu’un message de [**\_ commande WM**](../menurc/wm-command.md) dans une procédure de fenêtre conventionnelle. elle permet à l’objet de rappel de gérer tous les éléments qu’il a ajoutés à l’outil ou à la barre de menus de l’explorateur de Windows.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

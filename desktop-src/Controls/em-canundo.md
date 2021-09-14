@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b1cb56b07232c6b55a85b7387cf7b2fafd40ac29e5dc0520b45e1aa50cadcb6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 345367b25790051a444363bb9bbc02af3d6fb0fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119915989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195675"
 ---
 # <a name="em_canundo-message"></a>\_Message em CANUNDO
 
@@ -43,13 +43,13 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 S’il y a des actions dans la file d’attente d’annulation du contrôle, la valeur de retour est différente de zéro.
 
 Si la file d’attente d’annulation est vide, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la file d’attente d’annulation n’est pas vide, vous pouvez envoyer le message d' [**\_ annulation em**](em-undo.md) au contrôle pour annuler l’opération la plus récente.
 
@@ -59,7 +59,7 @@ Si la file d’attente d’annulation n’est pas vide, vous pouvez envoyer le m
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd67d69dd68b08833be8b415d1a080eae763becaf0d96443cbb5556674e3a9e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20e8f0f3d30adf73959650415c12018eceeb2642
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118485408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196912"
 ---
 # <a name="stringcolumnvaluegetvaluefrombytes-method"></a>Méthode StringColumnValue. GetValueFromBytes
 
@@ -97,7 +97,7 @@ protected override void GetValueFromBytes(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [StringColumnValue, classe](./stringcolumnvalue-class.md)
 

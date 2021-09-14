@@ -6,12 +6,12 @@ keywords:
 - effet de saturation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5f9a4bff56ed47a0ca182dab855899d98022252c6f20c250aef693451df4c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d6912e64c9297a3554b4785128e1282a3974d36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118665034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112554"
 ---
 # <a name="saturation-effect"></a>Effet de saturation
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Saturation.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -33,7 +33,7 @@ L’exemple ci-dessous montre les images d’entrée et de sortie de l’effet d
 | Avant                                                      |
 |-------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)  |
-| Après                                                       |
+| After                                                       |
 | ![image après la transformation.](images/16-saturation.png) |
 
 
@@ -76,7 +76,7 @@ Cet effet consomme et génère des images alpha prémultipliées. L’effet ne f
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

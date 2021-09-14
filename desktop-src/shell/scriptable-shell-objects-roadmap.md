@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b30e312a5a8afab59a220d6ad87aa3cb09af979c64e38cc5e0093b6e0fb8f3fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8685b44d00d3f48e8de2a567218ef08c1cb5070
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118048755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196447"
 ---
 # <a name="scriptable-shell-objects"></a>Objets Shell scriptable
 

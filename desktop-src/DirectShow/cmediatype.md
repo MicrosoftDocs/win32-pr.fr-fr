@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 49680848fc764cdbbdfeaf3bea363f29427a745297ef4fb39bca09159aa582f1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f91578f91840c316347c6266e678357e31c8a284
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119831943"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195631"
 ---
 # <a name="cmediatype-class"></a>CMediaType, classe
 
@@ -37,9 +37,9 @@ La `CMediaType` classe gère les types de média. Cette classe hérite de la str
 | [**~ CMediaType**](cmediatype--cmediatype.md)                       | Méthode de destructeur.                                                             |
 | [**Définie**](cmediatype-set.md)                                       | Définit le type de média à partir d’un autre type de média.                                   |
 | [**IsValid**](cmediatype-isvalid.md)                               | Détermine si un type principal a été assigné à cet objet.              |
-| [**Type**](cmediatype-type.md)                                     | Récupère le type principal.                                                      |
+| [**Entrer**](cmediatype-type.md)                                     | Récupère le type principal.                                                      |
 | [**SetType**](cmediatype-settype.md)                               | Spécifie le type principal.                                                      |
-| [**Sous-type**](cmediatype-subtype.md)                               | Récupère le sous-type.                                                         |
+| [**Subtype**](cmediatype-subtype.md)                               | Récupère le sous-type.                                                         |
 | [**SetSubtype**](cmediatype-setsubtype.md)                         | Spécifie le sous-type.                                                         |
 | [**IsFixedSize**](cmediatype-isfixedsize.md)                       | Détermine si les échantillons ont une taille fixe ou une taille variable.                |
 | [**IsTemporalCompressed**](cmediatype-istemporalcompressed.md)     | Détermine si le flux utilise la compression temporelle.                            |
@@ -67,7 +67,7 @@ La `CMediaType` classe gère les types de média. Cette classe hérite de la str
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

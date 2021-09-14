@@ -6,12 +6,12 @@ keywords:
 - effet d’éclairage de diffusion de point
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 077bd2f79dd3d36b898201da58ce17f19a680bf006eaa00c62f4d05b0d52e46b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de97edfa6c2166d5c29649aabfe97761440f8f18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112602"
 ---
 # <a name="point-diffuse-lighting-effect"></a>Effet d’éclairage diffus par point
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1PointDiffuse. Pour utiliser cet effet, aj
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scale-modes)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -84,7 +84,7 @@ L<sub>r</sub>, l<sub>g</sub>, l<sub>b</sub> = couleur claire des composants RVB.
 > [!Note]  
 > Si vous ne sélectionnez pas de mode, l’effet par défaut est D2D1 \_ POINTDIFFUSE \_ Scale \_ mode \_ linéaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

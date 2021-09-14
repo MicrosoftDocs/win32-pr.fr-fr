@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 9ee6fe335d5e3906a923dfe5c470142cdf36fb1e521c3498963e478369a9b251
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68a5964a4f64899d4aa116002b1feb14ce360498
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118193290"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195819"
 ---
 # <a name="event-attributes-portabledeviceh"></a>Attributs d’événement (PortableDevice. h)
 
@@ -37,7 +37,7 @@ pour Windows 7, Windows appareils mobiles prend en charge les attributs suivants
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

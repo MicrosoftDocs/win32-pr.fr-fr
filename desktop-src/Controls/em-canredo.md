@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8898ba469d52e4098c2430dff5234a3522a6fbd3569bec823ff776a3f1c420
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccfb12f8e72bdf5321151cd3a70b74f322a46591
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195676"
 ---
 # <a name="em_canredo-message"></a>Message de la \_ CANREDO em
 
@@ -43,17 +43,17 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 S’il y a des actions dans la file d’attente de rétablissement des contrôles, la valeur de retour est une valeur différente de zéro.
 
 Si la file d’attente de restauration par progression est vide, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour rétablir l’opération d’annulation la plus récente, envoyez le message [**em \_ Redo**](em-redo.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 513365474ed6b1f6f42d34f9b876226e00ba6e85
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112618"
 ---
 # <a name="opacity-masks-overview"></a>Vue d'ensemble des masques d'opacité
 

@@ -4,12 +4,12 @@ ms.assetid: 2e6ef198-5754-4ded-9fe3-61edd0742a17
 title: Attribut MF_MT_ORIGINAL_4CC (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7f53ac5a7ca8bc55ad8958d79b67c291d9c263faf33706aa580b3d4b86cfb8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b374ba3ef74cb98925edcc5d809e1fd5e0b7fbcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313965"
 ---
 # <a name="mf_mt_original_4cc-attribute"></a>\_ \_ Attribut 4cc d’origine MF MT \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En fonction du fichier source, la source du média AVI peut définir cet attribut sur les types de médias qu’elle propose.
 
@@ -43,7 +43,7 @@ Chaque entrée est une valeur **DWORD** . Le nom de l’entrée est la représen
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

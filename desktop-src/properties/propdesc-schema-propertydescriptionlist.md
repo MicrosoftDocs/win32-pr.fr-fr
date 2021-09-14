@@ -4,12 +4,12 @@ ms.assetid: b54aaa85-6928-470e-9630-44b094205106
 title: propertyDescriptionList
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f22e5e8e2c90b1a9f9587117f684ebfb89c55ee702749248cb0a886d5ba8266
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2cd0beaf4dbbd8b71c7f4b3335c169754c704d9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119341839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196652"
 ---
 # <a name="propertydescriptionlist"></a>propertyDescriptionList
 
@@ -69,7 +69,7 @@ Conteneur pour un ou plusieurs éléments [PropertyDescription](./propdesc-schem
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [propertyDescriptionList]() ne doit pas être confondu avec les « listes de propriétés » et les [**IPropertyDescriptionList**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionlist), qui sont complètement distincts.
 

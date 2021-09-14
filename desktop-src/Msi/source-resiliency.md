@@ -4,12 +4,12 @@ ms.assetid: 3d6a0524-d5df-4d4c-b861-d4a7da95ce40
 title: Résilience source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2af1f3015296f4667f149a030cf06ea222ffa35c810f63440cfb0c20bde2e992
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46944804db1c4b91c6c6757303fd2af90638b12e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117990024"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233904"
 ---
 # <a name="source-resiliency"></a>Résilience source
 

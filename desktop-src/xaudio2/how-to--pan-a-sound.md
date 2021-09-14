@@ -4,12 +4,12 @@ ms.assetid: d87db173-6de0-09eb-7767-df619c88acfd
 title: 'Comment : faire pivoter un son'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e91ff27dfe7c951f95c37fed194a83dac09de8ccec7e37ebc5ad35ca548199
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4136d6e30cba1e6b0bc669fef5518d2a56f868f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118696268"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225484"
 ---
 # <a name="how-to-pan-a-sound"></a>Comment : faire pivoter un son
 

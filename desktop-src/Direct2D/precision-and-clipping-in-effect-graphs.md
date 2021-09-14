@@ -4,12 +4,12 @@ description: Les applications qui restituent des effets à l’aide de Direct2D 
 ms.assetid: 6fd1d77f-e613-534f-3205-bad11fa24c30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f2af6fdee4561caa60ea22a0c700593f2333727e6c5a63c5346fdc78bbdb40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90628661ec8cd3f16ff6a6149aecbb7e8be3e5a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112593"
 ---
 # <a name="precision-and-numerical-clipping-in-effect-graphs"></a>Précision et découpage numérique dans les graphiques d’effet
 
@@ -49,7 +49,7 @@ Notez que tous les nuanceurs de pixels adjacents dans un graphique ne peuvent pa
 
 De nombreux effets intégrés peuvent produire des couleurs en dehors de la \[ plage 0, 1 \] dans l’espace de couleurs unpremultiplied, même lorsque leurs couleurs d’entrée sont comprises dans cette plage. Dans ce cas, ces couleurs peuvent être sujettes à un découpage numérique. Notez qu’il est important de prendre en compte la plage de couleurs dans l’espace unpremultiplied, même si les effets intégrés produisent généralement des couleurs dans l’espace prémultiplié. Cela permet de s’assurer que les couleurs restent dans le même intervalle, même si d’autres effets les unpremultiply par la suite.
 
-Certains des effets qui peuvent émettre ces couleurs hors limites offrent une propriété « ClampOutput ». Ce sont, entre autres, les suivantes :
+Certains des effets qui peuvent émettre ces couleurs hors limites offrent une propriété « ClampOutput ». En voici quelques-uns :
 
 -   [Matrice de couleurs](color-matrix.md)
 -   [Composite arithmétique](arithmetic-composite.md)
@@ -58,7 +58,7 @@ Certains des effets qui peuvent émettre ces couleurs hors limites offrent une p
 
 Si vous affectez la valeur TRUE à la propriété ClampOutput sur ces effets, vous obtiendrez un résultat cohérent, quels que soient les facteurs tels que la liaison de nuanceur. Notez que la fixation se produit dans l’espace unpremultiplied.
 
-D’autres effets intégrés peuvent également produire des couleurs de sortie au-delà \[ de la plage de 0, 1 \] dans l’espace unpremultiplied, même lorsque leurs couleurs de couleur (et les propriétés de « couleur » le cas échéant) sont comprises dans cette plage. Ce sont, entre autres, les suivantes :
+D’autres effets intégrés peuvent également produire des couleurs de sortie au-delà \[ de la plage de 0, 1 \] dans l’espace unpremultiplied, même lorsque leurs couleurs de couleur (et les propriétés de « couleur » le cas échéant) sont comprises dans cette plage. En voici quelques-uns :
 
 -   [Effets de transformation et de mise à l’échelle](built-in-effects.md) (lorsque la propriété Mode d’interpolation est cubique ou de qualité supérieure)
 -   [Effets d’éclairage](built-in-effects.md)

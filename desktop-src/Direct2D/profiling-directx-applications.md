@@ -4,12 +4,12 @@ description: montre comment mesurer certaines des mesures les plus importantes e
 ms.assetid: 4B2F7273-C9B0-4DD3-B559-6220CDE62129
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c923f2917dbb8695bcd624f4d998043e7218cf2f976b19b24ab4cff2bc65f398
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0280389d4f8f2161e5e07f8906df7ea0484ad458
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118665362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112581"
 ---
 # <a name="profiling-directx-apps"></a>Profilage d’applications DirectX
 
@@ -194,7 +194,7 @@ Dans **Xperf**, le processeur est resté inactif pendant la durée la plus longu
 
 ![capture d’écran gpuview.](images/profile14.png)
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 **GPUView** et **Xperf** et puissants outils permettant d’analyser les performances des applications [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) . Cet article est une introduction à l’utilisation de ces outils et à la compréhension des mesures de performances de base et des caractéristiques de l’application. Outre la compréhension de l’utilisation des outils, il est tout d’abord important de comprendre l’application en cours d’analyse. Commencez par trouver des réponses aux questions telles que l’application qui tente d’atteindre ? Quels sont les threads du système qui sont les plus importants ? Quels sont les compromis que vous voulez faire ? Lorsque vous analysez les traces de performances, commencez par examiner les emplacements évidents des problèmes. L’UC de l’application ou le GPU est-il lié ? L’application peut-elle présenter toutes les images ? Les outils associés à une compréhension de l’application peuvent fournir des informations très utiles pour comprendre, Rechercher et enfin résoudre les problèmes de performances.
 

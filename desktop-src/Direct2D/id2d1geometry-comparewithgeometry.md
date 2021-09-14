@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 09978c38c3e4be7ad8a86ccfccb43387ed4ac48232e39e1ed19001d806362c88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eee64e51d4717a9fe0983be849c78f99602cac9f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119304799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112937"
 ---
 # <a name="id2d1geometrycomparewithgeometry-methods"></a>ID2D1Geometry :: CompareWithGeometry, méthodes
 
@@ -37,13 +37,13 @@ Décrit l’intersection entre cette géométrie et la géométrie spécifiée.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de l’interprétation de la valeur de *relation* retournée, il est important de se souvenir que la [**relation de géométrie de d2d1 membre \_ \_ \_ est \_ contenue**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation) dans le type d’énumération de **\_ \_ relation Geometry d2d1** signifie que cette géométrie est contenue dans *inputGeometry*, et non que cette géométrie contient *inputGeometry*.
 
 Pour plus d’informations sur la façon d’interpréter d’autres valeurs de retour possibles, consultez [**\_ \_ relation Geometry d2d1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

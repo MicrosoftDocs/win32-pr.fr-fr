@@ -12,12 +12,12 @@ keywords:
 - mouvements, exemples de code
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: ac3a7c0772ad7329d14d9909b55f8a60ef6e7d7473a06fcba921297117a00b6e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e6ffc0e8caf63807d4df80a1b96229f2fa7b5ff9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120089902"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196051"
 ---
 # <a name="windows-touch-gestures-in-c-sample-mtgesturescs"></a>Windows Gestes tactiles dans l’exemple C# (MTGesturesCS)
 

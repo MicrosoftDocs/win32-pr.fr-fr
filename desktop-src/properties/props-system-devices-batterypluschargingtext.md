@@ -1,17 +1,17 @@
 ---
 description: Durée de vie restante de la batterie de l’appareil et état de chargement de l’appareil sous la forme d’une chaîne.
 ms.assetid: b0a0600f-db2f-4220-8cd9-d5e71880b267
-title: System.Devices.BatteryPlusChargingText
+title: System. Devices. BatteryPlusChargingText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 048fcefda00e8f61e199ad6199a6a0549308907afbfe3e67f5e6ff4cbaa6f3f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 60f569426a248444327690bd11727f0ce9c0f1ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117866726"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227188"
 ---
-# <a name="systemdevicesbatterypluschargingtext"></a>System.Devices.BatteryPlusChargingText
+# <a name="systemdevicesbatterypluschargingtext"></a>System. Devices. BatteryPlusChargingText
 
 Durée de vie restante de la batterie de l’appareil et état de chargement de l’appareil sous la forme d’une chaîne.
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

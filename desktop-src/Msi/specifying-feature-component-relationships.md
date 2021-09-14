@@ -4,12 +4,12 @@ ms.assetid: 7ab4b359-e729-4ca5-8ef3-fa8e988be6da
 title: Spécification des relations Feature-Component
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1d7a79e35822d5a0ad67f43297ec461eb3c2fd766c946cc414a571c148de5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a05ff15f4c735ac7d081c16f49f1aafe555a96db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119627869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233844"
 ---
 # <a name="specifying-feature-component-relationships"></a>Spécification des relations Feature-Component
 

@@ -4,12 +4,12 @@ ms.assetid: d6283bf0-0460-4519-9a56-fd4c78cfaabc
 title: À propos des exemples de supports et des allocators
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e9390bd99ab019effa40f9edca1f8d9e03ea73c5b0085ed8b1bc13f013cad6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9105228e70f82aaa7c36b7e7d28cf7e748e1e2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112422"
 ---
 # <a name="about-media-samples-and-allocators"></a>À propos des exemples de supports et des allocators
 

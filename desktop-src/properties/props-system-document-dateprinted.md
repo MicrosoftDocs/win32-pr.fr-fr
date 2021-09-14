@@ -1,17 +1,17 @@
 ---
 description: Indique la date et l’heure de la dernière impression du document. Le nom hérité est &\# 0034 ; DocLastPrinted&\# 0034 ;.
 ms.assetid: 57a08471-04b2-4c1e-9212-b76f6ca631f8
-title: System.Document. DatePrinted
+title: System. document. DatePrinted
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb71e38416e845eff7283bfa44fc1ae8a75b7b9babe8927cb30a233ef9065c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c900a78782899c9e8b7497b8578d5bbdcab3898
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118466696"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196567"
 ---
-# <a name="systemdocumentdateprinted"></a>System.Document. DatePrinted
+# <a name="systemdocumentdateprinted"></a>System. document. DatePrinted
 
 Indique la date et l’heure de la dernière impression du document. Le nom hérité est « DocLastPrinted ».
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

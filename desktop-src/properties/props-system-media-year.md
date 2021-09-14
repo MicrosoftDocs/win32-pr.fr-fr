@@ -5,11 +5,11 @@ title: System. Media. Year
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c591d30da427cda56158f6273587182b59a5fe1a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196484"
 ---
 # <a name="systemmediayear"></a>System. Media. Year
 
@@ -42,7 +42,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

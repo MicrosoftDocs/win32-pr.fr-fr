@@ -4,12 +4,12 @@ ms.assetid: b7a1b544-8b50-45ba-918c-17472c46c8b8
 title: Courbes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fed6b7c0f6ad03a9ebe16dcffe85694397f6127ff15c2d9d3a9e68f79257a0e4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e694edeb535dbc7dbd4191a5a2b0b44556b810e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119452239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196903"
 ---
 # <a name="curves"></a>Courbes
 

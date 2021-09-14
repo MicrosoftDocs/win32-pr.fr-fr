@@ -4,12 +4,12 @@ ms.assetid: e54df9d6-87ff-4901-a662-5198132ceb18
 description: en savoir plus sur les énumérations de Services Web Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1836ab77377a3080bd9a7211644acbc7d06300f7afd708aaa4e250137a7d5b35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 770aa5ecab0a680ca1e013236ee053382ccab299
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225548"
 ---
 # <a name="windows-web-services-enumerations"></a>Énumérations des services web Windows
 

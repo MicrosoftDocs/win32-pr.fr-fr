@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e79208c0e68736ae91d623622c13bbeb624ab760
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122887193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112598"
 ---
 # <a name="point2lttypegt-function"></a>Point2 ( &lt; fonction de type) &gt;
 

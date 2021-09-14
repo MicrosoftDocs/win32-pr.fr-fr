@@ -5,11 +5,11 @@ title: Transformations (propriété)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f873e439ef9542efa618a8e86c9667a3c962939f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233843"
 ---
 # <a name="transforms-property"></a>Transformations (propriété)
 
@@ -53,13 +53,13 @@ Vous ne pouvez pas utiliser les noms de fichiers et les chemins d’accès dans 
 
 Notez que, étant donné que le séparateur de liste des transformations est le point-virgule, les points-virgules ne doivent pas être utilisés dans un nom de fichier ou un chemin d’accès de transformation.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 dans les cas où la propriété [TransformsSecure](transformssecure-policy.md) ou [**TransformsSecure**](transformssecure.md) a été définie avec Windows Installer, il n’est pas nécessaire de passer le symbole @ ou \| lors de la définition des **transformations** à l’aide de la ligne de commande. Le programme d’installation suppose qu’il s’agit d’un chemin sécurisé à source ou sécurisé-complet si la liste se compose uniquement de noms de fichiers situés à la source ou se compose uniquement de chemins d’accès complets. Vous ne pouvez toujours pas mélanger les deux types de sources de transformation.
 
 Notez que le programme d’installation utilise un ordre de recherche différent pour les transformations non sécurisées appliquées lors de la première installation et de la maintenance. Pour plus d’informations, consultez [transformations non sécurisées](unsecured-transforms.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

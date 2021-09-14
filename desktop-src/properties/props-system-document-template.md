@@ -1,17 +1,17 @@
 ---
-description: System.Document. Modèle
+description: System. document. Template
 ms.assetid: 68a68689-e65c-4080-849f-e8a9ef457931
-title: System.Document. Modèle
+title: System. document. Template
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4fc4b498e5a2ea6be9f0b4b60c2e55d83cc950b96b102f8ffed2757e88bccf1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc7ec2a9da7db25b67f009f673cabaebd638583f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118053441"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196555"
 ---
-# <a name="systemdocumenttemplate"></a>System.Document. Modèle
+# <a name="systemdocumenttemplate"></a>System. document. Template
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -7,12 +7,12 @@ keywords:
 - Utilisation d’ADO pour l’ADSI de récupération de plages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 523cd65e7d26a82b9b647913c919bef374b1c76ddf1a18fd9f99384b4ae6e483
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cb8950a71708bd9c824c90842f043808c897554
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225460"
 ---
 # <a name="using-ado-for-range-retrieval"></a>Utilisation d’ADO pour la récupération de plages
 

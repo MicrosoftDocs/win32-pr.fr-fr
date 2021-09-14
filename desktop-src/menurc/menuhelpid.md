@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4831074d5e7b663210f880bf6684cbc6484ad3487a0c6c9e5be308aebc66291a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b90b5a4745433c92a859a168611aa1c14f1fa45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119825949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196735"
 ---
 # <a name="menuhelpid-structure"></a>MENUHELPID, structure
 
@@ -50,7 +50,7 @@ Identificateur utilisé pour identifier le menu lors du traitement [**de \_ l’
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -74,7 +74,7 @@ Identificateur utilisé pour identifier le menu lors du traitement [**de \_ l’
 [**POPUPMENUITEM**](popupmenuitem.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Ressources](resources.md)

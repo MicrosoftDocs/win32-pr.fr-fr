@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a133907b29857abdc1663d3283bc4b4164878f3fa0976769e6d42daef2c4cb1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1156d69c012faa0141726c00ab880d954fe2857
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119915959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195672"
 ---
 # <a name="em_charfrompos-message"></a>\_Message CHARFROMPOS em
 
@@ -47,19 +47,19 @@ Coordonnées d’un point dans la zone cliente du contrôle. Les coordonnées so
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **Contrôles RichEdit :** La valeur de retour spécifie l’index de caractère de base zéro du caractère le plus proche du point spécifié. La valeur de retour indique le dernier caractère dans le contrôle d’édition si le point spécifié est au-delà du dernier caractère dans le contrôle.
 
 **Contrôles d’édition :** [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) spécifie l’index de base zéro du caractère le plus proche du point spécifié. Cet index est relatif au début du contrôle, et non au début de la ligne. Si le point spécifié est au-delà du dernier caractère du contrôle d’édition, la valeur de retour indique le dernier caractère dans le contrôle. [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) spécifie l’index de base zéro de la ligne qui contient le caractère. Pour les contrôles d’édition sur une seule ligne, cette valeur est égale à zéro. L’index indique le séparateur de lignes si le point spécifié est au-delà du dernier caractère visible d’une ligne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
 Si un point est passé à **em \_ CHARFROMPOS** comme *lParam* et que le point se trouve en dehors des limites du contrôle d’édition, la *LRESULT* est (65535, 65535).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

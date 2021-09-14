@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db18b6ebbd7ccc9e87bffb06cd2b40647e4a9509edc1c27779a0b55efc36b7e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 556688d7c80038f04dd5b94b7c61c5d6dfef3199
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119546513"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225209"
 ---
 # <a name="win32_bootconfiguration-class"></a>\_Classe BootConfiguration Win32
 
@@ -219,7 +219,7 @@ Exemple : « C : \\ temp »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ BootConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
@@ -285,7 +285,7 @@ Scratch Directory  : C:\WINDOWS\system32\config\systemprofile\Local Settings\Tem
 Temp Directory     : C:\WINDOWS\system32\config\systemprofile\Local Settings\Temp
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

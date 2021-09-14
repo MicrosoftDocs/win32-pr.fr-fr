@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a2f2aa58be48c759956fe3522812d7ad6c3e9989
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468596"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112477"
 ---
 # <a name="turbulence-effect"></a>Effet turbulence
 
@@ -91,7 +91,7 @@ Cet effet génère des valeurs en pixels dans des valeurs alpha prémultipliées
 
 Cet effet génère une image bitmap de taille infinie logiquement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

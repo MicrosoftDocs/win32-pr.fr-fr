@@ -4,12 +4,12 @@ ms.assetid: 6029c96f-b1dd-402f-9bac-9021bd897ee4
 title: Propriété AVEncMPACopyright (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbd747de4f4351e5d540fcf8235194308457e0dcc985500f2743209061cedbdb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4449c41448d59ce673e667be7400d4a713236dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111817"
 ---
 # <a name="avencmpacopyright-property"></a>Propriété AVEncMPACopyright
 
@@ -40,11 +40,11 @@ Cette propriété peut avoir les valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’encodeur peut remplacer ce paramètre en fonction du contenu du flux d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

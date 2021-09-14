@@ -4,12 +4,12 @@ ms.assetid: 7ec0b642-d50a-4b23-97c4-82c14da80a8b
 title: Propriété AVEncDDDCHighPassFilter (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 302bde1e36be8b920ababb93329ca0979e9ee99b1fa306c3209511757b47bc5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff68d723127b166ee01c42915a8b11069a01692f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111905"
 ---
 # <a name="avencdddchighpassfilter-property"></a>Propriété AVEncDDDCHighPassFilter
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncDDDCHighPassFilter**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

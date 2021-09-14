@@ -5,11 +5,11 @@ title: Application WpdServicesApiSample
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 54cbf6c6e4647744ae45f43b5d4139cbf7f9dc55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106525068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195776"
 ---
 # <a name="wpdservicesapisample-application"></a>Application WpdServicesApiSample
 
@@ -17,7 +17,7 @@ Un service d’appareil est une extension d’un objet fonctionnel : outre le r
 
 L’exemple d’application WpdServicesApiSample est une application de bureau en ligne de commande que vous pouvez utiliser pour explorer les services de contacts sur les appareils connectés à votre ordinateur. Vous pouvez explorer ces services en répertoriant les formats, les événements, les méthodes et les services abstraits pris en charge. Vous pouvez également utiliser cette application pour récupérer les propriétés sur un service de contact donné et appeler les méthodes prises en charge par ce service.
 
-Si vous n’avez pas encore un appareil qui prend en charge les services de contacts, vous pouvez toujours exécuter le WpdServicesApiSample si vous installez pour la première fois le WpdServiceSampleDriver inclus dans le kit de pilotes Windows.
+si vous n’avez pas encore un appareil qui prend en charge les services de Contacts, vous pouvez toujours exécuter le WpdServicesApiSample si vous installez pour la première fois le WpdServiceSampleDriver inclus dans le Kit de pilotes Windows.
 
 L’exemple d’application WpdServicesApiSample comprend les fichiers suivants :
 

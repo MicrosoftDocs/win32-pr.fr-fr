@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3c90e8cb0f747b191a504676be7a9f32ac75cde299676c6ba839747d48cae2d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03708d6bbc3f91c5202c92e4626f5946678da04d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118766163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196967"
 ---
 # <a name="jet_dbinfomisculbadchecksumold-property"></a>JET_DBINFOMISC. ulBadChecksumOld, propriété
 
@@ -64,7 +64,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_DBINFOMISC](./jet-dbinfomisc-class.md)
 

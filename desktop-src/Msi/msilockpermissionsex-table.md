@@ -4,12 +4,12 @@ ms.assetid: c642f02d-07fa-463f-8151-769c28a71a5c
 title: Table MsiLockPermissionsEx
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bff3d97bc6cd6003470b1be7d1feb20b385701d332ba852a660aa4ff6c57271
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63d7c63e27d7a9c390e6015eb0ebe5f663de5b4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119294799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233969"
 ---
 # <a name="msilockpermissionsex-table"></a>Table MsiLockPermissionsEx
 
@@ -27,7 +27,7 @@ La table MsiLockPermissionsEx contient les colonnes suivantes.
 |----------------------|--------------------------------------------|-----|----------|
 | MsiLockPermissionsEx | [Text](text.md)                           | O   | N        |
 | LockObject           | [Identificateur](identifier.md)               | N   | N        |
-| Table                | [Text](text.md)                           | N   | N        |
+| Table de charge de travail                | [Text](text.md)                           | N   | N        |
 | SDDLText             | [FormattedSDDLText](formattedsddltext.md) | N   | N        |
 | Condition            | [Condition](condition.md)                 | N   | O        |
 
@@ -76,7 +76,7 @@ Cette colonne contient une expression conditionnelle utilisée pour déterminer 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la sécurisation des services, des fichiers, des clés de Registre et des dossiers créés, consultez [sécurisation des ressources](securing-resources-.md).
 

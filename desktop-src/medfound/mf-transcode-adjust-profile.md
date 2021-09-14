@@ -4,12 +4,12 @@ ms.assetid: 6782e080-284b-458d-8bc0-6e131a529e7b
 title: Attribut MF_TRANSCODE_ADJUST_PROFILE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb25f4df47d281ddb0e359d98e8a411cb3abb365b479388e9b7ae107e786703c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd492cfc7981ca1a36a1cb54a440bec4783fe1b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118739467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313865"
 ---
 # <a name="mf_transcode_adjust_profile-attribute"></a>\_Attribut de \_ profil d’ajustement de TRANScodage MF \_
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application peut définir cet attribut au niveau du conteneur sur le profil de transcodage. Si cet attribut est défini, la fonction [**MFCreateTranscodeTopology**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodetopology) modifie les attributs de flux lors de la génération de la topologie, en fonction de l’indicateur spécifié. Par exemple, si l’application spécifie l’indicateur d' **\_ \_ ajustement \_ \_ par défaut du profil de transcodage MF** , les paramètres de flux spécifiés par l’application sont utilisés pour créer le profil.
 
@@ -35,7 +35,7 @@ Si l’application spécifie l’indicateur de **modification de profil d' \_ aj
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

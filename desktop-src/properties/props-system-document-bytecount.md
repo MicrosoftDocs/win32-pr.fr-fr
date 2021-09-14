@@ -1,17 +1,17 @@
 ---
-description: System.Document. ByteCount
+description: System. document. ByteCount
 ms.assetid: 9b21ae53-f095-4507-a5fe-947aa2035f40
-title: System.Document. ByteCount
+title: System. document. ByteCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be4f851921f30fddd8b36909db23415e7937ec0ea79562926dbee4da4ef79701
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf2971b7b58f6b1448623fa406472238d4b8acef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196572"
 ---
-# <a name="systemdocumentbytecount"></a>System.Document. ByteCount
+# <a name="systemdocumentbytecount"></a>System. document. ByteCount
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

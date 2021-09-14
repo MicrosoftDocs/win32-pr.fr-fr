@@ -5,11 +5,11 @@ title: Exemple MPEG1Source
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9c71bd541a7bd01621ca7359eb9e229a08e91a04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519790"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313694"
 ---
 # <a name="mpeg1source-sample"></a>Exemple MPEG1Source
 
@@ -29,11 +29,11 @@ Avant d’examiner cet exemple, vous souhaiterez peut-être examiner l' [exemple
 -   Méthodes asynchrones
 -   E/s asynchrones
 
-Dans l’SDK Windows pour Windows Server 2008, cet exemple comprend également un exemple de décodeur vidéo MPEG-1 qui affiche le code de temps de chaque image vidéo. (Il ne décode pas en fait le flux binaire MPEG-1.)
+dans l’SDK Windows pour Windows Server 2008, cet exemple comprend également un exemple de décodeur vidéo MPEG-1 qui affiche le code de temps de chaque image vidéo. (Il ne décode pas en fait le flux binaire MPEG-1.)
 
-À partir de la SDK Windows pour Windows 7, le décodeur a été déplacé vers un exemple distinct. Consultez [exemple de décodeur](decoder-sample.md).
+à partir de la SDK Windows pour Windows 7, le décodeur a été déplacé vers un exemple distinct. Consultez [exemple de décodeur](decoder-sample.md).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 L’exemple MPEG1Source génère une DLL qui est un serveur COM pour la source du média, le gestionnaire de flux d’octets de la source du média et la table MFT du décodeur. Avant d’utiliser la source du média, vous devez inscrire la DLL.
 
@@ -41,7 +41,7 @@ Pour utiliser la source du média, vous pouvez exécuter l' [exemple BasicPlayba
 
 Vous pouvez également utiliser l’outil TopoEdit pour générer une topologie de lecture qui contient la source du média. Pour plus d’informations sur TopoEdit, consultez [TopoEdit](topoedit.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -55,7 +55,7 @@ Vous pouvez également utiliser l’outil TopoEdit pour générer une topologie 
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mpeg1source).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mpeg1source).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

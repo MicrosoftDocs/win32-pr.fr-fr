@@ -5,11 +5,11 @@ title: Identificateurs de file d’attente de travail (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 70d454e8b2a199a9c132bf6ea287f31d7d3e5102
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313566"
 ---
 # <a name="work-queue-identifiers"></a>Identificateurs de file d’attente de travail
 
@@ -44,7 +44,7 @@ En outre, les constantes suivantes sont utilisées dans le cadre de la connexion
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

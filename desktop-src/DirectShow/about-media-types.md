@@ -4,12 +4,12 @@ ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: À propos des types de média (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fa3034581e443472f1b73c0bc42ca7b8b532a18120df3e067b02ad16f37930e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7b1489543b33f5eeb2c288add48148b37f31915
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074893"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112421"
 ---
 # <a name="about-media-types-directshow"></a>À propos des types de média (DirectShow)
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 3d023db69afdc3cc69535d310cb21fb841c2f1bbe981df98e0aaa22074a46db0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23ad055beab9f24c39f032a3e28456c231480c68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119304339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112801"
 ---
 # <a name="id2d1rendertargetcreatebitmapfromwicbitmap-methods"></a>ID2D1RenderTarget :: CreateBitmapFromWicBitmap, méthodes
 
@@ -36,7 +36,7 @@ crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copia
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour que Direct2D puisse charger une image WIC, il doit être converti en un format de pixel pris en charge et en mode Alpha. Pour obtenir la liste des formats de pixel et des modes alpha pris en charge, consultez [formats de pixel pris en charge et modes alpha](supported-pixel-formats-and-alpha-modes.md).
 
@@ -44,7 +44,7 @@ Pour que Direct2D puisse charger une image WIC, il doit être converti en un for
 
 Pour obtenir des exemples, consultez [Comment charger une image bitmap à partir d’un fichier](how-to-load-a-direct2d-bitmap-from-a-file.md) et [Comment charger une image bitmap à partir d’une ressource](how-to-load-a-bitmap-from-a-resource.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

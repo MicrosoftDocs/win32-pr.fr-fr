@@ -1,17 +1,17 @@
 ---
 description: Durée de vie restante de la batterie, en pourcentage.
 ms.assetid: b6f4f5d6-7f12-4104-95ad-b163445d198b
-title: System.Devices.BatteryLife
+title: System. Devices. BatteryLife
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c224d3d799130e5e453a3b9c83187de8aaa6e02dc1fcf2682300ecbd8c9b94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe8f24f5ecaa78231fdc463b718046adc42fc681
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119458789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227201"
 ---
-# <a name="systemdevicesbatterylife"></a>System.Devices.BatteryLife
+# <a name="systemdevicesbatterylife"></a>System. Devices. BatteryLife
 
 Durée de vie restante de la batterie, en pourcentage.
 
@@ -63,7 +63,7 @@ propertyDescription
             defineToken = BATTERYLIFE_UNKNOWN_STATUS
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

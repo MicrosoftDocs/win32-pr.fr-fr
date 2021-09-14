@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b0ebcabb4212712b1f5acfe2cf35fa9003cfb3488fcba2d23b579354e3f33299
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba92dcf280b8d54b8778e276bb603d888f5991c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452116"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196379"
 ---
 # <a name="shell-color-palette-handling-functions"></a>Fonctions de gestion de palette de couleurs de Shell
 

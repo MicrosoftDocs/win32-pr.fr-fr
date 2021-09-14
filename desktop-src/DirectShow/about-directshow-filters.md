@@ -4,12 +4,12 @@ ms.assetid: 57b7d32e-2073-46a2-91ec-a34072134489
 title: à propos des filtres de DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cef947fdcec8cc1c01d23d09bce1b46d5b4d7d2268fe1d7cd6df6a57b54d42ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11ddfb5dda550bee88c42ef70347c95ba7a2b003
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118664463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112438"
 ---
 # <a name="about-directshow-filters"></a>à propos des filtres de DirectShow
 

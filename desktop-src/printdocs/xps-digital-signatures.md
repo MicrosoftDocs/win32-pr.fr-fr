@@ -4,12 +4,12 @@ ms.assetid: 8a23617e-92fe-4662-b602-47add5716358
 title: API de signature numérique XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f3903e1802d811e6166024132c0d983fff7a1b2d3fd015a91bce4c4e50d6911
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c56485a532afbb148e62901c38db49ab81963c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196660"
 ---
 # <a name="xps-digital-signature-api"></a>API de signature numérique XPS
 

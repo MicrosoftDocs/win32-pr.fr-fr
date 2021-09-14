@@ -7,12 +7,12 @@ keywords:
 - Fonctions HTTP, API serveur HTTP version 1,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8520753e56e995b5751b55ff71cf49f8e82d414e702b2df255c2901e69c397fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 050821e40695268d6e3fa2c946d2e8859748db2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120047199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234029"
 ---
 # <a name="http-server-api-version-10-functions"></a>API serveur HTTP version 1,0, fonctions
 

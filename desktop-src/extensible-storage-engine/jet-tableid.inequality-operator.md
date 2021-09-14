@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5684d79f0be5ceaccccb4a420c16ab1cb6fae41dcf529386ae6f1a1ed9484ec0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7e1cfc9a43beb8478be287e1659883d49f62239
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117892307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196928"
 ---
 # <a name="jet_tableidinequality-operator"></a>JET_TABLEID. Opérateur d’inégalité
 
@@ -76,14 +76,14 @@ public static bool operator !=(
     
     Deuxième instance à comparer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances ne sont pas égales.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_TABLEID](./jet-tableid-structure.md)
 

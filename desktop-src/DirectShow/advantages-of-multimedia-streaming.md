@@ -4,12 +4,12 @@ ms.assetid: 01020ad5-430d-4b4d-8de3-bcc81270e132
 title: Avantages de la diffusion multimédia en continu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06df23ce833462aee9b7d4b3840c1fae2d4f3b15c4ee6daee2e4a421259493a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd907d9b8e91cb61709479a2d600323d6d420958
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119537539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112330"
 ---
 # <a name="advantages-of-multimedia-streaming"></a>Avantages de la diffusion multimédia en continu
 

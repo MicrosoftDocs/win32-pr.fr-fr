@@ -10,12 +10,12 @@ keywords:
 - flux, paramètres d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df5b10ea6bd15ad083b26a61af037527f00576eaa6b7e1fa795ea1591417ac3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e7b2db64a7346cc8b9d46c48f0add79dafcac95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119447019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195923"
 ---
 # <a name="to-set-input-settings"></a>pour définir les Paramètres d’entrée
 

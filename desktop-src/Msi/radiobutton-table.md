@@ -4,12 +4,12 @@ ms.assetid: 7f8f278a-a737-4116-9938-2850dbb611fa
 title: Table RadioButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ffc91ece6b5c71cd6ba46143f33e49b90b0278139d194a218a2fddb797bb55a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 097f8fbe3081c865e3668631ed0fa9d43a4488cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119381049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233916"
 ---
 # <a name="radiobutton-table"></a>Table RadioButton
 
@@ -22,7 +22,7 @@ La table RadioButton contient les colonnes suivantes.
 | Colonne   | Type                         | Clé | Nullable |
 |----------|------------------------------|-----|----------|
 | Propriété | [Identificateur](identifier.md) | O   | N        |
-| Commande    | [Integer](integer.md)       | O   | N        |
+| JSON    | [Integer](integer.md)       | O   | N        |
 | Valeur    | [Correct](formatted.md)   | N   | N        |
 | X        | [Integer](integer.md)       | N   | N        |
 | O        | [Integer](integer.md)       | N   | N        |
@@ -102,7 +102,7 @@ Chaînes d’aide utilisées avec le bouton. Le texte est facultatif et peut êt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs entières de x, y, Width et Height se trouvent dans les [unités d’installation](installer-units.md), et non dans les unités de boîte de dialogue. Une unité d’installation est égale à 1 douzième la hauteur de la taille de police MS sans serif à 10 points. Les coordonnées des contrôles sont relatives au panneau.
 

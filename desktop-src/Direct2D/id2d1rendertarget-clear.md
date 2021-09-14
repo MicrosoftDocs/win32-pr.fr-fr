@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 4e4e0c9843752af0799901537c5ee6d682d895a5ada22843ad2c406e9bda32b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 346e44e3ce0b59e40577d3207f45faafdc33b367
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112805"
 ---
 # <a name="id2d1rendertargetclear-methods"></a>ID2D1RenderTarget :: Clear, méthodes
 
@@ -35,7 +35,7 @@ Efface la zone de dessin à la couleur spécifiée.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Direct2D interprète le *clearColor* comme étant directement alpha (non prémultiplié). Si le mode Alpha de la cible de rendu est [**d2d1 \_ alpha \_ mode \_ ignore**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode), le canal alpha de *clearColor* est ignoré et remplacé par 1,0 f (entièrement opaque).
 
@@ -97,7 +97,7 @@ HRESULT DemoApp::OnRender()
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

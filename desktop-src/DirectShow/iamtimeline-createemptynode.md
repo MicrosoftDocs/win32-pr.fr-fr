@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 0f98073c7e3a4be7fa57858440e540769eef50c44fae4ddcaed459146bfc788a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 894126bea8f40537602aa1fe8898038245215914
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119389139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234089"
 ---
 # <a name="iamtimelinecreateemptynode-method"></a>IAMTimeline :: CreateEmptyNode, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -62,11 +62,11 @@ Membre du type énuméré de la [**chronologie \_ principale \_**](timeline-majo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’ajoutez pas le nouvel objet à une autre instance de chronologie. Chaque objet d’une chronologie doit être créé par cette chronologie.
 
@@ -82,7 +82,7 @@ Si la méthode est réussie, l’interface [**IAMTimelineObj**](iamtimelineobj.m
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

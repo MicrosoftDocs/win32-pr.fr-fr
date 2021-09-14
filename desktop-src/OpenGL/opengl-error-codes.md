@@ -13,12 +13,12 @@ keywords:
 - Code d’erreur GL_OUT_OF_MEMORY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a78b00bfcbe20d9e91c3d6419db376cdbe8698c1ac158df66d02353dd6bdfbed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39fea57642bde4ba6df88bf913984bd27f619d95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118936940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233544"
 ---
 # <a name="opengl-error-codes"></a>Codes d’erreur OpenGL
 

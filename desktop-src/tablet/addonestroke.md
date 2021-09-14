@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 431043b261b3e6fa67e8c6c9e45df27bb6c252dfd92b18e0e4127d4795533c0f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0af3913f2579363afbb0c3985ad0f40f58051eac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196351"
 ---
 # <a name="addonestroke-function"></a>AddOneStroke fonction)
 
@@ -73,7 +73,7 @@ Tableau des paquets qui composent l’objet [**IInkStrokeDisp**](/windows/deskto
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction peut retourner l’une de ces valeurs.
 
@@ -88,7 +88,7 @@ Cette fonction peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

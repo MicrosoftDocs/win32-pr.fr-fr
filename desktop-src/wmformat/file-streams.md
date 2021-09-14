@@ -12,12 +12,12 @@ keywords:
 - flux de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7bc05663ab9f2d81ac94bd1483ac5bc22c903333a8e477cc94e88141ff671ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2a850c938d9582bd128980ef59329a5d5aa6a08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118703907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195976"
 ---
 # <a name="file-streams"></a>Flux de fichiers
 

@@ -4,12 +4,12 @@ ms.assetid: a4d812fe-f050-450a-acee-20b4152e8d76
 title: WPD_RESOURCE_GENERIC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c418299474373d8b960d15c429ea98d887cc404be49c8d38c7d2bb83611c4ca1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b5cdf3e9ae615529f441a20d885980b601d3c24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195780"
 ---
 # <a name="wpd_resource_generic"></a>\_ressource wpd \_ générique
 
@@ -17,7 +17,7 @@ spécifie un type de ressource qui n’est pas défini autrement par Windows app
 
 
 
-| Nom de l'attribut                                                                                                            | Obligatoire ou facultatif                                   |
+| Nom d’attribut                                                                                                            | Obligatoire ou facultatif                                   |
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [\_ \_ \_ taille totale de l’attribut de ressource wpd \_](resource-attribute-properties.md)              | Obligatoire.                                              |
 | [l' \_ attribut de ressource wpd \_ \_ peut \_ lire](attributes.md)                                     | Obligatoire si les clients peuvent lire cette ressource.            |

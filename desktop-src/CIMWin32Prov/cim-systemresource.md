@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 61c0600f10ebadcf827b6a913ff98495c885fe04e281234d9b11720d2a336193
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0c111aa0d69119a7d9182732fb18dd5109d3dde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225300"
 ---
 # <a name="cim_systemresource-class"></a>\_Classe CIM SystemResource
 
@@ -243,7 +243,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ SystemResource** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -251,7 +251,7 @@ WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

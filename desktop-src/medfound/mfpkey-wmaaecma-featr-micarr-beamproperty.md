@@ -4,12 +4,12 @@ ms.assetid: 9ed761da-3f1b-47e8-b71f-becc56fe8801
 title: MFPKEY_WMAAECMA_FEATR_MICARR_BEAM, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b9a91cef7d270af37adc8fda9805d7bf275ef9877883ed8ff8cfdbf9e7a55e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9165eec0dee87fa5d9f6a751f41e81d0de2d9958
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313766"
 ---
 # <a name="mfpkey_wmaaecma_featr_micarr_beam-property"></a>MFPKEY \_ WMAAECMA \_ Feature \_ MICARR \_ Beam, propriété
 
@@ -27,7 +27,7 @@ VT \_
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cette propriété si la valeur de la propriété [MFPKEY \_ WMAAECMA \_ Feature \_ MICARR \_ mode](mfpkey-wmaaecma-featr-micarr-modeproperty.md) est MICARRAY \_ extern \_ Beam.
 
@@ -55,7 +55,7 @@ Cette propriété peut avoir les valeurs suivantes. Les valeurs sont en degrés 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

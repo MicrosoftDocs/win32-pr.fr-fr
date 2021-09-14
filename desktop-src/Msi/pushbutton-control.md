@@ -4,12 +4,12 @@ ms.assetid: ae4a142d-a813-4fbb-9136-6f2d0c962847
 title: contrôle PushButton (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 073abe514d4869904b459e47e0f6b26da8d57f27a44e2f07d23a46950cea9536
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 413dc0d221f44587a55dd936b7859ec061187b30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233963"
 ---
 # <a name="pushbutton-control"></a>Contrôle PushButton
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe BUTTON à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles de groupe **BS \_ Multiline**, **WS \_ Child**, **WS \_ TABSTOP** et **WS \_ Group** .
 

@@ -4,12 +4,12 @@ ms.assetid: 0e173fe5-0b9d-48e8-bcbd-403614d51558
 title: Pack source AAUX (AS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89a2d8aa11c9560b2aa59165afd9bdaae775be7755a7a7d2a5e87a80df412d1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe479a0740da08f42ca5d80e1f0b6f5174f6917b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160260"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112445"
 ---
 # <a name="aaux-source-as-pack"></a>Pack source AAUX (AS)
 
@@ -585,7 +585,7 @@ Pack AS
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les codes de champ suivants présentent un intérêt :
 

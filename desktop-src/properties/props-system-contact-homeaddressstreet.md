@@ -4,12 +4,12 @@ ms.assetid: 5cc2c55e-1c1b-4f1d-8d40-eb7cbae930db
 title: System. contact. HomeAddressStreet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4b640065d6de3b0ffc683e517a552c14c7f9d33d45ad135bc82048c22607d30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c29830bc16611ecf95b9797afc528986d6cba6c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118468349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196644"
 ---
 # <a name="systemcontacthomeaddressstreet"></a>System. contact. HomeAddressStreet
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

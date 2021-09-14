@@ -4,12 +4,12 @@ ms.assetid: 4049b6cb-41a1-4df6-89d1-a2022d3a285d
 title: System. ItemFolderNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c8e8ca12af7c7665a2fd4b64f2911a1e6dbc99805cf4355ea1bb1ceec764c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d637412b02345b52fee2e1c13e8f499314af4c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119945169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196516"
 ---
 # <a name="systemitemfoldernamedisplay"></a>System. ItemFolderNameDisplay
 
@@ -35,13 +35,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
 Si [System. ItemFolderPathDisplay](./props-system-itemfolderpathdisplay.md) est un VT \_ vide, cette propriété doit également être vide. Dans le cas contraire, elle doit être dérivée de manière appropriée par la source de données à partir de System. ItemFolderPathDisplay.
 
-Exemples :
+Exemples :
 
 
 

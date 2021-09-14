@@ -55,12 +55,12 @@ keywords:
 - WMStub. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76dc0f4a8c0b23ba33409039ae7f1d46ada1b3299790ef82fb98b8714f616117
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: adca7e39c89220c2c8c4cac6af354eefb77257aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119547449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195980"
 ---
 # <a name="features-added-in-the-windows-media-format-9-series-sdk"></a>fonctionnalités ajoutées au kit de développement logiciel (SDK) Windows Media Format 9 Series
 

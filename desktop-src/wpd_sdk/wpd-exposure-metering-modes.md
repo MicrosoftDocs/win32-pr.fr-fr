@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 2a165493142fc25ea64adc2678e8bc4ccbeace32e245422f0fcea419063a26ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76c2594339c6fa4997e4d646fc89e8c30dcdf8fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117842279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195820"
 ---
 # <a name="wpd_exposure_metering_modes-enumeration"></a>\_ \_ Énumération des modes de contrôle d’exposition wpd \_
 
@@ -78,11 +78,11 @@ Utilisez une technique de la moyenne à la place.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Indique le mode de mesure de l’appareil. Cette énumération est utilisée par la propriété du mode de mesure de l’exposition de l' [ \_ \_ image \_ \_ \_ wpd continue](still-image-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

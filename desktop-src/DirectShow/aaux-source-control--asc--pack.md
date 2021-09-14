@@ -5,19 +5,19 @@ title: Pack de contrôle de code source AAUX (ASC)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: eab942ccff1cf38e6962d508c9c9bfc99ea9fed6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747181"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112442"
 ---
 # <a name="aaux-source-control-asc-pack"></a>Pack de contrôle de code source AAUX (ASC)
 
 Les tableaux suivants répertorient les valeurs utilisées par le pilote MSDV pour remplir le **dwDVAAuxCtl** et
 
-**dwDVAAuxCtl1** membres de la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . Pour plus d’informations, consultez [paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md).
+**dwDVAAuxCtl1** membres de la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . pour plus d’informations, consultez [DVINFO Field Paramètres dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md).
 
-Paramètres de magnétoscope numérique
+magnétoscope numérique Paramètres
 
 
 
@@ -175,7 +175,7 @@ ASC Pack (blocs audio)\*
 
  
 
-Paramètres magnétoscope 25 et DVCPRO 50 (planifié)
+magnétoscope numérique 25 et DVCPRO 50 Paramètres (planifié)
 
 
 
@@ -325,7 +325,7 @@ ASC Pack (blocs audio)\*
 
 \* La structure *DVINFO* contient deux AAUX As packs, pour les blocs audio 1 et 2. DV50 possède quatre blocs audio. les blocs 3 et 4 ne sont pas représentés dans la structure *DVINFO* .
 
-Paramètres magnétoscope 100 (planifié)
+magnétoscope 100 Paramètres (planifié)
 
 
 
@@ -473,10 +473,10 @@ Les codes de champ suivants présentent un intérêt :
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
-[Paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
+[Paramètres du champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
 </dt> </dl>
 
  

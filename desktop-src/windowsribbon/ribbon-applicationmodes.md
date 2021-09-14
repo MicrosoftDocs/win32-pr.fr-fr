@@ -1,23 +1,23 @@
 ---
 title: Reconfiguration du ruban avec les modes d’application
-description: L’infrastructure de ruban Windows prend en charge la reconfiguration et l’exposition dynamiques des éléments principaux de l’interface ruban au moment de l’exécution, en fonction de l’état de l’application (également appelé contexte).
+description: l’infrastructure du ruban Windows prend en charge la reconfiguration et l’exposition dynamiques des éléments principaux de l’interface ruban au moment de l’exécution, en fonction de l’état de l’application (également appelé contexte).
 ms.assetid: 8e9d85c5-33e4-4212-b9e4-2fc3b492c273
 keywords:
-- Ruban Windows, reconfiguration avec les modes d’application
+- Windows Ruban, reconfiguration avec les modes d’application
 - Ruban, reconfiguration avec les modes d’application
-- reconfiguration du ruban Windows avec les modes d’application
+- reconfiguration d’Windows ruban avec les modes d’application
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 83d206c238e6fe7463562077daaa52a5522a79d9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196096"
 ---
 # <a name="reconfiguring-the-ribbon-with-application-modes"></a>Reconfiguration du ruban avec les modes d’application
 
-L’infrastructure de ruban Windows prend en charge la reconfiguration et l’exposition dynamiques des éléments principaux de l’interface ruban au moment de l’exécution, en fonction de l’état de l’application (également appelé contexte). Déclarés et associés à des éléments spécifiques dans le balisage, les différents États pris en charge par une application sont appelés modes d’application.
+l’infrastructure du ruban Windows prend en charge la reconfiguration et l’exposition dynamiques des éléments principaux de l’interface ruban au moment de l’exécution, en fonction de l’état de l’application (également appelé contexte). Déclarés et associés à des éléments spécifiques dans le balisage, les différents États pris en charge par une application sont appelés modes d’application.
 
 -   [Introduction](#introduction)
 -   [Interface utilisateur contextuelle](#contextual-user-interface)
@@ -43,9 +43,9 @@ L’infrastructure du ruban offre une expérience utilisateur riche en incorpora
 
 À certains égards, les modes d’application s’affichent de façon fonctionnelle, à l’instar des onglets contextuels. Toutefois, la distinction fondamentale réside dans l’objectif et l’étendue de chaque.
 
-Les contrôles contextuels sont activés en réponse à un changement de contexte dans une application. Par exemple, dans Microsoft Paint pour Windows 7, un onglet contextuel qui contient des groupes de commandes liées au texte s’affiche lorsqu’un utilisateur insère une zone de texte dans l’espace de travail. Cet onglet contextuel ne contient pas de commandes de base pour l’application et n’est exposé dans l’interface utilisateur que si le contexte *de* l’application a changé. Les fonctionnalités principales de l’application (commandes de modification d’image) sont toujours pertinentes et disponibles pour l’utilisateur, même si l’onglet contextuel est visible.
+Les contrôles contextuels sont activés en réponse à un changement de contexte dans une application. par exemple, dans Microsoft Paint pour Windows 7, un onglet contextuel qui contient des groupes de commandes liées au texte s’affiche lorsqu’un utilisateur insère une zone de texte dans l’espace de travail. Cet onglet contextuel ne contient pas de commandes de base pour l’application et n’est exposé dans l’interface utilisateur que si le contexte *de* l’application a changé. Les fonctionnalités principales de l’application (commandes de modification d’image) sont toujours pertinentes et disponibles pour l’utilisateur, même si l’onglet contextuel est visible.
 
-Les modes d’application diffèrent des contrôles contextuels dans le fait qu’ils reconfigurent les fonctionnalités en réponse à des modifications dans le contexte dans lequel l’application fonctionne. Les modes d’application se trouvent à un niveau supérieur d’abstraction. ils offrent un moyen de reconfigurer la fonctionnalité de base d’une application au lieu d’exposer temporairement des fonctionnalités qui ne sont pas un composant fondamental de l’interface utilisateur. Par exemple, dans Microsoft Paint pour Windows 7, un commutateur en mode application se produit lorsque la commande **Aperçu avant impression** est appelée. Lorsque Microsoft Paint bascule en mode **Aperçu avant impression**, le contexte dans lequel l’application est en cours de modification passe de la modification à l’aperçu. Par conséquent, la fonctionnalité de base de l’application change jusqu’à ce que l' **Aperçu avant impression** soit annulé et que l’application entre à nouveau dans le contexte d’édition.
+Les modes d’application diffèrent des contrôles contextuels dans le fait qu’ils reconfigurent les fonctionnalités en réponse à des modifications dans le contexte dans lequel l’application fonctionne. Les modes d’application se trouvent à un niveau supérieur d’abstraction. ils offrent un moyen de reconfigurer la fonctionnalité de base d’une application au lieu d’exposer temporairement des fonctionnalités qui ne sont pas un composant fondamental de l’interface utilisateur. par exemple, dans Microsoft Paint pour Windows 7, un commutateur en mode application se produit lorsque la commande **aperçu avant impression** est appelée. lorsque Microsoft Paint passe en **mode aperçu avant impression**, le contexte dans lequel l’application est en cours de modification passe de la modification à l’aperçu. Par conséquent, la fonctionnalité de base de l’application change jusqu’à ce que l' **Aperçu avant impression** soit annulé et que l’application entre à nouveau dans le contexte d’édition.
 
 ### <a name="a-simple-application-mode-scenario"></a>Scénario simple en mode application
 
@@ -88,7 +88,7 @@ La vue du ruban permet de spécifier des modes sur les éléments de contrôle s
     > [!Note]  
     > Les éléments [**Button**](windowsribbon-element-button.md), [**SplitButton**](windowsribbon-element-splitbutton.md)et [**DropDownButton**](windowsribbon-element-dropdownbutton.md) ne peuvent pas être assignés à un mode, sauf s’ils sont hébergés dans le menu de l' [application](windowsribbon-controls-applicationmenu.md).
 
-     
+     
 
 Dans l’infrastructure du ruban, ces éléments de contrôle sont appelés contrôles modaux. Elles s’affichent uniquement si un mode auquel elles sont liées est actif dans l’interface utilisateur.
 
@@ -184,7 +184,7 @@ pFramework->SetModes( UI_MAKEAPPMODE(SIMPLE_MODE) | UI_MAKEAPPMODE(ADVANCED_MODE
 > [!Note]  
 > La macro MAKEAPPMODE de l’interface utilisateur de l’infrastructure du ruban \_ simplifie la définition de ces bits correctement en préparation de l’appel à [**IUIFramework :: SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes).
 
- 
+ 
 
 Cet exemple illustre les éléments suivants :
 
@@ -195,7 +195,7 @@ Cet exemple illustre les éléments suivants :
 > [!Note]  
 > Lorsque les modes d’une application sont reconfigurés, le ruban tente de conserver l’onglet précédemment sélectionné dans l’interface utilisateur. Si le nouvel ensemble de modes ne contient plus l’onglet sélectionné avant l’appel, le ruban sélectionne l’onglet dans sa disposition qui est le plus proche du menu de l' [application](windowsribbon-controls-applicationmenu.md). Cet onglet est destiné à contenir les commandes les plus pertinentes pour l’utilisateur. Pour plus d’informations, consultez [instructions relatives à l’expérience utilisateur du ruban](https://msdn.microsoft.com/library/cc872782.aspx).
 
- 
+ 
 
 ## <a name="remarks"></a>Notes
 
@@ -215,6 +215,6 @@ Toutes les zones de l’interface utilisateur du ruban ne sont pas affectées pa
 [Affichage des onglets contextuels](ribbon-contextualtabs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

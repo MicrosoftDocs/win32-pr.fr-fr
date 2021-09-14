@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e7c53df29b1d106c537543983f1734aef7facaaca5d0965c3a2588f285a7391
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5cc8f76b89e5e8aa529084b5c8c0898200e28ed2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195703"
 ---
 # <a name="em_autourldetect-message"></a>\_Message AUTOURLDETECT em
 
@@ -59,7 +59,7 @@ Ce paramètre détermine les schémas d’URL reconnus si **AURL \_ ENABLEURL** 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la valeur de retour est zéro.
 
@@ -67,7 +67,7 @@ Si le message échoue, la valeur de retour est une valeur différente de zéro. 
 
 Si *lParam* contient plus de 50 noms de schéma, le message échoue avec la valeur de retour **E \_ INVALIDARG**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 si la détection automatique d’URL est activée (autrement dit, *wParam* comprend **AURL \_ ENABLEURL**), le contrôle rich edit analyse tout texte modifié pour déterminer si le texte correspond au format d’une URL (ou plus généralement dans Windows 8 ou ultérieur un identificateur de ressource IRI International). Si *lParam* a la valeur null, le contrôle détecte les URL qui commencent par les noms de schémas suivants :
 
@@ -93,7 +93,7 @@ Lorsque la détection automatique des liens est activée, le contrôle RichEdit 
 
 Un contrôle RichEdit envoie la notification [en \_ lien](en-link.md) lorsqu’il reçoit plusieurs messages lorsque le pointeur de la souris est sur du texte qui a l’effet de **\_ lien CFE** . Pour plus d’informations, consultez [liens hypertexte RichEdit automatique](/archive/blogs/murrays/automatic-richedit-hyperlinks) et [liens hypertexte de nom convivial RichEdit](/archive/blogs/murrays/richedit-friendly-name-hyperlinks).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: BA459FF0-9457-4652-A97C-BD4EC57EC8E2
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 595a0833e88948585622d79907c81a1465e3fa7b11d1ebc8d6bbd697312509bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9208ded926bda197baf41d9195c13cacd8f7079b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112462"
 ---
 # <a name="whats-new-in-direct2d"></a>Nouveautés de Direct2D
 

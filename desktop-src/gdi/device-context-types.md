@@ -4,12 +4,12 @@ ms.assetid: eb06925c-db26-4292-858c-eab38a3adc55
 title: Types de contexte de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32e4158066d4ee17e95fe513fafeb2a72f6ff7244be59aec02e82dac1d5452ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f9ef309651d123f0d687cc10d1f7e6a92824f0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119966029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196900"
 ---
 # <a name="device-context-types"></a>Types de contexte de périphérique
 
@@ -20,7 +20,7 @@ Il existe quatre types de contrôleurs de l’écran : affichage, imprimante, m
 | Contexte d’appareil                                 | Description                                          |
 |------------------------------------------------|------------------------------------------------------|
 | [Affichage](display-device-contexts.md)         | Prend en charge les opérations de dessin sur un affichage vidéo.      |
-| [Imprimante](printer-device-contexts.md)         | Prend en charge les opérations de dessin sur une imprimante ou un traceur. |
+| [966](printer-device-contexts.md)         | Prend en charge les opérations de dessin sur une imprimante ou un traceur. |
 | [Mémoire](memory-device-contexts.md)           | Prend en charge les opérations de dessin sur une bitmap.             |
 | [Informations](information-device-contexts.md) | Prend en charge la récupération des données de l’appareil.               |
 

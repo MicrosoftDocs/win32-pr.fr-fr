@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96d6ca1c18e7a942c1185cb08d2a962b5a2457c529a2d090cb86b8bcfb8ec2b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef04e472e11c848aadb63c98b3dee2ea645a3ce7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225324"
 ---
 # <a name="cim_system-class-cimwin32-wmi-providers"></a>CIM_System, classe (fournisseurs WMI CIMWin32)
 
@@ -324,7 +324,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La **classe \_ système CIM** est dérivée de la [**\_ LogicalElement CIM**](cim-logicalelement.md).
 
@@ -332,7 +332,7 @@ WMI n’implémente pas cette classe. Pour les classes WMI dérivées du **\_ sy
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

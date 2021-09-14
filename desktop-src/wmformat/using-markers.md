@@ -16,11 +16,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 44cc585b8c71e3bfbae85953650809ad031d36a2
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103724114"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195908"
 ---
 # <a name="using-markers"></a>Utilisation des marqueurs
 
@@ -151,9 +151,9 @@ if (SUCCEEDED(hr))
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

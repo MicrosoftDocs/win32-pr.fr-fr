@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: bb00758ea3e046f0325d637c84c722c8e642f19015a8fd418b8c3d8c99e804fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9fdb3073928739e28df63fc7d3ade918b29f9217
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119342899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112965"
 ---
 # <a name="id2d1factorycreaterectanglegeometry-methods"></a>ID2D1Factory :: CreateRectangleGeometry, méthodes
 
@@ -34,7 +34,7 @@ Crée un [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1facto
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

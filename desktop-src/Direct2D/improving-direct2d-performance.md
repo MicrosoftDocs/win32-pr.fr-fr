@@ -19,12 +19,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 34adfd708ef3c1b8d7a6af145d9d1c9505b01beb1ba9b31834e267123ad05b69
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5a413b96e00514b64b3cf1b1ee451a84a9e9ff09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119641499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112689"
 ---
 # <a name="improving-the-performance-of-direct2d-apps"></a>Amélioration des performances des applications Direct2D
 

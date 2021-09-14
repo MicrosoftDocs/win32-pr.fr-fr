@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3b294d4c461970a3304f09088cf63a6564acd50c
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364568"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233676"
 ---
 # <a name="mmiom_writeflush-message"></a>\_Message MMIOM WRITEFLUSH
 
@@ -56,7 +56,7 @@ Nombre d’octets à écrire dans le fichier.
 
 Retourne le nombre d’octets réellement écrits dans le fichier. En cas d’erreur, la valeur de retour est 1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La procédure d’e/s est responsable de la mise à jour du membre **lDiskOffset** de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) pour refléter la nouvelle position de fichier après l’opération d’écriture.
 

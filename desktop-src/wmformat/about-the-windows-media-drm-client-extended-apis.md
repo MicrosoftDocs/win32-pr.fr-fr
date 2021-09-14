@@ -18,12 +18,12 @@ keywords:
 - API étendues du client, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beadccafd04185d4f760d1b8e5d116abb8b35796fd36ad9580de329561fa394c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3145f1f89cc6435da11b9e4f4b3fdaa2623bef88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118434725"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196039"
 ---
 # <a name="about-the-windows-media-drm-client-extended-apis"></a>à propos des api étendues du Client DRM Windows Media
 
@@ -39,7 +39,7 @@ Cette vue d’ensemble contient les sections suivantes.
 | [Concepts](drmconcepts.md)                                                                                          | décrit les concepts fondamentaux de la compréhension des api étendues du Client Media DRM Windows.                    |
 | [présentation des utilisateurs du kit de développement logiciel (SDK) Windows Media Format](introduction-for-users-of-the-windows-media-format-sdk.md) | fournit des informations sur l’utilisation de ces api conjointement avec le kit de développement logiciel (SDK) de Format multimédia Windows.              |
 | [Importation et exportation de contenu protégé par DRM](importing-and-exporting-drm-protected-content.md)                   | décrit le rôle principal des api étendues du Client Media DRM Windows.                                  |
-| [Exemples d’applications](drm-sample-applications.md)                                                                   | décrit les exemples d’applications et les exemples de code contenus dans les api étendues du Client DRM Media Windows. |
+| [Exemples d'applications](drm-sample-applications.md)                                                                   | décrit les exemples d’applications et les exemples de code contenus dans les api étendues du Client DRM Media Windows. |
 | [Pour plus d’informations](drm-for-more-information.md)                                                                 | indique où trouver des ressources DRM Windows supplémentaires sur le site Web de Microsoft.                  |
 
 

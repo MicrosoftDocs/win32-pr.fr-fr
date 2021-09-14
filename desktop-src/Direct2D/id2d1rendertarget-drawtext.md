@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 430607b09795be249a05398b1bfb749e9be45ae517c6374e001a4c3042bf316f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5ace5c64dc90f057ff9fdfe5a79d664137c38030
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112757"
 ---
 # <a name="id2d1rendertargetdrawtext-methods"></a>ID2D1RenderTarget ::D méthodes rawText
 
@@ -35,7 +35,7 @@ Dessine le texte spécifié à l’aide des informations de format fournies par 
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour dessiner du texte avec Direct2D, utilisez la méthode [**ID2D1RenderTarget ::D rawtext**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) pour le texte qui a un format unique, ou la méthode [**ID2D1RenderTarget ::D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) lorsque vous avez besoin de plusieurs formats, de fonctionnalités OpenType avancées ou d’un test de positionnement. ces méthodes utilisent l’API DirectWrite pour fournir un affichage de texte de haute qualité.
 
@@ -45,7 +45,7 @@ Cette méthode ne retourne pas de code d’erreur en cas d’échec. Pour déter
 
 Pour obtenir un exemple, consultez [Comment dessiner du texte](how-to--draw-text.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

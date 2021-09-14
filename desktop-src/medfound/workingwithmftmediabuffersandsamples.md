@@ -4,12 +4,12 @@ ms.assetid: dda4048e-bc4c-40ac-a6bd-34984f3717e0
 title: Utilisation des mémoires tampons et des exemples de médias MFT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d964f1c2f2a5fd5f92d5af87213c6977fc51bee76caf3a281861788e2a2fb922
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6373f6d75b4122409b54649eed6f90e95c2f50c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118736450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313530"
 ---
 # <a name="working-with-mft-media-buffers-and-samples"></a>Utilisation des mémoires tampons et des exemples de médias MFT
 

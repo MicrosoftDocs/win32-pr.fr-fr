@@ -6,12 +6,12 @@ keywords:
 - effet de transfert de table
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8c533b55fd55c983b976633b766a6d8d273631d6111de9e2e36387f711f5f14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4d590e7f232ac3d4cecd434786353dfc5b8ea80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118665004"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112509"
 ---
 # <a name="table-transfer-effect"></a>Effet de transfert de table
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1TableTransfer.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -33,7 +33,7 @@ L’image ci-dessous montre l’entrée et la sortie de l’effet de transfert d
 | Avant                                                         |
 |----------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)     |
-| Après                                                          |
+| After                                                          |
 | ![image après la transformation.](images/11-tabletransfer.png) |
 
 
@@ -96,7 +96,7 @@ Voici à quoi ressemble le graphique de la fonction de transfert de table si la 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

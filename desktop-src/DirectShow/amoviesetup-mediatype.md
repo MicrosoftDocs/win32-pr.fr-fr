@@ -13,11 +13,11 @@ api_type:
 - NA
 api_location: ''
 ms.openlocfilehash: 21300e6b45d40ad9b17e8d5835c41a4f3eaee119
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106545209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112257"
 ---
 # <a name="amoviesetup_mediatype-structure"></a>\_Structure de MediaType AMOVIESETUP
 
@@ -27,7 +27,7 @@ Typedef pour la structure [**REGPINTYPES**](/windows/desktop/api/strmif/ns-strmi
 
 <dl> <dt>
 
-[Structures DirectShow](directshow-structures.md)
+[DirectShow Celles](directshow-structures.md)
 </dt> </dl>
 
  

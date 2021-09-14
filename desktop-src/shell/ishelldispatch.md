@@ -14,11 +14,11 @@ api_location:
 - Shell32.dll
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
 ms.openlocfilehash: 322b912ad7332b0862309b0ecc1510adb3aa1a10
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122475295"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196476"
 ---
 # <a name="ishelldispatch-object"></a>Objet IShellDispatch
 
@@ -56,11 +56,11 @@ L’objet **IShellDispatch** a ces méthodes.
 | <a href="ishelldispatch-help.md"><strong>Aide</strong></a> | affiche la fenêtre d’aide et de Support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br /> | 
 | <a href="ishelldispatch-minimizeall.md"><strong>MinimizeAll</strong></a> | Réduit toutes les fenêtres sur le bureau. cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>réduire tout Windows</strong> sur les anciens systèmes ou si vous cliquez sur l’icône <strong>afficher le bureau</strong> dans la barre des tâches.<br /> | 
 | <a href="ishelldispatch-namespace.md"><strong>Joint</strong></a> | Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br /> | 
-| <a href="ishelldispatch-open.md"><strong>Afficher</strong></a> | Ouvre le dossier spécifié.<br /> | 
+| <a href="ishelldispatch-open.md"><strong>Ouvrir</strong></a> | Ouvre le dossier spécifié.<br /> | 
 | <a href="ishelldispatch-refreshmenu.md"><strong>RefreshMenu</strong></a> | Actualise le contenu du menu <strong>Démarrer</strong> . utilisé uniquement avec les systèmes précédents Windows XP.<br /> | 
 | <a href="ishelldispatch-settime.md"><strong>SetTime</strong></a> | Affiche la boîte de dialogue <strong>date et heure</strong> . Cette méthode a le même effet que de cliquer avec le bouton droit sur l’horloge dans la zone d’état de la barre des tâches et de sélectionner <strong>ajuster la date/l’heure</strong>.<br /> | 
 | <a href="ishelldispatch-shutdownwindows.md"><strong>ShutdownWindows</strong></a> | affiche la boîte de dialogue <strong>arrêter le Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br /> | 
-| <a href="ishelldispatch-suspend.md"><strong>Interrompre</strong></a> | équipements | 
+| <a href="ishelldispatch-suspend.md"><strong>Momentané</strong></a> | équipements | 
 | <a href="ishelldispatch-tilehorizontally.md"><strong>TileHorizontally</strong></a> | Mosaïques horizontalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection de l’option <strong>afficher les fenêtres empilées</strong>.<br /> | 
 | <a href="ishelldispatch-tilevertically.md"><strong>TileVertically</strong></a> | Mosaïque verticalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection de l’option <strong>afficher les fenêtres côte à côte</strong>.<br /> | 
 | <a href="ishelldispatch-trayproperties.md"><strong>TrayProperties</strong></a> | Affiche la boîte de dialogue <strong>Propriétés de la barre des tâches et du menu Démarrer</strong> . Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez <strong>Propriétés</strong>.<br /> | 
@@ -87,7 +87,7 @@ L’objet **IShellDispatch** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

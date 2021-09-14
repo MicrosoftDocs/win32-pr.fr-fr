@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3079c537ddca056ca690537c27edd95826de1189
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364428"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233747"
 ---
 # <a name="mm_mim_moredata-message"></a>MM \_ MIM \_ message MOREDATA
 
@@ -71,7 +71,7 @@ Les deux octets de données MIDI sont facultatifs, en fonction de l’octet d’
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si votre application reçoit des données MIDI plus rapidement qu’elle ne peut les traiter, vous ne devez pas utiliser un mécanisme de rappel de fenêtre. pour optimiser la vitesse, utilisez une fonction de rappel et utilisez le message [**MIM \_ MOREDATA**](mim-moredata.md) au lieu de MM \_ MIM \_ MOREDATA.
 

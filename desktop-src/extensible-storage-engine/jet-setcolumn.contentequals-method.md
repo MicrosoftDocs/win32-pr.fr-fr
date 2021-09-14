@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4bea89e2868d88d6b075ac5d6ad405172f6720939c909e5b4db3352acbad0041
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 489d42a72033ba942a359d8f3244b154dae9e3c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119945319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127196943"
 ---
 # <a name="jet_setcolumncontentequals-method"></a>JET_SETCOLUMN. Méthode ContentEquals
 
@@ -61,12 +61,12 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - Autres  
+  - other  
     Type : [Microsoft.ISAM.esent.Interop.JET_SETCOLUMN](./jet-setcolumn-class.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
@@ -77,7 +77,7 @@ True si les deux instances sont égales.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SETCOLUMN](./jet-setcolumn-class.md)
 
