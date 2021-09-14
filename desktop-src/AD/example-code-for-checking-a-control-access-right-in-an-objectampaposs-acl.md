@@ -7,12 +7,12 @@ keywords:
 - Exemple de code pour la vérification d’un droit d’accès de contrôle dans l’ACL d’un objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d67428c9ff0c4558c71c39e53d411cea35958a8b8e6f1cc1207b7e4efae90d59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b95054a7f21f1b9e96a7e6e0b723718598e8012
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118191211"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917168"
 ---
 # <a name="example-code-for-checking-a-control-access-right-in-an-objects-acl"></a>Exemple de code pour la vérification d’un droit d’accès de contrôle dans l’ACL d’un objet
 

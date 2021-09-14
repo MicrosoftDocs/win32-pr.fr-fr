@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 4da8e76b1c735f6249f1d7e3893acd1db1743b65
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850720"
 ---
 # <a name="jetossnapshottruncatelog-function"></a>JetOSSnapshotTruncateLog fonction)
 
@@ -76,7 +76,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 En cas de réussite, les fichiers journaux pour une partie ou l’ensemble des instances de la session d’instantané seront tronqués, si possible.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cette fonction doit être appelée uniquement si l’instantané a été créé avec l’option JET_bitContinueAfterThaw. Dans le cas contraire, la session d’instantané se terminera après l’appel de [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) .
 

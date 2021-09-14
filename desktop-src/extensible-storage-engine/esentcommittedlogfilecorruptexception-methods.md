@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101360
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8e721dffa6182a3a2ac1e0caf9958bee8c637c6435a334d0a5b3a49ae1ebe6bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94c5dbe96f8778048f7940794c6dc6daa4cc1827
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119621929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851445"
 ---
 # <a name="esentcommittedlogfilecorruptexception-methods"></a>Méthodes EsentCommittedLogFileCorruptException
 

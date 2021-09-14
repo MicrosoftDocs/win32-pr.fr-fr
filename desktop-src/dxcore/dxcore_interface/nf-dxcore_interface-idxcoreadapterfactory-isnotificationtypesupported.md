@@ -4,12 +4,12 @@ description: Détermine si un type de notification spécifié est pris en charge
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 0c5097f89583f0f6b04e0e8fb033446aae45743a8fb5a7fe9134f34bcc5e05fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78730167e7ec139733ee1e4011d2e5e59c32782b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119118703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917992"
 ---
 # <a name="idxcoreadapterfactoryisnotificationtypesupported-method"></a>IDXCoreAdapterFactory :: IsNotificationTypeSupported, méthode
 
@@ -36,7 +36,7 @@ Type : **bool**
 
 Retourne `true` si le type de notification est pris en charge par le système. Sinon, retourne `false`.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez appeler **IsNotificationTypeSupported** pour déterminer si un type de notification donné est connu pour cette version du système d’exploitation. par exemple, un type de notification introduit dans une version particulière de Windows est inconnu des versions précédentes de Windows.
 

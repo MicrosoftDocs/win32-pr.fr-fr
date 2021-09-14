@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 68b0a3435df2ec36fca34fb8a8e4f2638ae9d432a009870ce85cbbdf2a42f1ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3c8f0ac30230a747fba34d9962791b4b331d647
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119850079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918428"
 ---
 # <a name="d3dts_world-macro"></a>D3DTS, \_ macro
 
@@ -37,15 +37,15 @@ D3DTRANSFORMSTATETYPE D3DTS_WORLD(void);
 
 Cette macro n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md) équivalent à [**D3DTS \_ WORLDMATRIX (0)**](./d3dts-worldmatrix.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette macro est fournie pour faciliter le portage d’applications existantes vers Direct3D 9.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

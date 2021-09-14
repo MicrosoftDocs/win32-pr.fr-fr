@@ -4,12 +4,12 @@ ms.assetid: de7efc6a-19ae-4f3a-8675-38fda3c979e2
 title: Attribut EVRConfig_AllowDropToHalfInterlace (UUID. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfae2bf47e71d1c6cb7dbed60069a79f56cee3249c362acf6c0efc99dc06f55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c9989fe833ea763166ba870c331add5c18bcb45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122161"
 ---
 # <a name="evrconfig_allowdroptohalfinterlace-attribute"></a>\_Attribut EVRConfig AllowDropToHalfInterlace
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut peut être défini sur le récepteur multimédia EVR. Pour définir l’attribut, utilisez **QueryInterface** pour interroger le récepteur multimédia EVR pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) .
 
@@ -33,7 +33,7 @@ La définition de cet attribut a le même effet que la définition de l’indica
 
 La constante GUID de cet attribut est exportée à partir de strmiids. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

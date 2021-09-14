@@ -4,12 +4,12 @@ ms.assetid: 8c3a269d-1933-4df6-aefb-f1f5587f1f42
 title: Configuration du cache de partition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 906e36065244ab7f2ffa54cad5a7aca33a0c152744af2b6017edb95a8a960b73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1389cc2685861e06d1b5c86baf2ad7b5fa9bd038
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128961"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916831"
 ---
 # <a name="configuring-the-partition-cache"></a>Configuration du cache de partition
 

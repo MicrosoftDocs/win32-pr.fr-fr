@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 11742525d616aecc8d83871ae2a59025d1034513ae99d8a7253d16d9e0f64dd6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c23df2f74cdf3791f1280e38cbff8ddd48f924b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120933"
 ---
 # <a name="iscrdenrenumcaname-method"></a>ISCrdEnr :: enumCAName, méthode
 
@@ -84,7 +84,7 @@ Pointeur vers une chaîne qui retourne le nom de l’autorité de certification.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="c"></a>C++
 
@@ -96,7 +96,7 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom de l’autorité de certification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

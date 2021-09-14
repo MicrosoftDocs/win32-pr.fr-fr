@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: faa3dbac425e8503b38916c787737f285ce205acb3926c7b796f81d3937a5263
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a35cd416e79f6bafa1867d8466ee9d80c53bbd7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117899020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917667"
 ---
 # <a name="esentoperationexception-constructor"></a>Constructeur EsentOperationException
 

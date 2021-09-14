@@ -5,11 +5,11 @@ title: Structures de gestion structurée des exceptions
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7b0de77fd9f7b68c1dc4b7a0567225d3e2946fed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114569"
 ---
 # <a name="structured-exception-handling-structures"></a>Structures de gestion structurée des exceptions
 

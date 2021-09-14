@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102342
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 60512777a25f334c207412a8241f2a24a3ba10af0f0ad43bd870ea6f64305fa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 245eb86a0b96a0e73ca11b8260424026de8218c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117899435"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851110"
 ---
 # <a name="esentnullkeydisallowedexception-properties"></a>Propriétés EsentNullKeyDisallowedException
 
@@ -69,7 +69,7 @@ Le type [EsentNullKeyDisallowedException](./esentnullkeydisallowedexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

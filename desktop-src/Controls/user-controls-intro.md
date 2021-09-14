@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les contrôles personna
 ms.assetid: 220f7058-db04-46d0-acee-ed5e676790b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12d1a31a44f1f71d99088f7729c2de6d5fdb597e14507f5f994dfaca1b96613d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e82ed9394ec06257e524153b86ef487f4507f35b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115322"
 ---
 # <a name="custom-controls"></a>Contrôles personnalisés
 
@@ -143,7 +143,7 @@ pour plus d’informations sur la mise à disposition de votre contrôle, consul
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Référence de contrôle générale](common-control-reference.md)

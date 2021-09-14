@@ -4,12 +4,12 @@ description: Un Assistant est un type de feuille de propriétés qui offre un mo
 ms.assetid: f8def159-0a68-4d7f-9840-c7b6b906ed08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4254b448c719e3e1397fceadfcdc28475eaeae588f6f1eb0f0168cea07327d3d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fedd35bd0454e0d78ddbe74d832543e58d0a8fc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119655820"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115201"
 ---
 # <a name="how-to-create-wizards"></a>Comment créer des assistants
 
@@ -328,7 +328,7 @@ Si vous écrivez un Assistant pour des systèmes avec des versions antérieures 
 
 Pour plus d’informations sur les assistants à compatibilité descendante, consultez Assistant à compatibilité [descendante 97](/previous-versions//ms737910(v=vs.85)).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour une présentation complète des problèmes de conception pour Wizard97, consultez la [spécification Wizard97](/previous-versions//ms738248(v=vs.85)), ailleurs dans le SDK Windows. Ce document contient des instructions pour des éléments tels que les dimensions des boîtes de dialogue, les dimensions et les couleurs de la bitmap et le positionnement des contrôles.
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 87458cec77a6b003a6dd35d0fc0f1a39fb785522401b46fa50a515f869760889
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f9ff4536936661ece54b5bff29e500ce6e98d3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119857429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918719"
 ---
 # <a name="swbemobjectassociators_-method"></a>SWbemObject. Associatorss, \_ méthode
 
@@ -178,7 +178,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’appel réussit, un objet [**SWbemObjectSet**](swbemobjectset.md) est retourné.
 
@@ -216,11 +216,11 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur les ASSOCIateurs de requêtes WQL, d’instances source et de points de terminaison associés, consultez [ASSOCIATORS OF Statement](associators-of-statement.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

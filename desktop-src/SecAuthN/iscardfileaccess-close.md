@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: a68f779425bfe6af56a44a8b4210f5e809abddccbaab83abfb15ab2a5b147e18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac08d62e71045df49503eb4c05fcb5ea273b4cf6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121182"
 ---
 # <a name="iscardfileaccessclose-method"></a>ISCardFileAccess :: Close, méthode
 
@@ -47,7 +47,7 @@ Handle du fichier à fermer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -63,7 +63,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour ouvrir un fichier, appelez [**Open**](iscardfileaccess-open.md).
 
@@ -71,7 +71,7 @@ Pour obtenir la liste de toutes les méthodes définies par cette interface, con
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de [*carte*](../secgloss/s-gly.md) à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -91,7 +91,7 @@ Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner
 [**ISCardFileAccess**](iscardfileaccess.md)
 </dt> <dt>
 
-[**Afficher**](iscardfileaccess-open.md)
+[**Ouvrir**](iscardfileaccess-open.md)
 </dt> </dl>
 
  

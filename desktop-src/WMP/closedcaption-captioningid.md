@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da667e5479cc33312375920c1d573f0e2c19607b2399ff6f4fe34b130ca61e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: faadae626dd5ac0314c4140e3f9d82ab645ef9b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118580987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852669"
 ---
 # <a name="closedcaptioncaptioningid"></a>ClosedCaption.captioningID
 
@@ -68,7 +68,7 @@ l’exemple de JScript Microsoft suivant utilise *ClosedCaption*. **captioningID
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

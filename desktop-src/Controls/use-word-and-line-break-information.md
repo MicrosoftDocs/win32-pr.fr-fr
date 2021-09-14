@@ -4,12 +4,12 @@ description: Un contrôle Rich Edit appelle une fonction appelée procédure d�
 ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 178770ce4a7206c18f6fbbc197d92e23ff0139ae637bd5f7ceb4159aee3270ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: feb90064e455bfeb8ee126e6107d75ef29b3a4f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115321"
 ---
 # <a name="how-to-use-word-and-line-break-information"></a>Utilisation des informations sur les mots et les sauts de ligne
 

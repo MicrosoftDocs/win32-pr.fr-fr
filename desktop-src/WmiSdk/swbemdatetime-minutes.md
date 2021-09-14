@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5a6150dcdee6051fdfb8737618f4735cfe1e568da05ec35a6cd935be197a56ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cce55d731916d0e8180de1bde495566d4ed22c49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916919"
 ---
 # <a name="swbemdatetimeminutes-property"></a>SWbemDateTime. minutes, propriété
 
@@ -56,7 +56,7 @@ La valeur n’était pas comprise dans la plage comprise entre 0 et 59.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la propriété **SWbemDateTime. minutes** est définie sur 1, la propriété [**SWbemDateTime. seconds**](swbemdatetime-seconds.md) contient une valeur qui est décalée d’une seconde une erreur d’arrondi qui se produit lorsqu’une valeur **DateTime** CIM est convertie en valeur de **\_ Date VT** . Si la propriété **minutes** est définie sur 0, la propriété **seconds** retourne la valeur correcte.
 
@@ -64,7 +64,7 @@ Si la propriété **SWbemDateTime. minutes** est définie sur 1, la propriété 
 
 Pour obtenir des exemples d’utilisation de l’objet [**SWbemDateTime**](swbemdatetime.md) pour convertir des valeurs [**DateTime**](datetime.md) CIM vers et à partir du format **fileTime** ou du format de **\_ Date VT** , consultez [tâches WMI : dates et heures](wmi-tasks--dates-and-times.md). Pour obtenir une description du format **DateTime** CIM, consultez [format de date et d’heure](date-and-time-format.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

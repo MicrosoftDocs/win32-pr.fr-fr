@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: b48e83416951f30f2c395273438d4c71b482636c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985752"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850689"
 ---
 # <a name="jetrenamecolumn-function"></a>JetRenameColumn fonction)
 
@@ -94,7 +94,7 @@ En cas de réussite, le nom de la colonne spécifiée dans la table associée au
 
 En cas d’échec, aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 L’opération de changement de nom de colonne est inhabituelle car, contrairement aux autres opérations de schéma, elle n’est pas exécutée en tant que transaction. Lorsqu’une colonne d’une table donnée est renommée dans une session, toute autre session utilisant cette table verra immédiatement la modification, même si elle se trouve dans une transaction qui empêche cette session de voir toute autre modification apportée par la session à effectuer l’opération de changement de nom.
 

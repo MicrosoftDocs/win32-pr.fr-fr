@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: cb2cef653d99ab6727f56f4ed1281b02956a4466108eedfe096977f3fbb4a48b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e615afa5f534c7e8fb71a88a5113782ba42da0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119771819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916983"
 ---
 # <a name="imsrdpcameraredirconfigcollectionrescan-method"></a>IMsRdpCameraRedirConfigCollection :: Rescan, méthode
 
@@ -37,11 +37,11 @@ HRESULT Rescan();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

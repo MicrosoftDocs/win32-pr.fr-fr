@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85416e22562720455da3e3c03c95b3cee25b5f0f7420a31250b244f47dab0caa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d258b7bf9f03b0e721e61c5da56bc915518069b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957868"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115506"
 ---
 # <a name="tvn_itemchanging-notification-code"></a>\_Code de notification TVN ITEMCHANGING
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**NMTVITEMCHANGE**](/windows/win32/api/commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **false** pour accepter la modification, ou **true** pour empêcher la modification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

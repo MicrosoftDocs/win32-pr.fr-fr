@@ -6,11 +6,11 @@ title: Plus d’informations (WMI)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c81f53f1a907804981b93b5ee4b8a83a12d441c5
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106526907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916940"
 ---
 # <a name="further-information-for-wmi"></a>Plus d’informations sur WMI
 
@@ -44,27 +44,27 @@ Les documents imprimés suivants sont disponibles pour vous aider à en savoir p
 
     Apress ISBN 1-59059-058-9 (8 avril 2003).
 
--   L’équipe de script du kit de ressources Microsoft Windows *, Microsoft windows 2000 Scripting Guide* (en anglais).
+-   le Guide de script microsoft Windows resource Kit scripting Team *Windows 2000.*
 
     Microsoft Press ; ISBN : 0735618674 ; 1ère édition (16 décembre 2002).
 
--   Tunstall, Carig et Cole, Gwyn *développement de solutions WMI : Guide de Windows Management Instrumentation.*
+-   Tunstall, Carig et Cole, Gwyn *développement de Solutions WMI : Guide de Windows Management Instrumentation.*
 
     Addison Wesley Professional ; ISBN : 0201616130 ; 1ère édition (12 novembre 2002).
 
     Contient des informations sur l’écriture de fournisseurs WMI.
 
--   Policht, Marcin *WMI Essentials pour l’automatisation de la gestion de Windows.*
+-   Policht, Marcin *WMI essentials pour l’automatisation de la gestion des Windows.*
 
     Sam ISBN : 0672321440 ; 1ère édition (23 juillet 2001).
 
 -   Martinsson, Tobias
 
-    *Script XML et WMI for Professional Developer Guide.*
+    *script XML et WMI pour Professional Guide du développeur.*
 
     John Wiley & fils ; ISBN : 0471399515 ; Livre & CD Edition (12 janvier 2001).
 
--   Wilson, Ed *Microsoft Windows Scripting with WMI : Self-Paced Learning guide.*
+-   Wilson, Ed *Microsoft Windows scripting with WMI : Self-Paced Learning Guide.*
 
     Microsoft Press ; ISBN : 0735622310 (2005 novembre).
 
@@ -74,7 +74,7 @@ Les documents imprimés suivants sont disponibles pour vous aider à en savoir p
 
 La documentation en ligne et des exemples suivants sont disponibles pour vous aider à apprendre à utiliser WMI :
 
--   La version la plus récente de la documentation du kit de développement logiciel (SDK) WMI se trouve sur MSDN Library. Cette documentation se trouve sous gestion et administration du développement Win32 et COM \| \| Windows Management Instrumentation.
+-   La version la plus récente de la documentation du kit de développement logiciel (SDK) WMI se trouve sur MSDN Library. cette documentation se trouve sous gestion et administration du développement Win32 et COM \| \| Windows Management Instrumentation.
 -   [ScriptCenter TechNet](https://www.microsoft.com/technet/scriptcenter)
 
     Recherchez par catégorie et par tâche pour trouver des scripts d’administration courts. Par exemple, dans la catégorie surveillance, vous pouvez trouver un script intitulé « surveiller l’espace disque disponible ».
@@ -95,11 +95,11 @@ La documentation en ligne et des exemples suivants sont disponibles pour vous ai
 
 -   [Guide de script](https://technet.microsoft.com/library/ee692931.aspx)
 
-    Vue d’ensemble complète des technologies de script disponibles dans les systèmes d’exploitation Windows, y compris WMI. Ce site Web Microsoft TechNet offre des centaines d’exemples de scripts d’administrateur et des informations sur la façon de les modifier pour répondre aux besoins de votre système.
+    vue d’ensemble complète des technologies de script disponibles dans les systèmes d’exploitation Windows, y compris WMI. Ce site Web Microsoft TechNet offre des centaines d’exemples de scripts d’administrateur et des informations sur la façon de les modifier pour répondre aux besoins de votre système.
 
 ## <a name="msdn-scripting"></a>Scripts MSDN
 
-Le cours pratique de script sous [colonnes](https://msdn.microsoft.com/library/aa902519.aspx) contient des rubriques de script avancées en plus des amorces de script WMI, telles que la [création de comptes d’utilisateur](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974568(v=msdn.10)) à partir de données Excel.
+le stage de script sous [colonnes](https://msdn.microsoft.com/library/aa902519.aspx) contient des rubriques de script avancées en plus des amorces de script WMI, telles que la [création de comptes d’utilisateur](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974568(v=msdn.10)) à partir de Excel données.
 
 ## <a name="downloads"></a>Téléchargements
 
@@ -107,8 +107,8 @@ Le cours pratique de script sous [colonnes](https://msdn.microsoft.com/library/a
 
 | Nom du SDK                                                                              | Version de Windows Server | URL (lien de téléchargement)                                               | Emplacement                                               |
 |---------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------|--------------------------------------------------------|
-| Kit de développement logiciel (SDK) Microsoft Windows pour Windows 7 et .NET Framework 4,0 | Windows Server 2008 R2 | <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>  | % D’installation chemin% \\ Microsoft SDK \\ Windows \\ v 7.1 \\ exemples |
-| Kit de développement logiciel (SDK) Microsoft Windows                                      | Windows Server 2008    | <https://www.microsoft.com/download/en/confirmation.aspx?id=11310> | % D’installation chemin% \\ Microsoft SDK \\ Windows \\ v 6.1          |
+| kit de développement logiciel (SDK) Microsoft Windows pour Windows 7 et .NET Framework 4,0 | Windows Server 2008 R2 | <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>  | % installation chemin% \\ Microsoft sdk \\ Windows \\ v 7.1 \\ samples |
+| kit de développement logiciel (SDK) Microsoft Windows                                      | Windows Server 2008    | <https://www.microsoft.com/download/en/confirmation.aspx?id=11310> | % d’installation chemin% des \\ kits de développement logiciel Microsoft \\ Windows \\ v 6.1          |
 
 
 
@@ -124,7 +124,7 @@ Les outils WMI sont les suivants :
 
     WMI CIM Studio offre la possibilité d’effectuer les opérations suivantes :
 
-    -   Connectez-vous à un système choisi et parcourez le référentiel CIM dans n’importe quel espace de noms disponible.
+    -   Connecter à un système choisi et parcourez le référentiel CIM dans n’importe quel espace de noms disponible.
     -   Recherchez des classes en fonction de leur nom, de leurs descriptions ou de leurs noms de propriétés.
     -   Passez en revue les propriétés, les méthodes et les associations associées à une classe donnée.
     -   Consultez les instances disponibles pour une classe donnée.

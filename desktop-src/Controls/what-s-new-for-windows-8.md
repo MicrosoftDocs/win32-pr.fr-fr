@@ -4,12 +4,12 @@ description: cette rubrique décrit les différences de prise en charge des thè
 ms.assetid: 866C2E0B-D3AF-4DA0-8B45-D5FF1335C350
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d7801eea011aabb05663cc2e29f18e0dd58edc9fddc4f32014fcffb96c559cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b203152c8fae5b844eeab334870bf8efb04ac20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115206"
 ---
 # <a name="whats-new-windows-controls"></a>nouveautés (contrôles Windows)
 

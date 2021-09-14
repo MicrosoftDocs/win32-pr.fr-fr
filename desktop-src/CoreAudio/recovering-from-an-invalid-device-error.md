@@ -4,12 +4,12 @@ ms.assetid: 1f5c3458-70ca-45ba-ac33-5c7b9f092320
 title: Récupération à partir d’une erreur Invalid-Device
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a9f56972aeeae5cfb370a656a621c6b6e206f8caa115bec33203cab7eded3e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca20c32be46367f53a14ce26c39f980e3649b652
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119318559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114801"
 ---
 # <a name="recovering-from-an-invalid-device-error"></a>Récupération à partir d’une erreur Invalid-Device
 

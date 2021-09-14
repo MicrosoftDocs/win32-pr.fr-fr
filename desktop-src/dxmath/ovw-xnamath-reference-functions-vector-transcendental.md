@@ -4,12 +4,12 @@ ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: Transcendant, fonctions de vecteur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 712e911f65687285381b28889a28934553ac510544b935a4285b8c1b4b891516
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5927f8a477b4d55e8ed03ca6d61f329e76f11be2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119841149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917952"
 ---
 # <a name="transcendental-vector-functions"></a>Transcendant, fonctions de vecteur
 
@@ -53,7 +53,7 @@ Répertorie les fonctions de vecteur transcendant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 [**XMVectorExp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp) est un alias de compatibilité pour [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2) pour le code Windows 8 existant. **XMVectorExp** est déconseillé pour Windows 8.1. Ne l’utilisez pas et utilisez **XMVectorExp2** ou [**XMVectorExpE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)à la place.
 

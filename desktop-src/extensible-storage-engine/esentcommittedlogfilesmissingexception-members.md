@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101294
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c9a09bd96a16247998b95c6de26f8538d25dd98e9fd019af0712a99cb73341b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc52a0c8ebd724da2d8884746389782b04b8721e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118782996"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851415"
 ---
 # <a name="esentcommittedlogfilesmissingexception-members"></a>Membres EsentCommittedLogFilesMissingException
 
@@ -93,7 +93,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -11,12 +11,12 @@ keywords:
 - flou de mouvement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da688c16f57eefdb155b45b0ceb30cf4018e8fa30ec430c7391b96e52dfae94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 876a57d36ef484ceb66997c1a6ade49845676227
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121298"
 ---
 # <a name="m-opengl"></a>M (OpenGL)
 

@@ -4,12 +4,12 @@ ms.assetid: 27fe3fee-4ae3-43f1-a1f2-91c935e9851b
 title: Codes d’erreur système (9000-11999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: aea735601b2c19bfc54a0841bb0150426b5c292e61dddb53473dfe41575e4337
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 01eb071962d8d0f5beb801067ce1d72adc796bad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119984479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114522"
 ---
 # <a name="system-error-codes-9000-11999"></a>Codes d’erreur système (9000-11999)
 
@@ -2922,7 +2922,7 @@ Impossible d’ajouter la stratégie IPSEC basée sur le nom.
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

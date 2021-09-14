@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 680384b8b36bdbe1f22a6626e64a3347ddca091f4f88f74daae2c5ec13136e2d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71f4a0e3df10cff6b2d3b3f4fc9ea2b618f5fc0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919000"
 ---
 # <a name="onkeyup"></a>OnKeyUp
 
@@ -28,11 +28,11 @@ Le gestionnaire d’événements **onkeyup** gère un événement qui se produit
 onkeyup
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce gestionnaire d’événements n’est pas applicable à l’élément **playlist** , à l’élément **Effects** ou à l’élément **Video** when *Video*. **sans fenêtre** a la valeur false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

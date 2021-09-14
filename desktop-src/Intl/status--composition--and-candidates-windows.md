@@ -4,12 +4,12 @@ ms.assetid: a0e52743-f9be-4934-9469-71d3cb5a768a
 title: Windows de l’État, de la composition et des candidats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83f5c385c14cd265630de77352e12e4c63bce806837462f3c9ab3c204940e66c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6b800def67299a464fd232a08a2bbff0a2a60a2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121849"
 ---
 # <a name="status-composition-and-candidates-windows"></a>Windows de l’État, de la composition et des candidats
 

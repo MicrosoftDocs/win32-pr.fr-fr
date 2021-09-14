@@ -4,12 +4,12 @@ description: Cette section contient des exemples de code qui montrent comment cr
 ms.assetid: 6953cdfc-8c59-4c6d-8998-f828cea3a315
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 786b35bab9450bd00d35d78e9734cfd933f96251703900bbebea04e30e0e3b79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74dfc6d89ee92bfacdf16fb067724dec4a518b66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118407783"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115278"
 ---
 # <a name="using-list-view-controls"></a>Utilisation de contrôles List-View
 

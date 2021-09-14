@@ -4,12 +4,12 @@ ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: Représentation des formats des transmissions IEC 61937
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0de8fb8910ee3534d8878cdab2c35a01f17115de477ba30ea821e89ae11b8b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0a607770a388a11978d0e4666b5046506b6698c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114769"
 ---
 # <a name="representing-formats-for-iec-61937-transmissions"></a>Représentation des formats des transmissions IEC 61937
 

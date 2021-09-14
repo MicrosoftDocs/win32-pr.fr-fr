@@ -4,12 +4,12 @@ ms.assetid: 141982d4-1e6c-4f01-8b0e-8b94f20dd82c
 title: Vue d’ensemble de la programmation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3421fd6a52eade351eaab09ececff8fc63cc687002dede350ab9f06fa0b2c20e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c225b5ebb6f04f74d6071dc0305d219993fa606e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120096889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916836"
 ---
 # <a name="com-programming-overview"></a>Vue d’ensemble de la programmation COM+
 

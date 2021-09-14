@@ -7,12 +7,12 @@ keywords:
 - ADSI fournisseur LDAP, objet utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc8115906656da4fa571fe0d27622a2d87c1aae443673fde6b95ecdca6b9672a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0bcc05808f0942e95b3bf4e09251e04c6a256e9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118179358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122061"
 ---
 # <a name="ldap-user-object"></a>Objet utilisateur LDAP
 

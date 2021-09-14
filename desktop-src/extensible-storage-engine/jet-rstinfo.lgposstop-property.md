@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0d061f3731db5ad5f1bd72d2612cf1ec1002bdf97f25f7e81eec5dd58da9b3b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 08823de30cfe13497a4bd42073688bc739d80acf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119945469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917236"
 ---
 # <a name="jet_rstinfolgposstop-property"></a>JET_RSTINFO. lgposStop, propriété
 

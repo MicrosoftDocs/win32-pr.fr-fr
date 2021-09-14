@@ -15,11 +15,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: b09c41ac1b3a90c3275daf7afa0cd90fe2bb905c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201122"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916816"
 ---
 # <a name="ieventsubscription3subscriberpartitionid-property"></a>IEventSubscription3 :: SubscriberPartitionID, propriété
 
@@ -50,7 +50,7 @@ Chaîne contenant le GUID de la partition de l’abonné.
 
 Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e \_ OUTOFMEMORY, e \_ inattendue, e \_ Fail et S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

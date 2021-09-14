@@ -9,12 +9,12 @@ keywords:
 - luminance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ce4625d515fc76831c5ed2c212ed99bdd092fb341fb925077ca789c80fc830
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 091964e8d6a80ebad0c3c150a80c22ab71daaa12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121322"
 ---
 # <a name="l-opengl"></a>L (OpenGL)
 

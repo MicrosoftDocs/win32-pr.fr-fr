@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 989abe860848b943e77b02910e9760f8fcaecc97fd8a2634f8147605577613d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf6fe61899ea1daac37fd678e9f0e70dfcc3af69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118631273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121609"
 ---
 # <a name="installerfeaturestate-property"></a>Installer. FeatureState, propriété
 
@@ -37,7 +37,7 @@ propVal = Installer.FeatureState
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété retourne l’une des valeurs suivantes.
 
@@ -61,7 +61,7 @@ Cette propriété retourne l’une des valeurs suivantes.
 
 La propriété **FeatureState** ne valide pas le fait que la fonctionnalité soit accessible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

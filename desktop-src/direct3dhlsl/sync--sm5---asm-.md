@@ -4,12 +4,12 @@ description: Synchronisation de groupe de threads ou barrière de mémoire.
 ms.assetid: DCA637FE-8F5C-41D0-8B5E-F913463BA387
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c64532669fc94d7d2109c39e501af0825e56434f66b79e20e1641c787a1a58
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: be072b51b4a18d9f1408df0907ec0a55131c18d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119852859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918187"
 ---
 # <a name="sync-sm5---asm"></a>Sync (SM5-ASM)
 
@@ -24,7 +24,7 @@ Synchronisation de groupe de threads ou barrière de mémoire.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La **synchronisation** possède \_ les options Uglobal, \_ ugroup, \_ g et \_ t.
 
@@ -109,7 +109,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -121,7 +121,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -135,9 +135,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

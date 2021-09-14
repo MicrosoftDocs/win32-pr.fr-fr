@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5c1badd5317b5a12eb97ed6418873b5c576f520f4a8106361abb1a6f7c95921e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b87b77ddb2d2e2af3a22e30d1204cf178ee6981
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118162660"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114590"
 ---
 # <a name="getexceptioncode-macro"></a>GetExceptionCode macro)
 
@@ -41,7 +41,7 @@ DWORD GetExceptionCode(void);
 
 Cette macro n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour identifie le type d’exception. Le tableau suivant identifie les codes d’exception qui peuvent se produire en raison d’erreurs de programmation courantes. Ces valeurs sont définies dans WinBase. h et Winnt. h.
 
@@ -77,7 +77,7 @@ La valeur de retour identifie le type d’exception. Le tableau suivant identifi
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **GetExceptionCode** peut être appelée uniquement à partir de l’expression de filtre ou du bloc de gestionnaire d’exceptions d’un gestionnaire d’exceptions. L’expression de filtre est évaluée si une exception se produit pendant l’exécution du bloc **\_ \_ try** et détermine si le bloc **\_ \_ except** est exécuté ou non.
 
@@ -93,7 +93,7 @@ Lors de la gestion de l’exception de point d’arrêt, il est important d’in
 
 Pour obtenir un exemple, consultez [utilisation d’un gestionnaire d’exceptions](using-an-exception-handler.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

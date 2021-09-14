@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 127618e483a300024201798f7c8728d9ab8c0c0807e6dcac07ba580798a1ea4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e6b9525e302cad1eb940184eb5eb83e11744bba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132820"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121358"
 ---
 # <a name="glpointsize-function"></a>glPointSize fonction)
 
@@ -64,7 +64,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glPointSize** spécifie le diamètre pixellisé des points avec et sans alias. L’utilisation d’une taille en points autre que 1,0 a des effets différents, selon que l’anticrénelage des points est activé ou non. L’anticrénelage des points est contrôlé en appelant [**glEnable**](glenable.md) et **glDisable** avec l’argument GL \_ point \_ Smooth.
 
@@ -96,7 +96,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glPointSize
 
 [**glIsEnabled**](glisenabled.md) avec argument GL \_ point \_ lisse
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

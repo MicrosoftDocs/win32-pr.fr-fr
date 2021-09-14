@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 356fdcbf21dd3b08948936556b40f983ec1ac888
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914415"
 ---
 # <a name="jetresettablesequential-function"></a>JetResetTableSequential fonction)
 
@@ -78,7 +78,7 @@ En cas de réussite, l’index actuel du curseur n’est plus optimisé pour une
 
 En cas d’échec, aucune modification de la configuration du curseur ne se produit. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Il est possible d’effectuer cet appel sur un curseur qui n’a pas été précédemment configuré par un appel à [JetSetTableSequential](./jetsettablesequential-function.md).
 

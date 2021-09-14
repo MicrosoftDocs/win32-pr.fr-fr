@@ -4,12 +4,12 @@ ms.assetid: 2597f3b1-5339-4fd4-9938-39ff917626b4
 title: EndpointVolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c157149e6b15014b1228b2b5c97080fcdbdccd9acc2745ee5a986a7de7c997f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e89efe89035ec272c68c6a9289672a249616e23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117828270"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114942"
 ---
 # <a name="endpointvolume"></a>EndpointVolume
 
@@ -18,7 +18,7 @@ Cet exemple d’application utilise les API audio de base pour modifier le volum
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -31,7 +31,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [API MMDevice](mmdevice-api.md) pour l’énumération et la sélection des appareils multimédias.
 -   [API EndpointVolume](endpointvolume-api.md) pour contrôler les niveaux de volume du point de terminaison de l’appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

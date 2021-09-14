@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c8c750d2b05ecadc3cb900838b1b20b2c8f79e74ba61d50508dd7ae62dc66705
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5565e67cc0f91fd1c2edb0d9c0aa421211c57c2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118253861"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917207"
 ---
 # <a name="jet_sesidtostring-method-string-iformatprovider"></a>JET_SESID. ToString, méthode (String, IFormatProvider)
 
@@ -73,7 +73,7 @@ public string ToString(
     
     [IFormatProvider](/dotnet/api/system.iformatprovider) à utiliser pour mettre en forme la valeur ; ou, NULL pour obtenir les informations de format numérique à partir des paramètres régionaux actuels du système d’exploitation.
 
-#### <a name="return-value"></a>Valeur renvoyée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. String](/dotnet/api/system.string)  
 [Chaîne](/dotnet/api/system.string) contenant la valeur de l’instance actuelle au format spécifié.  

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: 10dbabf32840d2ae5f965687a6261b8bec27a1a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121398"
 ---
 # <a name="getpropertytext-function"></a>GetPropertyText fonction)
 
@@ -70,7 +70,7 @@ Taille de la mémoire tampon de la chaîne de texte.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un pointeur vers le texte de la propriété.
 
@@ -80,7 +80,7 @@ Si la fonction échoue, la valeur de retour est **null**.
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetPropertyText** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

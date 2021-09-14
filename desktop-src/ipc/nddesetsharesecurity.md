@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 00e6d8c4b235e8f7d02ba22e737fc4de9bf4a739864afb1464e6f84c620faa48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 112752bcd0953fbbc358c75080cb2749273ed95d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118481823"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122237"
 ---
 # <a name="nddesetsharesecurity-function"></a>NDdeSetShareSecurity fonction)
 
@@ -74,17 +74,17 @@ Pointeur vers une structure [**de \_ descripteur de sécurité**](/windows/deskt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est NDDE \_ aucune \_ erreur.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur qui peut être traduit en message d’erreur texte en appelant [**NDdeGetErrorString**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour modifier le [**\_ descripteur de sécurité**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) associé à un partage DDE dans le DSDM, l’utilisateur doit disposer du privilège approprié ; le créateur du partage dispose de ce privilège.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

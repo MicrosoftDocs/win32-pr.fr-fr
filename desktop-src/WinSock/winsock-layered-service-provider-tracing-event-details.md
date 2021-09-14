@@ -4,12 +4,12 @@ ms.assetid: 4C86618D-4E79-486E-997F-9E2509FBF6B6
 title: Détails du suivi de modification du catalogue Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae8d949caf94d3b7bbbef32945c97cb3f1db258f798b84280570712ef5299cd3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6258ca87d5d1fba2de9364e5524110bb43c76513
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918900"
 ---
 # <a name="winsock-catalog-change-tracing-details"></a>Détails du suivi de modification du catalogue Winsock
 

@@ -4,12 +4,12 @@ ms.assetid: edafb5f9-09fe-4f8e-9651-4002b6f622f4
 title: Fonctions Winsock
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: 5057a2fa7ff113da3c8e5f9077f9dfb1df83c3a390546b9d49d2d4b94db3625e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9bf2205c970eeaaf4e64867565d58680b28298c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119860719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918912"
 ---
 # <a name="winsock-functions"></a>Fonctions Winsock
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfeb867f979a0f5f2da838cdd225c91da2b67913c18cdda89c5d40a3f8ed6b88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c5a2d029727f4ff4a9eee353230e0843a39f082
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121321"
 ---
 # <a name="lighting-state-variables"></a>Éclairage, variables d’état
 

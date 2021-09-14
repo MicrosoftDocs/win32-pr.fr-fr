@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 625de51bf265be02fa48beb2872797cd5bd6ba26
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914587"
 ---
 # <a name="jet_opentemporarytable-structure"></a>Structure JET_OPENTEMPORARYTABLE
 

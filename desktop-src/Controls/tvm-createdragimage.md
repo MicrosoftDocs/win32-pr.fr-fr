@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a18a00b2225749b30b8dcd9a928fd73e3ffabcfd4a4f9512cd2332d98cc08a79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 189b37affc6a4382541faea13199cacfcb9b7df5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115746"
 ---
 # <a name="tvm_createdragimage-message"></a>TVM \_ CREATEDRAGIMAGE message
 
@@ -39,17 +39,17 @@ Handle de l’élément qui reçoit la nouvelle bitmap de glissement.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de la liste d’images à laquelle la bitmap glissante a été ajoutée en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous créez un contrôle Tree-View sans liste d’images associée, vous ne pouvez pas utiliser le message **TVM \_ CREATEDRAGIMAGE** pour créer l’image à afficher pendant une opération glisser. Vous devez implémenter votre propre méthode de création d’un curseur de glissement.
 
 Votre application est responsable de la destruction de la liste d’images lorsqu’elle n’est plus nécessaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

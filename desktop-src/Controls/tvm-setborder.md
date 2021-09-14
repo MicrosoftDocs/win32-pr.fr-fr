@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1c8cab133fb654e431638be96301325d68d9743109f84ed8def1ee9cc67c01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b4401959e2579caab7f2cb4b6eed1ea34481ffa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669654"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115609"
 ---
 # <a name="tvm_setborder-message"></a>TVM \_ SETBORDER message
 
@@ -56,11 +56,11 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur de **type long** qui contient la taille de la bordure précédente, en pixels. Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contient la taille précédente de la bordure horizontale, tandis que le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contient la taille précédente de la bordure verticale.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Avertissement de sécurité :** L’utilisation de ce message peut compromettre la sécurité de votre programme.
 
@@ -74,7 +74,7 @@ Ce message n’est peut-être pas pris en charge dans les versions ultérieures 
 #define TVSBF_YBORDER 0x00000002 
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

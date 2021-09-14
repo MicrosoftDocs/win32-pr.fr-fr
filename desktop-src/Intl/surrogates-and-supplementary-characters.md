@@ -4,12 +4,12 @@ ms.assetid: 0dea39e2-a2b4-47fc-b44a-56af8ba1e346
 title: Substituts et caractères supplémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5b1dc4743627297962c7279449c06cc1ff967ac35f931a6e945b4577c937b59
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c8d6b738955c8b8de4f6cb0ae43c78f86752a928
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121826"
 ---
 # <a name="surrogates-and-supplementary-characters"></a>Substituts et caractères supplémentaires
 

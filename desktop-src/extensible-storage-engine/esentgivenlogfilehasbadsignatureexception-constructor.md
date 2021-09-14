@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 358e0e5e63835d2a852f8fc38d77b2ee54cdd7abe13452c093c1efeb96c81041
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd53e01da63b21366fd609e8299a7a00c1cccf9f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119838381"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851307"
 ---
 # <a name="esentgivenlogfilehasbadsignatureexception-constructor"></a>Constructeur EsentGivenLogFileHasBadSignatureException
 

@@ -4,13 +4,13 @@ description: Les attributs suivants sont définis par Active Directory.
 ms.assetid: 3df1ed0a-8c92-41cf-9478-95e59b50c471
 ms.tgt_platform: multiple
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 26217543ae9fd55f71806267bd8395ec3da1b63cc5bba38651c49dfaf9edfa65
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.date: 09/10/2021
+ms.openlocfilehash: bf812093a345d5fdbbb630a9b3092b029fad1be3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119644217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127175177"
 ---
 # <a name="all-attributes"></a>Tous les attributs
 
@@ -169,7 +169,7 @@ Les attributs suivants sont définis par Active Directory.
 [**Priorité par défaut**](a-defaultpriority.md)  
 [**Descripteur de sécurité par défaut**](a-defaultsecuritydescriptor.md)  
 [**Delta-Revocation-List**](a-deltarevocationlist.md)  
-[**Service**](a-department.md)  
+[**department**](a-department.md)  
 [**departmentNumber**](a-departmentnumber.md)  
 [**Description**](a-description.md)  
 [**Bureau-profil**](a-desktopprofile.md)  
@@ -358,7 +358,7 @@ Les attributs suivants sont définis par Active Directory.
 [**Est-recyclé**](a-isrecycled.md)  
 [**Est de valeur unique**](a-issinglevalued.md)  
 [**jpegPhoto**](a-jpegphoto.md)  
-[**Mot**](a-keywords.md)  
+[**Mots clés**](a-keywords.md)  
 [**Informations sur les connaissances**](a-knowledgeinformation.md)  
 [**labeledURI**](a-labeleduri.md)  
 [**Dernière-sauvegarde-restauration-heure**](a-lastbackuprestorationtime.md)  
@@ -1349,7 +1349,7 @@ Les attributs suivants sont définis par Active Directory.
 [**Super étendues**](a-superscopes.md)  
 [**Informations d’identification supplémentaires**](a-supplementalcredentials.md)  
 [**Pris en charge-application-Context**](a-supportedapplicationcontext.md)  
-[**Famille**](a-sn.md)  
+[**Surname**](a-sn.md)  
 [**Synchronisation-attributs**](a-syncattributes.md)  
 [**Synchronisation-appartenance**](a-syncmembership.md)  
 [**Synchronisation avec objet**](a-syncwithobject.md)  

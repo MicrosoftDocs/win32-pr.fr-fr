@@ -15,18 +15,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c750e81a3e41450e8cd32f37ccab6fee2f08439c6bc8fc8ae18bf0e4f106b551
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 055957bf2774fc1e5c2e1f0149b00ece7b0a1bea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119732659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918783"
 ---
 # <a name="swbemmethod-object"></a>Objet SWbemMethod
 
 Vous pouvez utiliser les propriétés de l’objet **SWbemMethod** pour inspecter une définition de méthode unique d’un objet WMI. Cet objet ne peut pas être créé par l’appel VBScript **CreateObject** .
 
-Cet objet peut être utilisé pour inspecter les définitions des méthodes. Pour appeler les méthodes, vous devez utiliser l’accès direct (consultez [manipulation d’informations sur la classe et](manipulating-class-and-instance-information.md)SWbemServices.Exel’instance) sur un objet [**SWbemObject**](swbemobject.md) (mécanisme recommandé) ou l’appel [**cMethod**](swbemservices-execmethod.md) .
+Cet objet peut être utilisé pour inspecter les définitions des méthodes. Pour appeler les méthodes, vous devez utiliser l’accès direct (consultez [manipulation d’informations sur la classe et l’instance](manipulating-class-and-instance-information.md)) sur un objet [**SWbemObject**](swbemobject.md) (mécanisme recommandé) ou sur l’appel [**SWbemServices. ExecMethod**](swbemservices-execmethod.md) .
 
 > [!Note]  
 > Dans cette version de l’API, l’accès en écriture aux informations de méthode n’est pas pris en charge. Si vous souhaitez définir des méthodes ou modifier des définitions de méthode existantes, vous pouvez définir les modifications de méthode dans un fichier MOF et soumettre les modifications à l’aide du [compilateur MOF](compiling-mof-files.md). Vous pouvez également utiliser l' [API com pour WMI](com-api-for-wmi.md).
@@ -49,7 +49,7 @@ L’objet **SWbemMethod** a ces propriétés.
 |:--------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**Inparamètres**](swbemmethod-inparameters.md)<br/>   | Lecture seule<br/> | Objet [**SWbemObject**](swbemobject.md) dont les propriétés définissent les paramètres d’entrée pour cette méthode.<br/>              |
 | [**Nom**](swbemmethod-name.md)<br/>                   | Lecture seule<br/> | Nom de la méthode.<br/>                                                                                                     |
-| [**Lancé**](swbemmethod-origin.md)<br/>               | Lecture seule<br/> | Classe d’origine de la méthode.<br/>                                                                                        |
+| [**Origine**](swbemmethod-origin.md)<br/>               | Lecture seule<br/> | Classe d’origine de la méthode.<br/>                                                                                        |
 | [**Paramètres de paramètres**](swbemmethod-outparameters.md)<br/> | Lecture seule<br/> | Objet [**SWbemObject**](swbemobject.md) dont les propriétés définissent les paramètres de sortie et le type de retour de cette méthode.<br/> |
 | [**Qualificateurs\_**](swbemmethod-qualifiers-.md)<br/>    | Lecture seule<br/> | Objet [**SWbemQualifierSet**](swbemqualifierset.md) qui contient les qualificateurs de cette méthode.<br/>                  |
 
@@ -57,7 +57,7 @@ L’objet **SWbemMethod** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

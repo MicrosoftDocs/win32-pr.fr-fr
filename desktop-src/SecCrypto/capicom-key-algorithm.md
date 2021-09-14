@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 4952f11129763d4a60a65d49863f1a311f8f9ede968d6dffdc0337ca715acc0f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e72f19c6449729dca7d8c395596823214824ae44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121098"
 ---
 # <a name="capicom_key_algorithm-enumeration"></a>CAPICOM \_ Key Algorithm ( \_ énumération)
 
@@ -36,11 +36,11 @@ L’énumération de l' **\_ \_ algorithme de clé CAPICOM** définit des algori
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette énumération est réservée à une utilisation ultérieure.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

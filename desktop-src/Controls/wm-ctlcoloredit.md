@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da7f1fd27c51cabc699cf945fd4701c36d2e9709d1654de45859777333b9b4bb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e100367f37018424fad33dc7cea30700183a0a2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115185"
 ---
 # <a name="wm_ctlcoloredit-message"></a>\_Message WM CTLCOLOREDIT
 
@@ -53,11 +53,11 @@ Handle du contrôle d’édition.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner le handle d’un pinceau. Le système utilise le pinceau pour peindre l’arrière-plan du contrôle d’édition.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’application retourne un pinceau qu’elle a créée (par exemple, à l’aide de la fonction [**CreateSolidBrush**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) ou [**CreateBrushIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), l’application doit libérer le pinceau. Si l’application retourne un pinceau système (par exemple, un pinceau qui a été récupéré par la fonction [**GetStockObject**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) ou [**GetSysColorBrush**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), l’application n’a pas besoin de libérer le pinceau.
 
@@ -71,7 +71,7 @@ Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un
 
 **Modification riche :** Ce message n’est pas pris en charge. Pour définir la couleur d’arrière-plan d’un contrôle Rich Edit, utilisez le message [**em \_ SETBKGNDCOLOR**](em-setbkgndcolor.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

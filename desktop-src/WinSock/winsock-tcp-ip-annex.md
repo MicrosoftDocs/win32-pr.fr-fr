@@ -5,11 +5,11 @@ title: Winsock TCP/IP annexe
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d4fd86a016ed80d9c71ac1647323508cb4dc7b08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201823"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918868"
 ---
 # <a name="winsock-tcpip-annex"></a>Winsock TCP/IP annexe
 

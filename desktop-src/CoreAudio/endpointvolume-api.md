@@ -4,12 +4,12 @@ ms.assetid: 1fe1cd57-a0a4-4e08-ab52-3b6e66d14e79
 title: API EndpointVolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22965e882a2f7d413ae58690fc9bc5f8134aba0e7b26838ca38c74d7f0093c98
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 081b827045250336aa499e386a8dafedb6ae068b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114949"
 ---
 # <a name="endpointvolume-api"></a>API EndpointVolume
 

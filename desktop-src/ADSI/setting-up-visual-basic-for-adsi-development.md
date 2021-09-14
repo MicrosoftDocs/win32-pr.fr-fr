@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 83cadc9f74410dcb654a880920a83c20e6af9db1
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885205"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122086"
 ---
 # <a name="setting-up-visual-basic-60-for-adsi-development"></a>configuration de Visual Basic 6,0 pour le développement ADSI
 

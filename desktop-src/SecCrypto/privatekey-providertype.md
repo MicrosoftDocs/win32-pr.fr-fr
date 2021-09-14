@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: b38cc9a030bc27a30a66624f1faeca080104e7fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120853"
 ---
 # <a name="privatekeyprovidertype-property"></a>PrivateKey. ProviderType, propriété
 
@@ -47,7 +47,7 @@ Valeur de l’énumération de [**\_ \_ type**](capicom-prov-type.md) de CAPICOM
 | <span id="CAPICOM_PROV_RSA_SIG"></span><span id="capicom_prov_rsa_sig"></span><dl> <dt>**CAPICOM \_ Proven \_ RSA \_ SIG**</dt> </dl>                    | Le sous-ensemble du CSP RSA qui prend uniquement en charge les fonctions et algorithmes requis pour les hachages et les signatures numériques.<br/>                                                                                                                                                                                                                                                                                                                                     |
 | <span id="CAPICOM_PROV_DSS"></span><span id="capicom_prov_dss"></span><dl> <dt>**CAPICOM \_ Proven \_**</dt> </dl>                                 | CSP DSS ( [*Digital Signature standard*](../secgloss/d-gly.md) ). Ce type de fournisseur prend uniquement en charge les hachages et les signatures numériques. DSS utilise l' [*algorithme de signature numérique*](../secgloss/d-gly.md) (DSA).<br/>                                                                                     |
 | <span id="CAPICOM_PROV_FORTEZZA"></span><span id="capicom_prov_fortezza"></span><dl> <dt>**CAPICOM \_ Proven ( \_ Fortezza)**</dt> </dl>                  | Fournisseur de services de chiffrement qui contient les protocoles et algorithmes de chiffrement détenus par le [*National Institute of Standards and Technology*](../secgloss/n-gly.md) (NIST).<br/>                                                                                                                                                                          |
-| <span id="CAPICOM_PROV_MS_EXCHANGE"></span><span id="capicom_prov_ms_exchange"></span><dl> <dt>**CAPICOM Prov- \_ Microsoft \_ \_**</dt> </dl>        | Fournisseur de services de chiffrement conçu pour les besoins de chiffrement de l’application de messagerie Microsoft Exchange et d’autres applications compatibles avec Microsoft Mail.<br/>                                                                                                                                                                                                                                                                                                              |
+| <span id="CAPICOM_PROV_MS_EXCHANGE"></span><span id="capicom_prov_ms_exchange"></span><dl> <dt>**CAPICOM Prov- \_ Microsoft \_ \_**</dt> </dl>        | fournisseur de services de chiffrement conçu pour les besoins de chiffrement de l’application microsoft Exchange mail et d’autres applications compatibles avec microsoft mail.<br/>                                                                                                                                                                                                                                                                                                              |
 | <span id="CAPICOM_PROV_SSL"></span><span id="capicom_prov_ssl"></span><dl> <dt>**CAPICOM Prov- \_ \_ SSL**</dt> </dl>                                 | Fournisseur de services de chiffrement qui prend en charge le protocole [*SSL (Secure Sockets Layer)*](../secgloss/s-gly.md) (SSL).<br/>                                                                                                                                                                                                                                                                                  |
 | <span id="CAPICOM_PROV_RSA_SCHANNEL"></span><span id="capicom_prov_rsa_schannel"></span><dl> <dt>**CAPICOM \_ Proven \_ RSA \_ Schannel**</dt> </dl>     | Fournisseur de services de chiffrement qui prend en charge les protocoles RSA et [*Schannel*](../secgloss/s-gly.md) .<br/>                                                                                                                                                                                                                                                                                                                                    |
 | <span id="CAPICOM_PROV_DSS_DH"></span><span id="capicom_prov_dss_dh"></span><dl> <dt>**CAPICOM \_ Proven \_ DSS \_**</dt> </dl>                       | Fournisseur de services de chiffrement qui prend en charge les protocoles de [*signature numérique standard*](../secgloss/d-gly.md) (DSS) et [*Diffie-Hellman*](../secgloss/d-gly.md) .<br/>                                                                                                                                                           |
@@ -66,13 +66,13 @@ Valeur de l’énumération de [**\_ \_ type**](capicom-prov-type.md) de CAPICOM
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c26a920042aae4ba144f194845f350030f5675c1b9cc3fcfed552346904add1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26e4afc44a00d5ce9b15ee01d4a0dc1aff52c555
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118119896"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852694"
 ---
 # <a name="buttongroupmappingimage"></a>BUTTONGROUP. mappingImage
 
@@ -31,7 +31,7 @@ L’attribut **mappingImage** spécifie ou récupère le nom de l’image repré
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut obligatoire qui doit être spécifié.
 
@@ -49,7 +49,7 @@ L’illustration suivante est un exemple de **mappingImage** et de l’image vis
 
 Consultez *BUTTONELEMENT*. attribut [mappingColor](buttonelement-mappingcolor.md) pour un exemple de code illustrant l’utilisation de cet attribut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

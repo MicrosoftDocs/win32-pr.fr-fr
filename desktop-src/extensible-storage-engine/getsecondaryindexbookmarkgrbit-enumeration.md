@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5a507403bdd2ec76631ff001752e62e5b4d808904da03bbf53902a53a6d40cab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65510386e2b335d5c2e06ec647360b8383424784
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119968759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851002"
 ---
 # <a name="getsecondaryindexbookmarkgrbit-enumeration"></a>Énumération GetSecondaryIndexBookmarkGrbit
 

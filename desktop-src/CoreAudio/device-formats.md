@@ -4,12 +4,12 @@ ms.assetid: 591437e4-21ef-42f1-a752-7f50440cbd63
 title: Formats d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 332f3ecd4b30213328552077bdef040a63e31992deaf217b77838dd0cd0797f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cbcd1b611075191e522cf00d959f120abfb3baa9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115017"
 ---
 # <a name="device-formats"></a>Formats d’appareil
 
@@ -48,7 +48,7 @@ La méthode **IsFormatSupported** indique si un périphérique de point de termi
 
 Une fois qu’une application a utilisé **GetMixFormat** ou **IsFormatSupported** pour trouver un format approprié pour un flux en mode partagé ou en mode exclusif, l’application peut appeler la méthode **Initialize** pour initialiser un flux de ce format. Une application qui tente d’initialiser un flux en mode partagé dont le format n’est pas identique à celui obtenu à partir de la méthode **GetMixFormat** , mais qui a le même nombre de canaux et le même taux d’échantillonnage que le format Mix, est susceptible d’échouer. Avant **d’appeler Initialize**, l’application peut appeler **IsFormatSupported** pour vérifier que **Initialize** accepte le format.
 
-Le format Mix que le moteur audio utilise pour son traitement interne des flux en mode partagé est étroitement lié à, mais il n’est pas nécessairement identique au format de flux que l’appareil de point de terminaison audio utilise en mode partagé. par le biais du panneau de configuration Windows multimédia, Mmsys.cpl, l’utilisateur peut sélectionner le format de flux qu’un périphérique de point de terminaison audio utilisera lorsqu’il fonctionne en mode partagé. Les étapes sont les suivantes :
+Le format Mix que le moteur audio utilise pour son traitement interne des flux en mode partagé est étroitement lié à, mais il n’est pas nécessairement identique au format de flux que l’appareil de point de terminaison audio utilise en mode partagé. par le biais du panneau de configuration Windows multimédia, Mmsys.cpl, l’utilisateur peut sélectionner le format de flux qu’un périphérique de point de terminaison audio utilisera lorsqu’il fonctionne en mode partagé. La procédure comporte trois étapes :
 
 1.  Pour exécuter Mmsys.cpl, ouvrez une fenêtre d’invite de commandes et entrez la commande suivante :
 

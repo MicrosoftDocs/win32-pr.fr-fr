@@ -4,12 +4,12 @@ ms.assetid: 3c955e2d-daaa-4b77-8ca5-890383bb2d39
 title: Chaînes ID du point de terminaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92fdfbf12f3e037a23163bb3e8fef525db89c15904328c9e0fd8a71e5de004b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f04c07da78b92795ebadd7d8f9731f7188ae8dc3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957308"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114954"
 ---
 # <a name="endpoint-id-strings"></a>Chaînes ID du point de terminaison
 

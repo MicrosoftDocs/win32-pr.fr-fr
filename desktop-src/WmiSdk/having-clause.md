@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: HAVING (clause)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2662ea337c5664130eb9973c049431daedefe3c947c45eb397a950522fea6bcf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f93fbe082fb2f655dfad59d7642e1d0ff9a33e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118993159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918824"
 ---
 # <a name="having-clause"></a>HAVING (clause)
 

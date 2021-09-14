@@ -4,12 +4,12 @@ ms.assetid: 23715497-a74d-4dab-aade-c7779fe80aa6
 title: PKEY_Device_DeviceDesc (Functiondiscoverykeys \_ devpkey. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c5772029f6c99a86c330f05e3cae3b343e3ee25f39eae4c8d5900e7bf947c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5eb68f874979e660fec0cd563db9bcaceb7d5b74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114838"
 ---
 # <a name="pkey_device_devicedesc"></a>Périphérique de l' \_ appareil \_
 
@@ -19,7 +19,7 @@ Le membre **VT** de la structure **PROPVARIANT** est défini sur VT \_ LPWStr.
 
 Le membre **pwszVal** de la structure **PROPVARIANT** pointe vers une chaîne de caractères larges se terminant par un caractère null qui contient la description de l’appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 3971f8093b9f1578a9b84d19a3927e45262acbad
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987022"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917451"
 ---
 # <a name="index-parameters"></a>Paramètres d’index
 
@@ -40,15 +40,15 @@ Ce paramètre spécifie la valeur par défaut pour l’incrément de décalage u
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>1</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p>0 - 32767</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
 
 
@@ -62,15 +62,15 @@ Ce paramètre spécifie la valeur par défaut pour le décalage dans la valeur d
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>0</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p>0 - 32767</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
 
 
@@ -86,15 +86,15 @@ Ce paramètre spécifie la valeur par défaut de la longueur maximale du tuple d
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>10</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p><p><strong>Windows Vista :</strong> 2-255</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
@@ -110,15 +110,15 @@ Ce paramètre spécifie la valeur par défaut pour la longueur minimale du tuple
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>3</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p><p><strong>Windows Vista :</strong> 2-255</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
@@ -134,15 +134,15 @@ Ce paramètre spécifie la valeur par défaut pour la longueur maximale d’une 
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>32767</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 – 32767</p><p><strong>Windows Vista :</strong> 1 – 32767</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
@@ -167,17 +167,17 @@ La valeur par défaut de ce paramètre contient un LCID pour les paramètres ré
 | <p>Tapez :</p> | <p>JET_UNICODEINDEX * (JET_UNICODEINDEX)</p> | 
 | <p>Plage valide :</p> | <p>Spécial</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

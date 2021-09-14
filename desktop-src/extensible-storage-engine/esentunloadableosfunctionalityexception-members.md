@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103172
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d5dcbc910452dda2070a85d23dfd52ba17bd4af50e1ab9d70c41a3891e79c7d8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db345a56a8bdd1085ddb79d711d4a8c05c2578c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122381"
 ---
 # <a name="esentunloadableosfunctionalityexception-members"></a>Membres EsentUnloadableOSFunctionalityException
 
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentUnloadableOSFunctionalityException, classe](./esentunloadableosfunctionalityexception-class.md)
 

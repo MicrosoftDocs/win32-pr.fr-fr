@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e564b6d82c04c0d007784aac39284db13b3776267d524d2f615353ede50eb945
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50b91a11892a2bb904d2cd7d82b5b08cea18331b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115634"
 ---
 # <a name="tvm_hittest-message"></a>\_Message TVM HITTEST
 
@@ -39,11 +39,11 @@ Pointeur vers une structure [**TVHITTESTINFO**](/windows/win32/api/commctrl/ns-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de l’élément d’arborescence qui occupe le point spécifié, ou **null** si aucun élément n’occupe le point.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

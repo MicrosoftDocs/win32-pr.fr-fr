@@ -8,12 +8,12 @@ keywords:
 - requêtes, syntaxe de filtre de recherche
 ms.topic: article
 ms.date: 09/25/2020
-ms.openlocfilehash: 9ea6b347da1c840ef6bd1dd32bb32f96e7be86dfb93e6c1e71cdbb06bd52ba97
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 28875bd49a3d1df7418c37706e58852066bbe08a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120005489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122121"
 ---
 # <a name="search-filter-syntax"></a>Syntaxe de filtre de recherche
 

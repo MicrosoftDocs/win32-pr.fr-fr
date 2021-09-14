@@ -4,12 +4,12 @@ ms.assetid: c5ad67d9-56fb-4bf0-aea4-5b49b0e5bf95
 title: Sons de notification pour les applications audio héritées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4ce813fb2d38a9995f929c62936879f502392415d040e88ddb50f3b4699734a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e9ee2ef1155694e32a21779c55d290da6b3799c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077523"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114897"
 ---
 # <a name="notification-sounds-for-legacy-audio-applications"></a>Sons de notification pour les applications audio héritées
 

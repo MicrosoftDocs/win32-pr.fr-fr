@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: a8192dc83a50063b2aaabba2bf708053fadb8e094bfa1cab82b11b084f722a76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7d0d543dc36054550d4ddf6cc1a77ce80cf1647
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119640939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916960"
 ---
 # <a name="msmcaevent_switchtocmcpolling-class"></a>MSMCAEvent \_ SwitchToCMCPolling, classe
 
@@ -79,13 +79,13 @@ Identificateur unique de cette instance de la classe.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **MSMCAEvent \_ SwitchToCMCPolling** est dérivée de [**WmiEvent**](wmievent.md).
 
 La couche d’abstraction système (SAL) est du code gravé sur la ROM que le système d’exploitation appelle pour effectuer des opérations dépendantes de la plateforme. Il est similaire au BIOS sur une plateforme x86. Dans les cas où la plateforme ne prend pas en charge les interruptions pour l’interrogation CMC ou CPE, le système d’exploitation interroge toutes les minutes, en vérifiant si une erreur s’est produite précédemment. Si la plateforme prend en charge les interruptions et que le système d’exploitation reçoit une quantité définie par l’utilisateur d’interrogations CMC ou CPE pendant une minute, elle désactive l’interruption et l’interrogation. Si l’utilisateur ne définit pas le nombre d’interrogations au bout d’une minute, le système définit une valeur par défaut de 10 interrogations par minute.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

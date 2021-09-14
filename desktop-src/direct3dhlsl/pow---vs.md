@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3fd6c40ef133782990cc8f10517d51a723a21e0730bfabd83feca4c7e294cb7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3263fa19015bc32c94ae714891c3bbb2128c9463
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118088665"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915287"
 ---
 # <a name="pow---vs"></a>Pow-vs
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre de la source d’entrée. Le registre source nécessite l’utilisation explicite de Swizzle répliqués, c’est-à-dire qu’exactement l’un des composants. x,. y,. z,. w Swizzle (ou. r,. g,. b,. a équivalents) doit être spécifié.
 -   src1 est un registre de la source d’entrée. Le registre source nécessite l’utilisation explicite de Swizzle répliqués, c’est-à-dire qu’exactement l’un des composants. x,. y,. z,. w Swizzle (ou. r,. g,. b,. a équivalents) doit être spécifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

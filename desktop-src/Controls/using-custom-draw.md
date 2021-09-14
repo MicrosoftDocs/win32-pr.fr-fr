@@ -4,12 +4,12 @@ description: Cette section contient des exemples qui montrent comment implément
 ms.assetid: ab2a8930-1ee1-4b9f-bd3e-4b34df84957b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e90cff5fd4d692d31b69c85980f872f3aca4504cad81a3439d0c4d31a4c73d90
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f0b8a2585103aa27a27f0138a49885cc726d3b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119655869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115293"
 ---
 # <a name="using-custom-draw"></a>Utilisation d’un dessin personnalisé
 
@@ -87,7 +87,7 @@ La notification finale est envoyée uniquement si le contrôle est en mode rappo
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos du dessin personnalisé](about-custom-draw.md)

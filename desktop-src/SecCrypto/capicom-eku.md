@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 365721c1378c4c0231b00dcf34ab32490d5006ed3bfd8e6dc585a90b9ac8b916
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1d2f4f435fa31df00b87e20254aad57b690b047
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121133"
 ---
 # <a name="capicom_eku-enumeration"></a>CAPICOM \_ , énumération EKU
 
@@ -40,11 +40,11 @@ Le type d’énumération **\_ EKU** d’un CAPICOM définit les noms de l’uti
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type d’énumération **\_ EKU CAPICOM** est utilisé par l' [**utilisation améliorée de la EKU. Propriété Name**](eku-name.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

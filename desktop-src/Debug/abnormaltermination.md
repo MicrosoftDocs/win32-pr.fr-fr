@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 137d6667c993d4a107be057e46c4ee469a513ec95d358b6d3cc50654a5bba520
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c4869f36d8ba70c8dcd8ca526949d489f455e8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114626"
 ---
 # <a name="abnormaltermination-macro"></a>AbnormalTermination macro)
 
@@ -41,13 +41,13 @@ BOOL AbnormalTermination(void);
 
 Cette macro n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le bloc **\_ \_ try** s’est arrêté anormalement, la valeur de retour est différente de zéro.
 
 Si le bloc **\_ \_ try** s’est arrêté normalement, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le bloc **\_ \_ try** se termine normalement uniquement si l’exécution laisse le bloc séquentiellement après l’exécution de la dernière instruction dans le bloc. Les instructions (telles que **Return**, **goto**, **continue** ou **break**) qui forcent l’exécution à quitter le bloc **\_ \_ try** entraînent un arrêt anormal du bloc. C’est le cas même si une telle instruction est la dernière instruction du bloc **\_ \_ try** .
 
@@ -55,7 +55,7 @@ Un arrêt anormal d’un bloc **\_ \_ try** amène le système à parcourir tous
 
 Pour éviter un arrêt anormal, l’exécution doit se poursuivre jusqu’à la fin du bloc. Vous pouvez également exécuter l’instruction **\_ \_ Leave** . L’instruction **\_ \_ Leave** autorise l’arrêt immédiat du bloc **\_ \_ try** sans entraîner un arrêt anormal et une baisse des performances. Consultez la documentation de votre compilateur pour déterminer si l’instruction **\_ \_ Leave** est prise en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - Skins, exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b4fae322506d86e69564bc5ac0ca19cc3f972c107dd960b80e6210150593403
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57d929ad874a9835a67346e70f26adfb3d24378b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118338353"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918951"
 ---
 # <a name="other-skin-samples"></a>Autres exemples d’apparence
 

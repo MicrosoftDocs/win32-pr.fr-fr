@@ -4,12 +4,12 @@ ms.assetid: 579a69ee-92cd-4d4c-a007-998ec042f9fc
 title: Action UnregisterClassInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c2116d67231e915adc1c4ad792dfd577c7fa50d4982c526f0c3f1b14b8abe9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 57ee701925e07e4f74439efb45da00d430d90304
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119810249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121546"
 ---
 # <a name="unregisterclassinfo-action"></a>Action UnregisterClassInfo
 
@@ -46,7 +46,7 @@ Par exemple, [RegisterExtensionInfo](registerextensioninfo-action.md) doit préc
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le programme d’installation définit la propriété [**OLEAdvtSupport**](oleadvtsupport.md) sur true lorsque le système de l’utilisateur actuel a été mis à niveau pour fonctionner avec Install-on-demand via com. Si le système ne prend pas en charge l’installation à la demande via COM, UnregisterClassInfo supprime toutes les classes COM listées dans la [table de classe](class-table.md) associée aux fonctionnalités ou fonctionnalités installées comme publiées à partir du Registre système. Dans le cas contraire, cette action supprime uniquement les classes COM associées aux fonctionnalités sélectionnées pour être désinstallées dans le registre système.
 

@@ -4,12 +4,12 @@ ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8d9c47e68433747e341bbc0a082b5d40af76403b473caabe3423f5a186f499f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eadf4a0e2799d6123bf81069fe65ea16313af444
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117739949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918911"
 ---
 # <a name="winsock-ioctls"></a>IOCTL Winsock
 
@@ -538,13 +538,13 @@ Contrairement à la récupération des statistiques TCP avec la fonction [**GetP
 
 Pour plus d’informations, consultez [**SIO \_ TCP \_ info**](/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)). **SIO \_ les \_ informations TCP** sont prises en charge sur Windows 10, version 1703, Windows Server 2016 et versions ultérieures.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les IOCTL Winsock sont définis dans plusieurs fichiers d’en-tête différents. Celles-ci incluent le fichier d’en-tête *Winsock2. h*, *mswsock. h* et *Mstcpip. h* .
 
 dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’organisation des fichiers d’en-tête a changé et un certain nombre d’ioctl d’ioctl Winsock sont également définis dans les fichiers d’en-tête *Ws2def. h*, *Ws2ipdef. h* et *Mswsockdef. h* . Le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Le fichier d’en-tête *Mswsockdef. h* est automatiquement inclus dans le fichier d’en-tête *Mswsockdef. h* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 |Condition requise|Valeur|
 |-|-|

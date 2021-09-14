@@ -4,12 +4,12 @@ ms.assetid: 174847c8-4545-4f61-ae13-42bdec1405e7
 title: Passage d’objets en tant que paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c47669d3e3e5af572b6dfd50dcbbefacf5c008971f276408fa87b37ccbed9a1b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a58e012138bc65cec481f714ac216bb8227fb924
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120070379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916784"
 ---
 # <a name="passing-objects-as-parameters"></a>Passage d’objets en tant que paramètres
 

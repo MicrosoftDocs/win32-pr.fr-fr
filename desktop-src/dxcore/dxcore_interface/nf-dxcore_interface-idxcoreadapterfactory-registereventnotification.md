@@ -4,12 +4,12 @@ description: S’inscrit pour recevoir des notifications de conditions spécifiq
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: b97b51f7c4359526317647b62241e37063243a56f45014c28ba2f2cd897706ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3643fbb01fc955049c297a577f18d4d276e73f46
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917995"
 ---
 # <a name="idxcoreadapterfactoryregistereventnotification-method"></a>IDXCoreAdapterFactory :: RegisterEventNotification, méthode
 
@@ -66,13 +66,13 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |DXGI_ERROR_INVALID_CALL|*NotificationType* n’est pas pris en charge par le système d’exploitation (OS).|
 |E_INVALIDARG|`nullptr` a été fourni pour *dxCoreObject* ou si une combinaison *NotificationType* et *dxCoreObject* non valide a été fournie.|
 |E_POINTER|`nullptr` a été fourni pour *callbackFunction* ou *eventCookie*.|
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous utilisez **RegisterEventNotification** pour vous inscrire aux événements déclenchés par les interfaces [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) et [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) . Ces types de notifications sont pris en charge.
 

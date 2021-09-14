@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24a94aea69b8b00ce7f289470fbc0216f3015d6597e7e7fc1aaf8d0912b4ca1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 359894eed10898b975c0ca9f4d4350bf4a3fc26c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117709715"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914884"
 ---
 # <a name="esentintransactionexception-constructor"></a>Constructeur EsentInTransactionException
 

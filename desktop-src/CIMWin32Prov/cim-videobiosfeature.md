@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b84ec8a1f9a00b29e21706dd7fabe978740cb756675952b061d406dad8e233c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45f9fd2feabdcd1f9e650e7e7a913a394e8ef67d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020757"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917136"
 ---
 # <a name="cim_videobiosfeature-class"></a>\_Classe CIM VideoBIOSFeature
 
@@ -423,7 +423,7 @@ Cette propriété est héritée de la [**\_ SoftwareFeature CIM**](cim-softwaref
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ VideoBIOSFeature** est dérivée de [**CIM \_ SoftwareFeature**](cim-softwarefeature.md).
 
@@ -431,7 +431,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

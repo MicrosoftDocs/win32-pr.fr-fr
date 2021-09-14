@@ -16,11 +16,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 695b60fef5aba124ce4e6f2ff729fdb9362c7b2c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916672"
 ---
 # <a name="cd3dx12_versioned_root_signature_desc-structure"></a>Structure de la description de la \_ \_ signature racine avec version CD3DX12 \_ \_
 
@@ -202,7 +202,7 @@ const [**D3D12 \_ - \_ échantillonneur statique \_ desc**](/windows/desktop/api
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

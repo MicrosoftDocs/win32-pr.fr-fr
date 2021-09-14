@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh565530(v=EXCHG.10)
 ms:contentKeyID: 39514215
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d185547bc19ba12a6db9be73db235662e176c020e16c7cf3f389cf729a037682
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a4253b9f52b5ce95c079ec43e5b6f1b4f528882
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118074475"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914603"
 ---
 # <a name="jet_logtime-operators"></a>Opérateurs JET_LOGTIME
 

@@ -4,12 +4,12 @@ ms.assetid: 98d24300-52cc-4f0d-b74f-c58b823ac5f3
 title: Partages DDE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5e3416235f78e48c68b7d2e35c7ac042f8ff5d6eac79cc2471efa5ea12d82b7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 012c219897187c9e68b5b9e662b93678b77974c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119602119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122273"
 ---
 # <a name="dde-shares"></a>Partages DDE
 

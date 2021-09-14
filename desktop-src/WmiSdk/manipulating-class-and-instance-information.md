@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1074fd6bd6fd75cb838b3c399dcb1505c5644145522f552862e77e05da70a0c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86e3e84deae73e206f41e9ea25e02b5d11373f3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918816"
 ---
 # <a name="manipulating-class-and-instance-information"></a>Manipulation des informations relatives aux classes et aux instances
 
@@ -42,7 +42,7 @@ Le tableau suivant répertorie les rubriques qui traitent des techniques de réc
 
 ## <a name="manipulating-data-using-vbscript"></a>Manipulation de données à l’aide de VBScript
 
-Vous pouvez utiliser l’accès direct pour accéder aux propriétés WMI d’une classe ou d’une instance WMI directement sur un [**SWbemObject**](swbemobject.md), plutôt qu’à l’aide de la [collection](accessing-a-collection.md) de propriétés de cet objet. Vous pouvez également exécuter des méthodes sur cet objet dans le style natif du langage de programmation plutôt que d’utiliser le [**SWbemServices.Exeappel cMethod**](swbemservices-execmethod.md) . par exemple, la méthode [**create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) dans le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) comportait trois paramètres dans Windows 2000, mais a quatre paramètres dans Windows Server 2003.
+Vous pouvez utiliser l’accès direct pour accéder aux propriétés WMI d’une classe ou d’une instance WMI directement sur un [**SWbemObject**](swbemobject.md), plutôt qu’à l’aide de la [collection](accessing-a-collection.md) de propriétés de cet objet. Vous pouvez également exécuter des méthodes sur cet objet dans le style natif du langage de programmation plutôt que d’utiliser l’appel [**SWbemServices. ExecMethod**](swbemservices-execmethod.md) . par exemple, la méthode [**create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) dans le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) comportait trois paramètres dans Windows 2000, mais a quatre paramètres dans Windows Server 2003.
 
 À l’aide de l’accès direct, vous pouvez traiter les propriétés et les méthodes WMI comme s’il s’agissait de propriétés et de méthodes Automation de [**SWbemObject**](swbemobject.md).
 
@@ -84,9 +84,9 @@ valueOfElement = MyDisk.MyArrayProperty(3)
 
 
 
-L’exemple de code VBScript suivant montre comment générer une instance des paramètres d’entrée dans la méthode [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) de la classe [**Win32 \_ Process**](/windows/desktop/CIMWin32Prov/win32-process) en tant que [**SWbemObject**](swbemobject.md), remplir les propriétés d’entrée, puis exécuter la méthode **Create** à l’aide de [**SWbemServices.ExecMethod**](swbemservices-execmethod.md).
+L’exemple de code VBScript suivant montre comment générer une instance des paramètres d’entrée dans la méthode [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) de la classe [**Win32 \_ Process**](/windows/desktop/CIMWin32Prov/win32-process) en tant que [**SWbemObject**](swbemobject.md), remplir les propriétés d’entrée, puis exécuter la méthode **Create** à l’aide de [**SWbemServices. ExecMethod**](swbemservices-execmethod.md).
 
-La propriété [**SWbemObject. \_ Methods**](swbemobject-methods-.md) retourne une collection [**SWbemMethodSet**](swbemmethodset.md) des méthodes de [**\_ traitement Win32**](/windows/desktop/CIMWin32Prov/win32-process) . Les membres de la méthode définie sont des objets SWbemMethod et [**SWbemMethod.**](swbemmethod-inparameters.md) [**ins**](swbemmethod.md) retourne les paramètres d’entrée de la méthode [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) . Le paramètre d’entrée de la *ligne* de commande requis est défini sur « calc.exe ». La méthode est ensuite exécutée par [**SWbemServices.ExecMethod**](swbemservices-execmethod.md), ce qui entraîne le lancement d’un processus de calc.exe.
+La propriété [**SWbemObject. \_ Methods**](swbemobject-methods-.md) retourne une collection [**SWbemMethodSet**](swbemmethodset.md) des méthodes de [**\_ traitement Win32**](/windows/desktop/CIMWin32Prov/win32-process) . Les membres de la méthode définie sont des objets SWbemMethod et [**SWbemMethod.**](swbemmethod-inparameters.md) [**ins**](swbemmethod.md) retourne les paramètres d’entrée de la méthode [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) . Le paramètre d’entrée de la *ligne* de commande requis est défini sur « calc.exe ». La méthode est ensuite exécutée par [**SWbemServices. ExecMethod**](swbemservices-execmethod.md), ce qui se traduit par le lancement d’un processus de calc.exe.
 
 
 ```VB

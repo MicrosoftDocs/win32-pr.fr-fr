@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Implémentation de l’interface principale pour un fournisseur de méthode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f709fcc698155ad0a9e786636045654b08d1cd2b7dfabd946b2d3ee9e8192485
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 196f87a6520d92bf18362be88f8cc40e5133dabe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119244229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915779"
 ---
 # <a name="implementing-the-primary-interface-for-a-method-provider"></a>Implémentation de l’interface principale pour un fournisseur de méthode
 

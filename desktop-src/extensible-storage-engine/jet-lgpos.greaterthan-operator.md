@@ -26,11 +26,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 4f3e0c060311205d1f5d47bc4678c6ff9458b589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850887"
 ---
 # <a name="jet_lgposgreaterthan-operator"></a>JET_LGPOS. GreaterThan (opérateur)
 
@@ -76,7 +76,7 @@ public static bool operator >(
     
     Deuxième position du journal à comparer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si LHS vient après RHS.  

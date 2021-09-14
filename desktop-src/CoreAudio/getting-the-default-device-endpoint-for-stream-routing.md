@@ -4,12 +4,12 @@ ms.assetid: 4f36710c-c5a8-4f31-9b77-5253475c0715
 title: Obtention du point de terminaison de l’appareil pour le routage du flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccb45560bc8a27e4641e5d52c8fed0bee51c877dbec4d098bb5232830359f0b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ed8c7546c2bd7437ed9705dc93c2a736bbb64e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119695389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114926"
 ---
 # <a name="getting-the-device-endpoint-for-stream-routing"></a>Obtention du point de terminaison de l’appareil pour le routage du flux
 

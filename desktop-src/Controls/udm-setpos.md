@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f87d079a7bbe454084785cba8ed3361193224edd3e781441f4fe614533b8dd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b409f9e7468e3add89248b61b7b563ac592f0dcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115433"
 ---
 # <a name="udm_setpos-message"></a>\_Message SetPos UDM
 
@@ -39,15 +39,15 @@ Nouvelle position pour le contrôle up-up. Si le paramètre est en dehors de la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est la position précédente.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message ne prend en charge que les positions 16 bits. Si les valeurs 32 bits ont été activées pour un contrôle up-out avec [**UDM \_ SETRANGE32**](udm-setrange32.md), utilisez [**UDM \_ SETPOS32**](udm-setpos32.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

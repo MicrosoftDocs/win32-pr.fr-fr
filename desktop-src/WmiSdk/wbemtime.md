@@ -15,12 +15,12 @@ api_type:
 api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
-ms.openlocfilehash: 16b4e8933113386e877aec23313f74695b321f932c10f0e2730bcf5888675cc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d2f06b06db998dc18a876e0e5534e1d86c6ae89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118553245"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918692"
 ---
 # <a name="wbemtime-class"></a>WBEMTime, classe
 
@@ -57,7 +57,7 @@ La classe **WBEMTime** possède ces méthodes.
 
 | Méthode                                                           | Description                                                                                                                            |
 |:-----------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| [**Effacer**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-clear)                                  | Définit l’heure de l’objet **WBEMTime** sur une heure non valide.<br/>                                                                |
+| [**Effacé**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-clear)                                  | Définit l’heure de l’objet **WBEMTime** sur une heure non valide.<br/>                                                                |
 | [**GetBSTR**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getbstr)                              | Affiche l’heure sous la forme d’une valeur **BSTR** .<br/>                                                                                      |
 | [**GetDMTF**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtf)                              | Obtient l’heure sous la forme d’une valeur **BSTR** au format DateTime CIM.<br/>                                                                   |
 | [**GetDMTFNonNtfs**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtfnonntfs)                | Obtient une date DMTF basée sur une FAT ou un format de [date et d’heure](date-and-time-format.md) où l’heure UTC n’est pas connue.<br/> |
@@ -93,7 +93,7 @@ L’objet **WBEMTime** définit les opérateurs surchargés suivants.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

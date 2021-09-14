@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6fd244391a0a4565f27db58671ce9dc950d5c676a6396fba27d4f89f76dc1d02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04325435f090d1549fe7e742e9d4554fb9c61720
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914447"
 ---
 # <a name="jet_threadstatscblogrecord-property"></a>JET_THREADSTATS. cbLogRecord, propriété
 

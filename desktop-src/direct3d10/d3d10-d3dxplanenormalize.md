@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: cf4429e324a5ce1554c5c37c929625153c74764cb9d03618f633f35ecd416748
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b3499297a008b0d8f5dc705080bbd1d5bbe3af4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119754149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916739"
 ---
 # <a name="d3dxplanenormalize-function-d3dx10mathh"></a>D3DXPlaneNormalize, fonction (D3DX10Math. h)
 
@@ -59,19 +59,19 @@ Pointeur vers la structure D3DXPLANE source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointeur vers une structure D3DXPLANE qui représente la normale du plan.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction normalise un plan afin que \| a, b, c \| = = 1.
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, cette fonction peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

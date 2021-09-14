@@ -4,12 +4,12 @@ description: Les constantes suivantes sont définies pour DNS dans l’ordre d�
 ms.assetid: 95bc9193-7962-498a-9abd-c4718ac35f0f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61da11c9d8f5af28e2152bad5fe9c7b5eb6eb7d83fdb7f94c11e8c2f3c04d9f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64497e14d6c4ae11f4a6ed68200614aa4f602270
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118164155"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114694"
 ---
 # <a name="dns-constants"></a>Constantes DNS
 
@@ -33,7 +33,7 @@ Les constantes suivantes sont définies pour DNS dans l’ordre d’octet de l�
 | \_type DNS \_ null    | 0x000a           |
 | TYPE de DNS \_ \_ WKS     | 0x000b           |
 | \_ptr de type DNS \_     | 0x000c           |
-| TYPE de DNS \_ \_ HINFO   | 0x010E           |
+| TYPE de DNS \_ \_ HINFO   | 0x000d           |
 | \_type DNS \_ minfo   | 0x000e           |
 | \_type DNS \_ MX      | 0x000F           |
 | \_texte de type DNS \_    | 0x0010           |
@@ -47,10 +47,10 @@ Les constantes suivantes sont définies pour DNS dans l’ordre d’octet de l�
 | \_SIG de type DNS \_     | 0x0018           |
 | \_clé de type DNS \_     | 0x0019           |
 | \_type DNS \_ PX      | 0x001a           |
-| \_objets de stratégie de groupe de type DNS \_    | 0x011C           |
-| \_type DNS \_ aaaa    | 0x011B           |
-| \_loc de type DNS \_     | 0x011E           |
-| TYPE de DNS \_ \_ NXT     | 0x011D           |
+| \_objets de stratégie de groupe de type DNS \_    | 0x001b           |
+| \_type DNS \_ aaaa    | 0x001c           |
+| \_loc de type DNS \_     | 0x001d           |
+| TYPE de DNS \_ \_ NXT     | 0x001e           |
 | \_eID du type DNS \_     | 0x001f           |
 | \_NIMLOC de type DNS \_  | 0x0020           |
 | \_SRV de type DNS \_     | 0x0021           |

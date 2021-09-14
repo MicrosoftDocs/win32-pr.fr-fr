@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1ff7a7a79d8b61deef6b5f19b829e5c8dd8f4603c5f60c3b47d0a84b0603736
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2268994f1be000373691d6c25dbb7220d3e109e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915676"
 ---
 # <a name="xtyp_connect-transaction"></a>\_Transaction XTYP Connect
 
@@ -94,17 +94,17 @@ Spécifie si le client est la même instance d’application que le serveur. Si 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une fonction de rappel de serveur doit retourner la **valeur true** pour permettre au client d’établir une conversation sur la paire de noms de services et de rubriques spécifiée, ou la fonction doit retourner **false** pour refuser la conversation. Si la fonction de rappel retourne la **valeur true** et qu’une conversation est correctement établie, le système transmet le descripteur de conversation au serveur en émettant une transaction [**\_ \_ Confirm XTYP Connect**](xtyp-connect-confirm.md) à la fonction de rappel du serveur (à moins que le serveur n’ait spécifié l’indicateur **CBF \_ Skip \_ Connect \_ Confirm** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) ).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur **CBF \_ Fail \_ connections** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
 Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -132,7 +132,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **
 [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)

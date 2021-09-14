@@ -4,12 +4,12 @@ ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
 title: Codes d’erreur système
 ms.topic: article
 ms.date: 10/31/2019
-ms.openlocfilehash: 4c762b2098531ecb19ad84522f8c9c8272c004397bbc4b32f15a6f6e157c4332
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 072e1eb4a43c787055bc2793b3f58d69cdf6dd12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119691729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114517"
 ---
 # <a name="system-error-codes"></a>Codes d’erreur système
 

@@ -4,12 +4,12 @@ description: Les interfaces suivantes permettent d’implémenter des documents 
 ms.assetid: cfc2c9e9-ddb4-4422-80f8-26e20add6f6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38a245e9fd96d6fd0dff21e51fc630c2d4c8bd1879c15ef128dc345a9859f3d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c7baeb70bfba550e1a9fb2cf91f016ba92e02294
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119500819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916856"
 ---
 # <a name="interfaces-ole-and-data-transfer"></a>Interfaces (OLE et Transfert de données)
 

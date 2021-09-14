@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: a94af3f142fb7449a95ddf67ad9a0d16f2e37c43
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982402"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917180"
 ---
 # <a name="jetopentemptable-function"></a>Fonction JetOpenTempTable
 
@@ -134,7 +134,7 @@ En cas de réussite, un curseur ouvert sur la table temporaire nouvellement cré
 
 En cas d’échec, la table temporaire n’est pas créée et un curseur n’est pas renvoyé. L’état de la base de données temporaire peut être modifié. L’état de toutes les bases de données ordinaires utilisées par le moteur de base de données reste inchangé.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les tables temporaires ne prennent pas en charge le complément complet des options de définition de colonne généralement prises en charge par le moteur de base de données. En fait, seuls les JET_bitColumnFixed et les JET_bitColumnTagged sont pris en charge. Cela signifie qu’il n’est pas possible de créer une colonne à incrémentation automatique, une version ou une colonne à plusieurs valeurs dans une table temporaire. Enfin, les colonnes de mise à jour de tiers de confiance ne sont pas prises en charge car elles ne sont pas utiles dans une table temporaire, car elles ne peuvent être utilisées que par une seule session à la fois. Si l’une de ces options est demandée, elles seront ignorées.
 
@@ -266,7 +266,7 @@ Lorsque la table temporaire n’est pas matérialisée et qu’elle est dans la 
 
   - [JetSetLS](./jetsetls-function.md)
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

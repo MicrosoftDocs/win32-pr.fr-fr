@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f3809ae800cfc753925e7c27d87f970ce56c10d90ace7c23e87b46f3e0067fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2dc9df55dcf9f507cb57e91fe0214eab94c53f22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115193"
 ---
 # <a name="wm_chartoitem-message"></a>\_Message WM CHARTOITEM
 
@@ -53,11 +53,11 @@ Handle vers la zone de liste.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour spécifie l’action exécutée par l’application en réponse au message. Une valeur de retour de-1 ou-2 indique que l’application a géré tous les aspects de la sélection de l’élément et ne nécessite aucune action supplémentaire de la zone de liste. Une valeur de retour supérieure ou égale à 0 spécifie l’index de base zéro d’un élément dans la zone de liste et indique que la zone de liste doit exécuter l’action par défaut pour la frappe sur l’élément spécifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) retourne-1.
 
@@ -65,7 +65,7 @@ Seules les zones de liste owner-drawn ne disposant pas du style de [**\_ HASSTRI
 
 Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un cast de la valeur de retour souhaitée en valeur **booléenne** et retourner la valeur directement. La valeur *DWL \_ MSGRESULT* définie par la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) est ignorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

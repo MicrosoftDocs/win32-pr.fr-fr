@@ -4,12 +4,12 @@ description: L’exemple suivant fournit des fonctions C qui illustrent l’util
 ms.assetid: C74B4E43-615D-48B9-9884-F626BAF31F74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 654b4a101c2deb3c22993f41b11ee94df6ac738da41963046f02a072f3eaa6a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9851b30fdf58c0d4200600c0c4c83c7f9a00a555
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117828611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115342"
 ---
 # <a name="how-to-use-tab-methods-in-tom"></a>Comment utiliser les méthodes de tabulation dans TOM
 

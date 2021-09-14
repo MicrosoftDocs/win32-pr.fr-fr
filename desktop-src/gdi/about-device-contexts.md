@@ -4,12 +4,12 @@ ms.assetid: f2a4c4cf-55e9-4129-8067-256552af49d2
 title: À propos des contextes de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9439e3091b3138917e24ab4a49ff89c21a1e1b53480d4a138bd2bbad3288fcd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3b686ec8b48492658f19531cb42161c043f178d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105874"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914371"
 ---
 # <a name="about-device-contexts"></a>À propos des contextes de périphérique
 

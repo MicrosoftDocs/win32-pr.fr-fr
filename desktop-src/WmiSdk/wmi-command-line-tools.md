@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f21685c91dd613d7b5c066dd6fa8ea174e493dbbac07c345da6b145d410e2c69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27331ccdc0decb030656e5497f3458720672e507
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118553143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918671"
 ---
 # <a name="wmi-command-line-tools"></a>Outils en ligne de commande WMI
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: d0f66c1e8ec59819f4f01c5f46989e1f904930f3699f978b26c6ab7c5107154c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19626ba560ead406005612db3ed90cabc61d98ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121129"
 ---
 # <a name="capicom_encryption_algorithm-enumeration"></a>\_Énumération de l’algorithme de chiffrement CAPICOM \_
 
@@ -38,11 +38,11 @@ Le type d’énumération de l' **\_ \_ algorithme de chiffrement CAPICOM** déf
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type d’énumération de l' **\_ \_ algorithme de chiffrement CAPICOM** est utilisé par la propriété [**Algorithm.Name**](algorithm-name.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

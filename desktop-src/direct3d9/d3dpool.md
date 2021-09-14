@@ -14,11 +14,11 @@ api_type:
 api_location:
 - D3D9Types.h
 ms.openlocfilehash: dc1d69d094b2f810855f9ce2116c472ba8ab605e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535821"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918427"
 ---
 # <a name="d3dpool-enumeration"></a>Énumération D3DPOOL
 
@@ -130,7 +130,7 @@ Les applications doivent utiliser D3DPOOL \_ géré pour la plupart des ressourc
 
 Pour les textures dynamiques, il est parfois préférable d’utiliser une paire de textures de mémoire vidéo et de mémoire système, d’allouer la mémoire vidéo à l’aide de D3DPOOL \_ par défaut et de la mémoire système à l’aide de D3DPOOL \_ SYSTEMMEM. Vous pouvez verrouiller et modifier les bits de la texture de la mémoire système à l’aide d’une méthode de verrouillage. Vous pouvez ensuite mettre à jour la texture de la mémoire vidéo à l’aide de [**IDirect3DDevice9 :: UpdateTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-updatetexture).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

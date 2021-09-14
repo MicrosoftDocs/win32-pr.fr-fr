@@ -4,12 +4,12 @@ ms.assetid: 9dc9f182-3adf-4171-8829-35debae123da
 title: Constantes audio principales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09e0605a223b334b2f4545bc5e8065aed8f77544c7d9aa9eb48bc61ef2197f4c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 95dee529997a668f3bbea1ad446ec88c33f3d431
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119834119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115061"
 ---
 # <a name="core-audio-constants"></a>Constantes audio principales
 

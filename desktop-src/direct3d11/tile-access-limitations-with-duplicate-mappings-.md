@@ -4,12 +4,12 @@ description: Cette section décrit les limitations d’accès aux vignettes avec
 ms.assetid: 7A498E0D-9151-4A89-B7C3-C4F476457D17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ea4839b8115ccffe1993d767bc19d2d7c3db0c230aff65f8dd0fd9f74d3cad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0909b0d10e286e5f774f6893b692abdeb19d3ef7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918547"
 ---
 # <a name="tile-access-limitations-with-duplicate-mappings"></a>Restrictions d’accès aux vignettes avec des mappages en double
 

@@ -4,12 +4,12 @@ ms.assetid: 452b9725-b0b9-4888-bbb5-a23e0067e840
 title: À propos de WASAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3effb34ec0cde0a53d0eb6f6e9718aa13fc308417b33427f168364afc32086ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f869319f3100b797e58c7b43597869c9767ac037
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114710"
 ---
 # <a name="about-wasapi"></a>À propos de WASAPI
 

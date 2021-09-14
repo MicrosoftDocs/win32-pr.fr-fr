@@ -5,11 +5,11 @@ title: CompressedAnimationSet
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b6cdf8fde552583884604fa66ec1167183918ed5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916668"
 ---
 # <a name="compressedanimationset"></a>CompressedAnimationSet
 

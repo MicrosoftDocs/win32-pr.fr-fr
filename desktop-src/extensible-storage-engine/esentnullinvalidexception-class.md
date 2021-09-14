@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 79fa76b2e2b69dae24c34759e535560cc120ca2590b7b51e1e9c2cad2963be27
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 766a681aeeff60bcf160dda02586dd01da2b66ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119040295"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917715"
 ---
 # <a name="esentnullinvalidexception-class"></a>EsentNullInvalidException, classe
 

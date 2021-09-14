@@ -18,11 +18,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 6c168635a66eff012768a1eabbc803c6986a2c43
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918471"
 ---
 # <a name="id3dx12pipelineparsercallbackscachedpsocb-method"></a>ID3DX12PipelineParserCallbacks :: CachedPSOCb, méthode
 
@@ -52,11 +52,11 @@ Détails du sous-objet PSO mis en cache (objet d’État du pipeline) analysé �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur Nothing.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

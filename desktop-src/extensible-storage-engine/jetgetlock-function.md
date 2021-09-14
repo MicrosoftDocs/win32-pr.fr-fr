@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61e770687584a41d4e8511b2c9478c097f311109
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 51509f4027d4748f32b8c9dfb8756433b5f93935
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479095"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914439"
 ---
 # <a name="jetgetlock-function"></a>JetGetLock fonction)
 
@@ -108,7 +108,13 @@ Le contrôle de version de l’enregistrement garantit que chaque transaction ex
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

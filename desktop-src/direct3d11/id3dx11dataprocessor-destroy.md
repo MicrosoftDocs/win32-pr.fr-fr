@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0968ff090f01a27cb18d3fff0e6dbd499c05c95cd558a2eba805dd91a153c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af92f8b3a22ba9a62258e8b24589a662eda22592
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119632925"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122461"
 ---
 # <a name="id3dx11dataprocessordestroy-method"></a>ID3DX11DataProcessor ::D méthode estroy
 
@@ -46,17 +46,17 @@ HRESULT Destroy();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est utilisée par une [**interface ID3DX11ThreadPump**](id3dx11threadpump.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a6eedf739d9d0b4285d0198ae905672dbbb7848a2b7d9ba106abb6a59fcdc4d5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d857179e97586974e11815ced5ec7c50ca276789
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119742649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121366"
 ---
 # <a name="largeint"></a>LARGEINT
 
@@ -28,14 +28,14 @@ typedef LARGE_INTEGER UNALIGNED* ULPLARGEINT;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le membre **lpLargeIntTable** de la structure [**Set**](set.md) pointe vers un tableau de structures d' **ensemble** qui définissent une ou plusieurs valeurs LARGEINT. Lorsque ce type de structure de **jeu** est spécifié, moniteur réseau affiche l’une des étiquettes suivantes avec chaque valeur LARGEINT trouvée dans le paquet de protocole.
 
 -   Correspond à la valeur définie. La valeur LARGEINT est incluse dans le jeu.
 -   Valeur définie inconnue. La valeur LARGEINT n’est pas incluse dans le jeu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

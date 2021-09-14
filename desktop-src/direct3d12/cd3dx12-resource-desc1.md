@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2021
 ms.openlocfilehash: 87fe62c475e1d961258671355c4c9be133bf0a41
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121813235"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918511"
 ---
 # <a name="cd3dx12_resource_desc1-structure"></a>Structure CD3DX12_RESOURCE_DESC1
 
@@ -113,12 +113,12 @@ Constructeur qui crée une nouvelle instance d’un **CD3DX12_RESOURCE_DESC1** i
 
 Fonction statique qui construit et retourne une nouvelle instance d’une **CD3DX12_RESOURCE_DESC1** initialisée avec ces valeurs.
 
-|Membre de données|valeur|
+|Membre de données|value|
 |-|-|
 |Dimension|D3D12_RESOURCE_DIMENSION_BUFFER|
 |Alignment|*resAllocInfo*. Repère|
-|Width|*resAllocInfo*. SizeInBytes|
-|Height|1|
+|Largeur|*resAllocInfo*. SizeInBytes|
+|Hauteur|1|
 |DepthOrArraySize|1|
 |Miplevels a|1|
 |Format|DXGI_FORMAT_UNKNOWN|
@@ -134,12 +134,12 @@ Fonction statique qui construit et retourne une nouvelle instance d’une **CD3D
 
 Fonction statique qui construit et retourne une nouvelle instance d’une **CD3DX12_RESOURCE_DESC1** initialisée avec ces valeurs.
 
-|Membre de données|valeur|
+|Membre de données|value|
 |-|-|
 |Dimension|D3D12_RESOURCE_DIMENSION_BUFFER|
 |Alignment|*repère*|
-|Width|*width*|
-|Height|1|
+|Largeur|*width*|
+|Hauteur|1|
 |DepthOrArraySize|1|
 |Miplevels a|1|
 |Format|DXGI_FORMAT_UNKNOWN|
@@ -155,12 +155,12 @@ Fonction statique qui construit et retourne une nouvelle instance d’une **CD3D
 
 Fonction statique qui construit et retourne une nouvelle instance d’une **CD3DX12_RESOURCE_DESC1** initialisée avec ces valeurs.
 
-|Membre de données|valeur|
+|Membre de données|value|
 |-|-|
 |Dimension|D3D12_RESOURCE_DIMENSION_TEXTURE1D|
 |Alignment|*repère*|
-|Width|*width*|
-|Height|1|
+|Largeur|*width*|
+|Hauteur|1|
 |DepthOrArraySize|*arraySize*|
 |Miplevels a|*Miplevels a*|
 |Format|*format*|
@@ -176,12 +176,12 @@ Fonction statique qui construit et retourne une nouvelle instance d’une **CD3D
 
 Fonction statique qui construit et retourne une nouvelle instance d’une **CD3DX12_RESOURCE_DESC1** initialisée avec ces valeurs.
 
-|Membre de données|valeur|
+|Membre de données|value|
 |-|-|
 |Dimension|D3D12_RESOURCE_DIMENSION_TEXTURE2D|
 |Alignment|*repère*|
-|Width|*width*|
-|Height|*height*|
+|Largeur|*width*|
+|Hauteur|*height*|
 |DepthOrArraySize|*arraySize*|
 |Miplevels a|*Miplevels a*|
 |Format|*format*|
@@ -197,12 +197,12 @@ Fonction statique qui construit et retourne une nouvelle instance d’une **CD3D
 
 Fonction statique qui construit et retourne une nouvelle instance d’une **CD3DX12_RESOURCE_DESC1** initialisée avec ces valeurs.
 
-|Membre de données|valeur|
+|Membre de données|value|
 |-|-|
 |Dimension|D3D12_RESOURCE_DIMENSION_TEXTURE3D|
 |Alignment|*repère*|
-|Width|*width*|
-|Height|*height*|
+|Largeur|*width*|
+|Hauteur|*height*|
 |DepthOrArraySize|*profondeur*|
 |Miplevels a|*Miplevels a*|
 |Format|*format*|
@@ -242,7 +242,7 @@ Fonction libre qui retourne `true` si les deux paramètres sont égaux au niveau
 
 Fonction libre qui retourne `true` si les deux paramètres sont non égaux au niveau du membre ; sinon, `false` .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

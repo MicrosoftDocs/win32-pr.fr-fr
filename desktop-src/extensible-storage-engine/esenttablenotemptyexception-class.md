@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e1788fb3efa1e40379775b9d7b3b7b97b9f67117bf53ef19279261a849f43c62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f4e0193e721628f48ff58f6f1202dee304ac7add
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118488761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851038"
 ---
 # <a name="esenttablenotemptyexception-class"></a>EsentTableNotEmptyException, classe
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d64647ef68d9171c3dd52559dd87c963a40fe73d89c35c833bd3a8f1ad79d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45d36fc22ace4ee18303ce0eb16c5a10f901510f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119553869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121293"
 ---
 # <a name="pixel-operations"></a>Pixel, opérations
 

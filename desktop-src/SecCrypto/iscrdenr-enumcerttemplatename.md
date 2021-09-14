@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: aab979e77e9e3e61b9d35125accbdf01934764d5a09daf161480646cdec28e3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0a4850143cac48ef9b9b853f99153d4daeb4366
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120930"
 ---
 # <a name="iscrdenrenumcerttemplatename-method"></a>ISCrdEnr :: enumCertTemplateName, méthode
 
@@ -75,7 +75,7 @@ Pointeur vers une chaîne qui retourne le nom du modèle de certificat énumér�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="c"></a>C++
 
@@ -87,7 +87,7 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui contient le nom du modèle de certificat énuméré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c2989ce2a662be5a1ec53c961b8fafa072862fc2b43b6003b04f6b887ef3c077
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a282605789644382f39fd8fff9ce8bb47d6dfc7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119790539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918356"
 ---
 # <a name="id3dxprtenginemultiplyalbedo-method"></a>ID3DXPRTEngine :: MultiplyAlbedo, méthode
 
@@ -49,13 +49,13 @@ Pointeur vers un objet [**ID3DXPRTBuffer**](id3dxprtbuffer.md) de sortie qui con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les méthodes ID3DXPRTEngine :: Computexxx calculent les mémoires tampons de sortie dans lesquelles le signal lumineux n’a pas été multiplié par Albedo. En ne multipliant pas Albedo, vous pouvez modéliser la variation Albedo à une échelle plus fine que le luminance source, ce qui donne des résultats plus précis de la compression.
 
@@ -63,7 +63,7 @@ Pour inclure Albedo dans le modèle de lumière rendue, appelez cette méthode a
 
 [**ID3DXPRTEngine :: SetMeshMaterials**](id3dxprtengine--setmeshmaterials.md) doit être appelé avant d’appeler cette méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

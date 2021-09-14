@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ea806da8fe9b4219490c26b84e5b77f6f92b324a72850c79080de6ca363ef4e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c77a30a2ff23bdc292d45df6514ef00fab53463
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725238"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915239"
 ---
 # <a name="outputpatch"></a>OutputPatch
 
@@ -52,9 +52,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -64,7 +64,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 

@@ -4,12 +4,12 @@ description: Les fonctions IpReleaseAddress et IpRenewAddress sont utilisées po
 ms.assetid: 0ed699dd-0bfb-4581-900d-7f5bc1e8acff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7c5f5e469932a6a03fb50e6bde05c2c50afbcb8455746e564d74dd87e96427d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8a450d5e9a54fd4818f01bdc1eb7893609261ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146792"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121806"
 ---
 # <a name="manage-dhcp-leases-with-ipreleaseaddress-iprenewaddress"></a>Gérer les baux DHCP avec IpReleaseAddress, IpRenewAddress
 

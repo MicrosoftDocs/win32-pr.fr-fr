@@ -4,12 +4,12 @@ description: Les fournisseurs utilisent des mots clés pour classer différents 
 ms.assetid: 1cbad719-bc59-4255-8a15-9e45f363d199
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 159d1ded58c2ebf0636b81aa88db1d60a7fea2812b0504b9d403d04f696cdd4e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d48992c5cbafec5f945fa2f133924ccf0e2e7e96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852849"
 ---
 # <a name="defining-keywords-used-to-classify-types-of-events"></a>Définition des mots clés utilisés pour classer les types d’événements
 

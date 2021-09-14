@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 1c733f932588c5c0d7ccfe3c906f28244d37fee0c649451c05fb8f72742edef4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d41ecd7d28b95534c8e6d88d1c57756c269cf790
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119611919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918736"
 ---
 # <a name="swbemnamedvaluesetremove-method"></a>SWbemNamedValueSet. Remove, méthode
 
@@ -59,7 +59,7 @@ Réservé. Cette valeur doit être égale à zéro si elle est spécifiée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -90,7 +90,7 @@ L'élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

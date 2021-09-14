@@ -5,11 +5,11 @@ ms.assetid: 2c4717c9-3257-42d5-9c36-89b7e524e788
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ce4d6565160babc896ea9affe2d5c0c772c5b77e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122466173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115253"
 ---
 # <a name="using-rich-edit-controls"></a>Utilisation de contrôles RichEdit
 

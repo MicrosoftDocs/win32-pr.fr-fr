@@ -4,12 +4,12 @@ description: Lorsqu’un client s’inscrit auprès du gestionnaire de tables de
 ms.assetid: 6d984a02-d005-43ad-81c4-968ae9c1a105
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 150edb6435e0021c13e129f7c1e7a3016dc0974283fcdd138189f7d1c4a3184a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33bd895fbb3f8f54224522786b5794c5c6c57a9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120025099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121253"
 ---
 # <a name="using-methods"></a>Utilisation de méthodes
 

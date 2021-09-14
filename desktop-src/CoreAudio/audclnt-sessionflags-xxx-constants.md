@@ -4,12 +4,12 @@ ms.assetid: 5745d5bc-71e8-4b33-8227-c1c84226b6ee
 title: Constantes AUDCLNT_SESSIONFLAGS_XXX (Audiosessiontypes. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15423d24d48a98b69c4ab1651941fba639885c03e27cf9df8b1834aab830bb6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e2152c33103ca3366399995b7d11bb072f2bdd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115113"
 ---
 # <a name="audclnt_sessionflags_xxx-constants"></a>AUDCLNT \_ SESSIONFLAGS \_ xxx, constantes
 
@@ -25,7 +25,7 @@ Les \_ \_ constantes AUDCLNT SESSIONFLAGS xxx indiquent les caractéristiques d�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

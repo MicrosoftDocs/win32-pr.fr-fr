@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 94537773a54ddeb9bceb2483b7f8db6766f7b3f32f9a8a7fe2d9a24659209870
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d8044c2fb70233243a3a74d8dc5faac96873cb48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119574429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916987"
 ---
 # <a name="imsrdpcameraredirconfigcollectionencodingquality-property"></a>IMsRdpCameraRedirConfigCollection :: EncodingQuality, propriété
 
@@ -53,7 +53,7 @@ L’une des valeurs d’énumération **CameraRedirEncodingQuality** suivantes q
 | encodingQualityMedium | 0x0001 |
 | encodingQualityHigh | 0x0002 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 7fe43028d856ca26b1c5e8fa21a88a3b77381670ccc044a79f10d3b922f38c21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9a4d2b956c7d325fabcda7d6950274249120a0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118630912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121602"
 ---
 # <a name="installerfileattributes-property"></a>Installer. FileAttributes, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.FileAttributes
 
 Chemin d’accès au fichier ou dossier requis. Un chemin d’accès partiel suppose le répertoire actif.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété **FileAttributes** retourne les valeurs suivantes.
 
@@ -61,7 +61,7 @@ La propriété **FileAttributes** retourne les valeurs suivantes.
 
 Retourne – 1 si le fichier ou le dossier n’existe pas ou n’est pas accessible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

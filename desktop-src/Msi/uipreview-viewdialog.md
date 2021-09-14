@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 40797da833576c0a829234d6036cb1d583464dea96dbe4e625dcd63c1c1bd4c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9ad3772ced2dba952a3d3b068aaa307d1c06398
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121574"
 ---
 # <a name="uipreviewviewdialog-method"></a>Méthode UIPreview. ViewDialog
 
@@ -46,11 +46,11 @@ Nom requis de la boîte de dialogue, respect de la casse et de la clé primaire 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

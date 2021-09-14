@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5154c2e450f5ef3c12c85fe3307f37958fea807226ab436241038c9ad639d4dd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2e496abb4dd28b040dd4a8035073ffa32a3f3847
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121970"
 ---
 # <a name="dtm_setmccolor-message"></a>\_Message DTM SETMCCOLOR
 
@@ -58,15 +58,15 @@ Valeur **COLORREF** représentant la couleur qui sera définie pour la zone spé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **COLORREF** qui représente le paramètre de couleur précédent pour la partie spécifiée du contrôle Month Calendar en cas de réussite. Dans le cas contraire, le message retourne-1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque les styles visuels sont activés, ce message n’a aucun effet, sauf lorsque *wParam* est l' \_ arrière-plan MCSC.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

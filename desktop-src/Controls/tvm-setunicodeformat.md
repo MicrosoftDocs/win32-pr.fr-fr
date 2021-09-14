@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acce73e3b8ab239702969a1565cfacc4db335e7bf7fcdbb8fd39010247b14a89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b49fcdd22cff0ac91885ef8f54d49922f9c677e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115561"
 ---
 # <a name="tvm_setunicodeformat-message"></a>TVM \_ SETUNICODEFORMAT message
 
@@ -39,15 +39,15 @@ Détermine le jeu de caractères utilisé par le contrôle. Si cette valeur est 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

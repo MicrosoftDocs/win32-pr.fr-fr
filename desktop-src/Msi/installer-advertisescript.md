@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f6a3ca8b4c07b4bd19b9f5d5066ed17dcc5aa7edb5828741e32ee05197a83777
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e4ec5afae8d870511c6f91502f8b5844ce135bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118633216"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121694"
 ---
 # <a name="installeradvertisescript-method"></a>Installer :: AdvertiseScript, méthode
 
@@ -80,11 +80,11 @@ TRUE si les éléments spécifiés doivent être supprimés au lieu d’être cr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **AdvertiseScript** utilise la fonction [**MsiAdvertiseScript**](/windows/desktop/api/Msi/nf-msi-msiadvertisescripta) . L’utilisation de la méthode **AdvertiseScript** nécessite que le script s’exécute dans un processus de système local.
 
@@ -118,7 +118,7 @@ MsgBox Installer.ProductState("{BAE98781-CF88-4309-8E2D-3D8B347F5B53}")
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

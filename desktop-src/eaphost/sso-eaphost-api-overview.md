@@ -4,12 +4,12 @@ description: Fournit une vue d’ensemble des API EAPHost qui prennent en charge
 ms.assetid: 3c01d10a-9098-4965-8983-c7f65be31884
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a38c6dd35dd2506f8aa26412b09db0f9c9951241bd0f017ed5e55d7f5484b86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3c047205946293c2116c1ab3537ad4d9250857d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118085873"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915063"
 ---
 # <a name="sso-eaphost-api-overview"></a>Vue d’ensemble de l’API EAPHost SSO
 

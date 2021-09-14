@@ -43,11 +43,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7839e0223eb9dd773ca9a5d10b5210b10b0a944a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321142"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850695"
 ---
 # <a name="jetrelop-enumeration"></a>Énumération JetRelop
 

@@ -1,6 +1,6 @@
 ---
-description: En savoir plus sur les types de données ESE (Extensible Storage Engine)
-title: Types de données du moteur de stockage extensible
+description: en savoir plus sur les Types de données du moteur de Stockage Extensible
+title: Types de données du moteur de Stockage Extensible
 TOCTitle: Extensible Storage Engine Data Types
 ms:assetid: 37c23c0c-5c02-44a9-8a96-a712af221256
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269226(v=EXCHG.10)
@@ -16,20 +16,20 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 06938a75f2de2cde1ed55c0c0139a271a0d7e93c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914679"
 ---
-# <a name="extensible-storage-engine-data-types"></a>Types de données du moteur de stockage extensible
+# <a name="extensible-storage-engine-data-types"></a>Types de données du moteur de Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-data-types"></a>Types de données du moteur de stockage extensible
+## <a name="extensible-storage-engine-data-types"></a>Types de données du moteur de Stockage Extensible
 
-Le moteur de stockage extensible présente les types de données suivants :
+le moteur de Stockage Extensible présente les types de données suivants :
 
   - [JET_API_PTR](./jet-api-ptr.md)
 

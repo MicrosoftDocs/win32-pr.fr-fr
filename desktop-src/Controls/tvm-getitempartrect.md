@@ -6,12 +6,12 @@ keywords:
 - TVM_GETITEMPARTRECT les contrôles de Windows de message
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfaea926c45d244262477659cebd38256b50e80ca4a27c78625fe0e0c8b5452
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91764bbba7787fd70ffafe53d683a6d51117fec4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115678"
 ---
 # <a name="tvm_getitempartrect-message"></a>TVM \_ GETITEMPARTRECT message
 

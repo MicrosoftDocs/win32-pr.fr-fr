@@ -4,12 +4,12 @@ description: Récupère le nombre de cartes dans un objet de liste d’adaptateu
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 952120a039e4060a45f5e6e1de607fd68b50fcd7d7cd88ce5a98474f8f2dcfdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 067e7046d53bdd63f3c8db0c856cf5664a09f426
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917976"
 ---
 # <a name="idxcoreadapterlistgetadaptercount-method"></a>IDXCoreAdapterList :: GetAdapterCount, méthode
 

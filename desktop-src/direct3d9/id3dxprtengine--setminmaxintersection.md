@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2182714588e5d408c6928a677433e68dac44f09abf5ec6bd4cb4d6df7e4acf02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68845f713289c524afc844037ca305909e5b89b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918332"
 ---
 # <a name="id3dxprtenginesetminmaxintersection-method"></a>ID3DXPRTEngine :: SetMinMaxIntersection, méthode
 
@@ -59,17 +59,17 @@ Distance d’intersection maximale. Si 0.0 f, la valeur précédente est utilis�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ne peut pas être utilisée dans les simulations de transfert luminance (PRT) précalculées qui s’exécutent dans le GPU. Consultez [**ID3DXPRTEngine :: ComputeDirectLightingSHGPU**](id3dxprtengine--computedirectlightingshgpu.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

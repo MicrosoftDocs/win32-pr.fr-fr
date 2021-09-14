@@ -4,12 +4,12 @@ description: Il existe souvent une confusion quant à la façon de définir et d
 ms.assetid: 2666D922-9957-4A75-BFDA-038720F1EEDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04504019f79a388b6c21f940724de884d8516263daf6d410a841a96fc2e557b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be84035907b69ba98ed60a33046f1a58fd2b47b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115121"
 ---
 # <a name="how-to-work-with-state-image-indexes"></a>Utilisation des index d’images d’État
 

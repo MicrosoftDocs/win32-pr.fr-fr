@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3f7b2c499716bb8da3d2cc9a7db5dd06a2341c5d75876468f5e81853a8120944
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8007b7387a09e31f49dbc833f657bc959ee11e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915748"
 ---
 # <a name="swbemsink-object"></a>Objet SWbemSink
 
@@ -46,13 +46,13 @@ L’objet **SWbemSink** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un rappel asynchrone permet à un utilisateur non authentifié de fournir des données au récepteur. Cela pose des risques de sécurité pour vos scripts et vos applications. Pour éliminer les risques, utilisez une communication semi-synchrone ou une communication synchrone. Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
 ### <a name="events"></a>Événements
 
-Vous pouvez implémenter des sous-routines à appeler lorsque des événements sont déclenchés. Par exemple, si vous souhaitez traiter chaque objet retourné par un appel de requête asynchrone comme [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md), créez une sous-routine à l’aide du récepteur qui est spécifié dans l’appel asynchrone, comme indiqué dans l’exemple suivant.
+Vous pouvez implémenter des sous-routines à appeler lorsque des événements sont déclenchés. Par exemple, si vous souhaitez traiter chaque objet retourné par un appel de requête asynchrone tel que [**SWbemServices. ExecQueryAsync**](swbemservices-execqueryasync.md), créez une sous-routine à l’aide du récepteur qui est spécifié dans l’appel asynchrone, comme indiqué dans l’exemple suivant.
 
 
 ```VB
@@ -122,7 +122,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

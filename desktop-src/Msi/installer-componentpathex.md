@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 720b10c75fcdf4a6b72f22a72d3b0860fc6089403385b0a951127f56286b6953
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7bf98dd8e7a81a0dd261f22a565bec8298a86a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118632614"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121665"
 ---
 # <a name="installercomponentpathex-property"></a>Installer. ComponentPathEx, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.ComponentPathEx
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

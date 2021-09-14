@@ -5,11 +5,11 @@ ms.assetid: 1B675245-F21F-47B5-B3B4-C8307DAC575B
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5ce07b64e54808a2b4b730f6ed9c5321956f6bf5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918555"
 ---
 # <a name="stencil-formats-not-supported-with-tiled-resources"></a>Formats de stencil non pris en charge avec les ressources en mosaïque
 
@@ -26,9 +26,9 @@ Certaines implémentations stockent la profondeur et le stencil dans des allocat
 [Partage de ressources en mosaïque et partage d’appareils](tiled-resource-cross-process-and-device-sharing.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

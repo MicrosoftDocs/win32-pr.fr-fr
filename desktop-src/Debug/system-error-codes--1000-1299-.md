@@ -4,12 +4,12 @@ ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
 title: Codes d’erreur système (1000-1299) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: dfda2e29a6b75acd683842509229f3bc52d7e8d3599855b01d8376f5a7daf2ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 592bd5c6653526d87fed05d6ec76f739355ae359
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119076333"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114554"
 ---
 # <a name="system-error-codes-1000-1299"></a>Codes d’erreur système (1000-1299)
 
@@ -2870,7 +2870,7 @@ Indique qu’un ID de sécurité particulier ne peut pas être assigné en tant 
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

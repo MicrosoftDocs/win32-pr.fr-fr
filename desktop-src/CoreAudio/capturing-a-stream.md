@@ -4,12 +4,12 @@ ms.assetid: 1d9072dc-4f9b-4111-a747-5eb33ad3ae5b
 title: Capture d’un flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dda6fd8527acbfff4072a2b79854eca4c32541f57d462b6073f9f6f39854ddb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 371d4b92b97a26e81074edee68216255d576e614
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115066"
 ---
 # <a name="capturing-a-stream"></a>Capture d’un flux
 

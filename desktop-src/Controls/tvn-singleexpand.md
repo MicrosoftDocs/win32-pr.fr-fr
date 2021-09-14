@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61cd83dedbe16bad81c340f35a176b18804de6b7db6847fb65bc847160a2ff8a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 976c0e8acfee1f024e4ee7f88d9f745e4029ec82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120132199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115478"
 ---
 # <a name="tvn_singleexpand-notification-code"></a>\_Code de notification TVN SINGLEEXPAND
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Return TVNRET \_ Default pour permettre au comportement par défaut de se produire. Pour modifier le comportement par défaut, retournez :
 
@@ -60,13 +60,13 @@ Return TVNRET \_ Default pour permettre au comportement par défaut de se produi
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour ignorer le traitement par défaut des éléments sélectionnés et désélectionnés, retournez TVNRET \_ SKIPOLD et TVNRET \_ SKIPNEW en les associant à un or logique.
 
 Ce code de notification est uniquement envoyé par les contrôles d’arborescence avec le style [**TV \_ SINGLEEXPAND**](tree-view-control-window-styles.md) style.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

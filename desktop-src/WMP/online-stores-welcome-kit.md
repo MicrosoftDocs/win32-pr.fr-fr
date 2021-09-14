@@ -4,12 +4,12 @@ description: Kit de bienvenue des magasins en ligne
 ms.assetid: 0684f705-62c4-4b90-bd0e-b33ab8fec6ef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6271a7dfda3bfe16e27071b39c6610b4b99e844f5d7a5270fb7286c3f1ae3798
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa42f51400aedba55682f87d0dc8734b438755ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117747847"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918995"
 ---
 # <a name="online-stores-welcome-kit"></a>Kit de bienvenue des magasins en ligne
 

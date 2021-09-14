@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/04/2021
 ms.openlocfilehash: 33ec22dd722469ce131bc58d5aca83f0aed4edf0
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812544"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918512"
 ---
 # <a name="cd3dx12_dxil_library_subobject-class"></a>Classe CD3DX12_DXIL_LIBRARY_SUBOBJECT
 

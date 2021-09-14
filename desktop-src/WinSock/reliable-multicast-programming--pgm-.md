@@ -4,12 +4,12 @@ ms.assetid: 81c203ed-739f-4a06-99a1-9a99c6164edc
 title: Programmation de la multidiffusion fiable (PGM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c34365bdc8db553d24182fcb193dc03177627ccf9b00a03f309ab4cf7bbe01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce57fcce7bf2faf471604bed97d345971801ca1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118559951"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915840"
 ---
 # <a name="reliable-multicast-programming-pgm"></a>Programmation de la multidiffusion fiable (PGM)
 

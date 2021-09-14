@@ -4,12 +4,12 @@ ms.assetid: 80ff713d-f704-40d3-9317-cbf33d932207
 title: Serveurs de distribution de plug-in
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70d253066fdde4f082a964c56a221331cfd127c0984db2a7b1933a0bb352425
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7817e5e31b29444cc596b0be583be2198adc018
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119583659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121930"
 ---
 # <a name="plug-in-distributors"></a>Serveurs de distribution de plug-in
 

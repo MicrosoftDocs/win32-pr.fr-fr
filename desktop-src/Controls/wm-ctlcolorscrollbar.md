@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35dba3394c3d8fd99fef88d6fa1869ea1129d95ae8a82cc33f2935e5688871a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3f8282e8e15bf1d1a668e1f57e17048f0babac2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018557"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115170"
 ---
 # <a name="wm_ctlcolorscrollbar-message"></a>\_Message WM CTLCOLORSCROLLBAR
 
@@ -55,11 +55,11 @@ Handle de la barre de défilement.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner le handle à un pinceau. Le système utilise le pinceau pour peindre l’arrière-plan du contrôle de barre de défilement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’application retourne un pinceau qu’elle a créée (par exemple, à l’aide de la fonction [**CreateSolidBrush**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) ou [**CreateBrushIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), l’application doit libérer le pinceau. Si l’application retourne un pinceau système (par exemple, un pinceau qui a été récupéré par la fonction [**GetStockObject**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) ou [**GetSysColorBrush**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), l’application n’a pas besoin de libérer le pinceau.
 
@@ -71,7 +71,7 @@ Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un
 
 Le message **WM \_ CTLCOLORSCROLLBAR** est utilisé uniquement par les contrôles de barre de défilement enfants. Les barres de défilement attachées à une fenêtre (WS \_ Scroll et WS \_ VSCROLL) ne génèrent pas ce message. Pour personnaliser l’apparence des barres de défilement attachées à une fenêtre, utilisez les fonctions de barre de défilement plat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

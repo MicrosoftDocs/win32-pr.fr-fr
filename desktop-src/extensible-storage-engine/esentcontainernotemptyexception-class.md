@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b59d0c70fa55c40bce658d72cdce5e60a315bea1241918ce5bd1305124cd9021
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a79e35531708d9aebad30d5233e922cca45bd82c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119736649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851403"
 ---
 # <a name="esentcontainernotemptyexception-class"></a>EsentContainerNotEmptyException, classe
 

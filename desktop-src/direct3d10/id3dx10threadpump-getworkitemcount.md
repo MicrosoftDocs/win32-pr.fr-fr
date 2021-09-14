@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e3980d2fc0e1756d1c3dc322bc053ca4d041efe7c7942a14acb8465553aff136
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71c7bf8f73b79982b933ee5fa0481dc361685682
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119634199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915539"
 ---
 # <a name="id3dx10threadpumpgetworkitemcount-method"></a>ID3DX10ThreadPump :: GetWorkItemCount, méthode
 
@@ -38,13 +38,13 @@ UINT GetWorkItemCount();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Nombre d’éléments de travail actuellement mis en file d’attente dans la pompe de thread.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

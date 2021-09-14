@@ -4,12 +4,12 @@ ms.assetid: 43970c99-53f1-43c1-9d9f-65573572f731
 title: SSP Kerberos/AP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83bf0830481640fb4c51dc0760ff91f8816bf66a105a1c51305ad94c06fc284a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d14565c8c6526d9cab34d7b9ddec9a0a04ff8de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121174"
 ---
 # <a name="kerberos-sspap"></a>SSP Kerberos/AP
 

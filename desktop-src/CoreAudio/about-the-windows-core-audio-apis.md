@@ -4,12 +4,12 @@ ms.assetid: 657cf75f-3d72-4a5f-ae29-299e826b2b86
 title: à propos des api Audio Windows Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07d5336522a681fc5f2d6e8ee5db0c17eacccfa46ea4cc4559bf00e6ea629031
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30763d70bae4340436145a303763c0aad57171f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018547"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115117"
 ---
 # <a name="about-the-windows-core-audio-apis"></a>à propos des api Audio Windows Core
 

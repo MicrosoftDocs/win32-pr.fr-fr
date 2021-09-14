@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9244fd7a848adc3f2d82f48177482c0ffb8cbe1484bc501accfb7ffab3aefbc1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2953ca0cf272b102a08fba0516d4891dccde9daf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408245"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115522"
 ---
 # <a name="tvn_deleteitem-notification-code"></a>\_Code de notification TVN DELETEITEM
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le membre **lParam** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) pointe vers la mémoire allouée par votre application, vous pouvez le libérer lorsque vous recevez le code de \_ notification TVN DELETEITEM.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

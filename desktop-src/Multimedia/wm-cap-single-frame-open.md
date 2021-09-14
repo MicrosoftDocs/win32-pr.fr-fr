@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ac38186e4b5a34bbc11563b7e37a1aefc3de18c2
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124368047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121454"
 ---
 # <a name="wm_cap_single_frame_open-message"></a>\_Message d' \_ ouverture d’un frame unique WM Cap \_ \_
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur l’installation des fonctions de rappel, consultez les messages d' [**\_ erreur WM Cap \_ Set \_ callback \_ Error**](wm-cap-set-callback-error.md) et [**WM \_ Cap \_ Set \_ callback \_ Frame**](wm-cap-set-callback-frame.md) .
 

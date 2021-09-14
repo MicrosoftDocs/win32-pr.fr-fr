@@ -4,12 +4,12 @@ description: XOR au niveau du bit.
 ms.assetid: 6B949653-6DDA-402B-8ABE-B93858B68470
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a4dae86a4c6ade427b749c2bb72974564b8a4b7a6baae6821edb3c0d63b2164
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e7a998bd1e95793f463d7f234b464a542bed4fc0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918063"
 ---
 # <a name="xor-sm4---asm"></a>XOR (SM4-ASM)
 
@@ -36,7 +36,7 @@ XOR au niveau du bit.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction effectue un XOR logique au niveau du composant de chaque paire de valeurs 32 bits à partir de *src0* et *src1*. les résultats 32 bits sont placés dans *dest*.
 
@@ -58,11 +58,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

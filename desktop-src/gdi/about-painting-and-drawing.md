@@ -4,12 +4,12 @@ ms.assetid: 97d606a0-11d3-49c3-b045-8397f4bcfa54
 title: À propos de la peinture et du dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc0f121ebb2dc87a5cc2a8d767788eef691712c2e03366ef88e74e8ca1b00087
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4bcb8ffa5b5c842dcd12d57967f2c20de0391824
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119038357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914351"
 ---
 # <a name="about-painting-and-drawing"></a>À propos de la peinture et du dessin
 

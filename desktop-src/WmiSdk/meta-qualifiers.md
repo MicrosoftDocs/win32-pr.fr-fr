@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Qualificateurs méta
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76609fecca3e3831372ea813e7210cd449c2e1e4fc527df605bc523efd4c1be8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8618ef8258f403a43e08be54b3acbd5bb1e923c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918795"
 ---
 # <a name="meta-qualifiers"></a>Qualificateurs méta
 
@@ -40,7 +40,7 @@ Indique si la classe d’objets définit une indication. Ce qualificateur s’ex
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

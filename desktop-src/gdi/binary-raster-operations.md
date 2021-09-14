@@ -4,12 +4,12 @@ ms.assetid: 9a3a5b5d-b41f-4859-8830-98272983a635
 title: Opérations raster binaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 462c07165d7f377f2a536722bf2f728446c308503108474cbb6a585cee6f68e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd8a70030b1940c31d036505a80a6b1868aececd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105808"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914320"
 ---
 # <a name="binary-raster-operations"></a>Opérations raster binaires
 
@@ -98,7 +98,7 @@ Pour un appareil monochrome, GDI mappe la valeur de zéro au noir et la valeur 1
 
 
 
-| Opération Raster | Résultat             |
+| Opération Raster | Résultats             |
 |------------------|--------------------|
 | R2 \_ noir        | Ligne noire visible |
 | \_COPYPEN R2      | Ligne noire visible |
@@ -125,7 +125,7 @@ Pour un périphérique de couleur, GDI utilise des valeurs RVB pour représenter
 
 
 
-| Opération Raster | Résultat                 |
+| Opération Raster | Résultats                 |
 |------------------|------------------------|
 | R2 \_ noir        | Ligne noire visible     |
 | \_COPYPEN R2      | Ligne blanche visible     |

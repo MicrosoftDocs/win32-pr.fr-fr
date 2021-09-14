@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bc09c4c8ff717e2c6c9c90dcd3f583f18dab1d0a74a623d3f4de67695f5f5b02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1a581452ad6ce032dcb8d3ec5c6c0caa505f7bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118678969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917155"
 ---
 # <a name="cim_participatesinset-class"></a>\_Classe CIM ParticipatesInSet
 
@@ -86,13 +86,13 @@ Référence au jeu de remplacement d’éléments.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

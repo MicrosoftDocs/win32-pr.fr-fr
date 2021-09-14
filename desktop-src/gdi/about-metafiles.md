@@ -4,12 +4,12 @@ ms.assetid: 222f9b8b-d759-49f9-a3ea-ac59f85263b8
 title: À propos des sous-fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc573d54f1f89e2dfe06edb8e225516fe8f0946485592d7d6aaea1faa651de85
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cdba8b3c0a13c6c5799563b05e189829a0734427
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119779459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914359"
 ---
 # <a name="about-metafiles"></a>À propos des sous-fichiers
 

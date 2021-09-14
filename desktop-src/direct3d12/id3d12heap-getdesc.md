@@ -17,12 +17,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - d3d12.h
-ms.openlocfilehash: 0fbb643eda49dc30d06e9c0462bd30d94b142e66262b16f07de0bd4c93d4ee69
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 674a1cbb416eec0aba1b16c80352ebe8389e7412
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120028219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918480"
 ---
 # <a name="id3d12heapgetdesc-method"></a>ID3D12Heap :: GetDesc, méthode
 
@@ -41,7 +41,7 @@ D3D12_HEAP_DESC GetDesc();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **\_ \_ Description du tas D3D12**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc)**
 

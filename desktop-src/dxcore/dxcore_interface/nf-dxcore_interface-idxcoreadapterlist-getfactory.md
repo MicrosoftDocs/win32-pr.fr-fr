@@ -4,12 +4,12 @@ description: Récupère un pointeur d’interface [IDXCoreAdapterFactory](./nn-d
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 97ae5ef0ba321dafaabf1813d943b738f5af4c586050b91712bf9ad93005cb35
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 08dc93f5c7e086e33d15f666a2c5b94fd7dd7e58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917983"
 ---
 # <a name="idxcoreadapterlistgetfactory-method"></a>IDXCoreAdapterList :: GetFactory, méthode
 
@@ -47,12 +47,12 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvFactory*.|
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour la durée pendant laquelle une référence existe sur une interface [IDXCoreAdapterFactory](./nn-dxcore_interface-idxcoreadapterfactory.md) , une interface [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) ou une interface [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) , les appels supplémentaires à [DXCoreCreateAdapterFactory](../dxcore/nf-dxcore-dxcorecreateadapterfactory.md), [IDXCoreAdapterList :: GetFactory]()ou [IDXCoreAdapter :: GetFactory](./nf-dxcore_interface-idxcoreadapter-getfactory.md) retournent des pointeurs vers le même objet, ce qui permet d’accroître le nombre de références de l’interface **IDXCoreAdapterFactory** .
 

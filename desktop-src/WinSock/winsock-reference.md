@@ -4,12 +4,12 @@ ms.assetid: baae2bf9-f505-4365-b60e-e3247a0218c8
 title: Informations de référence sur Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86d86e33b7399bddca65e1c50675e0a50d2c9d096be1d2d2f0f0cde4f2279b4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ef3d681d639c443182ae6d6b612dd4e2b27508b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118558871"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918880"
 ---
 # <a name="winsock-reference"></a>Informations de référence sur Winsock
 

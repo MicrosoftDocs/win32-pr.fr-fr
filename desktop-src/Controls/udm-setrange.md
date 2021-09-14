@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60499c960b7f2e496dc4317229865a8838013fc5d78c194072bee27e761ba4d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb32a72ca8ca5182e87e2c0346cbc44ab25300e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408054"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115418"
 ---
 # <a name="udm_setrange-message"></a>\_Message UDM SEtrange
 
@@ -39,15 +39,15 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La position maximale peut être inférieure à la position minimale. Le fait de cliquer sur le bouton fléché vers le haut déplace la position actuelle plus près de la position maximale, et le fait de cliquer sur le bouton fléché vers le bas se déplace vers la position minimale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

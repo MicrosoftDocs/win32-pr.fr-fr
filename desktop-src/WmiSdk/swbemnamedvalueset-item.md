@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 688c78aa644b7a5eab3fd6be9ae806ec254a7a50647dc9e87539e96049d6df04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4932409fa7b8ac9e0f326e5de7e8ecf0f89c2b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918740"
 ---
 # <a name="swbemnamedvaluesetitem-method"></a>SWbemNamedValueSet. Item, méthode
 
@@ -59,7 +59,7 @@ Réservé. Cette valeur doit être égale à zéro si elle est spécifiée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, l’objet [**SWbemNamedValue**](swbemnamedvalue.md) demandé est retourné.
 
@@ -97,11 +97,11 @@ L'élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir des exemples d’ajout et de récupération de valeurs nommées, consultez [**SWbemNamedValue. Value**](swbemnamedvalue-value.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

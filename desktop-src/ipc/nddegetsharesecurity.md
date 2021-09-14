@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 101767516e8bd726ebf1a64ad83cfd924b3696a56d810895b4d9a9ed9a1e0ef8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dae1352d9e7c45f9ce301dd30d4e7f73d508498c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122242"
 ---
 # <a name="nddegetsharesecurity-function"></a>NDdeGetShareSecurity fonction)
 
@@ -90,13 +90,13 @@ Pointeur vers la variable qui reçoit la taille réelle du descripteur de sécur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est NDDE \_ aucune \_ erreur.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur qui peut être traduit en message d’erreur texte en appelant [**NDdeGetErrorString**](nddegeterrorstring.md). Si le paramètre *pSD* était **null**, il retourne NDDE \_ buf \_ trop \_ petit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5a3c6077-34ef-48c8-b4e6-ecb1deb40f96
 title: Table IniLocator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5fae106340a953c59358c7c4108991d1510d49ea6d8940bcef72c538b7165ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89583a2d69fd88dd4b5624920e2374aa7e203103
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121769"
 ---
 # <a name="inilocator-table"></a>Table IniLocator
 
@@ -92,7 +92,7 @@ Le tableau suivant répertorie les valeurs valides. Si elle est absente, le type
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table est utilisée avec la [table AppSearch](appsearch-table.md).
 

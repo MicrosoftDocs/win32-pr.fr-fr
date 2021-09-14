@@ -4,12 +4,12 @@ ms.assetid: 5f00f638-9edb-474b-a7e4-f6f7b62c89a4
 title: '\#Attributs PKCS 10'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7922f7d308c6956af4c0098ea278a859113af45861ef3d21a20548081e7eee3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6c69260fa09b99c4d91fa1f8bcdafeb4b0da285
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121162"
 ---
 # <a name="pkcs-10-attributes"></a>\#Attributs PKCS 10
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e31dfe2c487a151280a10c4fa7222c005f94c0eeb4ac4f3f5145d67ab600fe9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f63ce80249fb8bd24d70f92e72c44420a13d798
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118631471"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121610"
 ---
 # <a name="installerfeatures-property"></a>Installer. Features, propriété
 
@@ -39,11 +39,11 @@ propVal = Installer.Features
 
 Spécifie le code de produit du produit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour énumérer les fonctionnalités, une application itère au sein de l’objet [**StringList**](stringlist-object.md) à l’aide d’une construction for each. Étant donné que les fonctionnalités ne sont pas ordonnées, toutes les nouvelles fonctionnalités ont un index arbitraire, ce qui signifie que la fonction peut retourner des fonctionnalités dans n’importe quel ordre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

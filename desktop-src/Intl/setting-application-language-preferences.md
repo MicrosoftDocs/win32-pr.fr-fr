@@ -4,12 +4,12 @@ ms.assetid: 0b88f886-3742-4f86-b699-32f0614fa0a0
 title: Définition des préférences linguistiques de l’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce6e08d73819d26b60590561e295416c96eeac054ed040a206a4a2560a6b370
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 975fc7aea74c60bd67ca21792f2c3e84edbe7eb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121889"
 ---
 # <a name="setting-application-language-preferences"></a>Définition des préférences linguistiques de l’application
 

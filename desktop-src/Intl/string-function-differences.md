@@ -4,12 +4,12 @@ ms.assetid: 52a15957-b44b-49ba-b915-e5c8e003a7e6
 title: Différences de fonction de chaîne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d60a6208e858eceac65ac8826ffbff6303b970969cae6f635d0bcc027dd6d9f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad0c940aa8be1603f7958fb1993cc521ca7b1ed7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146992"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121846"
 ---
 # <a name="string-function-differences"></a>Différences de fonction de chaîne
 

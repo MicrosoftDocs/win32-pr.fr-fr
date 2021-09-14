@@ -4,12 +4,12 @@ ms.assetid: 95a5365c-e2ae-4e35-9aeb-67d04e67c7df
 title: Correctifs désinstallés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a3abea369a09dd51e995ba28dcab1463032bb6e5dec9648d3eae39be4cbf21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ad46d85318378ed81d2278d3ea1290152723704
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119527639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121569"
 ---
 # <a name="uninstallable-patches"></a>Correctifs désinstallés
 
@@ -62,7 +62,7 @@ Les correctifs (fichiers. msp) appliqués à une application installée ne sont 
     -   [DuplicateFile](duplicatefile-table.md)
     -   [Environment](environment-table.md)
     -   [Extension](extension-table.md)
-    -   [Police](font-table.md)
+    -   [Font](font-table.md)
     -   [IniFile](inifile-table.md)
     -   [IsolatedComponent](isolatedcomponent-table.md)
     -   [LockPermissions](lockpermissions-table.md)
@@ -83,7 +83,7 @@ Les correctifs (fichiers. msp) appliqués à une application installée ne sont 
     -   [ServiceControl](servicecontrol-table.md)
     -   [ServiceInstall](serviceinstall-table.md)
     -   [Exportation](typelib-table.md)
-    -   [DoVerb](verb-table.md)
+    -   [Verb](verb-table.md)
     -   [!Note]  
         > si un correctif ajoute du nouveau contenu aux tables [RemoveFile](removefile-table.md) ou [RemoveRegistry](removeregistry-table.md) , Windows Installer ne marque pas le correctif comme ne devant pas être installé. Toutefois, le correctif ne peut pas être installé, sauf si la ressource pour supprimer le nouveau contenu n’existe pas déjà dans le package d’installation d’origine. Par exemple, si le correctif ajoute une nouvelle ligne à la table RemoveFile, le fichier supprimé ne peut pas être restauré en désinstallant le correctif si le fichier est externe à la [table de fichiers](file-table.md). Le fichier doit avoir été créé dans la table de fichiers du package d’origine, plus les correctifs appliqués pour le correctif à des fins de désinstallation.
 

@@ -4,12 +4,12 @@ ms.assetid: 56d82bd2-a7ee-435e-bcc9-b2cdad4f1d62
 title: Glossaire (Moniteur réseau)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e956b1e1b73e98acfe24a84548c61df4f9a216b6f2c84f7ca74c3de44ec9fb4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8764b3e2c892fed6f16529b5fe1459450c4fbd2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117981763"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121373"
 ---
 # <a name="glossary-network-monitor"></a>Glossaire (Moniteur réseau)
 

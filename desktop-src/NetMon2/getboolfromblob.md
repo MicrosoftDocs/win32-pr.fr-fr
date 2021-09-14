@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: ec9f5333e3f85f92b30d52689288c971ca04437df647a7a7e5fe89379e06533e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e09a35f71181343cd401b3288c2b2c74a46f677b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119743919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121433"
 ---
 # <a name="getboolfromblob-function"></a>GetBoolFromBlob fonction)
 
@@ -78,13 +78,13 @@ Pointeur vers la valeur booléenne de l’objet BLOB.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est une valeur NMERR qui décrit l’erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

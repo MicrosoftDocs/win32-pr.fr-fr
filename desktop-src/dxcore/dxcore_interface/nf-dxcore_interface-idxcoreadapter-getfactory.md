@@ -4,12 +4,12 @@ description: Récupère un pointeur d’interface [IDXCoreAdapterFactory](./nn-d
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 759960875f67acefabf9f4207a9ea38150757b0b2bbec673e6feed3b0c197ee9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ac3e7fccd39b9b03ecb7016494a610519d26afa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118279462"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918040"
 ---
 # <a name="idxcoreadaptergetfactory-method"></a>IDXCoreAdapter :: GetFactory, méthode
 
@@ -47,7 +47,7 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvFactory*.|

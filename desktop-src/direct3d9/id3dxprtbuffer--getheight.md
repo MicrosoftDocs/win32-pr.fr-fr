@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 453da6685ecdc851490ce6b947e146130be777af52ba0443e7b1a6b14076b3f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5138d979f73b67609bbacac3c3aa10e8f9fe8c9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915336"
 ---
 # <a name="id3dxprtbuffergetheight-method"></a>ID3DXPRTBuffer :: GetHeight, méthode
 
@@ -38,13 +38,13 @@ UINT GetHeight();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Retourne la hauteur de la texture, en pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

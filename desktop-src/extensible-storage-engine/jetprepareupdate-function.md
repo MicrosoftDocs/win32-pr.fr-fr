@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: af1f14d3588077ebc293ab35aeb143cc99b8e440
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986672"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850714"
 ---
 # <a name="jetprepareupdate-function"></a>JetPrepareUpdate fonction)
 
@@ -96,7 +96,7 @@ En cas de réussite, le curseur passe à l’état préparé dans le cadre de la
 
 En cas d’échec, l’état du curseur reste inchangé. Si l’échec a été JET_errRollbackError, l’état du curseur passe à l’état non préparé, mais les modifications ne sont pas toutes annulées.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 L’insertion d’une copie d’un enregistrement est une optimisation importante lorsque les enregistrements partagent des données de type JET_coltypLongText et/ou JET_coltypLongBinary. Ces données sont stockées hors-enregistrement lorsqu’elles sont volumineuses et il est possible que plusieurs enregistrements partagent la même représentation physique des données. Dans ce cas, les données peuvent être mises à jour à partir de l’un ou l’autre enregistrement, mais cela entraînera une rafale des données, de sorte que chaque enregistrement possède sa propre copie. Il n’est pas possible de modifier les données d’un enregistrement par une modification d’un autre enregistrement. En outre, il n’est pas possible de bloquer la mise à jour d’un enregistrement à l’aide d’une mise à jour d’un autre enregistrement. Il s’agit d’une fonctionnalité centrale de ESE qui porte le nom de verrouillage au niveau des enregistrements.
 

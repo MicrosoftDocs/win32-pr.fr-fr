@@ -4,12 +4,12 @@ ms.assetid: f041cb37-926d-4eeb-835c-f8b9d5ee4d2e
 title: Gestion des adresses IP à l’aide de GetIpAddrTable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090bdb1e73d3f770eafb3a5e70893253918eb68573ebd05aa6ec40a609a7ba4e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a3d94eb4de22a428e20a4cb0fdc8970d7f65fed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121790"
 ---
 # <a name="managing-ip-addresses-using-getipaddrtable"></a>Gestion des adresses IP à l’aide de GetIpAddrTable
 

@@ -4,12 +4,12 @@ ms.assetid: e5c7c882-cbfc-4343-952c-b13c67326756
 title: Extension de la fonctionnalité CertOpenStore
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c770ae56ff597f51248486db2c9eb2d74bea8d63d2e8daad83d5938594b2f1a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4cce198578cc482ba0488bd97ae0f1d7f923511b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007084"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120981"
 ---
 # <a name="extending-certopenstore-functionality"></a>Extension de la fonctionnalité CertOpenStore
 

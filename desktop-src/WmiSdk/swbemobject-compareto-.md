@@ -17,11 +17,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: f77bf9db9ee864e136ba695051445e543b466e69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755013"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918715"
 ---
 # <a name="swbemobjectcompareto_-method"></a>SWbemObject. CompareTo, \_ méthode
 
@@ -136,7 +136,7 @@ Indique au système de supposer que les objets comparés sont des instances de l
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne la valeur booléenne **true** si les objets correspondent. Elle retourne la **valeur false** si les objets ne correspondent pas.
 
@@ -167,7 +167,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

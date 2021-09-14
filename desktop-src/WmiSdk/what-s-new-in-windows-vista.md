@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: nouveautés de Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c47a2e63307004430099923d3d0a151ed9122b7fb96ff127c59145f1a911a1dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee950becb906f89445f9ddfb258f4f7a608ce1a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118553265"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918680"
 ---
 # <a name="whats-new-in-windowsvista"></a>nouveautés de Windows Vista
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 535fa1cb8ab4704a3b4d3d8df3baa43d1b092e56f53f31cd76e14bd67509cbfe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50f9eb201b1338dd4da9340519f88eab6c16c431
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119547769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917096"
 ---
 # <a name="compress-method-of-the-win32_codecfile-class"></a>Méthode Compress de la \_ classe CodecFile Win32
 
@@ -40,7 +40,7 @@ uint32 Compress();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur entière égale à 0 (zéro) si le fichier a été compressé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -137,7 +137,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

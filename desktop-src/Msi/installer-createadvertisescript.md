@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 9416b3b503db11411db93c66242ea55587e6175344313f785c08392c72ad0991
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ec4b18eee376e7bde4824a497ea14b503045f43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118631955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121646"
 ---
 # <a name="installercreateadvertisescript-method"></a>Installer :: CreateAdvertiseScript, méthode
 
@@ -110,11 +110,11 @@ Options de publication. Ce paramètre est facultatif. Ce paramètre peut prendre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**AdvertiseProduct**](installer-advertiseproduct.md) utilise la fonction [**MsiAdvertiseProductEx**](/windows/desktop/api/Msi/nf-msi-msiadvertiseproductexa) .
 
@@ -136,7 +136,7 @@ Installer.CreateAdvertiseScript "\\products\public\orca\orca.msi", "c:\scripts\o
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -152,7 +152,7 @@ Installer.CreateAdvertiseScript "\\products\public\orca\orca.msi", "c:\scripts\o
 
 <dl> <dt>
 
-[**Programme d’installation**](installer-object.md)
+[**D'**](installer-object.md)
 </dt> <dt>
 
 [non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)

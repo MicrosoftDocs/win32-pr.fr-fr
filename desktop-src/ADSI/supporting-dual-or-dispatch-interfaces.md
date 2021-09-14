@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, exemple de code C/C++, délégation de méthodes IDispatch à l’agrégateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b783e9448926d6d29a27e5fb0db519175f82a9af1935e9f13655db743a946bcb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 435a4552b364afbf909d04a759e3713ce69befab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119930009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122057"
 ---
 # <a name="supporting-dual-or-dispatch-interfaces"></a>Prise en charge des interfaces doubles ou de dispatch
 

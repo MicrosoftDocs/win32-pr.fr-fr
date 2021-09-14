@@ -4,12 +4,12 @@ ms.assetid: 760ddcaa-a18c-4fdf-836c-9028a2e4b62e
 title: Gestion des exceptions (gestion des erreurs)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 253776619100095ae1ba9c92fa2caa373bc950bdf6725c6ef5d0239520320bd9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4eb44cd294d89be81862c5330dda5b14811add1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119260869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114605"
 ---
 # <a name="exception-handling-error-handling"></a>Gestion des exceptions (gestion des erreurs)
 

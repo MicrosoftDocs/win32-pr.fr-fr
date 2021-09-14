@@ -1,5 +1,5 @@
 ---
-description: Les scripts et les applications de Visual Basic doivent définir la sécurité DCOM, en particulier pour l’accès à distance, et peuvent également avoir besoin d’activer des privilèges.
+description: les Scripts et les applications de Visual Basic doivent définir la sécurité DCOM, en particulier pour l’accès à distance, et peuvent également avoir besoin d’activer des privilèges.
 ms.assetid: 4816914d-a1cf-47d8-af20-2b22c53042d6
 ms.tgt_platform: multiple
 title: Sécurisation des clients de script
@@ -11,15 +11,15 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: c58a3dbade78b1dd81b0bf89eb867d8cd5c2f265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202166"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918780"
 ---
 # <a name="securing-scripting-clients"></a>Sécurisation des clients de script
 
-Les scripts et les applications de Visual Basic doivent définir la sécurité DCOM, en particulier pour l’accès à distance, et peuvent également avoir besoin d’activer des privilèges.
+les Scripts et les applications de Visual Basic doivent définir la sécurité DCOM, en particulier pour l’accès à distance, et peuvent également avoir besoin d’activer des privilèges.
 
 ## <a name="default-access-permissions"></a>Autorisations d’accès par défaut
 
@@ -37,7 +37,7 @@ Voici les autorisations d’accès par défaut par compte :
 
 ## <a name="securing-a-scripting-client"></a>Sécurisation d’un client de script
 
-Les applications de script et de Visual Basic WMI doivent définir les niveaux de sécurité DCOM de manière appropriée pour les systèmes d’exploitation ciblés. Pour plus d’informations, consultez [définition du niveau de sécurité de processus par défaut à l’aide de VBScript](setting-the-default-process-security-level-using-vbscript.md).
+les applications de script et de Visual Basic WMI doivent définir les niveaux de sécurité DCOM de manière appropriée pour les systèmes d’exploitation ciblés. Pour plus d’informations, consultez [définition du niveau de sécurité de processus par défaut à l’aide de VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
 Lorsque vous vous connectez à un ordinateur distant, vous devrez peut-être modifier le service (NTLM ou Kerberos) qui gère l’authentification. Pour plus d’informations, consultez [définition du service d’authentification à l’aide de VBScript](setting-the-authentication-service-using-vbscript.md).
 

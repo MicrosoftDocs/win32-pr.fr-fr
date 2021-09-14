@@ -5,11 +5,11 @@ title: À propos de la gestion des appareils
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b9c8a11ceae55df48add64c68ba14bfbe6cd858c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114490"
 ---
 # <a name="about-device-management"></a>À propos de la gestion des appareils
 

@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\tokens.htm
 title: Jetons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf3e3654d90566fa6c4a6208c965518ce54acd3dd31669038de1b9a8ab38684d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1df253327b1256ea5e04f8b80b7e1da89f13e32c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918219"
 ---
 # <a name="tokens"></a>Jetons
 

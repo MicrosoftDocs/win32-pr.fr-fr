@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 07bd5a88017ee16f3bdb1773973283d9ad0f7bc6a942fa4441fb134b5f1930da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 297d68d68731181ed56324a4e1d174467f622e13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118365972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121401"
 ---
 # <a name="getproperty-function"></a>GetProperty, fonction
 
@@ -54,19 +54,19 @@ Nom de la propriété (par exemple, **checksum**).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est le handle de la propriété.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **GetProperty** peut être utilisée pour obtenir le handle de propriété nécessaire pour localiser les instances de la propriété. Les fonctions utilisées pour localiser les instances de propriété sont [FindPropertyInstance](findpropertyinstance.md) (qui localise la première instance) et [FindPropertyInstanceRestart](findpropertyinstancerestart.md) (qui localise l’instance suivante).
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetProperty** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

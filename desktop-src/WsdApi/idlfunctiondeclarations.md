@@ -4,12 +4,12 @@ ms.assetid: e56fdd68-b72d-4167-9e4c-b5bbf103880b
 title: élément idlFunctionDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3f4bc12f0269e79142a4e55ad0cdc252b88b01959f6d18a6d4a4b5a8e72cde6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf4d1648ac6d9c3ac6900826ebe90a64418822b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118311731"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918616"
 ---
 # <a name="idlfunctiondeclarations-element"></a>élément idlFunctionDeclarations
 
@@ -37,7 +37,7 @@ Il n’y a pas d’attributs.
 | [**eventArg**](eventarg.md)<br/>   | Spécifie si les arguments d’événement associés sont inclus dans les fonctions générées.<br/> <br/>               |
 | [**événements**](events.md)<br/>       | Spécifie si les événements connexes sont inclus dans les fonctions générées.<br/> <br/>                        |
 | [**faultInfo**](faultinfo.md)<br/> | Spécifie si les paramètres utilisés pour passer les informations d’erreur sont inclus dans les fonctions générées.<br/> <br/> |
-| [**operation**](operation.md)<br/> | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                                        |
+| [**opération**](operation.md)<br/> | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                                        |
 | [**portType**](porttype.md)<br/>   | Spécifie le type de port pour lequel le code doit être généré.<br/> <br/>                                       |
 
 
@@ -65,7 +65,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément génère des déclarations de fonctions membres correspondant aux opérations appelées par le contrat. Ces déclarations sont dans un format approprié à la consommation par le compilateur MIDL et sont généralement utilisées dans les fichiers. idl.
 

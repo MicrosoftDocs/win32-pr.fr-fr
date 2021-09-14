@@ -4,12 +4,12 @@ ms.assetid: f9ea97c9-9a97-4083-82d8-29ffb8be5a77
 title: Sécurité des canaux nommés et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 556987cf35845de249bf0e19f3a0b481aab18e891c3b6211f26eb51571704d7b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 11cada606d8197ac2f64943aa742bbfd614fa4ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119451209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122246"
 ---
 # <a name="named-pipe-security-and-access-rights"></a>Sécurité des canaux nommés et droits d’accès
 

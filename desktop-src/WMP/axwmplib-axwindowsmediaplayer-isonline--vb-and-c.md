@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02888183113387c2c1073be6772b1fb6f53319a2473ac9a520387223b5b32bf3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 506251f7a53343a1c9183919661e3fc3f3ee2cac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118582167"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852729"
 ---
 # <a name="axwindowsmediaplayerisonline-property"></a>AxWindowsMediaPlayer. isOnline, propriété
 
@@ -50,7 +50,7 @@ Public ReadOnly Property isOnline As System.Boolean
 
 Valeur System. Boolean qui indique si l’utilisateur est connecté à un réseau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

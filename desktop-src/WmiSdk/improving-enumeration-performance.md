@@ -6,11 +6,11 @@ title: Amélioration des performances d’énumération
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: df2554e9e1df2f2ece58f5703d6099d84acbe01c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203961"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915763"
 ---
 # <a name="improving-enumeration-performance"></a>Amélioration des performances d’énumération
 
@@ -26,7 +26,7 @@ La procédure suivante décrit comment améliorer les performances de l’énum�
 
     `WBEM_FLAG_RETURN_IMMEDIATE | WBEM_FLAG_FORWARD_ONLY`
 
-    Dans VBScript ou Visual Basic, utilisez les indicateurs de script **WbemFlagReturnImmediately** et **WbemFlagForwardOnly** à partir de [WbemFlagEnum](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum). La valeur combinée de ces indicateurs est décimale 48.
+    dans VBScript ou Visual Basic, utilisez les indicateurs de script **WbemFlagReturnImmediately** et **WbemFlagForwardOnly** à partir de [WbemFlagEnum](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum). La valeur combinée de ces indicateurs est décimale 48.
 
     Les indicateurs de script et de paramètre provoquent le comportement suivant :
 

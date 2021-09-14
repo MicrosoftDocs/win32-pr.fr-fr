@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 927d35f73cec1f9e9032c326097a642349d6faa7e02d533330303016184a4bbb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ec61da301dc1819c899a7da23da9a10efd81ae0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120989"
 ---
 # <a name="extendedproperty-object"></a>Objet ExtendedProperty
 
@@ -54,13 +54,13 @@ L’objet **ExtendedProperty** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet **ExtendedProperty** est utilisé par la collection [**ExtendedProperties**](extendedproperties.md) .
 
 L’objet **ExtendedProperty** peut être créé et il n’est pas sécurisé pour les scripts. Le ProgID de l’objet **ExtendedProperty** est CAPICOM. ExtendedProperty. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

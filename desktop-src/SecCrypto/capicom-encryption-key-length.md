@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 2957bd644fdf405fec7e82a487bf83af2cbae35ae305f10b9b168628a30b0749
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f3e64df1e706ef20a83f4da5c81cda2a08ed331
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121126"
 ---
 # <a name="capicom_encryption_key_length-enumeration"></a>\_Énumération de la \_ longueur de clé de CHIFFREment CAPICOM \_
 
@@ -39,11 +39,11 @@ Le type d’énumération de la **longueur de \_ \_ clé \_ de chiffrement CAPIC
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type d’énumération de la **\_ longueur de \_ clé \_ de chiffrement CAPICOM** est utilisé par la propriété [**Algorithm. KeyLength**](algorithm-keylength.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

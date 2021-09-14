@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 5ae2a25bbdb6efb3eff9bd0a94049e0c5674e5ba7c32e3939500097f19959037
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2aea22db3c804ae4808996002b68efdcb6cf9a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120937"
 ---
 # <a name="iscrdenrcspcount-property"></a>ISCrdEnr :: CSPCount, propriété
 
@@ -49,7 +49,7 @@ Si la méthode est réussie, la méthode retourne S \_ OK.
 
 Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’erreur. Pour obtenir la liste des codes d’erreur courants, consultez [valeurs HRESULT communes](common-hresult-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9a2131b2-ec4a-492a-a277-bd26ec8d67e5
 title: DuckingCaptureSample
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76515f9d20e31bf4583b715e09da38c29bfdac34f6c975087f64bf2617696542
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 636fe39e8fa27beee14ab17548f5929d1d937b20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114969"
 ---
 # <a name="duckingcapturesample"></a>DuckingCaptureSample
 
@@ -18,7 +18,7 @@ Cet exemple d’application montre l’ouverture et la fermeture de flux de comm
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [WASAPI](wasapi.md) permettant d’accéder à la capture de communications et à l’appareil de rendu, aux opérations de gestion de flux et à la gestion des événements de canard.
 -   [API Wave](/previous-versions//ms713499(v=vs.85)) permettant d’accéder au périphérique de communication et de capturer l’entrée audio.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

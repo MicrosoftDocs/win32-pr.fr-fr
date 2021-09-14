@@ -4,12 +4,12 @@ ms.assetid: 5563bc5f-8150-4ec7-a60c-d46ee6bf35cd
 title: Espace universel pour Page-Space transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 854ba7c666e6aadc1e471ee431e9cfc84650fd22852a1b802daa52f43873bfb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea851e7f498847bb9c4deb91ebb0a79de1196eb1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119727289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914264"
 ---
 # <a name="world-space-to-page-space-transformations"></a>Espace universel pour Page-Space transformations
 

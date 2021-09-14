@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0ec7201358669fa49e6396508d371ca5e95d6fa1
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115622"
 ---
 # <a name="tvm_selectitem-message"></a>TVM \_ SELECTITEM message
 
@@ -62,13 +62,13 @@ Handle vers un élément. Si *lParam* a la **valeur null**, le contrôle est dé
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’élément spécifié est l’enfant d’un élément parent réduit, la liste des éléments enfants du parent est développée pour révéler l’élément spécifié. Dans ce cas, la fenêtre parente du contrôle reçoit les codes de notification [TVN \_ ITEMEXPANDING](tvn-itemexpanding.md) et [TVN \_ ITEMEXPANDED](tvn-itemexpanded.md) .
 
 L’utilisation de la macro [**\_ SelectItem TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_selectitem) revient à envoyer le message **TVM \_ SelectItem** avec *wParam* défini sur la \_ valeur du signe insertion TVGN. L’utilisation de la macro [**\_ SelectDropTarget TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_selectdroptarget) revient à envoyer le message **TVM \_ SELECTITEM** avec *wParam* défini sur la \_ valeur DROPHILITE TVGN. L’utilisation de [**TreeView \_ SelectSetFirstVisible**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_selectsetfirstvisible) revient à envoyer le message **TVM \_ SELECTITEM** avec *wParam* défini sur la \_ valeur FIRSTVISIBLE TVGN.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

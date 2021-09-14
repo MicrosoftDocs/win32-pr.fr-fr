@@ -16,11 +16,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: cf6c68c20a5117e6cd8a02f8b4608b494c0ea93f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915671"
 ---
 # <a name="bg_error_context-enumeration"></a>Énumération BG_ERROR_CONTEXT
 
@@ -104,14 +104,14 @@ Non pris en charge.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl> |
 
 

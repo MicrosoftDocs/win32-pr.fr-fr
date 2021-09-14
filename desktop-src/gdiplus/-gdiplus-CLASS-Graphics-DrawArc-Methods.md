@@ -4,12 +4,12 @@ ms.assetid: b30757ea-b8b8-45bd-a716-a4c8c9c5f1ec
 title: Méthodes Graphics. DrawArc (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 2504fd1ec46758589e420317cd5d5e9926e9775f2d3bb1dd3d1fed62af5ef6fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6d6448530dd9462cf8266c3b268672af00f8dcb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119964789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914260"
 ---
 # <a name="graphicsdrawarc-methods"></a>Graphics. DrawArc, méthodes
 

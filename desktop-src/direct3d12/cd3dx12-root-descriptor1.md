@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e75fd8274e9f1901274c8002a6826b4c7633b3afae78d10ad9be2abad7d74ecf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 66cb64509c82c11180ca3e1d2937dff5d077897d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120028229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916675"
 ---
 # <a name="cd3dx12_root_descriptor1-structure"></a>CD3DX12 \_ racine \_ DESCRIPTOR1, structure
 
@@ -100,7 +100,7 @@ UINT registerSpace = 0
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

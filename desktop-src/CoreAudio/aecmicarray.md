@@ -4,12 +4,12 @@ ms.assetid: 932d3442-1beb-4938-9382-031c61cd9b05
 title: AECMicArray
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d7960a1ff3163b936af949d605e7782f8a09890741f99e022c37a0aadc57a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfe72351b9f8f61d939a9f73eaf85022d7f487bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115114"
 ---
 # <a name="aecmicarray"></a>AECMicArray
 
@@ -18,7 +18,7 @@ Cet exemple utilise les API audio de base pour capturer un flux vocal de haute q
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -33,7 +33,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [DeviceTopology](devicetopology-api.md) pour l’énumération des adaptateurs audio.
 -   [EndpointVolume](endpointvolume-api.md) contrôle des niveaux de volume des [sessions audio](audio-sessions.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -84,13 +84,13 @@ Le tableau suivant indique les arguments.
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------|
 | -out      | Obligatoire. Spécifie le nom du fichier de sortie.                                                                                                 |
 | -mod      | Obligatoire. Spécifie le mode système de capture vocale. pour plus d’informations, reportez-vous à la section « configuration de la DMO de capture vocale » dans le fichier lisezmoi de l’exemple. |
-| -Feature     | Facultatif. Active le mode de fonctionnalité sur (1) ou sur OFF (0).                                                                                       |
-| -NS       | Facultatif. Désactive la suppression du bruit sur (1) ou sur OFF (0). Le mode de fonctionnalité doit être activé pour pouvoir être spécifié.                                     |
-| -AGC      | Facultatif. Active Digital AGC sur (1) ou sur OFF (0). Le mode de fonctionnalité doit être activé pour pouvoir être spécifié.                                           |
-| -cntrclip | Facultatif. Active ou désactive le découpage du Centre (0). Le mode de fonctionnalité doit être activé pour pouvoir être spécifié.                                       |
-| -spkdev   | Facultatif. Spécifie l’index de l’appareil de l’intervenant. S’il n’est pas spécifié, l’utilisateur est invité à sélectionner.                                         |
-| -micdev   | Facultatif. Spécifie l’index du périphérique microphone. S’il n’est pas spécifié, l’utilisateur est invité à sélectionner.                                      |
-| -Duration | Facultatif. Spécifie la durée d’exécution de l’application.                                                                                    |
+| -Feature     | facultatif. Active le mode de fonctionnalité sur (1) ou sur OFF (0).                                                                                       |
+| -NS       | facultatif. Désactive la suppression du bruit sur (1) ou sur OFF (0). Le mode de fonctionnalité doit être activé pour pouvoir être spécifié.                                     |
+| -AGC      | facultatif. Active Digital AGC sur (1) ou sur OFF (0). Le mode de fonctionnalité doit être activé pour pouvoir être spécifié.                                           |
+| -cntrclip | Optionnel. Active ou désactive le découpage du Centre (0). Le mode de fonctionnalité doit être activé pour pouvoir être spécifié.                                       |
+| -spkdev   | Optionnel. Spécifie l’index de l’appareil de l’intervenant. S’il n’est pas spécifié, l’utilisateur est invité à sélectionner.                                         |
+| -micdev   | Optionnel. Spécifie l’index du périphérique microphone. S’il n’est pas spécifié, l’utilisateur est invité à sélectionner.                                      |
+| -Duration | Optionnel. Spécifie la durée d’exécution de l’application.                                                                                    |
 
 
 

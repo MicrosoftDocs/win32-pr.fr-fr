@@ -4,12 +4,12 @@ ms.assetid: 02f5d1b4-ba4f-424a-897f-b113d1f7cd6b
 title: Compteurs de pic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e04a15ddd2e5fd91cf60845f2a939715e7a4a992f36aea3b9129e69c30d05961
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ccd2f1ce0b8fd45fbf1cb3710c878c05544f7d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077503"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114885"
 ---
 # <a name="peak-meters"></a>Compteurs de pic
 

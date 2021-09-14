@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 335cd4115f3b66ede4ce34a6ac6b33c86a8b193b88de4314b4902f8c12417358
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d68cafdf545d93a290e90c54be134977e51de4e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122189"
 ---
 # <a name="d3dauthenticatedchannel_queryprotection_output-structure"></a>\_Structure de \_ sortie D3DAUTHENTICATEDCHANNEL QUERYPROTECTION
 
@@ -56,7 +56,7 @@ Structure [**d' \_ \_ indicateurs de protection D3DAUTHENTICATEDCHANNEL**](d3dau
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4f9ca83d-c9d6-4749-944d-78f831b0f44e
 title: Types d’appareils et exigences de traitement des vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9c74e538c9a5b5298fffbd86492c67e2332e4013485c8849d66021234fdbb8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 590cf2f5423d9c3bdf3e19c91f30b3e8c0586687
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119044457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916640"
 ---
 # <a name="device-types-and-vertex-processing-requirements-direct3d-9"></a>Types d’appareils et exigences de traitement des vertex (Direct3D 9)
 

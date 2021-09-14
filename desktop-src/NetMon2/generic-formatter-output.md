@@ -4,12 +4,12 @@ ms.assetid: cf3dc6cd-7b24-464a-9d2b-5e35c4e8825e
 title: Sortie de formateur générique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d76a67fadbed3bde5eb3e5534c8f104e918ac870df27c767b98575058a0a188
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ecf4b334dd717c7ff332c3b730afb57d4be611ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119743969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121441"
 ---
 # <a name="generic-formatter-output"></a>Sortie de formateur générique
 

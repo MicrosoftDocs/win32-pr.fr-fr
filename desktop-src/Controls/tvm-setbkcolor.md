@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0609a15be2b8e05b1f8ca8f4f999cd4888ee946969c25f5bc1d86420b7529f2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 151aef7aa61e7c66d436d0c90f2481fada017059
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115613"
 ---
 # <a name="tvm_setbkcolor-message"></a>TVM \_ SETBKCOLOR message
 
@@ -39,11 +39,11 @@ Valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui contient la nouvelle co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui représente la couleur d’arrière-plan précédente. Si cette valeur est-1, le contrôle utilisait la couleur système pour la couleur d’arrière-plan.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

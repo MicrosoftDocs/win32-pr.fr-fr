@@ -4,12 +4,12 @@ ms.assetid: D603A7DE-D4A1-4515-9702-B03C81504661
 title: Utilisation de l’API de compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fedc1d57ad48196290500383686b35f557c87c34099aad842b1e8ff18f00d318
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01eff163f4ea1ccf03e1cd4ac9cb16a26afeb265
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118551383"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918604"
 ---
 # <a name="using-the-compression-api"></a>Utilisation de l’API de compression
 

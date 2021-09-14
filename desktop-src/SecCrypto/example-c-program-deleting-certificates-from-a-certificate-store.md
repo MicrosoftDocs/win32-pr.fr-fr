@@ -4,12 +4,12 @@ ms.assetid: 52a0287b-7d2a-483e-8bbc-43621c4b7103
 title: 'Exemple de programme C : suppression de certificats d’un magasin de certificats'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 065a7e0e46f3072d69014e294610ec7ae546d05c98816f809b9b2de92949db62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f29f55d27bf2a85d82e4ab96e51fe5368c9de935
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121082"
 ---
 # <a name="example-c-program-deleting-certificates-from-a-certificate-store"></a>Exemple de programme C : suppression de certificats d’un magasin de certificats
 

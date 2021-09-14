@@ -4,12 +4,12 @@ ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
 title: Fonctions de comparaison de vecteurs
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c294388aaa7e29454b189729468076f3266347ab2b0876aed71d9d0b5adad3c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a283c9c6510fba76f82e7c5de0741021008aac1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118500359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917960"
 ---
 # <a name="vector-comparison-functions"></a>Fonctions de comparaison de vecteurs
 

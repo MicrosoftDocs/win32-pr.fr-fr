@@ -1,5 +1,5 @@
 ---
-description: Page de navigation pour les options de socket Windows Sockets (Winsock).
+description: page de Navigation pour les options de socket Winsock (Windows sockets).
 ms.assetid: e2831f76-4499-45b6-bc60-2908ec3a246c
 title: Options de socket
 ms.topic: reference
@@ -21,15 +21,15 @@ api_type:
 - NA
 api_location: ''
 ms.openlocfilehash: 805f779965afc808e32952b58815c7b6bc528fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540820"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916975"
 ---
 # <a name="socket-options"></a>Options de socket
 
-Cette section décrit les options de socket Winsock pour différentes éditions des systèmes d’exploitation Windows. Utilisez les fonctions [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) et [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) pour plus d’informations sur l’obtention et la définition des options de Socket. Pour énumérer les protocoles et découvrir les propriétés prises en charge pour chaque protocole installé, utilisez la fonction [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) .
+cette section décrit les Options de Socket Winsock pour différentes éditions de Windows systèmes d’exploitation. Utilisez les fonctions [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) et [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) pour plus d’informations sur l’obtention et la définition des options de Socket. Pour énumérer les protocoles et découvrir les propriétés prises en charge pour chaque protocole installé, utilisez la fonction [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) .
 
 Certaines options de socket requièrent plus d’explications que celles pouvant être transmises par ces tables. ces options contiennent des liens vers des pages supplémentaires.
 

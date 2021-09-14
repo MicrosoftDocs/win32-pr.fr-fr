@@ -4,12 +4,12 @@ ms.assetid: c71f43b4-dc85-420b-9574-03417d60a76f
 title: À propos des régions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feb32c2675882a53c0eb12259ef181af1c1696bc949b90c1d49c8048fe99a913
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 334dc51acdeb6b82449676ff10ceb11f04f3a453
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119038307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914339"
 ---
 # <a name="about-regions"></a>À propos des régions
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59728c816ee3fe7dac46c12d7e62da6c18cfdad8387f03d3861e63792d9c8f66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a09bcc683ba9cf2d89a796e63812381254588a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115518"
 ---
 # <a name="tvn_getdispinfo-notification-code"></a>\_Code de notification TVN GETDISPINFO
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce code de notification est envoyé dans les circonstances suivantes :
 
@@ -59,7 +59,7 @@ Ce code de notification est envoyé dans les circonstances suivantes :
 -   Si le membre **IImage** ou **iSelectedImage** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) de l’élément est la \_ valeur I IMAGECALLBACK, le contrôle envoie ce code de notification pour récupérer l’index des icônes d’un élément dans la liste d’images du contrôle. Dans ce cas, si l’élément est sélectionné, l’indicateur TVIF SELECTEDIMAGE est défini pour le membre **Mask** de *lParam* \_ . Si l’élément n’est pas sélectionné, l’indicateur d’image TVIF est défini pour le membre **Mask** de *lParam* \_ .
 -   Si le membre **cChildren** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) de l’élément est la \_ valeur I CHILDRENCALLBACK, le contrôle envoie ce code de notification pour récupérer une valeur qui indique si l’élément a des éléments enfants. Dans ce cas, le membre **Mask** de *lParam* aura l’indicateur TVIF \_ Children Set.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

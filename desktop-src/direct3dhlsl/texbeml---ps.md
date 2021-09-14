@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c549e93829c3165d4921342d4e74a8dc15bc1518f7c88aa205f8afc889fae95e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d97877c67970f43a995fcfbe21d9aead2d792e09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118788063"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918099"
 ---
 # <a name="texbeml---ps"></a>texbeml-PS
 
@@ -36,7 +36,7 @@ where
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

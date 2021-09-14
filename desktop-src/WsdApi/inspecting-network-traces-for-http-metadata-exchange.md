@@ -4,12 +4,12 @@ ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
 title: Inspection des suivis réseau pour les métadonnées HTTP Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 076ead8f6ac0cf78699029189f0d34daaf0e17db3dec33d1a41bedfd0167eb2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e653b0852f84382873973cd63fbd3223a245dd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118311598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918620"
 ---
 # <a name="inspecting-network-traces-for-http-metadata-exchange"></a>Inspection des suivis réseau pour les métadonnées HTTP Exchange
 

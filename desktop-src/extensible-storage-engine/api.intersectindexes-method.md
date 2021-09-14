@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 88bcc872fc557e3942a119845206661bd48705317163520924059af5456f6e00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8dfe5784ecd5ab517e183f8eeeb5f79315fe585a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118983679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915056"
 ---
 # <a name="apiintersectindexes-method"></a>API. IntersectIndexes, méthode
 
@@ -76,7 +76,7 @@ public static IEnumerable<byte[]> IntersectIndexes(
     
     TableID à utiliser. Chaque TableID doit provenir d’un index différent sur la même table et avoir une plage d’index active. Utilisez [JetSetIndexRange (JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](./api.jetsetindexrange-method.md) pour créer une plage d’index.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Collections. Generic. IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<\[\]\>  
 Les signets des enregistrements qui se trouvent dans toutes les plages d’index. Les signets sont retournés dans l’ordre des clés primaires.  

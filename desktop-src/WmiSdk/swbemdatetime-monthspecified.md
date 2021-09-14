@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: fa0ab9d3107f0374228b8c8edcda4ecffc4744cf4ef52b8a019e6ca4c8138f69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52b44444a5810577289353778c2c00b1ebfb80fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916915"
 ---
 # <a name="swbemdatetimemonthspecified-property"></a>SWbemDateTime. MonthSpecified, propriété
 
@@ -47,7 +47,7 @@ SWbemDateTime.MonthSpecified As Boolean
 
 Pour obtenir des exemples d’utilisation de l’objet [**SWbemDateTime**](swbemdatetime.md) pour convertir des valeurs [**DateTime**](datetime.md) CIM vers et à partir du format **fileTime** ou du format de **\_ Date VT** , consultez [tâches WMI : dates et heures](wmi-tasks--dates-and-times.md). Pour obtenir une description du format **DateTime** CIM, consultez [format de date et d’heure](date-and-time-format.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

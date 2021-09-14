@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 0e2e6d6e812b5f56c89eba2e4b19d2730d589548
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917367"
 ---
 # <a name="jet_dbinfoupgrade-structure"></a>Structure JET_DBINFOUPGRADE
 
@@ -87,11 +87,11 @@ La base de données peut être mise à niveau.
 
 La base de données est mise à niveau vers le format de base de données actuel.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Une structure **JET_DBINFOUPGRADE** est remplie par un appel à [JetGetDatabaseInfo](./jetgetdatabaseinfo-function.md) ou [JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md). Si la fonction échoue, le contenu de la structure n’est pas défini.
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

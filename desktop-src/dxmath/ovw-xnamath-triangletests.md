@@ -4,12 +4,12 @@ ms.assetid: 97c5fa38-e88c-debb-f3ed-76c5878778c4
 title: Fonctions de test de triangle DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c695651f8dd1e9c753516db9589f680b55b2939ea38244a3f58804d6082d2a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35510484edc58fa8112b23a89480b5af7f5c1f01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119740149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915076"
 ---
 # <a name="directxmath-triangle-test-functions"></a>Fonctions de test de triangle DirectXMath
 

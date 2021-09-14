@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 8c95431132acf5e3c08ede859520c844c4cae542f6b07dcb8e5781726078e754
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 810af200eefee0008aea21af684c02b6d31325eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119475869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916980"
 ---
 # <a name="imsrdpcameraredirconfigcollectionredirectbydefault-property"></a>IMsRdpCameraRedirConfigCollection :: RedirectByDefault, propriété
 
@@ -47,7 +47,7 @@ HRESULT get_RedirectByDefault(
 
 Valeur qui indique si une nouvelle caméra est redirigée par défaut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

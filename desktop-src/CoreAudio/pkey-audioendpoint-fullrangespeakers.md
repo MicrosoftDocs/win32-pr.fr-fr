@@ -4,12 +4,12 @@ ms.assetid: c0a54b3d-84dc-4771-8891-167ce00e2218
 title: PKEY_AudioEndpoint_FullRangeSpeakers (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad27e5623189ce3ba78707377837493c1ea8dccb248d02ddd3d8e2c64570bed6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0990d08e3d78eddf0fa6397e888b1e26c9f9a767
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118406445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114874"
 ---
 # <a name="pkey_audioendpoint_fullrangespeakers"></a>\_AudioEndpoint \_ FullRangeSpeakers
 
@@ -32,7 +32,7 @@ Le masque de configuration de canal pour la \_ \_ propriété AudioEndpoint Full
 
 Par exemple, si un périphérique de point de terminaison audio pilote un ensemble de haut-parleurs de son surround 5,1, le masque de configuration de canal pour la \_ \_ propriété AudioEndpoint PHYSICALSPEAKERS est KSAUDIO \_ Speaker \_ 5POINT1. Ce masque indique la présence de haut-parleurs de l’avant-plan, du front-droit, du front-Center, du côté gauche et du côté droit, ainsi qu’un caisson de basses. Si les haut-parleurs de l’avant-plan et de l’avant-plan sont suffisamment grands pour produire des basses, mais que les haut-parleurs plus petits et les haut-parleurs latéraux ne le sont pas, le masque de configuration de canal pour la \_ \_ propriété AudioEndpoint FULLRANGESPEAKERS est KSAUDIO \_ Speaker \_ , qui indique uniquement les haut-parleurs avant gauche et avant. Les masques de configuration de canaux KSAUDIO \_ Speaker \_ 5POINT1 et KSAUDIO \_ Speaker \_ Stereo sont définis dans le fichier d’en-tête Ksmedia. h.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

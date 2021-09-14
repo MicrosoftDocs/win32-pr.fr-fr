@@ -4,12 +4,12 @@ ms.assetid: 00bfcfd1-6592-43e3-90ad-730c92aa4cd3
 title: Rendu d’un flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a49632e89e42e4e353cec48ee993f990904bc4557c0f63fcaec4d13bed5becf3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3d96e720bab43c75b0a3958bb3b6137d3a3d9ef6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119318569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114778"
 ---
 # <a name="rendering-a-stream"></a>Rendu d’un flux
 

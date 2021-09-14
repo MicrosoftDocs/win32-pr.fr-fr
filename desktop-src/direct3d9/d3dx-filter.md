@@ -4,12 +4,12 @@ ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6ee3b0aeb9dcd67b6f6d361258255a867bcc1d7cca64f1c8e0c6065150a7b81
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c7580749eca2134f899356c4632d8171b147aa7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916652"
 ---
 # <a name="d3dx_filter"></a>\_Filtre D3DX
 

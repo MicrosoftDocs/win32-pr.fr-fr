@@ -4,12 +4,12 @@ description: Récupère l’état actuel de l’élément spécifié sur l’ada
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 2e5c585c249141c1491ddf36ee798d8b11148425026e9011bd0653169f998fb9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 61fc5c601904011de8f343777a95385a16ec3d7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120117719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918012"
 ---
 # <a name="idxcoreadapterquerystate-method"></a>IDXCoreAdapter :: QueryState, méthode
 
@@ -75,7 +75,7 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |DXGI_ERROR_DEVICE_REMOVED|L’état de l’adaptateur n’est plus valide.|
 |DXGI_ERROR_INVALID_CALL|Le genre d’état spécifié dans l' *État* n’est pas reconnu par ce système d’exploitation. Appelez [IsQueryStateSupported](./nf-dxcore_interface-idxcoreadapter-isquerystatesupported.md) pour confirmer que l’interrogation du genre d’État est disponible pour cet adaptateur et le système d’exploitation.|
@@ -83,7 +83,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_INVALIDARG|Une taille de mémoire tampon insuffisante est fournie pour *OUTPUTBUFFER* (ou pour *inputStateDetails* où un tampon de détails d’état d’entrée est nécessaire).|
 |E_POINTER|`nullptr` a été fourni pour *OUTPUTBUFFER* (ou pour *inputStateDetails* où un tampon de détails d’état d’entrée est nécessaire).|
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur chaque type d’état de l’adaptateur et sur les entrées et les sorties utilisées, consultez [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) . Cette fonction met à zéro la mémoire tampon *OUTPUTBUFFER* avant de la remplir.
 

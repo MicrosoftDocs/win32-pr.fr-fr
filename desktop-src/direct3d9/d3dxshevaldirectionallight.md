@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4a726348c8c6049f0d3867af06aadfecbaaadc8fbf87e5bb30ae2abb8e996acf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 488682eca230c8da6cc5048aded4a7a1e7f71bfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915391"
 ---
 # <a name="d3dxshevaldirectionallight-function-d3dx9mathh"></a>D3DXSHEvalDirectionalLight, fonction (D3dx9math. h)
 
@@ -119,13 +119,13 @@ Pointeur facultatif vers le vecteur de sortie SH pour le composant bleu.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le vecteur de sortie est calculé de sorte que si le rapport d’intensité R/G/B est égal à 1, le luminance de sortie résultant d’un point directement sous la lumière sur un objet diffus avec un albedo de 1 est 1,0. Cela permet de calculer trois échantillons spectraux. *pROut* est retourné, tandis que *pGOut* et *pBOut* peuvent être retournés.
 
@@ -137,7 +137,7 @@ Les équations suivantes montrent la relation entre les coordonnées cartésienn
 
 ![équations de la relation entre les coordonnées cartésiennes et sphériques](images/spherical-coordinates-equations.png)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

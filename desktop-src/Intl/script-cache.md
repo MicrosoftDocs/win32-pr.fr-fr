@@ -4,12 +4,12 @@ ms.assetid: 56a98529-6ae9-4b71-bd7d-cf056a1e3683
 title: SCRIPT_CACHE (usp10. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4376f0b69de8d9e963cae6a156eff8c3724ac375db3c18bce0a80855afd6f91
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ece29fe0ed610b4576263c36c50311ef57317579
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121893"
 ---
 # <a name="script_cache"></a>CACHE de SCRIPT \_
 
@@ -22,7 +22,7 @@ typedef void* SCRIPT_CACHE;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une structure opaque. L’application doit allouer et conserver une \_ variable de cache de script pour chaque style de caractère utilisé. La variable doit être initialisée avec la **valeur null**.
 
@@ -50,7 +50,7 @@ if (hr == E_PENDING)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a21000f9eeeb3ff83d4fb65456b21447aa3fd604412f3b4d6d3b94fda58606b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10727b745900520e8af31561236c8e93eeeb3a81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115157"
 ---
 # <a name="wm_hscroll-trackbar-notification-code"></a>\_Code de notification WM HSCROLL (TrackBar)
 
@@ -75,17 +75,17 @@ Handle du contrôle TrackBar.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le \_ code THUMBTRACK to est généralement utilisé par les applications qui fournissent des commentaires au fur et à mesure que l’utilisateur fait glisser la case de défilement.
 
 Notez que le message **WM \_ HSCROLL** contient uniquement 16 bits de données de position. Ainsi, les applications qui reposent uniquement sur **WM \_ HSCROLL** (et [**WM \_ VSCROLL**](wm-vscroll--trackbar-.md)) pour les données de position de curseur ont une valeur de position maximale pratique de 65 535.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 54ecc8c0d76ae5105aec07a85adb18d93a8e7a9b75162f8124bb32fdd7f64597
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a609ab0ba6edc5b0e3e9bbd26bc3539858ebdee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118632926"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121685"
 ---
 # <a name="installerclientsex-property"></a>Installer. ClientsEx, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.ClientsEx
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

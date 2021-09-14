@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8f49afb4175559bb5338c01c0ebb22fb89801aef5e7cafa62386e25c095ea139
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b4b31ab08aca476ced1cb28dfc5ed5bfe61d044
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119847303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918263"
 ---
 # <a name="id3dxskininfogetboneinfluence-method"></a>ID3DXSkinInfo :: GetBoneInfluence, méthode
 
@@ -69,17 +69,17 @@ Obtenir le tableau de poids influencé par un segment.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez [**ID3DXSkinInfo :: GetNumBoneInfluences**](id3dxskininfo--getnumboneinfluences.md) pour connaître le nombre de vertex que le segment influence.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

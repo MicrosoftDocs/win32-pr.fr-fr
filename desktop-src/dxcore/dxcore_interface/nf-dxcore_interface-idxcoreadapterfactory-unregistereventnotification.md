@@ -4,12 +4,12 @@ description: Annule l’inscription d’une notification que vous avez inscrite 
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 64fb54226f1fad0d1d36f8f4260c9c9172b105dc6239ea5cb805c32b57a938ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bb12126769a914680ea17ac9e6060346001c795
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118278880"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917984"
 ---
 # <a name="idxcoreadapterfactoryunregistereventnotification-method"></a>IDXCoreAdapterFactory :: UnregisterEventNotification, méthode
 
@@ -36,7 +36,7 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |E_INVALIDARG|La valeur de *eventCookie* n’est pas un cookie valide représentant une inscription antérieure.|
 

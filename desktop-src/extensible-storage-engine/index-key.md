@@ -8,16 +8,16 @@ ms:contentKeyID: 32765491
 ms.date: 04/11/2016
 ms.topic: article
 ms.openlocfilehash: eff0812f363fa83d133ab087140d415d8e2dbad3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104570202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917456"
 ---
 # <a name="index-key"></a>Clé d’index
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="index-key"></a>Clé d’index
 
@@ -29,7 +29,7 @@ La clé de l’exemple peut être utilisée pour créer un index sur trois colon
 
 Lorsque des colonnes conditionnelles sont présentes dans l’index, la structure [JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md) est utilisée pour indiquer la façon dont elles sont indexées. Une colonne conditionnelle peut être utilisée pour contrôler la présence ou l’absence d’une entrée d’index dans un index en fonction de la valeur dans la colonne conditionnelle correspondante sans affecter l’ordre de tri de l’index. Une colonne conditionnelle peut inclure ou exclure une entrée d’index de l’index si la valeur de cette colonne conditionnelle est NULL pour l’enregistrement correspondant.
 
-Par défaut, la taille maximale de la clé d’index est donnée par la constante JET_cbKeyMost qui a toujours été 255 octets de données normalisées (octets de données, y compris la charge de l’indexation). À compter de Windows Vista, la taille maximale de la clé d’index peut être définie avec la structure [JET_INDEXCREATE](./jet-indexcreate-structure.md) . La taille maximale de la clé d’index correspond à la taille de la page de la base de données. Pour activer une taille de clé maximale personnalisée, spécifiez l’option Jet_bitIndexKeyMost dans le membre grbits de [JET_INDEXCREATE](./jet-indexcreate-structure.md)et définissez le membre **cbKeyMost** sur l’une des valeurs suivantes :
+Par défaut, la taille maximale de la clé d’index est donnée par la constante JET_cbKeyMost qui a toujours été 255 octets de données normalisées (octets de données, y compris la charge de l’indexation). à partir de Windows Vista, la taille maximale de la clé d’index peut être définie avec la structure [JET_INDEXCREATE](./jet-indexcreate-structure.md) . La taille maximale de la clé d’index correspond à la taille de la page de la base de données. Pour activer une taille de clé maximale personnalisée, spécifiez l’option Jet_bitIndexKeyMost dans le membre grbits de [JET_INDEXCREATE](./jet-indexcreate-structure.md)et définissez le membre **cbKeyMost** sur l’une des valeurs suivantes :
 
   - JET_cbKeyMost2KBytePage : lorsque la taille de la page de la base de données est de 2048 octets, la taille maximale de la clé d’index peut être comprise entre 255 octets minimum et 500 octets au maximum.
 
@@ -41,4 +41,4 @@ L’exemple indiqué dans le diagramme ci-dessous montre une table contenant des
 
 ![ESE_Documentation_IndexTable](images/Gg269188.ESE_Documentation_IndexTable(EXCHG.10).gif "ESE_Documentation_IndexTable")
 
-La clé de l’index primaire doit être unique, mais les clés de l’index secondaire peuvent être des doublons. Par exemple, si un index est créé sur le nom de famille et qu’il y a deux personnes avec Stevens dans la base de données, ESE renvoie une erreur Jet_errKeyDuplicate à partir de [JetUpdate](./jetupdate-function.md) ou [JetUpdate2](./jetupdate2-function.md), lorsque l’application tente d’insérer le deuxième « Stevens ». Lorsque la clé réelle est supérieure à la taille de clé maximale, la clé est tronquée. Les effets de troncation clés de recherche et d’unicité et doivent être gérés par l’application. Par exemple, si « Stevens » et « Stevenson » ont été stockés dans un index sur le nom de famille et que la taille maximale de la clé était trop petite pour stocker la partie « on » de « Stevenson », alors le moteur de base de données déclare que « Stevens » et « Stevenson » sont des doublons, même si ce n’est pas le cas. L’application doit être préparée à gérer les cas de ce type lors de la recherche et de la mise à jour si la définition d’index et les valeurs de colonne qu’elle indexe sont telles que la troncation de clé est une possibilité. À compter de Windows Vista, les applications peuvent spécifier l’option Jet_bitIndexDisallowTruncation dans [JET_INDEXCREATE](./jet-indexcreate-structure.md) ou [JetMakeKey](./jetmakekey-function.md). Si vous spécifiez cet indicateur, toute mise à jour de l’index entraînant l’échec d’une clé tronquée avec JET_errKeyTruncated. Dans le cas contraire, les clés sont tronquées en mode silencieux. Cela permettra à l’application de fonctionner sans problème pour les artefacts provoqués par la troncation de clé précédemment décrite.
+La clé de l’index primaire doit être unique, mais les clés de l’index secondaire peuvent être des doublons. Par exemple, si un index est créé sur le nom de famille et qu’il y a deux personnes avec Stevens dans la base de données, ESE renvoie une erreur Jet_errKeyDuplicate à partir de [JetUpdate](./jetupdate-function.md) ou [JetUpdate2](./jetupdate2-function.md), lorsque l’application tente d’insérer le deuxième « Stevens ». Lorsque la clé réelle est supérieure à la taille de clé maximale, la clé est tronquée. Les effets de troncation clés de recherche et d’unicité et doivent être gérés par l’application. Par exemple, si « Stevens » et « Stevenson » ont été stockés dans un index sur le nom de famille et que la taille maximale de la clé était trop petite pour stocker la partie « on » de « Stevenson », alors le moteur de base de données déclare que « Stevens » et « Stevenson » sont des doublons, même si ce n’est pas le cas. L’application doit être préparée à gérer les cas de ce type lors de la recherche et de la mise à jour si la définition d’index et les valeurs de colonne qu’elle indexe sont telles que la troncation de clé est une possibilité. à partir de Windows Vista, les applications peuvent spécifier l’option Jet_bitIndexDisallowTruncation dans [JET_INDEXCREATE](./jet-indexcreate-structure.md) ou [JetMakeKey](./jetmakekey-function.md). Si vous spécifiez cet indicateur, toute mise à jour de l’index entraînant l’échec d’une clé tronquée avec JET_errKeyTruncated. Dans le cas contraire, les clés sont tronquées en mode silencieux. Cela permettra à l’application de fonctionner sans problème pour les artefacts provoqués par la troncation de clé précédemment décrite.

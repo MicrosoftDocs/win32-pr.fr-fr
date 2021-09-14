@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: d6be9953640eeb2eb1d6c7fad812f5efe2d2da2f6888a01b4450c638ab68bfca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe99b1123ae35083e5c59df37234821efd2db208
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772464"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121110"
 ---
 # <a name="capicom_export_flag-enumeration"></a>\_Énumération de l’indicateur d’exportation CAPICOM \_
 
@@ -35,13 +35,13 @@ Le type d’énumération de l' **\_ \_ indicateur d’exportation CAPICOM** dé
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le \_ \_ type d’énumération de l’indicateur d’exportation CAPICOM est utilisé par la méthode suivante :
 
 -   [**Certificats. Save**](certificates-save.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

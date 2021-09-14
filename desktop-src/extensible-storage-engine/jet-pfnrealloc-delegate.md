@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 445cd4084ff187fba0b94e210d587b04660c0fb4dfe9e882e0c5696bfd5392df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7aab9fef2d7a449c877f88d2ed77aa19cbb2409d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119730419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917284"
 ---
 # <a name="jet_pfnrealloc-delegate"></a>Délégué JET_PFNREALLOC
 
@@ -88,7 +88,7 @@ public delegate IntPtr JET_PFNREALLOC(
     
     Nouvelle taille du bloc de mémoire (en octets). Si la valeur est égale à 0 et qu’un bloc de mémoire est spécifié, ce bloc de mémoire est libéré.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. IntPtr](/dotnet/api/system.intptr)  
 Pointeur vers la mémoire nouvellement allouée. Si la mémoire n’a pas pu être allouée, la [valeur zéro](/dotnet/api/system.intptr.zero) doit être retournée.  
