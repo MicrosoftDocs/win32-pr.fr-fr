@@ -4,12 +4,12 @@ ms.assetid: 6bef923f-4083-46e1-9a2e-49a6825467ec
 title: Événement MESessionRateChanged (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 682af0dbfde598e09ad3e80fd2e5594735e73758b9389faf2bd48540195a2773
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b4cbbd8254dfb988c94cf2016164726d578d8906
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227741"
 ---
 # <a name="mesessionratechanged-event"></a>Événement MESessionRateChanged
 
@@ -27,7 +27,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

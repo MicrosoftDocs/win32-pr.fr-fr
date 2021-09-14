@@ -4,12 +4,12 @@ ms.assetid: B172E7A8-5757-49B7-A784-FAFC7E904A4C
 title: Attribut MF_MT_MPEG2_TIMECODE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc7a4ce6868f783ed33c50acd5a8648297648481a58c74198b0dcadd1bd237bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bc9db5d7b3c6e94f7845bec2bd98c569d1b1f9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118741762"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227712"
 ---
 # <a name="mf_mt_mpeg2_timecode-attribute"></a>\_ \_ \_ Attribut code temporel MPEG2 MT
 
@@ -30,7 +30,7 @@ Pour un type de média qui décrit un flux de transport MPEG-2 (TS), spécifie q
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

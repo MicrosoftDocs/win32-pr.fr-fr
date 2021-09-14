@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9abefdd11f2fe6a356eda4799f92cac5cfe53aa4a2306aa8337d90f2eaa55d7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd312651dc73d63726fd04ad30fadaa79bebf7e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118077921"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227957"
 ---
 # <a name="esentversionsupportswindows7features-property"></a>EsentVersion. SupportsWindows7Features, propriété
 

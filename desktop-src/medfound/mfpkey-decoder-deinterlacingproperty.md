@@ -4,12 +4,12 @@ ms.assetid: c17d0dda-6141-46da-8921-f83ba40158e2
 title: MFPKEY_DECODER_DEINTERLACING, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19440a6eb893590bad3c2462b88075137e73c1633955841a66102c7e6faf8d6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e1380a880430988411e54de244ca613f696f4b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118738213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227549"
 ---
 # <a name="mfpkey_decoder_deinterlacing-property"></a>\_Propriété désentrelacer du DÉcodeur MFPKEY \_
 
@@ -27,7 +27,7 @@ Spécifie si le décodeur décode des images vidéo entrelacées à partir du fl
 
 **VARIANTE \_ false**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

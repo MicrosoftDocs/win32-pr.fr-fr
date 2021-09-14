@@ -4,12 +4,12 @@ ms.assetid: e6ce71d6-59cd-42da-906a-ab71f2bef16f
 title: Attribut MF_PD_ASF_CONTENTENCRYPTION_SECRET_DATA (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e628bf52aa08074473f14a84ee1d1fe39fe91c130aa9848be687601b864393a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28c960131e61e539fa417e1068b45974a24c42a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104365"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227694"
 ---
 # <a name="mf_pd_asf_contentencryption_secret_data-attribute"></a>\_Attribut de \_ \_ données de \_ secret CONTENTENCRYPTION pour MF PD ASF \_
 
@@ -19,13 +19,13 @@ Contient des données secrètes pour un fichier ASF (Advanced Systems Format) ch
 
 Tableau d’octets
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) remplit un tableau d’octets avec le champ de données de secret. La taille du tableau est égale au champ de la longueur des données secrètes de l’en-tête de chiffrement du contenu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

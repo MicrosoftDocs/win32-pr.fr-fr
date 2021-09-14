@@ -4,12 +4,12 @@ ms.assetid: 1b5b65bb-7ee6-434a-8178-bbc4119feea0
 title: Zones de dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efe36bf176ef6a331911a3609b40615dd9057d376f617c1792fa1a7ea79f88d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a87ec7f06d1a0be85538d8ea9ea56559f0f6bbf5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118759470"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227886"
 ---
 # <a name="painting-regions"></a>Zones de dessin
 

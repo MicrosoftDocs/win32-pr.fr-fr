@@ -4,12 +4,12 @@ ms.assetid: 0bbb4f51-78c3-4455-bd96-9a6d80110220
 title: MFPKEY_DESIRED_VBRQUALITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f52ab8cc791a5309b5df6537d133bce68e49d66a15ab79c12beeb7411cece8e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8aa0f2cf86db076fa211f9c850db15de730a3a14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939942"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227513"
 ---
 # <a name="mfpkey_desired_vbrquality-property"></a>MFPKEY \_ \_ propriété VBRQUALITY souhaitée
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 0
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur peut être comprise entre 0 et 100, où 100 correspond à la qualité maximale. La valeur 0 indique que la méthode d’encodage VBR basé sur la qualité ne doit pas être utilisée.
 
@@ -37,7 +37,7 @@ Pour énumérer les modes VBR qui répondent à un certain besoin de qualité, d
 -   Affectez à [**MFPKEY la \_ contrainte \_ énumérée \_ VBRQUALITY**](mfpkey-constrain-enumerated-vbrqualityproperty.md) la **\_ valeur variant true**.
 -   Définissez **MFPKEY \_ \_ VBRQUALITY souhaité** sur la qualité souhaitée. Pour les modes sans perte, définissez la qualité souhaitée sur 100.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

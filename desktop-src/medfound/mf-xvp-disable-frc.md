@@ -4,12 +4,12 @@ ms.assetid: 98AA7B3A-281C-427D-805E-5C4EE1EFAE21
 title: Attribut MF_XVP_DISABLE_FRC (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e82c60438a91111ffce6cc80c71fa76231b8e00d85644f4f56f1b496202d62
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1922705514c51308138f9f301a3681e598ca6278
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119940329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227633"
 ---
 # <a name="mf_xvp_disable_frc-attribute"></a>XVP MF- \_ \_ désactiver l' \_ attribut FRC
 
@@ -19,7 +19,7 @@ Désactive la conversion de la fréquence des images dans la [**MFT du processeu
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cet attribut a la **valeur true**, le processeur vidéo n’effectue pas de conversion de la cadence d’images. Par défaut, le processeur vidéo convertit la fréquence d’images pour qu’elle corresponde au type de média de sortie.
 
@@ -30,7 +30,7 @@ Pour définir cet attribut :
 
 Définissez l’attribut avant le début de la diffusion en continu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

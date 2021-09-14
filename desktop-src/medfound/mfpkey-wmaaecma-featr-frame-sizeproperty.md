@@ -4,12 +4,12 @@ ms.assetid: b414ac34-c60a-4f43-924f-43431d6ba25f
 title: MFPKEY_WMAAECMA_FEATR_FRAME_SIZE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812a9c7b85a36b730caffe7679cc742a3bc029546a12839afd95a8c8ab58bfeb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5623cf3d26b968c7e7745fa0c01c69c034505cfa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973288"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227459"
 ---
 # <a name="mfpkey_wmaaecma_featr_frame_size-property"></a>\_Propriété de \_ taille de \_ trame MFPKEY WMAAECMA \_
 
@@ -31,7 +31,7 @@ VT \_
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’algorithme d’annulation de l’écho acoustique traite les échantillons audio PCM un frame à la fois. La valeur de cette propriété est la taille du cadre audio, en échantillons. Avant de définir cette propriété, vous devez affecter à la propriété [ \_ mode de \_ fonctionnalité \_ MFPKEY WMAAECMA](mfpkey-wmaaecma-feature-modeproperty.md) la \_ valeur variant true.
 
@@ -50,7 +50,7 @@ Toutefois, pour des performances optimales, il est recommandé que les applicati
 
 Après le premier appel à [**IMediaObject :: AllocateStreamingResources**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-allocatestreamingresources) ou [**IMediaObject ::P rocessoutput**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput), vous pouvez lire cette propriété pour obtenir la taille de frame réelle en cours d’utilisation, même si le [**\_ mode de \_ fonctionnalité \_ MFPKEY WMAAECMA**](mfpkey-wmaaecma-feature-modeproperty.md) est false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

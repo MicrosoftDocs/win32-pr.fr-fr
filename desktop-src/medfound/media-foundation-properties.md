@@ -4,12 +4,12 @@ ms.assetid: 98510fda-7e10-4b63-83d4-5a224aed67a3
 title: Propriétés de la Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5789e978ee9f6ef0e4e4294765cc082a4dc2c7f6d1597fde50bbfa1cee751be4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b94c43cb52cad860ee53dafaac512bd7274d5034
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227747"
 ---
 # <a name="media-foundation-properties"></a>Propriétés de la Media Foundation
 

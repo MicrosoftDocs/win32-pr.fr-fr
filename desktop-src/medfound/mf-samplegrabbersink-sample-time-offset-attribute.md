@@ -4,12 +4,12 @@ ms.assetid: 8d06b415-aafc-4276-9a88-4b7262df62f1
 title: Attribut MF_SAMPLEGRABBERSINK_SAMPLE_TIME_OFFSET (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad8086d7820a9f7c642fb049af8696521f675be3f7606ff19166a4570ee8000
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d99f65c5023bbe8705e21269dfb07d6f24db4190
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117875989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227664"
 ---
 # <a name="mf_samplegrabbersink_sample_time_offset-attribute"></a>Attribut de décalage de l’heure d’exemple MF \_ SAMPLEGRABBERSINK \_ \_ \_
 
@@ -19,7 +19,7 @@ Décalage entre l’horodatage de chaque échantillon reçu par l’accroche éc
 
 **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez définir cet attribut sur l’objet [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) qui est retourné par la fonction [**MFCreateSampleGrabberSinkActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatesamplegrabbersinkactivate) . Cet attribut permet à la fonction de rappel de l’exemple de la fonction de rappel de recevoir des exemples antérieurs à l’heure de la présentation.
 
@@ -27,7 +27,7 @@ Lorsque l’exemple d’accrochage reçoit un nouvel échantillon, il présente 
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 03e5b23f5186111719e45b8e3c0b1b5bd0227065f28489996524ffca3b38d2f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ea71da99dd68769324b07d3fc76a0c5ca00009d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118090986"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228168"
 ---
 # <a name="compiling-shaders"></a>Compilation des nuanceurs
 

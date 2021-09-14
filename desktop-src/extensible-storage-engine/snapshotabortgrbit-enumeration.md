@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 607a39cb09ce13719bb2949a7dacbe6c7368bb575285549f89e74431881c2e11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 538aa9f6d5a7cde15abf9a6720e0aa919120da56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118071421"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227916"
 ---
 # <a name="snapshotabortgrbit-enumeration"></a>Énumération SnapshotAbortGrbit
 

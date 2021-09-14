@@ -5,11 +5,11 @@ title: MFPKEY_COMPRESSIONOPTIMIZATIONTYPE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e140a854999a5c634620d98958e40832acbe9439
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471725"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227598"
 ---
 # <a name="mfpkey_compressionoptimizationtype-property"></a>MFPKEY \_ propriété COMPRESSIONOPTIMIZATIONTYPE
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété offre un moyen rapide de configurer un certain nombre d’options d’encodage vidéo. Il peut être défini sur l’une des valeurs suivantes.
 
@@ -46,7 +46,7 @@ Cette propriété offre un moyen rapide de configurer un certain nombre d’opti
 
 Si vous affectez la valeur \_ 1 à la propriété MFPKEY COMPRESSIONOPTIMIZATIONTYPE, cela a également pour effet de définir le paramètre de Registre option DQuant sur 2 et le paramètre de Registre méthode de coût du vecteur de mouvement sur 1. pour plus d’informations, consultez l’article web [à l’aide de l’Paramètres avancé du Codec de profil avancé Windows Media Video 9](https://www.microsoft.com/windows/windowsmedia/howto/articles/codecadvancedsettings.aspx).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

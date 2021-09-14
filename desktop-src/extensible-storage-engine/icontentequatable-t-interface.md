@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 02e237714f020f5bafa3ce8b7465f1c8e2615c01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544741"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227945"
 ---
 # <a name="icontentequatablet-interface"></a>\<T\>Interface IContentEquatable
 

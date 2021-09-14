@@ -5,11 +5,11 @@ title: Attribut MF_PD_PLAYBACK_BOUNDARY_TIME (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 22abadb4e0148a2079a9a7387e43599f4f79b8bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227675"
 ---
 # <a name="mf_pd_playback_boundary_time-attribute"></a>\_ \_ \_ Attribut heure limite de lecture MF PD \_
 
@@ -37,18 +37,18 @@ Avant la transition, l’événement [MENewPresentation](menewpresentation.md) e
 
 Cette valeur affecte uniquement l’heure de la marque et n’affecte pas la manière dont la session multimédia ajuste les horodatages. Cet attribut est ignoré, sauf si la source du média indique par le biais de l’attribut d' [ \_ ID d’élément de \_ lecture \_ \_ MF PD](mf-pd-playback-element-id.md) que cette présentation est le même élément de lecture que le précédent.
 
-L' \_ attribut de \_ durée limite de lecture MF PD \_ \_ est semblable à l’attribut [MF \_ TOPONODE \_ MEDIASTART](mf-toponode-mediastart-attribute.md) défini sur le nœud de topologie. Pour les applications qui s’exécutent sur Windows Vista, les sources multimédias qui implémentent [**IMFMediaSourceTopologyProvider**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcetopologyprovider) doivent utiliser **MF \_ TOPONODE \_ MEDIASTART** au lieu du \_ \_ temps limite de lecture MF PD \_ \_ .
+L' \_ attribut de \_ durée limite de lecture MF PD \_ \_ est semblable à l’attribut [MF \_ TOPONODE \_ MEDIASTART](mf-toponode-mediastart-attribute.md) défini sur le nœud de topologie. pour les applications qui s’exécutent sur Windows Vista, les sources multimédias qui implémentent [**IMFMediaSourceTopologyProvider**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcetopologyprovider) doivent utiliser **mf \_ TOPONODE \_ MEDIASTART** au lieu du \_ \_ temps limite de lecture mf PD \_ \_ .
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

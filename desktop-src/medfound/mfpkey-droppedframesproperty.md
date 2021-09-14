@@ -4,12 +4,12 @@ ms.assetid: e55db53e-ab70-42ce-b5cd-2e59a4e96b7b
 title: MFPKEY_DROPPEDFRAMES, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c701399684b15d07ca287813cf6bf9875bab7c17261bb1ae7b9fe2bda2e5254c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b31404218e4e179e19f53e30f5750976c71e0d7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227508"
 ---
 # <a name="mfpkey_droppedframes-property"></a>MFPKEY \_ propriété DROPPEDFRAMES
 
@@ -23,11 +23,11 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 VT \_
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les images vidéo sont parfois ignorées ou supprimées lors de l’encodage en raison de restrictions de mémoire tampon.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

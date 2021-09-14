@@ -4,12 +4,12 @@ ms.assetid: 738c1f0c-8417-4b12-a7f1-9bbf3c7e9dd3
 title: Transformation de contrôle de couleur DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c51321a8ffd725306f570619b9bcbe70fe7160e784358ce265157145b40347e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b94c8314bfd2be85a3bbc392bfa0e83767ff0b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227796"
 ---
 # <a name="color-control-transform-dsp"></a>Transformation de contrôle de couleur DSP
 
@@ -43,11 +43,11 @@ CLSID \_ CColorControlDmo
 -   [\_teinte de couleur MFPKEY \_](mfpkey-color-hue.md)
 -   [SATURATION de la \_ couleur MFPKEY \_](mfpkey-color-saturation.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce DSP modifie le contenu du flux vidéo. Pour la lecture, vous pourrez peut-être obtenir des effets similaires plus efficacement à l’aide de l’interface **IMFVideoProcessor** , qui contrôle le traitement vidéo dans la carte graphique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

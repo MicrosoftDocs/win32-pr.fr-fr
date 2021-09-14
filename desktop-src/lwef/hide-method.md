@@ -4,12 +4,12 @@ description: Hide, méthode
 ms.assetid: c30eda78-0951-43b4-8ae1-daccbd41170d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67057464c8e505e56123f712d3a1e6d668c7d75b00bc4732e7b18195b3be9723
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd50c3f7b8e3d2e60ebe4c00c42375737c05eb04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119725449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227855"
 ---
 # <a name="hide-method"></a>Hide, méthode
 
@@ -33,7 +33,7 @@ Masque le caractère spécifié.
 
 | Partie   | Description                                                                                                                                                                                                                                      |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Rapide* | Facultatif. Valeur booléenne qui indique s’il faut ignorer l’animation associée à l’état de masquage du caractère **true** ne joue pas l’animation de **masquage** . <br/> **False** (valeur par défaut) lit l’animation de **masquage** . <br/> |
+| *Rapide* | Optionnel. Valeur booléenne qui indique s’il faut ignorer l’animation associée à l’état de masquage du caractère **true** ne joue pas l’animation de **masquage** . <br/> **False** (valeur par défaut) lit l’animation de **masquage** . <br/> |
 
 
 
@@ -41,7 +41,7 @@ Masque le caractère spécifié.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le serveur met en file d’attente les actions de la méthode **Hide** dans la file d’attente du caractère. vous pouvez donc l’utiliser pour masquer le caractère après une séquence d’autres animations. Vous pouvez exécuter l’action immédiatement à l’aide de la méthode [**Stop**](stop-method.md) avant d’appeler cette méthode.
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30b1398d843711e868a6b5b96cf6a66893bf74fef1e50bfdd61fa36f81f05c13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3053c5933a0388e3c8522b0d7201b491aaa4fa2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119611319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227856"
 ---
 # <a name="wm_syskeydown-message"></a>\_Message WM SYSKEYDOWN
 
@@ -64,11 +64,11 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) examine la clé spécifiée et génère un message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) si la clé est de type Tab ou entrée.
 
@@ -80,7 +80,7 @@ Pour les claviers à touche 101 et 102 améliorés, les touches améliorées son
 
 Ce message est également envoyé chaque fois que l’utilisateur appuie sur la touche F10 sans la touche ALT.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -111,7 +111,7 @@ Ce message est également envoyé chaque fois que l’utilisateur appuie sur la 
 [**\_SYSKEYUP WM**](wm-syskeyup.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

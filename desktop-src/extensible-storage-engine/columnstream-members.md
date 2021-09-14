@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.colu
 ms:contentKeyID: 55101147
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4053991221a768e486862b3bb86c9cae193407f5815c662d723871a65654db2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f35c0e000329bc98e2f9fd5873cd724516271d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119738279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228150"
 ---
 # <a name="columnstream-members"></a>Membres ColumnStream
 
@@ -210,7 +210,7 @@ Haut
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /></td>
-<td><a href="dn334198(v=exchg.10).md">Lecture</a></td>
+<td><a href="dn334198(v=exchg.10).md">Lire</a></td>
 <td>Lit une séquence d'octets dans le flux actuel et avance la position dans le flux du nombre d'octets lus. (Substitue <a href="/dotnet/api/system.io.stream.read#System_IO_Stream_Read_System_Byte___System_Int32_System_Int32_">Stream. Read ([], Int32, Int32)</a>.)</td>
 </tr>
 <tr class="even">
@@ -235,7 +235,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /></td>
-<td><a href="dn334197(v=exchg.10).md">Écriture</a></td>
+<td><a href="dn334197(v=exchg.10).md">Écrire</a></td>
 <td>Écrit une séquence d’octets dans le flux actuel et avance la position actuelle dans ce flux du nombre d’octets écrits. (Substitue <a href="/dotnet/api/system.io.stream.write#System_IO_Stream_Write_System_Byte___System_Int32_System_Int32_">Stream. Write ([], Int32, Int32)</a>.)</td>
 </tr>
 <tr class="odd">

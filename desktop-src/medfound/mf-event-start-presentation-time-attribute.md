@@ -4,12 +4,12 @@ ms.assetid: d19d851c-ab4a-4a9d-bcc4-8dd4e993fa2c
 title: Attribut MF_EVENT_START_PRESENTATION_TIME (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd623677de67d2101f4b1cbb3e17ce429f37f0788d99f802be0889a35dd3471e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65bf6142ce12a7bf921fd26373ea5d10ab384560
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104825"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227736"
 ---
 # <a name="mf_event_start_presentation_time-attribute"></a>\_Attribut heure de la \_ Présentation démarrer l’événement MF \_ \_
 
@@ -21,7 +21,7 @@ Heure de début de la présentation, en unités de 100 nanosecondes, mesurée en
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé avec l’événement [MESessionNotifyPresentationTime](mesessionnotifypresentationtime.md) .
 
@@ -29,7 +29,7 @@ Cet attribut est une valeur signée, bien qu’il soit stocké en tant que **UIN
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

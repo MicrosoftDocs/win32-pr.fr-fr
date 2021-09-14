@@ -4,12 +4,12 @@ description: IAgentCharacterEx
 ms.assetid: 8defc836-cc54-40c7-8afc-ec90f941861b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04e4b6661641ebf472001e502a7fec3042332ea039ec94c01349d58bbe93346d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f92a9f9c39804d6b5d3ac777457fff5b7f03823c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119961959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227849"
 ---
 # <a name="iagentcharacterex"></a>IAgentCharacterEx
 

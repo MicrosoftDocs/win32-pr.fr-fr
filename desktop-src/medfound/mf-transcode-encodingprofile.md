@@ -4,12 +4,12 @@ ms.assetid: 9a6b6402-ff53-4399-8616-06b7768a8737
 title: Attribut MF_TRANSCODE_ENCODINGPROFILE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b44a923abc563a84f3536fd6353ac2a3dd2352e472344edf7053d647674908
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 020344cb2c2f6fc4a539c7cdbc8df0dc69d80d3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118244230"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227657"
 ---
 # <a name="mf_transcode_encodingprofile-attribute"></a>\_Attribut ENCODINGPROFILE de transcodage MF \_
 
@@ -58,7 +58,7 @@ Les valeurs typiques de cet attribut sont les suivantes :
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

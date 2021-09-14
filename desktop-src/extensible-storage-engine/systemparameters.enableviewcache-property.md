@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 271039ad83ce67348cef93101e9f685589ecea51f6881a4d6f1109cc7098e985
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b22808109b8fd69df18b9a6ae98de17a814b5ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119107014"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227910"
 ---
 # <a name="systemparametersenableviewcache-property"></a>Propriété SystemParameters. EnableViewCache
 

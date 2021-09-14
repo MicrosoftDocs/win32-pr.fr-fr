@@ -4,12 +4,12 @@ ms.assetid: f81f8eca-d16f-4da4-b3cf-f90c1d98053f
 title: MFPKEY_STAT_RMAX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a75426934c4d08ace29e35f7ebe06e7262efd2a84638a227e36fc7bd5bcde5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bbd5ecd4a0c642e84ab561ec338fb7375513030
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242098"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227465"
 ---
 # <a name="mfpkey_stat_rmax-property"></a>MFPKEY \_ Stat \_ rmax, propriété
 
@@ -27,7 +27,7 @@ Spécifie la vitesse de transmission maximale, en bits par seconde, d’un flux 
 
 Pour déterminer la vitesse de transmission maximale d’un flux encodé, lisez cette propriété à la fin de l’encodage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

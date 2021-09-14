@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 4f219566db6e0e9a485839fee3d22e540d82f38f13819e03e3e3d092a23b21a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1591fd47cb3d5e758dee8814dc9736e94ca4ee7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117878431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227759"
 ---
 # <a name="imfsourcebufferlistgetlength-method"></a>IMFSourceBufferList :: GetLength, méthode
 
@@ -37,11 +37,11 @@ DWORD GetLength();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Nombre de mémoires tampons sources dans la liste.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

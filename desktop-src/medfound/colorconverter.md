@@ -4,12 +4,12 @@ ms.assetid: 1c15dc2b-0e69-4d16-af02-8056a1eb2c5c
 title: Convertisseur de couleurs DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e97db9f3131ed7cea9076255005149544363ba8d6b548736a211973cda3999d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73a8418d6eeeffcf83a38452b19f18a6baa60bcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117880661"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227795"
 ---
 # <a name="color-converter-dsp"></a>Convertisseur de couleurs DSP
 
@@ -79,7 +79,7 @@ CLSID \_ CColorConvertDMO
 -   [\_hauteur MFPKEY COLORCONV \_](mfpkey-colorconv-height.md)
 -   [MFPKEY \_ \_ mode COLORCONV](mfpkey-colorconv-mode.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le convertisseur de couleur DSP est implémenté en tant qu’objet COM pouvant agir comme un objet DirectXMedia (DMO) ou une transformation de Media Foundation (MFT). l’objet a un identificateur de classe unique (CLSID), qu’il agisse en tant que DMO ou MFT. pour plus d’informations sur le moment où un DSP agit en tant que DMO ou MFT, consultez [processeurs de Signal numérique](windowsmediadigitalsignalprocessors.md).
 
@@ -91,7 +91,7 @@ Toutes les propriétés, à l’exception du [**\_ \_ mode MFPKEY COLORCONV**](m
 
 Le convertisseur de couleur ne prend pas en charge toutes les combinaisons de format d’entrée et de sortie. En règle générale, vous devez définir le format de média que vous connaissez, en entrée ou en sortie, puis énumérer les formats disponibles sur le flux de données opposé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
