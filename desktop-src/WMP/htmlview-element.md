@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 703668427757df19675734e1503296a8a7144517801d0e8fdc0fadb25a16b0a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f11a60e41b7f78be3440e16a7d2b3934f75e8ee3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416228"
 ---
 # <a name="htmlview-element"></a>Élément HTMLView
 
@@ -59,13 +59,13 @@ URL de Base de la page web HTMLView que Lecteur Windows Media affiche.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser cet élément pour intégrer la fonctionnalité HTMLView à votre magasin en ligne. Si le domaine de l’URL spécifiée par le magasin en ligne actuel correspond à celui de la page Web HTMLView, le commutateur à **présent** se produit sans intervention de l’utilisateur et le contenu de HTMLView est affiché. dans le cas contraire, Lecteur Windows Media demande à l’utilisateur l’autorisation d’afficher le contenu HTMLView.
 
 Par exemple, si l’URL de la page Web HTMLView est https://www.proseware.com/html/HTMLView.htm et que l’URL de l’attribut **BaseURL** est spécifiée en tant que https://www.proseware.com , la page Web HTMLView s’affiche sans demander confirmation à l’utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

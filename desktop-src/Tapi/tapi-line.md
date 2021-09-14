@@ -4,12 +4,12 @@ ms.assetid: 2215b10b-e410-462c-8cf9-42f3e688e82e
 title: TAPI/ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c56478f43d1055d7bf2a382bc84611360675da97e506812a1806df4beca0aeff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 928cfa6144e9a701d6462519d2aa9d590a54a511
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117760731"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416317"
 ---
 # <a name="tapiline"></a>TAPI/ligne
 

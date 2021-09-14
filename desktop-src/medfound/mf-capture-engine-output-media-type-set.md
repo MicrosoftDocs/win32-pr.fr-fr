@@ -4,12 +4,12 @@ ms.assetid: A48CBC82-87C2-4AED-B7E0-B7C60FCCE4CC
 title: Attribut MF_CAPTURE_ENGINE_OUTPUT_MEDIA_TYPE_SET (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 138a5893d4ccdd014354e00718a98eda9ba41616c1f1507c8749c9b36dcc0c29
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5819de6a07f3b6a339400d65ff9260c33b14c592
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414215"
 ---
 # <a name="mf_capture_engine_output_media_type_set-attribute"></a>\_Attribut de \_ \_ définition de \_ type de média de sortie du \_ moteur de capture \_ MF
 
@@ -19,11 +19,11 @@ Indique que le type de sortie a été défini sur le moteur de capture en répon
 
 **GUID**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez appeler [**IMFMediaEvent :: GetStatus**](/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatus) pour déterminer si l’opération a réussi ou non.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

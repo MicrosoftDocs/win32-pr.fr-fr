@@ -4,12 +4,12 @@ ms.assetid: 8c123e09-b11a-4c92-b41e-49cc01be53d3
 title: Prise en charge du protocole réseau Winsock dans Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 309b476669d7e27513c3e89acfbed135d425b234ccdf28a89ad74680a8cb596c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 36da53101dda06426a04e5f910b4548273e8ab47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414520"
 ---
 # <a name="winsock-network-protocol-support-in-windows"></a>Prise en charge du protocole réseau Winsock dans Windows
 
@@ -27,14 +27,14 @@ le tableau suivant identifie la prise en charge native Windows pour les suites d
 
 | Protocole réseau                 | Windows 7                | Windows Server 2008      | Windows Vista            | Windows Server 2003                  | Windows XP                           | Windows 2000                         |
 |----------------------------------|--------------------------|--------------------------|--------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-| IPv6<br/>                  | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>                 | Pris en charge<br/>                 | Non pris en charge (voir les remarques)<br/> |
-| IPv4<br/>                  | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>                 | Pris en charge<br/>                 | Pris en charge<br/>                 |
-| NetBIOS (voir les remarques) <br/>  | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>                 | Pris en charge<br/>                 | Pris en charge<br/>                 |
-| IrDA (voir les remarques)<br/>      | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>                 | Pris en charge<br/>                 | Pris en charge<br/>                 |
-| Bluetooth (voir les remarques)<br/> | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>     | Pris en charge<br/>                 | Pris en charge<br/>                 | Non pris en charge<br/>             |
-| IPX/SPX<br/>               | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Pris en charge<br/>                 | Pris en charge<br/>                 | Pris en charge<br/>                 |
-| AppleTalk<br/>             | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Pris en charge<br/>                 | Pris en charge<br/>                 | Pris en charge<br/>                 |
-| DLS<br/>                   | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge (voir les remarques)<br/> | Non pris en charge (voir les remarques)<br/> | Pris en charge<br/>                 |
+| IPv6<br/>                  | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>                 | Prise en charge<br/>                 | Non pris en charge (voir les remarques)<br/> |
+| IPv4<br/>                  | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>                 | Prise en charge<br/>                 | Prise en charge<br/>                 |
+| NetBIOS (voir les remarques) <br/>  | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>                 | Prise en charge<br/>                 | Prise en charge<br/>                 |
+| IrDA (voir les remarques)<br/>      | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>                 | Prise en charge<br/>                 | Prise en charge<br/>                 |
+| Bluetooth (voir les remarques)<br/> | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>     | Prise en charge<br/>                 | Prise en charge<br/>                 | Non pris en charge<br/>             |
+| IPX/SPX<br/>               | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Prise en charge<br/>                 | Prise en charge<br/>                 | Prise en charge<br/>                 |
+| AppleTalk<br/>             | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Prise en charge<br/>                 | Prise en charge<br/>                 | Prise en charge<br/>                 |
+| DLS<br/>                   | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge (voir les remarques)<br/> | Non pris en charge (voir les remarques)<br/> | Prise en charge<br/>                 |
 | ATM<br/>                   | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Pris en charge (voir les remarques)<br/>     | Pris en charge (voir les remarques)<br/>     | Pris en charge (voir les remarques)<br/>     |
 | Protocole<br/>               | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/> | Non pris en charge<br/>             | Non pris en charge<br/>             | Pris en charge (voir les remarques)<br/>     |
 

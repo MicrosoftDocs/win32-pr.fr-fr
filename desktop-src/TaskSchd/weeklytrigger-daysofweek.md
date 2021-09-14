@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7298982dcd10078d9e8460459d38cfa77140d15607341460f0e0edec998306f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7f0a27ef031e7baf46d2d3c0e33c23fb505c7ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001792"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414642"
 ---
 # <a name="weeklytriggerdaysofweek-property"></a>WeeklyTrigger. DaysOfWeek, propriété
 
@@ -40,7 +40,7 @@ WeeklyTrigger.DaysOfWeek As short
 
 Un masque de bits qui indique les jours de la semaine où la tâche est exécutée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant montre le mappage du masque de bits utilisé par cette propriété.
 
@@ -62,7 +62,7 @@ Le tableau suivant montre le mappage du masque de bits utilisé par cette propri
 
 Lors de la lecture ou de l’écriture de vos propres données XML pour une tâche, les jours de la semaine sont spécifiés à l’aide de l’élément [**DaysOfWeek**](taskschedulerschema-daysofweek-weeklyscheduletype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

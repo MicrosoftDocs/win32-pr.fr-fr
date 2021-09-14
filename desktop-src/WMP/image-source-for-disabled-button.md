@@ -10,12 +10,12 @@ keywords:
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 071a3b31a25eb40d82d33f241a6eaebf690fe11aa2128528739a7e7bbb4dc217
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d05ccd0362f3dd11acec71eaf0b92574f2c27c77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119509259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416224"
 ---
 # <a name="image-source-for-disabled-button"></a>Source de l’image pour le bouton désactivé
 

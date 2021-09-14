@@ -4,12 +4,12 @@ ms.assetid: 008ff9df-ebe0-4efd-a62c-24f4a4239ebd
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 140a9055bdc8081d5cdea1931b199dcd00f537e73051f30790f036be4af57fb0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc65af267df38486f6ad7859d16aff4de5973a27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414210"
 ---
 # <a name="mf_devsource_attribute_source_type_vidcap_category-attribute"></a>Attribut de catégorie de la source de l' \_ attribut DEVSOURCE MF \_ \_ \_ \_ VIDCAP \_
 
@@ -37,7 +37,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetGuid**](/windows/
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cet attribut comme entrée pour la fonction [**MFEnumDeviceSources**](/windows/desktop/api/mfidl/nf-mfidl-mfenumdevicesources) lors de l’énumération des périphériques de capture vidéo.
 
@@ -50,7 +50,7 @@ L’attribut s’applique uniquement aux périphériques de capture vidéo.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

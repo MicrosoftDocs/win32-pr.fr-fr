@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ca1564b943874ec086dd5e4459e69543cbdc90ebde2a11a2084c3054e3727dea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0e28a8816d7e4c4f44e3cd1ec0dc479372d66d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117767227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416473"
 ---
 # <a name="iekuname-property"></a>IEKU :: Name, propriété
 
@@ -60,11 +60,11 @@ Valeur de l’énumération [**\_ EKU de CAPICOM**](capicom-eku.md) qui spécifi
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la valeur de cette propriété est réinitialisée, directement ou indirectement, l’intégralité de l' [*État*](../secgloss/s-gly.md) de l’objet est réinitialisée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

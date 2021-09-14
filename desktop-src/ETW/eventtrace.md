@@ -27,12 +27,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 37124a1c5ef23782261cbe94462c737d137dc6965363d9c907ea895e289237d7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f04399942b39a2da5b746933884a436a65bb370c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416934"
 ---
 # <a name="eventtrace-class"></a>EventTrace, classe
 
@@ -316,11 +316,11 @@ Durée d’exécution écoulée pour les instructions en mode utilisateur, en gr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’utilisez pas ces propriétés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

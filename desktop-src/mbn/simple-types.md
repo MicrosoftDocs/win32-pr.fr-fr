@@ -7,12 +7,12 @@ MSHAttr:
 title: Types simples v4 de schéma de profil haut débit mobile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a67a0897ac40e2659f08999277338fce07d55edb271750a2859c243c58a961a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb09988a00cea7cca92450119b730c196f2e62b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118065765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415855"
 ---
 # <a name="span-idwwan_profile_v4simple_typesspanmobile-broadband-profile-schema-v4-simple-types"></a><span id="WWAN_profile_v4.simple_types"></span>Types simples v4 de schéma de profil haut débit mobile
 

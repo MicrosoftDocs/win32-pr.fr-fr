@@ -4,12 +4,12 @@ ms.assetid: 7D2A9003-B36E-4082-877E-8AC7F5645E89
 title: Attribut MFPROTECTION_VIDEO_FRAMES (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35d8756ed823b110d2ca7834016183e6a1cecf5c8c2731f68a81fa4c9224fdb8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 67a8ccfc56fb1c1b52b14e16d8e702111f3d8564
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119355409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414068"
 ---
 # <a name="mfprotection_video_frames-attribute"></a>\_Attribut de \_ trames vidéo MFPROTECTION
 
@@ -19,7 +19,7 @@ Spécifie si une application est autorisée à accéder à des trames vidéo non
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur 0 indique que l’application est autorisée à accéder aux frames. Cela peut être déterminé à la suite d’un accord privé entre l’application et le système de protection de contenu particulier en cours d’utilisation.
 
@@ -27,7 +27,7 @@ La valeur 1 indique que l’application est autorisée à accéder aux frames si
 
 La valeur 0xFFFFFFFF, qui est la valeur par défaut, indique qu’aucune application n’est autorisée à accéder à des frames non compressés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

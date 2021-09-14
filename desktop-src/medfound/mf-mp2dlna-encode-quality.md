@@ -4,12 +4,12 @@ ms.assetid: 4cf745ab-66ae-40f2-b5c4-3f72f1b9badb
 title: Attribut MF_MP2DLNA_ENCODE_QUALITY (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a612dae32aabe4276ece76e7edff1aef431cc5d93f8aeaae0dbc9087620374c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81c785ff12524d45d096d566014a5c0a5e24eea8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414167"
 ---
 # <a name="mf_mp2dlna_encode_quality-attribute"></a>\_Attribut de \_ qualité de codage MF MP2DLNA \_
 
@@ -27,13 +27,13 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Des valeurs plus élevées indiquent une meilleure qualité de codage. Les nombres inférieurs indiquent un encodage plus rapide, mais une qualité de codage inférieure. La valeur par défaut est 9.
 
 Pour définir cet attribut sur le récepteur multimédia DLNA, interrogez le récepteur multimédia pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) . Définissez l’attribut avant le début de la diffusion en continu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

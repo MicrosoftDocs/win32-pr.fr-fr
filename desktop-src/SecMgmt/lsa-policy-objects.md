@@ -4,12 +4,12 @@ ms.assetid: c8ed5cd8-55cf-43e7-92a3-9bd17a1147a9
 title: Objets de stratégie LSA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c6397ffb460585b9a11f03ff397ed567a503c834e3d9ab7dfd6a4e387f319cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1481b6a6f49e973ecc2a2e1b53830bf22c67a77f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117969107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416348"
 ---
 # <a name="lsa-policy-objects"></a>Objets de stratégie LSA
 

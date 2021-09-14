@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: ebfd7bd23f196b5956d4460dc0d8e7a9569d8091124cefa34072dd754fca0d5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d541177aaabc7c4558a75de870aa6477872f794b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414256"
 ---
 # <a name="imfmediasourceextensiongetreadystate-method"></a>IMFMediaSourceExtension :: GetReadyState, méthode
 
@@ -37,11 +37,11 @@ MF_MSE_READY GetReadyState();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 État prêt de la source du média.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

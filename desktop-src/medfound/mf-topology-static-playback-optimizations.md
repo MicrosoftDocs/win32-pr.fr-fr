@@ -4,12 +4,12 @@ ms.assetid: 62fb3f0f-ab1f-4c61-8e7f-62908b947788
 title: Attribut MF_TOPOLOGY_STATIC_PLAYBACK_OPTIMIZATIONS (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f01b22e5b7e972e9d1eb453f317e8db6a902e994e83d075cd791d9261aa6ed09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6f9f7d884c49078ca02571f8ba141f9a1e13589
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117691241"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414119"
 ---
 # <a name="mf_topology_static_playback_optimizations-attribute"></a>Attribut d’optimisation de \_ \_ lecture statique de \_ la topologie MF \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFTopology**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cet attribut avant de charger une topologie. Si l’attribut a la **valeur true**, le chargeur de topologie tente d’optimiser le pipeline avant le démarrage de la lecture.
 
@@ -99,7 +99,7 @@ done:
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

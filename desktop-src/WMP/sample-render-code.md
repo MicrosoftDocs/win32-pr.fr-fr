@@ -11,12 +11,12 @@ keywords:
 - exemples, fonction Render pour les visualisations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51265191ba7fd8b5eb9e4b1140990a7713eba08356d01c58097c727ec2fe533e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a1ee5d00bc1aed5bd8bd91880e43e2ac2d1f6bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118569785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416170"
 ---
 # <a name="sample-render-code"></a>Exemple de code de rendu
 

@@ -4,12 +4,12 @@ ms.assetid: bfb7ff48-1d6b-404f-9dd4-6de1898354b7
 title: Utilisation de magasins dans différents emplacements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e57e1c1584754f0b02b61438a7a6a83694c36cd77c633c52f6bec216721d7c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e22fa4d4eca4748d6c4652a8b33d22a1db492a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117971405"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417649"
 ---
 # <a name="using-stores-in-different-locations"></a>Utilisation de magasins dans différents emplacements
 

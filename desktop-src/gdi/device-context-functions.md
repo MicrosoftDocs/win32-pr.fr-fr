@@ -4,12 +4,12 @@ ms.assetid: 9ff68d16-0f27-4cc8-932a-b2063cfed135
 title: Fonctions de contexte de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c33eda03ce65a5873c4420f6675128243e30493dc75fa3055c8718f6826f4a94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 625b81b999526d84af4b58f2dddbc280643bcd35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119966049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415960"
 ---
 # <a name="device-context-functions"></a>Fonctions de contexte de périphérique
 

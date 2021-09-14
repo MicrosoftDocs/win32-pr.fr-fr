@@ -4,12 +4,12 @@ ms.assetid: 416159A4-F50E-4027-9367-727BA81D2A21
 title: Structures vidéo Direct3D 11
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71697b7ddfe48ac894c9ab4a7c9861fa947ca8f93d51140598b822a6cdf79f8c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 829fed37218d2283eb885477b8401a1cdaece8b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120061689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415841"
 ---
 # <a name="direct3d-11-video-structures"></a>Structures vidéo Direct3D 11
 

@@ -4,12 +4,12 @@ ms.assetid: 3daada54-5007-4042-b5ba-94c7083f051f
 title: Énumérations Rendezvous
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6936a3396907b1f7f61ed880e4baa9e50e3588e15686ac63c1f80aa14c97d619
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef8f7b90c1b1f880364de6475f9269415de0f4f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414698"
 ---
 # <a name="rendezvous-enumerations"></a>Énumérations Rendezvous
 

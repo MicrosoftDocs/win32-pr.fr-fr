@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cb2efe504e2d09b3fae2b6d6293772bf67a3f038a5f9c43330707f541e2ba8f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73853250c581e460360f5490defc0c94e76e5be3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900965"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416389"
 ---
 # <a name="receiving-the-returned-certificate"></a>Réception du certificat retourné
 

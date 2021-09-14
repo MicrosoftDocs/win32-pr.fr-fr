@@ -4,12 +4,12 @@ ms.assetid: 93BB6E41-308E-4527-A04B-C685C818FEC4
 title: Attribut MFSampleExtension_DeviceReferenceSystemTime (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0458c1a2b0f5b204483cba0e6f571a2a5ace34b7b39463cc20ded664eecaaa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00af99e3d2c34d0e4cf72af519497ea04f13e62c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118241134"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414066"
 ---
 # <a name="mfsampleextension_devicereferencesystemtime-attribute"></a>\_Attribut MFSampleExtension DeviceReferenceSystemTime
 
@@ -23,7 +23,7 @@ Spécifie l’horodateur de l’appareil d’origine sur l’exemple.
 
 Il s’agit de l’horodatage de référence d’appareil des échantillons de média dans la résolution de 100 ns. Cet horodatage peut ou non contenir la valeur réelle du compteur de performance des requêtes (QPC), en fonction de la source qui produit les exemples. Cette valeur peut être modifiée par d’autres composants dans le pipeline de média. Cette valeur n’est pas disponible pour les MFTs insérés dans le pipeline de capture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

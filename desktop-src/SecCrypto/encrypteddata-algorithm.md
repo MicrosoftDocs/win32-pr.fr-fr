@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 52700a8b91495ffc9c6482b9f25265fd33f5be975032939b21571a794baea542
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd73fbda4a5f77706ac2253782768e8487b8cbff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117766715"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416435"
 ---
 # <a name="encrypteddataalgorithm-property"></a>EncryptedData. Algorithm, propriété
 
@@ -41,7 +41,7 @@ EncryptedData.Algorithm As Algorithm
 
 Objet [**algorithme**](algorithm.md) qui représente l’algorithme de chiffrement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

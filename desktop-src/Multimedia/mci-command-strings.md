@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d7298a1ad4d571446532f7198e5bd41ae988194e
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363680"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416839"
 ---
 # <a name="mci-command-strings"></a>Chaînes de commande MCI
 
@@ -23,15 +23,15 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 -   [**attire**](capture.md)
 -   [**plus**](close.md)
 -   [**configurer**](configure.md)
--   [**copy**](copy.md)
+-   [**reprographie**](copy.md)
 -   [**signal**](cue.md)
 -   [**réduis**](cut.md)
 -   [**supprimer**](delete.md)
 -   [sortie](escape.md)
 -   [**antigel**](freeze.md)
--   [**évaluer**](./windows-multimedia-start-page.md)
+-   [**index**](./windows-multimedia-start-page.md)
 -   [**info**](info.md)
--   [**tarifs**](list.md)
+-   [**list**](list.md)
 -   [**chargera**](load.md)
 -   [**marque**](mark.md)
 -   [**socle**](monitor.md)
@@ -62,7 +62,7 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 -   [**uler**](undo.md)
 -   [**libérer**](unfreeze.md)
 -   [**mise à jour**](update.md)
--   [**Cela**](where.md)
+-   [**where**](where.md)
 -   [**fenetre**](window.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8a9f133baf77a77d3db33001e996accc9574f86ad708037900a5db7c0c5e8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ac2559717a2040cfb617e85e0a51495be1b5987
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910380"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416534"
 ---
 # <a name="winbio_extended_storage_info-structure"></a>\_Structure des \_ informations de stockage étendu WINBIO \_
 
@@ -113,7 +113,7 @@ Fonctionnalités de reconnaissance d’empreintes digitales du composant de stoc
 
 </dd> </dl> </dd> <dt>
 
-**IRI**
+**Iris**
 </dt> <dd>
 
 Informations sur les fonctionnalités et les exigences d’inscription de la carte de stockage pour une unité biométrique liée aux modèles d’IRIS.
@@ -141,7 +141,7 @@ Fonctionnalités de reconnaissance vocale du composant de stockage connecté à 
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

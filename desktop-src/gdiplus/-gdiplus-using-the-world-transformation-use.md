@@ -4,12 +4,12 @@ ms.assetid: 22f43b29-ea7b-4faf-9795-2242bf704ed3
 title: Utilisation de la transformation universelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6288b5640e330a827e96b632541dac44e9463b87c566c16a94797810c4c92c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2138df1bbd2be6d3329695fc6898da49da93b3b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414286"
 ---
 # <a name="using-the-world-transformation"></a>Utilisation de la transformation universelle
 

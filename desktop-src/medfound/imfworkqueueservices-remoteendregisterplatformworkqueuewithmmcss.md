@@ -4,12 +4,12 @@ ms.assetid: cb15129e-a3ad-4351-a7d6-dd4b883437bd
 title: RemoteEndRegisterPlatformWorkQueueWithMMCSS (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a14414d9fe6d093ee797d8c9e4879bd54cf89b3dbfc60b526ae8556f78ecc34e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 673281a8ed4e4c4174ecd2d874e7032776ea44c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117878296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415819"
 ---
 # <a name="remoteendregisterplatformworkqueuewithmmcss"></a>RemoteEndRegisterPlatformWorkQueueWithMMCSS
 
@@ -23,11 +23,11 @@ HRESULT RemoteEndRegisterPlatformWorkQueueWithMMCSS(
 );
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications ne peuvent pas appeler cette méthode directement, et les objets n’implémentent pas cette méthode. La méthode n’apparaît pas dans le vtable pour l’interface. Si [**EndRegisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-endregisterplatformworkqueuewithmmcss) est appelé à travers les limites de processus, la dll de proxy/stub de Media Foundation traduit l’appel en appel à la méthode distante, puis la traduit en retour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -17,11 +17,11 @@ topic_type:
 - APIRef
 - kbSyntax
 ms.openlocfilehash: 76e87747e3e452b5667278f97c067f15b278e71e
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415876"
 ---
 # <a name="span-idwwan_profile_v4element_accessstringspanmbnprofileextaccessstring-v4"></a><span id="WWAN_profile_v4.element_AccessString"></span>MBNProfileExt \/ ... \/ AccessString (v4)
 
@@ -39,7 +39,7 @@ Pour plus d’informations, consultez la documentation de l’élément [**Acces
 &nbsp;&nbsp;[\<Context\>](element-1-context.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;**\<AccessString\>**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <AccessString>
@@ -69,7 +69,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

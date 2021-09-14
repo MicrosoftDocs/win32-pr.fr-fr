@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 28f476c32abbffa8faadd8a7c527f07d81632eee10f1c6cfc54eacc926b4f4e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bff2155a2cb2cb21d4c25d868f95472f47f15b1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104575"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414162"
 ---
 # <a name="mf_mse_ready-enumeration"></a>\_ \_ Énumération compatible MF MSE
 
@@ -62,7 +62,7 @@ La source du média est terminée.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

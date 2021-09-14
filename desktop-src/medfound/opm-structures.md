@@ -4,12 +4,12 @@ ms.assetid: 676a60ca-393e-4b5d-89d3-50cf4b771492
 title: Structures OPM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b35d72c5a5301dbc07b990aa4076f14fc221a1fde6af9c81e1f4a37fb424e24
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b62bc7cbc13b987a2cfdda5d210cddd2fd05b8fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414054"
 ---
 # <a name="opm-structures"></a>Structures OPM
 

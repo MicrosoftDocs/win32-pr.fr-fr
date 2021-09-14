@@ -4,12 +4,12 @@ description: vous pouvez étendre Microsoft Windows Desktop Search (WDS) pour in
 ms.assetid: 2447d95f-5832-453c-8857-3b4f4c158177
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc107c8ca51d43e2602206eb993cea6cac6dd9ec866670235daf7fb81452f5e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45a8688621f7d2fda653d769c0e1dfdadd240f49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415884"
 ---
 # <a name="developing-protocol-handler-add-ins"></a>Développement de compléments de gestionnaires de protocole
 

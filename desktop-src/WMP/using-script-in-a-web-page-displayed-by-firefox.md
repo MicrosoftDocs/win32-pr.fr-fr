@@ -30,12 +30,12 @@ keywords:
 - exemple de script pour l’incorporation de pages Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450b03f7adefca1a887fb31207f0a3280e1925c9d3e1f1066df370d87f0a7779
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8629f87f954d12602999f76483fdd36ab279290
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119762059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416168"
 ---
 # <a name="using-script-in-a-web-page-displayed-by-firefox"></a>Utilisation d’un script dans une page Web affichée par Firefox
 
@@ -64,23 +64,23 @@ la plupart des objets du modèle objet Lecteur Windows Media sont pris en charge
 |-----------------------------------------------------|-----------------|
 | [-](cdrom-object.md)                           | non              |
 | [CdromCollection](cdromcollection-object.md)       | non              |
-| [ClosedCaption](closedcaption-object.md)           | oui             |
+| [ClosedCaption](closedcaption-object.md)           | Oui             |
 | [Contrôles](controls-object.md)                     | non              |
 | [DVD](dvd-object.md)                               | non              |
-| [Error](error-object.md)                           | oui             |
-| [ErrorItem](erroritem-object.md)                   | oui             |
-| [Média](media-object.md)                           | oui             |
+| [Error](error-object.md)                           | Oui             |
+| [ErrorItem](erroritem-object.md)                   | Oui             |
+| [Média](media-object.md)                           | Oui             |
 | [MediaCollection](mediacollection-object.md)       | non              |
 | [MetadataPicture](metadatapicture-object.md)       | non              |
 | [MetadataText](metadatatext-object.md)             | non              |
-| [Réseau](network-object.md)                       | oui             |
-| [Lecteur](player-object.md)                         | oui             |
+| [Réseau](network-object.md)                       | Oui             |
+| [Lecteur](player-object.md)                         | Oui             |
 | [PlayerApplication](playerapplication-object.md)   | non              |
-| [Sélection](playlist-object.md)                     | oui             |
+| [Sélection](playlist-object.md)                     | Oui             |
 | [PlaylistArray](playlistarray-object.md)           | non              |
 | [PlaylistCollection](playlistcollection-object.md) | non              |
 | [Requête](query-object.md)                           | non              |
-| [Paramètres](settings-object.md)                     | oui             |
+| [Paramètres](settings-object.md)                     | Oui             |
 | [StringCollection](stringcollection-object.md)     | non              |
 
 

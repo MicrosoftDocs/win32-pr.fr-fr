@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d8970ad1e75f37e8270a013d3830216ae128e41c03d4ad5245ac6ffc7615691
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e582d8f94b2dbcbb2052a8cf3a59d8ba514367cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118532351"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416065"
 ---
 # <a name="id3dx11effecttechnique-interface"></a>Interface ID3DX11EffectTechnique
 
@@ -51,7 +51,7 @@ L’interface **ID3DX11EffectTechnique** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un effet contient une ou plusieurs techniques ; chaque technique contient une ou plusieurs passes ; chaque passe contient des attributions d’État.
 
@@ -62,7 +62,7 @@ Pour obtenir une interface d’action-technique, appelez une méthode telle que 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

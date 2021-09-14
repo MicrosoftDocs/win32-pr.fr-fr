@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 2b592148fdb094d3c44d944bc482504309f309fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542572"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417641"
 ---
 # <a name="utilitiesbinarytohex-method"></a>Méthode Utilities. BinaryToHex
 
@@ -48,17 +48,17 @@ Chaîne binaire compressée à convertir en une chaîne hexadécimale.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chaîne hexadécimale équivalant à la chaîne binaire compressée spécifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -67,7 +67,7 @@ Chaîne hexadécimale équivalant à la chaîne binaire compressée spécifiée.
 
 <dl> <dt>
 
-[**Services**](utilities.md)
+[**Eau, gaz et électricité**](utilities.md)
 </dt> </dl>
 
  

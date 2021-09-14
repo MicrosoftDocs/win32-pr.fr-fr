@@ -4,12 +4,12 @@ ms.assetid: d0ae573a-7ce3-49e8-9609-f72d067f1ce1
 title: Attribut MF_MP2DLNA_AUDIO_BIT_RATE (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aed622a2f826e061dc4b909eec09490974fe83a7ac850cd0fcdfcede0abd578b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15c61554f592aefbb863057339d807e23fc96567
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414170"
 ---
 # <a name="mf_mp2dlna_audio_bit_rate-attribute"></a>\_Attribut de \_ \_ vitesse de bits audio MF MP2DLNA \_
 
@@ -27,11 +27,11 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur le récepteur multimédia DLNA, interrogez le récepteur multimédia pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) . Définissez l’attribut avant le début de la diffusion en continu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

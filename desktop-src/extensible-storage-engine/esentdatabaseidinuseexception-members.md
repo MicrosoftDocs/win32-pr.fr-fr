@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101479
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 27b6c40b9f41f1e7d15adf85fa8d3a6b9c768a60e4ded125f72ddf5a9c3c5c36
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb11785fde3a41f2ec16b7133be9c38cdc5ecfd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119116259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416015"
 ---
 # <a name="esentdatabaseidinuseexception-members"></a>Membres EsentDatabaseIdInUseException
 
@@ -93,7 +93,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDatabaseIdInUseException, classe](./esentdatabaseidinuseexception-class.md)
 

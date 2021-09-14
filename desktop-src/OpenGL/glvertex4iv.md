@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32a1676ab4598d90861e4b1cd19ea977ad9ff7f4846512962dbf7f122caa73f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ff55c5534245843d5caa8797b2b529c7cfe00f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120035559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416678"
 ---
 # <a name="glvertex4iv-function"></a>glVertex4iv fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers un tableau de quatre éléments. Les éléments sont les coordonn�
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

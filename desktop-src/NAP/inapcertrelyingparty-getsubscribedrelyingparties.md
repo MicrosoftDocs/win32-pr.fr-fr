@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e9d94fd0816e9e8b3e89ba4001b30d83617276938c683f8f0efb6fd17530cb1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a84871838324c431278d15bb9e78471f48aa1f34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119891445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416773"
 ---
 # <a name="inapcertrelyingpartygetsubscribedrelyingparties-method"></a>INapCertRelyingParty :: GetSubscribedRelyingParties, méthode
 
@@ -62,7 +62,7 @@ Pointeur vers un pointeur vers un [**EnforcementEntityId**](nap-datatypes.md) qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’un des codes d’erreur suivants en fonction du résultat de cette opération.
 
@@ -78,11 +78,11 @@ Retourne l’un des codes d’erreur suivants en fonction du résultat de cette 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’appelant doit libérer le paramètre *relyingParties* à l’aide de **CoTaskMemFree**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

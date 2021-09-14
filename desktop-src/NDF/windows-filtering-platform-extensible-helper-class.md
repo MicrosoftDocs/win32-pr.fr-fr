@@ -4,12 +4,12 @@ description: la plateforme de filtrage de Windows (WFP) comprend une classe d’
 ms.assetid: 006ea30c-8682-4a3d-803a-73dba5162696
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff972beffebb44b33eb68a0439193307639522738ac1f8766845404c03d3cd9c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 858835c1a649602293ed042c13205ca982de9258
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416759"
 ---
 # <a name="windows-filtering-platform-extensible-helper-class"></a>Windows Classe d’assistance extensible de la plateforme de filtrage
 

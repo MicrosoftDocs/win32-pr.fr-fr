@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d2e3ab848caa24cb77a8cb45e992eeac7365af0de743fa148b07b484239fa658
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1d8cdea3e43bbe10ee87f8f4aa605740a15e6ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117771948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416506"
 ---
 # <a name="certificatearchived-property"></a>Propriété Certificate. Archived
 
@@ -41,7 +41,7 @@ Certificate.Archived As Boolean
 
 Valeur booléenne qui indique si le certificat est archivé. Si la **valeur est true**, le certificat est archivé. Notez que le fait de remplacer la valeur **false** par **true** Archive le certificat.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété déclenche l’E CAPICOM \_ E \_ non \_ autorisée lorsque le script est basé sur une application Web.
 
@@ -50,7 +50,7 @@ Cette propriété déclenche l’E CAPICOM \_ E \_ non \_ autorisée lorsque le 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

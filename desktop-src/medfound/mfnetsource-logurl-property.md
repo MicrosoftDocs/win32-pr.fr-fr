@@ -4,12 +4,12 @@ ms.assetid: 772c5b57-273d-4289-9229-ef7a199c6473
 title: MFNETSOURCE_LOGURL, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b855475e17264682ffc49a391894bb6acc6a721712b8ce6e4c01d98b1d216d48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6956a7deb251ee9a25261a1b6c6a723973f7a03b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117874633"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414112"
 ---
 # <a name="mfnetsource_logurl-property"></a>MFNETSOURCE \_ propriété LOGURL
 
@@ -31,13 +31,13 @@ Tableau de chaînes de caractères larges (**CALPWSTR**)
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ LOGURL** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

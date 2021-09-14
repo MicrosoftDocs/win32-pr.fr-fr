@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 74042df74f8e128c4d92b6e4f1c886a7bba2f673c1a8a998a4b7f251475c3f93
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d3f1c495cf44b84f8d7661b40cadec6ea255c6a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416917"
 ---
 # <a name="fileio_opend-class"></a>FileIo ( \_ classe ouverte)
 
@@ -100,11 +100,11 @@ Valeur de retour de l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les événements [**FileIo**](fileio.md) sont journalisés au début de l’opération. Les événements ouverts peuvent être activés séparément pour indiquer la fin de ces opérations. La IRP peut être utilisée pour mettre en corrélation les événements de début et de fin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

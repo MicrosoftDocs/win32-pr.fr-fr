@@ -5,11 +5,11 @@ title: Attribut MF_PD_ASF_FILEPROPERTIES_MAX_PACKET_SIZE (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 6d9c95b7511525570a9e04a33db8128f374f9472
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530110"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414139"
 ---
 # <a name="mf_pd_asf_fileproperties_max_packet_size-attribute"></a>\_Attribut de \_ \_ \_ taille maximale des \_ paquets \_ MF PD ASF
 
@@ -25,14 +25,14 @@ Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) génère cet attribut à partir des métadonnées ASF.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

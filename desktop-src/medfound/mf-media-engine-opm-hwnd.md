@@ -4,12 +4,12 @@ ms.assetid: E5271D72-FE16-4D28-9BBA-1440C7CE0921
 title: Attribut MF_MEDIA_ENGINE_OPM_HWND (Mfmediaengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e1079e7b9503c73ea678e4f9fd3642ec94fe43a1326e6f33a635f81d1bc1a64
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d60dd38f4f9eaca3e4eefbf84142c1509463f9b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414188"
 ---
 # <a name="mf_media_engine_opm_hwnd-attribute"></a>Attribut de HWND de l’un des \_ Media \_ Engines \_ OPM \_
 
@@ -19,7 +19,7 @@ Spécifie une fenêtre pour le moteur multimédia qui applique des protections d
 
 **HWND** stocké comme **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé avec la méthode [**IMFMediaEngineClassFactory :: CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) pour initialiser le moteur multimédia.
 
@@ -29,7 +29,7 @@ Pour activer les protections OPM pour la lecture vidéo, l’application doit ef
 -   Définissez l' \_ attribut du \_ \_ HWND OPM Media Engine \_ pour la création du moteur multimédia.
 -   Appelez [**IMFMediaEngineProtectedContent :: SetOPMWindow**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineprotectedcontent-setopmwindow) à tout moment après avoir créé le moteur multimédia, mais avant d’afficher le contenu protégé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

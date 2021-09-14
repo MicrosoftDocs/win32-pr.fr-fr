@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 615f74cabf3a93280e48849fbf561c281a43a03fad19bcb0555d5830d82391e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e13cb3969fe09639bab7f9e39c46030d6ccd3576
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119070169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416884"
 ---
 # <a name="image_v0-class"></a>Image \_ v0, classe
 
@@ -38,7 +38,7 @@ class Image_V0 : MSNT_SystemTrace
 
 La classe **image \_ v0** ne définit aucun membre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

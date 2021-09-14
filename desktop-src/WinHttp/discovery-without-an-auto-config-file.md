@@ -4,12 +4,12 @@ ms.assetid: a170e63a-8586-47df-af5e-4ee3621795b2
 title: Détection sans fichier de configuration automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 553f4f798a821ff219b587c494d5dccfbba8c4b22efd0d1692ca2069f53041de
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6a5ec281c2ef74e2a377cecbd30f16cbc49bd79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414536"
 ---
 # <a name="discovery-without-an-auto-config-file"></a>Détection sans fichier de configuration automatique
 

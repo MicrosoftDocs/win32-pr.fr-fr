@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3d444c39796f741cd800fb393527e5adca6e50cef05de0c55c1def2bb40142a1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c41a9ad4b1fde0a741a022eb6cfd20823643eeef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120124379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414585"
 ---
 # <a name="keywordtype-complex-type"></a>Type complexe KeywordType
 
@@ -70,11 +70,11 @@ Définit un mot clé qui identifie une catégorie d’événements. Un mot clé 
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le fichier Winmeta.xml inclus dans le SDK Windows contient une liste de mots clés. Ces mots clés sont réservés et ne doivent pas être utilisés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

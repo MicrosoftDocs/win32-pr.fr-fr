@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 11a85c182511a866d3fb76f291b0a73ed0541fdee34b7e6f74c036b5446792db
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6e88d1b9b5b36815b1a833062c30e804e4db744a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416914"
 ---
 # <a name="fileio_v0_name-class"></a>FileIo \_ v0, \_ classe de nom
 
@@ -82,11 +82,11 @@ Faire correspondre la valeur de ce pointeur à la valeur de pointeur **FileObjec
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Windows Server 2003 :** Pour récupérer la lettre de lecteur pour le chemin d’accès au nom de fichier, utilisez la valeur de propriété **FileObject** pour effectuer un mappage à l’événement [**\_ TypeGroup1 e**](diskio-typegroup1.md) correspondant. À partir de l’événement **e \_ TypeGroup1** , utilisez les valeurs de propriété **DiskNumber** et **ByteOffset** pour mapper à l’événement SystemConfig [**\_ LogDisk**](systemconfig-logdisk.md) correspondant. La propriété **DriveLetterString** contient la lettre de lecteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

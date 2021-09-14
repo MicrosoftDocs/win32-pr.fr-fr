@@ -9,12 +9,12 @@ keywords:
 - Registre, type 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01a5494f56a4c3fa7ea91d9537f6177453a1df54f684aa73c347029574f8dde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 685a26514730e7c370c698cbc9c64c29366c35ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416209"
 ---
 # <a name="registry-keys-and-entries-for-a-type-2-online-store"></a>Clés et entrées de Registre pour un magasin de type 2 en ligne
 

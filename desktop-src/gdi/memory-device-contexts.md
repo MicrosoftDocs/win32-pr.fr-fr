@@ -4,12 +4,12 @@ ms.assetid: 0a682dc4-31a4-43c8-b0b1-ab01986b1dac
 title: Contextes de périphérique mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63469823e38eb98da5d43ede006e6b1e64af874d300127db6cd4cc7743672d29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 095de04fdf965a87011895015ad7ea6c9782e286
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118760057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415943"
 ---
 # <a name="memory-device-contexts"></a>Contextes de périphérique mémoire
 

@@ -4,12 +4,12 @@ ms.assetid: d39a3882-5846-4e20-84a2-e1bccd781e23
 title: Windows Journalisation du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ae0b332fd0b52a9cc3233d248a06aacaf036dc27004cc2ac6d72de3eff5ee1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cbb7906410d641498a51b45fa6c90e591c12d8e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416874"
 ---
 # <a name="windows-installer-logging"></a>Windows Journalisation du programme d’installation
 

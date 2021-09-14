@@ -11,12 +11,12 @@ keywords:
 - DRM_LicenseAcqURL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fc6b77a6f61f9fb85b7bac9a88f2a972eda4e9ae288f3aa35e80f8d3e12ce46
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 440683ce65417653251bbed58d59c4d9a34dbc57
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118833914"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416192"
 ---
 # <a name="resizing-the-license-acquisition-dialog-box"></a>Redimensionnement de la boîte de dialogue acquisition de licence
 

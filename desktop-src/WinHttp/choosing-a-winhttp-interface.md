@@ -5,11 +5,11 @@ title: Choix d’une interface WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fa7772959bd76dc7a257abc180c915f99df988a7
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472355"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414540"
 ---
 # <a name="choosing-a-winhttp-interface"></a>Choix d’une interface WinHTTP
 

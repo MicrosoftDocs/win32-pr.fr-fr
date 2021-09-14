@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 85760bbcdcc81204340004304be1f0c14bf9bcbbbd7a5b59eebf47a25f7b15c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c5ae4632ede898b7cd323723037ea68d53455b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416659"
 ---
 # <a name="pdhvbgetcounterpathfromlist-function"></a>PdhVbGetCounterPathFromList fonction)
 
@@ -54,11 +54,11 @@ Nombre maximal de caractères qui peuvent être contenus dans la chaîne référ
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne le nombre de caractères copiés dans la mémoire tampon.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

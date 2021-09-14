@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: df4741538ae11dbe1b158fd9b8e8a6c8632c427f9a0e8376e8cd10c9056461fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ecdb665a8e70ff329f25398eb855ff3e82c96cfa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117766084"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416412"
 ---
 # <a name="envelopeddataencrypt-method"></a>EnvelopedData. Encrypt, méthode
 
@@ -60,17 +60,17 @@ Valeur de l’énumération de [**\_ \_ type d’encodage**](capicom-encoding-ty
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un objet BLOB qui contient les données enveloppées dans une chaîne encodée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet BLOB retourné contient le contenu chiffré et une clé de session chiffrée pour chaque destinataire prévu. Ces clés de session sont chiffrées à l’aide de la clé publique de chaque destinataire. Les clés de session chiffrées ne peuvent être déchiffrées qu’avec la clé privée d’un destinataire.
 
 Si la propriété [**Recipients**](envelopeddata-recipients.md) ne contient aucune information, cette méthode recherche les destinataires potentiels dans le magasin de certificats AddressBook de l’utilisateur actuel. Si plusieurs destinataires potentiels sont trouvés, l’utilisateur est invité à sélectionner un destinataire dans une boîte de dialogue de sélection.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cardmod.h
-ms.openlocfilehash: 8038179c7337edaff0138fc46c34191f99821250808c4ace16dc76cdfafd3b19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9879fa73f6bb45b56f433d7bca7765ab5fc0daef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119878959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416511"
 ---
 # <a name="card_directory_access_condition-enumeration"></a>\_ \_ Énumération des conditions d’accès au répertoire des cartes \_
 
@@ -62,7 +62,7 @@ Les administrateurs peuvent lire, écrire et supprimer le répertoire.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

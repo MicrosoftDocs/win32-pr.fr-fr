@@ -4,12 +4,12 @@ ms.assetid: 751ba2fc-fbff-4418-82ac-eebc8a145b14
 title: vue d’ensemble du capteur de Windows et de la plateforme d’emplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc4847d6d6137b91ce577cfce0dbc54cc8c6e19430e1318eaff145c24ce493af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b01b6d3132ad6e1bc299895bc39668edbe19b91c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118889727"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416346"
 ---
 # <a name="overview-of-the-windows-sensor-and-location-platform"></a>vue d’ensemble du capteur de Windows et de la plateforme d’emplacement
 

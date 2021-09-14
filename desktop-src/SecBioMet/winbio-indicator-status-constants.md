@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd05d279bd11eafda89eed436c94d6141e97ad0eb9d2fc426d5c89000f36414
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7693fbd2b9b37067738774d172f4bb482edb06e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416527"
 ---
 # <a name="winbio_indicator_status-constants"></a>\_Constantes d’état de l’indicateur WINBIO \_
 
@@ -37,7 +37,7 @@ Les valeurs suivantes peuvent être utilisées pour définir un témoin lumineux
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

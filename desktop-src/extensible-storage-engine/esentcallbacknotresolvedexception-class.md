@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: df3fa5ab53307c3527024c2faac0f9b79194e488d040ec49de3ed282c29d36ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a730ce6779f41fb348a7e9685dd9ffc132897824
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119041948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414420"
 ---
 # <a name="esentcallbacknotresolvedexception-class"></a>EsentCallbackNotResolvedException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentCallbackNotResolvedException](./esentcallbacknotresolvedexception-members.md)
 

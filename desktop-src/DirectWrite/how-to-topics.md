@@ -4,12 +4,12 @@ description: consultez les rubriques de procédures dans le guide de programmati
 ms.assetid: da4817ee-0bff-433f-b595-4250199bcc14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42848fbf00e099926763f0db54338f3a87ff583782b939f8250a1aabb2b73ca5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cc35d9b92001bc8c4807f8b77434559994aaac4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120048859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416953"
 ---
 # <a name="how-to-topics-directwrite"></a>Rubriques de procédures (DirectWrite)
 

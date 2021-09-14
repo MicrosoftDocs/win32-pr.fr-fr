@@ -1,27 +1,27 @@
 ---
 title: Règles d’utilisation des pointeurs
-description: Le portage de votre code pour la compilation pour Microsoft Windows 32 et 64 bits est simple. Vous devez uniquement suivre quelques règles simples concernant les pointeurs de Cast et utiliser les nouveaux types de données dans votre code. Les règles de manipulation des pointeurs sont les suivantes.
+description: le portage de votre code pour la compilation pour les Windows Microsoft 32 et 64 bits est simple. Vous devez uniquement suivre quelques règles simples concernant les pointeurs de Cast et utiliser les nouveaux types de données dans votre code. Les règles de manipulation des pointeurs sont les suivantes.
 ms.assetid: 4c38bee2-fa1c-493f-a12d-e673df4d4895
 keywords:
-- règles d’utilisation de la programmation Windows de pointeurs 64 bits
-- manipulation de pointeur pour la programmation Windows 64 bits
-- Programmation de pointeurs de casting Windows 64 bits
+- règles d’utilisation des pointeurs 64-bit Windows programmation
+- manipulation de pointeurs 64 bits Windows programmation
+- programmation de pointeurs de casting 64 bits Windows
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 318ff5beed6dc90bd49b6b293131e17db6f92f6b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103941435"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416127"
 ---
 # <a name="rules-for-using-pointers"></a>Règles d’utilisation des pointeurs
 
-Le portage de votre code pour la compilation pour Microsoft Windows 32 et 64 bits est simple. Vous devez uniquement suivre quelques règles simples concernant les pointeurs de Cast et utiliser les nouveaux types de données dans votre code. Les règles de manipulation des pointeurs sont les suivantes.
+le portage de votre code pour la compilation pour les Windows Microsoft 32 et 64 bits est simple. Vous devez uniquement suivre quelques règles simples concernant les pointeurs de Cast et utiliser les nouveaux types de données dans votre code. Les règles de manipulation des pointeurs sont les suivantes.
 
 1.  N’effectuez pas de cast des pointeurs vers **int**, **long**, **ULong** ou **DWORD**.
 
-    Si vous devez effectuer un cast d’un pointeur pour tester certains bits, définir ou effacer des bits, ou encore manipuler son contenu, utilisez le type PTR **\_ ptr** ou **int \_ ptr** . Ces types sont des types intégraux qui s’adaptent à la taille d’un pointeur pour les fenêtres 32 et 64 bits (par exemple, **ULong** pour les fenêtres 32 bits et \_ Int64 pour les fenêtres de 64 bits). Par exemple, supposons que vous portiez le code suivant :
+    Si vous devez effectuer un cast d’un pointeur pour tester certains bits, définir ou effacer des bits, ou encore manipuler son contenu, utilisez le type PTR **\_ ptr** ou **int \_ ptr** . ces types sont des types intégraux qui s’adaptent à la taille d’un pointeur pour les Windows 32 et 64 bits (par exemple, **ULONG** pour 32 bits Windows et \_ int64 pour 64 bits Windows). Par exemple, supposons que vous portiez le code suivant :
 
     `ImageBase = (PVOID)((ULONG)ImageBase | 1);`
 
@@ -31,7 +31,7 @@ Le portage de votre code pour la compilation pour Microsoft Windows 32 et 64 bit
 
     Utilisez **uint \_ ptr** et **int \_ ptr** le cas échéant (et si vous n’êtes pas certain qu’ils sont requis, il n’y a pas de danger de les utiliser uniquement dans le cas présent). N’effectuez pas de cast de vos pointeurs vers les types **ULong**, **long**, **int**, **uint** ou **DWORD**.
 
-    Notez que le **descripteur** est défini comme **\* void**, donc Cast une valeur de **handle** à une valeur **ULong** pour tester, définir ou décocher les bits de poids faible est une erreur sur Windows 64 bits.
+    Notez que **descripteur** est défini en tant que **void _. par \* *conséquent, Cast a _* handle** value vers une valeur **ULong** pour tester, définir ou effacer les bits de poids faible est une erreur sur le Windows bits 64.
 
 2.  Utilisez la fonction **PtrToLong** ou **PtrToUlong** pour tronquer les pointeurs.
 
@@ -63,7 +63,7 @@ Le portage de votre code pour la compilation pour Microsoft Windows 32 et 64 bit
     func(&lp);
     ```
 
-    Cast &UL à **Pulong \*** empêche une erreur du compilateur, mais la fonction écrit une valeur de pointeur 64 bits dans la mémoire au niveau de &UL. Ce code fonctionne sur Windows 32 bits, mais entraîne une altération des données sur Windows 64 bits et il s’agit d’une corruption difficile et difficile à trouver. La ligne inférieure : ne jouez pas de plis avec le code C. la solution est plus simple et simple.
+    Cast &UL à **Pulong \*** empêche une erreur du compilateur, mais la fonction écrit une valeur de pointeur 64 bits dans la mémoire au niveau de &UL. ce code fonctionne sur les Windowss 32 bits, mais entraîne une corruption des données sur les Windows 64 bits, et il s’agit d’une corruption difficile et difficile à trouver. La ligne inférieure : ne jouez pas de plis avec le code C. la solution est plus simple et simple.
 
 6.  Soyez vigilant avec les interfaces polymorphes.
 
@@ -80,9 +80,9 @@ Le portage de votre code pour la compilation pour Microsoft Windows 32 et 64 bit
     -   [**SetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-setclasslongptra)
     -   [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra)
 
-    Ces fonctions peuvent être utilisées sur les fenêtres 32 et 64 bits, mais elles sont requises sur les fenêtres 64 bits. Préparez la transition à l’aide de ces fonctions maintenant.
+    ces fonctions peuvent être utilisées sur les Windows 32 et 64 bits, mais elles sont requises sur 64 bits Windows. Préparez la transition à l’aide de ces fonctions maintenant.
 
-    En outre, vous devez accéder aux pointeurs ou aux handles dans les données privées de la classe à l’aide des nouvelles fonctions sur Windows 64 bits. Pour vous aider à trouver ces cas, les index suivants ne sont pas définis dans winuser. h pendant une compilation 64 bits :
+    En outre, vous devez accéder aux pointeurs ou aux descripteurs dans les données privées de la classe à l’aide des nouvelles fonctions sur l’Windows 64 bits. Pour vous aider à trouver ces cas, les index suivants ne sont pas définis dans winuser. h pendant une compilation 64 bits :
 
     -   GWL \_ WNDPROC
     -   GWL \_ HINSTANCE
@@ -109,12 +109,12 @@ Le portage de votre code pour la compilation pour Microsoft Windows 32 et 64 bit
 
 8.  Accédez à toutes les données de la fenêtre et de la classe à l’aide du **\_ décalage du champ**.
 
-    Il est courant d’accéder aux données de fenêtre à l’aide d’offsets codés en dur. Cette technique n’est pas portable pour Windows 64 bits. Pour rendre votre code portable, accédez à votre fenêtre et à vos données de classe à l’aide de la macro **\_ offset de champ** . Ne partez pas du principe que le deuxième pointeur a un décalage de 4.
+    Il est courant d’accéder aux données de fenêtre à l’aide d’offsets codés en dur. Cette technique n’est pas portable pour la Windows 64 bits. Pour rendre votre code portable, accédez à votre fenêtre et à vos données de classe à l’aide de la macro **\_ offset de champ** . Ne partez pas du principe que le deuxième pointeur a un décalage de 4.
 
 9.  Les types **lParam**, **wParam** et **LRESULT** changent de taille avec la plateforme.
 
     Lors de la compilation de code 64 bits, ces types sont étendus à 64 bits, car ils contiennent généralement des pointeurs ou des types intégraux. Ne combinez pas ces valeurs avec des valeurs **DWORD**, **ULong**, **uint**, **int**, **int** ou **long** . Examinez la façon dont vous utilisez ces types et assurez-vous de ne pas tronquer par inadvertance les valeurs.
 
- 
+ 
 
- 
+ 

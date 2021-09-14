@@ -4,12 +4,12 @@ ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
 title: Prévention des blocages dans les applications Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5509b8733e45b105694a8bfdadddae0d67096b92c390ed98b3dd937817823b39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35a2d8fac95039f20c8c684c50138933c54750c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994818"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414549"
 ---
 # <a name="preventing-hangs-in-windows-applications"></a>Prévention des blocages dans les applications Windows
 
@@ -75,7 +75,7 @@ Toutefois, l’utilisateur perçoit cela comme un bogue. La conception doit corr
 
 Malheureusement, il n’existe aucun moyen simple de concevoir et d’écrire une application réactive. Windows ne fournit pas une infrastructure asynchrone simple qui permet une planification facile des opérations de blocage ou de longue durée. Les sections suivantes présentent quelques-unes des meilleures pratiques pour empêcher les blocages et mettre en évidence certains des pièges les plus courants.
 
-## <a name="best-practices"></a>Meilleures pratiques
+## <a name="best-practices"></a>Bonnes pratiques
 
 **Garder le thread d’interface utilisateur simple**
 
@@ -88,7 +88,7 @@ La responsabilité principale du thread d’interface utilisateur est de récup�
 -   Faites un effort supplémentaire pour supprimer toutes les e/s de fichier et les appels d’API réseau de votre thread de travail. Ces fonctions peuvent se bloquer pendant de nombreuses secondes si elles ne sont pas des minutes. Si vous devez effectuer n’importe quel type d’e/s dans le thread d’interface utilisateur, envisagez d’utiliser des e/s asynchrones
 -   N’oubliez pas que votre thread d’interface utilisateur traite également tous les serveurs COM STA (Single-Threaded Apartment) hébergés par votre processus. Si vous effectuez un appel bloquant, ces serveurs COM ne répondront pas tant que vous n’aurez pas reservi la file d’attente de messages
 
-**Ne pas :**
+**Ne pas:**
 
 -   Attendre un objet de noyau (comme un événement ou un mutex) pendant plus d’un laps de temps. Si vous devez attendre, envisagez d’utiliser MsgWaitForMultipleObjects (), qui se débloquera à l’arrivée d’un nouveau message
 -   Partagez la file d’attente de messages de fenêtre d’un thread avec un autre thread à l’aide de la fonction AttachThreadInput (). il est non seulement extrêmement difficile de synchroniser correctement l’accès à la file d’attente, mais également d’empêcher le système d’exploitation Windows de détecter correctement une fenêtre bloquée
@@ -142,7 +142,7 @@ En examinant ce code, il est évident que nous avons implicitement établi g \_ 
 -   Soyez prudent lors de l’attente d’un handle de thread à partir d’une DLL. Supposez toujours que votre code peut être appelé sous le verrou du chargeur. Il est préférable de faire référence à vos ressources et de laisser le thread de travail effectuer son propre nettoyage (puis utiliser FreeLibraryAndExitThread pour s’arrêter correctement)
 -   Utiliser l’API traversée de chaîne d’attente si vous souhaitez diagnostiquer vos propres blocages
 
-**Ne pas :**
+**Ne pas:**
 
 -   Effectuez tout autre opération d’initialisation très simple dans votre fonction DllMain (). Pour plus d’informations, consultez fonction de rappel DllMain. En particulier, n’appelez pas LoadLibraryEx ou CoCreateInstance
 -   Écrivez vos propres primitives de verrouillage. Le code de synchronisation personnalisé peut facilement introduire des bogues subtils dans votre base de code. Utilisez plutôt la sélection enrichie d’objets de synchronisation du système d’exploitation.
@@ -177,7 +177,7 @@ L’exemple de code ci-dessous illustre ce problème. L’accès illimité à la
 -   Encapsulez vos verrous dans des \_ modèles de type PTR automatique personnalisés si vous utilisez des exceptions C++. Le verrou doit être libéré dans le destructeur. Pour les exceptions natives, les verrous sont libérés dans votre \_ \_ instruction finally
 -   Faites attention au code s’exécutant dans un gestionnaire d’exceptions natif ; l’exception peut avoir divulgué de nombreux verrous, donc votre gestionnaire ne doit pas acquérir
 
-**Ne pas :**
+**Ne pas:**
 
 -   Gérez les exceptions natives si elles ne sont pas nécessaires ou requises par les API Win32. si vous utilisez des gestionnaires d’exceptions natifs pour la création de rapports ou la récupération de données après des défaillances catastrophiques, envisagez d’utiliser le mécanisme de système d’exploitation par défaut de Rapport d’erreurs Windows à la place
 -   Utilisez des exceptions C++ avec n’importe quel type de code d’interface utilisateur (User32). une exception levée dans un rappel transite par des couches de code C fournies par le système d’exploitation. Ce code ne connaît pas les sémantiques de la désroll C++
@@ -195,7 +195,7 @@ L’exemple de code ci-dessous illustre ce problème. L’accès illimité à la
 -   [**Fonction GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)
 -   [Annulation d’e/s](../fileio/canceling-pending-i-o-operations.md)
 -   [**IsHungAppWindow fonction)**](/windows/win32/api/winuser/nf-winuser-ishungappwindow)
--   [File d’attente des messages](../winmsg/using-messages-and-message-queues.md)
+-   [File d’attente de messages](../winmsg/using-messages-and-message-queues.md)
 -   [**MsgWaitForMultipleObjects fonction)**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects)
 -   [Nouvelle API de pool de threads](../procthread/thread-pool-api.md)
 -   [**PostMessage, fonction**](/windows/win32/api/winuser/nf-winuser-postmessagea)

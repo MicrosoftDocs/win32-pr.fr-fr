@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ce1bb82b34490f8a1f3734225cbde1e761c575a2019a30db7790bfc7fa3c169
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a9aa3aef828249b5c72f9e7cdd1bd3b69c96832
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416639"
 ---
 # <a name="ras_ppp_projection_result-structure"></a>\_Structure du \_ résultat de projection PPP RAS \_
 
@@ -73,11 +73,11 @@ Structure [**de \_ \_ \_ résultat du protocole ATCP PPP RAS**](ras-ppp-atcp-res
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure signale les résultats de la projection pour les protocoles NetBEUI, TCP/IP et IPX. Chaque structure PPP a un membre **dwError** qui indique si les autres informations de la structure sont valides. Si **dwError** n’est pas une \_ erreur, les autres informations sont valides. Si **dwError** est l’un des codes d’erreur dans Winerror. h ou Raserror. h, les autres informations ne sont pas valides.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

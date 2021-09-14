@@ -4,12 +4,12 @@ ms.assetid: 435d5700-99db-464e-8bca-fc5a87e28c07
 title: Windows Programme d’installation sur les systèmes d’exploitation 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afb8a365beabdc4e44e7faf6dad19693acdfec9e8bcf3e291b36ad402bb414a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54d1653b068e69399ae92d0d6c140bf6012cb976
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416873"
 ---
 # <a name="windows-installer-on-64-bit-operating-systems"></a>Windows Programme d’installation sur les systèmes d’exploitation 64 bits
 

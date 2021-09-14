@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9815844833c8068fb89589368f29b15787ad8fb18a21c9f9c6867d202e3095a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c10b62365453f395c1aaf373e355c21260900f8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416227"
 ---
 # <a name="image-element-wmp-sdk"></a>Image, élément (kit de développement logiciel (SDK) WMP)
 
@@ -85,7 +85,7 @@ URL du logo qui s’affiche avec la description marketing spécifiée dans l’�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les formats d’image pris en charge sont .gif, .jpg, .bmp et .png (ce qui est le format recommandé). L’utilisation de la transparence Web est prise en charge et recommandée. Les fichiers GIF animés ne sont pas pris en charge.
 
@@ -93,7 +93,7 @@ si vous ne fournissez pas de valeur pour **MenuURL**, Lecteur Windows Media n’
 
 Vous pouvez fournir une image animée pour ServiceLargeURL. dans Lecteur Windows Media 10 ou 11, l’image est animée. dans Lecteur Windows Media 12, seule la première image de l’image est affichée. Pour fournir une image animée, créez un fichier image unique qui contient des frames successifs de votre animation. Par exemple, pour une image d’une largeur de 30 pixels et de 30 pixels de haut, vous pouvez fournir 20 images successives côte à côte dans une image de 600 pixels de large et de 30 pixels de haut. Lecteur Windows Media animera automatiquement ce type d’image en présentant les 20 images individuelles l’une après l’autre. Cette animation se produit une seule fois lors de l’ouverture du magasin en ligne. elle ne se répète pas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 963fc78243cf235fe0975fae203e17d1d4f6e71bb909259c7c83acc4fe9e5f07
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3b323effebe60597e1d6cf66e75d48c39fcdca4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120080649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416394"
 ---
 # <a name="keyusageisdigitalsignatureenabled-property"></a>KeyUsage. IsDigitalSignatureEnabled, propriété
 
@@ -39,7 +39,7 @@ KeyUsage.IsDigitalSignatureEnabled As Boolean
 
 Si la **valeur est true**, le bit DigitalSignature est défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

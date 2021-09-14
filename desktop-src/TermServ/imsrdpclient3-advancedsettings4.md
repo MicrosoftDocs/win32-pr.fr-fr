@@ -46,12 +46,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77e8bd4d5562f5f7b73eac6c580fe7b033a10b8ce7f0471b2d1ca969cd7ae0ce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c7a229c28b645e7920212a04cc44ca5a9ce42be3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414621"
 ---
 # <a name="imsrdpclient3advancedsettings4-property"></a>IMsRdpClient3 :: AdvancedSettings4, propriété
 
@@ -78,13 +78,13 @@ Pointeur vers l’interface [**IMsRdpClientAdvancedSettings3**](imsrdpclientadva
 
 Si la méthode est réussie, **S \_ OK** est retourné. Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété ne peut pas être définie lorsque le contrôle est connecté.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

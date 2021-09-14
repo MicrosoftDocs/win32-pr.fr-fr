@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 772e4a35d94f49cdbaa2be3053beb28f899654ed69961101e63bb1d6ab531641
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4005fc26a2bc5f928cde0f5ed67ec2098cf3e6bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119469889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416276"
 ---
 # <a name="ambientattributestabstop"></a>AmbientAttributes. tabStop
 
@@ -42,13 +42,13 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut **tabStop** n’est pas applicable à l’élément **Effects** .
 
 La valeur par défaut de cet attribut est true pour tous les éléments, à l’exception du **menu** automatique et du **texte**, dont la valeur par défaut est false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - attributs, globaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69c2d52b6489a28eff20e3a7e5c7180fc9e2db9309c0fe42880bfc779a23f563
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19c3f7a605b5c277b3207cefbbeaaa641f81f026
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416255"
 ---
 # <a name="global-attributes"></a>Attributs globaux
 

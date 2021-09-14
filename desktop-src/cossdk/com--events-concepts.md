@@ -4,12 +4,12 @@ ms.assetid: 6bfe4852-4029-4dd4-92ad-3061618b1b23
 title: Concepts des événements COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aeccbb375f7858ce49fe7362a5612e5ac8635711cde3acd127166be7db07ba6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 811dbca17c4e90ba5e8c2bcb8c918ce6634487e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118103099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416108"
 ---
 # <a name="com-events-concepts"></a>Concepts des événements COM+
 

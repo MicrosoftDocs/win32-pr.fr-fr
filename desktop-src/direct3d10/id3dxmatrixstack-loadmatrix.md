@@ -15,11 +15,11 @@ api_location:
 - D3DX10.lib
 - D3DX10.dll
 ms.openlocfilehash: 20c80f578abd5e35c89f3ecccedd2ab7fd59e812
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414500"
 ---
 # <a name="id3dxmatrixstackloadmatrix-method-d3dx10h"></a>ID3DXMATRIXStack :: LoadMatrix, méthode (D3DX10. h)
 
@@ -49,17 +49,17 @@ Pointeur vers la structure D3DXMATRIX chargée dans la matrice actuelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Notez que cette méthode n’ajoute pas d’élément à la pile ; au lieu de cela, elle remplace la matrice actuelle par la matrice fournie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

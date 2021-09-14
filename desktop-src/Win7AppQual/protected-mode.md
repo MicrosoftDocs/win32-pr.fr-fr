@@ -4,12 +4,12 @@ ms.assetid: 88810916-A85E-4EC7-A6AE-1CA2A2205DBC
 title: Mode protégé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d2f16b9f923215af6c2211339859d8eab4803e6793be248a83760e298ed084c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbc1b8b1e6931ed83ec59ccfe4c3c63d8e5b5eed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414547"
 ---
 # <a name="protected-mode"></a>Mode protégé
 

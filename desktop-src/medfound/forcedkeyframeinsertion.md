@@ -4,12 +4,12 @@ ms.assetid: 844e5a01-96db-4a69-9704-f0fdbfee3957
 title: Insertion d’une image clé forcée (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9790a40c7fc6d2248377003005bbff7ad56b54208e1d20814d5c8150223198ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d053f97c7aff08f61fa56d07db0a28b20c797d02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119466139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415839"
 ---
 # <a name="forced-key-frame-insertion-microsoft-media-foundation"></a>Insertion d’une image clé forcée (Microsoft Media Foundation)
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b5fb6442481574de6732aef1359cf9586b9cdcc1815d9f0b206a1f8a597f1967
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38be5b6ba4c3f6edcd716f4d0235150e96dd692a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118365999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416724"
 ---
 # <a name="idelaydcstop-method"></a>IDelaydC :: Stop, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une structure de [statistiques](statistics.md) qui contient des st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,13 +65,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand **IDelaydC :: Stop** est appelé, moniteur réseau arrête la capture des données et ferme le [*fichier de capture*](c.md). (Le nom du fichier de capture a été retourné lors de l’appel de [IDelaydC :: Start](idelaydc-start.md) ). Vous pouvez maintenant examiner le contenu du fichier de capture.
 
 Lorsque vous arrêtez et démarrez la capture, veillez à appeler la méthode [IDelaydC :: configure](idelaydc-configure.md) chaque fois que vous appelez [IDelaydC :: Start](idelaydc-start.md) pour redémarrer la capture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b8e47d04-07c1-4d57-8209-6b0c397476e5
 title: Modification des privilèges dans un jeton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c511ca66c5d4739057f5ea75cae589ee97e849f659002a612e7d22fd6be8eecb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0a8b77d966acf90db101269b77a767550bcae3ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119622749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416544"
 ---
 # <a name="changing-privileges-in-a-token"></a>Modification des privilèges dans un jeton
 

@@ -4,12 +4,12 @@ description: Chaque fois qu’un programme serveur reçoit une demande client po
 ms.assetid: e3edbf6f-2876-49ac-a93e-14fd0b5adf53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47234f83ae76ab6ee29ed434099ba3e4a7dbb3f9c7a01a2448d0cb0dad0267dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 490c06ba8e40f132c17986edaef4dc02bbe056d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023410"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416620"
 ---
 # <a name="authorization-functions"></a>Fonctions d’autorisation
 

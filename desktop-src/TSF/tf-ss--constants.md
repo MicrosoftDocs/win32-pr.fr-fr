@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1028b78e74ed10c572feb904baa8ec395087ee3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032964"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416333"
 ---
 # <a name="tf_ss_-constants"></a>\_ \_ \* Constantes TF SS
 
@@ -34,8 +34,8 @@ Les \_ \_ \* constantes TF SS, définies avant l’exécution dans la structure 
 | <span id="TF_SS_DISJOINTSEL"></span><span id="tf_ss_disjointsel"></span><dl> <dt>**Tf \_ SS \_ DISJOINTSEL**</dt> <dt>(TS \_ SS \_ DISJOINTSEL)</dt> </dl>                                     | Le document prend en charge les sélections multiples.<br/>                                                          |
 | <span id="TF_SS_REGIONS"></span><span id="tf_ss_regions"></span><dl> <dt>**Tf \_ \_zones SS**</dt> <dt>(zones de sécurité Terminal Server \_ \_ )</dt> </dl>                                                     | Le document peut contenir plusieurs régions.<br/>                                                          |
 | <span id="TF_SS_TRANSITORY"></span><span id="tf_ss_transitory"></span><dl> <dt>**Tf \_ SS \_ transitoire**</dt> <dt>(TS \_ SS \_ transitif)</dt> </dl>                                         | Le document est supposé avoir un cycle d’utilisation courts.<br/>                                               |
-| <span id="TF_SS_TKBAUTOCORRECTENABLE"></span><span id="tf_ss_tkbautocorrectenable"></span><dl> <dt>**Tf \_ SS \_ TKBAUTOCORRECTENABLE**</dt> <dt>(TS \_ SS \_ TKBAUTOCORRECTENABLE)</dt> </dl> | **À compter de Windows 8 :** Le document prend en charge la correction automatique fournie par le clavier tactile.<br/>   |
-| <span id="TF_SS_TKBPREDICTIONENABLE"></span><span id="tf_ss_tkbpredictionenable"></span><dl> <dt>**Tf \_ SS \_ TKBPREDICTIONENABLE**</dt> <dt>(TS \_ SS \_ TKBPREDICTIONENABLE)</dt> </dl>     | **À compter de Windows 8 :** Le document prend en charge les suggestions de texte fournies par le clavier tactile.<br/> |
+| <span id="TF_SS_TKBAUTOCORRECTENABLE"></span><span id="tf_ss_tkbautocorrectenable"></span><dl> <dt>**Tf \_ SS \_ TKBAUTOCORRECTENABLE**</dt> <dt>(TS \_ SS \_ TKBAUTOCORRECTENABLE)</dt> </dl> | **À partir de Windows 8 :** Le document prend en charge la correction automatique fournie par le clavier tactile.<br/>   |
+| <span id="TF_SS_TKBPREDICTIONENABLE"></span><span id="tf_ss_tkbpredictionenable"></span><dl> <dt>**Tf \_ SS \_ TKBPREDICTIONENABLE**</dt> <dt>(TS \_ SS \_ TKBPREDICTIONENABLE)</dt> </dl>     | **À partir de Windows 8 :** Le document prend en charge les suggestions de texte fournies par le clavier tactile.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Les \_ \_ \* constantes TF SS, définies avant l’exécution dans la structure 
 
 Le membre **dwStaticFlags** de la \_ structure d’État TF utilise ces constantes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -51,7 +51,7 @@ Le membre **dwStaticFlags** de la \_ structure d’État TF utilise ces constant
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                 |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                      |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                      |
 | En-tête<br/>                   | <dl> <dt>Msctf. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Msctf. idl</dt> </dl> |
 

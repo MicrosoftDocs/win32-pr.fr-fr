@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: b442d6d8c64d7c1ef0b202bd2cfa5d6d625280eb7320609a11ea89420c2bc215
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0768bb8be1f2f23693a431a2c0ea8f3d5a6846d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119989999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414505"
 ---
 # <a name="d3dxshmultiply6-function"></a>D3DXSHMultiply6 fonction)
 
@@ -69,13 +69,13 @@ Second jeu de coefficients SH d’entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le produit de deux fonctions SH de Order N = 6 génère une fonction SH de Order 2 × *N* -1 = 11, mais les résultats sont tronqués. Cela signifie que le produit est en mode de lancement ( *f* × *g*  =  *g* × *f* ) mais n’associe pas ( *f* × ( *g* × *h* ) ≠ ( *f* × *g* ) × *h* ).
 
@@ -97,7 +97,7 @@ sum_i(y_i(s)*c_i)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

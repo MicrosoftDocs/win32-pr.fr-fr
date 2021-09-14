@@ -5,15 +5,15 @@ title: Réception d’un message de données enveloppées
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9d32276193e8fd03904aed1ad626cd3ed241c654
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416392"
 ---
 # <a name="receiving-an-enveloped-data-message"></a>Réception d’un message de données enveloppées
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Pour déchiffrer un message enveloppé, le destinataire correspond à un [*certificat*](../secgloss/c-gly.md) du magasin My qui a une clé privée disponible avec un certificat dans le message enveloppé. Si une correspondance est trouvée, la clé chiffrée associée à ce certificat est déchiffrée et cette clé déchiffrée est utilisée pour déchiffrer le message enveloppé. Un destinataire de message qui n’a pas de certificat correspondant avec une clé privée disponible ne peut pas déchiffrer le message.
 

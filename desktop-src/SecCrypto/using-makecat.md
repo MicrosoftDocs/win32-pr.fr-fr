@@ -4,12 +4,12 @@ ms.assetid: 0a6ce2cd-db1f-4b47-990c-36fa87c28a60
 title: Utilisation de MakeCat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abfc2da9bbff53af48cb21a6f60c2373885ba271f8965705dc991b78f4b4d25b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e36c83531df38b95bde03edd719d98be325dbeac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118896783"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417661"
 ---
 # <a name="using-makecat"></a>Utilisation de MakeCat
 

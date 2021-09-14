@@ -4,12 +4,12 @@ ms.assetid: f598c1cd-2b50-4ac6-a05e-4fd8eeb5e3e1
 title: Contrôle de session
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7985bd468cdb006d50d21c5579073adf982117a2697c70fddcdba1ab2bbb1c30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 09250a90f978bde9be4f20aad6ee38f5e9766818
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117760852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414670"
 ---
 # <a name="session-control"></a>Contrôle de session
 

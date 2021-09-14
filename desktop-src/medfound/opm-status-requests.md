@@ -5,11 +5,11 @@ title: Demandes d’État OPM
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: cdbf7338fe1309feb49fd191e3f4a1a22f3639b4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414055"
 ---
 # <a name="opm-status-requests"></a>Demandes d’État OPM
 
@@ -17,7 +17,7 @@ Cette section répertorie les demandes d’état disponibles pour le [Gestionnai
 
 
 
-| Value             | Description                                                                                                                                                           |
+| Valeur             | Description                                                                                                                                                           |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GUID de la demande | Identifie la requête. Définissez la valeur du membre **guidSetting** de la structure des paramètres de l' [**extraction d' \_ \_ informations \_ OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) égale à cette valeur. |
 | Données d’entrée   | Spécifie comment interpréter le tableau **abParameters** dans la structure des paramètres de l' [**obtention d' \_ \_ informations \_ OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) .                      |

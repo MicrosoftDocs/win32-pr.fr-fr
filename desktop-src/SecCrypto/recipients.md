@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: adbcec006add6f06651869ae9c03c17f476ea4b3679f8ddba724a1890f73f1d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0f0f6474c6ed8883eb591591eff387fe387f7d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117975249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416374"
 ---
 # <a name="recipients-object"></a>Objet Recipients
 
@@ -51,8 +51,8 @@ L’objet **Recipients** possède ces méthodes.
 | Méthode                              | Description                                                                            |
 |:------------------------------------|:---------------------------------------------------------------------------------------|
 | [**Complémentaires**](recipients-add.md)       | Ajoute un objet [**certificat**](certificate.md) à la collection.<br/>         |
-| [**Effacer**](recipients-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> |
-| [**Installez**](recipients-remove.md) | Supprime un objet [**certificat**](certificate.md) de la collection.<br/>    |
+| [**Effacé**](recipients-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> |
+| [**Supprimer**](recipients-remove.md) | Supprime un objet [**certificat**](certificate.md) de la collection.<br/>    |
 
 
 
@@ -67,18 +67,18 @@ L’objet **Recipients** possède ces propriétés.
 | Propriété                                           | Type d’accès          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](recipients-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. cette propriété est masquée dans Visual Basic scripting Edition (VBScript).<br/> |
-| [**Count**](recipients-count.md)<br/>       |                      | Nombre d’objets dans la collection **Recipients** .<br/>                                                                                                                                                              |
+| [**Nombre**](recipients-count.md)<br/>       |                      | Nombre d’objets dans la collection **Recipients** .<br/>                                                                                                                                                              |
 | [**Élément**](recipients-item.md)<br/>         |                      | Objet indexé dans la collection. Il s’agit de la propriété par défaut.<br/>                                                                                                                                                   |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Impossible de créer l’objet **Recipients** .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

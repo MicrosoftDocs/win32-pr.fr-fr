@@ -4,12 +4,12 @@ ms.assetid: 30a5c826-1eaf-4a9e-8c8b-c020a76a0582
 title: Windows Extensions de nom de fichier du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0fb592b92650b45045f862c389206ad05e50ec2abd50c36c47bef191409312a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7912196fca9d5732e96a46693719736de08613c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416875"
 ---
 # <a name="windows-installer-file-name-extensions"></a>Windows Extensions de nom de fichier du programme d’installation
 

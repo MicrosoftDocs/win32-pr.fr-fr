@@ -4,12 +4,12 @@ ms.assetid: 8904d104-ebcc-474d-b6b5-b262b6f62ee9
 title: Attribut MFSampleExtension_DeviceTimestamp (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3322f295908ae2bbdc095a21ab57ee2e0f2ed10dd2267eaea227b9248ddc226b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 285b354ecd0e399fc297d3677d29b88847f9eba8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118241124"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414067"
 ---
 # <a name="mfsampleextension_devicetimestamp-attribute"></a>\_Attribut MFSampleExtension DeviceTimestamp
 
@@ -37,7 +37,7 @@ Pour connaître l’horodatage relatif au début de la diffusion en continu, app
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

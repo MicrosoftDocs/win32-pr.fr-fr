@@ -10,12 +10,12 @@ keywords:
 - Référence des couleurs pour les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3c33e4b7eb2af9c1305a6644559e162c581c27b6b11e5b709376663082042d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c7c69863c4197702383f729c8d7e8d30d3cb52bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119390869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416243"
 ---
 # <a name="hit-rgb-color"></a>Toucher la couleur RVB
 
@@ -38,7 +38,7 @@ Le tableau suivant répertorie les couleurs typiques que vous pouvez utiliser.
 | 255 255 255 | Blancs       |
 | 255, 0, 0     | Rouge         |
 | 0255, 0     | Vert       |
-| 0, 0255     | Bleu        |
+| 0, 0255     | Blue        |
 
 
 

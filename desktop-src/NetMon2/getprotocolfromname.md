@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: e104c066be2a5465083c7983aaefebd46f548b7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750076"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416741"
 ---
 # <a name="getprotocolfromname-function"></a>GetProtocolFromName fonction)
 
@@ -46,7 +46,7 @@ Nom du protocole (par exemple, IP).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un handle de protocole.
 
@@ -56,7 +56,7 @@ Si la fonction échoue, la valeur de retour est **null**.
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetProtocolFromName** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

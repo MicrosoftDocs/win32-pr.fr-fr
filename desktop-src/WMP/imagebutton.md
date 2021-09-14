@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 565e375db9b6ac2c64e554a3b575cf961e7acdb9e5c378ec1f29c12e5ac4b335
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c77445268ca0bcdd24efcde1bb3b08ff80e1317
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119509239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416220"
 ---
 # <a name="imagebutton"></a>IMAGEBUTTON
 
@@ -28,13 +28,13 @@ Il s’agit d’un **bouton** prédéfini avec la valeur par défaut suivante.
 cursor="Hand"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Tous les boutons peuvent contenir des images. Cet élément est utile à des fins de clarification du code pour indiquer un bouton qui est principalement utilisé comme conteneur d’images.
 
 Toutes les propriétés de ce **bouton** peuvent être remplacées en les spécifiant explicitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

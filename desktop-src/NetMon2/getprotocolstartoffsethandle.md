@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: bac8a10e2a0d8be667f1448c523f208c0c3e1512
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513176"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416740"
 ---
 # <a name="getprotocolstartoffsethandle-function"></a>GetProtocolStartOffsetHandle fonction)
 
@@ -54,7 +54,7 @@ Handle d’un protocole.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est le décalage de la trame mesurée en octets.
 
@@ -64,7 +64,7 @@ Si la fonction échoue, la valeur de retour est un (1).
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetProtocolStartOffsetHandle** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

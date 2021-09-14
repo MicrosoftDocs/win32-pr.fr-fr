@@ -4,12 +4,12 @@ ms.assetid: 5015e864-fd34-449f-b3fc-1ddcb507dfdf
 title: MFPKEY_RESIZE_GEOMAPY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cddc1ce0c74aa1606db22004b92a13eaeeaa63a632bb642b37a11bb06167f040
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d695aea69e590cf9ff447dcf095f9b2151fceb50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414092"
 ---
 # <a name="mfpkey_resize_geomapy-property"></a>MFPKEY \_ REdimensionner la \_ propriété GEOMAPY
 
@@ -31,7 +31,7 @@ VT \_
 
 La valeur est un nombre réel à virgule fixe. La partie entière du nombre est stockée dans les 2 octets supérieurs et la partie fractionnaire est stockée dans les 2 octets inférieurs.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

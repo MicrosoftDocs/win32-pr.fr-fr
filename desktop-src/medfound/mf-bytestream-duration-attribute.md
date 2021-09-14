@@ -4,12 +4,12 @@ ms.assetid: afa4930c-544b-4d66-94fe-9795bb526e0a
 title: Attribut MF_BYTESTREAM_DURATION (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ba32b394fa776b5b70a5a649292ffa205132645b15c24a57591483c734b238
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df264416b8a805e6d239cfcc457f4a6db2a8e4dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119826729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414229"
 ---
 # <a name="mf_bytestream_duration-attribute"></a>\_Attribut de \_ durée BYTESTREAM MF
 
@@ -21,7 +21,7 @@ Spécifie la durée d’un flux d’octets, en unités de 100 nanosecondes.
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est facultatif. Si l’objet qui crée le flux d’octets peut déterminer la durée, il peut définir cet attribut. (Par exemple, dans un flux de réseau, la durée peut faire partie de la description de session.)
 
@@ -31,7 +31,7 @@ Cet attribut est une valeur signée, bien qu’il soit stocké en tant que **UIN
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

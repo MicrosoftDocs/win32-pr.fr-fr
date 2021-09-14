@@ -5,11 +5,11 @@ title: Attribut MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_HW_SOURCE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e816e668267a23e67e7450b81a32cde454315bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544250"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414207"
 ---
 # <a name="mf_devsource_attribute_source_type_vidcap_hw_source-attribute"></a>TYPE de source de l' \_ attribut MF DEVSOURCE VIDCAP de l' \_ \_ \_ \_ \_ \_ attribut source HW
 
@@ -38,14 +38,14 @@ L’attribut s’applique uniquement aux périphériques de capture vidéo.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

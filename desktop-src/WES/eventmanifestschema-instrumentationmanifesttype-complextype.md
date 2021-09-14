@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d1f6241d50830add4c610332ec5db6a9625847a43bf24abc1fba9834590ce91c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66ae7506ca052d507c389fcd45e5439b7d69a59a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118120961"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416294"
 ---
 # <a name="instrumentationmanifesttype-complex-type"></a>Type complexe InstrumentationManifestType
 
@@ -28,7 +28,7 @@ Définit le type de base pour l’élément [**instrumentationManifest**](eventm
 <xs:complexType name="InstrumentationManifestType" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b26b5676-a614-4017-a4e5-a5395292a667
 title: Génération de la réponse de test Digest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5e763591294eb14fce6ac79225bbe24ba40bc875ab731c986a694df956ee356
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8b577334348745425db23d3de41431ba4e37b7af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237876"
 ---
 # <a name="generating-the-digest-challenge-response"></a>Génération de la réponse de test Digest
 

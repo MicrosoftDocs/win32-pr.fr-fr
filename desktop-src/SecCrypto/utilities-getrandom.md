@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 3b7e02c7df61c1a2d710189fb2e5e0a21cc0b504
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540272"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417635"
 ---
 # <a name="utilitiesgetrandom-method"></a>Méthode Utilities. GetRandom
 
@@ -68,17 +68,17 @@ Valeur de l’énumération de [**\_ \_ type d’encodage**](capicom-encoding-ty
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Nombre d’octets de *longueur* numérique généré de manière aléatoire, avec l’encodage spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -87,7 +87,7 @@ Nombre d’octets de *longueur* numérique généré de manière aléatoire, ave
 
 <dl> <dt>
 
-[**Services**](utilities.md)
+[**Eau, gaz et électricité**](utilities.md)
 </dt> </dl>
 
  

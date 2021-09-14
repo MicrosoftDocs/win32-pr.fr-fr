@@ -4,12 +4,12 @@ ms.assetid: 71fda231-3497-49db-b82e-2fd79f6ade66
 title: Attribut MF_MT_DEFAULT_STRIDE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e130918f62d6ff986ced7dd6449dcc2d381a00fc0d7c0342eeb4afcc03833bef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7b2b9633e14c8d414355ca41be29a9c6c2f8886
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414156"
 ---
 # <a name="mf_mt_default_stride-attribute"></a>\_ \_ Attribut Stride par défaut MF MT \_
 
@@ -21,7 +21,7 @@ La surface par défaut Stride, pour un type de média vidéo non compressé. STR
 
 Traiter en tant que valeur **Int32** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de l’attribut est stockée sous la forme d’un **UInt32**, mais doit être castée en valeur entière signée 32 bits. STRIDE peut être négatif.
 
@@ -35,7 +35,7 @@ Pour obtenir un exemple de calcul du Stride par défaut, consultez [mémoires ta
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

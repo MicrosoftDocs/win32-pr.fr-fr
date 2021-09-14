@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 8958a942a8c56dfe39c8a96bcf3f80cefcb7978feac186a80432cbe8f03b5c4b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b511781c29d313715e7714f185dbff7e4b38f86c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416500"
 ---
 # <a name="icertificate2basicconstraints-method"></a>ICertificate2 :: BasicConstraints, méthode
 
@@ -41,11 +41,11 @@ Certificate.BasicConstraints()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Objet [**basicConstraints**](basicconstraints.md) qui représente l’extension de contraintes de base du certificat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

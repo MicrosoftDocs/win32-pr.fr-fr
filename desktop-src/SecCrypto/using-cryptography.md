@@ -4,12 +4,12 @@ ms.assetid: 2e8637e2-2ff3-404a-a56c-fe99adeeba50
 title: Utilisation du chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b6191951d92f125342209825023c09de56649fe6366761ece6f224d4278ff9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d307596a630f96d720648ffc15dda1d51bcccc7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118896813"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417663"
 ---
 # <a name="using-cryptography"></a>Utilisation du chiffrement
 
@@ -22,7 +22,7 @@ Les rubriques suivantes fournissent des informations sur l’utilisation du chif
 | [Exemples de conventions de programme](sample-program-conventions.md)                                                       | Exemples de limitations de programme ; considérations relatives à la compilation et à la liaison ; conteneurs de clés, clés et certificats nécessaires ; récupération de données de longueur inconnue ; et fonctions à usage général |
 | [Acquisition d’un contexte de chiffrement et génération de clés](acquiring-a-cryptographic-context-and-generating-keys.md) | Exemples et procédures pour l’acquisition d’un contexte de chiffrement et la génération de clés                                                                                                |
 | [Encodage et décodage](encoding-and-decoding.md)                                                                 | Exemples et procédures pour l’encodage et le décodage                                                                                                                                |
-| [Hachage](hashing.md)                                                                                             | Exemples et procédures de hachage                                                                                                                                              |
+| [Hashing](hashing.md)                                                                                             | Exemples et procédures de hachage                                                                                                                                              |
 | [Signature des données](signing-data.md)                                                                                   | Exemples et procédures pour la signature de données                                                                                                                                         |
 | [Création et réception des messages de données enveloppés](creating-and-receiving-enveloped-data-messages.md)               | Exemples et procédures pour créer et recevoir des messages de données enveloppés                                                                                                       |
 | [Chiffrement et déchiffrement](encrypting-and-decrypting.md)                                                         | Exemples et procédures pour le chiffrement et le déchiffrement                                                                                                                            |

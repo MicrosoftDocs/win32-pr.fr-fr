@@ -38,12 +38,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a457cb0f2b638c24682f1fabd54f3309a1c781055f2df6242b3f6340490481da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b93d2395ec7e673e50023867f4602eea5c2d9fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414610"
 ---
 # <a name="imsrdpclient5advancedsettings6-property"></a>IMsRdpClient5 :: AdvancedSettings6, propriété
 
@@ -66,7 +66,7 @@ HRESULT get_AdvancedSettings6(
 
 Pointeur d’interface [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings-interface.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

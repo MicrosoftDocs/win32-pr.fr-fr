@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 310ffe6b59e0b3fab307d1103f29c8fe619f0385
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481935"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416697"
 ---
 # <a name="glutesscallback-function"></a>gluTessCallback fonction)
 
@@ -69,7 +69,7 @@ Fonction à appeler.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez **gluTessCallback** pour spécifier un rappel à utiliser par un objet de pavage. Si le rappel spécifié est déjà défini, il est remplacé. Si *FN* a la **valeur null**, le rappel existant devient non défini.
 
@@ -102,7 +102,7 @@ Les rappels valides sont les suivants :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

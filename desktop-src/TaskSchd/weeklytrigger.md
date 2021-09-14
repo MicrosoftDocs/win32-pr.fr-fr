@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51eb48b03efb49bd5642909af4b99b99bfb1f7f139b97f8410e0d5f014843ddf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58dec9172d38b53f779f44a048b39bc709dbd54f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414635"
 ---
 # <a name="weeklytrigger-object"></a>Objet WeeklyTrigger
 
@@ -49,14 +49,14 @@ L’objet **WeeklyTrigger** a ces propriétés.
 | [**RandomDelay**](weeklytrigger-randomdelay.md)<br/>         | Lecture/écriture<br/> | Obtient ou définit un délai qui est ajouté de manière aléatoire à l’heure de début du déclencheur.<br/>                                                                                               |
 | [**Répétition**](trigger-repetition.md)<br/>                 | Lecture/écriture<br/> | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient ou définit la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.<br/>          |
 | [**StartBoundary**](trigger-startboundary.md)<br/>           | Lecture/écriture<br/> | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient ou définit la date et l’heure d’activation du déclencheur.<br/>                                                              |
-| [**Type**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                            | Lecture seule<br/>  | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient le type du déclencheur.<br/>                                                                                              |
+| [**Entrer**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                            | Lecture seule<br/>  | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient le type du déclencheur.<br/>                                                                                              |
 | [**WeeksInterval**](weeklytrigger-weeksinterval.md)<br/>     | Lecture/écriture<br/> | Obtient ou définit l’intervalle entre les semaines de la planification.<br/>                                                                                                                     |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’heure de début de la tâche est définie par la propriété [**StartBoundary**](trigger-startboundary.md) .
 
@@ -66,7 +66,7 @@ Lors de la lecture ou de l’écriture de vos propres données XML pour une tâc
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclencheur hebdomadaire (script)](weekly-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

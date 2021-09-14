@@ -4,12 +4,12 @@ ms.assetid: 63889D81-12C5-47C1-B52A-6358E68830C3
 title: Attribut MF_MEDIA_ENGINE_PLAYBACK_HWND (Mfmediaengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a273702a8a4797c0cf05bd4fe79909dd50a004f313a4caec41c3843dc2bc09b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1c6a9d38d40b04b32244f48289d3334199a7e035
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414180"
 ---
 # <a name="mf_media_engine_playback_hwnd-attribute"></a>\_ \_ \_ Attribut HWND de lecture du moteur multimédia MF \_
 
@@ -25,11 +25,11 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUINT64**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT64**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé avec la méthode [**IMFMediaEngineClassFactory :: CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) pour initialiser le moteur multimédia.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

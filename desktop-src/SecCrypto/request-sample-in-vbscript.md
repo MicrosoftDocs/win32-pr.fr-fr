@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 039d771e7d07e0c86ed0b5b18842aaa3f6a3ec96c31341697857c586bae5e28b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12e14507f0bb27e7bc8caba605158a70f5e08ac4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900584"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416369"
 ---
 # <a name="request-sample-in-vbscript"></a>Exemple de demande dans VBScript
 

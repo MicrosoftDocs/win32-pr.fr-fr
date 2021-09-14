@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 0e8e4c369eab647d51fbb690338ff9451a010bfac69af68ec1209ada10db4018
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0036ee0a49225568aac066735824fe55ce8f0fa6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118395037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416933"
 ---
 # <a name="eventtraceevent-class"></a>EventTraceEvent, classe
 
@@ -38,7 +38,7 @@ class EventTraceEvent : MSNT_SystemTrace
 
 La classe **EventTraceEvent** ne définit aucun membre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 330eda0757acb29b48ed10636d8f479b6ebb1395d088020876c717a78f41ae6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aff7d5eaa9594882b029f0b02f4888d93fff01d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416200"
 ---
 # <a name="repeat-element"></a>Élément REPEAT
 
@@ -50,7 +50,7 @@ entier représentant le nombre de fois Lecteur Windows Media répète les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cet élément définit le nombre de fois Lecteur Windows Media répète, ou parcourt, les clips définis par les éléments **entry** et **ENTRYREF** dans la portée de cet élément. Seul le premier élément **REPEAT** d’un métafichier est valide ; les éléments **REPEAT** suivants sont ignorés.
 
@@ -78,7 +78,7 @@ Si aucun attribut **Count** n’est défini, le contenu des éléments d' **entr
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

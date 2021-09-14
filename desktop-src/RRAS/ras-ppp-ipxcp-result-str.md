@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bc79b7700fc47176928688b517377f5e02903da04841b50949937448065086d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bb7ca4d006bd1a1df5a645799998b463c0b14f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789603"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416640"
 ---
 # <a name="ras_ppp_ipxcp_result-structure"></a>Structure des résultats du protocole d’accès distant \_ PPP \_ IPXCP \_
 
@@ -57,7 +57,7 @@ Chaîne Unicode terminée par le caractère null qui spécifie l’adresse IPX a
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

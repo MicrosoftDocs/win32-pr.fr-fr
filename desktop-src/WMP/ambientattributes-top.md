@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c13e5631928c57c52b982ff98d536d0e5870c0f05bee3d8d4f1567493ddde491
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a30d24591280c6d66595bc921ccc6fca7ed48b0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416275"
 ---
 # <a name="ambientattributestop"></a>AmbientAttributes.top
 
@@ -31,7 +31,7 @@ L’attribut **Top** spécifie ou récupère la coordonnée supérieure du contr
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) représentant la distance en pixels entre le contrôle et le bord supérieur de la **vue** ou de la sous- **vue** parente. Sa valeur par défaut est zéro. Les nombres négatifs sont autorisés, auquel cas la bordure supérieure de la **vue** ou de la sous- **vue** découpe le contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

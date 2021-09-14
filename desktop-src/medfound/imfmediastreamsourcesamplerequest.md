@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfidl.h
-ms.openlocfilehash: a0becbcef7e71f6859a9e4f09e81f98459911724127ade97e84de09e94a956f5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fa159727c6e13a894148391b9508afad4b8dacfc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414253"
 ---
 # <a name="imfmediastreamsourcesamplerequest-interface"></a>Interface IMFMediaStreamSourceSampleRequest
 
@@ -44,11 +44,11 @@ L’interface **IMFMediaStreamSourceSampleRequest** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **MFMediaStreamSourceSampleRequest** est implémenté par le [**Windows. Classe Runtime Media. Core. MediaStreamSourceSampleRequest**](/uwp/api/Windows.Media.Core.MediaStreamSourceSampleRequest?view=winrt-19041) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

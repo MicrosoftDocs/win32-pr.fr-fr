@@ -5,11 +5,11 @@ title: MFPKEY_HTTP_ByteStream_Urlmon_Window, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9df398d2c6d7655a68a139545d84cee48f9cf7fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414097"
 ---
 # <a name="mfpkey_http_bytestream_urlmon_window-property"></a>MFPKEY \_ http \_ ByteStream \_ urlmon, propriété de la \_ fenêtre
 
@@ -37,7 +37,7 @@ Utilisez cette propriété pour configurer le flux d’octets HTTP Media Foundat
 
 La valeur de cette propriété est un pointeur vers l’interface **IWindowForBindingUI** . Cette propriété s’applique uniquement lorsque la propriété [MFPKEY \_ http \_ ByteStream \_ Enable \_ urlmon](mfpkey-http-bytestream-enable-urlmon.md) a la valeur **Variant \_ true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

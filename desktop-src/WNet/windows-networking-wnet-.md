@@ -7,12 +7,12 @@ keywords:
 - WNet WNet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b177a3b873584a06429b2a9a033d316851b43df7bb3af524fe393224c6b0c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4d436ec5c5daec52d73a3a6f7942bcc76ef4251
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118566412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416137"
 ---
 # <a name="windows-networking-wnet"></a>Windows Mise en réseau (WNet)
 

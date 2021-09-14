@@ -5,15 +5,15 @@ title: Utilisation de CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 46f81b1a346b6186ead6544b7194259cc52ae2be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417676"
 ---
 # <a name="using-capicom"></a>Utilisation de CAPICOM
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Cette section comprend des scénarios qui utilisent des procédures CAPICOM.
 

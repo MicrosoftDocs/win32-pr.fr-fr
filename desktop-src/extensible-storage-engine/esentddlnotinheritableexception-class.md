@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 858c5c3898b77907ed053849a489b43de7ad948560afae1fe85e9849929b6369
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8c2a1d4b715bab34d33c12678dcd6808e119921
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117711720"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414402"
 ---
 # <a name="esentddlnotinheritableexception-class"></a>EsentDDLNotInheritableException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentDDLNotInheritableException](./esentddlnotinheritableexception-members.md)
 

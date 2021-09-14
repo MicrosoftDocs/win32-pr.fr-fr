@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 92bc8aec275b0d99e8f0b57996940216a25947d30bfc5194bdb4e675da3e9537
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ae0e3b6bf805b6913abba5eb5bb59c5013672d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119116979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414415"
 ---
 # <a name="esentcannotlogduringrecoveryredoexception-class"></a>EsentCannotLogDuringRecoveryRedoException, classe
 
@@ -68,7 +68,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentCannotLogDuringRecoveryRedoException](./esentcannotlogduringrecoveryredoexception-members.md)
 

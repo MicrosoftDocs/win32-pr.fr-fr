@@ -4,12 +4,12 @@ ms.assetid: fcd7f3d9-8bad-44f8-8c9c-c2f5df4a7241
 title: Utilisation d’une matrice de couleurs pour transformer une seule couleur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4de130aef0e30a04c6f7cdad8a669c834357fbc5cd3719671f3529d9ed04c1cb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db56d0a64c36c08a5415d76e3fb184158d473268
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414300"
 ---
 # <a name="using-a-color-matrix-to-transform-a-single-color"></a>Utilisation d’une matrice de couleurs pour transformer une seule couleur
 

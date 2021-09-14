@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 545ed92345a1b9dfce2072e8a0917660bc36afe2c89e47cb6c0f2f1e50520bf0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb77fd3ff1510f9b18fd5632e64bf499bacbc3e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416196"
 ---
 # <a name="requeststate-attribute"></a>Attribut RequestState
 
@@ -27,13 +27,13 @@ L’attribut **RequestState** est l’état de la demande d’informations sur l
 
 -   [Éléments audio](audio-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

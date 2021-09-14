@@ -4,12 +4,12 @@ description: Le schéma documente les valeurs et les propriétés utilisées par
 ms.assetid: dfd8862c-8f84-441e-a4b4-4af3c76c48f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2d5c80690914073af1c67e2bd00376974547d30c4dc487c0656d4452d3fe828
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a122959b007ba4d4434e65b53fc2e330857cafe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118753148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415883"
 ---
 # <a name="schema"></a>schéma
 
@@ -31,7 +31,7 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | DocCategory                  | Category                                                                                                                | D5CDD502-2E9C-101B-9397-08002B2CF9AE/2                            |
 | DocKeywords                  | Mots clés                                                                                                                | F29F85E0-4FF9-1068-AB91-08002B27B3D9/5                            |
 | DocTitlePrefix               | Préfixe de l’objet (Re :, FW :, etc.)                                                                                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/DocTitlePrefix               |
-| DocTitle                     | Titre                                                                                                                   | F29F85E0-4FF9-1068-AB91-08002B27B3D9/2                            |
+| DocTitle                     | Intitulé                                                                                                                   | F29F85E0-4FF9-1068-AB91-08002B27B3D9/2                            |
 | FileExtDesc                  | Description conviviale du type de fichier à partir du Registre (par exemple, le fichier de requête >.                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/FileExtDesc                  |
 | FolderName                   | Nom du dossier parent                                                                                               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/nom_dossier                   |
 | IsAttachment                 | Indique que l’élément est une pièce jointe                                                                                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/IsAttachment                 |
@@ -152,14 +152,14 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | Structure                       | Nom de la structure                                                                                                          | 8dee0300-16c2-101B-B121-08002b2ecda9/struct                       |
 | Interface                    | Nom de l’interface                                                                                                          | 8dee0300-16c2-101B-B121-08002b2ecda9/interface                    |
 | Délégué                     | Nom du délégué                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/délégué                     |
-| Property                     | Nom de la propriété                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/propriété                     |
+| Propriété                     | Nom de la propriété                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/propriété                     |
 | Énumération                         | Nom de l’enum                                                                                                               | 8dee0300-16c2-101B-B121-08002b2ecda9/enum                         |
 | Const                        | Nom const                                                                                                              | 8dee0300-16c2-101B-B121-08002b2ecda9/const                        |
 | Événement                        | Nom d'événement                                                                                                              | 8dee0300-16c2-101B-B121-08002b2ecda9/événement                        |
 | Champ                        | Nom du champ                                                                                                              | 8dee0300-16c2-101B-B121-08002b2ecda9/champ                        |
 | Définir                       | Définir le nom                                                                                                             | 8dee0300-16c2-101B-B121-08002b2ecda9/def                          |
 | Composant                    | Nom du composant                                                                                                          | 8dee0300-16c2-101B-B121-08002b2ecda9/composant                    |
-| Projet                      | Nom du projet                                                                                                            | 8dee0300-16c2-101B-B121-08002b2ecda9/projet                      |
+| Project                      | Nom du projet                                                                                                            | 8dee0300-16c2-101B-B121-08002b2ecda9/projet                      |
 | Solution                     | Nom de la solution                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/solution                     |
 
 

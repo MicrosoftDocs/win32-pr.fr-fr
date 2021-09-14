@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70fc727265ce4af1db2be808ae7eee3f59246874659a815c66292bcab3d7ecfe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5e8eedb9c66211deda92ef6a84e8c1dd2073362
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120035403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416677"
 ---
 # <a name="glviewport-function"></a>glViewport fonction)
 
@@ -88,7 +88,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glViewport** spécifie la transformation affine de *x* et *y* à partir des coordonnées de l’appareil normalisées en coordonnées de la fenêtre. Let (*x*<sub>ND</sub> , *y*<sub>ND</sub> ) sont des coordonnées de périphérique normalisées. Les coordonnées de la fenêtre (*x*<sub>w</sub> , *y*<sub>w</sub> ) sont ensuite calculées comme suit :
 
@@ -102,7 +102,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glViewport*
 
 **glGet** avec l’argument GL \_ Max \_ VIEWPORT \_ DIMS
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

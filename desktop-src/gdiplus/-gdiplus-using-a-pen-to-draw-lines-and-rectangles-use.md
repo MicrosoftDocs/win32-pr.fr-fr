@@ -5,11 +5,11 @@ title: Utilisation d’un stylo pour tracer des lignes et des rectangles
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9b335caf7e2ecbad6bc49965ff757809c3b1179c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414297"
 ---
 # <a name="using-a-pen-to-draw-lines-and-rectangles"></a>Utilisation d’un stylo pour tracer des lignes et des rectangles
 

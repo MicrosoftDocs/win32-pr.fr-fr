@@ -4,12 +4,12 @@ ms.assetid: fa8ee4d3-8927-4f7d-a09e-dbcf75a164d3
 title: Utilisation de SignTool pour signer un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a71d8e85e8e22f65ccbe8b5f15453b0a0cac34fc27697bad648b1c815f255b10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 089026cde629278e5c6ac033164c2a9d26528917
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117971469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417653"
 ---
 # <a name="using-signtool-to-sign-a-file"></a>Utilisation de SignTool pour signer un fichier
 

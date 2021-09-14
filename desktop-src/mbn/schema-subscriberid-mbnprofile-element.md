@@ -11,12 +11,12 @@ api_name:
 - SubscriberID
 api_type:
 - Schema
-ms.openlocfilehash: 42290b0a80e85b2fdd1c794aced78571e939010b0e260bf1bdeba15f221cc103
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca098383aadd51e1e05d6b02bdd02a563eb0a09c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118065883"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415863"
 ---
 # <a name="subscriberid-mbnprofile-element"></a>Élément abonné (MBNProfile)
 
@@ -36,7 +36,7 @@ L’élément est obligatoire.
 
 L’élément **abonné** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 49c91d2dcb13ea6b206df2a0dbc0d6a2e7096e59
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416843"
 ---
 # <a name="mci_hms_minute-macro"></a>\_Macro MCI HMS \_ minute
 
@@ -47,11 +47,11 @@ Heure au format HMS.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le composant « minutes » des informations de HMS spécifiées.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’heure au format HMS est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les heures, le prochain octet le moins significatif contenant les minutes et le prochain octet le moins significatif contenant les secondes. L’octet le plus significatif n’est pas utilisé.
 

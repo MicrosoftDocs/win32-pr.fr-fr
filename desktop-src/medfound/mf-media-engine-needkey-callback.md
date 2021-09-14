@@ -4,12 +4,12 @@ ms.assetid: B9625B3C-00AC-4F46-BD76-5C77822F5829
 title: Attribut MF_MEDIA_ENGINE_NEEDKEY_CALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bec8dd3b802d9fc378d43648ad1d29dd30b6573881a044cc9f0d3aba2015cee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3de502bbe1d7f83dfd8ee7478e20786244f654e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414189"
 ---
 # <a name="mf_media_engine_needkey_callback-attribute"></a>\_Attribut de \_ \_ rappel NEEDKEY du moteur multimédia MF \_
 
@@ -25,11 +25,11 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUnknown**](/windo
 
 Pour définir cet attribut, appelez [**IMFAttributes :: setunknown,**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est un pointeur vers l’interface [**IMFMediaEngineNeedKeyNotify**](/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify) , implémentée par l’application.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

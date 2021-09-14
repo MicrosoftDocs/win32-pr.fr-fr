@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101229
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d3f2e37fff831b3bd5a6613fd7bd4dc05959b09bd3f0c7a1ec168226b429b610
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 12ba5b1320c9dbae89767b3c5e62b6198fef0853
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120021299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414413"
 ---
 # <a name="esentcannotseparateintrinsiclvexception-members"></a>Membres EsentCannotSeparateIntrinsicLVException
 
@@ -93,7 +93,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentCannotSeparateIntrinsicLVException, classe](./esentcannotseparateintrinsiclvexception-class.md)
 

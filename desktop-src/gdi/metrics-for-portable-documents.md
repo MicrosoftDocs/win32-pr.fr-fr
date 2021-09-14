@@ -4,12 +4,12 @@ ms.assetid: 61f6d244-7397-42af-af58-0ab9d07bf19e
 title: Mesures pour les documents portables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3762846e6d8280c2680f47f3cb32cd847ea4e664dab47a8a0995f5505c393da3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c840b1b8e8014086b97098a44890f170a6bd11d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119558499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415939"
 ---
 # <a name="metrics-for-portable-documents"></a>Mesures pour les documents portables
 
@@ -17,7 +17,7 @@ Le tableau suivant spécifie les métriques de police les plus importantes pour 
 
 
 
-| Fonction                                               | Métrique                | Utiliser                                                                                                          |
+| Fonction                                               | Métrique                | Utilisation                                                                                                          |
 |--------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|
 | [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa)           | **ntmSizeEM**         | Récupération des métriques de conception ; conversion en métriques de l’appareil.                                                   |
 | [**GetCharABCWidths**](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa)           | **ABCWidths**         | Positionnement précis des caractères au début et à la fin des marges, des limites de l’image et d’autres sauts de texte. |

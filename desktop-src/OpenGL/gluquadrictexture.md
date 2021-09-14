@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbde88e0a878fd59e01ad0a450cf4cbe9831c4ad867c8029373586a8efe830eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cc395564b6c6f30f38a8c5129c489d0bfca6b80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118937480"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416701"
 ---
 # <a name="gluquadrictexture-function"></a>gluQuadricTexture fonction)
 
@@ -58,7 +58,7 @@ Indicateur qui spécifie si les coordonnées de texture doivent être générée
 | Valeur                                                                                                                                          | Signification                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | <span id="GL_TRUE"></span><span id="gl_true"></span><dl> <dt>**GL \_ true**</dt> </dl>    | Générer des coordonnées de texture.<br/>                                   |
-| <span id="GL_FALSE"></span><span id="gl_false"></span><dl> <dt>**GL- \_ faux**</dt> </dl> | Ne générez pas de coordonnées de texture. Il s'agit de la valeur par défaut.<br/> |
+| <span id="GL_FALSE"></span><span id="gl_false"></span><dl> <dt>**GL- \_ faux**</dt> </dl> | Ne générez pas de coordonnées de texture. Il s’agit de la valeur par défaut.<br/> |
 
 
 
@@ -70,13 +70,13 @@ Indicateur qui spécifie si les coordonnées de texture doivent être générée
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluQuadricTexture** spécifie si les coordonnées de texture doivent être générées pour Quadrics rendu avec **quadObject**.
 
 La manière dont les coordonnées de texture sont générées dépend du rendu quadric spécifique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

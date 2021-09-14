@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1a9067c5e343db0e3bce0972dc89bfc9fd8857d34a3ff9bd9fd65909c019c2e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eb6ccf590893e19340662fd4c47e4aa68047b29d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119309569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416300"
 ---
 # <a name="boottrigger-triggergroup-element"></a>Élément BootTrigger (triggerGroup)
 
@@ -68,7 +68,7 @@ L’élément **BootTrigger** est défini par le type complexe [**bootTriggerTyp
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de scripts, un déclencheur de démarrage est défini par l’objet [**BootTrigger**](boottrigger.md) .
 
@@ -78,7 +78,7 @@ Pour le développement C++, un déclencheur de démarrage est défini par l’ob
 
 Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déclencheur de démarrage, consultez [exemple de déclencheur de démarrage (XML)](boot-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

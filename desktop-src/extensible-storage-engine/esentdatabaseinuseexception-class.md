@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 445b27a54d498b5d2061397eebff0362ce2da0d0a720e58acd245d25d5c91aa6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b97ce4cc0a02b322a0abfc882ee0fce398fb04b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117712912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416012"
 ---
 # <a name="esentdatabaseinuseexception-class"></a>EsentDatabaseInUseException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentDatabaseInUseException](./esentdatabaseinuseexception-members.md)
 

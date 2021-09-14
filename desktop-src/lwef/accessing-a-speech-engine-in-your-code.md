@@ -4,12 +4,12 @@ description: Accès à un moteur de reconnaissance vocale dans votre code
 ms.assetid: ddfe0552-a29e-4ce4-b608-c131efbe300b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b9769e88437366b72fdff50dc0ab27918d1b21e4c0c317f230049a965629a03
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7d81841f6f287d36a6ac01fa77294b1754eeb9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118753118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414279"
 ---
 # <a name="accessing-a-speech-engine-in-your-code"></a>Accès à un moteur de reconnaissance vocale dans votre code
 

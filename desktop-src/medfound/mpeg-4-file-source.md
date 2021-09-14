@@ -4,12 +4,12 @@ ms.assetid: e64c1554-9702-4cc0-98ad-8a33e04ed09d
 title: Source de fichier MPEG-4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ece07ec0f2a2d94b477335e885f11c0d36769bffd11002ba464cec1d9c6ffb21
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c90df56d58df19a53c37436bd631a1cc68dd8114
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119848049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414056"
 ---
 # <a name="mpeg-4-file-source"></a>Source de fichier MPEG-4
 
@@ -91,7 +91,7 @@ La source de fichier MPEG-4 peut analyser les exemples d’entrées suivants.
 
 
 
-| Exemple de code d’entrée | Type principal | Subtype                                                               | Description                                         | Remarques                                                                                                                                                                                            |
+| Exemple de code d’entrée | Type principal | Subtype                                                               | Description                                         | Notes                                                                                                                                                                                            |
 |-------------------|------------|-----------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | alaw            | Audio      | **\_alaw format \_ Wave**                                                | Codage de la Loi                                        |                                                                                                                                                                                                  |
 | gif            | Vidéo      | **MFVideoFormat \_ MJPG**                                               | Flux photo-JPEG                                   | Le format de conteneur QuickTime prend également en charge les flux Motion JPEG avec les entrées « mjpa » ou « MJPB », mais la source du fichier MPEG-4 ne fournit pas de type de média complet pour ces types.               |

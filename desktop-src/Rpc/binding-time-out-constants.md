@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 125a38dd41445ba0661d13c61e7c79e689bc29abffa535791b233c40cfb704ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d096fd320e1341f9affc35ae6ff1d355fcf12d41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118932360"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416613"
 ---
 # <a name="binding-time-out-constants"></a>Constantes de délai d’attente de liaison
 
@@ -32,16 +32,16 @@ La bibliothèque RPC utilise les constantes de délai d’expiration de liaison 
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="RPC_C_BINDING_INFINITE_TIMEOUT"></span><span id="rpc_c_binding_infinite_timeout"></span><dl> <dt>**RPC \_ \_Expiration de liaison C \_ infinie \_**</dt> <dt> 10</dt> </dl> | La tentative d’établissement de communications est définitive.<br/>                                                                                                                                                             |
 | <span id="RPC_C_BINDING_MIN_TIMEOUT"></span><span id="rpc_c_binding_min_timeout"></span><dl> <dt>**RPC \_ \_ \_ \_ Délai d’expiration minimal de liaison C**</dt> <dt>0</dt> </dl>                   | Tente la durée minimale d’utilisation du protocole réseau. Cette valeur favorise le temps de réponse par rapport à l’exactitude pour déterminer si le serveur est en cours d’exécution.<br/>                                          |
-| <span id="RPC_C_BINDING_DEFAULT_TIMEOUT"></span><span id="rpc_c_binding_default_timeout"></span><dl> <dt>**RPC \_ \_ \_ \_ Délai d’attente de liaison C par défaut**</dt> <dt>5</dt> </dl>       | Tente une durée moyenne pour le protocole réseau utilisé. Cette valeur donne l’exactitude de déterminer si un serveur est en cours d’exécution et donne un temps de réponse égal au poids. Il s'agit de la valeur par défaut.<br/> |
+| <span id="RPC_C_BINDING_DEFAULT_TIMEOUT"></span><span id="rpc_c_binding_default_timeout"></span><dl> <dt>**RPC \_ \_ \_ \_ Délai d’attente de liaison C par défaut**</dt> <dt>5</dt> </dl>       | Tente une durée moyenne pour le protocole réseau utilisé. Cette valeur donne l’exactitude de déterminer si un serveur est en cours d’exécution et donne un temps de réponse égal au poids. Il s’agit de la valeur par défaut.<br/> |
 | <span id="RPC_C_BINDING_MAX_TIMEOUT"></span><span id="rpc_c_binding_max_timeout"></span><dl> <dt>**RPC \_ \_ \_ \_ Délai maximal de liaison C**</dt> <dt>9</dt> </dl>                   | Tente la durée la plus longue pour le protocole réseau utilisé. Cette valeur favorise l’exactitude pour déterminer si un serveur s’exécute sur le temps de réponse.<br/>                                            |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs du tableau précédent ne sont pas en secondes. Ces valeurs représentent une durée relative sur une échelle de zéro à 10. Pour plus d’informations sur l’évitement des retards de communication, consultez la rubrique prévention des blocages côté client.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

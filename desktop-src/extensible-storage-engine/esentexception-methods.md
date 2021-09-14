@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.esentexcepti
 ms:contentKeyID: 55107213
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: af77711a18e149fc30c538e6fffd146493c44cf2755d0d9a7f998cac96d6a5c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cede65b156af0f3d8eb0f83c7097f327b9bddb43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118778946"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414381"
 ---
 # <a name="esentexception-methods"></a>Méthodes EsentException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentException, classe](./esentexception-class.md)
 

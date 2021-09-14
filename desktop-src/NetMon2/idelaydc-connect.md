@@ -15,11 +15,11 @@ api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
 ms.openlocfilehash: e91db1dae0c67c5f35e46841867d3d3e15058cf0
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477304"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416736"
 ---
 # <a name="idelaydcconnect-method"></a>IDelaydC :: Connecter, méthode
 
@@ -99,7 +99,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque la méthode **Connecter** est appelée, le NPP appelle automatiquement **IDelaydC :: configure** à l’aide de l’objet BLOB fourni par *hInputBlob*. notez que les codes d’erreur retournés par l’appel à **IDelaydC :: configure** sont passés en retour et retournés par l’appel de **IDelaydC :: Connecter** .
 
@@ -119,7 +119,7 @@ L’objet BLOB d’erreur retourné dans *hErrorBlob* contient des informations 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

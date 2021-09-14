@@ -5,12 +5,12 @@ title: Windows Messages d’erreur du programme d’installation (pour les déve
 ms.topic: article
 ms.date: 09/11/2020
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 70ed32e48e467c97d82013689b39ef9245d2df74c59de1abed66e69fe52cf11c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f825dd6ad3fff7e7745d5d4acb4e858a5d0b5e38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416880"
 ---
 # <a name="windows-installer-error-messages-for-developers"></a>Windows Messages d’erreur du programme d’installation (pour les développeurs)
 
@@ -22,7 +22,7 @@ les codes d’erreur détaillés dans cette rubrique sont retournés par la Wind
 Les développeurs de packages d’installation peuvent également tester la cohérence interne de leurs packages à l’aide d’évaluateurs de cohérence internes. Pour plus d’informations, consultez la page sur les [évaluateurs de cohérence internes-ICEs-CIEM](internal-consistency-evaluators-ices.md).
 
 
-| Code du message    | Message     | Remarques    |
+| Code du message    | Message     | Notes    |
 |-----------------|-------------|------------|
 | 1101<br/> | Impossible d’ouvrir le flux de fichier : \[ 2 \] . Erreur système : \[ 3\]<br/>                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | 1301<br/> | Impossible de créer le fichier' \[ 2 \] '. Un répertoire portant ce nom existe déjà.<br/>                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

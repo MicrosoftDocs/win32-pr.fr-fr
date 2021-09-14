@@ -4,12 +4,12 @@ ms.assetid: d99400a4-3661-4162-bfd6-8c2a27e0f328
 title: 'IWinHttpRequestEvents :: OnError, événement'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31127dcc3155b804bbda1c3ab94ee8a410c73f5a96c3ecfc6f787479ccd51539
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8582deec90eb6bfc2985460f3127d5c7ee9c01b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117744337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414525"
 ---
 # <a name="iwinhttprequesteventsonerror-event"></a>IWinHttpRequestEvents :: OnError, événement
 
@@ -45,18 +45,18 @@ Spécifie une brève description de l’erreur qui s’est produite.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

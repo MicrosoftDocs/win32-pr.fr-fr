@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, génération d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2b391e38e9cefb3e0526d04bfe581aec94cd976fc377f0ae986cbb8e45bf895
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c65b68523b383aefad17a4ec9b729030fb5e0b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416602"
 ---
 # <a name="building-rpc-applications"></a>Génération d’applications RPC
 

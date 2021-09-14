@@ -10,12 +10,12 @@ keywords:
 - pixels, exemple GLX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 312b95fb2ff4719c9ecda863b67ac926905b09d0e4b8aecbcc673a03c18c307a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f0ab6464d54e696c136a6c987b94124f52b0ee2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120035384"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416674"
 ---
 # <a name="glx-pixel-format-code-sample"></a>Exemple de code de format de pixel GLX
 

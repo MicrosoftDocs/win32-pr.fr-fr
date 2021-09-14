@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61743d1aa49200cf871b9ec37d3506ed3ccd040c87dfea5ca1f4150b57328278
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86206b10eeb17468f2708205106b9321b4dd37ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118083780"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416030"
 ---
 # <a name="columnvaluecolumnid-property"></a>ColumnValue. ColumnId, propriété
 
@@ -66,7 +66,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnValue, classe](./columnvalue-class.md)
 

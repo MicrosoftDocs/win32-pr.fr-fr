@@ -4,12 +4,12 @@ ms.assetid: f2a7c87c-9be7-4fd8-8ecd-4edf1f2336ef
 title: centre de distribution de clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eef410ccb9289d30507708dc35000e1c15d5d4c9998b28b33a2e51d1a15b1e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f473fc3b84fed05e157fa700e7549f025979a90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416551"
 ---
 # <a name="key-distribution-center"></a>centre de distribution de clés
 

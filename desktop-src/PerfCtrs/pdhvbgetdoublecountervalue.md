@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: b831cb1d7e487435dfc22b22a407c169b70fd4aa2df788e74bcc219c77a0d162
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67f0372a26649fbe781cf4d9bd25794b82d6346e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416657"
 ---
 # <a name="pdhvbgetdoublecountervalue-function"></a>PdhVbGetDoubleCounterValue fonction)
 
@@ -47,11 +47,11 @@ Variable dans laquelle l’état actuel de la valeur de compteur est retourné �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne la valeur à virgule flottante double précision du compteur actuel, calculée et mise en forme comme défini par le type de compteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

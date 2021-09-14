@@ -4,12 +4,12 @@ ms.assetid: 29cf2412-0a9a-4cf5-b0c3-668204c1c352
 title: Attribut MF_PD_ASF_FILEPROPERTIES_PACKETS (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b47b1c559609785b0c78bc1fb16fcd2e8a1a243d630f5ec27ca0b5cc6500ecbd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1a35691d2daad712e238c2b5d7d638b0ae30890f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119600359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415718"
 ---
 # <a name="mf_pd_asf_fileproperties_packets-attribute"></a>\_Attribut de \_ \_ \_ paquets MF PD ASF
 
@@ -19,13 +19,13 @@ Spécifie le nombre de paquets dans la section des données d’un fichier ASF (
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) génère cet attribut à partir des métadonnées ASF.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

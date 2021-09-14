@@ -4,12 +4,12 @@ ms.assetid: 1ea258c9-1f7f-4324-a17a-d044a4864ea4
 title: RemoteBeginRegisterTopologyWorkQueuesWithMMCSS (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee42b870f46b6bc41e37223a89020acabcbbd6fb02084ee4ddcc9ef4dbaa28ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 448008c29e34574263f04ebbc7dee54d60b6f4ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415827"
 ---
 # <a name="remotebeginregistertopologyworkqueueswithmmcss"></a>RemoteBeginRegisterTopologyWorkQueuesWithMMCSS
 
@@ -22,11 +22,11 @@ HRESULT RemoteBeginRegisterTopologyWorkQueuesWithMMCSS(
 ); 
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications ne peuvent pas appeler cette méthode directement, et les objets n’implémentent pas cette méthode. La méthode n’apparaît pas dans le vtable pour l’interface. Si [**BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss) est appelé à travers les limites de processus, la dll de proxy/stub de Media Foundation traduit l’appel en appel à la méthode distante, puis la traduit en retour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

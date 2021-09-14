@@ -4,12 +4,12 @@ description: Le corps de l’interface IDL contient les types de données utilis
 ms.assetid: b07524a7-b27e-4ea2-ae34-068c07d9a444
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a25f1e74a1c0e33d0f3bde1318a36e8825fc350c445ee079ad534b67af51c03
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 565cbe6493bd865030b77b5e9ef6275b444ca451
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416577"
 ---
 # <a name="the-idl-interface-body"></a>Corps de l’interface IDL
 

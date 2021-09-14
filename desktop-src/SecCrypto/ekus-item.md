@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b81e00de0ca8346d56ceafeb8b0d11353219c5fc6ab3eb0b29a9f7c868f79505
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3eaf8d0b303207aae3ef78cc82771e1436b1027
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416467"
 ---
 # <a name="iekusitem-property"></a>IEKUs :: Item, propriété
 
@@ -45,7 +45,7 @@ EKUs.Item( _
 
 Objet [**EKU**](eku.md) qui représente la propriété utilisation améliorée de la clé (EKU) indexée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

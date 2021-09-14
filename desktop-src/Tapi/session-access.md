@@ -4,12 +4,12 @@ ms.assetid: ecadea9f-750e-4dc1-95c4-898d34866627
 title: Accès aux sessions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c31266298bb36a1ad7e214db3a597e98b3665a200af84831960d83514cc173b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4162635c4ee29b75deb38ec28460502841dd811c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414669"
 ---
 # <a name="session-access"></a>Accès aux sessions
 

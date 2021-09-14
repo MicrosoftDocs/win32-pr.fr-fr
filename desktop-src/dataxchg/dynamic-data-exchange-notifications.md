@@ -5,11 +5,11 @@ ms.assetid: 8e8a007a-d8de-417f-81be-bc90a55663e5
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bec02bac87876829bcc9a8e67f5e047a9d562260
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416101"
 ---
 # <a name="dde-notifications"></a>Notifications DDE
 

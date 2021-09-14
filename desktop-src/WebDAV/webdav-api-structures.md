@@ -4,12 +4,12 @@ description: Les structures suivantes sont utilisées dans l’API WebDAV.
 ms.assetid: 1fa7b740-ac93-4756-ac9f-6a8cb4ea8bc5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0f96c17728e5c026d2b89eb03d72db72dd032556b9af7d067bd5d64fabc73a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abe54d58ef03bc8057336cb0e4bbbe3e833fb59c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118330327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414552"
 ---
 # <a name="webdav-api-structures"></a>Structures de l’API WebDAV
 

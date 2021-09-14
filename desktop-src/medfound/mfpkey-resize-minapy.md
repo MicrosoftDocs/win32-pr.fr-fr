@@ -4,12 +4,12 @@ ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
 title: MFPKEY_RESIZE_MINAPY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9feb7e1134c628be16d82412cd999c9ad73f73a7f76a6439364c5c85d9b3e335
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 39493fd7261ea0a74d84ab18f308f0502b4fb0be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119848239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414086"
 ---
 # <a name="mfpkey_resize_minapy-property"></a>MFPKEY \_ REdimensionner la \_ propriété MINAPY
 
@@ -27,11 +27,11 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur est un nombre réel à virgule fixe. La partie entière du nombre est stockée dans les 2 octets supérieurs et la partie fractionnaire est stockée dans les 2 octets inférieurs.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

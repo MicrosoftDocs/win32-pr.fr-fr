@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 3727bbabe9c56620b313d70ed529b5ac5f43bed620e98e49a3f6c3564fd1ba3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 486c7aedc7092e0dd0f9f68cc1ea2ccad08d9438
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119063959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416720"
 ---
 # <a name="iesppause-method"></a>IESP ::P méthode ause
 
@@ -47,7 +47,7 @@ Obsolète.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -66,7 +66,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas ajoutées au [*fichier de capture*](c.md) actuel tant que vous n’avez pas appelé la méthode [IESP :: Resume](iesp-resume.md) pour redémarrer la capture. Lorsque l' **interruption** et la **reprise** sont utilisées pour arrêter et redémarrer la capture, toutes les informations capturées sont placées dans le même fichier de capture.
 
@@ -74,7 +74,7 @@ Lorsque vous utilisez les méthodes **IESP ::P ause** et **IESP :: Resume** po
 
 Pour redémarrer la capture, appelez [IESP :: Resume](iesp-resume.md). Pour arrêter la capture, appelez [IESP :: Stop](iesp-stop.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

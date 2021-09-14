@@ -18,12 +18,12 @@ keywords:
 - événements, C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5d50be4622cee9ee455710f8b9d2e4cafc63d6560e08faf5c3deaddcdaccc2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16cbef547ab2604244c5c204707a08eb87a6b70a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117748404"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416250"
 ---
 # <a name="handling-events-in-c"></a>Gestion des événements en C++
 

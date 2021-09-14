@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c24d9cb6d6c8cdec29984fa66b6cb12e254413ca518ed12a3089627aeeb08e8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 441c4fb4a05f610aee5a2c923353fb9688bffcc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416154"
 ---
 # <a name="iwmpmediaimagesourcewidth-property"></a>IWMPMedia :: imageSourceWidth, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property imageSourceWidth As System.Int32
 
 **System. Int32** qui correspond à la largeur de l’élément multimédia.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’élément multimédia n’est pas celui en cours, cette propriété retourne la valeur zéro.
 
@@ -119,7 +119,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

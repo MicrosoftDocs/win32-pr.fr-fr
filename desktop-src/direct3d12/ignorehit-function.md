@@ -13,11 +13,11 @@ api_name:
 api_type:
 - NA
 ms.openlocfilehash: 66d450ce5a03e07e779ca5131443cdf67398cf19
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414473"
 ---
 # <a name="ignorehit-function"></a>Fonction IgnoreHit
 
@@ -33,7 +33,7 @@ void IgnoreHit();
 
 ## <a name="return-value"></a>Valeur de retour
 
-**void**
+**nullité**
 
 ## <a name="remarks"></a>Notes
 

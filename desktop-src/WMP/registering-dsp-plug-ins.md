@@ -10,12 +10,12 @@ keywords:
 - Registre, plug-ins DSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7671c59dfe64094afbc5f0537bcae237b3812699f4db1a06519054b14ef295f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a64e7afd43cf242d57c0a9375c4cbda56e457ef1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118570379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416210"
 ---
 # <a name="registering-dsp-plug-ins"></a>Inscription des plug-ins DSP
 

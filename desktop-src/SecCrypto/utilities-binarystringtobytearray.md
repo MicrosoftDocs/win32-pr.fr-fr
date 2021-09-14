@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 69528e14496d6055605532411b558085ac963c911022a9a734d7d4cb9129004e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54d2463d38ea9d7f01037e932531465dd2d06a70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118896598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417637"
 ---
 # <a name="utilitiesbinarystringtobytearray-method"></a>Méthode Utilities. BinaryStringToByteArray
 
@@ -48,11 +48,11 @@ Chaîne compressée binaire à convertir en tableau d’octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Tableau qui contient le résultat de la conversion.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

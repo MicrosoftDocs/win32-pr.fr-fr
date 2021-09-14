@@ -4,12 +4,12 @@ ms.assetid: 13c83b62-9235-4101-82a9-a118e6ece3d5
 title: Exemple qui crée une session et active un fournisseur basé sur un manifeste ou un fournisseur classique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b660daf969db71e9d4c6f7f9d7b5afaeb32737f1575923663df678d88b14cde1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d407bc1570e154dca99784c24a93911fe55409f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117814603"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416924"
 ---
 # <a name="example-that-creates-a-session-and-enables-a-manifest-based-or-classic-provider"></a>Exemple qui crée une session et active un fournisseur basé sur un manifeste ou un fournisseur classique
 

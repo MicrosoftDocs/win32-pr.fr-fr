@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6e0c4085225fe523dcabca87a15bced8bd1f093f0b3da89fa0582b5675cdfbbc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2f8a42e9dee1c49817d578ab73a221c013f69aef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416922"
 ---
 # <a name="fileio_create-class"></a>FileIo \_ créer une classe
 
@@ -172,11 +172,11 @@ Identificateur du thread qui crée le fichier.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

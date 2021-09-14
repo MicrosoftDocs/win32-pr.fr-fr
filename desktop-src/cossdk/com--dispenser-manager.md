@@ -4,12 +4,12 @@ ms.assetid: c8986943-56a1-4668-9e80-7ab2a42333a8
 title: Gestionnaire de distributeur COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec090ba8c6324363c80a00685e4bc9cfa11185fa1b95ad5db3575608c9fe60ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2422b7debb8ee12ed97444f3b16f31e663e1e71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416109"
 ---
 # <a name="com-dispenser-manager"></a>Gestionnaire de distributeur COM+
 

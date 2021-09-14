@@ -4,12 +4,12 @@ ms.assetid: 8295b1bd-6ae1-4f7e-926d-a9da7ec6a524
 title: Informations d’identification Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96dcae73c1e896c326f76e7973ceb5f6550206785fa7173e9212ce9cb427e3e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f91556a7e3bfca67aa386f0264e78ae67052f02c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118918598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416548"
 ---
 # <a name="schannel-credentials"></a>Informations d’identification Schannel
 

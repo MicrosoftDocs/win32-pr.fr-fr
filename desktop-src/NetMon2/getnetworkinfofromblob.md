@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Npptools.dll
 ms.openlocfilehash: 2f8b15dce010febdc952c2527a9f4ad31054fa3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416756"
 ---
 # <a name="getnetworkinfofromblob-function"></a>GetNetworkInfoFromBlob fonction)
 
@@ -54,7 +54,7 @@ Pointeur vers la structure [NETWORKINFO](networkinfo.md) allouée par l’utilis
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction **GetNetworkInfoFromBlob** réussit, la valeur de retour est NMERR \_ Success.
 
@@ -64,7 +64,7 @@ Si la fonction échoue, la valeur de retour est une valeur NMERR qui décrit l�
 
 Les informations réseau sont stockées dans la section BLOB **NetworkInfo** de la catégorie **propriétaire** NPP d’objet BLOB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

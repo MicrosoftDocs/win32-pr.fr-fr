@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a865419a005927cd85ea6b03d4fabad2e2ac3ef15a840b3bd01209a4df00c075
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8708a8a683f7457e6568df3a897c71253ad76c02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118339169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416246"
 ---
 # <a name="head-element"></a>Head, élément
 
@@ -46,7 +46,7 @@ Cet élément n’a pas d’attributs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En général, l’élément **Head** contient un élément **title** et un ou plusieurs éléments **meta** qui définissent les caractéristiques globales de la sélection.
 
@@ -66,7 +66,7 @@ En général, l’élément **Head** contient un élément **title** et un ou pl
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

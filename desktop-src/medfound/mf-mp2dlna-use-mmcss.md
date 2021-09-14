@@ -4,12 +4,12 @@ ms.assetid: 4c27e2ec-624a-4b1f-bea9-3aaad1534c9b
 title: Attribut MF_MP2DLNA_USE_MMCSS (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e824451be89bf4aca485edd2c61ce381f0cf4e0a9d5eefff82bf6c99cef2eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccfdaf36ce51f1158e110dcb3682a5b072c060dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414163"
 ---
 # <a name="mf_mp2dlna_use_mmcss-attribute"></a>MF \_ MP2DLNA \_ utiliser l' \_ attribut mmcss
 
@@ -25,13 +25,13 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur le récepteur multimédia DLNA, interrogez le récepteur multimédia pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) . Définissez l’attribut avant le début de la diffusion en continu.
 
 Si cet attribut a la **valeur true**, le récepteur multimédia DLNA s’inscrit lui-même auprès de mmcss.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

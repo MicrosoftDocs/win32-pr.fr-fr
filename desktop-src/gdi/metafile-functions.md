@@ -5,11 +5,11 @@ title: Fonctions de métafichier
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fd137095fe0659871291ec4e8670054cc2899d10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415944"
 ---
 # <a name="metafile-functions"></a>Fonctions de métafichier
 
@@ -31,12 +31,12 @@ Les fonctions suivantes sont utilisées avec les sous-fichiers de format amélio
 | [**GetEnhMetaFileDescription**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafiledescriptiona)       | Récupère une description de texte facultative à partir d’un métafichier de format amélioré et copie la chaîne dans la mémoire tampon spécifiée. |
 | [**GetEnhMetaFileHeader**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafileheader)                 | Récupère l’enregistrement contenant l’en-tête pour le métafichier de format amélioré spécifié.                                 |
 | [**GetEnhMetaFilePaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilepaletteentries) | Récupère les entrées de palette facultatives du métafichier amélioré spécifié.                                               |
-| [**GetMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-getmetafilea)                                   | GetMetaFile n’est plus disponible pour une utilisation à partir de Windows 2000. Utilisez plutôt [**GetEnhMetaFile**](/windows/desktop/api/WinGdi/nf-wingdi-getenhmetafilea).  |
-| [**GetWinMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-getwinmetafilebits)                     | Convertit les enregistrements de format amélioré d’un métafichier en enregistrements de format Windows.                                      |
+| [**GetMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-getmetafilea)                                   | GetMetaFile ne peut plus être utilisé à partir de Windows 2000. Utilisez plutôt [**GetEnhMetaFile**](/windows/desktop/api/WinGdi/nf-wingdi-getenhmetafilea).  |
+| [**GetWinMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-getwinmetafilebits)                     | convertit les enregistrements de format amélioré d’un métafichier en enregistrements de format Windows.                                      |
 | [**PlayEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-playenhmetafile)                           | Affiche l’image stockée dans le métafichier de format amélioré spécifié.                                                 |
 | [**PlayEnhMetaFileRecord**](/windows/desktop/api/Wingdi/nf-wingdi-playenhmetafilerecord)               | Lit un enregistrement de métafichier amélioré en exécutant les fonctions GDI (Graphics Device Interface) identifiées par l’enregistrement. |
 | [**SetEnhMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-setenhmetafilebits)                     | Crée un métafichier de format amélioré basé sur la mémoire à partir des données spécifiées.                                               |
-| [**SetWinMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-setwinmetafilebits)                     | Convertit un métafichier de l’ancien format Windows au nouveau format amélioré.                                          |
+| [**SetWinMetaFileBits**](/windows/desktop/api/Wingdi/nf-wingdi-setwinmetafilebits)                     | convertit un métafichier de l’ancien format de Windows au nouveau format amélioré.                                          |
 
 
 
@@ -44,7 +44,7 @@ Les fonctions suivantes sont utilisées avec les sous-fichiers de format amélio
 
 ## <a name="obsolete-functions"></a>Fonctions obsolètes
 
-Les fonctions suivantes sont obsolètes. Le sont fournis pour la compatibilité avec les fichiers de format Windows.
+Les fonctions suivantes sont obsolètes. les sont fournis à des fins de compatibilité avec les sous-fichiers de format Windows.
 
 -   [**CloseMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-closemetafile)
 -   [**CopyMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-copymetafilea)

@@ -4,12 +4,12 @@ ms.assetid: 4ab1b5ba-dd19-4802-aa9c-02bd5406681f
 title: Vérification des erreurs en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3e374c6f0bd933c2e4de7a477fea02b4e1538a7a1fa9b4de78e45fd896b192
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f2a56acd41269ece0f9a5c7de4a2dff1960bb10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416407"
 ---
 # <a name="error-checking-in-c"></a>Vérification des erreurs en C++
 

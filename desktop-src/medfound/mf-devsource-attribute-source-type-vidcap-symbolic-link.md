@@ -4,12 +4,12 @@ ms.assetid: 3d256dec-ec8c-4c62-883b-e2c292fd90eb
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd3b69899eb9df1973cb13611a822139ffda0e744c84137ff9d6094ed4a962d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48e1c854ee070713462676482cc04690c2bdde2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104945"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414200"
 ---
 # <a name="mf_devsource_attribute_source_type_vidcap_symbolic_link-attribute"></a>Attribut \_ de \_ \_ \_ \_ \_ lien symbolique VIDCAP du type de source \_ de l’attribut MF DEVSOURCE
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetString**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cet attribut comme entrée de la fonction [**MFCreateDeviceSourceActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesourceactivate) .
 
@@ -40,7 +40,7 @@ L’attribut \_ \_ \_ de lien symbolique VIDCAP du type de source de l’attribu
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

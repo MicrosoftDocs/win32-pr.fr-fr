@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a999eaa5ec7d4ed36b86fc292f4c0d5e8c474fd1df8f5f4b9da5b90f2dcca641
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0487aa07e1f1132c998b6cb2ba0f518a9db57ce2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117758205"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414654"
 ---
 # <a name="week-weekstype-element"></a>Élément week (weeksType)
 
@@ -42,11 +42,11 @@ L’élément **week** est défini par le type complexe [**weeksType**](tasksche
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous spécifiez les semaines du mois, utilisez les nombres 1-4 pour les quatre premières semaines du mois ou utilisez la chaîne « Last » pour indiquer la semaine dernière du mois.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

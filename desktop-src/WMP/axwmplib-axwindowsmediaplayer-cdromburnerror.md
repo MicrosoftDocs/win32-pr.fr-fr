@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37ea2ca4c510685e8a9d23a3fdc507e055f30c8916c7bf8bbbfbb30a5c4591b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c27969ea83089b225ba92eb93854fc1dcde9bde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119864739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416271"
 ---
 # <a name="cdromburnerror-event-of-the-axwindowsmediaplayer-object"></a>Événement CdromBurnError de l’objet AxWindowsMediaPlayer
 
@@ -54,11 +54,11 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour capturer les erreurs spécifiques au support, gérez le AxWMPLib. \_ \_Événement WMPOCXEvents CdromBurnMediaError.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

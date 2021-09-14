@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: e4f72edf2a3532c6d0f2641d979885e6d294c2ad923a28f19b71b348ea3a6377
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe9e3508273a3ee52d72ede65fd6575d72decb8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414527"
 ---
 # <a name="iwinhttprequestwaitforresponse-method"></a>IWinHttpRequest :: WaitForResponse, méthode
 
@@ -66,11 +66,11 @@ Reçoit l’une des valeurs suivantes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode interrompt l’exécution en attendant une réponse à une requête asynchrone. Cette méthode doit être appelée après un [**envoi**](iwinhttprequest-send.md). L’appel d’applications peut spécifier une valeur de *délai d’attente* facultative, en secondes. Si cette méthode expire, la demande n’est pas abandonnée. De cette façon, l’application appelante peut continuer à attendre la demande, le cas échéant, dans un appel ultérieur à cette méthode.
 
@@ -199,7 +199,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -224,7 +224,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 [**WinHttpRequest**](winhttprequest.md)
 </dt> <dt>
 
-[**Afficher**](iwinhttprequest-open.md)
+[**Ouvrir**](iwinhttprequest-open.md)
 </dt> <dt>
 
 [Versions de WinHTTP](winhttp-versions.md)

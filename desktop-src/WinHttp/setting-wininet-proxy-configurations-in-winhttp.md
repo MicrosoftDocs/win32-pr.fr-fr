@@ -4,12 +4,12 @@ ms.assetid: c3e867d8-9d67-4e6a-8551-1fa846e089ed
 title: Définition des configurations du proxy WinINet dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eefa060d24036a02752a5eefacc9ea6672dec9bb77bad30f653c8f382490a487
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91306f6591e0aab0f96fa010ee2a83d3f32c8fb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416128"
 ---
 # <a name="setting-wininet-proxy-configurations-in-winhttp"></a>Définition des configurations du proxy WinINet dans WinHTTP
 

@@ -16,12 +16,12 @@ keywords:
 - SAMI (Synchronized Accessible Media Interchange), exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d277f2849e6036d85bc8c03940a7dbd59df8b81083ca88240ebd68be768fde9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b651c3af117942d56ffc5334323913d26cdf6f99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416169"
 ---
 # <a name="using-sami-with-the-windows-media-player-control-in-a-browser"></a>utilisation de SAMI avec le contrôle Lecteur Windows Media dans un navigateur
 

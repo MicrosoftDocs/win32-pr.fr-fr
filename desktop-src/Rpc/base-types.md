@@ -4,12 +4,12 @@ description: Pour éviter les problèmes que les types de données dépendants d
 ms.assetid: 0b2778c7-8cee-415f-bb5e-01f6c9eedc70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aadc1ae5fedd73a01ce0fd7ed735689e043cff0d74910175cf2ab691c22eeed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50ee57261aac1de6ea4bb15c9a4550721dd10282
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416615"
 ---
 # <a name="base-types"></a>Types de base
 
@@ -21,7 +21,7 @@ Pour éviter les problèmes que les types de données dépendants de l’implém
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**expression**](/windows/desktop/Midl/boolean)       | Élément de données qui peut avoir la valeur **true** ou **false**.                                                                                                          |
 | [**poids**](/windows/desktop/Midl/byte)             | Un élément de données 8 bits est garanti comme étant transmis sans aucune modification.                                                                                                 |
-| [**Char**](/windows/desktop/Midl/char-idl)         | Élément de données de caractères non signés 8 bits.                                                                                                                              |
+| [**char**](/windows/desktop/Midl/char-idl)         | Élément de données de caractères non signés 8 bits.                                                                                                                              |
 | [**Cliquer**](/windows/desktop/Midl/double)         | Nombre à virgule flottante 64 bits.                                                                                                                                     |
 | [**dissocié**](/windows/desktop/Midl/float)           | Nombre à virgule flottante 32 bits.                                                                                                                                     |
 | [**handle \_ t**](/windows/desktop/Midl/handle-t)    | Handle primitif qui peut être utilisé pour la liaison RPC ou la sérialisation de données.                                                                                            |
@@ -29,7 +29,7 @@ Pour éviter les problèmes que les types de données dépendants de l’implém
 | [**int**](/windows/desktop/Midl/int)               | Entier 32 bits qui peut être déclaré comme étant **signé** ou **non signé**.                                                                                         |
 | [**\_\_int3264**](/windows/desktop/Midl/--int3264) | Mot clé qui spécifie un type intégral qui a des propriétés 32 bits ou 64 bits.                                                                              |
 | [**long**](/windows/desktop/Midl/long)             | Modificateur pour **int** qui indique un entier 32 bits. Peut être déclarée comme **étant signed ou** **unsigned**.                                                       |
-| [**short**](/windows/desktop/Midl/short)           | Entier 16 bits qui peut être déclaré comme étant **signé** ou **non signé**.                                                                                         |
+| [**Résumé**](/windows/desktop/Midl/short)           | Entier 16 bits qui peut être déclaré comme étant **signé** ou **non signé**.                                                                                         |
 | [**Small**](/windows/desktop/Midl/small)           | Modificateur pour **int** qui indique un entier 8 bits. Peut être déclarée comme **étant signed ou** **unsigned**.                                                       |
 | [**WCHAR \_ t**](/windows/desktop/Midl/wchar-t)      | Type à caractères larges pris en charge en tant qu’extension Microsoft d’IDL. Par conséquent, ce type n’est pas disponible si vous compilez à l’aide du commutateur [ / **OSF**](/windows/desktop/Midl/-osf) . |
 

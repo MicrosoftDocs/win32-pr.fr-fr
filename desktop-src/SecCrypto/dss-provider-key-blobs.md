@@ -4,12 +4,12 @@ ms.assetid: a0a266ef-0830-4a3f-9bf6-6b64c95c3d03
 title: Objets BLOB de clé du fournisseur DSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: accbc2cbdc7f543fb2a46b77741d5be7f9e216efcf36b487f7d08912bf5d3991
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f27a73e35cccd6fad672f4c94d589d754f970c0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416476"
 ---
 # <a name="dss-provider-key-blobs"></a>Objets BLOB de clé du fournisseur DSS
 

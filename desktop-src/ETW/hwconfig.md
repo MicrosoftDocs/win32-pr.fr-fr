@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e1d4b8f69784729ffe5d51f3068b03fc0b4154182b2d05f2896e4556a05f7eba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfb194e09701dbc52b00279b624877f09ffac24b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118394679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416895"
 ---
 # <a name="hwconfig-class"></a>HWConfig, classe
 
@@ -38,7 +38,7 @@ class HWConfig : MSNT_SystemTrace
 
 La classe **HWConfig** ne définit aucun membre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces événements fournissent la configuration matérielle de l’ordinateur. Contrairement aux autres événements de journalisation de noyau NT, la session de noyau génère automatiquement des événements de configuration matérielle. vous n’activez pas ces événements lors du démarrage de la session du journal de noyau NT.
 
@@ -61,7 +61,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

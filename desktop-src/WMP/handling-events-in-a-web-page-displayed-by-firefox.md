@@ -30,12 +30,12 @@ keywords:
 - événements, Firefox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e971caef18114b670678fc76d0515858bee77a94a5e3f8b5c24ca5322177b8e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b9659d1920ffc4d5e39f4cd44e15e24b08f6ddc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117748414"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416249"
 ---
 # <a name="handling-events-in-a-web-page-displayed-by-firefox"></a>Gestion des événements dans une page Web affichée par Firefox
 

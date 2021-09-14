@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 99b937f00666cedbb1157e5d302d65958b396e4bcd40a91c085fc24435e2cf0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 259701daaad1027d06bf4c28c52084dae0b062b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118256148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414353"
 ---
 # <a name="floatcolumnvaluesize-property"></a>FloatColumnValue. Size, propriété
 
@@ -61,7 +61,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [FloatColumnValue, classe](./floatcolumnvalue-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: b5e45bfc-d91d-41b8-aaa4-72b3a23d869e
 title: MFP_PKEY_StreamRenderingResults, propriété (mfplay. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d63272662d71e261374f51c0463c0bbbb6d515dfeea8dd1ec5ab424609c386d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6acf04f751e8611f3add3a62fc7b4406d757999e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414105"
 ---
 # <a name="mfp_pkey_streamrenderingresults-property"></a>\_Propriété StreamRenderingResults de la propriété HYPERmfp \_
 
@@ -36,7 +36,7 @@ VT \_ Vector \| VT \_ UI4
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété peut être envoyée avec le **\_ type d’événement MFP \_ \_ MEDIAITEM \_ Set** Event.
 
@@ -48,7 +48,7 @@ La valeur de la propriété est un tableau de **HRESULT** s. Les entrées de tab
 
 Si au moins un flux a été correctement connecté, la lecture est possible. Par exemple, l’utilisateur peut avoir le codec nécessaire pour lire le flux audio, mais pas pour lire le flux vidéo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

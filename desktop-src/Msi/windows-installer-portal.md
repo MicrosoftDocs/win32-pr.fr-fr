@@ -3,13 +3,13 @@ description: Moteur d’installation utilisé pour installer des applications ou
 ms.assetid: c90b8cbe-d7a1-44ad-ae65-80115bd55e4f
 title: Windows Installer
 ms.topic: article
-ms.date: 05/19/2020
-ms.openlocfilehash: 65c418f32623cc1a8a207d4319e0b9921c53e2b04c5cf092458bb68d55e8e9b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.date: 09/10/2021
+ms.openlocfilehash: 1d990dc2b285c1f7b9c2b263f3841c62825d5162
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416865"
 ---
 # <a name="windows-installer"></a>Windows Installer
 

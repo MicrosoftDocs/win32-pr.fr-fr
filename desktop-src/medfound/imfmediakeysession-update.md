@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 12c9877990ed9601ccf6b2911504b720088fa956dc76d6db9b97bac518db2d49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15bc06523f0cf9a7dc433381dd596cea89608ce7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118062978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414259"
 ---
 # <a name="imfmediakeysessionupdate-method"></a>IMFMediaKeySession :: Update, méthode
 
@@ -50,11 +50,11 @@ Nombre, en octets, de la *clé*.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

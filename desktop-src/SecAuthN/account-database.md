@@ -4,12 +4,12 @@ ms.assetid: 560ef22c-dd4f-49f8-9e15-a45dbf17df01
 title: Base de données du compte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a4d5e41c959a8c546ef36a5e4014b14ffc949e1670e2b32b199a8c9368bfbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0713d8f7b4336f43172fcd5cda18aa9d25c702fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416566"
 ---
 # <a name="account-database"></a>Base de données du compte
 

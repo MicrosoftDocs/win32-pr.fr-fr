@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd528bc9a902379591fb6d9587fa66bda9df50ad74cb5e5723f8646a53609a39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b61e65505b8ef55b0fdc2dc9d8f5312e24856602
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118909958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416526"
 ---
 # <a name="winbio_iris-constants"></a>\_Constantes Iris WINBIO
 
@@ -43,7 +43,7 @@ Les constantes suivantes sont des valeurs de **\_ sous- \_ type biométriques WI
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

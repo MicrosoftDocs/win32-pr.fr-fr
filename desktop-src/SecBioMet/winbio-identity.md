@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c677a341386bcc937061798f406397028c23c10b65989480da975a9fdf81a3c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8092754b9107029e0be5800bbd5bc98bc3efb91c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416528"
 ---
 # <a name="winbio_identity-structure"></a>\_Structure d’identité WINBIO
 
@@ -118,7 +118,7 @@ Tableau de caractères non signés qui contiennent le SID. La taille maximale ac
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est utilisée dans les fonctions suivantes :
 
@@ -131,7 +131,7 @@ Cette structure est utilisée dans les fonctions suivantes :
 -   [**WinBioVerify**](/windows/desktop/api/Winbio/nf-winbio-winbioverify)
 -   [**WinBioVerifyWithCallback**](/windows/desktop/api/Winbio/nf-winbio-winbioverifywithcallback)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

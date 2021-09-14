@@ -4,12 +4,12 @@ ms.assetid: 4da2046c-00fd-46a8-805f-503729cfa531
 title: Conférence de téléphonie IP Rendezvous
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c1486f2ca730f1efb0391fdea5a3ad22bec65385a31bce9bf233f0f230b7ee5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d1cbfc3a1e07fdc245af0ae6b93277c90083a75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414691"
 ---
 # <a name="rendezvous-ip-telephony-conferencing"></a>Conférence de téléphonie IP Rendezvous
 

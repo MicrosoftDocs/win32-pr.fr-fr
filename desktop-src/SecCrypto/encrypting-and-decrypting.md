@@ -4,12 +4,12 @@ ms.assetid: 82c75a76-4ebb-4b76-be41-5426f18e9ee2
 title: Chiffrement et déchiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf77df496294fe28e42a1b40e17be663ec3991eea16776367f9ba4d60da6204
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbd1671d2efb825ff8795315f98b20c38818fb04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117766050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416423"
 ---
 # <a name="encrypting-and-decrypting"></a>Chiffrement et déchiffrement
 

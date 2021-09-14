@@ -13,11 +13,11 @@ api_type:
 - NA
 api_location: ''
 ms.openlocfilehash: 4827fea8e4259609cbb54f2b58a3d1c88ad6c23e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210365"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414123"
 ---
 # <a name="mf_signature-structure"></a>\_Structure de signature MF
 
@@ -65,14 +65,14 @@ Tableau d’octets de taille **cbSign** qui contient la signature. La taille ré
 
 Cette structure n’est pas déclarée dans un en-tête SDK. Pour utiliser cette structure, ajoutez la déclaration indiquée ici à votre code source.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45ec0d02e71849af88212db733ee205cb26f8c72a5c67c00acaef528bf086423
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb652c0f235cf7438b49e68a544188ac4622acad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118353173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414602"
 ---
 # <a name="imsrdpclientadvancedsettingsbitmapvirtualcachesize-property"></a>IMsRdpClientAdvancedSettings :: BitmapVirtualCacheSize, propriété
 
@@ -90,11 +90,11 @@ Nouvelle taille du cache. Les valeurs valides sont comprises entre 1 et 32 inclu
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

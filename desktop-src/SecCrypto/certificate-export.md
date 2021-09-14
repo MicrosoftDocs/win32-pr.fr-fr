@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f002be332097baa0ad0947367259d15f0657d276770682b709402e2f0a333290
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aee48fe3d9ba56cba90c9645a3fb9752e3367a20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117771766"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416492"
 ---
 # <a name="icertificate2export-method"></a>ICertificate2 :: export, méthode
 
@@ -62,11 +62,11 @@ Valeur de l’énumération de [**\_ \_ type d’encodage**](capicom-encoding-ty
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chaîne qui contient le certificat exporté dans le formulaire d’encodage spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -86,7 +86,7 @@ Chaîne qui contient le certificat exporté dans le formulaire d’encodage spé
 [Objets de chiffrement](cryptography-objects.md)
 </dt> <dt>
 
-[**Certificate**](certificate.md)
+[**Certificat**](certificate.md)
 </dt> </dl>
 
  

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 0536097e3e46fcc09702c1e4000d2fbd9856c205
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417640"
 ---
 # <a name="utilitiesbase64encode-method"></a>Méthode Utilities. Base64Encode
 
@@ -48,7 +48,7 @@ Chaîne à encoder en base64.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chaîne encodée en base64.
 
@@ -56,13 +56,13 @@ Chaîne encodée en base64.
 
 L’encodage Base64 est le schéma utilisé pour transmettre des données binaires. Base64 traite les données en tant que groupes 24 bits, en mappant ces données à quatre caractères encodés. L’encodage Base64 est parfois appelé encodage 3 à 4. Chaque 6 bits du groupe 24 bits est utilisé comme index dans une table de mappage (l’alphabet base64) pour obtenir un caractère pour les données encodées. Les données encodées ont des longueurs de ligne limitées à 76 caractères.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
@@ -71,7 +71,7 @@ L’encodage Base64 est le schéma utilisé pour transmettre des données binair
 
 <dl> <dt>
 
-[**Services**](utilities.md)
+[**Eau, gaz et électricité**](utilities.md)
 </dt> </dl>
 
  

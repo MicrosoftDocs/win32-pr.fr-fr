@@ -8,12 +8,12 @@ keywords:
 - Web Distributed Authoring and Versioning WebDAV voir WebDAV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0784f1b23da439a34eb37b7766f3790dbe2eee7ffa541ae121904b9a6d23295d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2aac7711ae623fe925843e1c38d039d84fcb007e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134196"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414550"
 ---
 # <a name="webdav"></a>WebDAV
 

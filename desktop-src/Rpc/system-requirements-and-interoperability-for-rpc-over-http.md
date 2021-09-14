@@ -4,12 +4,12 @@ description: Microsoft RPC prend en charge RPC sur HTTP, comme indiqué dans le 
 ms.assetid: 1815315c-1286-4e60-b3a2-a02cb3016fca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eefc9019789821499168a76d4d2e02ef485529e08b99c5f0759a19bfb4a46f6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 880f078ea481be59448612b5024bbec4d2f54fa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416598"
 ---
 # <a name="rpc-over-http-system-requirements-interoperability"></a>Configuration système requise pour RPC sur HTTP, interopérabilité
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf0fda0ef2410ea7bd2e08a350d1e56e85c1beb999568ccfa4a653db1e22212
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ebf249405bd71287f93444ae8d23dab694027360
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120119659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414481"
 ---
 # <a name="id3dx11threadpumpaddworkitem-method"></a>ID3DX11ThreadPump :: AddWorkItem, méthode
 
@@ -87,13 +87,13 @@ Périphérique qui utilise l’objet.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

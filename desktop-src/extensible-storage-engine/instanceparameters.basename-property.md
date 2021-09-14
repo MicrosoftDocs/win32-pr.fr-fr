@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fe441036dbd4ae4b6c861e17e73596ef194cd05f2ad7fa46eb5c8fd8f5d8dbcc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d7e36363a73dc19c324e1852f58346e0ad95b40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119112462"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415992"
 ---
 # <a name="instanceparametersbasename-property"></a>InstanceParameters. BaseName, propriété
 
@@ -66,7 +66,7 @@ Type : [System. String](/dotnet/api/system.string)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [InstanceParameters, classe](./instanceparameters-class.md)
 

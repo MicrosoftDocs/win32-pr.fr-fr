@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: e31fbe80f106735a43126b2be5181478b932e2f813b207984959cf013d3fd752
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f2f81585fdf444b6b5ab1795f183897687732ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118562453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414530"
 ---
 # <a name="iwinhttprequestsettimeouts-method"></a>IWinHttpRequest :: SetTimeouts, méthode
 
@@ -71,11 +71,11 @@ Valeur de délai d’attente appliquée lors de la réception d’un paquet de d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Tous les paramètres sont obligatoires. La valeur 0 ou-1 définit un délai d’attente à attendre de façon infinie. Une valeur supérieure à 0 définit la valeur du délai d’attente en millisecondes. Par exemple, 30 000 définit le délai d’expiration sur 30 secondes. Toutes les valeurs négatives autres que-1 provoquent l’échec de cette méthode.
 
@@ -204,7 +204,7 @@ WinHttpReq.Send();
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

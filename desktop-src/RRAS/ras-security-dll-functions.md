@@ -4,12 +4,12 @@ description: Implémentez les fonctions suivantes lors du développement d’une
 ms.assetid: c548faa4-0926-40bc-923e-17e17c9289b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6596663b86c83989b7479e649e0fe6f11c22497f3a1db89015e2a4d1d1344242
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 075b58d25bd0c1f040c720683abca6ec7b46cc62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789485"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416635"
 ---
 # <a name="ras-security-dll-functions"></a>Fonctions de la DLL de sécurité RAS
 

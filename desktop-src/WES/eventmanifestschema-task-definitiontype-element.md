@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9cdd0cfbf1cd9295b3ac3ff1cc12c087819974c82c7510c7558519aec471b18e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35fe629c17b8ede4064de3fb11d05c8e8c84f202
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120005949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416286"
 ---
 # <a name="task-definitiontype-element"></a>Élément Task (DefinitionType)
 
@@ -34,7 +34,7 @@ Définit un événement spécifique à la tâche que votre fournisseur peut jour
 
 L’élément **Task** est défini par le type complexe [**DefinitionType**](eventmanifestschema-definitiontype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

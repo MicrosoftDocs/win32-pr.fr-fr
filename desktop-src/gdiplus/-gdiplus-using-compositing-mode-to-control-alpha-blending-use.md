@@ -4,12 +4,12 @@ ms.assetid: 2a7590ce-daf4-4892-a838-603e3f89b1bb
 title: Utilisation du mode de composition pour contrôler la fusion alpha
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ea2fc9d5be10e3a73bacf7f5a6dc5cbecb8c2992ac8cd961701f55fc2cb524d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db54c71ac9687a1ddf28db09b922b7799d0ebaa3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119611985"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414290"
 ---
 # <a name="using-compositing-mode-to-control-alpha-blending"></a>Utilisation du mode de composition pour contrôler la fusion alpha
 

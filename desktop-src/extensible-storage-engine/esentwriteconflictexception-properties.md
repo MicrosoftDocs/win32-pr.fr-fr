@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103208
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 06184de2b44975a4c89196c73d59d4fe72f2545cb146c1510f1c76ec60f9a57d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c7d5d7cf1e6f2463f593443860a56b711a10def
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119112718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415994"
 ---
 # <a name="esentwriteconflictexception-properties"></a>Propriétés EsentWriteConflictException
 
@@ -69,7 +69,7 @@ Le type [EsentWriteConflictException](./esentwriteconflictexception-class.md) ex
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentWriteConflictException, classe](./esentwriteconflictexception-class.md)
 

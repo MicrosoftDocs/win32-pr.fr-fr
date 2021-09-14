@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7ce2f5e6072e1c59820121ca652de9237b1c226f
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988992"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415975"
 ---
 # <a name="jetindexrecordcount-function"></a>JetIndexRecordCount fonction)
 
@@ -83,7 +83,7 @@ Si cette fonction a la valeur, le nombre exact d’entrées d’index, y compris
 
 Si cette fonction échoue, aucune modification n’est apportée à la mémoire allouée sur *precpos*.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Si la table n’est pas vide, le curseur doit être positionné sur l’enregistrement à partir duquel commencer le décompte. Le nombre inclura cet enregistrement, et le nombre sera reporté jusqu’à la limite donnée dans *crecMax*. Si *crecMax* a la valeur 0, l’opération continue à compter jusqu’à la fin de l’index.
 
@@ -95,7 +95,7 @@ Les plages d’index peuvent être utilisées pour construire des limitations de
 
 **Windows XP, Windows server 2003, Windows 2000 server et Windows 2000 Professional :**  Si le curseur est positionné sur un index ou une plage d’index vide, **JetIndexRecordCount** retourne à tort JET_errNoCurrentRecord plutôt que de retourner un nombre d’enregistrements égal à zéro. Dans ce cas, l’application doit vérifier si l’index ou la plage d’index est vide.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

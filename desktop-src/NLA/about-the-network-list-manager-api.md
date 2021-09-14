@@ -4,12 +4,12 @@ description: À propos de l’API du gestionnaire de listes de réseaux
 ms.assetid: 675cf7ed-9f57-4d62-8091-1f4e8812f2ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 704bedb3a1029c2be3c123c65a896b1765f191b886af9b354d747abd5e1698e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6230251e627671b7fd33adbf50b3904703bc9847
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416758"
 ---
 # <a name="about-the-network-list-manager-api"></a>À propos de l’API du gestionnaire de listes de réseaux
 

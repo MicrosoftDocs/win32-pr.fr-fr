@@ -4,12 +4,12 @@ description: Si vous utilisez des canaux nommés (ncacn \_ NP) comme protocole d
 ms.assetid: a1d0f758-91bc-4821-9a82-64ba6ce575ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f1dade78846bc978abeb8bbbe5c324144db2645177722ca5afd1a62f99a3ea5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf46f9e1c2ea5eb3fe20203db274233f5c10dec5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416622"
 ---
 # <a name="asynchronous-rpc-over-the-named-pipe-protocol"></a>RPC asynchrone sur le protocole Named-Pipe
 

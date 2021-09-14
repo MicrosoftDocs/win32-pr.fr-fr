@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Npptools.dll
 ms.openlocfilehash: 25fbc149a663ef68d1588218937568401f414ef7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416738"
 ---
 # <a name="getstringsfromblob-function"></a>GetStringsFromBlob fonction)
 
@@ -110,7 +110,7 @@ Pointeur vers la variable où la clé de redémarrage sera spécifiée et retour
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -128,7 +128,7 @@ La spécification d’un propriétaire limite les chaînes retournées uniquemen
 
 Lorsque l’appel initial à **GetStringsFromBlob** retourne, *pRestartKey* pointe vers une nouvelle valeur, qui doit être spécifiée lors de l’appel suivant à la fonction pour obtenir la valeur suivante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

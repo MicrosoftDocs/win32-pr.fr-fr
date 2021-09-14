@@ -1,19 +1,19 @@
 ---
-description: 'Windows GDI+ utilise trois espaces de coordonnées : World, page et Device.'
+description: 'Windows GDI+ utilise trois espaces de coordonnées : world, page et device.'
 ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: Types de systèmes de coordonnées
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e259f43d4fc0d6a74021f3a6125f85652f51ac95
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414304"
 ---
 # <a name="types-of-coordinate-systems"></a>Types de systèmes de coordonnées
 
-Windows GDI+ utilise trois espaces de coordonnées : World, page et Device. Lorsque vous effectuez l’appel `myGraphics.DrawLine(&myPen, 0, 0, 160, 80)` , les points que vous transmettez à la méthode [**Graphics ::D rawline**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpoint__inconstpoint_)) , (0,0) et (160, 80), se trouvent dans l’espace de coordonnées universel. Avant que GDI+ puisse dessiner la ligne sur l’écran, les coordonnées passent par une séquence de transformations. Une transformation convertit les coordonnées universelles en coordonnées de page et une autre transformation convertit les coordonnées de page en coordonnées de périphérique.
+Windows GDI+ utilise trois espaces de coordonnées : world, page et device. Lorsque vous effectuez l’appel `myGraphics.DrawLine(&myPen, 0, 0, 160, 80)` , les points que vous transmettez à la méthode [**Graphics ::D rawline**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpoint__inconstpoint_)) , (0,0) et (160, 80), se trouvent dans l’espace de coordonnées universel. avant de GDI+ pouvez dessiner la ligne sur l’écran, les coordonnées passent par une séquence de transformations. Une transformation convertit les coordonnées universelles en coordonnées de page et une autre transformation convertit les coordonnées de page en coordonnées de périphérique.
 
 Supposons que vous souhaitiez utiliser un système de coordonnées dont l’origine se trouve dans le corps de la zone cliente plutôt que dans le coin supérieur gauche. Par exemple, imaginons que vous souhaitiez que l’origine soit de 100 pixels du bord gauche de la zone cliente et de 50 pixels en haut de la zone cliente. L’illustration suivante montre un tel système de coordonnées.
 

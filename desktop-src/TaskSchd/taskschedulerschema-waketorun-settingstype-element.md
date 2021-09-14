@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 12d16f9f06685a427a8f3e7c4f2356dff0bc6415e50379ba752a4bc3a3fec8e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23eeaa06073fa9259c1a48137cf3676baa402d39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414660"
 ---
 # <a name="waketorun-settingstype-element"></a>Élément WakeToRun (settingsType)
 
@@ -42,7 +42,7 @@ L’élément **WakeToRun** est défini par le type complexe [**settingsType**](
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le service Planificateur de tâches sort de l’ordinateur pour exécuter une tâche, l’écran peut rester inactif même si l’ordinateur n’est plus en mode veille ou veille prolongée. l’écran s’active quand Windows Vista détecte qu’un utilisateur est revenu à utiliser l’ordinateur.
 
@@ -50,7 +50,7 @@ Pour le développement C++, consultez la [**propriété WakeToRun de ITaskSettin
 
 Pour le développement de scripts, consultez [**TaskSettings. WakeToRun**](tasksettings-waketorun.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

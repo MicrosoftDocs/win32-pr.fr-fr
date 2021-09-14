@@ -21,12 +21,12 @@ keywords:
 - incorporation, programmes basés sur des Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3c2b4d84194376bd16842f0a9567c83fce2aa616ed4bfef4f20f7255068e8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2190f0d0076fe3253c39f583ae7d2c197f8cb11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117748276"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416240"
 ---
 # <a name="hosting-the-windows-media-player-control-in-a-windows-application"></a>hébergement du contrôle Lecteur Windows Media dans une Application Windows
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 6471fe3baee14fa1853810b66a804974b05ca84d0db9bc4e7dd805085ad5c0c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bef484846507bf68d8ccfc0ad3ea10a250b83133
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119775549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416661"
 ---
 # <a name="pdhvbcreatecounterpathlist-function"></a>PdhVbCreateCounterPathList fonction)
 
@@ -60,11 +60,11 @@ Variable de chaîne qui contient le texte qui sera affiché dans la barre de lé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne le nombre de chemins d’accès aux compteurs sélectionnés par l’utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

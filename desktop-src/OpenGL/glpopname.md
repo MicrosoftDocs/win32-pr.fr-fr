@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe30aa09d401fc8ef35a3671e02a898776af26111ae0f8e31cd1f6ad3bff70b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 830c4937b30cca64de3063b42ad16dd3adc87c89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119290169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416704"
 ---
 # <a name="glpopname-function"></a>glPopName fonction)
 
@@ -48,14 +48,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                               |
+| Nom                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**DÉPASSEMENT de capacité de la \_ pile GL \_**</dt> </dl>   | La fonction a été appelée alors que la pile de matrice actuelle ne contenait qu’une seule matrice.<br/>                                     |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**glPushName**](glpushname.md) provoque un push du nom dans la pile de noms, qui est initialement vide. La fonction **glPopName** Dépile un nom en haut de la pile. La pile de noms est utilisée en mode de sélection pour permettre l’identification unique des jeux de commandes de rendu. Il se compose d’un ensemble ordonné d’entiers non signés.
 
@@ -67,7 +67,7 @@ Les fonctions suivantes récupèrent les informations relatives à [**glPushName
 
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) avec argument GL \_ Max \_ nom \_ \_ profondeur de la pile
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

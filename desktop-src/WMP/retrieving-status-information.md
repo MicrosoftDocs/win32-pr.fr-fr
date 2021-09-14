@@ -3,24 +3,24 @@ title: Récupération des informations d’État
 description: Récupération des informations d’État
 ms.assetid: 61561520-705a-4d06-a72c-c1cc6315f54e
 keywords:
-- Windows Media Player Online stores, gestionnaire de téléchargement
+- Lecteur Windows Media des magasins en ligne, gestionnaire de téléchargement
 - magasins en ligne, gestionnaire de téléchargement
 - tapez 2 magasins en ligne, gestionnaire de téléchargement
-- Magasins en ligne du lecteur Windows Media, récupération de l’État
+- Lecteur Windows Media des magasins en ligne, récupération de l’état
 - magasins en ligne, récupération de l’État
 - type 2 magasins en ligne, récupération de l’État
 - Lecteur Windows Media, gestionnaire de téléchargement
-- Gestionnaire de téléchargement du lecteur Windows Media
+- Lecteur Windows Media Gestionnaire de téléchargement
 - Gestionnaire de téléchargement
 - récupération de l’État
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 155d1c9d949306ae5cda3ffff6a7a55fd3bae23c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416189"
 ---
 # <a name="retrieving-status-information"></a>Récupération des informations d’État
 
@@ -72,9 +72,9 @@ Enfin, les informations d’État s’affichent dans l’élément DIV nommé dl
 [**Utilisation du gestionnaire de téléchargement**](using-the-download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

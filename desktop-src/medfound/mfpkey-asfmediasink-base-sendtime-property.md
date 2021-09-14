@@ -5,11 +5,11 @@ title: MFPKEY_ASFMEDIASINK_BASE_SENDTIME, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e3f9bc7f9d92a598a723e3eeee733f63b59d27d2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106532171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414103"
 ---
 # <a name="mfpkey_asfmediasink_base_sendtime-property"></a>MFPKEY \_ ASFMEDIASINK \_ base \_ SENDTIME, propriété
 
@@ -23,7 +23,7 @@ Type de PROPVARIANT (VT)
 
 Membre PROPVARIANT
 
-**CORRESPONDANTE**
+**ULONG**
 
 VT \_ UI4
 
@@ -41,14 +41,14 @@ Vous pouvez utiliser cette propriété pour configurer le récepteur multimédia
 
 -   [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate): appelez [**IMFASFContentInfo :: GetEncodingConfigurationPropertyStore**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore) sur le pointeur [**IMFASFContentInfo**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo) spécifié dans le paramètre *pContentInfo* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

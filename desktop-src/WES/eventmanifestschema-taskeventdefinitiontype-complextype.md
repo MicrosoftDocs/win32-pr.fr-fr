@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 44a4fc7ca8784b3472fea3b0d4f4e657ce615fae05a8cc7372aa3cca0fedb431
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ebf752dbaf97ceced84b6bd9698faf7b191c07e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416281"
 ---
 # <a name="taskeventdefinitiontype-complex-type"></a>Type complexe TaskEventDefinitionType
 
@@ -79,7 +79,7 @@ Définit un événement spécifique à la tâche que votre fournisseur peut jour
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

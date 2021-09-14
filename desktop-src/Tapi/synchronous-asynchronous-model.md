@@ -4,12 +4,12 @@ ms.assetid: b8512588-ec28-4fbe-b47f-b900e2dba1f2
 title: Modèle synchrone/asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 354bc8e32cdd1bb2bcefac0fe3e4d77361f3be9e37cd6a1549aa157d4b997f43
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 02b3d3b58e9704719e502fa3efc11bc4dc216479
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119975519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416329"
 ---
 # <a name="synchronousasynchronous-model"></a>Modèle synchrone/asynchrone
 

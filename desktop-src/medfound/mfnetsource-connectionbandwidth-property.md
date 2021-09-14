@@ -4,12 +4,12 @@ ms.assetid: 1b71dce1-8744-4114-9629-2a9d0afb7c43
 title: MFNETSOURCE_CONNECTIONBANDWIDTH, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd12a36db2529001d96729c2f019c017b333585c215106b4051a4deb7995a9d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6b852b3eb8dbfe5d3abc85e2223e868c5be708c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414114"
 ---
 # <a name="mfnetsource_connectionbandwidth-property"></a>MFNETSOURCE \_ propriété CONNECTIONBANDWIDTH
 
@@ -31,13 +31,13 @@ VT \_
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ CONNECTIONBANDWIDTH** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

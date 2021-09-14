@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 74ba20fbeae81dcaaa7c52a14021450348734e3da09dfd337e50ff8ea4a47682
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1e2fdb9a2acc10c24720c7adfdb640e7da7b019
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042407"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414445"
 ---
 # <a name="columninfodefaultvalue-property"></a>ColumnInfo. DefaultValue, propriété
 
@@ -62,7 +62,7 @@ Type : [System. Collections. Generic. IList](/dotnet/api/system.collections.gen
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnInfo, classe](./columninfo-class.md)
 

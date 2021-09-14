@@ -4,12 +4,12 @@ ms.assetid: C3D53A3D-BEC0-4C53-B000-98DAAC1282CE
 title: Attribut MF_MEDIA_ENGINE_TRACK_ID (Mfmediaengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a44dde435fccd4721e66878804993c1de9be7d099bda1e322239fc912e9b5c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c199719e21644664018fc448a45bd4a472126a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414173"
 ---
 # <a name="mf_media_engine_track_id-attribute"></a>\_Attribut d' \_ \_ ID de piste du moteur multimédia MF \_
 
@@ -17,7 +17,7 @@ Spécifie l’ID de suivi.
 
 ## <a name="data-type"></a>Type de données
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

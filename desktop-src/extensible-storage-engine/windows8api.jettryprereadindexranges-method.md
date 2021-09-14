@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 9a9664e658254de057b0e3aa8ae86813eb996a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415962"
 ---
 # <a name="windows8apijettryprereadindexranges-method"></a>Méthode Windows8Api. JetTryPrereadIndexRanges
 
@@ -138,14 +138,14 @@ public static bool JetTryPrereadIndexRanges(
     
     Options de prélecture. Utilisé pour spécifier la direction de la prélecture.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 **\[ true \]** si une prélecture a été effectuée ; sinon, **\[ false \]** .  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows8Api, classe](./windows8api-class.md)
 

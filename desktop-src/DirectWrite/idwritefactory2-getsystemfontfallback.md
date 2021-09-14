@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4513c8ee7fb4e7a3796ec442d4d36bb663a0c8803bb6276a584edcfda306d588
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f0eb73ee80dc3e6195267d25f6043225b8613ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119329443"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416939"
 ---
 # <a name="idwritefactory2getsystemfontfallback-method"></a>IDWriteFactory2 :: GetSystemFontFallback, méthode
 
@@ -50,7 +50,7 @@ Contient une adresse d’un pointeur vers l’objet de police de secours nouvell
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 

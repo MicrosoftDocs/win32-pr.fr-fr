@@ -4,12 +4,12 @@ description: Différences entre les fonctions d’assistance WPAD IPv6-Aware et 
 ms.assetid: ea4b1c0d-ce02-477b-85c8-44e1beef90c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6423b9bcb6a609cf21b8399ca03d7da1e0b19450994eb78a66f4c7aaad7d31d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 511b7f04aa0a2abe04b99562c15aeb3a53bdaadf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119860999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414538"
 ---
 # <a name="ipv6-aware-and-legacy-wpad-helper-functions"></a>IPv6-Aware et fonctions d’assistance WPAD existantes
 
@@ -93,14 +93,14 @@ Les tableaux suivants expliquent les différences entre les nouvelles fonctions 
 <tbody>
 <tr class="odd">
 <td>myIPAddress</td>
-<td>aucun</td>
+<td>Aucun</td>
 <td>Adresse IPv4</td>
 <td rowspan="2">La fonction ex renverra une liste de IPv6/IPv4. Nécessaire, car les adresses IPv6 ou IPv4 peuvent avoir plusieurs adresses monodiffusion pour une seule interface $ {REMOVE} $<br />
 </td>
 </tr>
 <tr class="even">
 <td>myIPAddressEx*</td>
-<td>aucun</td>
+<td>Aucun</td>
 <td>Liste des adresses IPv6/IPv4</td>
 
 </tr>
@@ -157,7 +157,7 @@ Les tableaux suivants expliquent les différences entre les nouvelles fonctions 
 
 | Fonctions          | Entrée | Output                     | Motif de modification                                                                                                                                                                                                           |
 |--------------------|-------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| getClientVersion\* | aucun  | Numéro de version du moteur WPAD | Actuellement, cette fonction retourne la version 1,0. Nous avons ajouté cette fonction pour permettre aux administrateurs informatiques de mettre à jour leur WPAD pour qu’ils fonctionnent avec différentes versions du moteur WPAD sans causer de ruptures à leur déploiement existant. |
+| getClientVersion\* | Aucun  | Numéro de version du moteur WPAD | Actuellement, cette fonction retourne la version 1,0. Nous avons ajouté cette fonction pour permettre aux administrateurs informatiques de mettre à jour leur WPAD pour qu’ils fonctionnent avec différentes versions du moteur WPAD sans causer de ruptures à leur déploiement existant. |
 
 
 

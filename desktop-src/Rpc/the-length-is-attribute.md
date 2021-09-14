@@ -6,12 +6,12 @@ keywords:
 - length_is
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 436559961d815adb417d83de5ffa8c06d8497fa0899644411d252c84d6e34ea0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f49ad63b2546d39dcc00d251f39143b7eec354c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118924258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416565"
 ---
 # <a name="the-length_is-attribute"></a>La \[ longueur \_ est \] attribute
 

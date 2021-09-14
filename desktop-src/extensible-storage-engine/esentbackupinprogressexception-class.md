@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6da25d0b664f891105752599787cd8d0d82ac91c1ff252e79ddb5025c6acabb5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cae492abaaeac2b4f21b2afd109f8504fdc663f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119669719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414441"
 ---
 # <a name="esentbackupinprogressexception-class"></a>EsentBackupInProgressException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentBackupInProgressException](./esentbackupinprogressexception-members.md)
 

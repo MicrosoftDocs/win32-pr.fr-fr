@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4879739177f0a2e91f7b76fe82b996d39eee73132d31e1efc803f5d4a8aea1f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eaeedff89d0e4cbf50bd9303cb8bbfca3ee4efee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117975421"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416384"
 ---
 # <a name="recipientscount-property"></a>Propriété Recipients. Count
 
@@ -39,7 +39,7 @@ Recipients.Count As Long
 
 Nombre d'objets dans la collection .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

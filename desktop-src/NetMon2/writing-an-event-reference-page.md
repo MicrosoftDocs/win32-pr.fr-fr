@@ -4,12 +4,12 @@ ms.assetid: cd969fa1-6d2f-4101-b8e6-c5c4e2c75b7d
 title: Écriture d’une page de référence d’événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80a583c6ed6680bc87471d15309dd3e636593c90f97a354d74aad8d3bf095354
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 467c29de02ece69f3c97aba4b449ec8820a7b1f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118362940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416713"
 ---
 # <a name="writing-an-event-reference-page"></a>Écriture d’une page de référence d’événement
 

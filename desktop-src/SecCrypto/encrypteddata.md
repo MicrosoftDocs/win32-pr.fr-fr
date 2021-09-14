@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 15a66640ccdf794e88ae9cff04854a40fcfa6b763259da191bcdc6b07f11f449
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 123e0973343e4990dd2d49cfb321d739085358f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416428"
 ---
 # <a name="encrypteddata-object"></a>Objet EncryptedData
 
@@ -47,7 +47,7 @@ L’objet **EncryptedData** possède ces méthodes.
 | Méthode                                       | Description                                                                             |
 |:---------------------------------------------|:----------------------------------------------------------------------------------------|
 | [**Crypté**](encrypteddata-decrypt.md)     | Déchiffre le contenu chiffré à l’aide de la clé secrète.<br/>                                 |
-| [**Encrypt**](encrypteddata-encrypt.md)     | Chiffre le contenu à l’aide du secret et de l’algorithme de chiffrement actuels.<br/>      |
+| [**Codage**](encrypteddata-encrypt.md)     | Chiffre le contenu à l’aide du secret et de l’algorithme de chiffrement actuels.<br/>      |
 | [**SetSecret**](encrypteddata-setsecret.md) | Définit le secret à partir duquel la clé de session de chiffrement/déchiffrement est dérivée.<br/> |
 
 
@@ -62,18 +62,18 @@ L’objet **EncryptedData** a ces propriétés.
 
 | Propriété                                                | Type d’accès           | Description                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |:--------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Algorithm**](encrypteddata-algorithm.md)<br/> | Lecture seule<br/>  | Algorithme utilisé pour le chiffrement/déchiffrement.<br/>                                                                                                                                                                                                                                                                                                                                                                                      |
-| [**Content**](encrypteddata-content.md)<br/>     | Lecture/écriture<br/> | Contenu à chiffrer ou à déchiffrer. La définition de cette propriété doit être effectuée avant l’appel de la méthode [**Encrypt**](encrypteddata-encrypt.md) . <br/> Lorsque la valeur de cette propriété est réinitialisée, directement ou indirectement, l’intégralité de l' [*État*](../secgloss/s-gly.md) de l’objet est réinitialisée et tout contenu chiffré dans l’objet est perdu.<br/> Il s’agit de la propriété par défaut.<br/> |
+| [**Algorithme**](encrypteddata-algorithm.md)<br/> | Lecture seule<br/>  | Algorithme utilisé pour le chiffrement/déchiffrement.<br/>                                                                                                                                                                                                                                                                                                                                                                                      |
+| [**Humidité**](encrypteddata-content.md)<br/>     | Lecture/écriture<br/> | Contenu à chiffrer ou à déchiffrer. La définition de cette propriété doit être effectuée avant l’appel de la méthode [**Encrypt**](encrypteddata-encrypt.md) . <br/> Lorsque la valeur de cette propriété est réinitialisée, directement ou indirectement, l’intégralité de l' [*État*](../secgloss/s-gly.md) de l’objet est réinitialisée et tout contenu chiffré dans l’objet est perdu.<br/> Il s’agit de la propriété par défaut.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet **EncryptedData** peut être créé et il est sécurisé pour les scripts. Le ProgID de l’objet **EncryptedData** est CAPICOM. EncryptedData. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cbc7268c19235a806b47a27ec1671ed18dbceda46129d3927dd9f7e11edf2818
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3bc5db8aa14f3cabf05f15f8e1ecb41256496b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118983039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414449"
 ---
 # <a name="apiretrievecolumnasbyte-method-jet_sesid-jet_tableid-jet_columnid"></a>Méthode API. RetrieveColumnAsByte (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
@@ -82,14 +82,14 @@ public static Nullable<byte> RetrieveColumnAsByte(
     
     ColumnID à récupérer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Nullable](/dotnet/api/system.nullable-1)\<[Byte](/dotnet/api/system.byte)\>  
 Données extraites de la colonne sous la forme d’un octet. NULL si la colonne est null.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

@@ -15,11 +15,11 @@ api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
 ms.openlocfilehash: d0a07748781a567c889e879e2e99462d8cfb876a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110757"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416718"
 ---
 # <a name="iespdisconnect-method"></a>IESP ::D méthode éconnecter
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -50,17 +50,17 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR**</dt> </dl>      | Le NPP capture des données. Vous ne pouvez pas vous déconnecter du réseau pendant que la capture de données est en cours.<br/> |
 | <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau.<br/>                                                             |
-| <dl> <dt>**NMERR \_ non \_ ESP**</dt> </dl>       | Le NPP est connecté au réseau, mais pas avec la méthode [IESP :: Connect](iesp-connect.md) .<br/>       |
+| <dl> <dt>**NMERR \_ non \_ ESP**</dt> </dl>       | le NPP est connecté au réseau, mais pas avec la méthode [IESP :: Connecter](iesp-connect.md) .<br/>       |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Vous devez appeler la méthode **IESP :: Stop** avant d’appeler **IESP ::D éconnecter**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -80,7 +80,7 @@ Cette méthode ne peut pas être appelée lorsque le NPP capture des données. V
 [IESP](iesp.md)
 </dt> <dt>
 
-[IESP :: Connect](iesp-connect.md)
+[IESP :: Connecter](iesp-connect.md)
 </dt> <dt>
 
 [IESP :: Stop](iesp-stop.md)

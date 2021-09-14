@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 027b32acb8b38ac1359cee96f68542da94f48d3bdf7d454d631bf0a8eff1092e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a0394163e97a822126e71eeda3cf8382f1dcc20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416619"
 ---
 # <a name="authorization-service-constants"></a>Constantes Authorization-Service
 
@@ -39,7 +39,7 @@ Les constantes suivantes sont des valeurs valides pour le paramètre *AuthzSvc* 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

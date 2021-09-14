@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 45019a73091ddee1e6ce06a67db2d7f7976da2fe25912e3dfd36d0e4f5102d59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b5a4ab707d745623ac17f80a208a93aa4daad5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118779693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414392"
 ---
 # <a name="esentdisabledfunctionalityexception-constructor"></a>Constructeur EsentDisabledFunctionalityException
 
@@ -54,7 +54,7 @@ public EsentDisabledFunctionalityException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDisabledFunctionalityException, classe](./esentdisabledfunctionalityexception-class.md)
 

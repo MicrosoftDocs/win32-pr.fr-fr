@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 8023b9db00834b10fcce84510df5ccbafec0c7a2f6654ef73d71754e7c563044
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6dd0d1159132e594b6d48ea6799da5846eeb626e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118365579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416717"
 ---
 # <a name="iespstart-method"></a>IESP :: Start, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers le nom du [*fichier de capture*](c.md) utilisé pour stocker les d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -66,7 +66,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’emplacement du [*fichier de capture*](c.md) est spécifié dans le registre Windows, mais vous pouvez utiliser Moniteur réseau pour modifier l’emplacement du répertoire.
 
@@ -77,7 +77,7 @@ Lorsque vous redémarrez la capture à l’aide des méthodes IESP :: Start et 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

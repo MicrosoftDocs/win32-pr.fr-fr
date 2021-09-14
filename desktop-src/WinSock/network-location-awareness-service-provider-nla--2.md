@@ -4,12 +4,12 @@ ms.assetid: 73a1999d-0c19-4f9d-8e47-07f819874535
 title: Fournisseur d’emplacement réseau (NLA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7378aff6f51f2785671f1d424a4721f9cd77fad22d60554746f9427d7f24f69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91d3b5882b63539ce0299c9d4a2d93dc17ef2576
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119132092"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414521"
 ---
 # <a name="network-location-awareness-service-provider-nla"></a>Fournisseur d’emplacement réseau (NLA)
 

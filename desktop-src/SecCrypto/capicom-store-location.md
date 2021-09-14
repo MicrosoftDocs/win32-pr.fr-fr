@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 15aa93b70840e13901f88c40c715024ec33a835be14b7453da99aecae079b487
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24b2e786e2821c39c6ff67f5919dca2ac0c6bfe9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416524"
 ---
 # <a name="capicom_store_location-enumeration"></a>\_Énumération de l’emplacement du magasin CAPICOM \_
 
@@ -38,14 +38,14 @@ Le type d’énumération de l' **\_ \_ emplacement du magasin CAPICOM** indique
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type d’énumération de l' **\_ \_ emplacement du magasin CAPICOM** est utilisé par les méthodes suivantes :
 
 -   [**PrivateKey. Open**](privatekey-open.md)
 -   [**Store. Open**](store-open.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

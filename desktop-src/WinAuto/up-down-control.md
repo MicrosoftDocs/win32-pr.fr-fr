@@ -4,12 +4,12 @@ description: Un contrôle up-down, également appelé contrôle spin, combine un
 ms.assetid: 45e56c0f-4ac6-4731-b9a6-be4613bf40ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52b9475d8bbca24d2bf536a4eb9a9decf078297e788a37aa4d8560029a67e50e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fd2d28acc4c14a89ec73f5994ed0af47202145a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118114624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416131"
 ---
 # <a name="up-down-control-msaa-ui-element-reference"></a>Contrôle Up-Down (référence des éléments d’interface utilisateur MSAA)
 

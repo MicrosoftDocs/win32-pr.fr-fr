@@ -4,12 +4,12 @@ ms.assetid: 018fc41a-19fd-4e4c-bfed-e0215afb5150
 title: Utilisation des magasins de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f687286d40e64e590079d872a0134742d552b66a9926a1febeb5c42ae2ad7566
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 682068ba8f2f88d0fedabeef7ccee676f092e52e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117971611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417669"
 ---
 # <a name="using-certificate-stores"></a>Utilisation des magasins de certificats
 
