@@ -14,11 +14,11 @@ api_type:
 api_location:
 - IACom.dll
 ms.openlocfilehash: bd52a5ce4563827fb22a00f79113fe1e80e852b3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106531463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226689"
 ---
 # <a name="_ianalysiseventsresults-event"></a>\_IAnalysisEvents :: Results, événement
 
@@ -54,7 +54,7 @@ Objet [**IAnalysisStatus**](ianalysisstatus.md) qui représente l’état de l�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
@@ -70,13 +70,13 @@ Verrouillez votre structure de données lorsque [**IInkAnalyzer**](iinkanalyzer.
 
 Pour plus d’informations sur la synchronisation des données de votre application avec [**IInkAnalyzer**](iinkanalyzer.md), consultez [Data proxy with Ink Analysis](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 679bc47e2e8439c7f4cd5c3bcf26e6d6897910cfbfcaaaae3fe6dec6c9e0b8f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f6ff4875474776df1e2436e0209e6d863f5b3e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118696519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225649"
 ---
 # <a name="wpd_meta_genres-enumeration"></a>\_Énumération des méta- \_ genres wpd
 
@@ -190,11 +190,11 @@ Il s’agit d’un podcast contenant à la fois des données audio et vidéo.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette énumération est utilisée par la propriété [ \_ \_ meta \_ du média wpd](media-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6ccaf2eb-acec-4dfd-9ec7-c78aca043900
 title: InkEdit. MouseMove, événement (Y2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 601bcaa4c5bc3379c207302c28e5eb17d44b2b184ce42452d5b78b6079d88ead
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a0d3e98827a1f0ebcdc80f5d44765ebe768f65e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226481"
 ---
 # <a name="inkeditmousemove-event"></a>InkEdit. MouseMove, événement
 
@@ -86,11 +86,11 @@ Coordonnée y actuelle, en pixels, du pointeur de la souris.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un bouton de la souris est enfoncé alors que le pointeur est sur un contrôle [InkEdit](inkedit-control-reference.md) , ce contrôle capture la souris et reçoit tous les événements de la souris jusqu’au dernier événement [**MouseUp**](inkedit-mouseup.md) , y compris celui-ci. Cela implique que les coordonnées du pointeur de la souris (x, y) retournées par un événement de souris ne se trouvent pas toujours dans la zone interne de l’objet qui les reçoit.
 
@@ -100,7 +100,7 @@ L’événement **MouseMove** est généré continuellement lorsque le pointeur 
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkEditEvents** . L’interface **\_ IInkEditEvents** implémente l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) avec un identificateur de DISPID \_ IeeMouseMove.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

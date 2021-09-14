@@ -14,11 +14,11 @@ api_type:
 api_location:
 - PortableDevice.h
 ms.openlocfilehash: 3f324fd90e58e486a12bffebde9f844d96c3ed83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531795"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225681"
 ---
 # <a name="wpd_cropped_status_values-enumeration"></a>\_ \_ Énumération des valeurs d’État rognées de l’API \_
 
@@ -66,7 +66,7 @@ L’image n’a pas été découpée et ne doit pas être rognée.
 
 Indique l’État rogné d’une image. Cette énumération est utilisée par la propriété de l' [ \_ \_ \_ État rogné de l’image wpd](image-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 747c4631bc2c24a6550904e36e58a6fc02547bc010da7fa1d08b896c6c17489c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3e71acf200a95bba05b7298a5824bfa353e4a90b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119657459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225660"
 ---
 # <a name="wpd_device_types-enumeration"></a>\_Énumération des types d’appareils wpd \_
 
@@ -94,7 +94,7 @@ Un périphérique d’enregistrement audio.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Wpd \_ Les \_ types d’appareils** sont lus à l’aide de l’interface [**IPortableDeviceManager**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager) . Les applications WPD peuvent utiliser ces valeurs pour déterminer l’apparence visuelle générique de l’appareil. Autrement dit, une image de caméra est affichée pour les appareils de type caméra, une image de téléphone mobile s’affiche pour les appareils de type téléphone, et ainsi de suite.
 
@@ -103,7 +103,7 @@ Un périphérique d’enregistrement audio.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

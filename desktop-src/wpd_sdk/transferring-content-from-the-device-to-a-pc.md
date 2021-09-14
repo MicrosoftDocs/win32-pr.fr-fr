@@ -4,12 +4,12 @@ ms.assetid: 76069097-a513-42f7-bdcc-a65714e95f0a
 title: Transfert de contenu de l’appareil à un PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8695f8158040e75a4aae40f95386ed70af45df56a137dabc944ab6d1771e69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de06861ba74b4b7883c8d96e25cebe3fbb64e21c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225697"
 ---
 # <a name="transferring-content-from-the-device-to-a-pc"></a>Transfert de contenu de l’appareil à un PC
 

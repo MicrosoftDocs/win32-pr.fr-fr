@@ -4,12 +4,12 @@ ms.assetid: 8985fee5-7b63-46ab-b229-046e2f0ee004
 title: InkEdit. MouseDown, événement (Y2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a1adb35b6d431007fb4bdc259d72ddce25e3bc480a6596d2c4658cd19a3789e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78e684fe2d75e5eaaf2b0064e8c7c78cbfe281a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118717949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226497"
 ---
 # <a name="inkeditmousedown-event"></a>InkEdit. MouseDown, événement
 
@@ -86,11 +86,11 @@ Coordonnée y actuelle, en pixels, du pointeur de la souris.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un bouton de la souris est enfoncé alors que le pointeur est sur un contrôle [InkEdit](inkedit-control-reference.md) , ce contrôle capture la souris et reçoit tous les événements de la souris jusqu’au dernier événement [**MouseUp**](inkedit-mouseup.md) , y compris celui-ci. Cela implique que les coordonnées du pointeur de la souris (x, y) retournées par un événement de souris ne se trouvent pas toujours dans la zone interne de l’objet qui les reçoit.
 
@@ -98,7 +98,7 @@ Si les boutons de la souris sont appuyés successivement, l’objet qui capture 
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkEditEvents** . L’interface **\_ IInkEditEvents** implémente l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) avec un identificateur de DISPID \_ IeeMouseDown.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

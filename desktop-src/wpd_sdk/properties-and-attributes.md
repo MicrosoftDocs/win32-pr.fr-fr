@@ -4,12 +4,12 @@ ms.assetid: 3bfbe8d0-6ad5-42de-afdd-d83328aaaa62
 title: Propriétés et attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c3956809e2169e9a6e72fef2b569ebc95975f117ddff17ea7a2780371545fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 047b7511633094a0a72356055b1ca6b221d72121
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225713"
 ---
 # <a name="properties-and-attributes"></a>Propriétés et attributs
 

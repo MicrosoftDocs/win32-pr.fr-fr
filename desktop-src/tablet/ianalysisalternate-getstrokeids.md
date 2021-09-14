@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 2682107a58f126011c4d80a02a119219ccea0976408937e19eb7b511eb82cff9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80882a83e9a0fa9bf973990a689e2abf1a52a870
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226596"
 ---
 # <a name="ianalysisalternategetstrokeids-method"></a>IAnalysisAlternate :: GetStrokeIds, méthode
 
@@ -56,18 +56,18 @@ Tableau de *pulStrokeIdsCount* de longueur **long** qui a pour valeur les identi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, utilisez [CoTaskMemFree](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) pour libérer la mémoire à partir de \* *pplStrokeIds* lorsque vous n’avez plus besoin des informations.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

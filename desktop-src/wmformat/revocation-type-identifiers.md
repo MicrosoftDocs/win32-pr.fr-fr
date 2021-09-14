@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, identificateurs de type de révocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 379a9d8dcdfb05357825dc7fb094e865a17f5158c046756ad852ffa8c8f16e3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d64790eaa58df2cde3cd09abaeb1c2eb7dd03a3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084476"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230921"
 ---
 # <a name="revocation-type-identifiers"></a>Identificateurs de type de révocation
 

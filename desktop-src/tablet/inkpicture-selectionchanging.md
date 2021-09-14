@@ -5,11 +5,11 @@ title: InkPicture. SelectionChanging, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 37b8a35d57aeb9367bb9d30647cb074a7e0e6fbd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226332"
 ---
 # <a name="inkpictureselectionchanging-event"></a>InkPicture. SelectionChanging, événement
 
@@ -37,7 +37,7 @@ Nouvelle collection de [InkStrokes](/previous-versions/windows/desktop/legacy/ms
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -45,13 +45,13 @@ Cet événement ne retourne pas de valeur.
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ IOESelectionChanging.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

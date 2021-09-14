@@ -22,12 +22,12 @@ keywords:
 - IWMWatermarkInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78610c95d041390f819c24a11ccbf393bd62d19037e655e2d1c53b458e0a664b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 417012cb165c0028e71af6f8b50052fdd2fab208
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117653432"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225793"
 ---
 # <a name="watermarking-support"></a>Prise en charge du filigrane
 

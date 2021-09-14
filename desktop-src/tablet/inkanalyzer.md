@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: db556faf5cba75fe74af6c46f5c0f0a72fa34f279135e33381892812b3cf4735
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49eeb04b1568bbef785f7d750315e0ea39491d92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118220743"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226521"
 ---
 # <a name="inkanalyzer-class"></a>InkAnalyzer, classe
 
 Implémente l’interface [**IInkAnalyzer**](iinkanalyzer.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette classe implémente l’interface com [**IInkAnalyzer**](iinkanalyzer.md) .
 
@@ -32,7 +32,7 @@ Cette classe implémente l’interface com [**IInkAnalyzer**](iinkanalyzer.md) .
 
 [**\_ IAnalysisProxyEvents**](-ianalysisproxyevents.md) fournit les événements de proxy de données pour le [**IInkAnalyzer**](iinkanalyzer.md). Pour plus d’informations, consultez [Data proxy with Ink Analysis](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

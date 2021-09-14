@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ae03edb843a2b9c6f1cbc98a46c2464de0e76e2eecf5d77bc309efa2dd60fd6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 746783a73892bc34273da4b020446f2668a19cd9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230484"
 ---
 # <a name="cbaseoutputpinbreakconnect-method"></a>Méthode CBaseOutputPin. BreakConnect
 
@@ -40,17 +40,17 @@ HRESULT BreakConnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md) . Il annule l’allocation et libère les interfaces [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) et [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipin) .
 
 Si vous substituez cette méthode, appelez la méthode de la classe de base à partir de votre méthode de substitution. Dans le cas contraire, vous risquez de provoquer des fuites de mémoire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

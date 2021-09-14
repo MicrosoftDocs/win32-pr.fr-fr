@@ -5,11 +5,11 @@ title: InkOverlay. TabletRemoved, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0a5572ec4c8afd664ef96534e93c402ec2141f65
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226353"
 ---
 # <a name="inkoverlaytabletremoved-event"></a>Événement InkOverlay. TabletRemoved
 
@@ -37,21 +37,21 @@ Valeur de type long qui a été utilisée comme ID de l’objet [**IInkTablet**]
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICETabletRemoved.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

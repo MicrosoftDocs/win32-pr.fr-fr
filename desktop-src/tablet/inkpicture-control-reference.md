@@ -5,11 +5,11 @@ title: Référence du contrôle InkPicture
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d93f5727d2f3f049a579e32e5feb0ba0eaa742d2
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471535"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226345"
 ---
 # <a name="inkpicture-control-reference"></a>Référence du contrôle InkPicture
 
@@ -144,7 +144,7 @@ La création du contrôle InkPicture derrière un contrôle transparent (par exe
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur au moment de l’exécution pour le contrôle InkPicture est une fenêtre avec un arrière-plan opaque (couleur unique, arrière-plan de l’image ou les deux) qui contient l’encre opaque.
 
@@ -179,7 +179,7 @@ Cet objet implémente l’interface com **IInkPicture** .
 
 <dl> <dt>
 
-[Référence du contrôle InkEdit](inkedit-control-reference.md)
+[Informations de référence sur le contôle InkEdit](inkedit-control-reference.md)
 </dt> <dt>
 
 [**InkOverlay, classe**](inkoverlay-class.md)

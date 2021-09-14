@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db85d2b25b0f8498c020a78b3e43cfe48877b0cb0b8b77fe33cbb4caa2a3f311
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f663872ce02b9520e3e033cb5bc5a3da12bb3c3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230538"
 ---
 # <a name="acm_isplaying-message"></a>\_Message ISPLAYING ACM
 
@@ -43,11 +43,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

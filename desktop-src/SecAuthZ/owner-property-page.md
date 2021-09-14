@@ -4,12 +4,12 @@ ms.assetid: b0c421db-450e-4030-98e9-e062202e482c
 title: Page de propriétés propriétaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b67b3707017aa8073cfdf4f5ca64340eda74a640bc604a0bd382b7cf2ebe122e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cee9d5c276071674ec274c9955a2e8c5cd5a856a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233430"
 ---
 # <a name="owner-property-page"></a>Page de propriétés propriétaire
 

@@ -4,12 +4,12 @@ description: Windows API des services Web
 ms.assetid: 9357786c-1992-4e28-ac75-c2dfda1df7f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a06d5e895a00ab6b3ba6f19eca391033349085756699f4fe77755772dc59f2a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbbe7d82f94a0468efcb8164551aa994febc83e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225612"
 ---
 # <a name="windows-web-services-api"></a>Windows API des services Web
 

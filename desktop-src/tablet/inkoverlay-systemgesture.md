@@ -1,17 +1,17 @@
 ---
-description: InkOverlay.Sysévénement temGesture-se produit lorsqu’un mouvement système est reconnu.
+description: L’événement InkOverlay. SystemGesture-se produit lorsqu’un mouvement système est reconnu.
 ms.assetid: 6f82b234-2088-4207-a6b4-6c6919623d6a
-title: InkOverlay.Sysévénement temGesture (Msinkaut. h)
+title: InkOverlay. SystemGesture, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e1e55048a60edef4344ec3b566b08de29d9f3d0a16ccccc1f3094949c2aec86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3498d6b5fa779f6a15866ac93d53be8348f3d1a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118218762"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226377"
 ---
-# <a name="inkoverlaysystemgesture-event"></a>InkOverlay.Sysévénement temGesture
+# <a name="inkoverlaysystemgesture-event"></a>Événement InkOverlay. SystemGesture
 
 Se produit lorsqu’un mouvement système est reconnu.
 
@@ -85,11 +85,11 @@ Valeur qui indique si l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les gestes système sont utiles car ils fournissent des informations sur l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) utilisé pour créer le mouvement. Ils fournissent également des raccourcis vers des combinaisons d’événements de souris et sont des méthodes « moins chères » pour détecter les événements de souris.
 
@@ -101,7 +101,7 @@ Pour obtenir la liste des mouvements système spécifiques, consultez le type d�
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICESystemGesture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

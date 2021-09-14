@@ -4,12 +4,12 @@ ms.assetid: 89ba8012-17d9-4b8e-9ffb-d40f66082034
 title: WPD et technologies antérieures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7bffccd6bb3a8364c1255cda455f0c769d69f6ce69fa689b526db2df064b0ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46e56de91885db99ca0589d3af7eaf95e9b028ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225692"
 ---
 # <a name="wpd-and-earlier-technologies"></a>WPD et technologies antérieures
 

@@ -20,11 +20,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a87c493bc8f41bc2a03ba15832ed402939adbeff
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106513510"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225833"
 ---
 # <a name="to-use-manual-stream-selection"></a>Pour utiliser la sélection manuelle de flux
 
@@ -48,9 +48,9 @@ Pour sélectionner manuellement un flux qui s’exclue mutuellement, vous devez 
 [**Lecture des fichiers avec le lecteur asynchrone**](reading-files-with-the-asynchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

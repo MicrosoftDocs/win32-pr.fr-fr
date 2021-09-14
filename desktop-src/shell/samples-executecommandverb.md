@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e32b472d63b9d2d779c97b64833f354e7d4d2eaed034d3a213ae4e101f7beb3b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2deeb63fc6648d07b3d870888d6d2eabc6fb0490
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858268"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226756"
 ---
 # <a name="execute-command-verb-sample"></a>ExecuteCommand, exemple de verbe
 
@@ -23,7 +23,7 @@ Montre comment implémenter un verbe de Shell à l’aide de la méthode Execute
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Cette méthode est préférable pour les implémentations de verbe, car elle offre la plus grande souplesse, est simple et prend en charge l’activation hors processus. Cet exemple implémente un objet COM (Component Object Model) de serveur local autonome, mais il est supposé que l’implémentation du verbe sera intégrée aux applications existantes. Pour ce faire, votre objet d’application principal doit inscrire une fabrique de classe pour elle-même. Cet objet implémente [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) pour les verbes de votre application. Notez que COM lance votre application si elle n’est pas déjà en cours d’exécution, mais se connecte à une instance en cours d’exécution de votre application, le cas échéant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

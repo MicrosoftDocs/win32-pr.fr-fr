@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: a7424f62008e15feb538df7a6a27745dda17bf6ace4612218608f8e509e75e59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d19bed823f5385533dfc938eb9f6013b4a5640c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967278"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226545"
 ---
 # <a name="iinkanalyzerfindinkleafnodesforstrokes-method"></a>IInkAnalyzer :: FindInkLeafNodesForStrokes, méthode
 
@@ -62,11 +62,11 @@ Collection d’objets [**IContextNode**](icontextnode.md) qui contiennent tous l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur *ppContextNodesFound* lorsque vous n’avez plus besoin d’utiliser l’objet.
@@ -77,7 +77,7 @@ Les nœuds terminaux ne contiennent pas de nœuds enfants. Les nœuds d’entré
 
 Si aucun nœud ne contient les traits spécifiés, une collection [**IContextNodes**](icontextnodes.md) vide est retournée. De même, si *ulStrokeIdsCount* est égal à zéro, une collection **IContextNodes** vide est retournée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

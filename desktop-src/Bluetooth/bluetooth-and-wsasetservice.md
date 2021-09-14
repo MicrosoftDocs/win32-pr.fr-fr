@@ -8,12 +8,12 @@ keywords:
 - Bluetooth et WSASetService Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 671e43636de67cee1e1c3c945a3647b5db59e7b0dd22b6eefd70b51f4977c31e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 70399b73bf24477ee1a0ec0c7585a9f46b7657ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230753"
 ---
 # <a name="bluetooth-and-wsasetservice"></a>Bluetooth et WSASetService
 

@@ -4,12 +4,12 @@ ms.assetid: 993b84a3-a5ac-4b00-bfb4-26ca1c9727c6
 title: InkOverlay. CursorButtonDown, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e73edfd6c8d9901a1eab0adf13c3c5439ef5716d1489ddb30e008079304d44b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcae13afb67be0312959939e0793d89d99c841ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967098"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226436"
 ---
 # <a name="inkoverlaycursorbuttondown-event"></a>Événement InkOverlay. CursorButtonDown
 
@@ -45,11 +45,11 @@ Bouton qui a été enfoncé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un bouton sur une info-bulle est enfoncé lorsque l’utilisateur réduit le stylet au digitaliseur et démarre le traçage d’un trait. Un bouton sur un tonneau est enfoncé lorsque le bouton est enfoncé.
 
@@ -57,7 +57,7 @@ Lorsque vous appuyez sur le bouton droit de la souris, vous recevez deux événe
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICECursorButtonDown.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

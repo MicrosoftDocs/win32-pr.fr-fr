@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK, vidéo entrelacée
 - Windows Media Format SDK, encodage vidéo entrelacé
 - Windows Media Format SDK, encodage vidéo entrelacée
-- Windows Media Format SDK, décodage vidéo entrelacée
+- Windows Media Format SDK, décodage de vidéo entrelacée
 - Windows Media Format SDK, ordre des champs
 - ASF (Advanced Systems Format), vidéo entrelacée
 - ASF (format des systèmes avancés), vidéo entrelacée
@@ -25,17 +25,17 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a093ddd6d9d9487ffcd4b73e1f5c75b849cdcdc1
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103841901"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230915"
 ---
 # <a name="to-use-interlaced-video"></a>Pour utiliser la vidéo entrelacée
 
 Il existe deux types de codage vidéo de base : progressif et entrelacé. Dans l’encodage progressif, chaque frame est une représentation encodée d’un cadre de vidéo. Dans l’encodage entrelacé, chaque frame est une représentation encodée de toutes les lignes paires de pixels dans la vidéo, ou de toutes les lignes impaires. Chaque trame entrelacée étant appelée un *champ*, il y a des champs impairs et même des champs. Un affichage entrelacé (comme une télévision) restitue les champs un par un, en alternant les champs. Un affichage progressif affiche tous les frames à la fois.
 
-Le codec de profil avancé Windows Media Video 9 assure la prise en charge de la gestion de l’entrelacement dans les flux compressés.
+le codec de profil avancé Windows Media Video 9 assure la prise en charge de la gestion de l’entrelacement dans les flux compressés.
 
 ## <a name="when-to-use-interlaced-video"></a>Quand utiliser la vidéo entrelacée
 

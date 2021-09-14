@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 05504b2ca1520320777b93c1c066e91edd5135798e4710c6514dbe858737760b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f1187705bfa678252237bd95d9a4cb21a0f97d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118402810"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230442"
 ---
 # <a name="cbaserenderernotifyendofstream-method"></a>Méthode CBaseRenderer. NotifyEndOfStream
 
@@ -40,11 +40,11 @@ void NotifyEndOfStream();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

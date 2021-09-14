@@ -4,12 +4,12 @@ ms.assetid: 6aa476b3-97ad-4289-836b-f46fe4d04280
 title: Propriétés InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c5feb78eb120d3a3758d130dc0cbac7e80f25f51577f6b717823802118e14d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4e7fa3156ef38013ab099e6440b6796505f21d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118717922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226473"
 ---
 # <a name="inkedit-properties"></a>Propriétés InkEdit
 
@@ -26,7 +26,7 @@ Cette section contient les propriétés appartenant au contrôle InkEdit.
 | [**DrawingAttributes**](/windows/desktop/api/inked/nf-inked-iinkedit-get_drawingattributes)   | Obtient ou définit les attributs de dessin pour l’encre qui est encore dessinée sur le contrôle [InkEdit](inkedit-control-reference.md) .<br/>                                                                |
 | [**Activé**](/windows/desktop/api/inked/nf-inked-iinkedit-get_enabled)                       | Obtient ou définit une valeur qui détermine si le contrôle [InkEdit](inkedit-control-reference.md) peut répondre aux événements générés par l’utilisateur.<br/>                                                     |
 | [**Factoid**](/windows/desktop/api/inked/nf-inked-iinkedit-get_factoid)                       | Obtient ou définit la constante [Factoid](factoid-constants.md) utilisée par un objet [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) pour contraindre sa recherche au résultat de la reconnaissance.<br/>                  |
-| [**Police**](/windows/desktop/api/inked/nf-inked-iinkedit-get_font)                             | Obtient ou définit la police du texte affiché par le contrôle [InkEdit](inkedit-control-reference.md) .<br/>                                                                                       |
+| [**Font**](/windows/desktop/api/inked/nf-inked-iinkedit-get_font)                             | Obtient ou définit la police du texte affiché par le contrôle [InkEdit](inkedit-control-reference.md) .<br/>                                                                                       |
 | [**hWnd**](/windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd)                             | Obtient le handle de fenêtre auquel le contrôle [**InkDisp**](inkdisp-class.md) est lié.<br/>                                                                                                      |
 | [**InkInsertMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode)           | Obtient ou définit une valeur qui spécifie la façon dont l’entrée manuscrite est insérée dans le contrôle [InkEdit](inkedit-control-reference.md) , sous forme de texte ou d’entrée manuscrite.<br/>                                                |
 | [**InkMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode)                       | Obtient ou définit une valeur qui spécifie si la collection d’encres est désactivée, si l’encre est collectée ou si les entrées et les mouvements sont collectés.<br/>                                                                |
@@ -52,8 +52,8 @@ Cette section contient les propriétés appartenant au contrôle InkEdit.
 | [**SelStart**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selstart)                     | Obtient ou définit le point de départ du texte sélectionné dans la zone de texte (exécution uniquement).<br/>                                                                                               |
 | [**SelText**](/windows/desktop/api/inked/nf-inked-iinkedit-get_seltext)                       | Obtient ou définit le texte sélectionné dans le contrôle [InkEdit](inkedit-control-reference.md) (heure de l’exécution uniquement).<br/>                                                                                 |
 | [**SelUnderline**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selunderline)             | Obtient ou définit une valeur qui spécifie si le style de police du texte actuellement sélectionné dans le contrôle [InkEdit](inkedit-control-reference.md) est souligné (heure de l’exécution uniquement).<br/>            |
-| [**Statut**](/windows/desktop/api/inked/nf-inked-iinkedit-get_status)                         | Obtient une valeur qui spécifie si le contrôle [InkEdit](inkedit-control-reference.md) est inactif, en collectant l’encre ou en reconnaissant l’encre (heure de l’exécution uniquement).<br/>                                       |
-| [**Financière**](/windows/desktop/api/inked/nf-inked-iinkedit-get_text)                             | Obtient ou définit le texte actuel de la zone de texte.<br/>                                                                                                                                              |
+| [**État**](/windows/desktop/api/inked/nf-inked-iinkedit-get_status)                         | Obtient une valeur qui spécifie si le contrôle [InkEdit](inkedit-control-reference.md) est inactif, en collectant l’encre ou en reconnaissant l’encre (heure de l’exécution uniquement).<br/>                                       |
+| [**Texte**](/windows/desktop/api/inked/nf-inked-iinkedit-get_text)                             | Obtient ou définit le texte actuel de la zone de texte.<br/>                                                                                                                                              |
 | [**TextRTF**](/windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf)                       | Obtient ou définit le texte du contrôle [InkEdit](inkedit-control-reference.md) , y compris tous les codes RTF.<br/>                                                                                     |
 | [**UseMouseForInput**](/windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput)     | Obtient ou définit une valeur qui indique si la souris peut être utilisée comme périphérique d’entrée.<br/>                                                                                                       |
 

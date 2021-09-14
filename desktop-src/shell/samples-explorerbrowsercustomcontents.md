@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8731494a0ec5e9c7df1344ef8f586142c4672a373a862bd475d10e8a693e220a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7caab18e673ceaedb68819c756c9e9755a8af59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226753"
 ---
 # <a name="explorer-browser-custom-contents-sample"></a>Contenu personnalisé de navigateur de l’Explorateur, exemple
 
@@ -22,12 +22,12 @@ Montre comment implémenter un navigateur d’explorateur personnalisé panneau 
 
 Cette rubrique contient les sections suivantes.
 
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

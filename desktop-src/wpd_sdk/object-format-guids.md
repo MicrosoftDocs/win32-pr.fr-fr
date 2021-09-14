@@ -4,12 +4,12 @@ ms.assetid: b668f1c3-eed0-44c5-921f-e92c016130f0
 title: GUID de format d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6737795e2315ae1d69790fbdb7a981dc976181e77f944a899047781070b707b5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d69d941e8c644597fc182a9a0ed1207a88bad060
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120054939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225737"
 ---
 # <a name="object-format-guids"></a>GUID de format d’objet
 

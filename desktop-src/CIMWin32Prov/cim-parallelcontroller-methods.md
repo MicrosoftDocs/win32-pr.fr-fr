@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_ParallelController
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d31db14df95f9e228f9dbaa2170986c9629d077afacbbfc1ce4d4befe8d9402
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e8b6a3779ff7c419e866bce62fa292f2f625297
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118679075"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230603"
 ---
 # <a name="cim_parallelcontroller-methods"></a>\_Méthodes PARALLELCONTROLLER CIM
 

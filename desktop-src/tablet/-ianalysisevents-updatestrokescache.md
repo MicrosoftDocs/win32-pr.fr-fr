@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 9a5854c8061a12dc558a2ca20ebd893880f899b2113065abd9b8122c53812aa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d16011d8c5fe571d228b632fecb7a973bafcbf5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118047371"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226684"
 ---
 # <a name="_ianalysiseventsupdatestrokescache-event"></a>\_Événement IAnalysisEvents :: UpdateStrokesCache
 
@@ -54,11 +54,11 @@ Identificateurs des traits dont les données de paquet ont été effacées.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement lors de l’analyse de l’encre lorsqu’il accède à un ou plusieurs traits pour lesquels les données du paquet ont été effacées. Pour mettre à jour les données de paquets de trait, utilisez la méthode de [**méthode IInkAnalyzer :: UpdateStrokesData**](iinkanalyzer-updatestrokesdata.md) .
 
@@ -66,7 +66,7 @@ Le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement lors de l’an
 
 Pour plus d’informations sur la synchronisation des données de votre application avec [**IInkAnalyzer**](iinkanalyzer.md), consultez [Data proxy with Ink Analysis](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

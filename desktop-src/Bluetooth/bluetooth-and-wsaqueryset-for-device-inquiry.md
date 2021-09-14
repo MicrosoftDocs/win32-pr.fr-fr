@@ -7,12 +7,12 @@ keywords:
 - WSAQUERYSET Bluetooth, pour la consultation de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75a9250670fda52f2ecdc27ffee949b12049b8ec2860b7ee2df23631c4469076
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7de7adf8c15907fe539ddac5133df08d68ee7c4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118959278"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230778"
 ---
 # <a name="bluetooth-and-wsaqueryset-for-device-inquiry"></a>Bluetooth et WSAQUERYSET pour la consultation des appareils
 
@@ -36,7 +36,7 @@ Les fonctions [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winso
 | **lpszQueryString**         | Non utilisé.                                                                                                                                                                                                  | Non utilisé.                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **dwNumberOfCsAddrs**       | Non utilisé.                                                                                                                                                                                                  | Indique le nombre d’éléments dans le tableau de structures d' [**\_ informations CSADDR**](/windows/desktop/api/nspapi/ns-nspapi-csaddr_info) .                                                                                                                                                                                                                                                                                                                          |
 | **lpcsaBuffer**             | Non utilisé.                                                                                                                                                                                                  | Pointeur vers une structure d' [**\_ informations CSADDR**](/windows/desktop/api/nspapi/ns-nspapi-csaddr_info) avec son membre **LocalAddr. lpSockaddr** pointant vers une structure [**sockaddr \_ BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth) avec l’adresse du périphérique distant. Retourné si **lup \_ renvoie \_ addr** est spécifié.                                                                                                                                                                  |
-| **lpBlob**                  | Facultatif. Peut pointer vers une structure d' [**objet BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob) qui pointe vers une structure d' [**\_ \_ appareil de requête BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device) qui peut limiter la longueur des opérations de recherche de périphérique non mises en cache. | Pointeur vers une structure [**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob) qui pointe vers une structure d' [**\_ \_ informations d’appareil BTH**](/windows/desktop/api/Bthdef/ns-bthdef-bth_device_info) . **lpBlob** est retourné si **l' \_ \_ objet blob de retour lup** est spécifié. Spécifiez le **\_ \_ nom de retour lup** pour récupérer le champ nom des **\_ \_ informations sur l’appareil BTH**.                                                                                                                                                     |
+| **lpBlob**                  | facultatif. Peut pointer vers une structure d' [**objet BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob) qui pointe vers une structure d' [**\_ \_ appareil de requête BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device) qui peut limiter la longueur des opérations de recherche de périphérique non mises en cache. | Pointeur vers une structure [**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob) qui pointe vers une structure d' [**\_ \_ informations d’appareil BTH**](/windows/desktop/api/Bthdef/ns-bthdef-bth_device_info) . **lpBlob** est retourné si **l' \_ \_ objet blob de retour lup** est spécifié. Spécifiez le **\_ \_ nom de retour lup** pour récupérer le champ nom des **\_ \_ informations sur l’appareil BTH**.                                                                                                                                                     |
 
 
 
@@ -61,7 +61,7 @@ Les fonctions [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winso
 [Bluetooth et WSALookupServiceNext](bluetooth-and-wsasetservice.md)
 </dt> <dt>
 
-[**OBJET BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
+[**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
 [**\_informations sur l’appareil BTH \_**](/windows/desktop/api/Bthdef/ns-bthdef-bth_device_info)

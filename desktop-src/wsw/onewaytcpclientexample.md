@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1591c750af616eb616766b579f2e17a38e8df05edf6e32b2bf781967c09f7ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6286c295d7eb86b18566369cde4c5bd10d568e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225620"
 ---
 # <a name="onewaytcpclientexample"></a>OneWayTcpClientExample
 

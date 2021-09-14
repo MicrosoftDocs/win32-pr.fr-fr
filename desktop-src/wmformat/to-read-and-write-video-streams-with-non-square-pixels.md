@@ -27,12 +27,12 @@ keywords:
 - pixels (non carrés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdcd5ef5292cc06c78b10916177c48db04547dfcbda4505cfeec93951a054cbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9dd6b3e3ba67ba42dfc144e7f95ddd042dea0f84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118699333"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225841"
 ---
 # <a name="to-read-and-write-video-streams-with-non-square-pixels"></a>pour lire et écrire des Flux vidéo avec des Pixels Non carrés
 

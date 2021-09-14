@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ca35cb98f279674285610fbd06b0399e93a68d59749fe4129475ab8bd970824a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ea5ad32de18046f3d23145d82e971391c3e304c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118658862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230483"
 ---
 # <a name="cbaseoutputpincheckconnect-method"></a>Méthode CBaseOutputPin. CheckConnect
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -65,11 +65,11 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle la méthode de classe de base [**CBasePin :: CheckConnect**](cbasepin-checkconnect.md) , puis interroge la broche d’entrée pour son interface [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 7d8a9703a359a2de13ec96ff3faf46ea9e49fb1fc467cdade56d799503f1b8cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdb4741c36445af686b7721e1f5f04dd3e45f1e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230885"
 ---
 # <a name="iportabledevicevaluesgetstringvalue-method"></a>IPortableDeviceValues :: GetStringValue, méthode
 
@@ -55,7 +55,7 @@ Pointeur vers la valeur **LPWStr** récupérée. L’appelant est chargé d’ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -75,7 +75,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
 Pour obtenir un exemple d’utilisation de cette méthode, consultez [récupération des événements de service pris en charge](retrieving-supported-events.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

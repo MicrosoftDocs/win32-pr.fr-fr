@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: 77bd8adfac5d609af356f7cef0a5da086c052b8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230382"
 ---
 # <a name="cpospassthru-class"></a>CPosPassThru, classe
 
@@ -29,11 +29,11 @@ ms.locfileid: "106523629"
 
 La `CPosPassThru` classe gère les commandes de recherche pour les filtres de transformation, en les passant en amont au filtre suivant.
 
-Quand une application recherche le graphique de filtre, le gestionnaire de graphique de filtre donne la commande Seek aux filtres de convertisseur. La commande est passée en amont, via la broche de sortie de chaque filtre, jusqu’à ce qu’elle atteigne un filtre qui peut exécuter la commande (le cas échéant). Pour plus d’informations, consultez [recherche](seeking.md). La `CPosPassThru` classe transmet toutes les commandes Seek à la broche de sortie sur le filtre en amont, comme indiqué dans le diagramme suivant.
+quand une application recherche le graphique de filtre, le gestionnaire de Graph de filtre donne la commande seek aux filtres de convertisseur. La commande est passée en amont, via la broche de sortie de chaque filtre, jusqu’à ce qu’elle atteigne un filtre qui peut exécuter la commande (le cas échéant). Pour plus d’informations, consultez [recherche](seeking.md). La `CPosPassThru` classe transmet toutes les commandes Seek à la broche de sortie sur le filtre en amont, comme indiqué dans le diagramme suivant.
 
 ![la classe cpospassthru envoie des commandes de recherche en amont.](images/cpospassthru.png)
 
-Bien que cette classe soit fournie dans la bibliothèque de classes de base, DirectShow fournit également la même classe dans Quartz.dll. L’utilisation de la version Quartz.dll peut être légèrement réduite dans votre filtre, car la classe est chargée au moment de l’exécution à partir de la DLL. Pour utiliser cette version, appelez la fonction [**CreatePosPassThru**](createpospassthru.md) .
+bien que cette classe soit fournie dans la bibliothèque de classes de base, DirectShow fournit également la même classe dans Quartz.dll. L’utilisation de la version Quartz.dll peut être légèrement réduite dans votre filtre, car la classe est chargée au moment de l’exécution à partir de la DLL. Pour utiliser cette version, appelez la fonction [**CreatePosPassThru**](createpospassthru.md) .
 
 Dans la méthode **NonDelegatingQueryInterface** de votre code confidentiel de sortie, déléguez à l’objet **CPosPassThru** chaque fois que l’interface demandée est [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) ou [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), comme illustré dans le code suivant :
 
@@ -117,13 +117,13 @@ Sauf indication contraire, toutes les méthodes [**IMediaPosition**](/windows/de
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

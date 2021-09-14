@@ -4,12 +4,12 @@ ms.assetid: 315155ec-0de1-4052-ae7c-51bc3127fbbf
 title: InkOverlay. Stroke, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2836699591b4f1a87ce3d206a795eb13be188def28ea3eadef687a1d96024ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 408c44cf47ecfbf3ea0cfd0f8306be61efb0f8e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119712629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226393"
 ---
 # <a name="inkoverlaystroke-event"></a>InkOverlay. Stroke (événement)
 
@@ -53,11 +53,11 @@ Spécifie si l’événement doit être annulé. Si la **valeur est true**, la c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICEStroke.
 
@@ -68,7 +68,7 @@ L’événement [**Stroke**](inkcollector-stroke.md) est déclenché en mode SEL
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

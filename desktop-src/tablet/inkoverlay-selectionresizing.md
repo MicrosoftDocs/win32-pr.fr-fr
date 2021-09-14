@@ -4,12 +4,12 @@ ms.assetid: 7fe0249c-c43d-498b-9029-cf5969201d96
 title: InkOverlay. SelectionResizing, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 260ac01f303b7f6ced5f38c77bc2d490d1e99aa53382ebe7d2daf52f986ccf40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b5577f83c14ccc2e998fb4257344729e2219a2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119712679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226396"
 ---
 # <a name="inkoverlayselectionresizing-event"></a>Événement InkOverlay. SelectionResizing
 
@@ -42,15 +42,15 @@ Rectangle englobant de la sélection après l’événement **SelectionResizing*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ IOESelectionResizing.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

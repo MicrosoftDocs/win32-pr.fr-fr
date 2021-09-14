@@ -8,12 +8,12 @@ keywords:
 - programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a20cebe459f17601c1c0cbb916be8844b1edbf3b36f974b47ce0d9b28d301d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca797121696af8eb36549bf596ad51ee8189c3cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230735"
 ---
 # <a name="bluetooth-programming-with-windows-sockets"></a>Bluetooth programmation avec des sockets Windows
 

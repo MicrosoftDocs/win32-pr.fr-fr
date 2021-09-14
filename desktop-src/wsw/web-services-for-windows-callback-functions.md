@@ -7,12 +7,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a78bce5c4023d889748af103148088462cb4b267192b1c0b3845fc735fd1bb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a385ca21d00e8845f89bda0d9b04221a922ba421
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225553"
 ---
 # <a name="windows-web-services-callback-functions"></a>Windows Fonctions de rappel des services Web
 

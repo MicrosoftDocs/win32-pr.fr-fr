@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e101d4ad9b5405906d05ba5e5f230326a1a3f13a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230928"
 ---
 # <a name="iwmdrmlicensequeryquerylicensestate-method"></a>IWMDRMLicenseQuery :: QueryLicenseState, méthode
 
@@ -92,9 +92,9 @@ Tableau d’une ou de plusieurs structures de [**données d' \_ État de licence
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -110,7 +110,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
 Toutes les licences qui s’appliquent à l’ID de clé spécifié seront recherchées et évaluées. Les résultats sont agrégés, de sorte que chaque structure de **\_ données d' \_ état \_ de licence DRM** peut contenir des informations provenant de plusieurs licences.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

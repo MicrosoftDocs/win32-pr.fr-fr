@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ce4fe1374ac3d3e328c7d3d1b28b811f2dae5d613470511ede5cdaa753e30a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fa6a883fa6c9ec041bb1454ba7074c06bd20c61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118963218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225636"
 ---
 # <a name="httppurchaseorderclientexample"></a>HttpPurchaseOrderClientExample
 

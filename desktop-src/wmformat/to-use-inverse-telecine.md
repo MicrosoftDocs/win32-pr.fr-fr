@@ -13,12 +13,12 @@ keywords:
 - télécinéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7885caffea83460d73b1eca26dbfd94eb50d99ac4aa8589113875ffc4358c029
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b17d4f4e3ae34c2a9efcaa4fe8e5ce7256474404
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119585319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225836"
 ---
 # <a name="to-use-inverse-telecine"></a>Pour utiliser IVTC (inverse telecine)
 

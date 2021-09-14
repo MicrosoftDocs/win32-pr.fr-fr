@@ -4,12 +4,12 @@ ms.assetid: 326bac37-2d5d-434b-916c-8a675bab5052
 title: InkPicture. Click, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ebde47609a36a92eca211f597345a9784fca03f66076ebb4db6f04ee6f5936
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1dd90cd69555f65531f5ab2684f886dab23e191
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118218538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226348"
 ---
 # <a name="inkpictureclick-event"></a>InkPicture. Click, événement
 
@@ -28,11 +28,11 @@ void Click();
 
 Cet événement n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le clic sur un contrôle génère des événements [**MouseDown**](inkpicture-mousedown.md) et [**MouseUp**](inkpicture-mouseup.md) en plus de l’événement Click.
 
@@ -45,7 +45,7 @@ Si l’événement **Click** contient du code, l’événement [**DblClick**](in
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkPictureEvents** . L’interface **\_ IInkPictureEvents** implémente l’interface IDispatch avec un identificateur de **DISPID \_ IPEClick**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

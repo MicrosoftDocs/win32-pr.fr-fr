@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1dcb6727e909936e08ba8506c1a99855136c0a9725c746503dbf7fd7626515df
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f88cd3f07983870bed8fd2d740f3bf9051019b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230634"
 ---
 # <a name="cim_packagecooling-class"></a>\_Classe CIM PackageCooling
 
@@ -89,7 +89,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) (�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **CIM \_ PackageCooling** est dérivé de [**la \_ dépendance CIM**](cim-dependency.md).
 
@@ -97,7 +97,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

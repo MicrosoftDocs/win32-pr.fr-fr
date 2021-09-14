@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e8e6da97e8277478da7102bf21d33c68f9d1b8a3
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481615"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230790"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin-for-service-discovery"></a>Bluetooth et WSALookupServiceBegin pour la détection de Service
 
@@ -44,7 +44,7 @@ La connexion SDP à l’appareil distant ne reste pas active une fois que la fon
 Les indicateurs, répertoriés dans le tableau ci-dessous, sont utilisés dans le paramètre *dwControlFlags* des fonctions [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) et [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) pour contrôler les résultats de la requête. Les **lup \_ Containers** et **lup \_ FLUSHCACHE** Flags sont utilisés par la fonction **WSALookupServiceBegin** ; le reste des indicateurs est utilisé dans les appels à la fonction **WSALookupServiceNext** .
 
 
-| Indicateur | Résultat | 
+| Indicateur | Résultats | 
 |------|--------|
 | <strong>LUP_CONTAINERS</strong> | Ne doit pas être défini. | 
 | <strong>LUP_FLUSHCACHE</strong> | Les applications doivent généralement spécifier <strong>LUP_FLUSHCACHE</strong>. Cet indicateur indique au système d’ignorer toutes les informations mises en cache et d’établir une connexion SDP par voie hertzienne à l’appareil spécifié pour effectuer la recherche SDP. Cette opération sans mise en cache peut prendre plusieurs secondes (tandis qu’une recherche mise en cache est retournée rapidement). Bluetooth ne met pas en cache de manière proactive les enregistrements SDP à partir des appareils proches, ni ne met en cache de manière agressive les requêtes précédentes. Par conséquent, les applications doivent prévoir que les requêtes ne peuvent pas retourner de résultats (avec le code d’erreur <strong>WSASERVICE_NOT_FOUND</strong>) si <strong>LUP_FLUSHCACHE</strong> n’est pas spécifié. les données mises en cache disponibles à l’aide de l’interface Windows sockets peuvent être améliorées à l’avenir. | 
@@ -84,7 +84,7 @@ pour exécuter une requête avancée pour les services, Bluetooth clients doiven
 
 Les indicateurs suivants sont passés dans le paramètre *dwControlFlags* de [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) pour contrôler les résultats d’une requête avancée.
 
-| Indicateur                     | Résultat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Indicateur                     | Résultats                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **\_conteneurs lup**      | Ne doit pas être défini.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **LUP \_ FLUSHCACHE**      | Les applications doivent généralement spécifier **lup \_ FLUSHCACHE**. Cet indicateur indique au système d’ignorer toutes les informations mises en cache et d’établir une connexion SDP par voie hertzienne à l’appareil spécifié pour effectuer la recherche SDP. Cette opération sans mise en cache peut prendre plusieurs secondes (tandis qu’une recherche mise en cache est retournée rapidement). Bluetooth ne met pas en cache de manière proactive les enregistrements SDP à partir des appareils proches, ni ne met en cache de façon agressive les requêtes précédentes. Par conséquent, les applications doivent s’attendre à ce que les requêtes ne retournent souvent aucun résultat (**WSASERVICE \_ \_ introuvable**) si **lup \_ FLUSHCACHE** n’est pas spécifié. les données mises en cache disponibles à l’aide de l’interface Windows sockets peuvent être améliorées à l’avenir. |

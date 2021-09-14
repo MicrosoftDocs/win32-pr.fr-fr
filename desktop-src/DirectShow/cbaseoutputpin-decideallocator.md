@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 73d822450d635fe5f7620d59f39fcc7ed85fe1e2465f34af3ef561dfc2f3828f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4e587562341118b904803302f0fd7249ebf8e507
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119814209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230477"
 ---
 # <a name="cbaseoutputpindecideallocator-method"></a>Méthode CBaseOutputPin. DecideAllocator
 
@@ -57,11 +57,11 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IMemAlloc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est appelée à la fin du processus de connexion du code confidentiel. Il permet d'effectuer les opérations suivantes :
 
@@ -70,7 +70,7 @@ Cette méthode est appelée à la fin du processus de connexion du code confiden
 3.  Appelle la méthode de la classe [**CBaseOutputPin ::D ecidebuffersize**](cbaseoutputpin-decidebuffersize.md) , qui définit les propriétés Allocator. Il s’agit d’une méthode virtuelle pure ; la classe dérivée doit l’implémenter.
 4.  Appelle la méthode [**IMemInputPin :: NotifyAllocator**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-notifyallocator) , qui avertit la broche d’entrée de l’allocateur utilisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

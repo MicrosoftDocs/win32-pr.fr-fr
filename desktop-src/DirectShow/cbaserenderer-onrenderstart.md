@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 626dc1dbcb82aeec94ebe514e686d197cb17bbdd7807ac38057412617182bf55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7838b0ba43c1e570b745541882a2f2f815dd948
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157652"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230417"
 ---
 # <a name="cbaserendereronrenderstart-method"></a>Méthode CBaseRenderer. OnRenderStart
 
@@ -49,15 +49,15 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CBaseRenderer :: Render**](cbaserenderer-render.md) appelle cette méthode. Elle ne fait rien dans la classe de base, mais la classe dérivée peut la substituer ; par exemple, pour collecter des données de contrôle qualité.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

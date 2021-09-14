@@ -4,12 +4,12 @@ ms.assetid: 0023004b-b6b3-486a-8b8c-8e63c5731206
 title: Inscription de votre gestionnaire de menu contextuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 027e01d4b3bc58727579b77345d3f1b8eed668e5b858e49eb4859a40db9ad2d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aafd2798683b4bc291653bca34996f143fc36842
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083543"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225708"
 ---
 # <a name="registering-your-context-menu-handler"></a>Inscription de votre gestionnaire de menu contextuel
 
@@ -40,16 +40,16 @@ L’exemple ci-dessus inscrit la visionneuse d’images de Shell avec l’espace
 | **WPDContextMenu. audio**               | \_type de contenu wpd \_ \_ audio                                                                                      | .aiff <br/> .mp3 <br/> .wav <br/> .wma <br/>                                     |
 | **WPDContextMenu. vidéo**               | vidéo sur le \_ type de contenu wpd \_ \_                                                                                      | .asf<br/> .avi <br/> . DVR-MS <br/> .mpeg <br/> .mpg <br/> .wmv <br/> |
 | **WPDContextMenu. playlist**<br/> | \_playlist de \_ type de contenu wpd \_                                                                                   | . wpl <br/> .m3u <br/> .mpl <br/> .asx <br/> . Patientez <br/>                     |
-| **WPDContextMenu.Document**            | \_document de \_ type de contenu wpd \_                                                                                   | .doc <br/> .txt <br/> .rtf <br/> .xls <br/> .ppt <br/>                     |
-| **WPDContextMenu. contact**<br/>  | \_contact de \_ type de contenu wpd \_                                                                                    | Aucun                                                                                                     |
-| **WPDContextMenu.Email**               | \_e-mail de \_ type de contenu wpd \_                                                                                      | Aucun                                                                                                     |
-| **WPDContextMenu. rendez-vous**         | \_ \_ rendez-vous de type de contenu wpd \_                                                                                | Aucun                                                                                                     |
-| **WPDContextMenu. tâche**                | \_tâche de \_ type de contenu wpd \_                                                                                       | Aucun                                                                                                     |
-| **WPDContextMenu. MEMO**                | \_mémo de \_ type de contenu wpd \_                                                                                       | Aucun                                                                                                     |
-| **WPDContextMenu.ImageAlbum**          | \_album d' \_ images de type de contenu wpd \_ \_                                                                               | Aucun                                                                                                     |
-| **WPDContextMenu.AudioAlbum**          | TYPE de contenu WPD- \_ \_ \_ \_ album audio                                                                               | Aucun                                                                                                     |
-| **WPDContextMenu.VideoAlbum**          | \_ \_ album vidéo de type de contenu wpd \_ \_                                                                               | Aucun                                                                                                     |
-| **WPDContextMenu.MixedAlbum**          | TYPE de contenu WPD- \_ \_ \_ album de \_ contenu mixte \_                                                                      | Aucun                                                                                                     |
+| **WPDContextMenu. document**            | \_document de \_ type de contenu wpd \_                                                                                   | .doc <br/> .txt <br/> .rtf <br/> .xls <br/> .ppt <br/>                     |
+| **WPDContextMenu. contact**<br/>  | \_contact de \_ type de contenu wpd \_                                                                                    | None                                                                                                     |
+| **WPDContextMenu.Email**               | \_e-mail de \_ type de contenu wpd \_                                                                                      | None                                                                                                     |
+| **WPDContextMenu. rendez-vous**         | \_ \_ rendez-vous de type de contenu wpd \_                                                                                | None                                                                                                     |
+| **WPDContextMenu. tâche**                | \_tâche de \_ type de contenu wpd \_                                                                                       | None                                                                                                     |
+| **WPDContextMenu. MEMO**                | \_mémo de \_ type de contenu wpd \_                                                                                       | None                                                                                                     |
+| **WPDContextMenu.ImageAlbum**          | \_album d' \_ images de type de contenu wpd \_ \_                                                                               | None                                                                                                     |
+| **WPDContextMenu.AudioAlbum**          | TYPE de contenu WPD- \_ \_ \_ \_ album audio                                                                               | None                                                                                                     |
+| **WPDContextMenu.VideoAlbum**          | \_ \_ album vidéo de type de contenu wpd \_ \_                                                                               | None                                                                                                     |
+| **WPDContextMenu.MixedAlbum**          | TYPE de contenu WPD- \_ \_ \_ album de \_ contenu mixte \_                                                                      | None                                                                                                     |
 | **WPDContextMenu. Generic**             | \_type de contenu wpd \_ \_ non spécifié                                                                                | Toutes les autres extensions de fichier                                                                                |
 
 

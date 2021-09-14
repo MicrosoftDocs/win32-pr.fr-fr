@@ -11,19 +11,19 @@ keywords:
 - ASF (Advanced Systems Format), formats vidéo
 - ASF (format des systèmes avancés), formats vidéo
 - formats vidéo
-- Codecs Windows Media Video 9, formats d’entrée vidéo
+- Windows Codec vidéo 9 Media, formats d’entrée vidéo
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3c5113ee3cbd9c9235104f858968db20ebc29e3a
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106512492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225809"
 ---
 # <a name="video-input-formats"></a>Formats d’entrée vidéo
 
-L’enregistreur accepte les formats vidéo suivants comme entrée à compresser à l’aide du codec Windows Media Video 9 :
+l’enregistreur accepte les formats vidéo suivants comme entrée à compresser à l’aide du codec Windows Media Video 9 :
 
 -   WMMEDIASUBTYPE \_ IYUV
 -   WMMEDIASUBTYPE \_ I420
@@ -50,9 +50,9 @@ Vous devez toujours utiliser [**IWMWriter :: GetInputFormatCount**](/previous-v
 [**Types de médias**](media-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

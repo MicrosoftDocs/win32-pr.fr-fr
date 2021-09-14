@@ -14,11 +14,11 @@ api_type:
 api_location:
 - PortableDevice.h
 ms.openlocfilehash: bf9a153d4d41a64b639f796ea2ba0eeb9e567a32
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542260"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230861"
 ---
 # <a name="wpd_power_sources-enumeration"></a>\_Énumération des sources d’alimentation wpd \_
 
@@ -58,7 +58,7 @@ L’appareil utilise une source d’alimentation externe.
 
 Cette énumération est utilisée par la propriété de la [ \_ \_ \_ source d’alimentation de l’appareil wpd](device-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

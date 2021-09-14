@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: fd69d19f753c1c72c1e0c143a0aface2cdb234cb2ace8c87d559834b97bbf0f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f9a2a169b232fe3ad16eeee8816536ed81c74dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119592315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226729"
 ---
 # <a name="sfvm_initmenupopup-message"></a>\_Message SFVM INITMENUPOPUP
 
@@ -55,7 +55,7 @@ Handle du menu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet de vue de dossier système envoie ce message lorsqu’un menu est sélectionné, mais avant son affichage. Traiter ce message si, par exemple, vous devez activer ou désactiver les commandes de menu. Le menu contextuel peut être :
 
@@ -63,7 +63,7 @@ L’objet de vue de dossier système envoie ce message lorsqu’un menu est sél
 -   Menu de niveau supérieur défini par le client.
 -   Sous-menu défini par le client.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b7269e07-7001-48ca-8e20-a39cb02f3719
 title: InkOverlay. MouseWheel, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2563ae898eff2b9541ac52d77626ddebb8259d8bb60a82b18f6460da55f7dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 468dbdac09fd40144768e8342791d5712a570bcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118219202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226428"
 ---
 # <a name="inkoverlaymousewheel-event"></a>InkOverlay. MouseWheel, événement
 
@@ -77,11 +77,11 @@ Indique si l’événement doit être annulé pour le contrôle parent. La valeu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Les propriétés *PX* et *py* sont en pixels, et non pas les unités HIMETRIC associées à l’espace d’encre. Cela est dû au fait que cet événement remplace l’événement de souris associé d’une application ne prenant pas en charge le stylet et que ce type d’application comprend uniquement des pixels.
@@ -90,7 +90,7 @@ Cet événement ne retourne pas de valeur.
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ IPEMouseWheel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

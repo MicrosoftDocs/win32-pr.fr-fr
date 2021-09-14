@@ -4,12 +4,12 @@ ms.assetid: 16144f38-3416-4594-b5e4-ca84fcbdddc9
 title: Propriétaire d’un nouvel objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b787603e9225548e4213259866a6658d637bb85e46588f7260322fc2646128
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32f16124d84e17a075c78c676465ad753fcc12db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118912125"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233435"
 ---
 # <a name="owner-of-a-new-object"></a>Propriétaire d’un nouvel objet
 

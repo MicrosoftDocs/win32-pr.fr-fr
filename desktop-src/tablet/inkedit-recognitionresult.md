@@ -4,12 +4,12 @@ ms.assetid: 09618be0-fe49-494f-940f-79ff8352097e
 title: Événement InkEdit. RecognitionResult (. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37ef71d38be31f32c59919a9ce4f24fd90b2d188d86a26e81821f6f7987da31d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40d6206293b604e5540b5e6d0271e1ebe984a987
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226468"
 ---
 # <a name="inkeditrecognitionresult-event"></a>Événement InkEdit. RecognitionResult
 
@@ -37,15 +37,15 @@ Objet [**IInkRecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iink
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkEditEvents** . L’interface **\_ IInkEditEvents** implémente l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) avec un identificateur de DISPID \_ IeeRecognitionResult.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

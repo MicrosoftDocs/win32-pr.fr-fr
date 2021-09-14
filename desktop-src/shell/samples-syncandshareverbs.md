@@ -1,5 +1,5 @@
 ---
-description: Montre comment inscrire un verbe qui étend le &\# 0034 ; Sync&\# 0034 ; et &\# 0034 ; Partagez&\# 0034 ; verbes dans la barre de commandes de l’Explorateur Windows.
+description: Montre comment inscrire un verbe qui étend le &\# 0034 ; Sync&\# 0034 ; et &\# 0034 ; partagez&\# 0034 ; verbes dans la barre de commandes de l’explorateur de Windows.
 title: Verbes Sync et Share
 ms.topic: article
 ms.date: 05/31/2018
@@ -10,15 +10,15 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: 734d59ce7b527ad068c03be9083ca67dfca20667
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226737"
 ---
 # <a name="sync-and-share-verbs"></a>Verbes Sync et Share
 
-Montre comment inscrire un verbe qui étend les verbes « Sync » et « Share » dans la barre de commandes de l’Explorateur Windows.
+montre comment inscrire un verbe qui étend les verbes « Sync » et « Share » dans la barre de commandes de l’explorateur de Windows.
 
 Cette rubrique contient les sections suivantes.
 
@@ -52,14 +52,14 @@ Pour exécuter l’exemple (Sync) :
 
 1.  Accédez au répertoire qui contient le `sync.reg` fichier.
 2.  Tapez `sync.reg ` sur la ligne de commande ou double-cliquez sur l’icône pour l' `sync.reg` inscrire.
-3.  Ouvrez l’Explorateur Windows et sélectionnez un fichier.
+3.  ouvrez l’explorateur de Windows et sélectionnez un fichier.
 4.  Cliquez sur l’option **synchronisation** dans la barre de commandes et sélectionnez une sous-option, par exemple **Paint**.
 
 Pour exécuter l’exemple (partage) :
 
 1.  Accédez au répertoire qui contient le `share.reg` fichier.
 2.  Tapez `share.reg` sur la ligne de commande ou double-cliquez sur l’icône pour l' `share.reg` inscrire.
-3.  Ouvrez l’Explorateur Windows et sélectionnez un fichier. Cliquez sur l’option **partager** dans la barre de commandes.
+3.  ouvrez l’explorateur de Windows et sélectionnez un fichier. Cliquez sur l’option **partager** dans la barre de commandes.
 4.  Cliquez sur l’option **partager avec** dans la barre de commandes et sélectionnez une sous-option, par exemple **Paint**.
 
 ## <a name="removing-the-sample"></a>Suppression de l'exemple

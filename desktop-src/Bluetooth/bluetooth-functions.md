@@ -6,12 +6,12 @@ keywords:
 - Bluetooth, référence, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e8d945355b0bc25df4d91a96c30a4d20491eb3b0e86c3542e30c0f2b470833
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad5343f0d609185f3bb472570b8454931fc6a18b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119701409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230736"
 ---
 # <a name="bluetooth-functions"></a>Bluetooth Mission
 
@@ -21,7 +21,7 @@ Bluetooth est également pris en charge à l’aide de l’interface de programm
 
 
 
-| Section                                                                                | Content                                                                                                                                                                                       |
+| Section                                                                                | Contenu                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice)                     | envoie une demande d’authentification à un appareil Bluetooth distant.                                                                                                                                 |
 | [**BluetoothAuthenticateDeviceEx**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedeviceex)                 | envoie une demande d’authentification à un appareil Bluetooth distant. En outre, cette fonction permet de transmettre des données hors bande dans l’appel de fonction pour l’appareil en cours d’authentification. |

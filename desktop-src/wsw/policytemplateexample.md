@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e735b5d4ffb61e601ea275023abf9ad7dea78cc127e6b391382e7bce4f4d2c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2085546550f2e3eff536f59efced9719e270dce0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118963078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225617"
 ---
 # <a name="policytemplateexample"></a>PolicyTemplateExample
 
