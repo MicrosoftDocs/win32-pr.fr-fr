@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102141
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1f0dfd942983bd8d95db61d7998cd85eff8c1de8865a52e87b3a7074d692e16d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1746a6d500d315c152d888559032b3fb3ba9630
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119734659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917760"
 ---
 # <a name="esentlogreadverifyfailureexception-properties"></a>Propriétés EsentLogReadVerifyFailureException
 
@@ -69,7 +69,7 @@ Le type [EsentLogReadVerifyFailureException](./esentlogreadverifyfailureexceptio
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

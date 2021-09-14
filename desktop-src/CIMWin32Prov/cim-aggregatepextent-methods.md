@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_AggregatePExtent
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6e0654fd9d2323375ca42f334a487bcdb2c05ec973d38d77576bb46a988ff7e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3febd898142299b2f7b336b223be986ed60b930
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119701279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920543"
 ---
 # <a name="cim_aggregatepextent-methods"></a>\_Méthodes AGGREGATEPEXTENT CIM
 

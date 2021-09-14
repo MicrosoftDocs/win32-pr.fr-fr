@@ -4,12 +4,12 @@ ms.assetid: 015a6a6d-9e07-4f22-b931-dcce77051bef
 title: Téléchargement de Netmon et des exemples de filtres DPWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a6f92f2680807101a3c82664f4b0b3ae5a877f0d9f5797da9c9c0b6ea2b158
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 47790b26164ec0ed2792d1d1e1f2ad4ba5d77d38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918639"
 ---
 # <a name="downloading-netmon-and-sample-dpws-filters"></a>Téléchargement de Netmon et des exemples de filtres DPWS
 

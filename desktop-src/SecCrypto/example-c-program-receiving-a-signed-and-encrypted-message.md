@@ -4,12 +4,12 @@ ms.assetid: 65ca30ba-a184-46ef-808c-e2fedcc86079
 title: 'Exemple de programme C : réception d’un message signé et chiffré'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b9e468eeb2204534bff13e756c72a0a6c7ca583b5493338864b52fef6f44590
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a1d97b50eb401568ebf1732f347f800eed0c26f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121025"
 ---
 # <a name="example-c-program-receiving-a-signed-and-encrypted-message"></a>Exemple de programme C : réception d’un message signé et chiffré
 

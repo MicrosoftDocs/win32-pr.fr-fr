@@ -4,12 +4,12 @@ description: Montre comment découper une zone avec un rectangle de découpage a
 ms.assetid: 4196653a-9177-4a41-9db9-4738a41313aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f666bac88d93cb8ea0f27bfb9c2d5b14975e0dc8bb67aba4f0e767178f6ebddc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d9fea904f9df396918d2cdfdb5205f6dd0197d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569312"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113157"
 ---
 # <a name="how-to-clip-with-an-axis-aligned-clip-rectangle"></a>Comment découper avec un rectangle de découpage Axis-Aligned
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: adc9b778995f400f3db8ba18703c5b2d7d6b5ebcfdcade4be009a695a208ad6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8fae3732407b09df1b3ad6583242222e00d4acf4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119968269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854362"
 ---
 # <a name="jet_conditionalcolumntostring-method"></a>JET_CONDITIONALCOLUMN. Méthode ToString
 

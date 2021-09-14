@@ -39,12 +39,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 10a2f8b9d51da08ccf92759fd4ecffe6050492b5067977a6708a5b34f21919dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e23c9183dabb9b4d9ea25f5f92bd4c8ec6667c04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122002"
 ---
 # <a name="cim_serialcontroller-class-cimwin32-wmi-providers"></a>CIM_SerialController, classe (fournisseurs WMI CIMWin32)
 
@@ -106,7 +106,7 @@ La classe **CIM \_ SerialController** possède ces méthodes.
 
 | Méthode                                                                      | Description                                                                                                                              |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Initialisation**](reset-method-in-class-cim-serialcontroller.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
+| [**Réinitialiser**](reset-method-in-class-cim-serialcontroller.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-serialcontroller.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -780,7 +780,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd>
@@ -1663,7 +1663,7 @@ Cette propriété est héritée [**du \_ contrôleur CIM**](cim-controller.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ SerialController** est dérivée [**du \_ contrôleur CIM**](cim-controller.md).
 
@@ -1671,7 +1671,7 @@ WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

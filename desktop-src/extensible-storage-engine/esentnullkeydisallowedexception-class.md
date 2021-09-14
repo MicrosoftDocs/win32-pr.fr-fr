@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d66b9ec2193835e4b9a0f791a4f981fa18ff70399d6ba59cda2f7975a06e7d6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3b38e043572b1182cd099664cf09dfc229efc8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119040147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917699"
 ---
 # <a name="esentnullkeydisallowedexception-class"></a>EsentNullKeyDisallowedException, classe
 

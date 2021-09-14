@@ -4,12 +4,12 @@ ms.assetid: 17ea7f76-90b2-48fb-8187-64dc6d294443
 title: Inclusion d’un fichier cab dans une installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0970d87b8b219e1558c6b3f1daf78a6a01100a7bc41f9ae1dad51a25048b46
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 098e660de3f7ec7097ab02613d75219ac0a0d624
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119787339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121782"
 ---
 # <a name="including-a-cabinet-file-in-an-installation"></a>Inclusion d’un fichier cab dans une installation
 

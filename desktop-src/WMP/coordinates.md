@@ -10,12 +10,12 @@ keywords:
 - coordonnées dans les bitmaps dans les apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3bdcde6edb7646b649317c09880b09a26a3ec3748c3f111a28491932caf3683
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ec50f0a3d02e42ad3995bb0919fb97dac319a5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117750591"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919324"
 ---
 # <a name="coordinates"></a>Coordinates
 

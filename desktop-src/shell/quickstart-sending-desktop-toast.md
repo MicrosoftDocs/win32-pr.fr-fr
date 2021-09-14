@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: 79f8f65b18fd6774f318541b15d1649b7c25526f46bf3ab57f02edc4788687c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36f9da25c20d99da74be30046fc5f9f4789dfd73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226780"
 ---
 # <a name="quickstart-sending-a-toast-notification-from-the-desktop"></a>Démarrage rapide : envoi d’une notification toast à partir du Bureau
 

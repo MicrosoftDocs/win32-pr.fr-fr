@@ -4,12 +4,12 @@ ms.assetid: 2ad9482f-1888-4f19-bc41-9d47a8e0ed15
 title: Expérience de l’utilisation des canards par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec323bdaf01a7bba0821a9dee2c349239b3a53660334d2ac57edbf71287f396d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d81aa22254ab33ee7396fd4a22d83cc7f5a58041
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119695013"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114742"
 ---
 # <a name="default-ducking-experience"></a>Expérience de l’utilisation des canards par défaut
 

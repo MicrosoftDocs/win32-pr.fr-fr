@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101882
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 925721ae0c29a6d6c3def175d0cf09f81d2bfbee8eea75a1db8a5c52b59b9328
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 256ab14a1c040e8692bdf04cf657da0b1c0716a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119620989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917888"
 ---
 # <a name="esentinvalidbuffersizeexception-methods"></a>Méthodes EsentInvalidBufferSizeException
 

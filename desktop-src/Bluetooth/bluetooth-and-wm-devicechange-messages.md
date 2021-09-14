@@ -4,12 +4,12 @@ description: Bluetooth comprend des \_ messages DEVICECHANGE WM spécifiques qui
 ms.assetid: 7dab37a6-63ac-4377-9884-61dd19972433
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b22c08c4243ce33f7d3146e96a3fcdd5c937b4781fd783918c148939ca0e22e0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5d0fe553a91823850b8bc90164c9c79e4e58ed7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122042"
 ---
 # <a name="bluetooth-and-wm_devicechange-messages"></a>Messages Bluetooth et WM \_ DEVICECHANGE
 

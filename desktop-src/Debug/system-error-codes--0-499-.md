@@ -4,12 +4,12 @@ ms.assetid: cacb0aec-d438-4875-a96e-4e0239fdc6ba
 title: Codes d’erreur système (0-499) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: a9eddec2baf098f62bb1c0ad88e632360807e7f3fd0ea045f2565587f13e93a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 413d9674f511bd49df12267b60d6c6c3dac366aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118405648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114557"
 ---
 # <a name="system-error-codes-0-499"></a>Codes d’erreur système (0-499)
 
@@ -3193,7 +3193,7 @@ Tentative d’accès à une adresse non valide.
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

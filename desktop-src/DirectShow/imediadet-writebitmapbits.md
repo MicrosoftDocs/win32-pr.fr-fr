@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: fc2a967f5b0e99c50317e9dc226a4b345c6790a8ce2b6e5d42eb50dfdc3b105b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79bf54f136cc2ab9db1208ad6c2b4e5cb12bd950
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118154154"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853816"
 ---
 # <a name="imediadetwritebitmapbits-method"></a>IMediaDet :: WriteBitmapBits, méthode
 
@@ -76,7 +76,7 @@ Chemin d’accès du fichier dans lequel enregistrer l’image bitmap. Si le fic
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK correctement. Sinon, retourne une valeur **HRESULT** qui indique la cause de l’erreur. Les codes d’erreur possibles sont les suivants :
 
@@ -95,7 +95,7 @@ Retourne S \_ OK correctement. Sinon, retourne une valeur **HRESULT** qui indiqu
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’appeler cette méthode, définissez le nom de fichier et le flux en appelant [**IMediaDet ::p ut \_ filename**](imediadet-put-filename.md) et [**IMediaDet ::p ut \_ CurrentStream**](imediadet-put-currentstream.md).
 
@@ -111,7 +111,7 @@ Cette méthode met le détecteur de média en mode de manipulation bitmap. Une f
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

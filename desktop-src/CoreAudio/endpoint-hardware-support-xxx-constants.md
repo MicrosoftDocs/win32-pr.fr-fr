@@ -4,12 +4,12 @@ ms.assetid: 54032f75-2287-4589-bda5-e005ee077c41
 title: Constantes ENDPOINT_HARDWARE_SUPPORT_XXX (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c975a7bc00229943bb943035bf1fc84609414d83015ce4ae7d84d175b2e18a3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9ffb5b2255330b205519ce3065ccb5f7eebb6b65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114958"
 ---
 # <a name="endpoint_hardware_support_xxx-constants"></a>SUPPORT matériel de point de terminaison \_ \_ xxx, \_ constantes
 
@@ -25,13 +25,13 @@ Les \_ \_ \_ constantes support matériel de point de terminaison xxx sont des i
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les méthodes [**IAudioEndpointVolume :: QueryHardwareSupport**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-queryhardwaresupport) et [**IAudioMeterInformation :: QueryHardwareSupport**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport) utilisent les \_ constantes support matériel de point de terminaison \_ \_ xxx.
 
 Un masque de support matériel indique les fonctions qu’un périphérique de point de terminaison audio implémente dans le matériel. Le masque peut avoir la valeur 0 ou la combinaison or au niveau du bit (or) d’une ou de plusieurs \_ \_ constantes support matériel de point de terminaison \_ . Si un bit qui correspond à une constante particulière support matériel de point de terminaison \_ \_ \_ est défini dans le masque, la signification est que la fonction représentée par cette constante est implémentée dans le matériel par l’appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

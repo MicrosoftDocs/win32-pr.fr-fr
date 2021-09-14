@@ -4,12 +4,12 @@ description: Montre comment combiner deux géométries à l’aide de Direct2D.
 ms.assetid: c5413e59-ae73-4797-b4ad-3a78ad700634
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d1baa10b78b1829da292656f44160c444e4441b5ef89b52b38a17efd375415b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8332421c62f49b60bb2186118ac7f741922fdc7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119259579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113134"
 ---
 # <a name="how-to-combine-geometries"></a>Comment combiner des géométries
 

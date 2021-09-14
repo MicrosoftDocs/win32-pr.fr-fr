@@ -4,12 +4,12 @@ ms.assetid: 7b45cd8f-1eda-4f89-8662-828f40d34b87
 title: Événements de gestion des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40c0d121b7118ff94cc364c6129f015633d97519cd4506b1890d81655e148205
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d552ebc3ea4d4438971f0cfefd1959ce64259c5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114361"
 ---
 # <a name="device-management-events"></a>Événements de gestion des appareils
 

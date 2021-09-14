@@ -5,11 +5,11 @@ title: MFPKEY_CONSTRAIN_ENUMERATED_VBRQUALITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2cb9e63ab955bbe7726ab67bdab057fe2d397942
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540091"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227603"
 ---
 # <a name="mfpkey_constrain_enumerated_vbrquality-property"></a>MFPKEY \_ contraindre la \_ \_ propriété VBRQUALITY énumérée
 
@@ -35,7 +35,7 @@ Pour énumérer les modes VBR qui répondent à un certain besoin de qualité, d
 -   Affectez à **MFPKEY la \_ contrainte \_ énumérée \_ VBRQUALITY** la **\_ valeur variant true**.
 -   Définissez [**MFPKEY \_ \_ VBRQUALITY souhaité**](mfpkey-desired-vbrqualityproperty.md) sur la qualité souhaitée. Pour les modes sans perte, définissez la qualité souhaitée sur 100.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

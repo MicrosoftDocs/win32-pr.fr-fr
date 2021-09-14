@@ -6,16 +6,16 @@ keywords:
 - Lecteur Windows Media des magasins en ligne, Service de transfert intelligent en arrière-plan (BITS)
 - magasins en ligne, Service de transfert intelligent en arrière-plan (BITS)
 - type 2 magasins en ligne, Service de transfert intelligent en arrière-plan (BITS)
-- BITS (Background Intelligent Transfer Service)
+- Service de transfert intelligent en arrière-plan (BITS)
 - BITS (Service de transfert intelligent en arrière-plan)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6f1a9987ca50d659063e9689289334201b0121ccfe5257f71030536eee03a52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 527edf56e7505c64657d167e0210190e00d697d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855855"
 ---
 # <a name="bits"></a>BITS
 

@@ -4,12 +4,12 @@ ms.assetid: db85ff3b-dbb1-4ed0-b663-21ca9eb66352
 title: Propriétés du point de terminaison audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf76ef70afaed98ed04ad2ee56e83c38c14ffde1bb6e4d43b557d25769afb2f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d6ce4ed9b853c2b73b73de014f3a4c8a90072a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117828500"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115101"
 ---
 # <a name="audio-endpoint-properties"></a>Propriétés du point de terminaison audio
 

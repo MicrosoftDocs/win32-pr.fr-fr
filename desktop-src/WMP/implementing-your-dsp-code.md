@@ -13,12 +13,12 @@ keywords:
 - plug-ins vidéo DSP, implémentation du code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8504a44b9f3e980be612569e9b7cbe06081d0bfe704a5932e44eef789127687f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c9e17dad39a4ba0ebe79e31d9f3eead843d7f81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135562"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217049"
 ---
 # <a name="implementing-your-dsp-code"></a>Implémentation de votre code DSP
 

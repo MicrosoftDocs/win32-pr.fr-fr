@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9782d7196d740ddd0b93256182f16b57e0bdc81d18e7a0648bee5e4380edf373
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 690ede3cac45d05a3000fe60654255daef5202f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117724303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918163"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloatuint-function-for-texture1d"></a>Fonction SampleCmp :: SampleCmp (S, float, float, int, float, uint) pour Texture1D
 
@@ -124,7 +124,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

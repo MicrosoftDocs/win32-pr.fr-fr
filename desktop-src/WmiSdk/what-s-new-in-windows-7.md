@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: nouveautés de Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 000a3460366855df65096333a8b847a6d2c0c0a48a89c91f6791db3286d634fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 682e4f125fcc11a1b6679af7df78fddba5a766ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119502859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918688"
 ---
 # <a name="whats-new-in-windows-7"></a>nouveautés de Windows 7
 

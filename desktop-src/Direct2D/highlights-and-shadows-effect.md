@@ -4,12 +4,12 @@ description: Ajuste les clairs et les ombres de l’image.
 ms.assetid: ebbb7d99-9144-ffff-af73-d89e7d269924
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3335de3bc6b115221c1a2a343cac9c5c5154a6d868c9fa8f63b2cfa719e287c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d595a5b82a2df0b0b0bab14c03e6a807511ed61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113173"
 ---
 # <a name="highlights-and-shadows-effect"></a>Effets des tons clairs et des ombres
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1HighlightsShadows.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -49,7 +49,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet des tons clairs et des tons foncés sont définies par l’énumération [**d2d1 \_ HIGHLIGHTSANDSHADOWS \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|

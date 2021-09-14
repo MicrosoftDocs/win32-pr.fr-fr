@@ -4,12 +4,12 @@ ms.assetid: 5d9a8216-a568-4443-b94f-1b2f2827a4be
 title: Conception pour la disponibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f248b9ac9ed91788713e7ef02b4e7da0a2d7eb0c2070b1240e07dbce21b5895c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 222583c9f53a1ccc88f2a4f984f445de02a2c976
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921772"
 ---
 # <a name="designing-for-availability"></a>Conception pour la disponibilité
 

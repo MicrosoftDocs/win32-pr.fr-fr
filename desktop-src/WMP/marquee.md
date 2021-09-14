@@ -9,12 +9,12 @@ keywords:
 - textes défilant dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d13d733f0cbf76cf6acdb29e57ce78f783ffd99933455d360a34f79dff6d9143
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7efa2db2c6079d47d207240b18a57ebbf7e41ae1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119508442"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919163"
 ---
 # <a name="marquee"></a>Chapiteau
 

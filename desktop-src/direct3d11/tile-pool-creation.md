@@ -4,12 +4,12 @@ description: Un pool de mosaïques est créé par le biais de l’API ID3D11Devi
 ms.assetid: 751A64A6-C9B6-4797-BA1C-B3BEF655DF32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec98038f2c58de0feae7fa491c45945e9e2a30d112ee45a6c3116209f126222e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f3b66a9a548d27382f8cbb4e447516beea6eca8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918519"
 ---
 # <a name="tile-pool-creation"></a>Création d’un pool de vignettes
 

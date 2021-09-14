@@ -4,12 +4,12 @@ description: Récupère la valeur de la propriété de l’adaptateur spécifié
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 8adb48994580125d153c36394c4db65cb38f4a08306814d1638e5c27eb3d4868
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8a7f7b36fdb0128b4047335051823da07a074c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118279399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918047"
 ---
 # <a name="idxcoreadaptergetproperty-method"></a>IDXCoreAdapter :: GetProperty, méthode
 
@@ -55,7 +55,7 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |DXGI_ERROR_INVALID_CALL|Le type de propriété spécifié dans la *propriété* n’est pas reconnu par ce système d’exploitation. Appelez [IsPropertySupported](./nf-dxcore_interface-idxcoreadapter-ispropertysupported.md) pour confirmer que le type de propriété est disponible pour cet adaptateur et le système d’exploitation.|
 |DXGI_ERROR_UNSUPPORTED|Le type de propriété spécifié dans la *propriété* n’est pas pris en charge par l’adaptateur. Appelez [IsPropertySupported](./nf-dxcore_interface-idxcoreadapter-ispropertysupported.md) pour confirmer que le type de propriété est disponible pour cet adaptateur et le système d’exploitation.|

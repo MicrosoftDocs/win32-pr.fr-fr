@@ -4,12 +4,12 @@ ms.assetid: 72f69ad2-15d9-4191-a8aa-4c23a2392006
 title: Vérificateur des fichiers système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2f751aa30c06dbff90b8d5221974236b45edf9f0f278c144f755568a0040f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: da4e0d67f6de6aba62fe262969d7f30db0c45335
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118330281"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216849"
 ---
 # <a name="system-file-checker"></a>Vérificateur des fichiers système
 
@@ -160,7 +160,7 @@ SFC définit la valeur de Registre suivante :
 
 Pour plus d’informations, consultez [valeurs de Registre WFP](wfp-registry-values.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 sur Windows Vista uniquement, vous pouvez définir la variable d’environnement du **\_ \_ journal de suivi Windows** sur l’emplacement d’un répertoire valide pour recevoir un fichier journal.
 

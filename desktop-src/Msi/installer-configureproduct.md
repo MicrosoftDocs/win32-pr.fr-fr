@@ -1,7 +1,7 @@
 ---
 description: La méthode ConfigureProduct de l’objet installer installe ou désinstalle un produit.
 ms.assetid: 1215a03f-6c96-4416-881f-0071c1b3c5df
-title: Installer.Configméthode ureProduct
+title: Installer. ConfigureProduct, méthode
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 7fd64424105bc06364abf2b047ba4d986fdd5540d007109dfb9fdc087250c194
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 989855508215b2cd5d04bff7903628513314b9a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118632156"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121649"
 ---
-# <a name="installerconfigureproduct-method"></a>Installer.Configméthode ureProduct
+# <a name="installerconfigureproduct-method"></a>Installer. ConfigureProduct, méthode
 
 La méthode **ConfigureProduct** de l’objet [**installer**](installer-object.md) installe ou désinstalle un produit.
 
@@ -78,17 +78,17 @@ Spécifie l’état d’installation de la fonctionnalité. Ce paramètre doit a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **ConfigureProduct** affiche l’interface utilisateur à l’aide des paramètres actuels. Les paramètres de l’interface utilisateur peuvent être modifiés en modifiant la [**propriété UILevel (objet programme d’installation)**](installer-uilevel.md) avant d’appeler la méthode **ConfigureProduct** .
 
 Si le paramètre *InstallState* est défini sur une autre valeur que msiInstallStateDefault, le paramètre *InstallLevel* est ignoré et toutes les fonctionnalités du produit sont installées. Utilisez la méthode [**ConfigureFeature**](installer-configurefeature.md) pour contrôler l’installation de fonctionnalités individuelles lorsque le paramètre *InstallState* n’a pas la valeur msiInstallStateDefault.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

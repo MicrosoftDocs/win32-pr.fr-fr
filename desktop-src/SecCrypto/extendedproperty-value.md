@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b2210457bc984aca561a87424edd8496d5913190910f898654cd10955314e6f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebbd977a107d92661110ceff02f3a5bb0bea191e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121005"
 ---
 # <a name="extendedpropertyvalue-property"></a>ExtendedProperty. Value (propriété)
 
@@ -41,7 +41,7 @@ ExtendedProperty.Value( _
 
 Données de propriété étendues, au format spécifié par *EncodingType*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

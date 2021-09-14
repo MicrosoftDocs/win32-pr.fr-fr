@@ -23,12 +23,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7e8234960c28e09408a152fbf185acabca825ad83ab489867c48439491e2b320
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be155f0fce4155514e9459e3cd49a89e24e2be04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118580571"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193291"
 ---
 # <a name="compatibility-issues"></a>Problèmes de compatibilité
 

@@ -14,12 +14,12 @@ keywords:
 - bibliothèque, gestion des éléments multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac689bd6951f09b39db20975d52f6a8ccfc08668d3266d5964c2b7eac28cfd38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf984c2f884ae828bd6426dd2a3f6da19a78ddea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919200"
 ---
 # <a name="managing-media-items"></a>Gestion des éléments multimédias
 

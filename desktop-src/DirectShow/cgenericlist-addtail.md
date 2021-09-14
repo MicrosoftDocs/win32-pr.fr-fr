@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 614a2f26349834c01f0a3e7587eae28c41e546a0585ef603af0265ea35c187d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f1e7cd3d8758107b9529114a75b3a90527937c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121969"
 ---
 # <a name="cgenericlistaddtail-method-wxlisth---pobj-parameter"></a>Méthode CGenericList. AddTail (Wxlist. h)-paramètre pObj
 
@@ -49,11 +49,11 @@ Pointeur vers un objet de type **Object** (type de modèle).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur de POSITION pour la nouvelle position de fin. Si la méthode échoue, elle retourne la **valeur null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

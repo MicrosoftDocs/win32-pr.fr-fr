@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 56e86765839434f2cd3a67c18f6395dd5443f21f8b905e6f86e6e85ad9915c3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95e93fd3a6bbf7f2fa3505fcb9480367b780ecc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119038867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917319"
 ---
 # <a name="jet_ossnapidtostring-method-string-iformatprovider"></a>JET_OSSNAPID. ToString, méthode (String, IFormatProvider)
 
@@ -73,7 +73,7 @@ public string ToString(
     
     [IFormatProvider](/dotnet/api/system.iformatprovider) à utiliser pour mettre en forme la valeur. -ou-null pour obtenir les informations de format numérique à partir des paramètres régionaux actuels du système d’exploitation.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. String](/dotnet/api/system.string)  
 [Chaîne](/dotnet/api/system.string) contenant la valeur de l’instance actuelle au format spécifié.  

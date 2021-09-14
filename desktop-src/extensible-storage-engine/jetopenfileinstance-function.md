@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ce54e03c79f8147b1deb9f77bab520c6d2b121e9
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: ba66545c65abcaa3d3969ec7c3d61d73c57be732
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480365"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854139"
 ---
 # <a name="jetopenfileinstance-function"></a>Fonction JetOpenFileInstance
 
@@ -106,7 +106,7 @@ En cas d’échec, l’état des mémoires tampons de sortie n’est pas défini
 
 **Avertissement**  Pour des raisons de sécurité, il est important de noter que **JetOpenFileInstance** ne vérifie pas que le chemin de fichier demandé est associé à l’ensemble des fichiers sauvegardés pour l’instance. Par conséquent, il est possible d’utiliser cette fonction pour accéder à n’importe quel fichier pouvant être ouvert par le contexte de sécurité actuel du thread. Il est impératif que l’application limite les chemins passés à cette fonction à un ensemble connu de chemins d’accès de fichier corrects, ou qu’une divulgation d’informations puisse être rendue possible.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les mémoires tampons de sortie du handle et de la taille du fichier doivent être présentes. Si elles ne sont pas présentes, le moteur se bloque car les paramètres de mémoire tampon de sortie ne sont pas validés.
 
@@ -116,10 +116,17 @@ Les mémoires tampons de sortie du handle et de la taille du fichier doivent êt
 
 La taille du fichier à lire comme indiqué par cette fonction peut ne pas correspondre à la taille du fichier sur le disque. sur Windows XP et les versions ultérieures, des informations supplémentaires peuvent être ajoutées à un fichier de base de données qui est utilisé par le moteur de base de données lors d’une opération de restauration. Par conséquent, l’application doit uniquement s’appuyer sur la taille de fichier retournée par **JetOpenFileInstance** ou sur le nombre réel d’octets de données retournés par [JetReadFileInstance](./jetreadfileinstance-function.md).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetOpenFileInstanceW</strong> (Unicode) et <strong>JetOpenFileInstanceA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetOpenFileInstanceW</strong> (Unicode) et <strong>JetOpenFileInstanceA</strong> (ANSI).</p> | 
 
 
 

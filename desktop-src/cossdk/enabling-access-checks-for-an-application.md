@@ -5,11 +5,11 @@ title: Activation des vérifications d’accès pour une application
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b3d64a32b23467f85c368e088a870ebe5e4d683e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106532070"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191684"
 ---
 # <a name="enabling-access-checks-for-an-application"></a>Activation des vérifications d’accès pour une application
 
@@ -26,7 +26,7 @@ L’exécution de cette étape permet d’effectuer des vérifications d’accè
 4.  Cliquez sur **OK**.
 
 > [!Note]  
-> À compter de Windows Server 2003, les vérifications d’accès sont activées par défaut lors de la création d’une application COM+. Les contrôles d’accès sont activés par défaut au niveau de l’application et sont désactivés par défaut au niveau du composant. Auparavant, les contrôles d’accès étaient désactivés par défaut au niveau de l’application et activés par défaut au niveau du composant.
+> à partir de Windows Server 2003, les vérifications d’accès sont activées par défaut lors de la création d’une application COM+. Les contrôles d’accès sont activés par défaut au niveau de l’application et sont désactivés par défaut au niveau du composant. Auparavant, les contrôles d’accès étaient désactivés par défaut au niveau de l’application et activés par défaut au niveau du composant.
 
  
 

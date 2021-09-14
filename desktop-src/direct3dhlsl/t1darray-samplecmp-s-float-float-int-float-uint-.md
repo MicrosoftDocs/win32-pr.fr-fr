@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 54f87f4ecdc23b9b745fa781d7a121f3fda39945713ff07d0b4a0fbdc7220349
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3415539cc59b156c99492d3a4174d171bb5e8c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118507832"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918120"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloatuint-function-for-texture1darray"></a>Fonction SampleCmp :: SampleCmp (S, float, float, int, float, uint) pour Texture1DArray
 
@@ -124,7 +124,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

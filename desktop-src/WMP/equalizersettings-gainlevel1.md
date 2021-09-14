@@ -3,7 +3,7 @@ title: EQUALIZERSETTINGS.gainLevel1
 description: L’attribut gainLevel1 spécifie ou récupère le niveau de gain de la bande 1.
 ms.assetid: 3d681ade-3fd4-432d-ae92-c083d927346f
 keywords:
-- Lecteur Windows Media EQUALIZERSETTINGS. gainLevel1
+- EQUALIZERSETTINGS. gainLevel1 Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3299c2b9275eabb4812c83670f28bcbb3d2aeef9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534811"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191740"
 ---
 # <a name="equalizersettingsgainlevel1"></a>EQUALIZERSETTINGS.gainLevel1
 
@@ -37,7 +37,7 @@ Cet attribut ajuste la partie du spectre de fréquences audio centrée sur 31Hz.
 
 Si cet attribut n’est pas spécifié, la valeur précédente est conservée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

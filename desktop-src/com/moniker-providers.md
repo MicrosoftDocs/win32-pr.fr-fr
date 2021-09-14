@@ -4,12 +4,12 @@ description: Fournisseurs de moniker
 ms.assetid: 4d4820d2-bf5f-4543-b318-59481dcc51de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8fab6c5a84d7020b8bcb02979471cb2fbd76df7e66fc9909eec2121926827df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fde584e12daddacbc940b23b21a0386aa37de2c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119130101"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855436"
 ---
 # <a name="moniker-providers"></a>Fournisseurs de moniker
 

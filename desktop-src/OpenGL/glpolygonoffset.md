@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 314372c0ce87ef5b75db24e4482d6b621422546abe0c71a34cc9821cb4391997
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84fa7d130fcc300fc1ebe33d091253e33f2d1e03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118614915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121338"
 ---
 # <a name="glpolygonoffset-function"></a>glPolygonOffset fonction)
 
@@ -71,7 +71,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque \_ \_ l’option décalage du polygone GL est activée, la valeur de profondeur de chaque fragment sera décalée après avoir été interpolée à partir des valeurs de profondeur des vertex appropriés. La valeur du décalage est unités *Factor* \* ? z + r \* , où ? z est une mesure du changement de profondeur par rapport à la zone d’écran du polygone, et r est la plus petite valeur qui est garantie pour produire un offset pouvant être résolu pour une implémentation donnée. Le décalage est ajouté avant l’exécution du test de profondeur et avant que la valeur ne soit écrite dans la mémoire tampon de profondeur.
 
@@ -92,7 +92,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glPolygonOf
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

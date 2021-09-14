@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: b089cedcce8fac9fa18771be1278ed7ad68fc51f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104996368"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918136"
 ---
 # <a name="samplebiassamplebiassfloatfloatintfloat-function-for-texture1darray"></a>Fonction SampleBias :: SampleBias (S, float, float, int, float) pour Texture1DArray
 
@@ -114,7 +114,7 @@ Valeur facultative pour fixer l’exemple de valeurs LOD à. Par exemple, si vou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

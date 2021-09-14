@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bd19413d891f5a8008b162f6795af29a9d15e75a80d35bb82ff13f8e013da9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16fce659f38af19157536a4bf763362c35fc9dfa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217073"
 ---
 # <a name="externalaccounttype"></a>External. accountType
 
@@ -39,13 +39,13 @@ window.external.accountType
 
 Cette propriété est une **chaîne** en lecture seule qui représente le type de compte. Les chaînes qui représentent différents types de compte sont définies par le magasin en ligne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété récupère le type de compte en appelant la méthode [IWMPContentPartner :: GetContentPartnerInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcontentpartnerinfo) , qui est implémentée par le plug-in du magasin en ligne. si l’utilisateur actuel est connecté au magasin en ligne ou si le plug-in a mis en cache les informations d’identification de l’utilisateur, la méthode **getContentPartnerInfo** peut déterminer le type de compte de l’utilisateur et le renvoyer à Lecteur Windows Media. le type de compte est une chaîne que Lecteur Windows Media n’interprète pas. au lieu de cela, Lecteur Windows Media transmet la chaîne du plug-in du magasin en ligne au script sur la page de découverte du magasin en ligne.
 
 Si l’utilisateur actuel n’est pas connecté au magasin en ligne et que le plug-in de la boutique en ligne ne dispose pas d’informations d’identification mises en cache pour l’utilisateur, cette propriété récupère toute chaîne renvoyée par la méthode **getContentPartnerInfo** dans cette situation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

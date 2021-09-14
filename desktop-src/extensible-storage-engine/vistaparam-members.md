@@ -8,11 +8,11 @@ ms:contentKeyID: 55104333
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: c56c8ad3a64eb08654ee893e86683e95e32af443
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917175"
 ---
 # <a name="vistaparam-members"></a>Membres VistaParam
 

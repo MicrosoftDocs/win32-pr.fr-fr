@@ -4,12 +4,12 @@ ms.assetid: b6ac613c-099b-4415-84ad-c0f8ad5f667b
 title: MFNETSOURCE_STREAM_LANGUAGE, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c44b6f55fd2f5652a41d9aa5eed76e60e73152343d2baf6c577be56bc462c94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 200c49d4a14146277c66fbb3389cf1ba6ab13fef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119344539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227616"
 ---
 # <a name="mfnetsource_stream_language-property"></a>MFNETSOURCE \_ , \_ propriété de langage de flux
 
@@ -31,11 +31,11 @@ Membre PROPVARIANT
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La \_ constante MFNETSOURCE Stream \_ Language définit le GUID de la clé de propriété. L’identificateur de propriété (PID) est égal à zéro. Pour définir cette propriété sur la source réseau, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

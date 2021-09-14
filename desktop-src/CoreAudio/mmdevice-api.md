@@ -4,12 +4,12 @@ ms.assetid: 3a8fd734-0761-4b5b-ba04-677c7c040988
 title: À propos de l’API MMDevice
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23e2f33c6969e00006c12b0bc6dc1ba37b70c5ff38ea2846633d5eb61da03b19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82843bbecf004d0931575d73ec2459c3e72a3cf3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077543"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114901"
 ---
 # <a name="about-mmdevice-api"></a>À propos de l’API MMDevice
 

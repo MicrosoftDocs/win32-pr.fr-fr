@@ -4,12 +4,12 @@ ms.assetid: 32ad306d-54bd-4130-ad30-08db50ef106e
 title: Liens de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25f9f5e639cfa3619d5c79b011ab101af7c25ed1813db1c96b9f5422504f8c1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 327bcb425f998bcc2a4c0714118d4461ded253ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117859021"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226876"
 ---
 # <a name="shell-links"></a>Liens de Shell
 

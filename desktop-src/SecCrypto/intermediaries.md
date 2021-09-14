@@ -4,12 +4,12 @@ ms.assetid: c696f09e-98d3-4cea-8ea1-cd8f40b74f12
 title: Intermédiaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc9f9dbd48d5af575658c04760740ad0b1f64f373d76bb20ba80253b874c67de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 040e79abb03bd0363d37fdad79f7311412b0ffe2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120938"
 ---
 # <a name="intermediaries"></a>Intermédiaires
 

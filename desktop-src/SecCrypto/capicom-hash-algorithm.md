@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: df312c7e1ed578150069ff335527a20a2185c721b67a9e0e02cc1d57938b1cfe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14ee06437f7b6e32c58415e5b9d77a75929250a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121109"
 ---
 # <a name="capicom_hash_algorithm-enumeration"></a>\_Énumération de l' \_ algorithme de hachage CAPICOM
 
@@ -40,11 +40,11 @@ L’énumération de l' **\_ \_ algorithme de hachage CAPICOM** définit un algo
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’énumération de l' **\_ \_ algorithme de hachage CAPICOM** est utilisée par la propriété [**HashedData. Algorithm**](hasheddata-algorithm.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

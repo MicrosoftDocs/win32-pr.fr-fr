@@ -4,12 +4,12 @@ ms.assetid: 3d9cba77-ef84-4835-b914-c43b3629166b
 title: Annexes Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae000361114935974d4bbf988b39dd324e3a01453466a65a28c31d90444dce0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc3e4bdcfc2462904f6dbb2b9c7b0e680e2fb115
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118558881"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918919"
 ---
 # <a name="winsock-annexes"></a>Annexes Winsock
 

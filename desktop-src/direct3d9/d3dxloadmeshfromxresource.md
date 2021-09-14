@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 903add3ab87e23f904e609b2d0fe076cef4e7990f62424f365307ba87e014e0f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b3e1d9d14d86296df48e2d27f77e2f79f3ad73c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119856999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918395"
 ---
 # <a name="d3dxloadmeshfromxresource-function"></a>D3DXLoadMeshFromXResource fonction)
 
@@ -139,13 +139,13 @@ Adresse d’un pointeur vers une interface [**ID3DXMesh**](id3dxmesh.md) représ
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Consultez [**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea) pour en savoir plus sur les paramètres de module, de nom et de type.
 
@@ -155,7 +155,7 @@ Pour les fichiers de maillage qui ne contiennent pas d’informations sur l’in
 
 Le nom de texture par défaut est également renseigné, mais est géré différemment. Le nom est Texture0@Name , ce qui correspond à une variable Effect par le nom de « Texture0 » avec une annotation appelée « Name ». Contient le nom de fichier de chaîne pour la texture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

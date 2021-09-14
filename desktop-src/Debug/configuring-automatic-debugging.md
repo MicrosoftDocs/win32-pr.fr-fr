@@ -4,12 +4,12 @@ ms.assetid: c3c7aa98-c298-452c-b8d0-10a08b4d82a3
 title: Configuration du débogage automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 990f2f52e6227e4b1a2cf92656794c90fb5d465915a5d888025d0f3b2c438630
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2630784d678e08b67a93d00ec52d9bc67c949bc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119076503"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114618"
 ---
 # <a name="configuring-automatic-debugging"></a>Configuration du débogage automatique
 

@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a40538dad18c4cb6767a034ab5d163f16d1822d9149e15c07ca1130f5eb17f30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 354a34f30df237827e3d369721963ec2c1797e71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118582724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856053"
 ---
 # <a name="audiolanguagechange-event-of-the-axwindowsmediaplayer-object"></a>Événement AudioLanguageChange de l’objet AxWindowsMediaPlayer
 
@@ -57,7 +57,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 Un identificateur de paramètres régionaux (LCID) identifie de manière unique un dialecte de langage particulier, appelé paramètres régionaux.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

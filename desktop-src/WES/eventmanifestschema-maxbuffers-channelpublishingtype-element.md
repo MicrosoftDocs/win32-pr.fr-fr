@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 288c82b43eb348410185cfaa22203686bef7eeeafeca40d06d447aed20d255a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 042d7d7dad91a141b69d8d728007208ef1c5eff5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118120896"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217188"
 ---
 # <a name="maxbuffers-channelpublishingtype-element"></a>Élément maxBuffers (ChannelPublishingType)
 
@@ -32,7 +32,7 @@ Nombre maximal de mémoires tampons à allouer pour la session.
 
 L’élément **maxBuffers** est défini par le type complexe [**ChannelPublishingType**](eventmanifestschema-channelpublishingtype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

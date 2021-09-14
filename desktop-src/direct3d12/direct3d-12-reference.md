@@ -7,11 +7,11 @@ ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
 ms.openlocfilehash: 337958b6510532f8610de10cca50362b2e131286
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812732"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216420"
 ---
 # <a name="direct3d-12-reference"></a>Informations de référence sur Direct3D 12
 

@@ -7,12 +7,12 @@ keywords:
 - opérations logiques OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd2a0fc4b7af6a7176fb744fcb5411e9a54952cabfcd8da474bd2560d2e4865e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3736f9a06892e652825a7232aa087eb8b4832f20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118937372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121310"
 ---
 # <a name="logical-operations"></a>Opérations logiques
 

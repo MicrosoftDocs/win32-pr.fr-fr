@@ -16,11 +16,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a7a1f81a429b083400adad60f316cc90c4ede1d9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520310"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918504"
 ---
 # <a name="cd3dx12_root_constants-structure"></a>CD3DX12 \_ , \_ structure de constantes racine
 
@@ -100,7 +100,7 @@ possibilité UINT registerSpace = 0
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

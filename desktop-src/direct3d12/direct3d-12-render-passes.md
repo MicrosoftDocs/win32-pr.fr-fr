@@ -4,12 +4,12 @@ description: La fonctionnalité de passes de rendu permet à votre convertisseur
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/15/2018
-ms.openlocfilehash: 96ed14cecd518a3e03672f2667306ee0a4b8d64999aab01aa72aae04975f0a83
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f776729f17ac0017d713c6f37bc71de7302a7c08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120069689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216412"
 ---
 # <a name="direct3d-12-render-passes"></a>Passes de rendu Direct3D 12
 

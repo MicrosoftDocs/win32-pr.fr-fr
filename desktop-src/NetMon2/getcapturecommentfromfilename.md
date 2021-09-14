@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 1b92b81fa00834c3a4038a6a6bb9f295246a7c0b217c99779a5d2c569dbbf982
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9dbfb086ccc27ad2f4c35018c3384a4b81ef0528
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118366810"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121414"
 ---
 # <a name="getcapturecommentfromfilename-function"></a>GetCaptureCommentFromFilename fonction)
 
@@ -62,7 +62,7 @@ Taille de la chaîne.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit (autrement dit, si le commentaire est trouvé et copié, ou s’il n’y a aucun commentaire dans le fichier de capture), la valeur de retour est NMERR \_ Success.
 
@@ -81,13 +81,13 @@ Si la fonction échoue, la valeur de retour est un code d’erreur.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetCaptureCommentFromFilename** .
 
 Pour récupérer le commentaire d’une capture en temps réel, appelez la fonction [GetCaptureComment](getcapturecomment.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

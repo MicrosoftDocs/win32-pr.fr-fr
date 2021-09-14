@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3fe0d825dea70c8e5211b8c13f1e850fa513670bbc93de98f1f8e2b87ef046
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d5d9ee759de12bb8b017d582026dd5b5ca8c3fb3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113414"
 ---
 # <a name="d2dgetinputcoordinate-function"></a>D2DGetInputCoordinate fonction)
 
@@ -44,11 +44,11 @@ Numéro d’entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne un **float4**, au format TEXCOORDN.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La coordonnée retournée par cette fonction se trouve dans l’espace Texel. Un nuanceur ne doit pas prendre de dépendances quant à la façon dont cette valeur est calculée. Il doit l’utiliser uniquement pour échantillonner l’entrée du nuanceur de pixels. Pour plus d’informations, consultez [Ajout d’un nuanceur de pixels à une transformation personnalisée](./custom-effects.md#adding-a-pixel-shader-to-a-custom-transform).
 
@@ -68,7 +68,7 @@ D2D_PS_ENTRY(DisplacementMapBilinear)
 }  
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

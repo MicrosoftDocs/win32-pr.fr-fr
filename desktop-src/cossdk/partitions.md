@@ -13,11 +13,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 2f7ba43cbfd33736c9997adb4c312e044cf28e6e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916788"
 ---
 # <a name="partitions-collection"></a>Collection partitions
 
@@ -78,7 +78,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Détermine si cette partition peut être supprimée. |
 | Access         | Lecture/écriture                                         |
 | Type           | Bool                                              |
-| Par défaut        | Vrai                                              |
+| Default        | Vrai                                              |
 | Système minimal | Windows Server 2003                               |
 
 
@@ -93,7 +93,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|---------------------------------------------------------------------|
 | Description    | Cette propriété représente la description identifiant la partition. |
 | Access         | Lecture/écriture                                                           |
-| Type           | Chaîne                                                              |
+| Type           | String                                                              |
 | Valeur par défaut        | ""                                                                  |
 | Système minimal | Windows Server 2003                                                 |
 
@@ -109,7 +109,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | GUID représentant la partition. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
 | Access         | WriteOnce                                                                                                                                                          |
-| Type           | Chaîne                                                                                                                                                             |
+| Type           | String                                                                                                                                                             |
 | Valeur par défaut        | &lt;Généré&gt;                                                                                                                                                  |
 | Système minimal | Windows Server 2003                                                                                                                                                |
 
@@ -125,7 +125,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Représente le nom de la partition. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                              |
-| Type           | Chaîne                                                                                                                                                                                                                                 |
+| Type           | String                                                                                                                                                                                                                                 |
 | Valeur par défaut        | « Nouvelle partition »                                                                                                                                                                                                                        |
 | Système minimal | Windows Server 2003                                                                                                                                                                                                                    |
 

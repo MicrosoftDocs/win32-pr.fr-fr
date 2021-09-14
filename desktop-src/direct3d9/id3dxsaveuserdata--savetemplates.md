@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 00695f11f267c77838bc2d9a3d2932df108c7323f3751b385c009abe2b21f540
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92040629b1b21cbfa1219eee237e357aa056b473
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118293106"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918287"
 ---
 # <a name="id3dxsaveuserdatasavetemplates-method"></a>ID3DXSaveUserData :: SaveTemplates, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers un objet Save du fichier. x. N’utilisez pas ce paramètre pour a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -59,7 +59,7 @@ Les valeurs de retour de cette méthode sont implémentées par un programmeur d
 
 [**ID3DXSaveUserData :: RegisterTemplates**](id3dxsaveuserdata--registertemplates.md) et **ID3DXSaveUserData :: SaveTemplates** fournissent un mécanisme d’ajout d’un modèle à un fichier. x pour l’enregistrement des données utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

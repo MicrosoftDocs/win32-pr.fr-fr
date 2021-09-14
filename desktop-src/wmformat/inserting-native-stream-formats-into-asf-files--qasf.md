@@ -20,12 +20,12 @@ keywords:
 - DirectShow, QASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b395748520943a62645a88c018131f909577191ebafbe1f9c4d3a80219cb39f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af4736c450b3620a05fe01dcc1808adc297ebbd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118701776"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225964"
 ---
 # <a name="inserting-native-stream-formats-into-asf-files-qasf"></a>Insertion de formats de flux natifs dans des fichiers ASF (QASF)
 

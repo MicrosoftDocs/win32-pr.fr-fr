@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d1e4c761652bff649e9cf1ab8950202430e54d940cec96b7dc62eb8a060b4534
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cbc39dd0f1a99ff65935c66e22a79a3d1836a7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916719"
 ---
 # <a name="id3dx10skininfogetnumbones-method"></a>ID3DX10SkinInfo :: GetNumBones, méthode
 
@@ -38,13 +38,13 @@ UINT GetNumBones();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Nombre d’os dans ID3DX10SkinInfo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

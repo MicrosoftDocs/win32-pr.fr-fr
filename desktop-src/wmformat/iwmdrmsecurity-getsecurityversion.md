@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 33be994383a7e16d136aac340a77deef8256d62f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539634"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225900"
 ---
 # <a name="iwmdrmsecuritygetsecurityversion-method"></a>IWMDRMSecurity :: GetSecurityVersion, méthode
 
@@ -50,9 +50,9 @@ Adresse d’une variable qui reçoit le numéro de version du sous-système DRM.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -68,7 +68,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
 Le numéro de version est exprimé sous la forme d’une chaîne composée de quatre nombres séparés par des points. Le premier numéro est le numéro de version principale, qui est généralement défini sur 2. Le deuxième nombre est le numéro de version secondaire, compris entre 2 et 10. Le troisième nombre a toujours la valeur 0. Le quatrième nombre a la valeur 0 ou 1, et est une valeur booléenne indiquant si le sous-système a été individualisé. Par exemple, le numéro de version « 2.4.0.1 » indique la quatrième version mineure de la deuxième version principale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 4c4dc3861120d56dd5bff13fe1e77fd97e1fc32efed9622f18ee51b5160d1c35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f6b35a2cfa2de459bb5e7acfcb9853e83ae0a55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119417639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194008"
 ---
 # <a name="ibytebuffercopyto-method"></a>IByteBuffer :: CopyTo, méthode
 
@@ -72,15 +72,15 @@ Pointeur vers l’emplacement où cette méthode écrit le nombre réel d’octe
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode copie les octets spécifiés d’un flux vers un autre. Elle peut également être utilisée pour copier un flux vers lui-même. Le pointeur de recherche dans chaque instance de flux est ajusté pour le nombre d’octets lus ou écrits.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

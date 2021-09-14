@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30fd8c3d4c64e524b637c85d88c9fb386156a641b2726f1422967601441e0d47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe9c7b1694a3f74c06084dab99fca9eb26d5a007
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192564"
 ---
 # <a name="jet_tableidnil-property"></a>JET_TABLEID. Nil, propriété
 
@@ -61,7 +61,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_TABLEID](./jet-tableid-structure.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_TABLEID](./jet-tableid-structure.md)
 

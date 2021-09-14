@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fc4435ec51ea3460d03d4fc889307a026f8762671291b648f09c282fb812fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ec3b8d74b05a6d1e4ad6abd301a859f724e5c8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855664"
 ---
 # <a name="buttonelementuptooltip"></a>BUTTONELEMENT. une info-bulle
 
@@ -31,7 +31,7 @@ L’attribut d' **info-bulle** spécifie ou récupère le texte info-bulle qui a
 
 Cet attribut est une **chaîne** en lecture/écriture avec une valeur par défaut «» (chaîne vide) d’une longueur maximale de 1024 caractères.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est affichée.
 
@@ -39,7 +39,7 @@ Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est af
 
 Pour obtenir un exemple illustrant l’utilisation de cet attribut, consultez l’attribut [mappingColor](buttonelement-mappingcolor.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

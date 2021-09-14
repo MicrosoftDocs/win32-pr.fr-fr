@@ -25,12 +25,12 @@ keywords:
 - Incorporation de pages Web, Firefox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c1db799df78cb6c62516798f4bbd196c093f02225386f0c1009bfa11d9a668
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a16063ea07a0262ab798e58ed02e4d5a5b6b5d65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118578586"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217145"
 ---
 # <a name="embedding-the-player-control-in-a-web-page-displayed-by-firefox"></a>Incorporation du contrôle Player dans une page Web affichée par Firefox
 

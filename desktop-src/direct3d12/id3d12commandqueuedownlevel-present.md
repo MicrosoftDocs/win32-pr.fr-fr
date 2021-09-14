@@ -16,12 +16,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: b21a97d15d2666dcfe0a304f2393d6d14c5dbcc4142d8b42f43f295d8751614b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6c74685911e52a671eaeb02645754a45b8d647e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118529129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918484"
 ---
 # <a name="id3d12commandqueuedownlevelpresent-method"></a>ID3D12CommandQueueDownlevel ::P méthode reenvoyé
 
@@ -73,11 +73,11 @@ Type : **[ \_ indicateurs de \_ présence \_ de niveau inférieur D3D12](d3d12_
 
 Indicateurs permettant de modifier l’opération **présente** .
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S_OK** en cas de réussite, ou un HRESULT qui a échoué.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------|------------------|

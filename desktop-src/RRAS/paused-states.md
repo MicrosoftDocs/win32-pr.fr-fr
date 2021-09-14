@@ -4,12 +4,12 @@ description: Au cours d’une opération de connexion, il peut arriver que le se
 ms.assetid: a1a36b2a-33df-4cba-85a6-f4225779cd63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec66a63adbee524ec231b5c9dd9b0b410c8f4fbc73746ae9b924294c680b4a9c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 914acb85ccf74c92b4bd4119966a421faddeb011
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121262"
 ---
 # <a name="paused-states"></a>États suspendus
 

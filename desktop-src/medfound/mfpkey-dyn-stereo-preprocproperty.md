@@ -4,12 +4,12 @@ ms.assetid: d1c787ee-787b-4efa-8d96-5cb4ffff0ed2
 title: MFPKEY_DYN_STEREO_PREPROC, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98cf644dbef028bb8bbc0208b5cabb48d5138372f259e451de4902ec0a2057ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 492f49fd372304bedbe88c0c95fb3eb652eb0773
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117873516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227477"
 ---
 # <a name="mfpkey_dyn_stereo_preproc-property"></a>MFPKEY \_ dyn \_ stéréo \_ Preproc, propriété
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VARIANTE \_ true**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

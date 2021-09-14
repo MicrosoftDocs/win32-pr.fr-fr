@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f0f049c1ad8a9837695a1f5d7327883e1dabfb7dd077bd6efce78fa6a0a708
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f544a7fb9dd89346cc2aa9725d36122746a8f608
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119921549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920395"
 ---
 # <a name="bcm_setnote-message"></a>\_Message SETNOTE BCM
 
@@ -43,17 +43,17 @@ Pointeur vers une chaîne **WCHAR** se terminant par un caractère null qui cont
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À partir de la version 6,01 de ComCtl32, les boutons de lien de commande peuvent avoir une note.
 
 Le **message \_ SETNOTE BCM** fonctionne uniquement avec les styles de bouton [**BS \_ COMMANDLINK**](button-styles.md) et [**BS \_ DEFCOMMANDLINK**](button-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -75,7 +75,7 @@ Le **message \_ SETNOTE BCM** fonctionne uniquement avec les styles de bouton [*
 [Styles de bouton](button-styles.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Types de bouton](button-types-and-styles.md)

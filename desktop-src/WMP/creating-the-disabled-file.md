@@ -3,18 +3,18 @@ title: Création du fichier désactivé
 description: Création du fichier désactivé
 ms.assetid: 22db4942-b1f1-46d1-b869-48c6854bfb30
 keywords:
-- Windows Media Player Mobile Skins, fichiers désactivés
+- Lecteur Windows Media Skins mobiles, fichiers désactivés
 - apparences, fichiers désactivés
 - création d’apparences, fichiers désactivés
 - Fichiers désactivés dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2a2aab6a07e5d003a7e36a4da4a106a85d321f6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919284"
 ---
 # <a name="creating-the-disabled-file"></a>Création du fichier désactivé
 
@@ -33,9 +33,9 @@ Notez que les fichiers comme celui-ci peuvent être tronqués sur les côtés dr
 [**Création de l’illustration**](creating-the-art.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

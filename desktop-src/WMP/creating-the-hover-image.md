@@ -13,12 +13,12 @@ keywords:
 - images de survol dans les enveloppes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88eff91123a28dae94425d7ea6e7591462545a2d7da0372b088eeec6bd67ed60
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 00d7f5bbb8b57820c2805b9b9d6ea79762933035
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919276"
 ---
 # <a name="creating-the-hover-image"></a>Création de l’image de survol
 

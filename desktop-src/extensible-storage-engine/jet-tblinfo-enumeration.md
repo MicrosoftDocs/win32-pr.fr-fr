@@ -40,12 +40,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b2af9bfd69f81b518eba42f435a457c9baaa0d0ce8ddbac1424b997329a3ef0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad43dcecf65fdc9fb8dd53bdf686a077e6bdfa8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119832679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854175"
 ---
 # <a name="jet_tblinfo-enumeration"></a>Énumération JET_TblInfo
 

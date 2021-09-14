@@ -6,11 +6,11 @@ ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
 ms.openlocfilehash: ae15d0b1da304f9dfe24ff5de33a9f1582e2ca05
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509871"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113085"
 ---
 # <a name="how-to-transform-a-geometry"></a>Comment transformer une géométrie
 
@@ -85,6 +85,6 @@ if (SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 

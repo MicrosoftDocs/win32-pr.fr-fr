@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 088361835c8a15890887fef05cfa0a196e294406bf0c736d332f1a5ba1879740
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12e4deead606c1a2c5b103ed9fd0e31e23515982
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918411"
 ---
 # <a name="d3dxkey_quaternion-structure"></a>D3DXKEY, \_ structure de Quaternion
 
@@ -62,7 +62,7 @@ Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)**
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

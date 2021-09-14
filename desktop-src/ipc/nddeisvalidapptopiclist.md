@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: f7b70d3e33f67c8c0a457f85df91e83e374a3ef4d0f0b1a0af1c5c41ea81c2ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb990830583f6684502438f132c1c98f5741a0ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119611129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122241"
 ---
 # <a name="nddeisvalidapptopiclist-function"></a>NDdeIsValidAppTopicList fonction)
 
@@ -50,17 +50,17 @@ Pointeur vers l’application et la chaîne de rubrique à valider. Ce paramètr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la syntaxe du paramètre *targetTopic* est valide, la valeur de retour est différente de zéro.
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est également appelée par [**NDdeShareAdd**](nddeshareadd.md) lors de la création du partage DDE.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

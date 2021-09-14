@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Objets descripteurs de sécurité WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edc6f843928e26dd6ac1e081441b60226f6dac885adf5df05021dc2dd7d17737
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ddc315e955c2d449d0dea0db97684cc352257cd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030275"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918655"
 ---
 # <a name="wmi-security-descriptor-objects"></a>Objets descripteurs de sécurité WMI
 

@@ -4,12 +4,12 @@ ms.assetid: cda7fa68-debe-40e6-8c4a-536dacccc2d1
 title: 'Exemple de programme C : sérialisation de certificats'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8931c0d45a8117257d3af4e9430c60e990a50646529f5bcb43a8d3349e35a0e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7efee0269a587e659605d375472f6e0ba16673d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007517"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121014"
 ---
 # <a name="example-c-program-serializing-certificates"></a>Exemple de programme C : sérialisation de certificats
 

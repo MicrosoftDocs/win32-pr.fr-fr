@@ -5,11 +5,11 @@ ms.assetid: 8E2907D2-EFCB-4F97-9B40-6835A65D3DE5
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4111fa48dafa7f38a26d5ca09f95898eacef6f55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918551"
 ---
 # <a name="tier-1"></a>Niveau 1
 
@@ -38,6 +38,6 @@ Cette section décrit la prise en charge de niveau 1.
 [Niveaux de fonctionnalités des ressources en mosaïque](tiled-resources-features-tiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_Sensor
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3198796b859d07a0ac284bf57e7f8c633ee6672f2add677d209f251358ca2d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 049b80f40e76a409b78fb5ab5ac20ff264413618
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122006"
 ---
 # <a name="cim_sensor-methods"></a>\_Méthodes de capteur CIM
 

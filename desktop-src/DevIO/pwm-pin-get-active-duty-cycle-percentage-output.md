@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: dda05c06ee8c53968647bc29da2febee14abf758d4ad228c16178703c2d1da08
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 607fcb1ab429e7cbe9aee593f75d48f0f9d308bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114273"
 ---
 # <a name="pwm_pin_get_active_duty_cycle_percentage_output-structure"></a>\_Structure de \_ sortie de \_ pourcentage du \_ \_ cycle de vie \_ \_ d’un code confidentiel
 
@@ -48,7 +48,7 @@ Cycle de vie du signal PWM actuel, en tant que \_ pourcentage PWM, qui est une v
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

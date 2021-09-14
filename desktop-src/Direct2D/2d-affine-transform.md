@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 337168db7a422a8a22785316d2af1960e3a78b2f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478095"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114225"
 ---
 # <a name="2d-affine-transform-effect"></a>Effet de transformation affine 2D
 
@@ -34,7 +34,7 @@ Le CLSID de cet effet est CLSID \_ D2D12DAffineTransform.
 | Avant                                                             |
 |--------------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)         |
-| Après                                                              |
+| After                                                              |
 | ![image après la transformation.](images/21-2daffinetransform.png) |
 
 
@@ -86,7 +86,7 @@ Bien que la matrice d’entrée soit définie en tant que matrice matrice, la de
 
 
 
-| Name                     | Description                                                                                                      |
+| Nom                     | Description                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image avec des pixels noirs transparents au fur et à mesure de l’interpolation, ce qui génère une bordure douce.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet attache la sortie à la taille de l’image d’entrée. <br/>                                         |
@@ -128,7 +128,7 @@ La taille de l’image bitmap de sortie dépend de la matrice de transformation 
 
 L’effet exécute l’opération de transformation, puis applique un cadre englobant autour du résultat. La bitmap de sortie correspond à la taille du cadre englobant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: d1d3beba-678c-48fd-ad12-45e0418e1236
 title: MFPKEY_WMAAECMA_DMO_SOURCE_MODE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ec9dd01be5a020047410362b2fdfc27fd8d703a393e3ae2f557b1dd3a42bf80
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec5749ff1f142603cc45df475caae7bc71182bde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119555299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227460"
 ---
 # <a name="mfpkey_wmaaecma_dmo_source_mode-property"></a>\_propriété MFPKEY WMAAECMA \_ DMO \_ \_ MODE SOURCE
 
@@ -31,7 +31,7 @@ VARIANTE \_ true
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En mode Source, l’application n’a pas besoin d’envoyer des données d’entrée au DSP, car le DSP extrait automatiquement les données des périphériques audio. En mode filtre, l’application doit envoyer les données d’entrée au DSP.
 
@@ -73,7 +73,7 @@ Si la valeur de cette propriété est \_ true, le fournisseur de base de donnée
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

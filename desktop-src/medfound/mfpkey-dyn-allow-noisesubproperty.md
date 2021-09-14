@@ -5,11 +5,11 @@ title: MFPKEY_DYN_ALLOW_NOISESUB, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 97daf95403753ce8bb251b5a62d59dbbd0fcc9f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227501"
 ---
 # <a name="mfpkey_dyn_allow_noisesub-property"></a>MFPKEY \_ dyn \_ allow \_ NOISESUB, propriété
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ bool**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

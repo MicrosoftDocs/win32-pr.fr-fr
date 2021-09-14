@@ -3,7 +3,7 @@ title: Media. durationString
 description: La propriété durationString récupère une valeur de chaîne indiquant la durée de l’élément multimédia actuel au format HH MM SS.
 ms.assetid: dfcb4c2e-c62c-4c3e-a9f4-fd147fb5b28c
 keywords:
-- Media. durationString Windows Media Player
+- Media. durationString Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1f1bbb89716ab1d06b176754396611ab22980659
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537828"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919151"
 ---
 # <a name="mediadurationstring"></a>Media. durationString
 
@@ -41,7 +41,7 @@ Pour récupérer la valeur de cette propriété, l’accès en lecture à la bib
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **durationString** pour afficher la durée de l’élément multimédia actuel comme texte mis en forme. Un élément DIV HTML nommé MediaInfo affiche les informations relatives à la durée. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **durationString** pour afficher la durée de l’élément multimédia actuel comme texte mis en forme. Un élément DIV HTML nommé MediaInfo affiche les informations relatives à la durée. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript
@@ -61,7 +61,7 @@ if (NewState == 13){
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

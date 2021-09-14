@@ -4,12 +4,12 @@ description: Utilisez les paramètres de cette section pour définir des pools d
 ms.assetid: 04290AAF-8517-4557-954E-1CAA3A0CA7F6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7350dc01c845542b97674189a120c0d55db95c282dc80b11fda66230618f99b4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c22ef3acf1c7b926890d1c5867df55bea4821b90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120119469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918539"
 ---
 # <a name="tile-pool-creation-parameters"></a>Paramètres de création d’un pool de vignettes
 

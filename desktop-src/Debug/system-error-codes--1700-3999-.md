@@ -4,12 +4,12 @@ ms.assetid: 7e57c087-53e4-443d-9227-21d9eb3cc71f
 title: Codes d’erreur système (1700-3999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 707425f7714c84d92bf5bc001f57c1677183b9edbd9170236d1c629bc0aaf121
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23b90db71a6e2e84b28f4aafc94475e9e82e3e7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118405600"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114549"
 ---
 # <a name="system-error-codes-1700-3999"></a>Codes d’erreur système (1700-3999)
 
@@ -2933,7 +2933,7 @@ Réémettez l’opération donnée en tant qu’opération d’e/s mise en cache
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 30b042200cfb00545d31196f1d7480c4aec62cc92a1c08eba3a3fd72117d6f13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12b1fb602411a9e4562a044b044e43de4800f239
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118356067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920267"
 ---
 # <a name="thursday-daysofweektype-element"></a>Jeudi (daysOfWeekType) (élément)
 
@@ -56,7 +56,7 @@ Le code XML suivant définit un calendrier de jour de semaine qui démarre une t
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

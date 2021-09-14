@@ -4,12 +4,12 @@ description: Extension d’exécution pour Direct2D qui fournit des messages d�
 ms.assetid: 23b522d4-0733-4892-b93d-28f899fa0f17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29cb01c2f8f4f4b14694da94262847ae0def0817a13ffffc48f5c414a8eacda7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f71b1364e645859059fb090634cbdae6f8c084e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113285"
 ---
 # <a name="direct2d-debug-layer"></a>Couche de débogage Direct2D
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b80e034f6b77f869207ecb785edbb935841eed2dba6bde73ad88c441dabf15cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 237b38890283769e9aac20c9b3a3703ff4b72d3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055937"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919539"
 ---
 # <a name="leveltype-complex-type"></a>Type complexe LevelType
 
@@ -62,17 +62,17 @@ Définit une valeur de gravité qui détermine le niveau de détail des événem
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Nom complet localisé du niveau. La chaîne de message fait référence à une chaîne localisée dans la section [**STRINGTABLE**](eventmanifestschema-stringtable-resources-element.md) du manifeste. <br/>                                                                                                    |
 | name    | **QName**                                                         | Nom à assigner à ce niveau. Ce nom doit être unique dans l’étendue du fournisseur.<br/>                                                                                                                                                                                                            |
 | symbole  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Symbole à utiliser pour référencer le niveau dans votre application. Le [**compilateur de message (MC.exe)**](message-compiler--mc-exe-.md) utilise le symbole pour créer une constante pour le niveau dans le fichier d’en-tête généré par le compilateur. Si vous ne spécifiez pas de symbole, le compilateur en génère un pour vous.<br/> |
-| valeur   | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Valeur de niveau. Vous pouvez spécifier des valeurs comprises dans la plage comprise entre 16 et 255. Pour les valeurs de niveau prédéfinies, consultez la section Notes.<br/>                                                                                                                                                                                               |
+| value   | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Valeur de niveau. Vous pouvez spécifier des valeurs comprises dans la plage comprise entre 16 et 255. Pour les valeurs de niveau prédéfinies, consultez la section Notes.<br/>                                                                                                                                                                                               |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Voici les valeurs de niveau prédéfinies que vous pouvez utiliser. ces valeurs sont définies dans le fichier Winmeta.xml inclus dans le SDK Windows.
 
 
 
-| Name              | Valeur | Symbole                    | Description                                                             |
+| Nom              | Valeur | Symbole                    | Description                                                             |
 |-------------------|-------|---------------------------|-------------------------------------------------------------------------|
 | win:Critical      | 1     | \_niveau WINEVENT \_ critique | Identifie un événement de sortie ou d’arrêt anormal.<br/>            |
 | win:Error         | 2     | \_erreur de niveau WINEVENT \_    | Identifie un événement d’erreur grave.<br/>                             |
@@ -86,7 +86,7 @@ Voici les valeurs de niveau prédéfinies que vous pouvez utiliser. ces valeurs 
 
 Des nombres plus élevés impliquent également des niveaux inférieurs. Par exemple, si vous spécifiez Win : Warning, vous recevez tous les événements d’avertissement, d’erreur et critiques.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

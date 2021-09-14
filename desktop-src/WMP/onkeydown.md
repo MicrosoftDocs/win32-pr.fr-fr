@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b658bd3b2abf9e2a8319e2edee33abe461fd7e701c2918952e86bc49ff84a6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 418c89d92fbec4fd7df04e23cc18c09679362134
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919003"
 ---
 # <a name="onkeydown"></a>OnKeyDown
 
@@ -28,11 +28,11 @@ Le gestionnaire d’événements **OnKeyDown** gère un événement qui se produ
 onkeydown
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce gestionnaire d’événements n’est pas applicable à l’élément **playlist** , à l’élément **Effects** ou à l’élément **Video** when *Video*. **sans fenêtre** a la valeur false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

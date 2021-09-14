@@ -4,12 +4,12 @@ ms.assetid: fbaf8890-2516-4b60-be57-464f91f2a38a
 title: Syntaxe de Termination-Handler
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3a6322bbcf86f56a75c62eaba03d50827edcd71a57addf48ef3777c7687796
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bcbf2656636490738a292c274a3e3184a34c0f94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119984459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114514"
 ---
 # <a name="termination-handler-syntax"></a>Syntaxe de Termination-Handler
 

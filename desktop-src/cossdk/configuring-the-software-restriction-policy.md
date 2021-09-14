@@ -4,12 +4,12 @@ ms.assetid: 22c1897a-abb5-4ce9-9d09-21b6aed4f1d8
 title: Configuration de la stratégie de restriction logicielle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30aa7de81769288e5cdcee6a7612fa0439a0e9f41d8c384b0855b7bd7ae06d41
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 522f216af6957ebd23bc9f17c70f61cab2cabc5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128951"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916828"
 ---
 # <a name="configuring-the-software-restriction-policy"></a>Configuration de la stratégie de restriction logicielle
 

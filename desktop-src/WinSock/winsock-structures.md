@@ -4,12 +4,12 @@ ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Structures Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fdd96d492b28bc0be2d8e4cbc24863af194c2b0c6c9faa30ef2858e9f970e66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 627fed267944787dde754dce4690e350ec0bd9e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118321713"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918884"
 ---
 # <a name="winsock-structures"></a>Structures Winsock
 
@@ -29,7 +29,7 @@ La liste suivante fournit des descriptions concises de chaque structure et typed
 | [**addrinfoex5**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex5) | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’un descripteur du nom de domaine complet a été demandé. |
 | [**addrinfoex6**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex6) | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’un descripteur du nom de domaine complet a été demandé. |
 | [**AFPROTOCOLS**](/windows/desktop/api/Winsock2/ns-winsock2-afprotocols)                                                      | Fournit une liste des protocoles auxquels les programmeurs d’applications peuvent contraindre les requêtes. Utilisé à des fins de requête uniquement.                                                                                                                                                                |
-| [**OBJET BLOB**](/windows/win32/api/wtypesbase/ns-wtypesbase-blob)                                                                    | Contient des informations sur un bloc de données. Dérivé d’Large Object binaire.                                                                                                                                                                                                     |
+| [**BLOB**](/windows/win32/api/wtypesbase/ns-wtypesbase-blob)                                                                    | Contient des informations sur un bloc de données. Dérivé d’Large Object binaire.                                                                                                                                                                                                     |
 | [**\_informations CSADDR**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info)                                                     | Contient les informations d’adresse Winsock pour un service réseau ou un fournisseur d’espace de noms.                                                                                                                                                                                                 |
 | [**\_ensemble FD**](/windows/desktop/api/winsock/nf-winsock-fd_set)                                                               | Utilisé par plusieurs fonctions Winsock et fournisseurs de services, tels que [**Select**](/windows/desktop/api/Winsock2/nf-winsock2-select), pour placer des sockets dans un « ensemble » à des fins diverses, telles que le test d’un socket donné pour améliorer la lisibilité.                                                                                  |
 | [**filtre de groupe \_**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_filter)                                                     | Fournit des paramètres de filtrage de multidiffusion pour les adresses IPv6 multidiffusion ou IPv4.                                                                                                                                                                                                     |

@@ -4,12 +4,12 @@ ms.assetid: 29280a02-1c26-4b54-8468-707dd96dea1d
 title: Lumière diffuse (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9906742b47b959336fd882748388a2f10776b6adb06eb98bc23effb6576793be
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f51e45093786348aaa115ec38c420acec471f718
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119675760"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855148"
 ---
 # <a name="diffuse-lighting-direct3d-9"></a>Lumière diffuse (Direct3D 9)
 
@@ -50,7 +50,7 @@ Pour calculer l’atténuation (atten) ou les caractéristiques de Spotlight (sp
 
 Les Composants diffuses sont ancrés de 0 à 255, après que toutes les lumières ont été traitées et interpolées séparément. La valeur d’éclairage diffus résultante est une combinaison des valeurs de lumière ambiante, diffuse et émissif.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Dans cet exemple, l’objet est coloré à l’aide de la couleur lumière diffuse et d’une couleur diffuse de matériau. Le code est illustré ci-dessous.
 

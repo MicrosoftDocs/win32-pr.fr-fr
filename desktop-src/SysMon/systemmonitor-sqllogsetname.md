@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: be20ccc561eb3e9292b4a95dcc654ed7bac00ba7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193667"
 ---
 # <a name="systemmonitorsqllogsetname-property"></a>SystemMonitor :: SqlLogSetName, propriété
 
@@ -38,13 +38,13 @@ Property SqlLogSetName As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Nom convivial du jeu de journaux, qui correspond à un fichier journal unique contenant des données binaires ou de texte dans la base de données SQL.
+nom convivial du jeu de journaux, qui correspond à un fichier journal unique contenant des données binaires ou texte dans la base de données SQL.
 
 ## <a name="remarks"></a>Notes
 
-**Avant Windows Vista :** Vous ne pouvez pas modifier cette propriété si la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) est définie sur sysmonSqlLog.
+**avant Windows Vista :** Vous ne pouvez pas modifier cette propriété si la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) est définie sur sysmonSqlLog.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

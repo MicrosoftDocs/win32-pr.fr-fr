@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102389
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 07462d74880838ed4698a07402e8806e62d066914eeadfa11face7267fdd0b39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0066cb85fcd8efcc9176d9d50797d35a7e9f234
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119040257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917703"
 ---
 # <a name="esentnullinvalidexception-methods"></a>Méthodes EsentNullInvalidException
 

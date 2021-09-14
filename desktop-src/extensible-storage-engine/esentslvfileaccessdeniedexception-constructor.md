@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 35d4b40a4fa285ee5516573290374f97636308d0622bc5ed5a27a1a6e6e1e954
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76ff9cadd936277b6fafc9cc27427c7cd0fb0889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854589"
 ---
 # <a name="esentslvfileaccessdeniedexception-constructor"></a>Constructeur EsentSLVFileAccessDeniedException
 

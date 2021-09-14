@@ -4,12 +4,12 @@ description: vous pouvez utiliser Visual Studio et le kit de développement logi
 ms.assetid: CA471465-47C2-4706-B391-C9E6C2CD69D9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30f9fd97519bb88a0a89206e5a8c3aa43cf990948cb9aa8c9dd40379c53ed1a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55548cd282bf643e16f22177e46643c6e283a909
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118505674"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918059"
 ---
 # <a name="debugging-directx-apps-remotely"></a>Débogage des applications DirectX à distance
 

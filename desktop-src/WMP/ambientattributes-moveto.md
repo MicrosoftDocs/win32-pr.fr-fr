@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf05beedad4fe4abb839e957519384b58102253cd0ab6a292d629df23a7bef98
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af481526c0923c527bb14aa4700a6c6fe5ea3613
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856149"
 ---
 # <a name="ambientattributesmoveto"></a>AmbientAttributes. moveTo
 
@@ -56,13 +56,13 @@ La méthode **MoveTo** déplace le contrôle vers un nouvel emplacement à une v
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est utile pour les éléments de sous- **affichage** animés (par exemple, si l’utilisateur clique sur une barre d’État et les contrôles déroulants).
 
 Cette méthode crée un mouvement linéaire lors du déplacement du contrôle. Cela diffère de **slideTo**, qui crée un mouvement non linéaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

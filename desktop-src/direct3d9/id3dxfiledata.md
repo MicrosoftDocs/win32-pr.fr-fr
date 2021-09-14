@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5e85e66d5089183b1797842ab4e152a10298ebcc74a10c66291c6f6bc62743e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1764787864c059e9c7417525a1a5ab5ff862f7d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119121425"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918388"
 ---
 # <a name="id3dxfiledata-interface"></a>Interface ID3DXFileData
 
@@ -46,14 +46,14 @@ L’interface **ID3DXFileData** possède ces méthodes.
 | [**GetName**](id3dxfiledata--getname.md)         | Récupère le nom de cet objet de données de fichier.<br/>                                                              |
 | [**GetType**](id3dxfiledata--gettype.md)         | Récupère l’ID de modèle dans cet objet de données de fichier.<br/>                                                       |
 | [**IsReference**](id3dxfiledata--isreference.md) | Indique si cet objet de données de fichier est un objet de référence qui pointe vers un autre objet de données enfant.<br/>   |
-| [**Verrou**](id3dxfiledata--lock.md)               | Accède aux données du fichier. x.<br/>                                                                                |
+| [**Verrouillage**](id3dxfiledata--lock.md)               | Accède aux données du fichier. x.<br/>                                                                                |
 | [**Bloquer**](id3dxfiledata--unlock.md)           | Termine la durée de vie du pointeur *ppData* retourné par [**ID3DXFileData :: Lock**](id3dxfiledata--lock.md).<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les types de données autorisés par le modèle sont appelés membres facultatifs. Les membres facultatifs ne sont pas requis, mais un objet peut manquer des informations importantes sans eux. Ces membres facultatifs sont enregistrés en tant qu’enfants de l’objet de données. Un enfant peut être un autre objet de données ou une référence à un objet de données antérieur.
 
@@ -68,7 +68,7 @@ typedef interface ID3DXFileData *LPD3DXFILEDATA;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

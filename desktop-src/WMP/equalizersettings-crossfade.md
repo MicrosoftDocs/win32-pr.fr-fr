@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff38ee7634f31da7717bfca015ebaacd88796d9c8186faef155704a449bbb07
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0472f90f94b5c4ba56948848476b6585502427c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118838624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191775"
 ---
 # <a name="equalizersettingscrossfade"></a>EQUALIZERSETTINGS. fondu enchaîné
 
@@ -42,11 +42,11 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fondu enchaîné est une fonctionnalité de traitement audio qui diminue progressivement le volume d’un élément multimédia près de la fin de sa lecture tout en démarrant simultanément la lecture de l’élément multimédia suivant au niveau du volume minimum et en l’accroissant progressivement au volume normal. Le chevauchement entre le début du deuxième élément multimédia et la fin du premier élément multimédia est spécifié par l’attribut **crossFadeWindow** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

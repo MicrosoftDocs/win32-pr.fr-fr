@@ -5,12 +5,12 @@ ms.assetid: 663743c9-16e9-4e3a-90b2-883ef0b8d5cf
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 1932dc6506c625332d61f4e549ae2dd169060731bfbea344f64c3aa826540ae0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe3509a80f80132f4a5e5d65f62476be1cac61d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569263"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113126"
 ---
 # <a name="how-to-create-a-radial-gradient-brush"></a>Comment créer un pinceau de dégradé radial
 

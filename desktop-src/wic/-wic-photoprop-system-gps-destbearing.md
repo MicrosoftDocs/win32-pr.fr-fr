@@ -4,12 +4,12 @@ ms.assetid: ccc31b3d-27fd-4a8c-a304-852cf6114ec5
 title: Stratégie de métadonnées de photo System. GPS. DestBearing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 598ef1e759f75dfb4851f2f3f435b53db1f875421c3d21446ae3de33f688cefd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01a084a0633579afe646403fb4dcad0ca8a1b9ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205510"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226212"
 ---
 # <a name="systemgpsdestbearing-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. DestBearing
 
@@ -41,7 +41,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 24} |             |
 | 2     | /xmp/exif:GPSDestBearing  |             |
@@ -54,7 +54,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 24} |             |
 | 2     | /xmp/exif:GPSDestBearing  |             |
@@ -67,7 +67,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 24} |             |
 | 2     | /xmp/exif:gpsdestbearing  |             |
@@ -82,7 +82,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 24}         |             |
 | 2     | /ifd/xmp/exif:GPSDestBearing |             |
@@ -95,7 +95,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 24}         |             |
 | 2     | /ifd/xmp/exif:GPSDestBearing |             |
@@ -108,7 +108,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
 
 
-| Commande | Chemin                         |
+| JSON | Chemin d’accès                         |
 |-------|------------------------------|
 | 1     | /IFD/GPS/{UShort = 24}         |
 | 2     | /ifd/xmp/exif:gpsdestbearing |
@@ -117,7 +117,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. DestBearingNumera
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

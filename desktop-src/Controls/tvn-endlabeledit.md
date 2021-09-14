@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38be7b9fde4b96f3510cd59683ee9df471cc4d77342fe375d9b1818b8ae7da46
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c30d494ad90b3d55f85b1ad154aed0f814a1eec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115521"
 ---
 # <a name="tvn_endlabeledit-notification-code"></a>\_Code de notification TVN ENDLABELEDIT
 
@@ -47,17 +47,17 @@ Pointeur vers une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le membre **pszText** n’est pas **null**, retourne **true** pour définir l’étiquette de l’élément sur le texte modifié. Retourne **false** pour rejeter le texte modifié et revenir à l’étiquette d’origine.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le membre **pszText** a la valeur **null**, la valeur de retour est ignorée.
 
 Si vous avez spécifié la \_ valeur LPSTR TEXTCALLBACK pour cet élément et que le membre **pszText** n’est pas **null**, votre \_ Gestionnaire TVN ENDLABELEDIT doit copier le texte de **pszText** dans votre stockage local.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

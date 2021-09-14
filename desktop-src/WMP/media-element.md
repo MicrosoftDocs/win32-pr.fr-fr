@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c67f4321d85ec52babbc6f24c2cd9e3512f7c970eb3360ba2ddfd7ba53f82152
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e693c8b17345d3ba7875d48b83b5e3e90d682dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919148"
 ---
 # <a name="media-element"></a>Élément multimédia
 
@@ -60,7 +60,7 @@ L’élément **multimédia** spécifie l’un des éléments multimédias dans 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’attribut **cid** (ID de contenu) est rempli par le Lecteur Windows Media comme un moyen d’identifier de façon unique un morceau de contenu multimédia, même si ses attributs de métadonnées ont été modifiés. cela permet de partager des sélections sur plusieurs ordinateurs, car le contenu peut être identifié sur un autre ordinateur, et le chemin d’accès peut être « réparé automatiquement » par la sélection de média Windows. l’attribut **tid** (l’ID de suivi) utilise le système de fichiers Windows pour réparer automatiquement le chemin d’accès au média si le nom ou l’emplacement du fichier est modifié.
 
@@ -78,7 +78,7 @@ l’attribut **cid** (ID de contenu) est rempli par le Lecteur Windows Media com
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

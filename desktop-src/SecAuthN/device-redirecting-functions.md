@@ -4,12 +4,12 @@ ms.assetid: a61ab1e6-dad9-4dc0-a908-f8440619f610
 title: Fonctions Device-Redirecting
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4929052ed2691d6264791cac431e59faaacdb92f7f96bb610d99fdd4ded471
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 577f8d108b6bfdeb01f786478cd736e6c84cc83d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121210"
 ---
 # <a name="device-redirecting-functions"></a>Fonctions Device-Redirecting
 

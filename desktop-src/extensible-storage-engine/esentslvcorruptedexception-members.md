@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102734
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ffaa94ea4cf2c05b3f4215e2d0c387f46ef7a327415fdd01275db2ab5db90990
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b30afca26bd855ceb639b1dc19430008a8b5a143
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917551"
 ---
 # <a name="esentslvcorruptedexception-members"></a>Membres EsentSLVCorruptedException
 
@@ -91,7 +91,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

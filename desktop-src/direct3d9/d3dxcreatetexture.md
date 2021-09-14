@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6264be0712f5ac7f30a9882efde5c66e1e75404634e77d6b72d2313ba016fd6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ecbd5cbb94355af9c1e51e6c7e8fc31a862b03be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118299254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855183"
 ---
 # <a name="d3dxcreatetexture-function"></a>D3DXCreateTexture fonction)
 
@@ -119,7 +119,7 @@ Adresse d’un pointeur vers une interface [**IDirect3DTexture9**](/windows/win3
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -131,7 +131,7 @@ En interne, D3DXCreateTexture utilise [**D3DXCheckTextureRequirements**](d3dxche
 
 Si la hauteur et la largeur sont définies sur [D3DX \_ default](other-d3dx-constants.md), la valeur 256 est utilisée pour les deux paramètres. Si la hauteur ou la largeur est définie sur D3DX \_ Default et que l’autre paramètre est défini sur une valeur numérique, la texture sera carré avec la hauteur et la largeur égales à la valeur numérique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

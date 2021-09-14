@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1e6497ca88d43b96096ee6a23ee81a322b0f397757466ed8cf09dd1b3cd45fc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a47a01d7d77f3dd20f055bce8e4bb12fad82c771
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118356057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920263"
 ---
 # <a name="stoponidleend-idlesettingstype-element"></a>Élément StopOnIdleEnd (idleSettingsType)
 
@@ -44,7 +44,7 @@ L’élément **StopOnIdleEnd** est défini par le type complexe [**idleSettings
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété StopOnIdleEnd de IIdleSettings**](/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_stoponidleend).
 
@@ -63,7 +63,7 @@ Le code XML suivant définit un paramètre inactif qui indique que la tâche ne 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

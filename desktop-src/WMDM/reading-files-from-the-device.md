@@ -11,12 +11,12 @@ keywords:
 - lecture de fichiers à partir d’appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4352be59a335461f46bfc722146e4c51d31f72c1559e9ad8631e80cb6752c241
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b0b80cf820e889b29e612206f90b07e1cb02c4c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919440"
 ---
 # <a name="reading-files-from-the-device"></a>Lecture des fichiers à partir de l’appareil
 

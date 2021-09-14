@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ad6b373f4b30209566709117b3b15ecf1a65d093ddb2dd27e9e0273b11ad0b62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc67483f44515c2ce18825de5b6657d51e2c3826
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853965"
 ---
 # <a name="iamtimelineeffectable-interface"></a>Interface IAMTimelineEffectable
 
@@ -55,7 +55,7 @@ L’interface **IAMTimelineEffectable** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -67,7 +67,7 @@ L’interface **IAMTimelineEffectable** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

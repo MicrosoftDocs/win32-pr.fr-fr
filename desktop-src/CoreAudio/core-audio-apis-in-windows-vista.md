@@ -5,12 +5,12 @@ title: API audio principales
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 69c0c83700dabd3aa0298bcd6474b95c4c38bdf933c9867a4c639edee1e43379
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2cabb462d13786c874401394fa814484f79b0e3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077643"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115062"
 ---
 # <a name="core-audio-apis"></a>API audio principales
 

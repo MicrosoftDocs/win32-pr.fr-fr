@@ -6,12 +6,12 @@ keywords:
 - Flou gaussien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b759ed0f5f70c4fc11ad902c7a45db3b3059847ce6895d25c3dbb9c9eee8330
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfbe8b309a498315e389be45d382eca3ee1b98ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119967082"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113214"
 ---
 # <a name="gaussian-blur-effect"></a>Effet Flou gaussien
 
@@ -28,7 +28,7 @@ Le CLSID de cet effet est CLSID \_ D2D1GaussianBlur.
 -   [Modes d’optimisation](#optimization-modes)
 -   [Modes de bordure](#border-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -38,7 +38,7 @@ Le CLSID de cet effet est CLSID \_ D2D1GaussianBlur.
 | Avant                                                       |
 |--------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)   |
-| Après                                                        |
+| After                                                        |
 | ![image après la transformation.](images/1-gaussianblur.png) |
 
 
@@ -109,7 +109,7 @@ La sortie de cet effet peut être supérieure à la bitmap d’entrée en foncti
 
 Par conséquent, si la taille de l’image augmente de 10 pixels dans chaque direction, l’angle supérieur gauche de l’image sera situé à (-5,-5), tandis que le coin inférieur droit sera (105, 105).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ae69bcd5ff7d806db5bcaf1e7fd978fc43881d8b390ada7922f394f4f7225b4a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be07d2cc8a7720f686ca5ae0847870b27279b8da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919032"
 ---
 # <a name="onclick"></a>OnClick
 
@@ -28,11 +28,11 @@ Le gestionnaire d’événements **OnClick** gère un événement qui se produit
 onclick
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce gestionnaire d’événements n’est pas applicable à l’élément **playlist** , à l’élément **Popup** , à l’élément **Video** , à l’élément **ListBox** , en cas de *vidéo*. **sans fenêtre** a la valeur false, ou l’élément **Effects** en cas d' *effets*. **Windowed** a la valeur true.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

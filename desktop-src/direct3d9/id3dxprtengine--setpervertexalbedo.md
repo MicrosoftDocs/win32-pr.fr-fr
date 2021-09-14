@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d40c91ea00be7b1194099764c3c6d029a9cacb10d5265fb560053b093f396c9f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: da7a33a79cc50963e87d0eff15baf22ee8d79ce3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918319"
 ---
 # <a name="id3dxprtenginesetpervertexalbedo-method"></a>ID3DXPRTEngine :: SetPerVertexAlbedo, méthode
 
@@ -69,13 +69,13 @@ STRIDE en octets requis pour accéder à la valeur albedo de l’exemple suivant
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

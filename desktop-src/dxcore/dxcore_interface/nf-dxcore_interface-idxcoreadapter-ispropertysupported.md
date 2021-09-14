@@ -4,12 +4,12 @@ description: Détermine si cet objet adaptateur DXCore et le système d’exploi
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: ddee6bea5af8fb64dfa2bfc15392e92239e7326b34cbd93cbd112559a6027912
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b960d96515d4aee85520a6def70a8f0e9349e131
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118279230"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918024"
 ---
 # <a name="idxcoreadapterispropertysupported-method"></a>IDXCoreAdapter :: IsPropertySupported, méthode
 

@@ -4,12 +4,12 @@ ms.assetid: 54f42bda-b4a0-465c-9ce6-9102d2908776
 title: rôles d’appareil pour les Applications DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e22a86e5537f11b6b4153753841a2682b5ac77a043a3fa74538714a2540377
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df8b43ddd56870b65fc9ec1e3bb600e8e6b79528
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115006"
 ---
 # <a name="device-roles-for-directshow-applications"></a>rôles d’appareil pour les Applications DirectShow
 

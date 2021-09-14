@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 04cda233d777f05dec44b4fc93537cc33b0369d14d95c104773f0f33ef03498d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d8b02b64fd13e7466980340056fceccc1da784cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120070039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855339"
 ---
 # <a name="d3dxplanetransformarray-function-d3dx10mathh"></a>D3DXPlaneTransformArray, fonction (D3DX10Math. h)
 
@@ -99,13 +99,13 @@ Nombre de plans à transformer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointeur vers une structure D3DXPLANE représentant le plan transformé. Il s’agit de la même valeur retournée dans le paramètre moue pour que cette fonction puisse être utilisée en tant que paramètre pour une autre fonction.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet exemple transforme un plan en appliquant une échelle non uniforme.
 
@@ -135,7 +135,7 @@ Un plan est décrit par ax + by + CZ + DW = 0. Le premier plan est créé avec (
 
 Le paramètre pM contient la transposer inverse de la matrice de transformation. La permutation inverse est requise par cette méthode afin que le vecteur normal du plan transformé puisse également être correctement transformé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a8645c68be441c95eb460585f903d6e7e0f1f550a66e663ed7b625937872546
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1874e3d07afe1b8a2dbb57a118f258d70ae1a00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118433915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226049"
 ---
 # <a name="copyrighturl"></a>CopyrightURL
 
@@ -31,7 +31,7 @@ L’attribut **CopyrightURL** contient l’adresse Web d’une page de Copyright
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique à l’ensemble du fichier.
 

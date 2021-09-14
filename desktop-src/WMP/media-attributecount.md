@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28d02e120570140aa7c39a4acc7ce0eb096fffd7bccfc51a6c82d53a7ab5f3bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df4979f670cdd6a79b1b309bc3eceff5a2798223
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117934340"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919159"
 ---
 # <a name="mediaattributecount"></a>Media. attributeCount
 
@@ -33,7 +33,7 @@ La propriété **attributeCount** récupère le nombre d’attributs qui peuvent
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -69,7 +69,7 @@ for(var i = 0; i < cm.attributeCount; i++){
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2e452ea7-e2bf-4500-952a-ee7d891533a0
 title: Événement DBT_QUERYCHANGECONFIG (DBT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e9c222fdc29f635263b45b5fd7e54ee229a33d7dee1ff31cd1e3072bfe6e84f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 48367da1788ae2985b21fad6e960153008e9ffd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119318419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114394"
 ---
 # <a name="dbt_querychangeconfig-event"></a>\_Événement DBT QUERYCHANGECONFIG
 
@@ -61,13 +61,13 @@ Définit la valeur zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour accorder l’autorisation de modifier la configuration.
 
 Retournez \_ la requête \_ de diffusion Deny pour refuser l’autorisation de modifier la configuration.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

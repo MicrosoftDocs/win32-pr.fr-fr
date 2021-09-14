@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102462
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 813af19ad5fa3fe1e5f1d6116022703ad2238f15fb313d30fba38a912965e791
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eaf72b3f62b8284ba1c3c14dd477412d0875cbe5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118492971"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917620"
 ---
 # <a name="esentoutofdbtimevaluesexception-properties"></a>Propriétés EsentOutOfDbtimeValuesException
 
@@ -69,7 +69,7 @@ Le type [EsentOutOfDbtimeValuesException](./esentoutofdbtimevaluesexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

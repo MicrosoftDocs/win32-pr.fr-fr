@@ -4,12 +4,12 @@ ms.assetid: 940ed0df-0912-4c13-a490-0c6be82c9743
 title: MFPKEY_Content_DLNA_Profile_ID, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cca2dfad14303a6dd493f467ebee84518e907261d8fa3f4c05060200b6b5ea3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d07cf3403f8c7694fe8153fb81d440c0a7a6ee3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227574"
 ---
 # <a name="mfpkey_content_dlna_profile_id-property"></a>Propriété de l' \_ \_ ID de profil DLNA du contenu MFPKEY \_ \_
 
@@ -31,13 +31,13 @@ Membre PROPVARIANT
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un identificateur de profil DLNA est une chaîne qui identifie le profil d’encodage du contenu.
 
 Les identificateurs de profil sont décrits dans les [instructions relatives à l’interopérabilité des appareils en réseau DLNA](https://www.dlna.org/about/organization). (Cette ressource n’est peut-être pas disponible dans certaines langues et certains pays.)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

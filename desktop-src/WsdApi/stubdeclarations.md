@@ -4,12 +4,12 @@ ms.assetid: d43baeff-c941-4ce9-a6ae-8aa61ef44048
 title: élément stubDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 846cea00438a5e2571e0e5c6a2b4af2a5ec519071ece2fa3570e0281fc9a22b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1543883b4d41e7571cd4a4725e2aeab181530d30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916900"
 ---
 # <a name="stubdeclarations-element"></a>élément stubDeclarations
 
@@ -34,7 +34,7 @@ Il n’y a pas d’attributs.
 | Élément                                   | Description                                                                                      |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**événements**](events.md)<br/>       | Spécifie si les événements connexes sont inclus dans les fonctions générées.<br/> <br/> |
-| [**operation**](operation.md)<br/> | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                 |
+| [**opération**](operation.md)<br/> | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                 |
 | [**portType**](porttype.md)<br/>   | Spécifie le type de port pour lequel le code doit être généré.<br/> <br/>                |
 
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 990c06285d60067c9a26faffabffc70cbdd283d1
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916868"
 ---
 # <a name="interface-com"></a>Interface (COM)
 
@@ -28,7 +28,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
          ...
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un nom d’interface n’est pas présent dans cette liste, l’interface ne peut jamais être prise en charge par une instance de cette classe.
 

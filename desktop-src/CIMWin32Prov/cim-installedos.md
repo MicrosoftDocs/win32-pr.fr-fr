@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a60bbd71993557eac238d6facd75d99b967b993a075cad726ccdef4625d6dce5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 53e01be6a87fa6e5ef91ad6e8a81dbbddff4a576
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119923409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921996"
 ---
 # <a name="cim_installedos-class"></a>\_Classe CIM installée
 
@@ -107,7 +107,7 @@ Si la **valeur est true**, le système d’exploitation installé est le systèm
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ installed** est dérivée de [**la \_ SystemComponent CIM**](cim-systemcomponent.md).
 
@@ -115,7 +115,7 @@ WMI n’implémente pas cette classe. Pour les classes dérivées de **CIM \_ in
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

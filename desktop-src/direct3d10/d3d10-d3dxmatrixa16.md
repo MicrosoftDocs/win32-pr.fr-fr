@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 4953b51cdd09cdbcac4855bd423ce37dda5b979e06153589b5b2ded21004b3ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e81071d44340ef7a4b874633e736e21016c697a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119853399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855369"
 ---
 # <a name="d3dxmatrixa16-structure-d3dx10mathh"></a>D3DXMATRIXA16, structure (D3DX10Math. h)
 
@@ -50,7 +50,7 @@ Composant (i, j) de la matrice, où i est le numéro de ligne et j le numéro de
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une matrice alignée sur 16 octets, quand elle est utilisée par les fonctions D3DX mathématiques, a été optimisée pour améliorer les performances sur les processeurs Intel Pentium 4. Les matrices sont alignées indépendamment de l’endroit où elles sont créées : sur la pile du programme, dans le tas ou dans la portée globale. L’alignement s’effectue à l’aide de \_ \_ declspec (align (16)), qui fonctionne avec Visual C++ .net et avec Visual C++ 6,0 uniquement lorsque le Pack de processeur est installé. Malheureusement, il n’existe aucun moyen de détecter le Pack de processeur. par conséquent, l’alignement de l’octet est activé par défaut uniquement avec Visual C++ .NET.
 
@@ -97,7 +97,7 @@ typedef D3DX_ALIGN16 _D3DXMATRIXA16 D3DXMATRIXA16, *LPD3DXMATRIXA16;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

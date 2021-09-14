@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c4bcb1ba1dc988f3c28188b4b448dba611b83c6cffbe7f942710569ac089776f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc1b7509ddb4c61fa84a4547dcd47f2c7637b913
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118633226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121689"
 ---
 # <a name="installerapplypatch-method"></a>Installer. ApplyPatch, méthode
 
@@ -84,11 +84,11 @@ Spécifie les paramètres de propriété définis sur la ligne de commande. Cons
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que le délimiteur de liste pour les transformations, les sources et les correctifs est un point-virgule, ce caractère ne doit pas être utilisé pour les noms de fichiers ou les chemins d’accès.
 
@@ -98,7 +98,7 @@ La propriété de [**réinstallation**](reinstall.md) est requise lors de l’ap
 
 **Windows Installer 3,0 et versions ultérieures :** à partir de Windows Installer version 3,0, la propriété de [**réinstallation**](reinstall.md) est configurée par le programme d’installation et n’a pas besoin d’être définie sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102826
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ccdb587c920ec16c62c45d44e55fe0e02d4871626c478a6fe01335ea8b19e465
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c19826dde51643c1bf4acf7389451d850bfe57dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981234"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854505"
 ---
 # <a name="esentslvspacewriteconflictexception-members"></a>Membres EsentSLVSpaceWriteConflictException
 
@@ -91,7 +91,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

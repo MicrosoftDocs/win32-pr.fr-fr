@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101880
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4e8fa1b9b3e7094c1ab67b6c402c3835a8a6a5a3f4ad2dd55ca3f6065f22c6e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b51561818e375b69e17290969bc713f7112203b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119041313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917896"
 ---
 # <a name="esentinvalidbookmarkexception-properties"></a>Propriétés EsentInvalidBookmarkException
 
@@ -69,7 +69,7 @@ Le type [EsentInvalidBookmarkException](./esentinvalidbookmarkexception-class.md
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

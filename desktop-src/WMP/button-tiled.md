@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f4f1dda0b5a79749cfbffaa30f29522ff318a763ad50fcd005479afa9c8997
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c6c1316f10ce9ae3135f4ac35ab214ecdd1096d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118581373"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855735"
 ---
 # <a name="buttontiled"></a>BOUTON. en mosaïque
 
@@ -46,7 +46,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
 Si l’image est plus petite que la région réelle du contrôle, la mosaïque de l’image se répète jusqu’à ce qu’elle remplisse toute la région. Si une image n’est pas spécifiée ou ne peut pas être récupérée, la **mosaïque** est définie sur false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

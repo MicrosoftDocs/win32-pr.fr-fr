@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 809ab4ce2c4d8670363dc7f0751ae4a3756ee7b4e5dc9b75c79986c3a56d359d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b27cd27123f4c1a071314fd20d1874e61b590d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957698"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115401"
 ---
 # <a name="up-down-control-styles"></a>Styles de contrôle Up-Down
 
@@ -47,7 +47,7 @@ Cette section répertorie les styles utilisés lors de la création de contrôle
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

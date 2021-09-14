@@ -4,12 +4,12 @@ ms.assetid: b94fca60-237a-43b1-a75a-faccf9dc63fb
 title: Gestion des imprimantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7086b360355d0ad85be440bc8bc9e330bfa6dd25793cc943d3aacdbaa0d4a8f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73e9625fbe17c0dd350a10c0c71dcd5332fb9154
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118719597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226804"
 ---
 # <a name="managing-printers"></a>Gestion des imprimantes
 

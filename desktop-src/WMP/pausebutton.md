@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5e1173b178adfa6e9cf3b9f6e0d5af0ef6b52e6c39a88c5d9be1af9d8836a25b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6713c765a27ad7d341beab58266ae3bd383674bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119646889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191724"
 ---
 # <a name="pausebutton"></a>PAUSEBUTTON
 
@@ -31,11 +31,11 @@ cursor="system"
 enabled="wmpenabled:player.controls.pause"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les propriétés de ce **bouton** peuvent être remplacées en les spécifiant explicitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

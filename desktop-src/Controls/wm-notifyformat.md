@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05cb41a88bffd7cc4ca3b406017dd08e297a239823fc2f5727be844b58e4bdfe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57e9c7d74b21d0f5785273d1b60d612a346f2d85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077673"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115145"
 ---
 # <a name="wm_notifyformat-message"></a>\_Message WM NOTIFYFORMAT
 
@@ -54,7 +54,7 @@ Valeur de commande qui spécifie la nature du message **WM \_ NOTIFYFORMAT** . I
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs suivantes.
 
@@ -70,7 +70,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’un contrôle commun est créé, le contrôle envoie un message **WM \_ NOTIFYFORMAT** à sa fenêtre parente pour déterminer le type de structures à utiliser dans les messages de [**\_ notification WM**](wm-notify.md) . Si la fenêtre parente ne gère pas ce message, la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) répond en fonction du type de la fenêtre parente. Autrement dit, si la fenêtre parente est une fenêtre Unicode, **DefWindowProc** retourne des \_ Unicode NFR et, si la fenêtre parente est une fenêtre ANSI, **DefWindowProc** retourne NFR \_ ANSI. Si la fenêtre parente est une boîte de dialogue et ne gère pas ce message, la fonction [**DefDlgProc**](/windows/desktop/api/winuser/nf-winuser-defdlgprocw) répond de la même manière en fonction du type de la boîte de dialogue (Unicode ou ANSI).
 
@@ -78,7 +78,7 @@ Une fenêtre parente peut modifier le type de structures qu’un contrôle commu
 
 Tous les contrôles communs vont envoyer les messages **WM \_ NOTIFYFORMAT** . toutefois, les contrôles de Windows standard (contrôles d’édition, zones de liste déroulante, zones de liste, boutons, barres de défilement et contrôles statiques) ne le font pas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

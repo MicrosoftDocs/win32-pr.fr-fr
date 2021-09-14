@@ -4,12 +4,12 @@ ms.assetid: c3b4e696-9f45-4616-ac6b-07ba29750bb2
 title: Utilisation d’un gestionnaire d’exceptions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 309f65122c333efa8974087117faa0120e1ac6223d458698dc7f00fe398967e2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d0dbe7ec23ddd5372cecfe85ae8348092d91cfff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114506"
 ---
 # <a name="using-an-exception-handler"></a>Utilisation d’un gestionnaire d’exceptions
 

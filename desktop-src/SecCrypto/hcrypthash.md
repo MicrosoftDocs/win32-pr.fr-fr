@@ -4,12 +4,12 @@ ms.assetid: 3b872bf0-cf1b-465b-82a2-c6fd154e1125
 title: HCRYPTHASH (Wincrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99b2d20d7aeb46adda162f8d5ec380143164690bad8ee88139f9653753f1e290
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a009350ed910627c1e6ec9ae33997ed20c7fec2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119006557"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120970"
 ---
 # <a name="hcrypthash"></a>HCRYPTHASH
 
@@ -22,7 +22,7 @@ typedef ULONG_PTR HCRYPTHASH;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

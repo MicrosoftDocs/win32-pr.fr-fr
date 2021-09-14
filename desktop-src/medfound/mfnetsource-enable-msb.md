@@ -4,12 +4,12 @@ ms.assetid: a46e3b4c-60be-4470-b9dc-041902c2563c
 title: MFNETSOURCE_ENABLE_MSB, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1054b4a94bf966457ddeccc606fbd2fd2c8a1d5b3978b830b5e3c48f0f93b5ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e6b2a49876cf504bfc4e086ab1e064e6835283a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243816"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227621"
 ---
 # <a name="mfnetsource_enable_msb-property"></a>MFNETSOURCE \_ activer la \_ propriété MSB
 
@@ -37,7 +37,7 @@ La constante **MFNETSOURCE \_ Enable \_ MSB** définit le GUID de cette clé de 
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

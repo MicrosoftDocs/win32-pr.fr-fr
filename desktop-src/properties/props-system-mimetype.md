@@ -4,12 +4,12 @@ ms.assetid: 9f8f42f8-af90-4f2d-a58c-f892139e86b7
 title: System. MIMEType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 808e947cf877999896fd5a0fc14e85237957ab805ecf143a4c16159345b97a19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3db5ced29df603f8e5a5d04011f8d5ff99dc876
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118724497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227076"
 ---
 # <a name="systemmimetype"></a>System. MIMEType
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

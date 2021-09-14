@@ -11,12 +11,12 @@ keywords:
 - visualisations personnalisées, modification de l’exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1952ac3d7f38c423c82fb185be4ed7750b02d24155d7ff5ac38e70e238c8d38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 716173d9f2c3d44bb3faabddaa8fe886b6582fba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119508889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217052"
 ---
 # <a name="implementing-your-code"></a>Implémentation de votre code
 

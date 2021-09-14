@@ -5,11 +5,11 @@ ms.assetid: f6ffbd1d-4bc1-4dc2-b3ed-ee12359e3d75
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: aa5115cfd08d57658eec879d44b4361e88965b3c
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104030724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921792"
 ---
 # <a name="events-in-com-and-connectable-objects"></a>Événements dans les objets COM et connectables
 
@@ -32,9 +32,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Architecture des objets connectables](architecture-of-connectable-objects.md)
 -   [Interfaces d’objets connectables](connectable-object-interfaces.md)
 
- 
+ 
 
- 
+ 
 
 
 

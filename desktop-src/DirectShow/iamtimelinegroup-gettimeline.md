@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: da9064969cc026ebffb91ccbdb70bcaebab2b5d696bcb04d6c6281548721c522
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6b85b0c6f1730c2946134a36d33537f311b6603f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853929"
 ---
 # <a name="iamtimelinegroupgettimeline-method"></a>IAMTimelineGroup :: GetTimeline, méthode
 
@@ -52,11 +52,11 @@ Reçoit l’interface [**IAMTimeline**](iamtimeline.md) de la chronologie. Si le
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur retournée dans *ppTimeline* n’est pas **null**, l’interface **IAMTimeline** a un nombre de références en attente. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -70,7 +70,7 @@ Si la valeur retournée dans *ppTimeline* n’est pas **null**, l’interface **
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

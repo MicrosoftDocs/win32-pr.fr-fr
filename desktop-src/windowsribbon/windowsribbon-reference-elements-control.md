@@ -4,12 +4,12 @@ description: documentation de référence pour les éléments de balisage de con
 ms.assetid: 417bdf54-c241-4eda-a97b-82a6f0d74019
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f53b21d38698b6b0903c1db81459152fa961dbf1ca9f53440477e3e235ae322d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6d51f2446102cc01a8f2bad92c57fc0a5613ef5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226124"
 ---
 # <a name="controls-windows-ribbon-framework"></a>contrôles (infrastructure de ruban Windows)
 
@@ -49,7 +49,7 @@ documentation de référence pour les éléments de balisage de contrôle dans l
 | [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)                                         | Représente un contrôle de [Galerie de boutons partagés](windowsribbon-controls-splitbuttongallery.md) avec un menu déroulant basé sur la Galerie.<br/>                                                                                                                  |
 | [**SplitButtonGallery.MenuGroups**](windowsribbon-element-splitbuttongallery-menugroups.md)                   | Représente un conteneur pour un ensemble d’éléments de menu déroulant dans un contrôle [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) . <br/>                                                                                                    |
 | [**SplitButtonGallery.MenuLayout**](windowsribbon-element-splitbuttongallery-menulayout.md)                   | Représente un conteneur pour les dispositions des menus déroulants de la [Galerie de boutons partagés](windowsribbon-controls-splitbuttongallery.md) .<br/>                                                                                                                          |
-| [**Onglet**](windowsribbon-element-tab.md)                                                                       | Représente un onglet [principal](windowsribbon-controls-tab.md) ou [contextuel](windowsribbon-controls-tabgroup.md) .<br/>                                                                                                                                     |
+| [**/**](windowsribbon-element-tab.md)                                                                       | Représente un onglet [principal](windowsribbon-controls-tab.md) ou [contextuel](windowsribbon-controls-tabgroup.md) .<br/>                                                                                                                                     |
 | [**Tab. ScalingPolicy**](windowsribbon-element-tab-scalingpolicy.md)                                           | Représente un conteneur pour les spécifications de mise à l’échelle des [onglets](windowsribbon-controls-tab.md) .<br/>                                                                                                                                                          |
 | [**TabGroup**](windowsribbon-element-tabgroup.md)                                                             | Représente un ensemble contextuel de contrôles [onglet](windowsribbon-controls-tabgroup.md) .<br/>                                                                                                                                                               |
 | [**ToggleButton**](windowsribbon-element-togglebutton.md)                                                     | Représente un contrôle [bouton bascule](windowsribbon-controls-togglebutton.md) .<br/>                                                                                                                                                                    |

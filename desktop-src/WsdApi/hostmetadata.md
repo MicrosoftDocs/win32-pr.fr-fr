@@ -5,11 +5,11 @@ title: élément hostMetadata
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d9cf6fa139a2723ed90dfe281fc7b054016386fa
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994796"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918632"
 ---
 # <a name="hostmetadata-element"></a>élément hostMetadata
 
@@ -57,7 +57,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les métadonnées d’hébergement apparaissent dans cet élément sous une forme similaire à celle spécifiée dans le profil d’appareil. **hostMetadata** est légèrement différent du format décrit dans le profil de l’appareil, car la seule propriété de référence qu’il prend en charge est l’ID du service.
 
@@ -67,7 +67,7 @@ L’élément [**relationshipMetadataDefinition**](relationshipmetadatadefinitio
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

@@ -5,12 +5,12 @@ ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
 ms.date: 11/26/2018
 ms.localizationpriority: high
 ms.topic: article
-ms.openlocfilehash: a99174515883f8995167a7b866ab1ef8b77b56f7a0be2bb83f960abd06e47713
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eaf451f91d51cfa6e900f328898c3418f0974a2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119851399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918516"
 ---
 # <a name="capability-querying"></a>Interrogation des fonctionnalités
 

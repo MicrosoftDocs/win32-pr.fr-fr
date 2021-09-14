@@ -4,12 +4,12 @@ ms.assetid: 01af4961-b372-462b-a24e-c600d1cd76ab
 title: MFPKEY_DYN_BANDTRUNC_BWCEIL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd3093fa7db432369abaac02fb3339c3ed268ca7a7b611af2f9256982c67b84
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 59c7bce5f8ec0ea3be6dfc59ea281bb7bb3eac67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227495"
 ---
 # <a name="mfpkey_dyn_bandtrunc_bwceil-property"></a>MFPKEY \_ dyn \_ BANDTRUNC \_ BWCEIL, propriété
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ R4**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

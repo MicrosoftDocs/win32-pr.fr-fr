@@ -4,12 +4,12 @@ ms.assetid: d147a05c-6a03-4f20-a7be-20825fcbeec2
 title: FOLDERTYPEID (shlguid. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8dcaa88d2f898879cb7790a9e13dd8810c7bac4fd45dc8e10aff9b2b3a44895
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df4ad04f6f00e187e0f3bb870cb574cb07ea19c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118969438"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226972"
 ---
 # <a name="foldertypeid"></a>FOLDERTYPEID
 
@@ -61,7 +61,7 @@ Les valeurs **FOLDERTYPEID** représentent un modèle de vue appliqué à un dos
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs **FOLDERTYPEID** sont des GUID et sont déclarées dans shlguid. h.
 
@@ -79,7 +79,7 @@ HKEY_LOCAL_MACHINE
                   FolderTypes
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

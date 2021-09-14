@@ -4,12 +4,12 @@ description: MIDL permet aux applications d’appel de procédure distante (RPC)
 ms.assetid: 370223e7-70e2-4018-9abb-6ce352410837
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 612193770b0924f2f469ac5e02b81c1b71b9b5fb3029981d45530a6123654096
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a2ede690a8c49eaa394ad79fea5c33190145945
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020146"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194135"
 ---
 # <a name="kinds-of-pointers"></a>Genres de pointeurs
 

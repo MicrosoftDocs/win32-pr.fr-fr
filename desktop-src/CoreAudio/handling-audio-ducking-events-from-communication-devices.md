@@ -4,12 +4,12 @@ ms.assetid: 1b92574e-7cde-49c0-a68e-223492412361
 title: Considérations relatives à l’implémentation pour l’installation de notifications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f61d7e67bd456e962442f62f59c3119c756258aadd75334e7736cbc69fba0867
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3de07ea23b7cdc8d726ab68a5a6554bf1713a921
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114922"
 ---
 # <a name="implementation-considerations-for-ducking-notifications"></a>Considérations relatives à l’implémentation pour l’installation de notifications
 

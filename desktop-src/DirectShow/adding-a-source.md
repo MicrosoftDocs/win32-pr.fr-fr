@@ -4,12 +4,12 @@ ms.assetid: 8c5d1050-a696-4a5d-be68-806420d0cd78
 title: Ajout d’une source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab2440ff50bbb4a3a610f9341405538a88dc6bf16ce2153a327f3b4578f3aec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee583cd8971c183f2e03b92f68e2d6ba555c41db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119690529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112354"
 ---
 # <a name="adding-a-source"></a>Ajout d’une source
 

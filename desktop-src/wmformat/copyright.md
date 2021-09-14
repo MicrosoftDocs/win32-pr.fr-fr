@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8f8025352226e7fa8820fcde59fea262dbc1f0e1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841541"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226052"
 ---
 # <a name="copyright"></a>copyright
 
@@ -41,7 +41,7 @@ L’attribut **Copyright** contient un message de copyright pour le contenu.
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>Notes
 
@@ -56,9 +56,9 @@ Cet attribut s’applique à l’ensemble du fichier.
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

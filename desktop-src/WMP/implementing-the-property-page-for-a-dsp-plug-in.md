@@ -10,12 +10,12 @@ keywords:
 - plug-ins DSP audio, propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac64dbd1e984d649a4405341d907ddd0c93eabce855bed90e83f698b778a3a2e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aec87318b77fec4e9218398c1cb43dd5954a49e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119617309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217057"
 ---
 # <a name="implementing-the-property-page-for-a-dsp-plug-in"></a>Implémentation de la page de propriétés pour un plug-in DSP
 

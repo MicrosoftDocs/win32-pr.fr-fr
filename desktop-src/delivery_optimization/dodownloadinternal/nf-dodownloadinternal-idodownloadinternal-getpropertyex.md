@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
-ms.openlocfilehash: e812c82d1159651f7ad8567f0039555835f32911c9f5a8a92b6cedd3fb84dcec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 908f9b15df5c0c4a2769149419ff12d545201e5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118101671"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916779"
 ---
 # <a name="idodownloadinternalgetpropertyex-method"></a>IDODownloadInternal :: GetPropertyEx, méthode
 
@@ -51,13 +51,13 @@ Valeur de la propriété résultante, stockée dans un **Variant**.
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](/windows/desktop/com/structure-of-com-error-codes) [code d’erreur](/windows/desktop/com/com-error-codes-10)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |DO_E_UNKNOWN_PROPERTY_ID|*propid* est inconnu.|
 |DO_E_WRITE_ONLY_PROPERTY|La propriété est en écriture seule et ne peut pas être lue.|
 |E_NOT_SET|Aucune propriété de ce type n’a été définie via **SetPropertyEx**.|
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

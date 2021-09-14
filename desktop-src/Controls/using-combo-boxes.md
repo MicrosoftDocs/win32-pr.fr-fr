@@ -4,12 +4,12 @@ description: Les exemples de code de cette section montrent comment effectuer de
 ms.assetid: 20c806d8-1630-4527-ac27-325d943605f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c7789c6ec7bf1fdc3f94eafb61c5113e970636005a1e8fdfbb3c86d9b609ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3e07909d9657e6814d3c6e999003f89c25e8c36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115306"
 ---
 # <a name="using-combo-boxes"></a>Utilisation de zones de liste déroulante
 

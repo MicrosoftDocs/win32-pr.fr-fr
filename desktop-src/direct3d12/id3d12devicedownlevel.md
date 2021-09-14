@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: 8cd9b39e865377734fca3d0791b89219d611f57f456a85a8f9b12e345aba9e99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 401cbd0045211ef51e3ef6b06042262964ae2ec5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918475"
 ---
 # <a name="id3d12devicedownlevel-interface"></a>Interface ID3D12DeviceDownlevel
 
@@ -33,7 +33,7 @@ L’interface **ID3D12DeviceDownlevel** possède ces méthodes.
 |:-------|:------------|
 | [**QueryVideoMemoryInfo**](id3d12devicedownlevel-queryvideomemoryinfo.md) | fournit des statistiques de mémoire sur Windows 7. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------|------------------|

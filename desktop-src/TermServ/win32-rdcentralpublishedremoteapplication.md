@@ -34,11 +34,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dd837f62d8d0787d992e8eed7316ed1ef3f199ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941992"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217217"
 ---
 # <a name="win32_rdcentralpublishedremoteapplication-class"></a>\_Classe RDCentralPublishedRemoteApplication Win32
 
@@ -421,7 +421,7 @@ Chemin d’accès virtuel à l’application.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

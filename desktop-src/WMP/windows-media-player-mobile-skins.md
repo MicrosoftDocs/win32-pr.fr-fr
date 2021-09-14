@@ -8,12 +8,12 @@ keywords:
 - skins, Lecteur Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87196eb39fdbe0977f4d5baf5d298f339bb84f77d22f9e2e5579549c779a6b5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 920a672000e7e7c3a5f470cac9e05ecb38985311
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119246879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193084"
 ---
 # <a name="windows-media-player-mobile-skins"></a>Lecteur Windows Media Skins mobiles
 

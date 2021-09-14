@@ -9,12 +9,12 @@ keywords:
 - boutons dans les apparences, les fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c563a7e84902ac2f2f09c8abadc952d70a0b0e1731808ff7b308dc4f1106e65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8316fa6ca6256db551a2a3bd9f984af055424edb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119864469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855784"
 ---
 # <a name="button-function"></a>Button, fonction
 

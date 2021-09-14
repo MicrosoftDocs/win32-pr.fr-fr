@@ -8,12 +8,12 @@ keywords:
 - apparences, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 862ae6a4169fd829c77fbd2cf35828e3907af2b71c4f4cbd1862a404e87abcd2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e649a3a3708a04af5c21d059c3f06b5badc815d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216945"
 ---
 # <a name="windows-media-player-skins"></a>Lecteur Windows Media Apparences
 

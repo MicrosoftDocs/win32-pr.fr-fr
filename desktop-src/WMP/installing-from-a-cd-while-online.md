@@ -20,12 +20,12 @@ keywords:
 - installations en ligne de magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13589d7ba6dea0693acaacb5e0d1f551b4a4f178c4ccb50a1bd8ebb513dda3de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd57015e64dece444b1a91afebe3144bee117caa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216996"
 ---
 # <a name="installing-from-a-cd-while-online"></a>Installation à partir d’un CD-ROM en ligne
 

@@ -4,12 +4,12 @@ ms.assetid: 26aaad09-c1e1-46e8-9cd3-7d795a10d900
 title: Handles et objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aae4bba94c4f991ee56391f7efe8f83a6714f87c8aa10e43ece69347f4b764c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b5a35d55571a01f2f186f4e756401582474949f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117958429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193728"
 ---
 # <a name="handles-and-objects"></a>Handles et objets
 

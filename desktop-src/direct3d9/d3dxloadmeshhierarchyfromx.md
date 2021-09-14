@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 81a087156de61f7997b5d755eb45c0c7e7736fd2345c219b22e8b642ea44e9dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6f6f08e10155509df800cca3cb3788d6b27e520
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119460368"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918392"
 ---
 # <a name="d3dxloadmeshhierarchyfromx-function"></a>D3DXLoadMeshHierarchyFromX fonction)
 
@@ -109,13 +109,13 @@ Retourne un pointeur vers le contrôleur d’animation correspondant à l’anim
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXLoadMeshHierarchyFromXW. Dans le cas contraire, l’appel de fonction est résolu en D3DXLoadMeshHierarchyFromXA.
 
@@ -132,7 +132,7 @@ Pendant le chargement, [**CreateFrame**](id3dxallocatehierarchy--createframe.md)
 
 Pour libérer ces données, appelez ID3DXAnimationController :: Release pour libérer les jeux d’animations et [**D3DXFRAMEDestroy**](d3dxframedestroy.md), en passant le nœud racine de la hiérarchie de frames et un objet de votre classe [**ID3DXAllocateHierarchy**](id3dxallocatehierarchy.md) dérivée. [**DestroyFrame**](id3dxallocatehierarchy--destroyframe.md) et [**DestroyMeshContainer**](id3dxallocatehierarchy--destroymeshcontainer.md) sont appelés pour chaque objet Frame et Mesh dans la hiérarchie d’images. Votre implémentation de **DestroyFrame** doit libérer tout ce qui est alloué par [**CreateFrame**](id3dxallocatehierarchy--createframe.md), et de la même façon pour les méthodes de conteneur de maillage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - D2D1_SIZE_U
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b60627021e55e088a35692dffb8292d5c57fcf0932de255c19f4380ee29e8a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c78b5c317a98169957402dd125c054b8f6e0bc69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119967099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113433"
 ---
 # <a name="d2d1_size_u"></a>Taille de D2D1 \_ \_ U
 
@@ -24,7 +24,7 @@ typedef D2D_SIZE_U D2D1_SIZE_U;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Comme les points, les tailles sont un autre concept graphique important. Dans Direct2D, les tailles sont représentées par les structures **d2d1 \_ size \_ U** ou [**d2d1 \_ size \_ F**](d2d1-size-f.md) . Elles contiennent toutes deux une paire ordonnée de nombres. La **structure \_ \_ U de taille d2d1** contient une paire ordonnée de valeurs **UInt32** et la **structure \_ d2d1 taille \_ F** contient une paire ordonnée de valeurs **float** .
 
@@ -54,7 +54,7 @@ La **structure \_ \_ U de taille d2d1** offre un moyen pratique de stocker une p
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

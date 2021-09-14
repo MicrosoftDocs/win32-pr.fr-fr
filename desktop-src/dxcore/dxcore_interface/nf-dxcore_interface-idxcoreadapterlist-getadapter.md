@@ -4,12 +4,12 @@ description: Récupère un adaptateur spécifique par index à partir d’un obj
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 96b2973e36c93ca50db273fc28bd0f02cbaf7a48f96e6833af7f14323c7de57d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5ba03c9e6f2711adc5264354a6abd70ee489965f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120022129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917980"
 ---
 # <a name="idxcoreadapterlistgetadapter-method"></a>IDXCoreAdapterList :: GetAdapter, méthode
 
@@ -55,14 +55,14 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |DXGI_ERROR_DEVICE_REMOVED|L' *index* est valide, mais l’état de l’adaptateur n’est plus valide.|
 |E_INVALIDARG|L' *index* fourni n’est pas valide.|
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvAdapter*.|
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Plusieurs appels qui passent un index qui représente le même adaptateur retournent des pointeurs d’interface identiques, y compris entre différentes listes d’adaptateurs. Par conséquent, il est possible de comparer des pointeurs d’interface pour déterminer si plusieurs pointeurs font référence au même objet d’adaptateur.
 

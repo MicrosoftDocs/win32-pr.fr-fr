@@ -4,12 +4,12 @@ ms.assetid: 240ef2b3-ed72-45bb-b653-441c4e5540b5
 title: élément subscriptionIdlFunctionDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3998103d04250206ef382f822e329210b83471c69dcc51b401fcfbc241460729
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f4d738dd06ccbf034702cbb7d6494a28a229d07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119130611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916895"
 ---
 # <a name="subscriptionidlfunctiondeclarations-element"></a>élément subscriptionIdlFunctionDeclarations
 
@@ -41,7 +41,7 @@ Génère des déclarations IDL pour les fonctions de proxy d’abonnement/annula
 | Élément                                                           | Description                                                                                            |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [**notificationInterface**](notificationinterface.md)<br/> | Spécifie le nom de l’interface de notification utilisée avec les abonnements aux événements.<br/> <br/> |
-| [**operation**](operation.md)<br/>                         | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                       |
+| [**opération**](operation.md)<br/>                         | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                       |
 | [**portType**](porttype.md)<br/>                           | Spécifie le type de port pour lequel le code doit être généré.<br/> <br/>                      |
 
 

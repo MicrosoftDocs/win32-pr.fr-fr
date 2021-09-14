@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 3ee300919efa388d27ae9d594bc2b6c27def88e6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920507"
 ---
 # <a name="compressex-method-of-the-win32_directory-class"></a>Méthode CompressEx de la \_ classe Directory Win32
 
@@ -72,7 +72,7 @@ Si la **valeur est true**, la modification de la propriété sera appliquée de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été compressé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -169,7 +169,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

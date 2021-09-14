@@ -5,12 +5,12 @@ ms.assetid: 47DCC253-5939-4F77-B74F-24E600088563
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f75c620b93cbbc956be900336f389690c89cec8b790cc4cfa90c3d9e40a76b8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afb645c05ac8769863f5d0bf6c776d60356eebaa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119138712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919951"
 ---
 # <a name="imsrdpclientnonscriptable5-properties"></a>Propriétés IMsRdpClientNonScriptable5
 

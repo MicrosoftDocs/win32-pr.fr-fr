@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd0dcdf4c5337cf8dc447452ce9667c261a9c7ea4b11f98753a294bca20c6af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2e2a4ddeb0849a829ff7a16fd80ff4891cfe56c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119736539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919356"
 ---
 # <a name="controlscurrentpositiontimecode"></a>Controls. currentPositionTimecode
 
@@ -34,7 +34,7 @@ player.controls.currentPositionTimecode
 
 Cette propriété est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le code temporel SMPTE offre un moyen standard d’identifier une image vidéo individuelle, ce qui est utile pour synchroniser la lecture. si un fichier multimédia numérique prend en charge le code temporel SMPTE, Lecteur Windows Media pouvez récupérer les informations de position du code d’heure actuelles ou rechercher une image vidéo identifiée par une **chaîne** de code d’heure particulière.
 
@@ -59,7 +59,7 @@ Player.controls.currentPositionTimecode = "[00000]01:00:30.05";
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

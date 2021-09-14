@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_CDROMDrive
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d05d5b95ad41dda9f819cbf10e86becdf24e71bc812b14126b2ead1446234886
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f339ee5c5e0679b7a027daf18618a4a372b8af7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119284499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922000"
 ---
 # <a name="cim_cdromdrive-methods"></a>\_Méthodes CDROMDRIVE CIM
 

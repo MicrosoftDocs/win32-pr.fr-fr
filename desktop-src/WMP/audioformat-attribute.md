@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65f9e49e8ce8a52e175f0a23847b72c5fb56a14902cfa3e68c02dcc0903f8c59
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0a9761e6df8dfd5c163aa39baf390f0843e57b16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856089"
 ---
 # <a name="audioformat-attribute"></a>Attribut AudioFormat
 
@@ -28,11 +28,11 @@ L’attribut **AudioFormat** est un code FourCC qui identifie le format audio de
 -   [Éléments audio](audio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

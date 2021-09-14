@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c027ae9004a8437f3d182fdef3335c8fbbad67abaab5c15e351520f2ae592818
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cce31ea21701c098b09a0bd96360afb374a9bccc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193860"
 ---
 # <a name="iscardmanage-interface"></a>Interface ISCardManage
 
@@ -61,13 +61,13 @@ L’interface **ISCardManage** possède ces méthodes.
 | [**Reconnexion**](iscardmanage-reconnect.md)                       | Permet à une application de se reconnecter à une carte à puce ou à un lecteur sans avoir à émettre un [**détachement**](iscardmanage-detach.md) suivi de [**AttachByHandle**](iscardmanage-attachbyhandle.md) ou [**AttachByIFD**](iscardmanage-attachbyifd.md) , respectivement.<br/> |
 | [**SCardLock**](iscardmanage-scardlock.md)                       | Verrouille une carte à puce ou un lecteur connecté pour une utilisation exclusive.<br/>                                                                                                                                                                                                       |
 | [**SCardUnlock**](iscardmanage-scardunlock.md)                   | Libère l’utilisation exclusive de la carte à puce ou du lecteur connecté.<br/>                                                                                                                                                                                                   |
-| [**Statut**](iscardmanage-status.md)                             | Permet à une application d’afficher l’état actuel de la carte à puce ou du lecteur.<br/>                                                                                                                                                                                    |
+| [**État**](iscardmanage-status.md)                             | Permet à une application d’afficher l’état actuel de la carte à puce ou du lecteur.<br/>                                                                                                                                                                                    |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

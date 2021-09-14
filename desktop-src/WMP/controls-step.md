@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4626ff80aee55ad6c22be7580a07ef2319afb6792a8c11b815d72af23b5727fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43fc50ea28bde95efef6e6261788fdcc62df6089
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118839824"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919327"
 ---
 # <a name="controlsstep-method"></a>Controls. Step, méthode
 
@@ -49,17 +49,17 @@ Controls.step(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ne prend actuellement en charge que les paramètres 1 ou-1. vous ne pouvez donc pas effectuer un pas à pas d’un seul Frame à la fois.
 
 **Lecteur Windows Media 10 Mobile :** Cette méthode n’est pas prise en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

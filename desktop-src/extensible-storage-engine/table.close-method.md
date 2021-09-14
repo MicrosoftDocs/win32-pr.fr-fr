@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8786179f460280cdf1c2cf03966c2d8d9c54de419e2e244f71e1be9469b120f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b97e68a0875b237c6a197e3d4f8c15d1b5d1f4aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119106997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920635"
 ---
 # <a name="tableclose-method"></a>Table. Close, méthode
 

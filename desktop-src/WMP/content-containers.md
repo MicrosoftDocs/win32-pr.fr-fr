@@ -15,12 +15,12 @@ keywords:
 - IWMPContentContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c582a04bd37e54a40f952402343c09fb7243fc07377ef7f507cc76f11390357c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 801816c3e26920f3d0869190fc1101d6017a524e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919388"
 ---
 # <a name="content-containers"></a>Conteneurs de contenu
 

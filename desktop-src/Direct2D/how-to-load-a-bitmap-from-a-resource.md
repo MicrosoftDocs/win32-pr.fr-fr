@@ -5,15 +5,15 @@ ms.assetid: 7285e6ea-ebc7-4693-8a77-99bff0b5d0d1
 ms.topic: article
 ms.date: 03/09/2019
 ms.openlocfilehash: fe96ba4e0674392333173df7daeb5a354a379343
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113105"
 ---
 # <a name="how-to-load-a-bitmap-from-a-resource-direct2d"></a>Chargement d’une image bitmap à partir d’une ressource (Direct2D)
 
-Comme décrit dans [la rubrique chargement d’une image bitmap à partir d’un fichier](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D utilise le composant WIC (Windows Imaging Component) pour charger des bitmaps. Pour charger une image bitmap à partir d’une ressource, utilisez des objets WIC pour charger l’image et la convertir en un format compatible Direct2D. Ensuite, utilisez la méthode [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) pour créer un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).
+comme décrit dans [la rubrique chargement d’une image bitmap à partir d’un fichier](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D utilise le composant de création d’images Windows (WIC) pour charger les bitmaps. Pour charger une image bitmap à partir d’une ressource, utilisez des objets WIC pour charger l’image et la convertir en un format compatible Direct2D. Ensuite, utilisez la méthode [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) pour créer un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).
 
 1.  Dans le [fichier de définition de ressource d’application](/windows/desktop/menurc/about-resource-files), définissez la ressource. L’exemple suivant définit une ressource nommée « SampleImage ».
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c082db33fa639bba26142c6637166ba5e925c94a5976bf27abae8d076be8f659
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59bc9400d70fc6b6e40cc34d5284d0ca76454062
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855658"
 ---
 # <a name="buttongroupclick"></a>BUTTONGROUP. Click
 
@@ -42,11 +42,11 @@ La méthode **Click** appelle le gestionnaire d’événements **OnClick** défi
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette méthode pour fournir un autre moyen d’exécuter le code associé à un bouton contenu dans le **BUTTONGROUP**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

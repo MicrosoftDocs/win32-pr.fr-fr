@@ -4,12 +4,12 @@ ms.assetid: c89da4ac-57dd-4d95-ac86-3eb137dee0bc
 title: Événements de l’appareil (IoEvent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a44e6160ef3a59821e5d2b2a3d4e42ee1d14d5c2fb7deda689fb1c9c3186b428
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce58ba5dd21cdd505e945687603ddb54e77b2440
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119076253"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114382"
 ---
 # <a name="device-events-ioeventh"></a>Événements de l’appareil (IoEvent. h)
 
@@ -331,13 +331,13 @@ Le média est à l’usage. Cet événement est envoyé lorsqu’un système de 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les événements du **\_ \_ \_ démontage** du volume d’e/s du GUID et du **\_ \_ \_ démontage \_** du volume d’e/s GUID sont liés, de même que le GUID du **\_ \_ \_ verrou d’e/** s du volume et l' **\_ \_ \_ \_ échec du verrouillage du volume** . Les événements de verrouillage du **\_ volume d’e/ \_ \_** s du volume et d' **\_ e/s \_ \_** GUID indiquent qu’une opération est tentée. Vous devez agir sur la notification d’événement et enregistrer l’action effectuée. Le **\_ démontage du volume d’e/s GUID \_ \_ \_ a échoué** et les événements du **verrou d' \_ e/s du \_ volume en \_ \_ échec** indiquent que l’opération tentée a échoué. Vous pouvez ensuite utiliser votre enregistrement pour annuler les actions que vous avez effectuées en réponse à l’opération.
 
 Le membre **dbch \_ hdevnotify** de la structure de [**\_ \_ handle de diffusion dev**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) indique l’appareil affecté. Notez qu’il s’agit du handle de notification de l’appareil retourné par [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa), et non pas d’un handle de volume. Pour effectuer des opérations sur le volume, mappez ce handle au handle de volume correspondant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

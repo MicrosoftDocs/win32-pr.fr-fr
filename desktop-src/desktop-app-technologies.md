@@ -5,11 +5,11 @@ title: Technologies d’application de bureau
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fd764c23b38e7239cea1d4d26d018ecbf9711b22
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916772"
 ---
 # <a name="desktop-app-technologies"></a>Technologies d’application de bureau
 

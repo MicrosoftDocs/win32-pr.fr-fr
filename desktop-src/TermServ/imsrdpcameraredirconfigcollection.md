@@ -16,11 +16,11 @@ api_type:
 ms.topic: reference
 ms.date: 12/16/2020
 ms.openlocfilehash: 3d97249a7485ec024ee3611809c87c5b6ed41143
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104108355"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916991"
 ---
 # <a name="imsrdpcameraredirconfigcollection-interface"></a>IMsRdpCameraRedirConfigCollection, interface
 
@@ -51,12 +51,12 @@ L’interface **IMsRdpCameraRedirConfigCollection** possède les propriétés su
 | [**ByIndex**](imsrdpcameraredirconfigcollection-byindex.md)      | Lecture seule |  Retourne un objet [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) par son index dans la collection.   |
 | [**ByInstanceId**](imsrdpcameraredirconfigcollection-byinstanceid.md)                       | Lecture seule |    Retourne un objet [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) de la collection qui correspond à l’ID d’instance spécifié.    |
 | [**BySymbolicLink**](imsrdpcameraredirconfigcollection-bysymboliclink.md)      | Lecture seule |  Retourne un objet [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) de la collection qui correspond au lien symbolique donné de l’interface **KSCATEGORY_VIDEO_CAMERA** pour l’appareil photo.  |
-| [**Saut**](imsrdpcameraredirconfigcollection-count.md)                       | Lecture seule |    Retourne le nombre d’objets [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) dans la collection.   |
+| [**Count**](imsrdpcameraredirconfigcollection-count.md)                       | Lecture seule |    Retourne le nombre d’objets [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) dans la collection.   |
 | [**EncodeVideo**](imsrdpcameraredirconfigcollection-encodevideo.md)      | Lecture/écriture |  Spécifie si le flux vidéo est au format H. 264 encodé.  |
 | [**EncodingQuality**](imsrdpcameraredirconfigcollection-encodingquality.md)                       | Lecture/écriture |    Spécifie la qualité d’encodage (vitesse de transmission).   |
 | [**RedirectByDefault**](imsrdpcameraredirconfigcollection-redirectbydefault.md)                       | Lecture/écriture |   Spécifie si une nouvelle caméra est redirigée par défaut.    |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|
