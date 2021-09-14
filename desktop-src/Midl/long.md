@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 47ea9af3bfac85ff375f6d5433b4e9f3ed37d8f7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093438"
 ---
 # <a name="long-attribute"></a>attribut long
 
@@ -54,13 +54,13 @@ Le type entier **long** est l’un des types de base du langage IDL. Le type ent
 [Types de base MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**consolidation**](hyper.md)
+[**hyper**](hyper.md)
 </dt> <dt>
 
 [**int**](int.md)
 </dt> <dt>
 
-[**short**](short.md)
+[**Résumé**](short.md)
 </dt> <dt>
 
 [**abonné**](signed.md)
@@ -75,9 +75,9 @@ Le type entier **long** est l’un des types de base du langage IDL. Le type ent
 [**non signé**](unsigned.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

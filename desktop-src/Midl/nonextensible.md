@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96c4e55cf5cf2c05ff9c3619b19e7a9b0582f3cf64bc0f9a711fb1af274bfb9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e591ea4ab0647449ca9296b3b14a4aab9fff6991
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093313"
 ---
 # <a name="nonextensible-attribute"></a>nonextensible, attribut
 
@@ -67,7 +67,7 @@ Spécifie les instructions IDL qui forment la définition de l' [**interface**](
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez appliquer l’attribut non **\[ extensible \]** à une interface ou une dispinterface. Toutefois, une interface doit également avoir les **\[** attributs [**Dual**](dual.md) **\]** et **\[** [**oleautomation**](oleautomation.md) **\]** .
 

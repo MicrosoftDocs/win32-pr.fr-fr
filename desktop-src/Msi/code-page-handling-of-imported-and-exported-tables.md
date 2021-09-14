@@ -4,12 +4,12 @@ ms.assetid: dc52313b-38e7-43cc-abfd-86966c836fce
 title: Gestion des pages de codes des tables importées et exportées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f9a64617ccfda25380076d62e6dd4ad8c18c55f68afd0236b3258638c899f29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b090bead1fa35b451ed12e0e0da0143b98b8918
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092214"
 ---
 # <a name="code-page-handling-of-imported-and-exported-tables"></a>Gestion des pages de codes des tables importées et exportées
 

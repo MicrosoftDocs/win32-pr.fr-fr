@@ -4,12 +4,12 @@ ms.assetid: abbfd194-e800-46c3-b961-1cf3f5d59c82
 title: System. audio. échantillonner
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be9568e1e60d568be9f2ffde0ddd77ed3db3f80318dcc4071a0facfeb9cffef5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36f1428de5052936684a97c93d4b275181e2fd8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118232627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231455"
 ---
 # <a name="systemaudiosamplesize"></a>System. audio. échantillonner
 

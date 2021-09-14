@@ -4,12 +4,12 @@ ms.assetid: 9efb75d2-43f9-404c-8e7f-918d056190cf
 title: Création de tables de séquence de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f45e4cf86c846030854054d7ab700e34210d4e27367cd31d606c78c24f2a9a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24b21780601e626c006967cefa0dcff5700bdec4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118381184"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092489"
 ---
 # <a name="authoring-merge-module-sequence-tables"></a>Création de tables de séquence de module de fusion
 

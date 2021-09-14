@@ -4,12 +4,12 @@ ms.assetid: e9034bfb-1b32-4851-ac23-4c3223760a04
 title: Propriété Résumé des commentaires
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fcd2ed313038edceb4febfa696d115462369ed74f60142b11d065b3a81b1a16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 351023eddb057a47bf5cfc67b7ef869d905eb126
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092173"
 ---
 # <a name="comments-summary-property"></a>Propriété Résumé des commentaires
 
@@ -24,7 +24,7 @@ L’auteur d’un package d’installation, d’une transformation ou d’un pac
 
 où <*produit*> correspond au nom du produit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

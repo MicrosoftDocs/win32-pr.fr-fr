@@ -4,12 +4,12 @@ ms.assetid: f2c436b6-ebd9-4ac4-8609-f54129023ca7
 title: ACTION, propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b4f17c7bd08b2e366fa23a55ad2b8044ce845ac4df04d0164ba34ad6dff32b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 901061f953ffaed030ff6d3a94f440eada25fc59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145992"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092897"
 ---
 # <a name="action-property"></a>ACTION, propriété
 
@@ -31,7 +31,7 @@ La propriété **action** peut être définie sur les valeurs suivantes.
 
 La propriété **action** détermine l’action à effectuer si un nom d’action null est fourni à [**MsiDoAction**](/windows/desktop/api/Msiquery/nf-msiquery-msidoactiona) ou à la [**méthode d’action**](session-doaction.md). Si aucune valeur n’est définie pour la propriété **action** , le programme d’installation appelle l' [action d’installation](install-action.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

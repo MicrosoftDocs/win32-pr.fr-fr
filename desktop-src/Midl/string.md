@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ae2bd3c56bcf09d1c47343f903653e9d83113b1d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940941"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093177"
 ---
 # <a name="string-attribute"></a>attribut de chaîne
 
@@ -158,7 +158,7 @@ HRESULT Proc1([in, string] char * pszName);
 [**rappel**](callback.md)
 </dt> <dt>
 
-[**Char**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [**const**](const.md)
@@ -179,7 +179,7 @@ HRESULT Proc1([in, string] char * pszName);
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**la dernière \_ est**](last-is.md)
@@ -215,7 +215,7 @@ HRESULT Proc1([in, string] char * pszName);
 [**transmettre \_ en tant que**](transmit-as.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
@@ -224,6 +224,6 @@ HRESULT Proc1([in, string] char * pszName);
 [**WCHAR \_ t**](wchar-t.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

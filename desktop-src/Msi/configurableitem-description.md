@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: d4628dc5798643a337bd4b5beb1504611e430c0ce444cf6adf4d5e0a0a9dcb27
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcf3cb26cce2c9f16340bd4ee44718ecbc7b4159
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144133"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092029"
 ---
 # <a name="configurableitemdescription-property"></a>Propriété ConfigurableItem. Description
 
@@ -42,7 +42,7 @@ propVal = ConfigurableItem.Description
 
 Voir la fonction [**obtenir la \_ Description**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_description)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

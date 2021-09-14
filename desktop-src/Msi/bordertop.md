@@ -4,18 +4,18 @@ ms.assetid: a593197c-280b-4baf-a17f-561eb1cb12fd
 title: Propriété BorderTop
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3da9a7716bfe25cf7d4ee263dbe6ffc9c7c98b7759cf286857326a4b6b33e6ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6edda9abdeb03112b71e4ed27e847c29ccbadb97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092357"
 ---
 # <a name="bordertop-property"></a>Propriété BorderTop
 
 Le programme d’installation définit la propriété **borderTop** sur la hauteur des bordures de la fenêtre, en pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

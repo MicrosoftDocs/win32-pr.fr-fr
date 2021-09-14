@@ -4,18 +4,18 @@ ms.assetid: 330b367f-f39c-4854-ba9b-35117fb4cfdc
 title: Méthodes SolidBrush
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0a87bfa48079e8df77722310b949d61315e4e3810429f55739ffcf645abdd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e618e90e9c789db8694e0184fb1b0bf302ef760
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231936"
 ---
 # <a name="solidbrush-methods"></a>Méthodes SolidBrush
 
 Cette rubrique répertorie les méthodes de la classe [**SolidBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush) . Pour obtenir une liste complète des classes, consultez la **classe SolidBrush**.
 
--   [**Répliqué**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
+-   [**Clone**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
 -   [**GetColor**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-solidbrush-getcolor)
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-getlaststatus)
 -   [**GetType**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-gettype)

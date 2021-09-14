@@ -4,12 +4,12 @@ ms.assetid: 461436f0-3a91-4a49-934a-f975bf13df40
 title: Modules de fusion configurables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0ca110b45e1ec9bd28662c24440124bb75d0dde73d6e425146e8be640ae2de5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 716688d947ae84279dc3409bf97abe4eb58a69d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144268"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092045"
 ---
 # <a name="configurable-merge-modules"></a>Modules de fusion configurables
 

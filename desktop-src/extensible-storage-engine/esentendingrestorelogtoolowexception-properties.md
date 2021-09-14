@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101573
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 94c3a370efdfea8f72077fb8c34b73ddb3c4fbcdfa06c3b6c33b79bf59162d71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 871ed5892494cdaa480d55c07f6cd31eb9fe3e42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119839509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232128"
 ---
 # <a name="esentendingrestorelogtoolowexception-properties"></a>Propriétés EsentEndingRestoreLogTooLowException
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentEndingRestoreLogTooLowException, classe](./esentendingrestorelogtoolowexception-class.md)
 

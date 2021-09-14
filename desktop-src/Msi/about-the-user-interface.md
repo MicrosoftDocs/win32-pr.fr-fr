@@ -4,12 +4,12 @@ ms.assetid: 58ef0043-fb30-4f64-9291-e703d7a28bb5
 title: À propos de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff4613e82bc25a0a9555904a6bab276b31e16642186401bbb5cc0caff58e973
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a8639a19c5ec045d77cb90648323388d5cb6e452
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092926"
 ---
 # <a name="about-the-user-interface"></a>À propos de l’interface utilisateur
 

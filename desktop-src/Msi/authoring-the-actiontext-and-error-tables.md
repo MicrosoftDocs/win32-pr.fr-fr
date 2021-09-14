@@ -4,12 +4,12 @@ ms.assetid: ee90fe3d-51f4-433b-a5ce-950a03e1d8fb
 title: Création des tables ActionText et Error
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a7b89c8150e3767841fe914cf55fc7be8c92e8cecf8f54f8486993d955349be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e20646a90ca76c159a88bdd8a6d026ff10845da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092453"
 ---
 # <a name="authoring-the-actiontext-and-error-tables"></a>Création des tables ActionText et Error
 

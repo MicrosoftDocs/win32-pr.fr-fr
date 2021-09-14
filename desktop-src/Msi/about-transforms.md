@@ -4,12 +4,12 @@ ms.assetid: 1edc5227-70ac-4769-ab7f-67d01031dc33
 title: À propos des transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 635430fb5e75b658880d5c5670219cae950502421c2b188af0381fd60ad3d48e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcbae9f21ec71209116f3c8eadffca20381cfe71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092922"
 ---
 # <a name="about-transforms"></a>À propos des transformations
 

@@ -4,18 +4,18 @@ ms.assetid: bbaa4027-94aa-497f-8efb-a82d251847af
 title: Méthodes de région
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d83fd5cd279bc2e71a39c565d3fdfe615ce15d4e105b329ed56d73548e613334
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 060afdea5f625a1b5f8944a2c17ed1cf8b42f7ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118249109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231960"
 ---
 # <a name="region-methods"></a>Méthodes de région
 
 Cette rubrique répertorie les méthodes de la classe [**Region**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region) . Pour obtenir une liste complète des classes, consultez **Region, classe**.
 
--   [**Répliqué**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-clone)
+-   [**Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-clone)
 -   [**Complément (GraphicsPath \* )**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstgraphicspath))
 -   [**Complément (région \* )**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstregion))
 -   [**Complément (Rect&)**](/previous-versions//ms534918(v=vs.85))

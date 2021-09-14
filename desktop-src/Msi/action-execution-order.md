@@ -4,12 +4,12 @@ ms.assetid: f4666f49-4ea1-42fb-b32d-ce77de79b212
 title: Ordre d’exécution des actions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf28244d46ae5556d1b68cc3b7258297c69e11a8d526f3e7ca31a184e64c424e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 954c44f6e2525deb3375cb9ea72d0320df3a5f02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118381839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092901"
 ---
 # <a name="action-execution-order"></a>Ordre d’exécution des actions
 

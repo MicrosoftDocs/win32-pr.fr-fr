@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 9a74b5cc7588220fdc5173c470f7852ee9ef763d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232391"
 ---
 # <a name="pixel-shader-differences"></a>Différences de nuanceur de pixels
 
@@ -36,13 +36,13 @@ Chaque version prend en charge un nombre différent d’emplacements d’instruc
 
 
 
- 
+ 
 
 Pour plus d’informations sur les limitations des nuanceurs de logiciels, consultez [nuanceurs de logiciels](dx9-graphics-reference-asm-software-shaders.md).
 
-## <a name="flow-control-nesting-limits"></a>Limites d’imbrication du contrôle de Flow
+## <a name="flow-control-nesting-limits"></a>Flow Contrôler les limites d’imbrication
 
--   Consultez [limitations du contrôle de workflow](dx9-graphics-reference-asm-ps-instructions-flow-control.md).
+-   consultez [Limitations du contrôle de Flow](dx9-graphics-reference-asm-ps-instructions-flow-control.md).
 
 ## <a name="ps_1_x-features"></a>Fonctionnalités de PS \_ 1 \_ x
 
@@ -127,6 +127,6 @@ Nouveaux registres :
 [Nuanceurs de pixels](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

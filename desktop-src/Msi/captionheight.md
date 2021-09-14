@@ -4,18 +4,18 @@ ms.assetid: fb773059-b8d1-4056-aa0f-c1e7746137fb
 title: Propriété CaptionHeight
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dd430b4009216775a43169dbdec49556ec8b1f221db895cb5211367d07b862d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9fcee758081f95d42bedd9b8e2a09cebe1d339d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145652"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092314"
 ---
 # <a name="captionheight-property"></a>Propriété CaptionHeight
 
 Le programme d’installation définit la propriété **CaptionHeight** sur la hauteur, en pixels, de la zone de légende de la fenêtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b6a25100-9f3e-4207-b56f-0c27ee16f188
 title: Type binaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8412d63891f3028c1ef2beb8fa0e6a17c4a35c33df182cbd9f1059a593c50915
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fda0711b53f865bbd844514ed2429d97d91e07a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092394"
 ---
 # <a name="binary-type"></a>Type binaire
 

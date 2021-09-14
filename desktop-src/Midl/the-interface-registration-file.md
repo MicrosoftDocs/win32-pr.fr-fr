@@ -6,12 +6,12 @@ keywords:
 - MIDL du fichier d’inscription de l’interface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9a5541a5e60b1903364236f86dcf1845a5e1ac153fc91b47bacf9f553a9a109
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1fd6f54f5e027a0ea25dc463772ec24ee5f7386
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117806177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093126"
 ---
 # <a name="the-interface-registration-file"></a>Fichier d’inscription de l’interface
 

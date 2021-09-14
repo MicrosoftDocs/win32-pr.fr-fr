@@ -4,12 +4,12 @@ ms.assetid: 3a23a721-0672-4eac-bdf2-434282b92590
 title: Création d’une installation signée entièrement vérifiée à l’aide d’Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27f1b0b90296ad92e471449213e86721482a545ff1932458b2ad6b21d47b665
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e99267feffac71401f36635c08fa7f9f6598a0c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119559099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092530"
 ---
 # <a name="authoring-a-fully-verified-signed-installation-using-automation"></a>Création d’une installation signée entièrement vérifiée à l’aide d’Automation
 

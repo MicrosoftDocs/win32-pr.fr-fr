@@ -4,12 +4,12 @@ ms.assetid: 233302ea-abc3-4879-b868-425f2b10e02e
 title: Exemple de mise à niveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a148c8d66c09ae2ce033d3ad2440040734a2b1301b2e9e1b9bb1b79e44beb06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95d1e19173a98f3ddee49c19d0ec10aca7994e86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092697"
 ---
 # <a name="an-upgrade-example"></a>Exemple de mise à niveau
 

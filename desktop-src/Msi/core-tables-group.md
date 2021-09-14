@@ -4,12 +4,12 @@ ms.assetid: ec4f585d-cbd5-4c25-aaf4-1c1333fd4587
 title: Groupe de tables principales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a8704a13e71f019e3d0686384057d3f209de06530c97bda6f0a63ff352d4db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5a5cc87e80c60505025825353272699db574bd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118948537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091938"
 ---
 # <a name="core-tables-group"></a>Groupe de tables principales
 

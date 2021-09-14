@@ -4,12 +4,12 @@ ms.assetid: 355818cf-1e00-46ad-9ce1-ab3a178164f9
 title: Attribut MF_PD_PLAYBACK_ELEMENT_ID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 775aca29ab1cea36be9a2b87d64566210c03f6d6771d3493c73d34572975671e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 744a1d164c71cbd7eb8bb47ef12be68d47b8351d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119102886"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231791"
 ---
 # <a name="mf_pd_playback_element_id-attribute"></a>\_Attribut d' \_ ID d’élément de lecture MF PD \_ \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les sources multimédias qui fournissent des sélections peuvent éventuellement définir cet attribut sur leurs descripteurs de présentation.
 
@@ -41,7 +41,7 @@ Les sources multimédias qui implémentent [**IMFMediaSourceTopologyProvider**](
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

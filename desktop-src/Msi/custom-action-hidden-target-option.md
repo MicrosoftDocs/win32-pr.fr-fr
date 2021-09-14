@@ -4,12 +4,12 @@ ms.assetid: b0f99851-a774-4804-8c85-f94943c2d2b0
 title: Option cible masquée des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1adc0df477510ac7d5d6bec65025b6fed1bfd7971e6ddf35da3a7e4cbc714690
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acca69e4c3efc2b43302bf926a56bc53b2bf5e7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118638162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091873"
 ---
 # <a name="custom-action-hidden-target-option"></a>Option cible masquée des actions personnalisées
 

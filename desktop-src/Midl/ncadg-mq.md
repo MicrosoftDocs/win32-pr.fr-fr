@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0164211a267760a533d8d164a76387dbbcfba8a0aad8e4ac6ecaf20ed770708a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0acc433b55ba9f3c6d8919bef9b8db470bc0f5a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093341"
 ---
 # <a name="ncadg_mq-attribute"></a>\_attribut MQ ncadg
 
@@ -38,7 +38,7 @@ Spécifie le nom du serveur ou de l’ordinateur hôte. Le nom est une chaîne d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour pouvoir utiliser le protocole de transport **ncadg \_ MQ** , les composants MSMQ doivent être entièrement installés et les systèmes client et serveur doivent être accessibles via les protocoles mq.
 

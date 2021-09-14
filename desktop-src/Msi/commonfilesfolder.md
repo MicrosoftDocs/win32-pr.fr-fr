@@ -4,18 +4,18 @@ ms.assetid: b5695525-52f8-46b6-bd67-9bd2fdc71e52
 title: Propriété CommonFilesFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70c93b27d51f57e2948427c6e579e6b5f7405472bdda0ec8d7eaefe56eb5de6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d47d52419ffd080cabfb6cfd40cdf2dd27e3672
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092146"
 ---
 # <a name="commonfilesfolder-property"></a>Propriété CommonFilesFolder
 
 Le programme d’installation définit la propriété **CommonFilesFolder** sur le chemin d’accès complet du dossier Fichiers communs de l’utilisateur actuel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

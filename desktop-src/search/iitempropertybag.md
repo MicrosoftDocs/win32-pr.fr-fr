@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2657fea53c4e7021e17df4b74cc210bd8547180566ff579524f85b7663a0c247
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4da3db21947de6d35ef5e848499efc7f22633f7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118226560"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231245"
 ---
 # <a name="iitempropertybag-interface"></a>Interface IItemPropertyBag
 
@@ -39,20 +39,20 @@ L’interface **IItemPropertyBag** possède ces méthodes.
 |:------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
 | [**CountProperties**](/previous-versions/windows/desktop/legacy/ff684387(v=vs.85)) | Obtient le nombre de propriétés dans le conteneur de propriétés.<br/>                     |
 | [**GetPropertyInfo**](iitempropertybag-getpropertyinfo.md) | Obtient les informations requises pour lire ou enregistrer les propriétés dans le conteneur de propriétés.<br/> |
-| [**Lire**](iitempropertybag-read.md)                       | Provoque la lecture d’une ou plusieurs propriétés à partir du conteneur des propriétés.<br/>                   |
-| [**Écriture**](iitempropertybag-write.md)                     | Entraîne l’enregistrement d’une ou plusieurs propriétés dans le conteneur de propriétés.<br/>                  |
+| [**En lecture**](iitempropertybag-read.md)                       | Provoque la lecture d’une ou plusieurs propriétés à partir du conteneur des propriétés.<br/>                   |
+| [**Write**](iitempropertybag-write.md)                     | Entraîne l’enregistrement d’une ou plusieurs propriétés dans le conteneur de propriétés.<br/>                  |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’interface **IItemPropertyBag** est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
 pour prévisualiser les pièces jointes avec un gestionnaire de protocole tiers sur des ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface **IItemPropertyBag** et les api suivantes : les interfaces [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) et [**ISearchItem**](-search-isearchitem.md) , les structures [**LINKINFO**](-search-linkinfo.md) et [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop) et l’énumération [**LINKTYPE**](-search-linktype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: Table des composants
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1888628137fcf07cab07d011325ff685809cff68
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474945"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092105"
 ---
 # <a name="component-table"></a>Table des composants
 
@@ -17,7 +17,7 @@ La table des composants répertorie les composants et contient les colonnes suiv
 
 
 
-| Colonne      | Type                         | Clé : | Nullable |
+| Colonne      | Type                         | Clé | Nullable |
 |-------------|------------------------------|-----|----------|
 | Composant   | [Identificateur](identifier.md) | O   | N        |
 | ComponentId | [GUID](guid.md)             | N   | O        |
@@ -127,7 +127,7 @@ notez que si un composant Windows Installer contient un fichier ou une clé de r
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la relation entre les composants et les fonctionnalités, consultez [table](feature-table.md)des fonctionnalités.
 

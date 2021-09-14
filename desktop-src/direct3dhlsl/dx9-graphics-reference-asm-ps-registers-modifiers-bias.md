@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 5c564dad0d4caf859ae00155dfd9619d90276cf1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940335"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232337"
 ---
 # <a name="source-register-bias"></a>Décalage du Registre source
 
@@ -40,7 +40,7 @@ L’effet est de modifier les données comprises dans la plage de 0 à 1 pour qu
 > [!Note]  
 > Ce modificateur s’exclut mutuellement avec le [Registre source inversé](dx9-graphics-reference-asm-ps-registers-modifiers-invert.md), donc il ne peut pas être appliqué au même registre.
 
- 
+ 
 
 Ce modificateur est destiné à être utilisé avec les instructions arithmétiques.
 
@@ -62,9 +62,9 @@ add r0, r0, t0_bias; Shift down by 0.5.
 [Modificateurs de Registre source du nuanceur de pixels](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

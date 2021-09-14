@@ -4,12 +4,12 @@ ms.assetid: d8902fb6-c758-4d3d-9230-e918948bda19
 title: Attribut MF_EVENT_SOURCE_PROJECTSTART (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75e3d386b90a45d1ba06d0d0c1641b97544ca1d2422dd1d2d6f7762f93cf4ee4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 512e2129c3104d9e7160163f03a9c28b2716273e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118060695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231821"
 ---
 # <a name="mf_event_source_projectstart-attribute"></a>\_Attribut PROJECTSTART de la source d’événement MF \_ \_
 
@@ -21,7 +21,7 @@ Spécifie l’heure de début d’une topologie de segment.
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé avec l’événement [MESourceStarted](mesourcestarted.md) . La source de Sequencer définit cet attribut lorsque la topologie de segment actuelle a l' [**attribut \_ \_ PROJECTSTART de topologie MF**](mf-topology-projectstart-attribute.md) . Les deux attributs ont la même valeur.
 
@@ -29,7 +29,7 @@ Cet attribut est une valeur signée, bien qu’il soit stocké en tant que **UIN
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

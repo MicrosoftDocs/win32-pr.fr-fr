@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17c53ded4c7459be8f0c8eb98f3770d88ff88a9b7da20cb3482c1032a4f74e96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22f410fa048a27e1f7626690e6308de4c1a31c2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093506"
 ---
 # <a name="implicit_handle-attribute"></a>attribut de handle implicite \_
 
@@ -45,7 +45,7 @@ Spécifie le nom du descripteur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le descripteur spécifié par l’attribut de **\[ \_ handle \] implicite** est utilisé de différentes façons en fonction de la nature de la procédure. Si la procédure est distante, le handle sera utilisé comme handle de liaison pour l’appel distant. Le handle implicite peut également être utilisé pour établir une liaison initiale pour une fonction qui utilise un handle de contexte. Si la procédure est une procédure de sérialisation, le handle est utilisé comme handle de sérialisation contrôlant l’opération. Dans le cas de la sérialisation de type, le handle est utilisé comme handle de sérialisation pour tous les types sérialisés.
 

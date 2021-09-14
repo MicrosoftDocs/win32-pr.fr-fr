@@ -4,12 +4,12 @@ ms.assetid: 990fdc04-3712-4fbe-9531-839faedb9316
 title: Exemples de code du système de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc5a7a4cac92abd7f3cda264fd86666e687537e87de65076767a61fd47cdaa82
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bb3bf9d919a4e647414c6bd5bbc021428f69195
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231551"
 ---
 # <a name="property-system-code-samples"></a>Exemples de code du système de propriétés
 

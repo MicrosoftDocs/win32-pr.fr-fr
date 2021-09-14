@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16729e0a0a422c8ed2d8a8f323b563cb6a268fcb041e6a9d2ba13a9c9b847d79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4be10c5e1c7073afb3abf359c3ec2fb79a4335b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117806657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093398"
 ---
 # <a name="midl_user_allocate-attribute"></a>attribut d’allocation de l' \_ utilisateur MIDL \_
 
@@ -38,7 +38,7 @@ Spécifie le nombre d’octets à allouer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications clientes et les applications serveur doivent implémenter la fonction d' **\_ \_ allocation utilisateur MIDL** , sauf si vous compilez en mode de compatibilité OSF ([**/OSF**](-osf.md)). Les applications et les stubs générés appellent **MIDL \_ User \_ allocate** lors du traitement d’objets référencés par des pointeurs :
 

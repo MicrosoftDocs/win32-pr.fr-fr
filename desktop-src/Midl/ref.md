@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 916556bdee83817f512c2d86eef2d768c3f6dbddf06b39408da5c25a2ba10ed2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82bc5762eea78b3ce73ab3db58e9bb567b051675
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093222"
 ---
 # <a name="ref-attribute"></a>ref (attribut)
 
@@ -91,7 +91,7 @@ Spécifie au moins un déclarateur de pointeur auquel s’applique l’attribut 
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -105,7 +105,7 @@ Se compose de zéro, un ou plusieurs attributs appropriés pour le type de param
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un attribut de pointeur peut être appliqué comme un attribut de type, comme un attribut de champ qui s’applique à un membre de structure, un membre d’Union ou un paramètre ; ou en tant qu’attribut de fonction qui s’applique au type de retour de la fonction. L’attribut de pointeur peut également apparaître avec le **\[** mot clé [**\_ default du pointeur**](pointer-default.md) **\]** .
 
@@ -161,7 +161,7 @@ Si aucun attribut n’est spécifié pour un paramètre de pointeur de niveau su
 [**traitée**](handle.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**la dernière \_ est**](last-is.md)
@@ -170,7 +170,7 @@ Si aucun attribut n’est spécifié pour un paramètre de pointeur de niveau su
 [**la longueur \_ est**](length-is.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
 [**le nombre maximal \_ est**](max-is.md)

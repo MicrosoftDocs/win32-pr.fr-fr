@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 579b128114aab92ac4e095dd4216a5ae163bb30eeb10c0c03af9232f7208c35f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b29602e327718dab63c402d075b3a7bf5695604a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119737309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232163"
 ---
 # <a name="esentbadpatchpageexception-class"></a>EsentBadPatchPageException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentBadPatchPageException](./esentbadpatchpageexception-members.md)
 

@@ -4,12 +4,12 @@ ms.assetid: dde2ef55-7794-4eb1-984a-ed13e990c97f
 title: Application de transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: daf6c1bd60a084b745df14d89772008867b618f3b21116ca20c5313747950b5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2367e02396ec33e517f8abfe579060c0a0986be2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119264249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092645"
 ---
 # <a name="applying-transforms"></a>Application de transformations
 

@@ -5,11 +5,11 @@ title: Prise en charge du proxy pour les sources réseau
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 97bc1172c072a54f9f76cbcd3a297a972efbde29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231708"
 ---
 # <a name="proxy-support-for-network-sources"></a>Prise en charge du proxy pour les sources réseau
 
@@ -29,7 +29,7 @@ Si la Banque de propriétés n’est pas définie, Media Foundation crée le loc
 
 Cette configuration par défaut peut être modifiée par l’application. Les rubriques suivantes contiennent des informations sur les paramètres de configuration d’un localisateur de proxy :
 
--   [Paramètres de configuration du localisateur de proxy](proxy-locator-configuration-settings.md)
+-   [Paramètres de Configuration du localisateur de Proxy](proxy-locator-configuration-settings.md)
 
 -   [Comment configurer le localisateur de proxy](how-to-configure-the-proxy-locator.md)
 

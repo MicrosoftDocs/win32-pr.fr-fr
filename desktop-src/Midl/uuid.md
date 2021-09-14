@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce85ad2014e1f0563e2c20af7abec3cc476fab330b38340162f28fd390a5f8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5688bafe8343bdc1ab508a4e65984cc15c88b124
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093078"
 ---
 # <a name="uuid-attribute"></a>uuid (attribut)
 
@@ -39,7 +39,7 @@ Spécifie une chaîne composée de 8 chiffres hexadécimaux suivis d’un trait 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La bibliothèque Runtime utilise l’UUID de l’interface que l’attribut **\[ UUID \]** désigne pour aider à établir la communication entre les applications client et serveur. L’attribut **\[ UUID \]** peut apparaître dans la liste des attributs de l’interface pour une interface RPC ou une interface com.
 
@@ -73,10 +73,10 @@ uuid("6B29FC40-CA47-1067-B31D-00DD010662DA")
 [**interface**](interface.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
-[**dessin**](object.md)
+[**object**](object.md)
 </dt> <dt>
 
 [**/osf**](-osf.md)

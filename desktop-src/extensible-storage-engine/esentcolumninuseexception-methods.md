@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101319
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 73ea355807b5009a9b9315e85babf0bde788150dd14d52514bbdc0415812d9e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63893ebeccc4475bab069e09708b8515fe651837
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119041812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232151"
 ---
 # <a name="esentcolumninuseexception-methods"></a>Méthodes EsentColumnInUseException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentColumnInUseException, classe](./esentcolumninuseexception-class.md)
 

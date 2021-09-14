@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53e9b85be5e9073a272dafd63a2a01ba64f440f90cc5d9c41f44260f235f9ab5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b2d8b2ee2e3ea4daccd1c4fa37ff1c1f1899dd3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093237"
 ---
 # <a name="ptr-attribute"></a>ptr (attribut)
 
@@ -96,7 +96,7 @@ Spécifie au moins un déclarateur de pointeur auquel s’applique l’attribut 
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -110,7 +110,7 @@ Se compose de zéro, un ou plusieurs attributs appropriés pour le type de param
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le pointeur complet désigné par l’attribut **\[ ptr \]** approche les fonctionnalités complètes du pointeur du langage C. Le pointeur complet peut avoir la valeur **null** et peut changer pendant l’appel de **null** en non **null**. les Stockage pointées par les pointeurs complets peuvent être atteintes par d’autres noms dans l’application prenant en charge les alias et les cycles. Cette fonctionnalité nécessite une plus grande surcharge au cours d’un appel de procédure distante pour identifier les données référencées par le pointeur, déterminer si la valeur est **null** et pour déterminer si deux pointeurs pointent vers les mêmes données.
 
@@ -202,7 +202,7 @@ typedef [ptr, string] unsigned char * MY_STRING_TYPE;
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**la dernière \_ est**](last-is.md)
@@ -211,7 +211,7 @@ typedef [ptr, string] unsigned char * MY_STRING_TYPE;
 [**la longueur \_ est**](length-is.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
 [**le nombre maximal \_ est**](max-is.md)

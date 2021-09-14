@@ -4,12 +4,12 @@ ms.assetid: bb50fcbf-3de5-4f5a-b799-cec5d68fdd9d
 title: Type d’action personnalisé 38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 361da558a6b1cf9d483d5cdb84d3a4290f9d25fb88ed844d564a26228378a14e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b9372cd5035d27c02feaef3ed455ddeb756c449
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091798"
 ---
 # <a name="custom-action-type-38"></a>Type d’action personnalisé 38
 
@@ -65,7 +65,7 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 Ce type d’action personnalisé retourne toujours Success.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 une action personnalisée écrite en JScript ou VBScript requiert l’objet de [**Session**](session-object.md) d’installation. Le programme d’installation joint l' **objet de session** au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
 

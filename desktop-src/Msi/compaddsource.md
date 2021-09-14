@@ -4,18 +4,18 @@ ms.assetid: ee1e0650-674d-4189-8ef7-3d2ece89cc28
 title: Propriété COMPADDSOURCE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f68e795a9092892212f41a073a8e5a80945f57be14224e576262c30bba92707
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f59526196a75599dbd2a535db6dcda4fb733936
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380051"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092138"
 ---
 # <a name="compaddsource-property"></a>Propriété COMPADDSOURCE
 
 La valeur de la propriété **COMPADDSOURCE** est une liste de GUID de composant à partir de la colonne ComponentID de la table de [composants](component-table.md) , délimitée par des virgules, qui doivent être installées pour s’exécuter à partir du média source. Le programme d’installation utilise cette valeur pour déterminer les fonctionnalités qui sont configurées pour être installées pour être exécutées à partir de la source, en fonction des composants spécifiés. Pour chaque ID de composant listé, le programme d’installation examine toutes les fonctionnalités liées (par le biais de la table [FeatureComponents](featurecomponents-table.md) ) à ce composant et installe la fonctionnalité qui nécessite le moins d’espace disque à installer. Les composants listés doivent être présents dans la colonne composant de la table des [composants](component-table.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que les noms des composants respectent la casse. Notez également que si l’indicateur de bit LocalOnly est défini dans la colonne attributs de la table des [composants](component-table.md) pour un composant, le composant est installé pour s’exécuter localement.
 
@@ -38,7 +38,7 @@ Par exemple, si la ligne de commande spécifie : ADDLOCAL = ALL, ADDSOURCE = My
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 62a3d103-a786-4727-b757-3a8229c8a53f
 title: Sécurité des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0a8011640bea177ec253f555b6ff83302541b640a050ccf861eb345c58ca13f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e7d36e0e5c6cecc61730144fb7efdeed63ba0fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118143309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091842"
 ---
 # <a name="custom-action-security"></a>Sécurité des actions personnalisées
 

@@ -5,11 +5,11 @@ title: Table AppId
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1d9a121e6252c6054d5ac2765a9649e345035dde
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092686"
 ---
 # <a name="appid-table"></a>Table AppId
 
@@ -26,7 +26,7 @@ La table AppId contient les colonnes suivantes.
 
 
 
-| Colonne               | Type                       | Clé : | Nullable |
+| Colonne               | Type                       | Clé | Nullable |
 |----------------------|----------------------------|-----|----------|
 | AppId                | [GUID](guid.md)           | O   | N        |
 | RemoteServerName     | [Correct](formatted.md) | N   | O        |
@@ -93,7 +93,7 @@ une valeur entière différente de zéro dans ce champ amène Windows Installer 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table est utilisée par l' [action RegisterClassInfo](registerclassinfo-action.md) et l' [action UnregisterClassInfo](unregisterclassinfo-action.md).
 

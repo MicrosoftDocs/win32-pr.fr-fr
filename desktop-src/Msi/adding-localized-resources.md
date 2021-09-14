@@ -4,12 +4,12 @@ ms.assetid: f5af0ecd-cb57-4858-88b4-4608893004f6
 title: Ajout de ressources localisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de37bfd3c216018f6c4a6f6866206020576153e55383a9d6b36e67533bbb3b6f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7646499e4bb48e3df9fc1527bff1273e6b6784bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092834"
 ---
 # <a name="adding-localized-resources"></a>Ajout de ressources localisées
 

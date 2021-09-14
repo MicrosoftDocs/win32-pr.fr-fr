@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3a5bac2231d1dc865ee287e156176144e7db7fcdefed7be009b9333061731d2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 507ba78c52d4830534f5559f6efb5793c3a120be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119837119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232097"
 ---
 # <a name="esentkeyduplicateexception-constructor"></a>Constructeur EsentKeyDuplicateException
 
@@ -54,7 +54,7 @@ public EsentKeyDuplicateException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentKeyDuplicateException, classe](./esentkeyduplicateexception-class.md)
 

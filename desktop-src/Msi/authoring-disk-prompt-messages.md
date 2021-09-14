@@ -4,12 +4,12 @@ ms.assetid: 8b53a490-921f-4d89-83b7-dbc62231ef92
 title: Messages d’invite de création de disque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a27b324600b7098c4b11dd94528ce0f3aa624e6859df8d02ef43ee90d632068
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f536a27c2adb5896992eb19a86bff64b9498d83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118381374"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092521"
 ---
 # <a name="authoring-disk-prompt-messages"></a>Messages d’invite de création de disque
 

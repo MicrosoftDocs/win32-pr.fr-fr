@@ -4,12 +4,12 @@ ms.assetid: cab30f95-cc93-46db-aba5-741b44adb6de
 title: Création de packages sans la boîte de dialogue UAC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5064589a49327db263158b10ff9377e0f7b69232b0e3679d5bd86c7bd2f2e3f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58dcd44bf7d2250e12e7cafde46b57978b48cceb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092469"
 ---
 # <a name="authoring-packages-without-the-uac-dialog-box"></a>Création de packages sans la boîte de dialogue UAC
 

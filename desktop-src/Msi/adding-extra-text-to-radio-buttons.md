@@ -4,12 +4,12 @@ ms.assetid: 92ad70ec-a3a4-4ea7-8888-40c78d73e58a
 title: Ajout de texte supplémentaire aux cases d’option
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a1274faeffc3bf98702cc6f549e0be02e0d1d1ba003914d295e4fe004aa39a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1e73ac55e300ddee603449e9ea7ce5e10f4e0be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145982"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092842"
 ---
 # <a name="adding-extra-text-to-radio-buttons"></a>Ajout de texte supplémentaire aux cases d’option
 
@@ -21,7 +21,7 @@ Dans l’exemple suivant, la boîte de dialogue MySample contient un contrôle R
 
 
 
-| Boîte de dialogue   | HCentering | VCentering | Largeur | Hauteur | Attributs | Titre                    | \_Premier contrôle | \_Valeur par défaut du contrôle | Annuler le contrôle \_ |
+| Boîte de dialogue   | HCentering | VCentering | Largeur | Hauteur | Attributs | Intitulé                    | \_Premier contrôle | \_Valeur par défaut du contrôle | Annuler le contrôle \_ |
 |----------|------------|------------|-------|--------|------------|--------------------------|----------------|------------------|-----------------|
 | MySample | 50         | 50         | 200   | 180    | 3          | Cases d’option accessibles | Couleurs         | Suivant             |                 |
 
@@ -33,7 +33,7 @@ Dans l’exemple suivant, la boîte de dialogue MySample contient un contrôle R
 
 
 
-| Boîte de dialogue\_ | Contrôler    | Type             | X   | O   | Largeur | Hauteur | Attributs | Propriété | Texte                               | Contrôle \_ suivant | Aide |
+| Dialogue\_ | Control    | Type             | X   | O   | Largeur | Hauteur | Attributs | Propriété | Texte                               | Contrôle \_ suivant | Aide |
 |----------|------------|------------------|-----|-----|-------|--------|------------|----------|------------------------------------|---------------|------|
 | MySample | Couleurs     | RadioButtonGroup | 2   | 20  | 100   | 50     | 3          | TheColor |                                    | Suivant          |      |
 | MySample | HowIsBlue  | Texte             | 20  | 80  | 150   | 15     | 2          |          | C’est comme le ciel à un jour clair. |               |      |
@@ -47,7 +47,7 @@ Dans l’exemple suivant, la boîte de dialogue MySample contient un contrôle R
 
 
 
-| Propriété | Commande | Valeur | X   | O   | Largeur | Hauteur | Texte   | Aide |
+| Propriété | JSON | Valeur | X   | O   | Largeur | Hauteur | Texte   | Aide |
 |----------|-------|-------|-----|-----|-------|--------|--------|------|
 | TheColor | 1     | Bleu  | 10  | 10  | 80    | 15     | &bleu  |      |
 | TheColor | 2     | Vert | 10  | 30  | 80    | 15     | &vert |      |
@@ -62,7 +62,7 @@ Dans l’exemple suivant, la boîte de dialogue MySample contient un contrôle R
 
 | Propriété | Valeur |
 |----------|-------|
-| TheColor | Bleu  |
+| TheColor | Blue  |
 
 
 
@@ -72,7 +72,7 @@ Dans l’exemple suivant, la boîte de dialogue MySample contient un contrôle R
 
 
 
-| Boîte de dialogue\_ | contrôle\_  | Action | Condition                 |
+| Dialogue\_ | contrôle\_  | Action | Condition                 |
 |----------|------------|--------|---------------------------|
 | MySample | HowIsBlue  | Masquer   | TheColor <>  « Blue »  |
 | MySample | HowIsBlue  | Afficher   | TheColor = "Blue"         |

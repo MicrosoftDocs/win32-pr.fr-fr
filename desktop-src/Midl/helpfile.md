@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1557d96f35913e5e1ed9b784bedfc430e6c4d77b65954583ca6923e4728af9a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0b4283b0285631a710af774d364a01b82c9d44b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118384019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093557"
 ---
 # <a name="helpfile-attribute"></a>helpfile (attribut)
 
@@ -67,7 +67,7 @@ Spécifie une ou plusieurs instructions MIDL qui définissent l’interface de l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez les fonctions **GetDocumentation** dans les interfaces **ITypeLib** et **ITypeInfo** pour récupérer le nom de fichier.
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 863269c5127915af82b8ef82aa36b60b17941d8627b3f81a789f75618219c773
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79db73558cb243437560cc77ed66b64f2807fe13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232229"
 ---
 # <a name="append-function"></a>Append, fonction
 
@@ -49,7 +49,7 @@ Valeur d'entrée.
 
 None
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 T peut être n’importe quel type de données, y compris les structures.
 
@@ -57,7 +57,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

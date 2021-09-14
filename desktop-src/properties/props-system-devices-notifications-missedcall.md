@@ -4,12 +4,12 @@ ms.assetid: 4d583dea-edcf-4f1b-81e2-f2a57ce3d503
 title: System. Devices. notifications. MissedCall
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3134f6caf40a75def70a3d13b45e3dcea47f7eb5729201b94193c4c4f4790503
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9b474cd8efdeaeb582d22560f458ebe2c2737eac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119845499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231341"
 ---
 # <a name="systemdevicesnotificationsmissedcall"></a>System. Devices. notifications. MissedCall
 
@@ -61,7 +61,7 @@ propertyDescription
             text = You missed a call.
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

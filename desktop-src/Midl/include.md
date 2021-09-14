@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 827ec8deec34a42d39fc3973dff73e9912ecb96bfee62e348ef7aebfee6ee9f5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2aab7b7262bceb330e3f4645e4f16035b783197
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093481"
 ---
 # <a name="include-attribute"></a>include (attribut)
 
@@ -38,7 +38,7 @@ Spécifie le nom d’un ou plusieurs fichiers d’en-tête du langage C. Utilise
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À la suite de l’instruction **include** , le code stub généré contient une instruction **\# include** de préprocesseur C. Vous fournissez le fichier d’en-tête du langage C lors de la compilation des stubs. Les instructions include s’appuient sur le mécanisme de compilateur C pour rechercher les fichiers inclus dans la structure de répertoires.
 

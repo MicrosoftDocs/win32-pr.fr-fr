@@ -11,11 +11,11 @@ api_type: ''
 api_location: ''
 ms.custom: contperf-fy21q3
 ms.openlocfilehash: 9f518102b7b3305103ed85231a791c542418a04c
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232409"
 ---
 # <a name="high-level-shader-language-hlsl"></a>HLSL (High-Level Shader Language)
 

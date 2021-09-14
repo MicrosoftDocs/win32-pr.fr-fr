@@ -4,18 +4,18 @@ ms.assetid: 7bc38b49-72d8-4b0c-bd71-284a638e7860
 title: Propriété ADDSOURCE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 420ca53a96ddeb379a7e021db2c45157861acfb62d066cadfc7a163db7fbc307
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fd51d6f86060def1a7536134a0041f1e15178a91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092797"
 ---
 # <a name="addsource-property"></a>Propriété ADDSOURCE
 
 La valeur de la propriété **addsource** est une liste de fonctionnalités qui sont délimitées par des virgules et qui doivent être installées pour s’exécuter à partir de la source. Les fonctionnalités doivent être présentes dans la colonne Feature de la [table Feature](feature-table.md). Pour installer toutes les fonctionnalités en tant qu’exécution à partir de la source, utilisez ADDSOURCE = ALL sur la ligne de commande. N’entrez pas ADDSOURCE = ALL dans la [table de propriétés](property-table.md), car cela génère un package d’exécution à partir de la source qui ne peut pas être supprimé correctement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les noms des fonctionnalités respectent la casse. Si l’indicateur de bit LocalOnly est défini dans la colonne attributs de la [table des composants](component-table.md) pour un composant d’une fonctionnalité de la liste, ce composant est installé pour s’exécuter localement.
 
@@ -41,7 +41,7 @@ Par exemple :
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue, ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

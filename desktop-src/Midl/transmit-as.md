@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18d1b8e9aae9a147c929fade8030babbf6b02fd87c9170370252522001742e95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ec0cba27e994f7d77d441aef7bb783cad71cbad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118382829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093114"
 ---
 # <a name="transmit_as-attribute"></a>transmettre \_ en tant qu’attribut
 
@@ -77,7 +77,7 @@ Spécifie le nom du type de données présenté aux applications clientes et ser
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser l’attribut **\[ transmettre \_ en tant que \]** , l’utilisateur doit fournir des routines qui convertissent les données entre les types présentés et transmis ; ces routines doivent également libérer de la mémoire utilisée pour stocker les données converties. L’attribut **\[ transmit \_ As \]** indique aux stubs d’appeler les routines de conversion fournies par l’utilisateur.
 
@@ -171,7 +171,7 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**ptr**](ptr.md)

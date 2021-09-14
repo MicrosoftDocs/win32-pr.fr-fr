@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bd57748d3ad92407fd65f3a6af7fc1ebb68321b576d57a50b6ba6f5546f8d63
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f65a4c3ea93ea9ed55ce4f6f9ce846c81b60fa40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093193"
 ---
 # <a name="size_is-attribute"></a>la taille \_ est un attribut
 
@@ -38,7 +38,7 @@ Spécifie une ou plusieurs expressions en langage C. Chaque expression prend la 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous utilisez l’attribut \[ **size \_ is** \] pour allouer de la mémoire pour un tableau multidimensionnel et que vous utilisez la notation de tableau \[ \] , gardez à l’esprit que seule la première dimension d’un tableau multidimensionnel peut être déterminée dynamiquement au moment de l’exécution. Les autres dimensions doivent être spécifiées de manière statique. Pour plus d’informations sur l’utilisation de l' \[ attribut **size \_** \] avec plusieurs niveaux de pointeurs pour permettre à un serveur de retourner un tableau de données de taille dynamique à un client, comme illustré dans l’exemple Proc7, consultez [plusieurs niveaux de pointeurs](/windows/desktop/Rpc/multiple-levels-of-pointers).
 

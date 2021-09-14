@@ -4,12 +4,12 @@ ms.assetid: 4b3871c0-f452-4935-9ee3-78b0ac847e67
 title: Création de modules de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078956c0e3586e12105fc5ea33b1d7e8908c19461aaa4533c7b3cccc32c014ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3ece67151872a8d065d321c6adaae660be643ad8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119328419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092482"
 ---
 # <a name="authoring-merge-modules"></a>Création de modules de fusion
 
@@ -23,8 +23,8 @@ La procédure suivante décrit les étapes générales pour créer des modules d
 4.  Ajoutez un enregistrement à la [table des composants](component-table.md) pour chaque composant remis par la fusion. Une table de composants est requise dans chaque module de fusion. Notez que les modules de fusion fonctionnent avec les composants et non avec les fonctionnalités. Dans certains cas, toutefois, une entrée de table de base de données peut être amenée à référencer une fonctionnalité. Pour plus d’informations, consultez [référencement des fonctionnalités dans les modules de fusion](referencing-features-in-merge-modules.md).
 5.  Ajoutez une [table de répertoires](directory-table.md) au module de fusion qui spécifie la disposition des répertoires que le module de fusion ajoute à la base de données cible. Une table de répertoire est requise dans chaque module de fusion.
 6.  Importez une [table FeatureComponents](featurecomponents-table.md) vide dans la base de données des modules de fusion. Cette table vide fournit une indication pour l’outil de fusion dans les cas où le fichier .msi ne contient pas sa propre table FeatureComponents.
-7.  Collectez tous les fichiers remis par ce module de fusion et créez le fichier CAB [MergeModule.CABinet](mergemodule-cabinet.md) . Ajoutez le fichier CAB au module de fusion sous la forme d’un flux à l’intérieur du fichier. msm.
-8.  Ajoutez un enregistrement à la table de fichiers pour chaque fichier stocké dans MergeModule.CABinet.
+7.  Collectez tous les fichiers remis par ce module de fusion et créez le fichier CAB [MergeModule. cab](mergemodule-cabinet.md) . Ajoutez le fichier CAB au module de fusion sous la forme d’un flux à l’intérieur du fichier. msm.
+8.  Ajoutez un enregistrement à la table de fichiers pour chaque fichier stocké dans MergeModule. cab.
 9.  Ajoutez les informations nécessaires pour identifier le module de fusion dans la [table ModuleSignature](modulesignature-table.md). Chaque module de fusion requiert une table ModuleSignature.
 10. Répertoriez les composants du module de fusion dans la [table ModuleComponents](modulecomponents-table.md). Chaque module de fusion requiert une table ModuleComponents.
 11. Ajoutez des tables de séquence de module de fusion au fichier. msm uniquement si le module de fusion doit modifier les [*tables de séquence*](s-gly.md) de la base de données d’installation cible.
@@ -56,7 +56,7 @@ La procédure suivante décrit les étapes générales pour créer des modules d
 [Création de tables FeatureComponents du module de fusion](authoring-merge-module-featurecomponents-tables.md)
 </dt> <dt>
 
-[Génération de fichiers CAB inet MergeModule.CAB](generating-mergemodule-cabinet-cabinet-files.md)
+[Génération de fichiers CAB MergeModule. cab](generating-mergemodule-cabinet-cabinet-files.md)
 </dt> <dt>
 
 [Création de tables de fichier de module de fusion](authoring-merge-module-file-tables.md)

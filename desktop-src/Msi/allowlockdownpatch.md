@@ -4,12 +4,12 @@ ms.assetid: cd07dcb0-b9b5-4186-a916-604c40f88b5f
 title: AllowLockdownPatch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c827b23f8beecf02d3312358d7ece6b835619111428349850f4e597ce379cd53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c85507d4f24209220ffb64411b452bbe46f3c76a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145902"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092721"
 ---
 # <a name="allowlockdownpatch"></a>AllowLockdownPatch
 
@@ -25,7 +25,7 @@ Le paramètre par défaut est recommandé pour garantir un environnement sécuri
 
 **\_valeur DWORD reg**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’importe quel utilisateur peut appliquer un correctif au cours d’une installation sans élévation de privilèges. La définition de cette [stratégie système](system-policy.md) par ordinateur sur « 1 » donne aux utilisateurs non administratifs la flexibilité supplémentaire pour appliquer des correctifs à n’importe quel produit au cours d’une installation avec élévation de privilèges. Si cette stratégie n’est pas définie, les utilisateurs non administratifs ne peuvent pas appliquer un correctif aux applications attribuées ou publiées.
 

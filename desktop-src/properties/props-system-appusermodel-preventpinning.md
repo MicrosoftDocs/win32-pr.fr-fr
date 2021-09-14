@@ -4,12 +4,12 @@ ms.assetid: 86239BF8-BCFC-4e76-BF94-5ABA4639562C
 title: System. AppUserModel. PreventPinning
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd697ac59980601e3f7389b9d42c8a01dc63dabe0354ca09795f8ec913a4def5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7804c615bcb35909610b06622bd25fe3dccdd0f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119938649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231533"
 ---
 # <a name="systemappusermodelpreventpinning"></a>System. AppUserModel. PreventPinning
 
@@ -43,7 +43,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

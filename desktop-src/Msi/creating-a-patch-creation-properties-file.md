@@ -4,12 +4,12 @@ ms.assetid: 0653d8f6-89b0-4c56-ae51-3c7cb7df2909
 title: Création d’un fichier de propriétés de création de correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50873fd508aa9f31435bd401284d38d13310991e150b28f4e24e5ec27f505dc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2775f8521731b43264df315ae05a874e37dd3ffc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118379404"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091894"
 ---
 # <a name="creating-a-patch-creation-properties-file"></a>Création d’un fichier de propriétés de création de correctifs
 
@@ -72,7 +72,7 @@ Entrez les données suivantes dans la table TargetImages de MNP2000. PCP. La tab
 
 
 
-| Cible     | MsiPath                                         | SymbolPaths | Upgraded   | Commande | ProductValidateFlags | IgnoreMissingSrcFiles |
+| Cible     | MsiPath                                         | SymbolPaths | Upgraded   | JSON | ProductValidateFlags | IgnoreMissingSrcFiles |
 |------------|-------------------------------------------------|-------------|------------|-------|----------------------|-----------------------|
 | \_Erreur MNP | C : \\ remarque \_MNP2000.msi de la cible de correctif du programme d’installation \\ \\ \\ |             | MNP \_ fixe | 1     |                      | 0                     |
 

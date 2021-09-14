@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: d63cd0ed883862b727379b6fed3574d26f444eaf
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232007"
 ---
 # <a name="jetinit3-function"></a>Fonction JetInit3
 
@@ -78,7 +78,7 @@ Groupe de bits qui spécifie zéro, une ou plusieurs des options énumérées et
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE (extensible Stockage engine) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Une instance doit être initialisée avec un appel à la fonction **JetInit3** avant de pouvoir être utilisée par autre chose que la fonction [JetSetSystemParameter](./jetsetsystemparameter-function.md) .
 
@@ -92,7 +92,7 @@ En outre, si vous devez arrêter une récupération après une opération d’an
 
 Pour plus d’informations, consultez la section « Notes » de la rubrique [JetInit](./jetinit-function.md) .
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

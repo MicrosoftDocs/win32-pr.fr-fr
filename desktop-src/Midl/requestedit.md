@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a894e5d4a09e7535e10a73e1bd118245e5886e0cdbb23b0f0645e588ab4adf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18d83beea34f008e6e96fcd493d8410d7d2c5b88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093213"
 ---
 # <a name="requestedit-attribute"></a>requestedit (attribut)
 
@@ -45,7 +45,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la fonction dans le fichier IDL.
@@ -59,7 +59,7 @@ Zéro, un ou plusieurs paramètres de fonction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La prise en charge de la notification **OnRequestEdit** signifie qu’avant qu’une modification soit apportée, l’objet envoie au client une demande d’autorisation de modification d’une propriété. Un objet peut prendre en charge la liaison de données mais ne pas avoir cet attribut.
 

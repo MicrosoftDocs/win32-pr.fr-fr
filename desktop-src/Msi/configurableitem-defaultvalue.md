@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 990cbc06f67683018720386391f78c3ec0cce1f8c8bf9e56eab73fb106a99af0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d04c6640aa95bb8ba2cd881928a64f0968ec8bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092030"
 ---
 # <a name="configurableitemdefaultvalue-property"></a>ConfigurableItem. DefaultValue, propriété
 
@@ -42,7 +42,7 @@ propVal = ConfigurableItem.DefaultValue
 
 Consultez [**obtenir \_**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_defaultvalue) la fonction DefaultValue
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

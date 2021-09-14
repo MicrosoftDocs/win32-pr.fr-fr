@@ -4,12 +4,12 @@ ms.assetid: 3559d1f5-988c-41d9-ba9a-dfa4ba643ee2
 title: System. AppUserModel. RelaunchIconResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b43394bd5ee7dca6084526224dac268500f6881317215d63d6fc0e9a126c5b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc79c246fef7be5641c6488dcc34169cd5bbf98b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118970838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231522"
 ---
 # <a name="systemappusermodelrelaunchiconresource"></a>System. AppUserModel. RelaunchIconResource
 

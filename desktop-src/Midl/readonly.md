@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d0d534efe8df1f4d05cd0b536a78094f903870d896114ee8b614511e067025b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b4ef4ca5f32b96146ed5ab0ec085d32b24dca3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093233"
 ---
 # <a name="readonly-attribute"></a>attribut en lecture seule
 
@@ -52,7 +52,7 @@ Nom par lequel le logiciel peut faire référence à l’emplacement de stockage
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut **\[ ReadOnly \]** interdit l’assignation à une variable. la **\[ lecture \]** seule est prise en charge uniquement au niveau du paramètre, et non au niveau de la méthode.
 

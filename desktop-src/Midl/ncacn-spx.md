@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12cb0a9c2e3b7d3a6d78b0e4feda46357f60773b16d67c1d38f57049df3a4d29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 09d27cc746df906ff6b1a3290e41d860c76dc362
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093353"
 ---
 # <a name="ncacn_spx-attribute"></a>\_attribut ncacn SPX
 
@@ -45,7 +45,7 @@ Spécifie un nombre 16 bits facultatif qui représente l’adresse du Socket. Le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque vous utilisez le transport **ncacn \_ spx** , le nom du serveur est exactement le même que le nom de l’Windows 32 bits. Toutefois, étant donné que les noms sont distribués à l’aide de protocoles Novell, ils doivent être conformes aux conventions de nommage de Novell. Si un nom de serveur n’est pas un nom Novell valide, les serveurs ne seront pas en mesure de créer des points de terminaison avec le transport **ncacn \_ SPX** . Voici une liste partielle des caractères interdits dans les noms de serveurs Novell :
 

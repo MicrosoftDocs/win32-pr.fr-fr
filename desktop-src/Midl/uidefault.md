@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 891d37611eb931a8857157434419e5221e808710290f2e209f50c743bcb5b7ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcef39f36abad7c7cb5562b2d892761bd1bb7b5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013477"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093101"
 ---
 # <a name="uidefault-attribute"></a>uidefault (attribut)
 
@@ -59,7 +59,7 @@ Zéro, un ou plusieurs paramètres pour la méthode.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’application de l’attribut **\[ uidefault \]** à un membre d’une interface ou d’une dispinterface indique Visual Basic, au moment du design, d’afficher automatiquement cet événement ou cette propriété à l’utilisateur. cela signifie que lorsque l’utilisateur double-clique sur un objet, Visual Basic passe à l’événement dans l’interface source par défaut qui a l’attribut **\[ uidefault \]** . quand l’utilisateur sélectionne un objet, l’explorateur de propriétés de Visual Basic affiche la propriété dans l’interface source par défaut qui a cet attribut. si aucun événement ou propriété n’a l’attribut **\[ uidefault \]** , Visual Basic affiche le premier événement ou la première propriété figurant dans l’interface par défaut.
 

@@ -4,12 +4,12 @@ ms.assetid: 13aa0d6b-8964-4d41-9fec-98c09b764a77
 title: Structures de l’API d’impression XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa219d4ec92b24f58d02548d9684b0848bb3dbb4cd6fd660df6777abd28de0ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05f9ba240f31de8b8ca301b98e30fb9f80a76784
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231605"
 ---
 # <a name="xps-print-api-structures"></a>Structures de l’API d’impression XPS
 

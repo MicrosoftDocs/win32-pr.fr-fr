@@ -4,12 +4,12 @@ ms.assetid: 6f8b68da-7748-436d-bc95-96e39cf42143
 title: Application de petites mises à jour en réinstallant le produit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cb128ec3b62b3f81e8a1f9762bda715fa21e010fa4c16d16c8ca377aa4c5ce1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a27b97ff0274baac5a4ec30df244394a609ed525
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092646"
 ---
 # <a name="applying-small-updates-by-reinstalling-the-product"></a>Application de petites mises à jour en réinstallant le produit
 

@@ -4,12 +4,12 @@ ms.assetid: df240302-b875-49bf-8e62-7a35204c35fb
 title: Fichiers CAB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2331b60c42bf975856987d1e13d67c95bc01fa685f99f49543650c48347cac49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c7b54ae737785abc33edd46c9e53edc93fcd288
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380716"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092326"
 ---
 # <a name="cabinet-files"></a>Fichiers CAB
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97e80b0baa4f78537142043b374c206ade0f3d51d7ca30c2f57e1c4ae4e9b695
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ead5ccf7f9dc6a59580b7c3e3576f3c7503ccafc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118641962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093246"
 ---
 # <a name="propputref-attribute"></a>propputref (attribut)
 
@@ -45,7 +45,7 @@ Type des données retournées par la procédure distante.
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Nom de la procédure distante.
@@ -59,7 +59,7 @@ Zéro, un ou plusieurs paramètres à la procédure distante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fonction qui a l’attribut **\[ PROPPUTREF \]** doit également avoir, en tant que dernier paramètre, un pointeur qui a l' **\[** attribut [**in**](in.md) **\]** .
 

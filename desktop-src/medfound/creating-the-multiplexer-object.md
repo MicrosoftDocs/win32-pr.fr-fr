@@ -4,12 +4,12 @@ ms.assetid: a5adc40c-abb4-4012-b6f2-eb871eaed7b9
 title: Création de l’objet multiplexeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aedf314a63e9475342a7a2091e1d8531bc5bb2839f8c53ae71fa760cdd58b32e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b28dd7933bdd7c3a8587c96cb490c4e4122ecc04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231876"
 ---
 # <a name="creating-the-multiplexer-object"></a>Création de l’objet multiplexeur
 

@@ -4,12 +4,12 @@ ms.assetid: 40755461-317f-4764-aaa2-6b8471d52f55
 title: Application de petites mises à jour en corrigeant une image administrative
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e02c8e3eb606dc92c60a86dd8e3216cbc99603200a87e5ee5dda0983fb7ad34d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1dad22d91e101d79d2bf6ecc0efc8ea9358eda2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119559159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092653"
 ---
 # <a name="applying-small-updates-by-patching-an-administrative-image"></a>Application de petites mises à jour en corrigeant une image administrative
 

@@ -4,12 +4,12 @@ ms.assetid: 1055CD55-4B25-4EEC-AF1B-C84C52287F8F
 title: Attribut MF_SOURCE_READER_ENABLE_ADVANCED_VIDEO_PROCESSING (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e873252dc67269124283b8e79760938d0f3302d348f21ea5506172cbe7b42ec3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6978239c5c1c466c78a310b38b5d10bd41f9e004
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231762"
 ---
 # <a name="mf_source_reader_enable_advanced_video_processing-attribute"></a>\_Lecteur source MF-activer l’attribut de \_ \_ \_ \_ traitement vidéo avancé \_
 
@@ -19,7 +19,7 @@ Active le traitement vidéo avancé par le [lecteur source](source-reader.md), n
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cet attribut a la **valeur true**, le lecteur source peut insérer un processeur vidéo dans le pipeline de traitement, ce qui permet les types de conversion de format suivants :
 
@@ -46,7 +46,7 @@ Cet attribut est similaire à l' [attribut \_ lecteur source MF activer l’attr
 -   Les applications peuvent inscrire leurs propres convertisseurs.
 -   Certaines conversions peuvent être effectuées dans le matériel à l’aide du GPU.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

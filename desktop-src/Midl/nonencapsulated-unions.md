@@ -6,12 +6,12 @@ keywords:
 - types de données MIDL, unions qui ne sont pas encapsulées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dab3daee6a4115ebdf53b3ff0133f8d05bc2a6f0325dcc6a04d324f48eeceb17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8c69cc4fc06a217fc3dc5dff405bf87268de91c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093314"
 ---
 # <a name="nonencapsulated-unions"></a>Unions qui ne sont pas encapsulées
 

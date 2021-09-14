@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c7617faf06d6c6920a2096c2a44806ae2f5204906573205ca94bf9a32e327db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b827aba4cb0871f7130e658299c6d8836557a156
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093302"
 ---
 # <a name="oleautomation-attribute"></a>oleautomation (attribut)
 
@@ -67,7 +67,7 @@ Spécifie le nom d’une interface Automation à partir de laquelle cette interf
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les paramètres et les types de retour spécifiés pour les membres d’une interface **\[ oleautomation \]** doivent être compatibles Automation, comme indiqué dans le tableau suivant.
 
@@ -156,7 +156,7 @@ library Hello
 [**/osf**](-osf.md)
 </dt> <dt>
 
-[**universel**](uuid.md)
+[**uuid**](uuid.md)
 </dt> </dl>
 
  

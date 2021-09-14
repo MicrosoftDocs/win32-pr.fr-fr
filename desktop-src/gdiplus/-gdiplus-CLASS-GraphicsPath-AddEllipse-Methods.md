@@ -4,12 +4,12 @@ ms.assetid: 39074cd8-267d-485a-8175-d0a25dcf9097
 title: GraphicsPath. AddEllipse, méthodes (Gdipluspath. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: bc36b30d0c8b1c215d03cdc3e45722726e8c98e9424c9ef75e0877194c3571ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cdff03225f623a64b5ec780fad61b3dd95b4737
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231965"
 ---
 # <a name="graphicspathaddellipse-methods"></a>GraphicsPath. AddEllipse, méthodes
 
@@ -28,7 +28,7 @@ Cette rubrique répertorie les méthodes AddEllipse de la classe [**GraphicsPath
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

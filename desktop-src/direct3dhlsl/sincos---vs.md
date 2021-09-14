@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: ca70a319852346c6e75ba544489d033a861d4c3b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953732"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232254"
 ---
 # <a name="sincos---vs"></a>SinCos,-vs
 

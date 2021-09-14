@@ -4,12 +4,12 @@ ms.assetid: be651457-5c66-478b-89d5-3d7607702b8e
 title: Application de mises à niveau majeures en appliquant des correctifs à l’installation locale du produit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8ee1aab4290e7cf81004f440af739b1adcd3442bd31d0e5c991db129874ff3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 043d106ed9f8d6455ab4412959b70854a526a4e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092669"
 ---
 # <a name="applying-major-upgrades-by-patching-the-local-installation-of-the-product"></a>Application de mises à niveau majeures en appliquant des correctifs à l’installation locale du produit
 

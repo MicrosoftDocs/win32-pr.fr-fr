@@ -5,11 +5,11 @@ ms.assetid: 82C3109E-8571-49D2-A8BF-298E30E1281B
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c037e7ea111d11d24df173ffba7e56c8f486af82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842562"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232601"
 ---
 # <a name="constructing-a-function-linking-graph-and-linking-it-to-compiled-code"></a>Construction d’un graphique de fonctions de liaison de fonction et de son lien au code compilé
 
@@ -280,6 +280,6 @@ Félicitations ! Vous êtes maintenant prêt à utiliser la liaison de nuanceur
 [Utilisation de la liaison de nuanceur](using-shader-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

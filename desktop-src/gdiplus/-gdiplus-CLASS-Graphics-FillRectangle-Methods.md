@@ -4,12 +4,12 @@ ms.assetid: 91d3fc66-4c0d-4b44-beae-59f13b80483d
 title: Graphics. FillRectangle, méthodes
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d1926f6a087dc5f5b02161c04356b2d8a7460b54b3c42a18852ea3bdb2967503
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d840b6f2c72b55ecc58e6100a6de03ab72f55854
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231971"
 ---
 # <a name="graphicsfillrectangle-methods"></a>Graphics. FillRectangle, méthodes
 

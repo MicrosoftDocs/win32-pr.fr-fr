@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 79b099b9a6211f73255abe8a758f29a9810b9ee7014641f8a8a3cff8383dafdb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63c4b10ba9a16b7e63e9eaa0f866b21492fe11d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118252651"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232025"
 ---
 # <a name="jet_snprogcunitdone-property"></a>JET_SNPROG. cunitDone, propriété
 
@@ -64,7 +64,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SNPROG](./jet-snprog-class.md)
 

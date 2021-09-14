@@ -4,12 +4,12 @@ ms.assetid: 928182ae-5ddb-446f-a9b8-e8b3aa4ce49c
 title: Application d’un package de correctifs à une installation locale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db0f29c5ced78ff8f5ad4ce8c667ba7265dd7426f9a34a5d17f743e07bfc6ee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a09ca0372870d46db67b49c0571045aadabf54c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092682"
 ---
 # <a name="applying-a-patch-package-to-a-local-installation"></a>Application d’un package de correctifs à une installation locale
 

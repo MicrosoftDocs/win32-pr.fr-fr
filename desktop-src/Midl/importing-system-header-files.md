@@ -6,12 +6,12 @@ keywords:
 - importation de MIDL, fichiers d’en-tête système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 070351ecd47b24d16d3baa2dde33b0199b02f4bf12e8ccc8f5628564a88dd6a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c26df7ca983fa21ae8e604446f0221c302c73099
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118383876"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093498"
 ---
 # <a name="importing-system-header-files"></a>Importation de fichiers d’en-tête système
 

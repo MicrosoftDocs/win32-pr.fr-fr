@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 860054fe26657c4028c172da08e0c56dbf6ae257ffc98e79905f8420b54e6878
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7ad9b750027163aef806f5a66e51f87874a0ad2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118642797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093386"
 ---
 # <a name="ms_union-attribute"></a>\_attribut ms Union
 
@@ -68,7 +68,7 @@ Spécifie la liste de paramètres de la procédure, qui peut être vide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’utilisez jamais ce commutateur ou cet attribut avec les nouvelles interfaces. Il s’agit uniquement d’une fonctionnalité de compatibilité descendante. Le compilateur MIDL dans cette version de Microsoft RPC reflète le comportement du compilateur de l’IDL ETCD OSF pour les unions qui ne sont pas encapsulées. Toutefois, étant donné que les versions antérieures du compilateur MIDL ne l’ont pas fait, le commutateur d' [**\_ Union/ms.**](-ms-union.md) fournit la compatibilité avec les interfaces générées sur les versions précédentes du compilateur MIDL.
 

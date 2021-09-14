@@ -4,12 +4,12 @@ ms.assetid: 028b1d01-3b66-4640-98f9-ca33f90ca516
 title: Exemple de transformation de personnalisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a23edef68e749e6352b4356d09d674dabb6bb74f746b443926ca6730f7974f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26ea655d1187b0271aba7ea56a46bacf95f5fb40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092993"
 ---
 # <a name="a-customization-transform-example"></a>Exemple de transformation de personnalisation
 

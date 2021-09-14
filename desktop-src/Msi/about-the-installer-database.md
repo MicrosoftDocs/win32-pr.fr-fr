@@ -1,19 +1,19 @@
 ---
-description: La base de données Windows Installer se compose de nombreuses tables liées entre elles qui forment une base de données relationnelle des informations nécessaires à l’installation d’un groupe d’applications.
+description: la base de données Windows Installer se compose de nombreuses tables liées entre elles qui forment une base de données relationnelle des informations nécessaires à l’installation d’un groupe d’applications.
 ms.assetid: 3352dd8f-c082-4c4b-98be-5823c8b28f07
 title: À propos de la base de données du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c7f0ee2cc326f85d964ac3d845b97751a48fbb91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864534"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092937"
 ---
 # <a name="about-the-installer-database"></a>À propos de la base de données du programme d’installation
 
-La base de données Windows Installer se compose de nombreuses tables liées entre elles qui forment une base de données relationnelle des informations nécessaires à l’installation d’un groupe d’applications. Étant donné que la base de données est relationnelle, les tables sont liées par les données dans les valeurs de clé primaire et étrangère. Cela constitue une méthode efficace pour modifier le processus d’installation et signifie que les utilisateurs peuvent personnaliser plus facilement une application ou un groupe d’applications de grande taille. Les tables de base de données reflètent la disposition générale du groupe entier d’applications, notamment :
+la base de données Windows Installer se compose de nombreuses tables liées entre elles qui forment une base de données relationnelle des informations nécessaires à l’installation d’un groupe d’applications. Étant donné que la base de données est relationnelle, les tables sont liées par les données dans les valeurs de clé primaire et étrangère. Cela constitue une méthode efficace pour modifier le processus d’installation et signifie que les utilisateurs peuvent personnaliser plus facilement une application ou un groupe d’applications de grande taille. Les tables de base de données reflètent la disposition générale du groupe entier d’applications, notamment :
 
 -   Fonctionnalités disponibles
 -   Composants

@@ -4,12 +4,12 @@ ms.assetid: b14787fe-3179-47d7-8a15-da45987d613f
 title: Exemple de localisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4ef7ae0fdfa13ffa95956262250b0cb0c7db33c2b7ccd7741136d88b6727a2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d5ae0b04e65383d665e2532d45f0cc2eed856a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118382239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092974"
 ---
 # <a name="a-localization-example"></a>Exemple de localisation
 

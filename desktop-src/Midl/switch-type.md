@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8695a17c60f9785d7782d77db839499306a9577755e8a6838540f5a0fc2cea48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14184c5838d9f671f75536714d73c3f6ebf00a0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146232"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093157"
 ---
 # <a name="switch_type-attribute"></a>\_attribut type de commutateur
 
@@ -38,7 +38,7 @@ Spécifie un type [**int**](int.md), [**char**](char-idl.md), [**Boolean**](bool
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Tandis que l’attribut **\[ \_ type \] de commutateur** identifie le type de variable, le **\[** [**commutateur \_ est**](switch-is.md) **\]** attribute spécifie le nom du paramètre qui est l’Union discriminante. L’attribut **\[ \_ type \] de commutateur** s’applique aux paramètres ou aux membres de structures ou d’unions.
 
@@ -68,10 +68,10 @@ typedef struct _WINNER_TYPE
 
 <dl> <dt>
 
-[**Boolean**](boolean.md)
+[**Booléen**](boolean.md)
 </dt> <dt>
 
-[**Char**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [Unions encapsulées](encapsulated-unions.md)

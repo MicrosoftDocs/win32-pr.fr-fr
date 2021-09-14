@@ -4,12 +4,12 @@ ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
 title: événements de contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd72e93da7ed84c845b5993b2a021119c861b682ab5eb4645c69c723b17a404
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 221e8d9e6a8cea9a02b303040d06da346800912e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120075089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091977"
 ---
 # <a name="control-events-windows-installer"></a>événements de contrôle (Windows Installer)
 

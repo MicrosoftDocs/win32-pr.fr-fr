@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 025c7e7609e7e0d19c15dfa24e27b9f174114e9287a9e09d01d2436b4ef2ef8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05bb382b745d172ea4b81f9920154e7c79a58c2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232344"
 ---
 # <a name="constant-float-register-hlsl-ps-reference"></a>Registre à virgule flottante constante (référence PS HLSL)
 

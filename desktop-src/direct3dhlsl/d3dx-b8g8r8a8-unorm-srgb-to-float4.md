@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3620823a572b7eb23f05bdda83866aae982f326dfb70ca6856309abc9d96f05b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91311bb83aa034410361bea631aa79f86737ff65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118516595"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232566"
 ---
 # <a name="d3dx_b8g8r8a8_unorm_srgb_to_float4-function"></a>\_B8G8R8A8 \_ de D3DX UNORM \_ sRVB à la \_ \_ fonction float4
 
@@ -44,11 +44,11 @@ Données de nuanceur compressées.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Données de nuanceur décompressées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: abf8887f229669273b26c9afeb036821842bf19311a752654ba1b5909d943090
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77875eed0827ad6bcb6d89111b13b6a31232dd86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232271"
 ---
 # <a name="sampler-direct3d-9-asm-ps"></a>Échantillonneur (Direct3D 9 ASM-PS)
 

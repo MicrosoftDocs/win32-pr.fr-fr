@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 239486792eb218d51c305f9955331e90c6c165586153dab167f2e19d3a0324e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0f403430f70fde71696ec2a35a34161f08bada9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118641034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093081"
 ---
 # <a name="usesgetlasterror-attribute"></a>usesgetlasterror (attribut)
 
@@ -72,7 +72,7 @@ Type des données retournées par la procédure distante à la fin de l’opéra
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Nom de la procédure distante tel que défini dans le fichier IDL.
@@ -86,7 +86,7 @@ Zéro, un ou plusieurs paramètres à la procédure distante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’attribut **\[ \] usesgetlasterror** peut être défini sur un point d’entrée de module, si ce point d’entrée utilise la fonction Windows [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) pour retourner des codes d’erreur. L’attribut indique à l’appelant que, en cas d’erreur lors de l’appel de cette fonction, l’appelant peut ensuite appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) pour récupérer le code d’erreur.
 

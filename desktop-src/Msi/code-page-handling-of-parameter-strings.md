@@ -4,12 +4,12 @@ ms.assetid: cc1eb336-5dec-40cc-8aa5-564cd167855d
 title: Gestion des pages de codes des chaînes de paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37555b905c60cb8f4727ccb723435d28b24d41d3aca1fc7026e34b799e25414a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 22a52872472d5509e1abdf35aa12be5afb6a8d13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119328338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092210"
 ---
 # <a name="code-page-handling-of-parameter-strings"></a>Gestion des pages de codes des chaînes de paramètres
 

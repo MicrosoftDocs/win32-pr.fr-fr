@@ -8,12 +8,12 @@ keywords:
 - stubs MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04e0f78e47ed078bf7cd1fd78fa8730b597554a6c8ba1ed4fc5a67bc562e7d82
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 526265a60f8b2ef2f31d19d0356d4ec3a3ae8c8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118641169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093153"
 ---
 # <a name="targeting-stubs-for-specific-32-bit-or-64-bit-platforms"></a>Ciblage des stubs pour des plateformes 32 bits ou 64 bits spécifiques
 

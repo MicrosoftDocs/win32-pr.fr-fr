@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e87d1b6105d7e6ae561d7409cbf256b67f965c61e235ffc5782594cb5623497c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fa22b231c63583c6d16e6a50f3e9987c5b61128
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117806795"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093458"
 ---
 # <a name="lcid-attribute"></a>LCID (attribut)
 
@@ -76,7 +76,7 @@ Une ou plusieurs instructions MIDL qui définissent le contenu de la [**biblioth
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la fonction dans le fichier IDL.
@@ -97,7 +97,7 @@ Spécifie le nom du paramètre dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La syntaxe **\[ \] LCID** a deux formes différentes ; l’effet de l’attribut dépend de la syntaxe que vous utilisez, à savoir la syntaxe de l’instruction de la [**bibliothèque**](library.md) ou la syntaxe du paramètre.
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 056dc0e53c5467ef1bff43926da6fa7ca8e28b45ad247b2c4462147c666cdeab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddec0922218b9770d7a0c4cb4877f6144eded900
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119371339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232553"
 ---
 # <a name="d3dx_float4_to_b8g8r8a8_unorm-function"></a>D3DX \_ float4 \_ vers \_ B8G8R8A8 \_ UNORM, fonction
 
@@ -44,11 +44,11 @@ Données du nuanceur à compresser.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Données de nuanceur compressées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

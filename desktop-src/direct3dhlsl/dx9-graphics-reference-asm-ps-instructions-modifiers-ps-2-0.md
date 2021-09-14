@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6875789c40a2f0fab2987927662658a821de5742b2473b7947250cfb11da8155
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc8ed91f8e103ebbab7c43ffe53201f0e1d5dfcf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232386"
 ---
 # <a name="modifiers-for-ps_2_0-and-above"></a>Modificateurs pour PS \_ 2 \_ 0 et versions ultérieures
 
@@ -70,7 +70,7 @@ Le \_ modificateur pp peut se produire dans deux contextes :
 -   Sur une déclaration de coordonnée de texture pour permettre le passage de coordonnées de texture au nuanceur de pixels en forme de précision partielle. Cela permet, par exemple, d’utiliser des coordonnées de texture pour transmettre des données de couleur au nuanceur de pixels, ce qui peut être plus rapide avec une précision partielle qu’avec une précision totale dans certaines implémentations. En l’absence de ce modificateur, les coordonnées de texture doivent être passées en pleine précision.
 -   Sur toute instruction, y compris les instructions de chargement de texture. Cela indique que l’implémentation est autorisée à exécuter l’instruction avec une précision partielle et à stocker un résultat de précision partielle. En l’absence d’un modificateur explicite, l’instruction doit être exécutée à la précision totale (quelle que soit la précision d’entrée).
 
-Exemples :
+Exemples :
 
 
 ```

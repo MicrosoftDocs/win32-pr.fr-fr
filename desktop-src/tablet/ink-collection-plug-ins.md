@@ -4,12 +4,12 @@ ms.assetid: 9a29525d-714a-431e-bb6f-4705d658537b
 title: Plug-ins Ink-Collection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64966e2d088e9145fa4a0c0b29a7f7cc787b8435a3e4a609e75eae27b4e25524
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc060adf172938612e8f16f9a694e4ee3e1a7b64
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231131"
 ---
 # <a name="ink-collection-plug-ins"></a>Plug-ins Ink-Collection
 

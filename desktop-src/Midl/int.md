@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 640eae8bfbadcba07f67d244edd78726269ede9eee2f14e9af06e851bb5cac92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f916c4f03023c756b71a2e3cbb38acd9f41f1e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117807197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093478"
 ---
 # <a name="int-attribute"></a>int (attribut)
 
@@ -45,7 +45,7 @@ Spécifie un ou plusieurs déclarateurs C standard, tels que les identificateurs
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les types d’entiers sont parmi les types de base du langage IDL (Interface Definition Language). Ils peuvent apparaître en tant que spécificateurs de type dans les déclarations [**typedef**](typedef.md) , les déclarations générales et les déclarateurs de fonction (en tant que spécificateur de type de retour de fonction et en tant que spécificateur de type de paramètre). Pour le contexte dans lequel les spécificateurs de type s’affichent, consultez [fichier de définition d’interface (IDL)](interface-definition-idl-file.md).
 
@@ -92,7 +92,7 @@ HRESULT MyFunc([in] long int lCount);
 [**/osf**](-osf.md)
 </dt> <dt>
 
-[**short**](short.md)
+[**Résumé**](short.md)
 </dt> <dt>
 
 [**abonné**](signed.md)

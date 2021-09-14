@@ -4,12 +4,12 @@ ms.assetid: cb22495f-968c-470a-a2f1-d0e068133956
 title: Copier un fichier Unicode dans un fichier ANSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 224a9115da67848bd43aaceb7e5d8f529693558191e52a04de2e7645a4e60aeb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bde68c60eaa5a007aee7d2ca2d79159c9b7fce20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118143373"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091946"
 ---
 # <a name="copy-a-unicode-file-to-an-ansi-file"></a>Copier un fichier Unicode dans un fichier ANSI
 

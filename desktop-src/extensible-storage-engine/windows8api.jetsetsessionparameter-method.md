@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b995fe5b749640ced2164cdbed72a421510f3bf23cb02e30acb18b47b262efa1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b73331c765e1f8026b39c28dde5268417601663c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117889378"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232001"
 ---
 # <a name="windows8apijetsetsessionparameter-method"></a>Méthode Windows8Api. JetSetSessionParameter
 
@@ -95,7 +95,7 @@ public static void JetSetSessionParameter(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows8Api, classe](./windows8api-class.md)
 

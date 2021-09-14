@@ -4,12 +4,12 @@ ms.assetid: 4d795727-684c-4dc1-8b46-d72b69c455c3
 title: Choix de la langue par défaut d’un module de fusion à plusieurs langues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c174a3917538b1562626819f8ba2bf07864c9169c27e717a078cca8d64992ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 758a3b47b7a41777652a11a1cdc1b7f380055cb7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145655"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092250"
 ---
 # <a name="choosing-the-default-language-of-a-multiple-language-merge-module"></a>Choix de la langue par défaut d’un module de fusion à plusieurs langues
 

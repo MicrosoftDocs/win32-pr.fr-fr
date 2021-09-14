@@ -4,12 +4,12 @@ ms.assetid: 60687a4f-aaa4-4264-a3f7-0a16eb1fb336
 title: Ajout d’assemblys à un package
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a96c1b8c8d9b73fedf03fceeb82be62b8457556da02334ed7a224aefc2202a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ded0795003ae8faf1b7bb945671990767d3eefb7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092858"
 ---
 # <a name="adding-assemblies-to-a-package"></a>Ajout d’assemblys à un package
 
@@ -50,9 +50,9 @@ utilisez les instructions suivantes lorsque vous incluez des assemblys que la co
 
 
 
-| Composant  | Name           | Valeur            |
+| Composant  | Nom           | Valeur            |
 |------------|----------------|------------------|
-| Composant | Name           | simple           |
+| Composant | Nom           | simple           |
 | Composant | version        | 1.0.0.0          |
 | Composant | Culture        | neutre          |
 | Composant | publicKeyToken | 9d1ec8380f483f5a |

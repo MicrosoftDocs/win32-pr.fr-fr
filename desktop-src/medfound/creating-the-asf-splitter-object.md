@@ -4,12 +4,12 @@ ms.assetid: 448e2b38-70f7-4491-aac8-ee988a6f7473
 title: Création de l’objet Splitter ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa5782f42b53607943704836c350b76e69d872e8d9654959d4453d8e029c21f0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d42c8033a0861102f6d66b22e43516a616d6428b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119600809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231881"
 ---
 # <a name="creating-the-asf-splitter-object"></a>Création de l’objet Splitter ASF
 
@@ -17,7 +17,7 @@ L’objet *séparateur* ASF est un objet de couche WMContainer qui analyse l’o
 
 Avant que le séparateur puisse commencer l’analyse, l’application doit initialiser le séparateur avec les informations de l’objet d’en-tête ASF. Pour initialiser le séparateur, appelez la méthode [**IMFASFSplitter :: Initialize**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-initialize) . Cette méthode prend un pointeur vers l' [objet ASF ContentInfo](asf-contentinfo-object.md) qui contient les informations d’en-tête du fichier ASF à analyser. L’application doit initialiser l’objet ContentInfo avant de le passer au séparateur afin que les caractéristiques du fichier multimédia soient connues de l’application. La méthode **Initialize** de Splitter extrait les informations de flux de l’objet ContentInfo, telles que les numéros de flux, afin que le séparateur puisse analyser les paquets de données.
 
-### <a name="example"></a>Exemples
+### <a name="example"></a>Exemple
 
 L’exemple de code suivant montre comment créer un séparateur et l’initialiser avec un objet ContentInfo existant.
 

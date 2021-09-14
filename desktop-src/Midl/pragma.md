@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ca869acddf4b0a0a098707833e889efcfccc267a3abf1949921c550cf66c773
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72f5e1c00c089bc8915adc2d9f3363305c677a96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118383497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093258"
 ---
 # <a name="pragma-attribute"></a>pragma (attribut)
 
@@ -63,7 +63,7 @@ Spécifie l’identificateur de l’utilisateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les directives de prétraitement du langage c qui s’affichent dans le fichier IDL sont traitées par le préprocesseur du compilateur C. Les directives de **\# définition** dans le fichier IDL sont disponibles pendant la compilation MIDL, mais pas pour le compilateur C.
 

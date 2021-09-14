@@ -4,12 +4,12 @@ ms.assetid: cdad16ad-426c-4e04-8003-b32c67be7329
 title: Type d’action personnalisé 51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e780c1a38b60c855f4bfe665f5f68a3f6a037a078f4a2875d1a2ea57c5e7e8dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef3224add3a425131ee3308bc4f610b086cd99a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120075049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091781"
 ---
 # <a name="custom-action-type-51"></a>Type d’action personnalisé 51
 
@@ -55,7 +55,7 @@ L’action personnalisée n’utilise pas ces options.
 
 Consultez [valeurs de retour de l’action personnalisée](custom-action-return-values.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous définissez une [propriété privée](private-properties.md) dans la séquence d’interface utilisateur en créant une action personnalisée dans l’une des tables de séquence de l’interface utilisateur, cette propriété n’est pas définie dans la séquence d’exécution. Pour définir la propriété dans la séquence d’exécution, vous devez également placer une action personnalisée dans une table de séquence d’exécution. Vous pouvez également faire de la propriété une [propriété publique](public-properties.md) et l’inclure dans la [**propriété SecureCustomProperties**](securecustomproperties.md).
 

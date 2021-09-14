@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 7de6780b5e4f0b231c962b207bc7e58775231a0487ee0deab5c28aaa3d63b5b3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de4a9c735e344cc93371205e3a987d9f31d7bbf3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119745809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092233"
 ---
 # <a name="clientcontext-property"></a>Client. Context, propriété
 
@@ -30,7 +30,7 @@ Contexte du produit. Cette propriété appelle la fonction [**MsiEnumClientsEx**
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

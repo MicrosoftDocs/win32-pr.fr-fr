@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 39cd64e03a20bfabf3bff57df2a78879535fa557
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093277"
 ---
 # <a name="out_of_line-attribute"></a>\_attribut hors \_ ligne
 
@@ -30,9 +30,9 @@ Le mot clé IDL **DCE \_ hors \_ ligne** n’est pas pris en charge dans Microso
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

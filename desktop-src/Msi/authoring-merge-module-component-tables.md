@@ -4,12 +4,12 @@ ms.assetid: ef4a0678-bf6b-47c9-89e8-40e12da52d9b
 title: Création de tables de composants de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728fa03b7041933aff5fc00d839979d90e634853efde1d369970c116367b4637
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46557541b3a6b89841fe3e26cef7c00e59dc3911
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119264019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092517"
 ---
 # <a name="authoring-merge-module-component-tables"></a>Création de tables de composants de module de fusion
 

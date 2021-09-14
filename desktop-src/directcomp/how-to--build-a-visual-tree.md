@@ -4,12 +4,12 @@ description: Cette rubrique montre comment créer une arborescence d’élément
 ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e27a3af12976f08a1f878779506ac1a42076adecebda02550149e5cb1653d31
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 621e3f48f76b76be92dc464678dce23b08ebdbd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119670873"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232182"
 ---
 # <a name="how-to-build-a-simple-visual-tree"></a>Comment créer une arborescence d’éléments visuels simple
 

@@ -4,12 +4,12 @@ ms.assetid: c4547e5d-ea71-494f-9d92-c7fef23bcc0f
 title: Vérification de l’installation des fonctionnalités, des composants, des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 866b4f7b042c97660e43a92fc55eeb99e2f1e9f3574a9b03c4d3d6e6096504c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7cab15b4f0590ee5613865d4b7c21439eec6dbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092253"
 ---
 # <a name="checking-the-installation-of-features-components-files"></a>Vérification de l’installation des fonctionnalités, des composants, des fichiers
 

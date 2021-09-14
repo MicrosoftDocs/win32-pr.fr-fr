@@ -4,12 +4,12 @@ ms.assetid: cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84
 title: Accès à la session de programme d’installation actuelle à partir d’une action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3ee3214b8f8664b57f5216b28a7f5d5269d76049fe5c4dd24f7ab8d130d89a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29a870247f70742d408c0f5d1d0e67f20cef65d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118640188"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092906"
 ---
 # <a name="accessing-the-current-installer-session-from-inside-a-custom-action"></a>Accès à la session de programme d’installation actuelle à partir d’une action personnalisée
 

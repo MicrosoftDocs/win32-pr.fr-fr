@@ -4,12 +4,12 @@ ms.assetid: 0c9a7469-5959-45ad-b84d-6cfd3e169ff6
 title: Table ComPlus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f77885688226689e5d81e074b1a9a28ef3801aaeba5febf51165377ac9ad9e65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a2ad5b7b96044025b78bfc774ee0767c2756aa8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144970"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092125"
 ---
 # <a name="complus-table"></a>Table ComPlus
 
@@ -46,7 +46,7 @@ Exportez les indicateurs utilisés lors de la génération du fichier .msi. pour
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Consultez l’action [RegisterComPlus](registercomplus-action.md) et l' [action UnregisterComPlus](unregistercomplus-action.md).
 

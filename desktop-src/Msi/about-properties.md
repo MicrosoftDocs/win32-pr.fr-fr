@@ -4,12 +4,12 @@ ms.assetid: b7b715e7-e92c-4b84-b60d-a0ff8412749b
 title: À propos des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4a7bdd5a70721520c4d2afb975aabaca312975dc3bf4b7d94215112f69a0a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3dc5d8154533cfebf4163983a149a547372ef4a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118382076"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092953"
 ---
 # <a name="about-properties"></a>À propos des propriétés
 

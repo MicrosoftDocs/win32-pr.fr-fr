@@ -4,12 +4,12 @@ ms.assetid: cfc2d974-4f2d-4f52-9835-eab1dc091c9b
 title: Création d’un contrôle ProgressBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1074744220bde8734fe0cd1f65aa1037ff1f0cb26763a11845a7ea7f1b58e507
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b872ed2dd36fb8ed04ee48fd69e4680fce002a18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092518"
 ---
 # <a name="authoring-a-progressbar-control"></a>Création d’un contrôle ProgressBar
 

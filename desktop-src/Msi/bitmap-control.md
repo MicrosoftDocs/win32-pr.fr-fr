@@ -4,12 +4,12 @@ ms.assetid: 4b511d8a-1819-4a9b-a942-dc32fade75c6
 title: Contrôle bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f677a7745d3920d5fee44cd64489f9f2c69f8cdb1fb697a0020046a92583e569
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 058b67d52266906735719976bf7311b4f562b474
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092362"
 ---
 # <a name="bitmap-control"></a>Contrôle bitmap
 
@@ -35,7 +35,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe statique à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ SS bitmap**, **SS \_ CENTERIMAGE**, **WS \_ Child** et **WS \_ Group** .
 

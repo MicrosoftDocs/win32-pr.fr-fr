@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4fa7448ff9d0cf3946ad3d0293ade19a5c2c0c407ca157d79c2c425f4a8ef6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6312aff15d3bdef85d1e37829d669ce1faa5fbb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118642760"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093381"
 ---
 # <a name="ncacn_dnet_nsp-attribute"></a>ncacn \_ dnet, \_ attribut NSP
 
@@ -45,7 +45,7 @@ Spécifie un nom d’objet DECnet ou un numéro d’objet. Le nom de l’objet p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La syntaxe de la chaîne de port de transport DECnet, comme toutes les chaînes de port, est définie indépendamment de la spécification IDL. Le compilateur effectue une vérification de la syntaxe, mais ne garantit pas que la spécification du point de terminaison est correcte. Certaines erreurs peuvent être signalées au moment de l’exécution plutôt qu’au moment de la compilation.
 

@@ -4,12 +4,12 @@ ms.assetid: b2f2907d-6966-4b63-9589-c1580f8db574
 title: Table _Storages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee16db075df86e5c5a9c794d3320b49052cf746023bd70e02305d6ce079dbbf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27995dd61c7d25100fc0e1ae2297695e361f44f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146072"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093025"
 ---
 # <a name="_storages-table"></a>\_Table de stockage
 
@@ -44,7 +44,7 @@ Données binaires non mises en forme.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour ajouter un stockage OLE à une base de données, créez un nouvel enregistrement dans la \_ table de stockage et entrez le nom du stockage dans la colonne nom. Utilisez [**MsiRecordSetStream**](/windows/desktop/api/Msiquery/nf-msiquery-msirecordsetstreama) pour copier des données dans la colonne de données de cet enregistrement. Enfin, utilisez [**MsiViewModify**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify) pour insérer l’enregistrement dans la \_ table storages.
 

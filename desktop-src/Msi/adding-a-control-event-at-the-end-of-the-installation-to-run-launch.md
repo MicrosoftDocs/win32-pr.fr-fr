@@ -4,12 +4,12 @@ ms.assetid: 323d62ae-333b-49fd-96a1-55b228c8ab2c
 title: Ajout d’un événement de contrôle à la fin de l’installation pour exécuter le lancement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0cf2a32a30187ea263bd2e3530e6eaae7d236e111826cbcab2461746d9c8e48
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 545901c4cfd0936f63078d5ad56586022fb4ec4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092870"
 ---
 # <a name="adding-a-control-event-at-the-end-of-the-installation-to-run-launch"></a>Ajout d’un événement de contrôle à la fin de l’installation pour exécuter le lancement
 
@@ -19,7 +19,7 @@ Le programme d’installation exécute la séquence de l’Assistant Installatio
 
 
 
-| Boîte de dialogue     | contrôle\_ | Événement     | Argument | Condition                     | Organisation |
+| Boîte de dialogue     | contrôle\_ | Événement     | Argument | Condition                     | Classement |
 |------------|-----------|-----------|----------|-------------------------------|----------|
 | ExitDialog | Ok        | EndDialog | Renvoie   | 1                             | 1        |
 | ExitDialog | Ok        | Action  | Lancer   | NON installé et $Tutorial = 3 | 2        |

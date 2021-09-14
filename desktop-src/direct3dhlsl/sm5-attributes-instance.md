@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 77c19b26107228bb04007d1c2c69ac34b464c7c361966ac9858d9bcdb09b4c4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4749e11db00b38e5e223e11315de86656b2f6488
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232242"
 ---
 # <a name="instance"></a>instance
 
@@ -27,7 +27,7 @@ instance(X)
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 X est un index d’entiers qui indique le nombre d’instances à exécuter pour chaque élément dessiné (par exemple, pour chaque triangle). Lorsque vous utilisez cet attribut, utilisez [SV \_ GSInstanceID](sv-gsinstanceid.md) pour identifier l’instance d’un nuanceur Geometry qui est exécutée.
 
@@ -35,7 +35,7 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        | x        |       |         |
 

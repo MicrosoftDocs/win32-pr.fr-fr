@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b8724526142236b70faade68bf7d3ca358eb3f3810cae73f58adde17f25a0d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e928a95a71d9636f88bc3c79ac36168072527040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119591569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230993"
 ---
 # <a name="drm_license_state_category-enumeration-wmdrmsdkh"></a>Énumération DRM_LICENSE_STATE_CATEGORY (wmdrmsdk. h)
 
@@ -123,7 +123,7 @@ Spécifie que l’action pour laquelle **les \_ \_ \_ données d’état de lice
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

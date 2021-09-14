@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 074e3cee4cd20a35c780ce0c644b24c7688956d85a631f3563dd678c70c82822
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4ce0e514b24aba0331d9ea604333680db1c67c8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231174"
 ---
 # <a name="ianalysisregionintersectrectangle-method"></a>IAnalysisRegion :: IntersectRectangle, méthode
 
@@ -46,17 +46,17 @@ Pointeur vers le rectangle avec lequel effectuer l’intersection, en coordonné
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les coordonnées du rectangle sont exprimées en unités HIMETRIC.
 
 Si les deux zones ne se croisent pas, la nouvelle zone est vide.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

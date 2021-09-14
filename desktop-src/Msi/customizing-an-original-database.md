@@ -4,12 +4,12 @@ ms.assetid: 1251d377-7143-4a6b-81d0-0915f952be10
 title: Personnalisation d’une base de données d’origine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f02f176bb24b1792d9184ebc662a45c9dbfdb8df385b3fb481967c9c8a099a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3222ebce146e891c7b16c70eb78f0f26b95727c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120075039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091750"
 ---
 # <a name="customizing-an-original-database"></a>Personnalisation d’une base de données d’origine
 
@@ -63,12 +63,12 @@ Utilisez votre éditeur de base de données pour modifier les données dans la [
 
 
 
-| Caractéristique     | Parent de la fonctionnalité \_ | Titre         | Description                | Affichage | Niveau | Répertoire\_ | Attributs |
+| Fonctionnalité     | Parent de la fonctionnalité \_ | Intitulé         | Description                | Affichage | Level | Répertoire\_ | Attributs |
 |-------------|-----------------|---------------|----------------------------|---------|-------|-------------|------------|
-| Spectacle        |                 | Spectacle          | Événements Arts au niveau du parc rouge.   | 20      | 3     | NOTEPADDIR  | 0          |
+| Arts        |                 | Arts          | Événements Arts au niveau du parc rouge.   | 20      | 3     | NOTEPADDIR  | 0          |
 | Chaussures    | Sport           | Chaussures      | Jeux de baseball             | 17      | 3     | SPORTDIR    | 32         |
-| Concert     | Spectacle            | Concert       | Événements de concert au niveau du parc rouge | 21      | 3     | ARTSDIR     | 2          |
-| Jongl       | Spectacle            | Jongl         | Événements danse au niveau du parc rouge   | 23      | 3     | ARTSDIR     | 2          |
+| Concert     | Arts            | Concert       | Événements de concert au niveau du parc rouge | 21      | 3     | ARTSDIR     | 2          |
+| Jongl       | Arts            | Jongl         | Événements danse au niveau du parc rouge   | 23      | 3     | ARTSDIR     | 2          |
 | Terrain    | Sport           | Terrain      | Jeux de football             | 19      | 3     | SPORTDIR    | 2          |
 | Porte        |                 | Porte          | Les admissions du parc rouge      | 6       | 0     | NOTEPADDIR  | 0          |
 | Aide        | Bloc-notes         | Aide          | Fichier d’aide.                 | 5       | 3     | NOTEPADDIR  | 1          |
@@ -89,7 +89,7 @@ Ajoutez l’enregistrement suivant à la [table FeatureComponents](featurecompon
 
 
 
-| Caractéristique\_   | Composant\_ |
+| Fonctionnalité\_   | Composant\_ |
 |-------------|-------------|
 | Téléphone \_ Tarifs | Téléphone       |
 
@@ -103,7 +103,7 @@ ajoutez un nouvel enregistrement dans la [table de raccourcis](shortcut-table.md
 
 
 
-| Raccourci | Répertoire\_ | Name      | Composant\_ | Cible          | Arguments | Description | Touche d’accès rapide | Située\_ | IndexIcône | ShowCmd | WkDir |
+| Raccourci | Répertoire\_ | Nom      | Composant\_ | Cible          | Arguments | Description | Touche d’accès rapide | Icône\_ | IndexIcône | ShowCmd | WkDir |
 |----------|-------------|-----------|-------------|-----------------|-----------|-------------|--------|--------|-----------|---------|-------|
 | À la une   | MENUDIR     | Phone.txt | Téléphone       | \[\#Phone.txt\] |           |             |        |        |           |         |       |
 

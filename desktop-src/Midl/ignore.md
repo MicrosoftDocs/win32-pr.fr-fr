@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c6b7a1e70804bc3c9c277f3d46ac6a8ad20fc0f98b370f93fe9fd09b0b1bb99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e82b9525dd6de316087db8fdfd55181118d3adc6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093521"
 ---
 # <a name="ignore-attribute"></a>ignorer l’attribut
 
@@ -45,7 +45,7 @@ Spécifie le nom du membre pointeur qui doit être ignoré pendant le marshaling
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur d’un membre de structure avec l’attribut **\[ ignore \]** est non définie au niveau de la destination. Un **\[** paramètre [**in**](in.md) **\]** n’est pas défini sur l’ordinateur distant. Un **\[** [](out-idl.md) **\]** paramètre de sortie n’est pas défini sur l’ordinateur local.
 

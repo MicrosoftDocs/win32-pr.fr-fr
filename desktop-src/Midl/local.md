@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a40b1842bf637d3b7fcaab7a0c13319def1d1663
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106513498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093441"
 ---
 # <a name="local-attribute"></a>attribut local
 
@@ -153,7 +153,7 @@ interface mixed_procs
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**handle implicite \_**](implicit-handle.md)
@@ -180,15 +180,15 @@ interface mixed_procs
 [**unique**](unique.md)
 </dt> <dt>
 
-[**universel**](uuid.md)
+[**uuid**](uuid.md)
 </dt> <dt>
 
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ebf9b7d3aa3590417897383f47595fe25baa0d77f0121d64af5242ba0c214d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc683472d67775c4a2900695246d5f9ca920ca32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093098"
 ---
 # <a name="union-attribute"></a>attribut Union
 
@@ -125,7 +125,7 @@ Spécifie une balise facultative.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 MIDL prend en charge deux types d’unions discriminées : les [unions encapsulées](encapsulated-unions.md) et les unions qui ne sont pas [encapsulées](nonencapsulated-unions.md). L’Union encapsulée est compatible avec les implémentations précédentes de RPC (NCA version 1). L’Union non encapsulée élimine certaines des restrictions de l’Union encapsulée et fournit un discriminante plus visible que l’Union encapsulée.
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 521a8d4f1233704551c06086e2e3970e47ede176a93f1ed068beef5195070dca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d962b9aa1a9da716613e7d9df74bdb8d6cee09a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118143996"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092010"
 ---
 # <a name="configurableitemname-property"></a>Propriété ConfigurableItem.Name
 
@@ -42,7 +42,7 @@ propVal = ConfigurableItem.Name
 
 Consultez la fonction [**obtenir un \_ nom**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_name) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

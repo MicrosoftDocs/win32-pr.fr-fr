@@ -3,13 +3,13 @@ description: options de ligne de commande pour msiexec.exe pour Windows Installe
 ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Options de ligne de commande
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: d4a45d59922a6c2c1d6cd0b5f8cd61b393944e23
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.date: 09/10/2021
+ms.openlocfilehash: 164947ce7baee8df69758be70ab03d9630a3bdd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092178"
 ---
 # <a name="command-line-options"></a>Options de ligne de commande
 
@@ -96,12 +96,12 @@ La longueur du <em>nom de fichier</em> ne doit pas dépasser huit caractères.
 <tr class="odd">
 <td><strong>/y</strong></td>
 <td><em>modules</em></td>
-<td>Appelle la fonction système <strong>DllRegisterServer</strong> pour inscrire automatiquement les modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser :<br/> <strong>msiexec/y .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être ajoutées à l’aide des tables de Registre du fichier .msi.<br/></td>
+<td>Appelle la fonction système <strong>DllRegisterServer</strong> pour inscrire automatiquement les modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser :<br/> <strong>msiexec/y. \MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être ajoutées à l’aide des tables de Registre du fichier .msi.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>z</strong></td>
 <td><em>modules</em></td>
-<td>Appelle la fonction système <strong>DllUnregisterServer</strong> pour annuler l’inscription des modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser : <br/> <strong>msiexec/z .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être supprimées à l’aide des tables de Registre du fichier .msi.<br/></td>
+<td>Appelle la fonction système <strong>DllUnregisterServer</strong> pour annuler l’inscription des modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser : <br/> <strong>msiexec/z. \MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être supprimées à l’aide des tables de Registre du fichier .msi.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/c</strong></td>

@@ -4,12 +4,12 @@ ms.assetid: f242fd6f-ae73-4ea6-9650-f2661440f61f
 title: Propriété alpha
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6827ede2e675253984626849f5e0321ef1f9c8179a1c4a380dcd1cca0866417
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a699f5d48d7cc21e51862630ebb8c246453cff69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119315489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092717"
 ---
 # <a name="alpha-property"></a>Propriété alpha
 
@@ -20,7 +20,7 @@ La propriété **alpha** est définie uniquement en cas d’exécution sur un pr
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

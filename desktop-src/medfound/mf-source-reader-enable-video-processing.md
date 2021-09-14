@@ -5,11 +5,11 @@ title: Attribut MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9bfcbb076d5f42e784277dbd78101b473ec33905
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484808"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231756"
 ---
 # <a name="mf_source_reader_enable_video_processing-attribute"></a>\_Lecteur source MF-activer l’attribut de \_ \_ \_ \_ traitement vidéo
 
@@ -24,7 +24,7 @@ Active le traitement vidéo par le [lecteur source](source-reader.md).
 | Valeur                                                                                                                                                                | Signification                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | <span id="Nonzero"></span><span id="nonzero"></span><span id="NONZERO"></span><dl> <dt>**Différente**</dt> </dl> | Activez le traitement vidéo.<br/>            |
-| <span id="Zero"></span><span id="zero"></span><span id="ZERO"></span><dl> <dt>**Nuls**</dt> </dl>             | Désactivez le traitement vidéo. (Par défaut)<br/> |
+| <span id="Zero"></span><span id="zero"></span><span id="ZERO"></span><dl> <dt>**Zéro**</dt> </dl>             | Désactivez le traitement vidéo. (Par défaut)<br/> |
 
 
 
@@ -52,14 +52,14 @@ Si cet attribut a la **valeur true**, les attributs suivants doivent avoir la **
 -   [\_ \_ Gestionnaire D3D du lecteur source \_ MF \_](mf-source-reader-d3d-manager.md)
 -   [\_ \_ convertisseurs de désactivation MF ReadWrite \_](mf-readwrite-disable-converters.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Mfreadwrite. h</dt> </dl> |
 
 

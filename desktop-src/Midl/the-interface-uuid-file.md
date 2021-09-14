@@ -7,12 +7,12 @@ keywords:
 - MIDL du fichier UUID de l’interface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d12986ee265fa50f440dd07812d222bb4e7549a6c32c93938803255480871f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d9ff6e8a115f51aaff001749d29e1206716abc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093125"
 ---
 # <a name="the-interface-uuid-file"></a>Fichier UUID de l’interface
 

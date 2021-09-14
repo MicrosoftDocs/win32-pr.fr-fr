@@ -4,12 +4,12 @@ ms.assetid: dc804910-cf15-4f9e-863f-78dcac248717
 title: Propriété ARPNOMODIFY
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9a097f183c13e1c5b6f8f8b6a521c8a03149df130befaa1221b14b732418a0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4ee118c8b0e9d3c1cebef5aeefbf9e97c4793623
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092594"
 ---
 # <a name="arpnomodify-property"></a>Propriété ARPNOMODIFY
 
@@ -21,13 +21,13 @@ Si la propriété **ARPNOMODIFY** est définie, l' [action RegisterProduct](regi
 
 Si la propriété **ARPNOMODIFY** est définie et que la propriété [**ARPNOREMOVE**](arpnoremove.md) n’est pas définie, l’action RegisterProduct écrit également la valeur UninstallString sous cette clé. La valeur UnistallString est une ligne de commande pour la suppression du produit, au lieu de la reconfiguration du produit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 sur Windows 2000, le bouton **modifier** du produit est désactivé dans **ajout/suppression de programmes** du **panneau de configuration**.
 
 Cette propriété peut être définie par une transformation de personnalisation pour empêcher les utilisateurs de modifier la personnalisation d’un administrateur via **Ajout/suppression de programmes**. Cette propriété affecte uniquement **Ajout/suppression de programmes**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

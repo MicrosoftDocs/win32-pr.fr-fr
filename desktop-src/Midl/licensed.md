@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b4320157216db18f595d67e172bc49de2d6050551732265060cb5a21339c908
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1394f24d8b6136cab86615e74838737bbda543b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093442"
 ---
 # <a name="licensed-attribute"></a>attribut sous licence
 
@@ -59,7 +59,7 @@ Spécifie les instructions qui composent la définition de [**coclasse**](coclas
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La gestion des licences est une fonctionnalité de COM qui permet de contrôler la création d’objets. Les objets sous licence ne peuvent être créés que par des clients autorisés à les utiliser. La gestion des licences est implémentée dans COM par le biais de l’interface [**IClassFactory2**](/windows/win32/api/ocidl/nn-ocidl-iclassfactory2) et par la prise en charge d’une clé de licence qui peut être transmise au moment de l’exécution.
 

@@ -4,12 +4,12 @@ ms.assetid: 8aa0ac17-1341-4399-987e-d26175150874
 title: Accès à une base de données ou à une session à partir d’une action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c653d14bc2fdb361469389c4ee053e5d98b65f8c8265516c4e2c3bd4fc4c96d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 839c34fbfcd6cc69c026db455b0c2e3a59a28e2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120046059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092913"
 ---
 # <a name="accessing-a-database-or-session-from-inside-a-custom-action"></a>Accès à une base de données ou à une session à partir d’une action personnalisée
 

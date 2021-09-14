@@ -4,12 +4,12 @@ ms.assetid: b9d41400-f3b5-4f85-8728-56f9b90a50ca
 title: Format spécial CMSM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8521c422d62980da0d222f8a8fc8395afa40b68bfd65c5600298372b1035f97d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ae9b6fa0bc5e84f125d0872a2937db7701f70820
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119252139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092213"
 ---
 # <a name="cmsm-special-format"></a>Format spécial CMSM
 

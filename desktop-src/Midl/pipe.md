@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b8c407bef0a9e610d21e7221eb9a06560f33300f4f1f388fa699ca9dfb18531
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0aaab8d399c99e02b5393ee9f5258da53aea491
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118641952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093273"
 ---
 # <a name="pipe-attribute"></a>attribut de canal
 
@@ -45,7 +45,7 @@ Spécifie un ou plusieurs identificateurs ou pointeurs vers des identificateurs.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser le constructeur de type **pipe** pour transmettre des données dans les deux sens. Un **\[** [](in.md) **\]** paramètre in pipe permet au serveur d’extraire le flux de données du client pendant un appel de procédure distante. Un **\[** paramètre de [**sortie**](out-idl.md) de **\]** canal permet au serveur d’envoyer à nouveau le flux de données au client. Vous fournissez les routines côté client pour l’envoi et l’extraction du flux de données et pour allouer une mémoire tampon globale pour les données. Les routines de stub client et serveur marshalent et démarshalent les données et transmettent une référence à la mémoire tampon à l’application.
 
@@ -102,7 +102,7 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
 [**dans**](in.md)
 </dt> <dt>
 
-[**dessin**](object.md)
+[**object**](object.md)
 </dt> <dt>
 
 [**à**](out-idl.md)

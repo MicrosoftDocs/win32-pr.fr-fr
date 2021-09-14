@@ -4,12 +4,12 @@ ms.assetid: 7e98e63f-616c-4cd1-a8aa-482d27529b8c
 title: Fonctions de notification d’impression asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7d533ad1a3d1a8201e5a2d91946a66daee6cecd796e7bcc8e9c14d2c593542c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdc9a404d1675c8ee87be31c7c57dd14a370697c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231659"
 ---
 # <a name="asynchronous-printing-notification-functions"></a>Fonctions de notification d’impression asynchrone
 

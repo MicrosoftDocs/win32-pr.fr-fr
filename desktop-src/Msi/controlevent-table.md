@@ -4,12 +4,12 @@ ms.assetid: e34d17e9-cd6b-4a21-9abc-9562ee648c59
 title: Table ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fec4837fa7d98289495bbb0773ae7260f957485cd87214dabf1999b1e1a876c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 721dc7ac9a729b8df0623a2958a4d0fe32851307
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119692999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091961"
 ---
 # <a name="controlevent-table"></a>Table ControlEvent,
 
@@ -23,12 +23,12 @@ La table ControlEvent, contient les colonnes suivantes.
 
 | Colonne    | Type                         | Clé | Nullable |
 |-----------|------------------------------|-----|----------|
-| Boîte de dialogue\_  | [Identificateur](identifier.md) | O   | N        |
+| Dialogue\_  | [Identificateur](identifier.md) | O   | N        |
 | contrôle\_ | [Identificateur](identifier.md) | O   | N        |
 | Événement     | [Correct](formatted.md)   | O   | N        |
 | Argument  | [Correct](formatted.md)   | O   | N        |
 | Condition | [Condition](condition.md)   | O   | O        |
-| Organisation  | [Integer](integer.md)       | N   | O        |
+| Classement  | [Integer](integer.md)       | N   | O        |
 
 
 
@@ -84,7 +84,7 @@ Entier utilisé pour classer plusieurs événements liés au même contrôle. Il
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [tableau EventMapping](eventmapping-table.md) répertorie les contrôles qui s’abonnent à un événement de contrôle et répertorie l’attribut de contrôle à modifier lorsque cet événement est publié par un autre contrôle ou le programme d’installation.
 

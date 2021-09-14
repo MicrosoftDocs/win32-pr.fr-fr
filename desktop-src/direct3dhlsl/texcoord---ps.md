@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 476f618634ee42e1363a091f79c97410b3e3b765138696c5c12e8d3c3fcb5bdf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e871d1f91d89d0eb0ddadee34b5ac215916d0af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119043087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232200"
 ---
 # <a name="texcoord---ps"></a>texcoord-PS
 
@@ -35,7 +35,7 @@ where
 
 -   l’heure d’été est le registre de destination.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

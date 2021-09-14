@@ -4,12 +4,12 @@ ms.assetid: c4c8a23b-e1c2-4c96-b708-7cbcbcab4cd4
 title: Les deux fichiers ont une version
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1338a93b4a45094a9a5951c3c59def15affde96dbbe74f3b134ba9dd7532092
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddb52c7333e5455d40475c9f845643535b271d0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380800"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092354"
 ---
 # <a name="both-files-have-a-version"></a>Les deux fichiers ont une version
 

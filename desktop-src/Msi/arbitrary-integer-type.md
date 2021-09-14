@@ -4,12 +4,12 @@ ms.assetid: e35b27ca-be24-4aca-b12f-ca10ab153409
 title: Type d’entier arbitraire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b965b623d2a0a213335086e9139a621fc093fc18bea2d1873faf68e4f24f2961
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7f55f7b7cd1c66d75a6f3aeeef1741168fad6675
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119821829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092634"
 ---
 # <a name="arbitrary-integer-type"></a>Type d’entier arbitraire
 

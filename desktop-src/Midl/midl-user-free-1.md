@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 686850418079b86b4bd083a4ea8c25ce6a0dd876f6f613647e389e3670d699f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53819035f700a948c9ca45c565310d7796516147
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117991165"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093401"
 ---
 # <a name="midl_user_free-attribute"></a>\_ \_ attribut gratuit de l’utilisateur MIDL
 
@@ -38,7 +38,7 @@ Pointeur vers le bloc de mémoire à libérer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application cliente et l’application serveur doivent implémenter la fonction **\_ \_ gratuite utilisateur MIDL** , sauf si vous compilez en mode de compatibilité OSF ([**/OSF**](-osf.md)). La **fonction \_ \_ gratuite de l’utilisateur MIDL** doit pouvoir libérer tout le stockage alloué par l’allocation de l' [**\_ utilisateur \_ MIDL**](/windows/desktop/Rpc/the-midl-user-allocate-function).
 

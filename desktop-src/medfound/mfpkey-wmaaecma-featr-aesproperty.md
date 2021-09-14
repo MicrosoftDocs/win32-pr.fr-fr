@@ -4,12 +4,12 @@ ms.assetid: 409b40f8-38eb-49f7-be30-348ab5cdd33a
 title: MFPKEY_WMAAECMA_FEATR_AES, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e842bc3064b431437d8bbdfab06c0081ecdb49a8c38288ba4adb78648363c71a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5da7505a259a51ca8456f3caffa153790649320
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242036"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231732"
 ---
 # <a name="mfpkey_wmaaecma_featr_aes-property"></a>\_Propriété AES de MFPKEY WMAAECMA \_ Fonct \_
 
@@ -37,7 +37,7 @@ Le DSP de capture vocale peut exécuter AES sur le signal résiduel après l’a
 
 Le DSP utilise cette propriété uniquement lorsque le traitement AEC est activé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

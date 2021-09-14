@@ -4,12 +4,12 @@ ms.assetid: 69888d66-8e96-4a20-b8c5-a01267ff3c05
 title: Attribut MF_PD_ASF_METADATA_IS_VBR (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e97d471c6a6466290c5b2ac490f88ae33de29aa3823af420ef8b8116a81192a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5863d5366fd94e230040f81d3f67f4c75fd3fe3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231797"
 ---
 # <a name="mf_pd_asf_metadata_is_vbr-attribute"></a>Les \_ \_ métadonnées MF PD ASF \_ sont des \_ \_ attributs VBR
 
@@ -21,7 +21,7 @@ Spécifie si un fichier ASF (Advanced Systems Format) utilise l’encodage VBR (
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF. Si la valeur est **true**, le fichier a été encodé à l’aide de VBR. Si la valeur est **false** ou si l’attribut n’est pas présent, le fichier n’utilise pas le codage VBR.
 
@@ -32,7 +32,7 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

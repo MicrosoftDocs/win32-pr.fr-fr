@@ -4,12 +4,12 @@ ms.assetid: eee1e3e6-74e9-41d0-b732-1f792a4df423
 title: Exemple d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb29f6564517980604b6c98972e5972d07fa438e8030a7e2ee9314034cf4b36f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11eefaab2977bf7cc31e86ac7541b21b345c1aa1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092701"
 ---
 # <a name="an-installation-example"></a>Exemple d’installation
 

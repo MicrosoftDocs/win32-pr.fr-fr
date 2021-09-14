@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a83528a1ec632fcf2309438e6228220544a32408b310ea90260b8bcfda3cb6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1eb310c3e126caf9b25b8c015b840aea11791d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118642807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093389"
 ---
 # <a name="module-attribute"></a>attribut de module
 
@@ -78,7 +78,7 @@ Si \[ [](optional.md) \] cette option est utilisée, les types de ces paramètre
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La sortie du fichier d’en-tête (. h) pour les modules est une série de prototypes de fonction. Le mot clé **module** et les crochets environnants sont supprimés de la sortie du fichier d’en-tête (. h), mais un commentaire (// *modulename* du **module** ) est inséré avant les prototypes. Le mot clé **extern** est inséré avant les déclarations.
 
@@ -147,7 +147,7 @@ module somemodule
 [**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
-[**universel**](uuid.md)
+[**uuid**](uuid.md)
 </dt> <dt>
 
 [**vararg**](vararg.md)

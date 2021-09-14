@@ -4,22 +4,22 @@ ms.assetid: c17d9663-af13-4e12-b496-64942f4379f5
 title: Propriété DISABLEROLLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ea5b7a30a72b8e9787f25a1b9444ee34e5531413bf1400061b6912fa831f77c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1fe80e87deb764cc5e5af95a97532885ae54beb1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093041"
 ---
 # <a name="disablerollback-property"></a>Propriété DISABLEROLLBACK
 
 La définition de la propriété **disablerollback** désactive l’option [Rollback](rollback-installation.md) pour la configuration actuelle. Affectez la valeur 1 à cette propriété pour empêcher le programme d’installation de générer un script de restauration et d’enregistrer des copies des fichiers supprimés au cours de l’installation.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, la restauration est activée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

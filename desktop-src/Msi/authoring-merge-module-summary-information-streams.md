@@ -4,12 +4,12 @@ ms.assetid: 9219d9fe-c723-4058-a9ec-cf017687f3b7
 title: Création des informations de synthèse du module de fusion Flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55f9cee02aa8aa05445c1ce97b60906a0fbc74c25e5b99695b638321ad294f07
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91f94733e21cc4f5dbf87bc264315f03df943e4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092486"
 ---
 # <a name="authoring-merge-module-summary-information-streams"></a>Création des informations de synthèse du module de fusion Flux
 

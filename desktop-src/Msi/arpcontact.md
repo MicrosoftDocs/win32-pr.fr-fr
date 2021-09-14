@@ -4,18 +4,18 @@ ms.assetid: e3f5e045-4732-4ad6-9c86-a26fea92ff2e
 title: Propriété ARPCONTACT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4380a397981f6d63488f1315481211357493e080898a3b460f8bff53e3757f5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0aa67bdb17ef7aa60368e6e254aa816cc164459b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092606"
 ---
 # <a name="arpcontact-property"></a>Propriété ARPCONTACT
 
 La propriété **ARPCONTACT** fournit le contact ajouter ou supprimer des programmes du panneau de configuration qui est écrit sous la [clé de Registre Uninstall](uninstall-registry-key.md). Cette propriété peut être définie par la ligne de commande ou une transformation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

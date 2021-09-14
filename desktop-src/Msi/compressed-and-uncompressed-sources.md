@@ -4,12 +4,12 @@ ms.assetid: e84c52ca-a1c4-4c81-9c24-31ea435054db
 title: Sources compressées et non compressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7d35a5723261ab1c62866d185a8402a9607600cad906c2fb66ddc5dc85ac08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43dc706a73d52f1dac35c917bd6c178a543ab300
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092073"
 ---
 # <a name="compressed-and-uncompressed-sources"></a>Sources compressées et non compressées
 

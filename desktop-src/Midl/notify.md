@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cf1bb1c4f522cecb5fe81a317267e2cffff2da638e3a8c09a412ae8d94a149d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 334223979298f54acb546bd0b9ec913afd92e286
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093305"
 ---
 # <a name="notify-attribute"></a>notifier l’attribut
 
@@ -38,7 +38,7 @@ Nom de la procédure distante à laquelle la procédure Notify sera associée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La procédure **\[ Notify \]** appelée à la suite de l’attribut **\[ Notify \]** est associée à une procédure distante particulière sur le serveur. Son concept est similaire à une fonction de rappel. Le stub appelle la procédure **\[ Notify \]** après que tous les arguments de sortie de la procédure distante à laquelle il est associé ont été marshalés et que toute mémoire associée aux paramètres soit libérée. La routine **\[ Notify \]** est appelée si un appel échoue avant l’exécution de la routine de serveur. Par exemple, si un serveur échoue pendant le démarshaling en raison de la réception de données incorrectes du client, la \[ \] routine Notify est appelée.
 

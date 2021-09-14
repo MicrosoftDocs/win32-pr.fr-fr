@@ -4,12 +4,12 @@ ms.assetid: 4e301210-df3a-41db-a58e-015ee8d41714
 title: Création de propriétés personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d33ebd18c799dca757c1cf7e5b2f16fd35edb6072a52f7d1f5d41749ec0b8341
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90849383e25889edf7f3abd4704c36354eff153c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117685559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231588"
 ---
 # <a name="creating-custom-properties"></a>Création de propriétés personnalisées
 

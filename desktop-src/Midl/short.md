@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbb107b818d2d89717535996d95b580df5a2d49ad0a72aef97de5d6111a0e90d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b993c830c631b5b95246a7a191388ce897dbaafb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093201"
 ---
 # <a name="short-attribute"></a>attribut Short
 
@@ -38,7 +38,7 @@ Spécifie un ou plusieurs déclarateurs C standard, tels que les identificateurs
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mot clé **short** peut être précédé du mot [**clé signed ou du**](signed.md) mot clé [**unsigned**](unsigned.md). Le mot clé [**int**](int.md) est facultatif et peut être omis. Pour le compilateur MIDL, un entier Short est signé par défaut et est synonyme de **short int signé**.
 

@@ -4,12 +4,12 @@ ms.assetid: 56c2d639-eef8-47cd-9d47-9a4781b9be36
 title: Valeurs de retour de l’action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3853cfeafba22cb2d479feb1e699c29bcf4b0ab7a08402245f30958cb593df6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c01ba6273aea6cf950edb56ef3c2a94ab9a272d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091853"
 ---
 # <a name="custom-action-return-values"></a>Valeurs de retour de l’action personnalisée
 
@@ -17,7 +17,7 @@ Si l’option de traitement de retour **msidbCustomActionTypeContinue** n’est 
 
 
 
-| Valeur retournée                 | Description                           |
+| Valeur de retour                 | Description                           |
 |------------------------------|---------------------------------------|
 | fonction d’erreur \_ \_ non \_ appelée | Action non exécutée.                  |
 | ERREUR de \_ réussite               | Actions terminées avec succès.       |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 251a2574908891d29baf9d4748943d0550f3f015eddccbdd123e31598b39b08c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 435dcfcf620bd33043d8c8c7d948bccd74eb4e77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117991327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093566"
 ---
 # <a name="handle_t-attribute"></a>handle \_ t (attribut)
 
@@ -31,7 +31,7 @@ typedef RPC_BINDING_HANDLE handle_t;
 
 Cet attribut n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de **handle \_ t** est l’un des types prédéfinis du langage IDL (Interface Definition Language). Il peut apparaître comme un spécificateur de type dans les déclarations [**typedef**](typedef.md) , les déclarations générales et les déclarateurs de fonction (en tant que spécificateur de type fonction-retour et spécificateur de type de paramètre). Pour le contexte dans lequel les spécificateurs de type s’affichent, consultez [fichier de définition d’interface (IDL)](interface-definition-idl-file.md).
 

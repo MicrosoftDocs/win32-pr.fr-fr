@@ -4,12 +4,12 @@ ms.assetid: 113ed443-a866-43d4-86bd-fc3b244f2edb
 title: À propos de l’interface d’automatisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c51469240ad684d6fd32ffbc5466007e73f4e4ff7a870b6878b18f25f54d32c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 655a01a4daccb805bec4a858337c1dce48f0fb82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118382066"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092938"
 ---
 # <a name="about-the-automation-interface"></a>À propos de l’interface d’automatisation
 

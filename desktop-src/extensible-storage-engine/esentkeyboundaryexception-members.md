@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102036
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 70fdbbb4e78cea05fe841ac7cdf9e8086b54b1a4c2f02eea39475ce0fbb36766
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1dee2d2498d7d25abf7f67b3a876dfe26fdc794f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119115887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232103"
 ---
 # <a name="esentkeyboundaryexception-members"></a>Membres EsentKeyBoundaryException
 
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentKeyBoundaryException, classe](./esentkeyboundaryexception-class.md)
 

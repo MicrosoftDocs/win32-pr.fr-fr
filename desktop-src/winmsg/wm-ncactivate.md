@@ -4,12 +4,12 @@ ms.assetid: d25732b9-b9ab-4754-a4cf-002d32e3945e
 title: Message WM_NCACTIVATE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 095f0cc7f555b4daf80a67a2394e29286f32a49dcba687780e8747f5d1b193fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a23cc5e0495d6679efea805eab80290b209906d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230999"
 ---
 # <a name="wm_ncactivate-message"></a>\_Message WM NCACTIVATE
 
@@ -44,19 +44,19 @@ Quand un style visuel n’est pas actif pour cette fenêtre, ce paramètre est u
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Lorsque le paramètre *wParam* a la **valeur false**, une application doit retourner **true** pour indiquer que le système doit procéder au traitement par défaut, ou retourner la valeur **false** pour empêcher la modification. Lorsque *wParam* a la valeur **true**, la valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le traitement des messages liés à la zone non cliente d’une fenêtre standard n’est pas recommandé, car l’application doit être en mesure de dessiner toutes les parties requises de la zone non cliente pour la fenêtre. Si une application traite ce message, elle doit retourner la **valeur true** pour indiquer au système d’effectuer la modification de la fenêtre active. Si la fenêtre est réduite lorsque ce message est reçu, l’application doit transmettre le message à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) .
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) dessine la barre de titre ou le titre de l’icône dans ses couleurs actives lorsque le paramètre *wParam* a la **valeur true** et dans ses couleurs inactives lorsque *wParam* a la **valeur false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -78,7 +78,7 @@ La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindo
 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

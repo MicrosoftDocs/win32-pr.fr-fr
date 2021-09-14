@@ -4,12 +4,12 @@ ms.assetid: 807a6b6a-cace-4f48-b3b3-61919a8eee32
 title: B (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a444ca869eb42186228c40ca34ee64b2b29ace767950178e71f6fae053df6974
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1147a11e9d14024f1fc3edde42ba7d04ad17ae8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145762"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092413"
 ---
 # <a name="b-windows-installer"></a>B (Windows Installer)
 

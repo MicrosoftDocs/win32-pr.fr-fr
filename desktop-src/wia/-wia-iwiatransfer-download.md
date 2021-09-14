@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 039b7dd4579419bac744a07bbc6ddd55c4b0b2e2e713340bf256fdb95d8fc071
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2863915b850588d4db018693d9081ed2907d644a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119450209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231041"
 ---
 # <a name="iwiatransferdownload-method"></a>IWiaTransfer ::D méthode lécharger
 
@@ -59,17 +59,17 @@ Spécifie un pointeur vers l’interface [**IWiaTransferCallback**](-wia-iwiatra
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un dossier est téléchargé, tous les éléments enfants de ce dossier sont également transférés. Chaque élément est transféré dans un flux distinct.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

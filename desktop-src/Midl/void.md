@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ad758ba334114e13493e7b082f45f37dc6e68efba16dc3a55f14fa57a772d63
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4b14a5ae4a2325f840d8a840cb0a1bc5283bb4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118382435"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093061"
 ---
 # <a name="void-attribute"></a>void (attribut)
 
@@ -67,7 +67,7 @@ Spécifie le nom du type qui prend l' **\[** attribut de [**\_ handle de context
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type **de pointeur void \* *_, qui, dans C, décrit un pointeur générique qui peut être casté pour représenter tout type pointeur, est limité en MIDL à son utilisation avec le* mot clé de \[ \_ handle \] de contexte _** .
 

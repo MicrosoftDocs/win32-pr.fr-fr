@@ -4,12 +4,12 @@ ms.assetid: 9b480750-602e-421e-8dfd-0b7049ed8b8a
 title: Propriété de résumé de l’auteur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a050fdb64a8c931ad53c92229ca93994270a26829f72a15d025e4d513109d6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a860b03baaf395892f0c155e1166af4ea42e0edb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092553"
 ---
 # <a name="author-summary-property"></a>Propriété de résumé de l’auteur
 
@@ -19,7 +19,7 @@ La propriété Résumé de l' **auteur** transmet le fabricant du package d’in
 -   Définissez la propriété Résumé de l' **auteur** dans une transformation sur le nom du fabricant de la transformation.
 -   Définissez la propriété Résumé de l' **auteur** d’un package correctif sur le nom du fabricant du package correctif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

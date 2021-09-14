@@ -4,12 +4,12 @@ ms.assetid: 88bee87c-fed2-45e9-8d8c-a5bbcc77f266
 title: Assemblys
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a228dfad8155b9282f7ed5ee5c288a858f55c74c432ec6d21fd98aae58f98472
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fb0f2b91a46287262848aaa2174d6bec6688d0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118639271"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092557"
 ---
 # <a name="assemblies"></a>Assemblys
 

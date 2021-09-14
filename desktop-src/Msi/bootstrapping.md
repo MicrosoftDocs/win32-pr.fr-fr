@@ -4,12 +4,12 @@ ms.assetid: a5174284-2a8c-4510-accf-641fda5be98d
 title: Amorçage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c590d00fa9d6ac63f93caa287f34b9f2bf25357bd36ab9ea3fb9ce87e81291d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff743acbcd2dfc81b0e912e5be84c363f34614ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092361"
 ---
 # <a name="bootstrapping"></a>Amorçage
 

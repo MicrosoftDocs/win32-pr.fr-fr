@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 7aebee99a693ac629d9cc8a372fba7589a9e29ef
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103841717"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232266"
 ---
 # <a name="temporary-register-hlsl-ps-reference"></a>Registre temporaire (référence du PS HLSL)
 
@@ -37,7 +37,7 @@ no declaration is required
 
 
 
- 
+ 
 
 -   Il y a 12 registres temporaires de nuanceur de pixels : R0 à R11.
 -   Ces registres sont utilisés pour stocker les résultats intermédiaires lors des calculs.
@@ -52,9 +52,9 @@ no declaration is required
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

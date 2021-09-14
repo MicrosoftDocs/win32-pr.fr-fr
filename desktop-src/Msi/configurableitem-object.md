@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: fa0ade829cff2359e074a4c2faf9942e94aa5e063f0cce841a5a0f0a84a5f3e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4436be457adcca37ba40f15bbe0ecd6b0445fb2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118143728"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092009"
 ---
 # <a name="configurableitem-object"></a>Objet ConfigurableItem
 
@@ -40,14 +40,14 @@ L’objet **ConfigurableItem** a ces propriétés.
 | Propriété                                                         | Description                                                                                                                               |
 |:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Attributs**](configurableitem-attributes.md)<br/>     | Retourne la valeur dans le champ attributs de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                            |
-| [**Contexte**](configurableitem-context.md)<br/>           | Retourne la valeur dans le champ de contexte de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                               |
+| [**Context**](configurableitem-context.md)<br/>           | Retourne la valeur dans le champ de contexte de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                               |
 | [**DefaultValue**](configurableitem-defaultvalue.md)<br/> | Retourne la valeur dans le champ DefaultValue de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                          |
 | [**Description**](configurableitem-description.md)<br/>   | Retourne la valeur dans le champ Description de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                           |
 | [**NomComplet**](configurableitem-displayname.md)<br/>   | Retourne la valeur dans le champ DisplayName de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                           |
 | [**Format**](configurableitem-format.md)<br/>             | Retourne la valeur dans le champ format de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                                |
 | [**HelpKeyword**](configurableitem-helpkeyword.md)<br/>   | Retourne la valeur dans le champ HelpKeyword de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                           |
 | [**HelpLocation**](configurableitem-helplocation.md)<br/> | Retourne la valeur dans le champ HelpLocation de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                          |
-| [**Name**](configurableitem-name.md)<br/>                 | Retourne la valeur dans le champ nom de l’enregistrement de cet objet dans la [table ModuleConfiguration](moduleconfiguration-table.md).<br/> |
+| [**Nom**](configurableitem-name.md)<br/>                 | Retourne la valeur dans le champ nom de l’enregistrement de cet objet dans la [table ModuleConfiguration](moduleconfiguration-table.md).<br/> |
 | [**Type**](configurableitem-type.md)<br/>                 | Retourne la valeur dans le champ type de l’enregistrement de cet objet dans la table ModuleConfiguration.<br/>                                  |
 
 
@@ -70,7 +70,7 @@ interface **IMsmConfigurableItem : IDispatch**
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

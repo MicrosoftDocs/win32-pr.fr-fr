@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c72cc825183740d856c20b9e5c76ece472f82db405d9560e6502f6e32985b60
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bacbf7478ebfb745e5fc9b5e50959d0f1587dedf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119252109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093066"
 ---
 # <a name="version-attribute"></a>version (attribut)
 
@@ -45,7 +45,7 @@ Spécifie un entier non signé Short compris entre zéro et 65 535 inclus, qui r
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le compilateur MIDL ne prend pas en charge plusieurs versions d’une interface COM. Par conséquent, une liste d’attributs d’interface qui inclut l’attribut d' **\[** [**objet**](object.md) **\]** ne peut pas inclure l’attribut de **\[ version \]** . Pour créer une nouvelle version d’une interface COM existante, utilisez l’héritage de l’interface. Une interface COM dérivée possède un UUID différent, mais hérite des fonctions membres d’interface, des codes d’État et des attributs d’interface de l’interface de base.
 
@@ -95,10 +95,10 @@ Par exemple, le paramètre de version 1,11 représente une valeur majeure d’un
 [**interface**](interface.md)
 </dt> <dt>
 
-[**dessin**](object.md)
+[**object**](object.md)
 </dt> <dt>
 
-[**universel**](uuid.md)
+[**uuid**](uuid.md)
 </dt> </dl>
 
  

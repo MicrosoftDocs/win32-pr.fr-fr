@@ -4,12 +4,12 @@ ms.assetid: 1a6b0530-b5ad-49db-bc08-5b20d32420ef
 title: clés de registre de l’assembly écrites par Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3fd4a9bf3fa5e1eb557c2a179ec3e9a0853149ff197922a9fbf633a2869f41c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7bdd2ea7d290659fa9c1578d89be9a77dcc5cc10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119746019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092554"
 ---
 # <a name="assembly-registry-keys-written-by-windows-installer"></a>clés de registre de l’assembly écrites par Windows Installer
 

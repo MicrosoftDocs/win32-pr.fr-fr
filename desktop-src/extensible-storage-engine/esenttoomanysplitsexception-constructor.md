@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 49daaa63806c8004946e416308ef617da4429ef987f3aaba323864b5bd8ef4a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2c548f23aaf37a79e32a655c0e0993ccddc3d04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119112981"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232061"
 ---
 # <a name="esenttoomanysplitsexception-constructor"></a>Constructeur EsentTooManySplitsException
 
@@ -54,7 +54,7 @@ public EsentTooManySplitsException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentTooManySplitsException, classe](./esenttoomanysplitsexception-class.md)
 

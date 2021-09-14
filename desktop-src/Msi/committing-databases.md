@@ -4,12 +4,12 @@ ms.assetid: 65271631-457c-4d3e-9384-126d2c9d63d7
 title: Validation des bases de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ab5f4da5b82fb3b6b2ac7d2371bd8046ab87a23d2ef43b6473f7e36a4771a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1336b094703e61b14966e7a73a6e67f73762024
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092161"
 ---
 # <a name="committing-databases"></a>Validation des bases de données
 

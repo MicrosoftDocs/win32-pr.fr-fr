@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec627a083d5f5186a4ce8b6b25b0ebbc7bd56afd3e334e46dc4e4901dde34201
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a5a0f106f1be1ba6d0acabf877b5dbefab3eaff6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093189"
 ---
 # <a name="small-attribute"></a>attribut de petite taille
 
@@ -38,7 +38,7 @@ Spécifie un identificateur MIDL valide. Les identificateurs MIDL valides se com
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mot clé **Small** peut être précédé [**du mot clé signed ou du**](signed.md) mot clé [**unsigned**](unsigned.md). Le mot clé [**int**](int.md) est facultatif et peut être omis. Pour le compilateur MIDL, un petit entier est **signé** par défaut et est synonyme de **Small int signé**.
 
@@ -65,7 +65,7 @@ Le signe du **petit** type peut être modifié par le commutateur du compilateur
 [**long**](long.md)
 </dt> <dt>
 
-[**short**](short.md)
+[**Résumé**](short.md)
 </dt> <dt>
 
 [**abonné**](signed.md)

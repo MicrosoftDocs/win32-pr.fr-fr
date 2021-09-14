@@ -4,12 +4,12 @@ ms.assetid: 8a7311a6-41c6-431e-982d-60bacf06454e
 title: Type d’action personnalisée 18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3befbb614e9ee78961cf5b8ef969bdb3d6e7b6c0cb713a267cab3d09b4588d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48a669fe3caa532b3a365f1056ca2b36f490ab95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118379275"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091833"
 ---
 # <a name="custom-action-type-18"></a>Type d’action personnalisée 18
 
@@ -53,7 +53,7 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 Les actions personnalisées qui sont des [fichiers exécutables](executable-files.md) doivent retourner la valeur 0 en cas de réussite. Le programme d’installation interprète toute autre valeur de retour comme un échec. Pour ignorer les valeurs de retour, définissez l’indicateur de bit **msidbCustomActionTypeContinue** dans le champ type de la table CustomAction.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une action personnalisée qui lance un exécutable prend une ligne de commande, qui contient généralement des propriétés qui sont désignées dynamiquement. S’il s’agit également d’une [action personnalisée d’exécution différée](deferred-execution-custom-actions.md), le programme d’installation utilise [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) ou [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) pour créer le processus lorsque l’action personnalisée est appelée à partir du script d’installation.
 

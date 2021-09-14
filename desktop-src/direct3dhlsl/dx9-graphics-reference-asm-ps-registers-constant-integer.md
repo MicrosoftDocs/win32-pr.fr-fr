@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ce2d9ba19f97439da098563639bc8940cdae2f202a6f24cdd1940e25cfc14e9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b03a27a95f84ae30a70147caaf5662e1949cf18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119489380"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232349"
 ---
 # <a name="constant-integer-register-hlsl-ps-reference"></a>Registre d’entiers constant (référence PS HLSL)
 

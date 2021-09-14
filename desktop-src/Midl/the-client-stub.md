@@ -8,12 +8,12 @@ keywords:
 - interfaces MIDL, MIDL et RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 260c718f0910c2e6834c93409b6d8cd4969e3d2bbe9c53c65821dc0fe0eb19ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8254915a510e7d176ba315d7a92b049bd0b60926
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146222"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093142"
 ---
 # <a name="the-client-stub"></a>Stub client
 

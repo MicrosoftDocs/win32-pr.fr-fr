@@ -4,12 +4,12 @@ ms.assetid: b17b470b-6971-4124-8ec3-73914fdea95f
 title: Table CreateFolder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4cb926f6df388241a9c779328346a6e1bfb9fba4b365afce778c6e0b7a2548
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc286b32b48e0db9e5b991ab10af663c51538bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091910"
 ---
 # <a name="createfolder-table"></a>Table CreateFolder
 
@@ -46,7 +46,7 @@ Clé externe dans la première colonne de la [table des composants](component-ta
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les dossiers de ce tableau sont créés lors de l’installation du composant. Une tentative est effectuée pour supprimer ces dossiers uniquement lorsque le composant est désinstallé ou déplacé vers l’exécution à partir de la source. Aucune suppression automatique n’est déclenchée si les dossiers sont vides. En revanche, les dossiers créés par le programme d’installation mais non répertoriés dans ce tableau sont supprimés lorsqu’ils sont vides.
 

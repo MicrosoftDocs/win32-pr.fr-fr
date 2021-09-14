@@ -4,18 +4,18 @@ ms.assetid: fa3510b4-c4de-4261-ae6c-4292b88432ef
 title: Propriété ARPSYSTEMCOMPONENT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3bded81f12cd6a6d1573d90b631a8aa29e29df2140dbc8edb20d2ef28841bdb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd8dc3b03cca03cb663a597a891fc692b02842c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118381364"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092566"
 ---
 # <a name="arpsystemcomponent-property"></a>Propriété ARPSYSTEMCOMPONENT
 
 Si vous affectez la valeur 1 à la propriété **ARPSYSTEMCOMPONENT** à l’aide de la ligne de commande ou d’une transformation, l’application ne s’affiche pas dans la liste **Ajout/suppression de programmes** du **panneau de configuration**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

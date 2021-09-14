@@ -4,12 +4,12 @@ ms.assetid: 2d16e036-2d7f-431d-b646-1addf2f65f3f
 title: Modification de l’emplacement cible d’un répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27adf952faeb4d37d5edb08a04bf25cc640d41e5d87732b30c80d25bba729705
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 818c4e9d555244dd1637e19eb249478f13ea2d48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092286"
 ---
 # <a name="changing-the-target-location-for-a-directory"></a>Modification de l’emplacement cible d’un répertoire
 

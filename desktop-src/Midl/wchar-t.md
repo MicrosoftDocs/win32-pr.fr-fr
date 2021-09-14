@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e0be9af276a8f87fe5ee7a4dfeb499b864de92f4
-ms.sourcegitcommit: 686cb805bed0e89573fc68d145809f50c6b0e6d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "104030896"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093058"
 ---
 # <a name="wchar_t-attribute"></a>WCHAR \_ t (attribut)
 
@@ -57,7 +57,7 @@ Utilisez le caractère **l** avant un caractère ou une constante de chaîne pou
 [Types de base MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**Char**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [**const**](const.md)
@@ -66,7 +66,7 @@ Utilisez le caractère **l** avant un caractère ou une constante de chaîne pou
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**short**](short.md)
+[**Résumé**](short.md)
 </dt> <dt>
 
 [**typedef**](typedef.md)
@@ -75,9 +75,9 @@ Utilisez le caractère **l** avant un caractère ou une constante de chaîne pou
 [**non signé**](unsigned.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

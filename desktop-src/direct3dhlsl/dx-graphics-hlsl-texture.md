@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 78e508c72faf61a1a1167fda4fbfba621f4c5255021b6196b8b30a6b86c13fdb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89568dc5cf24af38f916375795eea052c8b39200
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119845999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232445"
 ---
 # <a name="texture-type"></a>Type de texture
 
@@ -33,7 +33,7 @@ Utilisez la syntaxe suivante pour déclarer une variable de texture.
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Type"></span><span id="type"></span><span id="TYPE"></span>**Entrer**<br/> | L’un des types suivants : texture (non typée, pour la compatibilité descendante), Texture1D, Texture1DArray, Texture2D, Texture2DArray, Texture3D, TextureCube. La taille de l’élément doit être contenue dans des quantités de 4 32 bits.<br/> |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>**Nomme**<br/> | Chaîne ASCII qui identifie de façon unique le nom de la variable.<br/>                                                                                                                                                   |
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe trois parties à l’utilisation d’une texture.
 

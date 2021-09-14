@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c76576a7d6710c54573ff78186b3cf6d347afc8c4c242fd6e4c1d49865fb521f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a17d0b8915e75bb3065b394ef76900bd8efb5e0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093218"
 ---
 # <a name="represent_as-attribute"></a>représenter \_ en tant qu’attribut
 
@@ -58,7 +58,7 @@ Spécifie le type local représenté dans la langue cible présentée aux applic
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de l’utilisation de l’objet **\[ représenter \_ en tant que \]**, vous devez fournir des routines qui effectuent une conversion entre les types local et de transfert et qui libèrent de la mémoire utilisée pour stocker les données converties. L’attribut **\[ dereprésente \_ en tant que \]** indique aux stubs d’appeler les routines de conversion fournies par l’utilisateur.
 

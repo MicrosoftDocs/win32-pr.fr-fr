@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 9e30c0c5ad7efa727d00c46b84bcfa6dfb4285d59e4fe0d3c40d6a0128be01ca
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e31d6a7c3d2422111d0d8c3247e022fa35bdc43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092078"
 ---
 # <a name="component-object"></a>Objet composant
 
@@ -41,14 +41,14 @@ L’objet **Component** possède ces propriétés.
 | Propriété                                                    | Description                                                                               |
 |:------------------------------------------------------------|:------------------------------------------------------------------------------------------|
 | [**ComponentCode**](component-componentcode.md)<br/> | Code du composant en question.<br/>                               |
-| [**Contexte**](component-context.md)<br/>             | Contexte déterminé pour être applicable au composant en question.<br/> |
+| [**Context**](component-context.md)<br/>             | Contexte déterminé pour être applicable au composant en question.<br/> |
 | [**UserSID**](component-usersid.md)<br/>             | SID de l’utilisateur pour le composant énuméré.<br/>                                     |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4763ac0e-900f-45f1-bee5-34d413c5e401
 title: Table _TransformView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b3254c7419ed5d4964377a466ecd557429a22450a9ba84fdd892822fca86c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08cc513b1aae388d01cda178bfbefdc88874f6d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118640464"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093006"
 ---
 # <a name="_transformview-table"></a>\_Table TransformView
 
@@ -74,7 +74,7 @@ Valeur actuelle de la base de données de référence ou numéro de colonne.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le \_ TransformView est conservé en mémoire par un nombre de verrous, qui peut être libéré avec la commande SQL suivante.
 

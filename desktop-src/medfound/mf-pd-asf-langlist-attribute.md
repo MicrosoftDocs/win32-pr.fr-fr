@@ -4,12 +4,12 @@ ms.assetid: 07b8a991-b392-47c1-a6d7-a1f5dcc82e5c
 title: Attribut MF_PD_ASF_LANGLIST (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba22004001df2ba6be8fb7a173a3ea9bed1b0a73863ae111e61d36efa853e079
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ecac5eac178c7fb315e0ca4cfdbd540a27eeac28
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119103701"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231803"
 ---
 # <a name="mf_pd_asf_langlist-attribute"></a>\_ \_ Attribut LANGLIST MF PD ASF \_
 
@@ -19,7 +19,7 @@ Spécifie une liste d’identificateurs de langue qui spécifie les langues cont
 
 Tableau d’octets
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -197,7 +197,7 @@ private:
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

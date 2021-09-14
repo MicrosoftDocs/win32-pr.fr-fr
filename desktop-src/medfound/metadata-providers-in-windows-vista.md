@@ -4,12 +4,12 @@ ms.assetid: a26e40c2-1717-4a13-8bf0-e41376a8d317
 title: fournisseurs de métadonnées dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1edf65b59e0f47e603b057f49a76d8721b8733849937cb29fd0afbe0b9b44920
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1726e04058a7b15e387fca4f3faa94fce7c91c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231834"
 ---
 # <a name="metadata-providers-in-windows-vista"></a>fournisseurs de métadonnées dans Windows Vista
 

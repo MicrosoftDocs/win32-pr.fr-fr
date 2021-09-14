@@ -4,18 +4,18 @@ ms.assetid: 3fcaad7e-f868-4209-b494-a0b570a104c0
 title: Propriété ARPNOREPAIR
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1e861bc26c2438ecf28cfab2aa0de039e562de085cb6eac7539198633e135d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d086b45483c6e1b1fbb7ee08070236fdbb05f7ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092593"
 ---
 # <a name="arpnorepair-property"></a>Propriété ARPNOREPAIR
 
 Définissez la propriété **ARPNOREPAIR** pour désactiver le bouton **réparer** dans l' **Assistant programmes**. Pour plus d’informations, consultez [obtention et définition des propriétés](getting-and-setting-properties.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

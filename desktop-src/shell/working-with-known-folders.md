@@ -5,11 +5,11 @@ title: Utilisation de dossiers connus dans les applications
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0981d354e49f569dda229fab32308d8f4a79ff99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484008"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231186"
 ---
 # <a name="working-with-known-folders-in-applications"></a>Utilisation de dossiers connus dans les applications
 
@@ -20,7 +20,7 @@ Le système de dossiers connu offre un moyen d’interagir avec certains dossier
 -   [Rubriques connexes](#related-topics)
 
 > [!IMPORTANT]
-> Pour rediriger les documents, les images ou les dossiers de bureau vers OneDrive, utilisez le déplacement de dossiers connu OneDrive au lieu de la méthode de redirection décrite dans cet article. Pour plus d’informations, consultez [Rediriger et déplacer des dossiers connus de Windows vers OneDrive](/onedrive/redirect-known-folders).  
+> pour rediriger les Documents, images ou dossiers de bureau vers OneDrive, utilisez OneDrive déplacement de dossiers connus à la place de la méthode de redirection décrite dans cet article. pour plus d’informations, consultez [redirection et déplacement Windows dossiers connus vers OneDrive](/onedrive/redirect-known-folders).  
 
 ## <a name="known-folder-interfaces"></a>Interfaces de dossiers connus
 
@@ -54,7 +54,7 @@ La redirection de dossiers est une fonctionnalité importante du système de dos
 
 Les dossiers peuvent être redirigés vers un autre emplacement sur le même ordinateur ou vers un emplacement sur un réseau. Dans le cas d’une redirection de réseau, le dossier peut être mis en cache localement par le biais de la mise en cache côté client pour fournir un accès hors connexion. Toutefois, même en présence d’un cache local, le dossier redirigé lui-même doit être accessible via le réseau.
 
-La redirection de dossiers n’est pas une nouveauté pour Windows Vista. Par exemple, dans Windows XP, certains dossiers identifiés via le système CSIDL peuvent être redirigés par un appel à [**SHSetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetfolderpatha) ou en modifiant l’entrée de CSIDL dans le registre. Dans Windows Vista et versions ultérieures, la redirection doit être effectuée via [**IKnownFolder :: setPath**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath) ou [**SHSetKnownFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath).
+la redirection de dossiers n’est pas une nouveauté pour Windows Vista. par exemple, dans Windows XP, certains dossiers identifiés via le système CSIDL peuvent être redirigés par un appel à [**SHSetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetfolderpatha) ou en modifiant l’entrée de csidl dans le registre. dans Windows Vista et versions ultérieures, la redirection doit être effectuée via [**IKnownFolder :: SetPath**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath) ou [**SHSetKnownFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath).
 
 Pour déterminer si un dossier peut être redirigé, appelez [**IKnownFolder :: GetRedirectionCapabilities**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getredirectioncapabilities). Si le dossier ne peut pas être redirigé, cet appel peut fournir une explication.
 

@@ -6,12 +6,12 @@ keywords:
 - types de données MIDL, base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d075e375f3ceb2c3db75d395c2dc77530d774ea3fbd13fe795de6b77a306fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f267559ae6c2aece23c2cbe213a65d373b42c90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119560289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093409"
 ---
 # <a name="midl-base-types"></a>Types de base MIDL
 

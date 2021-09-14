@@ -4,12 +4,12 @@ ms.assetid: 8b59de42-bc3f-468b-a410-8f935ff73345
 title: Connexion d’un module de fusion à plusieurs fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12044ff293d825c160533907d625a2d12bb9ea217233c54dd9d5a0099990ee3b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d57b49f1ee27b4c8d3aa5d0b3ac1b0d7b8b8e11c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118948420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091986"
 ---
 # <a name="connecting-a-merge-module-to-multiple-features"></a>Connexion d’un module de fusion à plusieurs fonctionnalités
 

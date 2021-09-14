@@ -5,11 +5,11 @@ title: queryControl
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3652a46d403bc258226de5a48f34ae16960ff517
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231563"
 ---
 # <a name="querycontrol"></a>queryControl
 
@@ -17,7 +17,7 @@ non pris en charge dans Windows 7 et versions ultérieures. Spécifie le contrô
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [queryControl]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -51,7 +51,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -89,7 +89,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 </thead>
 <tbody>
 <tr class="odd">
-<td>Valeur par défaut</td>
+<td>Default</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Les types par défaut sont répertoriés ci-dessous. Tout autre type entraîne l’utilisation du &quot; contrôle de texte &quot; . 
 <table>
 <thead>

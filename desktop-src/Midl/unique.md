@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c176c9a246329b6193c97ca5ce356c2b433cb421b77b374e103778df1b79dd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 95b839a2abdd546842ef0d33d45a31428af840f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119822029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093093"
 ---
 # <a name="unique-attribute"></a>unique (attribut)
 
@@ -95,7 +95,7 @@ Spécifie au moins un déclarateur de pointeur auquel s’applique l’attribut 
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -109,7 +109,7 @@ Se compose de zéro, un ou plusieurs attributs appropriés pour le type de param
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les attributs de pointeur peuvent être appliqués en tant qu’attribut de type ; en tant qu’attribut de champ qui s’applique à un membre de structure, un membre d’Union ou un paramètre ; ou en tant qu’attribut de fonction qui s’applique au type de retour de la fonction. L’attribut de pointeur peut également apparaître avec le **\[** mot clé [**\_ default du pointeur**](pointer-default.md) **\]** .
 
@@ -178,7 +178,7 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**handle \_ t**](handle-t.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**la dernière \_ est**](last-is.md)
@@ -187,7 +187,7 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**la longueur \_ est**](length-is.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
 [**le nombre maximal \_ est**](max-is.md)

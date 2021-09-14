@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs, structure et Union
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc179632bb7e0d64b777f3c8a08b9de2af7bbf818978d6bb0a7ee2ea8b515542
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b2a7764d56c8557bd71923021a9f324a118ac81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093165"
 ---
 # <a name="structure-and-union-attributes"></a>Attributs de structure et d’Union
 
@@ -24,7 +24,7 @@ Utilisez les attributs de **commutateur \_** \* pour spécifier la caractéristi
 | [**Utilisez**](switch.md)            | Sélectionne le discriminante pour une Union encapsulée.                                                                           |
 | [**le commutateur \_ est**](switch-is.md)     | Identifie le discriminante pour une Union qui n’est pas encapsulée.                                                                      |
 | [**type de commutateur \_**](switch-type.md) | Identifie le type du discriminante pour une Union non encapsulée.                                                          |
-| [**tenir**](ignore.md)            | Désigne un pointeur contenu dans une structure ou une Union, et l’objet indiqué par le pointeur ne doit pas être transmis. |
+| [**ignore**](ignore.md)            | Désigne un pointeur contenu dans une structure ou une Union, et l’objet indiqué par le pointeur ne doit pas être transmis. |
 
 
 
