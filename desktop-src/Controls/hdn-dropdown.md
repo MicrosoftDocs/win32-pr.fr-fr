@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a5a7e423c40fa655a9eca0e5b97c20a2d61add1e6c0b7f66b65a69afdc32a55
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2c0ae7f2e2ee31feab1d8a2293913ac875a03718
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119435569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999938"
 ---
 # <a name="hdn_dropdown-notification-code"></a>\_Code de notification de liste déroulante HDN
 
@@ -45,17 +45,17 @@ Pointeur vers une structure [**NMHEADER**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple de la section syntaxe montre comment le récepteur de notification convertit **lParam** pour récupérer la structure [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) . **WParam** contient l’ID du contrôle qui envoie ce message.
 
 Ce message est envoyé uniquement si le style HDF \_ SPLITBUTTON est défini sur l’élément d’en-tête.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

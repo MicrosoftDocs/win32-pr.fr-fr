@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98930ec48d3daa13d6ae463b38ce1ae62d745de9fae65915dcabcedf3cd673aa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea563ca07eaea6b6974a831726918866414a33b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999337"
 ---
 # <a name="cbasepindisplaypininfo-method"></a>Méthode CBasePin. DisplayPinInfo
 
@@ -49,15 +49,15 @@ Pointeur vers le code confidentiel de réception.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans les versions Debug, cette méthode appelle la fonction [**DbgLog**](dbglog.md) pour effectuer le suivi d’une tentative de connexion. Dans les versions commerciales, cette méthode n’a aucun effet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

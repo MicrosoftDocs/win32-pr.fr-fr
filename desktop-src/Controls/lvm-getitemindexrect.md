@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91aa3e6d0420bfddb974d13f210c84241cefc5d79f0ee5a82920bdc2961879dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 31ccd114713326c4796ca69f56fc2c38daf145db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119770369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999817"
 ---
 # <a name="lvm_getitemindexrect-message"></a>\_Message GETITEMINDEXRECT LVM
 
@@ -55,7 +55,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) po
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 

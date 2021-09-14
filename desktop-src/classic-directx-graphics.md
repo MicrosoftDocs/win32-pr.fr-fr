@@ -4,12 +4,12 @@ ms.assetid: CD246474-3360-4588-86F7-21EB36B8B121
 title: Graphiques DirectX classiques
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b5af38baf1ce66bf95bebfd6dfe7813a8b9c1d54ff10be5edf08ed4c61f03d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0af36f087e1757de2c75614354db36b13aa98e73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118311380"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921800"
 ---
 # <a name="classic-directx-graphics"></a>Graphiques DirectX classiques
 

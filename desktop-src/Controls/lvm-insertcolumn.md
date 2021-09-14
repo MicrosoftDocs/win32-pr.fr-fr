@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c2316ed2a74c82cd4530eff2d71d4771f4042b903c7ee17fc62886009ed5b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8be89ff0b4ef417a715085582544112cb90cb6b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999784"
 ---
 # <a name="lvm_insertcolumn-message"></a>\_Message LVM INSERTCOLUMN
 
@@ -43,15 +43,15 @@ Pointeur vers une structure [**LVCOLUMN**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de la nouvelle colonne en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les colonnes sont visibles uniquement dans la vue rapport (détails).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

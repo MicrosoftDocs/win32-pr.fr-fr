@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 81cb33222988b99b9484226e72110afc3eca1923441479adc8d600e2b80f273c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4e8710ecb142adefbdb472bf0c18a2329e818210
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119767009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999043"
 ---
 # <a name="ixml2dexwritexmlfile-method"></a>IXml2Dex :: WriteXMLFile, méthode
 
@@ -60,7 +60,7 @@ Chaîne qui spécifie le nom du fichier à écrire.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** qui dépend de l’implémentation de l’interface. Le **HRESULT** peut inclure l’une des constantes standard suivantes ou d’autres valeurs non listées.
 
@@ -76,7 +76,7 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de l’interf
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode génère un fichier XML qui représente tous les composants de la chronologie.
 
@@ -90,7 +90,7 @@ Cette méthode génère un fichier XML qui représente tous les composants de la
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

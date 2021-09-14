@@ -4,12 +4,12 @@ ms.assetid: 0e2e81b3-52dc-451b-9734-464052128efe
 title: Europe de l’est
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0713d4089494e8c81aeb2f0e3c6d0cc4cb61590d9d58a353430c7d1630250212
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb2c2b73b5d91728e0bfe3aca19431b586b18888
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999194"
 ---
 # <a name="eastern-europe"></a>Europe de l’est
 

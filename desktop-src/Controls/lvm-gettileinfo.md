@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8141b3a39c47966348dfd823b557c1b0af4cca84a90ba979a358d6ac0eaa4757
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db5bfd085cd5cbaced0bf90b17e8862a6c0e159b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079033"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999797"
 ---
 # <a name="lvm_gettileinfo-message"></a>\_Message GETTILEINFO LVM
 
@@ -35,11 +35,11 @@ Récupère des informations sur une vignette dans un contrôle List-View.
 *lParam* 
 </dt> <dd>Pointeur vers une structure <a href="/windows/win32/api/commctrl/ns-commctrl-lvtileinfo">**LVTILEINFO**</a> qui reçoit les informations récupérées.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Valeur de retour non utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’affichage en mosaïque est une nouvelle façon d’organiser et d’afficher des éléments dans un contrôle List-View. Les autres vues sont icône, petite icône, détails et liste.
 
@@ -48,7 +48,7 @@ L’affichage en mosaïque est une nouvelle façon d’organiser et d’afficher
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

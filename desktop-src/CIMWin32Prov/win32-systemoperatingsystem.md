@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 56c7a2781a690be5e2a1228140cec305da22469a5e0d43a1158c5aacd9307750
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba3f8ac94ec882ee1df96da51d93d2c24fde9b3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999427"
 ---
 # <a name="win32_systemoperatingsystem-class"></a>\_Classe SystemOperatingSystem Win32
 
@@ -104,11 +104,11 @@ Cette propriété est héritée de [**CIM \_ installed**](cim-installedos.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ SystemOperatingSystem** est dérivée de [**CIM \_ installed**](cim-installedos.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

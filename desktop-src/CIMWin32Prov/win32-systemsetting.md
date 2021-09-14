@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 75c4ee9db2f48d02151c3874cc0ac5775f04e2d119ada972db09826dd1f791c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e29b752d769cd347ce1cfdb729bf8c0c3959a4f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999417"
 ---
 # <a name="win32_systemsetting-class"></a>\_Classe SystemSetting Win32
 
@@ -84,11 +84,11 @@ Référence à l’instance de qui représente les propriétés du paramètre qu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ SystemSetting** est dérivée de [**CIM \_ ElementSetting**](cim-elementsetting.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

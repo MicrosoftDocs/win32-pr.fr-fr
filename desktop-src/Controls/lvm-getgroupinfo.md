@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5c48a21a1bba0c6dd1af3fd567ea853dc922591c553ea11a935fb705ad65bf6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b55d5b1d781e7749df97bd0c9f7782f56545dbee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118411393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999824"
 ---
 # <a name="lvm_getgroupinfo-message"></a>\_Message GETGROUPINFO LVM
 
@@ -35,11 +35,11 @@ Obtient les informations de groupe.
 *lParam* 
 </dt> <dd>Pointeur une structure <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroup">**LVGROUP**</a> qui reçoit les informations récupérées. Définissez le membre **cbSize** de cette structure sur sizeof (LVGROUP). </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’ID du groupe en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant de tenter de récupérer l’en-tête d’un groupe, assurez-vous d’abord que le groupe n’a pas le \_ style d’en-tête LBGS.
 

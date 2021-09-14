@@ -14,11 +14,11 @@ api_type:
 api_location:
 - D3D9Types.h
 ms.openlocfilehash: 337e8b25a8ec8389a6252fb48582128c601730ca
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394063"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922608"
 ---
 # <a name="d3dsampler_texture_type-enumeration"></a>\_Énumération de type de texture D3DSAMPLER \_
 
@@ -78,7 +78,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

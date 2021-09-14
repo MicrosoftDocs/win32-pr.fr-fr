@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1c4f0c108c397668dce915f5d5993881e66c3524025ef0545c40e00ed2563d78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ccf986957d73dd93837b0ab7a1e10b50aec5e8f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921883"
 ---
 # <a name="win32_desktopmonitor-class"></a>\_Classe desktopmonitor Win32
 
@@ -712,7 +712,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd>
@@ -1377,7 +1377,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ desktopmonitor** est dérivée de [**CIM \_ desktopmonitor**](cim-desktopmonitor.md), qui dérive de l' [**\_ affichage CIM**](cim-display.md). **CIM \_ L’affichage** est dérivé de [**CIM \_ UserDevice**](cim-userdevice.md), qui dérive de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1385,7 +1385,7 @@ La classe **Win32 \_ desktopmonitor** est dérivée de [**CIM \_ desktopmonitor*
 
 l’exemple de [création d’un dessin de Configuration d’ordinateur à l’aide de Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sur la galerie TechNet utilise **Win32 \_ DesktopMonitor** pour interagir avec le modèle automation de Visio afin de créer un dessin Visio.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

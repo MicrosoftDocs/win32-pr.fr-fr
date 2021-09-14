@@ -4,12 +4,12 @@ ms.assetid: 58a680ea-1f88-4900-8820-c30a2f3e3901
 title: Tables de fréquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db832144aedb8f64d18692a30a8e8c7d812c4cbd517b1b9ab31bd9cdc231019b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 933152c7ac38eefe91468aff8bc3a8eb3ced05df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118401257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999145"
 ---
 # <a name="frequency-tables"></a>Tables de fréquence
 

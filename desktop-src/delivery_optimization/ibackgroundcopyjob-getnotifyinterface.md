@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ef8eab6c101cadde2b715c48fe3dae2443e72e93f623b397036e2467bcbf0b5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6586a90de5783ceb24e5a7677f699a9cf6dfa60c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921748"
 ---
 # <a name="ibackgroundcopyjobgetnotifyinterface-method"></a>Méthode ibackgroundcopyjob :: GetNotifyInterface, méthode
 
@@ -50,7 +50,7 @@ Pointeur d’interface vers votre implémentation de l’interface [**IBackgroun
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
@@ -64,7 +64,7 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

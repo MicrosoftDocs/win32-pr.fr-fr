@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7b5c715f5f2bb7edfaa149cf0da77db5fbca8d47636b6f84fd07071c3b75186e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 50b12f2184f6eca0fd7a68feb3e96d8d6fc65a61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119788319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922252"
 ---
 # <a name="texture3d"></a>Texture3D
 
@@ -29,7 +29,7 @@ Type Texture3D ([tel qu’il existe dans Shader Model 4](dx-graphics-hlsl-to-typ
 | Méthode                                                                  | Description                                                                                |
 |-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [**GetDimensions**](sm5-object-texture3d-getdimensions.md)             | Obtient les dimensions de ressource.                                                              |
-| [**Load**](texture3d-load.md)                                          | Lit les données de texture.                                                                        |
+| [**Chargera**](texture3d-load.md)                                          | Lit les données de texture.                                                                        |
 | [**mips. And\[\]\[\]**](sm5-object-texture3d-mipsoperatorindex.md) | Obtient une variable de ressource en lecture seule.                                                        |
 | [**Opérateur\[\]**](sm5-object-texture3d-operatorindex.md)              | Obtient une variable de ressource en lecture seule.                                                        |
 | [**Exemple**](texture3d-sample.md)                                      | Échantillonne une texture.                                                                         |
@@ -47,9 +47,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -59,7 +59,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

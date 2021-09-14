@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\effects.htm
 title: Effets (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59ed52a3a75f4b0682be4447f02ed305cf026af6aa30a59e921f4fa23f0e2211
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d48d2ff5548dff29ede4b360bd2c319f85fafa3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119985983"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921339"
 ---
 # <a name="effects-direct3d-9"></a>Effets (Direct3D 9)
 

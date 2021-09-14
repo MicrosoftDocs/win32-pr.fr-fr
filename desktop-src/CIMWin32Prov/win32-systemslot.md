@@ -50,11 +50,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 1e2913aa2d8850aae4fdad8fbca71f216cd848f2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111478"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999414"
 ---
 # <a name="win32_systemslot-class"></a>\_Classe SystemSlot Win32
 
@@ -134,7 +134,7 @@ Numéro de bus SMBIOS.
 
 Cette valeur provient du membre du **numéro de bus** de la structure des **emplacements système** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1011,7 +1011,7 @@ Numéro d’appareil SMBIOS.
 
 Cette valeur provient du membre du numéro de l' **appareil ou** de la fonction de la structure des **emplacements système** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1031,7 +1031,7 @@ Numéro de fonction SMBIOS.
 
 Cette valeur provient du membre du numéro de l' **appareil ou** de la fonction de la structure des **emplacements système** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1339,7 +1339,7 @@ Numéro de groupe de segments SMBIOS.
 
 Cette valeur provient du membre de **numéro de groupe de segments** de la structure des **emplacements système** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1379,7 +1379,7 @@ Cette valeur provient du membre des caractéristiques de l' **emplacement 1** de
 
 </dd> <dt>
 
-**Référence (SKU)**
+**Référence SKU**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -1727,7 +1727,7 @@ Les valeurs possibles sont.
 
 La classe **Win32 \_ SystemSlot** est dérivée de l' [**\_ emplacement CIM**](cim-slot.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

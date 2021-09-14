@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fe8b349a0bc749d6b07df2f02f331bc94f3e4a05edff5bb1b2031928ee6c2a51
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a90ddaab9565557b5bbc83f52d0dce82447ab15d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119217709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921908"
 ---
 # <a name="win32_dcomapplication-class"></a>\_Classe DCOMApplication Win32
 
@@ -256,11 +256,11 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ DCOMApplication** est dérivée de [**Win32 \_ comapplication**](win32-comapplication.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

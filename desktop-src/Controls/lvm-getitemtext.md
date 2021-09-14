@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32d5292f9814b3ef62667d44582eab44a2f18ac6c274682d180dd26f1b7cdd9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c71eec6b9dab4c649b11da5b24568eea816774ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999815"
 ---
 # <a name="lvm_getitemtext-message"></a>\_Message GETITEMTEXT LVM
 
@@ -45,17 +45,17 @@ Pointeur vers une structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si vous envoyez ce message de manière explicite, il retourne le nombre de caractères dans le membre **pszText** de la structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez également envoyer ce message en appelant la macro [**ListView \_ GetItemText**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getitemtext) . Toutefois, cette macro ne retourne pas la longueur de la chaîne.
 
 **LVM \_ GETITEMTEXT** n’est pas pris en charge sous le style [**\_ OWNERDATA LVS**](list-view-window-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bbdcae4e708957bbcd10a6ab365e68b31e959e50695b50a1a7a0a08f3859b152
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 722d7a3ac90fa3083b8f42f7704f5c9e0aeb1829
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119671299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921247"
 ---
 # <a name="texture2dgathergreensfloatint-function"></a>Texture2D :: GatherGreen (S, float, int) (fonction)
 
@@ -65,13 +65,13 @@ Offset appliqué à la coordonnée de texture avant l’échantillonnage.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **TemplateType**
 
 Valeur à quatre composants dont le type est identique au type de modèle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -79,7 +79,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

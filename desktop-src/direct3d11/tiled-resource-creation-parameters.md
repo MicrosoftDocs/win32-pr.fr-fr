@@ -4,12 +4,12 @@ description: Il existe certaines contraintes sur le type de ressources Direct3D 
 ms.assetid: 19A0EA7F-888D-4102-A5D2-F3B54775EDE8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9668c21060cbb8f39884204780ce689b3e67196aef0bdcfef891836768f04af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b912325371c59bd46a6cc4245289b2fe5d32a924
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119279839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921588"
 ---
 # <a name="tiled-resource-creation-parameters"></a>Paramètres de création de ressources en mosaïque
 

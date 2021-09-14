@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ae1ab3f8ac24b5521fab1afc5313503867e575906e851acf4d4fdbe90fe787d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed6b4af8e662a8a9891e9a81535de987337567f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119544689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999944"
 ---
 # <a name="hdn_begindrag-notification-code"></a>\_Code de notification HDN BEGINDRAG
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**NMHEADER**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour permettre au contrôle header de gérer automatiquement les opérations de glisser-déplacer, retournez **false**. Si le propriétaire du contrôle effectue manuellement la réorganisation par glisser-déplacer, retourne la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, un contrôle header gère automatiquement la réorganisation des opérations de glisser-déplacer. Le retour de la **valeur true** pour indiquer que la gestion du glisser-déplacer externe (manuelle) permet au propriétaire du contrôle de fournir des services personnalisés dans le cadre du processus de glisser-déplacer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Affichage d’un bitmap Application-Supplied sur l’image composit
 ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90768cc9ba9ed3a7f53336c63b0112f297e1844ba9638799e8badf28588775eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06ecd8ac931d0a0bb83eafba09d8ca7dc8263f0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118653514"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999658"
 ---
 # <a name="display-an-app-supplied-bitmap-on-the-composited-image"></a>Afficher un bitmap fourni par une application sur l’image composite
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 19321dde9f44a2262ee3875d40bd5822e65eff9b84d1fc01656993ea584a8dc6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 979b09f852e692b4c25414607f79cd8792342755
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118988649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922536"
 ---
 # <a name="d3dxcreateeffectex-function"></a>D3DXCreateEffectEx fonction)
 
@@ -139,13 +139,13 @@ Retourne une mémoire tampon qui contient une liste d’erreurs de compilation.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est une version étendue de [**D3DXCreateEffect**](d3dxcreateeffect.md) qui permet à une application de spécifier les constantes d’effet qui seront gérées par l’application. Une constante gérée par l’application est ignorée par le système d’effets. Autrement dit, l’application est responsable de l’initialisation de la constante, ainsi que de l’enregistrement et de la restauration de son état chaque fois que nécessaire.
 
@@ -156,7 +156,7 @@ Cette fonction vérifie chaque constante dans pSkipConstants pour voir ce qui su
 
 Si une constante est nommée dans la chaîne qui n’est pas présente dans l’effet, elle est ignorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

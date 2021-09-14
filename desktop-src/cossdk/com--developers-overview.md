@@ -4,12 +4,12 @@ ms.assetid: 4670b09f-2586-4325-aaa7-c6c7d9966987
 title: Vue d’ensemble des développeurs COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4142c88c65d4b83dd4951e0820ff8896271f2f2cc5826a10cb9b8b2d64c07de0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40d0b18eac1221dbcace68852f6ed93ea56fc904
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118308138"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921788"
 ---
 # <a name="com-developers-overview"></a>Vue d’ensemble des développeurs COM+
 

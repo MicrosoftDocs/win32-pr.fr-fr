@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 16513cd202d8ad1973a6aa4d2bfd69f8372cb9b611e1dc070e265685db2d2682
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b09049bc443991dabe07a7626ffc42097feceee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999295"
 ---
 # <a name="cdeferredcommandgethresult-method"></a>Méthode CDeferredCommand. GetHRESULT,
 
@@ -49,15 +49,15 @@ Pointeur vers la valeur **HRESULT** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne E \_ Abort si **m \_ PQueue** a la **valeur null**. Sinon, retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre implémente la méthode [**IDeferredCommand :: GetHRESULT,**](/windows/desktop/api/Control/nf-control-ideferredcommand-gethresult) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

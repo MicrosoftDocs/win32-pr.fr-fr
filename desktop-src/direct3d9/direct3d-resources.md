@@ -4,12 +4,12 @@ ms.assetid: 815a330c-9fd2-45ff-b7df-192fc197074f
 title: Ressources Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8acc40cc929f5cedbefaa0b652c67ea59e35212e4da81c4278e3a57f48ea7662
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7745318db3d880711ee962edb086996764455ec8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118523778"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855136"
 ---
 # <a name="direct3d-resources-direct3d-9"></a>Ressources Direct3D (Direct3D 9)
 

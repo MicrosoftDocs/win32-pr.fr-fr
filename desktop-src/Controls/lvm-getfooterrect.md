@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39bc2c5cd724c9b5b4885b99123489e49ead52243d43388e7eb22808fb43a826
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31df3a1b7b29e5ad9191da9e990e04daec99e948
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118411458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999834"
 ---
 # <a name="lvm_getfooterrect-message"></a>\_Message GETFOOTERRECT LVM
 
@@ -43,7 +43,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) po
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 

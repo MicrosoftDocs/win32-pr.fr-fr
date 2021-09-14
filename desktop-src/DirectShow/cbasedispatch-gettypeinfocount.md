@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: da80cdb4810ea3e598ad9483ccf52e8033ccb1a5b7ee65351e2cfcc273a3415f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81e68c94420b3d7715845f8d6bd14e26b770b44f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999761"
 ---
 # <a name="cbasedispatchgettypeinfocount-method"></a>Méthode CBaseDispatch. GetTypeInfoCount
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit le nombre d’interfaces d’informations
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs suivantes.
 
@@ -64,7 +64,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

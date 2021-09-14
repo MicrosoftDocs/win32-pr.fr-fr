@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: ae802a1b7e18ce5f2b0a11c6679628ea1deb25aa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953800"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921396"
 ---
 # <a name="d3dxloadsurfacefromresource-function"></a>D3DXLoadSurfaceFromResource fonction)
 
@@ -129,7 +129,7 @@ Pointeur vers une structure d' [**\_ informations D3DXIMAGE**](d3dximage-info.md
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -139,13 +139,13 @@ Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction �
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXLoadSurfaceFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXLoadSurfaceFromResourceA, car les chaînes ANSI sont utilisées.
 
-La ressource en cours de chargement doit être de type RT \_ bitmap ou RT \_ RCDATA. Le type de ressource « RT \_ RCDATA » est utilisé pour charger des formats autres que des bitmaps (tels que. TGA,. jpg et. DDS).
+La ressource en cours de chargement doit être de type RT \_ bitmap ou RT \_ RCDATA. Le type de ressource RT \_ RCDATA est utilisé pour charger des formats autres que des bitmaps (tels que. TGA, .jpg et. DDS).
 
 Cette fonction gère la conversion vers et à partir des formats de texture compressés.
 
 L’écriture sur une surface non-niveau zéro n’entraîne pas la mise à jour du rectangle de modification. Si [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) est appelé et que la surface n’était pas encore modifiée (ce qui est peu probable dans les scénarios d’utilisation normale), l’application doit appeler explicitement [**AddDirtyRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect) sur l’aire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

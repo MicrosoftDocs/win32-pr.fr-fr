@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5ffe3cdf95d5ab248956e670c04572140fa4621fff5b0cb5183f9a7cbd9b837e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48c42ff02b22d30138fcad7d1e8af5e57a391b99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117822720"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999317"
 ---
 # <a name="cbaserenderergetcurrentsample-method"></a>Méthode CBaseRenderer. GetCurrentSample
 
@@ -40,15 +40,15 @@ virtual IMediaSample* GetCurrentSample();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) de l’exemple, ou **null** si aucun échantillon n’est disponible.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À moins que la méthode ne retourne la **valeur null**, la méthode appelle **AddRef** sur le pointeur [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) avant de la retourner. L’appelant doit libérer le pointeur. (Par implication, vous devez affecter la valeur de retour à une variable, afin de pouvoir la libérer ultérieurement.)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

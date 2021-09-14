@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 8edeac0ee198366683f0915911611f8edf000b138bea563f11f7da5d14a91be0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2a84d2da1f3ca88a117c0150e7b27485838c300
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117910617"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922524"
 ---
 # <a name="d3dxcreateeffectfromresource-function"></a>D3DXCreateEffectFromResource fonction)
 
@@ -129,13 +129,13 @@ Retourne une mémoire tampon qui contient une liste d’erreurs de compilation.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si les paramètres du compilateur requièrent Unicode, le type de données LPCTSTR est résolu en LPCWSTR. Dans le cas contraire, le type de données LPCTSTR est résolu en LPCSTR.
 
@@ -143,7 +143,7 @@ Le paramètre du compilateur détermine également la version de la fonction. Si
 
 D3DXCreateEffectFromResource charge des données à partir d’une ressource de type RT \_ RCDATA. pour plus d’informations sur les ressources de Windows, consultez MSDN.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: D3DPMISCCAPS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ee88ba03b3c0a6d51c0100b20768df4cbf632d46
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624535"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922632"
 ---
 # <a name="d3dpmisccaps"></a>D3DPMISCCAPS
 

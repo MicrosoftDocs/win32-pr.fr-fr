@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61cee31369bfa1574ba4690f952bc60fb0dde1e5a9bf2f41e98b659356a79625
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 911953fcbea785cb7024bc9d0670c8ed33239524
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999917"
 ---
 # <a name="hdn_overflowclick-notification-code"></a>\_Code de notification HDN OVERFLOWCLICK
 
@@ -47,17 +47,17 @@ Définissez le membre **iItem** de la structure [**NMHEADER**](/windows/win32/ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le récepteur de notification convertit **lParam** pour récupérer la structure [**NMHEADER**](/windows/win32/api/commctrl/ns-commctrl-nmheadera) . **WParam** contient l’ID du contrôle qui envoie la notification.
 
 Ce message est envoyé uniquement lorsque le style de [**\_ dépassement de capacité HDS**](header-control-styles.md) est défini sur le contrôle header.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

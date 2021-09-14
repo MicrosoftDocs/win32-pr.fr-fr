@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3b52ace8ea72d78585ac0df858df1fc807fbc65ca74ace92208d2e9fc5c76861
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 085304c5319811ba87979124613c7d8e83fd7479
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118417730"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921896"
 ---
 # <a name="win32_dcomapplicationsetting-class"></a>\_Classe DCOMApplicationSetting Win32
 
@@ -355,11 +355,11 @@ L’application DCOM peut être activée en tant que serveur hors processus à l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ DCOMApplicationSetting** est dérivée de la [**\_ comdéfinition Win32**](win32-comsetting.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

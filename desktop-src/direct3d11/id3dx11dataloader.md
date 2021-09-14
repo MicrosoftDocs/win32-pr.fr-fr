@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d589c6393642829eed6d803f8b8ac306c41b9fe88f0f16f69e30abf55311b8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 92b688fcbeff21edf23f6a3be1b39be5a9cf0000
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120096269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921599"
 ---
 # <a name="id3dx11dataloader-interface"></a>Interface ID3DX11DataLoader
 
@@ -44,54 +44,23 @@ L’interface **ID3DX11DataLoader** possède ces méthodes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Méthode</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-decompress.md"><strong>Décompresser</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
-</blockquote>
-<br/> Décompresse les données encodées.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11dataloader-destroy.md"><strong>Suppression</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
-</blockquote>
-<br/> Détruit le chargeur après l’achèvement d’un élément de travail.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-load.md"><strong>Load</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
-</blockquote>
-<br/> Charge des données à partir d’un disque.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Méthode | Description | 
+|--------|-------------|
+| <a href="id3dx11dataloader-decompress.md"><strong>Décompresser</strong></a> | <blockquote>[!Note]<br />la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.</blockquote><br /> Décompresse les données encodées.<br /> | 
+| <a href="id3dx11dataloader-destroy.md"><strong>Suppression</strong></a> | <blockquote>[!Note]<br />la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.</blockquote><br /> Détruit le chargeur après l’achèvement d’un élément de travail.<br /> | 
+| <a href="id3dx11dataloader-load.md"><strong>Chargera</strong></a> | <blockquote>[!Note]<br />la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.</blockquote><br /> Charge des données à partir d’un disque.<br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être hérité et ses membres redéfinis. Cela vous permettrait de personnaliser l’API pour le chargement et la décompression de vos propres formats de fichiers personnalisés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

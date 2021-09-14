@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0d18b3f02489c17c5fd794be51fa89d1b28e31b75c441f41d48d269113591281
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c38ec84b9df38687a32211f3294258fd58efb96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118007681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999458"
 ---
 # <a name="win32_startupcommand-class"></a>\_Classe StartupCommand Win32
 
@@ -239,7 +239,7 @@ Exemple : S-1-5-21-1579938362-1064596589-3161144252-1006
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ StartupCommand** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
@@ -290,7 +290,7 @@ Next
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

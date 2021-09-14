@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102829
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b13c2575d287e34492d2dbdfc6dc62b5916e76fcd56db5b002161421c92acb47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a0a55fb617531fd7f103666efd3cb03428686de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854499"
 ---
 # <a name="esentslvspacewriteconflictexception-properties"></a>Propriétés EsentSLVSpaceWriteConflictException
 
@@ -69,7 +69,7 @@ Le type [EsentSLVSpaceWriteConflictException](./esentslvspacewriteconflictexcept
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

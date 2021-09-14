@@ -4,12 +4,12 @@ ms.assetid: 6244f006-db9f-42b2-81cd-26eba583613e
 title: Utilisation des périphériques vidéo USB DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd1f83fb490f4bd1e71714dcb0658d01a41d6e45af6f3e89436f6e32c1cdc985
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75647aa7b53bac45c155b4e0a9283418c9af58b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071740"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999573"
 ---
 # <a name="working-with-usb-dv-video-devices"></a>Utilisation des périphériques vidéo USB DV
 

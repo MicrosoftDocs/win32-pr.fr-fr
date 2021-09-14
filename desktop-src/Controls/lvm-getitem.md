@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05338abce0396c5cc527c8a1c04176b3b59243a684c66a263cb190d59ac68b98
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c19632567db5e37059b1b028a8ec1fc9385268cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999818"
 ---
 # <a name="lvm_getitem-message"></a>Message de LVM. \_
 
@@ -41,11 +41,11 @@ Pointeur vers une structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le **message \_ LVM de LVM** est envoyé, les membres **iItem** et **iSubItem** identifient l’élément ou le sous-élément pour lequel récupérer des informations et le membre **Mask** spécifie les attributs à récupérer. Pour obtenir la liste des valeurs possibles, consultez la description de la structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) .
 

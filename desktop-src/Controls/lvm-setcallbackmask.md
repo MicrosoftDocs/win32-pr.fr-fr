@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e33b106eb0c59f83e40b9f170dd017fcdda412072ed51a26572fcf368f5215
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef6dd46228c4e4aeada30f469a77f9e67aff3a37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999780"
 ---
 # <a name="lvm_setcallbackmask-message"></a>\_Message SETCALLBACKMASK LVM
 
@@ -54,11 +54,11 @@ Valeur du masque de rappel. Les bits du masque indiquent les États ou images d�
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le *masque de rappel* d’un contrôle List-View est un jeu d’indicateurs binaires qui spécifient les États de l’élément pour lesquels l’application, plutôt que le contrôle, stocke les données actuelles. Le masque de rappel s’applique à tous les éléments du contrôle, contrairement à la désignation de l’élément de rappel, qui s’applique à un élément spécifique. Le masque de rappel a la valeur zéro par défaut, ce qui signifie que le contrôle List-View stocke toutes les informations sur l’état de l’élément. Après avoir créé un contrôle List-View et initialisé ses éléments, vous pouvez envoyer le **message \_ SETCALLBACKMASK LVM** pour modifier le masque de rappel. Pour récupérer le masque de rappel actuel, envoyez le message [**\_ GETCALLBACKMASK LVM**](lvm-getcallbackmask.md) .
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur les images de superposition et les images d’Ét
 
 Pour plus d’informations sur les rappels de vue de liste, consultez [éléments de rappel et masque de rappel](list-view-controls-overview.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

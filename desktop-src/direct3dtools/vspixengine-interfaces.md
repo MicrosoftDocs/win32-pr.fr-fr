@@ -14,11 +14,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: ec68ddbbf3ed3eabdf83fa9283833c34b9ac670f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921180"
 ---
 # <a name="span-idvspixenginevspixengine_interfacesspandirect3d-diagnostics-capture-interfaces"></a><span id="vspixengine.vspixengine_interfaces"></span>Interfaces de capture des diagnostics Direct3D
 

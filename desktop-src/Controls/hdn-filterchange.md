@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df9cb23123460e06bd2d8c3a5a38e2465e4382f80d223f978c82a1ea8702dfd8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a3d5d31b792e909cd79cdc6aa966bfdce450787b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119435519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999924"
 ---
 # <a name="hdn_filterchange-notification-code"></a>\_Code de notification HDN FILTERCHANGE
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMHEADER**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

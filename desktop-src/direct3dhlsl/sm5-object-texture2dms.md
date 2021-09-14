@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c62c156470046aee4312a0e6dab82eca9aeb5c82b4536138ecd5afe838995cf2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c16c69a4fa0fd35ce7b12d69f880daa4b8345d02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120067539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922288"
 ---
 # <a name="texture2dms"></a>Texture2DMS
 
@@ -46,9 +46,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur              | Pris en charge |
+| Modèle de nuanceur              | Prise en charge |
 |---------------------------|-----------|
-| Shader Model 4 et versions ultérieures | oui       |
+| Shader Model 4 et versions ultérieures | Oui       |
 
 
 
@@ -58,7 +58,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

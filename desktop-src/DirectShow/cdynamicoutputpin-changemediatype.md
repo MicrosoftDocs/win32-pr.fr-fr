@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 892709431e1f521ce4c70f6783d0fb9156b544e4d2c4e95282a1879a9bb70885
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 89c15e3076a95f8fee3f2f2970fc59da5cf3bf4b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119983299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999729"
 ---
 # <a name="cdynamicoutputpinchangemediatype-method"></a>Méthode CDynamicOutputPin. ChangeMediaType
 
@@ -49,7 +49,7 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) avant d’appeler cette méthode.
 
@@ -73,7 +73,7 @@ Cette méthode vérifie d’abord si la broche d’entrée en aval peut accepter
 
 En revanche, si le code pin en aval ne prend pas en charge **IPinConnection**, ou s’il rejette le nouveau type de média, la méthode appelle la méthode [**CDynamicOutputPin ::D ynamicreconnect**](cdynamicoutputpin-dynamicreconnect.md) pour effectuer une reconnexion dynamique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

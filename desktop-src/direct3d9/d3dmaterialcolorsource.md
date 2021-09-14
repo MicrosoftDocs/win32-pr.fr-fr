@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 3c8069fdde062fdc6dea311b40b8614d2165356ff397f0d056c43569f391e02a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8877eece8e33c6508768b22c989e992cf8178823
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118988889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922647"
 ---
 # <a name="d3dmaterialcolorsource-enumeration"></a>Énumération D3DMATERIALCOLORSOURCE
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces indicateurs sont utilisés pour définir la valeur des États de rendu suivants dans le type énuméré [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md) .
 
@@ -79,7 +79,7 @@ Ces indicateurs sont utilisés pour définir la valeur des États de rendu suiva
 -   D3DRS \_ EMISSIVEMATERIALSOURCE
 -   D3DRS \_ SPECULARMATERIALSOURCE
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: 2e5a9fdd92a2d978c746543fbbbeec6503d07404
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115507"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921356"
 ---
 # <a name="d3dxvec4transform-function-d3dx9mathh"></a>D3DXVec4Transform, fonction (D3dx9math. h)
 
@@ -69,17 +69,17 @@ Pointeur vers la structure [**D3DXMATRIX**](d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le vecteur 4D transformé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Transform** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

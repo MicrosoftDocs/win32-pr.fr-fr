@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 23ecf58d0d2cbebf09f47dd9a5f61d9658d3af94a118a7a902ac1e41ce612631
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f1369b63f3ae5cacf74d32c89cda5602660d228
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117822112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999249"
 ---
 # <a name="cdynamicoutputpincdynamicoutputpin-destructor"></a>CDynamicOutputPin. ~ CDynamicOutputPin, destructeur
 
@@ -36,7 +36,7 @@ Méthode de destructeur.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

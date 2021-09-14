@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c4376319d8ac2d49c480110d5119af5a3cefc9fe491f4997efdc15e30bf50db9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f1f6ffc45098ba8f8b689e6f6212e5bec4fd679
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922488"
 ---
 # <a name="d3dxplanetransform-function-d3dx9mathh"></a>D3DXPlaneTransform, fonction (D3dx9math. h)
 
@@ -69,7 +69,7 @@ Pointeur vers la structure source [**D3DXMATRIX**](d3dxmatrix.md) , qui contient
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 
@@ -100,7 +100,7 @@ Un plan est décrit par ax + by + CZ + DW = 0. Le premier plan est créé avec (
 
 Le paramètre pM contient la transposer inverse de la matrice de transformation. La permutation inverse est requise par cette méthode afin que le vecteur normal du plan transformé puisse également être correctement transformé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

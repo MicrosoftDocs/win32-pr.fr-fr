@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9f539f200e6424aeccf4e507c25f5debbcc295cfdd9469e05dd1c9db71d6d121
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f02a59854b381db5e7b13a85ccca0754cc38f51d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119292179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999712"
 ---
 # <a name="cdynamicoutputpinm_blockstate-member"></a>CDynamicOutputPin :: m \_ BlockState, membre
 
@@ -46,7 +46,7 @@ Les États suivants sont définis :
 
 Avant d’accéder à cette variable, maintenez la section critique [**CDynamicOutputPin :: m \_ BlockStateLock**](cdynamicoutputpin-m-blockstatelock.md) .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

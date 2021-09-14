@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c001baf629c228fb27f4f9fd744ae9aa0942f44ff028f803be66639db41d6e12
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8e61469729f3753256bc7fcf5598265b5c1b7dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117833984"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999418"
 ---
 # <a name="win32_systemservices-class"></a>\_Classe SystemServices Win32
 
@@ -84,11 +84,11 @@ Référence à l’instance représentant le service qui existe sur le système 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ SystemServices** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

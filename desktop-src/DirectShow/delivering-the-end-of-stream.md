@@ -4,12 +4,12 @@ ms.assetid: 23afdb2e-93b0-4a74-94bd-e38eb82a5995
 title: Transmission de la fin du flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eebae0fe3238f32f630c0a2ecd0787f6bd9b75a9aed6342e202f187d3fe8dac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2bd80d186bd62e6360fa1600f4ba970281315aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119831349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999222"
 ---
 # <a name="delivering-the-end-of-stream"></a>Transmission de la fin du flux
 

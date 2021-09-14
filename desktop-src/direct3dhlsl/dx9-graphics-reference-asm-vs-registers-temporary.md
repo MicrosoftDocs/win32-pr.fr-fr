@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: eb8d1ee47b224103724ba61fa6c8763069acc0564758a9e531d5d5edb6e2a039
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3dcaa5ac0c9c1531a1e1f0476d2ef13b4bac509
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119553"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922424"
 ---
 # <a name="temporary-register-hlsl-vs-reference"></a>Registre temporaire (référence HLSL VS)
 

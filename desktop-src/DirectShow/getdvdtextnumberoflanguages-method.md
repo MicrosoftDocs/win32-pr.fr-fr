@@ -4,12 +4,12 @@ ms.assetid: aa4b737b-abe0-496a-8570-f3a8e711c7ce
 title: Méthode GetDVDTextNumberOfLanguages
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a54b77ca6a27c7fa82ec0bb171246d6a679bae32bfedc29968571d8f40777584
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc0864eb60631833a60b721a992a906012a252f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999123"
 ---
 # <a name="getdvdtextnumberoflanguages-method"></a>Méthode GetDVDTextNumberOfLanguages
 

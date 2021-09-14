@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7e4920bdded79a7f63cbe7beaf28a70837ad7a47c2b28a1e37d83208b4f4e6f1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2707810d919c119aff35f2313e9aa5218f7948f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999498"
 ---
 # <a name="scheduleautochk-method-of-the-win32_logicaldisk-class"></a>Méthode ScheduleAutoChk de la \_ classe disque logique Win32
 
@@ -54,7 +54,7 @@ Spécifie la liste des lecteurs à planifier pour Autochk au prochain redémarra
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) en cas de réussite, et une autre valeur si une autre erreur se produit. Les valeurs sont répertoriées dans la liste suivante. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -75,7 +75,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et une autre valeur si une aut
 **Erreur : lecteur inconnu** (4)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode s’applique uniquement aux instances de disque logique qui représentent un disque physique de l’ordinateur. Cette méthode n’est pas applicable aux lecteurs logiques mappés.
 
@@ -104,7 +104,7 @@ Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

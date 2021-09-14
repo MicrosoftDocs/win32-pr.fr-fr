@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f08ed0e8348648d5d1af1127159b414b0ddbc40cfd470ff0834b7bc2b0723e9b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4dd29b37869fc6f07c2d876dfa0d1d306b04b111
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999745"
 ---
 # <a name="cbaserenderersignaltimerfired-method"></a>Méthode CBaseRenderer. SignalTimerFired
 
@@ -40,15 +40,15 @@ virtual void SignalTimerFired();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre appelle cette méthode lorsque le minuteur de rendu s’active (consultez [**CBaseRenderer :: WaitForRenderTime**](cbaserenderer-waitforrendertime.md)) ou lorsque la minuterie est annulée (consultez [**CBaseRenderer :: CancelNotification**](cbaserenderer-cancelnotification.md)). La méthode réinitialise la variable de membre [**CBaseRenderer :: m \_ dwAdvise**](cbaserenderer-m-dwadvise.md) à zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

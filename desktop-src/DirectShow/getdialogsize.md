@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7f1f2631e169549895a1f74ce571b2abfeeee8cd77ac7cb3c4dfc5aa6913a6d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34eff1882306c85446f7cc7708efea3b17fcf7e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119564949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999126"
 ---
 # <a name="getdialogsize-function"></a>GetDialogSize fonction)
 
@@ -73,17 +73,17 @@ Pointeur vers une structure de **taille** qui reçoit les dimensions de la boît
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si la ressource de boîte de dialogue a été trouvée, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les pages de propriétés peuvent utiliser cette fonction pour retourner la taille d’affichage réelle dont elles ont besoin. La plupart des pages de propriétés sont des boîtes de dialogue et, par conséquent, ont des modèles de boîte de dialogue stockés dans des fichiers de ressources. Les modèles utilisent des unités de boîte de dialogue qui ne correspondent pas directement aux pixels de l’écran. Toutefois, la fonction [**GetPageInfo**](cbasepropertypage-getpageinfo.md) d’une page de propriétés doit retourner la taille réelle de l’affichage en pixels. La page de propriétés peut appeler `GetDialogSize` pour calculer la taille de l’affichage.
 
 Cette fonction crée une instance temporaire de la boîte de dialogue. Pour éviter que la boîte de dialogue ne s’affiche à l’écran, le modèle de boîte de dialogue dans le fichier de ressources ne doit pas avoir de \_ propriété WS visible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

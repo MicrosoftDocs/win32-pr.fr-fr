@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 01c696985b4b632223318675fd63f842b85ed6e27297ff1befebbac1b3fa9bce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ade12d72d68b43df7d9ae3d1f33010bb95b7052a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921755"
 ---
 # <a name="ibackgroundcopyjobgetid-method"></a>Méthode ibackgroundcopyjob :: GetId, méthode
 
@@ -50,15 +50,15 @@ GUID qui identifie le travail dans la file d’attente DO.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne **S_OK** en cas de réussite ou une des valeurs com **HRESULT** standard en cas d’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le service génère l’identificateur lorsque vous [créez](ibackgroundcopymanager-createjob.md) le travail. Pour utiliser l’identificateur pour récupérer un pointeur d’interface [**méthode ibackgroundcopyjob**](ibackgroundcopyjob-.md) pour le travail, appelez la méthode [**IBackgroundCopyManager :: GetJob**](ibackgroundcopymanager-getjob.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

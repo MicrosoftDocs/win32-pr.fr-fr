@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d935321516dd0a05407b70aaa24acacec6f940b9f15c2d4c3d711129cfe7f472
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: be8b427e59ac520a89877d7097cc5066633f6259
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119459908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855057"
 ---
 # <a name="id3dxbuffergetbuffersize-method"></a>ID3DXBuffer :: GetBufferSize, méthode
 
@@ -38,13 +38,13 @@ DWORD GetBufferSize();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
 Retourne la taille totale des données dans la mémoire tampon, en octets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

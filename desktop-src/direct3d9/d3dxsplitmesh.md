@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: aee07e79286867ce11ce394e852fdfc01c6a1e41dc75b8c979838844b4f09d2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1f01cdb4ddd009f5cdf0b7f0310a492840955f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118298251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922464"
 ---
 # <a name="d3dxsplitmesh-function"></a>D3DXSplitMesh fonction)
 
@@ -149,7 +149,7 @@ const DWORD remap = face_remaps[2][3];
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

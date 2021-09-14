@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f6786e9e763af26619b2dc4f6abc25aa2fd9527d7278e7da02f6042908e56bdd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5adc603e4cdd1f49e649264d2d82d6df0fb12569
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119341379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999364"
 ---
 # <a name="cbaseoutputpindeliver-method"></a>CBaseOutputPin. Deliver, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -64,7 +64,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle la méthode [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) sur la broche d’entrée. **Receive** peut être bloqué si la méthode [**IMemInputPin :: ReceiveCanBlock**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivecanblock) retourne S \_ OK.
 
@@ -74,7 +74,7 @@ Maintenez la section critique du filtre avant d’appeler cette méthode. Dans l
 
 Les threads de travail peuvent créer un interblocage potentiel. Lorsque le thread contient la section critique, il peut attendre une modification d’État dans le filtre. En même temps, il est possible que le changement d’État attende que le thread se termine. Pour éviter cela, le code de modification d’État doit signaler un événement qui termine le thread, puis attendre que le thread signale la fin de l’opération.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

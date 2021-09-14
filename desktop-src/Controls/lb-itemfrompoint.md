@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddddd58780cb4b140501c567d699373cb1fa03cbf212332bea71611a4add3788
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5c4f06b9de8e6580c81c7faf7ddb8c287a148b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119575929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999859"
 ---
 # <a name="lb_itemfrompoint-message"></a>\_Message ITEMFROMPOINT lb
 
@@ -45,11 +45,11 @@ Le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour contient l’index de l’élément le plus proche dans le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)). [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) est égal à zéro si le point spécifié se trouve dans la zone cliente de la zone de liste, ou un point s’il est en dehors de la zone cliente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

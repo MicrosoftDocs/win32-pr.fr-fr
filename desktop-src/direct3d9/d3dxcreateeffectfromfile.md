@@ -15,11 +15,11 @@ api_location:
 - D3dx9.lib
 - D3dx9.dll
 ms.openlocfilehash: d8b2afdd1e8008bc8e03efa670e5a4b37b6dc9f8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922532"
 ---
 # <a name="d3dxcreateeffectfromfile-function"></a>D3DXCreateEffectFromFile fonction)
 
@@ -83,7 +83,7 @@ Pointeur d’interface facultatif, [**ID3DXInclude**](id3dxinclude.md), à utili
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -119,19 +119,19 @@ Retourne un pointeur vers une mémoire tampon contenant une liste d’erreurs de
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Si les paramètres du compilateur requièrent Unicode, le type de données LPCTSTR est résolu en LPCWSTR. Dans le cas contraire, le type de données LPCTSTR est résolu en LPCSTR.
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateEffectFromFileW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateEffectFromFileA, car les chaînes ANSI sont utilisées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

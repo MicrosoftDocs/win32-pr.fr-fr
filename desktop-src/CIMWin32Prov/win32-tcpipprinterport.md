@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b2861d12740f894cc17a91d6a3f4c2b6792d38f658063bc89474f3656a74b45f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a0b0f0cb73cc60ff117399a636b0ab8542fac6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999405"
 ---
 # <a name="win32_tcpipprinterport-class"></a>\_Classe TCPIPPrinterPort Win32
 
@@ -504,7 +504,7 @@ Cette propriété est héritée de [**CIM \_ ServiceAccessPoint**](cim-serviceac
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ TCPIPPrinterPort** est dérivée de [**CIM \_ ServiceAccessPoint**](cim-serviceaccesspoint.md) qui dérive de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -529,7 +529,7 @@ function Remove-PrinterAndPort{
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

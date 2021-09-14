@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 8f5619211a5fc76bb080b81b22c08c9e369abf93
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854211"
 ---
 # <a name="jet_loginfo-structure"></a>Structure JET_LOGINFO
 
@@ -62,13 +62,13 @@ Préfixe utilisé pour nommer les fichiers du journal des transactions.
 
 La valeur retournée dans ce membre est toujours égale au paramètre de [JET_paramBaseName](./transaction-log-parameters.md) pour l’instance qui a généré ces informations.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Les fichiers journaux de transactions sont nommés en fonction du nom de base de l’instance et du numéro de génération du fichier journal. Le nom est au format BBBXXXXX. Sign. BBB correspond au nom de base du fichier journal et sa longueur est toujours de trois caractères. XXXXX correspond au numéro de génération du fichier journal en valeur hexadécimale de zéro et est toujours de cinq caractères. LOG est l’extension de fichier qui est toujours donnée aux fichiers journaux des transactions par le moteur.
 
 L’utilisation de ces informations structurées est déconseillée, car elle permet à l’application d’avoir une connaissance approfondie de ce schéma de nommage pour les fichiers journaux des transactions. Si le schéma de nommage change à l’avenir, une telle application ne fonctionnera plus correctement. Il est concevable que le format de journal change pour incorporer 8 chiffres hexadécimaux à l’avenir. Les applications doivent utiliser la liste explicite des noms de fichiers retournés par [JetGetLogInfo](./jetgetloginfo-function.md) à la place.
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

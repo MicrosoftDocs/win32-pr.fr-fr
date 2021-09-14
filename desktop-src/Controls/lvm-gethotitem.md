@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 743bd7a80a58bec41fa5a75f24b0e333ab33ad152909adb6ea69a9c4ca0fd78b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56c7bbfb845518eb40b55556df5294d59cff3d7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118958398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999820"
 ---
 # <a name="lvm_gethotitem-message"></a>\_Message GETHOTITEM LVM
 
@@ -35,7 +35,7 @@ Récupère l’index de l’élément réactif. Vous pouvez envoyer ce message e
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de l’élément qui est actif.
 

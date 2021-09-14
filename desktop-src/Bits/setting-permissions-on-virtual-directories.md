@@ -4,12 +4,12 @@ description: Pour des raisons de sécurité, Service de transfert intelligent en
 ms.assetid: cf5c8b50-066f-431e-8bdf-ed0692219b20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71b08f4dd7435c9afc28f1a4401f01ad196b1b8d2a1394d4998634f70b750434
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6753c326e926724a57e1905c3fb9fe24e28fdc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118173251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999568"
 ---
 # <a name="setting-permissions-on-virtual-directories"></a>Définition des autorisations sur les répertoires virtuels
 

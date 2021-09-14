@@ -6,11 +6,11 @@ ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: de2a2b3ed4ec8cbf3c1af59e024fc5e04bc68ae8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999574"
 ---
 # <a name="computer-object-user-interface-mapping"></a>Mappage de l’interface utilisateur de l’objet ordinateur
 
@@ -24,7 +24,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 
 | Étiquette d’interface utilisateur                         | Attribut Active Directory Domain Services | Commentaires                                         |
 |----------------------------------|--------------------------------------------|--------------------------------------------------|
-| Nom de l’ordinateur (antérieur à Windows 2000) | sAMAccountName                             |                                                  |
+| nom de l’ordinateur (pré-Windows 2000) | sAMAccountName                             |                                                  |
 | Nom DNS                         | dNSHostName                                |                                                  |
 | Role                             | userAccountControl                         | Bascule un bit dans le masque de bits userAccountControl. |
 | Description                      | description                                |                                                  |
@@ -32,7 +32,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 
 
 
- 
+ 
 
 ## <a name="location-property-sheet"></a>Feuille de propriétés de l’emplacement
 
@@ -46,7 +46,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 
 
 
- 
+ 
 
 ## <a name="member-of-property-sheet"></a>Membre de la feuille de propriétés
 
@@ -61,7 +61,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur du *
 
 
 
- 
+ 
 
 ## <a name="operating-system-property-sheet"></a>Feuille de propriétés du système d’exploitation
 
@@ -77,8 +77,8 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

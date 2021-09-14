@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2905913828c91fffde9fb474802c8dea0e0f83d59ccdb5408f846a1936071cf6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 74fb25184bbcd0778268f74a4c40ccfb0722287f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999343"
 ---
 # <a name="cbasepincurrentstoptime-method"></a>Méthode CBasePin. CurrentStopTime
 
@@ -40,11 +40,11 @@ REFERENCE_TIME CurrentStopTime();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de [**CBasePin :: m \_ tStop**](cbasepin-m-tstop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

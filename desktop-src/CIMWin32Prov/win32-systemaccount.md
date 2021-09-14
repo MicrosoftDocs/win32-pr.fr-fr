@@ -24,15 +24,15 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 1ef246a0ee372c5755aeb30980095e7f2f6ca1dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999456"
 ---
 # <a name="win32_systemaccount-class"></a>\_Classe SystemAccount Win32
 
-La  [classe WMI](../wmisdk/retrieving-a-class.md) **Win32 \_ SystemAccount** représente un compte système. Le compte système est utilisé par le système d’exploitation et les services. Il existe de nombreux services et processus dans Windows qui ont besoin de la possibilité d’ouvrir une session en interne, par exemple, lors d’une installation de Windows. Le compte système a été conçu à cet effet.
+La  [classe WMI](../wmisdk/retrieving-a-class.md) **Win32 \_ SystemAccount** représente un compte système. Le compte système est utilisé par le système d’exploitation et les services. il existe de nombreux services et processus dans Windows qui ont besoin de la possibilité d’ouvrir une session en interne, par exemple, lors d’une installation Windows. Le compte système a été conçu à cet effet.
 
 Le compte système est un compte interne qui n’apparaît pas dans le gestionnaire des utilisateurs, ne peut pas être ajouté à des groupes et ne peut pas avoir de droits d’utilisateur attribués. Toutefois, le compte système n’apparaît pas sur un volume de système de fichiers NTFS dans le gestionnaire de fichiers, qui se trouve dans la section autorisations du menu sécurité. Par défaut, le compte système dispose du contrôle total sur tous les fichiers sur un volume de système de fichiers NTFS, ce qui signifie que le compte système dispose des mêmes privilèges fonctionnels que le compte administrateur.
 
@@ -116,7 +116,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("Domain"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32APId \| Network Management Functions \| nom_domaine")
 </dt> </dl>
 
-Nom du domaine Windows auquel appartient le compte système.
+nom du domaine Windows auquel appartient le compte système.
 
 Exemple : « NA-SALES »
 
@@ -170,7 +170,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Network Management structures \| Name")
 </dt> </dl>
 
-Nom du compte système Windows sur le domaine spécifié par la propriété de **domaine** de cette classe.
+nom du compte système Windows sur le domaine spécifié par la propriété de **domaine** de cette classe.
 
 </dd> <dt>
 
@@ -186,7 +186,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**fixed**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api, \| identificateurs de sécurité (SID)")
 </dt> </dl>
 
-Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable utilisée pour identifier un tiers de confiance. Chaque compte possède un SID unique émis par une autorité (par exemple, un domaine Windows), stocké dans une base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données et le place dans le jeton d’accès de l’utilisateur. Le système utilise le SID dans le jeton d’accès de l’utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec la sécurité Windows. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
+Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable utilisée pour identifier un tiers de confiance. chaque compte possède un SID unique émis par une autorité (par exemple, un domaine Windows), stocké dans une base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données et le place dans le jeton d’accès de l’utilisateur. le système utilise le SID dans le jeton d’accès de l’utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec Windows la sécurité. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
 
 Cette propriété est héritée [**du \_ compte Win32**](win32-account.md).
 
@@ -387,7 +387,7 @@ Non **récupéré** (« non récupéré »)
 
 La classe **Win32 \_ SystemAccount** est dérivée [**du \_ compte Win32**](win32-account.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

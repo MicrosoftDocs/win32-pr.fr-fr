@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a183079e954b3a0d8b07fc1d7daf039db8fcc840243a6ea421b2390ce02a3625
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f965885d4a7a12e09c8875f71032ce2fded61bd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118661681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999772"
 ---
 # <a name="cbaseallocatorgetbuffer-method"></a>Méthode CBaseAllocator. GetBuffer
 
@@ -83,7 +83,7 @@ Combinaison d’opérations de bits de zéro ou plusieurs indicateurs. La classe
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -99,7 +99,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À moins que l’appelant ne spécifie l’indicateur **am \_ GBF \_ NOWAIT** dans *dwFlags*, cette méthode se bloque jusqu’à ce que l’exemple suivant soit disponible.
 
@@ -109,7 +109,7 @@ Dans la classe de base, les paramètres *pStartTime* et *pEndTime* sont ignorés
 
 Si la méthode doit attendre un échantillon, elle incrémente le nombre d’objets en attente ([**CBaseAllocator :: m \_ lCount**](cbaseallocator-m-lcount.md)) et appelle la fonction [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) sur le sémaphore ([**CBaseAllocator :: m \_ hSem**](cbaseallocator-m-hsem.md)). Quand un exemple est disponible, il appelle la méthode [**CBaseAllocator :: ReleaseBuffer**](cbaseallocator-releasebuffer.md) sur l’allocateur, ce qui augmente le nombre de sémaphores par **m \_ lCount** (libérant ainsi les threads en attente) et définit **m \_ lCount** sur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

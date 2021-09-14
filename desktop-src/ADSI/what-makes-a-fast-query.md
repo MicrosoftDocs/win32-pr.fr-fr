@@ -8,12 +8,12 @@ keywords:
 - interroge ADSI, ce qui effectue une requête rapide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134d391c728d543c407ee770081e2ced96afbba86d205462e814d89f74e82a57
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 883db1e9de7b7b7a1179c814d6f66f774685083e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119589839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922020"
 ---
 # <a name="what-makes-a-fast-query"></a>Qu’est-ce qui fait une requête rapide ?
 

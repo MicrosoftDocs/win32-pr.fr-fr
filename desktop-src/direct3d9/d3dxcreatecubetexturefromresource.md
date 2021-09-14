@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: aab65a36a63ce68264be97ad20061a1ee84efe4dd52d712dfa3c260dc9c11525
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0bd65799bada2df8a3c9e0b113db3c911a53536
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119631479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922564"
 ---
 # <a name="d3dxcreatecubetexturefromresource-function"></a>D3DXCreateCubeTextureFromResource fonction)
 
@@ -79,13 +79,13 @@ Adresse d’un pointeur vers une interface [**IDirect3DCubeTexture9**](/windows/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre du compilateur détermine la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en **D3DXCreateCubeTextureFromResourceW**. Dans le cas contraire, l’appel de fonction est résolu en **D3DXCreateCubeTextureFromResourceA** , car les chaînes ANSI sont utilisées.
 
@@ -99,7 +99,7 @@ Le filtrage est appliqué automatiquement à une texture créée à l’aide de 
 
 **D3DXCreateCubeTextureFromResource** utilise le format de fichier de la surface DIRECTDRAW (DDS). L’éditeur de texture DirectX (Dxtex.exe) vous permet de générer un mappage de cube à partir d’autres formats de fichier et de l’enregistrer au format de fichier DDS. Vous pouvez obtenir Dxtex.exe et en savoir plus à ce sujet à partir du kit de développement logiciel (SDK) DirectX. Pour plus d’informations sur DirectX SDK, consultez [où se trouve le kit de développement logiciel (SDK) DirectX ?](../directx-sdk--august-2009-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

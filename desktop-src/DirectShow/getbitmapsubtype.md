@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8903e4a404367327b677a239b8ab28e3cb47e5679203857154f453a5cc01e25e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ba12ffcd1b50b920f28e1969444a2d31a9d073d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119536679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999141"
 ---
 # <a name="getbitmapsubtype-function"></a>GetBitmapSubtype fonction)
 
@@ -49,17 +49,17 @@ Pointeur vers une structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le **GUID** du sous-type de média.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour les types RVB non compressés, cette fonction mappe le champ **biBitCount** au sous-type. Pour les types de vidéo compressés, cette fonction utilise la classe [**FOURCCMap**](fourccmap.md) pour mapper le champ de **bicompression** au sous-type.
 
 Si la fonction ne peut pas correspondre au format d’un sous-type, la valeur de retour est le GUID \_ null.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

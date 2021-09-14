@@ -16,11 +16,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f656ad354430b00e757ece0aa2ce482de1f06e2e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106544399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921504"
 ---
 # <a name="cd3dx12_pipeline_state_stream_rasterizer-structure"></a>\_Structure de \_ \_ rastériseur du flux d’État du pipeline CD3DX12 \_
 
@@ -85,7 +85,7 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_RASTERIZER_DESC, D3D12_P
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

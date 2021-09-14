@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9658f1df1fbe316fa9f308b9f8e0589f0f93858916c6dbde4607fd11a6f0707f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8dc7ae2703ac80ac155c04d42624a081723288bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921551"
 ---
 # <a name="cd3dx12_pipeline_state_stream_depth_stencil_format-structure"></a>\_Structure du \_ \_ format du \_ stencil de profondeur du flux d' \_ État du pipeline CD3DX12 \_
 
@@ -72,7 +72,7 @@ Conversion implicite en une énumération de [**\_ format dxgi**](/windows/deskt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 \_ \_ \_ \_ \_ \_ Le format de stencil de profondeur du flux d’État du pipeline CD3DX12 est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ du pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 
@@ -85,7 +85,7 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<DXGI_FORMAT, D3D12_PIPELINE_STAT
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

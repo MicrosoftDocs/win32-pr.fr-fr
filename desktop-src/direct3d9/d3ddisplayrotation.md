@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 8defdc206e88750125d88c50e86484428c0dedbd7c18575e26504d7445cd3f64
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28f4d38dca78f0f34daf931a6bf651b40c1b0a78
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118804934"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922652"
 ---
 # <a name="d3ddisplayrotation-enumeration"></a>Énumération D3DDISPLAYROTATION
 
@@ -70,13 +70,13 @@ L’affichage est pivoté de 270 degrés.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette énumération est utilisée dans [**IDirect3D9Ex :: GetAdapterDisplayModeEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-getadapterdisplaymodeex), [**IDirect3DDevice9Ex :: GetDisplayModeEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getdisplaymodeex)et [**IDirect3DSwapChain9Ex :: GetDisplayModeEx**](/windows/desktop/api/D3D9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex).
 
 Les applications peuvent choisir de gérer la rotation des analyses elles-mêmes à l’aide du [ \_ NOAUTOROTATE D3DPRESENTFLAG](d3dpresentflag.md). dans ce cas, l’application doit savoir comment l’analyse est pivotée pour qu’elle puisse ajuster son rendu en conséquence.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

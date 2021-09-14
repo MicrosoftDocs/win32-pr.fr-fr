@@ -4,12 +4,12 @@ ms.assetid: efcaf3f7-b474-4719-adde-10096e296b9f
 title: Comparaison des modes d’ombrage (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3df53df2751dc184cbb8246f47a56fbb2b3320e96432b664524a2e30018adc15
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b275f18aa7283a8109db5d6709595cff0ddd09be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117911651"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855226"
 ---
 # <a name="comparing-shading-modes-direct3d-9"></a>Comparaison des modes d’ombrage (Direct3D 9)
 

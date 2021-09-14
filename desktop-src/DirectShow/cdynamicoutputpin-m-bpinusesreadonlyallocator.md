@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c2a03816d3ad324f7f50a3edbfd1166403442afec7133d14288d0aafa3d91cd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff4e7ab7dd887f7290cfc229c7af439bf8150277
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118656424"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999707"
 ---
 # <a name="cdynamicoutputpinm_bpinusesreadonlyallocator-member"></a>CDynamicOutputPin :: m \_ bPinUsesReadOnlyAllocator, membre
 
@@ -36,7 +36,7 @@ BOOL m_bPinUsesReadOnlyAllocator;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

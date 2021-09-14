@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e590a09c2c6d4cc34728f5ec29db0d8f650d3a1e9cb663e5993acd2cebe4793f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43a537728ca0874fa1dfd69b4712bcc97cf23850
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157353"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999726"
 ---
 # <a name="cbaserendererwaitforrendertime-method"></a>Méthode CBaseRenderer. WaitForRenderTime
 
@@ -40,7 +40,7 @@ virtual HRESULT WaitForRenderTime();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -55,7 +55,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode attend jusqu’à ce que l’un des éléments suivants se produise :
 
@@ -66,7 +66,7 @@ Si l’heure de présentation arrive, l’événement [**CBaseRenderer :: m \_ 
 
 Cette méthode appelle la méthode [**CBaseRenderer :: OnWaitStart**](cbaserenderer-onwaitstart.md) lorsque l’attente commence, et la méthode [**CBaseRenderer :: OnWaitEnd**](cbaserenderer-onwaitend.md) quand l’attente est terminée. Aucune de ces méthodes ne fait quoi que ce soit dans la classe de base, mais la classe dérivée peut les substituer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

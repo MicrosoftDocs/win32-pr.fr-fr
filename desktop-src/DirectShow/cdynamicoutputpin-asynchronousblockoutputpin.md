@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c8999f6dbb42c55c036ee3d7fcd02dc34def4bd0a036cf0b5d908d3c280e297e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 67232bf1081f9c9ea088968cb6c5d02667b00eeb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119317789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999248"
 ---
 # <a name="cdynamicoutputpinasynchronousblockoutputpin-method"></a>Méthode CDynamicOutputPin. AsynchronousBlockOutputPin
 
@@ -49,7 +49,7 @@ Handle vers un événement. L’événement est signalé lorsque la broche de so
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’appelez pas cette méthode à partir du thread de streaming.
 

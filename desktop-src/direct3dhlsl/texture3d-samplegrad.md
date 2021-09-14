@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: a1ae86b8d8d19010fc75edd27de709013b558507c472dc3350e94b011a83b9fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de6fe80d90aca9d2e770968a5c1c603d5346ae8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120067319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854812"
 ---
 # <a name="texture3dsamplegrad-methods"></a>Texture3D :: SampleGrad, méthodes
 

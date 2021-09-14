@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 85dbd46233176d65e7e7abbf0eb266c81868ceba7e67e3257bf902d1775d6a90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2d3ea263d7ad8bc50b936fd1010c352c0c01783
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117731152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922467"
 ---
 # <a name="d3dxsphereboundprobe-function-d3dx9meshh"></a>D3DXSphereBoundProbe, fonction (D3DX9Mesh. h)
 
@@ -79,17 +79,17 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) , en spécifiant l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si le rayon croise le volume du cadre englobant de la sphère. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **D3DXSphereBoundProbe** détermine si le rayon croise le volume du cadre englobant de la sphère, pas seulement la surface de la sphère.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

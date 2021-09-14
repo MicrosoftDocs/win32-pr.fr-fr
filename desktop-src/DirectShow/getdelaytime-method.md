@@ -5,16 +5,16 @@ title: Méthode GetDelayTime
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 19b322ff5eb4576de3dc41c0df697ff19dbe8ff5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999125"
 ---
 # <a name="getdelaytime-method"></a>Méthode GetDelayTime
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

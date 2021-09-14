@@ -4,12 +4,12 @@ ms.assetid: 359e9483-d7ba-45b0-882b-5a4c56dc0350
 title: Méthode GetButtonRect
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ba62c70d0cd061e7aec01da286f49c79e19a3b63dfdd9e2c3de8230339be478
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 752c90637ee58aaa862245b29536dc71ad8e9a1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118000234"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999130"
 ---
 # <a name="getbuttonrect-method"></a>Méthode GetButtonRect
 
@@ -39,7 +39,7 @@ Spécifie le numéro de bouton sous la forme d’un entier.
 
 Retourne un objet [DVDRect](dvdrect-object.md) qui définit le rectangle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette méthode lors de l’implémentation de la gestion de souris personnalisée après avoir défini [**DisableAutoMouseProcessing**](disableautomouseprocessing-property.md) sur **true**.
 

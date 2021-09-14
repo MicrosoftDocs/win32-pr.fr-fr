@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 097ad9fd1548b709f7eb74a3e468c34c3b18a73621720e249a3c626c252c898d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfd943de6a53383d7505fa9e884dcc152da6e5f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999741"
 ---
 # <a name="cbaserendererstopstreaming-method"></a>Méthode CBaseRenderer. StopStreaming
 
@@ -40,15 +40,15 @@ virtual HRESULT StopStreaming();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle la méthode [**CBaseRenderer :: OnStopStreaming**](cbaserenderer-onstopstreaming.md) . Cette méthode ne fait rien dans la classe de base, mais la classe dérivée peut la substituer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

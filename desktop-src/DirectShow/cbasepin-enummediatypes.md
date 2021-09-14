@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 95c79071030b2f40613138e526abd1f965d3b5aeb7b233c2c53be57b65f97da7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c68fe1ab83724149dcd2fb58a60e9c6950d887ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999334"
 ---
 # <a name="cbasepinenummediatypes-method"></a>Méthode CBasePin. EnumMediaTypes
 
@@ -49,7 +49,7 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IEnumMedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les broches d’entrée ne sont pas requises pour énumérer les types préférés. Les broches de sortie doivent énumérer au moins un type préféré. Dans le cas contraire, les deux broches ne peuvent pas avoir de type préféré, ce qui rend impossible la connexion.
 
@@ -73,7 +73,7 @@ L’interface **IEnumMediaTypes** fonctionne comme un énumérateur com standard
 
 La classe de base [**CEnumMediaTypes**](cenummediatypes.md) implémente **IEnumMediaTypes**. Elle appelle la méthode [**CBasePin :: GetMediaType**](cbasepin-getmediatype.md) du pin pour énumérer les types de médias.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

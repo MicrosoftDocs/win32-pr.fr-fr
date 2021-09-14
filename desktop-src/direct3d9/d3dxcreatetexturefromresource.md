@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5b8ddea67d6c47984edc76bc833a24a0a1800ab292683b3f441f008a9ab71def
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4ce9101caed2a60dc3be7fe0039a1e391423f1fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120119309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921455"
 ---
 # <a name="d3dxcreatetexturefromresource-function"></a>D3DXCreateTextureFromResource fonction)
 
@@ -79,13 +79,13 @@ Adresse d’un pointeur vers une interface [**IDirect3DTexture9**](/windows/win3
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateTextureFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateTextureFromResourceA, car les chaînes ANSI sont utilisées.
 
@@ -99,7 +99,7 @@ Notez qu’une ressource créée avec cette fonction quand elle est appelée à 
 
 Le filtrage est appliqué automatiquement à une texture créée à l’aide de cette méthode. Le filtrage est équivalent au filtre \_ \_ triangulaire \| de filtre D3DX \_ \_ , filtre en fondu dans le [ \_ filtre D3DX](d3dx-filter.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Cette rubrique montre comment afficher et accéder au contenu d’u
 ms.assetid: 5192E171-8CEF-4921-9378-A7C3A52A9024
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f375ca2df82f851401baec79683a54ff28cf14e7a004d08cb0885e60fb036d1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: abd47b1d582d53a66bc77284927aef4230043e92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119920859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999382"
 ---
 # <a name="how-to-create-a-multiple-selection-list-box"></a>Comment créer une zone de liste Multiple-Selection
 

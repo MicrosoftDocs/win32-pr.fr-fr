@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 5fa7e7155cdcf5c5dc1996dee1dcf02d0190e4bb91b4c319231e2f03168722c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3df0c94dbd49cf38d9230a2c5392df8497c64761
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118095457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922512"
 ---
 # <a name="d3dxplane-structure-d3dx9mathh"></a>D3DXPLANE, structure (D3dx9math. h)
 
@@ -86,13 +86,13 @@ Coefficient d du plan de découpage dans l’équation du plan général. Consul
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les membres de la structure **D3DXPLANE** prennent la forme de l’équation plan générale. Elles s’intègrent à l’équation plan générale, **de** sorte que x + **b** y + **c** z + **d** w = 0.
 
 Les programmeurs C++ peuvent tirer parti de la surcharge d’opérateur et de la conversion de type avec les [**Extensions D3DXPLANE**](d3dxplane-extensions.md) qui implémentent des constructeurs surchargés et des opérateurs d’assignation, unaires et binaires (y compris l’égalité).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e4a2ed93a264aa12d61291c3562a455a026e0dfd0d727648b7d13f6ffe360015
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4afb5448144867c799bd401bc2d7c180d3958f2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921756"
 ---
 # <a name="ibackgroundcopyfile2setremotename-method"></a>IBackgroundCopyFile2 :: SetRemoteName, méthode
 
@@ -50,7 +50,7 @@ Chaîne terminée par le caractère null qui contient le nom du fichier sur le s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs de retour suivantes, ainsi que d’autres.
 
@@ -65,7 +65,7 @@ Cette méthode retourne les valeurs de retour suivantes, ainsi que d’autres.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En général, vous appelez cette méthode si vous souhaitez modifier l’URL utilisée pour transférer le fichier ou si vous souhaitez modifier le nom ou le chemin d’accès du fichier.
 
@@ -73,7 +73,7 @@ Cette méthode ne sérialise pas quand elle retourne. Pour sérialiser la modifi
 
 Si l’horodatage ou la taille de fichier du nouveau nom distant est différent du nom distant précédent ou si le nouveau serveur ne prend pas en charge la reprise de point de contrôle (pour les noms distants HTTP), redémarre le téléchargement. Dans le cas contraire, le transfert reprend à partir de la même position sur le nouveau serveur. Ne redémarrez pas les fichiers déjà transférés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

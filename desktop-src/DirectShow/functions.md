@@ -4,12 +4,12 @@ ms.assetid: 5bf62e2a-7d5f-4feb-872a-54d102759824
 title: Fonctions (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc74386281a7b0ddb88aff498f4d922df1d249386a41564674f1011091e93a9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0095470110e649739cb119d3f9a2faaf0d689ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118401247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999142"
 ---
 # <a name="directshow-functions"></a>fonctions DirectShow
 

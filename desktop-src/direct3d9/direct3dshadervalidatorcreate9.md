@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2dedcb63a1287cf27a3ac2d0476458e16079f58f974409d7f688d7be3336e01c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45b99a3077b49eac8689d8e634c1b12ac7cd3dc6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855129"
 ---
 # <a name="direct3dshadervalidatorcreate9-function"></a>Direct3DShaderValidatorCreate9 fonction)
 

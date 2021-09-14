@@ -4,12 +4,12 @@ description: Un contrôle header est une fenêtre qui est généralement positio
 ms.assetid: b464fb9a-e342-4209-ba6f-15b5388f3914
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a6308def8c760ffab492d7aeea086970740be07ebd559d94791baf3512c178b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6d9beaa9dc3bd8eb94d749ec271902a480b853e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118412260"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999915"
 ---
 # <a name="about-header-controls"></a>À propos des contrôles Header
 

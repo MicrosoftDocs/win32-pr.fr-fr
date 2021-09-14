@@ -4,12 +4,12 @@ ms.assetid: cb935c26-2dc9-4ab3-810d-b63f1018a62a
 title: Fonctions DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f8c10951c63e14656fa967693145444c5d5fbffd96a2b11fa9ae4201ac89ae7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22b6d1b15df86cf3d7a2eb81080ec02b02a868f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117821083"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999657"
 ---
 # <a name="dll-functions"></a>Fonctions DLL
 

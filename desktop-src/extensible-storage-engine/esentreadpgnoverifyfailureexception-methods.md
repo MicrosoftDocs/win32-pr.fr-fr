@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102550
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ad34864f6a0e42e7c2dc7b1641015316c901e91c215356bddea4c045d7733cef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 03b4d67d7923dc9be34d73d0c8cc49d026954489
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119782157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854638"
 ---
 # <a name="esentreadpgnoverifyfailureexception-methods"></a>Méthodes EsentReadPgnoVerifyFailureException
 

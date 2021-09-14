@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3893b7acef182005603f4a80a51caf159b54dd31cc2a966d5dc9940a5164681d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e391e942e581d0f80d46b0f59b9b273d7bff499
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118418512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921923"
 ---
 # <a name="takeownershipex-method-of-the-win32_directory-class"></a>Méthode TakeOwnerShipEx de la \_ classe Directory Win32
 
@@ -72,7 +72,7 @@ Si la **valeur est true**, la modification de la propriété est appliquée de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur entière égale à 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -195,7 +195,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

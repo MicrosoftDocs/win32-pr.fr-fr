@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0cf40f8a04ffd059aaadac76e0e309b8bd0ecb8b746e2f36c20f135af718d0ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec054bde5431ee938b2bfd65ff101398ab54c660
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854907"
 ---
 # <a name="discard-statement"></a>Instruction ignore
 
@@ -34,7 +34,7 @@ refuser
 
 None
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction ne peut être appelée qu’à partir d’un nuanceur de pixels ; elle n’est pas prise en charge dans un nuanceur de géométrie ou un nuanceur de sommets.
 

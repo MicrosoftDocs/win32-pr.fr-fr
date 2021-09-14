@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 53fef8dfaa3a8b05fa7a6565e980c677ece679dac2824a80423b0d7eeccb9d66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e917e4ff13cf7c03de264542dc1995364f1dc526
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118292418"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854973"
 ---
 # <a name="id3dxtextureshadersetvector-method"></a>ID3DXTextureShader :: SetVector, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers un vecteur 4D. Consultez [**D3DXVECTOR4**](d3dxvector4.md).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

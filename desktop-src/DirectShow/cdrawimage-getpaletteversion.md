@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: c86f1a0dad8d33913a52962dfe2ec09b7b8244db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999271"
 ---
 # <a name="cdrawimagegetpaletteversion-method"></a>Méthode CDrawImage. GetPaletteVersion
 
@@ -40,7 +40,7 @@ LONG GetPaletteVersion();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de la variable membre **m \_ PaletteVersion** .
 
@@ -48,13 +48,13 @@ Retourne la valeur de la variable membre **m \_ PaletteVersion** .
 
 La valeur retournée par cette méthode s’applique uniquement lorsque l’allocateur est un objet [**CImageAllocator**](cimageallocator.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

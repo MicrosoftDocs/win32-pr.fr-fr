@@ -4,12 +4,12 @@ ms.assetid: 36b2b715-5ced-4246-840e-8ea343521ef4
 title: D3DTA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8db520bee7e4352b3242824819cc579acd82b1d013d290b2155d54170bc478c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9fe6dd62ce7fc7fe4d438290af1ddb33a75813f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118527313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922604"
 ---
 # <a name="d3dta"></a>D3DTA
 

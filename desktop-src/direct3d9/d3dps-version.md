@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: a3958cfaa3afe06e22015a28e8e1ebfd8799c01e89772eb9794dd1249cc0df9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3f30d673145ec9dfe38bd8e2a636ac04c9a195a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119750899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922619"
 ---
 # <a name="d3dps_version-macro"></a>D3DPS la \_ macro de version
 
@@ -54,11 +54,11 @@ Version mineure du nuanceur de pixels.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur DWORD qui est une version de nuanceur de pixels.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Numéros de versions
 
@@ -79,7 +79,7 @@ Le numéro de version est une combinaison de la version principale et des numér
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 01abe1fe-fc2f-44cb-9546-45a8d682a179
 title: Jeu de propriétés du pas à pas de frame
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ccddab4cd7f302dc850a4581ce8e70dcffc9cb6a4943c8f768a74c890edfb9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0ccd79feda0e5e2e537390fe5598822fb3787f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119564999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999652"
 ---
 # <a name="frame-stepping-property-set"></a>Jeu de propriétés du pas à pas de frame
 

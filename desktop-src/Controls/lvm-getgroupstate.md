@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66272dd259e80f239804ffadbd706370f948a2505173cc03aaa40057b273a629
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 17b5bb25fd517816afd04bb700211222e6985f5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118958428"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999821"
 ---
 # <a name="lvm_getgroupstate-message"></a>\_Message GETGROUPSTATE LVM
 
@@ -43,7 +43,7 @@ Spécifie les valeurs d’État à récupérer. Il s’agit d’une combinaison 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la combinaison des valeurs d’état définies. Par exemple, si *lParam* est LVGS \_ réduit et que la valeur retournée est zéro, l' \_ État réduit LVGS n’est pas défini. La valeur zéro est retournée si le groupe est introuvable.
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 07484f07ab5c4a53da5b044f409a59c4ac37f07717875cd80f44eb625bdf2041
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 59998888eb2aed170b626fb4cb61780cbe0cb6e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999480"
 ---
 # <a name="settcpmaxdataretransmissions-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetTcpMaxDataRetransmissions de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Nombre de retransmissions d’un segment de données par TCP avant l’abandon d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le délai de retransmission double à chaque retransmission successive sur une connexion.
 
@@ -412,7 +412,7 @@ Le délai de retransmission double à chaque retransmission successive sur une c
 
 L’exemple VBScript de [modification de la taille maximale autorisée de retransmission de données TCP](https://Gallery.TechNet.Microsoft.Com/8a581692-7950-412e-bd28-74f223b27827) configure le nombre de tentatives de retransmission d’un segment de données individuel par TCP, avant d’abandonner l’effort.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

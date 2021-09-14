@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 818a7682fed504028ebee1c3a5ff5d35a268e1daad8756b110bcfcb2ca8d9f80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27fbf603fd670cac2a39831114a7f141b17ffd2e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999750"
 ---
 # <a name="cbaserenderershoulddrawsamplenow-method"></a>Méthode CBaseRenderer. ShouldDrawSampleNow
 
@@ -65,7 +65,7 @@ Pointeur vers une variable qui contient l’heure de fin de l’exemple.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ false. Si la classe dérivée se substitue à cette méthode, retournez l’une des valeurs indiquées dans le tableau suivant.
 
@@ -81,11 +81,11 @@ Retourne S \_ false. Si la classe dérivée se substitue à cette méthode, reto
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CBaseRenderer :: GetSampleTimes**](cbaserenderer-getsampletimes.md) appelle cette méthode. Par défaut, les exemples sont toujours planifiés pour le rendu en fonction de leur horodatage. La classe dérivée peut substituer cette méthode. par exemple, pour implémenter le contrôle de qualité.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

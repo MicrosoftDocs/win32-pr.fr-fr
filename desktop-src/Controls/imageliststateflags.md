@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cbb4eef2f744c78e84999e9f07f3ca5a06d5dbf93dbfa26d5c6593d94d4e19d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fea580294f54b6e2fc5c3e5b6aee1119811c22e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999900"
 ---
 # <a name="imageliststateflags"></a>IMAGELISTSTATEFLAGS
 
@@ -39,7 +39,7 @@ Les indicateurs suivants sont passés à la méthode [**IImageList ::D RAW**](/
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

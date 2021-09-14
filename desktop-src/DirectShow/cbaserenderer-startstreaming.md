@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e8a9a70d403c4251c3250fc4d6f19c985a1546ea563a0d1bfe50ef7d7c6cfeda
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7bf1fcb1cbfb651221296054493688b2d9f33bd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157486"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999742"
 ---
 # <a name="cbaserendererstartstreaming-method"></a>Méthode CBaseRenderer. StartStreaming
 
@@ -40,17 +40,17 @@ virtual HRESULT StartStreaming();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le filtre a un exemple, il planifie l’exemple de rendu. Dans le cas contraire, si une notification de fin de flux est en attente, le filtre envoie un événement [**EC \_ complet**](ec-complete.md) au gestionnaire de graphes de filtre.
 
 Cette méthode appelle la méthode [**CBaseRenderer :: OnStartStreaming**](cbaserenderer-onstartstreaming.md) . Cette méthode ne fait rien dans la classe de base, mais la classe dérivée peut la substituer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

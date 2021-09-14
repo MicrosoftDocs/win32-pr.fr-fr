@@ -9,12 +9,12 @@ keywords:
 - adsi adsi, exemple de code Visual Basic à l’aide de IADsDualInf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8eacc2008d3da33cd8d1897eeff2c30301849f9ec306656fc494072c33608c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f95431fcde9a194f28cd103d93faa3f182c1968
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922060"
 ---
 # <a name="late-binding-vs-vtable-access-in-the-adsi-extension-model"></a>Liaison tardive et accès vtable dans le modèle d’extension ADSI
 

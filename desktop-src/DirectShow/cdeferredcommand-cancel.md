@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fa7e957fe97e06c6fb14fe3a9048048e351ac1baf4ff8f4dae25b3cf5863776e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 524300da374b10eaac884161bb0195d88f45476d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999306"
 ---
 # <a name="cdeferredcommandcancel-method"></a>CDeferredCommand. Cancel, méthode
 
@@ -40,15 +40,15 @@ HRESULT Cancel();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne VFW \_ E \_ déjà \_ annulé si **m \_ pQueue** a la **valeur null**. Retourne un **HRESULT** à partir de [**CCmdQueue :: Remove**](ccmdqueue-remove.md) si l’appel génère une erreur. Retourne S \_ OK en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre implémente la méthode [**IDeferredCommand :: Cancel**](/windows/desktop/api/Control/nf-control-ideferredcommand-cancel) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

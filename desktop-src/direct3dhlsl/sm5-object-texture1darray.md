@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 11573dc84c46149073ca3a7e192ed8541d9cfd4a78494a43f6130a7999534880
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39cea5692e29ead74ba20c4a35ab8d43a1b19d42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118508675"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854824"
 ---
 # <a name="texture1darray"></a>Texture1DArray
 
@@ -29,7 +29,7 @@ Type Texture1DArray ([tel qu’il existe dans Shader Model 4](dx-graphics-hlsl-t
 | Méthode                                                                       | Description                                                                                |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [**GetDimensions**](sm5-object-texture1darray-getdimensions.md)             | Obtient les dimensions de ressource.                                                              |
-| [**Load**](texture1darray-load.md)                                          | Lit les données de texture.                                                                        |
+| [**Chargera**](texture1darray-load.md)                                          | Lit les données de texture.                                                                        |
 | [**mips. And\[\]\[\]**](sm5-object-texture1darray-mipsoperatorindex.md) | Obtient une variable de ressource en lecture seule.                                                        |
 | [**Opérateur\[\]**](sm5-object-texture1darray-operatorindex.md)              | Obtient une variable de ressource en lecture seule.                                                        |
 | [**Exemple**](texture1darray-sample.md)                                      | Échantillonne une texture.                                                                         |
@@ -49,9 +49,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -61,7 +61,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 989122728591ed231cedc5bbcc6ae351753f9c5790b869c885d309ffbba52130
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5baacf9d05b9847c17408df31cf2c5ccc0ab3cf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117719163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921152"
 ---
 # <a name="apijetgetdatabaseinfo-method"></a>API. JetGetDatabaseInfo, méthode
 

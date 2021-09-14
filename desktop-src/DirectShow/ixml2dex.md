@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3bc12c2305a8b92110d4aa17522184e9a3c5ee83b60ccd5a989468fa0a8c6e7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac15110aa1482c37a835ae874057a792e310fc2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952388"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999042"
 ---
 # <a name="ixml2dex-interface"></a>Interface IXml2Dex
 
@@ -46,12 +46,12 @@ L’interface **IXml2Dex** possède ces méthodes.
 |:------------------------------------------------------------|:---------------------------------------------------------------------------|
 | [**CopyXML**](ixml2dex-copyxml.md)                         | Non implémenté.<br/>                                                |
 | [**CreateGraphFromFile**](ixml2dex-creategraphfromfile.md) | Non implémenté.<br/>                                                |
-| [**Supprimer**](ixml2dex-delete.md)                           | Non implémenté.<br/>                                                |
+| [**DELETE**](ixml2dex-delete.md)                           | Non implémenté.<br/>                                                |
 | [**PasteXML**](ixml2dex-pastexml.md)                       | Non implémenté.<br/>                                                |
 | [**PasteXMLFile**](ixml2dex-pastexmlfile.md)               | Non implémenté.<br/>                                                |
 | [**ReadXML**](ixml2dex-readxml.md)                         | Non implémenté.<br/>                                                |
 | [**ReadXMLFile**](ixml2dex-readxmlfile.md)                 | Charge un fichier projet XML.<br/>                                      |
-| [**Initialisation**](ixml2dex-reset.md)                             | Non implémenté.<br/>                                                |
+| [**Réinitialiser**](ixml2dex-reset.md)                             | Non implémenté.<br/>                                                |
 | [**WriteGrfFile**](ixml2dex-writegrffile.md)               | Écrit un graphique de filtre dans un fichier au format. GRF.<br/>                 |
 | [**WriteXML**](ixml2dex-writexml.md)                       | Convertit une chronologie en une chaîne XML.<br/>                         |
 | [**WriteXMLFile**](ixml2dex-writexmlfile.md)               | Convertit une chronologie en XML et écrit les données XML dans un fichier.<br/> |
@@ -61,7 +61,7 @@ L’interface **IXml2Dex** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -73,7 +73,7 @@ L’interface **IXml2Dex** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

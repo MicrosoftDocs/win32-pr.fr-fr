@@ -4,12 +4,12 @@ description: Un contrôle d’édition est une fenêtre de contrôle rectangulai
 ms.assetid: 43baa58a-bc00-47c0-a3fe-413d50f08c29
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0506666f3b47ae85386fe995e66cd41c4ae252452bcd40ea7ebfeb089fa1ffad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4bbc116d3cf96ec3f5349680cc4f4b3df673cfb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117833920"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999399"
 ---
 # <a name="about-edit-controls"></a>À propos des contrôles d’édition
 

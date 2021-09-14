@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5e64281ccc9d4638353ddbb6062ce5cf1c0a678e009639dcc43cd0d4cf52741
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a8cba96ae7d357e3e1f5a007fa41f6b7e9e3b64f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999819"
 ---
 # <a name="lvm_getinsertmark-message"></a>\_Message GETINSERTMARK LVM
 
@@ -35,11 +35,11 @@ Récupère la position du point d’insertion.
 *lParam* 
 </dt> <dd>Pointeur vers une structure <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> qui reçoit la position du point d’insertion.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. La **valeur false** est retournée si la taille du membre **cbSize** de la structure [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) n’est pas égale à la taille réelle de la structure.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un point d’insertion peut apparaître uniquement si le contrôle de liste est en mode icône, en mode petites icônes ou en mode mosaïque, et n’est pas en mode groupe.
 

@@ -5,11 +5,11 @@ ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1ea93e3228a11f702865c7fd2b9da353d3791f87
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812565"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999395"
 ---
 # <a name="about-scroll-bars"></a>À propos des barres de défilement
 
@@ -100,7 +100,7 @@ Les \_ valeurs SB spécifient l’action effectuée par l’utilisateur. Une app
 
 
 
-| Requête           | Action                                                                               | Réponse                                                                                                                                                                                                                                                                                                                         |
+| Requête           | Action                                                                               | response                                                                                                                                                                                                                                                                                                                         |
 |-------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_gamme SB        | L’utilisateur clique sur la flèche de défilement supérieure.                                                | Décrémente la position de la case de défilement ; fait défiler vers le haut des données d’une unité.                                                                                                                                                                                                                                              |
 | SB \_ LINEDOWN      | L’utilisateur clique sur la flèche de défilement inférieure.                                             | Incrémente la position de la case de défilement ; fait défiler vers le bas des données d’une unité.                                                                                                                                                                                                                                           |

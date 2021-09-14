@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4f4792bf290343e2868b754f8efb1bfc03d0be1f600c9f7584f051053400b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ddedbd7b9165e00e722edbadbb8806a68417551
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119435478"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999877"
 ---
 # <a name="lb_getcount-message"></a>\_Message lb GETCOUNT
 
@@ -43,15 +43,15 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est le nombre d’éléments dans la zone de liste, ou LB \_ Err si une erreur se produit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nombre retourné est supérieur à la valeur d’index du dernier élément (l’index est de base zéro).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

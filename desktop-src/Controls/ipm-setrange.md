@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d599619fa9a065a27a9721b890f6d52c496bf646504009e1950b7ca1279f8a2c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e70df7b2b8f76f514d9a0cc6101aba2ee7cf4ec6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119434469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999882"
 ---
 # <a name="ipm_setrange-message"></a>\_Message IPM SEtrange
 
@@ -43,11 +43,11 @@ Valeur de **mot** qui contient la limite inférieure de la plage dans l’octet 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’utilisateur entre une valeur dans le champ qui est en dehors de cette plage, le contrôle envoie la notification [IPN \_ FIELDCHANGED](ipn-fieldchanged.md) avec la valeur entrée. Si la valeur est toujours en dehors de la plage après l’envoi de la notification, le contrôle tente de modifier la valeur entrée à la limite de plage la plus proche.
 

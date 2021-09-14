@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b9faf923cf6c771e95a7dfb4f0b04f896c54d79c6b5548e97850d867057b065b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 927dd6b2664c92ff07e94407fdc59fdd917363dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117834646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999501"
 ---
 # <a name="joindomainorworkgroup-method-of-the-win32_computersystem-class"></a>Méthode JoinDomainOrWorkgroup de la \_ classe Win32 ComputerSystem
 
@@ -304,7 +304,7 @@ Si ce bit est défini, les indicateurs non reconnus sont ignorés par la fonctio
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un [code d’erreur système](/windows/desktop/Debug/system-error-codes), qui peut inclure l’une des valeurs numériques suivantes. Tout autre nombre indique une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
@@ -396,7 +396,7 @@ Le *mot de passe* et le *nom d’utilisateur* sont spécifiés, mais le niveau d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors du déplacement d’un ordinateur d’un domaine vers un groupe de travail, vous devez supprimer l’ordinateur du domaine (avec un appel à [**UnjoinDomainOrWorkgroup**](unjoindomainorworkgroup-method-in-class-win32-computersystem.md)) avant d’appeler cette méthode pour joindre un groupe de travail (avec un appel à **JoinDomainOrWorkGroup**). Après avoir appelé cette méthode, redémarrez l’ordinateur affecté pour appliquer les modifications.
 
@@ -437,7 +437,7 @@ ReturnValue = objComputer.JoinDomainOrWorkGroup(strDomain, _
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

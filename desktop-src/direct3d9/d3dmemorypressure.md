@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: ca5a6dd95a35cae231b80fbeee9ee05bbdfe9f0ecacc70b13493ad8d16739637
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5917d1e61817f401106ae14aa5a0f98cd75b0d42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117911093"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922639"
 ---
 # <a name="d3dmemorypressure-structure-d3d9typesh"></a>D3DMEMORYPRESSURE, structure (D3d9types. h)
 
@@ -74,7 +74,7 @@ Efficacité globale des allocations de mémoire qui ont été placées dans une 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

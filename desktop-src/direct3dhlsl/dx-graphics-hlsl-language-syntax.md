@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 997873d9dc7df53fdbbac042300b60458f0ad90405f974da2172fbe7cc24ca02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be411ab93fa9d265963867a4a34a4f2cf567f464
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118514137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921256"
 ---
 # <a name="language-syntax"></a>Syntaxe du langage
 
@@ -23,7 +23,7 @@ Les nuanceurs HLSL sont constitués de variables, et de fonctions, qui sont à l
 -   [Variables](dx-graphics-hlsl-variables.md)
 -   [Flow Régulation](dx-graphics-hlsl-flow-control.md)
 -   [Fonctions](dx-graphics-hlsl-functions.md)
--   [Instructions](dx-graphics-hlsl-statements.md)
+-   [Publication](dx-graphics-hlsl-statements.md)
 -   [Sémantique](dx-graphics-hlsl-semantics.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

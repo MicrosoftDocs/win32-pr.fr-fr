@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8f1951d4c52087330ac28e23e59e9403c67aff44bf7f9e94c63d3bfa7fc1bded
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b714b4c8119f92931235734664726123744064d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999466"
 ---
 # <a name="win32_shortcutfile-class"></a>\_Classe ShortcutFile Win32
 
@@ -125,7 +125,7 @@ La classe **Win32 \_ ShortcutFile** possède ces méthodes.
 | [**CompressEx**](compressex-method-in-class-win32-shortcutfile.md)                                   | Méthode de classe qui compresse le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                |
 | [**Copier**](copy-method-in-class-win32-shortcutfile.md)                                               | Méthode de classe qui copie le fichier logique ou le répertoire spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée.<br/>                                                                                     |
 | [**CopyEx**](copyex-method-in-class-win32-shortcutfile.md)                                           | Méthode de classe qui copie le fichier logique ou le répertoire spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre *filename* .<br/>                                                                                |
-| [**Supprimer**](delete-method-in-class-win32-shortcutfile.md)                                           | Méthode de classe qui supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                   |
+| [**DELETE**](delete-method-in-class-win32-shortcutfile.md)                                           | Méthode de classe qui supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                   |
 | [**DeleteEx**](deleteex-method-in-class-win32-shortcutfile.md)                                       | Méthode de classe qui supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                   |
 | [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-shortcutfile.md)           | Méthode de classe qui détermine si l’appelant a les autorisations agrégées spécifiées par l’argument d’autorisation non seulement sur l’objet de fichier, mais sur le partage sur lequel le fichier ou le répertoire réside (s’il se trouve sur un partage).<br/> |
 | [**Renommer**](rename-method-in-class-win32-shortcutfile.md)                                           | Méthode de classe qui renomme le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                   |
@@ -965,11 +965,11 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ ShortcutFile** est dérivée du [**fichier de \_ fichier CIM**](cim-datafile.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

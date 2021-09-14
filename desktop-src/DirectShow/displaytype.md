@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4a48bc5f4afbfabc9bdc37ff2cfe8c5890629f3fcaacf135979b82523981ed66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f3d83bbe7a24463fc4cfaed4ace3adec9d6fcf7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119906499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999656"
 ---
 # <a name="displaytype-function"></a>DisplayType, fonction
 
@@ -61,11 +61,11 @@ ointer à la structure du [**\_ \_ type de média am**](/windows/win32/api/strmi
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction génère plusieurs messages de trace des journaux \_ . Au niveau de la journalisation 2 ou supérieur, la fonction affiche le type, le sous-type et le type de format principaux, ainsi que les données du bloc de format. Au niveau de la journalisation 5 ou supérieur, la fonction affiche des informations supplémentaires, telles que les rectangles source et cible pour les types vidéo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

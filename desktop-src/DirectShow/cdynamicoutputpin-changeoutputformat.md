@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 534d588bc1633770c35b0e0edbc2079ed8f7ab5035d3a8d2ff181042d26fdb3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57421b2fd9624d9798037151a5656343e386a497
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999727"
 ---
 # <a name="cdynamicoutputpinchangeoutputformat-method"></a>Méthode CDynamicOutputPin. ChangeOutputFormat
 
@@ -73,7 +73,7 @@ Taux de segment.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -89,13 +89,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode modifie le type de format pendant que le filtre est en cours d’exécution. Si le code pin en aval accepte le nouveau format, aucune reconnexion n’est nécessaire. Dans le cas contraire, la méthode tente de reconnecter le code confidentiel. Si la méthode modifie correctement le format, il remet les nouvelles informations sur le segment. Cette méthode appelle la méthode [**CDynamicOutputPin :: ChangeMediaType**](cdynamicoutputpin-changemediatype.md) pour effectuer la modification de format.
 
 Vous devez appeler la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) avant d’appeler cette méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

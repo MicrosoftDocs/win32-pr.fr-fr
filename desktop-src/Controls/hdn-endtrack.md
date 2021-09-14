@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e59467874643ba3a57ebf65919366077e3c9031d2de317d74c94ad0d51b7304
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42ab7625690a2de0414f1da391f26f919c1c2617
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118006065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999935"
 ---
 # <a name="hdn_endtrack-notification-code"></a>\_Code de notification HDN ENDTRACK
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**NMHEADER**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3329f82babea73a6392f7c360623fdeadec843dfcfd62e70106e7fb1cb0367ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 557256484ad5c5fa698d787144a37ff619b02ef2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118671674"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999880"
 ---
 # <a name="lb_deletestring-message"></a>\_Message DELETESTRING lb
 
@@ -45,11 +45,11 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est le nombre de chaînes restantes dans la liste. La valeur de retour est LB \_ Err si le paramètre *wParam* spécifie un index supérieur au nombre d’éléments de la liste.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si une application crée la zone de liste avec un style owner-drawn, mais sans le style [**\_ HASSTRINGS kg**](list-box-styles.md) , le système envoie un message [**WM \_ DELETEITEM**](wm-deleteitem.md) au propriétaire de la zone de liste afin que l’application puisse libérer toutes les données supplémentaires associées à l’élément.
 

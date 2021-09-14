@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1a094ad3b79dbeb8c4dfc2888de01a521738740fc19ad70b521172d3194fd9f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d115412b2b668f640834d5a3fa3b134f7a8d9c01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999373"
 ---
 # <a name="cbasedispatch-class"></a>CBaseDispatch, classe
 
@@ -54,7 +54,7 @@ Pour plus d’informations, reportez-vous au code source de l’un des exemples 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

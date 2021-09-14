@@ -7,12 +7,12 @@ keywords:
 - les extensions ADSI, ce qu’un client voit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33d38563de47cfc80bdcf265249bf3e4cf10bc46471e18672221fed8c3047efa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 398c9fd2d603c1eebb18280c435bec7cb7cd8e14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119082173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922028"
 ---
 # <a name="what-does-a-client-see"></a>Qu’est-ce qu’un client ?
 

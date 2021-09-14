@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: a067b74172fde0cc078de8106815cdb1e18c6e04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990601"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922451"
 ---
 # <a name="vertex-shader-register-modifiers"></a>Modificateurs de registre de nuanceur vertex
 
@@ -29,9 +29,9 @@ ms.locfileid: "104990601"
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f15d0d5ab89e9917e2062fe0e46505416d2eb3e7c8ca1e0cb0412952a10b8c0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b1f76bf3574b09b76d5f1010dcb59c8245555dc3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120085469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999861"
 ---
 # <a name="lb_gettextlen-message"></a>\_Message GETTEXTLEN lb
 
@@ -45,13 +45,13 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est la longueur de la chaîne, dans **TCHAR** s, à l’exclusion du caractère null de fin. Dans certaines conditions, cette valeur peut en fait être supérieure à la longueur du texte. Pour plus d'informations, consultez la section Notes qui suit.
 
 Si le paramètre *wParam* ne spécifie pas d’index valide, la valeur de retour est lb \_ Err.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans certaines conditions, la valeur de retour est supérieure à la longueur réelle du texte. Cela se produit avec certains mélanges d’ANSI et Unicode, et est dû au système d’exploitation qui autorise l’existence possible de caractères DBCS (Double-Byte Character Set) dans le texte. Toutefois, la valeur de retour sera toujours au moins égale à la longueur réelle du texte. vous pouvez donc toujours l’utiliser pour guider l’allocation de mémoire tampon. Ce comportement peut se produire lorsqu’une application utilise à la fois des fonctions ANSI et des boîtes de dialogue courantes, qui utilisent Unicode.
 
@@ -59,7 +59,7 @@ Pour obtenir la longueur exacte du texte, utilisez les messages [**WM \_ gettext
 
 Si la zone de liste a un style owner-drawn, mais pas le style [**\_ HASSTRINGS kg**](list-box-styles.md) , la valeur de retour est toujours la taille, en octets, d’un **DWORD**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

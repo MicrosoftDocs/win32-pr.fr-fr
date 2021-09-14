@@ -5,11 +5,11 @@ title: D3DPRESENT (D3d9.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2f71c89304a82344b6217a44f3d625200b03a286
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472780"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855207"
 ---
 # <a name="d3dpresent"></a>D3DPRESENT
 
@@ -35,13 +35,13 @@ Décrit la relation entre la fréquence d’actualisation de l’adaptateur et l
 | <span id="D3DPRESENT_UPDATECOLORKEY"></span><span id="d3dpresent_updatecolorkey"></span><dl><dt><strong>D3DPRESENT_UPDATECOLORKEY</strong></dt></dl> | Redessine les données ColorKey.<br /> Cet indicateur est disponible uniquement dans Direct3D 9Ex.<br /> | 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mode fenêtre prend en charge la \_ \_ valeur par défaut de l’intervalle D3DPRESENT, D3DPRESENT \_ intervalle \_ immédiat et D3DPRESENT \_ Interval \_ . \_ \_ La valeur par défaut de l’intervalle D3DPRESENT et l’intervalle de D3DPRESENT \_ \_ sont presque équivalents (consultez les informations relatives à la résolution du minuteur ci-dessous). Ils s’exécutent de la même manière pour copier les \_ Vsync en ce qu’il n’y en a qu’un seul présent par image, et ils empêchent le déchirement avec la poutre. En revanche, D3DPRESENT \_ Interval \_ immediate tente de fournir un tarif de présentation illimité.
 
 Le mode plein écran prend en charge l’utilisation similaire en mode fenêtre en prenant en charge \_ l’intervalle D3DPRESENT \_ , indépendamment du taux d’actualisation ou de l’effet d’échange. \_ \_ La valeur par défaut de l’intervalle D3DPRESENT utilise la résolution de l’horloge système par défaut, tandis que l' \_ intervalle D3DPRESENT \_ appelle [**timeBeginPeriod**](/windows/win32/api/timeapi/nf-timeapi-timebeginperiod) pour améliorer la résolution de l’horloge système. Cela améliore la qualité de la synchronisation verticale, mais consomme un peu plus de temps de traitement. Les deux paramètres tentent de se synchroniser verticalement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-----------------------------------------------------------------------------------|

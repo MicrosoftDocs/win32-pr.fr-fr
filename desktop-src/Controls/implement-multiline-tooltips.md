@@ -4,12 +4,12 @@ description: Les info-bulles multilignes autorisent l’affichage du texte sur p
 ms.assetid: 62B10B44-C1C2-4C86-8648-AE6B606BACBB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cd0d9f4172b256d2e6b72fb59ace4dc377fa3a0061e3ee0e6c0f234a74aad06
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0d6f32d638b2d33ea6270aa5f8ce2c09f0f4174
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120085623"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999898"
 ---
 # <a name="how-to-implement-multiline-tooltips"></a>Comment implémenter des info-bulles multilignes
 

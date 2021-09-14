@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6ef5b856fe263133a6d1ea3064e83af8d7fead83e84dfaec7e50b82510920f9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b963aea5d9c651e27dc4380200e40dd3dcb9a77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079643"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999425"
 ---
 # <a name="win32_systemprocesses-class"></a>\_Classe SystemProcesses Win32
 
@@ -84,11 +84,11 @@ Référence à l’instance de qui représente le processus en cours d’exécut
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ SystemProcesses** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - WmiProv.dll
 ms.openlocfilehash: 0768917f9197b6ee3de52877e031acbbdc8f9aed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921868"
 ---
 # <a name="wmisetalsbrightness-method-of-the-wmimonitorbrightnessmethods-class"></a>Méthode WmiSetALSBrightness de la classe WmiMonitorBrightnessMethods
 
@@ -39,18 +39,18 @@ uint32 WmiSetALSBrightness(
 
 <dl> <dt>
 
-*Luminosité* 
+*Lumineuse* 
 </dt> <dd>
 
 Luminosité du ALS en pourcentage.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nombre indique une erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

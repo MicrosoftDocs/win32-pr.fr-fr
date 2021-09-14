@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e695765d57c7e74c94fe0605ca7ec7b96705d7b37d1dc24cad068a5aed6a2ca3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad3937b8f0b3f7acd6313774f6de7cde133e69c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119457759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922423"
 ---
 # <a name="texture-coordinate-register-hlsl-vs-reference"></a>Registre de coordonnées de texture (référence HLSL VS)
 

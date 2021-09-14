@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 156bb2eb1e136593bfec4310599200f2d2800e271defa0e4a3259a4a67acb648
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37352176ca460587343bed0a154ee992c12c2fff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921759"
 ---
 # <a name="ibackgroundcopyfile2getfileranges-method"></a>IBackgroundCopyFile2 :: GetFileRanges, méthode
 
@@ -58,7 +58,7 @@ Tableau de structures de [**BG_FILE_RANGE**](bg-file-range.md) qui spécifient l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs de retour suivantes, ainsi que d’autres.
 
@@ -73,7 +73,7 @@ Cette méthode retourne les valeurs de retour suivantes, ainsi que d’autres.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

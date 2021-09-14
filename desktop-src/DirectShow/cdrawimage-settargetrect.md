@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: 4513b6aeda16d19476769290a6139f91b2fd1f19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999262"
 ---
 # <a name="cdrawimagesettargetrect-method"></a>Méthode CDrawImage. SetTargetRect
 
@@ -49,7 +49,7 @@ Pointeur vers une structure **Rect** qui définit le nouveau rectangle cible.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -59,13 +59,13 @@ Le filtre propriétaire doit appeler cette méthode si le rectangle source chang
 
 Avant d’appeler cette méthode, validez le rectangle fourni dans *pTargetRect*, par rapport à la fenêtre vidéo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ba216c9946854ccfc6a651db90ab1dd5ed106dfca6ddf568d485c33dae70ab
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c3dbbdab8adf0bee400d591f3d8b4cec6fa1ea81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119435509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999934"
 ---
 # <a name="hdn_filterbtnclick-notification-code"></a>\_Code de notification HDN FILTERBTNCLICK
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMHDFILTERBTNCLICK**](/windows/win32/api/commctrl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si vous renvoyez la **valeur true**, un code de notification [HDN \_ FILTERCHANGE](hdn-filterchange.md) sera envoyé à la fenêtre parente du contrôle d’en-tête. Ce code de notification donne à la fenêtre parente la possibilité de synchroniser ses éléments d’interface utilisateur. Retourne la **valeur false** si vous ne souhaitez pas envoyer la notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea54c633c7ffc9bc580609678e8ba5f62e29429aaea6f866bb7d72b6ea326eb2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aee387f65abd3f30826e361778d5acac02dfab7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118411495"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999839"
 ---
 # <a name="lvm_getcolumnorderarray-message"></a>\_Message GETCOLUMNORDERARRAY LVM
 
@@ -43,7 +43,7 @@ Pointeur vers un tableau d’entiers qui reçoit les valeurs d’index des colon
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, retourne une valeur différente de zéro et la mémoire tampon au niveau de *lParam* reçoit l’index de colonne de chaque colonne dans le contrôle dans l’ordre dans lequel elles apparaissent de gauche à droite. Sinon, la valeur de retour est zéro.
 

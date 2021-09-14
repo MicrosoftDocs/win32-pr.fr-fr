@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9c3ee5826c1b4ff81f90c86a6db4517aafc41313e53672486c41ab4847e82674
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aec9b97e42534d34c5033b3b86edb9c33366d639
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999297"
 ---
 # <a name="cdeferredcommandgetflags-method"></a>CDeferredCommand. GetFlags, méthode
 
@@ -40,7 +40,7 @@ short GetFlags();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l'une des valeurs suivantes :
 
@@ -57,7 +57,7 @@ Retourne l'une des valeurs suivantes :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e4424740-31b9-4317-8791-6a9aebb0c7e6
 title: Objets multimédia DirectX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00ef7dc17ab595748d9ccbfa16e33e7b4b8057d161c7f1e5d9f589e6768ec35f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2119fc8cce602bc1cc085886edd6852320aca180
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117821194"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999677"
 ---
 # <a name="directx-media-objects"></a>Objets multimédia DirectX
 

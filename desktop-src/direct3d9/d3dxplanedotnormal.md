@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: 28903fc8ce0073e4014ae6ce75df636222ce32f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922508"
 ---
 # <a name="d3dxplanedotnormal-function"></a>D3DXPlaneDotNormal fonction)
 
@@ -59,7 +59,7 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
 
@@ -69,7 +69,7 @@ Produit scalaire du plan et du vecteur 3D.
 
 Avec un plan (a, b, c, d) et un vecteur 3D (x, y, z), la valeur de retour de cette fonction est un \* x + b \* y + c \* z + d \* 0. La fonction **D3DXPlaneDotNormal** est utile pour calculer l’angle entre la normale du plan et une autre normale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

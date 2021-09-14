@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d1ba935fc5476becaf5edd4001efe8e604a97fc5e3a3ee8e965b606568d01863
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6ccb364545df514e098811ff6135e0c8cf72a329
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999752"
 ---
 # <a name="cbaserenderersetmediatype-method"></a>Méthode CBaseRenderer. SetMediaType
 
@@ -49,15 +49,15 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui spécifie le type de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La broche d’entrée appelle cette méthode à partir de sa propre méthode [**CRendererInputPin :: SetMediaType**](crendererinputpin-setmediatype.md) . Cette méthode n’a aucun effet dans la classe de base.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a5285faad36f83dbab693c63a0c96ca2b1d2b6a25220bb601a9527aac9dc5ac1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ab8a4421244f2c2ee21c5243923f5d0827317e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120051289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999045"
 ---
 # <a name="ixml2dexwritexml-method"></a>IXml2Dex :: WriteXML, méthode
 
@@ -60,11 +60,11 @@ Pointeur vers une variable de type BSTR qui reçoit la chaîne XML décrivant la
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite. Si la mémoire est insuffisante pour la conversion, retourne E \_ OUTOFMEMORY. Sinon, retourne un autre code d’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode alloue de la mémoire pour la chaîne. L’application doit appeler **SysFreeString** pour libérer la mémoire.
 
@@ -78,7 +78,7 @@ La méthode alloue de la mémoire pour la chaîne. L’application doit appeler 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

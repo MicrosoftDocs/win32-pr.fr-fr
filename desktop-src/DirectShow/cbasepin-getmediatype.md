@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cc202c3b6dbc570d063ef74619b266c2faa20cb74322b29e61626418412e2cb9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 186f2eddbedf4eb0565a4ca66ff4ed7e5b080090
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999331"
 ---
 # <a name="cbasepingetmediatype-method"></a>Méthode CBasePin. GetMediaType
 
@@ -57,7 +57,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -74,13 +74,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans la liste des types de média préférés du pin, cette méthode retourne le type avec une valeur d’index de *iPosition*. La classe [**CEnumMediaTypes**](cenummediatypes.md) appelle cette méthode pour énumérer les types de média préférés.
 
 La classe de base retourne E \_ inattendue. Substituez cette méthode dans votre classe dérivée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

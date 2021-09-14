@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 3a92c96283a8d835c4717a9ab54b580d8caf97b227b9a12aa0d97d0022d4350d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b294671ab1d67b3583f2f119f2a77cf3d22a301f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117724438"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922215"
 ---
 # <a name="structuredbufferload-methods"></a>StructuredBuffer :: Load, méthodes
 

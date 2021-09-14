@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: 9ccd4806bfa368fafa481500d3bd28e0ff55b7d2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531547"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921375"
 ---
 # <a name="d3dxvec4minimize-function"></a>D3DXVec4Minimize fonction)
 
@@ -69,7 +69,7 @@ Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
@@ -79,7 +79,7 @@ Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) composée des plus
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Minimize** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

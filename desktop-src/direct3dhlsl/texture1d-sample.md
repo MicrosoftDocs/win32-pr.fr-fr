@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 0555ba2ebe152484dcf1692623d410ecf2047bb14b72aa75481d2f42d938b33b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dcdc481b5fae76cb733f69b1f23caf467fb96440
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118505719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921187"
 ---
 # <a name="texture1dsample-methods"></a>Texture1D :: Sample, méthodes
 
@@ -35,7 +35,7 @@ ms.locfileid: "118505719"
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Reportez-vous à [texture-objet](dx-graphics-hlsl-to-type.md).
 

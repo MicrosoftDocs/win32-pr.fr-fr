@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ff047865aa4f52dee6c03411cddb0c957327851f0f6ca1b7a03f0b6adaacfe5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e12da02ffbce99b29d324c1166b3d4cdf2265c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117822730"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999322"
 ---
 # <a name="cbaserendererendofstream-method"></a>Méthode CBaseRenderer. EndOfStream
 
@@ -40,17 +40,17 @@ HRESULT EndOfStream();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La broche d’entrée du filtre appelle cette méthode lorsqu’elle reçoit une notification de fin de flux.
 
 Cette méthode affecte à l’indicateur [**CBaseRenderer :: m \_ BeOS**](cbaserenderer-m-beos.md) la **valeur true** et appelle la méthode [**CBaseRenderer :: SendEndOfStream**](cbaserenderer-sendendofstream.md) pour planifier un événement [**EC \_ Complete**](ec-complete.md) . Si le filtre est suspendu et en attente d’un exemple, cette méthode termine la transition d’État.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

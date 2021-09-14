@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88bc7d22766f2d1bed304c5e9780faf05808513312b744ae54bc2d6cfab6dffc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36bf5b6700904c5af47ef47e749dfa753c5ff8cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118958258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999800"
 ---
 # <a name="lvm_gettextbkcolor-message"></a>\_Message GETTEXTBKCOLOR LVM
 
@@ -35,11 +35,11 @@ Récupère la couleur d’arrière-plan du texte d’un contrôle d’affichage 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la couleur d’arrière-plan du texte.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

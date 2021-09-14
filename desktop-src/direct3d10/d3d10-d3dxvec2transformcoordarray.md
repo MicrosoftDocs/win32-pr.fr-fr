@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 6d4f7e48a274b8a1b590adc76dff683019e9e0ec7ae523d16decd09421093ce1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f36b5fb5a5263f83c42ac66cc5f606fa1c4b75ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119989869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921651"
 ---
 # <a name="d3dxvec2transformcoordarray-function-d3dx10mathh"></a>D3DXVec2TransformCoordArray, fonction (D3DX10Math. h)
 
@@ -99,19 +99,19 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointeur vers un tableau transformé [**D3DXVECTOR4**](d3d10-d3dxvector4.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction transforme le tableau (x, y, 0, 1) par la matrice pM, en reprojetant le résultat dans w = 1.
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec2TransformCoordArray peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

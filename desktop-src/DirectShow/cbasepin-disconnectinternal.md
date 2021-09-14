@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c420419e49f7093e6fdf1fdc66880035f4844d03277db18b5c134d9ee69b10fc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0891a9446e09c56e3845c02217d39037aad38bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999339"
 ---
 # <a name="cbasepindisconnectinternal-method"></a>Méthode CBasePin. DisconnectInternal
 
@@ -40,7 +40,7 @@ HRESULT DisconnectInternal();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -56,11 +56,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CBasePin ::D éconnecter**](cbasepin-disconnect.md) délègue le processus de déconnexion à cette méthode. Cette méthode appelle la méthode [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md) . Elle libère également le décompte de références sur l’autre code confidentiel, qui est détenu par la variable membre [**\_ connectée CBasePin :: m**](cbasepin-m-connected.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

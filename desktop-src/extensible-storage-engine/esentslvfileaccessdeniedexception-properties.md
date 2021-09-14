@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102749
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 15e11996009d504908a72dea56ee51f15769eaa0f99a8b400d9e52caefac262e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1bb0c3c7dae62d3cb9ad72f64cb5aa7c02ab5a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120116839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854571"
 ---
 # <a name="esentslvfileaccessdeniedexception-properties"></a>Propriétés EsentSLVFileAccessDeniedException
 
@@ -69,7 +69,7 @@ Le type [EsentSLVFileAccessDeniedException](./esentslvfileaccessdeniedexception-
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

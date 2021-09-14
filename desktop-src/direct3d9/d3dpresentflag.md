@@ -5,11 +5,11 @@ title: D3DPRESENTFLAG
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3ebf3a8ad3a22f5104e4d4a78d3a01a29d07d757
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624555"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855202"
 ---
 # <a name="d3dpresentflag"></a>D3DPRESENTFLAG
 

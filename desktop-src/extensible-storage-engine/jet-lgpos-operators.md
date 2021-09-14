@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh579075(v=EXCHG.10)
 ms:contentKeyID: 39513092
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 267421efde5987233865ff700e1d64f70080f8cc11314ce2fda0fec7fb6abc47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7464ed8334bbf8b60500809e26462307daa3ea8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117894514"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854260"
 ---
 # <a name="jet_lgpos-operators"></a>Opérateurs JET_LGPOS
 

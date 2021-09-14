@@ -7,12 +7,12 @@ keywords:
 - DirectComposition concepts de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2dadcea55ec18089380d7dbe17d99e5dba92b06dd15774c43cd604f28f991c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0550dc12cb0dcc5262701658d8e3883ee1ce8d82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118282031"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922079"
 ---
 # <a name="basic-concepts"></a>Concepts de base
 
@@ -39,7 +39,7 @@ DirectComposition définit une *composition* en tant que collection de bitmaps c
 
 Une application DirectComposition crée deux ensembles d’objets pour composer une scène : les bitmaps qui sont composés ensemble, et les visuels qui définissent les relations spatiales entre les bitmaps. Pour plus d’informations sur les objets bitmap pris en charge par DirectComposition, consultez [objets bitmap](bitmap-surfaces.md).
 
-## <a name="visuals"></a>Objets visuels
+## <a name="visuals"></a>Visuels
 
 Les éléments *visuels* (ou *objets visuels*) sont les éléments fondamentaux de DirectComposition. Il s’agit des blocs de construction de base que vous utilisez pour créer des compositions et des animations dans l’interface utilisateur de votre application.
 

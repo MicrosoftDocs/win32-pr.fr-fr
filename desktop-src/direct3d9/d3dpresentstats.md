@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 230c750c36b9241f6aa4840daf6a4f3a512d42a5dcd899bc555b44a48cb3ac53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b49a589fa1702f61e5a5daef806a5b36d464d0ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119750919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855201"
 ---
 # <a name="d3dpresentstats-structure"></a>D3DPRESENTSTATS, structure
 
@@ -98,7 +98,7 @@ Cette valeur n'est pas utilisée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand une application 9Ex adopte le mode Flip (D3DSWAPEFFECT \_ FLIPEX), les applications peuvent détecter la suppression de frame en appelant GetPresentStatistics à tout moment. En effet, ils peuvent effectuer les opérations suivantes.
 
@@ -157,7 +157,7 @@ Les applications peuvent détecter un problème en effectuant le suivi de SynchR
 6.  Appelez GetPresentStats et stockez la structure D3DPRESENTSTATS résultante.
 7.  Comparez les valeurs de SyncRefreshCount à partir des deux structures D3DPRESENTSTATS stockées. Si la différence est supérieure à un, le frame a été ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

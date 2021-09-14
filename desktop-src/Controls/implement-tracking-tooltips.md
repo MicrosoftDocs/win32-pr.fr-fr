@@ -4,12 +4,12 @@ description: Les info-bulles de suivi restent visibles jusqu’à ce qu’elles 
 ms.assetid: 4BE1F9E6-92B6-4CA7-B89A-F2162BC86366
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9b2aaf7475f6a4823e0628ab7010ae32bb8424ef0e90e52396ee20cbc7c7e35
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a614fef7ed69cd8c2763f9370ce0011d51eb0c82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120085592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999896"
 ---
 # <a name="how-to-implement-tracking-tooltips"></a>Comment implémenter des info-bulles de suivi
 

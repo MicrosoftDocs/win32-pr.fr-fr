@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 146c3736f7aaa89fc9a724d9dd7e4bfb58160e21e2de57f40a8e855c8a3c1446
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 823583beed6696d40803ccc098410dac053b8948
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043602"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999278"
 ---
 # <a name="cdrawimagefastrender-method"></a>Méthode CDrawImage. FastRender
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CDrawImage ::D rawimage**](cdrawimage-drawimage.md) appelle cette méthode, mais uniquement si l’allocateur pour la connexion est un objet [**CImageAllocator**](cimageallocator.md) . Dans ce cas, l’exemple de support est garanti comme un objet [**CImageSample**](cimagesample.md) . L’objet **CImageSample** utilise la fonction **CreateDIBSection** pour allouer de la mémoire partagée pour la bitmap, ce qui permet de dessiner l’image à l’aide de **BitBlt** ou de **StretchBlt**.
 
@@ -61,7 +61,7 @@ Cette méthode appelle **BitBlt** si les rectangles source et cible corresponden
 
 Si le filtre n’est pas propriétaire de l’allocateur, la méthode **DrawImage** utilise [**CDrawImage :: SlowRender**](cdrawimage-slowrender.md) pour dessiner l’image.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

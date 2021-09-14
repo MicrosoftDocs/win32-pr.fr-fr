@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9a084d4e142f57b724343ac5a353461b41aac0be216b8e3851bc8b7e40000a1f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a3ceeeb00ba1de4f305f87ef3fe15e70a8d91457
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999704"
 ---
 # <a name="creftimeoperator-reference_time-method"></a>CRefTime. Operator Time, méthode de référence \_
 
@@ -40,11 +40,11 @@ REFERENCE_TIME operator REFERENCE_TIME() const;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de [**CRefTime :: m \_ Time**](creftime-m-time.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple suivant montre comment utiliser cet opérateur de conversion :
 
@@ -56,7 +56,7 @@ REFERENCE_TIME rt = (REFERENCE_TIME)cRT;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

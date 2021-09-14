@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b7533e5d1e842e6794a9f9c386103b781afa0404ee181354c420770358f7e8a2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 15be9b176680e8abb259d3d011da9d6cec0c2fa8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999439"
 ---
 # <a name="win32_systemdriver-class"></a>\_Classe SystemDriver Win32
 
@@ -98,7 +98,7 @@ La classe **Win32 \_ SystemDriver** possède ces méthodes.
 | [**Modifier**](change-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui modifie un service.<br/>                                                |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-systemdriver.md)       | Méthode de classe qui modifie le mode de démarrage d’un service.<br/>                              |
 | [**Créer**](create-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui crée un nouveau service.<br/>                                             |
-| [**Supprimer**](delete-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui supprime un service existant.<br/>                                       |
+| [**DELETE**](delete-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui supprime un service existant.<br/>                                       |
 | [**InterrogateService**](interrogateservice-method-in-class-win32-systemdriver.md) | Méthode de classe qui demande que le service met à jour son État auprès du gestionnaire de service.<br/> |
 | [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md)             | Méthode de classe qui tente de placer le service dans l’état suspendu.<br/>                 |
 | [**ResumeService**](resumeservice-method-in-class-win32-systemdriver.md)           | Méthode de classe qui tente de placer le service dans l’État repris.<br/>                |
@@ -484,7 +484,7 @@ Les valeurs sont :
 
 </dd> <dt>
 
-**Démarré**
+**Cours**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -839,7 +839,7 @@ Les balises sont uniquement évaluées pour les services du pilote du noyau et d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ SystemDriver** est dérivée de [**Win32 \_ BaseService**](win32-baseservice.md).
 
@@ -856,7 +856,7 @@ Get-WmiObject -Class Win32_SystemDriver | Where-Object -FilterScript {$_.State -
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

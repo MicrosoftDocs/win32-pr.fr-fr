@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: ab351ab26578625865ec859e3a40a38681d305c5a764cbbfbc5601d605656a40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5210b3e010006304d5fb67e3563de234d882079e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119742539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854770"
 ---
 # <a name="texturecubearraygathercmp-methods"></a>TextureCubeArray :: GatherCmp, méthodes
 

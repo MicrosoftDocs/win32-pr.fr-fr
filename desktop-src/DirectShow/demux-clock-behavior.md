@@ -4,12 +4,12 @@ ms.assetid: c8a067f7-4e4c-4f25-b26c-f6bb048060b0
 title: Demux le comportement de l’horloge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ab1976bf123e971f6c3ec08e18c743352d37b73de95901a67abfee5d10a054
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9065e6da51acb5387ca06bf921d5cdc91c567843
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117821184"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999216"
 ---
 # <a name="demux-clock-behavior"></a>Demux le comportement de l’horloge
 

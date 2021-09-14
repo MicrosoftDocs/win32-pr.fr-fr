@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 28392f7bb9c2f59bd766e42ec21fb87a854b08bedd8336ebb6f7249b7eccb940
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f558a5fee10d0403eeaacab9dc29ff3ea52b427c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922428"
 ---
 # <a name="predicate-register-hlsl-vs-reference"></a>Registre de prédicats (référence HLSL VS)
 

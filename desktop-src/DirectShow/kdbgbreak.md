@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Wxdebug.h
 ms.openlocfilehash: 9631dc8d956652137810b25ae5923cc1c6927bee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540994"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999030"
 ---
 # <a name="kdbgbreak-macro"></a>KDbgBreak macro)
 
@@ -46,7 +46,7 @@ Chaîne de texte.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette macro ne retourne pas de valeur.
 
@@ -54,13 +54,13 @@ Cette macro ne retourne pas de valeur.
 
 Contrairement à la macro [**DbgBreak**](dbgbreak.md) , cette macro n’affiche pas de boîte de message invitant l’utilisateur. Dans les versions Debug, il provoque automatiquement une exception de point d’arrêt.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl> |
 
 
 

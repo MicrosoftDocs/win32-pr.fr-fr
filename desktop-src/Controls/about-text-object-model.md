@@ -5,11 +5,11 @@ ms.assetid: e304ec18-ec2e-4ea7-91c6-6f6ab63b72ae
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b934aab1cbd3dca932b58e4aa99498843cb8cc97
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031970"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999391"
 ---
 # <a name="about-text-object-model"></a>À propos du modèle d’objet de texte
 
@@ -31,7 +31,7 @@ Le modèle d’objet de texte (TOM) définit un jeu d’interfaces de manipulati
 
 TOM version 2 (TOM 2) étend le modèle d’objet de texte d’origine. les nouvelles interfaces sont dérivées des anciennes. L’API TOM mise à jour comprend la prise en charge des nouvelles propriétés de format des caractères et des paragraphes, un modèle de table, une sélection multiple et la prise en charge des objets Inline pour Math et Ruby.
 
-L’objet TOM 2 de niveau supérieur est défini par l’interface [**ITextDocument2**](/windows/desktop/api/Tom/nn-tom-itextdocument2) , qui a des méthodes pour créer et récupérer des objets plus bas dans la hiérarchie d’objets. Pour un simple traitement de texte brut, vous pouvez obtenir un objet [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) à partir d’un objet **ITextDocument2** et faire tout le reste. Si vous devez ajouter une mise en forme de texte enrichi, vous pouvez obtenir des objets [**ITextFont2**](/windows/desktop/api/Tom/nn-tom-itextfont2) et [**ITextPara2**](/windows/desktop/api/Tom/nn-tom-itextpara2) à partir d’un objet **ITextRange2** . **ITextFont2** fournit l’équivalent de programmation de la boîte de dialogue Format-police de Microsoft Word, et **ITextPara2** fournit l’équivalent de la boîte de dialogue Format de mot-paragraphe.
+L’objet TOM 2 de niveau supérieur est défini par l’interface [**ITextDocument2**](/windows/desktop/api/Tom/nn-tom-itextdocument2) , qui a des méthodes pour créer et récupérer des objets plus bas dans la hiérarchie d’objets. Pour un simple traitement de texte brut, vous pouvez obtenir un objet [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) à partir d’un objet **ITextDocument2** et faire tout le reste. Si vous devez ajouter une mise en forme de texte enrichi, vous pouvez obtenir des objets [**ITextFont2**](/windows/desktop/api/Tom/nn-tom-itextfont2) et [**ITextPara2**](/windows/desktop/api/Tom/nn-tom-itextpara2) à partir d’un objet **ITextRange2** . **ITextFont2** fournit l’équivalent de programmation de la boîte de dialogue format-police Microsoft Word et **ITextPara2** fournit l’équivalent de la boîte de dialogue format de mot-paragraphe.
 
 En plus de ces trois objets de niveau inférieur, TOM 2 a un objet Selection ([**ITextSelection2**](/windows/win32/api/tom/nn-tom-itextselection2)), qui est un objet [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) avec mise en surbrillance de la sélection et certaines méthodes orientées interface utilisateur.
 
@@ -134,7 +134,7 @@ Dans TOM, l’échange de texte enrichi peut être effectué par un ensemble d�
 
 
 
- 
+ 
 
 **Mots de contrôle de format de caractère RTF TOM**
 
@@ -171,7 +171,7 @@ Dans TOM, l’échange de texte enrichi peut être effectué par un ensemble d�
 
 
 
- 
+ 
 
 ## <a name="finding-rich-text"></a>Recherche de texte enrichi
 
@@ -375,7 +375,7 @@ Certaines méthodes TOM sont particulièrement utiles pour naviguer à l’écra
 
 
 
- 
+ 
 
 ## <a name="character-match-sets"></a>Jeux de correspondances de caractères
 
@@ -393,7 +393,7 @@ Les jeux [**GetStringTypeEx**](/windows/win32/api/stringapiset/nf-stringapiset-g
 
 
 
- 
+ 
 
 Plus précisément, *Ctype1* peut être n’importe quelle combinaison des éléments suivants.
 
@@ -405,7 +405,7 @@ Plus précisément, *Ctype1* peut être n’importe quelle combinaison des élé
 | C1 \_ inférieur   | 0x0002 | Minuscules.                                                        |
 | \_Chiffre C1   | 0x0004 | Chiffres décimaux.                                                   |
 | \_Espace C1   | 0x0008 | Espaces.                                                 |
-| C1 \_ PUNCT   | 0x0010 | Ponctuation.                                                      |
+| C1 \_ PUNCT   | 0x0010 | La ponctuation.                                                      |
 | C1 \_ CTRL   | 0x0020 | Caractères de contrôle.                                               |
 | C1 \_ vide   | 0x0040 | Caractères vides.                                                 |
 | C1 \_ XDIGIT  | 0x0080 | Chiffres hexadécimaux.                                               |
@@ -414,7 +414,7 @@ Plus précisément, *Ctype1* peut être n’importe quelle combinaison des élé
 
 
 
- 
+ 
 
 Les types *Ctype2* prennent en charge la disposition correcte du texte Unicode. Les attributs de direction sont assignés afin que l’algorithme de disposition bidirectionnelle standardisé par Unicode produise des résultats précis. Ces types s’excluent mutuellement. Pour plus d’informations sur l’utilisation de ces attributs, consultez *la norme Unicode : encodage de caractères dans le monde entier, volumes 1 et 2* Addison-Wesley société de publication : 1991, 1992.
 
@@ -441,7 +441,7 @@ Les types *Ctype2* prennent en charge la disposition correcte du texte Unicode. 
 
 
 
- 
+ 
 
 Les types *Ctype3* sont destinés à être des espaces réservés pour les extensions des types POSIX requis pour le traitement de texte général ou pour les fonctions de la bibliothèque C standard.
 
@@ -464,7 +464,7 @@ Les types *Ctype3* sont destinés à être des espaces réservés pour les exten
 
 
 
- 
+ 
 
 Un kit de développement de type édition (EDK) peut inclure des définitions d’index *pvar* pour les plages suivantes décrites dans la norme Unicode.
 
@@ -511,12 +511,12 @@ Un kit de développement de type édition (EDK) peut inclure des définitions d�
 | ArabicPresA           | 0xfb50—0xfdff | CombHalfMark              | 0xfe20—0xfe2f |
 | CJKCompForm           | 0xfe30—0xfe4f | SmallFormVar              | 0xfe50—0xfe6f |
 | ArabicPresB           | 0xfe70—0xfefe | HalfFullForm              | 0xff00—0xffef |
-| Offres spéciales              | 0xfff0—0xfffd |                           |               |
+| Offres spéciales              | 0xfff0—0xfffd |                           |               |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

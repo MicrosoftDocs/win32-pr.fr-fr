@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 89fbf8ee51f07c2912373cf77c6a05d64106f5bc923da947aff7f37b83e297b4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0fd02d0757745199249d64fa08d73f8b5ec65a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117834450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999476"
 ---
 # <a name="uncompressex-method-of-the-win32_directory-class"></a>Méthode UncompressEx de la \_ classe Directory Win32
 
@@ -67,7 +67,7 @@ Si la **valeur est true**, la modification de la propriété sera appliquée de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été décompressé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -164,7 +164,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

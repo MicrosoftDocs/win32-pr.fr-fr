@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a23c45ea5f21667bde6817469bce43e8f7e9a0a41d8b62b016e739abb744b53c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: effe4819c674a7909cc445b9e9f7b5322fae7676
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922263"
 ---
 # <a name="texture2dmsarray"></a>Texture2DMSArray
 
@@ -30,7 +30,7 @@ Type Texture2DMSArray (tel qu’il existe dans Shader Model 4) et variables de r
 |------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**GetDimensions**](sm5-object-texture2dmsarray-getdimensions.md)                  | Obtient les dimensions de ressource.                      |
 | [**GetSamplePosition**](sm5-object-texture2dmsarray-getsampleposition.md)          | Obtient la position de l’échantillon spécifié.         |
-| [**Load**](texture2dmsarray-load.md)                                               | Obtient une valeur.                                    |
+| [**Chargera**](texture2dmsarray-load.md)                                               | Obtient une valeur.                                    |
 | [**exemple. And\[\]\[\]**](sm5-object-texture2dmsarray-sampleoperatorindex.md)  | Obtient une variable de ressource en lecture seule.                |
 
 
@@ -43,9 +43,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -55,7 +55,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

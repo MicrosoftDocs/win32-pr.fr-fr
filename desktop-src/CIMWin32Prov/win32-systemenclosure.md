@@ -53,11 +53,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: c7f3b65f6435d8ff828aebf5310f9b21a2ea7f6c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999436"
 ---
 # <a name="win32_systemenclosure-class"></a>\_Classe SystemEnclosure Win32
 
@@ -373,7 +373,7 @@ Sous- **châssis** (19)
 
 <span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>
 
-**Châssis de stockage** (22)
+**châssis Stockage** (22)
 
 
 </dt> <dd></dd> <dt>
@@ -948,7 +948,7 @@ Cette propriété est héritée de la [**\_ PhysicalFrame CIM**](cim-physicalfra
 
 </dd> <dt>
 
-**Référence (SKU)**
+**Référence SKU**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -1207,7 +1207,7 @@ La classe **Win32 \_ SystemEnclosure** est dérivée [**du \_ châssis CIM**](ci
 
 L’exemple de [collecte des ressources système multithread avec](https://Gallery.TechNet.Microsoft.Com/Multithreaded-System-Asset-856a8f7c) PowerShell PowerShell sur la Galerie TechNet utilise un certain nombre de classes, notamment **Win32 \_ SystemEnclosure**, pour récupérer des données d’un système.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

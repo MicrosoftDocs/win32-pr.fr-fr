@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4bcfadae2b1dca70298ffed188de2e6075892563b27bf6f624f2139e441600cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6776fef206f9ced0608e86cbf596585399d4a12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117908003"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922419"
 ---
 # <a name="registers---vs_1_1"></a>Registres-vs \_ 1 \_ 1
 
@@ -26,10 +26,10 @@ Cette section contient des informations de référence pour les registres d’en
 
 | S’inscrire | Nom                                                                                  | Count      | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension  | RelAddr | Valeurs par défaut     | DCL obligatoire |
 |----------|---------------------------------------------------------------------------------------|------------|-----|---------------|-----------------|------------|---------|--------------|--------------|
-| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)               | 1          | R/W (Lecture/écriture) | 1             | illimitées       | Voir la remarque 3 | Non      | Aucun         | Non           |
-| c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-vs-registers-constant-float.md) | Voir la remarque 2 | R   | 1             | illimitées       | 4          | a0. x    | (0, 0, 0, 0) | Non           |
-| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                   | 16         | R   | 1             | illimitées       | 4          | Non      | Voir la remarque 1   | Oui          |
-| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)           | 12         | R/W (Lecture/écriture) | 3             | illimitées       | 4          | Non      | Aucun         | Non           |
+| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)               | 1          | R/W (Lecture/écriture) | 1             | Illimité       | Voir la remarque 3 | Non      | Aucun         | Non           |
+| c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-vs-registers-constant-float.md) | Voir la remarque 2 | R   | 1             | Illimité       | 4          | a0. x    | (0, 0, 0, 0) | Non           |
+| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                   | 16         | R   | 1             | Illimité       | 4          | Non      | Voir la remarque 1   | Oui          |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)           | 12         | R/W (Lecture/écriture) | 3             | Illimité       | 4          | Non      | Aucun         | Non           |
 
 
 

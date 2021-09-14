@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 532411e333023ff61df0b7f9fbf0336dc11d1586
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922300"
 ---
 # <a name="texture2dmsgetsampleposition-function"></a>Texture2DMS :: GetSamplePosition, fonction
 
@@ -45,7 +45,7 @@ Index de base zéro d’un emplacement d’échantillon.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **float2**
 

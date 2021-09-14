@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e3112e36a7b212c1d0968ca738472000fabbf3d26d4d94e36ea9f21d80fe57
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4aa3ca1335372b7a61c4dfcbc379c36e89ff933e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999858"
 ---
 # <a name="lb_selitemrangeex-message"></a>\_Message SELITEMRANGEEX lb
 
@@ -45,11 +45,11 @@ Spécifie l’index de base zéro du dernier élément à sélectionner.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une erreur se produit, la valeur de retour est LB \_ Err.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le paramètre *wParam* est inférieur au paramètre *lParam* , la plage d’éléments spécifiée est sélectionnée. Si *wParam* est supérieur ou égal à *lParam*, la plage est supprimée de la plage d’éléments spécifiée. Pour sélectionner un seul élément, sélectionnez deux éléments, puis désélectionnez l’élément indésirable.
 
@@ -57,7 +57,7 @@ Utilisez ce message uniquement avec les zones de liste à sélection multiple.
 
 Ce message peut sélectionner une plage uniquement dans les 65 536 premiers éléments.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6e6cbc9559cda3312ecdca341aa7c7ad2b44dc5cc29e50690ddf10b2729a39
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c45fe753b610fae69956b89caadade394566d0dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119435449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999923"
 ---
 # <a name="hdn_getdispinfo-notification-code"></a>\_Code de notification HDN GETDISPINFO
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMHDDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un LRESULT.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Remplissez les membres appropriés de la structure pour retourner les informations demandées au contrôle header. Si votre gestionnaire de messages définit le membre **Mask** de la structure [**NMHDDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmhddispinfoa) sur HDI \_ di \_ SETITEM, le contrôle header stocke les informations et ne les redemande pas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

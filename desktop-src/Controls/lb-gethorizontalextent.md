@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f754b62ad0f51a236662fdfba2304221d58e1288e2756c0330343c63a0699e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf10f4f216e0c00fba256c1373fb9aae4f2a4ac7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999876"
 ---
 # <a name="lb_gethorizontalextent-message"></a>\_Message GETHORIZONTALEXTENT lb
 
@@ -43,17 +43,17 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est la largeur de défilement, en pixels, de la zone de liste.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour répondre au message **lb \_ GETHORIZONTALEXTENT** , la zone de liste doit avoir été définie avec le style [**WS \_ HSCROLL**](/windows/desktop/winmsg/window-styles) .
 
 Si l’application ne définit pas l’étendue horizontale de la zone de liste (à l’aide de [**lb \_ SETHORIZONTALEXTENT**](lb-sethorizontalextent.md)), l’étendue horizontale par défaut est zéro. Notez que la zone de liste ne met pas à jour son étendue horizontale de manière dynamique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

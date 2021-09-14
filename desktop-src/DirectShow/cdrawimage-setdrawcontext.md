@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 58a10c9f1a485058ed460f4cd30cd4d3894b471415f131d7d4aa59ee757b87d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d329dd45d1a02afd2cbd0daf8d0da8390b0b395
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999267"
 ---
 # <a name="cdrawimagesetdrawcontext-method"></a>Méthode CDrawImage. SetDrawContext
 
@@ -40,15 +40,15 @@ void SetDrawContext();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode récupère les contextes de la fenêtre et du périphérique de mémoire à partir de l’objet [**CBaseWindow**](cbasewindow.md) propriétaire. Appelez cette méthode après l’initialisation de la fenêtre, mais avant de commencer le dessin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

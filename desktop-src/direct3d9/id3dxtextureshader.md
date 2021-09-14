@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 95e6a8feb35ea5d1e38a5cb63bb1379e4995e7562839cc1b582ee8efd8550212
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1b9581bced9d501800a8a8f3cb5d31a563ac261
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119846979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854967"
 ---
 # <a name="id3dxtextureshader-interface"></a>Interface ID3DXTextureShader
 
@@ -67,7 +67,7 @@ L’interface **ID3DXTextureShader** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface **ID3DXTextureShader** est obtenue en appelant la fonction [**D3DXCreateTextureShader**](d3dxcreatetextureshader.md) .
 
@@ -82,7 +82,7 @@ typedef interface ID3DXTextureShader *LPD3DXTEXTURESHADER;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

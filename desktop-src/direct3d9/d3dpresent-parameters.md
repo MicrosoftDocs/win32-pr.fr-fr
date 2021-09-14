@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 543b6b40d3fe24f902eb999a9377b8dbf60e1baa31efb70febbd2c0261d47305
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f113b3df247765b958dfe47bb04fafb6c9a13bbe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119857439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922627"
 ---
 # <a name="d3dpresent_parameters-structure"></a>D3DPRESENT, \_ structure de paramètres
 
@@ -239,7 +239,7 @@ Vitesse maximale à laquelle les mémoires tampons d’arrière-plan de la chaî
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -262,10 +262,10 @@ Vitesse maximale à laquelle les mémoires tampons d’arrière-plan de la chaî
 [**CreateAdditionalSwapChain**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createadditionalswapchain)
 </dt> <dt>
 
-[**Présent**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
+[**Trouver**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
 </dt> <dt>
 
-[**Initialisation**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)
+[**Réinitialiser**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)
 </dt> </dl>
 
  

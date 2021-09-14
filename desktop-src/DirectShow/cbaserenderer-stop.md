@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 942fae3ee1ea2c7481f475dc2d8dba421fd21d44290c98b822b9bc489ee25334
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddd8194bbf76c4a4311aa90335f94d1e7548a356
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117822619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999743"
 ---
 # <a name="cbaserendererstop-method"></a>CBaseRenderer. Stop, méthode
 
@@ -40,11 +40,11 @@ HRESULT Stop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CBaseFilter :: Stop**](cbasefilter-stop.md) . Il effectue les actions suivantes :
 
@@ -53,7 +53,7 @@ Cette méthode remplace la méthode [**CBaseFilter :: Stop**](cbasefilter-stop.
 -   Annule tout rendu planifié et libère le thread de streaming.
 -   Attend la fin d’un appel de **réception** en attente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

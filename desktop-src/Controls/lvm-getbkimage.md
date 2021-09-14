@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3393c226c250de2821d7fab930f950ff5a223218a77a1b9c4bc20b51b527a58
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29e178bae10b9bed880213ca4a4ab2a1b4e07239
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999840"
 ---
 # <a name="lvm_getbkimage-message"></a>\_Message GETBKIMAGE LVM
 
@@ -41,7 +41,7 @@ Pointeur vers une structure [**LVBKIMAGE**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 

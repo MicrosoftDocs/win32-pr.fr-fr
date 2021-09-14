@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d40526274ea52d68b0a02dbefd02c116ded77d64e8b343a48abef2735446d971
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4f9423154cd42de28b2d447776fe21a7b8e57620
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119853169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922219"
 ---
 # <a name="storing-variables-and-types-for-shaders-to-share"></a>Stockage des variables et des types pour les nuanceurs à partager
 

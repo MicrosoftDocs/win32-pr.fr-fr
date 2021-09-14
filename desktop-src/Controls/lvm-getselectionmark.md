@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed2675550ebc4cf456b439a2e5869068e983f46c82bf6fdde99d8b92806e6cac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 076aff15ff69c4b442c74022ed5a7c02b92a8c52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118670977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999801"
 ---
 # <a name="lvm_getselectionmark-message"></a>\_Message GETSELECTIONMARK LVM
 
@@ -35,15 +35,15 @@ Récupère la marque de sélection à partir d’un contrôle List-View. Vous po
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la marque de sélection de base zéro ou-1 s’il n’y a aucune marque de sélection.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La *marque de sélection* est l’index d’élément à partir duquel commence une sélection multiple.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Fastprox.dll
-ms.openlocfilehash: 509508d5e1a273dc681cf3c9f645ead1037408d6ecfe5ed666186ba6e2a2c0d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6deec7521ceb58a76db3dbf8064ccc444019cb9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118318291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921844"
 ---
 # <a name="iwbemcausalityaccessischildof-method"></a>IWbemCausalityAccess :: IsChildOf, méthode
 
@@ -47,11 +47,11 @@ Valeur GUID qui identifie de façon unique une demande. Par exemple, 5b2fc63a-8A
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur Successful si la requête spécifiée est un enfant de la demande appelant la méthode **IsChildOf** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

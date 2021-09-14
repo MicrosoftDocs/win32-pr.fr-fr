@@ -4,12 +4,12 @@ ms.assetid: 4a5f6938-7b33-4350-b8fa-cf78c5c44bcd
 title: Affichage des pages de propriétés d’un filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0e29654983ee51b98666411a11f7130eb896c380ec754b5576862c313dcbc2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0845a12b73363dc6ed93654439fd31826bf9cfc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016136"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999659"
 ---
 # <a name="displaying-a-filters-property-pages"></a>Affichage des pages de propriétés d’un filtre
 

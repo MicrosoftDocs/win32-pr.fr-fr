@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 2639c783c32646ebba5ada00507296082269a3d1f77fa9b4b76b4201fc92cbb1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c54c2f72fc4712aa60b237110030fb88c31cbbf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118983119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921100"
 ---
 # <a name="apijetsetsystemparameter-method"></a>API. JetSetSystemParameter, méthode
 

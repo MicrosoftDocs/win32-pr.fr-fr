@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 717139a33e260aa29bc8d0e244fa49b3cb324c5249614f513faf0624ccf21841
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e625b7c4ff12f9859efdcc2b10b551a2223adab6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119987239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922636"
 ---
 # <a name="d3dpatchedgestyle-enumeration"></a>Énumération D3DPATCHEDGESTYLE
 
@@ -62,11 +62,11 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que le pavage continu produit un modèle de pavage complètement différent de celui de la même polygonalisation (ce qui est plus apparent en mode filaire). Ainsi, 4,0 Continuous n’est pas le même que 4 discret.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

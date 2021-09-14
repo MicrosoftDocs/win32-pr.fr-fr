@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 89bdd742f24949c6ced1d0b1639a02209dddd93e13ae160e6bae8b44996b2449
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd320c42e1d24c0919010706ae3f7e61a65b78a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119977499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921108"
 ---
 # <a name="apijetsetsystemparameter-method-jet_instance-jet_sesid-jet_param-int32-string"></a>Méthode API. JetSetSystemParameter (JET_INSTANCE, JET_SESID, JET_param, Int32, String)
 
@@ -102,7 +102,7 @@ public static JET_wrn JetSetSystemParameter(
     
     Valeur du paramètre à définir, si le paramètre est un type chaîne.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement ESENT.  

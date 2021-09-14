@@ -4,12 +4,12 @@ description: Un contrôle RichEdit sans fenêtre, également connu sous le nom d
 ms.assetid: 880a704d-776a-49d3-be31-0328af408e3b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96b68a2bc0317a884f0516b73b3674d104c4fa6c12f16bdc24960d7ea0ef8bbf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fc1c8bc685dff5f8ddb041011089a84eb2e12008
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999388"
 ---
 # <a name="about-windowless-rich-edit-controls"></a>À propos des contrôles RichEdit sans fenêtre
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 25fbc27a2fecd07277e93197f61c43ca5b8a94806155deb8b12556b9dff17911
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9f87e6ea6e839e90dc8d347b7e14e39daec556b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126921195"
 ---
 # <a name="texture2dsample-methods"></a>Texture2D :: Sample, méthodes
 
@@ -35,7 +35,7 @@ ms.locfileid: "120023059"
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Reportez-vous à [texture-objet](dx-graphics-hlsl-to-type.md).
 
