@@ -4,12 +4,12 @@ ms.assetid: f9eee391-2b4a-4c17-bea5-72cda5124e1c
 title: À propos de DDE réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb8f232dc10080a575a6afe500727435bed7913ae95364daf697844c3c65dc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 412971f6bef8d2782dce38b5aef413e4d073f6b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118756455"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122282"
 ---
 # <a name="about-network-dde"></a>À propos de DDE réseau
 

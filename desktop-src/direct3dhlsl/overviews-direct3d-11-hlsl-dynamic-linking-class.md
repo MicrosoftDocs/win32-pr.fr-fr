@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 71410caf7d80cb9dbcd0165c753d75cc8f5cbe00
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382391"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915292"
 ---
 # <a name="interfaces-and-classes"></a>Interfaces et classes
 

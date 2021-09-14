@@ -4,12 +4,12 @@ ms.assetid: 009aa503-3fcd-4046-9a74-23a1a9c23e6a
 title: Interfaces d’instrumentation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e83e8f81fd2d8ea2c092a974e842c900506bb4b637eb94a07b5be48afbb68bea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 250e44e0283ccd44bbaa421d22ff1612fa5fb1c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129201"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915696"
 ---
 # <a name="com-instrumentation-interfaces"></a>Interfaces d’instrumentation COM+
 

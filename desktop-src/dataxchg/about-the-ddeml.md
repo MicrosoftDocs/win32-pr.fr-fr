@@ -13,12 +13,12 @@ keywords:
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 755d4efea534918ac3fd3da46364e3cb528e4199498ea7533c1635af6780cc08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84ed77565c8b4e20841ad2ef80ae84c1f5c39724
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118545560"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915691"
 ---
 # <a name="about-the-ddeml"></a>À propos de DDEML
 

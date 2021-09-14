@@ -15,12 +15,12 @@ keywords:
 - formats d’historique du presse-papiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac6bd2dc9dda8c8ccecd164123af68865005d9d28d328ce5489abf23926113ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 193ee4cc10c17846d974e50b17a464207026280b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915683"
 ---
 # <a name="clipboard-formats"></a>Formats du presse-papiers
 

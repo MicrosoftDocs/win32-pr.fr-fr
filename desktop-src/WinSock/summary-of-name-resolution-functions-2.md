@@ -5,11 +5,11 @@ title: Résumé des fonctions de résolution de noms
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d5969cb2cf145124446374dcb86eb1e0a8a837c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915836"
 ---
 # <a name="summary-of-name-resolution-functions"></a>Résumé des fonctions de résolution de noms
 
@@ -38,7 +38,7 @@ Espace de noms Winsock : les opérations de requête impliquent une série d’
 
 L’application appelle [**WSALookupServiceNext**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicenexta) pour obtenir les résultats de la requête, avec les résultats fournis dans une mémoire tampon [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) fournie par l’application. L’application continue d’appeler **WSALookupServiceNext** jusqu’à ce que le code d’erreur « wsa \_ E » \_ \_ soit retourné, indiquant que tous les résultats ont été récupérés. La recherche est ensuite terminée par un appel à [**WSALookupServiceEnd**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupserviceend). La fonction **WSALookupServiceEnd** peut également être utilisée pour annuler un **WSALookupServiceNext** actuellement en attente en cas d’appel à partir d’un autre thread.
 
-Dans Windows Sockets 2, les codes d’erreur en conflit sont définis pour WSAENOMORE (10102) et WSA \_ E \_ \_ (10110). Le code d’erreur WSAENOMORE sera supprimé dans une version ultérieure et seul le WSA \_ E ne \_ \_ sera pas conservé. Pour Windows Sockets 2, toutefois, les applications doivent vérifier à la fois WSAENOMORE et WSA \_ E pour \_ \_ la compatibilité la plus étendue possible avec les fournisseurs d’espaces de noms qui utilisent l’un ou l’autre.
+dans Windows sockets 2, les codes d’erreur en conflit sont définis pour WSAENOMORE (10102) et WSA \_ E \_ \_ (10110). Le code d’erreur WSAENOMORE sera supprimé dans une version ultérieure et seul le WSA \_ E ne \_ \_ sera pas conservé. pour Windows sockets 2, toutefois, les applications doivent vérifier à la fois WSAENOMORE et WSA E pour obtenir \_ \_ \_ une compatibilité la plus étendue avec les fournisseurs d’espaces de noms qui utilisent l’un ou l’autre.
 
 ## <a name="helper-functions"></a>Fonctions d’assistance
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c4423b7c1c27124771c518409d9d1393a5f83afb
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469186"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122022"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin-for-device-inquiry"></a>Bluetooth et WSALookupServiceBegin pour la consultation des appareils
 
@@ -38,7 +38,7 @@ Le tableau suivant répertorie les restrictions qui s’appliquent à la structu
 
 Les indicateurs répertoriés dans le tableau suivant sont utilisés dans le paramètre *dwControlFlags* pour contrôler les résultats de la requête. Les **lup \_ Containers** et **lup \_ FLUSHCACHE** Flags sont utilisés par la fonction [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) ; le reste des indicateurs est utilisé dans les appels à la fonction [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) .
 
-| Indicateur               | Résultat                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Indicateur               | Résultats                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_conteneurs lup    | spécifie que l’objectif de la requête est d’obtenir une liste de Bluetooth appareils et non une liste de services. Cet indicateur doit être défini.                                                                                                                                                                                                                                                                                       |
 | LUP \_ FLUSHCACHE    | Déclenche une recherche d’appareils locaux ou fait en sorte que les résultats mis en cache des requêtes précédentes soient retournés.                                                                                                                                                                                                                                                                                                                |
@@ -78,7 +78,7 @@ Les indicateurs répertoriés dans le tableau suivant sont utilisés dans le par
 [**WSALookupServiceEnd**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)
 </dt> <dt>
 
-[**OBJET BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
+[**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
 [**\_périphérique de requête BTH \_**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device)

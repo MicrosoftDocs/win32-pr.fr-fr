@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Mise à jour d’une partie d’une instance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f35be3e6b67380f8d41a8d789064d816d2c913ad22178897f9a0994a722a266c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4eaf58bfc151358a2b4f282815769d1b19c068f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119049927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915747"
 ---
 # <a name="updating-part-of-an-instance"></a>Mise à jour d’une partie d’une instance
 

@@ -5,12 +5,12 @@ ms.assetid: 26a72de1-24bc-41e6-8d41-61d45f581e51
 title: Glossaire COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eda1c62c8edee1e15df33b63a9d4894639dd9e5637ed3e87a747d724f9e9040e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b5a6cb30529cd8b97b8cf11316347d68003e32c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119638719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915703"
 ---
 # <a name="com-glossary"></a>Glossaire COM+
 

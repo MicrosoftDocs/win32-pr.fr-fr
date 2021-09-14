@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2
-ms.openlocfilehash: 6c1e5174cb9fcaf9279d16eceda547e9e5060c4ca4f7deda09cc170cf3dd7653
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fbad71cd88992673af5dd60c04b92dd3c833e5b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119244649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915812"
 ---
 # <a name="cim_lastappliedsettingdata-class"></a>\_Classe CIM LastAppliedSettingData
 
@@ -88,7 +88,7 @@ Objet qui était la cible de l’application de l’objet.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
