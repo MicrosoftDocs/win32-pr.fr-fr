@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eeff2c3d3427c9c8c5323f3c4cbea9d194c81d223c2a07ee364f87dd1dd2c33d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1c60b58f8f2438de0d43f69ce0b3bb73607e7551
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920060"
 ---
 # <a name="imsrdpclient7transportsettings3-property"></a>IMsRdpClient7 :: TransportSettings3, propriété
 
@@ -58,7 +58,7 @@ HRESULT get_TransportSettings3(
 
 Adresse d’un pointeur d’interface [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md) qui reçoit l’objet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

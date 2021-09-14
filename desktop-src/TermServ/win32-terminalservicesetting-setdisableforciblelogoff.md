@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7760e48648cab149b435760da062ea4aa60c5e4107dfb062cd86a151fc234470
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4be6ace10853ec282f5ab17b1f5f5921ef2c0d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119867829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919616"
 ---
 # <a name="setdisableforciblelogoff-method-of-the-win32_terminalservicesetting-class"></a>Méthode SetDisableForcibleLogoff de la \_ classe Win32 TerminalServiceSetting
 
@@ -74,11 +74,11 @@ Activez la propriété. L’administrateur connecté ne peut pas être déconnec
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une réussite en cas de réussite ; Sinon, retourne un code d’erreur WMI. Pour obtenir la liste de ces valeurs, reportez-vous à [services Bureau à distance codes d’erreur du fournisseur WMI](terminal-services-wmi-provider-error-codes.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

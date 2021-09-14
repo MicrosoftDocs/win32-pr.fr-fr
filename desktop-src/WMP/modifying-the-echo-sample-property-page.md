@@ -10,12 +10,12 @@ keywords:
 - Exemple de plug-in DSP Echo, pages de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca4312f61c8f909cd577ae0a0523afaf0d0fbddc420e974e2bd511d120bc622e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f16c623f833d8d9c107c00e96fed92bab28e8b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919119"
 ---
 # <a name="modifying-the-echo-sample-property-page"></a>Modification de la page de propriétés de l’exemple Echo
 

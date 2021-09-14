@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 171515cb3c8498537bd0f9cc6d8c06017ff9d5d00f5505e193862f6cf9ebff76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c298fb865fe34946bfedc9f1d6d1924f6d32202
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118674802"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940576"
 ---
 # <a name="bm_setcheck-message"></a>\_Message SETCHECK BM
 
@@ -55,15 +55,15 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne toujours la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le **message \_ SETCHECK BM** n’a aucun effet sur les boutons de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

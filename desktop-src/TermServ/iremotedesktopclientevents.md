@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bae11edf7e6c603c534afb75fe5c90bcc868f1e359f1d78748dd94b18b5627e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7533ee7fea7c522b6129bda06891630c3e5ad15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119657069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919859"
 ---
 # <a name="iremotedesktopclientevents-interface"></a>Interface IRemoteDesktopClientEvents
 
@@ -60,7 +60,7 @@ L’interface **IRemoteDesktopClientEvents** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad0f3e5e264041ea852744792319ec2a7e0679bd6ef8e61a513ebe60a1777d09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9b7a8910ef71152034964c5077c7b34b5a48668
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013177"
 ---
 # <a name="iwmpdvdresume-method"></a>IWMPDVD :: Resume, méthode
 
@@ -49,7 +49,7 @@ Implements IWMPDVD.resume
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

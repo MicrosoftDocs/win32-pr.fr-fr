@@ -44,12 +44,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 735b033017958816e8e9a40caea935847104fdcbe3e9acf3128890d88685d09e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba5646c6ac9abf41fddc023ad39884e611681a71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119867849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919636"
 ---
 # <a name="win32_terminalservice-class"></a>\_Classe TerminalService Win32
 
@@ -112,7 +112,7 @@ La classe **Win32 \_ TerminalService** possède ces méthodes.
 | [**Modifier**](win32-terminalservice-change.md)                               | Modifie un service.<br/>                                                                       |
 | [**ChangeStartMode**](win32-terminalservice-changestartmode.md)             | Modifie le mode de démarrage d’un service.<br/>                                                     |
 | [**Créer**](win32-terminalservice-create.md)                               | Crée un nouveau service.<br/>                                                                    |
-| [**Supprimer**](win32-terminalservice-delete.md)                               | Supprime un service existant.<br/>                                                              |
+| [**DELETE**](win32-terminalservice-delete.md)                               | Supprime un service existant.<br/>                                                              |
 | [**GetSecurityDescriptor**](win32-terminalservice-getsecuritydescriptor.md) | Retourne le descripteur de sécurité qui contrôle l’accès au service.<br/>                      |
 | [**InterrogateService**](win32-terminalservice-interrogateservice.md)       | Demande qu’un service met à jour son état dans Service Manager.<br/>                          |
 | [**PauseService**](win32-terminalservice-pauseservice.md)                   | Tente de placer un service dans l’état suspendu.<br/>                                          |
@@ -571,7 +571,7 @@ Cette propriété est héritée de [**Win32 \_ BaseService**](/windows/desktop/C
 
 </dd> <dt>
 
-**Démarré**
+**Cours**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -959,7 +959,7 @@ Cette propriété est héritée [**du \_ service Win32**](/windows/desktop/CIMWi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que la classe **\_ TerminalService Win32** est une sous-classe de la classe de [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service) , la classe hérite de toutes les propriétés et méthodes du **\_ service Win32**.
 
@@ -969,7 +969,7 @@ Cette propriété est héritée [**du \_ service Win32**](/windows/desktop/CIMWi
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

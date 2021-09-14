@@ -10,12 +10,12 @@ keywords:
 - visualisations personnalisées, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 932a103255fbc5d8e995cceaed2583a7cfdf1c608faf8609f1995c4e26ebc58f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b95a2932740b4aefb602d16ff9167471b91dd24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013181"
 ---
 # <a name="windows-media-player-custom-visualizations"></a>Lecteur Windows Media Visualisations personnalisées
 

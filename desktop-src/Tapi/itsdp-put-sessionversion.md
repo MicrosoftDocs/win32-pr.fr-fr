@@ -4,12 +4,12 @@ ms.assetid: 8984d608-0fad-4979-9c58-ac2fb7926796
 title: ITSdp ::p ut_SessionVersion, méthode (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30f76ccf38b6d8df2a52b48777b49efbe2507b6be24dafd8c5f8874c45f0a9da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a096117f894a2ff33f127c683b84ba50e88308e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119405669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013490"
 ---
 # <a name="itsdpput_sessionversion-method"></a>ITSdp ::p ut \_ SessionVersion, méthode
 
@@ -39,7 +39,7 @@ Valeur de la version de la session.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la valeur de retour de cette méthode peut être **ULONG**, mais Visual Basic ne prend pas en charge le type **ulong** . Un **double** est le plus petit type suivant qui englobe la plage entière de valeurs requises.
 

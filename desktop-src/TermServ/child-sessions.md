@@ -5,12 +5,12 @@ ms.assetid: 65B9DB67-4EE8-40B5-B465-CA425792C62B
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d79fa6e18cece69c672b60a65e679441ce986a6cd8a0ad46524440738c3844
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 788b36bf9799da9b0cb7486963f3154451ca5392
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120010419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920172"
 ---
 # <a name="child-sessions"></a>Sessions enfants
 

@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: f2cca60c376859438b40ca35be26a99b115634c0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861570"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940595"
 ---
 # <a name="win32shutdown-method-of-the-win32_operatingsystem-class"></a>Méthode Win32Shutdown de la \_ classe Win32 OperatingSystem
 
@@ -43,7 +43,7 @@ uint32 Win32Shutdown(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Jeu de balises bitmap pour arrêter l’ordinateur. Pour forcer une commande, ajoutez l’indicateur Force (4) à la valeur de la commande. L’utilisation de force conjointement à l’arrêt ou au redémarrage sur un ordinateur distant arrête immédiatement tout (y compris WMI, COM, etc.) ou redémarre l’ordinateur distant. Cela génère une valeur de retour indéterminée.
@@ -121,7 +121,7 @@ Un moyen d’étendre **Win32Shutdown**. Actuellement, le paramètre *réservé*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nombre indique une erreur. Pour les codes d’erreur, consultez [**constantes d’erreur WMI**](../wmisdk/wmi-error-constants.md) ou [**WbemErrorEnum**](/windows/win32/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](../debug/system-error-codes.md).
 
@@ -139,7 +139,7 @@ Pour une gestion plus efficace des ordinateurs d’une organisation, les adminis
 
 Par exemple, pour effectuer une mise à niveau du réseau, vous devrez peut-être arrêter tous les ordinateurs qui s’exécutent sur un segment de réseau particulier. Pour forcer une mise à niveau stratégie de groupe, vous devez déconnecter les utilisateurs de leur ordinateur. Si un virus informatique est présent n’importe où dans votre organisation, vous souhaiterez peut-être arrêter autant d’ordinateurs que possible, avant que le virus n’ait la possibilité de se répandre. La possibilité d’arrêter et de redémarrer les ordinateurs et de se déconnecter des utilisateurs par programmation plutôt que manuellement peut être un économiseur de temps énorme.
 
-Le processus appelant doit avoir le privilège **se \_ arrêter le \_ nom** .
+le processus appelant doit avoir le privilège **SE \_ SHUTDOWN \_ NAME** .
 
 La méthode [**Win32ShutdownTracker**](win32shutdowntracker-method-in-class-win32-operatingsystem.md) fournit le même ensemble d’options d’arrêt prises en charge par la méthode **Win32Shutdown** dans [**Win32 \_ OperatingSystem**](win32-operatingsystem.md) , mais elle vous permet également de spécifier des commentaires, une raison d’arrêt ou un délai d’attente.
 
@@ -175,7 +175,7 @@ $win32OS.win32shutdown(8)
 
 
 
-L’exemple de code VB.NET suivant utilise la méthode Shutdown pour redémarrer ou déconnecter un système.
+l’exemple de code VB .net suivant utilise la méthode Shutdown pour redémarrer ou déconnecter un système.
 
 
 ```VB
@@ -210,7 +210,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

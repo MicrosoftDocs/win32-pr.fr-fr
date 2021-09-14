@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0f48e4058741ab69677d62f7441cb6181e0783900d69eaff9cec73aa6bb46eb7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a3090c1e5c1e42aca3758496b1367f3932e123c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119834368"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920839"
 ---
 # <a name="instanceparametersenableindexchecking-property"></a>InstanceParameters. EnableIndexChecking, propriété
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 375c0b110975c6ca791bbbe1f61a5b597b00316242484cd68ef018b7ef4ea88b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68c179023e93295ee846da22357d5f8efb75b15c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119138962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920108"
 ---
 # <a name="imsrdpcameraredirconfigcollectionbyindex-property"></a>IMsRdpCameraRedirConfigCollection :: ByIndex, propriété
 
@@ -43,7 +43,7 @@ HRESULT get_ByIndex(
 
 Objet [IMsRdpCameraRedirConfig](imsrdpcameraredirconfig.md) qui correspond à l’index spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

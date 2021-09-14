@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb7f3407f0dc6b1bc8dc04c6c4a72cda95db6b6b1def088a18908a730b96600
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ec338dbe07c4733bf80207298f23f388bf8f77c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120009799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919944"
 ---
 # <a name="imsrdpclientnonscriptable5-interface"></a>Interface IMsRdpClientNonScriptable5
 
@@ -56,7 +56,7 @@ L’interface **IMsRdpClientNonScriptable5** possède les propriétés suivantes
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

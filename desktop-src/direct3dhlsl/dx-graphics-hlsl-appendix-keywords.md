@@ -90,12 +90,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b6c3e52f03ac283af0dd89a67caeb46d884f47c7587917966cc3a89869fc5e8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 017647104d7cb7a71b400390a307a633666bc100
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117726659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941183"
 ---
 # <a name="keywords"></a>Mots clés
 
@@ -122,7 +122,7 @@ Le langage HLSL (High Level Shader Language) de Microsoft reconnaît les mots de
 - [Vector](dx-graphics-hlsl-vector.md), [vertexfragment](fragment-declaration-syntax.md), [VertexShader](dx-graphics-hlsl-shader.md), void, [volatile](dx-graphics-hlsl-variable-syntax.md)
 - [durant](dx-graphics-hlsl-while.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces types numériques ont des expansions de mots clés scalaires, vectorielles et de matrice :
 

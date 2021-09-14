@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 29e3f0ad63827605eb79a89325877e4bb83bfc62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919068"
 ---
 # <a name="networksourceprotocol"></a>Network. sourceProtocol
 
@@ -39,7 +39,7 @@ Cette propriété a la valeur "" (chaîne vide) lors de la diffusion de contenu 
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **sourceProtocol** pour afficher le protocole source utilisé pour recevoir des données. Les informations s’affichent dans une balise DIV HTML créée avec ID = « SP ». L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **sourceProtocol** pour afficher le protocole source utilisé pour recevoir des données. Les informations s’affichent dans une balise DIV HTML créée avec ID = « SP ». L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript
@@ -54,7 +54,7 @@ L’exemple JScript suivant utilise le *réseau*. **sourceProtocol** pour affich
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

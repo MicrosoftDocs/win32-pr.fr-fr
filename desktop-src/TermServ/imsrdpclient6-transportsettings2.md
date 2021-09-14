@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12aa42dfb54f6139ab0847f83b44298a0b81c1ff84dd1ea41e483a38ee8889bb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 91ba11975e0e065e0cfcce91eb22402153acf236
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119574399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920075"
 ---
 # <a name="imsrdpclient6transportsettings2-property"></a>IMsRdpClient6 :: TransportSettings2, propriété
 
@@ -62,7 +62,7 @@ HRESULT get_TransportSettings2(
 
 Pointeur d’interface [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

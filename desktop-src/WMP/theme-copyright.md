@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee2aac6c601c2f81b64f6cdc4df4dccb69827953771ef7acebd916b33d01052b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6a08f19195e487858d6adf31d4ad4b0d0199700
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119507509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013197"
 ---
 # <a name="themecopyright"></a>THÈME. Copyright
 

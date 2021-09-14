@@ -4,12 +4,12 @@ ms.assetid: 15df39fa-1eb1-4e96-9e26-14470f391de4
 title: Vue d’ensemble de la restauration réelle des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2cc1b74f7beae7f5686dc36ce741428cad97ae62c62c8895122ec8a639e46f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6527a10d0880b1e599377abb797449816019ab89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118998239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852916"
 ---
 # <a name="overview-of-actual-file-restoration"></a>Vue d’ensemble de la restauration réelle des fichiers
 

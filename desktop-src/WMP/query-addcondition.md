@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53a3eed0a7923b93861eabc30d115a7726046d0595b7c57625d9a9afaf9c7523
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4035d2877cf0081e9153277c88feb545a529568d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013229"
 ---
 # <a name="queryaddcondition-method"></a>Query. addCondition, méthode
 
@@ -65,11 +65,11 @@ Query.addCondition(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les requêtes composées à l’aide de la **requête** ne respectent pas la casse.
 
@@ -85,7 +85,7 @@ Le tableau suivant répertorie les valeurs prises en charge pour l' *opérateur*
 |---------------------|----------------|
 | BeginsWith          | Chaînes        |
 | Contient            | Chaînes        |
-| Est égal à              | Tous les types      |
+| Égal à              | Tous les types      |
 | GreaterThan         | Nombres, dates |
 | Supérieur ou égal à | Nombres, dates |
 | LessThan            | Nombres, dates |

@@ -3,7 +3,7 @@ title: Source d’image tertiaire normale
 description: Source d’image tertiaire normale
 ms.assetid: ce0b009a-b008-4e8b-875b-b2ff3c1c0b81
 keywords:
-- Apparences mobiles du lecteur Windows Media, source de l’image du bouton
+- Lecteur Windows Media Skins mobiles, source d’image de bouton
 - apparences, source de l’image du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, source d’image
@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 109509914c498e950f148caf7c260ef814c1074f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380235"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919047"
 ---
 # <a name="normal-tertiary-image-source"></a>Source d’image tertiaire normale
 
@@ -42,9 +42,9 @@ Les États tertiaires ne peuvent pas avoir d’image désactivée. Les images te
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

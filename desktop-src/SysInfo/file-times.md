@@ -4,12 +4,12 @@ ms.assetid: 52d80b82-9ab0-4631-9e70-85df21da4946
 title: Heures du fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1492597b4e71775974ed8b19f6109c5900a8a28720b769c1c10dcf2f70166b7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5919a2378e08798e4cd64d8f8357cb55692bd22e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117764491"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013527"
 ---
 # <a name="file-times"></a>Heures du fichier
 

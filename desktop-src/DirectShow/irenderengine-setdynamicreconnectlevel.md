@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: b43967753dd03d213a322ce569d113346542a57b5f37fd69fc28937198109049
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ae02fb6158b58cd5785aa7df539651acfbea5db8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120083679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853720"
 ---
 # <a name="irenderenginesetdynamicreconnectlevel-method"></a>IRenderEngine :: SetDynamicReconnectLevel, méthode
 
@@ -52,7 +52,7 @@ Combinaison d' [**indicateurs de reconnexion dynamique**](dynamic-reconnection-f
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -67,7 +67,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, le moteur de rendu de base charge chaque source avant d’effectuer le rendu d’un projet. Cela peut se traduire par un temps de démarrage long. Avec la reconnexion dynamique, les sources sont chargées uniquement lorsque cela est nécessaire. Cela peut raccourcir le temps de démarrage, mais risque d’interférer avec la lecture en douceur. En règle générale, plus le nombre d’éléments sources utilisés par un projet est grand, plus vous pouvez tirer parti de la reconnexion dynamique.
 
@@ -83,7 +83,7 @@ Le moteur de rendu intelligent n’implémente pas cette méthode.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

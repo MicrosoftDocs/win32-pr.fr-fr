@@ -11,12 +11,12 @@ keywords:
 - interfaces du fournisseur de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73a7b178ec0f3ab70f0a133a2286a97e294d449264061681fec540ae9b434c94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 019d31f05674f0d9e492f8a73748500bc1d9d514
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119766703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919499"
 ---
 # <a name="interfaces-for-service-providers"></a>Interfaces pour les fournisseurs de services
 

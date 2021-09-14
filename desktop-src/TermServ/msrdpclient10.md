@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2c8b377889476661b67528dc67d3d6fe6901747a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465466"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919755"
 ---
 # <a name="msrdpclient10-class"></a>MsRdpClient10, classe
 
@@ -64,7 +64,7 @@ La classe **MsRdpClient10** possède ces méthodes.
 | Méthode                                                                                      | Description                                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](imsrdpclient9-attachevent.md)                                            | Joint un événement. <br/>                                                                                                                                                                                                                                                                |
-| [**Connexion**](imstscax-connect.md)                                                         | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                                                                                                                          |
+| [**Se connecter**](imstscax-connect.md)                                                         | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                                                                                                                          |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)                             | Crée un objet de canal virtuel côté client pour chaque nom de canal virtuel spécifié.<br/>                                                                                                                                                                                              |
 | [**detachEvent**](imsrdpclient9-detachevent.md)                                            | Détache un événement. <br/>                                                                                                                                                                                                                                                                |
 | [**Déconnecter**](imstscax-disconnect.md)                                                   | Déconnecte la connexion active.<br/>                                                                                                                                                                                                                                                 |
@@ -143,7 +143,7 @@ La classe **MsRdpClient10** possède les propriétés suivantes.
 | <a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br /> | Lecture seule<br /> | Force de chiffrement maximale du contrôle actuel.<br /> | 
 | <a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br /> | Écriture seule<br /> | Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br /> | 
 | <a href="imsrdpclient-colordepth.md"><strong>La</strong></a><br /> | Lecture/écriture<br /> | Profondeur de couleur du contrôle actuel.<br /> | 
-| <a href="imstscax-connected.md"><strong>Connecté</strong></a><br /> | Lecture seule<br /> | État de connexion du contrôle actuel.<br /> | 
+| <a href="imstscax-connected.md"><strong>Correctement</strong></a><br /> | Lecture seule<br /> | État de connexion du contrôle actuel.<br /> | 
 | <a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br /> | Lecture/écriture<br /> | Texte affiché dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté.<br /> | 
 | <a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br /> | Lecture/écriture<br /> | Texte qui apparaît centré dans le contrôle pendant la connexion du contrôle.<br /> | 
 | <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br /> | Lecture/écriture<br /> | Chaîne de texte à afficher pour la barre de connexion.<br /> | 
@@ -182,7 +182,7 @@ La classe **MsRdpClient10** possède les propriétés suivantes.
 | <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | Lecture seule<br /> | Pointeur vers l’interface <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> , utilisé pour définir des paramètres sécurisés pour le contrôle client.<br /> | 
 | <a href="imsrdpclient7-securedsettings3.md"><strong>SecuredSettings3</strong></a><br /> | Lecture seule<br /> | Objet qui prend en charge l’interface <a href="imsrdpclientsecuredsettings2.md"><strong>IMsRdpClientSecuredSettings2</strong></a> .<br /> | 
 | <a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br /> | Lecture seule<br /> | Indique si l’interface <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> est disponible.<br /> | 
-| <a href="imstscax-server.md"><strong>Serveur</strong></a><br /> | Lecture/écriture<br /> | Nom du serveur auquel le contrôle actuel est connecté.<br /> | 
+| <a href="imstscax-server.md"><strong>Serveurs</strong></a><br /> | Lecture/écriture<br /> | Nom du serveur auquel le contrôle actuel est connecté.<br /> | 
 | <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br /> | Lecture/écriture<br /> | Spécifie si la boîte de dialogue Avertissement de sécurité de redirection doit s’afficher avant le démarrage d’une session.<br /> | 
 | <a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br /> | Lecture/écriture<br /> | Indique si le contrôle établira la connexion au serveur hôte de session Bureau à distance dès le démarrage.<br /> | 
 | <a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br /> | Lecture seule<br /> | Paramètre de la passerelle des services Bureau à distance du client.<br /> | 
@@ -206,7 +206,7 @@ La classe **MsRdpClient10** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

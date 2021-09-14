@@ -4,12 +4,12 @@ ms.assetid: 7ee0dc56-bb9d-4a6e-aa3e-ae4c83f583d7
 title: Propriété MSIDEPLOYMENTCOMPLIANT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd1cea551c68858b4286e168862488e6d3361bfc501001b491ec9e655537185
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7a965b7dce941a3d651e2f9f32e3d8f4993ded33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011879"
 ---
 # <a name="msideploymentcompliant-property"></a>Propriété MSIDEPLOYMENTCOMPLIANT
 

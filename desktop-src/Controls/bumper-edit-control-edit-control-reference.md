@@ -4,12 +4,12 @@ description: Modifier la référence de contrôle
 ms.assetid: 80e362e7-df31-4a87-ac4d-80d24bd95db0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f9495d9d8571757c557de1243e69317bce5e56babca5fab6a50e4cd486f88b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4e8314fe0d9f86fd456c7fcaa18cb5ee7c95f784
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119699469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940520"
 ---
 # <a name="edit-control-reference"></a>Modifier la référence de contrôle
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 42a8b3dfd91b879eec37040c314d15b8b3c802b2c4b674f7a573314659d5d51b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccad6813624d0a27a093ff4baa7fc8b9a6aa8b14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120005809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013300"
 ---
 # <a name="tasktype-complex-type"></a>Type complexe TaskType
 
@@ -81,7 +81,7 @@ Définit un composant ou un sous-composant d’une application.
 | message   | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Nom complet localisé de la tâche. La chaîne de message fait référence à une chaîne localisée dans la section [**STRINGTABLE**](eventmanifestschema-stringtable-resources-element.md) du manifeste. <br/>                                                                                                   |
 | name      | **QName**                                                         | Nom de la tâche.<br/>                                                                                                                                                                                                                                                                                 |
 | symbole    | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Symbole à utiliser pour référencer la tâche dans votre application. Le [**compilateur de message (MC.exe)**](message-compiler--mc-exe-.md) utilise le symbole pour créer une constante pour la tâche dans le fichier d’en-tête généré par le compilateur. Si vous ne spécifiez pas de symbole, le compilateur en génère un pour vous.<br/> |
-| valeur     | [**UInt16Type**](eventmanifestschema-hexint16type-simpletype.md) | Valeur numérique qui identifie de façon unique cette tâche dans la liste des tâches que le fournisseur définit. La valeur doit être comprise entre 1 et 239.<br/>                                                                                                                                             |
+| value     | [**UInt16Type**](eventmanifestschema-hexint16type-simpletype.md) | Valeur numérique qui identifie de façon unique cette tâche dans la liste des tâches que le fournisseur définit. La valeur doit être comprise entre 1 et 239.<br/>                                                                                                                                             |
 
 
 

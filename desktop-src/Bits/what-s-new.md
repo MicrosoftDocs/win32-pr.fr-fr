@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 7/12/2019
 ms.openlocfilehash: 9d7a27187b0f3ac9cb0bf74c7b57afaacd7498dd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474295"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940956"
 ---
 # <a name="whats-new-bits"></a>Nouveautés (BITS)
 

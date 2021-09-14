@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2833962f66fb6fab2597629877c5990c9234eb5b2dfe076073bedc2ceab9fd65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4212dd03d5fb217753e14c2869973bda87476367
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119770689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919879"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaysupporturl-property"></a>IMsRdpClientTransportSettings2 :: GatewaySupportUrl, propriété
 
@@ -51,7 +51,7 @@ HRESULT get_GatewaySupportUrl(
 
 Spécifie ou récupère l’adresse Web du site qui fournit le support technique pour ce serveur de passerelle Bureau à distance.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

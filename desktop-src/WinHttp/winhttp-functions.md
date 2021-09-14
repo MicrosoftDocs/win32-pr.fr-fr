@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: Fonctions WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e3fdd7a0e6e42dcc30a214d429744ffadc1345e8a88fcc70a35a5f7ccace95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41e45289230c1cc22a7f8799dfbbe1dafddccf38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118114162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013148"
 ---
 # <a name="winhttp-functions"></a>Fonctions WinHTTP
 

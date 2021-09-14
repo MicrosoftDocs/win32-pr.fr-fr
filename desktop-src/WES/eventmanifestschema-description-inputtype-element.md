@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b501de2b1232da479006f31974ed44b8c8ba5e595c14840a25d28e265f2ce6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11ea044efc9e9a0ed54d31ad98614c1c4ba8fa06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589614"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919552"
 ---
 # <a name="description-inputtype-element"></a>Description (InputType) (élément)
 
@@ -32,11 +32,11 @@ Description du type d’entrée.
 
 L’élément **Description** est défini par le type complexe [**InputType**](eventmanifestschema-inputtype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

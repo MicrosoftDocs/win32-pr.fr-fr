@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ea754aa883f9c80c4a436357cc159c588bde375aaa66a229b358723b74b9e070
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9133d536aef692a5f9928e10963dff8c454f25fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920312"
 ---
 # <a name="settings-tasktype-element"></a>élément Paramètres (taskType)
 
@@ -53,9 +53,9 @@ l’élément **Paramètres** est défini par le type complexe [**taskType**](ta
 | [**AllowStartOnDemand**](taskschedulerschema-allowstartondemand-settingstype-element.md)                        | boolean                                                                                           | Spécifie que la tâche peut être démarrée à l’aide de la commande exécuter ou du menu contextuel.<br/>                  |
 | [**DeleteExpiredTaskAfter**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)                | duration                                                                                          | Spécifie la durée d’attente de la Planificateur de tâches avant la suppression de la tâche après son expiration.<br/> |
 | [**DisallowStartIfOnBatteries**](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)        | boolean                                                                                           | Spécifie que la tâche ne sera pas démarrée si l’ordinateur fonctionne sur batterie.<br/>                      |
-| [**Activé**](taskschedulerschema-enabled-settingstype-element.md)                                              | boolean                                                                                           | Spécifie que la tâche est activée. La tâche ne peut être exécutée que lorsque ce paramètre a la valeur true.<br/>             |
+| [**Désactivé**](taskschedulerschema-enabled-settingstype-element.md)                                              | boolean                                                                                           | Spécifie que la tâche est activée. La tâche ne peut être exécutée que lorsque ce paramètre a la valeur true.<br/>             |
 | [**ExecutionTimeLimit**](taskschedulerschema-executiontimelimit-settingstype-element.md)                        | duration                                                                                          | Durée d’exécution de la tâche.<br/>                                                              |
-| [**Masquer**](taskschedulerschema-hidden-settingstype-element.md)                                                | boolean                                                                                           | Spécifie que la tâche ne sera pas visible dans l’interface utilisateur par défaut.<br/>                                         |
+| [**Hidden**](taskschedulerschema-hidden-settingstype-element.md)                                                | boolean                                                                                           | Spécifie que la tâche ne sera pas visible dans l’interface utilisateur par défaut.<br/>                                         |
 | [**IdleSettings**](taskschedulerschema-idlesettings-settingstype-element.md)                                    | [**idleSettingsType**](taskschedulerschema-idlesettingstype-complextype.md)                      | Spécifie comment l’Planificateur de tâches effectue des tâches lorsque l’ordinateur est dans un état d’inactivité.<br/>                    |
 | [**MaintenanceSettings**](taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md)           | [**maintenanceSettingsType**](taskschedulerschema-maintenancesettingstype-complextype.md)        | Spécifie comment l’Planificateur de tâches effectue des tâches pendant la maintenance automatique.<br/>                             |
 | [**MultipleInstancesPolicy**](taskschedulerschema-multipleinstancespolicy-settingstype-element.md)              | [**multipleInstancesPolicyType**](taskschedulerschema-multipleinstancespolicytype-simpletype.md) | Spécifie la stratégie qui définit la façon dont le Planificateur de tâches gère plusieurs instances de la tâche.<br/>       |
@@ -70,7 +70,7 @@ l’élément **Paramètres** est défini par le type complexe [**taskType**](ta
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez sélectionner un ou plusieurs des éléments enfants référencés ci-dessus.
 
@@ -96,7 +96,7 @@ L’exemple de code XML suivant définit un élément Settings qui permet un arr
 
 Pour plus d’informations et pour obtenir un exemple complet du code XML permettant de définir des paramètres de tâche, consultez [exemple de déclenchement de temps (XML)](time-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

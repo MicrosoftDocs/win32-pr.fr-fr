@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 94ae108ceed3285fe7e57461611d94b1147d94e7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211518"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013296"
 ---
 # <a name="templateitemtype-complex-type"></a>Type complexe TemplateItemType
 
@@ -91,7 +91,7 @@ Modèle qui définit les données à inclure avec un événement.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La définition de modèle doit avoir au moins un élément enfant de données ou struct. Le fournisseur doit écrire les données d’événement dans l’ordre des éléments de données définis dans le modèle.
 
@@ -124,8 +124,8 @@ L’exemple suivant montre comment créer une définition de modèle.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

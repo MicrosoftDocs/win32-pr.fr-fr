@@ -15,12 +15,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 29a45bf545f839e111970b31d5faddd039959b7148a331fa5e347913b67327e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cd5743424858c4bbcd6f66952f4275ea82d947e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118574272"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919099"
 ---
 # <a name="nesting-metafiles"></a>Imbrication de refichiers
 

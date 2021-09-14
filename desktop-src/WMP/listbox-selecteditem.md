@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd236e288bf91d77cdf79b2b5f4f4cb2e8ebcf4b2bcb6eb876c6978dc2249335
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6ec30032e62713436e85f3924f63344c96944ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119508491"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013263"
 ---
 # <a name="listboxselecteditem"></a>LISTBOX. selectedItem
 
@@ -31,7 +31,7 @@ L’attribut **SelectedItem** spécifie ou récupère l’index de l’élément
 
 Cet attribut est un **nombre** en lecture/écriture (**long**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété sélectionne une ligne dans le contrôle de zone de liste. Toute autre ligne sélectionnée est désélectionnée.
 

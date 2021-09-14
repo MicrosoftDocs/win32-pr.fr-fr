@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a705291155adc848b107c0950e77a63ed181b052dc71cd72d128ebca1be980b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95a350dde3dfdc1c6046c8e31b8a2d9e62684788
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853894"
 ---
 # <a name="imediadetget_filename-method"></a>IMediaDet :: obten, \_ méthode de nom de fichier
 
@@ -52,11 +52,11 @@ Reçoit le nom de fichier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode alloue de la mémoire pour la chaîne. L’application doit appeler **SysFreeString** pour libérer la mémoire.
 
@@ -70,7 +70,7 @@ La méthode alloue de la mémoire pour la chaîne. L’application doit appeler 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

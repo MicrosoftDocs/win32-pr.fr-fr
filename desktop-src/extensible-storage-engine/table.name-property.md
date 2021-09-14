@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ca5879d75fd3128d6af92ec583d34f3539b2d3278038a71deb604078d87976aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cfc1141b64b968040a11d4a367cd809fb34e4fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118978389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920628"
 ---
 # <a name="tablename-property"></a>Propriété Table.Name
 

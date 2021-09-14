@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efe7ca9b9ed68f3327779177e706ee5a943c9e6580e2b789e2b96e74ee9f0b4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a12112eb2a18d38993e905f8d36175f1ab15f58a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118353038"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919999"
 ---
 # <a name="imsrdpclientadvancedsettingsloadbalanceinfo-property"></a>IMsRdpClientAdvancedSettings :: LoadBalanceInfo, propriété
 
@@ -90,7 +90,7 @@ Pointeur vers le nouveau cookie. Pour plus d’informations, consultez la sectio
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les informations d’équilibrage de charge sont utilisées par les routeurs d’équilibrage de charge pour choisir le meilleur serveur pour le client lors de l’utilisation de batteries de serveurs hôtes de session Bureau à distance. Le serveur hôte de session Bureau à distance n’utilise pas ces informations et l’ignore.
 
@@ -110,7 +110,7 @@ Si aucun cookie n’est fourni, la valeur par défaut est **cookie : mstshash =
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

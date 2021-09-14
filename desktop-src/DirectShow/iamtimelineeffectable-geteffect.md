@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d53ecc7c3d5291ddb6b894b24835eeb236f036e94eb166383da907a9f469c960
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7a769fca28ea1f8f698b23de7df6b7c15f05234
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853972"
 ---
 # <a name="iamtimelineeffectablegeteffect-method"></a>IAMTimelineEffectable :: GetEffect, méthode
 
@@ -60,7 +60,7 @@ Niveau de priorité de l’effet à récupérer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur HRESULT. Il peut prendre les valeurs suivantes :
 
@@ -76,7 +76,7 @@ Retourne une valeur HRESULT. Il peut prendre les valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’elle retourne a un nombre de références en attente. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -90,7 +90,7 @@ Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’e
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

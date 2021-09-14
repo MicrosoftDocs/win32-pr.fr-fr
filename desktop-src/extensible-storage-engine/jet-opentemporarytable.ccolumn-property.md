@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 01c07faf8de73343b8323bb832623a8124ab447a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536864"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920747"
 ---
 # <a name="jet_opentemporarytableccolumn-property"></a>JET_OPENTEMPORARYTABLE. CColumn, propriété
 

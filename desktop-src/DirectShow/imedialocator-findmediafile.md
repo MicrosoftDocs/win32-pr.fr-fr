@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: cc1acda4a3bc6e2d93ae8b7024ef34f759c11c5c4d487a09d3be3a3542e0c445
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3561b77873c90b2d4bd0202bed8e2da822a0362f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117818936"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853803"
 ---
 # <a name="imedialocatorfindmediafile-method"></a>IMediaLocator :: FindMediaFile, méthode
 
@@ -76,11 +76,11 @@ Combinaison d’opérations de bits de zéro ou plusieurs indicateurs. Pour obte
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La chaîne de filtre de la boîte de dialogue d’ouverture de fichier, qui est spécifiée par le paramètre *FilterString* , contient des caractères null internes. Par exemple, \\ la vidéo 0 \*.avi\\ 0 \\ 0 est une chaîne de filtre valide. Vous ne pouvez pas utiliser la fonction **SysAllocStr** pour allouer le BSTR, car cette fonction attend une chaîne terminée par le caractère null et va tronquer la chaîne au premier caractère null. Par conséquent, utilisez une fonction telle que **SysAllocStringLen**, qui comprend un paramètre explicite pour la longueur :
 
@@ -106,7 +106,7 @@ La méthode alloue de la mémoire pour le **BSTR** dans *pOutput*. L’applicati
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

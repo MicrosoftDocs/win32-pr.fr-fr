@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 44c86972d014da906b98ad8d3bd8e98d01f1cfcb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920428"
 ---
 # <a name="win32shutdowntracker-method-of-the-win32_operatingsystem-class"></a>Méthode Win32ShutdownTracker de la \_ classe Win32 OperatingSystem
 
@@ -64,7 +64,7 @@ Raison du lancement de l’arrêt.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Jeu de balises bitmap pour arrêter l’ordinateur. Pour forcer une commande, ajoutez l’indicateur Force (4) à la valeur de la commande. L’utilisation de force conjointement à l’arrêt ou au redémarrage sur un ordinateur distant arrête immédiatement tout (y compris WMI, COM, etc.) ou redémarre l’ordinateur distant. Cela génère une valeur de retour indéterminée.
@@ -102,7 +102,7 @@ Arrêt forcé (1 + 4)
 2 (0X2)
 </dt> <dd>
 
-Reboot
+Redémarrer
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ Mise hors tension forcée (8 + 4)
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nombre indique une erreur. Pour les codes d’erreur, consultez [**constantes d’erreur WMI**](../wmisdk/wmi-error-constants.md) ou [**WbemErrorEnum**](/windows/win32/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](../debug/system-error-codes.md).
 
@@ -141,7 +141,7 @@ Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nomb
 
 ## <a name="remarks"></a>Notes
 
-Le processus appelant doit avoir le privilège **se \_ arrêter le \_ nom** .
+le processus appelant doit avoir le privilège **SE \_ SHUTDOWN \_ NAME** .
 
 ## <a name="examples"></a>Exemples
 
@@ -169,7 +169,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ccccf8ffe17bdcbf25c89830e34e7a52294a6c661bc4b7d9193afd215246cf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a916afa90d1db310041f9b92be94d3af9154df4b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119766629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919488"
 ---
 # <a name="iwmdrmdevicegetmeterchallenge-method"></a>IWMDRMDevice :: GetMeterChallenge, méthode
 
@@ -66,7 +66,7 @@ Taille du test de contrôle, en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -80,13 +80,13 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les données de contrôle sont collectées et stockées dans le magasin de données DRM sur l’appareil pour le contenu avec contrôle activé. Les actions telles que la lecture seront enregistrées. Lorsque cette fonction est appelée, l’appareil recueille les données de contrôle dans le magasin de données DRM sous la forme d’un document XML et l’envoie au hostcomputer. Si les données sont trop nombreuses, elles sont envoyées en plusieurs phases.
 
 Lorsque l’ordinateur hôte reçoit les données de contrôle, il envoie les données via Internet à l’URL spécifiée dans le certificat de contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

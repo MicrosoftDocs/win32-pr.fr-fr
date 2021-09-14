@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f46aae626825e426cdfb717e18b48647a954c06b9cd96c5e31c929d6b7f2582b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6659d6fdcae999681056a7468f5ba10006aa844
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117834133"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920432"
 ---
 # <a name="win32_pnpdevicepropertyreal64-class"></a>\_Classe PnPDevicePropertyReal64 Win32
 
@@ -498,7 +498,7 @@ Les valeurs possibles sont.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

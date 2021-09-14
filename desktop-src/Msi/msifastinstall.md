@@ -4,12 +4,12 @@ ms.assetid: 011668da-da04-4b80-989e-192b0daa3060
 title: Propriété MSIFASTINSTALL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd28c731d34e769f0612acc12586349247231bce663036d3577f41df6a7256f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9474e295269fa4a8347210653bed5db772878662
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118628501"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011857"
 ---
 # <a name="msifastinstall-property"></a>Propriété MSIFASTINSTALL
 

@@ -19,12 +19,12 @@ keywords:
 - attributs, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6238540430a68513bfca40e804d4df74cb350142221092228c06562ff899a4fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0e101c579cf53838adeccdb23cf4342afaa2725
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118583020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013286"
 ---
 # <a name="attribute-reference"></a>Référence d’attribut
 

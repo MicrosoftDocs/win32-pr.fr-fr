@@ -13,12 +13,12 @@ keywords:
 - images principales dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b21483e9b39692ad9eee7eb2cd7958f2fa70ddb7c2926877b84f3f537156bd55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9ceb92a5a87c1fc03ec7336a7ca5dd7814e4a1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118341541"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919275"
 ---
 # <a name="creating-the-primary-art-file"></a>Création du fichier art principal
 

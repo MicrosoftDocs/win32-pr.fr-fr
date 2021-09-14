@@ -65,11 +65,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9bdae5535d079335354306e47ed8378fa09450d9
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919903"
 ---
 # <a name="imstscaxstartconnected-property"></a>IMsTscAx :: StartConnected, propriété
 
@@ -100,7 +100,7 @@ Affectez la valeur **true** à ce paramètre si le contrôle doit se connecter i
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est particulièrement utile lorsque les propriétés de contrôle sont définies dans la liste de paramètres d’une &lt; &gt; balise d’objet, plutôt qu’à l’aide d’appels de script.
 

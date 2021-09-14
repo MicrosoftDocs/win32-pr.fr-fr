@@ -10,12 +10,12 @@ keywords:
 - OnPaint (méthode)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa5e121cdaeac1c7589e58b1613a8d25bdff4f44f6db2375bcbdc34da20929e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22641c34bb2edab30c1bf97011e893bc1d9d44a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013207"
 ---
 # <a name="the-onpaint-method"></a>Méthode OnPaint
 

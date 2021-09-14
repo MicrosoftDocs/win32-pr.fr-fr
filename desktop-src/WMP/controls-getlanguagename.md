@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e747860c60313a66eecf8b7d6bd289ffb47f282c8c8d7633716e5c4e60ca7674
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 798a6b22f344953df716e4df4ed8a9a0daff2a7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919352"
 ---
 # <a name="controlsgetlanguagename-method"></a>Controls. getLanguageName, méthode
 
@@ -49,17 +49,17 @@ strRetVal = Controls.getLanguageName(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **chaîne**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
 pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

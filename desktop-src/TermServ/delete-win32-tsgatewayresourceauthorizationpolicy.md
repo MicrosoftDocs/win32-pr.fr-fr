@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ad39ebc5cf059575403a86cd790a6350ce520d8864fccc212f5be5a2ae3926b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 396a766fb307d1e8a912d614147a2bff2bd924c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119513484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013345"
 ---
 # <a name="delete-method-of-the-win32_tsgatewayresourceauthorizationpolicy-class"></a>Méthode Delete de la \_ classe TSGatewayResourceAuthorizationPolicy Win32
 
@@ -41,7 +41,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode est réussie, elle retourne zéro. Si la méthode échoue, elle retourne une valeur différente de zéro. Pour obtenir la liste des codes d’erreur, consultez [services Bureau à distance codes d’erreur du fournisseur WMI](terminal-services-wmi-provider-error-codes.md).
 

@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, données audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678e1debd586017bfbe748d4f2bed6d17607afcbe2719b5e3ecba8cabf667af6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acc14acb99aed20825ff970025363c6a795a0c8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118334482"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013249"
 ---
 # <a name="processing-the-audio-data"></a>Traitement des données audio
 

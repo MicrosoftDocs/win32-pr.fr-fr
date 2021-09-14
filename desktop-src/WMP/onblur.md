@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9db8cd6755d0fe2e1199cca16350451273c2bd7618f35b597687b5fbc35c70fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 490dc249a042487f348937b5ee00804578293381
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919035"
 ---
 # <a name="onblur"></a>onblur
 
@@ -28,11 +28,11 @@ Le gestionnaire d’événements **onblur** gère un événement qui se produit 
 onblur
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le gestionnaire d’événements **onblur** n’est pas applicable à l’élément **Effects** ou à l’élément **Popup** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

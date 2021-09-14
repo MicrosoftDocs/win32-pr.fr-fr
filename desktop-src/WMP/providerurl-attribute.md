@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c370d8d234b4e9d7f0d234f0163dd4e41a10a8cc1686ec231686bb4d2b7f28e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c438ce67ac14ec79fe50cb0c931a5c5d437babd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013240"
 ---
 # <a name="providerurl-attribute"></a>Attribut ProviderURL
 
@@ -28,7 +28,7 @@ L’attribut **providerUrl** est l’adresse de la page d’hébergement du four
 -   [Éléments audio](audio-item-attributes.md)
 -   [DVD](dvd-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 

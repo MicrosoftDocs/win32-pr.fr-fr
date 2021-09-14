@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e7ea10d0e09492c3f0f27a0d3538ccaf458cb761678c699032fc1b61f43d0eb7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 886f5085ee09020730b36269255279836b31562a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920667"
 ---
 # <a name="table-implicit-conversion-table-to-jet_tableid"></a>Conversion implicite de table (table à JET_TABLEID)
 
@@ -66,7 +66,7 @@ public static implicit operator JET_TABLEID (
     
     Table à convertir.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
 JET_TABLEID de la table.  

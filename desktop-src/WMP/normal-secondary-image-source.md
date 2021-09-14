@@ -10,12 +10,12 @@ keywords:
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7f6aeb48ceabc873d4aeb0db910db896712fe16377aa0f67b76205ad8a39c83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06ff828f6d0f0c8348453cb00fef04ab31718693
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118573729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919060"
 ---
 # <a name="normal-secondary-image-source"></a>Source d’image secondaire normale
 

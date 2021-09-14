@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 505f8abe340af36c25792ec97a5a465a166eedb74921c800d2a568d10a5cce0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13cf70534510e1aed8def9005d0c2d1eafab2a5a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118611901"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920352"
 ---
 # <a name="processtokensidtype-simple-type"></a>Type simple processTokenSidType
 
@@ -47,12 +47,12 @@ Le type simple **processTokenSidType** définit les valeurs suivantes.
 
 | Valeur        | Description                                                                                                                                 |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Aucune         | Les tâches sont exécutées dans un processus qui ne contient pas de SID de jeton de processus (aucune modification n’est apportée à la liste des groupes de jetons de processus).<br/> |
+| None         | Les tâches sont exécutées dans un processus qui ne contient pas de SID de jeton de processus (aucune modification n’est apportée à la liste des groupes de jetons de processus).<br/> |
 | Non restreint | Un SID de tâche est dérivé du chemin d’accès complet à la tâche et est ajouté à la liste des groupes de jetons de processus.<br/>                           |
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

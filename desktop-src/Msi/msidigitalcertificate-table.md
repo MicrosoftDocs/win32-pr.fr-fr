@@ -4,12 +4,12 @@ ms.assetid: 834534b8-540a-48c2-8eb0-3511d5a20cb4
 title: Table MsiDigitalCertificate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 443e5f27d13ebd823fa8e5362de474082d39e4b09b9e240b9ee16e9924342e41
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff4765dee433cfab989e79c7ef4663d8939381ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011873"
 ---
 # <a name="msidigitalcertificate-table"></a>Table MsiDigitalCertificate
 
@@ -25,7 +25,7 @@ La table MsiDigitalCertificate contient les colonnes suivantes.
 
 
 
-| Colonne             | Type                         | Clé | Nullable |
+| Colonne             | Type                         | Clé : | Nullable |
 |--------------------|------------------------------|-----|----------|
 | DigitalCertificate | [Identificateur](identifier.md) | O   | N        |
 | CertData           | [Binaire](binary.md)         | N   | N        |

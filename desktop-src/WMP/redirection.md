@@ -3,7 +3,7 @@ title: Redirection
 description: Redirection
 ms.assetid: c8e3b43f-c11a-4ca7-b85c-038f0bfc3eb3
 keywords:
-- Sélections de métafichiers Windows Media, redirection
+- Windows Sélections de métafichiers de média, redirection
 - listes de sélection, redirection
 - sélections de métafichiers, redirection
 - Lecteur Windows Media, redirection
@@ -16,17 +16,17 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: bf1bb4d690c8aa6808e009a45a7bff1d6efada72
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309326"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013221"
 ---
 # <a name="redirection"></a>Redirection
 
-La sélection permet de rediriger le navigateur vers le lecteur Windows Media pour lire le fichier multimédia ou le flux de média désigné. La sélection de métafichier la plus basique contient uniquement l’Uniform Resource Locator (URL) d’un fichier multimédia.
+la sélection permet de rediriger le navigateur vers Lecteur Windows Media pour lire le fichier multimédia ou le flux de média désigné. La sélection de métafichier la plus basique contient uniquement l’Uniform Resource Locator (URL) d’un fichier multimédia.
 
-Pour créer une sélection de métafichier de base, ouvrez votre éditeur de texte favori, tel que le bloc-notes Microsoft, puis tapez l’exemple de code suivant.
+pour créer une sélection de métafichier de base, ouvrez votre éditeur de texte favori, tel que Microsoft Bloc-notes, puis tapez l’exemple de code suivant.
 
 
 ```XML
@@ -40,25 +40,25 @@ Pour créer une sélection de métafichier de base, ouvrez votre éditeur de tex
 
 
 
-Remplacez un chemin d’accès valide à votre fichier Windows Media à l’aide de la syntaxe du tableau suivant.
+substituez un chemin d’accès valide à votre fichier multimédia Windows à l’aide de la syntaxe du tableau suivant.
 
 
 
 | Source de contenu                                                                                 | Syntaxe                                    |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------|
-| Le contenu est un fichier sur un serveur Windows Media                                                       | mms://ServerName/Path/FileName.wma        |
-| Le contenu est une multidiffusion de diffusion accessible à partir d’une station Windows Media.                    | https://WebServerName/Stations/kxyz.nsc    |
-| Le contenu est une monodiffusion de diffusion accessible à partir d’un point de publication sur un serveur Windows Media. | mms://ServerName/PublishingPointAlias     |
+| le contenu est un fichier sur un serveur multimédia Windows                                                       | mms://ServerName/Path/FileName.wma        |
+| le contenu est une multidiffusion de diffusion accessible à partir d’une station de média Windows                    | https://WebServerName/Stations/kxyz.nsc    |
+| le contenu est une monodiffusion de diffusion accessible à partir d’un point de publication sur un serveur multimédia Windows | mms://ServerName/PublishingPointAlias     |
 | Le contenu est un fichier sur un serveur Web                                                                 | https://WebServerName/Path/Filename.wma    |
 | Le contenu est un fichier sur un disque dur local                                                            | file://c : \\ chemin \\ nom_de_fichier. WMA             |
 | Le contenu est un fichier sur un partage réseau                                                              | file:// \\ \\ nom_serveur \\ chemin \\ nom_de_fichier. WMA |
-| Le contenu est un fichier sur un serveur Windows Media                                                       | mms://ServerName/Path/FileName.wmv        |
+| le contenu est un fichier sur un serveur multimédia Windows                                                       | mms://ServerName/Path/FileName.wmv        |
 
 
 
- 
+ 
 
-Enregistrez le fichier que vous avez créé avec un nom de fichier et une extension, comme décrit dans [extensions de noms de fichiers](file-name-extensions.md). Double-cliquez dessus dans l’Explorateur Windows. Le lecteur Windows Media doit ouvrir et démarrer la diffusion en continu du contenu. Vous pouvez enregistrer le fichier sur votre serveur Web, avec vos pages Web, et le lier à un élément **href** , ou l’incorporer dans une page Web à l’aide de la balise d' **objet** du lecteur Windows Media.
+Enregistrez le fichier que vous avez créé avec un nom de fichier et une extension, comme décrit dans [extensions de noms de fichiers](file-name-extensions.md). Double-cliquez dessus dans l’explorateur de Windows. Lecteur Windows Media doit ouvrir et démarrer la diffusion en continu du contenu. vous pouvez enregistrer le fichier sur votre serveur web, avec vos pages web, et le lier à un élément **HREF** , ou l’incorporer dans une page web à l’aide de la balise d' **objet** Lecteur Windows Media.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -70,15 +70,15 @@ Enregistrez le fichier que vous avez créé avec un nom de fichier et une extens
 [**Utilisation des sélections de métafichiers**](using-metafile-playlists.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

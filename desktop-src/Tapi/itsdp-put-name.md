@@ -4,12 +4,12 @@ ms.assetid: aba05cdb-a870-490e-8bb0-98b11780b112
 title: ITSdp ::p ut_Name, méthode (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d8b9155f4c47c0f3dfc2fe4eca27b9589187559e70a3b46e1a7c67c7339857
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7383183b6b367d71d18070eedd5857740665fab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013493"
 ---
 # <a name="itsdpput_name-method"></a>ITSdp ::p \_ méthode nom ut
 
@@ -39,7 +39,7 @@ Pointeur vers un **BSTR** contenant le nom de session.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 

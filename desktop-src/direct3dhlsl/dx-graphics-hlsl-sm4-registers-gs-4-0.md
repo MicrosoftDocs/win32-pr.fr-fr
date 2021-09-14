@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a27cbd13cba06ebb05fe1155bc97d13debe3154da48c05cf97a31d889ba88fbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c5db86ffb797434af4badd6496b71a4ad684583
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118513622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941120"
 ---
 # <a name="registers---gs_4_0"></a>Registres-GS \_ 4 \_ 0
 
@@ -24,7 +24,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
-| S’inscrire                 | Name | Count              | R/W (Lecture/écriture) | Dimension        | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
+| S’inscrire                 | Nom | Count              | R/W (Lecture/écriture) | Dimension        | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
 |--------------------------|------|--------------------|-----|------------------|------------------|----------|--------------|
 | r\#                      |      | 4096 (r \# + x \# \[ n \] ) | R/W (Lecture/écriture) | 4                | Non               | None     | Oui          |
 | x \# \[ n\]                 |      | 4096 (r \# + x \# \[ n \] ) | R/W (Lecture/écriture) | 4                | Oui              | None     | Oui          |
@@ -32,8 +32,8 @@ Cette section contient des informations de référence pour les registres d’en
 | vprim                    |      | 1                  | R   | 1                | Non               | None     | Oui          |
 | t\#                      |      | 128                | R   | 1                | Non               | None     | Oui          |
 | s\#                      |      | 16                 | R   | 1                | Non               | None     | Oui          |
-| \# \[ index CB\]            |      | 15                 | R   | 4                | Oui (contenu)    | Aucun     | Oui          |
-| \[index ICB\]             |      | 1                  | R   | 4                | Oui (contenu)    | Aucun     | Oui          |
+| \# \[ index CB\]            |      | 15                 | R   | 4                | Oui (contenu)    | None     | Oui          |
+| \[index ICB\]             |      | 1                  | R   | 4                | Oui (contenu)    | None     | Oui          |
 
 
 
@@ -43,7 +43,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
-| S’inscrire | Name            | Count | R/W (Lecture/écriture) | Dimension | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
+| S’inscrire | Nom            | Count | R/W (Lecture/écriture) | Dimension | Indexable par r\# | Valeurs par défaut | DCL obligatoire |
 |----------|-----------------|-------|-----|-----------|------------------|----------|--------------|
 | NULL     | Ignorer le résultat  | N/A   | W   | N/A       | N/A              | N/A      | Non           |
 | sorties\#      | Registre de sortie | 32    | W   | N/A       | N/A              | 4        | Oui          |

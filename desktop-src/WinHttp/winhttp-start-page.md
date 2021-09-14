@@ -4,12 +4,12 @@ ms.assetid: 354ab65d-5e46-451d-b36b-2f8166a1a048
 title: Windows Services HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b1c6bd44f2dfb67797375dbb14af0a4c8684c0d460efb7ae7206511a226505
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f03a3204257410e4db0182724ab63743116f021
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013136"
 ---
 # <a name="windows-http-services"></a>Windows Services HTTP
 

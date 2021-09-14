@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8b35c2a31c26259a12638d09c968b90ea42f93c692bf4c24af9dc987a6df3bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20d033b8b025955e57a9c3ebed00a6d7a92a666e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118341815"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919355"
 ---
 # <a name="controlsfastforward-method"></a>Controls. fastForward, méthode
 
@@ -40,11 +40,11 @@ Controls.fastForward()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **fastForward** lit le clip à cinq fois la vitesse normale. l’appel de **fastForward** modifie le *Paramètres*. propriété **rate** sur 5,0. si le **taux** est modifié par la suite ou si la **lecture** ou l' **arrêt** est appelé, Lecteur Windows Media interrompt le transfert rapide.
 
@@ -69,7 +69,7 @@ L’exemple suivant crée un élément BUTTON HTML qui utilise **fastForward** p
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

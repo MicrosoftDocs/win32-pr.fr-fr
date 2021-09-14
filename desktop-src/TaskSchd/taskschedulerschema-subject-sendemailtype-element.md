@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 15bf3c84befd9dd8f4c9c4a544fc920b7066184c6bf367c404bb14f22f573b92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3b4871f8d61603ea77c7699a9993d29e2fc0187
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118611187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920291"
 ---
 # <a name="subject-sendemailtype-element"></a>Élément Subject (sendEmailType)
 
@@ -42,13 +42,13 @@ L’élément **Subject** est défini par le type complexe [**sendEmailType**](t
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété Subject de IEmailAction**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject).
 
 Pour le développement de scripts, consultez [**EmailAction. Subject**](emailaction-subject.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

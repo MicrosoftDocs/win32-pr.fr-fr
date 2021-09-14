@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 977ac8114a8be4f4f5ef8aa21a4a00f48aead31ee18f7fe41f789ff2a3c9b478
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1d532f28023b7ff0eb3b8571e3875d0b63606535
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853173"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaypassword-property"></a>IMsRdpClientTransportSettings2 :: GatewayPassword, propriété
 
@@ -50,7 +50,7 @@ Mot de passe fourni par l’utilisateur pour se connecter au serveur de passerel
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

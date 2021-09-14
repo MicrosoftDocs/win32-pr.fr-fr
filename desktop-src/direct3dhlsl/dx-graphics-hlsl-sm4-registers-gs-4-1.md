@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 262f86490e95684f0db8ce972f8fc93528cb33ed26b09989399c15ccab766205
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a01f200bd4183843b1cfd2892fde5da442ca8d36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119943"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941123"
 ---
 # <a name="registers---gs_4_1"></a>Registres-GS \_ 4 \_ 1
 
@@ -32,8 +32,8 @@ Cette section contient des informations de référence pour les registres d’en
 | vprim                    |      | 1                  | R   | 1                | Non               | None     | Oui          |
 | t\#                      |      | 128                | R   | 1                | Non               | None     | Oui          |
 | s\#                      |      | 16                 | R   | 1                | Non               | None     | Oui          |
-| \# \[ index CB\]            |      | 15                 | R   | 4                | Oui (contenu)    | Aucun     | Oui          |
-| \[index ICB\]             |      | 1                  | R   | 4                | Oui (contenu)    | Aucun     | Oui          |
+| \# \[ index CB\]            |      | 15                 | R   | 4                | Oui (contenu)    | None     | Oui          |
+| \[index ICB\]             |      | 1                  | R   | 4                | Oui (contenu)    | None     | Oui          |
 
 
 

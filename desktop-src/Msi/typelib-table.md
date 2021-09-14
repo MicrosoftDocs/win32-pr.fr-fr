@@ -4,12 +4,12 @@ ms.assetid: 86b827ed-e707-4627-9488-78eafb444d32
 title: Table TypeLib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 862bc37e325f8c615e8158cfa431c927841f6b33c403c804726cea8fee6f0469
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0aa8949df75162ffb7107b633ab766d276c4b42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119499999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011826"
 ---
 # <a name="typelib-table"></a>Table TypeLib
 
@@ -27,7 +27,7 @@ La table TypeLib contient les colonnes suivantes.
 | Version     | [DoubleInteger](doubleinteger.md) | N   | O        |
 | Description | [Text](text.md)                   | N   | O        |
 | Répertoire\_ | [Identificateur](identifier.md)       | N   | O        |
-| Caractéristique\_   | [Identificateur](identifier.md)       | N   | N        |
+| Fonctionnalité\_   | [Identificateur](identifier.md)       | N   | N        |
 | Coût        | [DoubleInteger](doubleinteger.md) | N   | O        |
 
 
@@ -94,7 +94,7 @@ Coût associé à l’inscription de la bibliothèque de types en octets. Il doi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table est référencée lorsque l' [action RegisterTypeLibraries](registertypelibraries-action.md) ou l' [action UnregisterTypeLibraries](unregistertypelibraries-action.md) est exécutée.
 

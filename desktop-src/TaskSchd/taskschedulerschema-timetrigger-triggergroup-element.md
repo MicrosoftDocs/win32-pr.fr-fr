@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d6b766a64f87b43feb23200176c5d23e254638a0022ea4d77b64264ca1d507d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83d3b0a63a8be70af7eba4edb90e49db71892f5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118355846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920259"
 ---
 # <a name="timetrigger-triggergroup-element"></a>Élément TimeTrigger (triggerGroup)
 
@@ -66,7 +66,7 @@ L’élément **timetrigger** est défini par [**triggerGroup**](taskschedulersc
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément [**StartBoundary**](taskschedulerschema-startboundary-triggerbasetype-element.md) est un élément requis pour les déclencheurs de temps et de calendrier (**timetrigger** et [**CalendarTrigger**](taskschedulerschema-calendartrigger-triggergroup-element.md)).
 
@@ -86,7 +86,7 @@ Les éléments enfants répertoriés ci-dessus sont définis par les types d’�
 
 Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déclencheur d’heure, consultez [exemple de déclencheur temporel (XML)](time-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

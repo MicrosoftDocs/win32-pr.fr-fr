@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa1cd3103e901255a6226db3e128e81bb17c02e6b586a48ca434ed44932861c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97f5aa6ff6659047e9be48fd7b7a41f652c5cfd9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118128638"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919812"
 ---
 # <a name="itspubpluginpluginname-property"></a>ItsPubPlugin ::p propriété luginName
 
@@ -46,7 +46,7 @@ HRESULT get_pluginName(
 
 Pointeur vers une variable **BSTR** devant recevoir le nom du plug-in.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

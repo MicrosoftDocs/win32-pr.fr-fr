@@ -4,12 +4,12 @@ ms.assetid: d4176f99-e819-4b5a-bd06-1a2965891f9a
 title: Table MsiEmbeddedUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7357a0b5aa1de2218eefb58fa85fbe374e9796ad0aaa94946743f1c51d9c8daa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a52846e88e2d8f3edb439aa6b4a49c99e252173f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011863"
 ---
 # <a name="msiembeddedui-table"></a>Table MsiEmbeddedUI
 
@@ -21,7 +21,7 @@ La table MsiEmbeddedUI contient les colonnes suivantes.
 
 
 
-| Colonne        | Type                               | Clé | Nullable |
+| Colonne        | Type                               | Clé : | Nullable |
 |---------------|------------------------------------|-----|----------|
 | MsiEmbeddedUI | [Identificateur](identifier.md)       | O   | N        |
 | FileName      | [Text](text.md)                   | N   | N        |

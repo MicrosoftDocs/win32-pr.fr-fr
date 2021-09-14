@@ -9,12 +9,12 @@ keywords:
 - Fichiers d’arrière-plan dans les apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3130453e355441abb107acc1a30990d7782c296a4122cc1146677e32e93310
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 603afe680876a1a194a6d8d3b637960884624a3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117750406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919295"
 ---
 # <a name="creating-the-background"></a>Création de l’arrière-plan
 

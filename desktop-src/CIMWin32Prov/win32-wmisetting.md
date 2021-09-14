@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcore.dll
-ms.openlocfilehash: 39c976a6a8b4c25fbc42561b7d0a8db52b9029f679ad72993f931efa596d2d6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f94524d18074e3a35c7bcad09e9b9fba80e8470
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920427"
 ---
 # <a name="win32_wmisetting-class"></a>\_Classe WMISetting Win32
 
@@ -655,7 +655,7 @@ Cette propriété est héritée [**du \_ paramètre CIM**](cim-setting.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ WMISetting** est dérivée [**du \_ paramètre CIM**](cim-setting.md). Une seule instance de cette classe peut exister sur un ordinateur.
 
@@ -700,7 +700,7 @@ WScript.Echo  objWMISetting.BuildVersion
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

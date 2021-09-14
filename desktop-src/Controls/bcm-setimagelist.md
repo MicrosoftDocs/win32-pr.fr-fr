@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f5c88020bb139c358b17386b003bfb9de9cfcd4e769b9262ed90e23f3f95e75
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c9bdf29735958f3c40af544bca4b946458df8431
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119921559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920396"
 ---
 # <a name="bcm_setimagelist-message"></a>\_Message SETIMAGELIST BCM
 
@@ -43,11 +43,11 @@ Pointeur vers une structure [**\_ IMAGELIST de bouton**](/windows/desktop/api/Co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la méthode retourne la **valeur true**. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Pour utiliser ce message, vous devez fournir un manifeste spécifiant Comclt32.dll version 6,0. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
@@ -71,7 +71,7 @@ Notez que PBS \_ STYLUSHOT est utilisé uniquement sur les Tablet PC.
 
 Chaque valeur est un index de l’image appropriée dans la liste d’images. Si une seule image est présente, elle est utilisée pour tous les États. Si la liste d’images contient plus d’une image, chaque index correspond à un État du bouton. Si aucune image n’est fournie pour chaque État, rien n’est dessiné pour ces États sans images.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

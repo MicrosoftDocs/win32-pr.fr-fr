@@ -5,12 +5,12 @@ ms.assetid: ddc665dd-3a06-4383-b747-e666b8c1090c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 879a3d46a806f9e1ade138887d47de0573dbcc7889e8eab9f0afa614441ef554
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6045c37e936afe1f5f70f4053c5ff5e134f6b79d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139032"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013365"
 ---
 # <a name="remote-desktop-protocol-provider-enumerations"></a>Énumérations du fournisseur protocole RDP (Remote Desktop Protocol)
 

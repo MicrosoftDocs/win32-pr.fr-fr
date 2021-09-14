@@ -4,12 +4,12 @@ description: Cette section contient des informations générales sur la fonction
 ms.assetid: dd104661-1e0c-4569-9753-817bcded1894
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4961d80c04f8fa570286666511c04b1208c940369cd13b836095b8899505de
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 121a4df5aa6fab222a5c4387ebdcfba51a7977b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920412"
 ---
 # <a name="about-custom-draw"></a>À propos du dessin personnalisé
 
@@ -112,7 +112,7 @@ Au début de chaque cycle de peinture, le contrôle envoie le code de notificati
 
 
 
-| Valeur retournée            | Effet                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Valeur de retour            | Résultat                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CDRF \_ par défaut         | Le contrôle se dessine lui-même. Il n’enverra pas de notifications [ \_ CUSTOMDRAW nm](nm-customdraw.md) supplémentaires pour ce cycle de peinture. Cet indicateur ne peut pas être utilisé avec un autre indicateur.                                                                                                                                                                                                                                                                               |
 | CDRF, \_ INerase           | Le contrôle dessinera uniquement l’arrière-plan.                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -181,7 +181,7 @@ Pour obtenir un exemple de gestionnaire de notification [ \_ CUSTOMDRAW](nm-cust
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Utilisation d’un dessin personnalisé](using-custom-draw.md)

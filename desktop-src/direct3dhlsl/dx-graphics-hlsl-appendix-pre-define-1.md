@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 06e3992dd81d2ffcc32a672e2d524fa51c1372c02ab90d8b6b8a905100ac9afb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: deae1ca92c2280cd31cbec2bf3482c61fcf2b88a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119855049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941180"
 ---
 # <a name="define-directive-constant"></a>\#define, directive (constante)
 
@@ -42,7 +42,7 @@ Directive de préprocesseur qui affecte un nom explicite à une constante dans v
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les instances du paramètre d' *identificateur* qui se produisent après la directive [ \# define](dx-graphics-hlsl-appendix-pre-define.md) dans le fichier source sont remplacées par la valeur du paramètre de *chaîne de jeton* . L’identificateur est remplacé uniquement lorsqu’il forme un jeton. par exemple, l’identificateur n’est pas remplacé s’il apparaît dans un commentaire, dans une chaîne ou dans le cadre d’un identificateur plus long.
 

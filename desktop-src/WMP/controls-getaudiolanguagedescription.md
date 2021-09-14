@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29aa5f7b5c0ad72ff13b571505283b243bd62d79ebc4339717ed8283cccb2a5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d28e82648a1047252402694f4948d2a2734f344
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919351"
 ---
 # <a name="controlsgetaudiolanguagedescription-method"></a>Controls. getAudioLanguageDescription, méthode
 
@@ -49,11 +49,11 @@ strRetVal = Controls.getAudioLanguageDescription(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une valeur de **chaîne** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
@@ -61,7 +61,7 @@ Utilisez la propriété **audioLanguageCount** pour obtenir le nombre de langues
 
 **Lecteur Windows Media 10 Mobile :** Cette méthode n’est pas prise en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

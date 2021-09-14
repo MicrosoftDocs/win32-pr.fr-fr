@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 45b912bc9f870c39cec9ff37df95df46599c0158dd08bf3ca1d47cee29058979
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcae83c4ecc87f259087ea84f8ca4b63bd83e574
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119059767"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920351"
 ---
 # <a name="registrationinfo-tasktype-element"></a>Élément RegistrationInfo (taskType)
 
@@ -61,13 +61,13 @@ L’élément **RegistrationInfo** est défini par le type complexe [**TaskType*
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de scripts, les informations d’inscription d’une tâche sont spécifiées à l’aide de la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) .
 
 Pour le développement C++, les informations d’inscription d’une tâche sont spécifiées à l’aide de la [**propriété RegistrationInfo de ITaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

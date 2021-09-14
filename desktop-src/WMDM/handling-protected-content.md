@@ -24,12 +24,12 @@ keywords:
 - Contenu protégé par DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9f06429ba4a8ac24f4ae2ba3823db9380bd4109b04b924e5a081f287b8aaf30
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ddd0fb6ab155d08ed19eb84988709695f9ed63fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119863179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919503"
 ---
 # <a name="handling-protected-content"></a>Gestion du contenu protégé
 

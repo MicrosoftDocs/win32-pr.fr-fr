@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ba3e231da50c9103361b2cf22cbd44d7311a26a4ea36f9a32185ed0c32d408
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19db0df0ca9b0bf41fe692ba07fe605dc1e8d5c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013379"
 ---
 # <a name="activateserver-method-of-the-win32_tslicenseserver-class"></a>Méthode ActivateServer de la \_ classe Win32 TSLicenseServer
 
@@ -79,11 +79,11 @@ Une erreur inconnue s'est produite. Vous ne savez pas si le serveur de licences 
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode est réussie, elle retourne zéro. Si la méthode échoue, elle retourne une valeur différente de zéro. Pour obtenir la liste des codes d’erreur, consultez [services Bureau à distance codes d’erreur du fournisseur WMI](terminal-services-wmi-provider-error-codes.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez être membre du groupe administrateurs pour appeler cette méthode.
 

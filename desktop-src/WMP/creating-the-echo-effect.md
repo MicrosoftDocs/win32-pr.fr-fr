@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, création d’un effet d’écho
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcb79b5be53f391854f38ce9aeba1c1bbff61ed2c0a982395c7063ff53146760
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e978562ff4cdee016f92409d183990cd4bb178b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919279"
 ---
 # <a name="creating-the-echo-effect"></a>Création de l’effet Echo
 

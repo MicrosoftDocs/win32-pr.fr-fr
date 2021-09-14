@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 816bed58b4c886cc2e9984a44e1e4e10f7768f4f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 7a288e3e1a625106c72f57125eea8a4219555f86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472518"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854134"
 ---
 # <a name="jetopentable-function"></a>Fonction JetOpenTable
 
@@ -112,16 +112,23 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les tables ouvertes avec **JetOpenTable** doivent généralement être fermées avec [JetCloseTable](./jetclosetable-function.md). L’exception à cette règle se produit lorsque **JetOpenTable** est appelé dans une transaction et que la transaction est restaurée (avec [JetRollback](./jetrollback-function.md)). Lors de la restauration d’une transaction, la table est fermée automatiquement. Dans ce cas, il s’agit d’une erreur de fermeture de la table avec [JetCloseTable](./jetclosetable-function.md).
 
 Il est légal d’ouvrir des tables système avec **JetOpenTable** (par exemple, MSysObjects, MSysUnicodeFixup). Le schéma des tables système peut changer. par conséquent, l’accès aux tables système est déconseillé. Le nombre de tables uniques qui peuvent être ouvertes simultanément est directement affecté par *JET_paramMaxOpenTables*. Si la table est actuellement ouverte, un nouveau curseur sera créé sur la table. Les ressources de curseur sont configurées à l’aide de [JetSetSystemParameter](./jetsetsystemparameter-function.md) avec *JET_paramMaxCursors*. Voir aussi [JetDupCursor](./jetdupcursor-function.md).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetOpenTableW</strong> (Unicode) et <strong>JetOpenTableA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetOpenTableW</strong> (Unicode) et <strong>JetOpenTableA</strong> (ANSI).</p> | 
 
 
 

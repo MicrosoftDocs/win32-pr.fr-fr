@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e5e8b43c3b04c9a8fcb747bc3963259c3b991c82d0d85a0c0b3b19c5c10f4489
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e7610cae8d0cc746774b99a101e3c6aaf1f8a64d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940596"
 ---
 # <a name="win32_volumechangeevent-class"></a>\_Classe VolumeChangeEvent Win32
 
@@ -147,11 +147,11 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ VolumeChangeEvent** est dérivée de [**Win32 \_ DeviceChangeEvent**](win32-devicechangeevent.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -26,11 +26,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 0142ce9c79b2828fcb00b953f1e689d31ee571d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920752"
 ---
 # <a name="jet_logtimeisutc-property"></a>JET_LOGTIME. Propriété IsUtc
 

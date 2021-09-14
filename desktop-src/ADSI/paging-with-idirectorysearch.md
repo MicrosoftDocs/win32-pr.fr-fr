@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche, pagination
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48494c01831e6b69931fc6b6f779ed9b042b7fecaaf17fa62286c094a926ba73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6e9fdf001f5908f6c3fc7321c8c94cda09f1b96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117838939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854013"
 ---
 # <a name="paging-with-idirectorysearch"></a>Pagination avec IDirectorySearch
 

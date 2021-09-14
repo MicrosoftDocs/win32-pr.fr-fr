@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb04247bdb991a71f3b535e3524163549384a207aafd5e85b162aef6b5ab0198
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c67852d305d89e7d75481c8c2080a972123bfc5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119659559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013425"
 ---
 # <a name="monthlydowtriggerrunonlastweekofmonth-property"></a>MonthlyDOWTrigger. RunOnLastWeekOfMonth, propriété
 
 Pour les scripts, obtient ou définit une valeur booléenne qui indique que la tâche s’exécute à la dernière semaine du mois.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```VB

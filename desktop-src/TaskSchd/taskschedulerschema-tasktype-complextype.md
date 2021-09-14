@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9e2465773fb784c87fe560bdc8f6306771578cb22cf9aa26bf79b84867deb61b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e86174920c28614f6c871e3f0bb0bc322243009
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118611056"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920264"
 ---
 # <a name="tasktype-complex-type"></a>Type complexe taskType
 
@@ -66,7 +66,7 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 | Élément                                                                           | Type                                                                                 | Description                                                                                                                         |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [**Actions**](taskschedulerschema-actions-tasktype-element.md)                   | [**actionsType**](taskschedulerschema-actionstype-complextype.md)                   | Spécifie les actions effectuées par la tâche.<br/>                                                                             |
-| [**Données**](taskschedulerschema-data-tasktype-element.md)                         | [**Décimal**](taskschedulerschema-datatype-complextype.md)                         | Spécifie des données supplémentaires associées à la tâche, mais qui, sinon, ne sont pas utilisées par le service Planificateur de tâches.<br/>         |
+| [**Données**](taskschedulerschema-data-tasktype-element.md)                         | [**dataType**](taskschedulerschema-datatype-complextype.md)                         | Spécifie des données supplémentaires associées à la tâche, mais qui, sinon, ne sont pas utilisées par le service Planificateur de tâches.<br/>         |
 | [**Principaux**](taskschedulerschema-principals-tasktype-element.md)             | [**principalsType**](taskschedulerschema-principalstype-complextype.md)             | Spécifie les contextes de sécurité qui peuvent être utilisés pour exécuter la tâche.<br/>                                                        |
 | [**RegistrationInfo**](taskschedulerschema-registrationinfo-tasktype-element.md) | [**registrationInfoType**](taskschedulerschema-registrationinfotype-complextype.md) | Spécifie les informations d’administration relatives à la tâche, telles que l’auteur de la tâche et la date à laquelle la tâche est inscrite.<br/> |
 | [**Paramètres**](taskschedulerschema-settings-tasktype-element.md)                 | [**settingsType**](taskschedulerschema-settingstype-complextype.md)                 | Spécifie les paramètres utilisés par le Planificateur de tâches pour effectuer la tâche.<br/>                                                 |
@@ -84,7 +84,7 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

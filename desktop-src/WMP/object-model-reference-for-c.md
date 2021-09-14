@@ -21,12 +21,12 @@ keywords:
 - Référence du modèle objet C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d765e43331f38e20cc6dc681144d036f58bb9bf6c6e99d34a3f568169867cb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d27d63e909b55b9a99f14d755b1384940e87a989
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119508199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919031"
 ---
 # <a name="object-model-reference-for-c"></a>Référence du modèle objet pour C++
 

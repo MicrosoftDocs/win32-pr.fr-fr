@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8afaddd2ed99af6d8b853da60c544694937600b480d6e620bfa2ab4637427fd4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf44c318628283627d4bf2f730c143081cee0990
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919143"
 ---
 # <a name="modifiedby-attribute"></a>Attribut ModifiedBy
 
@@ -29,13 +29,13 @@ L’attribut **ModifiedBy** est une chaîne qui indique si les attributs de l’
 
 -   [DVD](dvd-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans le fichier multimédia numérique.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [**Media. isReadOnlyItem**](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

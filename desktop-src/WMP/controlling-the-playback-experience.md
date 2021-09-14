@@ -21,12 +21,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: efca4d299edc40cfb94820fbb1aae7115329c0f3fcbd2859db0bbbc56d7a0d4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6877b869be8ca38ef9266aedf9318103d0e547ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118341886"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919380"
 ---
 # <a name="controlling-the-playback-experience"></a>Contrôle de l’expérience de lecture
 

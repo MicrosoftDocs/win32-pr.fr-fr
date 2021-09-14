@@ -4,12 +4,12 @@ ms.assetid: ba401528-9706-41fb-99d1-2bc3ffc05f1a
 title: Exemple de filtre InfTee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bd0bbbb4df30f549a8ea0ba15d33696dcb7c108cbeffa6658bbb1842291517d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cd0fc5a1d550e0327da0d0d3dd47c8847ffafee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118398017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853749"
 ---
 # <a name="inftee-filter-sample"></a>Exemple de filtre InfTee
 

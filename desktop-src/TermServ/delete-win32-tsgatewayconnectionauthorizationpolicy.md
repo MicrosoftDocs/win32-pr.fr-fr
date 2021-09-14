@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a1c1f914ee2dee3b1c2a6a9d0d2c71ac816db8debb1bb8f7db2bc5ff26e5c05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26b99cf7856c31f2e45f026631beb974e61c481f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119658139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013349"
 ---
 # <a name="delete-method-of-the-win32_tsgatewayconnectionauthorizationpolicy-class"></a>Méthode Delete de la \_ classe TSGatewayConnectionAuthorizationPolicy Win32
 
@@ -41,7 +41,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode est réussie, elle retourne zéro. Si la méthode échoue, elle retourne une valeur différente de zéro. Pour obtenir la liste des codes d’erreur, consultez [services Bureau à distance codes d’erreur du fournisseur WMI](terminal-services-wmi-provider-error-codes.md).
 

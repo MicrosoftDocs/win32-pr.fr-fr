@@ -13,12 +13,12 @@ keywords:
 - achat de contenu multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc830d4b1351b7649343f1f76f347c89da9a8ed9ceffedc3663c3156be6b7ead
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e420f1dce607e1c596c48490d10bbe8a2a5a5f61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013233"
 ---
 # <a name="purchasing-media-content"></a>Achat de contenu multimédia
 

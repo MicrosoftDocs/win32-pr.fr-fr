@@ -21,12 +21,12 @@ keywords:
 - Lecteur Windows Media, correspondance des couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3dbb7ed8b73973d35bc8ad884109c569d1c4738d038cf48f657068c5bde51bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eedf3e5df7c02f498c0dc21aeeed16c99452003c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135182"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919155"
 ---
 # <a name="matching-the-windows-media-player-colors"></a>correspondance des couleurs de Lecteur Windows Media
 

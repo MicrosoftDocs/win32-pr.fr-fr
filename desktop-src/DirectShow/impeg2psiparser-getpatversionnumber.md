@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ffd03bea09fb9041b91bb214287442eb59a7101be7a8841e0d38e28bcdaf3ecb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 978da4c7076bcf8ffe91bc2b9a4b2077d9d3d48a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119767359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853773"
 ---
 # <a name="impeg2psiparsergetpatversionnumber-method"></a>IMpeg2PsiParser :: GetPatVersionNumber, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une variable qui reçoit le champ du numéro de version \_ .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 

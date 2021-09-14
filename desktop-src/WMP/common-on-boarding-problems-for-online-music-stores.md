@@ -6,12 +6,12 @@ keywords:
 - Lecteur Windows Media Magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c4cb38f088f463d6bea8ca15b3a92cea9610cc8541f27d55c48df07f9286d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f600d1035e0fd20be7786af4d4ffed4482138a72
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919416"
 ---
 # <a name="common-on-boarding-problems-for-online-music-stores"></a>problèmes d’intégration courants pour les magasins de Musique en ligne
 

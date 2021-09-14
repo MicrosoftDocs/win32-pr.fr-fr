@@ -1,34 +1,34 @@
 ---
-title: Convention de travail de BITS du lecteur Windows Media
-description: Le lecteur Windows Media peut automatiquement télécharger et ajouter des éléments multimédias numériques à la bibliothèque si vous utilisez Service de transfert intelligent en arrière-plan (BITS).
+title: Lecteur Windows Media Convention de travail BITS
+description: Lecteur Windows Media pouvez télécharger et ajouter automatiquement des éléments multimédias numériques à la bibliothèque si vous utilisez Service de transfert intelligent en arrière-plan (BITS).
 ms.assetid: 643faba7-9af2-4292-8d92-e321d7690a5b
 keywords:
-- Windows Media Player Online stores, Service de transfert intelligent en arrière-plan (BITS)
+- Lecteur Windows Media des magasins en ligne, Service de transfert intelligent en arrière-plan (BITS)
 - magasins en ligne, Service de transfert intelligent en arrière-plan (BITS)
 - type 2 magasins en ligne, Service de transfert intelligent en arrière-plan (BITS)
 - Service de transfert intelligent en arrière-plan (BITS)
 - BITS (Service de transfert intelligent en arrière-plan)
-- Windows Media Player Online stores, Convention de travail BITS
+- Lecteur Windows Media les magasins en ligne, convention de travail BITS
 - magasins en ligne, Convention de travail BITS
 - type 2 magasins en ligne, Convention de travail BITS
 - Convention de travail BITS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 85278593ce151f46370ca491ccac8e1645f9bb70
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199336"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013182"
 ---
-# <a name="windows-media-player-bits-job-convention"></a>Convention de travail de BITS du lecteur Windows Media
+# <a name="windows-media-player-bits-job-convention"></a>Lecteur Windows Media Convention de travail BITS
 
-Le lecteur Windows Media peut automatiquement télécharger et ajouter des éléments multimédias numériques à la bibliothèque si vous utilisez [service de transfert intelligent en arrière-plan (bits)](/windows/desktop/Bits/background-intelligent-transfer-service-portal). Pour tirer parti de cette fonctionnalité, vous devez ajouter votre travail à la file d’attente de transfert BITS et appeler **méthode ibackgroundcopyjob :: SetDescription**, en fournissant une chaîne de description qui utilise le format correct.
+Lecteur Windows Media pouvez télécharger et ajouter automatiquement des éléments multimédias numériques à la bibliothèque si vous utilisez [Service de transfert intelligent en arrière-plan (BITS)](/windows/desktop/Bits/background-intelligent-transfer-service-portal). Pour tirer parti de cette fonctionnalité, vous devez ajouter votre travail à la file d’attente de transfert BITS et appeler **méthode ibackgroundcopyjob :: SetDescription**, en fournissant une chaîne de description qui utilise le format correct.
 
 > [!Note]  
 > Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge.
 
- 
+ 
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -43,7 +43,7 @@ Le lecteur Windows Media peut automatiquement télécharger et ajouter des élé
 <span id="serviceId"></span><span id="serviceid"></span><span id="SERVICEID"></span>*serviceId*
 </dt> <dd>
 
-Valeur 32 bits générée de manière aléatoire, utilisée par le lecteur Windows Media pour identifier le service.
+valeur 32 bits générée de manière aléatoire que Lecteur Windows Media utilise pour identifier le service.
 
 </dd> <dt>
 
@@ -96,21 +96,21 @@ Durée du contenu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque le lecteur Windows Media 10 ou version ultérieure utilise le service BITS pour télécharger du contenu, il énumère les travaux dans la file d’attente de transfert et inspecte la chaîne de description de chaque travail. Si la chaîne de description correspond à la Convention attendue, le lecteur Windows Media télécharge le contenu.
+lorsque Lecteur Windows Media 10 ou une version ultérieure utilise le service BITS pour télécharger du contenu, il énumère les travaux dans la file d’attente de transfert et inspecte la chaîne de description de chaque travail. si la chaîne de description correspond à la convention attendue, Lecteur Windows Media télécharge le contenu.
 
 Vous devez ajouter un seul fichier multimédia numérique à télécharger pour chaque travail BITS.
 
-Une fois que vous avez démarré une tâche BITS à l’aide de cette Convention, vous devez laisser le lecteur Windows Media terminer la tâche. Le lecteur Windows Media va également supprimer le travail de la file d’attente BITS, déplacer le fichier téléchargé vers l’emplacement où la musique extraite est enregistrée et ajouter le fichier téléchargé à la bibliothèque.
+une fois que vous avez démarré une tâche BITS à l’aide de cette convention, vous devez laisser Lecteur Windows Media terminer la tâche. Lecteur Windows Media supprime également la tâche de la file d’attente BITS, déplace le fichier téléchargé vers l’emplacement où l’extraction de musique est enregistrée et ajoute le fichier téléchargé à la bibliothèque.
 
 Le paramètre *ServiceId* doit contenir une valeur différente de zéro 32 bits. Nous vous recommandons d’utiliser la fonction [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) pour créer cette valeur.
 
-Le nom de fichier que vous spécifiez à l’aide du paramètre *LocalName* de **méthode ibackgroundcopyjob :: AddFile** doit avoir une extension de nom de fichier. WMA,. wmv,. mp3 ou. ASF.
+Le nom de fichier que vous spécifiez à l’aide du paramètre *LocalName* de **méthode ibackgroundcopyjob :: AddFile** doit avoir une extension de nom de fichier. WMA,. wmv, .mp3 ou. ASF.
 
 Les paramètres restants sont conçus pour contenir des valeurs de métadonnées relatives au contenu. Vous pouvez récupérer ces valeurs à partir de votre page Web de boutique en ligne à l’aide de **DownloadItem. getItemInfo**. Vous pouvez récupérer la collection de téléchargements appropriée en appelant **downloadmanager. getDownloadCollection** et  en fournissant ServiceId *comme paramètre de* l’ensemble.
 
-Le lecteur Windows Media inspecte la file d’attente BITS régulièrement pendant que le lecteur est en cours d’exécution. Pour vous assurer que le lecteur Windows Media recherche les travaux de téléchargement dans la file d’attente BITS, vous devez créer une valeur dans la sous-clé de Registre suivante :
+Lecteur Windows Media inspecte la file d’attente BITS régulièrement pendant que le lecteur est en cours d’exécution. pour vous assurer que Lecteur Windows Media vérifie la file d’attente BITS pour les travaux de téléchargement, vous devez créer une valeur dans la sous-clé de registre suivante :
 
 **HKEY \_ Current \_ User \\ Software \\ Microsoft \\ MediaPlayer \\ services**
 
@@ -118,15 +118,15 @@ La valeur doit être créée comme suit.
 
 
 
-| Nom                | Type      | Description                                                                                                                                                                                                          |
+| Name                | Type      | Description                                                                                                                                                                                                          |
 |---------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **RefreshDownload** | **GRANDE** | Spécifie si le lecteur Windows Media doit inspecter la file d’attente BITS pour les travaux de téléchargement. Si la valeur est égale à zéro, le lecteur n’inspecte pas la file d’attente BITS. Le joueur doit inspecter la file d’attente si la valeur est différente de zéro. |
+| **RefreshDownload** | **DWORD** | spécifie si Lecteur Windows Media doit inspecter la file d’attente BITS pour les travaux de téléchargement. Si la valeur est égale à zéro, le lecteur n’inspecte pas la file d’attente BITS. Le joueur doit inspecter la file d’attente si la valeur est différente de zéro. |
 
 
 
- 
+ 
 
-Vous pouvez utiliser la syntaxe alternative suivante pour ajouter des tâches BITS qui ne se terminent pas par le lecteur Windows Media, mais pour lesquelles il affiche simplement des informations d’État :
+vous pouvez utiliser la syntaxe alternative suivante pour ajouter des tâches BITS qui Lecteur Windows Media ne se termine pas, mais pour lesquelles il affiche simplement des informations d’état :
 
 ``` syntax
 ::WMP_STATUS:1:serviceId:Provider:AlbumArtist:AlbumTitle:TrackNumber:Title:Duration:Rating
@@ -150,6 +150,6 @@ Lorsque vous utilisez la syntaxe précédente, vous devez écrire du code pour t
 [**Référence pour les magasins en ligne de type 2**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

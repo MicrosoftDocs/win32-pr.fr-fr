@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7c7c73c5a6fd3249a8779526f6655992ad545372
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854164"
 ---
 # <a name="jetdeletecolumn-function"></a>JetDeleteColumn fonction)
 
@@ -75,11 +75,11 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 L’appel de **JetDeleteColumn** est identique à l’appel de [JetDeleteColumn2](./jetdeletecolumn2-function.md) avec *Grbit* défini sur zéro (0).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

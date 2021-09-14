@@ -5,12 +5,12 @@ ms.assetid: c7acbedb-3bf2-4519-ab11-a50bf071e757
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bc598042530ab59c0c8932522185ce5a9d0d3dce04cabce44239c3c81b79d59
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a06db01da6d9413684e3197aa9758d6e5c04643f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919655"
 ---
 # <a name="multiple-user-guidelines"></a>Instructions pour plusieurs utilisateurs
 

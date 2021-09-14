@@ -3,12 +3,12 @@ title: Comment AMSI vous protège contre les programmes malveillants
 description: En tant que développeur d’applications, vous pouvez participer activement à la défense contre les programmes malveillants. Plus précisément, vous pouvez protéger vos clients contre les programmes malveillants basés sur des scripts dynamiques et à partir de voies non traditionnelles de cyberattaque.
 ms.topic: article
 ms.date: 02/27/2019
-ms.openlocfilehash: 6c9ce09fdbf928395e2ca538add5fe7121c5ee49867c29205a9a39bce746a382
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d6aee30034312073123f5ab14b1924fd01e6eac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119440453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920592"
 ---
 # <a name="how-the-antimalware-scan-interface-amsi-helps-you-defend-against-malware"></a>Comment l’interface d’analyse anti-programme malveillant (AMSI) vous permet de vous défendre contre les programmes malveillants
 

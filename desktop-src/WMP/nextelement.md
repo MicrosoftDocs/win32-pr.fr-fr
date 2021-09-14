@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3dc89b62e21702bda6348b050eb40b79c3c70117b1a56e71a7de03d1cd844c33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8583e868fa1e4ddbf3d5b347b0a45926b4eb60e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919063"
 ---
 # <a name="nextelement"></a>NEXTELEMENT
 
@@ -31,11 +31,11 @@ cursor="system"
 enabled="wmpenabled:player.controls.next"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les propriétés de ce **BUTTONELEMENT** peuvent être remplacées en les spécifiant explicitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

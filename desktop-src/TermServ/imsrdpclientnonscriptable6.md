@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 6beede518b346ff4934730eb6fa8c3ed9f80dec980be031f9d09e774aeb359a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0d6793452ebf59f1974831aef0fa10f2469d8e92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919919"
 ---
 # <a name="imsrdpclientnonscriptable6-interface"></a>IMsRdpClientNonScriptable6, interface
 
@@ -44,7 +44,7 @@ L’interface **IMsRdpClientNonScriptable6** possède ces méthodes.
 | [**SendLocation2D**](imsrdpclientnonscriptable6-sendlocation2d.md)     |  Envoie une valeur de latitude et de longitude au serveur afin que l’emplacement géographique du client puisse être reflété dans la session à distance.                   |
 | [**SendLocation3D**](imsrdpclientnonscriptable6-sendlocation3d.md)     | Envoie une valeur de latitude, de longitude et d’altitude au serveur afin que l’emplacement géographique du client puisse être reflété dans la session à distance.                 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

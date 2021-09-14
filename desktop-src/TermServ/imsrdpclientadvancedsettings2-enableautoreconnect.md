@@ -49,12 +49,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2786146c974860d540db041943791b3fb81c4f3687f40285f0c570eba85bcdf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f8d4a1345395b5b5843872df256fe7a113094e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118352954"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919956"
 ---
 # <a name="imsrdpclientadvancedsettings2enableautoreconnect-property"></a>IMsRdpClientAdvancedSettings2 :: EnableAutoReconnect, propriété
 
@@ -85,13 +85,13 @@ Affectez la valeur **Variant \_ true** pour activer la reconnexion automatique e
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété ne peut pas être définie lorsque le contrôle est connecté.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

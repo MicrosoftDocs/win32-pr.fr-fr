@@ -37,11 +37,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 622a6031f36140e23514b925835cebae84b35025
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920548"
 ---
 # <a name="cim_alarmdevice-class"></a>\_Classe CIM AlarmDevice
 
@@ -399,7 +399,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd></dd> <dt>
@@ -455,7 +455,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd></dd> <dt>
@@ -539,14 +539,14 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-**Windows est toujours en cours de configuration de cet appareil.** (25)
+**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-**Windows est toujours en cours de configuration de cet appareil.** (26)
+**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd></dd> <dt>
@@ -581,7 +581,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd></dd> </dl>
@@ -1195,7 +1195,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

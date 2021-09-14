@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6b4300bcad7544793f3c958809f78a0c1b1203618ccf21688f9fc0ac483faa1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56b0305acca2fc5430031c0c423323e15a385ba3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118350241"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919711"
 ---
 # <a name="msrdpclient4-class"></a>MsRdpClient4, classe
 
@@ -118,13 +118,13 @@ La classe **MsRdpClient4** possède les propriétés suivantes.
 | [**CipherStrength**](imstscax-cipherstrength.md)<br/>                               | Lecture seule<br/>  | Force de chiffrement maximale du contrôle actuel.<br/>                                                                                                                                           |
 | [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)<br/>              | Écriture seule<br/> | Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br/>                                                                                                                                 |
 | [**La**](imsrdpclient-colordepth.md)<br/>                                   | Lecture/écriture<br/> | Profondeur de couleur du contrôle actuel.<br/>                                                                                                                                                               |
-| [**Connecté**](imstscax-connected.md)<br/>                                         | Lecture seule<br/>  | État de connexion du contrôle actuel.<br/>                                                                                                                                                      |
+| [**Correctement**](imstscax-connected.md)<br/>                                         | Lecture seule<br/>  | État de connexion du contrôle actuel.<br/>                                                                                                                                                      |
 | [**ConnectedStatusText**](imsrdpclient2-connectedstatustext.md)<br/>                | Lecture/écriture<br/> | Texte affiché dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté.<br/>                                                                                             |
 | [**ConnectingText**](imstscax-connectingtext.md)<br/>                               | Lecture/écriture<br/> | Texte qui apparaît centré dans le contrôle pendant la connexion du contrôle.<br/>                                                                                                                    |
 | [**DesktopHeight**](imstscax-desktopheight.md)<br/>                                 | Lecture/écriture<br/> | Hauteur du contrôle actuel, en pixels, sur le Bureau à distance initial.<br/>                                                                                                                           |
 | [**DesktopWidth**](imstscax-desktopwidth.md)<br/>                                   | Lecture/écriture<br/> | Largeur, en pixels, du contrôle actif sur le Bureau à distance initial.<br/>                                                                                                                            |
 | [**DisconnectedText**](imstscax-disconnectedtext.md)<br/>                           | Lecture/écriture<br/> | Texte qui apparaît centré dans le contrôle avant qu’une connexion ne soit terminée.<br/>                                                                                                                  |
-| [**Domaine**](imstscax-domain.md)<br/>                                               | Lecture/écriture<br/> | Domaine sur lequel l’utilisateur actuel ouvre une session.<br/>                                                                                                                                                     |
+| [**Domain**](imstscax-domain.md)<br/>                                               | Lecture/écriture<br/> | Domaine sur lequel l’utilisateur actuel ouvre une session.<br/>                                                                                                                                                     |
 | [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)<br/>       | Lecture seule<br/>  | Informations étendues sur la raison de la déconnexion du contrôle client.<br/>                                                                                                                         |
 | [**Large**](imsrdpclient-fullscreen.md)<br/>                                   | Lecture/écriture<br/> | Indique si le contrôle est en mode plein écran.<br/>                                                                                                                                             |
 | [**FullScreenTitle**](imstscax-fullscreentitle.md)<br/>                             | Écriture seule<br/> | Titre de la fenêtre qui s’affiche lorsque le contrôle est en mode plein écran.<br/>                                                                                                                               |
@@ -134,7 +134,7 @@ La classe **MsRdpClient4** possède les propriétés suivantes.
 | [**SecuredSettings**](imstscax-securedsettings.md)<br/>                             | Lecture seule<br/>  | Pointeur d’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) .<br/>                                                                                                             |
 | [**SecuredSettings2**](imsrdpclient-securedsettings2.md)<br/>                       | Lecture seule<br/>  | Pointeur vers l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) , utilisé pour définir des paramètres sécurisés pour le contrôle client.<br/>                                       |
 | [**SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md)<br/>               | Lecture seule<br/>  | Indique si l’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) est disponible.<br/>                                                                                    |
-| [**Serveur**](imstscax-server.md)<br/>                                               | Lecture/écriture<br/> | Nom du serveur auquel le contrôle actuel est connecté.<br/>                                                                                                                                 |
+| [**Serveurs**](imstscax-server.md)<br/>                                               | Lecture/écriture<br/> | Nom du serveur auquel le contrôle actuel est connecté.<br/>                                                                                                                                 |
 | [**StartConnected**](imstscax-startconnected.md)<br/>                               | Lecture/écriture<br/> | Indique si le contrôle établira la connexion au serveur hôte de session Bureau à distance dès le démarrage.<br/>                                                                                      |
 | [**UIParentWindowHandle**](imsrdpclientnonscriptable2-uiparentwindowhandle.md)<br/> | Lecture/écriture<br/> | Handle de fenêtre qui doit être la fenêtre parente pour le contrôle. Cela permet aux fenêtres affichées par le contrôle d’être correctement modales par rapport à toutes les fenêtres affichées par l’application parente.<br/> |
 | [**Nom d’utilisateur**](imstscax-username.md)<br/>                                           | Lecture/écriture<br/> | Informations d’identification d’ouverture de session de nom d’utilisateur.<br/>                                                                                                                                                                   |
@@ -145,7 +145,7 @@ La classe **MsRdpClient4** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

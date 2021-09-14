@@ -15,12 +15,12 @@ keywords:
 - Guide de migration, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ad666ff4132dfe103875b97acf3c7e1f934ef64b94c115a453e4a91bf98be8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e29c9be40e3cc252ed9461bcb18ea5bfed49bb58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919040"
 ---
 # <a name="object-model-migration-guide"></a>Guide de migration du modèle objet
 

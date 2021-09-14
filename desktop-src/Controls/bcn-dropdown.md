@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fbacf22cdabbac7c5d2932c604fab634dbc185207acda8cee311d434478e5ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e78512419f62beaa82aff42ccaf951d34130fe3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118674971"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920383"
 ---
 # <a name="bcn_dropdown-notification-code"></a>\_Code de notification de liste déroulante BCN
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**NMBCDROPDOWN**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le récepteur de notification convertit **lParam** pour récupérer la structure [**NMBCDROPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmbcdropdown) . **WParam** contient l’ID du contrôle qui envoie ce message. Le contrôle Button doit avoir un style de bouton déroulant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

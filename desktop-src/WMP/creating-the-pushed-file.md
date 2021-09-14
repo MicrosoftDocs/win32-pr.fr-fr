@@ -9,12 +9,12 @@ keywords:
 - Fichiers faisant l’objet d’un push dans des habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f2dbb70928fd3b8bd6594cb9e2f33ac5d2d439c487fed481fe9cea05cdde2b1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8532ce4442374d91efe04f84d92ade5c1834353
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919271"
 ---
 # <a name="creating-the-pushed-file"></a>Création du fichier ayant fait l’objet d’un push
 

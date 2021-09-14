@@ -24,12 +24,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1e18ca15f71d9d25d9c99db36683a61b52057580022805c9d5f0f0d250aa738a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5c36c55b455b797446cde627449ea705b3bd2ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054607"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919135"
 ---
 # <a name="modifying-the-display"></a>Modification de l’affichage
 

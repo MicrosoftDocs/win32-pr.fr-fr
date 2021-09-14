@@ -1,9 +1,9 @@
 ---
 title: Élément LOGURL
-description: L’élément LOGURL indique au lecteur Windows Media de soumettre toutes les données de journal à l’URL spécifiée.
+description: l’élément LOGURL indique à Lecteur Windows Media d’envoyer toutes les données de journal à l’URL spécifiée.
 ms.assetid: fc1895af-c9d7-43ca-9839-7e884cc219f4
 keywords:
-- Élément LOGURL lecteur Windows Media
+- élément LOGURL Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,15 +14,15 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 0f5fc4a5259f009e7298c0609fc4e6fa8c533b94
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526072"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919220"
 ---
 # <a name="logurl-element"></a>Élément LOGURL
 
-L’élément **LOGURL** indique au lecteur Windows Media de soumettre toutes les données de journal à l’URL spécifiée.
+l’élément **LOGURL** indique à Lecteur Windows Media d’envoyer toutes les données de journal à l’URL spécifiée.
 
 ``` syntax
 <LOGURL
@@ -43,7 +43,7 @@ URL d’un hôte capable de traiter les demandes de journalisation.
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **ASX**, **entrée** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
@@ -104,7 +104,7 @@ https://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=F
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -118,10 +118,10 @@ https://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=F
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

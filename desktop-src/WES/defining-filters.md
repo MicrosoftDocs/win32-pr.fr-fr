@@ -4,12 +4,12 @@ description: Un fournisseur peut définir des filtres utilisés par une session 
 ms.assetid: b43912af-0e9c-414b-b3fa-03e7e35e493c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37d9d065fe3a46fc22114cfb4aed5b5b51d9a89eafa3280e2e258199e06aad3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61dd2a21b9c4e01ebc4a32a160b24022c79197b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119056017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852850"
 ---
 # <a name="defining-filters"></a>Définition de filtres
 

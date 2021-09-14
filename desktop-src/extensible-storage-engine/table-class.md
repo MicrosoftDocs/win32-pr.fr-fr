@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 84f7290ca7681d9ed25a2a76e80fd77685312dd6845eebdd3002c29e9f28859b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ea12d7bd59d946c7375150862cd8fa0c87ba6e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118070854"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920668"
 ---
 # <a name="table-class"></a>Classe de table
 

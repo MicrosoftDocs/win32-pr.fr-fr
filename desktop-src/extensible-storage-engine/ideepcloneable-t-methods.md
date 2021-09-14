@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh579566(v=EXCHG.10)
 ms:contentKeyID: 39514596
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 232c38b64acbb60a7b2876f6c80b623a42083a5a666773bd37e43976d0a1c543
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2d93ee68e08e2b3181aafafe270da732b12c57c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118256104"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920859"
 ---
 # <a name="ideepcloneablet-methods"></a>\<T\>Méthodes IDeepCloneable
 

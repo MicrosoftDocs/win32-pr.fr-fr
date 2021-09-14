@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 770ea34a4f77f150ef865da58051f1775fa773b14b39c5398dc67881d3dc4a26
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 63833382d5dcbd764c0139e74ef072c34b2c10ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119621049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919952"
 ---
 # <a name="imsrdpclientnonscriptable5remotemonitorcount-property"></a>IMsRdpClientNonScriptable5 :: RemoteMonitorCount, propriété
 
@@ -46,7 +46,7 @@ HRESULT get_RemoteMonitorCount(
 
 Reçoit la valeur de la propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

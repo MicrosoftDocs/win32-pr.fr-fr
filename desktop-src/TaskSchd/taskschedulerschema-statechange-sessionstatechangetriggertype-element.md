@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 88b7e46b23cf6778379a967e03d8f168de3b18d20a734812bacdad940850136a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3991a767256184f23fbb9defda7e33465c0477e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118356331"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920300"
 ---
 # <a name="statechange-sessionstatechangetriggertype-element"></a>StateChange (sessionStateChangeTriggerType) (élément)
 
@@ -42,13 +42,13 @@ L’élément **StateChange** est défini par le type complexe [**sessionStateCh
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété StateChange de ISessionStateChangeTrigger**](/windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_statechange).
 
 Pour le développement de scripts, consultez [**SessionStateChangeTrigger. StateChange**](sessionstatechangetrigger-statechange.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

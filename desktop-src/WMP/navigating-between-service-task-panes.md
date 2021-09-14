@@ -18,12 +18,12 @@ keywords:
 - volets de tâches du service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f54a82f2637fe11b0a2a7703cc241c47e799999a89b56ba8ba19c079b7393de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86035215f822c67bb40c528f141422977efc8653
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919107"
 ---
 # <a name="navigating-between-service-task-panes"></a>Navigation entre les volets des tâches de service
 

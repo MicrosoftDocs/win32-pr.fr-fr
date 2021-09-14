@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1dc9b0f1131a02a4ce3fe05ebe2423116e7701e3bbb9ce7f5ea8faa1c1dce7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 690a090aaa9d07ee850caee004242272368129f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013193"
 ---
 # <a name="userservicerating-attribute"></a>Attribut UserServiceRating
 

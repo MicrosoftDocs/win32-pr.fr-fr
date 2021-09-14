@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c2bd6fa4011841958ad08239640024f9878528aecb1307487c3354ac74e31db4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9903fdc292fe832cc6931d794a4c1f39fd91f83e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118610536"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920239"
 ---
 # <a name="triggerstype-complex-type"></a>Type complexe triggersType
 
@@ -34,7 +34,7 @@ Définit le groupe ([**triggerGroup**](taskschedulerschema-triggergroup-group.md
 </xs:complexType>
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

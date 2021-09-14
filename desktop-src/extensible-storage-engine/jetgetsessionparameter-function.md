@@ -20,11 +20,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 183169f8356a664b450e74534558286607fed62c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984772"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854140"
 ---
 # <a name="jetgetsessionparameter-function"></a>JetGetSessionParameter fonction)
 
@@ -69,17 +69,17 @@ Taille maximale du jeu de données dans ce paramètre de session.
 
 Taille réelle du jeu de données dans ce paramètre de session.
 
-### <a name="return-value"></a>Valeur retournée
+### <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, la mémoire tampon de sortie appropriée pour le paramètre de session demandé sera définie sur la valeur de ce paramètre de session.
 
 En cas d’échec, l’état des mémoires tampons de sortie n’est pas défini.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Le paramètre de session est utilisé pour la durée de vie de la session ou jusqu’à ce que la valeur soit réinitialisée.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

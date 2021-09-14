@@ -13,12 +13,12 @@ keywords:
 - Objet MetadataPicture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6f0002080b62c97f347f1679431adbc3450efef4d6563a5c606d257d4391c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ad7a96a856ffc4546d2cbd8f828c7c0ec904018
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013290"
 ---
 # <a name="about-the-metadatapicture-object"></a>À propos de l’objet MetadataPicture
 

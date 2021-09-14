@@ -4,12 +4,12 @@ ms.assetid: a91c1ffe-1bdd-49bb-aa6a-71667a1ed812
 title: Action WriteEnvironmentStrings
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59686dc6c9d4982e2705b610e871cf0ead029bf4672b98244a43d9602df88155
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc3a9d64a1140fc883d94e8d3733608d29dc2d39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011804"
 ---
 # <a name="writeenvironmentstrings-action"></a>Action WriteEnvironmentStrings
 

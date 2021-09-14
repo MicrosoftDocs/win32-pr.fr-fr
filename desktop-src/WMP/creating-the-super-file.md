@@ -9,12 +9,12 @@ keywords:
 - Super fichiers dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d300097c3ffd7cd83d540dadd01c89057258f55be639cdbe8c940783831b13d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10b9b282036b1613dd2e59e225a3d8370b1651cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119651673"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919251"
 ---
 # <a name="creating-the-super-file"></a>Création du fichier Super
 

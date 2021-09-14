@@ -4,12 +4,12 @@ description: Pour identifier le fournisseur réseau qui possède une ressource, 
 ms.assetid: 4bddb55c-181d-4c6f-bd92-9c27d6b894bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2bfe214e8a07f65dfb8e4bcdfc9152e5827570318e10789767426c52c98bad1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcf21e48be540f5307fc1ebd2359aea7ff03cbe0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013166"
 ---
 # <a name="retrieving-information-about-a-network-resource"></a>Récupération d’informations sur une ressource réseau
 

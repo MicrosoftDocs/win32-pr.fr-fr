@@ -5,12 +5,12 @@ ms.assetid: 50f0c1f6-8046-4ceb-b2c4-6fc1ae86fd73
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97a8211f12e4a89c5dfb309bb4e3c0f998159738b46185aeb5dcee7a5cd29f93
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ea7ada6ee2b51943d47f39446d0b1bb3b7d6718
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118605311"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919652"
 ---
 # <a name="performance-guidelines"></a>Recommandations sur les performances
 

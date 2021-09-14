@@ -4,12 +4,12 @@ description: Les événements peuvent être écrits dans des canaux de journaux 
 ms.assetid: 3c2f39ee-fbc0-40ae-8279-566905250f47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89c2f932616a131e478c100996fd0b76034b3cccdebf4e3714fd5b9b38ba9678
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab3c73697aa11e7b63ace0ece33be23ca7a1b883
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852856"
 ---
 # <a name="defining-channels"></a>Définition des canaux
 

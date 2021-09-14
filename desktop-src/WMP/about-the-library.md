@@ -15,12 +15,12 @@ keywords:
 - métadonnées, bibliothèque de Lecteur Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63fdaa19fc8be11de1886074a21b0cc1fb6d4be7dde73faa05c67e1f496ac17c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e1781329a78bcb2e9cb25c45135e03465b9d63df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119470349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013295"
 ---
 # <a name="about-the-library"></a>À propos de la bibliothèque
 

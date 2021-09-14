@@ -15,12 +15,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1398b2aa91845bd52b994a03b47e695345f5f24b8865c2a19a88ad0721f78f81
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9402908d37ff95ce719d01c3ca3c980942a5acc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919379"
 ---
 # <a name="control-of-playlists"></a>Contrôle des sélections
 

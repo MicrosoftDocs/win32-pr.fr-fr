@@ -21,12 +21,12 @@ keywords:
 - Référence du modèle objet de script
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5058261a169646f0c6cff6f858d1073934039b13cf4ddac55221f2e209beed01
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f20e5bacf6a1fd93579ce40e8957b7ce7aefae0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119415459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919027"
 ---
 # <a name="object-model-reference-for-scripting"></a>Référence du modèle objet pour l’écriture de scripts
 

@@ -10,12 +10,12 @@ keywords:
 - Méthode LaunchPage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11a22e1f4b136711a6f4336fbe54d6d90e4bb18b24a88645587311a0b4046f6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f04974eba1ba5c86300de44acd2ba6e2920954f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119762719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013211"
 ---
 # <a name="the-launchpage-method"></a>Méthode LaunchPage
 

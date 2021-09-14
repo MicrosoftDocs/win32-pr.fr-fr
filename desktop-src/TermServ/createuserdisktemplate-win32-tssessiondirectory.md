@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc16d293f901efb6fc684d03ec7b47aa7496120c462a32414c747d15c02810a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7c142834b4501639499cd0bcf102dadcc1b07d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120010229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013372"
 ---
 # <a name="createuserdisktemplate-method-of-the-win32_tssessiondirectory-class"></a>Méthode CreateUserDiskTemplate de la \_ classe Win32 TSSessionDirectory
 

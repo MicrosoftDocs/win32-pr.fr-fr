@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba9114ca22a1052161000fcb05f38622ab9d210ec02b14715dad1bb85ce1365e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29a2427cfa19a84a8b8988cceacf3e0b836a031f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118130670"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920140"
 ---
 # <a name="getint32property-method-of-the-win32_rdshserver-class"></a>Méthode GetInt32Property de la \_ classe Win32 RDSHServer
 
@@ -58,11 +58,11 @@ Reçoit la valeur de la propriété récupérée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 en cas de réussite, sinon retourne un code d’erreur WMI.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

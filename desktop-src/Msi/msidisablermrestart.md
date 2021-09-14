@@ -4,12 +4,12 @@ ms.assetid: 45c804bf-6d15-416a-b106-d8bb3f4c547d
 title: Propriété MSIDISABLERMRESTART
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d46bdaee34b154ccaacddc36dcb08113fce9e3f749090eb80176080a60235e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1215822b26bb9bd48fa52ee46806bc288a2986b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011864"
 ---
 # <a name="msidisablermrestart-property"></a>Propriété MSIDISABLERMRESTART
 

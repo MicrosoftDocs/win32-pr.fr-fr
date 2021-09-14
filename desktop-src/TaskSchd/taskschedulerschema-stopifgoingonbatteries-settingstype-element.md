@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50b92be11400d1dbb223115f11334e2a596e94e9df1fd018ce16e4a646c84825
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e7de57cde928760c15dd671010880e824c8979f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119516097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920296"
 ---
 # <a name="stopifgoingonbatteries-settingstype-element"></a>Élément StopIfGoingOnBatteries (settingsType)
 
@@ -44,7 +44,7 @@ L’élément **StopIfGoingOnBatteries** est défini par le type complexe [**set
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur par défaut de cet élément est false. Notez que la valeur par défaut a été modifiée par rapport aux versions précédentes de Planificateur de tâches.
 
@@ -65,14 +65,14 @@ Le code XML suivant définit un élément Settings qui permet un arrêt forcé d
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

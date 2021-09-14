@@ -9,12 +9,12 @@ keywords:
 - Fichiers de région dans les apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28d517f9df077c3a19a116392229f126c798e5321a2564075e58a554954d9d05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bf3268b101255191bef4b3e4c4880e2bb846414
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118341245"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919260"
 ---
 # <a name="creating-the-region-file"></a>Création du fichier de région
 

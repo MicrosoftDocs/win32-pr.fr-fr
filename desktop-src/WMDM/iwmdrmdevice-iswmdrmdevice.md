@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60ee225267ce2301e9a2dad392d72ce72b0e698872cd3fd54ab3e50a07043477
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca9cb79598ea41a996748e383c8fdfc63364dd6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119957259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919475"
 ---
 # <a name="iwmdrmdeviceiswmdrmdevice-method"></a>IWMDRMDevice :: IsWMDRMDevice, méthode
 
@@ -50,7 +50,7 @@ Version de Windows Media DRM 10 pour les appareils mobiles, qui a la valeur 0x00
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -64,7 +64,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

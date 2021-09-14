@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74ae14f6e22245e49b2c2d0136fd297b35c9c5ed1f5126cc0914e97f42c8488f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce0203cd9515808891f93223dd7b3ebaf2642103
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118611000"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920248"
 ---
 # <a name="triggergroup-group"></a>Groupe triggerGroup
 
@@ -80,11 +80,11 @@ Définit le groupe de déclencheurs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la lecture ou de l’écriture de code XML, les éléments définis par ce groupe sont les éléments enfants de l’élément [**triggers**](taskschedulerschema-triggers-tasktype-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

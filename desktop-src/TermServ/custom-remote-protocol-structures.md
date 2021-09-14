@@ -6,11 +6,11 @@ ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a626db328ede3bac9422a9a47ebe55f05953a22d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106541580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013359"
 ---
 # <a name="remote-desktop-protocol-provider-structures"></a>Structures du fournisseur protocole RDP (Remote Desktop Protocol)
 
@@ -97,119 +97,119 @@ Contient les paramètres liés à la stratégie pour une session à distance.
 
 </dd> <dt>
 
-[**\_statistiques du cache WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_cache_stats)
+[**WTS \_ statistiques du CACHE \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_cache_stats)
 </dt> <dd>
 
 Contient des statistiques de cache de protocole.
 
 </dd> <dt>
 
-[**WTS \_ afficher l' \_ IOCTL**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_display_ioctl)
+[**WTS \_ AFFICHER \_ IOCTL**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_display_ioctl)
 </dt> <dd>
 
 Contient des informations sur l’affichage du client.
 
 </dd> <dt>
 
-[**\_données du client WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_client_data)
+[**WTS \_ \_données client**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_client_data)
 </dt> <dd>
 
 Contient des informations sur la connexion cliente.
 
 </dd> <dt>
 
-[**\_fonctionnalités de licence WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_license_capabilities)
+[**WTS \_ fonctionnalités de licence \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_license_capabilities)
 </dt> <dd>
 
 Contient des informations sur les fonctionnalités de licence du client.
 
 </dd> <dt>
 
-[**\_données de stratégie WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_policy_data)
+[**WTS \_ données de stratégie \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_policy_data)
 </dt> <dd>
 
 Contient les informations de stratégie transmises par le service Services Bureau à distance au protocole.
 
 </dd> <dt>
 
-[**valeur de la \_ propriété WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_property_value)
+[**WTS \_ valeur de la propriété \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_property_value)
 </dt> <dd>
 
 Contient des informations sur une valeur de propriété à récupérer à partir du protocole.
 
 </dd> <dt>
 
-[**\_cache de protocole WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_protocol_cache)
+[**WTS \_ CACHE de protocole \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_protocol_cache)
 </dt> <dd>
 
 Contient le nombre de lectures du cache et de présences dans le cache.
 
 </dd> <dt>
 
-[**\_compteurs de protocole WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_protocol_counters)
+[**WTS \_ compteurs de protocole \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_protocol_counters)
 </dt> <dd>
 
 Contient des compteurs de performance de protocole.
 
 </dd> <dt>
 
-[**\_État du protocole WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_protocol_status)
+[**WTS \_ État du protocole \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_protocol_status)
 </dt> <dd>
 
 Contient des informations sur l’état du protocole.
 
 </dd> <dt>
 
-[**\_État du service WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_service_state)
+[**WTS \_ État du SERVICE \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_service_state)
 </dt> <dd>
 
 Contient des informations sur les modifications de l’état du service Services Bureau à distance.
 
 </dd> <dt>
 
-[**\_ID de session WTS \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_session_id)
+[**WTS \_ ID de SESSION \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_session_id)
 </dt> <dd>
 
 Contient un **GUID** qui identifie de façon unique une session.
 
 </dd> <dt>
 
-[**WTS \_ petit \_ Rect**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_small_rect)
+[**WTS \_ PETIT \_ Rect**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_small_rect)
 </dt> <dd>
 
 Contient les coordonnées de la fenêtre cliente.
 
 </dd> <dt>
 
-[**WTS \_ sockaddr**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_sockaddr)
+[**WTS \_ SOCKADDR**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_sockaddr)
 </dt> <dd>
 
 Contient une adresse de Socket.
 
 </dd> <dt>
 
-[**WTS \_ SystemTime**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_systemtime)
+[**WTS \_ SYSTEMTIME**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_systemtime)
 </dt> <dd>
 
 Spécifie les informations de date et d’heure pour les transitions entre l’heure d’hiver et l’heure d’été.
 
 </dd> <dt>
 
-[**WTS \_ les \_ informations de fuseau horaire \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_time_zone_information)
+[**WTS \_ \_informations sur les fuseaux horaires \_**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_time_zone_information)
 </dt> <dd>
 
 Contient des informations sur les fuseaux horaires du client.
 
 </dd> <dt>
 
-[**\_ \_ informations d’identification de l’utilisateur WTS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_user_credential)
+[**WTS \_ \_informations d’identification de l’utilisateur**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_user_credential)
 </dt> <dd>
 
 Contient les informations d’identification d’un utilisateur.
 
 </dd> <dt>
 
-[**\_données utilisateur \_ WTS**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_user_data)
+[**WTS \_ \_données utilisateur**](/windows/desktop/api/Wtsdefs/ns-wtsdefs-wts_user_data)
 </dt> <dd>
 
 Contient des valeurs de propriété de client sélectionnées.
@@ -232,9 +232,9 @@ Contient des valeurs de propriété de client sélectionnées.
 [Unions de fournisseurs protocole RDP (Remote Desktop Protocol)](custom-remote-protocol-unions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

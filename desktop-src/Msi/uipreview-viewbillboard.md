@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 9892dc68ae5edb66759e4c19499af56d06fb6efac56b823821cd74c4a28644b1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9cf1c6ee2a47fdb246fcc847627bb63432b8a67f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119810369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011809"
 ---
 # <a name="uipreviewviewbillboard-method"></a>Méthode UIPreview. ViewBillboard
 
@@ -54,7 +54,7 @@ Nom requis du panneau d’affichage à afficher à l’aide du contrôle spécif
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

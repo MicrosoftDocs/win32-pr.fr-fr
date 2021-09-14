@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74f20840a5580d0188354ca6b65ab3ce5b7402d57ea7346462d2f990ecfe34cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 762cd2445c3c6b720bba0f01ae48b787abc1fb38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119658649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920207"
 ---
 # <a name="taskservice-object"></a>Objet TaskService
 
@@ -61,7 +61,7 @@ L’objet **TaskService** a ces propriétés.
 
 | Propriété                                                          | Description                                                                                                                 |
 |:------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-| [**Connecté**](taskservice-connected.md)<br/>             | Obtient une valeur booléenne qui indique si vous êtes connecté au service Planificateur de tâches.<br/>                          |
+| [**Correctement**](taskservice-connected.md)<br/>             | Obtient une valeur booléenne qui indique si vous êtes connecté au service Planificateur de tâches.<br/>                          |
 | [**ConnectedDomain**](taskservice-connecteddomain.md)<br/> | Obtient le nom du domaine auquel l’ordinateur [**TargetServer**](taskservice-targetserver.md) est connecté.<br/> |
 | [**ConnectedUser**](taskservice-connecteduser.md)<br/>     | Obtient le nom de l’utilisateur connecté au service Planificateur de tâches.<br/>                                       |
 | HighestVersion<br/>                                         | Obtient la version la plus récente de Planificateur de tâches qu’un ordinateur prend en charge.<br/>                                             |
@@ -75,7 +75,7 @@ L’objet **TaskService** a ces propriétés.
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclenchement temporel (script)](time-trigger-example--scripting-.md), [exemple de déclencheur d’événements (script)](https://www.bing.com/search?q=Event+Trigger+Example+(Scripting)), [exemple de déclencheur quotidien (script)](daily-trigger-example--scripting-.md), [exemple de déclencheur d’inscription (script)](registration-trigger-example--scripting-.md), exemple de déclencheur [hebdomadaire](weekly-trigger-example--scripting-.md)(script), exemple de [déclencheur de connexion (](logon-trigger-example--scripting-.md)script), exemple de [déclencheur de démarrage (script)](boot-trigger-example--scripting-.md)ou [affichage des noms de tâches et des États (script)](displaying-task-names-and-state--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

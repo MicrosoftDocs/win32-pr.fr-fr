@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f29cc4b702ba93aec44e3460279976f50c5563463accfb58b920ad79b757126a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 614777ede63605dc7ed6936bda952c6071bda371
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118131581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920336"
 ---
 # <a name="schedulebyday-calendartriggertype-element"></a>Élément ScheduleByDay (calendarTriggerType)
 
@@ -53,7 +53,7 @@ L’élément **ScheduleByDay** est défini par le type complexe [**calendarTrig
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément enfant listé précédemment est défini par les types d’éléments complexes [**dailyScheduleType**](taskschedulerschema-dailyscheduletype-complextype.md) .
 
@@ -82,7 +82,7 @@ Le code XML suivant définit un déclencheur de calendrier quotidien qui démarr
 
 Pour obtenir un exemple complet du code XML d’une tâche qui spécifie une planification quotidienne, consultez [exemple de déclencheur quotidien (XML)](daily-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: cc3db60b-0b1d-4582-8b40-0b55f83e00be
 title: Msifiler.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d3306fdae929c3659baf07668486fdf8a828012ce3142e4285bde8ad7a6c9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2d7aeceae7abd8a9786079788e68c7d7bda35ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119679639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011848"
 ---
 # <a name="msifilerexe"></a>Msifiler.exe
 
 MsiFiler.exe remplit la [table de fichiers](file-table.md) avec des versions de fichier, des langues et des tailles basées sur un répertoire source. Il peut également mettre à jour la [table MsiFileHash](msifilehash-table.md) avec des hachages de fichier.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 **msifiler.exe-d** *{base de données}* **\[ -v \] \[ -h \] \[ -s \] altsource**
 

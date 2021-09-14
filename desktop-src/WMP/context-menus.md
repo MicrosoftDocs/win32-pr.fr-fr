@@ -13,12 +13,12 @@ keywords:
 - menus contextuels personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6ad3bba5863f83b5f324821ec0904e7ef4c5881c7f10b9214eebde1081b217d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ba3ed52b408651607cb1f6dab1a04f53282d3ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118119348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919383"
 ---
 # <a name="context-menus"></a>Menus contextuels
 

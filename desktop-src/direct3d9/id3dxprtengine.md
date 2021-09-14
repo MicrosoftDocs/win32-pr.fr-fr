@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bef527f9044c01b0696e86b44ddaef7ec72c336771ed136ddd071d11c0d73836
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5507a79a60b2ffcb3cf801ea0454c7306bcde056
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118293353"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941215"
 ---
 # <a name="id3dxprtengine-interface"></a>Interface ID3DXPRTEngine
 
@@ -99,7 +99,7 @@ typedef interface ID3DXPRTEngine *LPD3DXPRTENGINE;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

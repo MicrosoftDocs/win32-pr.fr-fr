@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a2620140337807891efa739da4540e3895394f63bcc494396c13e7c15d0c1b29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fd802f636077c9ec2a9f0f1060ffd43493aabf1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117729785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941224"
 ---
 # <a name="id3dxprtengineclosestrayintersects-method"></a>ID3DXPRTEngine :: ClosestRayIntersects, méthode
 
@@ -99,13 +99,13 @@ Pointeur désignant la distance entre le point d’intersection et le rayon.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si le rayon croise le maillage actuel ; Sinon, retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez [**ID3DXPRTEngine :: SetMinMaxIntersection**](id3dxprtengine--setminmaxintersection.md) pour définir les distances minimale et maximale de l’intersection avec le rayon.
 
@@ -115,7 +115,7 @@ Cette méthode s’exécute plus lentement que [**ID3DXPRTEngine :: ShadowRayIn
 
 Les coordonnées Barycentric définissent un point à l’intérieur d’un triangle en termes de sommets du triangle. Pour une description plus détaillée des coordonnées Barycentric, consultez [la description des coordonnées Barycentric de MathWorld](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 2e2e252f86249531c61922cf02f308bfaf2b76c2518ff9b420f5ec3fd80d9d88
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b706fdb35ba8360b294d25021c0c1a18bbe90188
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119990139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919936"
 ---
 # <a name="imsrdpclientnonscriptable6sendlocation2d-method"></a>IMsRdpClientNonScriptable6 :: SendLocation2D, méthode
 
@@ -46,11 +46,11 @@ Latitude d’un lieu géographique. La plage valide des valeurs de latitude est 
 
 Longitude d’un emplacement géographique. La plage valide des valeurs de latitude est comprise entre-180,0 et 180,0 degrés.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

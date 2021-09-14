@@ -9,12 +9,12 @@ keywords:
 - fichiers art pour les apparences, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c14ff211ba89ba0b2b884669745c9927afe7cdffadda7489ebe6a1b630c95579
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e9c4dafd201e66aee2c38f4490cb5ef5cf4c1c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117936388"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919287"
 ---
 # <a name="creating-the-art"></a>Création de l’illustration
 

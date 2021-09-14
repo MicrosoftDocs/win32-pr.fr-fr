@@ -4,18 +4,18 @@ ms.assetid: 3f60146e-12bf-4755-bbca-93bb1c300fb7
 title: Msiinfo.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57487406533b060d9343d4afbdf7e5254c32e15149bb3385f81cc7dc3923fc71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98291c26678efa8b17b42c08bb34c0d1df16c6e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118628097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011847"
 ---
 # <a name="msiinfoexe"></a>Msiinfo.exe
 
 Msiinfo.exe est un utilitaire de ligne de commande qui utilise des fonctions [de base de données](database-functions.md) et des [fonctions de programme d’installation](installer-functions.md) pour modifier ou afficher le flux d’informations de [synthèse](summary-information-stream.md) d’une base de données.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 **Msiinfo** *{base de données} \[ \[ /b \] /d \] {option} {Data}*
 

@@ -5,11 +5,11 @@ ms.assetid: 86cae0d8-effc-486b-8141-309c7d1bfb00
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 97722351dfa123681889104c73dcaaef90eb6f12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939806"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013118"
 ---
 # <a name="wininet-structures"></a>Structures WinINet
 
@@ -39,9 +39,9 @@ Voici les structures WinINet.
 [**composants d’URL \_**](/windows/desktop/api/Wininet/ns-wininet-url_componentsa)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

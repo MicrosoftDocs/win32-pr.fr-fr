@@ -7,12 +7,12 @@ keywords:
 - Exemple de code pour la vérification d’un droit d’accès aux contrôles dans une entrée du contrôle d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8368cce0dbe492fac4cd8be4e2fed448c9a36a239c6ac0054336ae98d892f9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57adb51902b9446259a4fa48587fa3db04aac1e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118694552"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920580"
 ---
 # <a name="example-code-for-checking-for-a-control-access-right-in-an-ace"></a>Exemple de code pour la vérification d’un droit d’accès aux contrôles dans une entrée du contrôle d’accès
 

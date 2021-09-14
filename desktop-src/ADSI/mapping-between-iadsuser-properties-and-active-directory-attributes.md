@@ -8,12 +8,12 @@ keywords:
 - ADSI Provider ADSI, objet User, mappage entre les propriétés IADsUser et les attributs Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e659c6325457b2654ad5cfeef964975949150232c4ae3376fac640c51c41aa8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 17b817a8c56e2c74c846e1343e0ed7803427f4a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117839479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854068"
 ---
 # <a name="mapping-between-iadsuser-properties-and-active-directory-attributes"></a>Mappage entre les propriétés IADsUser et les attributs Active Directory
 
@@ -29,14 +29,14 @@ Le tableau suivant répertorie le mappage entre les propriétés [**IADsUser**](
 | [**AccountExpirationDate**](iadsuser-property-methods.md)  | [**AccountExpires dans**](/windows/desktop/ADSchema/a-accountexpires)                                                             |
 | [**BadLoginAddress**](iadsuser-property-methods.md)        | Non pris en charge.                                                                                              |
 | [**BadLoginCount**](iadsuser-property-methods.md)          | [**badPwdCount**](/windows/desktop/ADSchema/a-badpwdcount)                                                                   |
-| [**Service**](iadsuser-property-methods.md)             | [**compétent**](/windows/desktop/ADSchema/a-department)                                                                     |
+| [**department**](iadsuser-property-methods.md)             | [**compétent**](/windows/desktop/ADSchema/a-department)                                                                     |
 | [**Description**](iadsuser-property-methods.md)            | [**descriptive**](/windows/desktop/ADSchema/a-description)                                                                   |
 | [**Division**](iadsuser-property-methods.md)               | [**fraction**](/windows/desktop/ADSchema/a-division)                                                                         |
 | [**EmailAddress**](iadsuser-property-methods.md)           | [**mail**](/windows/desktop/ADSchema/a-mail)                                                                                 |
 | [**EmployeeID**](iadsuser-property-methods.md)             | [**employeeID**](/windows/desktop/ADSchema/a-employeeid)                                                                     |
 | [**FaxNumber**](iadsuser-property-methods.md)              | [**facsimileTelephoneNumber**](/windows/desktop/ADSchema/a-facsimiletelephonenumber)                                         |
 | [**FirstName**](iadsuser-property-methods.md)              | [**givenName**](/windows/desktop/ADSchema/a-givenname)                                                                       |
-| [**FullName**](iadsuser-property-methods.md)               | [**displayName**](/windows/desktop/ADSchema/a-displayname)                                                                   |
+| [**FullName**](iadsuser-property-methods.md)               | [**NomComplet**](/windows/desktop/ADSchema/a-displayname)                                                                   |
 | [**GraceLoginsAllowed**](iadsuser-property-methods.md)     | Non pris en charge.                                                                                              |
 | [**GraceLoginsRemaining**](iadsuser-property-methods.md)   | Non pris en charge.                                                                                              |
 | [**HomeDirectory**](iadsuser-property-methods.md)          | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory)                                                               |
@@ -71,7 +71,7 @@ Le tableau suivant répertorie le mappage entre les propriétés [**IADsUser**](
 | [**TelephoneMobile**](iadsuser-property-methods.md)        | [**processeur**](/windows/desktop/ADSchema/a-mobile)                                                                             |
 | [**TelephoneNumber**](iadsuser-property-methods.md)        | [**telephoneNumber**](/windows/desktop/ADSchema/a-telephonenumber)                                                           |
 | [**TelephonePager**](iadsuser-property-methods.md)         | [**destinés**](/windows/desktop/ADSchema/a-pager)                                                                               |
-| [**Titre**](iadsuser-property-methods.md)                  | [**bonhomme**](/windows/desktop/ADSchema/a-title)                                                                               |
+| [**Intitulé**](iadsuser-property-methods.md)                  | [**bonhomme**](/windows/desktop/ADSchema/a-title)                                                                               |
 
 
 

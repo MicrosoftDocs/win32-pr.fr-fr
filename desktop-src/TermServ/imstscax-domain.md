@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 498098b57ef5ecb19958f6ef0e082022a92f15bab7f1fbfc74bef62d928e8726
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: faf95c02de10fe8db38a53b75d4d20cf796020f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120125429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919908"
 ---
 # <a name="imstscaxdomain-property"></a>IMsTscAx ::D propriété omaine
 
@@ -100,7 +100,7 @@ Nouveau nom de domaine.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La définition de la propriété de **domaine** est facultative. s’il n’est pas défini, l’utilisateur peut choisir un domaine lorsque la boîte de dialogue Windows Logon s’affiche pendant la connexion.
 
@@ -110,7 +110,7 @@ Cette propriété ne peut être définie que si le contrôle n’est pas dans l�
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -155,7 +155,7 @@ Pour plus d’informations sur la Connexion Bureau à distance par le Web, consu
 [**IMsRdpClient9**](imsrdpclient9.md)
 </dt> <dt>
 
-[**Connecté**](imstscax-connected.md)
+[**Correctement**](imstscax-connected.md)
 </dt> <dt>
 
 [**IMsTscAx**](imstscax-interface.md)

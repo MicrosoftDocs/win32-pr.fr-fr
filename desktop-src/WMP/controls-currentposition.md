@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be64d23b65a396cfb15e9f7b19b4571bdb26cbb7f308241e9a381375b9d26a40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12c690c102bb95c1a58785f18d727ffdae2a82c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118341876"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919363"
 ---
 # <a name="controlscurrentposition"></a>Controls. currentPosition
 
@@ -52,7 +52,7 @@ L’exemple suivant utilise **CurrentPosition** pour rechercher une position fou
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

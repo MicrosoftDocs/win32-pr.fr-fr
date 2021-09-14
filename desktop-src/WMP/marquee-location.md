@@ -3,18 +3,18 @@ title: Emplacement du texte défilant
 description: Emplacement du texte défilant
 ms.assetid: 5e4a93b6-a7ca-46b9-b85c-494efc869370
 keywords:
-- Windows Media Player Mobile Skins, palissades
+- Lecteur Windows Media Habillages mobiles, rectangles de sélection
 - apparences, rectangles de sélection
 - informations de référence sur les habillages, les cadres
 - textes défilant dans les habillages, emplacement
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4c023f374a53a95e203dc7babf9d2fec22de2eaa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029885"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919183"
 ---
 # <a name="marquee-location"></a>Emplacement du texte défilant
 
@@ -37,9 +37,9 @@ Une valeur typique est :
 [**Chapiteau**](marquee.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

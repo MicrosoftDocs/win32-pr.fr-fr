@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 12/16/2020
 ms.openlocfilehash: c63e779b6d6d090544af40a7ee6d9c05f8c49494
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104480521"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919920"
 ---
 # <a name="imsrdpclientnonscriptable6sendlocation3d-method"></a>IMsRdpClientNonScriptable6 :: SendLocation3D, méthode
 
@@ -51,11 +51,11 @@ Longitude d’un emplacement géographique. La plage valide des valeurs de latit
 
 Altitude d’un emplacement géographique en mètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

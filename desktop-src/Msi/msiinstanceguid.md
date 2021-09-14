@@ -4,12 +4,12 @@ ms.assetid: c39be15d-e10a-4055-bd81-aa7510a19fe4
 title: Propriété MSIINSTANCEGUID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f67f3f307eebecc25857411c25471ac3b39a97d48b48d6cc2894636c47f673b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c798d56cf3ede6a75a133dd7e0ec7f42c32e84f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119679529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011844"
 ---
 # <a name="msiinstanceguid-property"></a>Propriété MSIINSTANCEGUID
 

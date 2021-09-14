@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4502c22e31ca131dabd6d776337c3693a4d4bf4d7753734cf0e6291cf234fbe1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4864364a4752d72bd5305c5c2591b7d27391517f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920372"
 ---
 # <a name="privilegetype-simple-type"></a>Type simple privilegeType
 
@@ -184,7 +184,7 @@ Le type simple **privilegeType** définit les valeurs suivantes.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

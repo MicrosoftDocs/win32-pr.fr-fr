@@ -4,12 +4,12 @@ ms.assetid: 361b3080-3650-48a2-a1b7-f05d72777f9a
 title: Constantes PHONEFEATURE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78b074b2c02a1ceb8144d0d21ea5b8002d2a4612600072ce76254c8b38738ec4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6e0333135df4185348f3471aa4184a0cd93e907
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013464"
 ---
 # <a name="phonefeature_-constants"></a>\_Constantes PHONEFEATURE
 

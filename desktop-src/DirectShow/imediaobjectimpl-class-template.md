@@ -4,12 +4,12 @@ ms.assetid: 81d45b8d-8373-4e42-b768-f6126feb935d
 title: Modèle de classe IMediaObjectImpl (Dmoimpl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71b166836ff4da6100f61fca5d3a0c2887462b37adcbdd2ec61abeb919553a59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ecfa1be82ffeaa9e05eb6460249e0c40bb2989c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853798"
 ---
 # <a name="imediaobjectimpl-class-template"></a>Modèle de classe IMediaObjectImpl
 
@@ -46,7 +46,7 @@ Ce `IMediaObjectImpl` modèle expose les membres suivants.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

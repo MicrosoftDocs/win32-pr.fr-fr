@@ -10,12 +10,12 @@ keywords:
 - plug-ins de conversion, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f509ea15714ef62c26c6327e70c7f35a05b1257fe229d759b46532afac1a4622
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2041369bc963784c5a5be00eba57cb7f42309cc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013180"
 ---
 # <a name="windows-media-player-conversion-plug-ins"></a>Lecteur Windows Media Plug-ins de conversion
 

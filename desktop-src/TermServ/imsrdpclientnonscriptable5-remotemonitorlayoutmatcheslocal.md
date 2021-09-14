@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 235879a80e7e2a90207ee9b7852e73a26874c0961d7394fa80f2cf85e7452362
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5018b22865cc683fc9231c857a1b99b8acbfeca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119138722"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919955"
 ---
 # <a name="imsrdpclientnonscriptable5remotemonitorlayoutmatcheslocal-property"></a>IMsRdpClientNonScriptable5 :: RemoteMonitorLayoutMatchesLocal, propriété
 
@@ -46,7 +46,7 @@ HRESULT get_RemoteMonitorLayoutMatchesLocal(
 
 Reçoit la valeur de la propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

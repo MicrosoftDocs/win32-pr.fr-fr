@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: da4684872358d9d6751812b2adb2b2bea819a2e3
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 456eadecbaba7295753a18ec2ca739f5e3fc8391
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122476475"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854182"
 ---
 # <a name="jet_signature-structure"></a>Structure JET_SIGNATURE
 
@@ -53,14 +53,18 @@ Le [JET_LOGTIME](./jet-logtime-structure.md) au moment de l’exécution de [Jet
 
 Valeur de chaîne facultative du nom NetBIOS de l’ordinateur. Cette valeur ne peut pas être définie.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Il peut s’agir d’un élément de [JET_DBINFOMISC](./jet-dbinfomisc-structure.md).
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

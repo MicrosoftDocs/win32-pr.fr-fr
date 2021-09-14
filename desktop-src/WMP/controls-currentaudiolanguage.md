@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c5eb53c9f408a9d50a7f738434e5dcd30fc804970b3e1ea95c985c90d62063
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1bc84c7d4c14bb742a6db37feca59fb9d0db0e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117750611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919376"
 ---
 # <a name="controlscurrentaudiolanguage"></a>Controls. currentAudioLanguage
 
@@ -34,7 +34,7 @@ player.controls.currentAudioLanguage
 
 Cette propriété est un **nombre** en lecture/écriture (**long**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
@@ -44,7 +44,7 @@ Lors de l’utilisation d’un contenu DVD, la spécification d’un LCID entra�
 
 **Lecteur Windows Media 10 Mobile :** Cette propriété accepte ou retourne uniquement le LCID de langue neutre (0).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

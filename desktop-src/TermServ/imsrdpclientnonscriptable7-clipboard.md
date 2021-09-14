@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 236666cbef369c4f2353ff524ceb7544e62f50d4a7e4a7ac59f3882057a92f48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 770930eb780b3ce8684608ffcdc0c13c1630cab0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120009639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919915"
 ---
 # <a name="imsrdpclientnonscriptable7clipboard-property"></a>IMsRdpClientNonScriptable7 :: Clipboard, propriété
 
@@ -42,7 +42,7 @@ HRESULT get_Clipboard(
 
 [IMsRdpClipboard](imsrdpclipboard.md) qui représente le contrôleur du presse-papiers utilisé pour synchroniser les presse-papiers locaux et distants si la synchronisation manuelle du presse-papiers est activée (autrement dit, la valeur de la propriété [ManualClipboardSyncEnabled](imsrdpextendedsettings-property.md) est définie sur **true**).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

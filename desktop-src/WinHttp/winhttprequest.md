@@ -14,18 +14,18 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 92fdcb9c6eff502dc5f19cb62d92af5d4db60e15890667c894f96cfb55a9e5ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 907e94a731b2ec150a331347480c461d0d0fa319
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119132912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013132"
 ---
 # <a name="winhttprequest-object"></a>Objet WinHttpRequest
 
 Cette rubrique fournit des informations sur l’utilisation de l’objet **WinHttpRequest** com WinHTTP avec les langages de script. Pour plus d’informations, y compris l’API C++ (WinHTTP), consultez [à propos de WinHTTP](about-winhttp.md). Pour une comparaison de ces interfaces, consultez [choix d’une interface WinHTTP](choosing-a-winhttp-interface.md) .
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 ```javascript
 // Instantiate a WinHttpRequest object.
@@ -86,8 +86,8 @@ L’objet **WinHttpRequest** a ces méthodes.
 | [**Arrêté**](iwinhttprequest-abort.md)                                 | Abandonne une méthode d' [**envoi**](iwinhttprequest-send.md) [WinHTTP](about-winhttp.md) .<br/>                                                              |
 | [**GetAllResponseHeaders**](iwinhttprequest-getallresponseheaders.md) | Récupère tous les en-têtes de réponse HTTP.<br/>                                                                                                            |
 | [**GetResponseHeader**](iwinhttprequest-getresponseheader.md)         | Récupère les en-têtes de réponse HTTP.<br/>                                                                                                            |
-| [**Afficher**](iwinhttprequest-open.md)                                   | Ouvre une connexion HTTP à une ressource HTTP.<br/>                                                                                                   |
-| [**Envoyer**](iwinhttprequest-send.md)                                   | Envoie une requête HTTP à un serveur HTTP.<br/>                                                                                                        |
+| [**Ouvrir**](iwinhttprequest-open.md)                                   | Ouvre une connexion HTTP à une ressource HTTP.<br/>                                                                                                   |
+| [**Envoi**](iwinhttprequest-send.md)                                   | Envoie une requête HTTP à un serveur HTTP.<br/>                                                                                                        |
 | [**SetAutoLogonPolicy**](iwinhttprequest-setautologonpolicy.md)       | Définit la [stratégie d’ouverture de session automatique](authentication-in-winhttp.md)actuelle.<br/>                                                |
 | [**SetClientCertificate**](iwinhttprequest-setclientcertificate.md)   | Sélectionne un certificat client à envoyer à un serveur HTTPs (Secure Hypertext Transfer Protocol).<br/>                                                    |
 | [**SetCredentials**](iwinhttprequest-setcredentials.md)               | Définit les informations d’identification à utiliser avec un serveur HTTP, qu’il s’agisse d’un serveur d’origine ou d’un serveur proxy.<br/>                                                             |
@@ -112,7 +112,7 @@ L’objet **WinHttpRequest** a ces propriétés.
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | Lecture seule<br/>  | Récupère le corps d’entité de réponse sous la forme d’un tableau d’octets non signés.<br/>    |
 | [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Lecture seule<br/>  | Récupère le corps d’entité de réponse en tant qu' [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
 | [**ResponseText**](iwinhttprequest-responsetext.md)<br/>     | Lecture seule<br/>  | Récupère le corps d’entité de réponse sous forme de texte.<br/>                          |
-| [**Statut**](iwinhttprequest-status.md)<br/>                 | Lecture seule<br/>  | Récupère le code d’état HTTP de la dernière réponse.<br/>               |
+| [**État**](iwinhttprequest-status.md)<br/>                 | Lecture seule<br/>  | Récupère le code d’état HTTP de la dernière réponse.<br/>               |
 | [**StatusText**](iwinhttprequest-statustext.md)<br/>         | Lecture seule<br/>  | Récupère le texte d’état HTTP.<br/>                                          |
 
 

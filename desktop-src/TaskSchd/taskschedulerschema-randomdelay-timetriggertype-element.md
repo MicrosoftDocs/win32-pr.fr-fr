@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c4c9fde8a0f88ed7e87b5a0d3ccc252f141f6b677f535adf853ef0aca9499b4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a28613cb236b6dc8a3ae77dce9452423a992a866
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118611505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920348"
 ---
 # <a name="randomdelay-timetriggertype-element"></a>Élément RandomDelay (timeTriggerType)
 
@@ -44,13 +44,13 @@ L’élément est défini par le type complexe [**timeTriggerType**](taskschedul
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété RandomDelay de ITimeTrigger**](/windows/desktop/api/taskschd/nf-taskschd-itimetrigger-get_randomdelay).
 
 Pour le développement de scripts, consultez [**timetrigger. RandomDelay**](timetrigger-randomdelay.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: a6c6d33ba6a18ce713a190f5b185da7006f295da
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941140"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Shader Model 3 (référence HLSL)
 

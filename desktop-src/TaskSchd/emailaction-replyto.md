@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7b3d59d2708736519cd7623f7aeb7c2519d29b4a396d7f6e9503e9174e1274f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc7ed1fd84245e4d938d329f0e9773271efec45b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120100289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013448"
 ---
 # <a name="emailactionreplyto-property"></a>EmailAction. ReplyTo, propriété
 
@@ -31,7 +31,7 @@ Pour les scripts, obtient ou définit l’adresse de messagerie à laquelle vous
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```VB

@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI, référence, fonctions obsolètes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f68e50fa3ba2ea4256cc58e7ea48883090cfe64205776e43322f95f423595cbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f7eb555a47eef8f132a7bdeb9665f99273e5fc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117839169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854008"
 ---
 # <a name="obsolete-adsi-functions"></a>Fonctions ADSI obsolètes
 

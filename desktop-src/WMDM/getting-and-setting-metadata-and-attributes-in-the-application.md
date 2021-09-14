@@ -17,12 +17,12 @@ keywords:
 - attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c8c67300e2d4dc81adf90641e33be685baf439cb444a0c186d8a45191b5a30e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a78dbb31ebcc5ec99b1db3503b386b09b5a3c05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119957569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919520"
 ---
 # <a name="accessing-metadata-and-attributes-in-the-app"></a>Accès aux métadonnées et aux attributs dans l’application
 

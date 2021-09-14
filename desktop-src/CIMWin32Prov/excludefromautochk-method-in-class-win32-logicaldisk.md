@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a37171c594cb3a51b131220bb604234bcae108fa025ea6343da99fdc998a7dc4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c41d93111742e975490d97169c7e9147ba5fb1ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118676127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940759"
 ---
 # <a name="excludefromautochk-method-of-the-win32_logicaldisk-class"></a>Méthode ExcludeFromAutochk de la \_ classe disque logique Win32
 
@@ -51,7 +51,7 @@ Exemple : "C :"
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) quand aucune erreur ne se produit. Les valeurs sont répertoriées dans la liste suivante. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -72,7 +72,7 @@ Retourne la valeur 0 (zéro) quand aucune erreur ne se produit. Les valeurs sont
 **Erreur : lecteur inconnu** (4)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 S’il n’est pas exclu, **Autochk** est exécuté sur le disque lorsque le bit d’intégrité est défini pour le disque. Notez que les appels pour exclure des disques ne sont pas cumulatifs. Si un appel est effectué pour exclure certains disques, la nouvelle liste n’est pas ajoutée à la liste des disques déjà marqués pour l’exclusion. La nouvelle liste de disques remplace la liste précédente. Cette méthode s’applique uniquement aux instances de disque logique qui représentent un disque physique de l’ordinateur. Elle ne s’applique pas aux lecteurs logiques mappés.
 
@@ -93,7 +93,7 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

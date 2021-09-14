@@ -4,12 +4,12 @@ ms.assetid: 0c8424c7-ab9b-4a09-aaa8-6a3f44c2789f
 title: Propriété MSIENFORCEUPGRADECOMPONENTRULES
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11535beb45ac521e59ec31c5e5231b23549394b75e5df2372ba4295471ea8008
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85d5946ba3a0001c988ddfe76eeaf95c008205b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945043"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011861"
 ---
 # <a name="msienforceupgradecomponentrules-property"></a>Propriété MSIENFORCEUPGRADECOMPONENTRULES
 

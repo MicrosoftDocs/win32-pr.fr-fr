@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2367686e308eb33287dafc3ce274d039b71534048fea07bc313e0542af4e2041
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9e0643220915ecb1c8f2cd1fe842e0dc3f21d8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118355639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920252"
 ---
 # <a name="to-sendemailtype-element"></a>À (sendEmailType) (élément)
 
@@ -42,13 +42,13 @@ L’élément **to** est défini par le type complexe [**sendEmailType**](tasksc
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété to de IEmailAction**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to).
 
 Pour le développement de scripts, consultez [**EmailAction.to**](emailaction-to.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

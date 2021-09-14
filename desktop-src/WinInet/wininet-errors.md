@@ -108,12 +108,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55917c9e51225303cfd9bfc385bbd40c4d70ae8db7ada0167e0b669fb42692a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d43fcaba7f0404ad002d2a94ac8291c95b0f7440
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117928391"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013125"
 ---
 # <a name="error-messages-winineth"></a>Messages d’erreur (Wininet. h)
 
@@ -1445,7 +1445,7 @@ Aucun autre élément n’a été trouvé.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

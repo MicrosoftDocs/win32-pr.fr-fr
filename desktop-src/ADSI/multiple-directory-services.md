@@ -7,12 +7,12 @@ keywords:
 - ADSI des services d’annuaire multiples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 852888a6d3c0d8be9dbb8309efc57f4d29a60d83a21463a13c435e840fb96acc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccc2e174fc1b07564f1cca6c12093a289a0c865a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117839439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854020"
 ---
 # <a name="multiple-directory-services"></a>Plusieurs services d’annuaire
 

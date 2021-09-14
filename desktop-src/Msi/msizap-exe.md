@@ -4,12 +4,12 @@ ms.assetid: 0debb8ab-3ae7-447e-84fc-0466ec1b2f26
 title: Msizap.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5f29de42f41a72f06f62627489f8f44d1b21c5c76066ba1b1a990334f53c13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a89f2287443bc442ee767b01e975d6bcc118c1d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118943670"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011841"
 ---
 # <a name="msizapexe"></a>Msizap.exe
 

@@ -4,12 +4,12 @@ ms.assetid: 8c5e4652-1a40-4d7d-aa89-606e979dc03d
 title: 'ITStreamQualityControl :: GetRange, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e13d07b848ef3be744f40ec1ba4bb4a73514f88204fa1918db661e00d36019ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bea8b20c2617eb0fe54ccc4603997464fca25f48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119774469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013480"
 ---
 # <a name="itstreamqualitycontrolgetrange-method"></a>ITStreamQualityControl :: GetRange, méthode
 
@@ -79,7 +79,7 @@ Valeur de l’énumération [**TAPIControlFlags**](tapicontrolflags.md) indiquan
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 

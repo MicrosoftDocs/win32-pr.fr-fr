@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 392e0bb2940c36b541f63f55dac418312489f231d785f82014ade82c20602fbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69b140a2b65d47d563fd88f49d6818efc13613f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118343601"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013307"
 ---
 # <a name="metadatatype-complex-type"></a>Type complexe de type de données
 
@@ -107,8 +107,8 @@ Définit les types de métadonnées que vous pouvez définir dans la section mé
 
 | Élément                                                                       | Type                                                                       | Description                                                                                                                                                      |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**couche**](eventmanifestschema-channels-metadatatype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md) | Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des événements. Un fournisseur peut ensuite importer un ou plusieurs canaux dans son manifeste.<br/>               |
-| [**mots clés**](eventmanifestschema-keywords-metadatatype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md) | Définit une liste de mots clés qui déterminent la catégorie d’événements que le fournisseur écrit.<br/>                                                            |
+| [**canaux**](eventmanifestschema-channels-metadatatype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md) | Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des événements. Un fournisseur peut ensuite importer un ou plusieurs canaux dans son manifeste.<br/>               |
+| [**mot**](eventmanifestschema-keywords-metadatatype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md) | Définit une liste de mots clés qui déterminent la catégorie d’événements que le fournisseur écrit.<br/>                                                            |
 | [**Balance**](eventmanifestschema-levels-metadatatype-element.md)             | [**LevelListType**](eventmanifestschema-levellisttype-complextype.md)     | Définit une liste de niveaux qui spécifient la gravité d’un événement.<br/>                                                                                       |
 | **message**                                                                   |                                                                            | Définit une chaîne de message.<br/>                                                                                                                             |
 | **messageTable**                                                              |                                                                            | Définit une liste de chaînes de message.<br/>                                                                                                                    |
@@ -129,7 +129,7 @@ Définit les types de métadonnées que vous pouvez définir dans la section mé
 | mid     | xs:string                                                         | Non utilisé.<br/>                                                                               |
 | name    | anyURI                                                            | URI du fichier méta. <br/>                                                              |
 | symbole  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Nom symbolique que vous souhaitez que le compilateur de message crée pour cette chaîne de message.<br/> |
-| valeur   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Nombre à utiliser comme identificateur de message pour ce message.<br/>                           |
+| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Nombre à utiliser comme identificateur de message pour ce message.<br/>                           |
 
 
 

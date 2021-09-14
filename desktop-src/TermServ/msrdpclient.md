@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f08494ccde9b0a25d7f862580c3ff1d828b7502c902fc101f16e0960d322163
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bf41d3d309069f5b5891597fd3b5c898cc18063
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119870189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919752"
 ---
 # <a name="msrdpclient-class"></a>MsRdpClient, classe
 
@@ -111,12 +111,12 @@ La classe **MsRdpClient** possède les propriétés suivantes.
 | [**CipherStrength**](imstscax-cipherstrength.md)<br/>                         | Lecture seule<br/>  | Force de chiffrement maximale du contrôle actuel.<br/>                                                                                                        |
 | [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)<br/>        | Écriture seule<br/> | Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br/>                                                                                              |
 | [**La**](imsrdpclient-colordepth.md)<br/>                             | Lecture/écriture<br/> | Profondeur de couleur du contrôle actuel.<br/>                                                                                                                            |
-| [**Connecté**](imstscax-connected.md)<br/>                                   | Lecture seule<br/>  | État de connexion du contrôle actuel.<br/>                                                                                                                   |
+| [**Correctement**](imstscax-connected.md)<br/>                                   | Lecture seule<br/>  | État de connexion du contrôle actuel.<br/>                                                                                                                   |
 | [**ConnectingText**](imstscax-connectingtext.md)<br/>                         | Lecture/écriture<br/> | Texte qui apparaît centré dans le contrôle pendant la connexion du contrôle.<br/>                                                                                 |
 | [**DesktopHeight**](imstscax-desktopheight.md)<br/>                           | Lecture/écriture<br/> | Hauteur du contrôle actuel, en pixels, sur le Bureau à distance initial.<br/>                                                                                        |
 | [**DesktopWidth**](imstscax-desktopwidth.md)<br/>                             | Lecture/écriture<br/> | Largeur, en pixels, du contrôle actif sur le Bureau à distance initial.<br/>                                                                                         |
 | [**DisconnectedText**](imstscax-disconnectedtext.md)<br/>                     | Lecture/écriture<br/> | Texte qui apparaît centré dans le contrôle avant qu’une connexion ne soit terminée.<br/>                                                                               |
-| [**Domaine**](imstscax-domain.md)<br/>                                         | Lecture/écriture<br/> | Domaine sur lequel l’utilisateur actuel ouvre une session.<br/>                                                                                                                  |
+| [**Domain**](imstscax-domain.md)<br/>                                         | Lecture/écriture<br/> | Domaine sur lequel l’utilisateur actuel ouvre une session.<br/>                                                                                                                  |
 | [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)<br/> | Lecture seule<br/>  | Informations étendues sur la raison de la déconnexion du contrôle client.<br/>                                                                                      |
 | [**Large**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Indique si le contrôle est en mode plein écran.<br/>                                                                                                          |
 | [**FullScreenTitle**](imstscax-fullscreentitle.md)<br/>                       | Écriture seule<br/> | Titre de la fenêtre qui s’affiche lorsque le contrôle est en mode plein écran.<br/>                                                                                            |
@@ -126,7 +126,7 @@ La classe **MsRdpClient** possède les propriétés suivantes.
 | [**SecuredSettings**](imstscax-securedsettings.md)<br/>                       | Lecture seule<br/>  | Pointeur d’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) .<br/>                                                                          |
 | [**SecuredSettings2**](imsrdpclient-securedsettings2.md)<br/>                 | Lecture seule<br/>  | Pointeur vers l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) , utilisé pour définir des paramètres sécurisés pour le contrôle client.<br/>    |
 | [**SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md)<br/>         | Lecture seule<br/>  | Indique si l’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) est disponible.<br/>                                                 |
-| [**Serveur**](imstscax-server.md)<br/>                                         | Lecture/écriture<br/> | Nom du serveur auquel le contrôle actuel est connecté.<br/>                                                                                              |
+| [**Serveurs**](imstscax-server.md)<br/>                                         | Lecture/écriture<br/> | Nom du serveur auquel le contrôle actuel est connecté.<br/>                                                                                              |
 | [**StartConnected**](imstscax-startconnected.md)<br/>                         | Lecture/écriture<br/> | Indique si le contrôle établira la connexion au serveur hôte de session Bureau à distance dès le démarrage.<br/>                                                   |
 | [**Nom d’utilisateur**](imstscax-username.md)<br/>                                     | Lecture/écriture<br/> | Informations d’identification d’ouverture de session de nom d’utilisateur.<br/>                                                                                                                                |
 | [**Version**](imstscax-version.md)<br/>                                       | Lecture seule<br/>  | Numéro de version du contrôle actuel.<br/>                                                                                                                     |
@@ -136,7 +136,7 @@ La classe **MsRdpClient** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

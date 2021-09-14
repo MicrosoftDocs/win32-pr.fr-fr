@@ -42,12 +42,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20d64ac732af45e935ddef8d0436bc2b9173854394c55bcc19c085dec5926e31
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d8c8f4113c39b79783978252136c50d2111ed0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919959"
 ---
 # <a name="imsrdpclientadvancedsettings2canautoreconnect-property"></a>IMsRdpClientAdvancedSettings2 :: CanAutoReconnect, propriété
 
@@ -74,7 +74,7 @@ Reçoit **la \_ valeur variant true** si le contrôle est en mesure de se reconn
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les situations dans lesquelles la reconnexion automatique n’est peut-être pas activée incluent celles dans lesquelles un administrateur utilise une stratégie de groupe pour désactiver les reconnexion automatique et les environnements hérités qui ne prennent pas en charge la reconnexion automatique.
 
@@ -82,7 +82,7 @@ Cette propriété ne peut pas être définie lorsque le contrôle est connecté.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

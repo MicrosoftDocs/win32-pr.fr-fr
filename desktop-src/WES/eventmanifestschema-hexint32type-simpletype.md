@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e1bd3ecb22b3b2bb65d3563a1a29ba4a1ff9550ff2c4de68dba1cf81789d7f26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 631bb3e8424db8a5d781aaa43df6096730aaa4d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119865869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013309"
 ---
 # <a name="uint32type-simple-type-windows-event-log"></a>Type Simple UInt32Type (journal des événements Windows)
 

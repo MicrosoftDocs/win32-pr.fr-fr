@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 0b4a1b5e6aeaa77c0bdfe12b1d5b68fde018f236
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317510"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013420"
 ---
 # <a name="daysofweektype-complex-type"></a>Type complexe daysOfWeekType
 
@@ -73,7 +73,7 @@ Définit les éléments enfants et les informations de séquencement pour les é
 | Élément                                                                   | Type | Description                         |
 |---------------------------------------------------------------------------|------|-------------------------------------|
 | [**Vendredi**](taskschedulerschema-friday-daysofweektype-element.md)       | N/A  | La tâche est exécutée le vendredi. <br/>    |
-| [**Monday**](taskschedulerschema-monday-daysofweektype-element.md)       | N/A  | La tâche est exécutée le lundi.<br/>     |
+| [**Lundi**](taskschedulerschema-monday-daysofweektype-element.md)       | N/A  | La tâche est exécutée le lundi.<br/>     |
 | [**Samedi**](taskschedulerschema-saturday-daysofweektype-element.md)   | N/A  | La tâche est exécutée le samedi. <br/>  |
 | [**Dimanche**](taskschedulerschema-sunday-daysofweektype-element.md)       | N/A  | La tâche est exécutée le dimanche. <br/>    |
 | [**Thursday**](taskschedulerschema-thursday-daysofweektype-element.md)   | N/A  | Tâche exécutée le jeudi <br/>   |
@@ -88,8 +88,8 @@ Définit les éléments enfants et les informations de séquencement pour les é
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

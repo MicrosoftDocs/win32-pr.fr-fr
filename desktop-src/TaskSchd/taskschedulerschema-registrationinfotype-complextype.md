@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 704fcb3205f032654ef6a666dd119dec34f88992018f16b1715ba4982847149d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe98a06daf84ec753c26903cc09787cec65c8d10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118131659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920340"
 ---
 # <a name="registrationinfotype-complex-type"></a>Type complexe registrationInfoType
 
@@ -80,7 +80,7 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

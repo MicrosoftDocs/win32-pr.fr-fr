@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d77f6a488546760f61fb04d57f01fe5ee3a74a23b8b8d975b791ae22a5e2304a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81780d8a59d386513b97d137d43eb170c93034f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919019"
 ---
 # <a name="onendalphablend"></a>onendalphablend
 
@@ -28,7 +28,7 @@ Le gestionnaire d’événements **onendalphablend** gère un événement qui se
 onendalphablend
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

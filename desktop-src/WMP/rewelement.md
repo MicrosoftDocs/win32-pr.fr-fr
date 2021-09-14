@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 572474e52035f38d0a222ad8d090f9502d572d00455da12de9265e1fc89b7ffb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab72674decf5505a5fe0259eaa9f98731bed2b16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119646719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013215"
 ---
 # <a name="rewelement"></a>REWELEMENT
 
@@ -31,7 +31,7 @@ cursor="system"
 enabled="wmpenabled:player.controls.fastReverse"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les propriétés de ce **BUTTONELEMENT** peuvent être remplacées en les spécifiant explicitement.
 

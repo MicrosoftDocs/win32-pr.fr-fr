@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d8d35e4b6088745f9bfd4cfc3af9920db6fca3f88d671f6613af959e259d87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b39bb49a79e319d848b12e4bbf50e191b21605f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118607447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919943"
 ---
 # <a name="imsrdpclientnonscriptable5warnaboutdirectxredirection-property"></a>IMsRdpClientNonScriptable5 :: WarnAboutDirectXRedirection, propriété
 
@@ -51,7 +51,7 @@ HRESULT get_WarnAboutDirectXRedirection(
 
 Spécifie la nouvelle valeur de la propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 11169540-555A-48A9-A4CD-535D5765C005
 title: Outil de test de compatibilité d'Internet Explorer (IECTT)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12209664dc5aca037b30d938f9c25c9a0e25d02d84019c1a3cb43056a3af06df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3a35b3120e95c668f2808c9c525d0c1d4f89f8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013165"
 ---
 # <a name="internet-explorer-compatibility-test-tool-iectt"></a>Outil de test de compatibilité d'Internet Explorer (IECTT)
 

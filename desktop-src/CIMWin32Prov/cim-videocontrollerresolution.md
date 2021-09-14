@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: af943df981ca2043e83dfcdd3daade0a1c13b63222a163d7e6ecf1d6110396e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d448d92d79163bc6a4e1056e88434081c5878159
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118420376"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920520"
 ---
 # <a name="cim_videocontrollerresolution-class"></a>\_Classe CIM VideoControllerResolution
 
@@ -279,7 +279,7 @@ Résolution verticale du contrôleur, en pixels.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI implémente la classe **CIM \_ VideoControllerResolution** . La **classe \_ VideoControllerResolution CIM** est une classe dynamique.
 
@@ -287,7 +287,7 @@ Cette documentation est dérivée des descriptions de classe CIM publiées par l
 
 Notez que cette classe est une classe de base. Si vous tentez d’accéder à votre contrôleur vidéo via WMI, vous souhaiterez peut-être utiliser [**Win32 \_ VideoController**](win32-videocontroller.md) à la place.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

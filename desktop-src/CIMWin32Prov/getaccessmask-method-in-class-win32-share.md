@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ebc2b2620b0bdc019e117f9a4b2c376be6320be968fdae42509dc3f62c3cc9a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fcd6396f6421060a67108e7c428c99bcd7ca9651
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940756"
 ---
 # <a name="getaccessmask-method-of-the-win32_share-class"></a>Méthode GetAccessMask de la \_ classe de partage Win32
 
@@ -40,7 +40,7 @@ uint32 GetAccessMask();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Droits d’accès au partage détenu par l’utilisateur ou le groupe.
 
@@ -172,7 +172,7 @@ Synchronise l’accès et permet à un processus d’attendre qu’un objet pass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **GetAccessMask** est une méthode d’objet qui est utilisée sur une occurrence de cette classe.
 
@@ -202,7 +202,7 @@ WScript.Echo Return
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

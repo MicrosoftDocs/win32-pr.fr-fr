@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes de gestion des services WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 879044411a0bcba63900de648c798863e764261fe80934bbc914a01854ae8f1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b502abebbddfd2ce90562045a8b0d7acd3974171
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079513"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920424"
 ---
 # <a name="wmi-service-management-classes"></a>Classes de gestion des services WMI
 

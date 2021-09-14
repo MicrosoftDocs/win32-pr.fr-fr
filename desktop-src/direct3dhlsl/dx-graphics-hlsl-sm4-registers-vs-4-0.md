@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 425fc4174b1c4a103fc7db15b5f05ae2b6dd95e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941111"
 ---
 # <a name="registers---vs_4_0"></a>Registres-vs \_ 4 \_ 0
 
@@ -31,12 +31,12 @@ Cette section contient des informations de référence pour les registres d’en
 | v\#           |      | 16                 | R   | 4         | Oui              | None     | Oui          |
 | t\#           |      | 128                | R   | 1         | Non               | None     | Oui          |
 | s\#           |      | 16                 | R   | 1         | Non               | None     | Oui          |
-| \# \[ index CB\] |      | 15                 | R   | 4         | Oui (contenu)    | Aucun     | Oui          |
-| \[index ICB\]  |      | 1                  | R   | 4         | Oui (contenu)    | Aucun     | Oui          |
+| \# \[ index CB\] |      | 15                 | R   | 4         | Oui (contenu)    | None     | Oui          |
+| \[index ICB\]  |      | 1                  | R   | 4         | Oui (contenu)    | None     | Oui          |
 
 
 
- 
+ 
 
 ## <a name="output-registers"></a>Registres de sortie
 
@@ -49,7 +49,7 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -58,9 +58,9 @@ Cette section contient des informations de référence pour les registres d’en
 [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

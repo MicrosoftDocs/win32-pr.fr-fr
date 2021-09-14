@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11bd88f462c3fa6f7a2ce878244efbdc95b8a2e9c2674c76e0f828284c655511
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5360d820804793ae164deba9eaeda1d66f62ad43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013269"
 ---
 # <a name="iwmpstringcollection-vb-and-c-interface"></a>interface IWMPStringCollection (VB et C#)
 
@@ -57,7 +57,7 @@ l’interface **IWMPStringCollection (VB et C#)** a ces propriétés.
 
 | Propriété                                                                                    | Type d’accès          | Description                                                   |
 |:--------------------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------|
-| [**saut**](wmplibiwmpstringcollection-iwmpstringcollection-count--vb-and-c.md)<br/> | Lecture seule<br/> | Obtient le nombre d’éléments dans la collection de chaînes.<br/> |
+| [**count**](wmplibiwmpstringcollection-iwmpstringcollection-count--vb-and-c.md)<br/> | Lecture seule<br/> | Obtient le nombre d’éléments dans la collection de chaînes.<br/> |
 
 
 

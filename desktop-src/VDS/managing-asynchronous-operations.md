@@ -4,12 +4,12 @@ ms.assetid: e5136e15-3ae1-4e0a-ae97-fcf16203b21d
 title: Gestion des opérations asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 537a52a41e73bae7035789176bb65b125c105f691bf654ed3c0ded4e6a73f70d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d220c5633f9ee044dbf9cdb6a63b563747620afd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118999448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853048"
 ---
 # <a name="managing-asynchronous-operations"></a>Gestion des opérations asynchrones
 

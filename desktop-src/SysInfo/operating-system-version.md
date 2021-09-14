@@ -4,12 +4,12 @@ ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: Version du système d'exploitation
 ms.topic: article
 ms.date: 09/15/2020
-ms.openlocfilehash: ae90f4eac5546fccd7513d781234896fbbbda93ff3723a9ac1db438321ecf214
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73eb9a81880f29f9292713af46c5c79a7e9eb2de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117763951"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013512"
 ---
 # <a name="operating-system-version"></a>Version du système d'exploitation
 
@@ -19,11 +19,11 @@ Le tableau suivant récapitule les numéros de version des systèmes d’exploit
 
 | Système d’exploitation | Numéro de version |
 |------------------|----------------|
-| Windows 10       | 10,0\*         |
-| Windows Server 2019 | 10,0\*      |
+| Windows 10       | 10,0\*         |
+| Windows Server 2019 | 10,0\*      |
 | Windows Server 2016 | 10,0\*      |
-| Windows 8.1      | 6.3\*          |
-| Windows Server 2012 R2 | 6.3\*    |
+| Windows 8.1      | 6,3\*          |
+| Windows Server 2012 R2 | 6,3\*    |
 | Windows 8        | 6.2            |
 | Windows Server 2012 | 6.2         |
 | Windows 7        | 6.1            |

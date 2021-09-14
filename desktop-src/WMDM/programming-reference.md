@@ -19,12 +19,12 @@ keywords:
 - référence pour Windows Gestionnaire de périphériques de support, fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67b37347b944d85200e38d5542236ef8455c99372b5444720f0a7a3cb098d57b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e624bbc445d5d5e376cad926248ae4ee4db17a6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119766319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919444"
 ---
 # <a name="wmdm-reference"></a>Référence WMDM
 

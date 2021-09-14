@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e89eab1ffbb8c9f3d48c3f61eb6d831af66b4931ed1d858658eed3fc21d08183
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71586f6aa37401d56a9e9537bfbea6c5af23f318
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118118799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919156"
 ---
 # <a name="mediaduration"></a>Media. Duration
 
@@ -33,7 +33,7 @@ La propriété **Duration** récupère, en secondes, la durée de l’élément 
 
 Cette propriété est un **nombre** en lecture seule ( **double**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette propriété est utilisée avec un élément multimédia autre que celui spécifié dans le *lecteur*. **currentMedia**, il ne peut pas contenir une valeur valide.
 
@@ -83,7 +83,7 @@ RemTime.innerHTML += Math.floor(Player.currentMedia.duration - TimeNow);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

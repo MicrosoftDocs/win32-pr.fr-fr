@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.tabl
 ms:contentKeyID: 55104054
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 047dd1605429c0a72c63fd609a8c08ccd65d333cbab82f24ad010b9f096e8122
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4e5bd09cf1c450197978e3126dc63fe96ec6425
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117703185"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920663"
 ---
 # <a name="table-members"></a>Membres de table
 
@@ -165,7 +165,7 @@ Haut
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>Nom</th>
 <th>Description</th>
 </tr>
 </thead>

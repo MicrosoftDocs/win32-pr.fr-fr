@@ -18,12 +18,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e9060de5f33956dde0cf288a3125af2a89f97bb841faeda8e0638cd5ab29334a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 385b149e07e9d30df4e11a21f8e7aa4b05e06910
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118116622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013185"
 ---
 # <a name="windows-media-metafiles"></a>Windows Fichiers multimédias
 

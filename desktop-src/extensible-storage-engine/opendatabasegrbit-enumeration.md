@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2bfd131d448157b44e861de4d8c167a074a3c1cefb361c3dffe085793f40c224
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d14fb779ec02137f6a4fce1cfdd92f46dedcb832
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117890751"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126854116"
 ---
 # <a name="opendatabasegrbit-enumeration"></a>Énumération OpenDatabaseGrbit
 

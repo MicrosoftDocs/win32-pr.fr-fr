@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: f2c3c580a44b9cff35d7ee801cfc611b5cf8a8df828f54c28b022e5c1a1b862a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e83de26f1c2186293265dc39db603e0a9cf31436
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117819041"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853840"
 ---
 # <a name="imediadetgetsamplegrabber-method"></a>IMediaDet :: GetSampleGrabber, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Reçoit un pointeur vers l’interface [**ISampleGrabber**](isamplegrabber.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez [**IMediaDet :: EnterBitmapGrabMode**](imediadet-enterbitmapgrabmode.md) avant d’appeler cette méthode. L’interface [**ISampleGrabber**](isamplegrabber.md) vous permet de récupérer des échantillons de médias individuels à partir du flux. Si vous avez simplement besoin d’une image bitmap d’une image vidéo, appelez la méthode [**IMediaDet :: GetBitmapBits**](imediadet-getbitmapbits.md) à la place. L’interface **ISampleGrabber** est plus souple, mais elle nécessite plus de travail que l’application.
 
@@ -72,7 +72,7 @@ Si cette méthode est réussie, l’interface [**ISampleGrabber**](isamplegrabbe
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

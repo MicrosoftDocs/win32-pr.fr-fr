@@ -10,12 +10,12 @@ keywords:
 - Echo DSP, exemple de plug-in, propriété Scale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b10073e01213469dcb6a85ddffd378421fddb6ae8f2fd432b9822c3a5046fdd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd91e2315db9d0d1e14d2aec55f79a8b05c442ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118574616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919115"
 ---
 # <a name="modifying-the-scale-property"></a>Modification de la propriété Scale
 

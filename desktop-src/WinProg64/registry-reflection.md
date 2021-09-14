@@ -7,12 +7,12 @@ keywords:
 - Windows la programmation de la réflexion 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9104ba6bf4d537a597a2a45bfd9034379ed1781dd893e23633c08e9e9c1149b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 523041004d9570bbdf101050e30f5d9139031913
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119899039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013115"
 ---
 # <a name="registry-reflection"></a>Réflexion du Registre
 

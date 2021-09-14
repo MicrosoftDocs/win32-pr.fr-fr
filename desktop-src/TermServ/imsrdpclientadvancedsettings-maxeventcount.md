@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8cb0ee5cb5d38f57619e54be56d3c6cab49641b9183f7771cefbbfaad0eec0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb305d4a81b3c4dd9eb53dceab5a4e685c57c060
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118353028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919980"
 ---
 # <a name="imsrdpclientadvancedsettingsmaxeventcount-property"></a>IMsRdpClientAdvancedSettings :: maxEventCount, propriété
 
@@ -90,11 +90,11 @@ Nouveau nombre d’événements. La valeur par défaut est 100.
 
 Retourne **S \_ false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

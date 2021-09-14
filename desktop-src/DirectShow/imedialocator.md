@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d4a177c928d5e21b89f07344102e94ea1c821f2c2f4e867793c12cd4d54fa45e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9664bf793e989c5975bcef0e712a550399c4ddee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117998256"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853797"
 ---
 # <a name="imedialocator-interface"></a>Interface IMediaLocator
 
@@ -58,7 +58,7 @@ L’interface **IMediaLocator** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -70,7 +70,7 @@ L’interface **IMediaLocator** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

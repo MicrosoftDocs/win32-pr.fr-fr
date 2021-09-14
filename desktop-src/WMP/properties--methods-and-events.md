@@ -29,12 +29,12 @@ keywords:
 - événements, Lecteur Windows Media modèle objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbcc07977bc7ddcd2dd162600d4fa3d2822a3f52f38983ea8427f89d9403ecf7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e06a860d04bfc1a5ccd5b33c0604a0ef818a0127
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118571083"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013242"
 ---
 # <a name="properties-methods-and-events"></a>Propriétés, méthodes et événements
 

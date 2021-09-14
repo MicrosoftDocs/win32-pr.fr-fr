@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ab89f833167a0a974e860113d342b4486b9649ef3a4cc862a82e345e5d9cd090
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f9febbe20cfd5ab9a6577a6e00989c7d6fc4145
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118153955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853731"
 ---
 # <a name="irenderenginescrapit-method"></a>IRenderEngine :: ScrapIt, méthode
 
@@ -43,7 +43,7 @@ HRESULT ScrapIt();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -58,7 +58,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -70,7 +70,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - référence pour les plug-ins de conversion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8fdb0e1155a5142de0386663db60f6f3cf58b5c608a6becc763cad28428261e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8009146b26b51e8f067a9422a7fa933afdc24ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118341788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919323"
 ---
 # <a name="conversion-plug-ins-programming-reference"></a>Référence de programmation de plug-ins de conversion
 

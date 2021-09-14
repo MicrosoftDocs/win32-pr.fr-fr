@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: c47170dd68749b13f0c6a3bc818f0a2fb775e77b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750493"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920703"
 ---
 # <a name="jet_setcolumnpvdata-property"></a>JET_SETCOLUMN. pvData, propriété
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e4f491d857eb4ca0fde629b780f22a7795b79f593f94332fb923003520cec706
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cee7cfc48f62b58caf63125404fb07209b399fc1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118357208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013405"
 ---
 # <a name="deleteexpiredtaskafter-settingstype-element"></a>Élément DeleteExpiredTaskAfter (settingsType)
 

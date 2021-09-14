@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1409d50a0317758534724b9e2c3a9796c4dd0cb40e666f58fc65ca0771da9762
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f262b8f5d74018a4622f915def85df5e16108cdb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119659039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853533"
 ---
 # <a name="bcc-sendemailtype-element"></a>Élément BCC (sendEmailType)
 
@@ -42,13 +42,13 @@ L’élément **BCC** est défini par le type complexe [**sendEmailType**](tasks
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété BCC de IEmailAction**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc).
 
 Pour le développement de scripts, consultez [**EmailAction. CCI**](emailaction-bcc.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Perfstruct.h
-ms.openlocfilehash: c7b8f83fffaa718c27e0333d864a564282228c0943f4d77fb653dc1800a6ddd2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 599befea67b28acbedffd5c98ebce84aadf70838
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853654"
 ---
 # <a name="perfinfo_dshow_audiobreak-structure"></a>PERFINFO \_ DShow \_ AUDIOBREAK, structure
 
@@ -72,13 +72,13 @@ Durée de l’arrêt, en millisecondes.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour activer cet événement, vous devez définir l' \_ indicateur de bit AUDIOBREAK dans le paramètre *EnableFlag* lorsque vous appelez **EnableTrace**. cet indicateur est défini dans le fichier d’en-tête Dxmperf. h, qui est inclus dans les classes de base DirectShow.
 
 pour enregistrer cet événement à partir d’un filtre de DirectShow, utilisez la macro **PERFLOG \_ AUDIOBREAK** , qui est définie dans Dxmperf. h.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

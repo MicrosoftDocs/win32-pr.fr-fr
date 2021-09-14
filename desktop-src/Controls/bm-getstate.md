@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd44921c61477e26cd5570fcbaa6f96a4e61f96ee22ad1c705bf553788d8cfba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3b5e69f067acfc13cd8661be8a585fcfc8e6fe4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118674839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940579"
 ---
 # <a name="bm_getstate-message"></a>\_Message GETSTATE BM
 
@@ -43,7 +43,7 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour spécifie l’état actuel du bouton. Il s’agit d’une combinaison des valeurs suivantes.
 
@@ -63,7 +63,7 @@ La valeur de retour spécifie l’état actuel du bouton. Il s’agit d’une co
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

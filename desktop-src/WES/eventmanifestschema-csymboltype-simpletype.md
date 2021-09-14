@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5e51438a49a45c167b247882f0976b27a4ad8d4da048437f385ccff545663b4a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0c8c17a9f4bb7e86b573d60187ffffd55c6cb96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919571"
 ---
 # <a name="csymboltype-simple-type-windows-event-log"></a>Type Simple CSymbolType (journal des événements Windows)
 
@@ -48,11 +48,11 @@ Le type simple **CSymbolType** est un **XS : String** qui est limité par le mo
 
 Si le nom du symbole est vide, le compilateur de message utilise l’attribut **Name** de l’élément que vous définissez pour générer le nom du symbole. Le compilateur remplace tous les caractères non alphanumériques par des traits de soulignement. par exemple, si l’attribut **name** du canal est microsoft-Windows-SampleProvider/operational, le compilateur utilise microsoft \_ Windows \_ SampleProvider \_ operational comme nom de symbole.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
 | Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |

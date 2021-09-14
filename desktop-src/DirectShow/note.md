@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0becacba37f3f474577c36a694539de77795f1c19ccf3b1655cb80370be9e297
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 898d31c48807c3bf0826dc643d89126db36b0f0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120050919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853678"
 ---
 # <a name="note"></a>REMARQUE
 
@@ -56,7 +56,7 @@ Arguments supplémentaires pour la chaîne de format. Le nombre d’arguments do
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces macros sont des variantes de la macro [**DbgLog**](dbglog.md) . Ils génèrent des messages de suivi de niveau 5 \_ .
 
@@ -70,7 +70,7 @@ NOTE2("Width: %d, Height: %d", width, height);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

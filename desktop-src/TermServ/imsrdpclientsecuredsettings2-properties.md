@@ -5,12 +5,12 @@ ms.assetid: 247CEC50-EBC2-4160-A776-1B67BB8E3A5A
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b855f250f5416069432692862fd2109069b0018c62147d5845eec876286278
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a8f66addc5ddb0b5e225c91e86b97c8597f582a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853318"
 ---
 # <a name="imsrdpclientsecuredsettings2-properties"></a>Propriétés IMsRdpClientSecuredSettings2
 

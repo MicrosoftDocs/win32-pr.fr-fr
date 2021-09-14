@@ -4,12 +4,12 @@ ms.assetid: eb0cf6d5-f093-46f6-8995-d01971de8241
 description: 'En savoir plus sur : résolution de noms pour Teredo'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d9c41685977ef5a4ae3e94996a8d1a59db5f9812e2ed8efe758878a9055c28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 700b5d40fda0546c29bd7c47ee773977c374784c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013389"
 ---
 # <a name="name-resolution-for-teredo"></a>Résolution de noms pour Teredo
 

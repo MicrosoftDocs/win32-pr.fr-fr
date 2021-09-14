@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 548ffec6bf5982aac407905d944d029b222b741c0c03fe66645f68e771c87342
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 90960f81d252b0b0a8d1de3ab5cc1465003467a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120099969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920339"
 ---
 # <a name="registrationtrigger-triggergroup-element"></a>Élément RegistrationTrigger (triggerGroup)
 
@@ -64,11 +64,11 @@ L’élément **RegistrationTrigger** est défini par le type complexe [**regist
 
 | Nom | Type | Description                           |
 |------|------|---------------------------------------|
-| Id   | ID   | Identificateur du déclencheur.<br/> |
+| Id   | id   | Identificateur du déclencheur.<br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de scripts, un déclencheur d’inscription est spécifié à l’aide de l’objet [**RegistrationTrigger**](registrationtrigger.md) .
 
@@ -87,7 +87,7 @@ Les éléments enfants répertoriés ci-dessus sont définis par les types d’�
 
 Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déclencheur de démarrage, consultez [exemple de déclencheur d’inscription (XML)](registration-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

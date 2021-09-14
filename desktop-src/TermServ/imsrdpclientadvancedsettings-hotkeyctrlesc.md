@@ -55,11 +55,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: cf1a806430e8b93503c7cdc0fef04ba3f0a59b20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510535"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919984"
 ---
 # <a name="imsrdpclientadvancedsettingshotkeyctrlesc-property"></a>IMsRdpClientAdvancedSettings :: HotKeyCtrlEsc, propriété
 
@@ -96,7 +96,7 @@ Retourne **S \_ OK** en cas de réussite.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

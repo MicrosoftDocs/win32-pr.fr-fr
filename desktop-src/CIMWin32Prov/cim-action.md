@@ -24,11 +24,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 346c3d0e0100c0c61040b047849a7a81e430e8c6
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122881193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920559"
 ---
 # <a name="cim_action-class"></a>\_Classe d’action CIM
 
@@ -799,7 +799,7 @@ La version de l’opération doit se présenter sous l’une des formes suivante
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe. Consultez [classes Win32](win32-provider.md) pour les classes dérivées de l' **\_ action CIM**.
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ff602f2f14292407b81dca9e19048e88db645a1b3514b4b279282436046e11c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1cf70a24ad2fa7e77f7a5a90f6ec247179464f5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119276539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941112"
 ---
 # <a name="registers---ps_4_1"></a>Registres-PS \_ 4 \_ 1
 
@@ -31,8 +31,8 @@ Cette section contient des informations de référence pour les registres d’en
 | v\#           |      | 32                 | R   | 4         | Oui              | None     | Oui          |
 | t\#           |      | 128                | R   | 1         | Non               | None     | Oui          |
 | s\#           |      | 16                 | R   | 1         | Non               | None     | Oui          |
-| \# \[ index CB\] |      | 15                 | R   | 4         | Oui (contenu)    | Aucun     | Oui          |
-| \[index ICB\]  |      | 1                  | R   | 4         | Oui (contenu)    | Aucun     | Oui          |
+| \# \[ index CB\] |      | 15                 | R   | 4         | Oui (contenu)    | None     | Oui          |
+| \[index ICB\]  |      | 1                  | R   | 4         | Oui (contenu)    | None     | Oui          |
 
 
 

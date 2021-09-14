@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3fa507085f214359d3b00602cd8e891b519bfda26c7f4389dadbb6777a8b361a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7511cf3d449002e9fed069fdb721dc3e4cc4b28e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118978349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920603"
 ---
 # <a name="uint32columnvalue-class"></a>UInt32ColumnValue, classe
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15d9142abb95998fce803c30c439632775cd8ff807f3b7d99653875d08e534e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea694c09e11e5801016a4ea85b9774448c542991
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920515"
 ---
 # <a name="compress-method-of-the-win32_directory-class"></a>Méthode Compress de la \_ classe Directory Win32
 
@@ -40,7 +40,7 @@ uint32 Compress();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été compressé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -137,7 +137,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La compression permet de libérer de l’espace de stockage supplémentaire sur un lecteur de disque sans acheter de nouveau matériel ni supprimer de fichiers ou de dossiers. En fonction de la taille de votre disque dur et du type de fichiers stockés sur ce disque, vous pouvez récupérer des centaines de mégaoctets d’espace disque et, par conséquent, éviter d’acheter un nouveau disque dur et de mettre l’ordinateur hors connexion jusqu’à ce que le nouveau lecteur soit installé.
 
@@ -166,7 +166,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

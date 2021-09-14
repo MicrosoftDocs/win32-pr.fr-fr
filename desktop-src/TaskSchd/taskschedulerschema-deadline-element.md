@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 3e12524971e8b713d4d17817a8a7c7602017bd68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013419"
 ---
 # <a name="deadline-element"></a>Élément échéance
 
@@ -55,7 +55,7 @@ L’élément **échéance** est défini par le type complexe [**maintenanceSett
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la programmation en C++, ce paramètre inactif est spécifié à l’aide de la propriété [**IMaintenanceSettings ::D échéanc**](/windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_deadline) .
 
@@ -79,8 +79,8 @@ Le code XML suivant définit un calendrier de mois qui exécute la tâche en mar
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/> |
 
 
 

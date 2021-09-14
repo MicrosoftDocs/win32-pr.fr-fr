@@ -4,12 +4,12 @@ description: Le programmeur spécifie si un jeu de propriétés est stocké dans
 ms.assetid: d0ca649a-d405-4c34-af02-9c2ca8b2790e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e63ff148a72342da4cf5a6d8e1d59feab5c9b5b6fcbdf8a413069413cdb1e63
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4ebd5d03c3b17e02aa47a7a859576b4cc04607a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013537"
 ---
 # <a name="storage-and-stream-objects-for-a-property-set"></a>Stockage et objets de flux pour un jeu de propriétés
 

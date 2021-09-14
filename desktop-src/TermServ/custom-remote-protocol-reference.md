@@ -8,12 +8,12 @@ keywords:
 - Services Bureau à distance protocole RDP (Remote Desktop Protocol) (RDP), référence du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b90f4ae544fc502550e85336c1b3851e9aedbe7a90ebb9f1e2b2d331252d302
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 557647b05dc48d3878144f8ab225ddcd77727323
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118131129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013360"
 ---
 # <a name="remote-desktop-protocol-provider-reference"></a>Référence du fournisseur protocole RDP (Remote Desktop Protocol)
 

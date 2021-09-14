@@ -4,12 +4,12 @@ ms.assetid: ac1e9c7b-bb83-4e1e-9108-211374c7d878
 title: Table MsiEmbeddedChainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1cfcf48f3cf3863f19819b3337a136d2540fa3254067cacc50fcf391256caa5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 902a33bce5d3a0aff3d2797fce94e5d272b61271
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945054"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011862"
 ---
 # <a name="msiembeddedchainer-table"></a>Table MsiEmbeddedChainer
 
@@ -27,7 +27,7 @@ La table MsiEmbeddedChainer contient les colonnes suivantes.
 
 
 
-| Colonne             | Type                             | Clé | Nullable |
+| Colonne             | Type                             | Clé : | Nullable |
 |--------------------|----------------------------------|-----|----------|
 | MsiEmbeddedChainer | [Identificateur](identifier.md)     | O   | N        |
 | Condition          | [Condition](condition.md)       | N   | O        |

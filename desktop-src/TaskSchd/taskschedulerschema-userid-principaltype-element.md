@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 955dcc93b826b4f86bffd3371ab9907e56dfe7f35649aee603cb18716868f535
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fe12f76c35238251e2ecc60f848e2f7eb4eaa681
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920216"
 ---
 # <a name="userid-principaltype-element"></a>Élément UserId (principalType)
 
@@ -42,7 +42,7 @@ L’élément **userid** est défini par le type complexe [**principalType**](ta
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément **userid** et l’élément [**LogonType**](taskschedulerschema-logontype-principaltype-element.md) sont utilisés ensemble pour définir l’utilisateur requis pour exécuter les tâches qui utilisent ce principal.
 
@@ -67,7 +67,7 @@ Le code XML suivant définit un principe à l’aide d’un identificateur d’u
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

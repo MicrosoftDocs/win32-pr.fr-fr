@@ -5,15 +5,15 @@ title: Interface ITSdp (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 401dbe2548375227be2ca024ee75de3054fa6f6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534933"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013487"
 ---
 # <a name="itsdp-interface"></a>Interface ITSdp
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **ITSdp** fournit des méthodes pour la manipulation d’un protocole SDP (session descripteur), consultez le composant objet blob de conférence RFC 2327. Il présente les caractéristiques suivantes :
 

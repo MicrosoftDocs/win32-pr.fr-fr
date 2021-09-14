@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 6bc5a908336f011973690bd3ca3d598583b0d32d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971795"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126941187"
 ---
 # <a name="any"></a>n'importe laquelle
 
@@ -60,7 +60,7 @@ Cette fonction est similaire à la fonction [**All**](dx-graphics-hlsl-all.md) H
 | Nom  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Taille |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------|
 | *x*   | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | n'importe laquelle  |
-| *Av* | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md)                            | [**Boolean**](/windows/desktop/WinProg/windows-data-types)                                                                                 | 1    |
+| *Av* | [**Scala**](dx-graphics-hlsl-intrinsic-functions.md)                            | [**Boolean**](/windows/desktop/WinProg/windows-data-types)                                                                                 | 1    |
 
 
 

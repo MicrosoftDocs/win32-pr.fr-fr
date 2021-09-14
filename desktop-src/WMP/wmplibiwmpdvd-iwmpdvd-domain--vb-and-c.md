@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b5f382d7c1db820905b45b924105225c0c5b55a569f85707e4e9f729e59596
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6546a8288160fe80f7df4a7c41ea79a0edc905f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120000469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013176"
 ---
 # <a name="iwmpdvddomain-property"></a>IWMPDVD ::d propriété omaine
 
 La propriété de **domaine** obtient le domaine actuel du DVD.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```CSharp

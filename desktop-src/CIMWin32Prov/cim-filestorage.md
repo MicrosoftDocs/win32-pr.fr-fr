@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c59e8e128ce5e82549db745f32387b66be9d578dbe222f91c6a51b413c3f584a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3630bdf3250ce93765809df17e9318d3cd44f393
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119321033"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940855"
 ---
 # <a name="cim_filestorage-class"></a>\_Classe CIM FileStorage
 
@@ -89,13 +89,13 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - compatibilité, apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a7290c42728a8e847279fc467b6f8a619ef2ff5235eb6eee2f1fa2554a9133
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 512f23c3cd4dca45ae84a2ae96a3c78c98a73268
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118573785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126919064"
 ---
 # <a name="new-for-windows-media-player-skins"></a>nouveautés pour les apparences de Lecteur Windows Media
 

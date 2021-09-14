@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cd97ca6f3ec79320509881d79bc0ea24d73944a0ae3634d331073517c8bc0fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ca58f82d2918441e5da3cf53d442497c1a6a2eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118130444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920123"
 ---
 # <a name="getprovisioningproperties-method-of-the-win32_rdmscollectionproperties-class"></a>Méthode GetProvisioningProperties de la \_ classe Win32 RDMSCollectionProperties
 
@@ -152,11 +152,11 @@ Reçoit les clés de produit du système d’exploitation pour les machines virt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 en cas de réussite, sinon retourne un code d’erreur WMI.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

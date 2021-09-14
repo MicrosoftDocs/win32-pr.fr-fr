@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 02b6d9d5c6100a652cf50096f5ef513fc164cfcfd2d8036e8444adc702459d1e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 433682f045ca7fb127c7dc69e3a26ed8356371ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126940600"
 ---
 # <a name="win32_timezone-class"></a>\_Classe TimeZone Win32
 
@@ -108,7 +108,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Time structures \| [**\_ \_ information fuseau horaire**](/windows/win32/api/timezoneapi/ns-timezoneapi-time_zone_information) \| Bias"), [**unités**](../wmisdk/standard-qualifiers.md) ("minutes")
 </dt> </dl>
 
-Décalage actuel pour la traduction de l’heure locale. Le biais correspond à la différence entre le temps universel coordonné (UTC, Universal Time Coordinated) et l’heure locale. Toutes les traductions entre l’heure UTC et l’heure locale sont basées sur la formule suivante : UTC = heure locale. Cette propriété est obligatoire.
+Décalage actuel pour la traduction de l’heure locale. Le biais correspond à la différence entre le temps universel coordonné (UTC, Universal Time Coordinated) et l’heure locale. Toutes les traductions entre l’heure UTC et l’heure locale sont basées sur la formule suivante : UTC = heure locale. Cette propriété est requise.
 
 </dd> <dt>
 
@@ -785,7 +785,7 @@ Exemple : 1997
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ TimeZone** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
@@ -979,7 +979,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

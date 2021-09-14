@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: fe193e07cb32b1048d6075786c381c03370d3297f9eb771238cd7ae499076e5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6f4fd8d0eba88ba1df54a1cc058bc0a2951b9a19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853774"
 ---
 # <a name="impeg2psiparsergetpmtversionnumber-method"></a>IMpeg2PsiParser :: GetPmtVersionNumber, méthode
 
@@ -55,7 +55,7 @@ Pointeur vers une variable qui reçoit le champ du numéro de version \_ .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 
@@ -69,7 +69,7 @@ La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez la méthode **GetRecordProgramNumber** pour obtenir le numéro du programme.
 

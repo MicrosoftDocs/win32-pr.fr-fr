@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ba8b9cfe7cf898e9645d0f1caf8ef789bb45967bfc268f08555a5bdea53c4127
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 864848f646e4a9e06ca12e2bfec742c1741d77e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126853834"
 ---
 # <a name="imediadetput_currentstream-method"></a>IMediaDet ::p ut \_ CurrentStream, méthode
 
@@ -52,11 +52,11 @@ Numéro de flux.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’appeler cette méthode, appelez [**IMediaDet ::p ut \_ filename**](imediadet-put-filename.md) pour définir le nom de fichier. Appelez [**IMediaDet :: obtenir \_ OutputStreams**](imediadet-get-outputstreams.md) pour déterminer le nombre de flux contenus dans le fichier source.
 
@@ -72,7 +72,7 @@ Si le détecteur de média est en mode de manipulation bitmap, cette méthode re
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

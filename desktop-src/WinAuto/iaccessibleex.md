@@ -4,12 +4,12 @@ description: Les contrôles qui n’ont pas de fournisseur UI Automation Microso
 ms.assetid: 5523156e-c9b8-4aad-b568-f3b3c402d33e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1170e6160a05350fa459090b2f51dbedd618ebdb81512a7e9730b50f8533ef95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a74e7d464acf18244d91bc69199a56004b20beb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118566010"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013163"
 ---
 # <a name="the-iaccessibleex-interface"></a>Interface IAccessibleEx
 

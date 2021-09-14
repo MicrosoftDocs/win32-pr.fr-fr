@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aed10ba9c0c792a5e4f882988ca07770c4ac568cb893b8ffac16a3a24efd8f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b9c4b2031b39a6dfd483b039023ad9114271b21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117760096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013429"
 ---
 # <a name="logontrigger-object"></a>Objet LogonTrigger
 
@@ -49,7 +49,7 @@ L’objet **LogonTrigger** a ces propriétés.
 | [**Répétition**](trigger-repetition.md)<br/>                 | Lecture/écriture<br/> | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient ou définit une valeur qui indique la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.<br/> |
 | [**StartBoundary**](trigger-startboundary.md)<br/>           | Lecture/écriture<br/> | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient ou définit la date et l’heure d’activation du déclencheur.<br/>                                                                            |
 | [**Type**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                            | Lecture seule<br/>  | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient le type du déclencheur.<br/>                                                                                                            |
-| [**IDutilisateur**](logontrigger-userid.md)<br/>                    | Lecture/écriture<br/> | Obtient ou définit l'identificateur de l'utilisateur.<br/>                                                                                                                                                       |
+| [**UserId**](logontrigger-userid.md)<br/>                    | Lecture/écriture<br/> | Obtient ou définit l'identificateur de l'utilisateur.<br/>                                                                                                                                                       |
 
 
 
