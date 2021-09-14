@@ -4,12 +4,12 @@ ms.assetid: ff48d995-fe6f-4d1b-898d-67574ed3c5b7
 title: Windows Meilleures pratiques pour le programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9e430cf8871279e18107b3ab1deb1f347e9d4779b619ab6cf8133d30cdfa4ee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0ffaf6aae83afbe510f2b1eefc447e34754296ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009577"
 ---
 # <a name="windows-installer-best-practices"></a>Windows Meilleures pratiques pour le programme d’installation
 

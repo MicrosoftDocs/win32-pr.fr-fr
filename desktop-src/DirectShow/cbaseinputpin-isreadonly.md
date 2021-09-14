@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 45a8fc563e9377f7308ad9ea702b16f48ea9723aa13902ef29d60e2da903ffda
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93d1e7930631328a277ce7332f483ee264b2d525
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223585"
 ---
 # <a name="cbaseinputpinisreadonly-method"></a>CBaseInputPin. IsReadOnly, méthode
 
@@ -40,11 +40,11 @@ BOOL IsReadOnly();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de la variable membre [**CBaseInputPin :: m \_ bReadOnly**](cbaseinputpin-m-breadonly.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

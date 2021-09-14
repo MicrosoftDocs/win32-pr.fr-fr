@@ -4,12 +4,12 @@ ms.assetid: 3966d4eb-4504-4b1e-9c9f-6eab7751d7ed
 title: Fonctionnement de la sécurité de groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0941b4bded19b914218d5c011e8696cdd9c92612a493954dc5dd45d91e59006a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d272e9a0567c6edc300a52cfa206305253ec5a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119675209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009243"
 ---
 # <a name="how-group-security-works"></a>Fonctionnement de la sécurité de groupe
 

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Msi.dll
 ms.openlocfilehash: 21f72c35795696875aa55f2d5d791564c6f1fee5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009717"
 ---
 # <a name="recordstringdata-property"></a>Record. StringData, propriété
 
@@ -26,7 +26,7 @@ La propriété **StringData** de l’objet [**Record**](record-object.md) est un
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```JScript
@@ -40,7 +40,7 @@ Record.StringData = propVal
 
 Numéro de champ obligatoire de la valeur dans l’enregistrement, de base 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur retournée d’un champ inexistant est une chaîne vide. Pour définir un champ de chaîne d’enregistrement sur null, utilisez un variant vide ou une chaîne vide. Toute tentative de stockage d’une valeur dans un champ inexistant génère une erreur.
 

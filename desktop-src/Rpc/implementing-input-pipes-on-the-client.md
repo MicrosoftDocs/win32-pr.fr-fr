@@ -4,12 +4,12 @@ description: Lorsque vous utilisez un canal d’entrée pour transférer des don
 ms.assetid: e941a6be-ca91-42b1-9323-ffc63d521f6c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0301fc7324a982db81b6c728131762361cfce185f3d432f238ca2cf8d715546
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2810caa31c4932294797a5ed502c6f93d8613ea0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118929118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194199"
 ---
 # <a name="implementing-input-pipes-on-the-client"></a>Implémentation de canaux d’entrée sur le client
 

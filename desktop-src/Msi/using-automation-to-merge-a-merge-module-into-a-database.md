@@ -4,12 +4,12 @@ ms.assetid: 63ced106-12e3-4483-8bfe-22c54fe7a204
 title: Utilisation de l’automatisation pour fusionner un module de fusion dans une base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 513a765670df44396c34537721eb6f75ed98796dd31ddefd5d26387e2a6b5d0f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3e28b8cfc1716cdbb296fd0a1410787ae55bb62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222996"
 ---
 # <a name="using-automation-to-merge-a-merge-module-into-a-database"></a>Utilisation de l’automatisation pour fusionner un module de fusion dans une base de données
 

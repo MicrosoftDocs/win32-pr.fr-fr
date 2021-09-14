@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3769b7cd510b21d91a0b855fa0551cf698b91812e5aab3fc53bda32bb4ce82cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e2ebfaa3d12b5f582b4b67014280fa0a0d5299d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223532"
 ---
 # <a name="cbasepinquerydirection-method"></a>Méthode CBasePin. QueryDirection
 
@@ -49,11 +49,11 @@ Pointeur vers une variable qui reçoit un membre du type énuméré de [**\_ dir
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le \_ pointeur S ou OK \_ .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - création de rapports sur le contenu acquis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3389f5b35cedc853d66e6f450836195497628972ea6ae15642d75155d8b83b6c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 831312457427cc9fe4ceed004772f3b174f77989
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008467"
 ---
 # <a name="device-extensions-for-reporting-acquired-content"></a>Extensions d’appareil pour la création de rapports sur le contenu acquis
 
@@ -48,7 +48,7 @@ Le tableau suivant fournit des détails sur l’opération MTP pour la création
 
 | Élément                  | Description                                                                                                                                                                                                                     |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code d'opération        | 0x9202                                                                                                                                                                                                                          |
+| Code d’opération        | 0x9202                                                                                                                                                                                                                          |
 | Paramètre d’opération 1 | L’ID de transaction fourni par l’appareil lors de la session précédente. Cette valeur est égale à zéro pour la première session.                                                                                                                |
 | Paramètre d’opération 2 | Index de départ. Cette valeur est toujours égale à zéro lors du premier appel d’une session. Lors des appels suivants au sein de la même session de synchronisation, cette valeur augmente en fonction du nombre d’éléments renvoyés par les données de la réponse précédente. |
 | Paramètre d’opération 3 | 0x10000. Cette constante, définie dans wmpdevices. h, est le nombre maximal de PUOIDs qui peuvent être retournés dans la réponse. Notez que la valeur de cette constante peut être révisée dans les versions ultérieures de ce fichier d’en-tête.              |
@@ -67,7 +67,7 @@ Le tableau suivant fournit des détails sur l’opération MTP pour la création
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’État est indiqué par le paramètre de réponse 3 dans un mode de bits à l’aide de l’indicateur suivant.
 

@@ -4,12 +4,12 @@ ms.assetid: f5fda405-8a09-495e-aa8c-b808a2f02b0f
 title: Mettre à niveau la table
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3085de7bb834e907ce7b5f1edbee388f5e48b5f72489954aacf3d9e85c2de3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b48ce49f0f931209ccf472cd74b352c270353a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223068"
 ---
 # <a name="upgrade-table"></a>Mettre à niveau la table
 

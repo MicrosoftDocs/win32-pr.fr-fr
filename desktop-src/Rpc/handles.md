@@ -4,12 +4,12 @@ description: Jusqu’à deux parties dans la description de la chaîne de format
 ms.assetid: 11c6742c-b2f5-4201-8b1c-7e31ae52e0da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bb31dcf075b7b07b65d2a976a37386e164d8cadc11903a33c22172c433a3a51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d1c1ce68b74440fc9339fb9cf9170bfdd1fdfcd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118929536"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194224"
 ---
 # <a name="handles"></a>Poignées
 
@@ -86,7 +86,7 @@ L' \_ \_ index de paire de routines de liaison \_<1> champ donne l’index dans 
 
  
 
-Contexte
+Context
 
 ``` syntax
 FC_BIND_CONTEXT flags<1> offset<2> context_rundown_routine_index<1> param_num<1>

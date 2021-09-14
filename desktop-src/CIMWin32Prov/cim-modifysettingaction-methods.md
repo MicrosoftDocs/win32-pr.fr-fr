@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_ModifySettingAction
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c857f7c920cc18152074b9ac2682e58ab883eebff65c3dd3190abc29f3343ccc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb57db35d35f0f0dd52b7e93d991ca49bad88be4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119548159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223737"
 ---
 # <a name="cim_modifysettingaction-methods"></a>\_Méthodes MODIFYSETTINGACTION CIM
 

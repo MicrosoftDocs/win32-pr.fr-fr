@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 018a54652ef5c24562a6c5220aa24da00276dce4729608cf59162bc11c7d7aee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b3cb4be93b8d960b39f0f5c5cf2b5a4809573cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009356"
 ---
 # <a name="attachproperties-callback-function"></a>AttachProperties fonction de rappel
 
@@ -114,7 +114,7 @@ Pointeur vers les données d’instance fournies par le protocole précédent. L
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un pointeur vers le premier octet après les données reconnues dans un frame ou **null** si les données reconnues sont la dernière partie des données d’un frame.
 

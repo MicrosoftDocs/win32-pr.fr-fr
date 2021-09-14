@@ -4,12 +4,12 @@ description: Par défaut, le code stub généré par le compilateur MIDL appelle
 ms.assetid: 65af7a6d-4cfa-4175-9085-560d97cab41d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e7b4a0fd9a765593fc6f44365e17bc45c10b1244c226abc09ff302e81ec107
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 331c32ac4d33fbd67f617f79125921ddfffc0de5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118929516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194220"
 ---
 # <a name="how-memory-is-allocated-and-deallocated"></a>Comment la mémoire est allouée et désallouée
 

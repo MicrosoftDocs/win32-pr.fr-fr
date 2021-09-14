@@ -4,12 +4,12 @@ description: L’interface IAccessible est une collection de méthodes qui expos
 ms.assetid: 82f6e934-58ea-47f2-98a3-2ab1c20f24c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c683e83928db53894c7c2c22976a5cf58c402c241e698dca5248230b1b24177
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 218d009793dc1bebac2a7e5caeba8fa140ac0d96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117744894"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221857"
 ---
 # <a name="using-the-iaccessible-interface"></a>Utilisation de l’interface IAccessible
 

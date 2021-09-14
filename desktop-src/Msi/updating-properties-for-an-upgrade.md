@@ -4,12 +4,12 @@ ms.assetid: ebb1a217-fce6-43f0-9139-c0f4422c8fc4
 title: Mise à jour des propriétés d’une mise à niveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99d340f56eaf78c585e28a52dc7b310bf1af047d7530e61b841267bc0b83251a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 750c30a75650ff4009dda799b0542f41f535481f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223092"
 ---
 # <a name="updating-properties-for-an-upgrade"></a>Mise à jour des propriétés d’une mise à niveau
 
@@ -62,16 +62,16 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2001.msi et entrez le
 | [**Fabricant**](manufacturer.md)             | Microsoft                                 |
 | [**PIDTemplate**](pidtemplate.md)               | 12345<\#\#\#-%%%%%%%>@@@@@          |
 | [**ProductCode**](productcode.md)               | {34CF587C-1D8F-4DD5-ADFE-440F4B593987}    |
-| [**Réf**](productid.md)                   | aucun                                      |
+| [**Réf**](productid.md)                   | Aucun                                      |
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |
 | [**ProductName**](productname.md)               | MNP2001                                   |
 | [**ProductVersion**](productversion.md)         | 01.50.0000                                |
-| Progress1                                        | En cours d'installation                                |
+| Progress1                                        | Installation                                |
 | Progress2                                        | installs                                  |
 | [**PROMPTROLLBACKCOST**](promptrollbackcost.md) | P                                         |
 | RemoveIcon                                       | removico                                  |
 | RepairIcon                                       | réparation                                  |
-| Installation                                            | Installation                                     |
+| Programme d’installation                                            | Programme d’installation                                     |
 | True                                             | 1                                         |
 | [**UpgradeCode**](upgradecode.md)               | {908E378A-9551-4772-BF1D-5CFAF6FD9CB4}    |
 | Assistant                                           | Assistant Installation                              |

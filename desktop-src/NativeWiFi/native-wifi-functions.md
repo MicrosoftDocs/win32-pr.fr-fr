@@ -4,12 +4,12 @@ ms.assetid: c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b
 title: Fonctions WiFi natives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b846a53626b2da6f492e20bee44a5b5909878c0c49becb530fa9701db18f19ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce48b8f61f6558668c742e566eb53e3d32c8baa8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009460"
 ---
 # <a name="native-wifi-functions"></a>Fonctions WiFi natives
 

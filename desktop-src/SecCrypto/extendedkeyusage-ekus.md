@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 6b6cb0ee020935ea80bc0d676ad8979267396589a46604f49a5cb833d68eefa1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24bcf7b4332e75afad0e21415a7dfe8eb690c32b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222169"
 ---
 # <a name="extendedkeyusageekus-property"></a>ExtendedKeyUsage. EKU, propriété
 
@@ -39,7 +39,7 @@ ExtendedKeyUsage.EKUs As EKUs
 
 Collection [**de EKU qui**](ekus.md) contient les objets [**EKU**](eku.md) pour le certificat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

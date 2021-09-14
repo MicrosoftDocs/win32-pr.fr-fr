@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7ffba8e1d5ea3c8114d9f567c3829141dd8902dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740876"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008805"
 ---
 # <a name="tfclientid"></a>TfClientId
 
@@ -36,9 +36,9 @@ Le type de données **TfClientId** est fourni par le gestionnaire TSF. Une appli
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                          |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                      |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                    |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                          |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                      |
 | En-tête<br/>                   | <dl> <dt>Msctf. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Msctf. idl</dt> </dl> |
 

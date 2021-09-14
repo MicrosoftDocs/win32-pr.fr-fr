@@ -4,12 +4,12 @@ ms.assetid: 689b09c7-9c17-42f5-ba31-cf9c6252e453
 title: Action RegisterProduct
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 185b670b7a24c31e6dc5adb402cd6c557e2eba9eac3db5138744cd1e827113ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5afa2d3e9f00f736b8c4c7864d8ec4baa3aa8ad9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118375960"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009691"
 ---
 # <a name="registerproduct-action"></a>Action RegisterProduct
 

@@ -10,12 +10,12 @@ keywords:
 - fichiers de définition d’apparence, section Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486ca5235939352ffabb924aaf38a706b436d4c1358a92b9aef4996614c53623
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4a1b714fb917f9d13ee710509cfc5bf696e3eef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117749956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008478"
 ---
 # <a name="description-windows-media-player-sdk"></a>Description (Lecteur Windows Media SDK)
 

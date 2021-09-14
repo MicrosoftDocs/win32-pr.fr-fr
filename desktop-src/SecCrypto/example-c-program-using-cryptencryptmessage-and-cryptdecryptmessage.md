@@ -4,12 +4,12 @@ ms.assetid: b1ad0f13-fb4d-421f-b054-a99c8ad9c83a
 title: 'Exemple de programme C : utilisation de CryptEncryptMessage et CryptDecryptMessage'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab2398b24e183d62844e716cc50247f38882b61421b55f661741890bb937dc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b776ea1e0286717da94ed1b92caccfc19652e70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140786"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222180"
 ---
 # <a name="example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage"></a>Exemple de programme C : utilisation de CryptEncryptMessage et CryptDecryptMessage
 

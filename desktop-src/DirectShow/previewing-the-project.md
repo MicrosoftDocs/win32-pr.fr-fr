@@ -4,12 +4,12 @@ ms.assetid: 00d72a39-f848-47ea-8460-8b826684eeea
 title: Aperçu de l’Project
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d17d5fd0c87d98db2dac0a7ace97a72e2107eeb252561bbc535a5bd8b4a56d3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2bdf38fe19e500cfe9bd9a8dfb77f7ff56528a2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119748259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223164"
 ---
 # <a name="previewing-the-project"></a>Aperçu de l’Project
 

@@ -4,12 +4,12 @@ ms.assetid: 5a378965-696c-4205-b9de-bdf93f00018f
 title: Types de données de l’API de distribution d’homologue (Peerdist. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ecfb7a9a90cb5ef2d79a20356ea8ea39f708874e85c3119dd4407a0a3758146
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a7bff6fe75c8f4632248c92af37aea6e00c3052
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009221"
 ---
 # <a name="peer-distribution-api-data-types"></a>Types de données de l’API de distribution d’homologue
 

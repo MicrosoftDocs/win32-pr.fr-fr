@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 7df19a26fd4e8464963f09ffdf227ac88f4376624a88df84d6245efa3c5fd927
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c7b9332393c4055cb8052b2b759b93781c0fd73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009710"
 ---
 # <a name="recordlistitem-property"></a>RecordList. Item, propriété
 
@@ -39,7 +39,7 @@ propVal = RecordList.Item
 
 Numéro d’index de l’élément avec la collection de chaînes. L’index est obligatoire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le client doit vérifier que l’objet [**RecordList**](recordlist-object.md) existe et n’est pas vide avant de référencer la propriété Item.
 

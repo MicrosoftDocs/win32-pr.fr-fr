@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8349c1425450491c3fc658f6ac1ac3c5fcf75d3e617a92f6e34b91f2f5802e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbcbf8da93f13dce2ce2a290adeab9394ee8addb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883336"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008856"
 ---
 # <a name="counters-collection"></a>Compteurs, collection
 
@@ -44,7 +44,7 @@ La collection de **compteurs** possède ces méthodes.
 | Méthode                            | Description                                                                           |
 |:----------------------------------|:--------------------------------------------------------------------------------------|
 | [**Complémentaires**](counters-add.md)       | Ajoute une instance [**CounterItem**](counteritem.md) à la collection.<br/>      |
-| [**Installez**](counters-remove.md) | Supprime une instance [**CounterItem**](counteritem.md) de la collection.<br/> |
+| [**Supprimer**](counters-remove.md) | Supprime une instance [**CounterItem**](counteritem.md) de la collection.<br/> |
 
 
 
@@ -58,7 +58,7 @@ La collection de **compteurs** possède ces propriétés.
 
 | Propriété                                   | Description                                                                                         |
 |:-------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**Count**](counters-count.md)<br/> | Récupère le nombre d’instances de [**CounterItem**](counteritem.md) dans la collection.<br/>  |
+| [**Saut**](counters-count.md)<br/> | Récupère le nombre d’instances de [**CounterItem**](counteritem.md) dans la collection.<br/>  |
 | [**Élément**](counters-item.md)<br/>   | Récupère l’instance [**CounterItem**](counteritem.md) spécifiée de la collection.<br/> |
 
 

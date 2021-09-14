@@ -4,12 +4,12 @@ description: Visual Basic gère les pointeurs implicitement. En C++, votre appli
 ms.assetid: bbbcaba1-cf5a-4768-ad1d-22a040bfe384
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35cd3da5411d5f068dd7a15e984416b89384e577c587c3a595d307e37b098c1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53de112f19b51be92657fb3293bb35e1d41ff9b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117917928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221649"
 ---
 # <a name="translating-to-c-from-visual-basic"></a>Conversion en C++ à partir de Visual Basic
 

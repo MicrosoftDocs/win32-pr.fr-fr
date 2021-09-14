@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: c4d726b7500fd890dfe8c7fdc39f628c185dbe35f3a3bc14f0c05ab7f85cd673
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 50ab07967605f8a24ba330a3cb13f80c833cf542
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119744679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009354"
 ---
 # <a name="attachpropertyinstance-function"></a>AttachPropertyInstance fonction)
 
@@ -110,7 +110,7 @@ Valeur de champ de bits qui indique l’ordre des BITs dans une propriété. Les
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est **true**.
 

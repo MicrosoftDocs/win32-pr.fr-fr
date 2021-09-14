@@ -4,12 +4,12 @@ description: Un groupe local peut contenir des comptes d’utilisateurs ou des c
 ms.assetid: ed4c59d6-6532-4190-9807-95678053fc72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66d6521d067aada7d8c2d30ab4cdade8a41d6efa07e27a45098c21659ce88bb5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3dd13a23b322a860d6896a213b27fb6263586412
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009403"
 ---
 # <a name="local-group-functions"></a>Fonctions de groupe locales
 
