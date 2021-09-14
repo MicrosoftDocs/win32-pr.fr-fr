@@ -4,12 +4,12 @@ ms.assetid: 2397ca78-edb5-4756-bd07-00529db28f76
 title: 'Didacticiel : encodage d’un fichier WMA'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86301f301bb4f39f6c9258ec3eacfdd1646af8e76791e2df37ae6bf7d8f89880
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f491a9d460771dae91a49ab42982fbe97b24c42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235823"
 ---
 # <a name="tutorial-encoding-a-wma-file"></a>Didacticiel : encodage d’un fichier WMA
 

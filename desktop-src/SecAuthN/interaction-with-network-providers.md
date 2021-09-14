@@ -4,12 +4,12 @@ ms.assetid: 09d0b5ce-e2ac-40d7-bc35-272c5f831788
 title: Interaction avec les fournisseurs de réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab78e17536df4446ac1f57291ec77bc6ba273a825b4911e4c8bee10d389e008f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 022d3eeadb7a9f4d8137e1d9b1ef7ff2430910cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011278"
 ---
 # <a name="interaction-with-network-providers"></a>Interaction avec les fournisseurs de réseau
 

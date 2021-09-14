@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 9bc785bd0d2d1bdfbb6f9904b94ab710a04d4fec55713a649034e1b26c03a04a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e443064901c921afc15e73b8f7d929527044facf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118955548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111389"
 ---
 # <a name="caggdrawsurface-class"></a>CAggDrawSurface, classe
 

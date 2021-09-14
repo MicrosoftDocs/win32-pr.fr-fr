@@ -4,12 +4,12 @@ ms.assetid: cacf0bdd-95b3-41d3-96a9-c60415a1f437
 title: Utilisation des services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f09d071e87807ce20b33c39a6b91136eac15bda1ee2e82478490c196ab017c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d14d21a7fbc5d657fea243944704876b74b4c00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117966708"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120729"
 ---
 # <a name="using-services"></a>Utilisation des services
 

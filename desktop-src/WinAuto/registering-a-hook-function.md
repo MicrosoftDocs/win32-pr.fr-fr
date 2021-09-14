@@ -4,12 +4,12 @@ description: Les applications clientes reçoivent WinEvents dans une fonction de
 ms.assetid: 7e999335-6a41-4d22-82ef-1a8dd6cb656e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c444d2ee291cb07386e775a649ba0c3d42486c45b70e4d3f4629b9b67274f89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5b1f39a535b366af72b1034cc9344171d253ea0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118564649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010652"
 ---
 # <a name="registering-a-hook-function"></a>Inscription d’une fonction de raccordement
 

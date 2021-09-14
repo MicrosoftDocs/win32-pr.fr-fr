@@ -7,12 +7,12 @@ keywords:
 - OpenGL, référence des fragments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a445383f1540b5945e334507b710faa08d3f62ee2c9371394340eb395141e99d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 668ab732c2b9ea13c87a55637c46698d07b33270
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118618069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011510"
 ---
 # <a name="fragments-reference"></a>Référence des fragments
 

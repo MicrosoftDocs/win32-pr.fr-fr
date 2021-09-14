@@ -4,12 +4,12 @@ ms.assetid: 74e74b62-8387-4056-83e6-2350b3da4077
 title: Message PHONE_STATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90003eaa67cb3384b123c62827fcf52bae524b1e20f9f14c2391c46dc89a367c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5db52f16d6c377087fd6ccadc5e70b5bb2865da2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119796759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011078"
 ---
 # <a name="phone_state-message"></a>Message d’état de téléphone \_
 
@@ -71,17 +71,17 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’envoi du message d' **\_ État téléphonique** à l’application peut être contrôlé et interrogé à l’aide de [**phoneSetStatusMessages**](/windows/desktop/api/Tapi/nf-tapi-phonesetstatusmessages) et [**phoneGetStatusMessages**](/windows/desktop/api/Tapi/nf-tapi-phonegetstatusmessages). Par défaut, ce message est désactivé pour toutes les modifications d’État, à l’exception de PHONESTATE \_ reinit, qui ne peut pas être désactivé. Ce message est envoyé à toutes les applications qui ont un handle vers le téléphone, y compris celles qui ont appelé [**phoneOpen**](/windows/desktop/api/Tapi/nf-tapi-phoneopen) avec le paramètre *DWPRIVILEGES* défini sur PHONEPRIVILEGE \_ owner ou PHONEPRIVILEGE \_ Monitor.
 
 Un message d' **\_ État de téléphone** avec un propriétaire et/ou une indication d’analyse est envoyé aux applications qui ont déjà un handle pour le téléphone. Cela peut être le résultat d’une autre application modifiant la propriété ou la surveillance du périphérique téléphonique avec [**phoneOpen**](/windows/desktop/api/Tapi/nf-tapi-phoneopen), [**phoneClose**](/windows/desktop/api/Tapi/nf-tapi-phoneclose) ou [**phoneShutdown**](/windows/desktop/api/Tapi/nf-tapi-phoneshutdown).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

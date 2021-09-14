@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c98aefde5aab9837f220ccb7df254e6a592e0d5e9d41de43291b2ab73e287321
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3a17d905d2ba8c11254476337d656890469b2b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117931739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010803"
 ---
 # <a name="videowindowless"></a>VIDÉO. sans fenêtre
 
@@ -42,13 +42,13 @@ Cet attribut est une **valeur booléenne** spécifiée au moment de la conceptio
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous souhaitez une fenêtre vidéo non rectangulaire ou si vous souhaitez couvrir une partie quelconque de la fenêtre vidéo avec une image, cet attribut doit avoir la valeur true. Cela sacrifie certaines performances pour effectuer l’écrêtage nécessaire.
 
 La lecture vidéo est optimisée pour la lecture non découpée. Dans ce cas, l’attribut **sans fenêtre** est défini sur false et l’intégralité du rectangle vidéo est toujours affichée. Toute image couvrant la fenêtre vidéo est ignorée et la fenêtre vidéo a l’ordre de plan de niveau le plus élevé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

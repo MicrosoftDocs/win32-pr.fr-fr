@@ -4,12 +4,12 @@ ms.assetid: 7e8ad125-4f1c-46dc-8de2-7de499edab24
 title: Génération du filtre Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ce45db92d6a8ff3701611723e5326b2e8192d1018454f1558494856ae57ba14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57904c6396569d5e50817bf052f9be4ba56b010b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111409"
 ---
 # <a name="building-the-filter-graph"></a>Génération du filtre Graph
 

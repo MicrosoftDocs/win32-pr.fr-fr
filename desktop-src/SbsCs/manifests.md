@@ -4,12 +4,12 @@ ms.assetid: 53c4c2e6-fff9-4506-b7e0-d091d2ec9883
 title: Manifestes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974aaea3dad60c80456d0acd085d610c81b93716342962abcd465adaf9efdf48
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2536e518f39791b400b9e99002b9575f4428d64d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119977209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011351"
 ---
 # <a name="manifests"></a>Manifestes
 

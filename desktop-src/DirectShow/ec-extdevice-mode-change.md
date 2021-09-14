@@ -4,18 +4,18 @@ ms.assetid: d5f7da6a-f559-4ad3-af1d-3e6a8edb9b9b
 title: EC_EXTDEVICE_MODE_CHANGE (Evcode. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 477f14bf5bfd17390cc47b054a643cc92aa656a531a29e5a0f8901f2ca8ed114
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b00a9aa0083911531b65dc445d996e6ccd4aeabd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119792629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111181"
 ---
 # <a name="ec_extdevice_mode_change"></a>\_modification du \_ mode \_ EXTDEVICE EC
 
 Non pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

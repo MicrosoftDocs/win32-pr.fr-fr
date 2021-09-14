@@ -5,11 +5,11 @@ title: Entrelacement de vidéos
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 340c727f8faaaf20ff82eff58d0c651601071dea
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474335"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313606"
 ---
 # <a name="video-interlacing"></a>Entrelacement de vidéos
 
@@ -46,13 +46,13 @@ Le tableau suivant résume cet attribut.
 
 
 
-| \_ \_ mode entrelacé MF-MT \_                       | Entrelacées? | exemples                                  | Premier champ    |
+| \_ \_ mode entrelacé MF-MT \_                       | Entrelacées? | Exemples                                  | Premier champ    |
 |-----------------------------------------------|-------------|------------------------------------------|----------------|
-| MFVideoInterlace \_ progressif                 | No          | Frame progressif                        | Non applicable |
-| MFVideoInterlace \_ FieldInterleavedUpperFirst  | Yes         | Champs entrelacés                       | Haut en premier    |
-| MFVideoInterlace \_ FieldInterleavedLowerFirst  | Yes         | Champs entrelacés                       | En premier    |
-| MFVideoInterlace \_ FieldSingleUpper            | Yes         | Champ unique                             | Haut en premier    |
-| MFVideoInterlace \_ FieldSingleLower            | Yes         | Champ unique                             | En premier    |
+| MFVideoInterlace \_ progressif                 | Non          | Frame progressif                        | Non applicable |
+| MFVideoInterlace \_ FieldInterleavedUpperFirst  | Oui         | Champs entrelacés                       | Haut en premier    |
+| MFVideoInterlace \_ FieldInterleavedLowerFirst  | Oui         | Champs entrelacés                       | En premier    |
+| MFVideoInterlace \_ FieldSingleUpper            | Oui         | Champ unique                             | Haut en premier    |
+| MFVideoInterlace \_ FieldSingleLower            | Oui         | Champ unique                             | En premier    |
 | MFVideoInterlace \_ MixedInterlaceOrProgressive | Peut varier    | Champs entrelacés ou images progressives | Peut varier       |
 
 

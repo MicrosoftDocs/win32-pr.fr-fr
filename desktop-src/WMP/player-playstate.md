@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0241f8ab538e985a64835065e1eb6bca0a831164cd66fbb7d9166724a72680e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c442b1be9e1ea15b8a54c2dafc264edf8aeb479
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118835118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010966"
 ---
 # <a name="playerplaystate"></a>Player. lecture
 
@@ -35,7 +35,7 @@ Cette propriété est un **nombre** en lecture seule (**long**). La constante d�
 
 
 
-| Valeur | État         | Description                                                                                                                 |
+| Valeur | State         | Description                                                                                                                 |
 |-------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
 | 0     | Indéfini     | Lecteur Windows Media est dans un état indéfini.                                                                              |
 | 1     | Arrêté       | La lecture de l’élément multimédia en cours est arrêtée.                                                                              |
@@ -54,7 +54,7 @@ Cette propriété est un **nombre** en lecture seule (**long**). La constante d�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
@@ -73,7 +73,7 @@ else
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

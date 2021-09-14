@@ -4,12 +4,12 @@ ms.assetid: c3ee4c1d-3d15-44a4-8e7e-acd5f9a51dfe
 title: Propriété AVEncVideoDefaultUpperFieldDominant (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4e0983b920c7f817e11d1959edf260916cfdbc41c47490674afbcb529c48dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b528449d184afdae41db87c4f030216a9f1b5a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910820"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111658"
 ---
 # <a name="avencvideodefaultupperfielddominant-property"></a>Propriété AVEncVideoDefaultUpperFieldDominant
 
@@ -25,11 +25,11 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncVideoDefaultUpperFieldDominant**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur est **\_ true**, le champ supérieur est affiché en premier. Dans le cas contraire, le champ inférieur est affiché en premier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

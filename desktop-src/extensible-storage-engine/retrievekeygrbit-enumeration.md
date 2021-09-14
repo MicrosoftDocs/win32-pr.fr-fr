@@ -29,11 +29,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: ef6a2820e0ca12552cb766536fd2ce703a6d95e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118314"
 ---
 # <a name="retrievekeygrbit-enumeration"></a>Énumération RetrieveKeyGrbit
 
@@ -72,7 +72,7 @@ public enum RetrieveKeyGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">
@@ -86,6 +86,6 @@ public enum RetrieveKeyGrbit
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)

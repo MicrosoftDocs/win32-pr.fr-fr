@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11eb93c1c7dcce7f502945df4e063b22c29514bc79fe7310875e9de055e1d745
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2bb759be166b69b3cfa488e9e23d61d9e0ec42d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117897"
 ---
 # <a name="em_getfirstvisibleline-message"></a>\_Message GETFIRSTVISIBLELINE em
 
@@ -43,7 +43,7 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est l’index de base zéro de la ligne visible supérieure dans un contrôle d’édition multiligne.
 
@@ -51,13 +51,13 @@ La valeur de retour est l’index de base zéro de la ligne visible supérieure 
 
 **Contrôles RichEdit :** Pour les contrôles RichEdit sur une seule ligne, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nombre de lignes et la longueur des lignes d’un contrôle d’édition dépendent de la largeur du contrôle et du paramètre de WordWrap actuel.
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

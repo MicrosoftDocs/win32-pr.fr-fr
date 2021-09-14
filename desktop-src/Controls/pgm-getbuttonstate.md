@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2014b6e36a0ab883155d786760ef54f02c89ee0d17192d6082d40ad19eec95a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d8c9eebbc0aa91651a01de1fe193544f0c8afcf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117830190"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117657"
 ---
 # <a name="pgm_getbuttonstate-message"></a>\_Message GETBUTTONSTATE PGM
 
@@ -50,7 +50,7 @@ Indique le bouton pour lequel l’État doit être récupéré. Il peut s’agir
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’état du bouton spécifié dans *lParam*. Il s’agit d’une ou plusieurs des valeurs suivantes (si plus une valeur est retournée, elles sont combinées à l’aide d’une opération or au niveau du bit) :
 
@@ -68,7 +68,7 @@ Retourne l’état du bouton spécifié dans *lParam*. Il s’agit d’une ou pl
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

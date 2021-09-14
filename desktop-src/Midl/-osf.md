@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb887997642b0d0ff81314d6cf81dc148e57547727a09b1fe646f04d0391f967
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2936401d59bb8c2c2bcfdcffce27ba9ed978d506
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119014117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093866"
 ---
 # <a name="osf-switch"></a>commutateur/OSF
 
@@ -31,7 +31,7 @@ midl /osf
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez ce commutateur si votre application requiert une compatibilité stricte avec l’ETCD OSF pour des raisons de portabilité.
 

@@ -4,12 +4,12 @@ ms.assetid: 74154b3b-75fc-412f-835c-1a6f54e688c6
 title: Génération d’un certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e497f20e8a20d4e401ce89a85d1f8a312dad76865a6c3dfb523d8f2526125c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8f237fd729499aa5153f12f68657e2ce227da7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772974"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324755"
 ---
 # <a name="building-a-certificate"></a>Génération d’un certificat
 

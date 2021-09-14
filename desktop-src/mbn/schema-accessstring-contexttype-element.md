@@ -11,12 +11,12 @@ api_name:
 - AccessString
 api_type:
 - Schema
-ms.openlocfilehash: 603c4aa04bb3e86891ec121233474fa96ffd792cbcb6880bad9e76599003d979
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8cf0d37b8a1870011ae6ae3ea6febf22a98cdeb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975278"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118114"
 ---
 # <a name="accessstring-contexttype-element"></a>Élément AccessString (contextType)
 
@@ -45,7 +45,7 @@ Cet élément est facultatif.
 
 L’élément **AccessString** est défini par le type complexe [**ContextType**](schema-contexttype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

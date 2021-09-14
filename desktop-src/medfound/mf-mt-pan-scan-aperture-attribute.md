@@ -4,12 +4,12 @@ ms.assetid: faa577fd-6572-46b9-9c6c-f91c47832cb5
 title: Attribut MF_MT_PAN_SCAN_APERTURE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d9b8d4ed5e8fe8887c229d83ffc276bf4d90b968834161ab60cc5d102095bb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e4a798ba96315126daab94ba92e8791bfeac77db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119940609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313950"
 ---
 # <a name="mf_mt_pan_scan_aperture-attribute"></a>Attribut d’ouverture de l' \_ \_ analyse panoramique MF MT \_ \_
 
@@ -19,7 +19,7 @@ Définit l’ouverture Pan/Scan, qui est la région 4 × 3 de la vidéo qui doit
 
 Tableau d’octets
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de l’attribut est une structure [**MFVideoArea**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea) .
 
@@ -31,7 +31,7 @@ Si cet attribut n’est pas défini, l’ouverture Pan/Scan est supposée être 
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

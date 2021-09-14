@@ -4,12 +4,12 @@ description: Découvrez comment gérer les méthodes AddRef et Release pour cont
 ms.assetid: 0e522ded-8976-4cdd-9a61-eae7834c896b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776a10ec4e7a873c5e8b86c3d2bfe91fd1531051d599831151d3dbec5ed3d70b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 495e657863150612e5b8efa21fff0b00c7a936b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094358"
 ---
 # <a name="managing-the-lifetime-of-an-object"></a>Gestion de la durée de vie d’un objet
 
@@ -19,7 +19,7 @@ L’interface [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) dé
 
 -   [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))
 -   [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref)
--   [**Libérer**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
+-   [**Version release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
 
 La méthode [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) permet à un programme d’interroger les fonctionnalités de l’objet au moment de l’exécution. Pour plus d’informations à ce sujet, nous allons [demander un objet pour une interface](asking-an-object-for-an-interface.md). Les méthodes [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) et [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sont utilisées pour contrôler la durée de vie d’un objet. Il s’agit de l’objet de cette rubrique.
 

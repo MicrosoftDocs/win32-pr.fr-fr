@@ -4,12 +4,12 @@ ms.assetid: 8f76c27d-92f1-4de7-a69c-fba877e0325d
 title: Table MsiPatchCertificate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f39d2bc3a05c8b3fe3f23cd7dce01da36e14ce1f3984f24e827606bbc44c1a77
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 01648e792931fd856a1231a5d876c7db843479df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119746"
 ---
 # <a name="msipatchcertificate-table"></a>Table MsiPatchCertificate
 
@@ -46,7 +46,7 @@ Une clé externe dans la première colonne de la [table MsiDigitalCertificate](m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les correctifs sont toujours évalués par rapport à la table MsiPatchCertificate qui est active au moment de l’application du correctif. Un correctif peut modifier la table MsiPatchCertificate en ajoutant ou en supprimant des entrées. Cela permet à un correctif de modifier l’évaluation des futurs correctifs appliqués ultérieurement dans la séquence de mise à jour corrective. Plusieurs certificats peuvent exister dans la table, et le correctif doit correspondre à au moins un certificat à appliquer.
 

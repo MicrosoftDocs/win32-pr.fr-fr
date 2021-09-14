@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a9d8392fd38e9d53588002c8aeab688ffc8b76efced83819318d9c6b6c2b721
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20503e1dc3cd7b5e47651889dd9c67777614593c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119867979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011152"
 ---
 # <a name="winbio_db-constants"></a>\_Constantes WINBIO DB
 
@@ -35,7 +35,7 @@ Les constantes suivantes peuvent être utilisées lors de l’appel de [**WinBio
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

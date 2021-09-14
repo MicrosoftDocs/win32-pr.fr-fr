@@ -11,12 +11,12 @@ keywords:
 - fichiers de définition d’apparence, section de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8a0fb897700680e39936724925e3019490d6d3de3c28224f6f484d222f1aca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6139535425b40756404cda5ffe75f194759d4ddd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324281"
 ---
 # <a name="text-section"></a>Section de texte
 

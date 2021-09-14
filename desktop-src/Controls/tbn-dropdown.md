@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2cdee38176b2ed72d42aaa29ca685a5e73dd30ceb7e315b5cbe0971161dc13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad7adbb9e0e2ed3d77f8ca8bfb6b09dedd2265be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077923"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116321"
 ---
 # <a name="tbn_dropdown-notification-code"></a>\_Code de notification de liste déroulante TBN
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Renvoie l'une des valeurs suivantes :
 
@@ -61,14 +61,14 @@ Renvoie l'une des valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Les boutons déroulants peuvent être bruts (style de [**\_ liste déroulante BTNS**](toolbar-control-and-button-styles.md) ), afficher une flèche en regard de l’image du bouton (style de [**\_ WHOLEDROPDOWN BTNS**](toolbar-control-and-button-styles.md) ) ou afficher une flèche séparée de l’image ([**TBSTYLE \_ ex \_ DRAWDDARROWS**](toolbar-extended-styles.md) style). Si une flèche séparée est utilisée, \_ la liste déroulante TBN est envoyée uniquement si l’utilisateur clique sur la partie de flèche du bouton. Si l’utilisateur clique sur la partie principale du bouton, un message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) avec l’ID du bouton est envoyé, comme avec un bouton standard. Pour les deux autres styles du bouton déroulant, \_ la liste déroulante TBN est envoyée lorsque l’utilisateur clique sur une partie du bouton.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

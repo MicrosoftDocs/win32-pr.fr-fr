@@ -10,12 +10,12 @@ keywords:
 - éléments, vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b72df7472829fe9979c9f7a30558e340a69aeb2f7024641623ba6be1a46424
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbd8ab6bd014d2968483120fd1dd98804905faa4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010827"
 ---
 # <a name="video-element"></a>Élément VIDEO
 

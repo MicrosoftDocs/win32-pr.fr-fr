@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c574d1032d9e392973478bc1df1e22cde6a49145b6f4775d928aac0b35e6988b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5d3ab7032768cacfab6415548a09def453ab4f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093845"
 ---
 # <a name="savepp-switch"></a>commutateur/savePP
 
@@ -31,7 +31,7 @@ midl /savePP
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce commutateur permet aux développeurs de discerner ce qui est analysé par le compilateur MIDL et est utile pour le débogage. La sortie du préprocesseur est écrite dans un ou plusieurs fichiers temporaires dans le répertoire indiqué par la variable d’environnement TEMP. Le nom du fichier de sortie, ou fichiers, suit une convention d’affectation de noms de MID \* . tmp. Notez qu’une seule compilation peut générer plusieurs flux d’entrée prétraités ; Cela est dû au fait que l’importation d’un fichier IDL, par opposition à l’utilisation de **\# include**, entraîne une exécution de préprocesseur distincte.
 

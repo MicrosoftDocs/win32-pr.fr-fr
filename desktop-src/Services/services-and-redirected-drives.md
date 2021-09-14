@@ -5,11 +5,11 @@ title: Services et lecteurs redirigés
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a3b1435e69ded3bf13a0869a0b9ad2b90bb4682c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952876"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120766"
 ---
 # <a name="services-and-redirected-drives"></a>Services et lecteurs redirigés
 
@@ -23,7 +23,7 @@ Un service ne doit pas accéder directement aux ressources réseau ou locales pa
 -   Si le service fournit des informations d’identification explicites à une commande **net use** , ces informations d’identification peuvent être partagées par inadvertance en dehors des limites de service. Au lieu de cela, le service doit utiliser l' [emprunt d’identité du client](/windows/desktop/SecAuthZ/client-impersonation) pour emprunter l’identité de l’utilisateur.
 -   Plusieurs services exécutés dans le même contexte peuvent interférer entre eux. Si les deux services effectuent une **utilisation net** explicite et fournissent les mêmes informations d’identification en même temps, un service échoue et une erreur « déjà connecté » s’affiche.
 
-En outre, un service ne doit pas utiliser les [fonctions de réseau Windows](/windows/desktop/WNet/windows-networking-functions) pour gérer les lettres de lecteur mappées. Bien que les fonctions WNet puissent retourner avec succès, le comportement qui en résulte n’est pas le même que prévu. Lorsque le système établit un lecteur Redirigé, il est stocké par utilisateur. Seul l’utilisateur est en mesure de gérer le lecteur Redirigé. Le système effectue le suivi des lecteurs redirigés en fonction de l’identificateur de sécurité (SID) d’ouverture de session de l’utilisateur. Le SID d’ouverture de session est un identificateur unique pour la session d’ouverture de session de l’utilisateur. Un seul utilisateur peut avoir plusieurs sessions d’ouverture de session simultanées sur le système.
+en outre, un service ne doit pas utiliser les [fonctions de mise en réseau Windows](/windows/desktop/WNet/windows-networking-functions) pour gérer les lettres de lecteur mappées. Bien que les fonctions WNet puissent retourner avec succès, le comportement qui en résulte n’est pas le même que prévu. Lorsque le système établit un lecteur Redirigé, il est stocké par utilisateur. Seul l’utilisateur est en mesure de gérer le lecteur Redirigé. Le système effectue le suivi des lecteurs redirigés en fonction de l’identificateur de sécurité (SID) d’ouverture de session de l’utilisateur. Le SID d’ouverture de session est un identificateur unique pour la session d’ouverture de session de l’utilisateur. Un seul utilisateur peut avoir plusieurs sessions d’ouverture de session simultanées sur le système.
 
 Si un service est configuré pour s’exécuter sous un compte d’utilisateur, le système crée toujours une nouvelle session d’ouverture de session pour l’utilisateur et démarre le service dans cette nouvelle session. Par conséquent, un service ne peut pas gérer les mappages de lecteur établis dans les autres sessions de l’utilisateur.
 

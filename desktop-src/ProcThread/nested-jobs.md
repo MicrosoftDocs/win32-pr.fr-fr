@@ -4,12 +4,12 @@ ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: Tâches imbriquées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fba0a517b71cdc01ec701a4a8f6a4f272f039797c140333e64ecad5532aca23f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abf105c70ec8e83b395fcce56c6274d4838358bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032206"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324811"
 ---
 # <a name="nested-jobs"></a>Tâches imbriquées
 

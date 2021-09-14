@@ -9,12 +9,12 @@ keywords:
 - conflits de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd7b7916e77d29fa21aa6eb68e223d43a1415c36058fbe00e2d3abb9c4cae979
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 25bf5c0914ba28b9a5178f99a94f83f57ac99550
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117870715"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235745"
 ---
 # <a name="about-version-information"></a>À propos des informations de version
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102379
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0432bded6c061cf8ad09d8dd3cef7236d69b9b1aa244d6a5707434599ec1853c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e3a009622ebf21710ceeb005273dc5db4331b44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119040457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192940"
 ---
 # <a name="esentnotintransactionexception-methods"></a>Méthodes EsentNotInTransactionException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentNotInTransactionException, classe](./esentnotintransactionexception-class.md)
 

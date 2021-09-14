@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2823c5f9846ec2569da0ede6629a4b7e8c04c7b61e14060451c8d0cf3a02f71d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fd87a2e2ba3d53b119df328fa68668c91c78d6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010757"
 ---
 # <a name="iwmpcontrolsplay-method"></a>IWMPControls ::p, méthode
 
@@ -49,11 +49,11 @@ Implements IWMPControls.play
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette méthode est appelée pendant le transfert rapide ou le rembobinage, la vitesse de lecture (la valeur de **IWMPSettings. rate**) est définie sur 1,0.
 
@@ -100,7 +100,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

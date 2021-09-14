@@ -8,11 +8,11 @@ title: IPType (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 09ff4fd6c0290c29aa8737efea5d94da2d2025cb
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118157"
 ---
 # <a name="span-idwwan_profile_v4element_1_iptypespanmodemdmconfigprofileiptype-v4"></a><span id="WWAN_profile_v4.element_1_IPType"></span>ModemDMConfigProfile \/ ... \/ IPType (v4)
 
@@ -22,7 +22,7 @@ Cet élément est une nouveauté de v4 du schéma. L’élément peut avoir l’
 
 | Valeur   | Signification                                       |
 |---------|-----------------------------------------------|
-| Par défaut | Le type d’adresse IP doit être choisi par la ou les couches inférieures     |
+| Default | Le type d’adresse IP doit être choisi par la ou les couches inférieures     |
 | IPv4    | Utiliser IPv4                                      |
 | IPv6    | Utiliser IPv6                                      |
 | IPv4v6  | Utilisez IPv4 et/ou IPv6, comme disponible.           |
@@ -40,7 +40,7 @@ Cet élément est une nouveauté de v4 du schéma. L’élément peut avoir l’
 &nbsp;&nbsp;[\<Context\>](element-1-context.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;**\<IPType\>**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <IPType>
@@ -70,7 +70,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

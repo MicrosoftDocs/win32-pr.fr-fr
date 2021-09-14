@@ -4,12 +4,12 @@ ms.assetid: 7E5E7C60-9C3F-406B-A7DD-A953181CD314
 title: Attribut MFStreamExtension_PinholeCameraIntrinsics (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c0a77f7d49770e084dfe258169863a713311be02f1711c6f637c7bfc16b4e55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ee9ad848f0b8cc12c2496544d98b4ef17332151
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235914"
 ---
 # <a name="mfstreamextension_pinholecameraintrinsics-attribute"></a>\_Attribut MFStreamExtension PinholeCameraIntrinsics
 
@@ -23,11 +23,11 @@ Tableau d’octets
 
 Pour récupérer cet attribut, appelez [**IMFMediaSourceEx :: GetStreamAttributes**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de l’attribut est un [**MFPinholeCameraIntrinsics**](/windows/desktop/api/mfapi/ns-mfapi-mfpinholecameraintrinsics).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

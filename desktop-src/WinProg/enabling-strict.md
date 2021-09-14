@@ -4,12 +4,12 @@ description: Lorsque vous définissez le symbole STRICT, vous activez des foncti
 ms.assetid: 4029c7a7-108a-40cb-8600-eb23968e9d8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bca6ca814d69910620b89095cc18be3b37601329dc053937d5772243097537c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0400b67025f11dc9c58553f6835b2a8e2b36b4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118561793"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295091"
 ---
 # <a name="enabling-strict"></a>Activation du STRICT
 

@@ -4,12 +4,12 @@ ms.assetid: 80EBA03F-E703-4783-AD22-15A8592E0B81
 title: System. DeviceInterface. nom_imprimante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6c7fb5608f192ac0ba143ac857f4ad7b509c60a11e65da4ae1e022f014a21fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55ee3c504b4ff3fa335d25820a0a0a56bb810db3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119946449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235416"
 ---
 # <a name="systemdeviceinterfaceprintername"></a>System. DeviceInterface. nom_imprimante
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

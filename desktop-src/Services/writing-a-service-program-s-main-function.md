@@ -4,12 +4,12 @@ ms.assetid: 7fdfc20a-9148-4ae1-8101-7a387c0d0edc
 title: Écriture d’une fonction principale d’un programme de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82e3c519650957f4f27b00ff54864f558cafba3db960f30c0dd20517328f1c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83aa743bfabbeafa2e05818c5bb068a949dce807
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117966610"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120706"
 ---
 # <a name="writing-a-service-programs-main-function"></a>Écriture de la fonction principale d’un programme de service
 

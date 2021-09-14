@@ -4,12 +4,12 @@ description: Propriété AutoPopupMenu
 ms.assetid: 499092cb-0990-4edb-915c-12e3011de142
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29659fac026323ec5b2db4794443ff680df9d378c43ecfec415e78c9d4ce7e5b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 25d4ebfc559c88c3750a338f30b5dee4aad66ec3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120114839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120182"
 ---
 # <a name="autopopupmenu-property"></a>Propriété AutoPopupMenu
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si le fait de cliquer avec le bouton d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En affectant à cette propriété la **valeur false**, vous pouvez créer votre propre comportement de gestion de menus. Pour afficher le menu après avoir défini cette propriété sur **false**, utilisez la méthode [**ShowPopupMenu**](showpopupmenu-method.md) .
 

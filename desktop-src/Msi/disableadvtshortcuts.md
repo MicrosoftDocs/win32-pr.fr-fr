@@ -4,12 +4,12 @@ ms.assetid: 1b55ecbe-932f-4f08-98b1-8c5e7a57d2e8
 title: Propriété DISABLEADVTSHORTCUTS
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fd8465620abab56ebfe18f68254bf6d29b6e752a7550157231a0b1abe95ecd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c3f7d2cf800745691dde6011e6ab62232b94117
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119745559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091545"
 ---
 # <a name="disableadvtshortcuts-property"></a>Propriété DISABLEADVTSHORTCUTS
 
@@ -19,13 +19,13 @@ La définition de la propriété **DISABLEADVTSHORTCUTS** désactive la généra
 
 Par défaut, la génération de raccourcis d’installation à la demande est activée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les raccourcis qui prennent en charge la publication ont le nom d’une fonctionnalité, plutôt qu’un chemin de fichier mis en forme au format \[ \# filekey \] , entré dans la colonne cible de la [table de raccourcis](shortcut-table.md). Si cette propriété est définie et que la fonctionnalité est installée, le programme d’installation génère un raccourci standard vers la fonctionnalité.
 
 Cette propriété est couramment utilisée par les administrateurs pour les utilisateurs qui se déplacent entre des environnements qui ne prennent pas en charge la publicité. Cette propriété peut être définie par une transformation, dans le flux d’administration, ou dans la [table de propriétés](property-table.md). S’il est défini à l’aide de la ligne de commande ou d’un appel à [**MsiSetProperty**](/windows/desktop/api/Msiquery/nf-msiquery-msisetpropertya), il doit être réinitialisé à nouveau lors de chaque installation suivante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

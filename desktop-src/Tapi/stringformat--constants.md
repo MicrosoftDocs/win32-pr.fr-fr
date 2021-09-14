@@ -5,11 +5,11 @@ title: Constantes STRINGFORMAT_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 27ff84345a7fb9439c36b462ffc6da73714b3dc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324683"
 ---
 # <a name="stringformat_-constants"></a>\_Constantes STRINGFORMAT
 
@@ -61,7 +61,7 @@ Spécifie le format de caractère Unicode standard à l’aide de deux octets pa
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

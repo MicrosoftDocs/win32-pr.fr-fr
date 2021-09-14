@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fb429c3cd66af28485edf2979d2efbe50b3205a2142e963c8c3bb51ef5713f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 696246d26c2b87e9b299844a9dc7e78d39ac632f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118280431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295027"
 ---
 # <a name="wm_choosefont_getlogfont-message"></a>\_ \_ Message GETLOGFONT WM CHOOSEFONT
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-lo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
@@ -63,7 +63,7 @@ Utilisez le message **WM \_ CHOOSEFONT \_ GETLOGFONT** pour obtenir des informat
 
 En règle générale, vous activez une procédure de hook [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) pour traiter les messages de [**\_ commande WM**](/windows/desktop/menurc/wm-command) pour le bouton **appliquer** . Quand l’utilisateur clique sur le bouton **apply** , la procédure de hook envoie le message **WM \_ CHOOSEFONT \_ GETLOGFONT** à la boîte de dialogue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -94,7 +94,7 @@ En règle générale, vous activez une procédure de hook [*CFHookProc*](/window
 [**WM, \_ commande**](/windows/desktop/menurc/wm-command)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

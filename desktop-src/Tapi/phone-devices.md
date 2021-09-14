@@ -4,12 +4,12 @@ ms.assetid: 4d9f3b32-20d0-4550-9b3d-db97df8ea289
 title: Téléphone Appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d11aa269e17d74fbaf74c701c954ced734ef33900198a7c9e30a044f5ebd32e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f406442e43d8d4f31a89bfc0ccb1e59916d33e0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011089"
 ---
 # <a name="phone-devices"></a>Téléphone Appareil
 

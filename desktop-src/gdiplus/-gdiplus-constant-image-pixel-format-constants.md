@@ -5,11 +5,11 @@ title: Constantes de format de pixel d’image (Gdipluspixelformats. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b62abc8b0ed606b958764e27171f8b45e619d23b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982882"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120214"
 ---
 # <a name="image-pixel-format-constants"></a>Constantes de format de pixel d’image
 

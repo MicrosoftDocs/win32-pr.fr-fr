@@ -1,19 +1,19 @@
 ---
-description: Le modèle de sécurité Windows vous permet de contrôler l’accès aux objets de mappage de fichiers. Pour plus d’informations, consultez Access-Control modèle.
+description: le modèle de sécurité Windows vous permet de contrôler l’accès aux objets de mappage de fichiers. Pour plus d’informations, consultez Access-Control modèle.
 ms.assetid: 8bbf7c98-ff83-4ed9-8b82-f08dcd31295c
 title: Sécurité du mappage de fichiers et droits d’accès
 ms.topic: article
 ms.date: 10/06/2018
 ms.openlocfilehash: 65d520e12d1b555e7c633f0d1e0ba5142c330ce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515221"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094161"
 ---
 # <a name="file-mapping-security-and-access-rights"></a>Sécurité du mappage de fichiers et droits d’accès
 
-Le modèle de sécurité Windows vous permet de contrôler l’accès aux objets de mappage de fichiers. Pour plus d’informations, consultez [modèle de contrôle d’accès](../secauthz/access-control-model.md).
+le modèle de sécurité Windows vous permet de contrôler l’accès aux objets de mappage de fichiers. Pour plus d’informations, consultez [modèle de contrôle d’accès](../secauthz/access-control-model.md).
 
 Vous pouvez spécifier un [descripteur de sécurité](../secauthz/security-descriptors.md) pour un objet de mappage de fichiers lorsque vous appelez la fonction [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) . Si vous spécifiez **null**, l’objet obtient un descripteur de sécurité par défaut. Les listes de contrôle d’accès dans le descripteur de sécurité par défaut pour un objet de mappage de fichiers proviennent du jeton principal ou d’emprunt d’identité du créateur.
 

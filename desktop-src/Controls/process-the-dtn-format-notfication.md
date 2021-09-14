@@ -4,12 +4,12 @@ description: Cette rubrique montre comment traiter une notification de format en
 ms.assetid: 7B559846-FE52-4181-B25D-888BE90EB038
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 070d1234dbd9d09159335539309deec86e2d3e1e05547d933cd18f16b9d7162d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 25271ff33ee6978ebcb0bc474492f884ed7faaa2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829910"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117590"
 ---
 # <a name="how-to-process-the-dtn_format-notification"></a>Comment traiter la notification au \_ format DTN
 

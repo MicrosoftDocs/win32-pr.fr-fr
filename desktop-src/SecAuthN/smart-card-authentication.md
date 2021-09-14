@@ -5,19 +5,19 @@ title: Authentification par carte à puce
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6241d323f4c5e982fee96f44002da316d5d645d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324777"
 ---
 # <a name="smart-card-authentication"></a>Authentification par carte à puce
 
 Les composants de base du [*sous-système de carte à puce*](../secgloss/s-gly.md) sont basés sur les normes PC/SC (voir les spécifications à l’adresse [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/) ). Ces éléments de base sont les suivants :
 
--   [*Gestionnaire de ressources*](../secgloss/r-gly.md) qui utilise une API Windows.
+-   [*gestionnaire de ressources*](../secgloss/r-gly.md) qui utilise une API Windows.
 -   [*Interface utilisateur*](../secgloss/u-gly.md) (IU) qui fonctionne avec le gestionnaire de ressources.
--   Plusieurs [*fournisseurs de services*](../secgloss/s-gly.md) de base qui fournissent un accès à des services spécifiques. Contrairement à l’API Windows du gestionnaire de ressources, les fournisseurs de services utilisent un modèle d’interface COM pour fournir des services de [*carte à puce*](../secgloss/s-gly.md) .
+-   Plusieurs [*fournisseurs de services*](../secgloss/s-gly.md) de base qui fournissent un accès à des services spécifiques. contrairement à l’API Windows du gestionnaire de ressources, les fournisseurs de services utilisent un modèle d’interface COM pour fournir des services de [*carte à puce*](../secgloss/s-gly.md) .
 
 L’illustration suivante montre les relations de ces parties dans l’architecture globale de la carte à puce.
 

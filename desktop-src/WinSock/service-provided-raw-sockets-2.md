@@ -4,12 +4,12 @@ ms.assetid: b78c75b7-255c-4e85-9a88-0efb3b5f0e51
 title: Sockets bruts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9c1522c2b8499e2ba8f1bb693513105804ec936fc2224fccaa55dd90a1b0dc2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 209c884e85327a7a8c1d21292d9342a0c032747a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117740533"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192092"
 ---
 # <a name="raw-sockets"></a>Sockets bruts
 

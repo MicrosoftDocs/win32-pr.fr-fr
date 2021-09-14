@@ -16,12 +16,12 @@ keywords:
 - lecture des valeurs d’attribut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8431405b68435f41cb357a810e30c37bb96c5971824b3878b1982986aa0d0833
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d527429b71cff5594c127b3ad2bfb82b3f3b2ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010936"
 ---
 # <a name="reading-attribute-values"></a>Lecture des valeurs d’attribut
 

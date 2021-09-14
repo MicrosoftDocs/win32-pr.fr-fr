@@ -20,18 +20,18 @@ keywords:
 - sélections automatiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0e32d0f95093d9550c71643330267d59a57f56db7e0d666274a492ac29b2c58
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa53a4b9f56a8aa6425f137ef4a8c43bd8ed1454
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119507169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010852"
 ---
 # <a name="using-auto-playlists-to-organize-content-in-the-library"></a>Utilisation de sélections automatiques pour organiser le contenu de la bibliothèque
 
 Vous pouvez utiliser les sélections automatiques pour organiser le contenu Premium que vous fournissez. par exemple, vous pouvez utiliser Lecteur Windows Media pour créer une sélection automatique qui contient uniquement le contenu que vous avez fourni avec un classement utilisateur d’au moins quatre étoiles. vous pouvez ensuite ajouter la sélection automatique à la bibliothèque dans Lecteur Windows Media afin qu’elle s’affiche dans le nœud Musique acheté sous le nœud serveur de distribution de contenu.
 
-Pour cela, procédez comme suit :
+Pour ce faire, procédez comme suit :
 
 1.  Créez la sélection automatique.
 2.  à l’aide de l’explorateur de Windows, accédez à la sélection automatique et récupérez le fichier. wpl.

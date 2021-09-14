@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8845aa54cd3cca413f31ee01f4a9583e24dc875a876d1aff691f574214f6f793
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e306af3f6462507a181de91104169c5ac7d6ce14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116153"
 ---
 # <a name="tcm_setitemsize-message"></a>\_Message SETITEMSIZE TCM
 
@@ -39,15 +39,15 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’ancienne largeur et la hauteur. La largeur est dans le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) de la valeur de retour et la hauteur est dans le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la largeur est définie sur une valeur inférieure à la largeur d’image définie par [**ImageList \_ Create**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_create), la largeur de l’onglet est définie sur la valeur la plus faible qui est supérieure à la largeur de l’image.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

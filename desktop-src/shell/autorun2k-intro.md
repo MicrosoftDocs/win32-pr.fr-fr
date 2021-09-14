@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 5fc3d4700305100cab3c62d96c881830f6ea02c1c6060b1076709b5190833064
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c0eff0e9c8a96149d26ee5bdc514e5067c0abb2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235272"
 ---
 # <a name="using-hardware-autoplay"></a>Utilisation de l’exécution automatique matérielle
 

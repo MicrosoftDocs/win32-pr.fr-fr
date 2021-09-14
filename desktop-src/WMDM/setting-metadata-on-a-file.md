@@ -12,12 +12,12 @@ keywords:
 - metadata
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d64bdd173258272801886b90dca2265425eb65fd8ec3e5a25d01db37453d7eb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56a6fa7002d4fafffe0793ef91b00dd3f1f0e20c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119766270"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192436"
 ---
 # <a name="setting-metadata-on-a-file"></a>Définition de métadonnées sur un fichier
 

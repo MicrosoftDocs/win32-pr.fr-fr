@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22fc6b32d34249fbbe94e629b9fea6ae40d9627d100d3c337efd74d5a2d2773f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12ea9763bf505394f231ebe7d50943f4336e244c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119085861"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295190"
 ---
 # <a name="duration"></a>Duration
 
@@ -31,7 +31,7 @@ L’attribut **Duration** contient la durée d’exécution du fichier, en unit�
 
 **\_type WMT \_ QWord**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut codé.
 

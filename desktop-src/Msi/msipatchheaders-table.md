@@ -4,12 +4,12 @@ ms.assetid: aefdd365-1681-43e4-8470-04a5d6efd993
 title: Table MsiPatchHeaders
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1888a91da13923c4a9904c770df77cb24a5b8381c869a60895bb5ff49d23e6b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a3fa4e037a31f3e913f13ff9c96735ed6760dc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118944490"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119745"
 ---
 # <a name="msipatchheaders-table"></a>Table MsiPatchHeaders
 
@@ -48,7 +48,7 @@ Cette colonne est l’en-tête de correctif de flux binaire utilisé pour la val
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table est traitée par l' [action PatchFiles](patchfiles-action.md). Cette table est généralement ajoutée au package d’installation par une transformation à partir d’un package correctif. En général, il n’est pas directement créé dans un package d’installation.
 

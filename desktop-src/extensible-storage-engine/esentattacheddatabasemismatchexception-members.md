@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101066
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0e543cc17915cef6a010d5dd4c155393118cd2dcbcd3aa090c09ef3ca879bdee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea04c41b11b4c24a4e22fc9db3f7946ba463bdf1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295546"
 ---
 # <a name="esentattacheddatabasemismatchexception-members"></a>Membres EsentAttachedDatabaseMismatchException
 
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentAttachedDatabaseMismatchException, classe](./esentattacheddatabasemismatchexception-class.md)
 

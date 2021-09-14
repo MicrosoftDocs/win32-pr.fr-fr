@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e48edd19d6ff9a547ce1698f81c89f780ffaa48f6312a656ef18664b39e78410
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c258b3ff48cdd2f00f632fdce770b58182a531c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119511269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192923"
 ---
 # <a name="providertype-complex-type"></a>Type complexe ProviderType
 
@@ -132,16 +132,16 @@ Définit un fournisseur et les métadonnées qu’il utilise pour définir ses �
 
 | Élément                                                                       | Type                                                                         | Description                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**couche**](eventmanifestschema-channels-providertype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md)   | Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des événements.<br/>                                                                                                                                                                                      |
+| [**canaux**](eventmanifestschema-channels-providertype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md)   | Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des événements.<br/>                                                                                                                                                                                      |
 | [**événements**](eventmanifestschema-events-providertype-element.md)             | [**DefinitionType**](eventmanifestschema-definitiontype-complextype.md)     | Définit une liste de définitions d’événements des événements que le fournisseur peut journaliser.<br/>                                                                                                                                                                       |
 | **filtres**                                                                   | [**FilterListType**](eventmanifestschema-filterlisttype-complextype.md)     | Définit une liste de filtres que votre fournisseur prend en charge. Vous pouvez utiliser les filtres, comme vous le feriez pour le niveau et les mots clés, pour déterminer si vous souhaitez écrire un événement. <br/> **Windows Server 2008 et Windows Vista :** non pris en charge jusqu’au Windows 7.<br/> |
-| [**mots clés**](eventmanifestschema-keywords-providertype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md)   | Définit une liste de mots clés qui classent les événements.<br/>                                                                                                                                                                                                 |
+| [**mot**](eventmanifestschema-keywords-providertype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md)   | Définit une liste de mots clés qui classent les événements.<br/>                                                                                                                                                                                                 |
 | [**Balance**](eventmanifestschema-levels-providertype-element.md)             | [**LevelListType**](eventmanifestschema-levellisttype-complextype.md)       | Définit une liste de niveaux qui spécifient la gravité d’un événement.<br/>                                                                                                                                                                                    |
 | [**Mount**](eventmanifestschema-maps-providertype-element.md)                 | [**MapType**](eventmanifestschema-maptype-complextype.md)                   | Définit une liste de paires nom/valeur que vous pouvez référencer dans la section de modèle du manifeste.<br/>                                                                                                                                                 |
 | [**namedQueries**](eventmanifestschema-namedqueries-providertype-element.md) | [**NamedQueryType**](eventmanifestschema-namedquerytype-complextype.md)     | Non utilisé. Définit une liste de requêtes nommées qui interrogent la chaîne de message d’événement pour obtenir une valeur et effectuent une action spécifiée si elle est trouvée.<br/>                                                                                                                 |
 | [**OpCodes**](eventmanifestschema-opcodes-providertype-element.md)           | [**OpcodeListType**](eventmanifestschema-opcodelisttype-complextype.md)     | Définit une liste d’OpCodes que vous pouvez utiliser pour regrouper des événements au sein d’une tâche.<br/>                                                                                                                                                                          |
 | [**décrites**](eventmanifestschema-tasks-providertype-element.md)               | [**TaskListType**](eventmanifestschema-tasklisttype-complextype.md)         | Définit une liste de tâches qu’un fournisseur peut utiliser pour regrouper des événements. En général, vous utilisez des tâches pour regrouper des événements pour une fonctionnalité ou un composant du fournisseur.<br/>                                                                                              |
-| [**templates**](eventmanifestschema-templates-providertype-element.md)       | [**TemplateListType**](eventmanifestschema-templatelisttype-complextype.md) | Définit une liste de modèles qui spécifient les données à inclure avec les événements.<br/>                                                                                                                                                                      |
+| [**ceux**](eventmanifestschema-templates-providertype-element.md)       | [**TemplateListType**](eventmanifestschema-templatelisttype-complextype.md) | Définit une liste de modèles qui spécifient les données à inclure avec les événements.<br/>                                                                                                                                                                      |
 
 
 
@@ -164,7 +164,7 @@ Définit un fournisseur et les métadonnées qu’il utilise pour définir ses �
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le observateur d’événements Windows (Eventvwr.exe) utilise la chaîne de message localisée si elle est disponible ; dans le cas contraire, elle utilise la chaîne de l’attribut Name.
 
@@ -172,7 +172,7 @@ Les chemins d’accès pour resourceFileName, messageFileName et parameterFileNa
 
 La chaîne de message d’un événement peut contenir des chaînes d’insertion et des chaînes de paramètres. Une chaîne d’insertion se présente sous la forme%*n*, où *n* est un index de base un qui identifie un élément de données à partir du modèle de données de l’événement que vous souhaitez insérer dans le message. Une chaîne de paramètres (Voir l’attribut **parameterFileName** ) se présente sous la forme%%*n*, où n est l’identificateur d’un message dans la table des messages. Si la chaîne de message de l’événement contenait « %1% %11 = %2% %12 » et que les valeurs des éléments de données pour %1 et %2 étaient 8 et 2, respectivement, et que les chaînes de paramètres pour% %11 et% %12 étaient respectivement « quarts » et « gallons »
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

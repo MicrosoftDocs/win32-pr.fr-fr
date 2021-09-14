@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eec9285e9a516547aece30d059f1fabd9d590e445d2124e9bccad5cb6cfc354
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2fc847927ef14312c76e26303bec5de07b788266
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669942"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116785"
 ---
 # <a name="tb_getdisabledimagelist-message"></a>TO \_ GETDISABLEDIMAGELIST message
 
@@ -35,11 +35,11 @@ Récupère la liste d’images utilisée par un contrôle de barre d’outils po
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de la liste d’images inactives, ou **null** si aucune liste d’images inactives n’est définie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

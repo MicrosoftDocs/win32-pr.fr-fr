@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9afff57188a9683d18c6bff780b4a9f61479526d44ea77985742520a47e66cca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 114769f689cbf8d9475460e40d205c4282a1a787
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669644"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115573"
 ---
 # <a name="tvm_setitemheight-message"></a>TVM \_ SETITEMHEIGHT message
 
@@ -39,15 +39,15 @@ Nouvelle hauteur de chaque élément dans l’arborescence, en pixels. Les haute
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la hauteur précédente des éléments, en pixels.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle Tree-View utilise cette valeur pour la hauteur de tous les éléments. Pour modifier la hauteur des éléments individuels, consultez la description du membre **iIntegral** de la structure [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

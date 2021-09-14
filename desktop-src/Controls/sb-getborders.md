@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dafa7a8c27b5c274a981e43edc5c55ec0cade67cac08a1d09a898916d792795c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 854df2cd367a852a2e6a0e638b470187efabe58c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117113"
 ---
 # <a name="sb_getborders-message"></a>\_Message SB GETBORDERS
 
@@ -39,15 +39,15 @@ Pointeur vers un tableau d’entiers qui a trois éléments. Le premier élémen
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les bordures déterminent l’espacement entre le bord extérieur de la fenêtre et les rectangles de la fenêtre qui contiennent du texte. Les bordures déterminent également l’espacement entre les rectangles.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: abba5113-125f-4dac-b566-99c0d9b5978c
 title: Autres convertisseurs vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd105f406e1b39d998a027a915621f214ec2e769f373912a1e9e8525573f31aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 070e55375d9d1d5a32c306853aafcb431a76c368
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074803"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112321"
 ---
 # <a name="alternative-video-renderers"></a>Autres convertisseurs vidéo
 

@@ -4,12 +4,12 @@ ms.assetid: 6B6D73C1-C2E6-4C23-BBAD-7B51E8441C71
 title: Attribut MF_MT_SPATIAL_AUDIO_MAX_DYNAMIC_OBJECTS (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42ae239354076dae309ba9e1c63f9c19b408994958b2523a2c0e170f460188e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 358045079fb9cf52ad1fd0c8969f54723c7f02d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104395"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313929"
 ---
 # <a name="mf_mt_spatial_audio_max_dynamic_objects-attribute"></a>\_ \_ \_ \_ \_ Attribut objets dynamiques Max audio spatial \_ MF
 
@@ -19,11 +19,11 @@ Spécifie le nombre maximal d’objets audio dynamiques qui peuvent être rendus
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un [**IMFSpatialAudioSample**](/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample) peut contenir moins d’échantillons que le nombre spécifié par cet attribut. Si un exemple contient plus d’objets audio que ce qui est spécifié par cet attribut, le comportement n’est pas défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

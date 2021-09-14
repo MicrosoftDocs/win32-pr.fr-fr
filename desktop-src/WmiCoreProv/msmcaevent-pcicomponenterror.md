@@ -1,5 +1,5 @@
 ---
-description: Indique une erreur de composant PCI MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Indique une erreur de composant PCI MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 2b241333-2ea5-42cb-bdd3-27a10df51f3e
 title: Classe MSMCAEvent_PCIComponentError
 ms.topic: reference
@@ -35,15 +35,15 @@ api_type:
 api_location:
 - Wmiprov.dll
 ms.openlocfilehash: cbcf3ee13e822fd59cdcdd30538d5e369d798aaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529201"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292219"
 ---
 # <a name="msmcaevent_pcicomponenterror-class"></a>MSMCAEvent \_ PCIComponentError, classe
 
-La classe **MSMCAEvent \_ PCIComponentError** indique une erreur de composant PCI MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ PCIComponentError** indique une erreur de composant PCI MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -142,7 +142,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -363,7 +363,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> <dt>
 
@@ -400,7 +400,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 La classe **MSMCAEvent \_ PCIComponentError** est dérivée de [**WmiEvent**](wmievent.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

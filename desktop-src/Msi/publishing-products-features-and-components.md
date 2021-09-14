@@ -4,12 +4,12 @@ ms.assetid: 2c395d81-4f46-444e-a275-7a5d806e473c
 title: Publication de produits, de fonctionnalités et de composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74dd62e080cf58188405e20d1fd69507f849dd37ceddd01eaf1f4bbe7c59ea76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9cdd8c8445491646399c7d118a69ae497d27faff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119673"
 ---
 # <a name="publishing-products-features-and-components"></a>Publication de produits, de fonctionnalités et de composants
 

@@ -4,12 +4,12 @@ ms.assetid: c9902990-7a26-48fd-96ac-4d5a749e34be
 title: Localisation de la langue affichée par les boîtes de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72142ce0f479379ebc929807294e6bbab7699738ee41e70be87e8e65f57c1ea3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 042b2b7f9ac256ebad265b75a8756fc422403e37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011942"
 ---
 # <a name="localizing-the-language-displayed-by-dialogs"></a>Localisation de la langue affichée par les boîtes de dialogue
 

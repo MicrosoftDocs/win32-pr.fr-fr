@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a0d84c982fe3a3e7834210741f5bd20cc52615197756653c743f5cd67d0b59dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59d1d16a21996937357d0358625772a4b6712019
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118084928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010319"
 ---
 # <a name="apijetsetcolumns-method"></a>API. JetSetColumns, méthode
 
@@ -98,14 +98,14 @@ public static JET_wrn JetSetColumns(
     
     Nombre d’entrées dans le paramètre SetColumns.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Un avertissement. Si le dernier jeu de colonnes a un avertissement, cet avertissement est retourné à partir de JetSetColumns lui-même.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

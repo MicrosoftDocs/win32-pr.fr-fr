@@ -4,12 +4,12 @@ ms.assetid: 0d355ad1-d674-432e-809a-9fb27ac5f610
 title: Microsoft Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6b229e3d2d0e4585925d40c3a53d04f407981f923ca160084b7c19547acd89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4341a0aea1d51c7260e0fa532eb48b80699e053a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118473589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313702"
 ---
 # <a name="microsoft-media-foundation"></a>Microsoft Media Foundation
 

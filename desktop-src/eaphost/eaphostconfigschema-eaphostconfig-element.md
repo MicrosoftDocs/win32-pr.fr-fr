@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c34ddd1607a59c0425f7ec789bedb4981a05983ead276a14308fbf6aaadf26de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 125b5fa2cab8bf3f9da12bd842a1a102beee3fb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118274863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118370"
 ---
 # <a name="eaphostconfig-element"></a>Élément EapHostConfig
 
@@ -69,7 +69,7 @@ Les éléments [**config**](eaphostconfigschema-config-eaphostconfig-element.md)
 
 L’élément **processContents** active les futures améliorations du schéma. L’élément **processContents** est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

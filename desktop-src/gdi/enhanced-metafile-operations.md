@@ -4,12 +4,12 @@ ms.assetid: 8f887c38-6cfa-4918-aa44-dd5fb837b40b
 title: Opérations de métafichier améliorées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5daf08ef5d8d48b81aea4daa5d2696ececec3fce44b1303c9ff7ccd692151a7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18ba9e2ac2f14c4436c039a66cc3211b471c0461
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118250283"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120253"
 ---
 # <a name="enhanced-metafile-operations"></a>Opérations de métafichier améliorées
 

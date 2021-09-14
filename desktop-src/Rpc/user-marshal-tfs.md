@@ -4,12 +4,12 @@ description: Utilisateur-Marshal dans l’appel de procédure distante (RPC).
 ms.assetid: 5119e959-d8b8-4fca-8910-568bb9063a9d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6dcc9574b49a46b6e867fc4bca314944589ccf68b9d6e3fb8695a099eb255c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c901fd8c75137b4657322a89692ff8a3afb5408
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011371"
 ---
 # <a name="user-marshal"></a>Marshal d’utilisateur
 

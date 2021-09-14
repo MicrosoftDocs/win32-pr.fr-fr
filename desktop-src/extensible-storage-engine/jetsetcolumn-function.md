@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 8517a70f8dd5de95bd9c16782759339b22ff4130
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292147"
 ---
 # <a name="jetsetcolumn-function"></a>Fonction JetSetColumn
 
@@ -142,7 +142,7 @@ En cas de réussite, la partie souhaitée d’une valeur de colonne pour la colo
 
 En cas d’échec, l’emplacement du curseur reste inchangé et aucune donnée de valeur de colonne n’est mise à jour dans le tampon de copie.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 En définissant des valeurs longues, les valeurs des colonnes [JET_coltypLongBinary](./jet-coltyp.md) de type [JET_coltypLongText](./jet-coltyp.md) ou [JET_coltypLongBinary](./jet-coltyp.md)doivent être effectuées uniquement lorsque la session appelante est dans une transaction. Si la session appelante n’est pas dans une transaction, les modifications apportées aux valeurs longues qui sont stockées séparément peuvent être validées entièrement même lorsque l’opération de mise à jour est annulée ultérieurement. Si la session appelante est dans une transaction, les effets de la mise à jour peuvent être entièrement annulés en annulant la mise à jour et en restaurant la transaction de session.
 
@@ -150,7 +150,7 @@ Les mises à jour d’index ne sont pas effectuées suite à des opérations **J
 
 La taille d’un enregistrement est limitée en fonction de la taille de la page de base de données. Toute valeur de type long de l’enregistrement supérieur à cinq octets est stockée séparément de l’enregistrement si les données de l’enregistrement dépassent la limite résultant d’une opération **JetSetColumn** . Le JET_errRecordTooBig d’erreur est renvoyé uniquement une fois que toutes les données de colonne d’enregistrement séparable ont été stockées séparément de l’enregistrement et que l’enregistrement dépasse la limite de taille d’enregistrement.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

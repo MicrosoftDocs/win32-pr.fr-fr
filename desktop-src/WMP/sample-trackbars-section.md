@@ -10,12 +10,12 @@ keywords:
 - fichiers de définition d’apparence, section Trackbars
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74bcdaf1049c7a022a0231c80e0f91df9f42e7bc55e64f1222ad2f3614940ea9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 042f99c6696b756b6c2c86a5694f8469ea90cb9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010878"
 ---
 # <a name="sample-trackbars-section"></a>Exemple de section Trackbars
 

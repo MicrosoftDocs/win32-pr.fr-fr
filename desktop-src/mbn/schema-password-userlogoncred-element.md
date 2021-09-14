@@ -11,12 +11,12 @@ api_name:
 - Password
 api_type:
 - Schema
-ms.openlocfilehash: 63ee5386c4bd9eb168e4b4ac663e857590509ebf5ab0183165fdb5e7ab59a7e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b05e34bcbaa91aba5cbfbd14f2bc8534aa91dd37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118081"
 ---
 # <a name="password-userlogoncred-element"></a>Élément Password (UserLogonCred)
 
@@ -34,7 +34,7 @@ Cet élément est facultatif.
 
 L’élément **Password** est défini par l’élément [**UserLogonCred**](schema-userlogoncred-contexttype-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

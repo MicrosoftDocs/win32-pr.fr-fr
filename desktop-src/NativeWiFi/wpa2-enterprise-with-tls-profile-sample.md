@@ -4,12 +4,12 @@ ms.assetid: ded07fda-ea7f-4c5a-9433-60196c3f14af
 title: Exemple de profil WPA2-Enterprise avec TLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 938f3d96ab4a2e1d7fc12f0d6eac0fc67dc7ff14a03401e321b59e1a9926b829
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba561f552614896ca5da1522180a53146dc5ce54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119354"
 ---
 # <a name="wpa2-enterprise-with-tls-profile-sample"></a>Exemple de profil WPA2-Enterprise avec TLS
 

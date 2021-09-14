@@ -5,11 +5,11 @@ ms.assetid: 8c390e19-3c17-4e02-ade8-cd5c1ed9E938
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 58495c48f6f355e7cc2a42b58ac0e32f88958361
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028685"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010512"
 ---
 # <a name="how-to-enable-navigation-in-a-ui-automation-fragment-provider"></a>Comment activer la navigation dans un fournisseur de fragment UI Automation
 
@@ -58,7 +58,7 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation d’un fournisseur UI Automation Server-Side](uiauto-serversideprovider.md)
@@ -67,9 +67,9 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction
 [Rubriques de procédures pour les fournisseurs UI Automation](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

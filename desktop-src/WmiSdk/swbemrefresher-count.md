@@ -17,11 +17,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 8ef08217996d8c72508986e9ae6232ed6e5cab25
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761396"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010376"
 ---
 # <a name="swbemrefreshercount-property"></a>SWbemRefresher. Count (propriété)
 
@@ -42,7 +42,7 @@ SWbemRefresher.Count As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

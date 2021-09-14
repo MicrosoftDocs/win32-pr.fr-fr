@@ -4,12 +4,12 @@ ms.assetid: 0fe02acb-cdac-4b6c-8835-6e338727973f
 title: Propriété AVEncDDCopyright (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b70258b75b302229c50ec6e093084e6bbedbfadd8867049d37b0f2a61c79e50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43bea391d924483ff5a4c0c38dccb7ff6b2f6886
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118403761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111909"
 ---
 # <a name="avencddcopyright-property"></a>Propriété AVEncDDCopyright
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncDDCopyright**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

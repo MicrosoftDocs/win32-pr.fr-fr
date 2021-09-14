@@ -4,12 +4,12 @@ description: Les éléments d’interface utilisateur qui implémentent l’inte
 ms.assetid: 36a5c0cd-53f0-433e-8932-da7d1de177dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4414fa1cd40b66b0971d7c74f484b90c62f86db64722abaabc0e8eea60b14fee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5f6e6b6152c2f5e5c41a6a2b7cd3f84a3fce373
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010677"
 ---
 # <a name="native-active-accessibility-implementation"></a>Implémentation de Active Accessibility Native
 

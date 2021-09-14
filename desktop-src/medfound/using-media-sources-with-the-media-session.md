@@ -4,12 +4,12 @@ ms.assetid: b50d3d6e-728b-4ba5-9b79-413d2108ade1
 title: Utilisation de sources multimédias avec la session multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 843ffec1b854829b5b8a0317d10adf121463e539dde471bc5b3063b1479037ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf08edf1d68ea11b05e8f8db83e247bc844cd85c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117688723"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235794"
 ---
 # <a name="using-media-sources-with-the-media-session"></a>Utilisation de sources multimédias avec la session multimédia
 

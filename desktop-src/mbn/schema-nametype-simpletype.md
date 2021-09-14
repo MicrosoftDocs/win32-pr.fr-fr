@@ -11,12 +11,12 @@ api_name:
 - nameType
 api_type:
 - Schema
-ms.openlocfilehash: 9b07bfb62e23b0c82ef69bc924147675caad10d61258a5c49edc906c4b6bf2a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8c6032e17eaf2d067dc23030a7a6279bd41eafa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117881403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118082"
 ---
 # <a name="nametype-simple-type-mobile-broadband"></a>type simple nameType (haut débit mobile)
 
@@ -37,7 +37,7 @@ Le type simple **NameType** définit un type de chaîne pour le profil haut déb
 </xs:simpleType>
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

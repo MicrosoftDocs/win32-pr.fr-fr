@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f7dae0d600553411a5a0a9287ab78d052a9ab9a0aa3c94220638adaf78dc5f11
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 227d912128bf3f656fca7aecbaf0fe0640659465
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912470"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119377"
 ---
 # <a name="wlanprofile-element"></a>Élément WLANProfile
 
@@ -517,13 +517,13 @@ L’espace de noms cible de l’élément WLANProfile est `https://www.microsoft
 | [**sharedKey**](wlan-profileschema-sharedkey-security-element.md)                 |                                                                   | Contient les informations sur la clé partagée. Cet élément est requis uniquement si des clés WEP ou PSK sont requises pour la paire authentification et chiffrement.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)                         |                                                                   | Spécifie le SSID d’un réseau local sans fil.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md)            |                                                                   | Contient un ou plusieurs SSID avec d’autres paramètres communs. <br/> Un profil peut avoir plusieurs éléments [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md) et chaque élément [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md) peut avoir plusieurs éléments [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . toutefois, Windows ne prend jamais en compte le premier élément [**SSIDConfig**](wlan-profileschema-ssidconfig-wlanprofile-element.md) dans un élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) .<br/> **Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Au plus un élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) peut apparaître dans un profil.<br/> |
-| [**entrer**](wlan-profileschema-type-ouiheader-element.md)                          |                                                                   | Contient une valeur **hexBinary** de 1 octet qui est utilisée pour différencier les cartes réseau par le même IHV.<br/> **Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**type**](wlan-profileschema-type-ouiheader-element.md)                          |                                                                   | Contient une valeur **hexBinary** de 1 octet qui est utilisée pour différencier les cartes réseau par le même IHV.<br/> **Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [**useMSOneX**](wlan-profileschema-usemsonex-ihv-element.md)                      | [boolean](/dotnet/api/system.boolean) | Spécifie l’origine des paramètres de sécurité 802.1 X utilisés par un composant de sécurité IHV. Quand [**useMSOneX**](wlan-profileschema-usemsonex-ihv-element.md) a la valeur true, les composants de sécurité IHV utilisent les paramètres 802.1 x définis par Microsoft. Quand **useMSOneX** a la valeur false, les composants de sécurité IHV utilisent les paramètres 802.1 x fournis par le fournisseur. Par défaut, **useMSOneX** a la valeur false. Cet élément est facultatif.<br/>                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**useOneX**](wlan-profileschema-useonex-authencryption-element.md)               | [boolean](/dotnet/api/system.boolean) | Indique si 802.1 X est utilisé. Cet indicateur est facultatif.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plupart des éléments enfants de l’élément WLANProfile se trouvent dans l' `https://www.microsoft.com/networking/WLAN/profile/v1` espace de noms. Il existe deux exceptions : l’élément [**FipsMode**](wlan-profileschema-fipsmode-authencryption-element.md) est dans l' `https://www.microsoft.com/networking/WLAN/profile/v2` espace de noms et l’élément [**Onex**](onexschema-onex-element.md) est dans l’espace de `https://www.microsoft.com/networking/OneX/v1` noms.
 
@@ -535,7 +535,7 @@ Pour afficher la liste des éléments enfants dans une structure de type arbores
 
 Pour afficher des exemples de profils, consultez la page exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

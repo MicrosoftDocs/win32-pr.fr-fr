@@ -4,12 +4,12 @@ description: cette rubrique explique comment utiliser l’automatisation de l’
 ms.assetid: a0bff8a1-47b1-4750-8086-e2e65a79099e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9196d62e7aa93b21aed15b76b8ced6a9520b27fb5bcee74a0e0d4ddc510c86f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a098635d6e1045c6ff4573de088d8455685014d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759243"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010508"
 ---
 # <a name="how-to-query-a-virtualized-item-in-items-view"></a>Comment interroger un élément virtualisé dans la vue éléments
 
@@ -68,7 +68,7 @@ Un client peut utiliser l’élément ItemsView pour obtenir le nombre total d�
 
 La propriété ItemStatus est une chaîne qui spécifie le nombre total d’éléments et le nombre d’éléments sélectionnés, séparés par une virgule. Par exemple : « 3 éléments, 1 élément sélectionné ». Cette chaîne est localisée et peut être communiquée directement à l’utilisateur.
 
-Les propriétés personnalisées de l’élément ItemsView incluent une propriété pour le nombre d’éléments, et une autre pour le nombre de sélections. Notamment :
+Les propriétés personnalisées de l’élément ItemsView incluent une propriété pour le nombre d’éléments, et une autre pour le nombre de sélections. Ils comprennent :
 
 -   ItemCount \_ Property \_ GUID (ABBF5C45-5CCC-47B7-BB4E-87CB87BBD162) : nombre de tous les éléments uniques dans la vue. S’ils sont regroupés par une propriété à valeurs multiples (MVP) afin qu’un seul élément puisse apparaître plusieurs fois, chaque élément n’est compté qu’une seule fois.
 

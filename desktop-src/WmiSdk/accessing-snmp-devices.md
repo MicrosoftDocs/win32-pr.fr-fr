@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Accès aux appareils SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3acf8fd67ee9153167cd328b7a50f6aafc5853327a64baf80c3b2e20b663d3ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37a349053f054f3e8ad9dffb7c108d2bee6c6d8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118320301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192076"
 ---
 # <a name="accessing-snmp-devices"></a>Accès aux appareils SNMP
 

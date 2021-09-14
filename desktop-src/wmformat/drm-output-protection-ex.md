@@ -16,11 +16,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: aeadbb845dc115b1faff858fe3a6ba0064eb425e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533455"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295903"
 ---
 # <a name="drm_output_protection_ex-structure"></a>\_Protection de sortie DRM \_ \_ ex structure
 
@@ -68,7 +68,7 @@ Données de configuration pour la technologie.
 
 **DRM \_ La protection de sortie AUDIO par \_ \_ \_ exemple** et la **\_ \_ protection de sortie vidéo \_ \_ DRM** , par exemple, sont définies comme **\_ \_ protection de sortie DRM** dans les instructions **typedef** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

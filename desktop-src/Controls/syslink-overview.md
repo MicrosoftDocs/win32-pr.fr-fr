@@ -4,12 +4,12 @@ description: Un contrôle SysLink est une fenêtre qui affiche le texte marqué 
 ms.assetid: 38cfac3d-de60-4882-a434-4f498330b77d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc4a5d64af48fc0b48b15f22fff55e5cb563339ac8d90446981c74e07f5d4713
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: deb0d15cac479b844b0ea8510c34cc57f56822be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118168559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116898"
 ---
 # <a name="about-syslink-controls"></a>À propos des contrôles SysLink
 

@@ -4,12 +4,12 @@ ms.assetid: a64ed11a-43d6-41f7-aabd-5dca2a2b4a12
 title: Messages WM_POWERBROADCAST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7997f6c9bed6b4d46068c9974f4ff3571a9617ba2bf09adc6b98bb33facb3d1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f70c5848ec5d71666c26fcd4b5b161e31465543
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119066"
 ---
 # <a name="wm_powerbroadcast-messages"></a>\_Messages WM POWERBROADCAST
 

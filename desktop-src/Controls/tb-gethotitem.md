@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c22f33566a586ceaa524f720a9d688897f132ee227950f1f786093150955eafa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 829864cc9223ba15b49b1ecc623f294fd4a6b4fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116773"
 ---
 # <a name="tb_gethotitem-message"></a>TO \_ GETHOTITEM message
 
@@ -35,11 +35,11 @@ Récupère l’index de l’élément réactif dans une barre d’outils.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de l’élément réactif, ou-1 si aucun élément réactif n’est défini. Les contrôles Toolbar qui n’ont pas le style [**TBSTYLE \_ Flat**](toolbar-control-and-button-styles.md) n’ont pas d’éléments chauds.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

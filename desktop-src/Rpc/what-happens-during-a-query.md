@@ -4,12 +4,12 @@ description: Cette section décrit comment le réseau gère la requête lorsqu�
 ms.assetid: a8a88743-a245-4258-af05-9261c214ab50
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7377df4ced562bc166fedbf489724a2a4a042855391db45841b5de5cf5af906
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6e26fb9aaef0aac2ff66260d51f756725566dee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118962"
 ---
 # <a name="what-happens-during-a-query"></a>Ce qui se passe lors d’une requête
 

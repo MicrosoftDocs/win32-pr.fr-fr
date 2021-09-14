@@ -4,12 +4,12 @@ description: Les barres d’état affichent des informations d’État dans une 
 ms.assetid: e910a5c6-84d5-4ade-abf5-792ff1915021
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad6c4955bfe10bc7eb224213a8e2e262179d2b122ca4eae210d0d1e72e4635b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81bddf2898b9b7eca5385d86d6dabc6a50d3d4df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010615"
 ---
 # <a name="status-bar-control-msaa-ui-element-reference"></a>Contrôle de barre d’État (référence des éléments d’interface utilisateur MSAA)
 
@@ -48,7 +48,7 @@ Les barres d’État prennent en charge les propriétés [**IAccessible**](/wind
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 Comme les raccourcis clavier ne sont pas pris en charge pour les contrôles de barre d’État ou les zones de texte sur les barres d’État, l' [**\_ accKeyboardShortcut**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut) n’est pas pris en charge.
 

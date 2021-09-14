@@ -34,12 +34,12 @@ keywords:
 - menus, owner-drawn
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34d35ddf55ad31ed27cc12c6adffa5517e0081db6d70b4d01d3b88780a8797bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed5d42eb42aaaaa16eef0b5b118adcfe0f91156e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119034490"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235764"
 ---
 # <a name="about-menus"></a>À propos des menus
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 256e3a5a0ac17493e4a0caf280834ff72aa132f02e381d8fd9a10f6c44d41888
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 981816eab204b493f94f240e0de97d94417e4df8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192743"
 ---
 # <a name="pixelaspectratioy"></a>PixelAspectRatioY
 
@@ -27,11 +27,11 @@ L’attribut **PixelAspectRatioY** est la partie verticale des proportions d’u
 
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour une vidéo avec des proportions de 16:9, **PixelAspectRatioY** est égal à « 9 ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

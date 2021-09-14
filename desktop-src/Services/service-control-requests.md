@@ -4,12 +4,12 @@ ms.assetid: d6cdc876-8b74-460e-ad43-6455ddf428dd
 title: Demandes de contrôle de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4320aad28f8a176fbf4aaa6b51539256a376a01b8edea034341cae7831ca4c40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6cb5edf56137e2c98ea7db440a4db5e55df5e8f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117967568"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118837"
 ---
 # <a name="service-control-requests"></a>Demandes de contrôle de service
 

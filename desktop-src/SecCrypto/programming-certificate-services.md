@@ -5,11 +5,11 @@ title: Programmation des services de certificats
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 36531d7fcf05aafa4d0c097a9ab358206e7fbed1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203043"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120818"
 ---
 # <a name="programming-certificate-services"></a>Programmation des services de certificats
 
@@ -17,7 +17,7 @@ Les rubriques suivantes fournissent des informations sur l’utilisation des él
 
 
 
-| Rubrique                                                                                                                                     | Content                                                                                                                                                                              |
+| Rubrique                                                                                                                                     | Contenu                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Utilisation des services de certificats en C++](using-certificate-services-in-c-.md)<br/>                                                      | Informations sur l’utilisation des services de certificats dans le langage de programmation C++.<br/>                                                                                             |
 | [Écriture de modules personnalisés](writing-custom-modules.md)<br/>                                                                           | Informations sur l’écriture de modules de stratégie.<br/>                                                                                                                                 |
