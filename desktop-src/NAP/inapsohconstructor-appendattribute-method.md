@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d7d7ca4636d0eaeea35054dc5330b17f1360dffec5231922ad0acc357231c3d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc10fad9c775d324822700b77afed4e65a798db6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118939586"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413764"
 ---
 # <a name="inapsohconstructorappendattribute-method"></a>INapSoHConstructor :: AppendAttribute, méthode
 
@@ -62,7 +62,7 @@ Pointeur vers une structure [**SoHAttributeValue**](sohattributevalue-union.md) 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -78,13 +78,13 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md) TLV ne doit pas être ajouté à l’aide de cette fonction. Il est ajouté comme premier TLV par [**INapSoHConstructor :: Initialize**](inapsohconstructor-initialize-method.md) aux paquets SOH nouvellement construits.
 
 Lors de l’ajout d’un attribut qui sera consommé par le système NAP, il ne doit pas être chiffré ou modifié de quelque manière que ce soit. Si le HealthEntity requiert le chiffrement/la vérification de l’intégrité (Mac) des informations privées, il doit être inclus uniquement dans l’attribut [**sohAttributeTypeVendorSpecific**](sohattributetype-enum.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - Administration RAS RRAS, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67939d142763f45bc2eb52e959d8448904559c98357544c6c858b46e8f87a917
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73bdb55049e99b6d3df9980fc35879341b488531
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117792282"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413625"
 ---
 # <a name="about-remote-access-service-administration"></a>À propos de l’administration du service d’accès à distance
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: fff97be43f5689acd51b811e81d72e053f4c7ae6b4df398329016304bf418535
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 690dc595471baa5514d7f1ab84a8f6def16ee5b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403469"
 ---
 # <a name="swbemservicesdelete-method"></a>SWbemServices. Delete, méthode
 
@@ -71,7 +71,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

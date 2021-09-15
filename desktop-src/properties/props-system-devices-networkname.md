@@ -4,12 +4,12 @@ ms.assetid: c5b6f196-d84b-4ccb-a18a-6f78aae4035a
 title: System. Devices. NetworkName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1090366b893064f2dfd29a0e802300cab7bc1a54dc2bf581ade5d08e22e5ef35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f293596c23852eaf889e53ca83aad4212a9f38e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117683852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412808"
 ---
 # <a name="systemdevicesnetworkname"></a>System. Devices. NetworkName
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

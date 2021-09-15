@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a725ae53e38d1903d31dc47a3362f90c29fb064e3a785b816de0d0b695998aee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06e2e48b2987af4becd8c07357ff2eecf137f31d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746850"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404140"
 ---
 # <a name="playlistmoveitem-method"></a>Méthode playlist. moveItem
 
@@ -57,17 +57,17 @@ Playlist.moveItem(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les sélections stockées dans la bibliothèque peuvent changer en dehors de votre contrôle. Veillez à surveiller et à gérer tous les événements appropriés liés à la sélection afin que l’ordre des éléments dans la sélection ne change pas de manière inattendue.
 
 Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

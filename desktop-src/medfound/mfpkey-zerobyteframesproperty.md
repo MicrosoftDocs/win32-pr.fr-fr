@@ -4,12 +4,12 @@ ms.assetid: ef4aa5a0-3788-493e-b541-c3a24509d939
 title: MFPKEY_ZEROBYTEFRAMES, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 373d0e7d40b27edff8ae47c9081ef6acb55252858a677c6516877fe88bee392c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ffcf29d099b3a3fb27a307e970af7af1a5c3d58b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412894"
 ---
 # <a name="mfpkey_zerobyteframes-property"></a>MFPKEY \_ propriété ZEROBYTEFRAMES
 
@@ -23,7 +23,7 @@ Spécifie le nombre de trames vidéo ignorées, car il s’agit de doublons de t
 
 VT \_
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur n’est pas soustraite du nombre total de frames transmis ([MFPKEY \_ TOTALFRAMES](mfpkey-totalframesproperty.md)) lors du calcul du nombre de frames encodés ([MFPKEY \_ CODEDFRAMES](mfpkey-codedframesproperty.md)).
 
@@ -31,7 +31,7 @@ Vous pouvez empêcher le codec d’ignorer les images dupliquées en définissan
 
 Vous pouvez récupérer cette valeur une fois que vous avez terminé de passer des exemples.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

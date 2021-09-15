@@ -4,12 +4,12 @@ ms.assetid: b7252336-1612-43fc-8f08-1fdfdbb293eb
 title: Attribut MF_EVENT_SOURCE_TOPOLOGY_CANCELED (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef612c8a1081ecc26eaa9dc593a5906ff965d0387ab02490eedd68f7fbf5e813
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2a161aec292d834b0418f59f1c26ea2f11a538e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118060656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413015"
 ---
 # <a name="mf_event_source_topology_canceled-attribute"></a>Attribut d’annulation de la topologie de la \_ source d’événements MF \_ \_ \_
 
@@ -21,7 +21,7 @@ Spécifie si la [source de Sequencer](sequencer-source.md) a annulé une topolog
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé avec les événements suivants :
 
@@ -32,7 +32,7 @@ Si cet attribut est présent et différent de zéro, cela signifie que le segmen
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

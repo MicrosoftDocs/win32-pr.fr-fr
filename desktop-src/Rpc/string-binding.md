@@ -4,12 +4,12 @@ description: La liaison de chaîne est une chaîne de caractères non signée co
 ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10b2219aa4bb9ed77d2c59732a87a138f620e1910a4ca9f518c22c39a59a7dfa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b3f925c03c85be3c47ab174a85f31e72e40d828
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118924987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413501"
 ---
 # <a name="string-binding"></a>Liaison de chaîne
 
@@ -72,7 +72,7 @@ Le format et le contenu de l’adresse réseau dépendent de la séquence de pro
 | [ncacn \_ http](/windows/desktop/Midl/ncacn-http)          | Adresse Internet (nom convivial ou nom de serveur local).                                                                       | 128.10.2.30 somesvr@anywhere.com mylocalsvr<br/> |
 | [\_UDP IP \_ ncadg](/windows/desktop/Midl/ncadg-ip-udp)     | Adresse Internet sur quatre octets ou nom d’hôte                                                                                                        | 128.10.2.30 anynode.microsoft.com                      |
 | [\_IPX ncadg](/windows/desktop/Midl/ncadg-ipx)            | Adresse Internet IPX ou nom du serveur                                                                                                             | ~ 0000000108002B30612C MyServer                         |
-| [ncalrpc](/windows/desktop/Midl/ncalrpc)                 | Nom de l’ordinateur                                                                                                                                     | thismachine                                            |
+| [ncalrpc](/windows/desktop/Midl/ncalrpc)                 | Nom de l'ordinateur                                                                                                                                     | thismachine                                            |
 
 
 
@@ -100,19 +100,19 @@ Options spécifiques au protocole. Le champ d’option n’est pas obligatoire. 
 
 | Séquence de protocole                       | Point de terminaison                                                                                           | Exemples             | Nom d'option                                            |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------|----------------------|--------------------------------------------------------|
-| [ncacn \_ NB \_ TCP](/windows/desktop/Midl/ncacn-nb-tcp)     | Entier compris entre 1 et 254. De nombreuses valeurs comprises entre 0 et 32 sont réservées par Microsoft.                 | 100                  | Aucun                                                   |
-| [ncacn \_ NB \_ IPX](/windows/desktop/Midl/ncacn-nb-ipx)     | (comme ci-dessus)                                                                                         | (comme ci-dessus)           | Aucun                                                   |
-| [ncacn \_ NB \_ NB](/windows/desktop/Midl/ncacn-nb-nb)       | (comme ci-dessus)                                                                                         | (comme ci-dessus)           | Aucun                                                   |
-| [\_TCP IP \_ ncacn](/windows/desktop/Midl/ncacn-ip-tcp)     | Numéro de port Internet.                                                                              | 1025                 | Aucun                                                   |
+| [ncacn \_ NB \_ TCP](/windows/desktop/Midl/ncacn-nb-tcp)     | Entier compris entre 1 et 254. De nombreuses valeurs comprises entre 0 et 32 sont réservées par Microsoft.                 | 100                  | None                                                   |
+| [ncacn \_ NB \_ IPX](/windows/desktop/Midl/ncacn-nb-ipx)     | (comme ci-dessus)                                                                                         | (comme ci-dessus)           | None                                                   |
+| [ncacn \_ NB \_ NB](/windows/desktop/Midl/ncacn-nb-nb)       | (comme ci-dessus)                                                                                         | (comme ci-dessus)           | None                                                   |
+| [\_TCP IP \_ ncacn](/windows/desktop/Midl/ncacn-ip-tcp)     | Numéro de port Internet.                                                                              | 1025                 | None                                                   |
 | [ncacn \_ NP](/windows/desktop/Midl/ncacn-np)              | Canal nommé. Le nom doit commencer par « \\ \\ pipe ».                                                       | \\\\canal \\ \\ pipeName | Sécurité                                               |
-| [ncacn \_ SPX](/windows/desktop/Midl/ncacn-spx)            | Entier compris entre 1 et 65535.                                                                       | 5 000                 | Aucun                                                   |
-| [ncacn \_ dnet \_](/windows/desktop/Midl/ncacn-dnet-nsp) | Numéro d’objet de la phase IV DECnet (doit être précédé du \# caractère) ou nom de l’objet.              | MailServer \# 17      | Aucun                                                   |
-| [ncacn \_ au \_ fournisseur DSP](/windows/desktop/Midl/ncacn-at-dsp)     | Chaîne de caractères, d’une longueur maximale de 22 octets.                                                           | myservicesendpoint   | Aucun                                                   |
-| [ncacn \_ réseaux virtuels \_ spp](/windows/desktop/Midl/ncacn-vns-spp)   | Numéro de port Vines SPP entre 250 et 511.                                                         | 500                  | Aucun                                                   |
-| [ncadg \_ MQ](/windows/desktop/Midl/ncadg-mq)              | Entier compris entre 1 et 65535.                                                                       | 5 000                 | Aucun                                                   |
+| [ncacn \_ SPX](/windows/desktop/Midl/ncacn-spx)            | Entier compris entre 1 et 65535.                                                                       | 5 000                 | None                                                   |
+| [ncacn \_ dnet \_](/windows/desktop/Midl/ncacn-dnet-nsp) | Numéro d’objet de la phase IV DECnet (doit être précédé du \# caractère) ou nom de l’objet.              | MailServer \# 17      | None                                                   |
+| [ncacn \_ au \_ fournisseur DSP](/windows/desktop/Midl/ncacn-at-dsp)     | Chaîne de caractères, d’une longueur maximale de 22 octets.                                                           | myservicesendpoint   | None                                                   |
+| [ncacn \_ réseaux virtuels \_ spp](/windows/desktop/Midl/ncacn-vns-spp)   | Numéro de port Vines SPP entre 250 et 511.                                                         | 500                  | None                                                   |
+| [ncadg \_ MQ](/windows/desktop/Midl/ncadg-mq)              | Entier compris entre 1 et 65535.                                                                       | 5 000                 | None                                                   |
 | [ncacn \_ http](/windows/desktop/Midl/ncacn-http)          | Numéro de port Internet.                                                                              | 2215                 | Noms des serveurs proxy HTTP et RPC, option HttpConnection |
-| [\_UDP IP \_ ncadg](/windows/desktop/Midl/ncadg-ip-udp)     | Numéro de port Internet.                                                                              | 1025                 | Aucun                                                   |
-| [\_IPX ncadg](/windows/desktop/Midl/ncadg-ipx)            | Entier compris entre 1 et 65535.                                                                       | 5 000                 | Aucun                                                   |
+| [\_UDP IP \_ ncadg](/windows/desktop/Midl/ncadg-ip-udp)     | Numéro de port Internet.                                                                              | 1025                 | None                                                   |
+| [\_IPX ncadg](/windows/desktop/Midl/ncadg-ipx)            | Entier compris entre 1 et 65535.                                                                       | 5 000                 | None                                                   |
 | [ncalrpc](/windows/desktop/Midl/ncalrpc)                 | Chaîne spécifiant le nom de l’application ou du service. La chaîne ne peut pas contenir de barres obliques inverses. | mon \_ imprimante          | Sécurité                                               |
 
 
@@ -182,7 +182,7 @@ Pour plus d’informations sur les options de sécurité, la [sécurité](securi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’espace blanc n’est pas autorisé dans les liaisons de chaînes, sauf lorsque la syntaxe de l' *option* l’exige. Les paramètres par défaut pour les champs *networkAddress*, *Endpoint* et *option* varient en fonction de la valeur du membre *ProtocolSequence* .
 

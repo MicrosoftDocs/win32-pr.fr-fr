@@ -5,11 +5,11 @@ ms.assetid: 6daf661e-bc24-4b90-83a7-031acb57cf87
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: deda409971d22f46132a1cb9b008d3dd1eb7c407
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990965"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403650"
 ---
 # <a name="how-to-create-a-warp-device"></a>Comment : créer un appareil WARP
 
@@ -36,7 +36,7 @@ Cette rubrique montre comment créer un appareil de distorsion qui implémente u
 
     
 
-2.  Demandez un niveau de fonctionnalité qui implémente les fonctionnalités dont votre application a besoin. Un appareil de distorsion peut être créé pour les niveaux de fonctionnalités de la **fonctionnalité D3D de \_ \_ niveau \_ 9 \_ 1** à la **\_ fonctionnalité D3D \_ \_ 10 \_ 1** et à partir de Windows 8 pour tous les niveaux de fonctionnalité.
+2.  Demandez un niveau de fonctionnalité qui implémente les fonctionnalités dont votre application a besoin. un appareil de distorsion peut être créé pour les niveaux de fonctionnalités de la **fonctionnalité d3d de \_ \_ niveau \_ 9 \_ 1** à l’aide du niveau de fonctionnalité **d3d \_ \_ \_ 10 \_ 1** et commençant par Windows 8 pour tous les niveaux de fonctionnalité.
 
     ```
         D3D_FEATURE_LEVEL FeatureLevels = D3D_FEATURE_LEVEL_10_1;
@@ -74,9 +74,9 @@ Vous devrez fournir l’appel d’API avec le type de pilote WARP à partir de l
 
 Pour plus d’informations sur les limitations de la création d’un périphérique WARP sur certains niveaux de fonctionnalité, consultez [limitations création de périphériques de déformation et de référence](overviews-direct3d-11-devices-limitations.md).
 
-## <a name="new-for-windows-8"></a>Nouveauté de Windows 8
+## <a name="new-for-windows-8"></a>Nouveauté pour Windows 8
 
-Quand la carte d’affichage principale d’un ordinateur est la « carte d’affichage de base Microsoft » (adaptateur de déviation), cet ordinateur possède également un deuxième adaptateur. Ce deuxième adaptateur est le périphérique de rendu uniquement qui n’a pas de sortie d’affichage. Pour plus d’informations sur l’appareil de rendu uniquement, consultez [nouvelles informations dans Windows 8 sur l’énumération des adaptateurs](/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi).
+Quand la carte d’affichage principale d’un ordinateur est la « carte d’affichage de base Microsoft » (adaptateur de déviation), cet ordinateur possède également un deuxième adaptateur. Ce deuxième adaptateur est le périphérique de rendu uniquement qui n’a pas de sortie d’affichage. pour plus d’informations sur l’appareil de rendu uniquement, consultez [nouvelles informations dans Windows 8 sur l’énumération des adaptateurs](/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -88,6 +88,6 @@ Quand la carte d’affichage principale d’un ordinateur est la « carte d’a
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

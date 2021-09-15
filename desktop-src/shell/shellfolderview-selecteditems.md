@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 1ee3bf2e-f9c9-47d9-a0f2-efedd69770c5
-ms.openlocfilehash: c8da62afba7e8cc2f594f15c34e2f2bcf6af1ae8e03f857324d18e79b0967d4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 485eda530adc4955abb27899d67ac0900eb0a910
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412357"
 ---
 # <a name="shellfolderviewselecteditems-method"></a>ShellFolderView. SelectedItems, méthode
 
@@ -37,13 +37,13 @@ retVal = ShellFolderView.SelectedItems()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **FolderItems**](folderitems.md)\*\***
 
 Référence d’objet à l’objet [**FolderItems**](folderitems.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **SelectedItems** ne peut être appelé que sur le système local. Elle ne fonctionnera pas lorsqu’elle sera exécutée sur une page Web via HTTP ou UNC.
 
@@ -97,7 +97,7 @@ l’exemple suivant illustre l’utilisation appropriée de cette méthode dans 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

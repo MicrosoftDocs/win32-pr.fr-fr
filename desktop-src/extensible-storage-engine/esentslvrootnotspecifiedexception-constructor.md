@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 46dc02fa4bc6733cb346760893c871b4c54ac5a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413174"
 ---
 # <a name="esentslvrootnotspecifiedexception-constructor"></a>Constructeur EsentSLVRootNotSpecifiedException
 
@@ -52,7 +52,7 @@ public EsentSLVRootNotSpecifiedException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSLVRootNotSpecifiedException, classe](./esentslvrootnotspecifiedexception-class.md)
 

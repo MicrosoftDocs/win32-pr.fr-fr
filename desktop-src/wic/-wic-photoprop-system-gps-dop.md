@@ -4,12 +4,12 @@ ms.assetid: 62efd1cc-a2ae-4e53-a0f2-4822b8c91c42
 title: Stratégie de métadonnées de photo System. GPS. DOP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c414b7cb8648210175953e4c7b5f51a66f026cb45a06fd4d62918f2f8ac369
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c33f3bfc6b958593748396124a8cfd1a7de73fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119087787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530248"
 ---
 # <a name="systemgpsdop-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. DOP
 
@@ -41,7 +41,7 @@ Si le fichier est au format JPEG, le gestionnaire lit, écrit et supprime les do
 
 
 
-| Commande | Chemin                          | Format de disque   | Obligatoire |
+| JSON | Chemin d’accès                          | Format de disque   | Obligatoire |
 |-------|-------------------------------|---------------|----------|
 | 1     | /xmp/exif:GPSDOP              | XMP Rational  | Oui      |
 | 2     | /App1/IFD/GPS/ \\ {UShort = 11 \\ } | EXIF (Rational) | Non       |
@@ -56,7 +56,7 @@ Si le fichier est au format TIFF, le gestionnaire lit, écrit et supprime les do
 
 
 
-| Commande | Chemin                     | Format de disque   | Obligatoire |
+| JSON | Chemin d’accès                     | Format de disque   | Obligatoire |
 |-------|--------------------------|---------------|----------|
 | 1     | /ifd/xmp/exif:GPSDop     | XMP Rational  | Oui      |
 | 2     | /IFD/GPS/ \\ {UShort = 11 \\ } | EXIF (Rational) | Non       |

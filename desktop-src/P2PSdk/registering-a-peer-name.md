@@ -4,12 +4,12 @@ ms.assetid: 4de87146-3ea1-4019-9d3f-59de296083ae
 title: Inscription d’un nom d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41fcedbe3e405e21ec9709289e8a9237179703b1b8e81f40b449479373524beb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b0944c4a41c02ff221aa1cc6a0b84ed881a9453
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413666"
 ---
 # <a name="registering-a-peer-name"></a>Inscription d’un nom d’homologue
 

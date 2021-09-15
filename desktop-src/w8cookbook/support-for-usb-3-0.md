@@ -4,12 +4,12 @@ description: Prise en charge de la norme USB 3,0
 ms.assetid: AACE4B57-A03F-40C7-AFDD-514D29F24521
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca18cd9f38b17dfaa029738497cf93a43fd85477c9d3c5b30e83f506d5596e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c2f6fa342efa5e7b4fd95287a2061482fa0cbb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117671618"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404249"
 ---
 # <a name="support-for-usb-30"></a>Prise en charge de la norme USB 3,0
 

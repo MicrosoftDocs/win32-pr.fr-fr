@@ -4,12 +4,12 @@ ms.assetid: d10a4de9-16fe-4920-aa7f-b2f95fb23045
 title: Stratégie de métadonnées de photo System. photo. FlashEnergy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1faebdcd32eaae346a44de9d1fa19f6954cb9d74ee9d79a09645216660845d16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c272b4d6d14bf2f2e81d0964a3dc4395ba62dc3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118204928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411420"
 ---
 # <a name="systemphotoflashenergy-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. FlashEnergy
 
@@ -41,7 +41,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          | Format de disque |
+| JSON | Chemin d’accès                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41483} |             |
 | 2     | /xmp/exif:FlashEnergy         |             |
@@ -54,7 +54,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          | Format de disque |
+| JSON | Chemin d’accès                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41483} |             |
 | 2     | /xmp/exif:FlashEnergy         |             |
@@ -67,7 +67,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          |
+| JSON | Chemin d’accès                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41483} |
 | 2     | /xmp/exif:flashenergy         |
@@ -82,7 +82,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41483}  |             |
 | 2     | /ifd/xmp/exif:FlashEnergy |             |
@@ -95,7 +95,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41483}  |             |
 | 2     | /ifd/xmp/exif:FlashEnergy |             |
@@ -108,7 +108,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      |
+| JSON | Chemin d’accès                      |
 |-------|---------------------------|
 | 1     | /IFD/EXIF/{UShort = 41483}  |
 | 2     | /ifd/xmp/exif:flashenergy |
@@ -117,7 +117,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

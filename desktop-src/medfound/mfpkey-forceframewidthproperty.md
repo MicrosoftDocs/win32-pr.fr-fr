@@ -4,12 +4,12 @@ ms.assetid: 805bd587-31af-49b8-b5ab-2dcf2a3f81c5
 title: MFPKEY_FORCEFRAMEWIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8d04e30f5fd5d2ecc7055553e17eaf86199b62be8d3dd861b9f82246947212f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea4c8c7ac025de1c089c592a591136df966797d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412927"
 ---
 # <a name="mfpkey_forceframewidth-property"></a>MFPKEY \_ propriété FORCEFRAMEWIDTH
 
@@ -23,13 +23,13 @@ Spécifie une largeur de frame intermédiaire pour la vidéo encodée.
 
 VT \_
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez définir cette valeur et la propriété [MFPKEY \_ FORCEFRAMEHEIGHT](mfpkey-forceframeheightproperty.md) pour forcer l’encodeur à encoder le flux vidéo avec une taille de frame inférieure aux tailles d’entrée ou de sortie. En cas de décodage, la vidéo est redimensionnée à sa résolution d’entrée d’origine.
 
 Les dimensions de frame valides sur l’un des axes sont commodes de 2 à 8192 pixels. Les dimensions du frame doivent être divisibles par 2.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

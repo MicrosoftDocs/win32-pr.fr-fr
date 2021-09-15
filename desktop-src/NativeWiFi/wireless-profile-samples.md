@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7367c36d7b2b702e6529ce6ae8616743b3a37e5280f06e64df5378c0f8545b1a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 485227f6196ae94e2eb11de1bdb40b3a811c8fb2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119800289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413722"
 ---
 # <a name="wireless-profile-samples"></a>Exemples de profils sans fil
 

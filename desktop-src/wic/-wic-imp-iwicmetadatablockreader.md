@@ -4,12 +4,12 @@ ms.assetid: 80ad8e20-a9d4-4503-94ba-1b7699e36111
 title: Implémentation de IWICMetadataBlockReader
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb32ca6bf5ce0714c06a6f355c319908c6dd3a61b1ac27f6baf13f6285183ba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 55bfe53e87dae52d004fa90d1104fb60f252085d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119772259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412223"
 ---
 # <a name="implementing-iwicmetadatablockreader"></a>Implémentation de IWICMetadataBlockReader
 
@@ -144,7 +144,7 @@ Le paramètre *pIStream* est le flux réel que vous décodez. Avant de passer le
 [**IWICMetadataBlockReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation de IWICBitmapFrameDecode](-wic-imp-iwicbitmapframedecode.md)

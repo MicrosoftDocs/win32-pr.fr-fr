@@ -4,12 +4,12 @@ description: Documentation de référence sur les clés de propriété pour les 
 ms.assetid: 52f41fd9-977f-4d6e-bdef-f6c2d3a6ff66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99bb7c364a7f6592ee5564ec47c44be47a43abc3f2ebe7d67f5145b4c96d2af1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d08e4244ed64c019fca8672a486e8d8c941be9d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119449499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404501"
 ---
 # <a name="resource-properties"></a>Propriétés de ressource
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, référence, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8782fa94352e578e0b6e7d32645c0dda0dd997bf51c46869ecbc5e9642957f31
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bc0d92d9939ce31565796741b584cfa37e4a2690
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413604"
 ---
 # <a name="rpc-constants"></a>Constantes RPC
 

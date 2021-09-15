@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Description d’un chemin d’accès d’objet de classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5afa6801d91c4236a7892d7db121dc02c73d93640b7dbc4969c86db55a8789b3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f1cfd603ea3b6de151d297a7f4b6fc8a2a27dfda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119244399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411569"
 ---
 # <a name="describing-a-class-object-path"></a>Description d’un chemin d’accès d’objet de classe
 

@@ -4,12 +4,12 @@ ms.assetid: 9e6e32c5-454b-41c8-b00e-70a2e82266f1
 title: À propos de l’API ad hoc sans fil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0be374e922c977ca7325b65669c51a57aa4ceade23f594fb17494b1a54852a51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d3ac7d87159505a3d69f65ff2e8f5d59adc35b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413744"
 ---
 # <a name="about-the-wireless-ad-hoc-api"></a>À propos de l’API ad hoc sans fil
 

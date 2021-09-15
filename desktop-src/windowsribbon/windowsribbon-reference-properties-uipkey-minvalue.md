@@ -4,12 +4,12 @@ description: Identifie la propriété de la propriété de l’interface utilisa
 ms.assetid: 0a979c63-3a52-41be-8647-102d4665d391
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ef2e90c4b221ccb83bcc535ff0ea7ae8952c3699beeb50fbbddb170d5ca52e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 25c29e188dc141169de27ff1091ea094f1564cf1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118031429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404721"
 ---
 # <a name="ui_pkey_minvalue"></a>IU de l’interface utilisateur \_ \_
 
@@ -25,7 +25,7 @@ propertyDescription
       type = VT_DECIMAL
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur de la taille du \_ \_ tableau est utilisée par une application pour interroger la valeur minimale du contrôle [Spinner](windowsribbon-controls-spinner.md) .
 

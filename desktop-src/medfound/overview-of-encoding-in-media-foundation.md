@@ -4,12 +4,12 @@ ms.assetid: 69dbef63-e272-4ad2-8d04-ae9366f79b33
 title: Vue d’ensemble de l’encodage dans Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a663260d92aad4eb23902ec35721c252f15fbba64c3404ff97bfb60f0622c674
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81882bd6da43f4040614347b662d988844c7b7a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118239765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414052"
 ---
 # <a name="overview-of-encoding-in-media-foundation"></a>Vue d’ensemble de l’encodage dans Media Foundation
 

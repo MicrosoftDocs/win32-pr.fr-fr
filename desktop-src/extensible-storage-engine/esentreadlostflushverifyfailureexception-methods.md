@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102498
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1edcd2b6f759fc8a6787a97e8eb634c7155e66b792dd07b9b6466846d7e7f60d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e95bc9983ebf718bbe456bdd966cda95503ff156
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118261134"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413180"
 ---
 # <a name="esentreadlostflushverifyfailureexception-methods"></a>Méthodes EsentReadLostFlushVerifyFailureException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentReadLostFlushVerifyFailureException, classe](./esentreadlostflushverifyfailureexception-class.md)
 

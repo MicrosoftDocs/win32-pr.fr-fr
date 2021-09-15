@@ -4,12 +4,12 @@ ms.assetid: 4833546a-bc08-4428-baa5-ee53ee7e318c
 title: System. photo. FocalPlaneYResolutionNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 368bf16c86206b888afd94758773e5320799acb4e31e9ae9c562cde7bc5e5423
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 693f959fda54fb02739e223d2b28857b8bebb495
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118228982"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313361"
 ---
 # <a name="systemphotofocalplaneyresolutionnumerator"></a>System. photo. FocalPlaneYResolutionNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

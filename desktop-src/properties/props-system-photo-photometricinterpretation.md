@@ -4,12 +4,12 @@ ms.assetid: e2bb7f82-10dc-4fa0-875d-fc58c133024d
 title: System. photo. PhotometricInterpretation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4e1a39928483b5d60f8d5dec35af27ab231da81dd8a1b6443a7b82e53deddf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79f6b431470780def946dbb8958e9e3eb6698322
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118228119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412667"
 ---
 # <a name="systemphotophotometricinterpretation"></a>System. photo. PhotometricInterpretation
 
@@ -69,7 +69,7 @@ propertyDescription
             defineName = PHOTO_PHOTOMETRIC_YCBCR
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

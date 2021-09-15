@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1de2679d5f78b48ceef569491ef21998fc13faf7126e61f76ad31959bdc2ac6c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5649553ab51a43bd1fb0aeb78d505d7e922bf80b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403828"
 ---
 # <a name="title-element-wpl"></a>title, élément (WPL)
 
@@ -47,7 +47,7 @@ Cet élément n’a pas d’attributs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque vous choisissez un titre pour une sélection de média Windows (WPL), vous pouvez considérer que le contenu de la sélection peut être dynamique. Une bonne approche consiste à baser le titre sur la logique dans les éléments d' **argument** , car c’est ce qui définit le contenu de la sélection. Voici des exemples : « mes chansons favorites de 1966 » ou « chansons de danse que je n’ai pas jouées récemment ».
 
@@ -62,7 +62,7 @@ lorsque vous choisissez un titre pour une sélection de média Windows (WPL), vo
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

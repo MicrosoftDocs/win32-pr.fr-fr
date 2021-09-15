@@ -4,12 +4,12 @@ ms.assetid: 1E252967-6C28-4DA3-9E64-BD276E475753
 title: CODECAPI_AVEncVideoForceKeyFrame, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2e28738dcd7398ce04abe7f71778e94d7d5d4f49393365e92c43bbb347d98c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d72c555d5680e822e9a8308b3e143a754eb22b89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117880705"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411503"
 ---
 # <a name="codecapi_avencvideoforcekeyframe-property"></a>CODECAPI \_ propriété AVEncVideoForceKeyFrame
 
@@ -29,11 +29,11 @@ Si la valeur est différente de zéro, l’encodeur encode le frame suivant comm
 
 Cette propriété s’applique au frame suivant que l’encodeur reçoit comme entrée. Pour une transformation de Media Foundation (MFT), il s’agit du frame suivant qui est passé à la méthode [**IMFTransform ::P rocessinput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) . Le paramètre se réinitialise à zéro après le frame suivant.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

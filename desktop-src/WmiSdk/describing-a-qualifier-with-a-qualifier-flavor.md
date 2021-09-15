@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Description d’un qualificateur avec une version de qualificateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5a55cc3cf31a7ac554ed927b9c6a3dd9aec3384c1f81c4d06347895b6249228
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 525cfc2c590ec8916e2e9538b3e8224e97b3b5dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117925127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411568"
 ---
 # <a name="describing-a-qualifier-with-a-qualifier-flavor"></a>Description d’un qualificateur avec une version de qualificateur
 

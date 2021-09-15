@@ -4,12 +4,12 @@ ms.assetid: 88268c5c-57c5-49f8-92df-1ad8f30a70c2
 title: Spécification des fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8356020ce79881948b0886cfb83f634789f1ec9cfa55e7b150eb275ea1b81fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8cf7463b30247e921fb440ada1cd6f00f8e96a96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118624693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413935"
 ---
 # <a name="specifying-features"></a>Spécification des fonctionnalités
 
@@ -32,7 +32,7 @@ Sport
 -   Chaussures
 -   Terrain
 
-Spectacle
+Arts
 
 -   Concert
 -   Jongl
@@ -41,12 +41,12 @@ Utilisez un éditeur de base de données pour ouvrir MNP2000.msi et entrez les d
 
 
 
-| Fonctionnalité  | Parent de la fonctionnalité \_ | Titre         | Description                | Affichage | Niveau | Répertoire\_ | Attributs |
+| Fonctionnalité  | Parent de la fonctionnalité \_ | Intitulé         | Description                | Affichage | Level | Répertoire\_ | Attributs |
 |----------|-----------------|---------------|----------------------------|---------|-------|-------------|------------|
-| Spectacle     |                 | Spectacle          | Événements Arts au niveau du parc rouge.   | 20      | 3     | NOTEPADDIR  | 0          |
+| Arts     |                 | Arts          | Événements Arts au niveau du parc rouge.   | 20      | 3     | NOTEPADDIR  | 0          |
 | Chaussures | Sport           | Chaussures      | Jeux de baseball             | 17      | 3     | SPORTDIR    | 32         |
-| Concert  | Spectacle            | Concert       | Événements de concert au niveau du parc rouge | 21      | 3     | ARTSDIR     | 2          |
-| Jongl    | Spectacle            | Jongl         | Événements danse au niveau du parc rouge   | 23      | 3     | ARTSDIR     | 2          |
+| Concert  | Arts            | Concert       | Événements de concert au niveau du parc rouge | 21      | 3     | ARTSDIR     | 2          |
+| Jongl    | Arts            | Jongl         | Événements danse au niveau du parc rouge   | 23      | 3     | ARTSDIR     | 2          |
 | Terrain | Sport           | Terrain      | Jeux de football             | 19      | 3     | SPORTDIR    | 2          |
 | Porte     |                 | Porte          | Les admissions du parc rouge      | 6       | 3     | NOTEPADDIR  | 0          |
 | Aide     | Bloc-notes         | Aide          | Fichier d’aide.                 | 5       | 3     | NOTEPADDIR  | 1          |

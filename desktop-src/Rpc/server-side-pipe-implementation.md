@@ -4,12 +4,12 @@ description: Les programmes serveur pour les applications distribuées qui utili
 ms.assetid: de733075-5767-4d46-b294-089c7e3cc695
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5cf7a928c58890e618c9a62cf1df77fe3d00a7ef9d013240d66e57e88a1584
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6927350e10061850c5fac0ab0db7c18570dd2bab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413522"
 ---
 # <a name="server-side-pipe-implementation"></a>Implémentation du canal Server-Side
 

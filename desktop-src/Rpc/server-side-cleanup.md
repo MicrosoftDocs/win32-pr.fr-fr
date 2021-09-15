@@ -4,12 +4,12 @@ description: Nettoyage côté serveur et appel de procédure distante (RPC).
 ms.assetid: 8a48f698-82ae-464b-bdd9-f0245bbc7733
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 223cd15eb659a62c4a758098e9b0f70e977ebb069a2a305d2909b97b5fb12010
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72a66272fc3cca209d6825ac34d5158094ddff39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413524"
 ---
 # <a name="server-side-cleanup"></a>Nettoyage côté serveur
 

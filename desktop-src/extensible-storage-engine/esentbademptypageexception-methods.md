@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101072
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8afda704e36b655a1374c27bb582fd1f17bbbd49c6372e790754d994f9b044f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dcb50753dfb3513e7d42c7d6f70bd523bd904b1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117716000"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526321"
 ---
 # <a name="esentbademptypageexception-methods"></a>Méthodes EsentBadEmptyPageException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentBadEmptyPageException, classe](./esentbademptypageexception-class.md)
 

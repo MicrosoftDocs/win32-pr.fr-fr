@@ -14,12 +14,12 @@ keywords:
 - ASF (format des systèmes avancés), sorties
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4518ed60495aa2318ad27cdade2885aa2660698b5dbf2659290dabf985246da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84e6b6941a990b108c16b49648ec0d8d028a44d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118701826"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404691"
 ---
 # <a name="inputs-streams-and-outputs"></a>entrées, Flux et sorties
 

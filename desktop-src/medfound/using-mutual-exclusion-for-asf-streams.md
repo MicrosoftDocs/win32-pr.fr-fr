@@ -4,12 +4,12 @@ ms.assetid: fdd31eac-1dd6-45f0-90fb-d5a74c85db2e
 title: Utilisation de l’exclusion mutuelle pour les Flux ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40c7fd104659064952803c16f572ee1e55dee0508144474e89ee7c0f362315c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 411b5aa0638ab1c56298b93d01e8de99920abc6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119034562"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412884"
 ---
 # <a name="using-mutual-exclusion-for-asf-streams"></a>Utilisation de l’exclusion mutuelle pour les Flux ASF
 

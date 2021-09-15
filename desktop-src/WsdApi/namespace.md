@@ -4,12 +4,12 @@ ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f90136e684717c13e2500d66384d49431512659b4e5cccd3dc88287229166c60
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3c3e2735efbb99fbe404f2531336c2e2bd0f89d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413267"
 ---
 # <a name="namespace-element"></a>nameSpace, élément
 
@@ -42,7 +42,7 @@ Décrit un espace de noms. Cet espace de noms peut être utilisé pour la géné
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | [**Baptisé**](codename.md)<br/>               | Nom à utiliser pour identifier l’espace de noms dans le code généré.<br/> <br/>                  |
 | [**macroPrefix**](macroprefix.md)<br/>         | Préfixe à utiliser dans le code généré pour les noms de macros dans l’espace de noms.<br/> <br/> |
-| [**nomme**](name.md)<br/>                       | Nom qualifié dans l’espace de noms.<br/> <br/>                                                |
+| [**name**](name.md)<br/>                       | Nom qualifié dans l’espace de noms.<br/> <br/>                                                |
 | [**preferredPrefix**](preferredprefix.md)<br/> | Préfixe auquel l’espace de noms doit être mappé pour rendre le XML plus lisible.<br/> <br/> |
 
 
@@ -68,7 +68,7 @@ Décrit un espace de noms. Cet espace de noms peut être utilisé pour la géné
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément peut être utilisé pour fournir le générateur de code avec des informations supplémentaires sur les espaces de noms qu’il rencontre dans les fichiers WSDL et XSD ou pour introduire de nouveaux espaces de noms.
 

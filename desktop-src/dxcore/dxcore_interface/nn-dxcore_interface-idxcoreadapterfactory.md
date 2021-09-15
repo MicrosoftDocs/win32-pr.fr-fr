@@ -4,12 +4,12 @@ description: L’interface **IDXCoreAdapterFactory** implémente des méthodes p
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 44b61e4b575c06a02c6dd7b437958053a7e34016af0994af0148fa23d084cc61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee5c985899e1d810057a736c679e10f69ef88d06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118502489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526349"
 ---
 # <a name="idxcoreadapterfactory-interface"></a>Interface IDXCoreAdapterFactory
 

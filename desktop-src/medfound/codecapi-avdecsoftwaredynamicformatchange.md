@@ -5,11 +5,11 @@ title: CODECAPI_AVDecSoftwareDynamicFormatChange, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1f4e1ce0499e361770344e30a02f30777555fed8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525821"
 ---
 # <a name="codecapi_avdecsoftwaredynamicformatchange-property"></a>CODECAPI \_ propriété AVDecSoftwareDynamicFormatChange
 
@@ -27,14 +27,14 @@ Définit s’il faut utiliser le changement de format logiciel dynamique pour le
 
 Si la valeur est **true**, le changement de format logiciel dynamique est utilisé pour le redimensionnement interne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

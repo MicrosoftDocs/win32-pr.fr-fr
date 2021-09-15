@@ -4,12 +4,12 @@ ms.assetid: 04452eeb-0282-4c4b-afc8-34be7c750f82
 title: GUID de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5880464618727ab8226ae137ce5dd84b69cbc4411483b44bdda6c1b7516e7c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3547bfa155d83b2231a124ba04903436b2974090
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119455339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411452"
 ---
 # <a name="recognizer-guids"></a>GUID de reconnaissance
 

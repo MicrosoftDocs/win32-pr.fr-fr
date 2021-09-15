@@ -4,12 +4,12 @@ ms.assetid: a96bd78f-982c-43fa-b2d3-8caba4aa84b6
 title: MFPKEY_WMADEC_HIRESOUTPUT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe5226babc8fd40875ec11cfa0b03345ba0b9c1a914b45b5ad79284f79d92130
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd59bc6b8b0e74be1daaea4a61ca82c810a0ca79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117872537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412907"
 ---
 # <a name="mfpkey_wmadec_hiresoutput-property"></a>MFPKEY \_ WMADEC \_ HIRESOUTPUT, propriété
 
@@ -27,7 +27,7 @@ Spécifie si le décodeur audio doit fournir une sortie haute résolution.
 
 **VARIANTE \_ false**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Affectez à cette propriété la \_ valeur variant true pour décoder le contenu audio multicanaux ou 24 bits, ou l’audio avec un taux d’échantillonnage supérieur à 48 000 Hz. Si le contenu est encodé en haute résolution, mais que cette propriété a \_ la valeur false, les comportements suivants s’appliquent :
 
@@ -40,7 +40,7 @@ la sortie haute résolution est disponible uniquement si le décodeur s’exécu
 
 de nombreux lecteurs (y compris Lecteur Windows Media série 9 et versions ultérieures) définissent cette valeur pour tout le contenu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

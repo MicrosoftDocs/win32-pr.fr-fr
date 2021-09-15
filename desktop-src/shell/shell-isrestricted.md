@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 40e6c23f14b3c09a6cfe4885cc7b7bf877e3e4bfbf538645cf96b99ea451776f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e428c914cf95d282fd721071009efc70fcb3a4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412396"
 ---
 # <a name="shellisrestricted-method"></a>Shell. IsRestricted, méthode
 
@@ -69,7 +69,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="jscript"></a>JScript
 
@@ -83,7 +83,7 @@ Type : **entier \***
 
 Valeur de la restriction. Si la restriction spécifiée est introuvable, la valeur de retour est 0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **IsRestricted** recherche d’abord un nom de sous-clé qui correspond à *sGroup* sous la clé suivante.
 
@@ -143,7 +143,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f730a7df-af8f-4dce-9bfe-6ee1eca8fd90
 title: Inscription des codecs MPEG2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7aaf683d03f529e394fe7e01af8ccae0e0fd009ad7a90b608c8bbebf834c5ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6de007cebdd0a911f6b43f21003ed3ede0bc1723
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952138"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312309"
 ---
 # <a name="registering-mpeg2-codecs"></a>Inscription des codecs MPEG2
 

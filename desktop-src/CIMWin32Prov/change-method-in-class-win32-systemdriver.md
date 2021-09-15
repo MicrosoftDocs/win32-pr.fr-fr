@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96ff327e84d3a5b6c66011506c162810f0fcc91d0cafe4053266aa8928f6e5a2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: da814c8321e35189594bc350bd1e278a219bac59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119925109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414013"
 ---
 # <a name="change-method-of-the-win32_systemdriver-class"></a>Modifier la méthode de la \_ classe SystemDriver Win32
 
@@ -303,7 +303,7 @@ Liste qui contient les noms des services qui doivent démarrer avant le démarra
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur zéro (0) si le service a été correctement modifié, 1 (un) si la demande n’est pas prise en charge, et tout autre nombre pour indiquer une erreur.
 
@@ -387,7 +387,7 @@ Le **service d’État existe** (23)
 **Autre** (25 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour modifier un service à partir d’un service réseau sur le système local, utilisez les valeurs suivantes pour les paramètres *StartName* et *StartPassword* :
 
@@ -409,7 +409,7 @@ StartPassword = "" // - empty string, not NULL
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

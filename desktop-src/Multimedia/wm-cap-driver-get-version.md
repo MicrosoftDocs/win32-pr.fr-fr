@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ced70f2d0159ef4bbad3f2d7a8027c30b2c71a5f
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413850"
 ---
 # <a name="wm_cap_driver_get_version-message"></a>Message de la version du \_ pilote WM Cap \_ \_ \_
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon définie par l’application utilisée pour re
 
 Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de capture n’est pas connectée à un pilote de capture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les informations de version sont une chaîne de texte Récupérée à partir de la zone de ressources du pilote. Les applications doivent allouer environ 40 octets pour cette chaîne. Si les informations de version ne sont pas disponibles, une chaîne **null** est retournée.
 

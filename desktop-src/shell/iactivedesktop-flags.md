@@ -46,11 +46,11 @@ topic_type:
 - APIRef
 - kbSyntax
 ms.openlocfilehash: dae164c696ae54963f802a6ddd5cb1f6862b2f14
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982930"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412477"
 ---
 # <a name="iactivedesktop-flags"></a>Indicateurs IActiveDesktop
 

@@ -4,12 +4,12 @@ ms.assetid: 714c8bda-5ce1-47e2-ba73-9304e26b3129
 title: Descripteurs de présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 963faeebbb180b504cc11202645a9432bbb3a94e988495b9ddcf96e550b05519
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44f1581e35fe6d875c691efdd5ef5736c1aa5215
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118238830"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414046"
 ---
 # <a name="presentation-descriptors"></a>Descripteurs de présentation
 

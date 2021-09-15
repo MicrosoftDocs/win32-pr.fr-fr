@@ -4,12 +4,12 @@ ms.assetid: 6dcf12d0-ea37-446b-a807-2b27fd1f6124
 title: Windows Encodeurs multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d79ff55e98227c63e9761a8dec5ae068c8b1786c067230548ad0028dbe301a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a642702562cbb6a70b0380deb196c70c4f8207b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237288"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412870"
 ---
 # <a name="windows-media-encoders"></a>Windows Encodeurs multimédias
 

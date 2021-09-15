@@ -4,12 +4,12 @@ ms.assetid: 053003a1-8c04-42d1-9b1c-bbbb58248376
 title: Interaction de l’utilisateur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d9c21b1c8789274d5dbee34ed535d33994015a882542b6224afc772d3fa01c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 196110b2c54d7cd56e039431ea1b36b7ab1a37c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118966115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312841"
 ---
 # <a name="user-interaction"></a>Interaction de l’utilisateur
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc23b941f232007a781ca160538f28d864f818639df47a180de472f54cd89a8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28aa02dd73f1706bb12ae30825f50241be7bb0d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118247821"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413109"
 ---
 # <a name="wm_keyup-message"></a>\_Message WM KEYUP
 
@@ -65,7 +65,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
@@ -77,7 +77,7 @@ Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont l
 
 Les applications doivent passer *wParam* à [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) sans aucune modification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -108,7 +108,7 @@ Les applications doivent passer *wParam* à [**TranslateMessage**](/windows/desk
 [**\_SYSCOMMAND WM**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3bffcfd86ba48d737066bd2ca56e6b124a59412704c5f30952e5a70ae71e24
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72398bdc087e0f7a0845703a2cefea40b5465b21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119952039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525560"
 ---
 # <a name="float2-structure"></a>float2, structure
 
@@ -99,7 +99,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float x` | Composant X du vecteur. |
 | `float y` | Composant Y du vecteur. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

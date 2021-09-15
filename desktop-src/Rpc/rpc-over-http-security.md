@@ -4,12 +4,12 @@ description: RPC sur HTTP offre trois types de sécurité en plus de la sécurit
 ms.assetid: 3a44c72b-b74c-433a-8826-1f76ca019f40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f1ebd5a7198a2b2ccae7703b92011bbd45b037db2f7ef8eb116e28ef06d8e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 527cf5ff74120c41606d83a248e355a6ea46d9d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926131"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413581"
 ---
 # <a name="rpc-over-http-security"></a>Sécurité RPC sur HTTP
 

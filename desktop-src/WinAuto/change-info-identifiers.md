@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf9cf397f4f1bc2ea10291b46d21c32b0b32a61609e9f3a33272170f4debdde3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f3e27951f3b9b348583821ddc62bd3dddd5de58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404115"
 ---
 # <a name="change-info-identifiers"></a>Identificateurs des informations de modification
 
@@ -38,7 +38,7 @@ Chaîne décrivant la signification de la modification du point de vue de l’ap
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

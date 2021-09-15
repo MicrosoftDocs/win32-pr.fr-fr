@@ -4,12 +4,12 @@ description: RTMv2 fournit des fonctions qui permettent aux clients de créer un
 ms.assetid: d7c1930c-c67c-4e81-801d-ef676a67b5c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49eefbf1fb9ad10dcfc417401da174977385f334df72296ef2c8c6c530db04f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23188d1efc5a6e7650a955ca88ec1bd8269a11cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413624"
 ---
 # <a name="maintaining-client-specific-lists"></a>Maintenance des listes de Client-Specific
 

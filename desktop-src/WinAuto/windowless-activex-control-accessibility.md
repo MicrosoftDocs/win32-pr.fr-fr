@@ -4,12 +4,12 @@ description: cette section décrit comment utiliser l’API d’accessibilité W
 ms.assetid: 93CBCF20-DADF-4A63-BE60-F2A0D8810C62
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3842dd6b9ec18b745e043841936dd811afd1580779d276290057c2fe6d2194cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6eb0489cdd5de3ac34df361bfa3e7b3624ee18f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118563454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530201"
 ---
 # <a name="windowless-activex-control-accessibility"></a>accessibilité des contrôles ActiveX sans fenêtre
 

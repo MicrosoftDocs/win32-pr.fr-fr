@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8889df585544b7d3cf5f9f38ee64581e9edd6d36f32a6f56a2448acf2789d496
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3f5d04ae63626787bc71d54b702f9d90afd5c48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118082771"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403718"
 ---
 # <a name="esentbadlogsignatureexception-constructor"></a>Constructeur EsentBadLogSignatureException
 
@@ -54,7 +54,7 @@ public EsentBadLogSignatureException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentBadLogSignatureException, classe](./esentbadlogsignatureexception-class.md)
 

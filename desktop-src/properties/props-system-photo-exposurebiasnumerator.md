@@ -4,12 +4,12 @@ ms.assetid: 717808cb-7f73-4543-bc07-2ab252792b91
 title: System. photo. ExposureBiasNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25c791c5ed25248aa58ef00fb2751be2cf7a0d201e8473fd2dfabc700f527508
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1e0e12893d87de153189049d62e10bcfcad2c95f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120112059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412700"
 ---
 # <a name="systemphotoexposurebiasnumerator"></a>System. photo. ExposureBiasNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Int32
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

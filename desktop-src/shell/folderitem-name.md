@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 42f5a111d5ef992635d03be8c4b67a5c50bd22df4298ac7412a98f0ba8d6fb83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f5eb757455b8bbbd4161eae477ca4677eef4fc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119093065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412525"
 ---
 # <a name="folderitemname-property"></a>Propriété FolderItem.Name
 
@@ -141,7 +141,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Chaînes de format de NDR de l’appel de procédure distante (RPC)
 ms.assetid: 9c83a039-49d3-491d-8110-29d1548730de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0a481e2c992f3fd4dda2d5552fbbabb7e9b01e6eb639a092e25ba9a26bd59a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf0569a913d6c5a4b19b342cc288d6a8682dfc4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413588"
 ---
 # <a name="rpc-ndr-format-strings"></a>Chaînes de format de NDR RPC
 

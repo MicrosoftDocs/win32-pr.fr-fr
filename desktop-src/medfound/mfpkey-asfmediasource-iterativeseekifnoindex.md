@@ -5,11 +5,11 @@ title: MFPKEY_ASFMediaSource_IterativeSeekIfNoIndex, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 10cdc22f0b4f5490c7691cc40166cf929a16ba64
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412947"
 ---
 # <a name="mfpkey_asfmediasource_iterativeseekifnoindex-property"></a>MFPKEY \_ ASFMediaSource \_ IterativeSeekIfNoIndex, propriété
 
@@ -44,14 +44,14 @@ Si vous définissez cette propriété, utilisez les propriétés suivantes pour 
 
 Ces propriétés définissent respectivement le nombre maximal d’itérations et la tolérance. L’algorithme s’arrête lorsqu’il atteint le nombre maximal d’itérations, ou lorsqu’il trouve un paquet dont la distance par rapport à l’heure de recherche est comprise dans la tolérance spécifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

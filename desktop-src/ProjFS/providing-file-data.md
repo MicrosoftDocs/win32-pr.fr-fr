@@ -4,12 +4,12 @@ description: Décrit comment un fournisseur fournit des informations d’espace 
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/01/2018
 ms.topic: article
-ms.openlocfilehash: 4f0da65095e908ec3211bb23be654ee9e0e2853c093bb36e8a92701c24106ff4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 341a0f1c477b605b2a437edf311c380910744ac0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117792393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413636"
 ---
 # <a name="providing-file-data"></a>Envoi de données de fichier
 

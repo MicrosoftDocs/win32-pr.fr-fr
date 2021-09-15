@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 8a63552c-6bce-4583-8df8-a7f7731b35eb
-ms.openlocfilehash: c033edf5325a6197a9b43d3073eef9d0ce45bc453f2ec13007493252e9a806f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47dc46d20fc6cf5096a38ccfd1790957f1fdd318
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412423"
 ---
 # <a name="ishelllinkdual2-object"></a>Objet IShellLinkDual2
 
@@ -44,7 +44,7 @@ L’objet **IShellLinkDual2** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

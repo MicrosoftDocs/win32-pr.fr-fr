@@ -4,12 +4,12 @@ description: Avec l’introduction d’applications distribuées et basées sur 
 ms.assetid: 18228ff1-8c1c-430a-ae5f-0e9a56b0fe3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59ea089f257527dfd31d7120170c8749a2d1b4d60ba006843c7ff5d43403b352
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2e2a78f042e528036135df4865e8a454cd687da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118311083"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411271"
 ---
 # <a name="canceling-method-calls"></a>Annulation des appels de méthode
 

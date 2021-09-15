@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47fc789e7b92d95a85a36d04bdb55a3bdf1fbb1937045362b0fa49fc8e5c93fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7a2f0bebcd0e5ea39d2ee981cff051d4f130ee04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119788559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411229"
 ---
 # <a name="domain"></a>domaine
 
@@ -35,7 +35,7 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 

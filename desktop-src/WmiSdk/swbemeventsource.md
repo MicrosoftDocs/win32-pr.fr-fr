@@ -1,5 +1,5 @@
 ---
-description: L’objet SWbemEventSource récupère les événements d’une requête d’événement conjointement avec SWbemServices.ExecNotificationQuery.
+description: L’objet SWbemEventSource récupère les événements d’une requête d’événement conjointement à SWbemServices. ExecNotificationQuery.
 ms.assetid: 7efd5e6a-4311-4d20-8b05-e9208eec098a
 ms.tgt_platform: multiple
 title: Objet SWbemEventSource (wbemdisp. h)
@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: e38dab258ebccacb24cf92b7445752102b297ab1207b99e40355c30fde99113d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8da55a7b6722c263fe9a3fb0af7a8db07d672e12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404096"
 ---
 # <a name="swbemeventsource-object"></a>Objet SWbemEventSource
 
-L’objet **SWbemEventSource** récupère les événements d’une requête d’événement conjointement avec [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md). Vous recevez un objet **SWbemEventSource** si vous effectuez un appel à **SWbemServices.ExecNotificationQuery** pour effectuer une requête d’événement. Vous pouvez ensuite utiliser la méthode [**NextEvent**](swbemeventsource-nextevent.md) pour récupérer les événements à mesure qu’ils arrivent. Cet objet ne peut pas être créé par l’appel VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) .
+L’objet **SWbemEventSource** récupère les événements d’une requête d’événement conjointement à [**SWbemServices. ExecNotificationQuery**](swbemservices-execnotificationquery.md). Vous recevez un objet **SWbemEventSource** si vous effectuez un appel à **SWbemServices. ExecNotificationQuery** pour effectuer une requête d’événement. Vous pouvez ensuite utiliser la méthode [**NextEvent**](swbemeventsource-nextevent.md) pour récupérer les événements à mesure qu’ils arrivent. Cet objet ne peut pas être créé par l’appel VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) .
 
 ## <a name="members"></a>Membres
 
@@ -41,7 +41,7 @@ L’objet **SWbemEventSource** a ces méthodes.
 
 | Méthode                                          | Description                                                                                                                                  |
 |:------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NextEvent**](swbemeventsource-nextevent.md) | Utilisé pour récupérer un événement conjointement à [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md).<br/> |
+| [**NextEvent**](swbemeventsource-nextevent.md) | Utilisé pour récupérer un événement conjointement à [**SWbemServices. ExecNotificationQuery**](swbemservices-execnotificationquery.md).<br/> |
 
 
 
@@ -91,7 +91,7 @@ wend
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: fab6244e-a20e-4395-a82c-0905e3225516
 title: traitement du Codec DMO entrée et sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e3b159ea9e8a323a8e980b9dbba227aa2a62d76316b90e09f45592044091f81
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05c6781d877f4c863161537fcc5b6a746691cfe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414035"
 ---
 # <a name="processing-codec-dmo-input-and-output"></a>traitement du Codec DMO entrée et sortie
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8f16c32b46544d3966ae5e3a097576074d28bcfa40ce568cd591d37f9d3d0552
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3b209c7c8e71b49fd3b9fce90b9ea30b584bd65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118459902"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530461"
 ---
 # <a name="diskquotacontroldefaultquotathresholdtext-property"></a>DiskQuotaControl. DefaultQuotaThresholdText, propriété
 
@@ -39,11 +39,11 @@ DefaultQuotaThresholdText = DiskQuotaControl.DefaultQuotaThresholdText
 
 Valeur de chaîne qui contient le seuil de quota par défaut pour le volume.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le seuil de quota par défaut est appliqué automatiquement aux nouveaux utilisateurs du volume. Si l’utilisation du disque d’un utilisateur dépasse cette valeur et que la propriété [**LogQuotaThreshold**](diskquotacontrol-logquotathreshold.md) est définie sur **true**, le système génère une entrée de journal des événements. Par exemple, si le seuil par défaut est de 10,0 Mo, la valeur de la propriété est « 10,0 Mo ». Si le volume n’a pas de seuil par défaut, la propriété a la valeur « aucune limite » ou l’équivalent localisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

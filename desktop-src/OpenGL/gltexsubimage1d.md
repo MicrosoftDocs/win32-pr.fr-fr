@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52dcb6c34d0ce48f646ace1db8a5dc0f773b7eb386ac487534a57367e6e72da3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfe5510221b738a81f428f9e982a2f9bb2c23588
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413677"
 ---
 # <a name="gltexsubimage1d-function"></a>glTexSubImage1D fonction)
 
@@ -138,7 +138,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une texture unidimensionnelle pour une primitive est activée à l’aide de [**glEnable**](glenable.md) et **glDisable** avec l’argument GL \_ texture \_ 1D. Pendant la texturation, une partie d’une image de texture spécifiée est mappée à chaque primitive activée. Vous utilisez la fonction **glTexSubImage1D** pour spécifier une sous-image contiguë d’une image de texture unidimensionnelle existante pour la texturation.
 
@@ -156,7 +156,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glTexSubIma
 
 [**glIsEnabled**](glisenabled.md) avec argument GL \_ texture \_ 1D
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

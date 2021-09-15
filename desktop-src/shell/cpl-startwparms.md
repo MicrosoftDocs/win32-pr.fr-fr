@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f836f868b81daa49e87eb4efc804442bed25690ce126852891327d0eb042aaec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 790779c1c45acbc211fe36e28b2e55d5ae2e60da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118460608"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412565"
 ---
 # <a name="cpl_startwparms-message"></a>\_Message STARTWPARMS cpl
 
@@ -42,15 +42,15 @@ Chaîne avec des instructions supplémentaires pour l’exécution.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si le message a été géré, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Cpl \_ STARTWPARMS** est similaire à [**Cpl \_ DBLCLK**](cpl-dblclk.md) , mais vous permet de passer une chaîne à [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) au lieu d’un **int**. Vous pouvez utiliser cette chaîne comme une méthode flexible pour fournir des instructions détaillées pour l’exécution.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

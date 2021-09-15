@@ -4,12 +4,12 @@ ms.assetid: 1ded5656-084d-4315-a414-aebf4a1820dc
 title: DMO Codes d’erreur (Mediaerr. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa8f45b8f9f61185adbcd79a354df8ab3e41471067b66179193b825a5e40651
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d76c8cd5e7001751cd2cf9eb7da4d88b2dc100bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118653293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312397"
 ---
 # <a name="dmo-error-codes"></a>DMO Codes d’erreur
 

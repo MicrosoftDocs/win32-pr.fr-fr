@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: faec2088b6df73e896c2aca54c58af580b611558b4f4a37684af375ee8307673
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9f1b0f95a2919c3f71f8ba30a500aa8af676005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118255271"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403511"
 ---
 # <a name="jet_bklogtimetostring-method"></a>JET_BKLOGTIME. Méthode ToString
 
@@ -54,7 +54,7 @@ returnValue = instance.ToString()
 public override string ToString()
 ```
 
-#### <a name="return-value"></a>Valeur renvoyée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. String](/dotnet/api/system.string)  
 Structure sous la forme d’une chaîne.  

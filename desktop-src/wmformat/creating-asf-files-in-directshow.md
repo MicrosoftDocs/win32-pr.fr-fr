@@ -1,6 +1,6 @@
 ---
-title: Création de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
-description: En savoir plus sur la création de fichiers ASF dans DirectShow à l’aide du kit de développement logiciel (SDK) Windows Media format 11. ASF est un format de conteneur qui peut contenir n’importe quel type de données.
+title: création de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media Format 11)
+description: en savoir plus sur la création de fichiers ASF dans DirectShow à l’aide du kit de développement logiciel (SDK) Windows Media Format 11. ASF est un format de conteneur qui peut contenir n’importe quel type de données.
 ms.assetid: 8b7af340-934d-43a9-88e9-7bbb2d3a38e0
 keywords:
 - Windows Media Format SDK, création de fichiers ASF dans DirectShow
@@ -13,17 +13,17 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9e06b6deb6dc9f07115f8143309d32dcf4a58a0f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406182"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404705"
 ---
-# <a name="creating-asf-files-in-directshow-windows-media-format-11-sdk"></a>Création de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="creating-asf-files-in-directshow-windows-media-format-11-sdk"></a>création de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media Format 11)
 
-Vous pouvez utiliser DirectShow pour créer des fichiers ASF directement à partir de sources de capture telles que des caméscopes DV ou pour transcoder d’autres fichiers au format Windows Media. Dans l’un ou l’autre scénario, les applications créent des graphiques de filtre qui incluent le filtre d' [enregistreur ASF WM](wm-asf-writer-filter.md) comme convertisseur.
+vous pouvez utiliser DirectShow pour créer des fichiers ASF directement à partir de sources de capture telles que des caméscopes DV ou pour transcoder d’autres fichiers au Format Windows Media. Dans l’un ou l’autre scénario, les applications créent des graphiques de filtre qui incluent le filtre d' [enregistreur ASF WM](wm-asf-writer-filter.md) comme convertisseur.
 
-L’enregistreur ASF WM fournit un wrapper partiel pour le kit de développement logiciel (SDK) du format Windows Media. Les applications peuvent utiliser l’interface [**IConfigAsfWriter**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85)) du filtre pour passer un profil système (versions 4, 7 ou 8), ou utiliser le kit de développement logiciel (SDK) du format Windows Media directement pour créer un profil personnalisé à passer au filtre. Pour ajouter des métadonnées et d’autres informations d’en-tête, l’application utilise l’interface [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) , qui peut être obtenue à partir du filtre. Une fois le profil et les métadonnées configurés, l’application peut simplement exécuter le graphique de filtre. En interne, le filtre utilise le kit de développement logiciel (SDK) Windows Media format pour écrire le fichier. Le filtre gère tous les détails de synchronisation audio-vidéo, qui seraient autrement la responsabilité de l’application.
+l’enregistreur ASF WM fournit un wrapper partiel pour le kit de développement logiciel (SDK) de Format multimédia Windows. les Applications peuvent utiliser l’interface [**IConfigAsfWriter**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85)) du filtre pour passer un profil système (versions 4, 7 ou 8), ou utiliser Windows le kit de développement logiciel (SDK) de Format multimédia directement pour créer un profil personnalisé à passer au filtre. Pour ajouter des métadonnées et d’autres informations d’en-tête, l’application utilise l’interface [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) , qui peut être obtenue à partir du filtre. Une fois le profil et les métadonnées configurés, l’application peut simplement exécuter le graphique de filtre. en interne, le filtre utilise le kit de développement logiciel (SDK) Windows Media Format pour écrire le fichier. Le filtre gère tous les détails de synchronisation audio-vidéo, qui seraient autrement la responsabilité de l’application.
 
 Ce processus est expliqué plus en détail dans les sections suivantes.
 

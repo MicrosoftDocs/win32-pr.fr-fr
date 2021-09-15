@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101483
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8dae10dcf9411f37ed490443283b04f53c9156ee149d425ca4d59a3936ea84cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5212c2e438b2f1f832ac80565642d4017ba73808
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119116349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413209"
 ---
 # <a name="esentdatabasefilereadonlyexception-methods"></a>Méthodes EsentDatabaseFileReadOnlyException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDatabaseFileReadOnlyException, classe](./esentdatabasefilereadonlyexception-class.md)
 

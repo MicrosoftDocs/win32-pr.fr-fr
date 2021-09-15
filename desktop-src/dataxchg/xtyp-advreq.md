@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18e751f17fb8634b0a105a36af5036f07d0212532349c267e5526d5d41f09367
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2884e838268342ab10c556c6ae3cfc8349ed5d2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118544884"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403754"
 ---
 # <a name="xtyp_advreq-transaction"></a>\_Transaction ADVREQ XTYP
 
@@ -98,15 +98,15 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le serveur doit d’abord appeler la fonction [**DdeCreateDataHandle**](/windows/desktop/api/Ddeml/nf-ddeml-ddecreatedatahandle) pour créer un handle de données qui identifie les données modifiées, puis retourner le descripteur. Le serveur doit retourner la **valeur null** s’il ne parvient pas à terminer la transaction.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -134,7 +134,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **
 [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)

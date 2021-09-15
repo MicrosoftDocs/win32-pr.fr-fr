@@ -13,12 +13,12 @@ keywords:
 - flux vidéo, transitions d’images
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b0a915f34ac9a2dcc00f8bcec739d48051361c1744e8e455166d56238529d9c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cbfd02628a78196a73750c2c0ff6b9e9c3d6729c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119771239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404643"
 ---
 # <a name="video-image-transitions"></a>Transitions d’images vidéo
 

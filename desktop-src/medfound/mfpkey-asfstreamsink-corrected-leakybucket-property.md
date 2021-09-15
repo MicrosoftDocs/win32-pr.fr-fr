@@ -4,12 +4,12 @@ ms.assetid: b01e59b6-0a7f-4125-867c-532385a27c15
 title: MFPKEY_ASFSTREAMSINK_CORRECTED_LEAKYBUCKET, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bcb41de92f160e3d73c7d15721dae3015efc0ad1bc1a982d1a22c542d311b60
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05a4ebc2dc41a1f43906aff5d2fe8caea8d53057
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117874077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412943"
 ---
 # <a name="mfpkey_asfstreamsink_corrected_leakybucket-property"></a>MFPKEY \_ ASFSTREAMSINK \_ corrigé \_ LEAKYBUCKET, propriété
 
@@ -31,7 +31,7 @@ VT \_ Vector \| VT \_ UI4
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application peut définir cette propriété sur un flux du récepteur de média ASF une fois que le type de média du flux est négocié. utilisez cette propriété pour spécifier la fenêtre de mémoire tampon réelle que le codec de média Windows utilisera. vous pouvez obtenir ces informations à partir du codec à l’aide de l’interface **IWMCodecLeakyBucket** , qui est documentée dans le kit de développement logiciel (SDK) de Format multimédia Windows.
 
@@ -41,7 +41,7 @@ La valeur de cette propriété est un tableau de trois valeurs **DWORD** dans l�
 -   Taille de la mémoire tampon, en octets.
 -   Saturation de la mémoire tampon initiale, en octets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

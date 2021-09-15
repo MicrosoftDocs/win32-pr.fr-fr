@@ -4,12 +4,12 @@ ms.assetid: 0ba753d1-d81a-4f7a-942c-2967c46febec
 title: Exemple de plug-in RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a05fd9c70c11130011352d8c16d30abee672e4cd56c000c21b7fbfd2704babe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f593bf9e4fe0fb3d8ab12674047d6c05f28617a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118966878"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404757"
 ---
 # <a name="realtimestylus-plug-in-sample"></a>Exemple de plug-in RealTimeStylus
 

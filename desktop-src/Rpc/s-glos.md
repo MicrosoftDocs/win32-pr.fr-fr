@@ -6,11 +6,11 @@ ms.assetid: ba3c7959-2acd-4a38-b996-cfe7dac20241
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 89ceb4c5d1b6aae6de71e813f09e45dc3765479e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317001"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413561"
 ---
 # <a name="s-rpc"></a>S (RPC)
 
@@ -32,7 +32,7 @@ Protocole de communication [*orienté connexion*](c-glos.md) Banyan VINES pour l
 
 </dd> <dt>
 
-<span id="_rpc_spx_glos"></span><span id="_RPC_SPX_GLOS"></span>**Échange de paquets séquencés (SPX)**
+<span id="_rpc_spx_glos"></span><span id="_RPC_SPX_GLOS"></span>**Exchange de paquets séquencés (SPX)**
 </dt> <dd>
 
 Protocole de communication [*orienté connexion*](c-glos.md) Novell NetWare pour le routage des paquets d’informations sur des réseaux locaux et des réseaux étendus.

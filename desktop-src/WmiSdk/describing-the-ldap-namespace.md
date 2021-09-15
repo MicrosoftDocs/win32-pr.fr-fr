@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Description de l’espace de noms LDAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad19ea98e5bd6f36ff78159bfe0a106f0772921c152aa167c38e435732188446
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fe1f27c3e2ebc48a0dfa14563822e34bc06d6223
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119568619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526213"
 ---
 # <a name="describing-the-ldap-namespace"></a>Description de l’espace de noms LDAP
 

@@ -4,12 +4,12 @@ ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: Logiciel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1d8cac8e45ee5c51ef8a49f7b212dfb4381adb760eaf3bc1d08b21b4f9c7464
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c124f925a1047dc7be6e8ba2882a039895801ebe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118463904"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412626"
 ---
 # <a name="software"></a>Logiciel
 

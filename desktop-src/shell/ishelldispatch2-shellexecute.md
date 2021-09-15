@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8e524ea4a4422e92068d432a91165dfeb97155cfba1d5e6bd9a06ed75b7550cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c058275948d5d96805ae24a76389321d7c69b8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118721034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412467"
 ---
 # <a name="ishelldispatch2shellexecute-method"></a>IShellDispatch2. ShellExecute, méthode
 
@@ -119,7 +119,7 @@ Recommandation relative à l’affichage initial de la fenêtre d’application.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ShellExecute**](./shell-shellexecute.md) .
 
@@ -166,7 +166,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: les rubriques contenues dans cette section fournissent les spécifi
 ms.assetid: d14e7140-47c2-4573-a56d-94766013bc72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb1720c94b0f669c34da3dcb6810f1507e1a316df582fe3b12f9d73cf4a40b4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4658cfc4bd09ae4d6b324cbf7bb90c00c8ef7247
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118438866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404733"
 ---
 # <a name="windows-ribbon-framework-reference"></a>Windows Informations de référence sur l’infrastructure du ruban
 

@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3d07f0d14ce37f9c84c20564189e1b8475e69887
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211694"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413244"
 ---
 # <a name="id3dx11effectscalarvariable-interface"></a>Interface ID3DX11EffectScalarVariable
 

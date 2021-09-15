@@ -4,12 +4,12 @@ description: '\_Message de fenêtre WM GETOBJECT'
 ms.assetid: 56ab7e6b-a469-49f9-ab56-82e11e374b25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 757fabb2b4fcb5ec7a030ae341c011e5b08563235c46257bdebdee44cfc9fe9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ada36f9976345f5323a39967b7a5b18bc8e4ace
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530193"
 ---
 # <a name="wm_getobject-window-message"></a>\_Message de fenêtre WM GETOBJECT
 

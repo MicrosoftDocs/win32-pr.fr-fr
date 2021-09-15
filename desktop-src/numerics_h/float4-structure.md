@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb1af9bee9a571abf58fb20539945effc3ff1ee81cbb48a4d90c1510aebcd4c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c4a2a4721e3ab7e5520545b42367d2432ba967f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119825279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525553"
 ---
 # <a name="float4-structure"></a>float4, structure
 
@@ -101,7 +101,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float z` | Composant Z du vecteur. |
 | `float w` | Composant W du vecteur. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

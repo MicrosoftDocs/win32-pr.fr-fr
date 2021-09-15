@@ -8,11 +8,11 @@ ms:contentKeyID: 55101551
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: 39df41bb801c148a16d489e47dffc08164f6db83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321002"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403929"
 ---
 # <a name="esentdistributedtransactionnotyetpreparedtocommitexception-methods"></a>Méthodes EsentDistributedTransactionNotYetPreparedToCommitException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDistributedTransactionNotYetPreparedToCommitException, classe](./esentdistributedtransactionnotyetpreparedtocommitexception-class.md)
 

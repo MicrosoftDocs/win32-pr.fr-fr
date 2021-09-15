@@ -4,12 +4,12 @@ ms.assetid: 1ace09da-7dee-469e-a533-63b40ac747ab
 title: MFPKEY_ENHANCED_WMA, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab3fdcd3087773ea760615224b148bd497c1f89114c0f761a7d2f90fb0b5a8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df1c7ddc0e7bfb6d62d51e535f10b257eac6f2ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118738016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412937"
 ---
 # <a name="mfpkey_enhanced_wma-property"></a>MFPKEY \_ , \_ propriété WMA améliorée
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 0
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette propriété n’est disponible que pour les Windows Media Audio sans perte.
 
@@ -35,7 +35,7 @@ Si vous laissez cette propriété à sa valeur par défaut égale à 0 ou si vou
 
 Cette propriété modifie les types de médias énumérés. par conséquent, si vous la définissez, vous devez le faire avant de définir le type de sortie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

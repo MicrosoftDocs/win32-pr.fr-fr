@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: a1a773f7b4e08a718c419de2d51c0ff3bd9bba551267188b12889b9ec99d4ded
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc42bfe8a6e69504c35d7926c4c5a8b688404897
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118716458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412265"
 ---
 # <a name="itableteventsink-interface"></a>Interface ITabletEventSink
 
@@ -54,7 +54,7 @@ L’interface **ITabletEventSink** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les développeurs ne doivent pas utiliser cette interface.
 
@@ -132,7 +132,7 @@ interface ITabletEventSink: IUnknown
      
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

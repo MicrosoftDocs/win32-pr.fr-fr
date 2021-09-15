@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8d244c4c141845d4ede66804918514e091872e89
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367868"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413859"
 ---
 # <a name="wm_cap_dlg_videoformat-message"></a>\_Message WM Cap \_ DLG \_ VIDEOFORMAT
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fois ce message retourné, les applications devront peut-être mettre à jour la structure [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) car l’utilisateur a peut-être modifié les dimensions de l’image.
 

@@ -58,11 +58,11 @@ api_type:
 api_location:
 - wiadef.h
 ms.openlocfilehash: 008a806ccaebd595fe7a67ff8f98e6a9385b0bf2
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882706"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404750"
 ---
 # <a name="scanner-wia-item-property-constants"></a>Constantes de propriété d’élément WIA du scanneur
 

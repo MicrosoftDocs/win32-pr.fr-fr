@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: d55293b45c32d976f045e657d9e055fe5ad5c8c81311d4fdc560c3283807dd8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a6b6c75f10ed44650d4c565f4a9d831c465a6b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118491704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411540"
 ---
 # <a name="esentquotaexception-constructor"></a>Constructeur EsentQuotaException
 

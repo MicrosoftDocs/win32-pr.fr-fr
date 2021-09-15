@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a48c9ce3a276f060ac90dd15100ca8612e35116e124588e27f4ee36c1a0b8a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 644cff9c94876fab11bc9fbe181ac0375d9444fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119930739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404697"
 ---
 # <a name="wmt_rights-enumeration"></a>\_Énumération des droits WMT
 
@@ -120,13 +120,13 @@ Réservé pour un usage futur. Ne pas utiliser.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces valeurs sont des indicateurs binaires, donc un ou plusieurs peuvent être définis en les associant à **l’opérateur de bits or.**
 
 lorsque vous utilisez Windows Media DRM 10 **, \_ le \_ droit \_ de copie wmt sur un \_ \_ \_ appareil NON-SDMI**, **\_ le droit \_ d’effectuer une copie de l’appareil wmt vers le \_ \_ \_ périphérique sdmi** et **le remplacement \_ d’wmt dans le \_ \_ \_ CD** sont remplacés par le droit de **\_ \_ copie de wmt**. Les limitations sur les appareils sur lesquels le contenu peut être copié sont spécifiées à l’aide de niveaux de protection de sortie (OPLs).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

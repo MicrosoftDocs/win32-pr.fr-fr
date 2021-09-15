@@ -4,12 +4,12 @@ ms.assetid: eb78d7a0-6293-487f-88c5-88ba455b965f
 title: Régions (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd15a7a25b341556b312c540f6fa4caf870da75aa4973be1d7c1e8102511e6ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82d6a7f0a5a6d3df4b11a491111dbedf9e155c3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404287"
 ---
 # <a name="regions-gdi"></a>Régions (GDI+)
 

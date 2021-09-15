@@ -4,12 +4,12 @@ ms.assetid: f77fe77a-8625-47c5-bfc7-b473c8e8a8c6
 title: Text Services Framework (Tablet PC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f5dca55191518813d6d5680562206f6bc0c72582c905104160a96079087423d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c25eb3e635ae7394502ed203cb9ea31e115dc09e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119819799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412240"
 ---
 # <a name="text-services-framework-tablet-pc"></a>Text Services Framework (Tablet PC)
 

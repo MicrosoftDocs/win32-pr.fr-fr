@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be2d2d3a4574b086d49cba7d9c0afda72cf62621dbed37add8550a7ae2f93cd4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92559d532e99bfa29d7f62fd29b279db20f2c0a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117799633"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413799"
 ---
 # <a name="inapenforcementclientconnectionsetsohrequest-method"></a>INapEnforcementClientConnection :: SetSoHRequest, méthode
 
@@ -54,7 +54,7 @@ Pointeur vers une structure [**NetworkSoHRequest**](/windows/win32/api/naptypes/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -70,13 +70,13 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur est définie par le NapAgent et interrogée par les enforceurs à envoyer sur le câble.
 
 Un paquet SoH de longueur zéro octet n’est pas valide.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

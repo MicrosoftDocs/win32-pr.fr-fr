@@ -4,12 +4,12 @@ ms.assetid: 4e6b46b0-df9e-4458-b0ac-e237d7656337
 title: Fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58c9e098981c6246392fef75f717b1d7676df1aa134e4faef3e436ee8b3eb537
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bb336dbb51fcbd715ea236ecdc0c62d81daf29d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118591326"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413355"
 ---
 # <a name="providers"></a>Fournisseurs
 

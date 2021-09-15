@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: aa1fa4636b0302e058bc0a308e5d87da11d9bec3d12d678b9eb6057521479689
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04e935c668e858ae3d22936e8a63f9116ebd6ab2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119938589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530293"
 ---
 # <a name="itipautocompleteclientpreferredrects-method"></a>ITipAutocompleteClient ::P méthode referredRects
 
@@ -70,7 +70,7 @@ Un rectangle basé sur l’état actuel de l’info-bulle et l’emplacement et 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -86,13 +86,13 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit de la méthode appelée par le fournisseur de saisie semi-automatique lorsqu’il est sur le présent d’afficher l’interface utilisateur de saisie semi-automatique. Le client modifie le rectangle préféré du fournisseur spécifié par *prcACList* à l’aide de l’argument *prcModified* .
 
 Appelez la [**méthode ITipAutocompleteClient :: RequestShowUI**](itipautocompleteclient-requestshowui.md) pour définir le handle de fenêtre de la liste de saisie semi-automatique contextuelle avant d’appeler **PreferredRects**. Dans le cas contraire, une erreur d' **E \_ INVALIDARG** se produira lors de l’appel de **PreferredRects**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

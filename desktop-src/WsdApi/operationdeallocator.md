@@ -4,12 +4,12 @@ ms.assetid: 52e6235d-90e6-4559-b17c-14ca3be896ff
 title: élément operationDeallocator
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44ce2902bbfac16cb096da334cf3f22a12c68e3720d575fa303b8f3b133c9328
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe3ae0d9f1d37a478ceca0895806ade6a011747e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413260"
 ---
 # <a name="operationdeallocator-element"></a>élément operationDeallocator
 

@@ -6,12 +6,12 @@ keywords:
 - RPC_AUTHZ_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4280d25a44f7c88ac99486900eb92086d27f472f27ac3e198108f562c204b2aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b095100e1e224590ef6a285785da632e198e1b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926546"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413613"
 ---
 # <a name="rpc_authz_handle"></a>\_handle RPC auth \_
 
@@ -24,7 +24,7 @@ typedef void* RPC_AUTHZ_HANDLE;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

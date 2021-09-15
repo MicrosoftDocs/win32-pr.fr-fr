@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les interfaces de versi
 ms.assetid: d228c3c2-e2ff-4723-aec1-5c3ce82c321d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ccdc681fa77293a151de113779b6c689c9055f52fc4ec7bfbc8c4dff15d2a76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f535650fa24593cc4b663c1a2b01a1a2d53a9b3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526161"
 ---
 # <a name="common-version-interfaces"></a>Interfaces de version courantes
 

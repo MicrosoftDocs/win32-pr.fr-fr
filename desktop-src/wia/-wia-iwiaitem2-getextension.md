@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 4c9738afe60d79b73149c9dd7dda8c3bbd1017c3b41d023b47160b624bcd7c8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2fea4c4b9a2dd909b7ec49097ee94664b47f7e47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119450412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526488"
 ---
 # <a name="iwiaitem2getextension-method"></a>IWiaItem2 :: GetExtension, méthode
 
@@ -89,7 +89,7 @@ Reçoit l’adresse d’un pointeur vers l’interface d’extension.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 

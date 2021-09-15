@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: d3c0ccf8-0f83-42f7-9d6f-1fb293da6364
-ms.openlocfilehash: 9908fa86b79ff230c2c6320685cd605a97c9b0747db31cc395f8f449ae2fbfa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5862ae3c9b7bf1262edbc28b06f2963f2e577275
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412335"
 ---
 # <a name="shelllinkobject-object"></a>Objet ShellLinkObject
 
@@ -59,7 +59,7 @@ L’objet **ShellLinkObject** a ces propriétés.
 | [**Arguments**](shelllinkobject-arguments.md)<br/>               | Lecture/écriture<br/> | Contient les arguments d’un lien.<br/>                                                                   |
 | [**Description**](shelllinkobject-description.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit la description du lien.<br/>                                                      |
 | [**Touche d’accès rapide**](shelllinkobject-hotkey.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit le raccourci clavier du lien.<br/>                                               |
-| [**Chemin**](shelllinkobject-path.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le chemin d’accès à l’objet de lien.<br/>                                                      |
+| [**D**](shelllinkobject-path.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le chemin d’accès à l’objet de lien.<br/>                                                      |
 | [**ShowCommand**](shelllinkobject-showcommand.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’état d’affichage initial (dimensionné, réduit ou agrandi) de la commande du lien.<br/> |
 | [**WorkingDirectory**](shelllinkobject-workingdirectory.md)<br/> | Lecture/écriture<br/> | Obtient ou définit le répertoire de travail spécifié dans le lien.<br/>                                      |
 
@@ -67,7 +67,7 @@ L’objet **ShellLinkObject** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

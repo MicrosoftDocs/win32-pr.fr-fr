@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d0e34f6fa823092968e74515a885e7a40db9f2d7
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413876"
 ---
 # <a name="mci_seek-command"></a>\_Commande MCI Seek
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ recherche MCI**](mci-seek-parms.md) . (L
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la taille de l’échantillon de données d’un appareil est supérieure à 1 octet (comme avec les données stéréo audio Wave), cette commande passe au début de l’échantillon le plus proche lorsqu’une position spécifiée ne coïncide pas avec le début d’un échantillon.
 

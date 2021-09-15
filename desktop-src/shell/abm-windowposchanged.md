@@ -4,12 +4,12 @@ ms.assetid: 8ca51f5f-b6cf-4f2c-98f4-69c992679320
 title: Message ABM_WINDOWPOSCHANGED (shellapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d770d50629342095308376856b98e6250adc1f9a1f2559da8509d685995428ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 29c8ea6fab6960678ad030a0c1817ad5f8aaae29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412599"
 ---
 # <a name="abm_windowposchanged-message"></a>\_Message ABM WINDOWPOSCHANGED
 
@@ -33,15 +33,15 @@ Pointeur vers une structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-sh
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne toujours la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est ignoré si le membre **HWND** de la structure vers laquelle pointe *pabd* identifie un appbar de masquage automatique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

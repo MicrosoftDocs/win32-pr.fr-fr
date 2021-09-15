@@ -4,12 +4,12 @@ ms.assetid: f9def67a-c4ea-4014-929f-51fbd10d770a
 title: Vue d’ensemble du nettoyage et de l’arrêt de la restauration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8ad0b7d40f3c0e5322810f96bb120f28effe4ec3f0d4e278af924962713b2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 391e029cdb109589b42240b5482f6aba2ff43555
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118122031"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413366"
 ---
 # <a name="overview-of-restore-clean-up-and-termination"></a>Vue d’ensemble du nettoyage et de l’arrêt de la restauration
 

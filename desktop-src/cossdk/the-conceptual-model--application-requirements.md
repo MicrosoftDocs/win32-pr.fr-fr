@@ -4,12 +4,12 @@ ms.assetid: 124b329b-f745-45b4-b266-7c177c76a5cd
 title: 'Modèle conceptuel : exigences de l’application'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c19c69f8da7179765242815c4d01760c36b94e95714188f7db772600826d0416
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5a287ff940f154bf104bbb50f6362bf573d9223
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119853919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526409"
 ---
 # <a name="the-conceptual-model-application-requirements"></a>Modèle conceptuel : exigences de l’application
 

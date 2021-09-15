@@ -5,11 +5,11 @@ title: version, élément (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ce1aeac399b5fa71b4a1ca57b63d8ecb95ede57f
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885455"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412406"
 ---
 # <a name="version-element-library-schema"></a>version, élément (schéma de bibliothèque)
 
@@ -28,13 +28,13 @@ L' &lt; &gt; élément version spécifie la version de contenu de cette biblioth
 
 | Élément parent                                                               | Éléments enfants |
 |------------------------------------------------------------------------------|----------------|
-| [Élément libraryDescription (schéma de bibliothèque)](schema-librarydescription.md) | Aucune           |
+| [Élément libraryDescription (schéma de bibliothèque)](schema-librarydescription.md) | None           |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La version de contenu de la bibliothèque est différente de la version de format de fichier ( \* . Library-ms) de la bibliothèque. La version du format de fichier de la bibliothèque est spécifiée dans l' [espace de noms](library-schema-entry.md).
 

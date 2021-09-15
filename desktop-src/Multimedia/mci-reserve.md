@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b89eb457b63012aa9ee5624efef95945258d42c8
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413890"
 ---
 # <a name="mci_reserve-command"></a>\_Commande de réserve MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ réserves \_ de DGV MCI**](/windows/desk
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’espace de travail contient des données non enregistrées, ces données sont perdues. Si l’espace disque n’est pas réservé avant l’enregistrement, la commande [MCI \_ Record](mci-record.md) effectue une réservation implicite avec des paramètres par défaut spécifiques à l’appareil. Sur certaines implémentations, la réserve n’est pas obligatoire et peut être ignorée par le pilote de périphérique. La réservation explicite d’espace vous permet de mieux contrôler le moment où se produit l’allocation de disque, la quantité d’espace allouée et l’emplacement où l’espace disque est alloué. La quantité et l’emplacement de l’espace disque déjà réservé pour cette instance d’appareil peuvent être modifiés par l’émission d' \_ une nouvelle réserve MCI. Tout espace disque alloué et toujours inutilisé n’est pas libéré tant que les données enregistrées ne sont pas enregistrées ou que l’instance de pilote de périphérique n’est pas fermée.
 

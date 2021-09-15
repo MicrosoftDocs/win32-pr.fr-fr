@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9b597f6b-ef27-4fa1-ad00-e131dbd979e7
-ms.openlocfilehash: 30722e32a555b386e166e5525e0d4361dbe9d9bc6a58051e4727c661ebe49073
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3ccb4073d59e0ebe9b840bd6f8f592f463e1e46
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119714119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412424"
 ---
 # <a name="ishellfolderviewtype-interface"></a>Interface IShellFolderViewType
 
@@ -47,7 +47,7 @@ L’interface **IShellFolderViewType** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet énumérateur retourne des PIDL qui sont des dossiers masqués spéciaux au niveau supérieur du dossier shell, qui ne sont pas énumérés autrement. La vue par défaut est celle qui s’affiche normalement dans le dossier de l’interpréteur de commandes.
 
@@ -91,7 +91,7 @@ DECLARE_INTERFACE_IID_(IShellFolderViewType, IUnknown, "49422C1E-1C03-11d2-8DAB-
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

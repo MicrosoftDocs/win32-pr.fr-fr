@@ -4,12 +4,12 @@ ms.assetid: eaf1c298-f0af-4b29-a09a-f399da20335d
 title: Types d’informations d’identification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99d0e067b3918496310f3244153864abbf7548e5367569f4f2fbd06de40f207c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f30968484b2cfc89b9238f624d9299fb75c72bd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140932"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413482"
 ---
 # <a name="kinds-of-credentials"></a>Types d’informations d’identification
 

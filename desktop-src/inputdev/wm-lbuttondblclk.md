@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d83c7a86659fe2c80bc786a4ef1ed5944f90809049e4f681506c439477bc744
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fd91eef026ae027e183b4f304211915e7bbbd95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119351649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413106"
 ---
 # <a name="wm_lbuttondblclk-message"></a>\_Message WM LBUTTONDBLCLK
 
@@ -70,11 +70,11 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 
@@ -95,7 +95,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
 Seules les fenêtres qui ont le style **cs \_ DBLCLKS** peuvent recevoir des messages **WM \_ LBUTTONDBLCLK** , que le système génère chaque fois que l’utilisateur appuie sur, relâche, puis appuie encore sur le bouton gauche de la souris dans le délai imparti pour le double-clic du système. Un double-clic sur le bouton gauche de la souris génère en fait une séquence de quatre messages : [**WM \_ LBUTTONDOWN**](wm-lbuttondown.md), [**WM \_ LBUTTONUP**](wm-lbuttonup.md), **WM \_ LBUTTONDBLCLK** et **WM \_ LBUTTONUP**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -138,7 +138,7 @@ Seules les fenêtres qui ont le style **cs \_ DBLCLKS** peuvent recevoir des mes
 [**\_LBUTTONUP WM**](wm-lbuttonup.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

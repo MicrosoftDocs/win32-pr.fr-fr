@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b8276b1850242bd83639883bf75fc927d8484765
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403547"
 ---
 # <a name="id3dx11effectgetvariablebysemantic-method"></a>ID3DX11Effect :: GetVariableBySemantic, méthode
 
@@ -52,13 +52,13 @@ Nom sémantique.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers la variable d’effet indiquée par la sémantique. Consultez [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque variable Effect peut avoir une sémantique jointe, qui est une chaîne de métadonnées définie par l’utilisateur. Certaines [sémantiques de valeurs système](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics) sont des mots réservés qui déclenchent des fonctionnalités intégrées par étapes de pipeline.
 
@@ -69,7 +69,7 @@ La méthode retourne un pointeur vers une [**interface de variable Effect**](id3
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

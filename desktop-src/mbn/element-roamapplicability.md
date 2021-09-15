@@ -7,12 +7,12 @@ MSHAttr:
 title: RoamApplicability
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e79c35cf8b20a2be85f4ef51e4a3745c9096d9e0
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a6fbd7b80e8f5cec49caaa0ea08d747d99e938b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481095"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413067"
 ---
 # <a name="span-idwwan_profile_v4element_roamapplicabilityspanmbnprofileextroamapplicability-v4"></a><span id="WWAN_profile_v4.element_RoamApplicability"></span>MBNProfileExt \/ RoamApplicability (v4)
 
@@ -26,7 +26,7 @@ Spécifie que ce profil est actif uniquement lorsque la condition d’itinéranc
 [\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
 &nbsp;&nbsp;**\<RoamApplicability\>**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <RoamApplicability>
@@ -57,10 +57,12 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

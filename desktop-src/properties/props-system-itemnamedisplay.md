@@ -4,12 +4,12 @@ ms.assetid: fdb6b0fa-0741-4edc-8902-763a461313b9
 title: System.ItemNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f34e21c0ded147789cadccc99aaf9b2a1910398430419edacc498214c6489d77
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf735935ee7971acad7d11ee91636e18a6542252
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119598469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404267"
 ---
 # <a name="systemitemnamedisplay"></a>System.ItemNameDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
@@ -48,7 +48,7 @@ Par exemple, pour les documents, [System. title](./props-system-title.md) peut �
 
 
 
-| Type d’élément     | Exemples                   |
+| Type d’élément     | Exemple                   |
 |---------------|---------------------------|
 | Fichier          | hello.txt                 |
 | Message       | Re : où est la réunion ? |

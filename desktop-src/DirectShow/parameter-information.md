@@ -4,12 +4,12 @@ ms.assetid: 2600b200-f57a-46cd-8740-89b7f7aba540
 title: Informations sur les paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbe38cc9197df3ae22bcd72b824da5887647bca9e9d6101e3833d482fa907052
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a1a311bbaa7907af0b3578ed88c28e573649f43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120050769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312310"
 ---
 # <a name="parameter-information"></a>Informations sur les paramètres
 

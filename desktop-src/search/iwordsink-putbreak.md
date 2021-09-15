@@ -14,11 +14,11 @@ api_type:
 api_location:
 - search.h
 ms.openlocfilehash: c6407f1307b4860960c5202af13de736c7921139
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313174"
 ---
 # <a name="iwordsinkputbreak-method"></a>IWordSink ::P méthode utBreak
 
@@ -46,7 +46,7 @@ Valeur de [**\_ \_ type break WORDREP**](/previous-versions/windows/desktop/lega
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -64,7 +64,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 Les méthodes [**IWordSinkPutWord**](iwordsink-putword.md) et [**IWordSink ::P utaltword**](iwordsink-putaltword.md) insèrent automatiquement une coupure de mot (EOW, indiquée par l' \_ élément WORDREP Break \_ EOW du type énuméré de [**\_ \_ type break WORDREP**](/previous-versions/windows/desktop/legacy/ff819130(v=vs.85)) ) après chaque mot. Appelez la méthode **PutBreak** pour insérer un type d’arrêt autre que la fin du mot. Cette méthode ne modifie pas la mémoire tampon de texte source (*pSourceText*) ou incrémente le nombre de caractères (*CWC*). Toutefois, elle incrémente la position actuelle dans l’index et affecte les résultats de la requête.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

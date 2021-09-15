@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f18ea308afd33be67fa19d30ee60b629bf12192b6cc53fc26cc6569d52f8dd6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79e246665761d8d85afef03641d1f9f0c20b1f69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404479"
 ---
 # <a name="windows-media-format-sdk-constants"></a>Windows Constantes du kit de développement logiciel (SDK)
 

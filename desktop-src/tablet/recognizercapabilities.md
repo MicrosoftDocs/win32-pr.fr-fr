@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: 96e932b8e47f323198e1b0cc87da0df7839a593a76850c00c2c2e4d095854851
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2471e77fec02900804de831fc1197c071b9f566
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119091449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411445"
 ---
 # <a name="recognizercapabilities-enumeration"></a>Énumération RecognizerCapabilities
 
@@ -190,11 +190,11 @@ Reconnaît un seul mot ou caractère par opération de reconnaissance. Le [**IIn
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette énumération permet une combinaison au niveau du bit de ses valeurs membres. Utilisez cette énumération pour rechercher un module de reconnaissance d’encre installée qui prend en charge les attributs dont vous avez besoin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

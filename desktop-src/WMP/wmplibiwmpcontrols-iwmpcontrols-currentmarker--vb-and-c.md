@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86d75b0d9cb143a9a6ca5d855a214b10ac1575b3233d8ca4749a6bbcb2b7dfec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfbcea42594b15b8da08248d38b5d8f72a1de29d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117930231"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413308"
 ---
 # <a name="iwmpcontrolscurrentmarker-property"></a>IWMPControls :: currentMarker, propriété
 
@@ -48,7 +48,7 @@ Public Property currentMarker As System.Int32
 
 **System. Int32** qui est le numéro de marqueur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La définition de **currentMarker** entraîne le démarrage de la lecture à partir du marqueur spécifié. Avant de tenter de définir **currentMarker**, déterminez si un fichier a des marqueurs et combien il a à l’aide de **IWMPMedia. markerCount**. Si un fichier n’a pas de marqueur, la définition de **currentMarker** sur n’importe quelle valeur, sauf zéro, génère une erreur. Si vous définissez **currentMarker** sur un nombre supérieur à **markerCount** , une erreur est également générée.
 
@@ -101,7 +101,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

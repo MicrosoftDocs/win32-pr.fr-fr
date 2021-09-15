@@ -4,12 +4,12 @@ ms.assetid: 9fbdde0e-5312-48ec-9273-ded6703b99a9
 title: Reconnaissance de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f2a579681fbd06c6b5dd27e5388f2c797e6be50433e11490fb5fe204d1c65d6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8372af61d45bb1cc8bcd8377202149073c3decc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119842819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412241"
 ---
 # <a name="text-recognizers"></a>Reconnaissance de texte
 

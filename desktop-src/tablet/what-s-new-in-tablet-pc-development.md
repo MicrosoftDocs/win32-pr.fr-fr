@@ -4,12 +4,12 @@ ms.assetid: e61bd444-7e48-4146-93a4-8b99e34226af
 title: Nouveautés du développement pour Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cc2328cc3aa3578eb8d7afbfb22dbfc33983e29ae75286e79dbca874873569c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 848c211baae029661f3a53e69cd6cf8562367c9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119091327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526512"
 ---
 # <a name="whats-new-in-tablet-pc-development"></a>Nouveautés du développement pour Tablet PC
 

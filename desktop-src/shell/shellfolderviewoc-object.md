@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b50f549c-a79d-4411-a18e-a181b4b924e3
-ms.openlocfilehash: bc00dc285c1bcca72e998ecb22f75af56dd085542d0f191c484c096e5e511cce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2670578417dc616d30f319887f5281fa5d0615f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857671"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412348"
 ---
 # <a name="shellfolderviewoc-object"></a>Objet ShellFolderViewOC
 
@@ -60,13 +60,13 @@ L’objet **ShellFolderViewOC** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet [**ShellFolderView**](shellfolderview.md) déclenche deux événements, [**EnumDone**](shellfolderviewoc-enumdone.md) et [**SelectionChanged**](shellfolderviewoc-selectionchanged.md), qui sont généralement gérés par des applications. Toutefois, certaines applications doivent gérer les événements d’une série d’objets **ShellFolderView** . Par exemple, une application peut héberger un contrôle WebBrowser qui permet aux utilisateurs de naviguer dans une série de dossiers. Chaque dossier a son propre objet **ShellFolderView** avec ses événements associés. La gestion de ces événements peut être difficile.
 
 L’objet **ShellFolderViewOC** simplifie la gestion des événements pour de tels scénarios. Elle permet aux applications de gérer des événements pour tous les objets [**ShellFolderView**](shellfolderview.md) avec une seule paire de gestionnaires d’événements **ShellFolderViewOC** . Chaque fois que l’utilisateur accède à un nouveau dossier, l’application transmet l’objet **ShellFolderView** associé à l’objet **ShellFolderViewOC** en appelant [**SetFolderView**](shellfolderviewoc-setfolderview.md). Ensuite, lorsqu’un événement [**EnumDone**](shellfolderviewoc-enumdone.md) ou [**SelectionChanged**](shellfolderviewoc-selectionchanged.md) est déclenché, l’objet **ShellFolderViewOC** transfère l’événement à son propre gestionnaire de traitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

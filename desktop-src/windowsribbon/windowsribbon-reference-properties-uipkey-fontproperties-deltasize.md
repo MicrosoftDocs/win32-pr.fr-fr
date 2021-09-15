@@ -4,12 +4,12 @@ description: Identifie la propriété de l’interface utilisateur FontPropertie
 ms.assetid: 021a6c79-1d3e-47d2-9601-cdaa2e66a50a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a35d2660d2221b4edad567b0fd05eb8283fce4b3cc7d1cb8e35c735838f385d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67778a710de8f69e0aea1134c12fb9ee3ebe0133
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118438750"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404727"
 ---
 # <a name="ui_pkey_fontproperties_deltasize"></a>FontProperties de l’IU \_ \_ \_
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_FONTDELTASIZE
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur \_ \_ FontProperties la valeur de l’option de type de variable \_ est utilisée par une application dans les cas où il n’est pas possible pour l’application de spécifier une valeur pour la **taille de police**, par exemple lorsqu’une série de texte de taille hétérogène est sélectionnée. Le contrôle de **taille de police** est défini sur vide et l’interface utilisateur FontProperties de l’interface utilisateur \_ \_ \_ est utilisée pour capturer l’interaction de l’utilisateur avec les boutons **agrandir la police** et **réduire la police** .
 

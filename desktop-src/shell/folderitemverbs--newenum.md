@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 63cfc56c-4e6f-4e69-9fce-f625d550023b
-ms.openlocfilehash: 932664bbfa95b060a2a0f63a64b49901a43c1dd70b6030c20e8572e88e9714ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b24e9310eae82f88e11de4e3781585e7f769d3c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118223691"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530425"
 ---
 # <a name="folderitemverbs_newenum-method"></a>FolderItemVerbs. \_ NewEnum, méthode
 
@@ -37,11 +37,11 @@ FolderItemVerbs._NewEnum()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

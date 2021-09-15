@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 02f896d41c5804fd85a3cb5f31b6c509c3099357
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530005"
 ---
 # <a name="jetattachdatabase2-function"></a>Fonction JetAttachDatabase2
 
@@ -96,13 +96,13 @@ La fonction retourne l’un des codes d’erreur [JET_ERR](./jet-err.md) . Les �
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Le fichier de base de données est détaché à l’aide de [JetDetachDatabase](./jetdetachdatabase-function.md) ou [JetDetachDatabase2](./jetdetachdatabase2-function.md).
 
 Consultez [JetAttachDatabase](./jetattachdatabase-function.md) pour les remarques.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

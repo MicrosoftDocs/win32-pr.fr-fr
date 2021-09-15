@@ -5,12 +5,12 @@ ms.assetid: 65AE4D96-6221-46B5-BF55-F86479FCF97C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce02abfb433b36738de0fd62285e44b2f065ac017217a1e61f8c305e8ca76228
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 14fdec6c76f29800f2a0e42bde76b32ebc794275
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120069699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404351"
 ---
 # <a name="copying-descriptors"></a>Copie de descripteurs
 

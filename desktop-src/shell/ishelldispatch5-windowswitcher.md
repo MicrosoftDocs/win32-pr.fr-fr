@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 44a6411c-bcbc-4ef6-b5dc-7bdb4d482c6a
-ms.openlocfilehash: 035e0689c10145a70cb6fe963bd50b880bef13b0b815ebfcc4b0b96bccdab5c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4e5241625e80f9df254916a1cbb578f466c1c3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118220955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412453"
 ---
 # <a name="ishelldispatch5windowswitcher-method"></a>Méthode IShellDispatch5. WindowSwitcher
 
@@ -45,7 +45,7 @@ IShellDispatch5.WindowSwitcher()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

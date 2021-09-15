@@ -4,12 +4,12 @@ description: Éditeurs de méthode d’entrée tiers
 ms.assetid: 7FFD7210-2335-4499-A36A-ACFAECEB01F9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e12b2c2788ed95509b785dd7fc2c5ba3ec0a31ac46a736bc7dfdc92c7289f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cca9768de96b9dcdeac7f4b0da210f7aa788801b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119815104"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411428"
 ---
 # <a name="third-party-input-method-editors"></a>Éditeurs de méthode d’entrée tiers
 
@@ -74,7 +74,7 @@ Les IME hérités ou compatibles avec le bureau sont limités aux conditions sui
 
 ## <a name="solution"></a>Solution
 
-**Général**
+**Généralités**
 
 utilisez l’infrastructure TSF (text services framework) existante pour implémenter votre logique IME et les contrôles communs de l’application Windows Store pour vos interfaces utilisateur. Créez des fenêtres détenues pour héberger votre interface utilisateur.
 

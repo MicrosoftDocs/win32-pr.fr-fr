@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f0daf03ca2114f67935e1eb89f34b31306e31fc0
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526149"
 ---
 # <a name="direct3d-11-core-enumerations"></a>Principales énumérations Direct3D 11
 

@@ -7,12 +7,12 @@ keywords:
 - mise en mémoire tampon du contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3005895f7a196073566c32bb455f5808bf6f11feb491000b140e1bbf88b94b7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a06b378431653f21be742c12b4e4a5ae2a994318
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119586989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411394"
 ---
 # <a name="buffering-content"></a>Mise en mémoire tampon du contenu
 

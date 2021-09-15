@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 378d80923f9c0b7eda65fac83809e30626d53406
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413860"
 ---
 # <a name="wm_cap_dlg_videodisplay-message"></a>\_Message WM Cap \_ DLG \_ VIDEODISPLAY
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les contrôles de cette boîte de dialogue n’affectent pas les données vidéo numérisées ; elles affectent uniquement la sortie ou le réaffichage du signal vidéo.
 

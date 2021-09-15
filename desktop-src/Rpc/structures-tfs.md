@@ -4,12 +4,12 @@ description: Description de différents types de structures dans l’appel de pr
 ms.assetid: edaf547d-d3d1-443c-93dd-8e036bc42944
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1783508a834ce2fa3d93d3db04edc1de362d6f888c29511c1eb6852cce0e83ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4ccae91f703badd2e0153dfc3d8acff1ace562f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413488"
 ---
 # <a name="structures-rpc"></a>Structures (RPC)
 

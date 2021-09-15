@@ -4,12 +4,12 @@ description: Fonctions d’accélérateur du clavier
 ms.assetid: f87c8238-a724-4276-8fb3-72f17038f35f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 140526787a03de5e96a05de40dba5be32d89e34b03aafc658643d6869333d99e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f687e2772ad9b09232862d04366ee4b82a437483
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117870354"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525592"
 ---
 # <a name="keyboard-accelerator-functions"></a>Fonctions d’accélérateur du clavier
 

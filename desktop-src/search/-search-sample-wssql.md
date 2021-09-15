@@ -4,12 +4,12 @@ ms.assetid: 28663608-66b3-4404-9426-5a4b5f52a408
 title: WSSQL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c942203c6f92a3c6a0313672a0eede9a9cfe08822ca118f6a717192e23f3e6d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ac8f76b995d21a562f843344d1722cecec433af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118051693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313193"
 ---
 # <a name="wssql"></a>WSSQL
 
@@ -17,13 +17,13 @@ l’exemple de code WSSQL montre comment communiquer entre Microsoft OLE DB et W
 
 Cette rubrique contient les sections suivantes.
 
-- [Requirements](#requirements)
+- [Configuration requise](#requirements)
 - [Téléchargement de l’exemple](#downloading-the-sample)
 - [Génération de l'exemple](#building-the-sample)
 - [Exécution de l’exemple](#running-the-sample)
 - [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 | Produit     | Version du produit          |
 |-------------|--------------------------|

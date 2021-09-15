@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9170340a-0f11-4ec9-877d-fb7fef9888b2
-ms.openlocfilehash: 325fef2c56ec4f2fa31508c0f9b0f34f63097161e3ef7d4ecb835fe62c8c4fb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26c3112faa748aa443526fbe9cb493af67502cd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118220402"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412448"
 ---
 # <a name="ishelldispatch5-object"></a>Objet IShellDispatch5
 
@@ -49,7 +49,7 @@ L’objet **IShellDispatch5** a ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

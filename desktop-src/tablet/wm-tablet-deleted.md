@@ -5,11 +5,11 @@ title: Message WM_TABLET_DELETED (Tpcshrd. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: da8ade03d199f8ee7a258b9db2aeea039fd725e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515225"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312865"
 ---
 # <a name="wm_tablet_deleted-message"></a>Message de suppression de la \_ tablette WM \_
 
@@ -41,7 +41,7 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est envoyé à toutes les fenêtres de niveau supérieur du système, y compris les fenêtres sans propriétaire désactivées ou inactives, les fenêtres superposées et les fenêtres indépendantes. mais le message n’est pas envoyé aux fenêtres enfants.
 
@@ -53,7 +53,7 @@ Les index passés dans *wParam* sont liés à l’index utilisé par la méthode
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Tpcshrd. h</dt> </dl> |
 

@@ -5,11 +5,11 @@ title: Attribut MF_TOPONODE_NOSHUTDOWN_ON_REMOVE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3bb7db9a883db80cc6154c72d2c4218b7815456b
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477095"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412965"
 ---
 # <a name="mf_toponode_noshutdown_on_remove-attribute"></a>\_TOPONODE \_ de mise à l’arrêt MF sur la \_ Suppression de l' \_ attribut
 
@@ -21,7 +21,7 @@ Spécifie comment la session multimédia arrête un objet dans la topologie.
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux types de nœuds topologie suivants :
 
@@ -51,7 +51,7 @@ Cet attribut ne s’applique pas lorsque l’application arrête la session mult
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

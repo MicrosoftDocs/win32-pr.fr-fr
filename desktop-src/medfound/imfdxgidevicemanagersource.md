@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfidl.h
-ms.openlocfilehash: c75b2a691bfe9fcbda453fd49a29fcfd2ff640346f0e3c13a34418995439f4df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 669ec840a3122172147840052bd1dbf5c940569d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119957849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413042"
 ---
 # <a name="imfdxgidevicemanagersource-interface"></a>Interface IMFDXGIDeviceManagerSource
 
@@ -44,7 +44,7 @@ L’interface **IMFDXGIDeviceManagerSource** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

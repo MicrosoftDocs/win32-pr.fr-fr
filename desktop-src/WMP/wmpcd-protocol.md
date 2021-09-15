@@ -15,12 +15,12 @@ keywords:
 - Protocole WMPCD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 181b1359d22b792587f7cceeb46f0f9e621585dfba296422a227e9012077df7e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aa78c591d0ba9605f1f63e3e152b974d112548d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119900139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530233"
 ---
 # <a name="wmpcd-protocol"></a>Protocole WMPCD
 

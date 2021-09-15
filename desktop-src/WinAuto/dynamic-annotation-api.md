@@ -4,12 +4,12 @@ description: L’API d’annotation dynamique est une extension de Microsoft Act
 ms.assetid: 2daf0e76-b300-47e7-994b-d1d00d0dca4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca8b95d1175d4a6bd894e79c55f6798a73165fab2d6e6da40e3b952e68824d50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7f73c1da79784fdd86652128b572fd81904023c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118115319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403896"
 ---
 # <a name="dynamic-annotation-api"></a>API d’annotation dynamique
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8902d36ebe9e8227d22f55273e8351d7ed09c592953b44a31e45c06b838f9871
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 172cc8498bf5360e29822a484bcc2ddacd70b8b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404383"
 ---
 # <a name="wmlanguage-attribute"></a>Attribut WM/Language
 
@@ -30,7 +30,7 @@ L’attribut **WM/Language** est le langage de l’élément.
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké à la fois dans la bibliothèque et dans le fichier multimédia numérique.
 
@@ -42,7 +42,7 @@ la constante du kit de développement logiciel (SDK) du Format multimédia Windo
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

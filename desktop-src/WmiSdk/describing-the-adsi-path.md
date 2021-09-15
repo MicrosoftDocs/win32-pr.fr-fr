@@ -6,11 +6,11 @@ title: Description du chemin d’accès ADSI
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7e0ba1dafac273ab3564549a5caca44180161643
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387108"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411561"
 ---
 # <a name="describing-the-adsi-path"></a>Description du chemin d’accès ADSI
 

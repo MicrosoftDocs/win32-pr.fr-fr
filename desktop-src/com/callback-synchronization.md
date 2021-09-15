@@ -4,12 +4,12 @@ description: Synchronisation des rappels
 ms.assetid: e8268f18-49e7-4e09-9006-77858b734bf4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f85f388a81b6568db502b4f9843cc7fb9135bfaa9f3529a301993aeac87c43c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c274c35a6df176f65c505f2a3fecc9a53a20e5d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411273"
 ---
 # <a name="callback-synchronization"></a>Synchronisation des rappels
 

@@ -4,12 +4,12 @@ ms.assetid: 821739ff-f7a7-4192-ad34-254aa7d74d13
 title: utilisation de Windows Installer avec le gestionnaire de redémarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf361cf20d6f56dc25bd43c9077c65a25eeebdae1c6b512dfcde3e756448a7b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4160b2241c75ec7305accd1ab4d1295a54fa9f65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413909"
 ---
 # <a name="using-windows-installer-with-restart-manager"></a>utilisation de Windows Installer avec le gestionnaire de redémarrage
 

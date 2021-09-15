@@ -4,12 +4,12 @@ ms.assetid: 6f84bf57-2c68-4f37-b9cd-eee3a657e7cd
 title: Spécification des fichiers et des attributs de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfdb63bf2779ddc5730013bad06b382c168a62bab5e897d5d621f7a65644e445
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 719dacbc434d47b4074a183e67edb02a88cb3c90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413934"
 ---
 # <a name="specifying-files-and-file-attributes"></a>Spécification des fichiers et des attributs de fichier
 

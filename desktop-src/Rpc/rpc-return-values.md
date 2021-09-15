@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71595258e748d5f39bbc4919a1ed80a115482db1520ae3a7b341d0b53b90a4eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98215490826f2680682527bfb407aae2b1e9d0c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413580"
 ---
 # <a name="rpc-return-values"></a>Valeurs de retour RPC
 
@@ -154,7 +154,7 @@ Ce tableau répertorie uniquement les valeurs les plus courantes qui peuvent êt
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

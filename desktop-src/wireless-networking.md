@@ -4,12 +4,12 @@ ms.assetid: 54303cfc-7737-47d4-a0ea-b5a531c3014d
 title: Mise en réseau sans fil
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ada423afc39c041b32bbbc252ca117caaca62f466eb9939f56dd51c38b2199f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db62638d0db19b43567fc070171f6d1742e81f41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119659409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404199"
 ---
 # <a name="wireless-networking"></a>Mise en réseau sans fil
 

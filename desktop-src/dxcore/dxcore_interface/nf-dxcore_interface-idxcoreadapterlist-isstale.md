@@ -4,12 +4,12 @@ description: Détermine si les modifications apportées à ce système ont entra
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: a40a590a76773592d5442993c75149b2349880f7681d625e777d363062f5c4be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68b4e4ba6f3434f76ea5b4a2a98ae4e83486f61e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118502570"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526357"
 ---
 # <a name="idxcoreadapterlistisstale-method"></a>IDXCoreAdapterList :: IsStale, méthode
 

@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITableItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: babb64114bb761b0b6e93a7cc9c0036cb01bb8946eb813bcd0fc3e821d44a183
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bae3e6d5379ec9a662e31ec6181476b112631381
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403983"
 ---
 # <a name="tableitem-control-pattern"></a>Modèle de contrôle TableItem
 
@@ -46,10 +46,10 @@ Les méthodes suivantes sont requises pour implémenter l’interface [**ITableI
 
 
 
-| Membres nécessaires                                                               | Type de membre | Remarques |
+| Membres nécessaires                                                               | Type de membre | Notes |
 |--------------------------------------------------------------------------------|-------------|-------|
-| [**GetColumnHeaderItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems) | Méthode      | Aucun  |
-| [**GetRowHeaderItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getrowheaderitems)       | Méthode      | Aucun  |
+| [**GetColumnHeaderItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems) | Méthode      | None  |
+| [**GetRowHeaderItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getrowheaderitems)       | Méthode      | None  |
 
 
 
@@ -61,7 +61,7 @@ Ce modèle de contrôle n’est associé à aucune propriété ni à aucun évé
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Types de contrôle et leurs modèles de contrôle pris en charge](uiauto-controlpatternmapping.md)

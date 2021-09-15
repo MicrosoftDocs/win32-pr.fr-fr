@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Sfcfiles.h
-ms.openlocfilehash: c9070290170febf08e532b071812600fb0ef8755302a4bd1603858659196d0c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98cda570a3677560d51800d58822d93a942847c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404369"
 ---
 # <a name="pprotect_file_entry-structure"></a>Structure d’entrée de \_ fichier PPROTECT \_
 
@@ -64,7 +64,7 @@ Pointeur vers la valeur de chaîne contenant le nom du fichier INF qui fournit l
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

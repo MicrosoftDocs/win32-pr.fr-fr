@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d2bc9c5c1f5325dc631f8866ba1a8c7d88ce18d624a2974974f4692bf4f7b067
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 240a854a899f46bf80703bbd6cfb6b1529848586
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118376778"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413942"
 ---
 # <a name="productcomponentstate-method"></a>Méthode Product. ComponentState
 
@@ -48,11 +48,11 @@ GUID du code du composant, tel qu’il figure dans la colonne ComponentID de la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’appel est effectué, la propriété contient la valeur en tant que **DWORD**.
 
@@ -85,7 +85,7 @@ Si l’appel échoue, la propriété contient un code d’erreur de [**MsiQueryC
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

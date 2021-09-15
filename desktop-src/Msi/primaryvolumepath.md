@@ -4,18 +4,18 @@ ms.assetid: 6de21e4e-13cd-4a3f-a068-3b38672ae79c
 title: Propriété PrimaryVolumePath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c440e6c99e09e045fb9c91fcc720d3e64e707b6444f765448401080f7b9b38
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: da36cad6f35118c7631aba66213a000f6a2cc3e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120082649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413954"
 ---
 # <a name="primaryvolumepath-property"></a>Propriété PrimaryVolumePath
 
 Le programme d’installation définit la valeur de la propriété **PrimaryVolumePath** sur le chemin d’accès du volume désigné par la propriété [**PRIMARYFOLDER**](primaryfolder.md) . Par exemple, si le dossier référencé par **PRIMARYFOLDER** se résout en « d : \\ ProgramFiles », **PrimaryVolumePath** a la valeur « d : ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

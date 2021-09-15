@@ -12,18 +12,18 @@ api_name:
 - TraceRay
 api_type:
 - NA
-ms.openlocfilehash: 4e22a26d7bd2fd91029c106133667bce98c163d90d99f0700dac7f2bdf0796fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: faeed928b25acb4dac95e47a46a103daf87124e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120027979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403531"
 ---
 # <a name="traceray-function"></a>Fonction TraceRay
 
 Envoie un rayon dans une recherche de correspondances dans une structure d’accélération.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 Cette définition de fonction intrinsèque est équivalente au modèle de fonction suivant :
 
 ```

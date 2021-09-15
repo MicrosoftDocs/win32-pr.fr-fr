@@ -12,12 +12,12 @@ keywords:
 - roulette de la souris
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc38105da1fbbe3bee1be9ca280f1f5573dbb41ba4b7b6aa2013d9c600b8ad00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50b34f180aad6aec6120bf4e3ffa997eba13e760
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413126"
 ---
 # <a name="using-mouse-input"></a>Utilisation de l’entrée de souris
 

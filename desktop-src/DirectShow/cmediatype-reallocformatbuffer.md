@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7bd4d7bd27c3698f1e30c690f755f445ffaffeff37c88f27d0a5c8ba58cd2d32
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 22e861c61f01a7594d720833e2b3a4b923a1e183
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119768169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312478"
 ---
 # <a name="cmediatypereallocformatbuffer-method"></a>Méthode CMediaType. ReallocFormatBuffer
 
@@ -49,7 +49,7 @@ Nouvelle taille requise pour le bloc de format, en octets. Doit être supérieur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers le nouveau bloc en cas de réussite. Sinon, retourne un pointeur vers l’ancien bloc de format ou la **valeur null**.
 

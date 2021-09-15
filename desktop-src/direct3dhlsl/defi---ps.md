@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2d22301b3a6fced39741733cbc1371ed18bf95fcf00da0636e662fc8d977db18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3552d5cfe322dd384e1c6bd219e35af19b469a56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118792653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411247"
 ---
 # <a name="defi---ps"></a>DEFAUT-PS
 
 Définit une valeur de constante entière, qui doit être chargée à chaque fois qu’un nuanceur est défini sur un appareil.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 

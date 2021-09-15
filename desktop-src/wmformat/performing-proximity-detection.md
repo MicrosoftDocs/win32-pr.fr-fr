@@ -16,12 +16,12 @@ keywords:
 - détection de proximité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 181b13d56e4c2b1fea0da1ff761f6d915680ff89c42747b9faf4260184ae4205
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9628a6c33832b56858e5c457f15fd0935c2c436
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118963978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411361"
 ---
 # <a name="performing-proximity-detection"></a>Détection de proximité en cours
 

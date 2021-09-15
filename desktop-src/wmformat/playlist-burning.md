@@ -13,12 +13,12 @@ keywords:
 - gravure de playlist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c31c2d589790518ce404ea0627bcf1927772ad6b6918196b287dc9df1e0b05fe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 34abaa093a5a9da37ae302bc666fa8ce13841350
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120110249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411359"
 ---
 # <a name="playlist-burning"></a>Gravure de playlist
 

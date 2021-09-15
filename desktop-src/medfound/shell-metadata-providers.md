@@ -4,12 +4,12 @@ ms.assetid: d219d3f1-3940-46ed-9811-3cf8bf1eec55
 title: Fournisseurs de métadonnées de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31960ed41743a86b62b63555236d2876166a14b098f0692f3d6cb22b051e338e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 35488e750531a5ee7bac7dc915990593ecee1d10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119713359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525632"
 ---
 # <a name="shell-metadata-providers"></a>Fournisseurs de métadonnées de Shell
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd025d78c5d4fb3a3fca20cdb6ba6bf092c45465e7e738ddd4c1921301c6899
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f0dc2344c95bf3d0b09448277f1522baa879c80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053856"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404373"
 ---
 # <a name="wmoriginalalbumtitle-attribute"></a>Attribut WM/OriginalAlbumTitle
 
@@ -27,7 +27,7 @@ L’attribut **WM/OriginalAlbumTitle** est le nom de l’album sur lequel la pis
 
 -   [Musique Fichiers](music-file-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans un fichier musical qui ne se trouve pas dans la bibliothèque.
 
@@ -35,7 +35,7 @@ la constante du kit de développement logiciel (SDK) du Format multimédia Windo
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

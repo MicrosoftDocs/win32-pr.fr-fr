@@ -4,12 +4,12 @@ ms.assetid: ffe7b6eb-b6f5-4070-9f83-91a1e76764c6
 title: utilisation de Windows Installer avec WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5528e1e13ee94c44dd014d7516eb57453c8f30a2f0baf01ecac1634e47f293ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1cc56cfa9c5b9d91ba3ababd746df3df59bebc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117804071"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413901"
 ---
 # <a name="using-windows-installer-with-wmi"></a>utilisation de Windows Installer avec WMI
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 549c9328dad3bb04c7e4a46ead6a1aedbe04cfe6
-ms.sourcegitcommit: 8a211d404470a6a2790733ed2894cfaf92bddd70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "123464123"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525549"
 ---
 # <a name="float4x4-structure"></a>float4x4, structure
 
@@ -40,7 +40,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 ## <a name="functions"></a>Fonctions
 
-| Name | Description |
+| Nom | Description |
 |-|-|
 | `float4x4 make_float4x4_billboard(float3 const& objectPosition, float3 const& cameraPosition, float3 const& cameraUpVector, float3 const& cameraForwardVector)` | Crée un panneau sphérique qui pivote autour de la position d’un objet spécifié, à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_?constrained_billboard(float3 const& objectPosition, float3 const& cameraPosition, float3 const& rotateAxis, float3 const& cameraForwardVector, float3 const& objectForwardVector)` | Crée un panneau cylindrique qui pivote autour d’un axe spécifié, à l’aide d’un système de coordonnées droitier. |
@@ -87,7 +87,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 ## <a name="operators"></a>Opérateurs
 
-| Name | Description |
+| Nom | Description |
 |-|-|
 | `float4x4 operator+ (float4x4 const& value1, float4x4 const& value2)` | Ajoute chaque composant d’une matrice à une autre matrice. |
 | `float4x4 operator- (float4x4 const& value1, float4x4 const& value2)` | Soustrait chaque composant d’une matrice d’une autre matrice. |

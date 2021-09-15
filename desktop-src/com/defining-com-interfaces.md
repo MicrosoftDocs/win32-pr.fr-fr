@@ -4,12 +4,12 @@ description: Microsoft définit de nombreuses interfaces COM. Dans la plupart de
 ms.assetid: 8a94bd7d-d101-411c-97de-9e9a46bf9591
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e676172e51fca810f0cbb7ba93b5d52b814319b6e8b890f20ba9c51617f7ac2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 516c02a2c337b2c76229094b0e42d75b44f65d16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413254"
 ---
 # <a name="defining-com-interfaces"></a>Définition d’interfaces COM
 

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - DXFile.h
 ms.openlocfilehash: 02424abd354811a6522b58dd0011ecdddce24564
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403370"
 ---
 # <a name="dxfileloadmemory-structure"></a>DXFILELOADMEMORY, structure
 
@@ -66,7 +66,7 @@ Taille du bloc de mémoire à charger, en octets.
 
 Cette structure identifie une ressource à charger lorsqu’une application utilise la méthode [**CreateEnumObject**](idirectxfile--createenumobject.md) et spécifie DXFILELOAD \_ FROMMEMORY.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

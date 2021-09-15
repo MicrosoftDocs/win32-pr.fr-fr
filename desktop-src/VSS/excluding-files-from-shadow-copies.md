@@ -4,12 +4,12 @@ ms.assetid: 4fe1ae94-7b2f-421a-9009-3a7e88822458
 title: Exclusion de fichiers des clichés instantanés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c39acf8c92d44bcf8786a880b6ae5eb6a88786809f5af1609dee1b342cd2fb65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52546c8ddc6da62433dc610f2bf4fc2c46c5e53f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118122105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413375"
 ---
 # <a name="excluding-files-from-shadow-copies"></a>Exclusion de fichiers des clichés instantanés
 

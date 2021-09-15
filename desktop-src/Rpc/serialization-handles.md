@@ -5,11 +5,11 @@ ms.assetid: 39859846-5b94-447a-a71b-a08b8eb2c4c1
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5585fc3f34b6cc826c1f8157bd59a144070ea081
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413541"
 ---
 # <a name="serialization-handles"></a>Handles de sérialisation
 
@@ -31,9 +31,9 @@ Cette section décrit les descripteurs de sérialisation et leur utilisation dan
 -   [Styles de sérialisation](serialization-styles.md)
 -   [Obtention d’une identité d’encodage](obtaining-an-encoding-identity.md)
 
- 
+ 
 
- 
+ 
 
 
 

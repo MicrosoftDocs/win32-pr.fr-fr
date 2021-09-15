@@ -5,12 +5,12 @@ title: COLORREF (WINDEF. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 3e51b2a906af5939a5c7a8753e5fcc4fbcfae64590e62bcb6df1da2c2bd8426d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6836cfcc1b18d0b20d5e347fb83206551b27de06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118761892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525877"
 ---
 # <a name="colorref"></a>COLORREF
 
@@ -24,7 +24,7 @@ typedef DWORD* LPCOLORREF;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous spécifiez une couleur [RVB](/windows/desktop/api/Wingdi/nf-wingdi-rgb) explicite, la valeur **COLORREF** est au format hexadécimal suivant :
 
@@ -47,7 +47,7 @@ const COLORREF rgbWhite =  0x00FFFFFF;
 
 exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples) sur GitHub.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

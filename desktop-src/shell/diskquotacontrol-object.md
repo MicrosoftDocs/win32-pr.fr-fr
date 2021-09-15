@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 846297f2-b826-45de-8617-228790e87a63
-ms.openlocfilehash: d48a01e6336320ab1d11d661962dce17d6da28a816e662ba189f8aebe8310237
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f7b1d700c73df56ce7aaef39e162517629f96f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118050581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530460"
 ---
 # <a name="diskquotacontrol-object"></a>Objet DiskQuotaControl
 
@@ -90,7 +90,7 @@ L’objet **DiskQuotaControl** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un administrateur peut utiliser l’objet **DiskQuotaControl** pour effectuer un certain nombre de tâches, y compris les éléments suivants :
 
@@ -110,7 +110,7 @@ Il existe plusieurs façons d’obtenir l’objet [**DIDiskQuotaUser**](didiskqu
 
 cet objet rend les fonctionnalités essentielles de l’interface IDiskQuotaControl disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 
