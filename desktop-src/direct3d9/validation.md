@@ -4,12 +4,12 @@ ms.assetid: d1268f68-2893-4d7f-acd2-484346a20193
 title: Validation (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c3d6c49f3bdf3bc0ba75f52bd8138fa6f5d777c3613d105b2706929c01b3ee4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ecc64a17aba21af4b43bd41cc060a8711e5bb4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118519437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530973"
 ---
 # <a name="validation-direct3d-9"></a>Validation (Direct3D 9)
 

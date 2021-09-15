@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 9aa6eb20-de39-41f7-a17e-183f4088f972
-ms.openlocfilehash: 9e5eeb2b99455d81bae36f1c5f26ed38126122bb58a5b8964a47cfb205f71ce7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f219e5fd62fb4f85fd206501e6a53ac3927195a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530409"
 ---
 # <a name="imultimonitordockingsiterequestmonitor-method"></a>IMultiMonitorDockingSite :: RequestMonitor, méthode
 
@@ -57,13 +57,13 @@ Pointeur vers le handle de l’analyseur par défaut.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

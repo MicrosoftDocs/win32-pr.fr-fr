@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe85999c60364827d483f81d14ff88602c9b2831c16e7cff8a3e17076b77671d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9de3015ef0389fef82934cbd8e9326b6f9ec2307
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117745704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531016"
 ---
 # <a name="iwmpqueryaddcondition-method"></a>IWMPQuery :: addCondition, méthode
 
@@ -78,11 +78,11 @@ Implements IWMPQuery.addCondition
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les conditions contenues dans une requête composée sont organisées en groupes de conditions. Plusieurs conditions au sein d’un groupe de conditions sont toujours concaténées à l’aide de la logique **et** . Les groupes de conditions sont toujours concaténés les uns aux autres à l’aide de **ou** logique. Pour démarrer un nouveau groupe de conditions, appelez [IWMPQuery. beginNextGroup](wmplibiwmpquery-iwmpquery-beginnextgroup--vb-and-c.md).
 
@@ -98,7 +98,7 @@ Le tableau suivant répertorie les valeurs prises en charge pour *bstrOperator*.
 |---------------------|----------------|
 | BeginsWith          | Chaînes        |
 | Contient            | Chaînes        |
-| Est égal à              | Tous les types      |
+| Égal à              | Tous les types      |
 | GreaterThan         | Nombres, dates |
 | Supérieur ou égal à | Nombres, dates |
 | LessThan            | Nombres, dates |
@@ -165,7 +165,7 @@ Next i
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

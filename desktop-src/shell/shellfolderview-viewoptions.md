@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3c49389700494c646976ee7df5e67782b110fc085f4328cb139b9604523c8622
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e336034e7d5037b8037c6fd0ef549fe5f87da312
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968428"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530369"
 ---
 # <a name="shellfolderviewviewoptions-property"></a>ShellFolderView. ViewOptions, propriété
 
@@ -118,7 +118,7 @@ L’option **Active Desktop – afficher en tant que page Web** est activée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 [**FocusedItem**](shellfolderview-focuseditem.md) peut uniquement être appelé sur le système local. Elle ne fonctionnera pas lorsqu’elle sera exécutée sur une page Web via HTTP ou UNC.
 
@@ -172,7 +172,7 @@ l’exemple suivant illustre l’utilisation appropriée de cette méthode dans 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

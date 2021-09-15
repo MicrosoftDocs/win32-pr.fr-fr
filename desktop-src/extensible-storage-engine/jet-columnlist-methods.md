@@ -8,11 +8,11 @@ ms:contentKeyID: 55103424
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: 9028c531a83acaac1cccc4e010e83137d9aad603
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114054"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531992"
 ---
 # <a name="jet_columnlist-methods"></a>Méthodes JET_COLUMNLIST
 
@@ -70,7 +70,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_COLUMNLIST](./jet-columnlist-class.md)
 

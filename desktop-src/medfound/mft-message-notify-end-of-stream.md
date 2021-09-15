@@ -4,12 +4,12 @@ ms.assetid: 2d6cdf45-1bb4-4915-bd27-efa041089100
 title: MFT_MESSAGE_NOTIFY_END_OF_STREAM (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 951337fb91a26f1498b2aa82d42754fb2954ab649b4a021d37d42047be331ab4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 476781b149553bec1d48632e0621ff0a38ad8d21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117872159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531701"
 ---
 # <a name="mft_message_notify_end_of_stream"></a>\_ \_ \_ fin \_ de flux de notification de message MFT \_
 
@@ -19,7 +19,7 @@ Avertit une transformation de Media Foundation (MFT) qu’un flux d’entrée es
 
 Le paramètre *ulParam* contient l’identificateur du flux d’entrée, spécifié sous la forme d’une valeur **DWORD** . Dans les applications 64 bits, placez cette valeur dans les 32 bits inférieurs du **\_ pointeur PTR**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour envoyer ce message, appelez [**IMFTransform ::P rocessmessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
@@ -35,7 +35,7 @@ Ce message ne supprime pas le flux d’entrée ou ne réinitialise pas le type d
 
 Aucune table MFT n’est requise pour répondre à ce message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

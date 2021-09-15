@@ -4,12 +4,12 @@ ms.assetid: e593e51f-c239-49e9-bba8-c6d8238eff24
 title: Événement MESessionEnded (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1610acdb8adbf99c354d9bf09170cf3e90c2e3bcce7715f9a0bd7d164ed989d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 447b222be48dccc0f190329ab0bb6d56d09b266e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117877502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531817"
 ---
 # <a name="mesessionended-event"></a>Événement MESessionEnded
 
@@ -27,7 +27,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

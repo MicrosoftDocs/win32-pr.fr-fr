@@ -4,12 +4,12 @@ ms.assetid: de226a5a-03c0-4bfe-bb20-8969ce43cf53
 title: Attribut MF_SOURCE_READER_ASYNC_CALLBACK (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af4dedfcdcb426eb62a0ae14bec3fd75232c9a871d0bad10194860305c687fa8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66542a155fbb6fa3e56958733626b1d0b750ab9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119605153"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531185"
 ---
 # <a name="mf_source_reader_async_callback-attribute"></a>\_Attribut de \_ \_ rappel asynchrone du lecteur source MF \_
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUnknown**](/windo
 
 Pour définir cet attribut, appelez [**IMFAttributes :: setunknown,**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est un pointeur vers l’interface [**IMFSourceReaderCallback**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback) de l’application.
 
@@ -35,7 +35,7 @@ Utilisez cet attribut avec les fonctions suivantes :
 -   [**MFCreateSourceReaderFromMediaSource**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource)
 -   [**MFCreateSourceReaderFromURL**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

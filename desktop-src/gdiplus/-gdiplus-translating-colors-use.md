@@ -4,12 +4,12 @@ ms.assetid: a0d89989-9b98-42fb-8d87-206581e3c91e
 title: Conversion des couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 608a0653423d854e6d77bd624949f24ec03cce6c4ed063d4c740dd142b1dfb3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c769a24c02e977c3e32ff913852d4b6b8d54441
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531941"
 ---
 # <a name="translating-colors"></a>Conversion des couleurs
 

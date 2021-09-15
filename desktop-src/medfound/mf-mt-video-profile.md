@@ -4,12 +4,12 @@ ms.assetid: 29D1CCCA-CC11-46F1-A094-8BA8F74F7EE9
 title: Attribut MF_MT_VIDEO_PROFILE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d2af7c6ebbbbb78626e96385a6eda5a25c38a3ae8473fac866866248570cc48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf6dbf8d324c7a451c1d2affb9f348a3ef2e1806
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118741392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531789"
 ---
 # <a name="mf_mt_video_profile-attribute"></a>\_Attribut de \_ Profil vidéo MF MT \_
 
@@ -19,7 +19,7 @@ Spécifie le profil d’encodage vidéo sur le type de média de sortie. Il s’
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Encodeurs H. 264 :**
 
@@ -31,7 +31,7 @@ Cela est statique, les encodeurs vidéo doivent donc être configurés avant le 
 
 Valeur par défaut recommandée : [**eAVEncH264VProfile \_ main**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile) Profile.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

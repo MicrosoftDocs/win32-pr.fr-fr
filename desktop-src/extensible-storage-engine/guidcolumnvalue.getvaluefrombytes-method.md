@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 06f10cef46603d6cf023ed3786b3c6bbe1b1a3a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544742"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531365"
 ---
 # <a name="guidcolumnvaluegetvaluefrombytes-method"></a>Méthode GuidColumnValue. GetValueFromBytes
 
@@ -97,7 +97,7 @@ protected override void GetValueFromBytes(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [GuidColumnValue, classe](./guidcolumnvalue-class.md)
 

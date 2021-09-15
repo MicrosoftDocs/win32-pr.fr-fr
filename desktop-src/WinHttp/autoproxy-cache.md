@@ -4,12 +4,12 @@ ms.assetid: 087104e8-ab38-4ba4-be70-23a5ea2bb130
 title: Cache du proxy AutoProxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d494f1491dd52484a893dbab601ed4870f03badf5f849dca413f9554a8493e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6d0492bec116bad8a82da0e961cf6d851d27c787
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119614179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531524"
 ---
 # <a name="autoproxy-cache"></a>Cache du proxy AutoProxy
 

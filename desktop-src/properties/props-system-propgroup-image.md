@@ -4,12 +4,12 @@ ms.assetid: a45d281e-3fc5-44f0-b7cb-266e288007ca
 title: System. PropGroup. image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24c6d87e7f673885d54a0407387ef546009a53fecc350f7f36ca015a4086ac1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2ee76fb6d8ee90c233778603d6f274897bb112e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119095821"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530521"
 ---
 # <a name="systempropgroupimage"></a>System. PropGroup. image
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

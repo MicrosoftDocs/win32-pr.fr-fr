@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 83b49427e65bb5190554a0c995bec119de1230f0baab869ea4c5ce48dc5616f0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 55297be38dfd75f9ca11bfb6213cd99d52d2a7e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120008969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530341"
 ---
 # <a name="contenttypetype-simple-type"></a>Type simple ContentTypeType
 
@@ -41,13 +41,13 @@ Le type simple **ContentTypeType** est une chaîne qui est limitée par le modè
 
 -   `Normal|Inert`
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs valides sont « normal » et « inerte ».
 
 Si le type est « inerte », le contenu contenu est une page de journal qui est l’arrière-plan en lecture seule/non modifiable pour le document. Cela se produit lorsqu’un document est créé à l’aide du pilote d’imprimante du rédacteur de note de journal.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

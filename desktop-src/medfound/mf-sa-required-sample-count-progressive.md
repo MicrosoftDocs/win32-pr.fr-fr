@@ -4,12 +4,12 @@ ms.assetid: 69F9EA59-41B4-4DE5-A77D-1D0E59BFBF3A
 title: Attribut MF_SA_REQUIRED_SAMPLE_COUNT_PROGRESSIVE (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d981535d66c0e6b50b82bc5b59d7096658a775651574cd4dbb26166b3e418a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e48d56bf1e21a64c0a4d225a72a6386b4789ae7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118740050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530716"
 ---
 # <a name="mf_sa_required_sample_count_progressive-attribute"></a>\_ \_ \_ \_ Attribut progressif de nombre d’échantillons requis MF sa \_
 
@@ -19,11 +19,11 @@ Indique le nombre d’échantillons requis par une transformation de Microsoft M
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur est utilisée si le nœud suivant en aval a un [**IMFVideoSampleAllocator**](/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

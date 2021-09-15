@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2193f5c82d7d370e1d050f01247e8a6dd851a5abb8a523d8bf0b002d856a5f2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5945cbedca8e628829fa8283a576913a641f6378
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118084553"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531456"
 ---
 # <a name="apiretrievecolumnasguid-method-jet_sesid-jet_tableid-jet_columnid-retrievecolumngrbit"></a>Méthode API. RetrieveColumnAsGuid (JET_SESID, JET_TABLEID, JET_COLUMNID, RetrieveColumnGrbit)
 
@@ -92,14 +92,14 @@ public static Nullable<Guid> RetrieveColumnAsGuid(
     
     Options de récupération.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Nullable](/dotnet/api/system.nullable-1)\<[Guid](/dotnet/api/system.guid)\>  
 Données extraites de la colonne sous la forme d’un GUID. NULL si la colonne est null.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

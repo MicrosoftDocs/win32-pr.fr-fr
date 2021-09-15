@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a08c98c6945782db130bab3e29085f05d5550e1c1a8f10e819425e5a6c2888c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebc0aa370c9dada480b76c094c7ab73a6bf14a84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118495199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532020"
 ---
 # <a name="esentindextuplescannotretrievefromindexexception-class"></a>EsentIndexTuplesCannotRetrieveFromIndexException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentIndexTuplesCannotRetrieveFromIndexException](./esentindextuplescannotretrievefromindexexception-members.md)
 

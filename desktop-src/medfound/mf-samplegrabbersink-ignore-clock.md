@@ -4,12 +4,12 @@ ms.assetid: 780ec4a6-8e14-4b81-9d50-82b2850c70ae
 title: Attribut MF_SAMPLEGRABBERSINK_IGNORE_CLOCK (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d757b02a060b4e598ff42d3bd8b9ad7f38af41143c807647aa6f2b8528677cf8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57ad5476779d958bdbf94af554d889dd8d174ca3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118474422"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530713"
 ---
 # <a name="mf_samplegrabbersink_ignore_clock-attribute"></a>SAMPLEGRABBERSINK MF- \_ \_ attribut ignorer l' \_ horloge
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez définir cet attribut sur l’objet d’activation créé par la fonction [**MFCreateSampleGrabberSinkActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatesamplegrabbersinkactivate) . Définissez l’attribut avant d’appeler la méthode [**IMFActivate :: ActivateObject**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject) sur l’objet d’activation.
 
@@ -38,7 +38,7 @@ Utilisation recommandée :
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

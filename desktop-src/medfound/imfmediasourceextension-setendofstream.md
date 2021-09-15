@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 29937a939dd8d087e1a70224950ddd8d14eea8989127dc9f33c2747468db4b5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9018d76ce13bf441ea98134eb751f9e472f6bca8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118062968"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531285"
 ---
 # <a name="imfmediasourceextensionsetendofstream-method"></a>IMFMediaSourceExtension :: SetEndOfStream, méthode
 
@@ -46,11 +46,11 @@ Utilisé pour transmettre les informations d’erreur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

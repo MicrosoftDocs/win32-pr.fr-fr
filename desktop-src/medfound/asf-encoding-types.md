@@ -4,12 +4,12 @@ ms.assetid: ffa99c6b-3b62-4068-96d5-ad57c340d088
 title: Types d’encodage ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d83e1b9f39118cea5e7c5610b9480ea3d615a002d7f889933e3f3e7d62f0b53c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c6187f4bbf49eafaf50a46a8af92b71b4e72885
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530861"
 ---
 # <a name="asf-encoding-types"></a>Types d’encodage ASF
 

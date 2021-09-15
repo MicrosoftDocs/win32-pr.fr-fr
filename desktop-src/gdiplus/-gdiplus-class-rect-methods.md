@@ -5,11 +5,11 @@ title: Rect, méthodes
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ec31832fd6d7c509a231b39d98c6838e7a82eb4c
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "124360761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531953"
 ---
 # <a name="rect-methods"></a>Rect, méthodes
 
@@ -35,7 +35,7 @@ Cette rubrique répertorie les méthodes de la classe [**Rect**](/windows/deskto
 -   [**IsEmptyArea**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-isemptyarea)
 -   [**Offset (INT, INT)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-offset(inint_inint))
 -   [**Décalage (point&)**](/previous-versions//ms534979(v=vs.85))
--   [**Union**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-union)
+-   [**UE**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-union)
 
  
 

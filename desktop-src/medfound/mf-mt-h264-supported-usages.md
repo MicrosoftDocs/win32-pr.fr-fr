@@ -4,12 +4,12 @@ ms.assetid: EEAE0B57-9731-4032-80A3-6A1AD11214EC
 title: Attribut MF_MT_H264_SUPPORTED_USAGES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d507578c25d8b90fbe3ef6bfab66055651bc7b0b93e25eb42723121f4b16a3dd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 43d1803c532e005c9fca8fca2fcd5cf211214989
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119940619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530733"
 ---
 # <a name="mf_mt_h264_supported_usages-attribute"></a>MF \_ MT \_ H264 –- \_ attribut d’utilisation pris en charge \_
 
@@ -29,13 +29,13 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur correspond au champ **bmSupportedUsages** dans le descripteur de trame vidéo 1,5 UVC H. 264.
 
 Cet attribut est également utilisé avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

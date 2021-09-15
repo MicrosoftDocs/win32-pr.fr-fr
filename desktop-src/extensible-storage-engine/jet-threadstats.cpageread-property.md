@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fc2dbc98adb0299cc5d409e4bbb278a9a82ac51d2f19121d8f6d46b0371e6927
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c5a8ed28a4f45abe57ca71eff89ab2ce374bf0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119832629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530912"
 ---
 # <a name="jet_threadstatscpageread-property"></a>JET_THREADSTATS. cPageRead, propriété
 
@@ -64,7 +64,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_THREADSTATS](./jet-threadstats-structure2.md)
 

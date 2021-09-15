@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7446a02be2a82fc4d4bfbc6d3f9135e984e9079634b2b4c17d06e3588d1c903e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 595beaf50c6cb0810c86a86bc69b1e7ab9160ee1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530025"
 ---
 # <a name="jet_objectinfogrbit-property"></a>JET_OBJECTINFO. Grbit, propriété
 
@@ -64,7 +64,7 @@ Type : [Microsoft. ISAM. esent. Interop. ObjectInfoGrbit](./objectinfogrbit-enu
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_OBJECTINFO](./jet-objectinfo-class.md)
 

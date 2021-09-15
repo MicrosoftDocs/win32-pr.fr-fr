@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 988ff17e3716f01308957b3f5f247759fb3f18f639f7b279a8f00d7f6f9e2189
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a386881c8416f4ea1881f3ccd68ee4291aa3fa84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118116605"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530225"
 ---
 # <a name="iwmpcdromplaylist-property"></a>IWMPCdrom ::P propriété laylist
 
@@ -48,7 +48,7 @@ Public ReadOnly Property Playlist As IWMPPlaylist
 
 Interface **wmplib. IWMPPlaylist** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En général, le contenu basé sur DVD est organisé en titres. Chaque titre contient un ou plusieurs chapitres. Chaque DVD étant créé différemment, la façon dont les titres et les chapitres sont utilisés est celle de l’auteur du contenu.
 
@@ -104,7 +104,7 @@ myText.Lines = trackList
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

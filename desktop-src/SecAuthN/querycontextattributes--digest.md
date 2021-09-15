@@ -4,12 +4,12 @@ ms.assetid: d4cd2cc4-77a2-42ba-9029-f4d92706c5c2
 title: QueryContextAttributes (Digest), fonction (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 11cf8cbd35242b43d3f68b6265daae02e1d5425a8c0692742cbee0a1bd93441d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e26e81d190f031479633fe96fbc49496b661302
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118920208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531025"
 ---
 # <a name="querycontextattributes-digest-function"></a>QueryContextAttributes (Digest) (fonction)
 
@@ -81,19 +81,19 @@ Pointeur vers une structure qui reçoit les attributs. Le type de structure poin
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la valeur de retour est s \_ E \_ OK.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur différent de zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure vers laquelle pointe le paramètre *pbuffer* varie en fonction de l’attribut interrogé. L’appelant doit allouer la structure *pbuffer* elle-même, mais le SSP alloue la mémoire nécessaire pour contenir les membres de taille variable de la structure *pbuffer* . La mémoire allouée par le fournisseur de services partagés peut être libérée en appelant la fonction [**FreeContextBuffer**](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .
 
 Après la lecture du contexte de certificat \_ distant attr SECPKG ou de la \_ valeur de contexte de \_ \_ \_ certificat local SECPKG attr \_ \_ \_ , le membre **hCertStore** est défini sur un handle vers un magasin de certificats qui contient les certificats intermédiaires, le cas échéant. En outre, l’application est responsable de l’appel de [**CertFreeCertificateContext**](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatecontext) pour libérer la mémoire utilisée par le contexte de certificat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 0c38a95c4e0dc9820130e467c971c0adb5b9df0ede248506ed56f963c3246b3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa80e5fe17047eceacdc30e2a40a4a629088d89f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118971598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530600"
 ---
 # <a name="documentevent-function"></a>DocumentEvent fonction)
 
@@ -160,7 +160,7 @@ Pointeur vers une mémoire tampon. Le contenu de la mémoire tampon dépend de l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de la fonction dépend de l’échappement fourni pour *iEsc*. Pour certains codes d’échappement, la valeur de retour n’est pas utilisée (voir ci-dessous). Si la fonction fournit une valeur de retour, elle doit être l’une des valeurs suivantes.
 
@@ -201,7 +201,7 @@ La liste suivante indique les codes d’échappement qui nécessitent une valeur
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour une valeur *iEsc* de DOCUMENTEVENT \_ QUERYFILTER, le spouleur peut interpréter une \_ valeur de réussite DOCUMENTEVENT retournée par **DOCUMENTEVENT** de deux façons, selon que le pilote a modifié certains membres de la structure de \_ filtre DOCEVENT (qui est documenté dans le Kit de développement de [pilotes Windows](https://msdn.microsoft.com/windows/hardware/gg487428) ). (Le paramètre *pvOut* pointe vers cette structure.) Lorsque le spouleur alloue de la mémoire pour une structure de ce type, il initialise deux membres de cette structure, **cElementsReturned** et **cElementsNeeded**, aux valeurs connues. Une fois **DocumentEvent** retourné, le spouleur détermine si les valeurs de ces membres ont changé et utilise ces informations pour interpréter la valeur de retour **DocumentEvent** . Le tableau suivant résume cette situation.
 
@@ -228,7 +228,7 @@ Si le code d’échappement fourni dans le paramètre *iEsc* est DOCUMENTEVENT \
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

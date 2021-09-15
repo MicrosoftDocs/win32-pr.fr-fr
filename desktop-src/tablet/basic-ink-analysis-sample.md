@@ -4,12 +4,12 @@ ms.assetid: cb9a28d9-f8c6-478e-ae43-2d30106edc7b
 title: Exemple d’analyse de base de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ab307deac8ac58a741b0c7f332986b09074f4f5c6a8afa53f0156a94916bf16
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e94ac73ca9049169c6e406059665a66e8eaa6f3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119660829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530344"
 ---
 # <a name="basic-ink-analysis-sample"></a>Exemple d’analyse de base de l’encre
 
@@ -27,8 +27,8 @@ Le tableau suivant spécifie la couleur et l’élargissement de chaque unité a
 |---------------------------|--------------------|--------------------------------|
 | Word<br/>           | Vert<br/>   | 1<br/>                   |
 | Ligne<br/>           | Magenta<br/> | 3<br/>                   |
-| Paragraph<br/>      | Bleu<br/>    | 5<br/>                   |
-| Région d’écriture<br/> | Yellow<br/>  | 7<br/>                   |
+| Paragraph<br/>      | Blue<br/>    | 5<br/>                   |
+| Région d’écriture<br/> | Jaune<br/>  | 7<br/>                   |
 | Dessin<br/>        | Rouge<br/>     | 1<br/>                   |
 | Sélectionnées<br/>         | Orange<br/>  | 1<br/>                   |
 

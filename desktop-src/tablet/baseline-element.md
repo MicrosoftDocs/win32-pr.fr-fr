@@ -1,17 +1,17 @@
 ---
 description: Fournit des informations (x, y) pour les points de départ et de fin de la ligne de base d’un paragraphe dans le document journal. L’espace de coordonnées utilisé pour ces valeurs est HIMETRIC.
 ms.assetid: ff6a97ad-0e48-4128-8f94-24802b6ddc05
-title: Élément de ligne de base
+title: Élément Baseline
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d97e5bd5aecf6833ef4e0bc5b3298442c911838ed714740448ae82305dd00eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4bc64f332608b4bd0281ae2a7f29db96101e9d2e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118046193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530349"
 ---
-# <a name="baseline-element"></a>Élément de ligne de base
+# <a name="baseline-element"></a>Élément Baseline
 
 Fournit des informations (x, y) pour les points de départ et de fin de la ligne de base d’un paragraphe dans le document journal. L’espace de coordonnées utilisé pour ces valeurs est **HIMETRIC**.
 

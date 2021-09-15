@@ -4,12 +4,12 @@ ms.assetid: 7f2b64e1-1062-4f77-b8e0-62b6d962ae8b
 title: Comment déterminer les tarifs pris en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aadbf0f9a0ce9608b58019d64ddb18a2227bbeb2941540086a6f998e40ebc3d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f67e9753604f51e85c641e616e8b69944b96618
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117878941"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531300"
 ---
 # <a name="how-to-determine-supported-rates"></a>Comment déterminer les tarifs pris en charge
 

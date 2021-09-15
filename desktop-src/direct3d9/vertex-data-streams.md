@@ -4,12 +4,12 @@ ms.assetid: e89eae14-f480-470c-b301-f7ff316ad339
 title: Flux de données de Vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f154621da4ba03f78beee87767130e37da9e9ab9ba899af737b968fb20f0609
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efd45fc3f645de49060cd201a6a6e9e238712338
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118290382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530957"
 ---
 # <a name="vertex-data-streams-direct3d-9"></a>Flux de données de Vertex (Direct3D 9)
 

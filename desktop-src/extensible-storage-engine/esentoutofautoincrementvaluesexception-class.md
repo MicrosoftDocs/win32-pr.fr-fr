@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4f2b7e418ac177e406fd4a555b8e81d37a3bf6eed1859312fa992482cc6271da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a37a25e508281083915cf549db5a1b65a4bdcadc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118262838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531376"
 ---
 # <a name="esentoutofautoincrementvaluesexception-class"></a>EsentOutOfAutoincrementValuesException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentOutOfAutoincrementValuesException](./esentoutofautoincrementvaluesexception-members.md)
 

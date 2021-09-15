@@ -4,12 +4,12 @@ ms.assetid: 507d350e-da0c-42d0-8a8d-77618ee5a1dd
 title: Attribut MF_SOURCE_READER_D3D_MANAGER (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f19b4f90713d6eb0529e51657d3f5a649394c3458c61d6cce2974b2214d9a202
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43bf0d49bb2744ff8219f8d15a6316f11875455c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531761"
 ---
 # <a name="mf_source_reader_d3d_manager-attribute"></a>\_Attribut du \_ \_ Gestionnaire D3D du lecteur source MF \_
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUnknown**](/windo
 
 Pour définir cet attribut, appelez [**IMFAttributes :: setunknown,**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut peut être un pointeur vers l’interface [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) ou un [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager).
 
@@ -44,7 +44,7 @@ Vous ne définissez pas cet attribut si :
 -   Vous utilisez le lecteur source pour traiter uniquement les données audio et non vidéo.
 -   Vous obtenez une vidéo compressée à partir du lecteur source. Dans ce cas, le lecteur source ne crée pas de décodeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

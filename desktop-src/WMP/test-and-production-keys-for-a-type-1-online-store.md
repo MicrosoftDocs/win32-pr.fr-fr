@@ -17,12 +17,12 @@ keywords:
 - Document ServiceInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a00fcd1af52f7400b7f20a1eb3115bfc38d8b997bfbc85c5d6e36f08fcf59f39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0e8ce8d049df78f186d336079f76eb00eb8bb10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118118529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531545"
 ---
 # <a name="test-and-production-keys-for-a-type-1-online-store"></a>Clés de test et de production pour une boutique en ligne de type 1
 

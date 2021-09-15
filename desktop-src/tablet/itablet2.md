@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 0df1114f5808e5fd08a1a2dbe00ccfb451eaa7096c978d3f4d454e508c0a2fcd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b402695aa278105ad57209f3ff33e66ccaf8c746
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118717348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530317"
 ---
 # <a name="itablet2-interface"></a>Interface ITablet2
 
@@ -45,7 +45,7 @@ L’interface **ITablet2** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette interface a été introduite dans Windows Vista.
 
@@ -67,7 +67,7 @@ interface ITablet2 : IUnknown
 };
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

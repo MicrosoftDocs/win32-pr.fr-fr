@@ -4,12 +4,12 @@ ms.assetid: 7be4c5e7-db2c-4063-8e5c-af6ffb861aa5
 title: Traitement des données dans l’encodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 666c2a2ff2139aadcb489022eb9b324eff1de523551244c2fd12ad0e11f68f1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99b7fedef50df61851408d084b511497eacd0288
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118238730"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531681"
 ---
 # <a name="processing-data-in-the-encoder"></a>Traitement des données dans l’encodeur
 

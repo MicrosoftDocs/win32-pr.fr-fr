@@ -4,12 +4,12 @@ ms.assetid: b60c7f96-3752-4703-9059-486d9906c508
 title: Utilisation de l’interpolation de vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14c4d2da3f32698cc24e052a152b674ecb023f79e90541af23374c0903d54d55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12ca56cc521b5bff01a5d6af5c2d4ab6b02cd49e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118797087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530981"
 ---
 # <a name="using-vertex-tweening-direct3d-9"></a>Utilisation de l’interpolation de vertex (Direct3D 9)
 

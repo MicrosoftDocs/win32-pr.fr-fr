@@ -4,12 +4,12 @@ ms.assetid: ''
 title: API vidéo Direct3D 12
 ms.topic: article
 ms.date: 06/03/2019
-ms.openlocfilehash: 456a2ab7664fb8683b252aff74907e11f1a18a7fea3a23afe5083af0a5848584
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c2cc3074c1d70d9d1bfd709c4481bfb48c9ed178
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531933"
 ---
 # <a name="direct3d-12-video-apis"></a>API vidéo Direct3D 12
 

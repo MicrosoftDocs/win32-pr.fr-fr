@@ -4,12 +4,12 @@ ms.assetid: F06CACF0-AE75-4707-8CD0-7BA7D51BB80A
 title: Attribut MFSampleExtension_ROIRectangle (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 311b17cab20de16a83d145563e8ba0b8ead6f055428ffc6a3823c99deab05fc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71d84d2054caa96feaf7bfb4ccc7a91ecf4ac9f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531129"
 ---
 # <a name="mfsampleextension_roirectangle-attribute"></a>\_Attribut MFSampleExtension ROIRectangle
 
@@ -33,7 +33,7 @@ Le champ **QPDelta** de la structure de la [**\_ zone roi**](/windows/desktop/ap
 
 La région spécifiée n’a pas besoin d’être alignée en Mo. Les encodeurs ont la possibilité de choisir la limite réelle. Il est recommandé de couvrir la totalité de la région spécifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

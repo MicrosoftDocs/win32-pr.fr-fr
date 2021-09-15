@@ -4,12 +4,12 @@ ms.assetid: 3cb80e75-e803-493b-a22d-e485e77b5177
 title: Attribut MFSampleExtension_Interlaced (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d928d42fc2399536d5beee4f4af87cbacaa82171048ad191a4e9fc7ef3e939
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43a273b548192ac52da8604eb36fde5ec0e9fcf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531137"
 ---
 # <a name="mfsampleextension_interlaced-attribute"></a>MFSampleExtension ( \_ attribut entrelacé)
 
@@ -39,7 +39,7 @@ Pour le contenu vidéo qui est entièrement progressif, définissez le type de m
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

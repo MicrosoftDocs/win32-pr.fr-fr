@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 4bebbbc19c467e7908caac2eb0fcad7517acbcb7c8e5033175769f912644b7fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5e9dd26dc031435ee0e784d2614a3567b4e541a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530473"
 ---
 # <a name="creating-shell-data-source-objects"></a>Création d’objets de source de données Shell
 

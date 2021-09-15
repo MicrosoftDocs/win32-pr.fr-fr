@@ -4,12 +4,12 @@ ms.assetid: d6f7757c-fd91-40bd-b2b5-a3e808445250
 title: Événement MEAudioSessionGroupingParamChanged (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab9a271ebaa4e3a0044dc425de2d6a7f313e17d63c693acede63773e94619c6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ac115bb30a4c01247da537f3255e9bc40099e3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119957509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531869"
 ---
 # <a name="meaudiosessiongroupingparamchanged-event"></a>Événement MEAudioSessionGroupingParamChanged
 
@@ -29,13 +29,13 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement est envoyé par le récepteur de flux du convertisseur audio. L’événement est déclenché lorsque le convertisseur audio reçoit un événement [**IAudioSessionEvents :: OnGroupingParamChanged**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-ongroupingparamchanged) à partir de la session audio.
 
 Pour récupérer les nouveaux paramètres de regroupement, appelez [**IMFAudioPolicy :: GetGroupingParam**](/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getgroupingparam).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

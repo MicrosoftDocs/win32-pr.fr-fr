@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e72c02ed1bc8f29ed8809a7a4733914860a6c9c058795f8a02661f29b9607f69
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea50cb6bf8c3f5b08d408539eba6c9f7cb09efc1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119459959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531473"
 ---
 # <a name="id3dxbaseeffectgetvector-method"></a>ID3DXBaseEffect :: GetVector, méthode
 
@@ -59,17 +59,17 @@ Retourne un vecteur 4D.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le vecteur de destination est plus grand que le vecteur source, seuls les composants initiaux du vecteur de destination seront remplis, et les composants restants seront définis sur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

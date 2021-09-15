@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e698c74cd8cc04265ef75e01062f8aa05171f660f5cf5eb7253d04d3397ed984
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3cfa0fcd2d8e2e51a67a362b33af34abf5b1427
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119093133"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530444"
 ---
 # <a name="folderitems-method"></a>Méthode Folder. Items
 
@@ -37,13 +37,13 @@ retVal = Folder.Items()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **FolderItems**](folderitems.md)\*\***
 
 Référence d’objet à l’objet [**FolderItems**](folderitems.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Toutes les méthodes ne sont pas implémentées pour tous les dossiers. Par exemple, la méthode [**ParseName**](folder-parsename.md) n’est pas implémentée pour le dossier du panneau de configuration ( \_ contrôles CSIDL). Si vous tentez d’appeler une méthode non implémentée, une erreur 0x800A01BD (Decimal 445) est générée.
@@ -145,7 +145,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8468692c0d9ee89f39e70d5ef63b09de00626730f3a153eb3d600484f02c16d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6876c6b43d615b5298263aa448caac064278610
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119738199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531429"
 ---
 # <a name="columninfocp-property"></a>ColumnInfo. CP, propriété
 
@@ -64,7 +64,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_CP](./jet-cp-enumeration.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnInfo, classe](./columninfo-class.md)
 

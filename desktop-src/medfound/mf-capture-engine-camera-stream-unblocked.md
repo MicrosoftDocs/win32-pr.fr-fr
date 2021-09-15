@@ -4,12 +4,12 @@ ms.assetid: D2F19B46-8BCC-4F81-978B-1D0B83A1FA9A
 title: Attribut MF_CAPTURE_ENGINE_CAMERA_STREAM_UNBLOCKED (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c3f28469cbf5bd852e7e06cd6ab0467f904ffcf10c82019de66cb7fe6f6291e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dac17ac1b673bc2c7a045e48c758c1cfaf5576be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531264"
 ---
 # <a name="mf_capture_engine_camera_stream_unblocked-attribute"></a>\_ \_ \_ \_ \_ Attribut débloqué du flux de la caméra du moteur de capture MF
 
@@ -17,7 +17,7 @@ Signale que la capture vidéo est restaurée après avoir été bloquée.
 
 ## <a name="data-type"></a>Type de données
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

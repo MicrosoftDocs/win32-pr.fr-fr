@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102962
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7e8653ba0f3339fad6db5f4412d3726c825785b412cc32b1d950f2cdec606cfc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c9bbcf9523b3fdd844284609e93c6135a69ebd5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118770687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532012"
 ---
 # <a name="esentspacehintsinvalidexception-properties"></a>Propriétés EsentSpaceHintsInvalidException
 
@@ -69,7 +69,7 @@ Le type [EsentSpaceHintsInvalidException](./esentspacehintsinvalidexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSpaceHintsInvalidException, classe](./esentspacehintsinvalidexception-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: c5d8a88e-2864-45a0-97b7-051341116a4c
 title: Événement MEPolicySet (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 064cbb92e85e300aa2c2b7db28d08b01296834413ed92e36eb5b7ce88e5486c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 238af6cbd740e62825ae0b661769c1cf1bf880ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117877556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531821"
 ---
 # <a name="mepolicyset-event"></a>Événement MEPolicySet
 
@@ -28,7 +28,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

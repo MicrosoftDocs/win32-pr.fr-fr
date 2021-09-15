@@ -4,12 +4,12 @@ ms.assetid: 36255598-C96B-428A-AB87-D0ED140FA6FD
 title: Résolution des problèmes de compatibilité dans les applications Web et les Add-Ons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e8ec69c11498f98a58cac4736bd60a0fcd86437392f2cb60c38959749ebe0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f612847491c64820c93f643dce86f9aa854f637
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118329614"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531525"
 ---
 # <a name="fixing-compatibility-issues-in-web-applications-and-add-ons"></a>Résolution des problèmes de compatibilité dans les applications Web et les Add-Ons
 

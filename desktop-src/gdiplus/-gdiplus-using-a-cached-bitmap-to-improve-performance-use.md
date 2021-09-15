@@ -4,12 +4,12 @@ ms.assetid: 42e2b664-197c-4c54-9220-b6231d6439d0
 title: Utilisation d’une image bitmap mise en cache pour améliorer les performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ffee17a2c8d564a38235cc83d204eacc9b4edf2e8070cb5971d55f1f991169f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a8e546460741342bcac8f1633e21d104984af9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531313"
 ---
 # <a name="using-a-cached-bitmap-to-improve-performance"></a>Utilisation d’une image bitmap mise en cache pour améliorer les performances
 

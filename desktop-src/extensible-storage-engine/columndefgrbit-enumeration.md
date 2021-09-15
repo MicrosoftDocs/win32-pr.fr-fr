@@ -50,12 +50,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f2bd26a3dac291d78b101aa56f186d9b31f7a927b1eca3e29febc7773e3c0939
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2c94dcf7d454c5f0ea11fcee0bd46655099dfd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531453"
 ---
 # <a name="columndefgrbit-enumeration"></a>Énumération ColumndefGrbit
 
@@ -163,7 +163,7 @@ public enum ColumndefGrbit
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)
 

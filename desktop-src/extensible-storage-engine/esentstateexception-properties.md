@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102994
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7c054fc52849b88e82ceba4c8009c00ad9d4a29f982dffd6d473a5f00e892b29
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef59190696d04b943ae2f9b9af0f091d65b1783d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119721639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530057"
 ---
 # <a name="esentstateexception-properties"></a>Propriétés EsentStateException
 
@@ -69,7 +69,7 @@ Le type [EsentStateException](./esentstateexception-class.md) expose les membres
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentStateException, classe](./esentstateexception-class.md)
 

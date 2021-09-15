@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1a0e96bd52b7a6ac196289d554c7376790ceb544823235caf5fd99e4fd5da5e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc54d12796a724b382343c4a3514f03102df305f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530101"
 ---
 # <a name="apijetgettruncateloginfoinstance-method"></a>API. JetGetTruncateLogInfoInstance, méthode
 
@@ -93,13 +93,13 @@ public static void JetGetTruncateLogInfoInstance(
     
     Taille réelle de la liste de fichiers. Si cette valeur est supérieure à maxChars, la liste a été tronquée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il est important de noter que cette API ne retourne pas d’erreur ou d’avertissement si la mémoire tampon de sortie est trop petite pour accepter la liste complète des fichiers qui doivent faire partie du jeu de fichiers de sauvegarde.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

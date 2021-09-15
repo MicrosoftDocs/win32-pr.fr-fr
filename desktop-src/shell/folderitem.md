@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 38c0e049-2f9f-43bc-8bf2-1b7becf16e66
-ms.openlocfilehash: f6744441c051d65bd24f2db888f9bc8d71e66cedcf50c097094beee8ae5a96a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8b9309e7bd1c8cbcc05360c076db085d0f8b991
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119715369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530436"
 ---
 # <a name="folderitem-object"></a>Objet FolderItem
 
@@ -40,7 +40,7 @@ L’objet **FolderItem** a ces méthodes.
 | Méthode                                      | Description                                                                                                                                                 |
 |:--------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**InvokeVerb**](folderitem-invokeverb.md) | Exécute un verbe sur l’élément.<br/>                                                                                                                     |
-| [**Verbes**](folderitem-verbs.md)           | Récupère l’objet [**FolderItemVerbs**](folderitemverbs.md) de l’élément. Cet objet est la collection de verbes qui peuvent être exécutés sur l’élément.<br/> |
+| [**Verbes et adverbes**](folderitem-verbs.md)           | Récupère l’objet [**FolderItemVerbs**](folderitemverbs.md) de l’élément. Cet objet est la collection de verbes qui peuvent être exécutés sur l’élément.<br/> |
 
 
 
@@ -62,17 +62,17 @@ L’objet **FolderItem** a ces propriétés.
 | [**IsFolder**](folderitem-isfolder.md)<br/>         | Lecture seule<br/>  | Indique si l’élément est un dossier.<br/>                                                                                                                                                                      |
 | [**IsLink**](folderitem-islink.md)<br/>             | Lecture seule<br/>  | Indique si l’élément est un raccourci.<br/>                                                                                                                                                               |
 | [**ModifyDate**](folderitem-modifydate.md)<br/>     | Lecture/écriture<br/> | Définit ou obtient la date et l’heure de la dernière modification d’un fichier. [**ModifyDate**](folderitem-modifydate.md) peut être utilisé pour récupérer la date et l’heure de la dernière modification d’un dossier, mais ne peut pas le définir.<br/> |
-| [**Name**](folderitem-name.md)<br/>                 | Lecture/écriture<br/> | Définit ou obtient le nom de l’élément.<br/>                                                                                                                                                                           |
+| [**Nomme**](folderitem-name.md)<br/>                 | Lecture/écriture<br/> | Définit ou obtient le nom de l’élément.<br/>                                                                                                                                                                           |
 | [**Parent**](folderitem-parent.md)<br/>             | Lecture seule<br/>  | Obtient un objet qui représente le parent de l’élément.<br/>                                                                                                                                                  |
-| [**Chemin**](folderitem-path.md)<br/>                 | Lecture seule<br/>  | Contient le chemin d’accès complet et le nom de l’élément.<br/>                                                                                                                                                                 |
+| [**D**](folderitem-path.md)<br/>                 | Lecture seule<br/>  | Contient le chemin d’accès complet et le nom de l’élément.<br/>                                                                                                                                                                 |
 | [**Taille**](folderitem-size.md)<br/>                 | Lecture seule<br/>  | Contient la taille de l’élément.<br/>                                                                                                                                                                               |
-| [**Type**](folderitem-type.md)<br/>                 | Lecture seule<br/>  | Contient une représentation sous forme de chaîne du type de l’élément.<br/>                                                                                                                                                    |
+| [**Entrer**](folderitem-type.md)<br/>                 | Lecture seule<br/>  | Contient une représentation sous forme de chaîne du type de l’élément.<br/>                                                                                                                                                    |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

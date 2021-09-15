@@ -10,11 +10,11 @@ keywords:
 ms.topic: article
 ms.date: 02/06/2020
 ms.openlocfilehash: d466cee874eb1e76015b48741f7afe764871dced
-ms.sourcegitcommit: 6fa693874869558b8ee53335e421bdd1233444e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "104381409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530876"
 ---
 # <a name="touch-injection-reference"></a>Référence d’injection tactile
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101789
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 85a20d407e70013a06ac372fbae45492633b7617965f402bbca07224f7f65e43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91abd0cbca755578d6dfc6be60adb5b0ed6b572e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118495172"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530081"
 ---
 # <a name="esentindextuplesnonuniqueonlyexception-methods"></a>Méthodes EsentIndexTuplesNonUniqueOnlyException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentIndexTuplesNonUniqueOnlyException, classe](./esentindextuplesnonuniqueonlyexception-class.md)
 

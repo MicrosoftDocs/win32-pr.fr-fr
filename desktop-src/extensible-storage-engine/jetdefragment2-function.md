@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 08e6cf618be4f3bf7f6eee1b903559db579973c0
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984982"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531356"
 ---
 # <a name="jetdefragment2-function"></a>JetDefragment2, fonction
 
@@ -146,7 +146,7 @@ En cas de réussite, l’action demandée de démarrage d’une tâche de défra
 
 En cas d’échec, l’action demandée de démarrage ou d’arrêt d’un travail de défragmentation en ligne n’est pas effectuée. Aucun autre effet secondaire ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 La défragmentation en ligne est contrôlée à la fois par un paramètre, ainsi que par cette API. La valeur par défaut du paramètre système est JET_OnlineDefragAll, ce qui signifie que la défragmentation est activée pour toutes les structures de données prises en charge. Toutefois, à l’aide de [JetSetSystemParameter](./jetsetsystemparameter-function.md), il est possible de désactiver la défragmentation en ligne ou de l’activer de manière sélective pour les arborescences d’espace de base de données uniquement, les bases de données uniquement, les fichiers de streaming uniquement ou une combinaison de ces options. Si le paramètre système pour la défragmentation en ligne est un paramètre obsolète, **JetDefragment2** traite le paramètre comme JET_OnlineDefragAll.
 
@@ -154,7 +154,7 @@ Il peut y avoir au plus une tâche en cours d’exécution pour chaque base de d
 
 La session utilisée pour démarrer la tâche de défragmentation en ligne peut être utilisée par la suite pour les opérations de base de données pendant que la tâche de défragmentation se poursuit, car la tâche de défragmentation alloue sa propre session. La session donnée est utilisée uniquement pour vérifier les autorisations associées à la session de démarrage de la tâche et n’est pas réellement utilisée pour les opérations de défragmentation elles-mêmes.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

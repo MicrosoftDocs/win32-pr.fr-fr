@@ -4,12 +4,12 @@ ms.assetid: e3410e68-6358-4f00-8039-833a4ccdf7fa
 title: MFNETSOURCE_AUTORECONNECTPROGRESS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cfbf0bac147b3608145d3ef38eb328a44de1c064899a5e7800acbadfadcf709
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05ade09bd425988cb0a64b258ff0887f8e79d4c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243873"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531168"
 ---
 # <a name="mfnetsource_autoreconnectprogress-property"></a>MFNETSOURCE \_ propriété AUTORECONNECTPROGRESS
 
@@ -37,7 +37,7 @@ La constante **MFNETSOURCE \_ AUTORECONNECTPROGRESS** définit le GUID de cette 
 
 Cette propriété est en lecture seule. Pour récupérer cette propriété, interrogez la source réseau de l’interface **IPropertyStore** et appelez **IPropertyStore :: GetValue**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

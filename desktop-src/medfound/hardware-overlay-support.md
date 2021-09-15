@@ -4,12 +4,12 @@ ms.assetid: fa9d5bf5-4c0f-471a-b639-d329b0cd89a4
 title: Prise en charge de la superposition matérielle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f537c91bc217344206c0a23cf5ca8a14254a9c983e4ae550e96457bbb055e5d7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: adcae33cdf55de59bdcd074829d52b4c1c43ea5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119600399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531917"
 ---
 # <a name="hardware-overlay-support"></a>Prise en charge de la superposition matérielle
 

@@ -4,12 +4,12 @@ ms.assetid: 703A7BF0-A89F-40E9-9440-B8C8E03FDE1A
 title: Attribut MF_MSE_ACTIVELIST_CALLBACK (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b321eb494454c303ba6a7c88781415b9b302972ef82f41116d5801b96d73017
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d449e6c4237f51950e82d75165022313b09d04cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104605"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531233"
 ---
 # <a name="mf_mse_activelist_callback-attribute"></a>\_Attribut de rappel MF MSE \_ ACTIVELIST \_
 
@@ -19,7 +19,7 @@ Contient un pointeur vers l’interface de rappel de l’application pour l’in
 
 **IMFBufferListNotify \* *_ stocké en tant que _* IUnknown\***
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

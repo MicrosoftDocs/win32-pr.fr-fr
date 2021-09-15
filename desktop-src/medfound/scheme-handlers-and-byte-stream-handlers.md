@@ -5,11 +5,11 @@ title: Gestionnaires de schémas et gestionnaires de Byte-Stream
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2f5cbb2ee0af93e456e86b6eab16ff44705f5380
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122881778"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531653"
 ---
 # <a name="scheme-handlers-and-byte-stream-handlers"></a>Gestionnaires de schémas et gestionnaires de Byte-Stream
 

@@ -4,12 +4,12 @@ ms.assetid: fc68704e-68d5-4767-b464-e45ab4c86058
 title: Exécution du blit DXVA-HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d28553b942d94890dd4376c7e03fcecc64fec3d5dac49563e531c4604df14501
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37474cdb61136e3e201674695674ccb67abf03a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531112"
 ---
 # <a name="performing-the-dxva-hd-blit"></a>Exécution du blit DXVA-HD
 

@@ -4,12 +4,12 @@ ms.assetid: f89acfe4-14a7-4051-a816-e5e0ba8db80a
 title: Événement MEAudioSessionExclusiveModeOverride (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6344a5d073e9dc29777e6cb181c77bcae79da8602b830ade86646459e4d0bea
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3732be3fec73e3e948f6093187f32dd46839bea9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120114219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531873"
 ---
 # <a name="meaudiosessionexclusivemodeoverride-event"></a>Événement MEAudioSessionExclusiveModeOverride
 
@@ -30,13 +30,13 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement est envoyé par le récepteur de flux du convertisseur audio. L’événement est déclenché lorsque le convertisseur audio reçoit un événement [**IAudioSessionEvents :: OnSessionDisconnected**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected) à partir de la session audio avec la raison de la déconnexion égale à DisconnectReasonExclusiveModeOverride.
 
 Le pointeur [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) , s’il est défini, n’est pas utile, car le flux audio n’est plus valide.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

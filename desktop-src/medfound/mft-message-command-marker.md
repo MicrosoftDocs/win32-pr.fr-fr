@@ -4,12 +4,12 @@ ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
 title: MFT_MESSAGE_COMMAND_MARKER (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc55a96ae9680b37d83ec776c66848ed04f4a30b62d1d0378035c88823d2c19d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3802cb94c9183d4f392fbcedcf48c0c01071298e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117872169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531709"
 ---
 # <a name="mft_message_command_marker"></a>\_ \_ marqueur de commande de message MFT \_
 
@@ -19,7 +19,7 @@ Marque un point dans le flux. Ce message s’applique uniquement aux [MFTS async
 
 Valeur arbitraire. La table MFT retourne la valeur au client dans l’événement [METransformMarker](metransformmarker.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour envoyer ce message, appelez [**IMFTransform ::P rocessmessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
@@ -34,7 +34,7 @@ Le client n’est pas obligé d’envoyer ce message et ne doit envoyer ce messa
 
 Les MFTs asynchrones doivent répondre à ce message comme décrit. Le MFTs synchrone doit ignorer ce message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

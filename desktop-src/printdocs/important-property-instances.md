@@ -4,12 +4,12 @@ ms.assetid: 8169b74f-13e0-4f6b-81e2-1824d932ee50
 title: Instances de propriété importantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df644c44bc1c9c0c0b4c5bf457bdb253f5b91969c55dd26833c0e05dc66cc558
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4691b73b1206ee092c171b213a3815925b7f53c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119100550"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530588"
 ---
 # <a name="important-property-instances"></a>Instances de propriété importantes
 
@@ -35,7 +35,7 @@ Les éléments option peuvent contenir la propriété suivante.
 
 | Propriété                   | Valeurs                           | Objectif                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| IdentityOption <br/> | Vrai<br/> Faux<br/> | La sélection de la propriété IdentityOption est interprétée comme signifiant « désactiver cette fonctionnalité ». Une fonctionnalité qui contient une propriété SelectionType dont la valeur est PickMany doit également contenir une option qui a une propriété IdentityOption. Le code d’interface utilisateur (ou la construction du client d’un PrintTicket) doit désélectionner une autre option si la propriété IdentityOption est sélectionnée.<br/> |
+| IdentityOption <br/> | Vrai<br/> False<br/> | La sélection de la propriété IdentityOption est interprétée comme signifiant « désactiver cette fonctionnalité ». Une fonctionnalité qui contient une propriété SelectionType dont la valeur est PickMany doit également contenir une option qui a une propriété IdentityOption. Le code d’interface utilisateur (ou la construction du client d’un PrintTicket) doit désélectionner une autre option si la propriété IdentityOption est sélectionnée.<br/> |
 
 
 

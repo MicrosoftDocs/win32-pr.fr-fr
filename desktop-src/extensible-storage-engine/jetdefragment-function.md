@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9916039ee20f9d1c13865ce5dc3ba4d2de053029
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 2f9fdce5268e6981fa018f58ed14b31c2c078cce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482855"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531360"
 ---
 # <a name="jetdefragment-function"></a>JetDefragment fonction)
 
@@ -120,7 +120,7 @@ En cas de réussite, l’action demandée de démarrage d’une tâche de défra
 
 En cas d’échec, l’action demandée de démarrage ou d’arrêt d’un travail de défragmentation en ligne n’est pas effectuée. Aucun autre effet secondaire ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 La défragmentation en ligne est contrôlée à la fois par un paramètre, ainsi que par cette API. La valeur par défaut du paramètre système est JET_OnlineDefragAll, ce qui signifie que la défragmentation est activée pour toutes les structures de données prises en charge. Toutefois, à l’aide de [JetSetSystemParameter](./jetsetsystemparameter-function.md), il est possible de désactiver la défragmentation en ligne ou de l’activer de manière sélective pour les arborescences d’espace de base de données uniquement, les bases de données uniquement, les fichiers de streaming uniquement ou une combinaison de ces options. Si le paramètre système de la défragmentation en ligne est défini sur un paramètre obsolète, **JetDefragment** traite le paramètre comme JET_OnlineDefragAll.
 
@@ -128,10 +128,17 @@ Il peut y avoir au plus une tâche en cours d’exécution pour chaque base de d
 
 La session utilisée pour démarrer la tâche de défragmentation en ligne peut être utilisée par la suite pour les opérations de base de données pendant que la tâche de défragmentation se poursuit, car la tâche de défragmentation alloue sa propre session. La session donnée est utilisée uniquement pour vérifier les autorisations associées à la session de démarrage de la tâche et n’est pas réellement utilisée pour les opérations de défragmentation elles-mêmes.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetDefragmentW</strong> (Unicode) et <strong>JetDefragmentA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetDefragmentW</strong> (Unicode) et <strong>JetDefragmentA</strong> (ANSI).</p> | 
 
 
 

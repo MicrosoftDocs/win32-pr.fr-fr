@@ -4,12 +4,12 @@ ms.assetid: 9c501d33-847e-448e-a19c-39dfbc7757ca
 title: Utilisation de l’indexeur pour rechercher dans un fichier ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c674aa809c858856abf0c0e84c5d854b399c6fbc125ac9210e19b695380bd0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c40c35f876fdc5452c596048d121fb0c2933094a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530636"
 ---
 # <a name="using-the-indexer-to-seek-within-an-asf-file"></a>Utilisation de l’indexeur pour rechercher dans un fichier ASF
 

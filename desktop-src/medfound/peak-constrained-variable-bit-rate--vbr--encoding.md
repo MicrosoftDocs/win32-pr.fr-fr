@@ -4,12 +4,12 @@ ms.assetid: bc37362e-d66d-4552-8357-d22093d5d0ad
 title: Encodage à vitesse de transmission variable Peak-Constrained
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b97361c6d4ac8cefd33b223157347e450252691cab024e167862f50c7aac0fbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d8a32ed6b6f90ce1e112cf5afd19f33e65f541a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737666"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531117"
 ---
 # <a name="peak-constrained-variable-bit-rate-encoding"></a>Encodage à vitesse de transmission variable Peak-Constrained
 

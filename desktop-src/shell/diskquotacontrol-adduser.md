@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: de20d016-83da-42ac-962f-86faf9b25419
-ms.openlocfilehash: 91e7165e621974c204a2b109251f8c66d71731e2661b5629479656d97ef6f3e4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9dd69b78210ecda418e784681694d84b27b1732a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120090649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530465"
 ---
 # <a name="diskquotacontroladduser-method"></a>DiskQuotaControl. AddUser, méthode
 
@@ -48,19 +48,19 @@ Valeur de chaîne qui contient le nom d’ouverture de session de l’utilisateu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **Object**
 
 Retourne une expression d’objet qui prend la valeur de l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) de l’utilisateur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système de fichiers NTFS crée automatiquement une entrée de quota utilisateur lorsqu’un utilisateur écrit pour la première fois sur le volume. Les entrées créées de cette façon reçoivent le seuil d’avertissement par défaut et les valeurs de limite de quota matériel pour le volume. Cette méthode vous permet de créer une entrée de quota utilisateur avant qu’un utilisateur n’écrive des informations sur le volume. Elle retourne un objet [**DIDiskQuotaUser**](didiskquotauser-object.md) qui peut être utilisé pour assigner une valeur de seuil d’avertissement ou de limite de quota différente des paramètres par défaut du volume.
 
 Si l’utilisateur existe déjà, aucune nouvelle entrée n’est créée. La méthode retourne l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) associé à l’entrée existante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

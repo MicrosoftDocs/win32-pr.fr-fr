@@ -4,12 +4,12 @@ ms.assetid: 7721cd92-241f-4409-a724-c8e8768a19a9
 title: Aucun déploiement tactile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d31f01742a1b1231171688ea15634913c56ef613c8f6ebdaf3042b4998f00a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6567edf35dbd79256bed228de3941351bd5e7642
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117856538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530268"
 ---
 # <a name="no-touch-deployment"></a>Aucun déploiement tactile
 

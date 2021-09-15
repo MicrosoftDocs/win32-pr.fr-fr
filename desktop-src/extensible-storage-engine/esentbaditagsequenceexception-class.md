@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f640aea27e0ddb3620b88c8d3c77acc0060c68eae9469f5e87e4f6d58586b980
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 978cc93c4d64d4b96e0200b78cc05ab7b1e47fa2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531416"
 ---
 # <a name="esentbaditagsequenceexception-class"></a>EsentBadItagSequenceException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentBadItagSequenceException](./esentbaditagsequenceexception-members.md)
 

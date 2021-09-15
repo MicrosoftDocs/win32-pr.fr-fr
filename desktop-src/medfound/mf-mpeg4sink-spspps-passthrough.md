@@ -4,12 +4,12 @@ ms.assetid: B2574BE5-6334-4ED2-A008-86326CDC13B8
 title: Attribut MF_MPEG4SINK_SPSPPS_PASSTHROUGH (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b939302999fc7e095abbc97aed5910976972c860440a2c865248949e0f052aa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3c02f4f1cdcac17a104b5061c8899c92e0ad824
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104625"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531240"
 ---
 # <a name="mf_mpeg4sink_spspps_passthrough-attribute"></a>\_ \_ Attribut passthrough MPEG4SINK SPSPPS MF \_
 
@@ -23,11 +23,11 @@ Spécifie si le [**récepteur de fichiers MPEG-4**](mpeg-4-file-sink.md) filtre 
 
 [**IMFMediaSink**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [**récepteur de fichiers MPEG-4**](mpeg-4-file-sink.md) écrit les paramètres SPS et PPS dans la zone de description de l’exemple du fichier MP4. Par défaut, il élimine les NALUs SPS et PPS du flux vidéo. Pour remplacer ce comportement, affectez la valeur \_ \_ \_ **true** à l’attribut passthrough MPEG4SINK SPSPPS MF.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

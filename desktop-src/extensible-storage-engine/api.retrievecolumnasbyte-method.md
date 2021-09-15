@@ -15,11 +15,11 @@ dev_langs:
 - VB
 - other
 ms.openlocfilehash: 20a995f31a062586bf931e06e045aa00483af8dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571620"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532049"
 ---
 # <a name="apiretrievecolumnasbyte-method"></a>API. RetrieveColumnAsByte, méthode
 
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

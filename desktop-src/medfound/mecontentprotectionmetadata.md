@@ -5,11 +5,11 @@ title: Événement MEContentProtectionMetadata (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1dd72289a900b9c9b96fe9a64d427dab13110d66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530792"
 ---
 # <a name="mecontentprotectionmetadata-event"></a>Événement MEContentProtectionMetadata
 
@@ -45,14 +45,14 @@ Les attributs suivants sont définis pour cet événement.
 
 Cet événement est utilisé, par exemple, pour l’événement de rotation de clé communiquant. Dans ce cas, il doit être envoyé le plus tôt possible pour permettre au décodeur de se préparer avant même que les échantillons chiffrés avec le nouvel ID de clé commencent à arriver.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

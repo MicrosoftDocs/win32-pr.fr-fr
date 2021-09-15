@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a9cfaac94e04eea0a93e5cf3570f3a5605d171cd3613f075925eecc8713a53d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ce2ce0ab8b79a2335cc8e02d89751da3b30d856
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118788447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530145"
 ---
 # <a name="texture2darraygatherredsfloatint2int2int2int2uint-function"></a>Texture2DArray :: GatherRed (S, float, Int2, Int2, Int2, Int2, uint), fonction
 
@@ -108,13 +108,13 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **TemplateType**
 
 Valeur à quatre composants dont le type est identique au type de modèle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -122,7 +122,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

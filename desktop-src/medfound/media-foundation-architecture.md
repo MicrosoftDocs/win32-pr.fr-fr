@@ -4,12 +4,12 @@ ms.assetid: 33820c6a-859d-4df6-a605-4e0f64f45c5b
 title: Architecture Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abcc95b1fdb39ad7d0e90e44b66df0dd7eb3c06418c16b4efc452abba4a9738d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c0914b0f4c43966edcdc6d30efa7c9dbdbbd4e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530772"
 ---
 # <a name="media-foundation-architecture"></a>Architecture Media Foundation
 

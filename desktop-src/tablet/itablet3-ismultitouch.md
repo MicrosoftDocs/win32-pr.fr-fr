@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: bbdd18d27c8b9f5f4b7567e6aa22fd0c74f5e2c2dc74d80e1f46aca4195b93ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed05e110c13af8fe73eebf004183de42eb9fffd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118717298"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530316"
 ---
 # <a name="itablet3ismultitouch-method"></a>ITablet3 :: IsMultiTouch, méthode
 
@@ -47,11 +47,11 @@ Indique si l’appareil est en interaction tactile.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S \_ OK** en cas de réussite, sinon retourne un code d’erreur tel que **E \_ Fail**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après avoir déterminé à l’aide de [**IRealTimeStylus3 :: MultiTouchEnabled**](/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled) ou **ITablet3 :: IsMultiTouch** que l’interaction tactile est disponible, une application peut choisir d’accepter les messages d’entrée tactiles. Des informations supplémentaires sur le filtrage des méthodes tactiles sont disponibles dans la section de propriété **IRealTimeStylus3 :: MultiTouchEnabled** .
 
@@ -66,7 +66,7 @@ spITablet3->get_IsMultiTouch(&b);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

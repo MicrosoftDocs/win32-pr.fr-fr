@@ -4,12 +4,12 @@ ms.assetid: 0ec19e8c-2a14-4392-93de-7ab832784085
 title: Utilisation de UVAtlas (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9516223f6d299f42adf19073dc103e7e13b37d49d2f323d6620b46421be1f722
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8faeaa0a416f6f062c81c4101ff47d5222ca75d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118290626"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530989"
 ---
 # <a name="using-uvatlas-direct3d-9"></a>Utilisation de UVAtlas (Direct3D 9)
 

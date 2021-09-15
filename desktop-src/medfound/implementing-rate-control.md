@@ -4,12 +4,12 @@ ms.assetid: 077678db-ca5a-423b-9430-93497113d639
 title: Mise en œuvre du contrôle de taux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3ff90e7b1748efd4cfcff41244164d1d6a997b6208d3e46afa0cdae9aa6bba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f5fd78cbbb95316a0d4ed12a50c9d3aa8954fe8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120114269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531893"
 ---
 # <a name="implementing-rate-control"></a>Mise en œuvre du contrôle de taux
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5344414ce35b1063fff938eb6ea0f6ed0813d407f99d1fc2202c2cb58b6a74b6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eedeb21141c1e694effe4eb8c7be70c828aa0a3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119671319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532060"
 ---
 # <a name="texture2dgathercmpbluesfloatfloatint-function"></a>Texture2D :: GatherCmpBlue (S, float, float, int) (fonction)
 
@@ -75,13 +75,13 @@ Offset appliqué à la coordonnée de texture avant l’échantillonnage.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **float4**
 
 Une valeur à quatre composants, chaque composant est le résultat d’une comparaison par composant.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -89,7 +89,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

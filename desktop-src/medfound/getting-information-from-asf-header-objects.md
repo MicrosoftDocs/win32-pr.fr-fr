@@ -4,12 +4,12 @@ ms.assetid: 1654af97-f4fe-427f-b562-3b109e921719
 title: Obtention d’informations à partir d’objets d’en-tête ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 346e57721137fd6064e4d6b9fd21080d96c10e740bb7f7ed45bf3fef4cc92722
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f25155929c9e3ba7e59ee1b5f46ea7c5930c3e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974438"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531928"
 ---
 # <a name="getting-information-from-asf-header-objects"></a>Obtention d’informations à partir d’objets d’en-tête ASF
 

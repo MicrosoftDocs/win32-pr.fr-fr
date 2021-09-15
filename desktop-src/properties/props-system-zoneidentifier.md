@@ -5,11 +5,11 @@ title: System. ZoneIdentifier
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 41a0df9a0e25ebe4a5db2f96b7425daf5e9f14ba
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530489"
 ---
 # <a name="systemzoneidentifier"></a>System. ZoneIdentifier
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: 1144abfc-ca0a-4d59-aa18-b245ba4b1bc3
 title: Positionnement des objets sur plusieurs configurations d’affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e4fc577b549d2adeba4f9b1afe064f1ca1ce82a9cdd902add5b240b2bab43f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dd7e00104ea2d48e984fa6898f6e07f23509a6fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119558309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531964"
 ---
 # <a name="positioning-objects-on-a-multiple-display-setup"></a>Positionnement des objets sur plusieurs configurations d’affichage
 

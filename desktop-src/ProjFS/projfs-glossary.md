@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: 12b6e90d98fce3882aa5dc8d552f88e9cd9f389d24673fdc5caf175e180082f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6eac8faa83e2c898e4b1a3ada5c24ef81151b22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030981"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531045"
 ---
 # <a name="windows-projected-file-system-glossary"></a>Windows Glossaire du système de fichiers projeté
 

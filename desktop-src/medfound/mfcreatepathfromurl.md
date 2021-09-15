@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - mfplat.dll
-ms.openlocfilehash: 5f4a2156bde837ef343aa4ca88a18230050d4af6df07012e46fc518d62d898af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c1838a3b09dc5375588d562aa503d555a186e394
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531749"
 ---
 # <a name="mfcreatepathfromurl-function"></a>MFCreatePathFromURL fonction)
 
@@ -56,7 +56,7 @@ Reçoit une chaîne terminée par le caractère null qui contient l’URL. L’a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -71,11 +71,11 @@ La fonction retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction n’a pas de bibliothèque d’importation associée. Pour appeler cette fonction, vous devez utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Mfplat.dll.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

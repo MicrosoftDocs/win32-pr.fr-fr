@@ -4,12 +4,12 @@ ms.assetid: 83b64ad8-2552-41d1-bc61-20361831020b
 title: Attributs de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d066520926363b27ed5f29e29079d960a0f8e1e395c3dc0df56af918b5fed34a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a25de9ae6cf769268b3868d36bac2e293cfd8d60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119034727"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531073"
 ---
 # <a name="stream-attributes"></a>Attributs de flux
 

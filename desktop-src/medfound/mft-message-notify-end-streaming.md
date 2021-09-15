@@ -5,11 +5,11 @@ title: MFT_MESSAGE_NOTIFY_END_STREAMING (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ad2f13635b97db0c6d7751d9648f42b2b4ed8acc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531697"
 ---
 # <a name="mft_message_notify_end_streaming"></a>\_notification de \_ fin \_ de \_ diffusion de message MFT
 
@@ -29,14 +29,14 @@ Le client n’est pas obligé d’envoyer ce message, même si le client a préc
 
 La table MFT peut répondre à ce message en libérant des mémoires tampons et d’autres ressources. La table MFT n’efface pas les données d’entrée et ne réinitialise pas les types de média en réponse à ce message. Aucune table MFT n’est requise pour répondre à ce message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

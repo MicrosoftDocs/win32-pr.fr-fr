@@ -4,12 +4,12 @@ ms.assetid: 1b3f56eb-3f22-4120-ba6c-331eccd5d303
 title: MFPKEY_COLOR_BRIGHTNESS, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a43969dff8d743e493916303c31e3d57760a2b025bfadaeaf8cc03e7e25430d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 685ab934a91f1843183fcfa88bb94c83e602db27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531156"
 ---
 # <a name="mfpkey_color_brightness-property"></a>Propriété de luminosité des \_ couleurs MFPKEY \_
 
@@ -31,13 +31,13 @@ VT \_
 
 -   [Transformation de contrôle de couleur DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’ajustement de la luminosité s’effectue en ajoutant une valeur au canal de luminance.
 
 Cette propriété a une plage comprise entre-127 et 127. La valeur zéro indique qu’aucune modification n’est apportée à la luminosité.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

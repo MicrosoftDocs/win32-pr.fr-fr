@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxva.h
-ms.openlocfilehash: 3d7f27060d0c9e43f1852c86697826986c0c095c14a19fbfafa53978e96cbe79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94784ac5fe164d571a8a02e4170990f8ce06a4a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117878796"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530832"
 ---
 # <a name="idirect3dvideodevice9getuncompresseddxvaformats-method"></a>IDirect3DVideoDevice9 :: GetUncompressedDXVAFormats, méthode
 
@@ -64,17 +64,17 @@ Adresse d’un tableau de valeurs **D3DFORMAT** , ou **null**. Si la valeur n’
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez cette méthode deux fois. Lors du premier appel, affectez à *pFormats* la **valeur null**. Le paramètre *pNumFormats* reçoit le nombre de formats. Allouez un tableau **D3DFORMAT** avec la taille requise, puis rappelez la méthode. Cette fois-ci, définissez *pFormats* sur l’adresse du tableau. La méthode remplit le tableau avec la liste des formats de pixel.
 
 Le pilote doit retourner les formats dans l’ordre de préférence décroissant, avec le format le plus préféré listé en premier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

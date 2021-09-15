@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24d403446fa3544bdb001c065e9874f812a829680e19a5e6b526ed12276fd6e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9351fae9636ca2512825c7df5383eddf1558583e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118971758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530617"
 ---
 # <a name="float3x2-structure"></a>float3x2, structure
 
@@ -93,7 +93,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float m31` | Valeur à la ligne 3 colonne 1 de la matrice. |
 | `float m32` | Valeur à la ligne 3 colonne 2 de la matrice. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

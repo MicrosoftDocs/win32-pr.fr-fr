@@ -222,12 +222,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf2b7d0f0fbd8e178fb9f5db510df7fa6851d112499bd30f672404d72c29fd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2525528b931f194d58c031275364c3dc6419eeda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531004"
 ---
 # <a name="com-error-codes-xact-sched-ole"></a>Codes d’erreur COM (XACT, SCHED, OLE)
 
@@ -453,7 +453,7 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101243
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9c87bd39857f3b74f92173069295e1e555aea10ce36d76c9aa9e7a0719e55ecd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61487ff9d0695a74574a295dbb598fd8f2d1243a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117715669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531405"
 ---
 # <a name="esentcannotdeletetemptableexception-members"></a>Membres EsentCannotDeleteTempTableException
 
@@ -93,7 +93,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentCannotDeleteTempTableException, classe](./esentcannotdeletetemptableexception-class.md)
 

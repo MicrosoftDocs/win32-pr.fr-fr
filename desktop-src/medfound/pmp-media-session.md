@@ -4,12 +4,12 @@ ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: Session média PMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 683bc6d3dcc78bfb18daedabab614c95c33492fb7e17d48cbe7f6f08bdc766ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abf2cb1ff173d6fd085f6e98dd4608c84ff40200
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118239203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531084"
 ---
 # <a name="pmp-media-session"></a>Session média PMP
 

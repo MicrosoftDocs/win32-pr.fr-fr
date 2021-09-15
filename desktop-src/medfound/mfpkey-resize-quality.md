@@ -4,12 +4,12 @@ ms.assetid: a6760e7e-7c99-4412-bde5-05958fad89a1
 title: MFPKEY_RESIZE_QUALITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e8aeb59935c8fc3462b713967ed2b14a0adfcf731fa1a71fec434b0e07d4309
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e79ae1cac78b4d836261905afdacaf14fc227fc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530680"
 ---
 # <a name="mfpkey_resize_quality-property"></a>\_Propriété de qualité de REdimensionnement MFPKEY \_
 
@@ -27,7 +27,7 @@ VT \_ bool
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez l’une des valeurs suivantes :
 
@@ -42,7 +42,7 @@ Utilisez l’une des valeurs suivantes :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
