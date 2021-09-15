@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d147bc877f9694617ec94651f53f4cf438c00de8d752710c3659f24ba4ffe21c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e14803c225ade6085658582e18b9ba2d52fc90c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118810324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517601"
 ---
 # <a name="ibackgroundcopyerrorgeterror-method"></a>IBackgroundCopyError :: GetError, méthode
 
@@ -58,11 +58,11 @@ Code d’erreur de l’erreur qui s’est produite.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne **S_OK** en cas de réussite ou une des valeurs com HRESULT standard en cas d’erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

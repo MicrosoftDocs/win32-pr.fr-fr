@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 69cf1a739e15bc7341769bdc01549ad439a1c93877f653f0689e686eb8bac1f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c5c358978da1731152ca6f7de8c3f7a92a1da86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517608"
 ---
 # <a name="ibackgroundcopycallbackjobtransferred-method"></a>IBackgroundCopyCallback :: JobTransferred, méthode
 
@@ -50,17 +50,17 @@ Contient des informations relatives au travail, telles que l’heure de fin du t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode doit retourner S_OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En règle générale, votre implémentation doit appeler la méthode [**méthode ibackgroundcopyjob :: Complete**](ibackgroundcopyjob-complete.md) pour confirmer que les fichiers ont été transférés avec succès. Les fichiers téléchargés et le fichier de réponse ne sont pas disponibles sur le client tant que vous n’avez pas appelé la méthode **Complete** .
 
 Si vous n’appelez pas la méthode [**Complete**](ibackgroundcopyjob-complete.md) ou si la méthode [**méthode ibackgroundcopyjob :: Cancel**](ibackgroundcopyjob-cancel.md) annule le travail au bout de 30 jours et supprime les fichiers incomplets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

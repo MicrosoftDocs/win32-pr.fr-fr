@@ -4,12 +4,12 @@ description: Cette section décrit le pipeline programmable Direct3D 11.
 ms.assetid: 8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b3872fbfaf63a53a07c8c06246088a5eec1791f98be867adbe56ae1d9c7724
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ed8e6b0b4d249c46dafe960f4f25a9a7598d6e2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119565569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517525"
 ---
 # <a name="graphics-pipeline"></a>Pipeline graphique
 

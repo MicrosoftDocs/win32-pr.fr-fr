@@ -4,12 +4,12 @@ description: Certaines limitations existent pour la création de périphériques
 ms.assetid: 7e022e5d-daa3-48fa-b9fe-4b569220e55e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0483ed6d5fd7348df39a4f3064f377845d6bfae1fe46abc47be5acd99e191c29
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e12540b1fdb8f2bc00ef2a0e596904e0b717bed1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119608609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517529"
 ---
 # <a name="limitations-creating-warp-and-reference-devices"></a>Limitations de la création d’appareils de déformation et de référence
 

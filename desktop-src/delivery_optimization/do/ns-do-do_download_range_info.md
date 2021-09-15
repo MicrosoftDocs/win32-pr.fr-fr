@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 30df22c7232ad1d28315e8152396ddd92bdab9a7cbf67d748af134c0f0760c33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01628ea29895012f60552e696b7f68854f426f8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118543743"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517625"
 ---
 # <a name="do_download_range_info-structure"></a>Structure DO_DOWNLOAD_RANGE_INFO
 
@@ -44,7 +44,7 @@ Nombre d’éléments dans les plages.
 
 Tableau d’une ou de plusieurs structures de **DO_DOWNLOAD_RANGE** qui spécifient les plages à télécharger.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

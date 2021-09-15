@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 4602970ffd67492c8f98317488686b454a2698b7e94048da2894982c7ce78bae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5db5c5da16a65b53b6e266886ee6ab8472dc3246
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517472"
 ---
 # <a name="id3dxbaseeffectgetpass-method"></a>ID3DXBaseEffect :: GetPass, méthode
 
@@ -59,13 +59,13 @@ Index pour la passe.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne le handle de la passe spécifiée à l’intérieur de la technique spécifiée, ou **null** si l’index n’est pas valide. Consultez [Handles (Direct3D 9)](handles.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

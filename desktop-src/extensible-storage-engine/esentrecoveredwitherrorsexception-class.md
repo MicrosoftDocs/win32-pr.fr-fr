@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dda217856bb5a99df0f554c5cb951c38515fc696386dc16a4aea6ff0f0b5e782
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd90328b3b592232e1f87f4fe568022443be8b77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119115349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517349"
 ---
 # <a name="esentrecoveredwitherrorsexception-class"></a>EsentRecoveredWithErrorsException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentRecoveredWithErrorsException](./esentrecoveredwitherrorsexception-members.md)
 

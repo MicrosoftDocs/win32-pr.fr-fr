@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8cd69d2f3614395f45e438d255acc6d1dc3f74a62a03c91299c4479f14b4e49a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9ec3ca1f505c9d768e54b284caf05b335934451
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118784533"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517409"
 ---
 # <a name="apideserializeobjectfromcolumn-method-jet_sesid-jet_tableid-jet_columnid"></a>Méthode API. DeserializeObjectFromColumn (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
@@ -82,14 +82,14 @@ public static Object DeserializeObjectFromColumn(
     
     Colonne à partir de laquelle effectuer la lecture.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Object](/dotnet/api/system.object)  
 L'objet désérialisé. NULL si la colonne est null.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

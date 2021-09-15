@@ -4,12 +4,12 @@ ms.assetid: abfb280e-92db-4198-b9e1-d0782cca1ccd
 title: GraphicsPath, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96071c56aea4620fbb1efca6ff9dc8c2b097853210445a97001524ad9bae7cfb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 588f7319749d3a46209bf353bb2efdf4362b145c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517232"
 ---
 # <a name="graphicspath-functions"></a>GraphicsPath, fonctions
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**Gr
 
 
 
-| Fonction plate                                                                                                                                                                                                                   | Méthode Wrapper                                                                                                                                                                                                                                                                                                     | Remarques                                                                                                                                                                                                                                                                                                                 |
+| Fonction plate                                                                                                                                                                                                                   | Méthode Wrapper                                                                                                                                                                                                                                                                                                     | Notes                                                                                                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreatePath (GpFillMode brushMode, GpPath \* \* chemin)<br/>                                                                                                                                            | [**GraphicsPath :: GraphicsPath (dans FillMode fillMode = FillModeAlternate)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(infillmode))                                                                                                                                                                                 | Crée un objet [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) et initialise le mode de remplissage. Il s'agit du constructeur par défaut.                                                                                                                                                                              |
 | GpStatus WINGDIPAPI GdipCreatePath2 (GDIPCONST GpPointF \* points, GDIPCONST Byte \* types, int count, GpFillMode FillMode, GpPath \* \* Path)<br/>                                                                            | [**GraphicsPath :: GraphicsPath (dans les points de const PointF \* , dans les types d’octets const \* , dans int count, dans FillMode FillMode = FillModeAlternate)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(inconstpointf_inconstbyte_inint_infillmode))                                                                      | Crée un objet [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) basé sur un tableau de points, un tableau de types et un mode de remplissage.                                                                                                                                                                             |

@@ -15,11 +15,11 @@ ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 238ad815149f7d40dd1902b991608e0a3005eb35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517629"
 ---
 # <a name="deliveryoptimizationfileproperty-enumeration"></a>Énumération DeliveryOptimizationFileProperty
 
@@ -84,10 +84,10 @@ DOFilePropertyId_TotalSizeBytes
 L’ID de propriété DOFilePropertyId_TotalSizeBytes spécifie la taille totale du téléchargement. DOFilePropertyId_TotalSizeBytes est de type VT_UI8.
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------|----------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>      |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>  |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>      |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>  |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>               |

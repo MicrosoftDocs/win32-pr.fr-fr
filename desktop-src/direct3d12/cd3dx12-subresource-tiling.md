@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c36a0625b2389783ea4dafa65930e3095329e5bf5e2cfd4c57813e5251f81b88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07677c8a8367f58016a0236cf0b5558b852bef01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119987979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517516"
 ---
 # <a name="cd3dx12_subresource_tiling-structure"></a>\_Structure de mosaïques de sous-ressources CD3DX12 \_
 
@@ -80,7 +80,7 @@ Définit le & opérateur de passage par référence pour le type de structure pa
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

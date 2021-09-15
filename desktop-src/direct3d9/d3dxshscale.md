@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 87ac53e0fba57ed1e7cfb4e92d1da726e7030466954bf29f2bfb9ff14156eef6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a91c3ea1cb49c4c501ab847cb63fe8a39d66665
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120027019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517496"
 ---
 # <a name="d3dxshscale-function-d3dx9mathh"></a>D3DXSHScale, fonction (D3dx9math. h)
 
@@ -79,20 +79,20 @@ Pointeur désignant la valeur de l’échelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque coefficient de la fonction de base YLM est stocké à l’emplacement de mémoire l ² + m + l, où :
 
 -   l est le degré de la fonction de base.
 -   m est l’index de fonction de base pour la valeur l donnée et est compris entre-l et l, inclus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

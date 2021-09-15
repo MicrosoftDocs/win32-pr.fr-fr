@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: 4b29cbb958b2aa8af02000fc62d4d3a848c2efba585bd927674c9ceca9d65d9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f21958ab964a70116a551c0cb8dadbce6db88f7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119634959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517593"
 ---
 # <a name="d3dx10_channel_flag-enumeration"></a>\_Énumération de l’indicateur de canal d3dx10 \_
 
@@ -78,7 +78,7 @@ Indique que les luminaces des canaux rouge, vert et bleu doivent être utilisés
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

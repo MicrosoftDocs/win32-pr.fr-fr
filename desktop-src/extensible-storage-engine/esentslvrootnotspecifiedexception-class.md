@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d35f1c0db7946e3afea624bb97925596dba37a35862d693647a2c7d8697f013d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6ecbb3be65bd1e581457308a247b8f01f525e183
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094000"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517297"
 ---
 # <a name="esentslvrootnotspecifiedexception-class"></a>EsentSLVRootNotSpecifiedException, classe
 
@@ -68,7 +68,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentSLVRootNotSpecifiedException](./esentslvrootnotspecifiedexception-members.md)
 

@@ -5,11 +5,11 @@ ms.assetid: 4e6c0a98-85ff-45ca-963b-7d5c55f47195
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8d04df73b481adea17e1f985e2c1851039fd016a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517521"
 ---
 # <a name="how-to-play-back-a-command-list"></a>Comment : lire une liste de commandes
 
@@ -41,9 +41,9 @@ Cette section décrit comment lire une liste de commandes. Pour enregistrer une 
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

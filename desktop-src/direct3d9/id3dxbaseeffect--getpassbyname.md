@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 5837d2b69c793f788c4c89f648402e7924bc2f3af9a92bbbe596c133efe10d1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2cd96a9d91f0e822b3e869bd8f0c965f0f951f44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517468"
 ---
 # <a name="id3dxbaseeffectgetpassbyname-method"></a>ID3DXBaseEffect :: GetPassByName, méthode
 
@@ -59,13 +59,13 @@ Chaîne contenant le nom du test.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne le handle de la première passe à l’intérieur de la technique spécifiée qui porte le nom spécifié, ou **null** si le nom est introuvable. Consultez [Handles (Direct3D 9)](handles.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

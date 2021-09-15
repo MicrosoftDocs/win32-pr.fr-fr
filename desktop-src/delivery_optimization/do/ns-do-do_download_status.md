@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 8775b7daf55d58698d00bcaa2820b909e302933c9f407d1cb6416d6b095a872b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e113bb4866ef1033886dbb1579d21aa296d0e5e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118543733"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517624"
 ---
 # <a name="do_download_status-structure"></a>Structure DO_DOWNLOAD_STATUS
 
@@ -59,7 +59,7 @@ Informations d’erreur (le cas échéant) associées au téléchargement en cou
 
 Informations d’erreur étendues (si elles existent) associées au téléchargement en cours.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

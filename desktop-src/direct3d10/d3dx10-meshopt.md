@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Mesh.h
-ms.openlocfilehash: 193bf832f00c9812a515ae9b5c478f6baed637d87605e9f8d04349a12d79aac6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b3085cf9970f2c1f6fe3748cc4db8f4fb2b2a78
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119989219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517576"
 ---
 # <a name="d3dx10_meshopt-enumeration"></a>D3DX10 \_ MESHOPT, énumération
 
@@ -94,13 +94,13 @@ Affecte la taille du cache de vertex. L’utilisation de cet indicateur spécifi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les \_ indicateurs d’optimisation D3DXMESHOPT STRIPREORDER et D3DXMESHOPT \_ VERTEXCACHE s’excluent mutuellement.
 
 L' \_ indicateur D3DXMESHOPT SHAREVB a été supprimé de cette énumération. utilisez D3DXMESH \_ VB \_ SHARE à la place, dans D3DXMESH.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

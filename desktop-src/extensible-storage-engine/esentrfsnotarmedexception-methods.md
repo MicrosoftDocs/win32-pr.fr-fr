@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102662
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c2728b6b601b0a7ed33cd4b6f477c7de8e697848357bb7d86f389b0f70c36766
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68f370cfc92a577216a98328c8b160d5bdfc88c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118982009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517337"
 ---
 # <a name="esentrfsnotarmedexception-methods"></a>Méthodes EsentRfsNotArmedException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentRfsNotArmedException, classe](./esentrfsnotarmedexception-class.md)
 
