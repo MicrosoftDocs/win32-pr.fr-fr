@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 78a66aae56ffc569848996eec2347e1aef6393c5c7e408d4fdb773a3545e27d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d819de44b6697d5e3ac4f89eeb7ae288bfe3c77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117907662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310806"
 ---
 # <a name="format-conversion-structures-hlsl-reference"></a>Structures de conversion de format (référence HLSL)
 

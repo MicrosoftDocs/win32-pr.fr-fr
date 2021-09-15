@@ -5,11 +5,11 @@ ms.assetid: A77A32B4-BD4F-46E7-9999-13EAA8A26974
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9197fee97645333d37d589db36c3774852b12229
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971586"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310774"
 ---
 # <a name="gather4_po-sm5---asm"></a>gather4 \_ po (SM5-ASM)
 
@@ -60,7 +60,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 

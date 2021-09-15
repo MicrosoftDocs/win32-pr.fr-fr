@@ -6,12 +6,12 @@ keywords:
 - INTERDIRE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 639d69e567849020101659105b72bfc16eda9ac5cd926582cf3fb43ba7d9d638
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c2f2411f063be600571c2b401c1223ff740960d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118113504"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311053"
 ---
 # <a name="strict-type-checking"></a>Vérification de type STRICTe
 

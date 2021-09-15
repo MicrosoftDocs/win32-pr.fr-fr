@@ -5,11 +5,11 @@ ms.assetid: 0E3E090B-72C0-4CED-AFA5-2DDCF67D7263
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a4a5e65e4bb9d4e71e4a2000f00861cf63e7c181
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313645"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310778"
 ---
 # <a name="ftou-sm4---asm"></a>ftou (SM4-ASM)
 

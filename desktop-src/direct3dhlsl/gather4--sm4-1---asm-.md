@@ -4,12 +4,12 @@ description: Rassemble les quatre texels qui seraient utilisés dans une opérat
 ms.assetid: 219B25AE-CBF9-4B68-B2DB-6D8C3C5B4CEA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb39918bdb421123cb3e2bfe41931740e271f85a27cf36b8994d493656d91c21
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 84387bfe027e30b338b4701ec941a9d4e1b5e242
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119457579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310777"
 ---
 # <a name="gather4-sm41---asm"></a>gather4 (SM 4.1-ASM)
 
@@ -37,7 +37,7 @@ Rassemble les quatre texels qui seraient utilisés dans une opération de filtra
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette opération fonctionne uniquement avec les textures 2D ou carte cubique à canal unique. Pour les textures 2D, seuls les modes d’adressage de l’échantillonneur sont utilisés et le niveau supérieur d’une pyramide MIP est utilisé.
 
@@ -67,10 +67,10 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |

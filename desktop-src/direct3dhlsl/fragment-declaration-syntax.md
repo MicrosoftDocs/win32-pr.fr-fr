@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 60ac1153ff3491bc904f4f759f6653cb4243adff
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111825726"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310805"
 ---
 # <a name="fragment-declaration-syntax-direct3d-9-hlsl"></a>Syntaxe de la déclaration de fragment (Direct3D 9 HLSL)
 

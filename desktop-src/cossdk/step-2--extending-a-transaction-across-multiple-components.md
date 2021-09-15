@@ -4,12 +4,12 @@ ms.assetid: 20a30e87-e209-45ae-bf1b-722568758c47
 title: 'Étape 2 : extension d’une transaction à travers plusieurs composants'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96aa168eca7bfba29a4b00a6cd24b45d06c7610c76d47a4d6454e77295e57bc4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99c6fc80016904a3ea51b7aea7fa0ec93edc47a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117915805"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310925"
 ---
 # <a name="step-2-extending-a-transaction-across-components"></a>Étape 2 : extension d’une transaction à travers les composants
 
@@ -100,7 +100,7 @@ End Function
 
 
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 -   La définition de l’attribut de transaction d’un composant sur **pris en charge** peut entraîner la création du nouvel objet dans la transaction de l’objet appelant. COM+ examine le contexte de l’appelant pour déterminer l’état transactionnel du nouvel objet. Si l’appelant est transactionnel, COM+ transmet la transaction au nouvel objet.
 -   Tous les objets qui participent à la même transaction partagent un identificateur de transaction commun, que COM+ lit à partir du contexte de l’objet.

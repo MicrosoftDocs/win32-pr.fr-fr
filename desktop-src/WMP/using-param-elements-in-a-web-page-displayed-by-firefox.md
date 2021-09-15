@@ -24,12 +24,12 @@ keywords:
 - Incorporation de pages Web, Firefox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 767b9b0d5e4367a17f07f68600ff8e9cac488ca9e4c950165d84677fd7d03956
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b045d111ff3cd0de09f54a8cf7ac25028fa1dc6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117304"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311089"
 ---
 # <a name="using-param-elements-in-a-web-page-displayed-by-firefox"></a>Utilisation d’éléments PARAM dans une page Web affichée par Firefox
 

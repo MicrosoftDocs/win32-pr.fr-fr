@@ -5,11 +5,11 @@ title: Partitions locales
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 41f1a8524b0ebada203d6b42ac7b6cae000f5a51
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514526"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311002"
 ---
 # <a name="local-partitions"></a>Partitions locales
 

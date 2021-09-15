@@ -4,12 +4,12 @@ ms.assetid: 1567d9d3-7839-42f0-9507-7bbf61d8eaf2
 title: Message Queuing transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3282a95d4f9a3ba451e78fe4d9f17acf007b0007abea4fdb4951de9c1540383
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4730b20f4014cdf7c76462d3f2cae272695d907
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310862"
 ---
 # <a name="transactional-message-queuing"></a>Message Queuing transactionnel
 

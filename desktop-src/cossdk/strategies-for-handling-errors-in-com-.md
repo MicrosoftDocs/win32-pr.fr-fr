@@ -4,12 +4,12 @@ ms.assetid: 1ae5875b-8085-44f2-9071-c2a5d7543ac1
 title: Stratégies de gestion des erreurs dans COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f89736f8a81e51150e9d2480c98c6e5859d9b280fc5f7cd96662f3b1b9f3e8a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 91ca64546683fa45ac8df3bcb47534d8de482798
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119895699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310921"
 ---
 # <a name="strategies-for-handling-errors-in-com"></a>Stratégies de gestion des erreurs dans COM+
 

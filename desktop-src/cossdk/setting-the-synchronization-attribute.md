@@ -4,12 +4,12 @@ ms.assetid: e7983732-b206-4e9e-8446-9412832f4712
 title: Définition de l’attribut de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5b965ea5fe3a671b3245335327168ad4d6eb3e667fd135626eae7ea6251f40f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bc93ad435b1a2fb19d4a73e4aae806b6cda1b241
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119858859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310970"
 ---
 # <a name="setting-the-synchronization-attribute"></a>Définition de l’attribut de synchronisation
 

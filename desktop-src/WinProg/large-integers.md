@@ -6,12 +6,12 @@ keywords:
 - entiers volumineux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7266b36f7e6a6efb11eaa2d73d752f03e46e3f9d022637558fe6b04db8e8ee4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68ab6276ff6879ce5b72f198e3ccbd247f456e70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311058"
 ---
 # <a name="large-integers"></a>Entiers volumineux
 

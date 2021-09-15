@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b832da702942e8f84baee4303b7fa74a7fd74d683d62534cca619e8c7270e88a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e1ce08f3bf1fef74af0d77ada15716abb4530a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118813463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311001"
 ---
 # <a name="localcomputer-collection"></a>Collection LocalComputer
 
@@ -58,7 +58,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 -   [LoadBalancingCLSID](#loadbalancingclsid)
 -   [LocalPartitionLookupEnabled](#localpartitionlookupenabled)
 -   [Nom](#name)
--   [Exploitation](#operatingsystem)
+-   [OperatingSystem](#operatingsystem)
 -   [PartitionsEnabled](#partitionsenabled)
 -   [Ports](#defaulttointernetports)
 -   [ResourcePoolingEnabled](#resourcepoolingenabled)
@@ -76,7 +76,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------|
 | Description    | Nom du serveur distant utilisé par les proxys d’application par défaut. |
-| Accès         | Lecture/écriture                                                  |
+| Access         | Lecture/écriture                                                  |
 | Type           | String                                                     |
 | Valeur par défaut        | ""                                                         |
 | Système minimal | Windows 2000                                               |
@@ -92,7 +92,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------|
 | Description    | Indique si les services Internet COM sont activés. |
-| Accès         | Lecture/écriture                                           |
+| Access         | Lecture/écriture                                           |
 | Type           | Bool                                                |
 | Default        | False                                               |
 | Système minimal | Windows 2000                                        |
@@ -108,7 +108,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------|
 | Description    | Affectez la valeur true pour activer DCOM sur l’ordinateur. |
-| Accès         | Lecture/écriture                                   |
+| Access         | Lecture/écriture                                   |
 | Type           | Bool                                        |
 | Default        | Vrai                                        |
 | Système minimal | Windows 2000                                |
@@ -124,7 +124,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Niveau d’authentification utilisé par les applications dont l’authentification est définie sur par défaut. Les valeurs correspondent aux paramètres d’authentification de l’appel de procédure distante (RPC).                                                                                         |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                |
 | Type           | Valeurs possibles longues : COMAdminAuthenticationDefault (0) COMAdminAuthenticationNone (1) COMAdminAuthenticationConnect (2) COMAdminAuthenticationCall (3) COMAdminAuthenticationPacket (4) COMAdminAuthenticationIntegrity (5) COMAdminAuthenticationPrivacy (6) |
 | Default        | COMAdminAuthenticationConnect (2)                                                                                                                                                                                                                        |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                             |
@@ -145,7 +145,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Niveau d’emprunt d’identité à autoriser si aucun n’est défini.                                                                                                               |
-| Accès         | Lecture/écriture                                                                                                                                                     |
+| Access         | Lecture/écriture                                                                                                                                                     |
 | Type           | Valeurs possibles longues : COMAdminImpersonationAnonymous (1) COMAdminImpersonationIdentify (2) COMAdminImpersonationImpersonate (3) COMAdminImpersonationDelegate (4) |
 | Default        | COMAdminImpersonationIdentify (2)                                                                                                                             |
 | Système minimal | Windows 2000                                                                                                                                                  |
@@ -166,7 +166,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------|
 | Description    | Détermine si le type de port par défaut fourni doit être Internet (true) ou intranet (false). |
-| Accès         | Lecture/écriture                                                                                           |
+| Access         | Lecture/écriture                                                                                           |
 | Type           | Bool                                                                                                |
 | Default        | False                                                                                               |
 | Système minimal | Windows 2000                                                                                        |
@@ -182,7 +182,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|--------------------------------|
 | Description    | Description de l’ordinateur. |
-| Accès         | Lecture/écriture                      |
+| Access         | Lecture/écriture                      |
 | Type           | String                         |
 | Valeur par défaut        | ""                             |
 | Système minimal | Windows 2000                   |
@@ -198,7 +198,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------------------------------------------------------------------|
 | Description    | Indique si l’utilisateur des mappages de partition est archivé dans le magasin de domaines. |
-| Accès         | Lecture/écriture                                                                              |
+| Access         | Lecture/écriture                                                                              |
 | Type           | Bool                                                                                   |
 | Default        | Vrai                                                                                   |
 | Système minimal | Windows Server 2003                                                                    |
@@ -214,7 +214,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------------------------|
 | Description    | Détermine si les ports répertoriés dans la propriété ports doivent être utilisés pour Internet (true) ou pour l’intranet (false). |
-| Accès         | Lecture/écriture                                                                                                             |
+| Access         | Lecture/écriture                                                                                                             |
 | Type           | Bool                                                                                                                  |
 | Default        | False                                                                                                                 |
 | Système minimal | Windows 2000                                                                                                          |
@@ -230,7 +230,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Affectez la valeur true si l’ordinateur est un routeur pour le service d’équilibrage de charge des composants (CLB). Cette propriété ne peut être définie sur true que si le service d’équilibrage de charge de composant est actuellement installé sur l’ordinateur. Sinon, les erreurs avec comadmin \_ E \_ requièrent une \_ \_ plateforme différente. |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                           |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                           |
 | Type           | Bool                                                                                                                                                                                                                                                                                |
 | Default        | False                                                                                                                                                                                                                                                                               |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                        |
@@ -248,7 +248,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|-------------------------------------|
 | Description    | CLSID de l’objet à équilibrer. |
-| Accès         | Lecture/écriture                           |
+| Access         | Lecture/écriture                           |
 | Type           | String                              |
 | Valeur par défaut        | NULL                                |
 | Système minimal | Windows XP                          |
@@ -264,7 +264,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------|
 | Description    | Indique si l’utilisateur des mappages de partition est archivé dans le magasin local. |
-| Accès         | Lecture/écriture                                                                             |
+| Access         | Lecture/écriture                                                                             |
 | Type           | Bool                                                                                  |
 | Default        | Vrai                                                                                  |
 | Système minimal | Windows Server 2003                                                                   |
@@ -280,7 +280,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de l’ordinateur. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | WriteOnce                                                                                                                                                                                                                                                              |
+| Access         | WriteOnce                                                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                                                 |
 | Valeur par défaut        | « Poste de travail »                                                                                                                                                                                                                                                          |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                           |
@@ -296,7 +296,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Le système d’exploitation installé sur l’ordinateur local.                                                                                                                                                                                                                                                                                                                                                                                                |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Type           | Valeurs possibles longues : COMAdminOSNotInitialized (0) COMAdminOSWindows3 \_ 1 (1) COMAdminOSWindows9x (2) COMAdminOSWindows2000 (3) COMAdminOSWindows2000AdvancedServer (4) COMAdminOSWindows2000Unknown (5) COMAdminOSUnknown (6) COMAdminOSWindowsXPPersonal (11) COMAdminOSWindowsXPProfessional (12) COMAdminOSWindowsNETStandardServer (13) COMAdminOSWindowsNETEnterpriseServer (14) COMAdminOSWindowsNETDatacenterServer (15) COMAdminOSWindowsNETWebServer (16) |
 | Default        | COMAdminOSNotInitialized (0)                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -312,7 +312,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indique si les partitions COM+ peuvent être utilisées sur l’ordinateur local. Si cette propriété a la valeur false, toute tentative d’utilisation de partitions COM+ génère une erreur. |
-| Accès         | Lecture/écriture                                                                                                                                               |
+| Access         | Lecture/écriture                                                                                                                                               |
 | Type           | Bool                                                                                                                                                    |
 | Default        | False                                                                                                                                                   |
 | Système minimal | Windows Server 2003                                                                                                                                     |
@@ -328,7 +328,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Chaîne qui décrit les ports utilisés pour l’utilisation d’Internet ou de l’intranet, en fonction de la propriété InternetPortsListed ; par exemple, « 500-599:600-800 ». |
-| Accès         | Lecture/écriture                                                                                                                                               |
+| Access         | Lecture/écriture                                                                                                                                               |
 | Type           | String                                                                                                                                                  |
 | Valeur par défaut        | ""                                                                                                                                                      |
 | Système minimal | Windows 2000                                                                                                                                            |
@@ -344,7 +344,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|-------------------------------------|
 | Description    | Permet l’utilisation de redistributeurs de ressources. |
-| Accès         | Lecture/écriture                           |
+| Access         | Lecture/écriture                           |
 | Type           | Bool                                |
 | Default        | Vrai                                |
 | Système minimal | Windows 2000                        |
@@ -360,7 +360,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Contrôle si le proxy IIS RPC est activé. Le proxy IIS RPC est utilisé conjointement avec IIS pour transférer les appels au mécanisme RPC depuis IIS et est l’un des principaux éléments des services Internet COM, qui est activé en affectant à CISEnabled la valeur true. Pour plus d’informations sur RPCProxyEnabled, consultez [sécurité RPC http](/windows/desktop/Rpc/rpc-over-http-security). |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                             |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                             |
 | Type           | Bool                                                                                                                                                                                                                                                                                                                                                  |
 | Default        | False                                                                                                                                                                                                                                                                                                                                                 |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                                                                          |
@@ -376,7 +376,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | S’applique aux ordinateurs DCOM qui envoient des appels interprocessus aux méthodes [**IUnknown :: AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) et [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) . |
-| Accès         | Lecture/écriture                                                                                                                                                                 |
+| Access         | Lecture/écriture                                                                                                                                                                 |
 | Type           | Bool                                                                                                                                                                      |
 | Default        | False                                                                                                                                                                     |
 | Système minimal | Windows 2000                                                                                                                                                              |
@@ -392,7 +392,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------|
 | Description    | Affectez la valeur true si le suivi de sécurité est activé sur les objets. |
-| Accès         | Lecture/écriture                                               |
+| Access         | Lecture/écriture                                               |
 | Type           | Bool                                                    |
 | Default        | Vrai                                                    |
 | Système minimal | Windows 2000                                            |
@@ -408,7 +408,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Détermine comment la stratégie de restriction logicielle (SRP) gère les connexions d’activation en tant qu’activateur. Si la valeur est true, le niveau de confiance SRP configuré pour l’objet serveur est comparé au niveau de confiance SRP de l’objet client et le niveau de confiance le plus élevé (plus rigoureux) est utilisé pour exécuter l’objet serveur. Si la valeur est false, l’objet serveur s’exécute avec le niveau de confiance SRP de l’objet client, quel que soit le niveau de confiance du SRP avec lequel le serveur est configuré. |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Type           | Bool                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Default        | Vrai                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -424,7 +424,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Détermine comment la stratégie de restriction logicielle (SRP) gère les tentatives de connexion aux processus existants. Si la valeur est false, les tentatives de connexion aux objets en cours d’exécution ne sont pas vérifiées pour les niveaux de confiance SRP appropriés. Si la valeur est true, l’objet en cours d’exécution doit avoir un niveau de confiance SRP égal ou supérieur à celui de l’objet client. Par exemple, un objet client avec un niveau de confiance SRP non restreint ne peut pas se connecter à un objet en cours d’exécution avec un niveau de confiance SRP interdit. |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Type           | Bool                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Default        | Vrai                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -440,7 +440,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Doit être défini sur une valeur suffisante en secondes si vous effectuez de nombreuses opérations au sein d’une transaction. Le délai d’attente par défaut est de 60 secondes et le délai d’expiration maximal est de 3600 secondes (1 heure). L’affectation de la valeur 0 à cette propriété désactive les délais d’expiration de la transaction. Cette propriété peut être remplacée par des composants individuels à l’aide de la propriété ComponentTransactionTimeout de la collection [**Components**](components.md) . |
-| Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Type           | Long (0-3600)                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Default        | 60                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                                                                                                                                                             |

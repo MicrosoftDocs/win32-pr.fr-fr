@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: c9b09e745fd3d2a6819a756ff6a012c85330f327739dae28445c2e376189d293
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 426f943014f3b6cfbdba5a25d331c0ea621048cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311038"
 ---
 # <a name="msmcaevent_header-class"></a>\_Classe d’en-tête MSMCAEvent
 
@@ -150,7 +150,7 @@ Type de message du journal des événements. ces messages correspondent aux code
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

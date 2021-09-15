@@ -13,11 +13,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 1b73c495a1af1dec9114e5a59274e457c1d09694
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310826"
 ---
 # <a name="usersinrole-collection"></a>Collection UsersInRole
 
@@ -57,7 +57,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Access         | WriteOnce                                                                                                                                                                             |
 | Type           | String                                                                                                                                                                                |
 | Valeur par défaut        | « Nouvel utilisateur »                                                                                                                                                                            |
-| Système minimal | Windows 2000                                                                                                                                                                          |
+| Système minimal | Windows 2000                                                                                                                                                                          |
 
 
 

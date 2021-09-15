@@ -4,12 +4,12 @@ description: Conversion au niveau du composant des données à virgule flottante
 ms.assetid: 95297556-41ED-4ED0-8F9A-16B7A440AF25
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d31396aa0f2b82dc4ea366bbdde704d55fa850d0d0a9f2f1f3de539a763facb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6790735745805426d32aefcc5d5d771ade644e43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310782"
 ---
 # <a name="ftod-sm5---asm"></a>ftod (SM5-ASM)
 
@@ -35,7 +35,7 @@ Conversion au niveau du composant des données à virgule flottante simple préc
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque composant de la source est converti à partir de la représentation à simple précision en représentation à double précision.
 
@@ -51,7 +51,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -65,9 +65,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
