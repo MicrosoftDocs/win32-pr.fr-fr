@@ -8,12 +8,12 @@ keywords:
 - DRM (gestion des droits numériques), versions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 290ea9bd935a95fd235bef0530c19bdebfad9662651178a9df85de885b14580c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be792554e553ccc35dbec71d40ff304af76fafd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118029303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521089"
 ---
 # <a name="drm-versions"></a>Versions DRM
 

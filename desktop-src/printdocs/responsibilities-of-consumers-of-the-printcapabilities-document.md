@@ -4,12 +4,12 @@ ms.assetid: 2377763b-9b3b-49ec-ab6c-476b8009ddcb
 title: Responsabilités des consommateurs du document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49cd8f843bfa39a4313b0958fe9874f1263403e3fb3b2f22e2c965927bf6f25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec123509515de32b88c7352dcf0fc2c2b54504ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118470251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521393"
 ---
 # <a name="responsibilities-of-consumers-of-the-printcapabilities-document"></a>Responsabilités des consommateurs du document PrintCapabilities
 

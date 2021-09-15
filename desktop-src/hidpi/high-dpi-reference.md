@@ -5,11 +5,11 @@ ms.assetid: 07A2D45E-721C-4DA8-82A5-38B2FB94BC6D
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a9c6a9302541683dbf97c06194285f9e8cfcf3c0
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118414"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521497"
 ---
 # <a name="high-dpi-reference"></a>Référence haute résolution
 

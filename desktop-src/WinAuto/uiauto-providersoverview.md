@@ -18,17 +18,17 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 21f70a806fe33b16eed2555c123cc50f1f2b28da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939847"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520573"
 ---
 # <a name="ui-automation-providers-overview"></a>Vue d'ensemble des fournisseurs UI Automation
 
 Un fournisseur Microsoft UI Automation est un objet logiciel qui expose un élément de l’interface utilisateur d’une application de sorte que les applications clientes d’accessibilité puissent récupérer des informations sur l’élément et appeler ses fonctionnalités. En général, chaque contrôle ou autre élément distinct d’une interface utilisateur a un fournisseur.
 
-Microsoft propose un fournisseur pour chacun des contrôles standard fournis avec Microsoft Win32, Windows Forms et Windows Presentation Foundation (WPF). Cela signifie que les contrôles standard sont exposés automatiquement aux clients UI Automation. vous n’avez pas besoin d’implémenter d’interfaces d’accessibilité pour les contrôles standard.
+microsoft propose un fournisseur pour chacun des contrôles standard fournis avec Microsoft Win32, Windows Forms et Windows Presentation Foundation (WPF). Cela signifie que les contrôles standard sont exposés automatiquement aux clients UI Automation. vous n’avez pas besoin d’implémenter d’interfaces d’accessibilité pour les contrôles standard.
 
 Si votre application comprend des contrôles personnalisés, vous devez implémenter des fournisseurs UI Automation pour ces contrôles afin de les rendre accessibles aux applications clientes d’accessibilité. Vous devez également implémenter des fournisseurs pour les contrôles tiers qui n’incluent pas de fournisseur. Implémentez un fournisseur en implémentant des interfaces de fournisseur UI Automation et des interfaces de modèle de contrôle.
 
@@ -48,7 +48,7 @@ Les fournisseurs UI Automation se répartissent en deux catégories : les fourn
 
 Un fournisseur côté serveur est un objet, tel qu’un contrôle personnalisé, qui contient sa propre implémentation native des interfaces de fournisseur UI Automation pertinentes. Un fournisseur côté serveur communique avec les applications clientes à travers la limite de processus en exposant son implémentation des interfaces de fournisseur au noyau UI Automation, qui traite les demandes des clients. Pour plus d’informations sur les fournisseurs côté serveur, consultez [implémentation d’un fournisseur UI Automation Server-Side](uiauto-serversideprovider.md).
 
-Un fournisseur côté client, ou proxy, est un objet qui implémente des interfaces de fournisseur UI Automation pour le compte d’un contrôle ne comprend pas une implémentation complète de son propre fournisseur. Sans proxy, ce type de contrôle est largement opaque pour l’Automation d’interface utilisateur, qui peut fournir uniquement les informations de base disponibles à partir du handle de fenêtre (**HWND**), telles que l’emplacement du contrôle. En règle générale, les fournisseurs de proxy communiquent avec l’application à travers la limite de processus en envoyant et en recevant des messages Windows. Pour plus d’informations, consultez [implémentation d’un fournisseur UI Automation Client-Side (proxy)](uiauto-clientsideprovider.md).
+Un fournisseur côté client, ou proxy, est un objet qui implémente des interfaces de fournisseur UI Automation pour le compte d’un contrôle ne comprend pas une implémentation complète de son propre fournisseur. Sans proxy, ce type de contrôle est largement opaque pour l’Automation d’interface utilisateur, qui peut fournir uniquement les informations de base disponibles à partir du handle de fenêtre (**HWND**), telles que l’emplacement du contrôle. en règle générale, les fournisseurs de proxy communiquent avec l’application au-delà de la limite de processus en envoyant et en recevant des messages Windows. Pour plus d’informations, consultez [implémentation d’un fournisseur UI Automation Client-Side (proxy)](uiauto-clientsideprovider.md).
 
 ## <a name="ui-automation-provider-concepts"></a>Concepts de fournisseur UI Automation
 
@@ -72,7 +72,7 @@ Un client peut voir l’arborescence UI Automation dans trois vues principales, 
 
 
 
- 
+ 
 
 Il incombe à l’implémentation du fournisseur de définir un élément comme élément de contenu ou élément de contrôle. Les éléments de contrôle peuvent être ou non également des éléments de contenu, mais tous les éléments de contenu sont des éléments de contrôle.
 
@@ -100,7 +100,7 @@ L’hôte d’un fragment joue un rôle important dans la fourniture de services
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation d’un fournisseur UI Automation Client-Side](uiauto-clientsideprovider.md)
@@ -112,9 +112,9 @@ L’hôte d’un fragment joue un rôle important dans la fourniture de services
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

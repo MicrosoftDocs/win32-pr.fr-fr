@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe11a02eca9944ecb72b49d94606d26e437527e37d273b98fbc2e548751476c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 616bc4a4c6ba614d2780c55200476b2250432d46
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119584729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521013"
 ---
 # <a name="wmalbumartist"></a>WM/AlbumArtist
 
@@ -31,7 +31,7 @@ L’attribut **WM/AlbumArtist** contient le nom de l’artiste principal de l’
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour les albums où les pistes peuvent avoir des artistes différents, tels que des albums hommage ou des albums collaboratifs, cet attribut peut être utilisé pour spécifier l’artiste principal de l’album. Il est préférable d’utiliser cet attribut plutôt que d’utiliser la valeur auteur « divers artistes ».
 

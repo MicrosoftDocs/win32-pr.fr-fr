@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9b7de7dd1affb9100a29613e3b4186d3d5bdaa32d853e683579fdcc62e7f981f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7658aeef77a0f7e19f2449213e9332b4e60c9450
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117695620"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520333"
 ---
 # <a name="wm_pointerroutedto-message"></a>Message WM_POINTERROUTEDTO
 
@@ -52,17 +52,17 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 NULL
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message n’est pas envoyé lorsqu’un message de [**WM_POINTERDOWN**](wm-pointerdown.md) est publié pour un nouvel ID de pointeur sur un processus différent.
 
 Un message de [**WM_POINTERDOWN**](wm-pointerdown.md) n’est pas envoyé si un message **WM_POINTERROUTEDTO** est publié en premier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

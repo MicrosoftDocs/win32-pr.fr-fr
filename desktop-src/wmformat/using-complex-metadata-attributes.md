@@ -10,12 +10,12 @@ keywords:
 - attributs de métadonnées complexes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8245d2fbc07878a73e304cfc573e05e93b605185ece93655dae7a8bdeff0d9d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cd03c656a8cba5342d21e41932365455daa8bfa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521037"
 ---
 # <a name="using-complex-metadata-attributes"></a>Utilisation d’attributs de métadonnées complexes
 

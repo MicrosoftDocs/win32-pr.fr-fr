@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e60122b1108bda54d6e9b9c75145a283d1fae8a848bcd88bc42e827b9f4675fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed43ac1c8dc7313a29220d7f1db2e13e86ac4dc9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118776173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520456"
 ---
 # <a name="esentmissingfullbackupexception-constructor"></a>Constructeur EsentMissingFullBackupException
 
@@ -54,7 +54,7 @@ public EsentMissingFullBackupException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentMissingFullBackupException, classe](./esentmissingfullbackupexception-class.md)
 

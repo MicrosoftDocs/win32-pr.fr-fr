@@ -30,12 +30,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 0ae56ebfc016b0e4497db7cc998753189ce36a87962c0305962800ad133e8bca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21a4191aa09bcb0cb9fda1a4c9bc011d978e203a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118482035"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519957"
 ---
 # <a name="pointer-flags"></a>Indicateurs de pointeur
 
@@ -324,11 +324,11 @@ Indique que ce pointeur a une transformation associée.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 LE bouton XButton1 et XBUTTON2 sont des boutons supplémentaires utilisés sur de nombreux périphériques de souris. Elles retournent les mêmes données que les boutons de la souris standard.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: Vue d’ensemble du langage de requête de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 41e141c543cae90ff99d8c0509a0f5802dba1139
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885216"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521188"
 ---
 # <a name="metadata-query-language-overview"></a>Vue d’ensemble du langage de requête de métadonnées
 
@@ -231,7 +231,7 @@ Le tableau suivant est une définition formelle du langage de requête de métad
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

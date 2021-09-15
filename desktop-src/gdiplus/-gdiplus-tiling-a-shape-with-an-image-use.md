@@ -4,12 +4,12 @@ ms.assetid: c92aa519-647a-4cd9-b88e-b79be0116d05
 title: Mosaïque d’une forme avec une image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0fc04439db21191ddc110859ae628e975d50bf617db3da63189859070766b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 65c0b6e2ce39f5bf5c43b0352b8997202aa7e856
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520396"
 ---
 # <a name="tiling-a-shape-with-an-image"></a>Mosaïque d’une forme avec une image
 

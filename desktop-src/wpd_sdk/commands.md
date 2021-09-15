@@ -4,12 +4,12 @@ ms.assetid: f579745a-5327-4c8b-bfa7-fe81d9657a3b
 title: Commandes (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a723e9eff52bf0b0b301d1fba672db5887afebef701a312786aeafb4decb733f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 974c6b2b68949e53ae778ed56adcfcb10d2edd5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118431112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521001"
 ---
 # <a name="commands-wpd-api"></a>Commandes (API WPD)
 

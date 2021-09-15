@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 877a444897adc33bfdf72407a5e911fc74d4f3c94c36873222edb38023388028
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eac69ddaafe22bbbb1f12583317986f86978a709
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117713537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520693"
 ---
 # <a name="esentcolumnnotupdatableexception-constructor"></a>Constructeur EsentColumnNotUpdatableException
 
@@ -54,7 +54,7 @@ public EsentColumnNotUpdatableException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentColumnNotUpdatableException, classe](./esentcolumnnotupdatableexception-class.md)
 

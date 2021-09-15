@@ -4,12 +4,12 @@ description: Les rubriques de cette section fournissent les spécifications de r
 ms.assetid: 0123DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9f40132b1ee470daf6407a60f7c91dabc4486635910578a0534d001adce2cdce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb238dfc29a0c632a58bac99a9320dcbb399fcfc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519988"
 ---
 # <a name="pointer-input-messages-and-notifications-functions"></a>Messages d’entrée de pointeur et fonctions de notifications
 

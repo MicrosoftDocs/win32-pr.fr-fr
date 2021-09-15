@@ -9,12 +9,12 @@ keywords:
 - textes défilant dans les apparences, combinaisons de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d0d937d0ae2f90fe37ea8f4af1208443bbb127d622a83ecb5f556ddff596824
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5668a9e18555b871c82bae7ed1826766ec9429e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117933417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520617"
 ---
 # <a name="text-combinations"></a>Combinaisons de texte
 

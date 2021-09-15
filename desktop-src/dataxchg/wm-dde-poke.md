@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df1329c6667698a0b633deb2726c47469b515e8fcd78d735a3949e7c8e19a4dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 001697cbd5328b9c8d9eb72ebddff5f86ef6381c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520860"
 ---
 # <a name="wm_dde_poke-message"></a>Message d’échange de messages de l' \_ échange WM \_
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome global qui identifie l’élément de don
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="posting"></a>Publication
 
@@ -77,7 +77,7 @@ Pour libérer l’objet mémoire globale, le serveur doit appeler la fonction [*
 
 Pour libérer l’objet, le serveur doit appeler la fonction [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -126,7 +126,7 @@ Pour libérer l’objet, le serveur doit appeler la fonction [**FreeDDElParam**]
 [**\_ACK DDE \_ ACK**](wm-dde-ack.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

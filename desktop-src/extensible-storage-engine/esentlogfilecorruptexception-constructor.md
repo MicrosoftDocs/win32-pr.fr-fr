@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8b11e31a0b5fbcad79511457f6debc64859a890f71563d297763d43d8c80099
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc074602792f6d88dcc3c465174000595273232b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019590"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520460"
 ---
 # <a name="esentlogfilecorruptexception-constructor"></a>Constructeur EsentLogFileCorruptException
 
@@ -54,7 +54,7 @@ public EsentLogFileCorruptException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentLogFileCorruptException, classe](./esentlogfilecorruptexception-class.md)
 

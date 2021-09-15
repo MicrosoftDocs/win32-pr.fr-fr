@@ -14,12 +14,12 @@ keywords:
 - ASF (Advanced Systems Format), plusieurs objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54076df81e281bac2fc5d24e0dbdac661dafb51b5d0c65457921ea110ba80b8e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1deb11ee45e7a4b216940e1a272f71ad95bc34aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120007300"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521109"
 ---
 # <a name="advanced-topics"></a>Rubriques avancées
 

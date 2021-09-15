@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxva.h
-ms.openlocfilehash: 7dca1db868b4b268e71175f8f44aa198a6ebb45c8a14f8bfc1bec7044d5545f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89afef6f39b3aa196d8b1013e3d8873e329ce6ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119958209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521473"
 ---
 # <a name="idirect3dvideodevice9-interface"></a>Interface IDirect3DVideoDevice9
 
@@ -53,13 +53,13 @@ L’interface **IDirect3DVideoDevice9** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir un pointeur vers cette interface, appelez **QueryInterface** sur un pointeur [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) ou [**IDirect3DDevice9Ex**](/windows/win32/api/d3d9/nn-d3d9-idirect3ddevice9ex) .
 
 Cette interface prend en charge DXVA 1,0 uniquement. Elle ne prend pas en charge la 2,0 DXVA.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 65c9ac4d958f68aee8a958828c7cb54b5bec408afac1dfed8206ce6aa05dc4ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4392a3c36b31deb4071c215ad9b41e7f40c21ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119750449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520200"
 ---
 # <a name="d3dxcompileshaderfromfile-function"></a>D3DXCompileShaderFromFile fonction)
 
@@ -134,7 +134,7 @@ Retourne une interface [**ID3DXConstantTable**](id3dxconstanttable.md) , qui peu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -142,7 +142,7 @@ Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction �
 
 E \_ NOTIMPL est renvoyé si vous utilisez des nuanceurs 1,1 (vs \_ 1 \_ 1 et PS \_ 1 \_ 1).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

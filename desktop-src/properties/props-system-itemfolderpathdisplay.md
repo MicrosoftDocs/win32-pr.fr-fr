@@ -4,12 +4,12 @@ ms.assetid: 16f67edc-ca8a-4c2e-9d9b-be8600446e51
 title: System. ItemFolderPathDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8fd2288f12073fe8e36707bf49aca2bc5e000d0bbe25d95fba0736b4e77af44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c12909b29790ea2c016154cea9fccf7c53e45630
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119822339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521309"
 ---
 # <a name="systemitemfolderpathdisplay"></a>System. ItemFolderPathDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
@@ -41,7 +41,7 @@ Exemples de valeurs
 
 
 
-| Chemin                                   | ItemFolderPathDisplay    |
+| Chemin d’accès                                   | ItemFolderPathDisplay    |
 |----------------------------------------|--------------------------|
 | c : \\ fichiers \\ \\hello.txt personnels         | c : \\ fichiers \\ personnels      |
 | \\\\goodnews.doc du partage de serveur \\ \\ mydir \\ | \\\\\\mydir de partage de serveur \\ |

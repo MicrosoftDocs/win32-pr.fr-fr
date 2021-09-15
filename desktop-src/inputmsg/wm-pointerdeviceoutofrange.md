@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: ad1e9092f28851f24e11f07302e7794f610a1279956d591d16f64d481decf039
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c222d9a35cae89838d7b6e1d99dcecd11f85b54d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118067249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520365"
 ---
 # <a name="wm_pointerdeviceoutofrange-message"></a>Message WM_POINTERDEVICEOUTOFRANGE
 
@@ -55,13 +55,13 @@ Informations supplémentaires spécifiques au message.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

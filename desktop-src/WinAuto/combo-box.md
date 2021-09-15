@@ -4,12 +4,12 @@ description: Une zone de liste modifiable est une zone de liste associée à un 
 ms.assetid: 3fb2c0b0-507f-4520-845b-b3fbfd9e7b60
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea3a8d26fa5b8cb264c06e7aa64c672e0a80e8ada7e90a152b3b941ea207cade
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ce42bb3b0316b0fb2668fed23564b8f904fc793
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520904"
 ---
 # <a name="combo-box-msaa-ui-element-reference"></a>Zone de liste déroulante (référence des éléments d’interface utilisateur MSAA)
 
@@ -63,10 +63,10 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     | Partie de zone de liste déroulante   | Nœud                                                  |
     |------------------|----------------------------------------------------------------|
-    | Fenêtre de zone de liste déroulante | Aucun                                                           |
-    | Contrôle Edit     | Aucun                                                           |
+    | Fenêtre de zone de liste déroulante | None                                                           |
+    | Contrôle Edit     | None                                                           |
     | Flèche déroulante  | « Ouvrir » ou « fermer » en fonction de l’état de la liste déroulante |
-    | Zone de liste         | Aucun                                                           |
+    | Zone de liste         | None                                                           |
     | Élément de liste        | « Double-clic »                                                 |
 
     
@@ -82,10 +82,10 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
     | Partie de zone de liste déroulante   | KeyboardShortcut               |
     |------------------|--------------------------------|
     | Fenêtre de zone de liste déroulante | Clé d’accès de l’étiquette associée |
-    | Contrôle Edit     | Aucun                           |
+    | Contrôle Edit     | None                           |
     | Flèche déroulante  | « Alt + flèche bas »               |
-    | Zone de liste         | Aucun                           |
-    | Élément de liste        | Aucun                           |
+    | Zone de liste         | None                           |
+    | Élément de liste        | None                           |
 
     
 
@@ -95,7 +95,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
 -   [**obtenir \_ accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)— le tableau suivant présente la propriété **Name** pour les différentes parties d’une zone de liste déroulante. 
 
-    | Partie de zone de liste déroulante   | Name                                                           |
+    | Partie de zone de liste déroulante   | Nom                                                           |
     |------------------|----------------------------------------------------------------|
     | Fenêtre de zone de liste déroulante | Contrôle de texte statique utilisé comme étiquette                            |
     | Contrôle Edit     | Contrôle de texte statique utilisé comme étiquette                            |
@@ -158,9 +158,9 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
     |------------------|--------------------------------------|
     | Fenêtre de zone de liste déroulante | Texte de l’élément de liste actuellement sélectionné |
     | Contrôle Edit     | Texte de l’élément de liste actuellement sélectionné |
-    | Flèche déroulante  | Aucun                                 |
-    | Zone de liste         | Aucun                                 |
-    | Élément de liste        | Aucun                                 |
+    | Flèche déroulante  | None                                 |
+    | Zone de liste         | None                                 |
+    | Élément de liste        | None                                 |
 
     
 

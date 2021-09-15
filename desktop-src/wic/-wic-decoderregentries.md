@@ -5,18 +5,18 @@ title: Decoder-Specific les entrées de Registre
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 17485e7adca62abd31643d84d371a0002724ea9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521164"
 ---
 # <a name="decoder-specific-registry-entries"></a>Decoder-Specific les entrées de Registre
 
 
 Outre les entrées de Registre requises pour tous les encodeurs et décodeurs, les entrées de Registre suivantes sont requises spécifiquement pour les décodeurs.
 
-Ces entrées inscrivent votre décodeur sous la catégorie des décodeurs WIC (Windows Imaging Component). Le premier GUID dans ces entrées est l’identificateur de catégorie (CATID) pour [**WICBitmapDecoders**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder).
+ces entrées inscrivent votre décodeur sous la catégorie des décodeurs WIC (Windows Imaging Component). Le premier GUID dans ces entrées est l’identificateur de catégorie (CATID) pour [**WICBitmapDecoders**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder).
 
 ```
 HKEY_CLASSES_ROOT
@@ -28,7 +28,7 @@ HKEY_CLASSES_ROOT
                FriendlyName = {Name of Decoder}
 ```
 
-Comme indiqué dans la section [découverte et arbitrage](-wic-howwicworks.md) du fonctionnement du composant Windows Imaging, le mécanisme qui permet à un décodeur approprié pour une image spécifique d’être découvert au moment de l’exécution est basé sur la mise en correspondance d’un modèle d’identification incorporé dans le fichier image avec un modèle spécifié dans l’entrée de Registre du décodeur. Pour activer la découverte des décodeurs au moment de l’exécution, vous devez inscrire le modèle d’identification unique pour votre format d’image comme suit. Toutes ces entrées de Registre sont requises, à l’exception de l’entrée **EndOfStream** , qui est facultative, comme décrit dans le tableau suivant.
+comme indiqué dans la section [découverte et arbitrage](-wic-howwicworks.md) du fonctionnement du composant de création d’images Windows, le mécanisme qui permet à un décodeur approprié pour une image spécifique d’être découvert au moment de l’exécution est basé sur la mise en correspondance d’un modèle d’identification incorporé dans le fichier image avec un modèle spécifié dans l’entrée de registre du décodeur. Pour activer la découverte des décodeurs au moment de l’exécution, vous devez inscrire le modèle d’identification unique pour votre format d’image comme suit. Toutes ces entrées de Registre sont requises, à l’exception de l’entrée **EndOfStream** , qui est facultative, comme décrit dans le tableau suivant.
 
 ```
 HKEY_CLASSES_ROOT
@@ -95,19 +95,19 @@ HKEY_CLASSES_ROOT
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrées de Registre spécifiques à l’encodeur](-wic-encoderregentries.md)
 </dt> <dt>
 
-[Intégration à la Galerie de photos Windows et à l’Explorateur Windows](-wic-integrationregentries.md)
+[intégration avec Windows galerie de photos et l’explorateur de Windows](-wic-integrationregentries.md)
 </dt> <dt>
 
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Écriture d’un fournisseur d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c04abf060ef5316790b04682430abd92d0a6bea31175f0e192fc7f73d047633d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb118d89f214e9fc651c1c9d93abfcfe43f49fc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520521"
 ---
 # <a name="writing-an-event-provider"></a>Écriture d’un fournisseur d’événements
 

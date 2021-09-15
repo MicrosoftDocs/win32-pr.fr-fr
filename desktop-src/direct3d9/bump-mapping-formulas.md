@@ -4,12 +4,12 @@ ms.assetid: ae1de432-d1cc-45a5-b25f-b669cd30af3b
 title: Formules de mappage de relief (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86035a28966c841f7d593cb46c7c7d969f7b2addaacb6cf43e25ceebdca83ff2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 436aee9689d78b8b706bb98d908f2e3fbc05ca6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118805852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520793"
 ---
 # <a name="bump-mapping-formulas-direct3d-9"></a>Formules de mappage de relief (Direct3D 9)
 

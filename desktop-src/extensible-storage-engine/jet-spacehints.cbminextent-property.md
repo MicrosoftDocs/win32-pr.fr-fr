@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4ed9224bcc54c0ad41047570deaf186a95f6bd3d69a031bb607ca3b02e13420c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 327763a44a40d7cc4ea55ed831fcc7c7ae948b50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119729419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520408"
 ---
 # <a name="jet_spacehintscbminextent-property"></a>JET_SPACEHINTS. cbMinExtent, propriété
 
@@ -66,7 +66,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SPACEHINTS](./jet-spacehints-class.md)
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a432f1df1ad905ca3200789aa6245212cc180d4c7ef5a8723cf02695aeeb7454
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 351ecb8022e06b1a5a24abad8fa8541798d13ba0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118294034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520156"
 ---
 # <a name="id3dxprtenginecomputeldprtcoeffs-method"></a>ID3DXPRTEngine :: ComputeLDPRTCoeffs, méthode
 
@@ -79,7 +79,7 @@ Pointeur vers un objet [**ID3DXPRTBuffer**](id3dxprtbuffer.md) de sortie qui con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -91,7 +91,7 @@ Les solutions pour les vecteurs normaux d’ombrage peuvent éventuellement êtr
 
 Cette méthode ne peut pas être utilisée avec les résultats de [**ID3DXPRTEngine :: ComputeSurfSamplesBounce**](id3dxprtengine--computesurfsamplesbounce.md) ou [**ID3DXPRTEngine :: ComputeSurfSamplesDirectSH**](id3dxprtengine--computesurfsamplesdirectsh.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

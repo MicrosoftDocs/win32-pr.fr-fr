@@ -4,12 +4,12 @@ description: En savoir plus sur le protocole EAP (Extensible Authentication Prot
 ms.assetid: 2669c858-c4cc-4319-a29c-93fe2fe67f41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9323109f850d4782a5aed644f5a3fdfece42ac2ea122de4399ca584dd15299c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29f6e087a96adff43e5c8300ae68e7c0980d4fa4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520121"
 ---
 # <a name="about-eap-and-eaphost"></a>À propos d’EAP et d’EAPHost
 

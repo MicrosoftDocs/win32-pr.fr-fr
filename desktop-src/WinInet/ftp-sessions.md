@@ -4,12 +4,12 @@ description: WinINet permet aux applications de parcourir et de manipuler des r√
 ms.assetid: 23763672-765f-4bbc-95c9-c28775e91f3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70942fea5865fa96c9ee81ab996238e3f382471a701ac44969d1ff8797c8780d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8310c2b83b81fc18b84d39153ed3dc7afda0df5a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118113970"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520892"
 ---
 # <a name="ftp-sessions"></a>Sessions FTP
 

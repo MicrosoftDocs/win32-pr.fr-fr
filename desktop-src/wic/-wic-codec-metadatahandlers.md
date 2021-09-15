@@ -4,12 +4,12 @@ ms.assetid: 08f1872b-6e4d-44ee-abc7-48685e435acc
 title: Vue d’ensemble de l’extensibilité des métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d38206fb02c47edbe9744deb6ceb0093277d8354f8717aa89c3f1976bdeb51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6576585f7f35628432504086695dd6c64091d3b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119088171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521189"
 ---
 # <a name="metadata-extensibility-overview"></a>Vue d’ensemble de l’extensibilité des métadonnées
 
@@ -475,7 +475,7 @@ Ainsi, pour écrire un lecteur de métadonnées 8BIM pour les informations de r�
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

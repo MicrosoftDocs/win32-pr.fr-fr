@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3283fd1e28ce7702b98f9545ece5f094ce2eb4ae4e9fa15649cadbf3903da2cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1630ecc3cea33af09c0c81be69beb9a852609f32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119040477"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520661"
 ---
 # <a name="esentnotintransactionexception-class"></a>EsentNotInTransactionException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentNotInTransactionException](./esentnotintransactionexception-members.md)
 

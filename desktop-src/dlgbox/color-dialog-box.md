@@ -22,12 +22,12 @@ keywords:
 - boîtes de dialogue, couleur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2bdfb1543de80ac105d4a6012a0c95ff46cd8da1fef204ed573d14d05a6dfe9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4bb90150f49ea7bed4edac53af40ba89e0459946
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520144"
 ---
 # <a name="color-dialog-box"></a>Boîte de dialogue Couleur
 
@@ -126,7 +126,7 @@ Le tableau suivant répertorie les huit couleurs du modèle RGB et leurs valeurs
 | Bleu    | 0, 0, 255     |
 | Cyan    | 0, 255, 255   |
 | Magenta | 255, 0, 255   |
-| Yellow  | 255, 255, 0   |
+| Jaune  | 255, 255, 0   |
 | Blancs   | 255, 255, 255 |
 | Noir   | 0, 0, 0       |
 
@@ -157,10 +157,10 @@ La procédure de boîte de dialogue fournie dans Comdlg32.dll de la boîte de di
 | Couleur   | valeurs HSL      | Valeurs RVB      |
 |---------|-----------------|-----------------|
 | Rouge     | (0, 240, 120)   | (255, 0, 0)     |
-| Yellow  | (40, 240, 120)  | (255, 255, 0)   |
+| Jaune  | (40, 240, 120)  | (255, 255, 0)   |
 | Vert   | (80, 240, 120)  | (0, 255, 0)     |
 | Cyan    | (120, 240, 120) | (0, 255, 255)   |
-| Bleu    | (160, 240, 120) | (0, 0, 255)     |
+| Blue    | (160, 240, 120) | (0, 0, 255)     |
 | Magenta | (200, 240, 120) | (255, 0, 255)   |
 | Blancs   | (0, 0, 240)     | (255, 255, 255) |
 | Noir   | (0, 0, 0)       | (0, 0, 0)       |

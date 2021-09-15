@@ -4,12 +4,12 @@ ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 title: Vue d’ensemble des formats de pixel natifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 379e67d422ccbd05ef178e67eb25c973e6b5943ef85d22873097f245f8914a23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4df37481399ac8193effc5d8f93aa49050460ee6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118206337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521185"
 ---
 # <a name="native-pixel-formats-overview"></a>Vue d’ensemble des formats de pixel natifs
 
@@ -604,7 +604,7 @@ Les formats d’image personnalisés peuvent utiliser des formats de pixel qui n
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

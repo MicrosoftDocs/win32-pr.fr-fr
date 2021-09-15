@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_INITIATE (DDE. h)
-description: Une application cliente échange dynamique de données (DDE) envoie un \_ message de lancement de l’échange de messages (DDE) WM \_ pour initier une conversation avec une application serveur qui répond aux noms d’application et de rubrique spécifiés.
+description: une application cliente échange dynamique de données (dde) envoie un \_ message de lancement de l’échange de messages (dde) WM \_ pour initier une conversation avec une application serveur qui répond aux noms d’application et de rubrique spécifiés.
 ms.assetid: d486f584-75a3-4ffd-ba5d-f95f2692cd6c
 keywords:
-- WM_DDE_INITIATE l’échange de données de message
+- WM_DDE_INITIATE des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bf65e222c7711d429db44e391d4f03c35997e219
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386726"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520861"
 ---
 # <a name="wm_dde_initiate-message"></a>\_Message de lancement DDE de WM \_
 
-Une application cliente échange dynamique de données (DDE) envoie un message de **\_ \_ lancement** de l’échange de messages (DDE) WM pour initier une conversation avec une application serveur qui répond aux noms d’application et de rubrique spécifiés. Lors de la réception de ce message, toutes les applications serveur avec des noms qui correspondent à l’application spécifiée et qui prennent en charge la rubrique spécifiée sont censées la reconnaître. (Pour plus d’informations, consultez le message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE de WM.)
+une application cliente échange dynamique de données (dde) envoie un message de **\_ \_ lancement** de l’échange de messages (dde) WM pour initier une conversation avec une application serveur qui répond aux noms d’application et de rubrique spécifiés. Lors de la réception de ce message, toutes les applications serveur avec des noms qui correspondent à l’application spécifiée et qui prennent en charge la rubrique spécifiée sont censées la reconnaître. (Pour plus d’informations, consultez le message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE de WM.)
 
 
 ```C++
@@ -52,7 +52,7 @@ Le mot de poids fort contient un atome qui identifie la rubrique pour laquelle u
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le mot de poids faible de *lParam* est **null**, toute application serveur peut répondre. Si le mot de poids fort de *lParam* est **null**, toute rubrique est valide. Lors de la réception d’une requête de **\_ \_ lancement DDE WM** avec le mot de poids fort du paramètre *lParam* défini sur **null**, un serveur doit envoyer un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE pour chacune des rubriques qu’il prend en charge.
 
@@ -74,11 +74,11 @@ Pour terminer l’initiation d’une conversation, l’application serveur doit 
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 
@@ -86,7 +86,7 @@ Pour terminer l’initiation d’une conversation, l’application serveur doit 
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)
@@ -101,7 +101,7 @@ Pour terminer l’initiation d’une conversation, l’application serveur doit 
 [**\_ACK DDE \_ ACK**](wm-dde-ack.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

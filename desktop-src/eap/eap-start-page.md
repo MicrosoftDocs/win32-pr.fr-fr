@@ -9,12 +9,12 @@ keywords:
 - EAP, voir protocole EAP (Extensible Authentication Protocol)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cd54a380323fdf5a04add7f28fe18378be8ed375e936c70d2045f2e139ff852
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c79b9585363d74eb50190d0fd6355830a7087aa4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520120"
 ---
 # <a name="extensible-authentication-protocol"></a>Protocole EAP (Extensible Authentication Protocol)
 

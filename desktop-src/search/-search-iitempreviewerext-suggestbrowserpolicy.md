@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 84446b49ab723f161de8f148e95916202efe06176191e820ab8bafc88ed9158a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a4f248edbfa4a1779016e40d73051d8c1d9acac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118969758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525432"
 ---
 # <a name="iitempreviewerextsuggestbrowserpolicy-method"></a>IItemPreviewerExt :: SuggestBrowserPolicy, méthode
 
@@ -57,13 +57,13 @@ Pointeur vers une valeur DWORD contenant des indicateurs de contrôle de vérifi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’interface [**IItemPreviewerExt**](-search-iitempreviewerext.md) est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
@@ -71,7 +71,7 @@ pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole t
 
 Il est fortement recommandé d’utiliser l’indicateur de **\_ \_ contenu non approuvé BROWSERPOLICY** pour désactiver toute possibilité d’exécution d’un script ou d’un ActiveX. La méthode **IItemPreviewerExt :: SuggestBrowserPolicy** peut retourner des informations indiquant si l’aperçu de l’élément est approuvé ou non. cela permet au contrôle de l’écran trident d’exécuter le script et même de ActiveX contrôles. Étant donné que le générateur d’aperçu utilise souvent des fichiers temporaires pour générer la version préliminaire, cela peut entraîner l’exécution d’un script et d’une exécution de code inattendus dans la zone de l’ordinateur local.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

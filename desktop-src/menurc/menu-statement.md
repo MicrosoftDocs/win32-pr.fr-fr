@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9fd5c4af5b25273914a506afdfd0e3920f00c7ad
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106511662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521441"
 ---
 # <a name="menu-statement"></a>MENU (instruction)
 
@@ -44,9 +44,9 @@ L’exemple suivant illustre l’utilisation de l’instruction de boîte de dia
 MENU errmenu
 ```
 
- 
+ 
 
- 
+ 
 
 
 

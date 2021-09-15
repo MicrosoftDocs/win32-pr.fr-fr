@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 5020494658f380abc465a9059544131174edc8c417f69f6322636e6c9d4170d2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd816e1dc4ce9c3cbb1fb3c0b118004983baea54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119703979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520976"
 ---
 # <a name="wpd_command_object_properties_get_supported-command"></a>Propriétés de l' \_ objet de commande wpd \_ recevoir une \_ \_ \_ commande prise en charge
 
@@ -48,17 +48,17 @@ Le pilote doit renvoyer les résultats suivants.
 
 
 
-| Résultat                                                | VarType         | Description                                                                                                                                                                                                                                                                                                                                            |
+| Résultats                                                | VarType         | Description                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Propriétés de l’objet de propriété WPD, \_ \_ \_ clés de \_ propriété \_** | **VT \_ inconnu** | Obligatoire. Interface [**IPortableDeviceKeyCollection**](iportabledevicekeycollection.md) qui spécifie toutes les propriétés prises en charge.                                                                                                                                                                                                            |
 | **\_valeur courante de la propriété wpd \_ \_ HRESULT**                    | **\_erreur VT**   | Obligatoire. Valeur **HRESULT** qui indique la réussite ou l’échec global. les valeurs possibles des résultats incluent [Windows les codes d’erreur des appareils mobiles](error-constants.md). Si l’appelant effectue une demande non valide, le pilote doit retourner **HRESULT \_ à partir de \_ Win32 (erreur \_ non \_ prise en charge)** , mais il n’est pas nécessaire de retourner une autre valeur de résultat. |
-| **\_code d' \_ \_ Erreur du pilote commun \_ \_ de la propriété wpd**        | **VT \_ UI4**     | Facultatif. Code d’erreur spécifique au pilote. Cela est généralement utilisé uniquement pour le test des pilotes, ou si le pilote, le périphérique et le client sont tous conçus ensemble.                                                                                                                                                                                                |
+| **\_code d' \_ \_ Erreur du pilote commun \_ \_ de la propriété wpd**        | **VT \_ UI4**     | facultatif. Code d’erreur spécifique au pilote. Cela est généralement utilisé uniquement pour le test des pilotes, ou si le pilote, le périphérique et le client sont tous conçus ensemble.                                                                                                                                                                                                |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bff0516353468733ef5c834d51dddc7bbc85e322d98b82929e092913bc375a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af378671a570dd9ffc58021081b3925d3dca21af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117845850"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521052"
 ---
 # <a name="signature_name"></a>Nom de la signature \_
 
@@ -31,7 +31,7 @@ L' **attribut \_ nom** de la signature contient le nom du certificat utilisé po
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut codé.
 

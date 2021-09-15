@@ -4,12 +4,12 @@ description: Fonctions clientes
 ms.assetid: c6d3577c-6975-4708-a1bd-ee70992f851d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3d5a2c8b20008dd179c12d3f81eb9d40e70cb9639e0d90dd9b3532ad5cba15
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33a6adcd085a35a7eaabc5fecca0b04246825007
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520909"
 ---
 # <a name="client-functions"></a>Fonctions clientes
 

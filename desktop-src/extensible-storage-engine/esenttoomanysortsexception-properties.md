@@ -8,11 +8,11 @@ ms:contentKeyID: 55103115
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: c1fc539ad1cddd3117c77a883deb4466f8c6cbd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520425"
 ---
 # <a name="esenttoomanysortsexception-properties"></a>Propriétés EsentTooManySortsException
 
@@ -49,7 +49,7 @@ Le type [EsentTooManySortsException](./esenttoomanysortsexception-class.md) expo
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -69,7 +69,7 @@ Le type [EsentTooManySortsException](./esenttoomanysortsexception-class.md) expo
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentTooManySortsException, classe](./esenttoomanysortsexception-class.md)
 

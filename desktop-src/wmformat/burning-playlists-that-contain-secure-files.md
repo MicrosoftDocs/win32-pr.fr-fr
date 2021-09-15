@@ -15,12 +15,12 @@ keywords:
 - DRM (gestion des droits numériques), sélections avec des fichiers sécurisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d43cfbf3bb6e8ce4bac5cc1006fe73292988547ef2fc35289a4ced13e6f0d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 214c1dbd4ee08f90b3e5e8aa6186508af5044f29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521097"
 ---
 # <a name="burning-playlists-that-contain-secure-files"></a>Gravure de playlists contenant des fichiers sécurisés
 

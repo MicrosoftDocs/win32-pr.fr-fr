@@ -3,7 +3,7 @@ title: DropDownGallery. MenuGroups, propriété
 description: Représente un conteneur pour un ensemble d’éléments de menu déroulants dans un contrôle de Galerie de Drop-Down.
 ms.assetid: 594f6ae5-760e-456d-98cd-04ecae0bae99
 keywords:
-- Ruban Windows de la propriété DropDownGallery. MenuGroups
+- DropDownGallery. MenuGroups, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,17 +13,17 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 67fcaeb81020cf4c317bf065c25a770d2a77e21f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510564"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521156"
 ---
 # <a name="dropdowngallerymenugroups-property"></a>DropDownGallery. MenuGroups, propriété
 
 Représente un conteneur pour un ensemble d’éléments de menu déroulants dans un contrôle de [Galerie](windowsribbon-controls-dropdowngallery.md) déroulante.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <DropDownGallery.MenuGroups>
@@ -96,14 +96,14 @@ Cette section de code illustre la déclaration de contrôle **DropDownGallery. M
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

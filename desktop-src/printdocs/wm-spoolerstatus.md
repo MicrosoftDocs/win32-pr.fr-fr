@@ -4,12 +4,12 @@ ms.assetid: 6140c9d8-0e5b-49f2-a4a6-cc1f2a0bed0a
 title: Message WM_SPOOLERSTATUS (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee2869c468517abf466b348583748e391fc1f2a4226c74b5811fffabdb5eeb89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 460e36e44f219bcbe6f514d7d368accddae46b83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119460339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521388"
 ---
 # <a name="wm_spoolerstatus-message"></a>\_Message WM SPOOLERSTATUS
 
@@ -47,17 +47,17 @@ Le mot de poids faible spécifie le nombre de travaux restant dans la file d’a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est fourni à titre d’information uniquement. Ce message est un avis et n’a pas de sémantique de remise garantie. Les applications ne doivent pas supposer qu’elles recevront un \_ message WM SPOOLERSTATUS pour chaque modification de l’état du spouleur.
 
 le \_ message WM SPOOLERSTATUS n’est pas pris en charge après Windows XP. Pour être averti des modifications apportées à l’état de la file d’attente à l’impression, vous pouvez utiliser [**FindFirstPrinterChangeNotification**](findfirstprinterchangenotification.md) et [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - flux, extensions d’unité de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1bb88e9aa0c3bc00d4c21a1c262b7ff4a44fbc2f426f139b3b782a0bbdb7b83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 822a05a6e6bcbb9f0101d32eed05f2b6c5c68dc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197481"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521053"
 ---
 # <a name="setting-data-unit-extensions"></a>Définition des extensions d’unité de données
 

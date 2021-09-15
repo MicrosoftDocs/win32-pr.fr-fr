@@ -4,12 +4,12 @@ description: l’API des Services Web Windows comprend les macros WS \_ string \
 ms.assetid: 21be7332-130e-4f8a-b883-1a27674c0d30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eacd7c2e42aabd7fddfb759638be607d065414aa4b7d994b320198da77156a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca5532269f0b2a894c672cf451f479f6083a7d23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520956"
 ---
 # <a name="windows-web-services-macros"></a>Windows Macros de services Web
 

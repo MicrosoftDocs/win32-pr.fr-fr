@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101514
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 98664a143ab30ec64bb6932101b6f6714625beb10583d83833bf3ea582d33f69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97d2aff6980b7419ff947d799177fcefa9cd9391
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118270244"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520689"
 ---
 # <a name="esentdiskexception-methods"></a>Méthodes EsentDiskException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDiskException, classe](./esentdiskexception-class.md)
 

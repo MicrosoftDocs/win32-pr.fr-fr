@@ -12,11 +12,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7f8ae2d51a222e3833d0dd95fa6c048114a370a6
-ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113353622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520545"
 ---
 # <a name="ui-automation-text-attributes"></a>Attributs de texte UI Automation
 
@@ -219,7 +219,7 @@ Les informations relatives à la sélection de texte en cours dans la plage et l
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos du texte UI Automation et des modèles de contrôle TextRange](uiauto-about-text-and-textrange-patterns.md)

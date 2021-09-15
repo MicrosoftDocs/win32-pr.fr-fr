@@ -4,12 +4,12 @@ ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: Schéma PrintTicket et construction de document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bd6de44ad04e9e39a516af0842bfaaca5b081191cb322b2f3a96f919590c64c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5998aeb534bbbeb16681a4136cf33425a7eefad7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521404"
 ---
 # <a name="printticket-schema-and-document-construction"></a>Schéma PrintTicket et construction de document
 

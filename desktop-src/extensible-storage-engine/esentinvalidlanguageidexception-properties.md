@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101970
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2d1bfa93df2bcf11a8bbfa7090c046192c032fa37b041c07135ae7b218280189
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b3c1f80a121ef443cab06ce3965045a5f505793
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118778091"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520681"
 ---
 # <a name="esentinvalidlanguageidexception-properties"></a>Propriétés EsentInvalidLanguageIdException
 
@@ -69,7 +69,7 @@ Le type [EsentInvalidLanguageIdException](./esentinvalidlanguageidexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentInvalidLanguageIdException, classe](./esentinvalidlanguageidexception-class.md)
 

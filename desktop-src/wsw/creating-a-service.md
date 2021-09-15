@@ -4,12 +4,12 @@ description: La création d’un service Web est considérablement simplifiée d
 ms.assetid: 3536d1c6-6179-4f69-9cc8-27fe6ae30826
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93f6daadbfcd1d06f76bf5bef97559214e36015d3f72ff440e77f4293a47ea57
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f4700324a84962047f403ca7ad090adc3e9f4e99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520961"
 ---
 # <a name="creating-a-service"></a>Création d'un service
 

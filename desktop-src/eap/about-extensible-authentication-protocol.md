@@ -6,12 +6,12 @@ keywords:
 - Protocole EAP (Extensible Authentication Protocol), décrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84866f7f550213850bf95c39a6f0847df31bed3550db66139f2ec30bf921b5a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e631299c9e57a233794dde8bf205d98b8c91b76c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118276042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520132"
 ---
 # <a name="about-eap"></a>À propos d’EAP
 

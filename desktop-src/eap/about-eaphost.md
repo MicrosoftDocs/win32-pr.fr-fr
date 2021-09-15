@@ -4,12 +4,12 @@ description: Décrit la relation entre le protocole EAP (Extensible Authenticati
 ms.assetid: 7f585fc6-71ed-4a64-88a7-6acb1550e825
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccadeb066475f3ca88c9d3e5754ac3ac2967025eb70e539064b9da1704b6beb3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 13c888a6e21992b95ea10f83175c5766246b7aaf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520133"
 ---
 # <a name="learn-about-the-eap-and-eaphost-relationship"></a>En savoir plus sur la relation EAP et EAPHost
 

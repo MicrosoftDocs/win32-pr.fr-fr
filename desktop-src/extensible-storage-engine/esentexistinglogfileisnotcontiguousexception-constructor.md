@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8efd2957606e5d042cca71aedd08891bfe784e0f1e4bc46a01714d5d27eed4e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f42b5dcf5d42bf1ee41c748b918ce46117c9b6d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118082049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520685"
 ---
 # <a name="esentexistinglogfileisnotcontiguousexception-constructor"></a>Constructeur EsentExistingLogFileIsNotContiguousException
 
@@ -54,7 +54,7 @@ public EsentExistingLogFileIsNotContiguousException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentExistingLogFileIsNotContiguousException, classe](./esentexistinglogfileisnotcontiguousexception-class.md)
 

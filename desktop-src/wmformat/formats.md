@@ -17,12 +17,12 @@ keywords:
 - ASF (format des systèmes avancés), formats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a10f217b9935926d7bd7d5cba9ac53e6834385685e4a0f87ea6ba713cc8ff70b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8e7895c27af3eb99e96d7009b79ea8df0011208
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120089689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521076"
 ---
 # <a name="formats"></a>Formats
 

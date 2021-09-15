@@ -18,12 +18,12 @@ keywords:
 - API étendues du client, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d48153b3956bd76e8000db909f0e7ec791611fa66d3b50988bd15a8c679ebbcc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01c33ef3649f2cda63713ebd22a0116fdd025144
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117844892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521021"
 ---
 # <a name="windows-media-drm-client-extended-apis"></a>Windows API étendues du client DRM Media
 

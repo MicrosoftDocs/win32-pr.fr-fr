@@ -4,12 +4,12 @@ ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
 title: Services Bureau à distance (Windows 7 et Windows Server 2008 R2 livre de recettes sur la qualité des applications)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10af070d54dceebe51f9872b3b58c42467040d5ad8f24f593774576b159cbbf0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 725844d49f465c3c79dbc19fd01ec0f18b09759e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119645739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520588"
 ---
 # <a name="remote-desktop-services-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>Services Bureau à distance (Windows 7 et Windows Server 2008 R2 livre de recettes sur la qualité des applications)
 
@@ -41,7 +41,7 @@ les Applications écrites pour le serveur 32 bits s’exécuteront en mode WoW e
 
 La plupart des applications écrites pour 32 bits continuent de fonctionner normalement en mode WoW. toutes les nouvelles applications écrites pour Windows 7 Services Bureau à distance doivent être développées et testées pour le déploiement sur les plateformes 64 bits.
 
-**Virtualisation IP**
+**Virtualisation IP**
 
 Virtualisation IP des services Bureau à distance permet à l’utilisateur d’attribuer des adresses IP à des connexions Bureau à distance par session ou par programme :
 

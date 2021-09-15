@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7cfa436619a376eaf362ab697fc8944f1806a6df91feacc7c399047dd0ba935a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbf3dbcc7141b3358d62414f089865ee6f29dc2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119038537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520084"
 ---
 # <a name="windows7parammaxcoalescereadgapsize-field"></a>Champ Windows7Param. MaxCoalesceReadGapSize
 
@@ -55,7 +55,7 @@ public const JET_param MaxCoalesceReadGapSize
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows7Param, classe](./windows7param-class.md)
 

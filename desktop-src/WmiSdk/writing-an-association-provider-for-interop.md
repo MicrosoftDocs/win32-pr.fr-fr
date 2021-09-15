@@ -6,11 +6,11 @@ title: Écriture d’un fournisseur d’association pour l’interopérabilité
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 57ef4e73c35c942e56b2636b7fced4c7e468e120
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122887437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520524"
 ---
 # <a name="writing-an-association-provider-for-interop"></a>Écriture d’un fournisseur d’association pour l’interopérabilité
 
@@ -87,7 +87,7 @@ Windows WMI (Management Instrumentation) charge le fournisseur d’associations 
 
     2.  Écrivez un fournisseur qui retourne des instances de la classe dérivée créée. Pour plus d’informations, consultez [écriture d’un fournisseur d’instances](writing-an-instance-provider.md). Lorsque vous accédez à des instances de plusieurs espaces de noms, vous devrez peut-être accéder aux niveaux de sécurité du client. Pour plus d’informations, consultez [emprunt d’identité d’un client](impersonating-a-client.md).
 
-        Le fournisseur d’associations doit implémenter à la fois les méthodes [**IWbemServices. CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) et [**IWbemServices. GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) . L’implémentation de la méthode [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) est facultative. Étant donné que ce fournisseur est accessible à la fois à partir de l' \\ interopérabilité racine et des \\ &lt; espaces de noms implémentés racine &gt; , il ne doit pas exister de dépendance explicite sur un espace de noms à l’intérieur du fournisseur.
+        Le fournisseur d’associations doit implémenter à la fois les méthodes [**IWbemServices. CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) et [**IWbemServices. GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) . L’implémentation de la méthode [**IWbemServices. ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) est facultative. Étant donné que ce fournisseur est accessible à la fois à partir de l' \\ interopérabilité racine et des \\ &lt; espaces de noms implémentés racine &gt; , il ne doit pas exister de dépendance explicite sur un espace de noms à l’intérieur du fournisseur.
 
 3.  Inscrivez le fournisseur d’associations à la fois dans l' \\ interopérabilité racine et dans les \\ &lt; espaces de noms implémentés racine &gt; . Pour plus d’informations, consultez [inscription d’un fournisseur d’instances](registering-an-instance-provider.md).
 
@@ -134,7 +134,7 @@ Windows WMI (Management Instrumentation) charge le fournisseur d’associations 
 4.  Placez le schéma pour le [**\_ ElementConformsToProfile CIM**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) dans l’espace de noms implémenté. pour Windows clients, il s’agit du fichier interop. mof qui se trouve dans le dossier% systemroot% \\ system32 \\ wbem.
 5.  Implémentez l’interface [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) pour votre fournisseur.
 
-    WMI utilise [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) pour charger et initialiser un fournisseur. La méthode [**IWbemProviderInit.Initialize**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize) doit être implémentée d’une manière qui lui permet d’être appelée pour deux espaces de noms différents. Pour plus d’informations, consultez [initialisation d’un fournisseur](initializing-a-provider.md).
+    WMI utilise [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) pour charger et initialiser un fournisseur. La méthode [**IWbemProviderInit. Initialize**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize) doit être implémentée d’une manière qui lui permet d’être appelée pour deux espaces de noms différents. Pour plus d’informations, consultez [initialisation d’un fournisseur](initializing-a-provider.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

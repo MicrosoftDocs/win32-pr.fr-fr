@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60421d4278c4817f9b02811369fb7937a5f67aa734c6fae0c0c280d2edcf3d4d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 49df5f2dacc9bfd51f6673823ecc8a0961007c07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120068179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520152"
 ---
 # <a name="intrinsic-functions"></a>Fonctions intrinsèques
 
@@ -64,7 +64,7 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**DeviceMemoryBarrierWithGroupSync**](devicememorybarrierwithgroupsync.md)            | Bloque l’exécution de tous les threads dans un groupe jusqu’à ce que tous les accès à la mémoire de l’appareil aient été effectués et que tous les threads du groupe aient atteint cet appel.            | 5                    |
 | [**distance**](dx-graphics-hlsl-distance.md)                                           | Retourne la distance entre deux points.                                                                                                                        | 1 ¹                   |
 | [**cédé**](dx-graphics-hlsl-dot.md)                                                     | Retourne le produit scalaire de deux vecteurs.                                                                                                                         | 1                    |
-| [**dst**](dst.md)                                                                      | Calcule un vecteur de distance.                                                                                                                                   | 5                    |
+| [**destination**](dst.md)                                                                      | Calcule un vecteur de distance.                                                                                                                                   | 5                    |
 | [**errorf**](errorf.md)                                                                | Envoie un message d’erreur à la file d’attente d’informations.                                                                                                              | 4                    |
 | [**EvaluateAttributeAtCentroid**](evaluateattributeatcentroid.md)                      | Évalue au centre de gravité du pixel.                                                                                                                                | 5                    |
 | [**EvaluateAttributeAtSample**](evaluateattributeatsample.md)                          | Évalue à l’emplacement de l’exemple indexé.                                                                                                                       | 5                    |
@@ -106,13 +106,13 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**log10**](dx-graphics-hlsl-log10.md)                                                 | Retourne le logarithme en base 10 de x.                                                                                                                             | 1 ¹                   |
 | [**Log2**](dx-graphics-hlsl-log2.md)                                                   | Retourne le logarithme de base 2 de x.                                                                                                                              | 1 ¹                   |
 | [**Mad**](mad.md)                                                                      | Effectue une opération de multiplication/ajout arithmétique sur trois valeurs.                                                                                                  | 5                    |
-| [**Max**](dx-graphics-hlsl-max.md)                                                     | Sélectionne la valeur supérieure de x et y.                                                                                                                                 | 1 ¹                   |
-| [**min**](dx-graphics-hlsl-min.md)                                                     | Sélectionne le plus petit de x et y.                                                                                                                                  | 1 ¹                   |
+| [**max**](dx-graphics-hlsl-max.md)                                                     | Sélectionne la valeur supérieure de x et y.                                                                                                                                 | 1 ¹                   |
+| [**minute(s)**](dx-graphics-hlsl-min.md)                                                     | Sélectionne le plus petit de x et y.                                                                                                                                  | 1 ¹                   |
 | [**modf,**](dx-graphics-hlsl-modf.md)                                                   | Divise la valeur x en parties fractionnaires et entières.                                                                                                           | 1 ¹                   |
 | [**msad4**](dx-graphics-hlsl-msad4.md)                                                 | Compare une valeur de référence de 4 octets et une valeur source de 8 octets et accumule un vecteur de 4 sommes.                                                                | 5                    |
-| [**Mul**](dx-graphics-hlsl-mul.md)                                                     | Effectue une multiplication de matrice à l’aide de x et y.                                                                                                                   | 1                    |
+| [**mul**](dx-graphics-hlsl-mul.md)                                                     | Effectue une multiplication de matrice à l’aide de x et y.                                                                                                                   | 1                    |
 | [**bruit**](dx-graphics-hlsl-noise.md)                                                 | Génère une valeur aléatoire à l’aide de l’algorithme perl-Noise.                                                                                                      | 1 ¹                   |
-| [**normaliser**](dx-graphics-hlsl-normalize.md)                                         | Retourne un vecteur normalisé.                                                                                                                                    | 1 ¹                   |
+| [**normalize**](dx-graphics-hlsl-normalize.md)                                         | Retourne un vecteur normalisé.                                                                                                                                    | 1 ¹                   |
 | [**Poe**](dx-graphics-hlsl-pow.md)                                                     | Retourne x<sup>y</sup>.                                                                                                                                          | 1 ¹                   |
 | [**printf**](printf.md)                                                                | Envoie un message de nuanceur personnalisé à la file d’attente d’informations.                                                                                                       | 4                    |
 | [**Process2DQuadTessFactorsAvg**](process2dquadtessfactorsavg.md)                      | Génère les facteurs de pavage corrigés pour un correctif Quad.                                                                                                  | 5                    |
@@ -141,7 +141,7 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**racine**](dx-graphics-hlsl-sqrt.md)                                                   | Racine carrée (par composant)                                                                                                                                     | 1 ¹                   |
 | [**première**](dx-graphics-hlsl-step.md)                                                   | Retourne (x >= a) ? 1 : 0                                                                                                                                     | 1 ¹                   |
 | [**Tan**](dx-graphics-hlsl-tan.md)                                                     | Retourne la tangente de x                                                                                                                                        | 1 ¹                   |
-| [**Tanh**](dx-graphics-hlsl-tanh.md)                                                   | Retourne la tangente hyperbolique de x                                                                                                                             | 1 ¹                   |
+| [**tanh**](dx-graphics-hlsl-tanh.md)                                                   | Retourne la tangente hyperbolique de x                                                                                                                             | 1 ¹                   |
 | [**tex1D (s, t)**](dx-graphics-hlsl-tex1d.md)                                           | recherche de texture 1D.                                                                                                                                              | 1                    |
 | [**tex1D (s, t, DDX, ddy)**](dx-graphics-hlsl-tex1d-s-t-ddx-ddy.md)                     | recherche de texture 1D.                                                                                                                                              | 2 ¹                   |
 | [**tex1Dbias**](dx-graphics-hlsl-tex1dbias.md)                                         | recherche de texture 1D avec décalage.                                                                                                                                    | 2 ¹                   |

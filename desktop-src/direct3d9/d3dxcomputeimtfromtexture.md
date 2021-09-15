@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5c0fb2de39cfcc8b0571b05c85ffa3d03945f6c837ae10ba68252b5b9c24b524
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2fbed0411f3562e3a05ec2ec4df99dfad6d8c902
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118299372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520172"
 ---
 # <a name="d3dxcomputeimtfromtexture-function"></a>D3DXComputeIMTFromTexture fonction)
 
@@ -109,7 +109,7 @@ Pointeur vers la mémoire tampon (consultez [**ID3DXBuffer**](id3dxbuffer.md)) c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -119,7 +119,7 @@ Si la fonction est réussie, la valeur de retour est D3D \_ OK ; sinon, la vale
 
 À partir d’une texture qui est mappée sur la surface de la maille, l’algorithme calcule le IMT pour chaque visage. Cela entraînera des triangles contenant des données de signal de faible fréquence pour occuper moins d’espace dans l’Atlas de texture final lorsqu’il est paramétré avec les fonctions UVAtlas. La texture est supposée être interpolée sur la maille de manière bilinéaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

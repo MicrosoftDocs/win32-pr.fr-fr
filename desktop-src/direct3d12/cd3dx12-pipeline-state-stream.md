@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95e45c46c39a21aaeb53a2980fa3c082947e92cd5bb4ab3eccbbb225001a6504
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d52b9090fa1d3870027bbe360164627472c039e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117733981"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520824"
 ---
 # <a name="cd3dx12_pipeline_state_stream-structure"></a>\_Structure du \_ flux d’État du PIPELINe CD3DX12 \_
 
@@ -166,7 +166,7 @@ Décrit la mémoire tampon de sortie de diffusion en continu.
 
 </dd> <dt>
 
-**SH**
+**HS**
 </dt> <dd>
 
 Décrit le nuanceur de coque.
@@ -250,7 +250,7 @@ Décrit un PSO mis en cache.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le \_ flux d’état du pipeline CD3DX12 \_ \_ prend en charge Windows 10 Creators Update et versions ultérieures, mais ne prend pas en charge les types de sous-objets ajoutés dans Windows 10 mise à jour des créateurs de automne, par exemple pour l’instanciation de vues. Pour prendre en charge les types de sous-objets ajoutés à la mise à jour des créateurs de automne, utilisez à la place [**CD3DX12 \_ pipeline \_ State \_ STREAM1**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM1**) .
 
@@ -260,7 +260,7 @@ Ces typedefs sont les suivants :
 
 <dl> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

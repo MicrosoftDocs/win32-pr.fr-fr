@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 47b8e52651d26df38f82e922b95a83275fe3b151ea8a20e1fe0e526042332cf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9bda11b5cb7a27f7744df6e20890a125a66bd88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118067296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520373"
 ---
 # <a name="wm_pointeractivate-message"></a>Message WM_POINTERACTIVATE
 
@@ -56,13 +56,13 @@ Contient le handle de la fenêtre de niveau supérieur de la fenêtre en cours d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner l’une des valeurs décrites dans la section Notes.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application peut gérer ce message et retourner l’une des valeurs suivantes pour déterminer comment le système traite l’activation et l’entrée d’activation :
 
@@ -73,7 +73,7 @@ Il est important de noter que, lorsque l’utilisateur interagit avec le systèm
 
 Si l’application ne gère pas ce message, [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) transmet le message à la fenêtre parente.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

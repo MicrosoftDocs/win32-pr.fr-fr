@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b9d270ab746618f81f7c2e4135f7a6057f207d2cc89961ebe7c8f47d9fd1abd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d4b3aa8c5bc367095765f24f19f107dd7cb986ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520932"
 ---
 # <a name="stringcollectiongetiteminfobytype-method"></a>StringCollection. getItemInfoByType, méthode
 
@@ -73,13 +73,13 @@ retVal = StringCollection.getItemInfoByType(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un **nombre**, une **chaîne**, un objet **MetadataPicture** ou un objet **MetadataText** comme indiqué dans le tableau suivant.
 
 
 
-| Attribut                   | Valeur retournée                   |
+| Attribut                   | Valeur de retour                   |
 |-----------------------------|--------------------------------|
 | **SyncState**               | **Number** (**unsigned long**) |
 | **Synchronisation des WM et des paroles \_** | Objet **MetadataText**        |
@@ -93,13 +93,13 @@ Cette méthode retourne un **nombre**, une **chaîne**, un objet **MetadataPictu
 
 Pour les attributs dont la valeur sous-jacente est **booléenne**, cette méthode retourne la chaîne « true » ou « false ».
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode prend en charge des attributs avec plusieurs valeurs et des attributs avec des valeurs complexes. La méthode **getItemInfo** ne prend pas en charge les attributs avec plusieurs valeurs ou des valeurs complexes.
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

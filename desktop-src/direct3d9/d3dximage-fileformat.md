@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9tex.h
-ms.openlocfilehash: 715b9f0f6d8c56153d51c9c19b70ba253e508619229f52201a28f23c1902d26e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b1195e7503ff32e92cdbafde941b811dcf86427
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119123165"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520516"
 ---
 # <a name="d3dximage_fileformat-enumeration"></a>D3DXIMAGE \_ FILEFORMAT, énumération
 
@@ -118,7 +118,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les fonctions qui commencent par D3DXLoadxxx prennent en charge tous les formats listés. Les fonctions qui commencent par D3DXSavexxx prennent en charge tous les formats énumérés, à l’exception des formats Truevision (. TGA) et portable pixmap (. ppm).
 
@@ -144,7 +144,7 @@ Le tableau suivant répertorie les formats d’entrée et de sortie disponibles.
 
 Pour plus d’informations sur certains de ces formats, consultez [types de bitmaps](../gdiplus/-gdiplus-types-of-bitmaps-about.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

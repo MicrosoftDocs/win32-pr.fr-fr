@@ -10,12 +10,12 @@ keywords:
 - Windows Touch, objet de stylet (RTS) en temps réel
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 8ae407240b939f1afe70a976c995e244521cf51ed9103ac5601fdfa817ddf9e3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 42e32e66942f3dcfad11b8b777e846e0cee6c0b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120089803"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521120"
 ---
 # <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Windows Touch bloc-notes utilisant l’exemple de stylet en temps réel (C++)
 

@@ -4,12 +4,12 @@ description: La souris est l’appareil d’entrée principal utilisé pour inte
 ms.assetid: 4d99287d-e908-4c8b-b4f6-6e8c91c6c93e
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e973ad46ec864c20ad7eef5708388f86e8489909df1fdae609106d1ca65d4614
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6462c69216ee9acb5149a01a805503cea721bb1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119030236"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521217"
 ---
 # <a name="mouse-and-pointers"></a>Souris et pointeurs
 
@@ -100,7 +100,7 @@ Le tableau suivant décrit les interactions et les effets courants de la souris.
 
 Le tableau suivant décrit les formes et les utilisations courantes des pointeurs.
 
-| Forme | Nom | Quand l’utiliser |
+| Graphique à base de formes | Nom | Quand l’utiliser |
 |:---|:---|:---|
 | ![capture d’écran d’un pointeur avec une forme de flèche ](images/inter-mouse-image5.png)<br/>           | Sélection normale<br/>    | Utilisé pour la plupart des objets.<br/>                                             |
 | ![capture d’écran de main avec point d’index pointant vers le doigt ](images/inter-mouse-image6.png)<br/>    | Sélectionner un lien<br/>      | Utilisé pour les liens textuels et graphiques en raison de leur faible rentabilité.<br/> |
@@ -122,7 +122,7 @@ Le tableau suivant décrit les interactions courantes de la souris.
 
 Le tableau suivant montre les pointeurs que les utilisateurs voient lorsqu’ils effectuent une action qui prend plus de quelques secondes.
 
-| Forme | Nom | Quand l’utiliser |
+| Graphique à base de formes | Nom | Quand l’utiliser |
 |:---|:---|:---|
 | ![Capture d’écran montrant un pointeur « occupé » en forme d’anneau.](images/inter-mouse-image21.png)<br/>          | Pointeur occupé<br/>                  | Utilisé pour attendre qu’une fenêtre devienne réactive.<br/>                                  |
 | ![capture d’écran d’un pointeur et d’une flèche en forme d’anneau](images/inter-mouse-image22.png)<br/> | Utilisation du pointeur d’arrière-plan<br/> | Utilisé pour pointer, cliquer, appuyer ou sélectionner pendant qu’une tâche se termine en arrière-plan.<br/> |
@@ -208,7 +208,7 @@ Le tableau suivant récapitule les interactions de bouton de la souris qui s’a
 
 
 
-| Interaction                                    | Effet                                                                                                                                                                                                                                                          |
+| Interaction                                    | Résultat                                                                                                                                                                                                                                                          |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pointage<br/>                    | Target affiche son info-bulle, son info-bulle ou son équivalent.<br/>                                                                                                                                                                                           |
 | Clic simple à gauche<br/>        | Active ou sélectionne l’objet. Pour le texte, définit le point d’insertion.<br/>                                                                                                                                                                           |

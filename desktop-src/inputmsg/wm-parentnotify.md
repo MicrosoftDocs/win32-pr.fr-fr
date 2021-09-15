@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 5de0845f906e72a42fa8d9a290c6cd8ac16cc0e96cae21ac25b3e9d7810309e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e19edf25933a035514f9c42b0da6014eccfdb0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519928"
 ---
 # <a name="wm_parentnotify-message"></a>Message WM_PARENTNOTIFY
 
@@ -83,13 +83,13 @@ Utilisez les macros suivantes pour récupérer les coordonnées d’écran physi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’application traite ce message, elle retourne zéro.
 
 Si l’application ne traite pas ce message, elle appelle [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est également envoyé à toutes les fenêtres ancêtres de la fenêtre enfant, y compris la fenêtre de niveau supérieur.
 
@@ -97,7 +97,7 @@ Toutes les fenêtres enfants, à l’exception de celles qui ont le **WS_EX_NOPA
 
 Cette notification fournit aux fenêtres ancêtres de la fenêtre enfant l’opportunité d’examiner les informations de pointeur et, si nécessaire, de capturer le pointeur à l’aide des fonctions de capture de pointeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

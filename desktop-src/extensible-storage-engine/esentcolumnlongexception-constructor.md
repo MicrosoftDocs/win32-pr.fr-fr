@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ece3a4231fa9d5d1e0834e74e8e6d34da20656997551a6a848ae93d19b0aa16a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be5d05b3fe4b6b025bc2a995745b3c2f1b07c2e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118782384"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520700"
 ---
 # <a name="esentcolumnlongexception-constructor"></a>Constructeur EsentColumnLongException
 
@@ -54,7 +54,7 @@ public EsentColumnLongException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentColumnLongException, classe](./esentcolumnlongexception-class.md)
 

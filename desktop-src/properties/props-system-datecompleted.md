@@ -5,11 +5,11 @@ title: System. DateCompleted
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e12d5e980b72c6feebc86fd0c6ca0b0f665acbba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108101150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521341"
 ---
 # <a name="systemdatecompleted"></a>System. DateCompleted
 
@@ -42,7 +42,7 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

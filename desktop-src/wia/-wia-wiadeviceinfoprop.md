@@ -29,11 +29,11 @@ api_type:
 api_location:
 - wiadef.h
 ms.openlocfilehash: 29db0a527146218e19b3fe583fd48936f71dac29
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521204"
 ---
 # <a name="device-information-property-constants"></a>Constantes de propriété d’informations sur l’appareil
 
@@ -201,7 +201,7 @@ Les propriétés d’informations de périphérique sont des propriétés qui d�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

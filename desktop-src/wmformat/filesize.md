@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa6e0d8fc07f8d51863a5cff3bd46ca13bee722de1e4e6fe2a5f04d99f57e44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84797aaf5955458ed211f0dea68e1d50feb7f1f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521077"
 ---
 # <a name="filesize"></a>FileSize
 
@@ -31,7 +31,7 @@ L’attribut **FileSize** contient la taille du fichier en octets.
 
 **\_type WMT \_ QWord**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut codé.
 

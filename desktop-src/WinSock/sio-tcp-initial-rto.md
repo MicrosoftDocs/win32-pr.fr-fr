@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 63ebbfd0d8d56c03d62c7bba417d69e3ac1a576abfc8c72ac489117a7d8b74c8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 116bab23c2c5f4ef21b77a1b7f9fefa8b3ff3099
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520249"
 ---
 # <a name="sio_tcp_initial_rto-control-code"></a>Code de contrôle SIO_TCP_INITIAL_RTO
 
@@ -126,7 +126,7 @@ Pointeur vers le code d’erreur.
 
 **Remarque**  Ce paramètre s’applique uniquement à la fonction **WSPIoctl** .
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération se termine correctement, la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** retourne la valeur zéro.
 
@@ -146,7 +146,7 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Une opération a été tentée sur un qui n’est pas un Socket. Cette erreur est retournée si le descripteur n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | L’opération tentée n’est pas prise en charge pour le type d’objet référencé. Cette erreur est retournée si la commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est également retournée si le **SIO_TCP_INITIAL_RTO** IOCTL n’est pas pris en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application peut utiliser le **SIO_TCP_INITIAL_RTO** ioctl pour contrôler les caractéristiques de retransmission initiales (SYN/SYN + ACK) d’un socket TCP, si nécessaire.
 Si vous utilisez cette option, une application doit fournir des valeurs appropriées avant de démarrer une tentative de connexion TCP sur le Socket.

@@ -4,12 +4,12 @@ ms.assetid: 7f405cb9-9512-44da-8a85-4b7d22017284
 title: Formats de pixel de la carte de relief (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f627ce95151207c25e2365d2e467fb94b93cfb5c1bf54ce0c3df401891fcafc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21bbe4a9999d875e43d33389f86b35d22c81b3bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118805724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520797"
 ---
 # <a name="bump-map-pixel-formats-direct3d-9"></a>Formats de pixel de la carte de relief (Direct3D 9)
 

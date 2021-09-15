@@ -4,12 +4,12 @@ ms.assetid: 6ea311c0-a155-47de-ad40-62b0cbeb6e8f
 title: Utilisation des interfaces de collection XPS OM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a23e9c217f84c1baf5b0cf846f706098da34f4f32ad2e90cd2c13392d9019164
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c7cda84243347680d91a6f3a5255f7ebf4e66932
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117685638"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521381"
 ---
 # <a name="working-with-xps-om-collection-interfaces"></a>Utilisation des interfaces de collection XPS OM
 

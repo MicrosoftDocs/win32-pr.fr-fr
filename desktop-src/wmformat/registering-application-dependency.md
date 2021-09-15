@@ -7,12 +7,12 @@ keywords:
 - inscription des dépendances d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cc0d1e6c9c5583ea235c196c244d9969aec65128dc206720cfacc907ae0067b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cd546ee9b162652f00a131e87561a7e34f7e3a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117845904"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521065"
 ---
 # <a name="registering-application-dependency-windows-media-format-11-sdk"></a>inscription de la dépendance d’Application (kit de développement logiciel (SDK) Windows Media Format 11)
 

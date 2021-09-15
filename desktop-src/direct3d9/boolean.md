@@ -4,14 +4,14 @@ ms.assetid: aa6eb842-193c-4cde-bfb2-4d428ffa7267
 title: Booléen (graphiques Direct3D 9)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05c641e3e2d94c87ab35c440a0bacef9fa4c1cde318293cb0428c41cbfb93b2f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cec2ccdbdfee6925cb2ff8aa124b5b0d78bb1291
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120119419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520808"
 ---
-# <a name="boolean"></a>Boolean
+# <a name="boolean"></a>Booléen
 
 Définit un type booléen simple.
 

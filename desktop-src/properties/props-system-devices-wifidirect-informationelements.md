@@ -4,12 +4,12 @@ ms.assetid: b761889e-209d-4456-80af-a9de934be408
 title: System. Devices. WiFiDirect. InformationElements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a50d5993f2fec4ebd5ffd98b3a1a37aa3b9af6fa178847ee3536a27997f110bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c7b6a5eaab0d943edbb7e12c7d682011a3255d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118467265"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521317"
 ---
 # <a name="systemdeviceswifidirectinformationelements"></a>System. Devices. WiFiDirect. InformationElements
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d474f356310a0d7949cecf36e7af9cb586a76029171dfe27c1679970e481ed1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e900e4b607760df16938080a49f97a3ab0cf2ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118435235"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521117"
 ---
 # <a name="wm_gesturenotify-message"></a>\_Message WM GESTURENOTIFY
 
@@ -43,11 +43,11 @@ Pointeur vers un [**GESTURENOTIFYSTRUCT**](/windows/win32/api/winuser/ns-winuser
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une valeur doit être retournée à partir de [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le message **WM \_ GESTURENOTIFY** est reçu, l’application peut utiliser [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) pour spécifier les gestes à recevoir. Ce message doit toujours être propagé à l’aide de la fonction [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca) .
 
@@ -79,7 +79,7 @@ L’exemple suivant montre comment activer tous les mouvements. Pour plus d’ex
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

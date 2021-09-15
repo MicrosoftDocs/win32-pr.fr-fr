@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: f8b44787dd1039bd3ffd3fa9afef76a527e2143cfe52bdcfa7676c15efa51342
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd181b5eafbe1cf6de56c95886deb04e5bd6d2b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119666113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519961"
 ---
 # <a name="pen-mask"></a>Masque du stylet
 
@@ -94,7 +94,7 @@ l' **inclinaison** de la structure de [**POINTER_PEN_INFO**](/previous-versions/
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
