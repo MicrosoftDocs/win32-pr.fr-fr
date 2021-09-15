@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8e08f046cc1bd41293a076f36389506320e85025e415b264bed1ed0de14f9a3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9abced52f0d0664e998ad8380e33d43d4af36bcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120081709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311834"
 ---
 # <a name="glcolorpointer-function"></a>glColorPointer fonction)
 
@@ -81,7 +81,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                              | Signification                                      |
+| Nom                                                                                              | Signification                                      |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl> | la *taille* n’est pas 3 ou 4.<br/>            |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>  | le *type* n’est pas une valeur acceptée.<br/> |
@@ -89,7 +89,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glColorPointer** spécifie l’emplacement et le format de données d’un tableau de composants de couleur à utiliser lors du rendu. Le paramètre *Stride* détermine le décalage d’octets d’une couleur à l’autre, ce qui permet de compresser des attributs vertex dans un tableau unique ou un stockage dans des tableaux séparés. Dans certaines implémentations, le stockage des attributs de vertex dans un tableau unique peut être plus efficace que l’utilisation de tableaux séparés.
 
@@ -113,7 +113,7 @@ Les fonctions suivantes récupèrent les informations relatives à la fonction *
 
 [**glGetPointerv**](glgetpointerv.md) avec argument, \_ \_ pointeur de tableau de couleur de GL \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

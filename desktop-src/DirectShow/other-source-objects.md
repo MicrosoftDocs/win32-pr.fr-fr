@@ -4,12 +4,12 @@ ms.assetid: 67482227-9df6-4e89-b16f-160a0bae6609
 title: Autres objets sources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8bbc1618cb7a76e87a4837fce3905a7c9ba7455b13297e779b8be8e80c40732
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0c76c8f6cb104e87630f178a82d613675b96723
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119790909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312349"
 ---
 # <a name="other-source-objects"></a>Autres objets sources
 

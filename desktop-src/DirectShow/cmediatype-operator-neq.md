@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c17db60821be2f5243afab83ed62ec9b5b5b50e5d7a3f500d159ec185260a402
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe3d5b60ed1990423d5ad9375ffdf192da313b8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118156237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312482"
 ---
 # <a name="cmediatypecmediatypeoperator-method"></a>CMediaType. CMediaType :: Operator ! =, méthode
 
@@ -49,7 +49,7 @@ Référence à l’objet **CMediaType** à comparer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si *RT* n’est pas égal à cet objet. Sinon, retourne **false**.
 

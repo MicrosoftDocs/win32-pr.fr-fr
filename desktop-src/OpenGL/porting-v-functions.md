@@ -17,12 +17,12 @@ keywords:
 - fonctions v
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e84fd5eb036afaf5291902ab00f91f3b155f7507d8fce7135dc8030323c1a05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfd5e40915f891817606ac8517c0b3b980b436be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119888069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311702"
 ---
 # <a name="porting-v-functions"></a>Portage des fonctions v
 

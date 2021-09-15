@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 5e497d389646249c03bfaa4ac8625ce2a440b97f4ff6b8c0b0942ec957d0901e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66f3c91d6023655daf85b2a0d726d98a685b001b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117669474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312778"
 ---
 # <a name="iwiatransferenumwia_format_info-method"></a>IWiaTransfer :: EnumWIA \_ , \_ méthode des informations de format
 
@@ -49,7 +49,7 @@ Adresse du pointeur vers l’interface d' [**\_ \_ informations de format IEnumW
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 

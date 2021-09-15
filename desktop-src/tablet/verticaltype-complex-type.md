@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 7395533a76458202285030a609c2b0c45ed5b8a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312882"
 ---
 # <a name="verticaltype-complex-type"></a>Type complexe VerticalType
 
@@ -33,7 +33,7 @@ Définit le type qui contient des détails sur les lignes verticales utilisées 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

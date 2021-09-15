@@ -4,12 +4,12 @@ ms.assetid: d1292e2f-bd0e-4961-a6fa-8cdaeb28b692
 title: Obtention d’un pointeur vers l’objet lecteur (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c1395a9d1c2cb764e8994600845362816ac2c158ca9ab7d8fdf630a1a51ed00
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e131b9e111aa5e779d1208b68e04c9979e3b1d7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119633619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312373"
 ---
 # <a name="obtaining-a-pointer-to-the-reader-object-directshow"></a>Obtention d’un pointeur vers l’objet lecteur (DirectShow)
 

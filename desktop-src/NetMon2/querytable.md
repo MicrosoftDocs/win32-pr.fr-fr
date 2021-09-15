@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 9b8f291f055bfba159309b6c75a54d95514ed9c7614eb0456a4870e657f04209
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b2976a56b43c55fccb9acb0c593b0dfd37e4404
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119555369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311889"
 ---
 # <a name="querytable-structure"></a>QUERYTABLE, structure
 
@@ -58,11 +58,11 @@ Lors de la sortie, il s’agit d’une structure [STATIONQUERY](stationquery.md)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La mémoire pour cette structure et le tableau [STATIONQUERY](stationquery.md) doit être allouée par l’application appelante et libérée une fois que les informations ne sont plus nécessaires.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

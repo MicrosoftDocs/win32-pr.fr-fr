@@ -4,12 +4,12 @@ ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: SearchEvents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98f6687de8a9e4816968a3134abf76f8b10e02f42d90a2578626be035843621c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21472d113694a41a3c7855c0fdaf8f2fa2b3b2e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118969708"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313209"
 ---
 # <a name="searchevents"></a>SearchEvents
 
@@ -17,13 +17,13 @@ L’exemple de code SearchEvents montre comment hiérarchiser les événements d
 
 Cette rubrique contient les sections suivantes.
 
-- [Requirements](#requirements)
+- [Configuration requise](#requirements)
 - [Téléchargement de l’exemple](#downloading-the-sample)
 - [Génération de l'exemple](#building-the-sample)
 - [Exécution de l’exemple](#running-the-sample)
 - [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Produit     | Version du produit          |
 |-------------|--------------------------|
@@ -58,7 +58,7 @@ Cet exemple est disponible à l’emplacement suivant.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-### <a name="reference"></a>Informations de référence
+### <a name="reference"></a>Référence
 
 [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents)
 

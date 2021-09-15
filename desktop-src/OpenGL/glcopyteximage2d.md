@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e91481e94d247f5572ac2a65093c4af825c720200aee6daf3e429fad2a70886
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61d04a979e9bb026da904687506f3201d12c12c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118617212"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311818"
 ---
 # <a name="glcopyteximage2d-function"></a>glCopyTexImage2D fonction)
 
@@ -170,7 +170,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glCopyTexImage2D** définit une image de texture à deux dimensions à l’aide de pixels du trame actuel, plutôt qu’à partir de la mémoire principale comme c’est le cas pour [**glTexImage2D**](glteximage2d.md).
 
@@ -191,7 +191,7 @@ La fonction suivante récupère des informations relatives à **glCopyTexImage2D
 
 [**glIsEnabled**](glisenabled.md) avec argument GL \_ texture \_ 2D
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

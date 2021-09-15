@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b260c1112f7ec588b4d83655e5d0aa465b63682164f2ca745b63d3f421e5794c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 976e779235dc330467d610406156534b5e72841d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118616571"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311769"
 ---
 # <a name="gldrawelements-function"></a>glDrawElements fonction)
 
@@ -89,7 +89,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glDrawElements** vous permet de spécifier plusieurs primitives géométriques avec très peu d’appels de fonction. Au lieu d’appeler une fonction OpenGL pour passer chaque vertex, normal ou couleur, vous pouvez spécifier des tableaux distincts de vertex, de normales et de couleurs à l’avance, et les utiliser pour définir une séquence de primitives (tout du même type) à l’aide d’un seul appel à **glDrawElements**.
 
@@ -104,7 +104,7 @@ Vous pouvez inclure la fonction **glDrawElements** dans les listes d’affichage
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

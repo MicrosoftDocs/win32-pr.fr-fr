@@ -4,12 +4,12 @@ description: cette section contient des informations sur les constantes, les én
 ms.assetid: a3f44919-bd55-48cf-9dc6-37de0059a639
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee9718641dd0e0e9159a6da9998e0109e4ec97fa366b1e9cba35f9d5f1065ac9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6d16386f1ba21ed138ad746f3fa9725d91bb68d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312777"
 ---
 # <a name="wic-constants-enumerations-and-flags"></a>Constantes, énumérations et indicateurs de WIC
 

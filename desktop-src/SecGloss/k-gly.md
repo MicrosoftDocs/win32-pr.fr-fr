@@ -5,12 +5,12 @@ ms.assetid: f17042c3-ba1a-408f-af55-5f171b0dee33
 title: K (Glossaire de la sécurité)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c92abf9b3df1eb49f0caaee90ccbce8755d003478683aba35570d9ea99fa2b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33e7d1b474b774b5cdb7a0b8d05a512a8d291573
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118895592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311274"
 ---
 # <a name="k-security-glossary"></a>K (Glossaire de la sécurité)
 

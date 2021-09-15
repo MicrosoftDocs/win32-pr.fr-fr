@@ -4,12 +4,12 @@ ms.assetid: f42379d0-b80e-4d95-ab34-9bb35fde06fd
 title: installResponseFromPFX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 540e719f098d227afac4af59fd2d296d9d06606d04b9de80cf1e24081918d6f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0db435b3d61f5b2e53a9838024f4080bb8028ed1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117777605"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311309"
 ---
 # <a name="installresponsefrompfx"></a>installResponseFromPFX
 
@@ -19,7 +19,7 @@ l’exemple installResponseFromPFX installe un certificat inscrit à partir d’
 
 lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ installResponseFromPFX VC.
 
-## <a name="discussion"></a>Discussions
+## <a name="discussion"></a>Discussion
 
 Exemple installResponseFromPFX :
 

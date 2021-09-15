@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 2686c64b3251616ac8cefbe81a77282e5b1a7c6847ef965b6361759118b74756
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64647cbcbcc836c400890fb173a29c76f8723029
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120050879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312386"
 ---
 # <a name="null-renderer-filter"></a>Filtre de convertisseur null
 

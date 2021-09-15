@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 8dc20b94fbf889b4c04712eadbee5d7d834d3cf260962fe01ef7837e5893c4a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 435b08c5dd5e020dce2bde9be03a0d41299836c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311909"
 ---
 # <a name="propertyinfo-structure"></a>PROPERTYINFO, structure
 
@@ -197,11 +197,11 @@ Spécifiez la fonction de format appelée pour mettre en forme les données affi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure **PROPERTYINFO** est utilisée dans les appels à la fonction [AddProperty](/previous-versions/bb251873(v=msdn.10)) . La fonction **AddProperty** ajoute une définition de propriété unique à la [*base de données des propriétés de*](p.md)l’analyseur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

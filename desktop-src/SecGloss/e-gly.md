@@ -5,12 +5,12 @@ ms.assetid: f1caccd2-3453-448e-b194-bf899eff8091
 title: E (Glossaire de la sécurité)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf2807dc99754fd424898c3df8d89634c7b940a7ab2fa9399ca85cd8cbc14d1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed30465ef5764d4553ceb03e1094b73d940f85f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118895629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311286"
 ---
 # <a name="e-security-glossary"></a>E (Glossaire de la sécurité)
 

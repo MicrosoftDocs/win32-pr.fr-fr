@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: db0314ad953eecb94f10c995dea28e1dc3d69b586c386a94ae4f1ed45037fdcc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c84ec45bba8da9d76e2a4fe0b31324429374a74b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118913583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311326"
 ---
 # <a name="grouping-tasks-into-roles-in-script"></a>Regroupement de tâches en rôles dans le script
 

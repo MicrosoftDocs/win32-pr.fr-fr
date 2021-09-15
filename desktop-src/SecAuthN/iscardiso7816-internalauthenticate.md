@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: d4c3385313fb5b9c9c7ba72957244bd81757b0cd1e79bcec906e740c69b66292
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e30dbb06373907c5cea07e45d4f7a390b773349
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311346"
 ---
 # <a name="iscardiso7816internalauthenticate-method"></a>ISCardISO7816 :: InternalAuthenticate, méthode
 
@@ -71,7 +71,7 @@ Référence du secret.
 | <span id="Global_ref"></span><span id="global_ref"></span><span id="GLOBAL_REF"></span><dl> <dt>**Référence globale**</dt> </dl>         | Position du bit : 0------- <br/> Données de référence globales (une clé spécifique à MF).<br/>                                                                                       |
 | <span id="Specific_ref"></span><span id="specific_ref"></span><span id="SPECIFIC_REF"></span><dl> <dt>**Réf. spécifique**</dt> </dl> | Position du bit : 1-------<br/> Données de référence spécifiques (clé spécifique à DF).<br/>                                                                                       |
 | <span id="RFU"></span><span id="rfu"></span><dl> <dt>**RFU**</dt> </dl>                                                           | Position du bit :-XX-----<br/> 00 (les autres valeurs sont RFU).<br/>                                                                                                         |
-| <span id="Secret"></span><span id="secret"></span><span id="SECRET"></span><dl> <dt>**Secret**</dt> </dl>                         | Position du bit :---xxxxx<br/> Numéro du secret.<br/>                                                                                                              |
+| <span id="Secret"></span><span id="secret"></span><span id="SECRET"></span><dl> <dt>**Confidentialité**</dt> </dl>                         | Position du bit :---xxxxx<br/> Numéro du secret.<br/>                                                                                                              |
 
 
 
@@ -102,7 +102,7 @@ Au retour, elle est remplie avec la commande APDU construite par cette opératio
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -119,7 +119,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La réussite de l’exécution de la commande peut être soumise à la réussite des commandes précédentes (par exemple, vérifier ou sélectionner un fichier) ou à des sélections (par exemple, la clé secrète pertinente).
 
@@ -131,7 +131,7 @@ Pour obtenir la liste de toutes les méthodes fournies par cette interface, cons
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

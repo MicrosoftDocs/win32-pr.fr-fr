@@ -10,20 +10,20 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: f48fc719525d290cc3f43965762e748569ef86b5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313157"
 ---
 # <a name="supporting-shell-applications"></a>Prise en charge des applications Shell
 
 -   [Lancement d’applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)](launch.md)
 -   [Dialogues](dialogs-bumper.md)
--   [Bibliothèques Windows](library-ovw.md)
+-   [Windows Bibliotheque](library-ovw.md)
 -   [Dossiers connus](known-folders.md)
 -   [Gestion du système de fichiers](manage.md)
--   [Inscription d’un navigateur Internet ou d’un client de messagerie à l’aide du menu Démarrer de Windows](start-menu-reg.md)
+-   [inscription d’un navigateur Internet ou d’un Client de messagerie à l’aide du Menu démarrer Windows](start-menu-reg.md)
 -   [Inscription de programmes avec des types de clients](reg-middleware-apps.md)
 -   [Création d’un lien de Shell](./links.md)
 -   [Utilisation de la saisie semi-automatique](ac-ovw.md)

@@ -4,12 +4,12 @@ ms.assetid: 557c3e9a-1756-4abb-8465-b12195ecbc91
 title: Vue d’ensemble du balisage des personnes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a262acd70474f75689e99a3bcd1087cd0117ae3602b78a90357aa932fdd7fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e64f2080e51d4d340474e0610fcce9512fc72429
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312757"
 ---
 # <a name="people-tagging-overview"></a>Vue d’ensemble du balisage des personnes
 
@@ -17,7 +17,7 @@ cette rubrique présente le nouveau schéma XMP (Extensible Metadata Platform) e
 
 Cette rubrique contient les sections suivantes.
 
--   [Composants requis](#prerequisites)
+-   [Prérequis](#prerequisites)
 -   [Introduction](#introduction)
 -   [Balisage de personnes](#people-tagging-overview)
     -   [Noms de personnes](#people-names)
@@ -276,7 +276,7 @@ Voici une représentation des métadonnées XMP pour le balisage des personnes.
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

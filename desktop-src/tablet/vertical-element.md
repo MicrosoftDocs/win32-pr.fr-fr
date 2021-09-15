@@ -5,11 +5,11 @@ title: Élément vertical
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f6f05ab8a2160dbf6b987177957e8285385fe4db
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312885"
 ---
 # <a name="vertical-element"></a>Élément vertical
 
@@ -36,7 +36,7 @@ Aucun.
 
 | Attribut | Type | Obligatoire | Description | Valeurs possibles | 
 |-----------|------|----------|-------------|-----------------|
-| <strong>Style</strong> | SimpleType <a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a> | Obligatoire | Spécifie le type de ligne à dessiner. | <ul><li>Aucun</li><li>Unie</li><li>Tiret</li><li>Points</li><li>Tiret-point</li><li>Tiret-point-point</li><li>Double</li></ul> | 
+| <strong>Style</strong> | SimpleType <a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a> | Obligatoire | Spécifie le type de ligne à dessiner. | <ul><li>None</li><li>Unie</li><li>Tiret</li><li>Points</li><li>Tiret-point</li><li>Tiret-point-point</li><li>Double</li></ul> | 
 | <strong>Couleur</strong> | <a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType | Facultatif | Couleur de l’élément. | Valeur RVB hexadécimale. Correspond à l’expression régulière suivante : # [0-9A-zA-Z] {6} . Par exemple, #4a79B5.<br /> | 
 | <strong>SpacingBefore</strong> | <strong>xs:nonNegativeInteger</strong> | Facultatif | Espacement avant l’élément. | Entier non négatif. | 
 | <strong>SpacingBetween</strong> | <strong>xs:nonNegativeInteger</strong> | Facultatif | Espacement entre cet élément et les éléments environnants. | Entier non négatif. | 

@@ -10,12 +10,12 @@ keywords:
 - afficher le volume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70be6896f4c0a4dfa73c9e7bc683b6b8465c52c17482dcf8dcef3d90e6975ab4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 643cb8597c07d8ef013ef8eb968acf16137084e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887888"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311613"
 ---
 # <a name="u-v"></a>U V
 

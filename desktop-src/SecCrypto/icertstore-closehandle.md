@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 3d6f1b0b44cd0fdc71f8f3d37fa9bd8290c5d606eea1f97f5bf6644f9ce8e2a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb1e9ab032b76b8ef02de786d1fc39af0b0d54b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119005657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311306"
 ---
 # <a name="icertstoreclosehandle-method"></a>ICertStore :: CloseHandle, méthode
 
@@ -49,15 +49,15 @@ Handle HCERTSTORE à fermer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur **S \_ OK** indique la réussite de l’opération. Toute autre valeur indique que l’opération a échoué.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ne libère pas le handle HCERTSTORE contenu dans un objet de [**magasin**](store.md) . Elle doit être utilisée uniquement pour libérer un handle HCERTSTORE acquis par le biais de la propriété [**StoreHandle**](icertstore-storehandle.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

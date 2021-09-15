@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 681477018ad9afbfd42de3a1756cf68c4efe4f20405a7e3d566078927e75817b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91fd1a371581dea02226ba6539ca25a06ef98e75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118876487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311210"
 ---
 # <a name="miscellaneous-language-bar-constants"></a>Constantes diverses de la barre de langage
 
@@ -37,7 +37,7 @@ Les constantes diverses de la barre de langage définissent certaines propriét�
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

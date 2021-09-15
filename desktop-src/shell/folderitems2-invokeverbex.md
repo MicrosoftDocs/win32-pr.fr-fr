@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 94d62de132a61bb357acac77aea41d2278ba1eb4453afa826ac32be90095ab25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa9b986b5cb76f14cc950f522e1e289224c17b58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117860148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313074"
 ---
 # <a name="folderitems2invokeverbex-method"></a>Méthode FolderItems2. InvokeVerbEx
 
@@ -58,7 +58,7 @@ Type : **variante**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un verbe est une chaîne utilisée pour spécifier une action particulière associée à un élément ou à une collection d’éléments. En règle générale, l’appel d’un verbe lance une application associée. par exemple, l’appel du verbe **open** sur un fichier .txt ouvre normalement le fichier avec un éditeur de texte, généralement Microsoft Bloc-notes. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md).
 
@@ -155,7 +155,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

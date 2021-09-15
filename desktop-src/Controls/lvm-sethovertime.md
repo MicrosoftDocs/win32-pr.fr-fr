@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f93edf917dc50384f3a09f7eadf013561715735a995c63a695cb8f9ad91dbce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f3aecd3c0d48cddc2cbaae49e7e888f91a985575
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312705"
 ---
 # <a name="lvm_sethovertime-message"></a>\_Message SETHOVERTIME LVM
 
@@ -39,7 +39,7 @@ Nouvelle durée, en millisecondes, pendant laquelle le curseur de la souris doit
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la durée de pointage précédente.
 

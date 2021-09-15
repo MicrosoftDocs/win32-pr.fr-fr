@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9ed00dacb0d8556d4e16de84fbc20b7ac6a56bed6560bee3213c7919b9760cbb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ee24b18be55ff498d6c3870f77a32270df68284
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119815189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312805"
 ---
 # <a name="key-changes-since-windows-7-to-ensure-compatibility"></a>modifications clés depuis Windows 7 pour garantir la compatibilité
 

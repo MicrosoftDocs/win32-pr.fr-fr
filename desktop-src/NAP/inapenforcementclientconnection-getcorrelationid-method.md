@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a1045513d672afbbd4e53f956f03b1f4db2a925cf756c158303a17998bcf219
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82572cc499a61d453a70c47391e48f2004dca24d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118940075"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311958"
 ---
 # <a name="inapenforcementclientconnectiongetcorrelationid-method"></a>INapEnforcementClientConnection :: GetCorrelationId, méthode
 
@@ -54,7 +54,7 @@ Structure d’ID de [**corrélation**](/windows/win32/api/naptypes/ns-naptypes-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 

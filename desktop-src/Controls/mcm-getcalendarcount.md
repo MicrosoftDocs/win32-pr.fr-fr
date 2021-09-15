@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9379aa8c273451ba53c2a13d6190712212765b46dc1052a08b6d03ae4ae32e61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14a3be9e9bcc5db8c1aab32cacbcc2ded82727af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312545"
 ---
 # <a name="mcm_getcalendarcount-message"></a>\_Message GETCALENDARCOUNT MCM
 
@@ -43,7 +43,7 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Nombre de calendriers actuellement affichés dans le contrôle calendrier. Le nombre maximal de calendriers autorisés est 12.
 

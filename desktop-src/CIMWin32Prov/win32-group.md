@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1f5c6a7feda436129e910b4db21cd3b7457f5a3d6a737e6a99b1c43244659495
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8849ba149e0de570150682d3afbad3a4ee33f36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119699799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312733"
 ---
 # <a name="win32_group-class"></a>\_Classe de groupe Win32
 

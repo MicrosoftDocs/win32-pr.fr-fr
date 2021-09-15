@@ -4,12 +4,12 @@ description: TraceLogging est le nouveau suivi d’événements Windows 10 pour 
 ms.assetid: 8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cc38210bf4c3ed1ed0b1ebf56ca22a0597b9288fc30ae4c0231d5317465644
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6c2b1ca72385a51df1e0cd82f3e91c198f15b5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118218390"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312849"
 ---
 # <a name="about-tracelogging"></a>À propos de TraceLogging
 

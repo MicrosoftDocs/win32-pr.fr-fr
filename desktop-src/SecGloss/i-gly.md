@@ -6,11 +6,11 @@ title: I (Glossaire de la sécurité)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a1d3e727128c2494f313bdffc879b5c5e47a28ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311281"
 ---
 # <a name="i-security-glossary"></a>I (Glossaire de la sécurité)
 
@@ -21,7 +21,7 @@ ms.locfileid: "104034852"
 <span id="_security_iis_gly"></span><span id="_SECURITY_IIS_GLY"></span>**INFORMATION**
 </dt> <dd>
 
-Services logiciels qui prennent en charge la création, la configuration et la gestion de sites Web, ainsi que d’autres fonctions Internet. Internet Information Services inclure le protocole NNTP (Network News Transfer Protocol), le protocole FTP (FTP) et le protocole SMTP (Simple Mail Transfer Protocol). IIS intègre différentes fonctions pour la sécurité, permet d’obtenir des applications CGI et fournit des serveurs Gopher et FTP.
+Services logiciels qui prennent en charge la création, la configuration et la gestion de sites Web, ainsi que d’autres fonctions Internet. Internet Information Services inclure le protocole NNTP (Network News Transfer protocol), le protocole FTP (FTP) et le protocole SMTP (Simple Mail transfer protocol). IIS intègre différentes fonctions pour la sécurité, permet d’obtenir des applications CGI et fournit des serveurs Gopher et FTP.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ L’exhaustivité et la précision d’un message après son envoi ou son stocka
 <span id="_security_interrupt_request_level_gly"></span><span id="_SECURITY_INTERRUPT_REQUEST_LEVEL_GLY"></span>**NIVEAU**
 </dt> <dd>
 
-Un niveau de requête d’interruption (IRQL) définit la priorité matérielle à laquelle un processeur s’exécute à un moment donné. Dans le Windows Driver Model, un thread s’exécutant à un niveau IRQL faible peut être interrompu pour exécuter du code à un niveau IRQL supérieur.
+Un niveau de requête d’interruption (IRQL) définit la priorité matérielle à laquelle un processeur s’exécute à un moment donné. dans le Windows Driver Model, un thread s’exécutant à un niveau irql faible peut être interrompu pour exécuter du code à un niveau irql supérieur.
 
 </dd> <dt>
 

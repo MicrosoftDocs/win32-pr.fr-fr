@@ -4,12 +4,12 @@ ms.assetid: 1037f354-0415-4a5c-a96c-20ae714981af
 title: Vue d’ensemble de la journalisation des erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcde3e0366ffca12dfcb5674259273ba1bbf25c1feed9be3ead57fa64cc42dc4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4af82c35cdb34a238e280641015407c7a5d6f837
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119904629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312330"
 ---
 # <a name="overview-of-error-logging"></a>Vue d’ensemble de la journalisation des erreurs
 

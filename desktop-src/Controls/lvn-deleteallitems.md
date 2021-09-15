@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f76ec4deaf67c1448fab5054c05ea8ede79c0972061c8be8e4f36b2e40ef54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 583ad6e2372649ab5f63bd208fb97b93b1591c12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312585"
 ---
 # <a name="lvn_deleteallitems-notification-code"></a>\_Code de notification LVN DELETEALLITEMS
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour supprimer les codes de notification [LVN \_ DELETEITEM](lvn-deleteitem.md) suivants, retournez la **valeur true**.
 

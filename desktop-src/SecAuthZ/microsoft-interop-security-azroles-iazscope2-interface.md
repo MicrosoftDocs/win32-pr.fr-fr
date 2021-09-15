@@ -135,12 +135,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 737456ea9c0528dc7a18dd756f4b8bb6ccc461f1e34773129ff1ec9a4c73951a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be1e7bbe744ef334ab80a47a48c0f6db296a09fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117780581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311325"
 ---
 # <a name="microsoftinteropsecurityazrolesiazscope2-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzScope2
 
@@ -222,7 +222,7 @@ L’interface **Microsoft. Interop. Security. azroles. IAzScope2** possède ces 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

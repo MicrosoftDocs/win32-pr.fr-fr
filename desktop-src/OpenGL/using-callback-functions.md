@@ -9,12 +9,12 @@ keywords:
 - GLU (utilitaire OpenGL), pavage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75556b8c366c83df5a5976c867e6fc5f68d520da65ed8f34609f312cbfebaa7b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a826d9416f94304762be2e840a3b6fea9ba458ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118932894"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311605"
 ---
 # <a name="using-callback-functions"></a>Utilisation des fonctions de rappel
 

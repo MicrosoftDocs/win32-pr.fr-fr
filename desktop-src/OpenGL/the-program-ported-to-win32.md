@@ -7,12 +7,12 @@ keywords:
 - Portage OpenGL, exemple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f8a90e205dbebc8ff4228e3114080b0e535cc6ecdcb6ebbd40738d6afc363fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d0b86851ebc6acd5e61997b7e2efae662b11554
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119888029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311646"
 ---
 # <a name="the-program-ported-to-windows"></a>Le programme est porté à Windows
 

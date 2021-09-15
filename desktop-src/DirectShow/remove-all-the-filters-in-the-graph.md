@@ -4,12 +4,12 @@ ms.assetid: a11af581-c331-4607-be8b-5f65961bd422
 title: Supprimer tous les filtres dans le Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f10b76bb5f5bc3cff2bfb989c422f177ef0d2ee4d09acff3c2f895ef9984b7c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67d414ef7e532eaf5df9143a6b601a57e4a8bd45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072733"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312305"
 ---
 # <a name="remove-all-the-filters-in-the-graph"></a>Supprimer tous les filtres dans le Graph
 

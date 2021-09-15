@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b3593f31d8f8cea6278346e8c99bb9c9b880aed273ae7ab70614ade112cd8c8d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ed816c75ab6adc98b3ac19984079d840a4a447b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312261"
 ---
 # <a name="recordintegerdata-property"></a>Record. IntegerData, propriété
 
@@ -26,7 +26,7 @@ Il s’agit de la propriété **IntegerData** de l’objet [**Record**](record-o
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```JScript

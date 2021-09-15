@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b53d4ddeabdf343270664e2d65e17d44aeb7ba8f05a23d6f759a51fcc8e99579
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9252db845c5e1cc732adc295e1989fee83d4ac6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118877907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311257"
 ---
 # <a name="isoftkbdcreatesoftkeyboardlayoutfromxmlfile-method"></a>ISoftKbd :: CreateSoftKeyboardLayoutFromXMLFile, méthode
 
@@ -65,7 +65,7 @@ Pointeur vers la mémoire tampon dans laquelle cette méthode récupère un cook
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -80,7 +80,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

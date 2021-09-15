@@ -4,12 +4,12 @@ description: pour les appareils qui nettoient Windows 10, et où le démarrage s
 ms.assetid: D2A13F91-BA44-4044-B1F4-54393A9F1063
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2810d0549086d36f146ca80c0b9c83a7258bb3b120202432cdab6203a081cdd7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 582db864627a2945debca33c8e75ac74fb20acc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117852415"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312809"
 ---
 # <a name="kernel-checks-for-non-whql-signed-drivers"></a>Vérifications du noyau pour les pilotes non signés WHQL
 

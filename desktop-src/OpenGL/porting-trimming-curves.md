@@ -15,12 +15,12 @@ keywords:
 - Portage OpenGL à partir de IRIS GL, courbes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad544431adaa7f0b049341ec7314e3e53ae60752d633a48c760ca09334f79d33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2cc82822b2e0b9e66729f0cb1a0e939d2775999c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119553859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311706"
 ---
 # <a name="porting-trimming-curves"></a>Portage des courbes de suppression
 

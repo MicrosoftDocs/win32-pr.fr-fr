@@ -4,12 +4,12 @@ ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
 title: fonctionnement du composant de création d’images Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a63fe341bbb16afe78b159caa5c50c13fdb2cb8ee7a92f4c482dd03f8d9b8a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bc9fe31ae4346f2c2d1f0b273e78ed10a0ec7e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965108"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312765"
 ---
 # <a name="how-the-windows-imaging-component-works"></a>fonctionnement du composant de création d’images Windows
 
@@ -97,7 +97,7 @@ Les objets d’un cloisonnement multithread (MTA) peuvent être appelés simulta
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Introduction (écriture d’un CODEC WIC-Enabled)](-wic-howtowriteacodec-intro.md)

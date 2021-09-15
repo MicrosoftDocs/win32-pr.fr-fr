@@ -4,12 +4,12 @@ ms.assetid: 3e418c9a-a008-4b94-b5d2-7c2eccb3bf87
 title: Constantes TAPIMEDIATYPE_ (Tapi3. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a702f5a061629f3fd8daa5ad742c65af12c43bbd92eec6896b143e4bd6a403c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d71a7d7ffb411d84e99863bb89274e43200b319d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119866879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311146"
 ---
 # <a name="tapimediatype_-constants"></a>\_Constantes TAPIMEDIATYPE
 
@@ -28,7 +28,7 @@ Les types de média suivants sont définis :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

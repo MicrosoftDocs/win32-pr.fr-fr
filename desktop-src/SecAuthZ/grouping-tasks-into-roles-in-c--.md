@@ -4,12 +4,12 @@ ms.assetid: d2671c52-8d34-45e2-9c49-4ed399f3c220
 title: Regroupement de tâches en rôles en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c5e074fb4c83c906d688efa9f0fd4c85ed26d557b6e9c903d4ca814694d8aef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abb4952d9ece250ddfacc53d955bce3a107281a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119671989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311330"
 ---
 # <a name="grouping-tasks-into-roles-in-c"></a>Regroupement de tâches en rôles en C++
 

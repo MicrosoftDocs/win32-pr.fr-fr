@@ -4,12 +4,12 @@ ms.assetid: 5597284a-9cc6-422b-a064-cda25aa5964b
 title: 'ITConnection :: get_NetworkType, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d323d7465563d0a0d400c930585c2c0df002cedfae252d205d53aea8040f337
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31189ec0e3b42e3ed249cd0c62365b1f8c793908
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119660329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311194"
 ---
 # <a name="itconnectionget_networktype-method"></a>ITConnection :: \_ NetworkType, méthode
 
@@ -39,7 +39,7 @@ Pointeur vers un **BSTR** contenant le type de réseau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,11 +57,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppNetworkType* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

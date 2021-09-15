@@ -4,12 +4,12 @@ ms.assetid: 061a30fb-a68a-464e-ad8c-0bda672b57d9
 title: Message ABM_QUERYPOS (shellapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f7a5e78b6b040904144a64e1068fea3a3e56c7b42fdfcf314f2ced4bfff9e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08f25ef636b2c55d8442df49f86a59b537694c31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118225030"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313173"
 ---
 # <a name="abm_querypos-message"></a>\_Message ABM QUERYPOS
 
@@ -33,15 +33,15 @@ Pointeur vers une structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-sh
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne toujours la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un appbar doit envoyer ce message avant d’envoyer le message [**ABM \_ SetPos**](abm-setpos.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

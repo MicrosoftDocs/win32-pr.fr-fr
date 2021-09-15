@@ -4,12 +4,12 @@ description: La propagation des informations d’erreur étendues autorise les s
 ms.assetid: f0395f19-ceb1-4249-892e-9b688464d0d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 510ecf011dbac01d2b4c931a463bebb3739a92322059eb3a7a342160c42a9e4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd20575cee304c0a1693ae4bc6442de4837caa0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118927157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311481"
 ---
 # <a name="propagating-error-information"></a>Propagation des informations d’erreur
 

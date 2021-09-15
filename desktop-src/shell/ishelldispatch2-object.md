@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 481e64c00ced458be05255af451206a42d449c42d157794dfd1077cf2dda278a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79d3abbed038e09f2e73c62e5e3d9b16545e8f60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118721089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313053"
 ---
 # <a name="ishelldispatch2-object"></a>Objet IShellDispatch2
 
@@ -57,11 +57,11 @@ L’objet **IShellDispatch2** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour plus d’informations sur les services Windows, consultez la documentation sur les [services](../services/services.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

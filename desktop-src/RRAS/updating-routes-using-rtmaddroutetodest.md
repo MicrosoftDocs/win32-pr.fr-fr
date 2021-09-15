@@ -4,12 +4,12 @@ description: Si le client n’a pas besoin d’efficacité lors de l’ajout d�
 ms.assetid: bfa914ea-5d54-4ce9-a97c-903c497d135b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3212a74637fa4de51f3b05f80f84bace1c0c57ba570e5025adb796da933b24
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99c7972b2d5ec0996cafc1dd32a8a4056a6aeb0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120025329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311590"
 ---
 # <a name="updating-routes-using-rtmaddroutetodest"></a>Mise à jour d’itinéraires à l’aide de RtmAddRouteToDest
 

@@ -6,11 +6,11 @@ title: D (Glossaire sécurité)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f81a17b2ba2c34b6d5367c1f920ad4b2a4048b2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311290"
 ---
 # <a name="d-security-glossary"></a>D (Glossaire sécurité)
 
@@ -95,7 +95,7 @@ Paramètres par défaut, tels que le mode de chiffrement par bloc ou la méthode
 <span id="_security_der_gly"></span><span id="_SECURITY_DER_GLY"></span>**DER**
 </dt> <dd>
 
-Consultez *Distinguished Encoding Rules*.
+consultez *Distinguished Encoding Rules*.
 
 </dd> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: fd1f74dee017cb72a67ecb4a9fc42da85153966336b25e54819be13464b3b7e6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ee1ee5da5875ec2fa1f4f7f6e474f551befdaf8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119481559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311361"
 ---
 # <a name="iscardcmdput_alternateclassid-method"></a>ISCardCmd ::p ut \_ AlternateClassId, méthode
 
@@ -48,7 +48,7 @@ Autre identificateur de classe. La valeur par défaut est zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -63,7 +63,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avec les communications utilisant le [*protocole T = 0*](../secgloss/t-gly.md), les commandes de carte supplémentaires peuvent être générées automatiquement par le APDU et envoyées à l’unité de données de protocole de transmission (TPDU). Les commandes supplémentaires utilisent généralement le même ID de classe que la commande d’origine. la spécification d’un nouvel ID de classe au moyen de cette méthode permet aux commandes générées automatiquement d’utiliser le nouvel ID de classe.
 
@@ -86,7 +86,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
