@@ -4,12 +4,12 @@ ms.assetid: 8b969a8f-586c-4556-87be-92db6c61e8ce
 title: Référence des fichiers manifeste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e87636a8a4e5398cf9bb274d5ea8b9e7620104989322a20138a162ca45d9caf6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ea9915ba8e5e0c43b7e9c96e62ea46c3f0061b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237942"
 ---
 # <a name="manifest-files-reference"></a>Référence des fichiers manifeste
 

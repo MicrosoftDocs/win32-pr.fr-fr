@@ -5,11 +5,11 @@ ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5e268f45465139e49afe0f81a64eeeb93939734e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473125"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296579"
 ---
 # <a name="10level9-id3d11devicecontext-methods"></a>Méthodes 10Level9 ID3D11DeviceContext
 

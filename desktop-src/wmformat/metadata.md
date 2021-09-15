@@ -9,12 +9,12 @@ keywords:
 - métadonnées, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fad8a687db3fc21c6d73ee43e4f6530fd6e2e504433699f4619ee3165c7af0fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 552e968ab4a5908ec1a2a80012ecba3a5b959c6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117846444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294430"
 ---
 # <a name="metadata"></a>Métadonnées
 

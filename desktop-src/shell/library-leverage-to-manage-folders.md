@@ -4,12 +4,12 @@ ms.assetid: D5F5FE96-11D2-4fc5-A68B-6E594C09BE20
 title: À propos des bibliothèques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14e63aef55513fb36f9a3cbfa71c1b7a79040fd7848468bd1216779cd034132d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e577e7b5df0a1e072a07a096434af84ff8e2c26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118049322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294735"
 ---
 # <a name="about-libraries"></a>À propos des bibliothèques
 

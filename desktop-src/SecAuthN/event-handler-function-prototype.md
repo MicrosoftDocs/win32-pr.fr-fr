@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: df6670e852ccd12fd2bed1d0c188aa0252c9b3afbcb899cf9480b7011d08625d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 935ddac5660c814b898be17218d879678f2135ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237906"
 ---
 # <a name="event-handler-function-prototype-callback-function"></a>Fonction de rappel de prototype de fonction du gestionnaire d’événements
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**d' \_ \_ informations de notification wlx**](/win
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction de rappel ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si votre gestionnaire d’événements doit créer des processus enfants, il doit appeler la fonction [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) . Dans le cas contraire, le nouveau processus sera créé sur le bureau Winlogon, et non sur le Bureau de l’utilisateur.
 
@@ -107,7 +107,7 @@ void WLEventLogoff (PWLX_NOTIFICATION_INFO pInfo)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

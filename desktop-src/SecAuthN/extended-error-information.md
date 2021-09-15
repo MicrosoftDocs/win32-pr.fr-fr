@@ -4,12 +4,12 @@ ms.assetid: a15c61f0-03cc-462f-b5c1-8e7f062e9523
 title: Informations d’erreur étendues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdd93de1691a01802f65397abb1607612f5b7e61a311c9f801854a00c1ab4f05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a4f59c53da452a3254ff6faaebeb30983498161
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237894"
 ---
 # <a name="extended-error-information"></a>Informations d’erreur étendues
 

@@ -4,12 +4,12 @@ ms.assetid: b3118d47-36c9-435f-9268-06de1a75375e
 title: Énumérations de raccourcis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9440159cb871aae5360a12251dc18e9eb7d706fa741aef3c4ff1708af6a06b6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d46ef56c8be9ff0f4681409dfb51d431f5bbfdc1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967542"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294638"
 ---
 # <a name="flicks-enumerations"></a>Énumérations de raccourcis
 

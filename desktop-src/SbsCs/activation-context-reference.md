@@ -4,12 +4,12 @@ ms.assetid: b53b30e0-948e-406c-9fb4-9681dc3c5670
 title: Référence du contexte d’activation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72eb4bc136a95766a62bb96e67ac198f88fca905c60ba98e6bf922ce65a36389
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d6f8225b4db8b22227edf2b779ed9e1b50da7a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238163"
 ---
 # <a name="activation-context-reference"></a>Référence du contexte d’activation
 

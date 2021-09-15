@@ -4,12 +4,12 @@ ms.assetid: 539c4455-e1c7-45a0-b3c3-781f2b7a1617
 title: Présentation de l’espace de noms Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c758f95934e70abdb525547fda3940cd75ebc9b455fbca2cfdbd38ff962c3b0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e1be0187094ffe7cf7b56b724c5990fe18321fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118219899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294727"
 ---
 # <a name="introduction-to-the-shell-namespace"></a>Présentation de l’espace de noms Shell
 

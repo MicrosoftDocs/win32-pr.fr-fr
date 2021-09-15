@@ -3,12 +3,12 @@ description: Les types de fichiers sont identifiés par une extension de nom de 
 title: Comment choisir une extension de type de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 438af6ff9715ed9ebb83e427a3d380bd1dfc78d37c5e55385dfc89e88410b33d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 351a90be42125b26433c5849a2c47e231cc8b460
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119593229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294747"
 ---
 # <a name="how-to-choose-a-file-type-extension"></a>Comment choisir une extension de type de fichier
 

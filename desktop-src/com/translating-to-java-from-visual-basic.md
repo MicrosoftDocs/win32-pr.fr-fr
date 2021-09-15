@@ -4,12 +4,12 @@ description: Conversion en Java à partir de Visual Basic
 ms.assetid: 2bd61efc-f4f4-46f7-aa5a-f6cefc54d86b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f2660162500ba506fcf8b1a5c24819e60b8765439bb7d033fa9d5312711611e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b84d02071641901c5217069d997c22fa04c94cef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294314"
 ---
 # <a name="translating-to-java-from-visual-basic"></a>Conversion en Java à partir de Visual Basic
 

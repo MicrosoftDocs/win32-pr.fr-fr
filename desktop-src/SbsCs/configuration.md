@@ -4,12 +4,12 @@ ms.assetid: 9b99c16d-c2fa-420a-a148-425287354854
 title: Configuration (applications isolées et assemblys côte à côte)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1af5bdaa6a54571d29397cdc8fb93d5f9567719eb74cee029128ab8aff5e33f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5bfdcca828a4eb7d97adcb8d99424cf7541b72c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142402"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238086"
 ---
 # <a name="configuration-isolated-applications-and-side-by-side-assemblies"></a>Configuration (applications isolées et assemblys côte à côte)
 

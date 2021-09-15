@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae3e750a8544c050e735671b7fd2df6980d53b1200e2f67493b46ad7a2e0b017
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5b918989b41b43c3f54d8ec3133223716e839e58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119888729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296419"
 ---
 # <a name="wm_mousewheel-message"></a>\_Message WM MOUSEWHEEL
 
@@ -72,11 +72,11 @@ Le mot de poids fort spécifie la coordonnée y du pointeur, par rapport à l’
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour récupérer les informations dans le paramètre *wParam* :
 
@@ -113,7 +113,7 @@ Notez qu’il n’existe aucun *fwKeys* pour **MSH \_ MOUSEWHEEL**. Dans le cas 
 
 Il revient à l’application de transférer **MSH \_ MOUSEWHEEL** à tous les objets ou contrôles incorporés. L’application est requise pour envoyer le message à une application OLE incorporée active. Il est facultatif que l’application l’envoie à un contrôle activé pour la roulette avec le focus. Si l’application envoie le message à un contrôle, elle peut vérifier la valeur de retour pour voir si le message a été traité. Les contrôles sont requis pour retourner la valeur **true** s’ils traitent le message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -153,7 +153,7 @@ Il revient à l’application de transférer **MSH \_ MOUSEWHEEL** à tous les o
 [**événement de souris \_**](/windows/win32/api/winuser/nf-winuser-mouse_event)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

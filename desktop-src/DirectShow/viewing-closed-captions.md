@@ -4,12 +4,12 @@ ms.assetid: 86c0c553-af35-4ad1-8918-63d9e4577c73
 title: Affichage des sous-titres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f52288b1c4fa5c43f7e0419d81bd9727a4db86848d368b600e1d713c53dc1593
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82ff2d6d213259ccce6e9b02272d0c9db3ad7b71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238967"
 ---
 # <a name="viewing-closed-captions"></a>Affichage des sous-titres
 

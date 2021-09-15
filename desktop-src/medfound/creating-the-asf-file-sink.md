@@ -4,12 +4,12 @@ ms.assetid: 991f3345-a6b4-45c2-a89d-3c13c70b6bbc
 title: Création du récepteur de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 510ed3aeb3082277fa3a8bb4c814c1a82f92dd3da8815ffdbd70e4ef87d0d4f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fcd9ea19f0200dfd330f421fd5dac2cd100b702
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118743257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295427"
 ---
 # <a name="creating-the-asf-file-sink"></a>Création du récepteur de fichiers ASF
 

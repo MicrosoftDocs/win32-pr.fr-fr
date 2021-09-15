@@ -5,15 +5,15 @@ title: Structures et types énumération (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d0c88a3e1a27d705f67a3ffe37e377aa2be1f486
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294379"
 ---
 # <a name="structures-and-enumeration-types-wpd-api"></a>Structures et types énumération (API WPD)
 
-Les appareils mobiles Windows définissent les structures et les types d’énumération suivants.
+Windows Les appareils mobiles définissent les structures et les types d’énumération suivants.
 
 
 

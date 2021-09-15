@@ -13,17 +13,17 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 49a9cceffb308c64c8d1addf7c257b422751661f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538848"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238506"
 ---
 # <a name="oui-ouiheader-element"></a>Élément OUI (OUIHeader)
 
 L’élément OUI (OUIHeader) contient un élément hexBinary de 3 octets qui identifie le IHV.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="OUI">
@@ -47,8 +47,8 @@ L’élément est défini par l’élément [**OUIHeader**](wlan-profileschema-o
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

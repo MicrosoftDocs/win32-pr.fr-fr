@@ -4,12 +4,12 @@ ms.assetid: 82b9f849-b9dc-439b-8ca7-9dcd992338ab
 title: Filtre de lecteur ASF WM (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e87642637e7a210707c049d9b3c6a1a431b0a277774ce432b1c5c962ff2f317
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 330ab870b97fc3e84ccb5b0f726d4f35ef1af147
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238793"
 ---
 # <a name="wm-asf-reader-filter-directshow"></a>Filtre de lecteur ASF WM (DirectShow)
 
@@ -34,7 +34,7 @@ le lecteur ASF WM est un filtre de wrapper pour l’objet lecteur fourni avec le
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En fonction du nom d’un fichier ASF ou d’une URL, le lecteur ASF WM lit le contenu compressé, analyse les flux compressés et expose une broche de sortie pour chacun d’eux. Ce filtre permet de se connecter en aval des filtres de codecs audio et/ou vidéo, qui effectuent la décompression. La recherche est prise en charge si le fichier ASF est accessible en recherche. L’heure du lecteur ASF marque les échantillons avant de les envoyer en aval, mais ne modifie pas les horodatages de quelque manière que ce soit.
 

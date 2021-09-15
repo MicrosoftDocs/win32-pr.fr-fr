@@ -4,12 +4,12 @@ ms.assetid: 8b2de5f5-ea95-441f-9345-b64de53ea05f
 title: Appeler dans des assemblys
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6f785c9d68aa0dbf4bec24927d9f2a1443aed1fb7fe65ec9244616fce8feec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03e4742b19ea47e03fac5f7d0318248ea167182e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142422"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238097"
 ---
 # <a name="calling-into-assemblies"></a>Appeler dans des assemblys
 

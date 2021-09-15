@@ -4,12 +4,12 @@ ms.assetid: 053edb70-8631-4fe4-a137-2fe54e02ab9e
 title: VMR avec plusieurs Flux (Mode de mixage)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f958d8c95372325229dffc1cc37aff579213c48940f93ad090d0fbd9359b79
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a21a954b0ad78afbceabf0fde493f920961b90dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119290779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238907"
 ---
 # <a name="vmr-with-multiple-streams-mixing-mode"></a>VMR avec plusieurs Flux (Mode de mixage)
 

@@ -4,12 +4,12 @@ ms.assetid: 0e98bbcd-7e23-4a33-b0fa-1f936d0ef96b
 title: Stockage d’état de création pour les assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91dd3b3dc62726c45a03fd388864faa7f359112687f0c03fb133276eef2280ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eee388cf680ee3a186a225ca7e3bde8b6eae625d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238104"
 ---
 # <a name="authoring-state-storage-for-side-by-side-assemblies"></a>Stockage d’état de création pour les assemblys côte à côte
 

@@ -4,12 +4,12 @@ ms.assetid: 11d4a6b2-e61a-494a-84c3-33ad04cbee30
 title: System. contact. BusinessAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc536934b449fbee00c36c685f0db0d77c8f4025114016e831783935b3388cf3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8be391e116d4641a01604b443435f0d8c4df5fbf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119459609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294862"
 ---
 # <a name="systemcontactbusinessaddress"></a>System. contact. BusinessAddress
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

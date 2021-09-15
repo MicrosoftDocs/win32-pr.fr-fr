@@ -3,9 +3,9 @@ title: Player. MouseDown (événement)
 description: L’événement MouseDown se produit lorsque l’utilisateur appuie sur un bouton de la souris. | Player. MouseDown (événement)
 ms.assetid: cc2fd2ca-c974-4683-98ca-2202c4d5b240
 keywords:
-- Événement MouseDown lecteur Windows Media
-- Événement MouseDown lecteur Windows Media, classe Player
-- Classe player lecteur Windows Media, événement MouseDown
+- événement MouseDown Lecteur Windows Media
+- événement MouseDown Lecteur Windows Media, classe Player
+- classe Player Lecteur Windows Media, événement MouseDown
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 29eb0c8aa5f6731f94d0e4c3b4ff967cb7819f42
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294351"
 ---
 # <a name="playermousedown-event"></a>Player. MouseDown (événement)
 
@@ -73,17 +73,17 @@ Player.MouseDown(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
 ## <a name="remarks"></a>Notes
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

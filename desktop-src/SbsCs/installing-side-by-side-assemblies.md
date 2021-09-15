@@ -4,12 +4,12 @@ ms.assetid: 36f271ff-be0c-4162-8e1c-86088ebddbcc
 title: Installation d’assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2124b490d64427e80b5beee53d1221cba4d5e59a23dc2d72c2da6833e14a98cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3be68580c7f0e3890c2e53b148daec92fbad18ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142132"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237971"
 ---
 # <a name="installing-side-by-side-assemblies"></a>Installation d’assemblys côte à côte
 

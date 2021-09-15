@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 28ea894ca80144a0a2a5e372946e4c38b1edf9dbc4eea90479147b0356b3bcc4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c67ca3b29f4c81dd56092fa7587d086fa5c938f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042517"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296538"
 ---
 # <a name="apiretrievecolumnasint64-method"></a>API. RetrieveColumnAsInt64, méthode
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>Nom</th>
 <th>Description</th>
 </tr>
 </thead>

@@ -4,12 +4,12 @@ ms.assetid: 4D11B4D6-8CFF-4850-BF8F-9019A1F79153
 title: Attribut MF_LOW_LATENCY (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c51421b68e23ab3f29c15b0b360a7d189befb45cd9046176e6dcb99f1b0748f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02d1b0a89452256f01fc893ced7dc191fd064bbe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294926"
 ---
 # <a name="mf_low_latency-attribute"></a>\_Attribut de \_ latence faible MF
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une latence faible est définie comme le plus petit délai possible entre le moment où les données multimédia sont générées (ou reçues) et le moment où elles sont affichées. Une faible latence est souhaitable pour les scénarios de communication en temps réel. Pour d’autres scénarios, tels que la lecture ou le transcodage local, vous ne devez généralement pas activer le mode de latence faible, car cela peut affecter la qualité.
 
@@ -46,7 +46,7 @@ En général, les applications ne définissent pas cet attribut directement sur 
 -   [Lecteur source](source-reader.md): définissez l’attribut avec les propriétés de configuration lorsque vous créez le lecteur source. Pour plus d’informations, consultez [attributs du lecteur source](source-reader-attributes.md).
 -   [Enregistreur du récepteur](sink-writer.md): définissez l’attribut avec les propriétés de configuration lorsque vous créez le writer du récepteur. Pour plus d’informations, consultez [attributs du writer du récepteur](sink-writer-attributes.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

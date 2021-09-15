@@ -4,12 +4,12 @@ ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
 title: MFNETSOURCE_MAXBUFFERTIMEMS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99d0bf07da8b931ee5487715a4b4430e5ed4384142fc69678a075275d9c7757b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8f98cd17f33bb893dacd02b2a00669f3d2355e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296303"
 ---
 # <a name="mfnetsource_maxbuffertimems-property"></a>MFNETSOURCE \_ propriété MAXBUFFERTIMEMS
 
@@ -39,7 +39,7 @@ Les applications peuvent utiliser cette propriété pour configurer la source r�
 
 La valeur par défaut de cette propriété est 40 000 millisecondes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

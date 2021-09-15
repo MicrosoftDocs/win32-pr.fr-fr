@@ -4,12 +4,12 @@ ms.assetid: 5d679e66-6ea1-491e-86a8-974c4ec61b96
 title: Événements de l’objet InkOverlay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 531ee197a14edf3ce0aa8595bdbcdb3ea2937d9cf863dcc6e95690088ed8ee96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6122709f043fa94f4c1b3d04fcd1c51bb3cd8982
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118218962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294530"
 ---
 # <a name="inkoverlay-object-events"></a>Événements de l’objet InkOverlay
 

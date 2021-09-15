@@ -4,12 +4,12 @@ ms.assetid: 03a0981b-29c3-450d-aa58-bc56a76e6cb6
 title: Profil ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d38d5d2c869bd8af61289fa15361d216f686abac4eaa366b3c036f40338d355
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 616670e7de68fd73c168c474544fc6236f1586e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035520"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296378"
 ---
 # <a name="asf-profile"></a>Profil ASF
 

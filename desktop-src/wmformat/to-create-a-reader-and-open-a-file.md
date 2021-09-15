@@ -11,12 +11,12 @@ keywords:
 - lecteurs asynchrones, ouverture de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc9dad56efa9556618a71bdd6c18500c43545085bdadaf4c6465fc3bf2e3aab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8e714f51b56a7d9f3b18a774cd3b8c74bf05352
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294406"
 ---
 # <a name="to-create-a-reader-and-open-a-file"></a>Pour créer un lecteur et ouvrir un fichier
 

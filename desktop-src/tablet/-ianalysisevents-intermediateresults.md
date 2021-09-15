@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 9efead00094fdcd773c3ac90b0d626e2036030171bcf3be011323b6da70fb665
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33430225746ddd1a4099f89112f14f99f2b6da84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857195"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294699"
 ---
 # <a name="_ianalysiseventsintermediateresults-event"></a>\_Événement IAnalysisEvents :: IntermediateResults
 
@@ -54,11 +54,11 @@ Objet [**IAnalysisStatus**](ianalysisstatus.md) représentant l’état des rés
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement après qu’il a concilié les résultats intermédiaires pour l’étape d’analyse actuelle.
 
@@ -70,7 +70,7 @@ Pour plus d’informations sur la synchronisation des données de votre applicat
 
 [**IInkAnalyzer**](iinkanalyzer.md) génère des résultats intermédiaires uniquement lorsque l’indicateur **AnalysisModes \_ IntermediateResults** est défini pour ses modes d’analyse (consultez [**méthode IInkAnalyzer :: GetAnalysisModes**](iinkanalyzer-getanalysismodes.md)).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

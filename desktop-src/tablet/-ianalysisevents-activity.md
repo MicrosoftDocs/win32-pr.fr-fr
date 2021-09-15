@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: bc0a0fd1ad5434116dc7333899329384eae4b9c6dbf7c386e1e2e048f8431d21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f235d3414b0d514f32b4ebd197c04a8721968a2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118047358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294702"
 ---
 # <a name="_ianalysiseventsactivity-event"></a>\_Événement IAnalysisEvents :: Activity
 
@@ -37,11 +37,11 @@ HRESULT Activity();
 
 Cet événement n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement indique que le [**IInkAnalyzer**](iinkanalyzer.md) effectue une analyse de l’encre. Cet événement n’indique pas la progression de l’opération d’analyse de l’encre.
 
@@ -61,7 +61,7 @@ Le nombre d’événements d’activité générés par un [**IInkAnalyzer**](ii
 
 Pour plus d’informations sur la synchronisation des données de votre application avec [**IInkAnalyzer**](iinkanalyzer.md), consultez [Data proxy with Ink Analysis](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

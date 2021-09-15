@@ -58,12 +58,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4140444d1b5c3ae99c90c2447e165a4143b042dcc7567104e4b5f0063b645b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bd7b829cd4c5ba550fd88242ffb8c34572648d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294299"
 ---
 # <a name="eap-related-error-and-information-constants"></a>Constantes d’informations et d’erreurs liées à EAP
 
@@ -682,14 +682,14 @@ L’authentification a échoué car le certificat sur l’ordinateur serveur n�
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe d’autres noms pour certaines erreurs :
 
 -   Un autre nom pour le **\_ \_ \_ \_ \_ paquet non valide EAP E EAPHOST** est un paquet non valide de la **\_ méthode EAP \_ \_**.
 -   Un autre nom pour le **\_ \_ \_ \_ \_ paquet non valide distant EAP E EAPHOST** est le **\_ \_ paquet EAP non valide**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

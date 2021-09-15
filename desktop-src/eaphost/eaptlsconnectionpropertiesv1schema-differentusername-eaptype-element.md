@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2980a55e76d238578822cfc8db54a9b6c324e21d4a8f0481ab9bc91e050fb008
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 505e23c74d4c1c8c74a50906809d0acc9ce06c42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294282"
 ---
 # <a name="differentusername-eaptype-element"></a>Élément DifferentUsername (EapType)
 
@@ -33,13 +33,13 @@ L’élément **DifferentUsername (EapType)** détermine le nom d’utilisateur 
 
 L’élément **DifferentUsername** est défini par l’élément [**EapType**](eaptlsconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’élément **DifferentUserName** a la valeur true, EAP-TLS doit utiliser un nom d’utilisateur différent du nom qui s’affiche sur le certificat. Si l’élément **DifferentUserName** a la valeur false, EAP-TLS utilise le nom d’utilisateur qui apparaît sur le certificat.
 
 L’élément **DifferentUserName** est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

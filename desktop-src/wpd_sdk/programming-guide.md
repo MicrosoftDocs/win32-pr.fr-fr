@@ -4,12 +4,12 @@ description: Ce guide de programmation porte sur la façon dont les exemples de 
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98013a985adaf4dca8860304171a0f8681014eaa4e6ab4896ca2ec65aaed7c69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db13d50942c28cd4937d27a745d61d7a30a01a15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118193850"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294383"
 ---
 # <a name="wpd-programming-guide"></a>Guide de programmation WPD
 

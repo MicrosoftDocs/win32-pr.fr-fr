@@ -23,12 +23,12 @@ keywords:
 - exclusion mutuelle, fonctionnalités avancées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be220873965b10a0da8d22529fa735175bb8366ebe3088c7b1b385af6012b88a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd00bf5bcb544d2541a6bc5465171fe9bacc1b9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084666"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294422"
 ---
 # <a name="mutual-exclusion"></a>Exclusion mutuelle
 

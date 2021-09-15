@@ -4,12 +4,12 @@ ms.assetid: 21aaf8f0-13b7-4f97-ad4a-3557a7020337
 title: Constantes de raccourcis (Tabflicks. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e927d0715c9f34e7e1db979c32545a0d8c8efad18186192a751f2cdbed13172
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b9a83f9a35a2c1a9cbd7c4b048a8c985f5eea34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294639"
 ---
 # <a name="flicks-constants"></a>Constantes de raccourcis
 
@@ -24,7 +24,7 @@ Voici les constantes de raccourcis.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

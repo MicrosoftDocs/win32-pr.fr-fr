@@ -4,12 +4,12 @@ ms.assetid: e59b3086-4f62-4541-8bef-b0581f01906f
 title: Windows Filtre de source de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb1e617a51095aec7cb409e46ba8f19f14f76fcd6f8d8a9bffeaa13843b1728b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fa8e2c2f2e575a70d85fdce3d9b8d643e270f721
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238806"
 ---
 # <a name="windows-media-source-filter"></a>Windows Filtre de source de média
 

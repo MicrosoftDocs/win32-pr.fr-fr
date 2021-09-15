@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les énumérations de v
 ms.assetid: 002154d5-74a6-48fb-b55f-8687e4505fc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c8cd78b4935061bc450dfe657c6f9c1a6437204b00aa99b4d7058a225fecd7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f77a952413584ccdd582626b8c7c000fa6f8996
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296571"
 ---
 # <a name="common-version-enumerations"></a>Énumérations de version courantes
 

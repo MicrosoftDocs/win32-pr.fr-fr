@@ -4,12 +4,12 @@ ms.assetid: 864fc5ad-5aeb-4dc7-bdd2-2ad2bfb57741
 title: Filtres de pilote de classe WDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecd93db09c638ed7a8a217bec28a565086dcbfcae2b5702c9e1d07778c338646
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 338e4ec4d2aaa58bdac737b58571497cad708876
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071893"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238859"
 ---
 # <a name="wdm-class-driver-filters"></a>Filtres de pilote de classe WDM
 

@@ -4,12 +4,12 @@ description: Une info-bulle est une petite fenêtre contextuelle qui informe les
 ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ea95eee6e745dc85dbe7cd354df0906b5df4a7870198fc662effd326c6fbaae9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 792974ebaaa946a3e1a4f05d52c8fd9ac32fc87a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119818635"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296003"
 ---
 # <a name="balloons"></a>Bulles
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c721605988f15661030ddbeaadf4140fb716a089c87cc46fc2a8316bc2de9e42
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eab4babd1e9d98071b2fbe6ab30c9b92d4a23f0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120035669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238241"
 ---
 # <a name="rtmgetnetworkcount-function"></a>RtmGetNetworkCount fonction)
 
@@ -49,7 +49,7 @@ Spécifie le type de réseau pour obtenir des informations sur l’itinéraire, 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la valeur de retour est le nombre de réseaux, le nombre de réseaux connus des protocoles de routage de la famille de protocoles spécifiée.
 
@@ -66,7 +66,7 @@ Si la valeur de retour est égale à zéro, aucun itinéraire n’est disponible
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

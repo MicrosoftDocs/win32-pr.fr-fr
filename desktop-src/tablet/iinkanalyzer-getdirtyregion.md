@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: d1d621991b4af3d22322529af7541395fddccc7a2c180a13419296eac61d7322
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 56f980189e22f50bb832be904933ef0b26d9b54f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294603"
 ---
 # <a name="iinkanalyzergetdirtyregion-method"></a>IInkAnalyzer :: GetDirtyRegion, méthode
 
@@ -46,11 +46,11 @@ HRESULT GetDirtyRegion(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur *ppDirtyRegion* lorsque vous n’avez plus besoin d’utiliser l’objet.
@@ -69,7 +69,7 @@ Cette propriété peut contenir des zones non adjacentes.
 
 Utilisez [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) pour libérer la mémoire du tableau *ppDirtyRegion* lorsque vous n’en avez plus besoin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

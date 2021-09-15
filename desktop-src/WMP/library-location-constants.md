@@ -13,12 +13,12 @@ keywords:
 - bibliothèque, constantes d’emplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a677f405ff36030647618a83bd0b8b952dae254a756cebc48e4c3210e5fcde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38cbb297831acce9724988309880390cdcbe1894
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295122"
 ---
 # <a name="library-location-constants"></a>Constantes d’emplacement de bibliothèque
 

@@ -4,12 +4,12 @@ ms.assetid: 8432617a-5ae7-44cb-a5f7-f3b2d8885846
 title: Entrée, encre et reconnaissance du stylet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8645a1a68499975ad3ef5cdafb8c07685e9ed9e600cdc9ca2129babaa8b953
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a46d865e40d1779edaa2607b1754c45659609b5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118716261"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294494"
 ---
 # <a name="pen-input-ink-and-recognition"></a>Entrée, encre et reconnaissance du stylet
 

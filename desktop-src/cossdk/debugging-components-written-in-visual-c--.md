@@ -1,19 +1,19 @@
 ---
-description: Lorsque vous êtes prêt à déboguer la fonctionnalité COM+ dans vos composants Microsoft Visual C++, vous pouvez configurer Visual C++ projet ou l’outil d’administration Services de composants pour lancer le débogueur.
+description: lorsque vous êtes prêt à déboguer la fonctionnalité COM+ dans vos composants Microsoft Visual C++, vous pouvez configurer Visual C++ projet ou l’outil d’administration Services de composants pour lancer le débogueur.
 ms.assetid: 206467ac-108a-49de-a884-66959dc77650
 title: Débogage de composants écrits en Visual C++
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a14e4b6324cc69531f09612c2af37fa03a036fd4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516770"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295731"
 ---
 # <a name="debugging-components-written-in-visual-c"></a>Débogage de composants écrits en Visual C++
 
-Lorsque vous êtes prêt à déboguer la fonctionnalité COM+ dans vos composants Microsoft Visual C++, vous pouvez configurer Visual C++ projet ou l’outil d’administration Services de composants pour lancer le débogueur. Si vous utilisez Visual C++, vous pouvez déboguer avec un client distant en utilisant OLE RPC et le débogage juste-à-temps (JIT). Si vous ne parvenez pas à exécuter votre client sous le débogueur ou si le client s’exécute sur un autre ordinateur, vous pouvez utiliser le paramètre **de lancement de com+ dans le débogueur** . Vous le trouverez dans l’outil d’administration Services de composants comme une case à cocher sous l’onglet **avancé** de la boîte de dialogue **Propriétés** de l’application com+.
+lorsque vous êtes prêt à déboguer la fonctionnalité COM+ dans vos composants Microsoft Visual C++, vous pouvez configurer Visual C++ projet ou l’outil d’administration Services de composants pour lancer le débogueur. Si vous utilisez Visual C++, vous pouvez déboguer avec un client distant en utilisant OLE RPC et le débogage juste-à-temps (JIT). Si vous ne parvenez pas à exécuter votre client sous le débogueur ou si le client s’exécute sur un autre ordinateur, vous pouvez utiliser le paramètre **de lancement de com+ dans le débogueur** . Vous le trouverez dans l’outil d’administration Services de composants comme une case à cocher sous l’onglet **avancé** de la boîte de dialogue **Propriétés** de l’application com+.
 
 Lorsque vous avez terminé le débogage, vous devez arrêter les applications COM+ que vous déboguez. Si un processus serveur est en cours d’exécution, vous pouvez recevoir un message d’erreur la prochaine fois que vous essaierez de générer une DLL lorsque la DLL existante sera encore chargée en mémoire. Pour arrêter une application COM+, cliquez avec le bouton droit sur l’application dans l’arborescence de la console, puis cliquez sur **arrêter**.
 
@@ -49,9 +49,9 @@ Vous pouvez également déboguer votre composant sans lancer votre client dans l
 
 **Pour permettre à un composant d’application serveur de lancer le débogueur Visual C++**
 
-1.  Dans le menu **projet** , cliquez sur **paramètres**.
+1.  dans le menu **Project** , cliquez sur **Paramètres**.
 
-2.  Dans la boîte de dialogue **paramètres du projet** , dans la zone **paramètres pour** , sélectionnez **débogage Win32**.
+2.  dans la boîte de dialogue **Project Paramètres** , dans la zone **Paramètres pour** , sélectionnez **débogage Win32**.
 
 3.  Sous l’onglet **Déboguer** , dans la zone **catégorie** , sélectionnez **général**.
 
@@ -77,9 +77,9 @@ Pour déboguer des composants dans une application de bibliothèque, vous devez 
 
 **Pour activer le débogage d’application de bibliothèque avec Visual C++**
 
-1.  Dans Visual C++, dans le menu **projet** , cliquez sur **paramètres**.
+1.  dans Visual C++, dans le menu **Project** , cliquez sur **Paramètres**.
 
-2.  Dans la boîte de dialogue **paramètres du projet** , dans la zone **paramètres pour** , cliquez sur **débogage Win32**.
+2.  dans la boîte de dialogue **Project Paramètres** , dans la zone **Paramètres pour** , cliquez sur **débogage Win32**.
 
 3.  Sous l’onglet **Déboguer** , dans la zone **catégorie** , cliquez sur **autres dll**.
 

@@ -4,12 +4,12 @@ ms.assetid: 272ad1b8-9ea2-4af8-ba0d-c59f4db027e6
 title: Installation d’assemblys côte à côte en tant qu’assemblys partagés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6348354b224e281135e72697aaa155ce69f4ccd23293f671d733e2bc1cd89dfa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 33b4e796fb371a299f508945371fea926c5d56a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237966"
 ---
 # <a name="installing-side-by-side-assemblies-as-shared-assemblies"></a>Installation d’assemblys côte à côte en tant qu’assemblys partagés
 

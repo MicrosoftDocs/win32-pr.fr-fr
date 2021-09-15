@@ -4,12 +4,12 @@ ms.assetid: 2141e465-996c-44e8-a081-38c3e1e0b01b
 title: Exemple sans fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 248d5b877e98c22ff421cb8be86a630990b2b7f1ab66ba17f6cfd13eb659337b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bb466b345497c320aba9d381a0a5559fda2e89c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238812"
 ---
 # <a name="windowless-sample"></a>Exemple sans fenêtre
 

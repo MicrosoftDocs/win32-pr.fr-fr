@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés de l’utilisateur EAP-TLS. Con
 ms.assetid: d5a265a9-4c09-4a60-a188-dff471ee72c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eb62acc8cbe5a56eb56152f8625bf3c9cfeb79fdf31558aa5de4bf131e82f61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d104d8eb5eaca67985be5574504dfbe57b5a6f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118275181"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294295"
 ---
 # <a name="eap-tls-user-properties"></a>Propriétés de l’utilisateur EAP-TLS
 

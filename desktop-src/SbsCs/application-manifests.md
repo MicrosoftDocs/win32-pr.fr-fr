@@ -6,11 +6,11 @@ ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
 ms.openlocfilehash: a1ced7ffb4052f418e989e907f26abb85c2c63db
-ms.sourcegitcommit: 25211012b002a7d1303e438277373d7faf958a68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122436707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238145"
 ---
 # <a name="application-manifests"></a>Manifestes d’application
 
@@ -115,7 +115,7 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | Spécifie l’application ou le type d’assembly. La valeur doit être Win32 et tout en minuscules. Obligatoire.                                                                                                                                                                                                                                                                                                                              |
 | **name**                  | Nomme l’application ou l’assembly de manière unique. Utilisez le format suivant pour le nom : Organization.Division.Name. Par exemple, Microsoft. Windows. mysampleApp. Obligatoire.                                                                                                                                                                                                                                                               |
-| **language**              | Identifie la langue de l’application ou de l’assembly. facultatif. Si l’application ou l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Dans le champ **assemblyIdentity** d’une application destinée à une utilisation mondiale (indépendant de la langue), omettez l’attribut Language.<br/> Dans un **assemblyIdentity** d’un assembly destiné à une utilisation dans le monde entier (indépendant de la langue), définissez la valeur de Language sur « \* ».<br/> |
+| **language**              | Identifie la langue de l’application ou de l’assembly. Optionnel. Si l’application ou l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Dans le champ **assemblyIdentity** d’une application destinée à une utilisation mondiale (indépendant de la langue), omettez l’attribut Language.<br/> Dans un **assemblyIdentity** d’un assembly destiné à une utilisation dans le monde entier (indépendant de la langue), définissez la valeur de Language sur « \* ».<br/> |
 | **processorArchitecture** | Spécifie le processeur. Les valeurs autorisées sont `x86`, `amd64`, `arm` et `arm64`. facultatif.                                                                                                                                                                                                                                                                                                                       |
 | **version**               | Spécifie la version de l’application ou de l’assembly. Utilisez le format de version en quatre parties : MMMM. nnnnn. ooooo. ppppp. Chacun des composants séparés par des points peut être de 0-65535 inclus. Pour plus d’informations, consultez [versions d’assembly](assembly-versions.md). Obligatoire.                                                                                                                                                                        |
 | **publicKeyToken**        | Chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’application ou l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Obligatoire pour tous les assemblys côte à côte partagés.                                                                                                                                                     |
@@ -130,7 +130,7 @@ Contient au moins une **application**. Elle n’a pas d’attribut. facultatif. 
 
 ### <a name="application"></a>application
 
-Contient au moins un élémentos **pris en charge** . à partir de Windows 10, la version 1903 peut également contenir un élément **maxversiontested** facultatif. Elle n’a pas d’attribut. facultatif.
+Contient au moins un élémentos **pris en charge** . à partir de Windows 10, la version 1903 peut également contenir un élément **maxversiontested** facultatif. Elle n’a pas d’attribut. Optionnel.
 
 <span id="supportedOS"></span><span id="supportedos"></span><span id="SUPPORTEDOS"></span>
 
@@ -158,7 +158,7 @@ L’élément **maxversiontested** a l’attribut suivant. Il n’a pas de sous-
 
 ### <a name="dependency"></a>dependency
 
-Contient au moins un **dependentAssembly**. Elle n’a pas d’attribut. facultatif.
+Contient au moins un **dependentAssembly**. Elle n’a pas d’attribut. Optionnel.
 
 <span id="dependentAssembly"></span><span id="dependentassembly"></span><span id="DEPENDENTASSEMBLY"></span>
 
@@ -170,7 +170,7 @@ Le premier sous-élément de **dependentAssembly** doit être un élément **ass
 
 ### <a name="file"></a>fichier
 
-Spécifie les fichiers qui sont privés pour l’application. facultatif.
+Spécifie les fichiers qui sont privés pour l’application. Optionnel.
 
 L’élément **file** a les attributs indiqués dans le tableau suivant.
 
@@ -432,7 +432,7 @@ Cet élément n’a pas d’attributs.
 </assembly>
 ```
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Voici un exemple de manifeste d’application pour une application nommée MySampleApp.exe. L’application consomme l’assembly côte à côte SampleAssembly.
 

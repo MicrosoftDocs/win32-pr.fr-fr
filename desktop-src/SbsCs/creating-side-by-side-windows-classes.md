@@ -4,12 +4,12 @@ ms.assetid: 4941ae1b-f9c6-45ff-b39b-a4078a12a58c
 title: création de Classes de Windows côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8317712b333963f9864e195bb1c5f18896dcd73eec059c9c4ae670ff2fb6a4e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 161732522a12fb6924a2850031d77cff53e44eeb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238068"
 ---
 # <a name="creating-side-by-side-windows-classes"></a>création de Classes de Windows côte à côte
 

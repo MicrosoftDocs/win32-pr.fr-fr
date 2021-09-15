@@ -3,12 +3,12 @@ description: Illustre le processus d’ajout d’un gestionnaire d’appareils �
 title: Comment affecter un gestionnaire d’appareils à un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de091a7206e8fe2d9ea2781e2c5b3475cb71446bae2effa9e017795ced8b9bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16db6a39406e3d8ba7cd8b497e12883685b80d93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294750"
 ---
 # <a name="how-to-assign-a-device-handler-to-a-device"></a>Comment affecter un gestionnaire d’appareils à un appareil
 

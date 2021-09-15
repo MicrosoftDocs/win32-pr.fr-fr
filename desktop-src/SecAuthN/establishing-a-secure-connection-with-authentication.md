@@ -4,12 +4,12 @@ ms.assetid: 176d4ca5-83dd-42ef-b116-227d4badc0dd
 title: Établissement d’une connexion sécurisée avec authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad5f9458cf578481e049dcf2b41d6607b3c6151ce16a938cfe0e398ae7b3bf56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a43483893c8dcf56e6db6b3c7d7aa1451bf9540
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237911"
 ---
 # <a name="establishing-a-secure-connection-with-authentication"></a>Établissement d’une connexion sécurisée avec authentification
 

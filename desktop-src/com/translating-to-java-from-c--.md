@@ -4,12 +4,12 @@ description: À l’aide du langage de programmation C++, les développeurs peuv
 ms.assetid: 2c8de3d9-3410-4153-b612-4afab8a69a18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73efe022fa09ce13a2d5e4e04978033fc3ab8f33abb6afb3b5abf493dab12178
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf63754782cba82819479a7e26535b518835580b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294315"
 ---
 # <a name="translating-to-java-from-c"></a>Conversion en Java à partir de C++
 

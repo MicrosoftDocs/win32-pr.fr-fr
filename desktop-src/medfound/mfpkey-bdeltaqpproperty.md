@@ -5,11 +5,11 @@ title: MFPKEY_BDELTAQP, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a7ba1ca7d30e17841badeda0312f77471116a8e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106537012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294899"
 ---
 # <a name="mfpkey_bdeltaqp-property"></a>MFPKEY \_ propriété BDELTAQP
 
@@ -33,14 +33,14 @@ Le quantificateur d’image (QP) est une mesure de la compression d’un cadre. 
 
 Le delta du frame B ne peut être défini que dans des incréments de point entier. Cette propriété doit être définie sur une valeur entière comprise entre 0 et 31. La valeur recommandée est 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 97515703-0bf4-4230-ae35-181b48b70c40
 title: Création d’une installation redistribuable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80bdd63a00f1f4245ea83173e1a7e609094fe30e5357f5e1ebf3d6da63182cde
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d1ad9b9ec8b10032d4a2bb44cca52e5c2f4178b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119936869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294651"
 ---
 # <a name="creating-a-redistributable-setup"></a>Création d’une installation redistribuable
 

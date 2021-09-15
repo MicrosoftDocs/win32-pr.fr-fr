@@ -4,12 +4,12 @@ ms.assetid: e9fb1c83-860a-44c1-9633-c86f5d0fdadd
 title: Mode avec fenêtres VMR (compatibilité)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d27a5a115ac87475a27365a0211d93cf18e785983cda12ee338e73b24fb0f77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7312274881642d15b844e0fa950f72e52f92db8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049292"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238920"
 ---
 # <a name="vmr-windowed-compatibility-mode"></a>Mode avec fenêtres VMR (compatibilité)
 

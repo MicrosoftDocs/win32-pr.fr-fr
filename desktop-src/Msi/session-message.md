@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 6d14d59e801afcdf69bec2f1169d5c5b14469e8b13ac3f4c593955c7e235c7b4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e20cfebe0a3359a99770cbd242501649bf93f86e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238703"
 ---
 # <a name="sessionmessage-method"></a>Session. message, méthode
 
@@ -42,7 +42,7 @@ Session.Message(
 
 <dl> <dt>
 
-*espèces* 
+*kind* 
 </dt> <dd>
 
 Le paramètre *Kind* doit avoir l’une des valeurs suivantes. Pour afficher une boîte de message avec des boutons et des icônes de type push, calculez la valeur de *genre* en ajoutant les styles de zone de message standard utilisés par [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox) et [**MessageBoxEx**](/windows/win32/api/winuser/nf-winuser-messageboxexa) à **msiMessageTypeError**, **msiMessageTypeWarning** ou **msiMessageTypeUser**. Pour plus d’informations, consultez la section Notes ci-dessous.
@@ -77,7 +77,7 @@ Objet [**Record**](record-object.md) requis contenant un champ spécifique au me
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 
 
@@ -97,7 +97,7 @@ Objet [**Record**](record-object.md) requis contenant un champ spécifique au me
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Champs d’enregistrement de message**
 
@@ -181,7 +181,7 @@ Session.Message &H01000034, record
 
 Si une action personnalisée appelle la méthode de **message** , l’action personnalisée doit être en mesure de gérer une annulation par l’utilisateur et de retourner **msiDoActionStatusUserExit**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

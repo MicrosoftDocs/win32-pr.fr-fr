@@ -4,12 +4,12 @@ ms.assetid: 43d7b940-1816-429f-be6e-40978efed278
 title: Garantir l’intégrité des communications pendant la Exchange des messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 394f78fcc1e5becf4bdfc7c67db52e1af177a7f3aa427d1c6182a080f0ae87bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70545abf11a933cd3bb6d0c32f3312637fcccbe2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237918"
 ---
 # <a name="ensuring-communication-integrity-during-message-exchange"></a>Garantir l’intégrité des communications pendant la Exchange des messages
 

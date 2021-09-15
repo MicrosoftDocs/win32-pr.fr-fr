@@ -4,12 +4,12 @@ ms.assetid: 53a9538d-7a79-40bb-9468-d710eb238925
 title: Filtre de l’analyseur WAVE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f225dcbde4f15af2c6da5e626ea335e7d88612fd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: d91508500b02743f7cac8b4ed5cff718d12e3b03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122466566"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238854"
 ---
 # <a name="wave-parser-filter"></a>Filtre de l’analyseur WAVE
 
@@ -18,14 +18,25 @@ Le filtre de l’analyseur WAVE analyse les données audio au format WAV à part
 
 
 
-| | | Filtrer les interfaces | <a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a> | | Types de média de broche d’entrée | Type majeur : MEDIATYPE_StreamThe sous-types suivants sont valides :<br /><ul><li>MEDIASUBTYPE_AIFF</li><li>MEDIASUBTYPE_AU</li><li>MEDIASUBTYPE_WAVE</li></ul> | | Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | Types de média de broche de sortie | Type majeur : MEDIATYPE_AudioSubtype : MEDIASUBTYPE_PCM ou un autre type de compression. (Voir <a href="audio-subtypes.md"><strong>sous-types audio</strong></a>.)<br /> Type de format : FORMAT_WaveFormatEx<br /> | | Interfaces de broche de sortie | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | | CLSID du filtre | {D51BD5A1-7548-11cf-A520-0080C77EF58A} | | CLSID de page de propriétés | Aucune page de propriétés. | | Fichier exécutable | quartz.dll | | <a href="merit.md">Mérite</a> | MERIT_UNLIKELY | | <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
+| Étiquette | Valeur |
+|--------|-------|
+| Interfaces de filtre | <a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a> | 
+| Types de média de broche d’entrée | Type majeur : MEDIATYPE_StreamThe sous-types suivants sont valides :<br /><ul><li>MEDIASUBTYPE_AIFF</li><li>MEDIASUBTYPE_AU</li><li>MEDIASUBTYPE_WAVE</li></ul> | 
+| Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
+| Types de média de broche de sortie | Type majeur : MEDIATYPE_AudioSubtype : MEDIASUBTYPE_PCM ou un autre type de compression. (Voir <a href="audio-subtypes.md"><strong>sous-types audio</strong></a>.)<br /> Type de format : FORMAT_WaveFormatEx<br /> | 
+| Interfaces de broche de sortie | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"> <strong>IMediaSeeking</strong></a> | 
+| CLSID du filtre | {D51BD5A1-7548-11cf-A520-0080C77EF58A} | 
+| CLSID de page de propriétés | Aucune page de propriétés. | 
+| Exécutable | quartz.dll | 
+| <a href="merit.md">Mérite</a> | MERIT_UNLIKELY | 
+| <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
 
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce filtre prend en charge les types de fichiers suivants :
 

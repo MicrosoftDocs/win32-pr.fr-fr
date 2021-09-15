@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 695bede631b19c028a55a2f3ca82ba994ca12ada
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238511"
 ---
 # <a name="nonbroadcast-ssidconfig-element"></a>Élément SSIDConfig (unbroadcast)
 
@@ -27,7 +27,7 @@ Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md
 
 Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) est défini sur **IBSS**, cette valeur doit être « false ». Si cet élément n’est pas présent, la valeur par défaut est « false ».
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="nonBroadcast"
@@ -48,8 +48,8 @@ Pour afficher un exemple de profil qui utilise l’élément non **Broadcast** ,
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

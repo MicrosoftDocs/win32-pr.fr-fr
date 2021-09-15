@@ -14,12 +14,12 @@ keywords:
 - licences, créer des licences localement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda1a889e83f093cbd60043b299b7174a6c963663962a66454c5707060e76232
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32fc4305c77be2132611df925ae08458fe2bb4a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118433905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294467"
 ---
 # <a name="creating-licenses-locally"></a>Création de licences localement
 

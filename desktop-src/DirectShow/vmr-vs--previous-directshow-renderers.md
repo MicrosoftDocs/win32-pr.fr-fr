@@ -4,12 +4,12 @@ ms.assetid: 45b3f964-6ec7-48b8-a66e-3c9883e6d780
 title: VMR et les convertisseurs de DirectShow précédents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9401361c5b258fdff09bf25351a79bf8315dabfb0c82636d7d8c3c9ffcdd93
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db40f9789a73446cb2dac4ed7033bdb163141bff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238926"
 ---
 # <a name="vmr-vs-previous-directshow-renderers"></a>VMR et les convertisseurs de DirectShow précédents
 

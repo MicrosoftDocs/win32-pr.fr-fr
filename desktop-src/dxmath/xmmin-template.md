@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.reference.xmmin(t,t)
 title: Modèle XMMin (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c2d78b64a66411c31570267c66a7e75171dcf9da039871c07c8bfc31df49149
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 550fd93c9776ad8547502b50817446e64f9bdd64
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118499854"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295010"
 ---
 # <a name="xmmin-template"></a>Modèle XMMin
 
@@ -46,7 +46,7 @@ template<class T> T XMMin(
 
 Retourne le plus petit des deux objets d’entrée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 `XMMin` est un modèle et le type T est spécifié quand le modèle est instancié.
 
@@ -66,7 +66,7 @@ Retourne le plus petit des deux objets d’entrée.
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

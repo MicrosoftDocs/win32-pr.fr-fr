@@ -4,12 +4,12 @@ ms.assetid: 5E0E7423-85BD-4ED0-9149-9541F4D2371F
 title: À propos des assemblys privés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c785b30ca8654071a9816aaf9a11ecc69a029f605d06f39f44a6a490a2a7aef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c7ccfe8c63a8435a33085f607c2040a0a42345c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238181"
 ---
 # <a name="about-private-assemblies"></a>À propos des assemblys privés
 

@@ -4,12 +4,12 @@ ms.assetid: ac8b6b59-f553-4b68-943c-d52f04983356
 title: Raccourcis de messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87b4d4853e5369cfa420441db5a51c08d848c32aefccde9f46ff934e9bd2e5a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36beb71ce913a6cde2a759801783023e7d7c5fae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294631"
 ---
 # <a name="flicks-messages"></a>Raccourcis de messages
 

@@ -4,12 +4,12 @@ ms.assetid: 1ee648b3-8370-4e4d-b513-d998131512ee
 title: Utilisation des catégories de code confidentiel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e65b8229c3a3b3cf60a2c0fe208af0b17992e97880a04f565017a026eb932e46
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9ac58fff91821477cca51e0613772e3e5763d4d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119964299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238745"
 ---
 # <a name="working-with-pin-categories"></a>Utilisation des catégories de code confidentiel
 

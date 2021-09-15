@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 23e32d7a658e41f80eb2a4d8d743afc2c96f7a5a1b4135e646374b98e6acac26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 609660d6f3161cbaaa5e0505daf9c6b9180b6c32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118619255"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238481"
 ---
 # <a name="pmkcachemode-security-element"></a>Élément PMKCacheMode (Security)
 
@@ -46,7 +46,7 @@ L’élément PMKCacheMode (Security) indique si la mise en cache PMK sera utili
 
 L’élément est défini par l’élément de [**sécurité**](wlan-profileschema-security-msm-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

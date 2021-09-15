@@ -4,12 +4,12 @@ ms.assetid: 1cb67b4a-dc75-4bd7-b314-d695c10d5558
 title: Détection du remplacement des ressources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e452b9fba0a8002e13d7fc309ff3c8a12ec114a6a33b1bd7d8d253d710ffa77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62dc1855b98ca5834ef9e13e2f48bf7cca492e94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295111"
 ---
 # <a name="detecting-resource-replacement"></a>Détection du remplacement des ressources
 

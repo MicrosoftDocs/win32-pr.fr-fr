@@ -4,12 +4,12 @@ description: glossaire des termes utilisés dans les instructions d’expérienc
 ms.assetid: 9f35f9be-6165-4d98-a2e6-26fb4fc91eae
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 7b611d1982427ebea68b51cba2f597fa54e4a28f4cbf96b4debf45731ce68e3d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3009940612d0b42ae8ee225e8db59ebabdbf35fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119334449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295986"
 ---
 # <a name="glossary-design-basics"></a>Glossaire (concepts de base de la conception)
 
@@ -142,7 +142,7 @@ Page d’Assistant utilisée pour indiquer la fin d’un Assistant. Ces pages ne
 
 Boîte de dialogue utilisée par le contrôle de compte d’utilisateur (UAC) qui permet aux administrateurs protégés d’élever temporairement leurs privilèges.
 
-**restrictions**
+**contrainte**
 
 Dans les contrôles qui impliquent une entrée d’utilisateur, tels que des zones de texte, les contraintes d’entrée sont un moyen utile d’éviter les erreurs. Par exemple, si la seule entrée valide pour un contrôle particulier est numérique, le contrôle peut utiliser les contraintes de valeur appropriées pour appliquer cette exigence.
 
@@ -366,7 +366,7 @@ petite fenêtre contextuelle qui décrit de façon concise l’objet désigné, 
 
 Sortie brute d’un stylet. Cette encre numérique peut être conservée comme écrite, ou elle peut être convertie en texte à l’aide du logiciel de reconnaissance de l’écriture manuscrite.
 
-**inline**
+**Inline**
 
 Emplacement des liens ou des messages directement dans le contexte de l’interface utilisateur associée. Par exemple, un lien Inline apparaît dans un autre texte et non séparément.
 

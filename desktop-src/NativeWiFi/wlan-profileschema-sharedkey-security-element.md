@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 41677a57a51a98e5b9773ff3dda5b6f5084839c8e03f264567f9621f34ec4eb4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bfd138044e4849e5b0a42ab396561331bea9a338
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238433"
 ---
 # <a name="sharedkey-security-element"></a>Élément sharedKey (Security)
 
@@ -74,7 +74,7 @@ L’élément est défini par l’élément de [**sécurité**](wlan-profilesche
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour Windows Vista et Windows Server 2008, les données associées à l’élément **sharedKey** sont chiffrées avant d’être enregistrées dans le magasin de profils.
 
@@ -84,7 +84,7 @@ pour les Windows xp avec SP3 et l’API de réseau local sans fil pour Windows X
 
 Pour afficher des exemples de profils qui utilisent l’élément **sharedKey** , consultez exemple de [profil de non-diffusion](non-broadcast-profile-sample.md), exemple de [Profil WPA-Personnel](wpa-personal-profile-sample.md)et exemple de profil [WPA2-personnel](wpa2-personal-profile-sample.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

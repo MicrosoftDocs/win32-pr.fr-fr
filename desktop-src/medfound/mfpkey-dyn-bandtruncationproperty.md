@@ -4,12 +4,12 @@ ms.assetid: 70b44f1e-06fc-4e7f-80cb-f9dd15891f75
 title: MFPKEY_DYN_BANDTRUNCATION, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a9a97a6a54cc5ea8d29251327c00d80b574b214fb090cf1fc10b8ea25ed4960
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66a19b4671a57abe01ae9c5eb634a3c25bd90c93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117873506"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294887"
 ---
 # <a name="mfpkey_dyn_bandtruncation-property"></a>MFPKEY \_ dyn \_ BANDTRUNCATION, propriété
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ bool**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

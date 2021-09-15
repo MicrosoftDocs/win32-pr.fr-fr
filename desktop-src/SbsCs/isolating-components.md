@@ -4,12 +4,12 @@ ms.assetid: cc3e21fd-5fd3-40b6-9218-cb5f47be3567
 title: Isolation des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 411d5e90114b7509dff2e5e48a4770841774df52fce804895155d2bd4d43e514
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e201375f50324209380a4ecef5fa762ae70e56d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237948"
 ---
 # <a name="isolating-components"></a>Isolation des composants
 

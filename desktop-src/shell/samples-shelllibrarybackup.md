@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 29c7399fb4bda82ffce234379d51c4cd7ceb17a281f82f3e13db8b45c6b0a449
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e1b4746d2e559b567adb4cbd2305ea474b03129
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294718"
 ---
 # <a name="shell-library-backup-sample"></a>Sauvegarde de bibliothèque Shell, exemple
 
@@ -23,7 +23,7 @@ Montre comment énumérer les bibliothèques en tant que conteneurs. les bibliot
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Cet exemple est une application de sauvegarde fictive qui montre comment sélectionner des bibliothèques dans la boîte de dialogue de fichier commune. Il montre également comment sauvegarder des bibliothèques à l’aide de l’Explorateur d’espaces de noms Shell.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

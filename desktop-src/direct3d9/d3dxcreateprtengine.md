@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d7680b8e4b9f485b62650b202f4319c1e127f3f26afa4d38f3ed039c3b021213
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b76b58953de81041922659c3315bba9cdf7788b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118096469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296555"
 ---
 # <a name="d3dxcreateprtengine-function"></a>D3DXCreatePRTEngine fonction)
 
@@ -89,17 +89,17 @@ Pointeur vers un objet [**ID3DXPRTEngine**](id3dxprtengine.md) de sortie.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez [**D3DXConcatenateMeshes**](d3dxconcatenatemeshes.md) pour combiner plusieurs mailles en une seule interface de maillage.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

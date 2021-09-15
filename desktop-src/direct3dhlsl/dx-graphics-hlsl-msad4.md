@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: be09292cad1181c9bac84a4ecb5346b01b0a58c73e2e545d7386658ac54a1f11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 552db3afd07677777b47e939d659c0f6e333e496
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295035"
 ---
 # <a name="msad4"></a>msad4
 
@@ -62,7 +62,7 @@ Compare une valeur de référence de 4 octets et une valeur source de 8 octets e
 
 Vecteur de 4 sommes. Chaque somme correspond à la somme masquée de différences absolues d’alignements d’octets différents entre la valeur de référence et la valeur source. **msad4** n’inclut pas de différence dans la somme si cette différence est masquée (autrement dit, l’octet de référence est 0).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser l’intrinsèque **msad4** dans le code de votre nuanceur, appelez la méthode [**ID3D11Device :: CheckFeatureSupport**](/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport) avec la [**\_ fonctionnalité d3d11 \_ d3d11 \_ options**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature) pour vérifier que l’appareil Direct3D prend en charge l’option de fonctionnalité [**SAD4ShaderInstructions**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options) . L’intrinsèque **msad4** requiert un pilote d’affichage WDDM 1,2, et tous les pilotes d’affichage WDDM 1,2 doivent prendre en charge **msad4**. Si votre application crée un appareil de rendu avec le [niveau de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 11,0 ou 11,1 et que la cible de compilation est Shader Model 5 ou version ultérieure, le code source HLSL peut utiliser l’intrinsèque **msad4** .
 
@@ -74,9 +74,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                | Pris en charge |
+| Modèle de nuanceur                                                | Prise en charge |
 |-------------------------------------------------------------|-----------|
-| [Shader Model 5 ou version ultérieure](d3d11-graphics-reference-sm5.md) | oui       |
+| [Shader Model 5 ou version ultérieure](d3d11-graphics-reference-sm5.md) | Oui       |
 
 
 
@@ -120,7 +120,7 @@ buf_accum[DTid.x] = accum;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

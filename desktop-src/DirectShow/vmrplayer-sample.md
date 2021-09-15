@@ -4,12 +4,12 @@ ms.assetid: 7fc893a6-afa5-4ada-9295-29122b43b21e
 title: Exemple VMRPlayer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85c6281147e2c140541ade480e5b2a5e0f0a1d4146dde59b4871441b68fec6f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2214d94628a90daf0dd543f4e3a7f0166f4968a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071913"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238902"
 ---
 # <a name="vmrplayer-sample"></a>Exemple VMRPlayer
 
@@ -17,7 +17,7 @@ ms.locfileid: "119071913"
 
 Cet exemple utilise le filtre de mixage vidéo 9 (VMR-9) pour mélanger alpha une ou deux vidéos en cours d’exécution et une image statique.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 Pour ouvrir la première vidéo, choisissez **ouvrir le flux principal** dans le menu **fichier** . Pour ouvrir une deuxième vidéo, choisissez **ouvrir un flux secondaire** dans le menu **fichier** (vous devez d’abord ouvrir le flux de données principal). Pour lire la vidéo, cliquez sur le bouton **lecture** .
 

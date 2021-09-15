@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4f81e70898165c2aa7882675620ed217efa79739aed12469685defd27c68a45d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0447d4e6c5e8474c4d82340e35a23692096305bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118983669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296550"
 ---
 # <a name="apijetattachdatabase-method"></a>API. JetAttachDatabase, méthode
 
@@ -86,7 +86,7 @@ public static JET_wrn JetAttachDatabase(
     
     Options d’attachement.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement ESENT.  

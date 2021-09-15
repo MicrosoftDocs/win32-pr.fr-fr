@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bebf103a2476aa856b55319e0eca42b8708da169fcedb34e48362062689727ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84cbe5c1cd0cc68ee892d42fc60db05b6ae2bea6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118937882"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238325"
 ---
 # <a name="glubegintrim-function"></a>gluBeginTrim fonction)
 
@@ -51,7 +51,7 @@ Objet NURBS (créé avec [**gluNewNurbsRenderer**](glunewnurbsrenderer.md)).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez **gluBeginTrim** pour marquer le début d’une boucle de suppression et **gluEndTrim** pour marquer la fin d’une boucle de suppression. Une boucle de rognage est un ensemble de segments de courbe orientés (formant une courbe fermée) qui définissent les limites d’une surface NURBS. Vous incluez ces boucles de suppression dans la définition d’une surface NURBS, entre les appels à [**gluBeginSurface**](glubeginsurface.md) et [**gluEndSurface**](gluendsurface.md).
 
@@ -79,7 +79,7 @@ gluBeginTrim(nobj);
 gluEndTrim(nobj);
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

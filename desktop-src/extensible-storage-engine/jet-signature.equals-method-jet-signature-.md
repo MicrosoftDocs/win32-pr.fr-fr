@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eb7b1bb73c611ce65d0c2d07059eb14e7ceba6b59b648c474bd753988d7b9232
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f099b74af84e1a75289313c5bb9d4de646b51a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119616139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295499"
 ---
 # <a name="jet_signatureequals-method-jet_signature"></a>JET_SIGNATURE. Equals, méthode (JET_SIGNATURE)
 
@@ -57,12 +57,12 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - Autres  
+  - other  
     Type : [Microsoft.ISAM.esent.Interop.JET_SIGNATURE](./jet-signature-structure2.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
@@ -73,7 +73,7 @@ True si les deux instances sont égales.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_SIGNATURE](./jet-signature-structure2.md)
 

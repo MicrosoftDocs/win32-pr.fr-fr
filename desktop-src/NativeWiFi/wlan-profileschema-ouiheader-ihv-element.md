@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5293a6e69c1384922572764674cbadd9980702c49f8945518ff9b0c56beee2d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a31feb123e31489c751b7844e06d5c344278778e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238505"
 ---
 # <a name="ouiheader-ihv-element"></a>Élément OUIHeader (IHV)
 
@@ -71,11 +71,11 @@ L’élément est défini par l’élément [**IHV**](wlan-profileschema-ihv-wla
 | Élément                                                   | Type | Description                                                                                |
 |-----------------------------------------------------------|------|--------------------------------------------------------------------------------------------|
 | [**OUI**](wlan-profileschema-oui-ouiheader-element.md)   |      | Contient une hexBinary de 3 octets qui identifie le IHV.<br/>                            |
-| [**entrer**](wlan-profileschema-type-ouiheader-element.md) |      | Contient une valeur hexBinary de 1 octet qui est utilisée pour différencier les cartes réseau par le même IHV.<br/> |
+| [**type**](wlan-profileschema-type-ouiheader-element.md) |      | Contient une valeur hexBinary de 1 octet qui est utilisée pour différencier les cartes réseau par le même IHV.<br/> |
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

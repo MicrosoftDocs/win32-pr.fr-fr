@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 0c4f43acfd64c3e6e575b1a41103c65feb2373f205354567aa8e1a023805ca72
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bdfe0edb163dc2bc9766ba8562defb026bbe21fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119799869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238469"
 ---
 # <a name="pmkcachettl-security-element"></a>Élément PMKCacheTTL (Security)
 
@@ -48,7 +48,7 @@ La mise en cache de la clé PMK est décrite dans la spécification [802.11 i](h
 
 L’élément est défini par l’élément de [**sécurité**](wlan-profileschema-security-msm-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

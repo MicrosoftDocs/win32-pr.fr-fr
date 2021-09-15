@@ -4,12 +4,12 @@ ms.assetid: 675a34d4-7a33-4125-86af-cd4ed73ad430
 title: Nouveautés de DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd05d11931d7c23a078643724b99dfed84b65e3a7db3e4ed60df9cd2a3273f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74747349848a7b370cd4766113085c84d0c7a1d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071883"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238835"
 ---
 # <a name="whats-new-in-directshow"></a>Nouveautés de DirectShow
 

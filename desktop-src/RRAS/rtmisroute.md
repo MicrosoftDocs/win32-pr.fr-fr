@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 312b43a7cf66e17cc6016fe3ad35bd21cd1e7ae19ecd7864a10de4d977a92ac9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e64621732f2f7a35223421e5f0fc86a309d332c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120073809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238224"
 ---
 # <a name="rtmisroute-function"></a>RtmIsRoute fonction)
 
@@ -65,7 +65,7 @@ Pointeur vers une structure spécifique à la famille de protocoles qui reçoit 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est l’un des codes suivants.
 

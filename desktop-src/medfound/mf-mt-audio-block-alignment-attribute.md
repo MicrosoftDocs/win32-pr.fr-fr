@@ -4,12 +4,12 @@ ms.assetid: 7d304826-ad81-4243-a675-2f55b668b348
 title: Attribut MF_MT_AUDIO_BLOCK_ALIGNMENT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5985485313bda76221a9a45dc4a6aa9f257884766398dce8a9301401d49ea2f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 21efb14cbb89d1773fe9bc3b5ade8d0a50555a1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296319"
 ---
 # <a name="mf_mt_audio_block_alignment-attribute"></a>\_Attribut d' \_ \_ alignement de bloc audio MF MT \_
 
@@ -19,7 +19,7 @@ Alignement de bloc, en octets, pour un type de média audio. L’alignement de b
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour les formats audio PCM, l’alignement de bloc est égal au nombre de canaux audio multiplié par le nombre d’octets par échantillon audio.
 
@@ -27,7 +27,7 @@ Cet attribut correspond au membre **nBlockAlign** de la structure [**WAVEFORMATE
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

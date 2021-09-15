@@ -4,12 +4,12 @@ ms.assetid: 1cfd836f-a1b9-4339-8756-5488c88b3c2b
 title: Installation d’assemblys côte à côte en tant qu’assemblys privés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f582f96a456906c0ee841ae557974db677b5dc6c0b1d04cb330900df1e5bc549
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7719a9887f9e92d81e2ad65fe2e75424f0b6957
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142142"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127237978"
 ---
 # <a name="installing-side-by-side-assemblies-as-private-assemblies"></a>Installation d’assemblys côte à côte en tant qu’assemblys privés
 

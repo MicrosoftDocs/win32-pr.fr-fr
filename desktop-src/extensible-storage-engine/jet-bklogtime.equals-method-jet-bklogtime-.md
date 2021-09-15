@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0f37530888bd26099513ace346ceed3214adce585e11fd19c33edab724e3dca8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07b9fe3383331aaa91e26589dd0768bbee56869d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119475779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294247"
 ---
 # <a name="jet_bklogtimeequals-method-jet_bklogtime"></a>JET_BKLOGTIME. Equals, méthode (JET_BKLOGTIME)
 
@@ -57,12 +57,12 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - Autres  
+  - other  
     Type : [Microsoft.ISAM.esent.Interop.JET_BKLOGTIME](./jet-bklogtime-structure2.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  

@@ -4,12 +4,12 @@ ms.assetid: be597c90-7222-4542-b0f7-e9f4cdfc08b9
 title: SetProgress ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22e36ecf5851713d7460f8f249b77871439c628f2adfce516aea29db52ad7942
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acd7523f03dd8fc8216991ae16b05a731e9f38f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118625079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238631"
 ---
 # <a name="setprogress-controlevent"></a>SetProgress ControlEvent,
 

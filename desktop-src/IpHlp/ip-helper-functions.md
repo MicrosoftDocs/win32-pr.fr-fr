@@ -4,12 +4,12 @@ description: Les fonctions suivantes récupèrent et modifient les paramètres d
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-ms.openlocfilehash: 050db5574a1c10f01dadd1f53bb8e5a5aee2625a922680fe44f50a76e07ada97
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee16bb0b65545c4abbef387c5b90d42fb9d3c629
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118389130"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238721"
 ---
 # <a name="ip-helper-functions"></a>Fonctions d’assistance IP
 

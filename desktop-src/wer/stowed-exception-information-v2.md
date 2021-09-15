@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bb7ed638007bbffd67e61c07d26a591149318d64171467053dec2f7593f347e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eefd313f0edcc122708f141cd65418beaade03a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117670631"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294487"
 ---
 # <a name="stowed_exception_information_v2-structure"></a>Structure d' \_ informations d’exception de la \_ \_ version v2
 
@@ -158,7 +158,7 @@ Nombre de mots dans la trace de la pile vers lequel pointe le membre **StackTrac
 
 </dd> <dt>
 
-**StackTrace**
+**Trace**
 </dt> <dd>
 
 Type : **[ **pVoid**](/windows/desktop/WinProg/windows-data-types)**
@@ -232,13 +232,13 @@ Pointeur vers un type d’exception imbriquée. Le type d’objet est indiqué p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Rangé \_ Les \_ informations \_ sur l’exception v2** et l' [**\_ \_ \_ en-tête d’informations d’exception arrimées**](stowed-exception-information-header.md) ne sont actuellement pas définis dans un en-tête disponible publiquement. vous devez donc les définir dans votre code source avant de les utiliser.
 
 La structure d’informations d’exception de la version **\_ \_ \_ v1** est identique à cette structure, sauf qu’elle ne contient pas les membres **NestedExceptionType** et **NestedException** .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

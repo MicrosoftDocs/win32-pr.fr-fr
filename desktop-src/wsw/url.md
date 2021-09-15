@@ -3,17 +3,17 @@ title: Url
 description: Les éléments de l’API d’URL WWSAPI fournissent des mécanismes pour fractionner et annuler l’échappement des URL dans des composants, et pour échapper et combiner des composants de composant dans une URL.
 ms.assetid: 2904fee0-d92b-4054-8ad9-51c409756f33
 keywords:
-- Services Web d’URL pour Windows
+- Services Web URL pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b8511bf755f80f124071f658a65249243dc2f2af
-ms.sourcegitcommit: 6f8c895f4d43c4463f6f33fa8014c5de413ece1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "106510058"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294363"
 ---
 # <a name="url"></a>Url
 
@@ -43,9 +43,9 @@ Les structures suivantes font partie de l’URL :
 -   [**\_URL WS SOAPUDP \_**](/windows/desktop/api/WebServices/ns-webservices-ws_soapudp_url)
 -   [**\_URL WS**](/windows/desktop/api/WebServices/ns-webservices-ws_url)
 
- 
+ 
 
- 
+ 
 
 
 

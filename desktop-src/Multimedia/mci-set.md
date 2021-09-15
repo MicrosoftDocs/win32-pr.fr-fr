@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4e1da0da94c0d970b607a29548c773fa9302d26d
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363780"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238542"
 ---
 # <a name="mci_set-command"></a>\_Commande Set MCI
 
@@ -744,7 +744,7 @@ Plusieurs propriétés des données Waveform-Audio sont définies lors de la cr�
 -   \_jeu Wave \_ MCI \_ FORMATTAG
 -   \_jeu Wave \_ MCI \_ SAMPLESPERSEC
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

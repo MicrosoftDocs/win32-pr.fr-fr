@@ -1,5 +1,5 @@
 ---
-description: À compter de Windows Vista, une plus grande utilisation est faite d’images miniatures spécifiques aux fichiers que dans les versions antérieures de Windows.
+description: à partir de Windows Vista, une plus grande utilisation est faite d’images miniatures spécifiques aux fichiers que dans les versions antérieures de Windows.
 title: Création de gestionnaires de miniatures
 ms.topic: article
 ms.date: 05/31/2018
@@ -10,21 +10,21 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: c05e13f24a2f4d70a58bab904150b1e488f74854
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294767"
 ---
 # <a name="building-thumbnail-handlers"></a>Création de gestionnaires de miniatures
 
-À compter de Windows Vista, une plus grande utilisation est faite d’images miniatures spécifiques aux fichiers que dans les versions antérieures de Windows. Ils sont utilisés dans tous les affichages, dans les boîtes de dialogue et dans tout type de fichier qui les fournit. L’affichage des miniatures a également été modifié. Un spectre continu de tailles sélectionnables par l’utilisateur est disponible plutôt que des tailles discrètes, telles que des icônes et des miniatures.
+à partir de Windows Vista, une plus grande utilisation est faite d’images miniatures spécifiques aux fichiers que dans les versions antérieures de Windows. Ils sont utilisés dans tous les affichages, dans les boîtes de dialogue et dans tout type de fichier qui les fournit. L’affichage des miniatures a également été modifié. Un spectre continu de tailles sélectionnables par l’utilisateur est disponible plutôt que des tailles discrètes, telles que des icônes et des miniatures.
 
 L’interface [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) permet de fournir une miniature plus simple que l’ancienne [**IExtractImage**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) ou [**IExtractImage2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage2). Notez, toutefois, que le code existant qui utilise **IExtractImage** ou **IExtractImage2** est toujours valide et pris en charge.
 
 ## <a name="the-recipethumbnailprovider-sample"></a>Exemple RecipeThumbnailProvider
 
-L’exemple [RecipeThumbnailProvider](samples-recipethumbnailprovider.md) dans cette section est inclus dans le kit de développement logiciel (SDK) Windows. Son emplacement d’installation par défaut est C : \\ Program Files \\ Microsoft SDK \\ Windows \\ v 6.0 \\ exemples \\ WinUI \\ Shell \\ AppShellIntegration \\ RecipeThumbnailProvider. Toutefois, la majeure partie du code est également incluse ici.
+l’exemple [RecipeThumbnailProvider](samples-recipethumbnailprovider.md) dans cette section est inclus dans le kit de développement logiciel (SDK) Windows. son emplacement d’installation par défaut est C : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ exemples \\ WinUI \\ Shell \\ AppShellIntegration \\ RecipeThumbnailProvider. Toutefois, la majeure partie du code est également incluse ici.
 
 L’exemple [RecipeThumbnailProvider](samples-recipethumbnailprovider.md) illustre l’implémentation d’un gestionnaire de miniatures pour un nouveau type de fichier inscrit avec une extension. recipe. L’exemple illustre l’utilisation des différentes API du gestionnaire de miniatures pour inscrire des serveurs COM (Component Object Model) d’extraction de miniatures pour des types de fichiers personnalisés. Cette rubrique vous guide tout au long de l’exemple de code, en mettant en évidence les choix et les recommandations en matière de codage.
 
@@ -67,7 +67,7 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
 
 Le type de fichier. Recipe est simplement un fichier XML enregistré sous la forme d’une extension de nom de fichier unique. Il inclut un élément appelé **Picture** qui fournit le chemin d’accès relatif et le nom de fichier de l’image à utiliser comme miniature pour ce fichier. Recipe particulier. L’élément **Picture** se compose de l’attribut **source** qui spécifie une image encodée de base 64 et d’un attribut de **taille** facultatif.
 
-La **taille** a deux valeurs, petite et grande. Cela vous permet de fournir plusieurs nœuds d' **image** avec des images distinctes. L’image récupérée dépend ensuite de la valeur de taille maximale (*CX*) fournie dans l’appel à [**miniature**](/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail). Étant donné que Windows ne dimensionne jamais l’image à une taille supérieure à sa taille maximale, différentes images peuvent être fournies pour différentes résolutions. Toutefois, pour plus de simplicité, l’exemple omet l’attribut **Size** et ne fournit qu’une seule image pour toutes les situations.
+La **taille** a deux valeurs, petite et grande. Cela vous permet de fournir plusieurs nœuds d' **image** avec des images distinctes. L’image récupérée dépend ensuite de la valeur de taille maximale (*CX*) fournie dans l’appel à [**miniature**](/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail). étant donné que Windows ne dimensionne jamais l’image à une taille supérieure à sa taille maximale, différentes images peuvent être fournies pour différentes résolutions. Toutefois, pour plus de simplicité, l’exemple omet l’attribut **Size** et ne fournit qu’une seule image pour toutes les situations.
 
 La méthode **\_ GetBase64EncodedImageString** , dont l’implémentation est présentée ici, utilise des API XML Document Object Model (DOM) pour récupérer le nœud **image** . À partir de ce nœud, il extrait l’image à partir des données d’attribut **source** .
 
@@ -197,7 +197,7 @@ HRESULT CRecipeThumbProvider::_GetStreamFromString(PCWSTR pszImageName,
 
 
 
-**Miniature** utilise ensuite les API WIC (Windows Imaging Component) pour extraire une image bitmap du flux et obtenir un handle vers cette bitmap. Les informations alpha sont définies, le WIC est correctement quitté et la méthode se termine correctement.
+**miniature** utilise ensuite les api WIC (Windows Imaging Component) pour extraire une image bitmap du flux et obtenir un handle vers cette bitmap. Les informations alpha sont définies, le WIC est correctement quitté et la méthode se termine correctement.
 
 
 ```C++

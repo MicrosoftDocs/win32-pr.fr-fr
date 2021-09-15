@@ -4,12 +4,12 @@ ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
 title: Attribut MF_TRANSCODE_CONTAINERTYPE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c56b0332c43f10fa61b34f47191e3946a4813b3670249a8d858317067c38d52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f86b8d5890a771200feda265c3878b6eb7030b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119604689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294907"
 ---
 # <a name="mf_transcode_containertype-attribute"></a>\_Attribut CONTAINERTYPE de transcodage MF \_
 
@@ -47,7 +47,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetGuid**](/windows/
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé avec la fonctionnalité de transcodage rapide et l’objet enregistreur récepteur.
 
@@ -64,7 +64,7 @@ L’application doit définir l’attribut de conteneur sur le profil de transco
 
 Cet attribut peut être utilisé pour configurer le type de conteneur de fichiers pour le writer du récepteur. Pour plus d’informations, consultez [attributs du writer du récepteur](sink-writer-attributes.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

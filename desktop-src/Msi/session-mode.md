@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ed0c24280307cf368239ab88b5357924a3ee40d5a62444838e155aca2c0642f0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f081859db789601f2c41bf95d65c377fba8d51f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238697"
 ---
 # <a name="sessionmode-property"></a>Session. mode (propriété)
 
@@ -67,7 +67,7 @@ Valeur entière requise pour l’indicateur. Doit prendre l'une des valeurs suiv
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

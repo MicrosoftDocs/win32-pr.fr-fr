@@ -6,11 +6,11 @@ ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
 ms.openlocfilehash: 3d27f8831e4a68b6fb5bb95d7f4a6c34fe361db5
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294742"
 ---
 # <a name="knownfolderid"></a>KNOWNFOLDERID
 
@@ -135,7 +135,7 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -443,7 +443,7 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -557,7 +557,7 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1203,7 +1203,7 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1326,7 +1326,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1668,7 +1668,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1744,7 +1744,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1770,7 +1770,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Nom d’affichage</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td>Type de dossier</td>
@@ -1786,7 +1786,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
@@ -2162,7 +2162,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2392,7 +2392,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2509,7 +2509,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3042,7 +3042,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3388,7 +3388,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3426,7 +3426,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3502,7 +3502,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3578,7 +3578,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3616,7 +3616,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3654,7 +3654,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3730,7 +3730,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3806,7 +3806,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3844,7 +3844,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4646,7 +4646,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucune</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4818,7 +4818,7 @@ ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interprétation de certaines valeurs **KNOWNFOLDERID** varie selon que le dossier fait partie d’une application 32 bits ou 64 bits et si cette application s’exécute sur un système d’exploitation 32 bits ou 64 bits. Si votre application doit faire la distinction entre, par exemple, **Program Files** et **Program Files (x86)**, vous devez utiliser le bon **KNOWNFOLDERID** pour la situation.
 
@@ -4827,14 +4827,14 @@ Les tableaux suivants résument l’utilisation de **KNOWNFOLDERID** dans ces ca
 
 **FOLDERID \_ ProgramFiles** 
 
-| Système d’exploitation | Application | KNOWNFOLDERID | Default Path | Effet de CSIDL |
+| Système d'exploitation | Application | KNOWNFOLDERID | Default Path | Effet de CSIDL |
 |------------------|-------------|---------------|--------------|------------------|  
 | 32 bit | 32 bit | FOLDERID \_ ProgramFiles | % SystemDrive% \\ Program Files | \_fichiers programme \_ CSIDL |
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files | \_FILESX86 du programme CSIDL \_ |
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesX64 (non pris en charge sous les systèmes d’exploitation 32 bits) | Non applicable | Non applicable |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFiles | % SystemDrive% \\ Program Files | \_fichiers programme \_ CSIDL |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files (x86) | \_FILESX86 du programme CSIDL \_ |
-| 64 bits | 64 bits | FOLDERID \_ ProgramFilesX64 | % SystemDrive% \\ Program Files | Aucune |
+| 64 bits | 64 bits | FOLDERID \_ ProgramFilesX64 | % SystemDrive% \\ Program Files | None |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFiles | % SystemDrive% \\ Program Files (x86) | \_fichiers programme \_ CSIDL |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files (x86) | \_FILESX86 du programme CSIDL \_ |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesX64 (non pris en charge pour les applications 32 bits) | Non applicable | Non applicable |
@@ -4842,22 +4842,22 @@ Les tableaux suivants résument l’utilisation de **KNOWNFOLDERID** dans ces ca
 
 **FOLDERID \_ ProgramFilesCommon**
 
-| Système d’exploitation | Application | KNOWNFOLDERID | Default Path | Effet de CSIDL |
+| Système d'exploitation | Application | KNOWNFOLDERID | Default Path | Effet de CSIDL |
 |------------------|-------------|---------------|--------------|------------------|  
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesCommon | Fichiers communs% ProgramFiles% \\ | \_fichiers programme \_ CSIDL \_ communs |
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesCommonX86 | Fichiers communs% ProgramFiles% \\ | \_Fichiers programme \_ CSIDL \_ COMMONX86 |
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesCommonX64 (non défini) | Non applicable | Non applicable |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommon | Fichiers communs% ProgramFiles% \\ | \_fichiers programme \_ CSIDL \_ communs |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles (x86)% \\ fichiers communs | \_Fichiers programme \_ CSIDL \_ COMMONX86 |
-| 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | Aucune |
+| 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | None |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommon | % ProgramFiles (x86)% \\ fichiers communs | \_fichiers programme \_ CSIDL \_ communs |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles (x86)% \\ fichiers communs | \_Fichiers programme \_ CSIDL \_ COMMONX86 |
-| 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | Aucune |
+| 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | None |
 
 
 **\_Système FOLDERID**
 
-| Système d’exploitation | Application | KNOWNFOLDERID | Default Path | Effet de CSIDL |
+| Système d'exploitation | Application | KNOWNFOLDERID | Default Path | Effet de CSIDL |
 |------------------|-------------|---------------|--------------|------------------|  
 | 32 bit | 32 bit | \_Système FOLDERID | % windir% \\ system32 | \_système CSIDL |
 | 32 bit | 32 bit | FOLDERID \_ SystemX86 | % windir% \\ system32 | CSIDL \_ SYSTEMX86 |
@@ -4898,7 +4898,7 @@ Nous avons utilisé des chaînes d’environnement pour fournir des chemins d’
 | %windir% | C : \\ Windows |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

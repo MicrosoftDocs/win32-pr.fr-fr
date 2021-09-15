@@ -4,12 +4,12 @@ ms.assetid: 84F293C2-BAB1-4BF8-9F89-122B6DAB29C3
 title: Comment assigner une icône personnalisée à un type de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d156322bfe0899ed48c6c27f2660b911d9e5c77791c550b6141144d95384b6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf625eb6177471702096f462846b8035772177ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092995"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294754"
 ---
 # <a name="how-to-assign-a-custom-icon-to-a-file-type"></a>Comment assigner une icône personnalisée à un type de fichier
 
@@ -45,7 +45,7 @@ Affectez à la sous-clé **DefaultIcon** une valeur par défaut de type **reg \_
 
 Appelez la fonction [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) pour notifier à l’interpréteur de mise à jour son cache d’icône.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple suivant montre une vue détaillée des entrées de Registre requises pour l’affectation d’une icône de type de fichier. L’extension de nom de fichier est associée à une application, mais l’affectation d’icône correspond à l’extension de nom de fichier proprement dite afin que l’application associée ne dicte pas l’icône par défaut.
 

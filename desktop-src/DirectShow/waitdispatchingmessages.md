@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 26442633d1a4d5187b5e53ae53e0a898f759f91dc3719f09715b570108b701f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e509a081243f28293dc2d8abf8311f69eaf9a44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238877"
 ---
 # <a name="waitdispatchingmessages-function"></a>WaitDispatchingMessages fonction)
 
@@ -81,15 +81,15 @@ Handle facultatif d’un événement à attendre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de la fonction **WaitForMultipleObjects** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un objet possède une fenêtre, il doit distribuer les messages de fenêtre en attente. Cette fonction permet à l’objet d’attendre un événement, un sémaphore ou un autre objet d’exclusion mutuelle lors de la distribution des messages.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e
 title: DSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2505a8482a698f3147ae9c13ddb135c1da1c584f16cf52a5a05ca469efbc968
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4285596a8109361accd6b3adecf80ea98074e55e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117680709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294774"
 ---
 # <a name="dsearch"></a>DSearch
 
@@ -17,13 +17,13 @@ l’exemple de code DSearch montre comment créer une classe pour une applicatio
 
 Cette rubrique contient les sections suivantes.
 
-- [Requirements](#requirements)
+- [Configuration requise](#requirements)
 - [Téléchargement de l’exemple](#downloading-the-sample)
 - [Génération de l'exemple](#building-the-sample)
 - [Exécution de l’exemple](#running-the-sample)
 - [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Produit     | Version du produit          |
 |-------------|--------------------------|

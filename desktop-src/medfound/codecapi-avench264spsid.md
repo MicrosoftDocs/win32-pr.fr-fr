@@ -4,12 +4,12 @@ ms.assetid: 583DD539-6EE8-4DD4-A0FE-D2BBE1A4302F
 title: CODECAPI_AVEncH264SPSID, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da06e431a3747e676e3934ac9a261e1d0e1ec37e18bacf01f8a3e623c4257488
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e06fb78fc128b2eec5db2c61faf70ee10a5eba5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119664659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296335"
 ---
 # <a name="codecapi_avench264spsid-property"></a>CODECAPI \_ propriété AVEncH264SPSID
 
@@ -29,7 +29,7 @@ Spécifie la valeur de l' **\_ ID du \_ jeu \_ de paramètres SEQ** dans l’uni
 
 La plage valide est 0 31, comme indiqué dans la spécification H. 264/AVC.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

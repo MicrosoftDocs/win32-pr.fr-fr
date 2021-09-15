@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0313cc594b0629509ffcee65ea333caa9dbc373de323dc656a6028bc26e14317
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a5adb47d40cb1300305c7ff6f9bb6f1c3c716f0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120081049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238277"
 ---
 # <a name="rtmcloseenumerationhandle-function"></a>RtmCloseEnumerationHandle fonction)
 
@@ -49,7 +49,7 @@ Handle de l’énumération à arrêter. Obtenez ce handle en appelant [**RtmCre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour n’est pas une \_ erreur.
 
@@ -66,7 +66,7 @@ Si la fonction échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

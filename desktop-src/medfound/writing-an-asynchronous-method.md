@@ -4,12 +4,12 @@ ms.assetid: cd94280d-7267-4d35-8333-aa4a5bd81b73
 title: Écriture d’une méthode asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2efc9b38212f729dc840dde1ad1976a1b523103312710a0f316369637f3b66d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3d8360d0c15fe25661b8cd0f0f5adc9768db8ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296219"
 ---
 # <a name="writing-an-asynchronous-method"></a>Écriture d’une méthode asynchrone
 

@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 81b9758932c2374cafd6241e67d3ec37aa883ee1
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296471"
 ---
 # <a name="jet_dateserial"></a>JET_DATESERIAL
 
@@ -41,7 +41,7 @@ JET_DATESERIAL
 
 Contient un nombre à virgule flottante double précision (8 octets). Il s’agit du même type de [Date](https://msdn.microsoft.com/library/82ab7w69(VS.71).aspx) C++.
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

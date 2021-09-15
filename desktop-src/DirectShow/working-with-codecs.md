@@ -4,12 +4,12 @@ ms.assetid: c69e0ecf-5f72-4d77-90e6-0f493325c0f4
 title: Utilisation des codecs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 462a1340ef7e6a64aada586addcc73d95a993884fe2b026e74acde5fd286638c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cbe6d45608c3d95fee8f67344bdec0fc77431919
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118650618"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238775"
 ---
 # <a name="working-with-codecs"></a>Utilisation des codecs
 

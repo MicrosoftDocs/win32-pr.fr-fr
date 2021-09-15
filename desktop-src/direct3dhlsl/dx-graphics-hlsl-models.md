@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d7f6a37b1d37225425a60cc42887d5e587d9522929bc78a28dbb5bf5854493f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 963e68d5875c3ee512e7e0d6ee7c243db72f4400
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117726149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295039"
 ---
 # <a name="shader-models-vs-shader-profiles"></a>Modèles de nuanceur et profils Shader
 

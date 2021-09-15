@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0ba170f6750230bb507d8febcc14c3e1862638f8567afe27c949cf860f39d65d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 632582c08bb5d54e1b022c67925649fe7a68112a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119617889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294258"
 ---
 # <a name="jet_bkinfoequals-method-jet_bkinfo"></a>JET_BKINFO. Equals, méthode (JET_BKINFO)
 
@@ -62,7 +62,7 @@ public bool Equals(
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
@@ -73,7 +73,7 @@ True si les deux instances sont égales.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_BKINFO](./jet-bkinfo-structure2.md)
 

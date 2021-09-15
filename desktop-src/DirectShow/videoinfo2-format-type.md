@@ -4,12 +4,12 @@ ms.assetid: edd2013a-f0c5-4176-ba3a-a3af719ce31d
 title: Type de format VideoInfo2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a820ea6a53c457d2d000be8b4c0e8966213c1aeeb2b5f55a780c4801a4182907
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74b0f435e0e2a1b5b1d948c42a881f19300a9c6f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071923"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238979"
 ---
 # <a name="videoinfo2-format-type"></a>Type de format VideoInfo2
 

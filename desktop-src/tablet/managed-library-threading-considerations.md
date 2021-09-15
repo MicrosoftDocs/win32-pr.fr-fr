@@ -4,12 +4,12 @@ ms.assetid: bcc398d3-22ea-466c-9206-92b0ac208def
 title: Considérations sur les threads de bibliothèque managée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60908618fe3b566a552167f3448ee1d4269f9246c7b08f9bb1acf3269cf2ae77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b8677375b8bbdb5f171329927d01e6178b5cb83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119031707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294503"
 ---
 # <a name="managed-library-threading-considerations"></a>Considérations sur les threads de bibliothèque managée
 

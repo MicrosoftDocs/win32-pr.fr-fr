@@ -4,12 +4,12 @@ ms.assetid: e5fc3bae-0646-4418-a8f7-369856f03cd5
 title: Création de dll pour les assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb83ba1d788d82e8d4fa7ab5f657170875b5deee6921aec3013406328dc2fcf8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa15f3876c60ce55be00d60d8f417eb0c2cbf6ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142452"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238115"
 ---
 # <a name="authoring-dlls-for-side-by-side-assemblies"></a>Création de dll pour les assemblys côte à côte
 

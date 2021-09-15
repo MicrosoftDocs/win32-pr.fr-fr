@@ -4,12 +4,12 @@ ms.assetid: 97432b99-e89b-4d69-963d-a959f887e580
 title: Filtre de capture vidéo WDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deeaae173fc629eb1b614b02cc6daca809d126c6798a35f29e54a441ef622e97
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b17afb9b4ee534146ef7b8e8c34d9594f6b9e45e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238847"
 ---
 # <a name="wdm-video-capture-filter"></a>Filtre de capture vidéo WDM
 

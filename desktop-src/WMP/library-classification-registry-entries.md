@@ -15,12 +15,12 @@ keywords:
 - bibliothèque, registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51cb263732dc8071d603c5acd62db25fc8ee887c35b28d109d961a63aba80d6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e48ea1aacdd1e4c553a7e83bfdd711ff331c0878
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118575129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295126"
 ---
 # <a name="library-classification-registry-entries"></a>Entrées de registre de classification de bibliothèque
 

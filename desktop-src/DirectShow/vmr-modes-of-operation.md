@@ -4,12 +4,12 @@ ms.assetid: 98244af1-5934-4d1c-b9c3-7a414b065fe7
 title: Modes de fonctionnement VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88e7a1fa378ff781a712f71c877c32991cf19683a81daa10ff9b2fbbea40e7c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43427c4119bb912d2bc2cf92b1c740b1d22e1bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238950"
 ---
 # <a name="vmr-modes-of-operation"></a>Modes de fonctionnement VMR
 

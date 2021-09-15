@@ -4,12 +4,12 @@ ms.assetid: 61337ea6-2d6b-4080-9128-5b8527512ce6
 title: Création de fichiers et de catalogues signés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf9abcccc2451cfa9461bc8129705c1094291b33fea609679c89ef46d7cf7348
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df1327ed2d64c6f7be9f14acc2c846cf8a887119
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238067"
 ---
 # <a name="creating-signed-files-and-catalogs"></a>Création de fichiers et de catalogues signés
 

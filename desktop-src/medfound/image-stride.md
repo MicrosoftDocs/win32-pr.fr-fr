@@ -4,12 +4,12 @@ ms.assetid: 13cd1106-48b3-4522-ac09-8efbaab5c31d
 title: STRIDE d’image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 360afb6fdeca4c543957326b041654d75ff17b66db8918e42d781d414e8b7586
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 813c0f3d99297758761bdfb5973fc2b16e3339f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119958146"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294935"
 ---
 # <a name="image-stride"></a>STRIDE d’image
 

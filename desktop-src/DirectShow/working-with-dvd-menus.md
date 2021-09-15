@@ -4,12 +4,12 @@ ms.assetid: 8c5f8072-b74f-4e15-8991-73bcc4145fd2
 title: Utilisation des menus de DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 936f1331dcf3851b31922472d3bc50d866912777075bf5aff8c640921e73206e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 113647a37200762b5eaf0a9ac231dea74ad19925
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119964319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238763"
 ---
 # <a name="working-with-dvd-menus"></a>Utilisation des menus de DVD
 

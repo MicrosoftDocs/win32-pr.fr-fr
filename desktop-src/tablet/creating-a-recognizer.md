@@ -4,12 +4,12 @@ ms.assetid: 502ef3fb-ba45-4f8b-bbd5-19c24e313439
 title: Création d’un module de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab9f35277c32c40658adb5530f4521c945df12152aa214167573e111eccdca13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bc71f56dc7095c6c72d18b36c3a12caa493ec9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294655"
 ---
 # <a name="creating-a-recognizer"></a>Création d’un module de reconnaissance
 

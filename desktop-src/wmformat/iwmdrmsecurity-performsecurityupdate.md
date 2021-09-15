@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8521497c1e2bca1bb2ae11349a4829c22c8b092a4cd0034008b314a7b69adb6b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a34a1e92edd279655737a2e8f3b7ce4e77e27fd5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294439"
 ---
 # <a name="iwmdrmsecurityperformsecurityupdate-method"></a>IWMDRMSecurity ::P méthode erformSecurityUpdate
 
@@ -70,7 +70,7 @@ Adresse d’une variable qui reçoit un pointeur vers un objet qui peut être ut
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -84,7 +84,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode s’exécute de façon asynchrone. Elle retourne immédiatement après l’appel de, puis génère des événements en fonction de l’indicateur défini dans le paramètre *dwFlags* .
 
@@ -99,7 +99,7 @@ Pour actualiser les listes de révocation (indicateur défini sur la \_ sécurit
 
 pour plus d’informations sur l’utilisation des méthodes asynchrones des api étendues du Client Media DRM Windows, consultez [utilisation du modèle d’événement Media Foundation](using-the-media-foundation-model.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

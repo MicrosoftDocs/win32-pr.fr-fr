@@ -4,12 +4,12 @@ description: toutes les applications Microsoft Windows doivent avoir une expéri
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 68f73b7da9cf33dc20a3c0534044558e514284f024f11609ef9af4760ec79a8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a44a95ad963d3563418ed0492e55606824011f31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119029674"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294491"
 ---
 # <a name="touch"></a>Toucher
 

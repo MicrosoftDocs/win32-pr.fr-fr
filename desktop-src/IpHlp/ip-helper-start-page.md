@@ -4,12 +4,12 @@ ms.assetid: 4896a9f8-0486-4380-bf49-d1c9ef114acc
 title: Assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6262543d1644fbe62858f2c90064f42d2c1348b2f3c56033813f453d33470ce3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1d50153e1ad890063f33a473058f6a850a9f171
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146772"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238716"
 ---
 # <a name="ip-helper"></a>Assistance IP
 

@@ -4,12 +4,12 @@ ms.assetid: 26d5a3eb-430a-4e21-8a3f-fdec5005cd6e
 title: InkOverlay. NewPackets, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea2571e7c8f97881da5bbbef6cdab093ce2d3107b5482def5b62d2dfa141c7e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43743b47d007b44d4f2460266e7198266c36afd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118219196"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294534"
 ---
 # <a name="inkoverlaynewpackets-event"></a>Événement InkOverlay. NewPackets
 
@@ -63,11 +63,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les paquets sont reçus lorsqu’un trait est collecté. Les événements de paquets se produisent rapidement et un gestionnaire d’événements [**NewPackets**](inkcollector-newpackets.md) doit être rapide ou subir des performances.
 
@@ -82,7 +82,7 @@ Pour définir les propriétés contenues dans ce tableau, utilisez la propriét�
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

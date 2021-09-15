@@ -4,12 +4,12 @@ ms.assetid: 5416f8c0-d99b-4a5d-a689-a47bd0cf1a88
 title: Contextes d’activation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21aaf2c4d2e4fc0f3ef691406e663dc5efac44a9d0b34880596d21cac8a5f621
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f1f20d747f63ba71eee73fc17c0d5543003e5f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142542"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238158"
 ---
 # <a name="activation-contexts"></a>Contextes d’activation
 

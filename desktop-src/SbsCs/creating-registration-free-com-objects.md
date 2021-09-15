@@ -4,12 +4,12 @@ ms.assetid: e6ec7b8b-8032-4dff-8f96-07ae3ffc286d
 title: Création d’objets Registration-Free COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263d5a6c8160eaf15eba4eb799123e0e79d126ccd94b1d4a7a6d332bdb27dd51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70e377a04f44e6624294116b8274a8dcc1e82b8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238074"
 ---
 # <a name="creating-registration-free-com-objects"></a>Création d’objets Registration-Free COM
 

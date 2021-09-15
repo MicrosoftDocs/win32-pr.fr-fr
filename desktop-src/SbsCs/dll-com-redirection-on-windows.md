@@ -4,12 +4,12 @@ ms.assetid: 5bbb0bee-d457-4dfa-93a0-82537fe11f2d
 title: Redirection DLL/COM sur Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ce6b55c2a66d298b7b80248613eab7cefe96c25f8f53dd9218966e235ea267f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e356c7b4cc6e5616a03eba60439c7478d65e626a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142262"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238044"
 ---
 # <a name="dllcom-redirection-on-windows"></a>Redirection DLL/COM sur Windows
 

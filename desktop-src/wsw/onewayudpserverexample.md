@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25c284ee69f1e59a729e88432177529255ee369a1978d1bcf6f0f50c6112398c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 872687ac3f249b7199724a7ba5291fcda142002f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294371"
 ---
 # <a name="onewayudpserverexample"></a>OneWayUdpServerExample
 

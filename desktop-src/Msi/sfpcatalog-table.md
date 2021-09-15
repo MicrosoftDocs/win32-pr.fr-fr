@@ -4,12 +4,12 @@ ms.assetid: e9dc65a9-4ec9-4310-b03a-a2c38720ca8c
 title: Table SFPCatalog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97498ff6437967a4a588be7b957aea130dad201699d55fad3abace6ff094b271
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08fe887644faf6cf0a5cda626bbf757e9f448ef1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118624890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238578"
 ---
 # <a name="sfpcatalog-table"></a>Table SFPCatalog
 
@@ -19,7 +19,7 @@ La table SFPCatalog contient les colonnes suivantes.
 
 
 
-| Colonne     | Type                       | Clé | Nullable |
+| Colonne     | Type                       | Clé : | Nullable |
 |------------|----------------------------|-----|----------|
 | SFPCatalog | [Nom du fichier](filename.md)   | O   | N        |
 | Catalogue    | [Binaire](binary.md)       | N   | N        |

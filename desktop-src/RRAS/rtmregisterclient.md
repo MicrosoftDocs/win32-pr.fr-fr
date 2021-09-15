@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db58fc9457195c2149fd8d34a8a65a6d5085135275e1c878633f64cb742b02cc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 564f47e68fd6cdce3d5437fe184bac1ed74d8322
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120081039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238223"
 ---
 # <a name="rtmregisterclient-function"></a>RtmRegisterClient fonction)
 
@@ -85,7 +85,7 @@ Spécifie diverses options pour le traitement spécial du protocole de routage. 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de retour réussi, valeur de **handle** qui identifie le client lors des appels suivants au gestionnaire de tables de routage.
 
@@ -104,7 +104,7 @@ Un descripteur **null** indique que le gestionnaire de table de routage n’a pa
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Chargement d’un fichier audio existant
 ms.assetid: f779ebb9-f03d-4082-927d-29dbdf1e0963
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b0e16fb218300aececcba86412d5c63971390664c17cffea8737568cbcf115
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e91cdc8fccd9cf464e02529371bd8c6a12eb3635
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118748250"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296403"
 ---
 # <a name="loading-an-existing-sound-file"></a>Chargement d’un fichier audio existant
 

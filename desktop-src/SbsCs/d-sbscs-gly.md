@@ -5,12 +5,12 @@ ms.assetid: 3A4C5579-7543-4E0B-921D-BED42C2583D9
 title: D (applications isolées et assemblys côte à côte)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf0ba858ab8bef37a5b3edc27c64fb19364d582c6b961e3e5f9cc2ac32ef7f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20c8912f24478f79be8aa00c963dc27cb46ec756
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142312"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238056"
 ---
 # <a name="d-isolated-applications-and-side-by-side-assemblies"></a>D (applications isolées et assemblys côte à côte)
 

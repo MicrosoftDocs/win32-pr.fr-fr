@@ -4,12 +4,12 @@ ms.assetid: 0de0cb2e-67bc-4db5-879a-95879f16b98d
 title: Configuration du codec MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beb4a9ae53c0aee61e30fb5d61b2ad78fd4fe8e624df394f462dd01618272476
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0065f05d10eae367b13ef6f7caf3fe2ab322163a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118743331"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296327"
 ---
 # <a name="configuring-codec-mfts"></a>Configuration du codec MFTs
 

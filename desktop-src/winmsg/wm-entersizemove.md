@@ -4,12 +4,12 @@ ms.assetid: fe09db71-2c79-47f2-b575-516e960915d4
 title: Message WM_ENTERSIZEMOVE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0ffbd3ac8c65b68998a37e64df2593c183b61adb3f8eba1fa140251174b503d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfaf27c888311991b88278a9d4e69482efd06111
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118436254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294478"
 ---
 # <a name="wm_entersizemove-message"></a>\_Message WM ENTERSIZEMOVE
 
@@ -44,13 +44,13 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -78,7 +78,7 @@ Une application doit retourner zéro si elle traite ce message.
 [**\_SYSCOMMAND WM**](../menurc/wm-syscommand.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

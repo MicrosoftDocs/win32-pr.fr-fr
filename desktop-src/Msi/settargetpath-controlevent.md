@@ -4,12 +4,12 @@ ms.assetid: 5649da99-1541-47ab-9d2e-b33a705998ec
 title: SetTargetPath ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40e49e9447d7d2e67dce85e7d60638c18a949ecbc87800d12a60bc94d971cb30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36812d291ab4410b08c577e6d118c3ff9e5dc0b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118625069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238614"
 ---
 # <a name="settargetpath-controlevent"></a>SetTargetPath ControlEvent,
 

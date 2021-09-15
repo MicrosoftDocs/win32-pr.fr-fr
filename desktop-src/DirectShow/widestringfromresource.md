@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 798f915536c491d32ccab7e7dbdc9b506d8b5df22b4459818472307e62356b71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c7cbdccc76fc57e660109851ae5b8f141704d04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071813"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238841"
 ---
 # <a name="widestringfromresource-function"></a>WideStringFromResource fonction)
 
@@ -57,15 +57,15 @@ Identificateur de ressource de la chaîne à récupérer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la même chaîne que *pbuffer*. Si la fonction échoue, retourne une chaîne NULL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les pages de propriétés sont généralement appelées par le biais de leurs interfaces COM, qui utilisent des chaînes de caractères larges, quelle que soit la façon dont le binaire est généré. Cette fonction vous permet de convertir une chaîne de ressource en une chaîne de caractères larges. La fonction convertit la ressource en une chaîne de caractères larges (si elle ne l’est pas déjà) après l’avoir chargée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

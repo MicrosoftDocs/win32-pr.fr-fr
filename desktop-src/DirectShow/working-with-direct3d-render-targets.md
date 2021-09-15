@@ -4,12 +4,12 @@ ms.assetid: 271b919c-421b-4484-8e60-afbf3cbdca44
 title: Utilisation des cibles de rendu Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19f7bacf36402b071d60989e225cdcd9533500494a0593bcf9753ddc06bb93ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8aca19082c5db9521cfc1c7341fd74c98270cbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118650339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238769"
 ---
 # <a name="working-with-direct3d-render-targets"></a>Utilisation des cibles de rendu Direct3D
 

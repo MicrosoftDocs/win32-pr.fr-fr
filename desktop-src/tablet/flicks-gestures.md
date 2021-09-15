@@ -4,12 +4,12 @@ ms.assetid: 004c7d76-90a9-4506-a70b-dbf8f9e1c616
 title: Mouvements de raccourcis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37e7d53c42eb178900ce22b7890febcfd1c6aca95f2257b0c5ed06eb20173b79
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f85d519f47b265779741b2f98fcb1b2f5d69df5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119936512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294634"
 ---
 # <a name="flicks-gestures"></a>Mouvements de raccourcis
 
@@ -67,8 +67,8 @@ La liste suivante répertorie les commandes d’application qui peuvent être as
 
 | Commande                                  | Séquence de touches de sauvegarde  |
 |------------------------------------------|-------------------|
-| navigateur APPCOMMAND vers l' \_ \_ arrière<br/> | Aucun<br/>   |
-| APPCOMMAND \_ navigateur \_ suivant<br/>  | Aucun<br/>   |
+| navigateur APPCOMMAND vers l' \_ \_ arrière<br/> | None<br/>   |
+| APPCOMMAND \_ navigateur \_ suivant<br/>  | None<br/>   |
 | \_copie APPCOMMAND<br/>              | Ctrl+C<br/> |
 | APPCOMMAND \_ coller<br/>             | Ctrl+V<br/> |
 | APPCOMMAND \_ Annuler<br/>              | Ctrl+Z<br/> |

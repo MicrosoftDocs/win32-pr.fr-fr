@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ee536eeb4d16cbfc2bbcfb7dc09cae8b0003bbd925945fa710e15cb1c4a96e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a484bb5684fde974ce5fa704c0d0cca38c320851
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120035659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238235"
 ---
 # <a name="rtmgetrouteage-function"></a>RtmGetRouteAge fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers une structure spécifique à la famille de protocoles qui spécifi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est l’une des valeurs suivantes.
 
@@ -64,11 +64,11 @@ La valeur de retour est l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’âge de l’itinéraire est calculé à partir du \_ membre d’horodatage de RR de la structure vers laquelle pointe le paramètre d' *itinéraire* . Le gestionnaire de tables de routage définit la valeur de ce membre lorsqu’un itinéraire est ajouté ou mis à jour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

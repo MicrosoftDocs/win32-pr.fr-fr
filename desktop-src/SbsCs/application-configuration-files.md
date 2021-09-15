@@ -4,12 +4,12 @@ ms.assetid: b7453f2b-52a4-4af9-8410-ebbb430ada67
 title: Fichiers de configuration des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf4b22d3710c0dd38e83f827a175ad591309f22ab8ac2d81e93438f27d07dc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b1a2e0f6b493c217aded9e11507f660d517b400
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238146"
 ---
 # <a name="application-configuration-files"></a>Fichiers de configuration des applications
 
@@ -135,7 +135,7 @@ Vous pouvez utiliser le spécificateur spécial à deux points dans un chemin d�
 <span id="dependency"></span><span id="DEPENDENCY"></span>
 
 ### <a name="dependency"></a>dependency
-Élément conteneur pour au moins un élément **dependentAssembly**. Chaque **dependentAssembly** peut se trouver dans une seule **dépendance**. Cet élément n’a pas d’attributs. Facultatif.
+Élément conteneur pour au moins un élément **dependentAssembly**. Chaque **dependentAssembly** peut se trouver dans une seule **dépendance**. Cet élément n’a pas d’attributs. facultatif.
 
 <span id="dependentAssembly"></span><span id="dependentassembly"></span><span id="DEPENDENTASSEMBLY"></span>
 
@@ -175,7 +175,7 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | La valeur doit être Win32 (en minuscules). Obligatoire.                                                                                                                                                                                                                                                                      |
 | **name**                  | L’attribut Name identifie l’application affectée par le fichier de configuration de l’application ou l’assembly en cours de redirection. Utilisez le format suivant pour le nom : Organization.Division.Name. Obligatoire. Par exemple : Microsoft. Windows. MysampleApp ou Microsoft. Windows. MysampleAsm.<br/>            |
-| **language**              | Identifie la langue. Facultatif. Pour un **assemblyIdentity** faisant référence à un assembly, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                            |
+| **language**              | Identifie la langue. Optionnel. Pour un **assemblyIdentity** faisant référence à un assembly, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                            |
 | **processorArchitecture** | Spécifie le processeur qui exécute l’application.                                                                                                                                                                                                                                                                     |
 | **version**               | Spécifie la version de l’application ou de l’assembly. Utilisez la syntaxe de version en quatre parties : MMMM. nnnn. oooo. pppp. Obligatoire.                                                                                                                                                                                                   |
 | **publicKeyToken**        | Pour un **assemblyIdentity** faisant référence à un assembly, une chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Obligatoire pour tous les assemblys côte à côte partagés. |

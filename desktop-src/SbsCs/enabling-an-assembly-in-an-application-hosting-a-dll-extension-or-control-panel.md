@@ -4,12 +4,12 @@ ms.assetid: 832957ca-82fc-4600-b469-512621dde921
 title: Activation d’un assembly dans une application hébergeant une DLL, une extension ou un panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23ac528c10d7ca0de903c6b132e0349c16061d63f121c390483458b4ef422d66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b04dd19b18c2cdce4783be47333b9afe53dd1ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238038"
 ---
 # <a name="enabling-an-assembly-in-an-application-hosting-a-dll-extension-or-control-panel"></a>Activation d’un assembly dans une application hébergeant une DLL, une extension ou un panneau de configuration
 
