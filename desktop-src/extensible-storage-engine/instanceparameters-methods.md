@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inst
 ms:contentKeyID: 55103287
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: cebf50ea3361fa4190dd958939c9f6b1512efb0176ca4a43111447bda98c3a72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c119c8c34dc8aee1b662a10aae86a62cb014402
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117895837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403918"
 ---
 # <a name="instanceparameters-methods"></a>Méthodes InstanceParameters
 
@@ -70,7 +70,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [InstanceParameters, classe](./instanceparameters-class.md)
 

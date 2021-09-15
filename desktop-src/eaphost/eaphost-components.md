@@ -4,12 +4,12 @@ description: En savoir plus sur les trois composants de l’authentification EAP
 ms.assetid: f875c3f8-d2fb-461e-b356-e1b2ccaf9981
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9aa86f09473b14df6dbcc8bbc667dc4a1cc1badf9e0b6dd67ac95f8d11f2bae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ede2fc6a705ec77fe982778239a92c7ffb10ef9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118086413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403724"
 ---
 # <a name="components-of-eaphost"></a>Composants d’EAPHost
 

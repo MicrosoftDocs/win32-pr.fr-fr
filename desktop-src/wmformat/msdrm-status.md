@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c4c1f9b37f237b1ae2399849ef3100e3d6fdbc12c7ee3bc1d169420e38bb85a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf2a73de9e33216e22a01966be8f2ed6a3185fdf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117654573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523008"
 ---
 # <a name="msdrm_status-enumeration"></a>\_Énumération de l’État msdrm
 
@@ -140,7 +140,7 @@ Spécifie qu’un appel à [**IWMDRMSecurity ::P erformsecurityupdate**](iwmdrm
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

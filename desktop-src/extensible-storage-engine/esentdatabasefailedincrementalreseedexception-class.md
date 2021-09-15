@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 99da00f211530f231ad1ebcb6e6a6147fc2978b51b111a9648f45f608843f5a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfa0f4a82e3a8936ee3e7a262f8079396b95a54a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119116369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522644"
 ---
 # <a name="esentdatabasefailedincrementalreseedexception-class"></a>EsentDatabaseFailedIncrementalReseedException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentDatabaseFailedIncrementalReseedException](./esentdatabasefailedincrementalreseedexception-members.md)
 

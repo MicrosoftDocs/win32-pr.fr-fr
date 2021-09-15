@@ -5,11 +5,11 @@ ms.assetid: 6F1F2AAE-B2E4-4F26-8BDF-A3DE8F5C5460
 ms.topic: article
 ms.date: 04/02/2019
 ms.openlocfilehash: 9a87fadac85906dfd07fd4c568185125039207d9
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885201"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404361"
 ---
 # <a name="ease-of-access---assistive-technology-registration"></a>Inscription aux technologies d’assistance d’ergonomie
 
@@ -27,7 +27,7 @@ Les applications d’accessibilité s’inscrivent dans la facilité d’accès 
 
 
 
-| Name                        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Obligatoire/facultatif | Langage      |
+| Nom                        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Obligatoire/facultatif | Langage      |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------|
 | Nom de l’application            | Nom de l’application, qui se trouve dans un fichier de ressources. Cette valeur de registre contient une chaîne dans un format spécifié. Il peut s’agir d’une version localisée du nom de l’application, si l’application est localisée dans une langue autre que l’anglais. Le nom s’affiche dans la facilité d’accès du centre d’accès.<br/>                                                                                                                                                                                                                                                                                       | Obligatoire          | Localisée     |
 | ATExe                       | Nom de l’image ou du fichier exécutable de l’application. Windows utilise cette valeur pour déterminer si l’application d’accessibilité est en cours d’exécution.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                            | Obligatoire          | Non localisé |

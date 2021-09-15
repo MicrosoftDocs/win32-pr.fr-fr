@@ -4,12 +4,12 @@ ms.assetid: 4aed9a52-164a-4c4b-aa52-b55d0eb1d92e
 title: System. contact. JA. LastNamePhonetic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2d6732627d3554f488b286f26f701472089bc34d7166acefd80b2a14fb4a7e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc465ed32d5900f9d1dfb76555ca9d0323bcf048
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118729429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522432"
 ---
 # <a name="systemcontactjalastnamephonetic"></a>System. contact. JA. LastNamePhonetic
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

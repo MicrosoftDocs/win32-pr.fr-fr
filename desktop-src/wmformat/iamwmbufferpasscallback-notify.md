@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f364243e40400884287c6219698991ccf8afc0be86a85ec612a5b193253994dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8f362262b36dee0bfc9a18e57010d102b2fa2cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117847534"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411151"
 ---
 # <a name="iamwmbufferpasscallbacknotify-method"></a>IAMWMBufferPassCallback :: Notify, méthode
 
@@ -72,7 +72,7 @@ Heure de fin de l’exemple.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Aucune valeur de retour particulière n’est spécifiée. Le code PIN appelant ignore le **HRESULT**.
 

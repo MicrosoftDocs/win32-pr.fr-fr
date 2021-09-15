@@ -4,12 +4,12 @@ ms.assetid: 46051bfa-b842-4e4e-bda8-e9003b5b5da4
 title: Structure de l’interface basée sur une classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30909917ad89a65e88c4ca31ca229a5f25d503bced7a9cac81e4199ced1ba7d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2627d695330c316a57c2593e75233d73b27a1524
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119830659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522556"
 ---
 # <a name="the-structure-of-the-class-based-interface"></a>Structure de l’interface basée sur une classe
 

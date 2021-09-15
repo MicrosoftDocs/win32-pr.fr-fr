@@ -4,12 +4,12 @@ ms.assetid: 54e48f64-25fe-44a5-b712-55233e85c7d9
 title: Exemple de Gestionnaire de propriétés COM+ Shared
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecfd57e500468066c4a72f80b99162304d18f6875706fdc47b173d7426a1cd86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df5b4866acc403664eafc68e8a3ad74e43337452
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118102660"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411127"
 ---
 # <a name="com-shared-property-manager-sample"></a>Exemple de Gestionnaire de propriétés COM+ Shared
 

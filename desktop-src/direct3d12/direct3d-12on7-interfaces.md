@@ -4,12 +4,12 @@ description: Les interfaces suivantes sont déclarées dans d3d12downlevel. h.
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 08/29/2019
-ms.openlocfilehash: 6966b7e0f903186889745339128a0154cf232a081c2539847fdfa04efbbc5380
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 734acfaaca870a9675756e9ebe2ba5bf98209ce4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521700"
 ---
 # <a name="direct3d-12-on-windows-7-interfaces"></a>Interfaces Direct3D 12 sur Windows 7
 Les interfaces suivantes sont déclarées dans d3d12downlevel. h.

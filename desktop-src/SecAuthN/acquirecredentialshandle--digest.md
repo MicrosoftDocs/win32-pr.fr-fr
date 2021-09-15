@@ -4,12 +4,12 @@ ms.assetid: 79f49240-e394-4584-8db7-ef721672ba6b
 title: AcquireCredentialsHandle (Digest), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 561bb4c6fd95bfd22d36091a6f9d23b59720618a13eb7e994f74e77c87849abc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1474eef8ad5f5a30fe7d930431185a8ff70f7dfc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522769"
 ---
 # <a name="acquirecredentialshandle-digest-function"></a>AcquireCredentialsHandle (Digest) (fonction)
 
@@ -130,7 +130,7 @@ Ce paramètre est défini sur une durée maximale constante. Il n’y a pas de d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne SEC \_ E \_ OK.
 
@@ -151,7 +151,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **AcquireCredentialsHandle (Digest)** retourne un handle vers les informations d’identification d’un principal, tel qu’un utilisateur ou un client, tel qu’il est utilisé par une [*délégation restreinte*](../secgloss/s-gly.md)spécifique. Il peut s’agir du descripteur des informations d’identification préexistantes, ou la fonction peut créer un nouvel ensemble d’informations d’identification et la retourner. Ce descripteur peut être utilisé dans les appels ultérieurs aux fonctions [**AcceptSecurityContext (Digest)**](acceptsecuritycontext--digest.md) et [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md) .
 
@@ -166,7 +166,7 @@ Pour les appelants en mode noyau, les différences suivantes doivent être noté
 
 Lorsque vous avez terminé d’utiliser les informations d’identification retournées, libérez la mémoire utilisée par les informations d’identification en appelant la fonction [**FreeCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-freecredentialshandle) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

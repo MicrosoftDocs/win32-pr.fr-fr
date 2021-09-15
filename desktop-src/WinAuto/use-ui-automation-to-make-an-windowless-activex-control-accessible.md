@@ -6,12 +6,12 @@ keywords:
 - contrôle de ActiveX sans fenêtre, accessibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ef56d5f3a06bbfa21502c791163f2251506a10fda7da9d07ee04941ad39de1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba0ada1d26463b0654c1808f6e4fd43f571687d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404608"
 ---
 # <a name="how-to-use-ui-automation-to-make-a-windowless-activex-control-accessible"></a>comment utiliser UI Automation pour rendre un contrôle de ActiveX sans fenêtre Accessible
 

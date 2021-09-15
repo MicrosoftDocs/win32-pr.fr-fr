@@ -4,12 +4,12 @@ ms.assetid: eec13a06-7364-dc0a-03e1-4aa6bd2aeb09
 title: Ensembles d’opérations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5726a61bbad8cd06aa4c5b020dc003bc7c30e2d3eeab24750a950421a130d87e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39f9a1178ffeeb0c9bca6cfcef0ce4b1213e3497
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521976"
 ---
 # <a name="operation-sets"></a>Ensembles d’opérations
 

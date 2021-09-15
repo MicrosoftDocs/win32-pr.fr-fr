@@ -4,12 +4,12 @@ ms.assetid: bec4333a-62ca-4254-a39b-04bc2c556992
 title: Exemple de formulaire de déclaration automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fe22545d60ad4116e2607f3fcf01feb94dbfecaa74bc591288e4d91b6d3d465
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71c5ff78a3c38036ef9352660b4d7959e2ad87e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522293"
 ---
 # <a name="auto-claims-form-sample"></a>Exemple de formulaire de déclaration automatique
 

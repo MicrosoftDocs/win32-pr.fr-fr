@@ -4,12 +4,12 @@ ms.assetid: c04554cd-d68d-455e-afa3-29d4186dad65
 title: Événements d’extension MTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a95999557e67ee8929fddc56dd7fd8eb43e6831af9f81f884303a2089bbe3fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10389df9105615befa9ba0f32824615977cc3cb7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522956"
 ---
 # <a name="mtp-extension-events"></a>Événements d’extension MTP
 

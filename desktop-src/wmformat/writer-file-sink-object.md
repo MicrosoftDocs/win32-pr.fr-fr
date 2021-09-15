@@ -10,12 +10,12 @@ keywords:
 - objets du récepteur de fichiers du writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08efb5c404a822b0c30747864bdc01f57cb1a0618eed3f7ad26bd92f158ba625
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82009e5be74cfc23e687001a2a81cd4546812af9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083643"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404185"
 ---
 # <a name="writer-file-sink-object"></a>Récepteur de fichiers d’auteur, objet
 

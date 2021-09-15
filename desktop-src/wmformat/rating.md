@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c43c71c845f194a164c2d9d4964fb296543abae3c5b8d936f4047dde390ab05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14a5137410223f0962b1b6c36c168a78194549c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404665"
 ---
 # <a name="rating"></a>Rating
 
@@ -31,7 +31,7 @@ L’attribut évaluation contient l’évaluation du contenu.
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut de niveau fichier.
 

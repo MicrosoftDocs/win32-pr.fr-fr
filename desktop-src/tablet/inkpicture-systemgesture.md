@@ -1,17 +1,17 @@
 ---
-description: InkPicture.Sysévénement temGesture-se produit lorsqu’un mouvement système est reconnu.
+description: L’événement InkPicture. SystemGesture se produit lorsqu’un mouvement système est reconnu.
 ms.assetid: 36e2ac5a-dc91-47c2-a8e5-e555437c0a5d
-title: InkPicture.Sysévénement temGesture (Msinkaut. h)
+title: InkPicture. SystemGesture, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11567b94360c8fa2bf736d295bf828ebc636bb0bee7a21acb4cc063c22780352
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cde11b73b6b0d3861a79538a7f9ee19487b6384
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118966948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523180"
 ---
-# <a name="inkpicturesystemgesture-event"></a>InkPicture.Sysévénement temGesture
+# <a name="inkpicturesystemgesture-event"></a>InkPicture. SystemGesture, événement
 
 Se produit lorsqu’un mouvement système est reconnu.
 
@@ -85,11 +85,11 @@ Valeur qui indique si l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les gestes système fournissent des informations sur l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) utilisé pour créer le mouvement. Ils fournissent également des raccourcis vers des combinaisons d’événements de souris et sont des moyens de détecter les événements de souris avec moins d’impact sur les performances.
 
@@ -101,7 +101,7 @@ Pour obtenir la liste des mouvements système spécifiques, consultez le type d�
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICESystemGesture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71fb1ce75ac6c12382019a1d5cd9dfc55c4b054e04d290bfc11fff87bf5dc906
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67a60ba10372b02a19999d227b24661248727bd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083063"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522821"
 ---
 # <a name="wcfpublicservicesample"></a>WcfPublicServiceSample
 

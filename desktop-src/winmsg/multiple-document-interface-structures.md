@@ -4,12 +4,12 @@ ms.assetid: e59d467b-2210-451f-bbd1-bb9313e34b62
 title: Structures MDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1471f7e368b72128cf335f825e980ae69745c935c7d65b259f1e62d6759fc15f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebd5e2dc605510cdb237c57f534cd1b71292b852
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119932089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522153"
 ---
 # <a name="mdi-structures"></a>Structures MDI
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: aa4b7ece939815325fd66765b08643543c46c4445457923d32897778adb56680
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5217d2aeae127a1bf8c649312874b31d305da9e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119737779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522681"
 ---
 # <a name="dupcursorgrbit-enumeration"></a>Énumération DupCursorGrbit
 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 35e4898bae876babb0e5fbc1c4b9760eec6a9b62
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522504"
 ---
 # <a name="renderingparametersupdate-event"></a>Événement RenderingParametersUpdate
 
@@ -36,7 +36,7 @@ void RenderingParametersUpdate();
 
 Cet événement n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -44,6 +44,6 @@ Cet événement ne retourne pas de valeur.
 
 Pour gérer les notifications à partir de cet événement, inscrivez une fonction de gestionnaire d’événements [**RenderingParametersUpdateHandler**](/previous-versions/windows/desktop/legacy/hh828994(v=vs.85)) à l’aide de la méthode [**Add \_ RenderingParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_renderingparametersupdate) . Pour annuler l’inscription du gestionnaire d’événements, utilisez la méthode [**Remove \_ RenderingParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-remove_renderingparametersupdate) .
 
- 
+ 
 
- 
+ 

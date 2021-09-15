@@ -4,12 +4,12 @@ ms.assetid: cb31bf2f-e889-4da3-b408-e5612e2af95b
 title: InkPicture. MouseEnter, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f3e716758539dea80e0f62ce44610b28296d9de11de6e2616248c137f583c7b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87c88e2c941f64dba5f557b509971e0a329dada3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119939019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404531"
 ---
 # <a name="inkpicturemouseenter-event"></a>InkPicture. MouseEnter (événement)
 
@@ -28,15 +28,15 @@ void MouseEnter();
 
 Cet événement n’a pas de paramètres.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkPictureEvents** . L’interface **\_ IInkPictureEvents** implémente l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) avec un identificateur de DISPID \_ IPEMouseEnter.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

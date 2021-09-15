@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 29f222d2bc5a6e20dfad6d0f77b5a76ddfa1dc8174cb46bde47ee39770259839
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 570179fadc9008c5f919acf657541e53ab399ac8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119895559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521772"
 ---
 # <a name="d3dxmatrixrotationy-function-d3dx10mathh"></a>D3DXMatrixRotationY, fonction (D3DX10Math. h)
 
@@ -59,17 +59,17 @@ Angle de rotation en radians. Les angles sont mesurés dans le sens des aiguille
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX pivotée autour de l’axe y.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXMatrixRotationY peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

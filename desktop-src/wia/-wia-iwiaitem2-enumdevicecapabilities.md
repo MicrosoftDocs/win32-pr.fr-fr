@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 6748966beaa3bf16f668c4b8b0de60a4302ebcf514f06a3d588999d5faebaf3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e771aa636b42d9cd7e4024a1684ebe3edf02eeb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119450459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522184"
 ---
 # <a name="iwiaitem2enumdevicecapabilities-method"></a>IWiaItem2 :: EnumDeviceCapabilities, méthode
 
@@ -80,13 +80,13 @@ Reçoit un pointeur vers l’interface [**IEnumWIA \_ dev \_ Caps**](/windows/de
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est utilisée pour créer un objet énumérateur pour obtenir le jeu de commandes et d’événements pris en charge par un appareil WIA 2,0. Le paramètre *lFlags* est utilisé pour spécifier les genres de fonctionnalités d’appareil à énumérer. La méthode **IWiaItem2 :: EnumDeviceCapabilities** stocke l’adresse de l’interface de l’objet énumérateur dans le paramètre *ppIEnumWIA \_ dev \_ Caps* .
 
@@ -94,7 +94,7 @@ Cette méthode peut uniquement être appelée sur l’élément racine des objet
 
 Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur les pointeurs d’interface qu’elles reçoivent via le paramètre *ppIEnumWIA \_ dev \_ Caps* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

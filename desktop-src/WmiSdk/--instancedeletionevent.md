@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: a210f67e7e71d9980a3eeb88ae54fad7fee3ec62597b81ae7253a2893a437a7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 018bac665aa95393fc1a9c7e51ad42038e8b27c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118320883"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404104"
 ---
 # <a name="__instancedeletionevent-class"></a>\_\_InstanceDeletionEvent, classe
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **\_ \_ InstanceDeletionEvent** est dérivée de [**\_ \_ InstanceOperationEvent**](--instanceoperationevent.md).
 
@@ -110,7 +110,7 @@ Les requêtes de notification qui demandent la notification de la suppression d�
 
 L’exemple de code VBScript de l' [événement analyser le processus de suppression](https://Gallery.TechNet.Microsoft.Com/060a9adb-f99b-4f34-ba65-19b5f5815a38) dans la Galerie TechNet utilise **\_ \_ InstanceDeletionEvent** pour surveiller la première occurrence d’un événement de suppression d’instance WMI pour le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ ms.topic: article
 ms.date: 02/11/2020
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f279972c3b716f111fa37fc2dd01ef9184b2f804f07106f6b971358daf290c44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44eb44a83175cf8f735abfeb8cfec4de83f46bd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521789"
 ---
 # <a name="ideviceaccesspolicycheckdeviceinterfaceclassaccesscheckwithcallingthread-method"></a>IDeviceAccessPolicyCheck ::D méthode eviceInterfaceClassAccessCheckWithCallingThread
 
@@ -57,6 +57,6 @@ ID de thread client où toute interface utilisateur associée doit être affich�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette fonction est réussie, elle retourne S_OK. Sinon, elle retourne un code d’erreur HRESULT.

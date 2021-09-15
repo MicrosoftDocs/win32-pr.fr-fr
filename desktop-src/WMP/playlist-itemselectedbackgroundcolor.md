@@ -3,7 +3,7 @@ title: PLAYLIST. itemSelectedBackgroundColor
 description: L’attribut itemSelectedBackgroundColor spécifie ou récupère une valeur indiquant la couleur d’arrière-plan d’un élément sélectionné dans la sélection.
 ms.assetid: d4668cd6-1e2c-4ecb-8040-25dc474b27f5
 keywords:
-- Lecteur Windows Media PLAYLIST. itemSelectedBackgroundColor
+- PLAYLIST. itemSelectedBackgroundColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7f7801f5711147508c833433b2b501b4df1f23eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404146"
 ---
 # <a name="playlistitemselectedbackgroundcolor"></a>PLAYLIST. itemSelectedBackgroundColor
 
@@ -30,9 +30,9 @@ L’attribut **itemSelectedBackgroundColor** spécifie ou récupère une valeur 
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Cet attribut est une **chaîne** en lecture/écriture représentant une couleur. La valeur par défaut est la couleur de surbrillance Windows.
+Cet attribut est une **chaîne** en lecture/écriture représentant une couleur. la valeur par défaut est la couleur de surbrillance Windows.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

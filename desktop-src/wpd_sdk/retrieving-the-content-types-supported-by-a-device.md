@@ -4,12 +4,12 @@ ms.assetid: 1cedb8d9-2476-420c-bab4-c8a032af781b
 title: Récupération des types de contenu pris en charge par un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f85366374ec28ed44664a3b86edbee1e046e1a5ee4e331dbe041398bdc48a9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e1b37160065be3130fca687f5f3277d9108a6ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522900"
 ---
 # <a name="retrieving-the-content-types-supported-by-a-device"></a>Récupération des types de contenu pris en charge par un appareil
 

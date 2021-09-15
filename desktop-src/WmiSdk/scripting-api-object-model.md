@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d51b6a2a731406bb5e9d79458b918f696778f04296b3af8ce10113286bef027e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2bf96527b1ef2c3d8a88d749db22102953eddfc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403681"
 ---
 # <a name="scripting-api-object-model"></a>Modèle objet de l’API de script
 

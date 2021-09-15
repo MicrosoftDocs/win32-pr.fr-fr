@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b1b6bc1edf52b77486bb25bc3459004916e3599c
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404079"
 ---
 # <a name="id3dx11effect-interface"></a>Interface ID3DX11Effect
 
@@ -62,7 +62,7 @@ L’interface **ID3DX11Effect** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un effet est créé en appelant [**D3DX11CreateEffectFromMemory**](d3dx11createeffectfrommemory.md).
 
@@ -87,7 +87,7 @@ Le système d’effet regroupe les informations requises pour le rendu dans un e
 >
 >  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------|-------------------------------------------------------------------------------------------|

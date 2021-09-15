@@ -5,11 +5,11 @@ title: Décodeur AAC
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9daf50196029f484264ddb33c8e10a25e61cb0dc
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404551"
 ---
 # <a name="aac-decoder"></a>Décodeur AAC
 
@@ -58,7 +58,7 @@ Pour configurer le décodeur AAC, définissez les attributs suivants sur le type
 | <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | Profil et niveau audio. <br /> | facultatif. S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>. <br /> La valeur de cet attribut est le champ <strong>audioProfileLevelIndication</strong> , tel que défini par la norme ISO/IEC 14496-3. <br /> S’il est inconnu, défini à zéro ou à 0xFE (« aucun profil audio n’est spécifié »).<br /> | 
 | <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | Type de charge utile.<br /> | S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>. Le décodeur prend en charge les types de charge utile suivants : <br /><ul><li>0 : AAC brut. Le flux contient uniquement des éléments raw_data_block (), comme défini par MPEG-2.</li><li>1 : ADTS. Le flux contient un adts_sequence (), tel que défini par MPEG-2. Une seule raw_data_block () par adts_frame () est autorisée.</li><li>3 : flux de transport audio avec une couche de synchronisation (garantie) et une couche multiplex (LATM). Parmi les trois types de garantie, seul <strong>AudioSyncStream</strong> est pris en charge. La couche multiplex est <strong>AudioMuxElement</strong>, restreinte à un programme audio et une couche.</li></ul><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> est facultatif. Si cet attribut n’est pas spécifié, la valeur par défaut 0 est utilisée, qui spécifie que le flux contient uniquement des éléments raw_data_block.<br /> | 
 | <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Profondeur de bits souhaitée du fichier audio PCM décodé. | 
-| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. Pour plus d’informations, consultez <a href="#format-constraints">mettre en forme les contraintes</a>. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | Optionnel. Pour plus d’informations, consultez <a href="#format-constraints">mettre en forme les contraintes</a>. | 
 | <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.<br /> | L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br /> | 
 | <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Taux d’échantillonnage, en échantillons par seconde.<br /> | L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br /> | 
 | <a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a> | Informations de mise en forme supplémentaires. | La valeur de cet attribut dépend du sous-type.<br /><ul><li><strong>MFAudioFormat_AAC</strong>: contient la partie de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> qui apparaît après la structure <strong>WAVEFORMATEX</strong> (autrement dit, après le membre <strong>wfx</strong> ). Cela est suivi des données AudioSpecificConfig (), telles que définies par la norme ISO/IEC 14496-3.</li><li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: contient les données AudioSpecificConfig (). Ces données doivent apparaître. dans le cas contraire, le décodeur rejettera le type de média.</li></ul>La longueur des données AudioSpecificConfig () est de 2 octets pour AAC-LC ou HE-AAC avec signal implicite de SBR/PS. Elle est supérieure à 2 octets pour le HE-AAC avec signalement explicite de SBR/PS.<br /> La valeur de <strong>audioObjectType</strong> telle que définie dans AudioSpecificConfig () doit être 2, ce qui indique AAC-LC. La valeur de <strong>extensionAudioObjectType</strong> doit être 5 pour SBR ou 29 pour PS. <br /> | 

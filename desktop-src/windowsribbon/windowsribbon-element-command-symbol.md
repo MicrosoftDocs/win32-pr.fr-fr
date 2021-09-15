@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0a391b56c5d44809735d32b9d3e3dfa47dc2b9f1ce686176fa077e99bf987c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b88dccb71a90feca7348ca9731ca5966b012c9c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117656484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404746"
 ---
 # <a name="commandsymbol-property"></a>Command. Symbol, propriété
 
@@ -47,9 +47,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Facultatif.
+facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -87,7 +87,7 @@ L’exemple suivant illustre le balisage pour un élément [**Command**](windows
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

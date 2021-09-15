@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102366
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b4cfa09ea943582f47dae8b6696c1c308acc341ac7a4fe7955ed9534428a3f88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51db013eff80bc1ce16184c81d7cec56c60348e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117899182"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521620"
 ---
 # <a name="esentobsoleteexception-properties"></a>Propriétés EsentObsoleteException
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentObsoleteException, classe](./esentobsoleteexception-class.md)
 

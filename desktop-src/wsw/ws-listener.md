@@ -6,12 +6,12 @@ keywords:
 - WS_LISTENER
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31fa7435ecea9770c2441a1c8c3d65c2d2346707c1c4e16da2f985e203d4ea3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 803bde20292a55d1c3f2b7ca216ba3631e9116a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083033"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521993"
 ---
 # <a name="ws_listener"></a>\_écouteur WS
 
@@ -24,11 +24,11 @@ typedef struct _WS_LISTENER WS_LISTENER;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet est thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

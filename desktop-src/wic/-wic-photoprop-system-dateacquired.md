@@ -4,12 +4,12 @@ ms.assetid: 04a61ecc-d168-4f93-b143-3e6ba8aaf322
 title: Stratégie de métadonnées de photo System. DateAcquired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c95b8f68d99476db0832a321de1f61c6f3c4dc6be6f10d679735bd51fc92ce7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f126ccb4424d1489f671f61f719a505559a78c8d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119087880"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523124"
 ---
 # <a name="systemdateacquired-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. DateAcquired
 
@@ -45,7 +45,7 @@ Si le fichier est au format JPEG, le gestionnaire recherche les données dans l�
 
 
 
-| Commande | Chemin                             | Format de disque                        | Obligatoire |
+| JSON | Chemin d’accès                             | Format de disque                        | Obligatoire |
 |-------|----------------------------------|------------------------------------|----------|
 | 1     | /xmp/MicrosoftPhoto:DateAcquired | Chaîne Unicode au format de date XMP. | Oui      |
 
@@ -59,7 +59,7 @@ Si le fichier est au format TIFF, le gestionnaire recherche les données dans l�
 
 
 
-| Commande | Chemin                                 | Format de disque                        | Obligatoire |
+| JSON | Chemin d’accès                                 | Format de disque                        | Obligatoire |
 |-------|--------------------------------------|------------------------------------|----------|
 | 1     | /ifd/xmp/MicrosoftPhoto:DateAcquired | Chaîne Unicode au format de date XMP. | Oui      |
 
@@ -67,7 +67,7 @@ Si le fichier est au format TIFF, le gestionnaire recherche les données dans l�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -4,12 +4,12 @@ ms.assetid: ff372163-c73b-41bb-afcb-7d5de7720967
 title: AcquireCredentialsHandle (Negotiate), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 887b821143616951a17816d5beb4f1fc2dec84e1ab176ad78a894e2cdc3f918c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 80ab4b67866b60831dadb7d8eb9bf9f632c0661c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522768"
 ---
 # <a name="acquirecredentialshandle-negotiate-function"></a>AcquireCredentialsHandle (Negotiate) (fonction)
 
@@ -133,7 +133,7 @@ Pointeur vers une structure d' [**horodatage**](timestamp.md) qui reçoit l’he
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne SEC \_ E \_ OK.
 
@@ -154,7 +154,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **AcquireCredentialsHandle (Negotiate)** retourne un handle vers les informations d’identification d’un principal, tel qu’un utilisateur ou un client, tel qu’il est utilisé par une [*délégation restreinte*](../secgloss/s-gly.md)spécifique. Il peut s’agir du descripteur des informations d’identification préexistantes, ou la fonction peut créer un nouvel ensemble d’informations d’identification et la retourner. Ce handle peut être utilisé dans les appels ultérieurs aux fonctions [**AcceptSecurityContext (Negotiate)**](acceptsecuritycontext--negotiate.md) et [**InitializeSecurityContext (Negotiate)**](initializesecuritycontext--negotiate.md) .
 
@@ -169,7 +169,7 @@ Pour les appelants en mode noyau, les différences suivantes doivent être noté
 
 Lorsque vous avez terminé d’utiliser les informations d’identification retournées, libérez la mémoire utilisée par les informations d’identification en appelant la fonction [**FreeCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-freecredentialshandle) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

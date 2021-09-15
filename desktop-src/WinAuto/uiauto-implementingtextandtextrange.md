@@ -25,12 +25,12 @@ keywords:
 - interfaces, ITextRangeProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99baf1af267e67ffe3f75a83fb970c991e9ebe5674497db2a2edad8d9cc328b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f53429dc8ec137a83b6a40db377b5c84aeb36120
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826980"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403982"
 ---
 # <a name="text-and-textrange-control-patterns"></a>Modèles de contrôle Text et TextRange
 
@@ -101,16 +101,16 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                                        | Type de membre | Remarques |
+| Membres nécessaires                                                                                        | Type de membre | Notes |
 |---------------------------------------------------------------------------------------------------------|-------------|-------|
-| [**DocumentRange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-get_documentrange)                                             | Propriété    | Aucun  |
-| [**SupportedTextSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-get_supportedtextselection)                           | Propriété    | Aucun  |
-| [**GetSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-getselection)                                               | Méthode      | Aucun  |
-| [**GetVisibleRanges**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-getvisibleranges)                                       | Méthode      | Aucun  |
-| [**RangeFromChild**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefromchild)                                           | Méthode      | Aucun  |
-| [**Telle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefrompoint)                                           | Méthode      | Aucun  |
-| [**\_TextChangedEventId de texte UIA \_**](uiauto-event-ids.md)                   | Événement       | Aucun  |
-| [**\_TextSelectionChangedEventId de texte UIA \_**](uiauto-event-ids.md) | Événement       | Aucun  |
+| [**DocumentRange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-get_documentrange)                                             | Propriété    | None  |
+| [**SupportedTextSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-get_supportedtextselection)                           | Propriété    | None  |
+| [**GetSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-getselection)                                               | Méthode      | None  |
+| [**GetVisibleRanges**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-getvisibleranges)                                       | Méthode      | None  |
+| [**RangeFromChild**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefromchild)                                           | Méthode      | None  |
+| [**Telle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefrompoint)                                           | Méthode      | None  |
+| [**\_TextChangedEventId de texte UIA \_**](uiauto-event-ids.md)                   | Événement       | None  |
+| [**\_TextSelectionChangedEventId de texte UIA \_**](uiauto-event-ids.md) | Événement       | None  |
 
 
 
@@ -120,10 +120,10 @@ Les propriétés et méthodes supplémentaires suivantes sont requises pour impl
 
 
 
-| Membres nécessaires                                                         | Type de membre | Remarques |
+| Membres nécessaires                                                         | Type de membre | Notes |
 |--------------------------------------------------------------------------|-------------|-------|
-| [**GetCaretRange**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange)         | Méthode      | Aucun  |
-| [**RangeFromAnnotation**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider2-rangefromannotation) | Méthode      | Aucun  |
+| [**GetCaretRange**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange)         | Méthode      | None  |
+| [**RangeFromAnnotation**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider2-rangefromannotation) | Méthode      | None  |
 
 
 
@@ -135,25 +135,25 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                 | Type de membre | Remarques |
+| Membres nécessaires                                                                 | Type de membre | Notes |
 |----------------------------------------------------------------------------------|-------------|-------|
-| [**AddToSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-addtoselection)               | Méthode      | Aucun  |
-| [**Répliqué**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-clone)                                 | Méthode      | Aucun  |
-| [**Comparer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-compare)                             | Méthode      | Aucun  |
-| [**CompareEndpoints**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-compareendpoints)           | Méthode      | Aucun  |
-| [**ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit) | Méthode      | Aucun  |
-| [**FindAttribute**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findattribute)                 | Méthode      | Aucun  |
-| [**FindText**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findtext)                           | Méthode      | Aucun  |
-| [**GetAttributeValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getattributevalue)         | Méthode      | Aucun  |
-| [**GetBoundingRectangles**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getboundingrectangles) | Méthode      | Aucun  |
-| [**GetChildren**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getchildren)                     | Méthode      | Aucun  |
-| [**GetEnclosingElement**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getenclosingelement)     | Méthode      | Aucun  |
-| [**GetText**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-gettext)                             | Méthode      | Aucun  |
-| [**Activer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-move)                                   | Méthode      | Aucun  |
-| [**MoveEndpointByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyunit)       | Méthode      | Aucun  |
-| [**MoveEndpointByRange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyrange)     | Méthode      | Aucun  |
-| [**Sélectionner**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-select)                               | Méthode      | Aucun  |
-| [**ScrollIntoView**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-scrollintoview)               | Méthode      | Aucun  |
+| [**AddToSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-addtoselection)               | Méthode      | None  |
+| [**Clone**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-clone)                                 | Méthode      | None  |
+| [**Comparer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-compare)                             | Méthode      | None  |
+| [**CompareEndpoints**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-compareendpoints)           | Méthode      | None  |
+| [**ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit) | Méthode      | None  |
+| [**FindAttribute**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findattribute)                 | Méthode      | None  |
+| [**FindText**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findtext)                           | Méthode      | None  |
+| [**GetAttributeValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getattributevalue)         | Méthode      | None  |
+| [**GetBoundingRectangles**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getboundingrectangles) | Méthode      | None  |
+| [**GetChildren**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getchildren)                     | Méthode      | None  |
+| [**GetEnclosingElement**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getenclosingelement)     | Méthode      | None  |
+| [**GetText**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-gettext)                             | Méthode      | None  |
+| [**Activer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-move)                                   | Méthode      | None  |
+| [**MoveEndpointByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyunit)       | Méthode      | None  |
+| [**MoveEndpointByRange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyrange)     | Méthode      | None  |
+| [**Sélectionner**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-select)                               | Méthode      | None  |
+| [**ScrollIntoView**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-scrollintoview)               | Méthode      | None  |
 
 
 
@@ -163,7 +163,7 @@ Les propriétés et méthodes supplémentaires suivantes sont requises pour impl
 
 
 
-| Membres nécessaires                                                      | Type de membre | Remarques                                      |
+| Membres nécessaires                                                      | Type de membre | Notes                                      |
 |-----------------------------------------------------------------------|-------------|--------------------------------------------|
 | [**ShowContextMenu**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider2-showcontextmenu) | Méthode      | Consultez la section « implémentation de ShowContextMenu ». |
 

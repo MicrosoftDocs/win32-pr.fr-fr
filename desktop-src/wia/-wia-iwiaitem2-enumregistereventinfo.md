@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: a81f342713bcb3e58521856aa84561c000dcc5e0d05112bc9586514a5469bfaf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b5899b629267f74724129aeae3f66801953d8cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118035021"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522181"
 ---
 # <a name="iwiaitem2enumregistereventinfo-method"></a>IWiaItem2 :: EnumRegisterEventInfo, méthode
 
@@ -68,19 +68,19 @@ Adresse d’un pointeur vers l’interface [**IEnumWIA \_ dev \_ Caps**](/window
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application appelle cette méthode pour créer un objet énumérateur pour les informations d’événement. **IWiaItem2 :: EnumRegisterEventInfo** stocke l’adresse de l’interface de [**\_ développement \_ IEnumWIA**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps) de l’objet énumérateur dans le paramètre *ppIEnum* . Le programme utilise ensuite le pointeur d’interface pour énumérer les propriétés de l’événement pour lequel il est enregistré.
 
 Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur les pointeurs d’interface qu’elles reçoivent via le paramètre *ppIEnum* .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

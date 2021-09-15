@@ -7,12 +7,12 @@ keywords:
 - LBA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64ed5385322601e633f79755fb192f1dce578f2bec0f944fa2f4f412c32d69a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4abb6fa3cec112737b23e3cd658a48984cb0fcd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404248"
 ---
 # <a name="thin-provisioning-of-logical-units"></a>Allocation dynamique d’unités logiques
 

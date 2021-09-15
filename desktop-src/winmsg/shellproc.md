@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 3776748994b44b3a870fd4689fa9f4019bff99ae8d6f7dd7b13edbf2c98054d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4add84011745aeb61659c39775b94fed91028d83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119449099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411158"
 ---
 # <a name="shellproc-function"></a>ShellProc fonction)
 
@@ -122,7 +122,7 @@ Type : **LRESULT**
 La valeur de retour doit être égale à zéro, sauf si la valeur de nCode est **HSHELL_APPCOMMAND** et que la procédure Shell gère le message **WM_COMMAND** .
 Dans ce cas, le retour doit être différent de zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Installez cette procédure de hook en spécifiant le type de hook [WH_SHELL](about-hooks.md) et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 

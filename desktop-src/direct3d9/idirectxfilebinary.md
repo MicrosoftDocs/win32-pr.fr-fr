@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: 46e0da3a0cb03d3769e7888706a48fbf00786471afed285ce54c629285ac158c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6707e4e685289f16b85ab85c2cce13dcd1da962
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118292408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404049"
 ---
 # <a name="idirectxfilebinary-interface"></a>Interface IDirectXFileBinary
 
@@ -41,7 +41,7 @@ L’interface **IDirectXFileBinary** possède ces méthodes.
 |:-------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | [**GetMimeType**](idirectxfilebinary--getmimetype.md) | Récupère le type MIME (Multipurpose Internet Mail Extensions) pour les données binaires. Action déconseillée.<br/> |
 | [**GetSize**](idirectxfilebinary--getsize.md)         | Récupère la taille des données binaires. Action déconseillée.<br/>                                               |
-| [**Lire**](idirectxfilebinary--read.md)               | Lit les données binaires. Action déconseillée.<br/>                                                               |
+| [**En lecture**](idirectxfilebinary--read.md)               | Lit les données binaires. Action déconseillée.<br/>                                                               |
 
 
 
@@ -60,7 +60,7 @@ typedef interface IDirectXFileBinary *LPDIRECTXFILEBINARY;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

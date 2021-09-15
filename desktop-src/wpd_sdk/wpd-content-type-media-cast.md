@@ -4,12 +4,12 @@ ms.assetid: 368e7381-8978-421a-b450-59915f8e70e2
 title: WPD_CONTENT_TYPE_MEDIA_CAST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4454053400c783b53437dd025e5adc8e845ea08c1b95b8d9b1fd358f39e326f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d45c9bc1e8e41bae526f02102d341ef00fad435
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522005"
 ---
 # <a name="wpd_content_type_media_cast"></a>\_type de contenu wpd \_ \_ \_ diffusion multimédia
 
@@ -35,21 +35,21 @@ Ce type d’objet prend en charge les propriétés suivantes.
 | [\_nom du \_ fichier d’origine de l’objet wpd \_ \_](object-properties.md)                              | Obligatoire si l’objet représente un fichier.                             |
 | [\_objet wpd \_ non \_ utilisable](object-properties.md)                                       | Recommandé si l’objet n’est pas destiné à être consommé par l’appareil. |
 | [\_références d’objets wpd \_](object-properties.md)                                                | Obligatoire si l’objet a des références à d’autres objets.               |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Facultatif.                                                             |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Facultatif.                                                             |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Optionnel.                                                             |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Optionnel.                                                             |
 | [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                  | Obligatoire si l’objet est protégé par la technologie DRM.                |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Facultatif.                                                             |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Optionnel.                                                             |
 | [Date de modification de l' \_ objet wpd \_ \_](object-properties.md)                                         | Recommandé.                                                          |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Facultatif.                                                             |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Optionnel.                                                             |
 | [\_ \_ références arrière des objets wpd \_](object-properties.md)                                     | Recommandé si l’objet est référencé par un autre objet.            |
-| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Facultatif.                                                             |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Facultatif.                                                             |
+| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Optionnel.                                                             |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Optionnel.                                                             |
 | [l' \_ objet wpd \_ peut \_ Supprimer](object-properties.md)                                               | Obligatoire si l’objet peut être supprimé.                                |
 | [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | Obligatoire si l’objet ne peut pas être supprimé.                             |
-| [\_Copyright du support wpd \_](media-properties.md)                                                     | Facultatif.                                                             |
-| [\_ \_ classification parentale des médias wpd \_](media-properties.md)                                        | Facultatif.                                                             |
-| [\_méta- \_ \_ genre de média wpd](media-properties.md)                                                  | Facultatif.                                                             |
-| [\_sous- \_ \_ titre du média wpd](media-properties.md)                                                    | Facultatif.                                                             |
+| [\_Copyright du support wpd \_](media-properties.md)                                                     | Optionnel.                                                             |
+| [\_ \_ classification parentale des médias wpd \_](media-properties.md)                                        | facultatif.                                                             |
+| [\_méta- \_ \_ genre de média wpd](media-properties.md)                                                  | facultatif.                                                             |
+| [\_sous- \_ \_ titre du média wpd](media-properties.md)                                                    | facultatif.                                                             |
 | [\_Date de \_ publication du support wpd \_](media-properties.md)                                              | Recommandé.                                                          |
 | [\_titre du support wpd \_](media-properties.md)                                                             | Recommandé.                                                          |
 | [\_propriétaire du média wpd \_](media-properties.md)                                                             | Recommandé.                                                          |
@@ -57,12 +57,12 @@ Ce type d’objet prend en charge les propriétés suivantes.
 | [\_webmaster multimédia \_ wpd](media-properties.md)                                                     | Recommandé.                                                          |
 | [URL de la \_ source du média wpd \_ \_](media-properties.md)                                                  | Recommandé.                                                          |
 | [\_URL de \_ destination du support wpd \_](media-properties.md)                                        | Recommandé.                                                          |
-| [\_Description du support wpd \_](media-properties.md)                                                 | Facultatif.                                                             |
-| [\_genre de média wpd \_](media-properties.md)                                                             | Facultatif.                                                             |
+| [\_Description du support wpd \_](media-properties.md)                                                 | Optionnel.                                                             |
+| [\_genre de média wpd \_](media-properties.md)                                                             | facultatif.                                                             |
 | [signet de l' \_ objet multimédia wpd \_ \_](media-properties.md)                                        | Recommandé                                                           |
 | [\_Date de \_ dernière \_ génération du média \_ wpd](media-properties.md)                                       | Recommandé.                                                          |
-| [\_ \_ durée \_ de vie des \_ médias wpd](media-properties.md)                                             | Facultatif.                                                             |
-| [\_sous- \_ \_ Description du média wpd](object-properties.md)                                                                 | Facultatif.                                                             |
+| [\_ \_ durée \_ de vie des \_ médias wpd](media-properties.md)                                             | facultatif.                                                             |
+| [\_sous- \_ \_ Description du média wpd](object-properties.md)                                                                 | facultatif.                                                             |
 
 
 
@@ -76,9 +76,9 @@ Ces objets incluent généralement les ressources suivantes.
 
 | Nom de la ressource                                               | Obligatoire ou facultatif | Description                                                                                                                 |
 |-------------------------------------------------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [**\_ressource wpd \_ par défaut**](wpd-resource-default.md)      | Facultatif.            | Contient les données du fichier Mediacast. Par exemple, si ce Mediacast représente un canal RSS, il peut s’agir du document RSS. |
-| [**\_miniature des ressources wpd \_**](wpd-resource-thumbnail.md)  | Facultatif.            | Contient la miniature représentant ce Mediacast.                                                                         |
-| [**image de l' \_ album des ressources wpd \_ \_**](wpd-resource-album-art.md) | Facultatif.            | Contient l’illustration pour ce Mediacast.                                                                                    |
+| [**\_ressource wpd \_ par défaut**](wpd-resource-default.md)      | facultatif.            | Contient les données du fichier Mediacast. Par exemple, si ce Mediacast représente un canal RSS, il peut s’agir du document RSS. |
+| [**\_miniature des ressources wpd \_**](wpd-resource-thumbnail.md)  | Optionnel.            | Contient la miniature représentant ce Mediacast.                                                                         |
+| [**image de l' \_ album des ressources wpd \_ \_**](wpd-resource-album-art.md) | Optionnel.            | Contient l’illustration pour ce Mediacast.                                                                                    |
 
 
 
@@ -152,24 +152,24 @@ Le tableau suivant répertorie les éléments de canal dans un flux RSS et les \
 
 | Élément Channel | Spécification du flux RSS | Propriété Mediacast correspondante      |
 |---------------------|--------------------------|---------------------------------------------------------------------------------|
-| catégorie            | Facultatif.                | [\_genre de média wpd \_](media-properties.md)                       |
+| catégorie            | Optionnel.                | [\_genre de média wpd \_](media-properties.md)                       |
 | cloud               | Non applicable.          | Non applicable.                                                                 |
-| copyright           | Facultatif.                | [\_Copyright du support wpd \_](media-properties.md)               |
+| copyright           | Optionnel.                | [\_Copyright du support wpd \_](media-properties.md)               |
 | description         | Obligatoire.                | [\_Description du support wpd \_](media-properties.md)           |
 | docs                | Non applicable.          | Non applicable.                                                                 |
 | générateur           | Non applicable.          | Non applicable.                                                                 |
 | langage            | Non applicable.          | Non applicable.                                                                 |
-| lastBuildDate       | Facultatif.                | [\_Date de \_ dernière \_ génération du média \_ wpd](media-properties.md) |
+| lastBuildDate       | facultatif.                | [\_Date de \_ dernière \_ génération du média \_ wpd](media-properties.md) |
 | link                | Obligatoire.                | [\_URL de \_ destination du support wpd \_](media-properties.md)  |
-| managingEditor      | Facultatif.                | [\_éditeur de \_ gestion du média wpd \_](media-properties.md)  |
-| pubDate             | Facultatif.                | [\_Date de \_ publication du support wpd \_](media-properties.md)        |
+| managingEditor      | Optionnel.                | [\_éditeur de \_ gestion du média wpd \_](media-properties.md)  |
+| pubDate             | Optionnel.                | [\_Date de \_ publication du support wpd \_](media-properties.md)        |
 | rating              | Non applicable.          | Non applicable.                                                                 |
 | skipDays            | Non applicable.          | Non applicable.                                                                 |
 | skipHours           | Non applicable.          | Non applicable.                                                                 |
 | textInput           | Non applicable.          | Non applicable.                                                                 |
 | title               | Obligatoire.                | [nom de l' \_ objet wpd \_](object-properties.md)                      |
-| ttl                 | Facultatif.                | [\_ \_ durée \_ de vie des \_ médias wpd](media-properties.md)       |
-| webMaster           | Facultatif.                | [\_webmaster multimédia \_ wpd](media-properties.md)               |
+| ttl                 | facultatif.                | [\_ \_ durée \_ de vie des \_ médias wpd](media-properties.md)       |
+| webMaster           | Optionnel.                | [\_webmaster multimédia \_ wpd](media-properties.md)               |
 
 
 
@@ -181,12 +181,12 @@ Le tableau suivant répertorie les éléments d’image dans un flux RSS et les 
 
 | Élément Image | Spécification du flux RSS | Propriété Mediacast                     |
 |-------------------|--------------------------|--------------------------------------------------------------------------------|
-| description       | Facultatif.                | [\_Description du support wpd \_](media-properties.md)          |
-| height            | Facultatif.                | [\_hauteur du média wpd \_](media-properties.md)                    |
-| link              | Facultatif.                | [\_URL de \_ destination du support wpd \_](media-properties.md) |
-| title             | Facultatif.                | [nom de l' \_ objet wpd \_](object-properties.md)                     |
-| url               | Facultatif.                | [URL de la \_ source du média wpd \_ \_](media-properties.md)           |
-| width             | Facultatif.                | [\_largeur du média wpd \_](media-properties.md)                      |
+| description       | facultatif.                | [\_Description du support wpd \_](media-properties.md)          |
+| height            | facultatif.                | [\_hauteur du média wpd \_](media-properties.md)                    |
+| link              | Optionnel.                | [\_URL de \_ destination du support wpd \_](media-properties.md) |
+| title             | facultatif.                | [nom de l' \_ objet wpd \_](object-properties.md)                     |
+| url               | Optionnel.                | [URL de la \_ source du média wpd \_ \_](media-properties.md)           |
+| width             | Optionnel.                | [\_largeur du média wpd \_](media-properties.md)                      |
 
 
 
@@ -198,20 +198,20 @@ Le tableau suivant répertorie les éléments Item d’un flux RSS et les \_ Pro
 
 | Item, élément | Attribut | Spécification du flux RSS | Propriété Mediacast  |
 |------------------|---------------|--------------------------|--------------------------------------------------------------------------------|
-| auteur           |               | Facultatif.                | [\_artiste multimédia \_ wpd](media-properties.md)                    |
-| catégorie         |               | Facultatif.                | [\_genre de média wpd \_](media-properties.md)                      |
+| auteur           |               | facultatif.                | [\_artiste multimédia \_ wpd](media-properties.md)                    |
+| catégorie         |               | Optionnel.                | [\_genre de média wpd \_](media-properties.md)                      |
 |                  | domaine        | Non applicable.          | Non applicable.                                                                |
-| description      |               | Facultatif.                | [\_Description du support wpd \_](media-properties.md)          |
-| coffret        |               | Facultatif.                |                                                                                |
+| description      |               | Optionnel.                | [\_Description du support wpd \_](media-properties.md)          |
+| coffret        |               | Optionnel.                |                                                                                |
 |                  | url           | Obligatoire.                | [URL de la \_ source du média wpd \_ \_](media-properties.md)           |
 |                  | length        | Obligatoire.                | [taille de l' \_ objet wpd \_](object-properties.md)                     |
-|                  | Type          | Obligatoire.                | (Le type MIME doit être mappé au type de contenu de la propriété.)                 |
-| guid             |               | Facultatif.                | [\_GUID du média wpd \_](media-properties.md)                        |
+|                  | type          | Obligatoire.                | (Le type MIME doit être mappé au type de contenu de la propriété.)                 |
+| guid             |               | Optionnel.                | [\_GUID du média wpd \_](media-properties.md)                        |
 |                  | isPermaLink   | Non applicable.          | Non applicable.                                                                |
-| link             |               | Facultatif.                | [\_URL de \_ destination du support wpd \_](media-properties.md) |
-| pubDate          |               | Facultatif.                | [\_Date de \_ publication du support wpd \_](media-properties.md)       |
+| link             |               | Optionnel.                | [\_URL de \_ destination du support wpd \_](media-properties.md) |
+| pubDate          |               | facultatif.                | [\_Date de \_ publication du support wpd \_](media-properties.md)       |
 | source           |               | Non applicable.          | Non applicable.                                                                |
-| title            |               | Facultatif.                | [nom de l' \_ objet wpd \_](object-properties.md)                     |
+| title            |               | Optionnel.                | [nom de l' \_ objet wpd \_](object-properties.md)                     |
 
 
 

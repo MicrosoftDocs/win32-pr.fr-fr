@@ -4,12 +4,12 @@ ms.assetid: ae8a0a3e-293c-8193-d252-046d79771cfb
 title: Vue d’ensemble d’ADPCM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1be1155d6d9f5a542b605c497ce28aa34191c0ac129582c18ec4a47b9f510f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fb918a611cb0840b2f02dfb13b547b795fb3304
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118962718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522804"
 ---
 # <a name="adpcm-overview"></a>Vue d’ensemble d’ADPCM
 

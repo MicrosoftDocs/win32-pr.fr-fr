@@ -5,15 +5,15 @@ title: Conditions requises pour les ressources
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5702555704137f4280e527f0fc26f176435238ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522936"
 ---
 # <a name="requirements-for-resources"></a>Conditions requises pour les ressources
 
-Les appareils mobiles Windows définissent les catégories de ressources suivantes comme des valeurs **PROPERTYKEY** . Ces valeurs sont utilisées pour décrire des ressources individuelles dans un objet. Le membre *PID* de la clé de propriété peut être différent pour décrire des ressources différentes du même type pour tous les types, à l’exception de la **\_ ressource wpd \_ par défaut**, qui ne peut décrire qu’une seule ressource. La page Description liée pour chaque type de ressource répertorie les attributs pris en charge par cette ressource.
+Windows Les appareils mobiles définissent les catégories de ressources suivantes comme des valeurs **PROPERTYKEY** . Ces valeurs sont utilisées pour décrire des ressources individuelles dans un objet. Le membre *PID* de la clé de propriété peut être différent pour décrire des ressources différentes du même type pour tous les types, à l’exception de la **\_ ressource wpd \_ par défaut**, qui ne peut décrire qu’une seule ressource. La page Description liée pour chaque type de ressource répertorie les attributs pris en charge par cette ressource.
 
 
 

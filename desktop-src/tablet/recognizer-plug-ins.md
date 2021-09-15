@@ -4,12 +4,12 @@ ms.assetid: 764a327e-1da0-487f-9245-b6a4f3f43502
 title: Plug-ins de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54b64f8f9b63cdbdc7309e7d9bd303ecce7a6b59b2e3b3c0cde976d1d6eefdf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbf3ac866a211a78e2d8f347e89ca20a1906f436
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119091523"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411450"
 ---
 # <a name="recognizer-plug-ins"></a>Plug-ins de reconnaissance
 

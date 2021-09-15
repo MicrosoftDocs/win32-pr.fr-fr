@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 96b1d8ce92a847dcd4ffcebca6b45df2b652ad74c1216fc60b8aac72bb6a12ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 882aaf0d131ae6fe062c00c0181e2f913a0e1bc5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119659719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523137"
 ---
 # <a name="iwiaimagefilterfilterpreviewimage-method"></a>IWiaImageFilter :: FilterPreviewImage, méthode
 
@@ -78,13 +78,13 @@ Pointeur vers l’interface [IStream](/windows/win32/api/objidl/nn-objidl-istrea
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’appelez pas cette méthode directement à partir de votre application.
 
@@ -94,7 +94,7 @@ N’appelez pas cette méthode directement à partir de votre application.
 
 Une application doit s’assurer que *pWiaChildItem2* a le même format d’image (WIA \_ \_ ), la résolution (WIA \_ IPS \_ XRES et WIA \_ \_ YRES) et la profondeur de bit (WIA de la \_ Loi WIA), \_ car *pWiaItem2* avait été passé dans [**GetNewPreview**](-wia-iwiapreview-getnewpreview.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

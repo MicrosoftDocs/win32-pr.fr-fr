@@ -4,12 +4,12 @@ ms.assetid: 0348684f-aebd-4d2d-a69b-85fea551c0cd
 title: Définition des rôles pour une application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc4b4fb6aaee557eea69dec405254925cd669d18ac73cdea229f548145d8701
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f8e46eb2cb857a2b2dee2aabe41cb571e12ed98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411262"
 ---
 # <a name="defining-roles-for-an-application"></a>Définition des rôles pour une application
 

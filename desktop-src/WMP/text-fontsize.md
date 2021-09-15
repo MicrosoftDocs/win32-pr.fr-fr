@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c717ea717daedce069e84d82f76edabc285b7f43fbf0a3b8759ef129fbbfdc47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47abd2b14b43c77d160faab20608c524c3c257c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118118313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522753"
 ---
 # <a name="textfontsize"></a>TEXT. FontSize
 
@@ -33,7 +33,7 @@ Cet attribut est un **nombre** en lecture/écriture (**long**) qui spécifie la 
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

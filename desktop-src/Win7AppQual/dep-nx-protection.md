@@ -4,12 +4,12 @@ ms.assetid: 92F628E4-6106-42F7-B868-A3101C7A3F0A
 title: Protection DEP/NX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aec30b3758361cbe2ed20e67fe6792d6f76b58a7266c6de1d554afdba8a2519c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3565460cbfd2e6b13c3c5ba6b1f0693a3d5b25ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118329939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521868"
 ---
 # <a name="depnx-protection"></a>Protection DEP/NX
 

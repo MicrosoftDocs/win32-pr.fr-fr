@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 43b818c3adc9926c4ba27f11f5d489ffc0b97e4443d0427e7a12067e9062072a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a113c9493128a634ce61ccf7c0362bf7a9767f72
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118440444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523136"
 ---
 # <a name="iwiaimagefilterinitializefilter-method"></a>IWiaImageFilter :: InitializeFilter, méthode
 
@@ -58,17 +58,17 @@ Spécifie un pointeur vers l’interface [**IWiaTransferCallback**](-wia-iwiatra
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est appelée lorsqu’une application appelle le [**Téléchargement**](-wia-iwiatransfer-download.md) et lorsqu’une application appelle la fonction du composant WIA 2,0 Preview `GetNewPreview` . **IWiaImageFilter :: InitializeFilter** stocke les références à *pWiaItem2* et *pWiaTransferCallback* à transmettre à ces fonctions. Ces deux pointeurs d’interface doivent être stockés en tant que variables membres et [IUnknown :: AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) doit être appelé pour chacun. Les pointeurs d’interface sont également nécessaires dans l’implémentation du filtre de [**TransferCallback**](-wia-iwiatransfercallback-transfercallback.md) et [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) lors de l’acquisition d’images.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

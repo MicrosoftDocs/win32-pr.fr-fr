@@ -4,12 +4,12 @@ ms.assetid: 9c5c400e-0f00-4715-9e96-ce01a400c64d
 title: UVAtlas, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a63159b5017012cb550515d33e1a9fa107b877669dd5e21ee9748a54b0df634
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48c2216e836fac7a17fd138f9ce5fb9b3355c771
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119749299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521684"
 ---
 # <a name="uvatlas-functions"></a>UVAtlas, fonctions
 

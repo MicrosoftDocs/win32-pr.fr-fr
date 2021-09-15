@@ -4,12 +4,12 @@ ms.assetid: d4d761a6-d5a6-47b8-b655-7651bd415e4e
 title: Vue d’ensemble de la gestion des couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c42a8c30074210a0a061fcbd26b05054591d2023805bfdff0848f0d7054dfe07
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4d1552375ee896173ba8d1fdbf4a9ae19c2af6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120090048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404241"
 ---
 # <a name="color-management-overview"></a>Vue d’ensemble de la gestion des couleurs
 

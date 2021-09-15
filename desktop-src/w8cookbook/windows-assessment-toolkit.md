@@ -5,11 +5,11 @@ ms.assetid: 9D0A4F42-F027-4032-8297-045937BD2B6E
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2d6eff172a59a7f0ee00f85a0cd8f237387aaa78
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482675"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404529"
 ---
 # <a name="windows-assessment-toolkit"></a>Kit d’évaluation Windows
 

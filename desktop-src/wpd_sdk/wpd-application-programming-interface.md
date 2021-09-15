@@ -4,12 +4,12 @@ ms.assetid: 3e2be15f-7af7-4e76-89b1-f9bc591c4f1b
 title: Interface de programmation d’applications WPD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c5937cf14e7679bb9d9ca487b12ec546fb1751e3c94930f83c4aed3be5ed71a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c44dbcf731aa46941599b99766e52fa67a5c5a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083363"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522868"
 ---
 # <a name="wpd-application-programming-interface"></a>Interface de programmation d’applications WPD
 

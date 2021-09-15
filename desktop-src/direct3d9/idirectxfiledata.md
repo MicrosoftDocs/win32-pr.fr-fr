@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: 72b3ffa54d9ec0362100b2e2f1ac54b417d1425d0e6e311da3f9b5b7d30a553a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30d2fb26e3752e302726edce51354369f3b067eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118800209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404041"
 ---
 # <a name="idirectxfiledata-interface"></a>Interface IDirectXFileData
 
@@ -50,7 +50,7 @@ L’interface **IDirectXFileData** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le GUID de l’interface IDirectXFileData est IID \_ IDirectXFileData.
 
@@ -63,7 +63,7 @@ typedef interface IDirectXFileData *LPDIRECTXFILEDATA;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ff10ed8a-d73b-4d9b-b224-9ecfcc37d5af
 title: System. image. ResolutionUnit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 702351e001c52c03a7610f73cc1f92c7e3da0afc57652a7344271dd1263dc869
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd8b148b074d7e033fe21ab50b1fdbd000fd0a2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118726497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404540"
 ---
 # <a name="systemimageresolutionunit"></a>System. image. ResolutionUnit
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

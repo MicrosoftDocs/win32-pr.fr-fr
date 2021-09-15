@@ -15,11 +15,11 @@ api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
 ms.openlocfilehash: 0084811ee471bee8fe67653dace49fa83642a7fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524404"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522285"
 ---
 # <a name="calldivide-function"></a>CallDivide fonction)
 
@@ -105,7 +105,7 @@ Nombre de paragraphes renvoyés par l’analyse de l’encre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction peut retourner l’une de ces valeurs.
 
@@ -120,13 +120,13 @@ Cette fonction peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | Bibliothèque<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

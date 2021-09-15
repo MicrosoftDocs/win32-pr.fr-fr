@@ -4,12 +4,12 @@ ms.assetid: 67f872dc-79ef-4799-bb7b-b84d7dc11c71
 title: configuration requise pour les Applications Windows Media DRM-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14ad59b5b590436ca5734fcb8d226d41f4f995a5d4ea97e0c46d771df476be6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59543bf6ea803d2b9d58721fd775c49b79653c0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118027048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522029"
 ---
 # <a name="requirements-for-windows-media-drm-enabled-applications"></a>configuration requise pour les Applications Windows Media DRM-Enabled
 

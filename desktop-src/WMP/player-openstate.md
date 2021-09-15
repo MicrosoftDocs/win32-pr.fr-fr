@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f7c0b88d3cab5d5bae4efb1e9a2a5032709943d82484b073302bf0b45a6f5b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b87ad682a0c9ea6420ec291cbe66a7f81c9062e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403996"
 ---
 # <a name="playeropenstate"></a>Player. openState
 
@@ -35,7 +35,7 @@ Cette propriété est un **nombre** en lecture seule (**long**). La constante d�
 
 
 
-| Valeur | État                   | Description                                                                                                                                            |
+| Valeur | State                   | Description                                                                                                                                            |
 |-------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Indéfini               | Lecteur Windows Media est dans un état indéfini.                                                                                                         |
 | 1     | PlaylistChanging        | La nouvelle sélection va être chargée.                                                                                                                    |
@@ -64,11 +64,11 @@ Cette propriété est un **nombre** en lecture seule (**long**). La constante d�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

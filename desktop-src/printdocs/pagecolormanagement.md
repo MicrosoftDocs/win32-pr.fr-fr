@@ -4,12 +4,12 @@ ms.assetid: 27408582-9c39-4d39-8314-a495d1c7766d
 title: PageColorManagement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d75a8be4ad0cfdc3ec5d33937da4a27b59875450335801f676810c799831bca1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 685794f1c9bb64c8bb3e966c4ec03bcac8821369
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119098862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404282"
 ---
 # <a name="pagecolormanagement"></a>PageColorManagement
 

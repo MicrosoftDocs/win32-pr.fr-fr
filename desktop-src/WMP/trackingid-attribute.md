@@ -1,9 +1,9 @@
 ---
 title: Attribut TrackingID
-description: L’attribut TrackingID est l’identificateur global unique (GUID) 128 bits que le lecteur Windows Media utilise pour identifier un élément multimédia.
+description: l’attribut TrackingID est l’identificateur global Unique (GUID) de 128 bits que Lecteur Windows Media utilise pour identifier un élément multimédia.
 ms.assetid: 77afa1a5-d532-4b54-9308-a274c5c7bdde
 keywords:
-- Attribut TrackingID lecteur Windows Media
+- Lecteur Windows Media de l’attribut TrackingID
 topic_type:
 - apiref
 api_name:
@@ -13,15 +13,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 22ffc32e2f6b4ab05680a1413d3a66715cad3f25
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530386"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403811"
 ---
 # <a name="trackingid-attribute"></a>Attribut TrackingID
 
-L’attribut **TrackingID** est l’identificateur global unique (GUID) 128 bits que le lecteur Windows Media utilise pour identifier un élément multimédia.
+l’attribut **TrackingID** est l’identificateur global Unique (GUID) de 128 bits que Lecteur Windows Media utilise pour identifier un élément multimédia.
 
 ## <a name="applies-to"></a>S'applique à
 
@@ -34,7 +34,7 @@ L’attribut **TrackingID** est l’identificateur global unique (GUID) 128 bits
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Un certain nombre de DISPID standard ont été définis pour la sp�
 ms.assetid: f938b64f-5d45-40e7-ad02-665ce9c86a70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af35ce4e4cad884b54bb0982037721608364a0249d3be6dd566f3aac766bb1f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 657a7cd12ac92504bb5d63dcd486b6a45da47310
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129781"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404597"
 ---
 # <a name="standard-dispids"></a>DISPID standard
 

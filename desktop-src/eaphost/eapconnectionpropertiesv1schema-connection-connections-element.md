@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6948675f7910c46cb2b5db4285ce0df795fa057f275ce29b7f4c664b14c4ce1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5aabc29a7fe5122a7f7571750b97ebccb38158d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118498369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522713"
 ---
 # <a name="connection-connections-element"></a>Élément Connection (Connections)
 
@@ -50,11 +50,11 @@ L’élément **Connection** est défini par l’élément [**connections**](eap
 | Élément                                                                 | Type   | Description                                                                                                             |
 |-------------------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------|
 | [**EAP**](baseeapconnectionpropertiesv1schema-eap-element.md)          |        | Identifie l’élément de configuration EAP.<br/>                                                                    |
-| [**Nom**](eapconnectionpropertiesv1schema-name-connection-element.md) | string | Capture le nom de la connexion définie, en aidant à identifier plusieurs connexions. <br/> |
+| [**Nomme**](eapconnectionpropertiesv1schema-name-connection-element.md) | string | Capture le nom de la connexion définie, en aidant à identifier plusieurs connexions. <br/> |
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

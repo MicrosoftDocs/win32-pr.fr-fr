@@ -4,12 +4,12 @@ ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 title: AcquireCredentialsHandle (CredSSP), fonction
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 22ab5b4f9696e266e6d07b3085cafe10384e8b6b266c9e20672021fa04e97998
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0dbece18bc7a7de8ec35764c9879380e29292e92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522773"
 ---
 # <a name="acquirecredentialshandle-credssp-function"></a>AcquireCredentialsHandle (CredSSP), fonction
 
@@ -80,7 +80,7 @@ Pointeur vers la structure [CredHandle](sspi-handles.md) qui recevra le handle d
 
 Pointeur vers une structure d' [**horodatage**](timestamp.md) qui reçoit l’heure à laquelle les informations d’identification retournées expirent. La valeur de structure reçue dépend du package de sécurité, qui doit spécifier la valeur en heure locale.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne **sec \_ E \_ OK**.
 
@@ -95,7 +95,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | **SEC \_ E \_ SECPKG \_ \_ introuvable**   | Le package de sécurité demandé n’existe pas.                           |
 | **SEC \_ E \_ \_ informations d’identification inconnues** | Les informations d’identification fournies au package n’ont pas été reconnues.             |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **AcquireCredentialsHandle (CredSSP)** retourne un handle vers les informations d’identification d’un principal, tel qu’un utilisateur ou un client, tel qu’il est utilisé par un package de sécurité spécifique. La fonction peut retourner le handle à des informations d’identification préexistantes ou à des informations d’identification nouvellement créées et la retourner. Ce handle peut être utilisé dans les appels ultérieurs aux fonctions [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) et [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) .
 
@@ -110,7 +110,7 @@ Pour les appelants en mode noyau, les différences suivantes doivent être noté
 
 Lorsque vous avez terminé d’utiliser les informations d’identification retournées, libérez la mémoire utilisée par les informations d’identification en appelant la fonction [**FreeCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-freecredentialshandle) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|----------------------------------------------------------------------------------|

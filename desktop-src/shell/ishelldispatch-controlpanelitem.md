@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-ms.openlocfilehash: 89ea8431df7e8cac09a041bd9a16c805633cd3ec82a2cc506cb30fcf0f0cd39b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a1c024b316472be00f119485326b704a4fe8dd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404773"
 ---
 # <a name="ishelldispatchcontrolpanelitem-method"></a>Méthode IShellDispatch. ControlPanelItem
 
@@ -67,7 +67,7 @@ Nom de fichier de l’application du panneau de configuration.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="jscript"></a>JScript
 
@@ -77,7 +77,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ControlPanelItem**](shell-controlpanelitem.md) .
 
@@ -135,7 +135,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

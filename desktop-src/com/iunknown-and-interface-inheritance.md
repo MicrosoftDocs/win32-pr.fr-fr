@@ -5,11 +5,11 @@ ms.assetid: c45f0947-6020-4aa1-9250-561603a46a68
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9ce4d9d164607745b78001bb92b7dc5331296abe
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509684"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521857"
 ---
 # <a name="iunknown-and-interface-inheritance"></a>IUnknown et héritage d’interface
 
@@ -28,6 +28,6 @@ Bien qu’il existe quelques interfaces qui héritent de leurs définitions d’
 [Objets et interfaces COM](com-objects-and-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

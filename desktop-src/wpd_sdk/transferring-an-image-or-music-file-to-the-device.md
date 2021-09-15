@@ -4,12 +4,12 @@ ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
 title: transfert d’une Image ou d’un fichier Musique sur l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cf16c4c95080b5479825bbc4a0f8dcfd131fdb603821edab0a2e9df4d03c41
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f3308212825f6c67ea79a40873fc466164d62f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522873"
 ---
 # <a name="transferring-an-image-or-music-file-to-the-device"></a>transfert d’une Image ou d’un fichier Musique sur l’appareil
 

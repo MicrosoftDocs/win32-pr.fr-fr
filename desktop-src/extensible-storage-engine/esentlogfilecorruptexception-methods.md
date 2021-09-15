@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102159
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 66d29fab9480bf1a0dbfb4576d02449b50a1d10da117989e7013f1cd3a7efa22
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d3b0cff3b6f98799c43441541fe4529ac35433d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521641"
 ---
 # <a name="esentlogfilecorruptexception-methods"></a>Méthodes EsentLogFileCorruptException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentLogFileCorruptException, classe](./esentlogfilecorruptexception-class.md)
 

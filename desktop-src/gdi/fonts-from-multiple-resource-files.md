@@ -5,11 +5,11 @@ title: Polices de plusieurs fichiers de ressources
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a3802705ba4b199fa00d2cc2961d3c4472c4e365
-ms.sourcegitcommit: fa5c081bf792b119a7bb92182cde1f85ca75967b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "104996448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521545"
 ---
 # <a name="fonts-from-multiple-resource-files"></a>Polices de plusieurs fichiers de ressources
 

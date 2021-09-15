@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 5f0002674e697bebf3c08cedb3034498942a2672a78bb132c02d47b77a896b66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 840516f9cd5571946d45d00cb1203d47d42dee07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522076"
 ---
 # <a name="client-properties"></a>Propriétés du client
 
@@ -45,7 +45,7 @@ Windows Les appareils mobiles prennent en charge les propriétés de client suiv
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

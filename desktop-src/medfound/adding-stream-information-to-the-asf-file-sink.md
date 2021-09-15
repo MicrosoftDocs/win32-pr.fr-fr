@@ -4,12 +4,12 @@ ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Ajout d’informations de flux au récepteur de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0273f6080293803db7fa7451460e8f8d7700c5e405b9ed09d8d35e384abc8ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de8202de8da5cb8e17534c334e3d39dddb3c4f99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975038"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522529"
 ---
 # <a name="adding-stream-information-to-the-asf-file-sink"></a>Ajout d’informations de flux au récepteur de fichiers ASF
 

@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITransformProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5aceefa7d482cbbe6d9b1612c1fb9c65081796113e527d5122274ce5d8f8215
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1eae752b34ed0b64fd2c0a7b476377fd1142f9b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826835"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403980"
 ---
 # <a name="transform-control-pattern"></a>Transform (modèle de contrôle)
 
@@ -49,14 +49,14 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                         | Type de membre | Remarques |
+| Membres nécessaires                                         | Type de membre | Notes |
 |----------------------------------------------------------|-------------|-------|
-| [**CanMove**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canmove)     | Propriété    | Aucun  |
-| [**CanResize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canresize) | Propriété    | Aucun  |
-| [**CanRotate**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canrotate) | Propriété    | Aucun  |
-| [**Activer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-move)           | Méthode      | Aucun  |
-| [**Redimensionner**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-resize)       | Méthode      | Aucun  |
-| [**Faire pivoter**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-rotate)       | Méthode      | Aucun  |
+| [**CanMove**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canmove)     | Propriété    | None  |
+| [**CanResize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canresize) | Propriété    | None  |
+| [**CanRotate**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canrotate) | Propriété    | None  |
+| [**Activer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-move)           | Méthode      | None  |
+| [**Redimensionner**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-resize)       | Méthode      | None  |
+| [**Faire pivoter**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider-rotate)       | Méthode      | None  |
 
 
 
@@ -66,14 +66,14 @@ Les propriétés et méthodes supplémentaires suivantes sont requises pour impl
 
 
 
-| Membres nécessaires                                              | Type de membre | Remarques |
+| Membres nécessaires                                              | Type de membre | Notes |
 |---------------------------------------------------------------|-------------|-------|
-| [**CanZoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom)     | Propriété    | Aucun  |
-| [**Zoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Méthode      | Aucun  |
-| [**ZoomByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-zoombyunit)   | Méthode      | Aucun  |
-| [**ZoomLevel**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomlevel)     | Propriété    | Aucun  |
-| [**ZoomMaximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoommaximum) | Propriété    | Aucun  |
-| [**ZoomMinimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomminimum) | Propriété    | Aucun  |
+| [**CanZoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom)     | Propriété    | None  |
+| [**Zoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Méthode      | None  |
+| [**ZoomByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-zoombyunit)   | Méthode      | None  |
+| [**ZoomLevel**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomlevel)     | Propriété    | None  |
+| [**ZoomMaximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoommaximum) | Propriété    | None  |
+| [**ZoomMinimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomminimum) | Propriété    | None  |
 
 
 

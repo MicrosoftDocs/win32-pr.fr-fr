@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c27089fb09c2408917be06b2f74e6d32f3e2f5aa9b96924de1ab92de190efb8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec147833ee94969880865f679d40a198e0b22852
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521736"
 ---
 # <a name="d3d12decomposesubresource-function"></a>D3D12DecomposeSubresource fonction)
 
@@ -100,11 +100,11 @@ Génère la sortie de la tranche de plan qui correspond à l’index de sous-res
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction détermine quelle tranche MIP, tranche de tableau et tranche de plan correspondent à un index de sous-ressources donné. Il s’agit d’un utilitaire utile, bien qu’il soit spécifique à C++.
 
@@ -123,7 +123,7 @@ inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT Ar
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a98d9b4bf2120cb6daa08b6088a8dd39f8a17b8e28c37a3917936a9c49230487
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 105b4a7daab87b1311a58a7b5e5805bbd81e73ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736266"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404087"
 ---
 # <a name="wm_dde_terminate-message"></a>Message de fin du \_ DDE WM \_
 
@@ -52,7 +52,7 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="posting"></a>Publication
 
@@ -62,7 +62,7 @@ Lors de l’attente de la confirmation de la résiliation, l’application de pu
 
 L’application cliente ou serveur doit répondre en publiant un message **WM \_ DDE \_ Terminate** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -93,7 +93,7 @@ L’application cliente ou serveur doit répondre en publiant un message **WM \_
 [**en-dessous du protocole WM \_ DDE \_**](wm-dde-poke.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

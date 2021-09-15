@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: a816fb5f-8320-4b63-a85d-dd4c59596ead
-ms.openlocfilehash: 26aadacec02ddca13da6a005ed70b27d1f0869ab8dbd159c553fc66fe19561bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50295d712e539c94f10a708674cea595a47ae4e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117675839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404537"
 ---
 # <a name="strrettostrn-function"></a>StrRetToStrN fonction)
 
@@ -78,13 +78,13 @@ Pointeur vers la structure [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shty
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **bool**
 
 **True** en cas de réussite, **false** en cas d’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > À partir de Shell32.dll version 5,0, l’appel de cette fonction équivaut à appeler [**StrRetToBuf**](/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobufa).
@@ -97,7 +97,7 @@ Si le membre **uType** de la structure vers laquelle pointe *pStrRet* est défin
 
 Notez que cette fonction est exportée à partir de Shell32.dll plutôt que Shlwapi.dll. Il est également inclus dans shlobj. h plutôt que sur Shlwapi. h.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

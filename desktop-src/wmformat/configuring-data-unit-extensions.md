@@ -10,11 +10,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: dc7e6794b95128d180bc3922f9bf03a15a2749df
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "103724047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404481"
 ---
 # <a name="configuring-data-unit-extensions"></a>Configuration d’extensions d’unité de données
 
@@ -37,12 +37,12 @@ Les extensions d’unité de données individuelles doivent être définies sur 
 
 <dl> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

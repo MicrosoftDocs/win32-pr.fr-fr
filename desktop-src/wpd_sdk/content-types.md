@@ -4,12 +4,12 @@ ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: Types de contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7bf7c70d3f76fc4b201dd6866e6bcce8403f12401051a5b03658f7ce39b599
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2a44021d9f91fc6a3f43853763e5573e0c64b3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117653087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411348"
 ---
 # <a name="content-types"></a>Types de contenu
 

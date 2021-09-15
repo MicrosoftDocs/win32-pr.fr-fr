@@ -4,12 +4,12 @@ description: Cette rubrique contient des tâches et des considérations relative
 ms.assetid: 8D951EB5-4AFB-4051-8F1F-30F847F1A757
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: bd1ddf9d2716cd01ab2db8acb08d2793a6831ffa6f20aa2c75378f72932d992b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29c4812c559b691a896fb5bb9da39064bf3c8614
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521777"
 ---
 # <a name="how-to-use-the-device-access-api"></a>Comment utiliser l’API d’accès à l’appareil
 

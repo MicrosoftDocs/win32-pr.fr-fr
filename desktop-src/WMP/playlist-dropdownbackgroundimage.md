@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a47f964e1aaa4b2d22a922d70ea41970b5c1ae667920dbebf49dd5e6cc1d4dff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23ac925d5c5b3985d04a9ad5afd622abae5042a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118571459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404167"
 ---
 # <a name="playlistdropdownbackgroundimage"></a>PLAYLIST. dropDownBackgroundImage
 
@@ -35,7 +35,7 @@ Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fi
 
 Cet attribut prend en charge les fichiers PNG, JPG, BMP et GIF. Si l’image est un fichier BMP 8 bits, ses valeurs de teinte et de saturation peuvent être modifiées de manière dynamique à l’aide des attributs **hueShift** et **saturation** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

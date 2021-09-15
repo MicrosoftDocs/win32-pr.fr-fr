@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a59f6ad587740911d55ae2837607c651e3f3be875bfb24f8bfa765ba415e9bc0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fed3e7e8ff41f23d0f9f741ea99f3382d20532e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404125"
 ---
 # <a name="playlistcollectionisdeleted-method"></a>PlaylistCollection. isDeleted, méthode
 
@@ -49,13 +49,13 @@ Objet de la **sélection** à rechercher.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **valeur booléenne**.
 
 **Lecteur Windows Media 10 Mobile**: cette méthode retourne toujours **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

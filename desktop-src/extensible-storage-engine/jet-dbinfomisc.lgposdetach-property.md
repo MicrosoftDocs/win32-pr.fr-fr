@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: e0bd1efbc96673870cf94ff1817541fc1f1800c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112971"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521605"
 ---
 # <a name="jet_dbinfomisclgposdetach-property"></a>JET_DBINFOMISC. lgposDetach, propriété
 
@@ -64,7 +64,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_LGPOS](./jet-lgpos-structure2.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_DBINFOMISC](./jet-dbinfomisc-class.md)
 

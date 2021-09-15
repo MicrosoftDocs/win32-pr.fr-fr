@@ -4,12 +4,12 @@ ms.assetid: 05ca73c6-d105-47bc-96bc-b784f669febe
 title: Informations sur les couleurs étendues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07ffce83acccd2004156d55c0711836271d9ad5cfe7a6ac395e0d9fcbb418142
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29ba43180a0f1e5253540088c1638f59d52380c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119466369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411198"
 ---
 # <a name="extended-color-information"></a>Informations sur les couleurs étendues
 

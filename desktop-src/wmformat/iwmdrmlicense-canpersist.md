@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e174f0b7d48684e40cc5796d2ae95ec1bcaca99216c493c73609323daf276b4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a7772dac73b99443626b1eeec6f5e90851f92c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118701217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404471"
 ---
 # <a name="iwmdrmlicensecanpersist-method"></a>IWMDRMLicense :: CanPersist, méthode
 
@@ -49,7 +49,7 @@ La valeur TRUE indique que la licence peut être persistante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -67,7 +67,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

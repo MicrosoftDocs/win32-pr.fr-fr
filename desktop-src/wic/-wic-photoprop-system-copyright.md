@@ -5,11 +5,11 @@ title: Stratégie de métadonnées de photos System. Copyright
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d3e17190205b3df5c2ede9b1a7db231d0fdbbe21
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523125"
 ---
 # <a name="systemcopyright-photo-metadata-policy"></a>Stratégie de métadonnées de photos System. Copyright
 
@@ -33,7 +33,7 @@ Non
 
 ### <a name="input-propvariant-type"></a>Type de PROPVARIANT d’entrée
 
-Chaîne
+String
 
 ### <a name="conflict-resolution-policy"></a>Stratégie de résolution des conflits
 
@@ -136,7 +136,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

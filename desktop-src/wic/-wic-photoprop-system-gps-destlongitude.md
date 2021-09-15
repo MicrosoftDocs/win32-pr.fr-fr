@@ -4,12 +4,12 @@ ms.assetid: 885a522d-e1bf-43fb-a996-97e725b6cf0c
 title: Stratégie de métadonnées de photo System. GPS. DestLongitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 917c65dbd580b00cf25603e04050386383967e3a70c1896405346652667ef5f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72e0a4f56e49dfbb3397b96cf7fae35a6065b7aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119087840"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523116"
 ---
 # <a name="systemgpsdestlongitude-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. DestLongitude
 
@@ -45,7 +45,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
 
 
-| Commande | Chemin                       | Format de disque |
+| JSON | Chemin d’accès                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 22}  |             |
 | 2     | /xmp/exif:GPSDestLongitude |             |
@@ -58,7 +58,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
 
 
-| Commande | Chemin                       | Format de disque |
+| JSON | Chemin d’accès                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 22}  |             |
 | 2     | /xmp/exif:GPSDestLongitude |             |
@@ -71,7 +71,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
 
 
-| Commande | Chemin                       |
+| JSON | Chemin d’accès                       |
 |-------|----------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 22}  |
 | 2     | /xmp/exif:gpsdestlongitude |
@@ -86,7 +86,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
 
 
-| Commande | Chemin                           | Format de disque |
+| JSON | Chemin d’accès                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 22}           |             |
 | 2     | /ifd/xmp/exif:GPSDestLongitude |             |
@@ -99,7 +99,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
 
 
-| Commande | Chemin                           | Format de disque |
+| JSON | Chemin d’accès                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 22}           |             |
 | 2     | /ifd/xmp/exif:GPSDestLongitude |             |
@@ -112,7 +112,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
 
 
-| Commande | Chemin                           |
+| JSON | Chemin d’accès                           |
 |-------|--------------------------------|
 | 1     | /IFD/GPS/{UShort = 22}           |
 | 2     | /ifd/xmp/exif:gpsdestlongitude |
@@ -121,7 +121,7 @@ Cette valeur est générée à partir de System. GPS. DestLongitudeNumerator et 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

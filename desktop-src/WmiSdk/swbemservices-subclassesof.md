@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 49b89b011b8e6933511de220473a0562ebda439bc2a080bf9082db1b5b84e49a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8c23dee5ee3f0a1cf5babe37d0ccb6aa0a3ac7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403576"
 ---
 # <a name="swbemservicessubclassesof-method"></a>SWbemServices. SubclassesOf, méthode
 
@@ -126,7 +126,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, un objet [**SWbemObjectSet**](swbemobjectset.md) est retourné.
 

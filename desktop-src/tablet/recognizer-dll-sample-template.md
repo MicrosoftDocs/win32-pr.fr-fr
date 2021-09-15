@@ -4,12 +4,12 @@ ms.assetid: e3bd219d-c593-4267-b77d-81fee7430a97
 title: Exemple de modèle de DLL de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b265e26c23020ce851f6d4a8d0dbc8e02011f69ae82d76c238224e362ef2af15
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e1e50a3e9c8051dbe86761fc76c1625f622ac659
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119708159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411453"
 ---
 # <a name="recognizer-dll-sample-template"></a>Exemple de modèle de DLL de reconnaissance
 

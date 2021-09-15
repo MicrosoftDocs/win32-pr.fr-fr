@@ -4,12 +4,12 @@ ms.assetid: 6621529c-717b-4f36-8d9e-769d6b720b8a
 title: Inscription de votre gestionnaire de feuille de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f1642c03a068a24b37cd5647bcdef63222ed2dbe5d78832daeea31e8abd67d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6a59a03ebd13f5a541674012da7b07045e0a510
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083533"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522048"
 ---
 # <a name="registering-your-property-sheet-handler"></a>Inscription de votre gestionnaire de feuille de propriétés
 
@@ -40,7 +40,7 @@ L’exemple ci-dessus inscrit un gestionnaire personnalisé avec l’espace de n
 | **WPDContextMenu. audio**       | \_type de contenu wpd \_ \_ audio                                                                                                      |
 | **WPDContextMenu. vidéo**       | vidéo sur le \_ type de contenu wpd \_ \_                                                                                                      |
 | **WPDContextMenu. playlist**    | \_playlist de \_ type de contenu wpd \_                                                                                                   |
-| **WPDContextMenu.Document**    | \_document de \_ type de contenu wpd \_                                                                                                   |
+| **WPDContextMenu. document**    | \_document de \_ type de contenu wpd \_                                                                                                   |
 | **WPDContextMenu. contact**     | \_contact de \_ type de contenu wpd \_                                                                                                    |
 | **WPDContextMenu.Email**       | \_e-mail de \_ type de contenu wpd \_                                                                                                      |
 | **WPDContextMenu. rendez-vous** | \_ \_ rendez-vous de type de contenu wpd \_                                                                                                |

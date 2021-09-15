@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 5b4f28b0c466cb512c76d57d99fb26a44c18f806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522645"
 ---
 # <a name="durablecommitcallbackgrbit-enumeration"></a>Énumération DurableCommitCallbackGrbit
 
@@ -70,7 +70,7 @@ public enum DurableCommitCallbackGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 </tbody>

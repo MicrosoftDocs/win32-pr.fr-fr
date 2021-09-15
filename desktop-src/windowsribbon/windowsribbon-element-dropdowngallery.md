@@ -14,17 +14,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 5ca7371f172237df53870b5165698bd24302643a
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624595"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523101"
 ---
 # <a name="dropdowngallery-element"></a>Élément DropDownGallery
 
 Représente un contrôle de [Galerie](windowsribbon-controls-dropdowngallery.md) déroulante avec un menu basé sur la Galerie.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <DropDownGallery
@@ -62,14 +62,14 @@ Représente un contrôle de [Galerie](windowsribbon-controls-dropdowngallery.md)
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Valide uniquement si <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> est l’élément parent.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui contient une liste d’entiers séparés par des virgules, comprise entre 0 et 31.<br/> L’espace blanc est valide et ignoré.<br/> Longueur maximale : 250 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -88,26 +88,26 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 <tr class="even">
 <td><strong>ItemHeight</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> La valeur par défaut est -1. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ItemWidth</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> La valeur par défaut est -1. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>TextPosition</strong><br/></td>
 <td>TextPositionType<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Ballon<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Cuir<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Gauche<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Éviter<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Approprié<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Coin<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Type</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Contenus<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Commandes<br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -123,7 +123,7 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 | Élément                                                                                           | Description                                        |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                                         | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownGallery.MenuGroups**](windowsribbon-element-dropdowngallery-menugroups.md)<br/> | Doit se produire exactement une fois<br/> <br/>     |
 | [**DropDownGallery.MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md)<br/> | Peut se produire au plus une fois<br/> <br/>      |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                               | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -176,7 +176,7 @@ Windows 8 et versions ultérieures.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Optionnel.
 

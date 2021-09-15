@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 65721977b535a799d3dfa679b026b2d1d06b3eb9d449e487ceaeeeacb135d625
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf305b4028e223c36df0c8a59c5246228c5b8d40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119034507"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522520"
 ---
 # <a name="playbackoperationcompleted-property"></a>PlaybackOperation. Completed, propriété
 

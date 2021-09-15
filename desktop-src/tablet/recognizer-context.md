@@ -4,12 +4,12 @@ ms.assetid: 31fceafc-554c-4c93-8741-eb2d1b0d8b18
 title: Contexte du module de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7e8b7ffc3b88968a4a349980de4d160a83374194dcae23d74e8a2c112651f44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a5a165eddab272c87ab73412fe9cc51d3a6c6ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119031627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411456"
 ---
 # <a name="recognizer-context"></a>Contexte du module de reconnaissance
 

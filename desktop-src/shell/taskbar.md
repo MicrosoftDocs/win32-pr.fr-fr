@@ -4,12 +4,12 @@ ms.assetid: 14d520e7-7c15-441d-9662-24b972d208ac
 title: Barre des tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8a4943c242b0b3f0993a4cf542c8625e19cf25c32b71cb01e4ef8581d12d64c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cce37991c6265f02ab92ece62dbae341031d272a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522324"
 ---
 # <a name="the-taskbar"></a>Barre des tâches
 

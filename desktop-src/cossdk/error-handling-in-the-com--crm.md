@@ -4,12 +4,12 @@ ms.assetid: 9de31fb5-31e9-494a-b61f-87bcff0d5085
 title: Gestion des erreurs dans le CRM COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a470aa1d386c28d5f1fe67d308b8bb46d23636dc3411906e07184e6ddce923
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4aba2b5c4541485433a85fe01fee7870c2e43f62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128721"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403671"
 ---
 # <a name="error-handling-in-the-com-crm"></a>Gestion des erreurs dans le CRM COM+
 

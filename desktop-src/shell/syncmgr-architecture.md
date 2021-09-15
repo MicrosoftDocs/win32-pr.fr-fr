@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 584329a06ee9df80558d9961b734b62a57d5ebccd83f200690812fa99132b06d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f178b407c1f7d568c9de2ce7c81d937e7d1cdef4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118451865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522333"
 ---
 # <a name="synchronization-manager-architecture"></a>Architecture du gestionnaire de synchronisation
 

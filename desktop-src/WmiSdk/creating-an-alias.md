@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création d’un alias WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a4709cba6ba1fa1790c80ac8d8f52f5fa2105207f0094ec3168f62ba0fcc43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fdd538e113f227eac4980855ea0035e839b92fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117925620"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403880"
 ---
 # <a name="creating-a-wmi-alias"></a>Création d’un alias WMI
 

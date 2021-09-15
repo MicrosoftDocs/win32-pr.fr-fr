@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 550805894ed3744400afe0e118834b437908f173447139b2c3ebad15391288a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e61c7f50c377468dd7cb58a2be8a63fd3df6a201
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404408"
 ---
 # <a name="wmalbumartist-attribute"></a>Attribut WM/AlbumArtist
 
@@ -30,7 +30,7 @@ L’attribut **WM/AlbumArtist** est le nom de l’artiste principal de l’album
 -   [Pistes de CD](cd-track-attributes.md)
 -   [attributs de fichier multimédia Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia numérique.
 
@@ -40,7 +40,7 @@ la constante du kit de développement logiciel (SDK) du Format multimédia Windo
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

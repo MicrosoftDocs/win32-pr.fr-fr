@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 52d1f92966c1c25cd1b2e696c404199d804de6b45803f9c15562499413dda67f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7870f6e29cf8f6810c6aa41049868fbceb370dc5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119473209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521580"
 ---
 # <a name="jet_setcolumnitagsequence-property"></a>JET_SETCOLUMN. itagSequence, propriété
 
@@ -66,7 +66,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SETCOLUMN](./jet-setcolumn-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: 146f8943-d4e1-4b87-a812-e534082a4f14
 title: Récupération d’un ID d’objet à partir d’un ID unique persistant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6d4f08d496c7c03101602c945e6c27e7a2624fe84957eda932ead806f964d3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c4f997f0faf586a374e5a83c6f96b6508f02eb41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120054769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522028"
 ---
 # <a name="retrieving-an-object-id-from-a-persistent-unique-id"></a>Récupération d’un ID d’objet à partir d’un ID unique persistant
 

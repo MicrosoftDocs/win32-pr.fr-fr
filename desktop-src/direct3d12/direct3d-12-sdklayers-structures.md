@@ -5,12 +5,12 @@ ms.assetid: FE8796A7-98D1-4333-8755-2A47567560B3
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a14bc7ab299c9f01979be1bb7f0ca446e64ba8b482215920b075be96da91807c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 573d49d34c4432796ebac68ce004f265259b9eb2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118529749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521705"
 ---
 # <a name="debug-layer-structures"></a>Structures de couche de débogage
 

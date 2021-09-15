@@ -4,12 +4,12 @@ description: Les développeurs de serveurs peuvent utiliser cette technique pour
 ms.assetid: aaa0e840-f8c2-4f3d-9d97-1910f00c1041
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c55e503bdda05692b13548d2d63eaeb3246562b4f4e8fc1e8645d25941a7f6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 29d971462154eb12789a74e8cc6edb5aed68c84b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522749"
 ---
 # <a name="use-queryservice-to-retrieve-a-native-interface-for-an-iaccessible-object"></a>Utiliser QueryService pour récupérer une interface native pour un objet IAccessible
 

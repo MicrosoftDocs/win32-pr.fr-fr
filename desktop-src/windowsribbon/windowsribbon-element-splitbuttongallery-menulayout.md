@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f40cf184d6122fc40041cfb77953bba2b7950d9d1a957d99aae659633ee5c194
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04428c14b5e47795da47e5c03970610cd08a6e8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118706897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404505"
 ---
 # <a name="splitbuttongallerymenulayout-property"></a>SplitButtonGallery. MenuLayout, propriété
 
@@ -56,9 +56,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Facultatif.
+Optionnel.
 
 Peut se produire au plus une fois pour chaque élément [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 
@@ -98,7 +98,7 @@ Cette section de code illustre la déclaration de contrôle **SplitButtonGallery
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

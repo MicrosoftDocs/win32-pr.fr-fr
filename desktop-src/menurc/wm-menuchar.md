@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d276418636857fb7ce76159111b8e8b24519235823225fccb68fa1523b4137d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a278e4a1b4333631741a6a542318a8a55e40b512
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117869608"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522465"
 ---
 # <a name="wm_menuchar-message"></a>\_Message WM MENUCHAR
 
@@ -63,7 +63,7 @@ Handle vers le menu actif.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application qui traite ce message doit retourner l’une des valeurs suivantes dans le mot de poids fort de la valeur de retour.
 
@@ -80,13 +80,13 @@ Une application qui traite ce message doit retourner l’une des valeurs suivant
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mot de poids faible est ignoré si le mot de poids fort contient 0 ou 1.
 
 Une application doit traiter ce message lorsqu’un accélérateur est utilisé pour sélectionner un élément de menu qui affiche une image bitmap.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -111,7 +111,7 @@ Une application doit traiter ce message lorsqu’un accélérateur est utilisé 
 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Raccourcis clavier](keyboard-accelerators.md)

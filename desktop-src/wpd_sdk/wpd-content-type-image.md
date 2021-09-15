@@ -4,12 +4,12 @@ ms.assetid: 87342ac7-3f4d-4ed2-99f1-843a79032c6e
 title: WPD_CONTENT_TYPE_IMAGE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 846347ac83345ed685a10739126028ca1728bb16a52fe7083fcc7dd823447c2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d547a6190df01f495c0a340010b4305f5c77bf5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118193493"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522849"
 ---
 # <a name="wpd_content_type_image"></a>\_image de \_ type de contenu wpd \_
 
@@ -33,35 +33,35 @@ Ce type d’objet prend en charge les propriétés suivantes.
 | [\_nom du \_ fichier d’origine de l’objet wpd \_ \_](object-properties.md)                              | Obligatoire si l’objet représente un fichier.                                                        |
 | [\_objet wpd \_ non \_ utilisable](object-properties.md)                                       | Recommandé si l’objet n’est pas destiné à être consommé par l’appareil.                            |
 | [\_références d’objets wpd \_](object-properties.md)                                                | Obligatoire si l’objet a des références à d’autres objets.                                          |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Facultatif.                                                                                        |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Facultatif.                                                                                        |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Optionnel.                                                                                        |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Optionnel.                                                                                        |
 | [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                  | Obligatoire si l’objet est protégé par la technologie DRM.                                           |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Facultatif.                                                                                        |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Optionnel.                                                                                        |
 | [Date de modification de l' \_ objet wpd \_ \_](object-properties.md)                                         | Recommandé.                                                                                     |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Facultatif.                                                                                        |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Optionnel.                                                                                        |
 | [\_ \_ références arrière des objets wpd \_](object-properties.md)                                                                | Recommandé si l’objet est référencé par un autre objet.                                       |
-| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Facultatif.                                                                                        |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Facultatif.                                                                                        |
+| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Optionnel.                                                                                        |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Optionnel.                                                                                        |
 | [\_image wpd \_ BITDEPTH](image-properties.md)                                                       | Recommandé.                                                                                     |
-| [\_ \_ État rogné de l’image wpd \_](image-properties.md)                                          | Facultatif.                                                                                        |
-| [État de couleur de l' \_ image wpd \_ \_ corrigé \_](image-properties.md)                         | Facultatif.                                                                                        |
-| [\_image wpd \_ FNUMBER](image-properties.md)                                                                           | Facultatif.                                                                                        |
-| [temps d’exposition de l' \_ image wpd \_ \_](image-properties.md)                                                                    | Facultatif.                                                                                        |
-| [\_index d' \_ exposition d’image wpd \_](image-properties.md)                                                                   | Facultatif.                                                                                        |
-| [\_ \_ résolution horizontale de l’image wpd \_](image-properties.md)                                                            | Facultatif.                                                                                        |
-| [\_ \_ résolution verticale de l’image wpd \_](image-properties.md)                                                              | Facultatif.                                                                                        |
-| [\_Copyright du support wpd \_](media-properties.md)                                                     | Facultatif.                                                                                        |
+| [\_ \_ État rogné de l’image wpd \_](image-properties.md)                                          | facultatif.                                                                                        |
+| [État de couleur de l' \_ image wpd \_ \_ corrigé \_](image-properties.md)                         | Optionnel.                                                                                        |
+| [\_image wpd \_ FNUMBER](image-properties.md)                                                                           | Optionnel.                                                                                        |
+| [temps d’exposition de l' \_ image wpd \_ \_](image-properties.md)                                                                    | Optionnel.                                                                                        |
+| [\_index d' \_ exposition d’image wpd \_](image-properties.md)                                                                   | Optionnel.                                                                                        |
+| [\_ \_ résolution horizontale de l’image wpd \_](image-properties.md)                                                            | Optionnel.                                                                                        |
+| [\_ \_ résolution verticale de l’image wpd \_](image-properties.md)                                                              | Optionnel.                                                                                        |
+| [\_Copyright du support wpd \_](media-properties.md)                                                     | Optionnel.                                                                                        |
 | [\_largeur du média wpd \_](media-properties.md)                                                             | Obligatoire.                                                                                        |
 | [\_hauteur du média wpd \_](media-properties.md)                                                           | Obligatoire.                                                                                        |
 | [\_artiste multimédia \_ wpd](media-properties.md)                                                                            | Recommandé.                                                                                     |
 | [artiste de l' \_ album multimédia wpd \_ \_](media-properties.md)                                                                     | Recommandé. Cette propriété identifie la personne ou les personnes qui ont créé cet objet à l’origine. |
-| [URL de la \_ source du média wpd \_ \_](media-properties.md)                                                                       | Facultatif.                                                                                        |
-| [\_URL de \_ destination du support wpd \_](media-properties.md)                                                                  | Facultatif.                                                                                        |
-| [\_Description du support wpd \_](media-properties.md)                                                                       | Facultatif.                                                                                        |
-| [\_genre de média wpd \_](media-properties.md)                                                                             | Facultatif.                                                                                        |
-| [\_signet d' \_ octet \_ multimédia wpd](media-properties.md)                                                                    | Facultatif.                                                                                        |
-| [\_GUID du média wpd \_](media-properties.md)                                                                              | Facultatif.                                                                                        |
-| [\_sous- \_ \_ Description du média wpd](media-properties.md)                                                                  | Facultatif.                                                                                        |
+| [URL de la \_ source du média wpd \_ \_](media-properties.md)                                                                       | facultatif.                                                                                        |
+| [\_URL de \_ destination du support wpd \_](media-properties.md)                                                                  | Optionnel.                                                                                        |
+| [\_Description du support wpd \_](media-properties.md)                                                                       | Optionnel.                                                                                        |
+| [\_genre de média wpd \_](media-properties.md)                                                                             | Optionnel.                                                                                        |
+| [\_signet d' \_ octet \_ multimédia wpd](media-properties.md)                                                                    | facultatif.                                                                                        |
+| [\_GUID du média wpd \_](media-properties.md)                                                                              | facultatif.                                                                                        |
+| [\_sous- \_ \_ Description du média wpd](media-properties.md)                                                                  | facultatif.                                                                                        |
 
 
 
@@ -77,7 +77,7 @@ Ces objets incluent généralement les ressources suivantes.
 |---------------------------------------------------------------|----------------------|------------------------------------------------------------------------------------------|
 | [**\_ressource wpd \_ par défaut**](wpd-resource-default.md)        | Obligatoire.            | Contient les données d’image.                                                                 |
 | [**\_miniature des ressources wpd \_**](wpd-resource-thumbnail.md)    | Recommandé.         | Contient la miniature de l’image.                                                    |
-| [**\_ \_ clip audio de la ressource wpd \_**](wpd-resource-audio-clip.md) | Facultatif.            | Si cette image est associée à une annotation audio, cette ressource contient les données audio. |
+| [**\_ \_ clip audio de la ressource wpd \_**](wpd-resource-audio-clip.md) | facultatif.            | Si cette image est associée à une annotation audio, cette ressource contient les données audio. |
 
 
 

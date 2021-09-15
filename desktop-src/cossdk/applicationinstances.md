@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 957fe3fa556a3e41e2484116ff2c9242fd63efa1469a4a6040f31aa04a3627e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56680a81cc564466dc3586bf0381cf4db97f914b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129381"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403564"
 ---
 # <a name="applicationinstances-collection"></a>Collection ApplicationInstances
 
@@ -60,7 +60,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------|
 | Description    | ID de l’application en cours d’exécution. |
-| Accès         | Lecture seule                            |
+| Access         | Lecture seule                            |
 | Type           | String                              |
 | Valeur par défaut        | N/A                                 |
 | Système minimal | Windows XP                          |
@@ -76,7 +76,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------|
 | Description    | Indique si l’instance d’application a été recyclée. |
-| Accès         | Lecture seule                                                      |
+| Access         | Lecture seule                                                      |
 | Type           | Bool                                                          |
 | Default        | False                                                         |
 | Système minimal | Windows XP                                                    |
@@ -92,7 +92,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Identificateur global unique de l’instance de l’application. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                                                                                            |
+| Access         | Lecture seule                                                                                                                                                                                                                            |
 | Type           | String                                                                                                                                                                                                                              |
 | Valeur par défaut        | N/A                                                                                                                                                                                                                                 |
 | Système minimal | Windows XP                                                                                                                                                                                                                          |
@@ -108,7 +108,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------|
 | Description    | Indique si l’instance d’application est actuellement suspendue. |
-| Accès         | Lecture seule                                                        |
+| Access         | Lecture seule                                                        |
 | Type           | Bool                                                            |
 | Default        | False                                                           |
 | Système minimal | Windows XP                                                      |
@@ -124,7 +124,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------|
 | Description    | ID de partition que l’application utilise. |
-| Accès         | Lecture seule                                        |
+| Access         | Lecture seule                                        |
 | Type           | String                                          |
 | Valeur par défaut        | N/A                                             |
 | Système minimal | Windows XP                                      |
@@ -140,7 +140,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------|
 | Description    | ID de processus de l’instance de l’application. |
-| Accès         | Lecture seule                                    |
+| Access         | Lecture seule                                    |
 | Type           | String                                      |
 | Valeur par défaut        | N/A                                         |
 | Système minimal | Windows XP                                  |

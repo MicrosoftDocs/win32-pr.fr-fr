@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a3d6d4ba8c06711cefa69ecec651a15bb3d9447efea72be9e0bf46563f1b0972
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 429239ab7734a594fd2c5a3510650d8f410e94f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403941"
 ---
 # <a name="apijetindexrecordcount-method"></a>API. JetIndexRecordCount, méthode
 
@@ -95,7 +95,7 @@ public static void JetIndexRecordCount(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c11d940c9ea76095983542aab380b9abd82c7b037bf0180f532e6f540438a305
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ebbf2f548725309717993bf29e48de2bf78ed17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523061"
 ---
 # <a name="drm_drmheader_keyid"></a>\_DRMHEADER DRM \_ KeyId
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ DRMHeader \_ KeyId
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est présent uniquement avec le contenu DRM version 7. Il peut être récupéré avec [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). Pour définir l’ID de clé sur le fichier à l’aide de [**IWMDRMWriter :: SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) , vous devez utiliser la propriété [**DRM \_ KeyId**](drm-keyid.md) .
 

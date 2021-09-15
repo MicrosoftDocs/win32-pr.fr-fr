@@ -3,12 +3,12 @@ title: Niveau de fonctionnalité Direct3D 12 Core 1.0
 description: Le niveau de fonctionnalité principal 1,0 est un sous-ensemble de l’ensemble de fonctionnalités Direct3D 12 complet.
 ms.topic: article
 ms.date: 11/05/2019
-ms.openlocfilehash: 93eab39509074114bf2032cfb1cdea3e4e767dae9786241a34f970ca5cd51703
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42d13b71c516e55ecce378cf9cb415c45e520ba9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118530719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521753"
 ---
 # <a name="the-direct3d-12-core-10-feature-level"></a>Niveau de fonctionnalité Direct3D 12 Core 1.0
 

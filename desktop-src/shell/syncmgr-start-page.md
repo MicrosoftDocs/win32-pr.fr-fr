@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbOrient
 ms.openlocfilehash: 2fc56b2afec4fdedf98fe213437a27f2592ce72b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522328"
 ---
 # <a name="synchronization-manager"></a>gestionnaire de synchronisation
 
@@ -32,7 +32,7 @@ Ce document est destiné aux développeurs de logiciels qui développent des app
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Requiert Windows Server 2003, Windows XP, Windows 2000 ou Windows Millennium Edition (Windows Me). Également disponible en tant que redistribuable pour Microsoft Windows NT 4,0, Windows 98 et Windows 95.
+requiert Windows Server 2003, Windows XP, Windows 2000 ou Windows millennium edition (Windows Me). également disponible en tant que redistribuable pour Microsoft Windows NT 4,0, Windows 98 et Windows 95.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

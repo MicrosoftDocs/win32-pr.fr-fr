@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 841ba87b71f79d1f9dfbf85053d914315f89f592ec16a50bd9f6baf061b989a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89a322890f035a1865c01be7c4bfb0bbab812fa7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118035500"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522196"
 ---
 # <a name="deviceinfotype-property"></a>DeviceInfo. type, propriété
 
@@ -27,7 +27,7 @@ récupère le type d’appareil matériel d’Acquisition d’images Windows (WI
 -   DigitalCamera
 -   Scanneur
 -   StreamingVideo
--   Par défaut
+-   Default
 
 Cette propriété est en lecture seule.
 
@@ -44,7 +44,7 @@ propVal = DeviceInfo.Type
 
 Chaîne qui reçoit l’appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1d3eb1e82665e7d9371cb7da79af7508d712ec6480277dadc536e32a749790c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 062c363b4faea9fd07888a55e2dd3896b138c599
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117675721"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522308"
 ---
 # <a name="thumbnail-handler-guidelines"></a>Instructions du gestionnaire de miniatures
 

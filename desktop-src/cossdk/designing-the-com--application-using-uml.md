@@ -4,12 +4,12 @@ ms.assetid: 6a7cc610-e09a-4097-bc31-4e53db0ee152
 title: Conception de l’application COM+ à l’aide d’UML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b5ab7cc96d753e023f8b89825ce7540c5abc6d79b7b78f231eea8cce4e2730
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48526623df5bc929daa4d8ce9cbe4d7592d6b30c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117916733"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403678"
 ---
 # <a name="designing-the-com-application-using-uml"></a>Conception de l’application COM+ à l’aide d’UML
 

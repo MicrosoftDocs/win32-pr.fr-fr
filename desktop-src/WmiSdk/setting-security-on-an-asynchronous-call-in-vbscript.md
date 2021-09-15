@@ -11,11 +11,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 972947e0cb4f5d385e4d2d27b7c14298771ac4e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403586"
 ---
 # <a name="setting-security-on-an-asynchronous-call-in-vbscript"></a>Définition de la sécurité sur un appel asynchrone dans VBScript
 
@@ -32,7 +32,7 @@ L’exemple de code VBScript suivant montre comment modifier la valeur de Regist
 
 Le script modifie la valeur de **UnsecAppAccessControlDefault** de zéro à un, ou si la valeur est déjà définie, de 1 à zéro. Zéro est la valeur par défaut sur un système nouvellement installé. Une fois l’indicateur défini, le paramètre persiste lors du redémarrage ou du redémarrage de WMI.
 
-Le script utilise un objet [**SWbemMethod. ins**](swbemmethod-inparameters.md) et [**SWbemObject.ExeCMethod**](swbemobject-execmethod-.md) pour appeler [**StdRegProv. GetStringValue**](/previous-versions/windows/desktop/regprov/getstringvalue-method-in-class-stdregprov) et [**StdRegProv. SetStringValue**](/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov). Pour plus d’informations sur la définition des valeurs dans un objet **Parameters** , consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md). Pour obtenir un exemple d’appel de Registre à l’aide de [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx), consultez [**StdRegProv. SetStringValue**](/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov).
+Le script utilise un objet [**SWbemMethod. inparamètres**](swbemmethod-inparameters.md) et [**SWbemObject. ExecMethod**](swbemobject-execmethod-.md) pour appeler [**StdRegProv. GetStringValue**](/previous-versions/windows/desktop/regprov/getstringvalue-method-in-class-stdregprov) et [**StdRegProv. SetStringValue**](/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov). Pour plus d’informations sur la définition des valeurs dans un objet **Parameters** , consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md). Pour obtenir un exemple d’appel de Registre à l’aide de [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx), consultez [**StdRegProv. SetStringValue**](/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov).
 
 
 ```VB

@@ -9,12 +9,12 @@ keywords:
 - texte dans les enveloppes, polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3693c87a6865616f3f100879a59966c228675a7d9fdabe753cac7e8c3953b72d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 968a6b8105141f8efae7b35f6aa57c73f5614e45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522756"
 ---
 # <a name="text-font"></a>Police du texte
 
@@ -58,7 +58,7 @@ Les seules valeurs autorisées sont indiquées dans le tableau suivant.
 
 <dl> <dt>
 
-[**Financière**](text.md)
+[**Texte**](text.md)
 </dt> </dl>
 
  

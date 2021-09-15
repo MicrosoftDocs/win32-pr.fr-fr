@@ -4,12 +4,12 @@ ms.assetid: c58c9e5a-c871-4b44-a1be-0aceafa2f805
 title: Dégradés du modèle d’objet XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 267d053ef0e9b98408119870cb723ceb1170d4905aab81b0dc3db7969c356c32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5aac5fcce4ebd662d834705d1e8d84140f09000
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522444"
 ---
 # <a name="xps-om-gradients"></a>Dégradés du modèle d’objet XPS
 

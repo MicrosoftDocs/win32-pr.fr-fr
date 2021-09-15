@@ -4,12 +4,12 @@ ms.assetid: b2495c5b-6db4-401c-ab7a-6556c55bbe46
 title: Propriété confidence [à propos de la reconnaissance]
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3316e9637fe6dcf820f8412724363a25dab65ce9a291b8c3c70c5bcf9c83bc9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04f436d17d5cb83901c7d19ef4beb6dfb7ce6199
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119093025"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404262"
 ---
 # <a name="confidence-property-about-recognition"></a>Propriété \[ de confiance sur la reconnaissance\]
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f88f572c57b2dba768655248335f1c32e03abbb69bfed94d2b7ed1bc1a983d71
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 84608ce794c3172f3cbbf3103c5ccedd89a77e3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403837"
 ---
 # <a name="themetitle"></a>THEMe. title
 
@@ -31,7 +31,7 @@ theme.title
 
 Cet attribut est une **chaîne** en lecture/écriture sans valeur par défaut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

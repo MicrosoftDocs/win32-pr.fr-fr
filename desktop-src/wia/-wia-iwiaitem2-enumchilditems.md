@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 921a6b6e85f906ef62683038b2bb28dd484d58fd20600b2ff85ae594fafb3cd7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2de76d9bf43d10e08e5a85cd2a32d6b377680d18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118440417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522189"
 ---
 # <a name="iwiaitem2enumchilditems-method"></a>IWiaItem2 :: EnumChildItems, méthode
 
@@ -58,13 +58,13 @@ Reçoit l’adresse d’un pointeur vers l’interface [**IEnumWiaItem2**](-wia-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système d’exécution WIA 2,0 représente chaque périphérique matériel WIA 2,0 sous la forme d’une arborescence hiérarchique d’objets [**IWiaItem2**](-wia-iwiaitem2.md) . La méthode **IWiaItem2 :: EnumChildItems** permet aux applications d’énumérer les éléments enfants dans l’élément actuel. Toutefois, il ne peut être appliqué qu’aux éléments qui sont des dossiers.
 
@@ -72,7 +72,7 @@ Si le dossier n’est pas vide, il contient une sous-arborescence d’objets [**
 
 Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur les pointeurs d’interface qu’elles reçoivent via le paramètre *ppIEnumWiaItem2* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

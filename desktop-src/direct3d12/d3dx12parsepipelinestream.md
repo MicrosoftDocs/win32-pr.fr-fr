@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbdd472d118a5ec9d49c5f105ee6b8e8ef2e3ea540f6f1954bad17273e9e030f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6778c29793f01ff7f1e5fd6424fb6795a29e64c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119608559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521729"
 ---
 # <a name="d3dx12parsepipelinestream-function"></a>D3DX12ParsePipelineStream fonction)
 
@@ -60,13 +60,13 @@ Structure qui spécifie les rappels à appeler pour chaque type de sous-objet et
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Cette méthode retourne une erreur HRESULT réussie (**S \_ OK** ou **E \_ INVALIDARG** si un type de sous-objet inconnu est rencontré, si la description du flux est vide, null ou contient des sous-objets en double (y compris des sous-objets dérivés) ou si *pCallbacks* a la valeur null. Dans chaque cas où E \_ INVALIDARG est retourné, un rappel correspondant est d’abord appelé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

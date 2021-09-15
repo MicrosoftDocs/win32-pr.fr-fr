@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72e85f9ca04ec62b3d8b867c74de4188deb1992903550e4af150ba0b87b42e47
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d407f0606b0125e748406b21570585a449897639
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403825"
 ---
 # <a name="titlesortorder-attribute"></a>Attribut TitleSortOrder
 
@@ -29,13 +29,13 @@ L’attribut **TitleSortOrder** est la valeur à utiliser pour trier la colonne 
 -   [Autres éléments](other-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -26,11 +26,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 20893eba6516b53045463ce664cdb77ae7e9b768
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521672"
 ---
 # <a name="columnvaluesize-property"></a>ColumnValue. Size, propriété
 
@@ -61,7 +61,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnValue, classe](./columnvalue-class.md)
 

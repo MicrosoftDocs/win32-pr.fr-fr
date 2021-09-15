@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d5f9edca154ff6402028ba873c1643e330ab316a54a63f14fa4f9b5bdb244483
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89633d71dd75f4ef5e804aefddc85cf00ad5c03b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134542"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403840"
 ---
 # <a name="themesavepreference"></a>THÈME. savePreference
 
@@ -50,7 +50,7 @@ La méthode **savePreference** enregistre une préférence dans le registre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 une préférence est une paire clé/valeur qui peut être stockée dans le registre pour conserver les informations sur l’état de Lecteur Windows Media entre les exécutions. cette fonctionnalité peut être utilisée, par exemple, pour enregistrer les paramètres de personnalisation afin qu’ils n’aient pas à entrer à nouveau chaque fois que Lecteur Windows Media est démarré.
 
@@ -71,7 +71,7 @@ Les préférences ne sont pas chiffrées et ne sont donc pas une méthode sécur
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

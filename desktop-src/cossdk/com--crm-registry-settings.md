@@ -4,12 +4,12 @@ ms.assetid: c4e68451-fb8a-45b5-9968-7d5a6418dfe8
 title: Paramètres du registre CRM COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de11dab5d84df3bd4df1f18d69946405c2bd32f1f9849b45b0a8d0cd62f5a6f5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac0ea4ec245ab55b73c79660973824fcf33c6c2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117917439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403550"
 ---
 # <a name="com-crm-registry-settings"></a>Paramètres du registre CRM COM+
 
@@ -25,7 +25,7 @@ Tous les paramètres du Registre CRM se trouvent sous **HKEY \_ local \_ machine
 | **IgnoreCompensatorErrors**<br/> | Valeur de Registre \_ DWORD. La définition de cette valeur sur une valeur autre que zéro permet à l’infrastructure CRM d’ignorer toutes les erreurs retournées par les compensateurs CRM. Si la récupération échoue en raison d’une erreur d’un compensateur CRM, la définition de cette valeur permet d’effectuer la récupération. Cette valeur est lue au démarrage d’une application de serveur CRM.<br/>                                                                                                                                                                                                                                           |
 | **CheckpointIntervalInSec**<br/> | Valeur de Registre \_ DWORD. Il s’agit de l’intervalle de point de contrôle en secondes. L’intervalle de point de contrôle par défaut est de 30 secondes. Les points de contrôle sont utilisés pour récupérer de l’espace à partir du fichier journal CRM. L’augmentation de l’intervalle de point de contrôle peut améliorer les performances, mais au détriment de l’augmentation du temps de récupération et d’un plus grand fichier journal CRM. Cette valeur est lue au démarrage d’une application de serveur CRM.<br/>                                                                                                                                                                                                  |
 | **InitialLogFileSizeInKB**<br/>  | Valeur de Registre \_ DWORD. Il s’agit de la taille initiale du fichier journal de CRM, en kilo-octets. La taille du fichier journal CRM par défaut est de 1024 Ko (1 Mo). Le fichier journal CRM se développe automatiquement pour répondre à la charge de transaction imposée, mais si des charges lourdes sont attendues, il peut être nécessaire d’augmenter cette valeur. Cette valeur est lue lors du démarrage d’une application serveur COM+ activée pour CRM, mais si le fichier journal CRM existe déjà pour une application CRM Server, cette valeur est ignorée pour cette application serveur.<br/>                                                                               |
-| **RecoveryTraceEnabled**<br/>    | Valeur de Registre \_ DWORD. La définition de cette valeur sur une valeur autre que zéro active une trace de récupération. Le suivi de récupération est un fichier texte qui porte le même nom que le fichier journal CRM et l’extension supplémentaire suivante : .recoverytrace.txt. <br/> Ce fichier se trouve dans le même répertoire que le fichier journal CRM. Le suivi de récupération fournit une trace de l’activité CRM pendant la récupération, qui peut être utilisée pour le diagnostic des problèmes. Cette valeur est lue au démarrage d’une application de serveur CRM. Toutefois, un fichier de trace de récupération unique est généré pour chaque application CRM Server.<br/> |
+| **RecoveryTraceEnabled**<br/>    | Valeur de Registre \_ DWORD. La définition de cette valeur sur une valeur autre que zéro active une trace de récupération. Le suivi de récupération est un fichier texte qui porte le même nom que le fichier journal CRM et l’extension supplémentaire suivante :. recoverytrace.txt. <br/> Ce fichier se trouve dans le même répertoire que le fichier journal CRM. Le suivi de récupération fournit une trace de l’activité CRM pendant la récupération, qui peut être utilisée pour le diagnostic des problèmes. Cette valeur est lue au démarrage d’une application de serveur CRM. Toutefois, un fichier de trace de récupération unique est généré pour chaque application CRM Server.<br/> |
 
 
 

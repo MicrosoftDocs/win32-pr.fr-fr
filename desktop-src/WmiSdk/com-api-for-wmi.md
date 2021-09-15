@@ -6,11 +6,11 @@ title: API COM pour WMI
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bfb585badeeeaae947906bbfc783baf355863e05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403887"
 ---
 # <a name="com-api-for-wmi"></a>API COM pour WMI
 
@@ -39,7 +39,7 @@ WMI est accessible via les interfaces COM spécifiques à WMI suivantes.
 | [**IWbemCausalityAnalysis**](iwbemcausalityaccess.md)                       | Effectue le suivi des demandes enfants générées à partir d’une demande parente.                                                                                                                                                                                                                                            |
 | [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject)                                 | Contient et manipule les définitions de classe et les instances d’objet de classe. Les développeurs n’ont pas besoin d’implémenter cette interface ; WMI fournit son implémentation.                                                                                                                                                 |
 | [**IWbemConfigureRefresher**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemconfigurerefresher)                   | Utilisé par le code client pour ajouter ou supprimer des énumérateurs, des objets et des actualisateurs imbriqués dans un actualisateur.                                                                                                                                                                                                         |
-| [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext)                                         | Éventuellement utilisé pour communiquer des informations de contexte supplémentaires aux fournisseurs lors de la soumission d’appels [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) à la gestion Windows.                                                                                                                                             |
+| [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext)                                         | éventuellement utilisé pour communiquer des informations de contexte supplémentaires aux fournisseurs lors de la soumission d’appels [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) à la gestion des Windows.                                                                                                                                             |
 | [**IWbemDecoupledBasicEventProvider**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledbasiceventprovider) | Inscrit des fournisseurs découplés avec WMI.                                                                                                                                                                                                                                                                    |
 | [**IWbemDecoupledRegistrar**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar)                   | Associe des fournisseurs découplés à WMI. Cette interface permet à un fournisseur hébergé par un processus de définir la durée de vie de l’interopérabilité de l’interface et de coexister avec d’autres fournisseurs.                                                                                                                        |
 | [**IWbemEventConsumerProvider**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider)             | Fournit l’interface principale pour un fournisseur de consommateur d’événements. Grâce à cette interface et à la méthode [**FindConsumer**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer) , un fournisseur de consommateur d’événements peut indiquer les consommateurs d’événements qui doivent recevoir un événement donné.                                          |

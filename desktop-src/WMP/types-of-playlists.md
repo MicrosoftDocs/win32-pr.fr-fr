@@ -16,12 +16,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1bb49eda25bd0804571732a81073a448048cd43d0597b03acf1bfa1554c88be2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5fde41caeace1fe49018ab1f6f3e86384d377ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403795"
 ---
 # <a name="types-of-playlists"></a>Types de sélections
 

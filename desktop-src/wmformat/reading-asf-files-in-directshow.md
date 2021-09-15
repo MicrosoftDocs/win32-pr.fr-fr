@@ -1,11 +1,11 @@
 ---
-title: Lecture de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
-description: La lecture des fichiers ASF est gérée par le filtre de lecteur ASF WM. En savoir plus sur la lecture de fichiers ASF dans DirectShow dans le kit de développement logiciel (SDK) Windows Media format 11.
+title: lecture des fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media Format 11)
+description: La lecture des fichiers ASF est gérée par le filtre de lecteur ASF WM. en savoir plus sur la lecture de fichiers ASF dans DirectShow dans le kit de développement logiciel (SDK) Windows Media Format 11.
 ms.assetid: eec2c91f-1762-4798-91d0-d68ec2160d6a
 keywords:
 - Windows Media Format SDK, DirectShow
 - Windows Media Format SDK, lire des fichiers ASF
-- Kit de développement logiciel (SDK) Windows Media format, filtre de lecteur ASF WM
+- Windows Kit de développement logiciel (SDK) Media format, filtre de lecteur ASF WM
 - Windows Media Format SDK, interface IMediaSeeking
 - ASF (Advanced Systems Format), DirectShow
 - ASF (format avancé des systèmes), DirectShow
@@ -23,19 +23,19 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4aaab64798011eb21edbe43f49438db99d0bae6b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404658"
 ---
-# <a name="reading-asf-files-in-directshow-windows-media-format-11-sdk"></a>Lecture de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="reading-asf-files-in-directshow-windows-media-format-11-sdk"></a>lecture des fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media Format 11)
 
 La lecture des fichiers ASF est gérée par le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) . Lorsque le lecteur ASF WM lit un fichier, il crée automatiquement une broche de sortie pour chaque flux, y compris les flux Web, les flux de commandes de script et tout autre type de flux arbitraire. Dans le cas de plusieurs fichiers à vitesse de transmission, les codes confidentiels sont créés uniquement pour les flux actuellement sélectionnés.
 
-Le lecteur ASF WM prend en charge l’interface DirectShow **IMediaSeeking** , qui permet aux applications d’effectuer une recherche temporelle dans le fichier. Toutefois, la lecture à des vitesses autres que 1,0 (comme spécifié dans **IMediaSeeking ::** sesente) n’est pas prise en charge.
+le lecteur ASF WM prend en charge l’interface DirectShow **IMediaSeeking** , qui permet aux applications d’effectuer une recherche temporelle dans le fichier. Toutefois, la lecture à des vitesses autres que 1,0 (comme spécifié dans **IMediaSeeking ::** sesente) n’est pas prise en charge.
 
-Le filtre expose également plusieurs interfaces du kit de développement logiciel (SDK) du format Windows Media, comme décrit dans le tableau suivant.
+le filtre expose également plusieurs interfaces Windows Media Format SDK, comme décrit dans le tableau suivant.
 
 
 
@@ -50,9 +50,9 @@ Le filtre expose également plusieurs interfaces du kit de développement logici
 
  
 
-Le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) a été mis à disposition pour la première fois dans DirectShow 8,0. La version du filtre fourni avec DirectShow 8,1 et 9,0 prend en charge la version 7. *x* du kit de développement logiciel (SDK) du format Windows Media. La version la plus récente du filtre, avec les autres composants QASF, est fournie avec et prend en charge le kit de développement logiciel (SDK) Windows Media Format 9 Series, ainsi que les versions ultérieures, et remplace le filtre dans DirectX 9,0. Si vous installez le kit de développement logiciel (SDK) Windows Media format après l’installation de DirectX 8. *x* ou 9. *x* SDK, vous remplacerez la version DirectX de qasf.dll par la version 9 Series. Cela ne doit pas poser de problèmes, sauf dans un scénario où cela entraînerait un comportement différent dans la méthode DirectShow **IGraphBuilder :: RenderFile** . La version du kit de développement logiciel (SDK) de Windows Media Format 9 du lecteur ASF WM est le filtre source par défaut pour les extensions de nom de fichier. ASF,. wmv et. WMA. Cela signifie que le lecteur ASF WM est automatiquement créé et ajouté au graphique de filtre par le gestionnaire de graphique de filtre dans des méthodes telles que **IGraphBuilder :: RenderFile** ou **IGraphBuilder :: AddSourceFilter** lorsqu’un fichier de ce type est spécifié. Dans DirectX 9,0 et versions antérieures, et Windows XP Service Pack 1 et versions antérieures, la méthode **RenderFile** utilise l’ancien filtre source Windows Media. Ce comportement a été maintenu pour garantir la compatibilité descendante avec les applications qui utilisaient le lecteur Windows Media 6,4. Pour plus d’informations sur le filtre de source Windows Media hérité, consultez la documentation du kit de développement logiciel (SDK) DirectShow.
+le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) a été mis à disposition pour la première fois dans DirectShow 8,0. la version du filtre fourni avec DirectShow 8,1 et 9,0 prend en charge la version 7. *x* du kit de développement logiciel (SDK) Windows Media Format. la version la plus récente du filtre, avec les autres composants QASF, est fournie avec et prend en charge le kit de développement logiciel (SDK) de la série 9 Windows Media, ainsi que les versions ultérieures, et remplace le filtre dans DirectX 9,0. si vous installez le kit de développement logiciel (SDK) Windows Media Format après l’installation de DirectX 8. *x* ou 9. *x* SDK, vous remplacerez la version DirectX de qasf.dll par la version 9 Series. cela ne doit pas poser de problèmes, sauf dans un scénario où cela entraînerait un comportement différent dans la méthode DirectShow **IGraphBuilder :: RenderFile** . la version du kit de développement logiciel (SDK) de la série 9 Windows Media du lecteur asf WM est le filtre source par défaut pour les extensions de nom de fichier. ASF,. wmv et. wma. cela signifie que le lecteur ASF WM est automatiquement créé et ajouté au graphique de filtre par le gestionnaire de Graph dans les méthodes telles que **IGraphBuilder :: RenderFile** ou **IGraphBuilder :: AddSourceFilter** lorsqu’un fichier de ce type est spécifié. dans DirectX 9,0 et versions antérieures, et Windows XP Service Pack 1 et versions antérieures, la méthode **RenderFile** utilise l’ancien filtre de Source de média Windows. ce comportement a été maintenu pour garantir la compatibilité descendante avec les applications qui utilisaient le Lecteur Windows Media 6,4. pour plus d’informations sur le filtre de Source de média hérité Windows, consultez la Documentation du kit de développement logiciel (SDK) DirectShow.
 
-Pour lire un fichier ASF avec du contenu Windows Media à l’aide du lecteur ASF WM, les trois étapes principales sont la création d’une instance du gestionnaire de graphes de filtre, l’appel de **IGraphBuilder :: RenderFile** pour créer le graphique, puis l’appel de **IMediaControl :: Run** pour lire le fichier. L’exemple de code suivant est un programme complet qui lit un fichier ASF à l’aide de DirectShow. Pour exécuter cet exemple, vous devez avoir installé le kit de développement logiciel (SDK) DirectX et votre environnement de build doit être configuré conformément aux instructions de la rubrique de la documentation du kit de développement logiciel (SDK) DirectShow « configuration de l’environnement de génération ». En outre, vous devez spécifier un fichier sur votre ordinateur dans l’appel à **RenderFile**.
+pour lire un fichier ASF avec Windows contenu basé sur un support à l’aide du lecteur ASF WM, les trois étapes principales sont la création d’une instance du filtre Graph Manager, l’appel de **IGraphBuilder :: RenderFile** pour créer le graphique, puis l’appel de **IMediaControl :: Run** pour lire le fichier. L’exemple de code suivant est un programme complet qui lit un fichier ASF à l’aide de DirectShow. pour exécuter cet exemple, vous devez avoir installé le kit de développement logiciel (sdk) DirectX et votre environnement de build doit être configuré conformément aux instructions fournies dans la rubrique de documentation du kit de développement logiciel (sdk) DirectShow « configuration de l’environnement de génération ». En outre, vous devez spécifier un fichier sur votre ordinateur dans l’appel à **RenderFile**.
 
 
 ```C++
@@ -112,7 +112,7 @@ void main(void)
 
 
 
-Notez que le code de l’application pour cet exemple simple ne référence jamais spécifiquement le lecteur ASF WM. Ce filtre est créé, connecté, exécuté et finalement libéré par le gestionnaire de graphique de filtre. Toutefois, dans de nombreux scénarios, vous souhaiterez peut-être configurer le lecteur ASF WM avant de commencer la lecture.
+Notez que le code de l’application pour cet exemple simple ne référence jamais spécifiquement le lecteur ASF WM. ce filtre est créé, connecté, exécuté et finalement libéré par le gestionnaire de Graph de filtre. Toutefois, dans de nombreux scénarios, vous souhaiterez peut-être configurer le lecteur ASF WM avant de commencer la lecture.
 
  
 

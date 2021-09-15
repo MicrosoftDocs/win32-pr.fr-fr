@@ -8,12 +8,12 @@ keywords:
 - ASF (format des systèmes avancés), interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858afb5a8d634cfefca9d5f5f5b271ccdeaaa0d8dfd63e3d67cda612dea3abc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a21cb5c82855b75d3acfb20c4368d8dffa65dc30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118433626"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523045"
 ---
 # <a name="windows-media-format-sdk-interfaces"></a>Interfaces du SDK du format Windows Media
 
@@ -236,7 +236,7 @@ Le tableau suivant montre l’héritage de chaque interface et les objets à par
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’identificateur d’interface de chacune des interfaces dans ce kit de développement logiciel (SDK) est le nom de l’interface précédée de « IID \_ ». Par exemple, l’identificateur de l’interface **IWMReaderAdvanced** est IID \_ IWMReaderAdvanced. Pour obtenir un pointeur vers l’interface **IWMReaderAdvanced** d’un objet lecteur, utilisez le code suivant, où *pReader* est un pointeur vers une interface **IWMReader** :
 

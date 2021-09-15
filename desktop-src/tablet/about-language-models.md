@@ -4,12 +4,12 @@ ms.assetid: d55ab045-7896-4d55-a634-238dea0606c8
 title: À propos des modèles de langage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 764ed86da3f0139658cfc11d6af21941220f8d5ac69c3e7d54655148d860a4df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de2a099912330dc36e1b27d853f93b6e33aee6a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522300"
 ---
 # <a name="about-language-models"></a>À propos des modèles de langage
 

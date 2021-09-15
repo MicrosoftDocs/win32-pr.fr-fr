@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 018c47a383a4fcd95d25bd13b00628678c6fa4a71e608f82544429020ea3f2c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a1fb8ce9a443c7cc93019804094dca84a635c40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118194875"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404451"
 ---
 # <a name="delete_object_options-enumeration"></a>SUPPRIMER \_ l' \_ énumération des options d’objet
 
@@ -54,11 +54,11 @@ Supprimez l’objet et tous ses enfants.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application peut récupérer les options de suppression que l’appareil prend en charge en appelant [**IPortableDeviceCapabilities :: GetCommandOptions**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions) pour la commande de **Suppression d' \_ \_ \_ \_ \_ objets de commande wpd** . Il doit examiner la valeur de l’option **\_ \_ \_ \_ \_ \_ prise en charge de la gestion récursive des objets d’option wpd** retournée par cette méthode dans un objet [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

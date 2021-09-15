@@ -4,12 +4,12 @@ ms.assetid: d9ecb00b-1f97-4f53-909f-30231104d398
 title: Stratégie de métadonnées de photo System. GPS. AreaInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4eee2cf4234902049241c833d1077814f5daf88187323c43bc1cb00f6f44aa6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86e14837da9ffa8b688caf1a544e222043988cf3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205520"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523121"
 ---
 # <a name="systemgpsareainformation-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. AreaInformation
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 28}    |             |
 | 2     | /xmp/exif:GPSAreaInformation | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 28}    |             |
 | 2     | /xmp/exif:GPSAreaInformation | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         |
+| JSON | Chemin d’accès                         |
 |-------|------------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 28}    |
 | 2     | /xmp/exif:GPSAreaInformation |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             | Format de disque |
+| JSON | Chemin d’accès                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 28}             |             |
 | 2     | /ifd/xmp/exif:GPSAreaInformation | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             | Format de disque |
+| JSON | Chemin d’accès                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 28}             |             |
 | 2     | /ifd/xmp/exif:GPSAreaInformation | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             |
+| JSON | Chemin d’accès                             |
 |-------|----------------------------------|
 | 1     | /IFD/GPS/{UShort = 28}             |
 | 2     | /ifd/xmp/exif:GPSAreaInformation |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

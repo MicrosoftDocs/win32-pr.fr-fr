@@ -5,11 +5,11 @@ title: Valeurs limites et indicateurs XAudio2 (Xaudio2. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 11293b55a44b0aefdeacf95b9e36e90a626de2c1
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470705"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521968"
 ---
 # <a name="xaudio2-boundary-values-and-flags"></a>Valeurs limites et indicateurs XAudio2
 
@@ -87,13 +87,13 @@ Constantes XAudio2 qui spécifient des paramètres par défaut, des valeurs maxi
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
 Windows 10 (xaudio 2.9); Windows 8, Windows Phone 8 (XAudio 2,8); SDK DirectX (XAudio 2,7)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

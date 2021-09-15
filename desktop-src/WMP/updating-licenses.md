@@ -13,12 +13,12 @@ keywords:
 - licences, mise à jour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 182af125021af43b1a08695d00c194ec90c38a543d95123b093d30375e45e0c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 154959b01c93719184e310b60dffaa91fe2dcfa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403782"
 ---
 # <a name="updating-licenses"></a>Mise à jour des licences
 

@@ -4,12 +4,12 @@ ms.assetid: 3c462000-4f65-43d0-8937-059081a8c417
 title: Familles de polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4752ef9811065e5fbc0bd1aa97cf458410d8ead341f68af6ff9431952cdc3ce7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5dfda200967b5efbf773fadc17d5093a856d0317
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118761092"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521560"
 ---
 # <a name="font-families"></a>Familles de polices
 

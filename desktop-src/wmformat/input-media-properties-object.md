@@ -10,12 +10,12 @@ keywords:
 - objets de propriétés de média d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf5fac14de1c0fdc6619ab0dfe61feb9fcf577acb5c22dc2243a96d943921c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: beddda23ab7be86c3cb522edb8e811978c0c9ed9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404694"
 ---
 # <a name="input-media-properties-object"></a>Objet Propriétés du média d’entrée
 

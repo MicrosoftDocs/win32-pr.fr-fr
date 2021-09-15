@@ -70,12 +70,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: 75d0f336d2ccca997d9b5d24cd4ade1b5994c7b4dab8f7fa8c7027b2d8b60988
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d3b8751f69b96b5286828de670359628c94c5aac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404245"
 ---
 # <a name="wia-20-page-size-constants"></a>Constantes de taille de page WIA 2,0
 
@@ -146,7 +146,7 @@ voici les tailles de page valides pour les propriétés d’élément de Windows
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

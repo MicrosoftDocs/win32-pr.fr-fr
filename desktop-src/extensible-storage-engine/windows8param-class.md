@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f573d8f89432312ddb4301877d6f6b460cc7875715809ba0fd4d6dee7b0f07bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40ed9aa466fcdbe8d935cb4bb7da442f3c15aded
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118068974"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403851"
 ---
 # <a name="windows8param-class"></a>Windows8Param, classe
 
@@ -62,7 +62,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres Windows8Param](./windows8param-members.md)
 

@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e84827f4c1144c4242f382aff822984b24dd83610c1ebd5d2540ba7c4ca65d2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9984ed9971fdfb91279dabc5810490b62804b7e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118810330"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404080"
 ---
 # <a name="ibackgroundcopyfilegetremotename-method"></a>IBackgroundCopyFile :: GetRemoteName, méthode
 
@@ -50,15 +50,15 @@ Chaîne terminée par le caractère null qui contient le nom distant du fichier 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne **S_OK** en cas de réussite ou une des valeurs com **HRESULT** standard en cas d’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour modifier le nom du fichier distant, appelez la méthode [**IBackgroundCopyFile2 :: SetRemoteName**](ibackgroundcopyfile2-setremotename-method.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 028207ee152acac289da6608c682f5fc14a4fde69603a2aae05b841d0cfb46ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bdcd8db7d60c65bcb7ceedcac4498ac650f90d9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523068"
 ---
 # <a name="currentbitrate"></a>CurrentBitrate
 
@@ -31,7 +31,7 @@ L’attribut CurrentBitrate contient la vitesse de transmission totale actuelle 
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’un attribut codé.
 

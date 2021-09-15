@@ -4,12 +4,12 @@ description: Stockage Interface
 ms.assetid: bce0fd46-eeba-4a14-be1f-63d16885c28d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c378b37c020f15e0fe497249b2834faffefc232bc184564f80fdb247550033
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97ad0cc646d45ca0b77a70ecaf47d28eadb4d136
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129701"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404593"
 ---
 # <a name="storage-interfaces"></a>Stockage Interface
 

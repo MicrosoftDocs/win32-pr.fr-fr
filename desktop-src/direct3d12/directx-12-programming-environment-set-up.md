@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6ee39dc1f99f2c99f911a52b211075b7d210b698
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121813048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404321"
 ---
 # <a name="direct3d-12-programming-environment-setup"></a>Configuration de l’environnement de programmation Direct3D 12
 
@@ -48,7 +48,7 @@ Les en-têtes et les bibliothèques suivants sont disponibles. l’emplacement d
 
 
 
-## <a name="supported-languages"></a>Langages pris en charge
+## <a name="supported-languages"></a>Langues prises en charge
 
 C++ est le seul langage pris en charge pour le développement Direct3D 12, C# et d’autres langages .NET ne sont pas pris en charge.
 

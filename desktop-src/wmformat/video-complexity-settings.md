@@ -10,12 +10,12 @@ keywords:
 - paramètres de complexité de la vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f69b9d004f5c4fb783460be2bad8f3aa2d7204bbf3e6dbc96d806b53b42899b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6112f468aca8d0d10b27af1123d5f80c585d1448
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522984"
 ---
 # <a name="video-complexity-settings"></a>Paramètres de la complexité de la vidéo
 

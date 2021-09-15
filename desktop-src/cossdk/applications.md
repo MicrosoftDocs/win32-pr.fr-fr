@@ -13,11 +13,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 085983bf390998910f36a87ac41aaa15e783b55d
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884824"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403563"
 ---
 # <a name="applications-collection"></a>Collection d’applications
 
@@ -130,7 +130,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Indique si les contrôles d’accès sont effectués uniquement au niveau du processus ou au niveau du processus et du composant. Il est recommandé d’utiliser les constantes dans l’énumération et non les valeurs numériques. |
 | Access         | Lecture/écriture                                                                                                                                                                                                       |
 | Type           | Longues valeurs possibles : COMAdminAccessChecksApplicationLevel (0) COMAdminAccessChecksApplicationComponentLevel (1)                                                                                                |
-| Par défaut        | COMAdminAccessChecksApplicationComponentLevel (1)                                                                                                                                                               |
+| Valeur par défaut        | COMAdminAccessChecksApplicationComponentLevel (1)                                                                                                                                                               |
 | Système minimal | Windows 2000                                                                                                                                                                                                    |
 
 
@@ -146,7 +146,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | L’activation locale indique que les objets de l’application s’exécutent dans un processus serveur local dédié (application serveur). L’activation en cours indique que les objets s’exécutent dans le processus de leur créateur (application de bibliothèque). |
 | Access         | Lecture/écriture                                                                                                                                                                                                                           |
 | Type           | Longues valeurs possibles : COMAdminActivationInproc (0) COMAdminActivationLocal (1)                                                                                                                                                        |
-| Default        | COMAdminActivationLocal (1)                                                                                                                                                                                                         |
+| Valeur par défaut        | COMAdminActivationLocal (1)                                                                                                                                                                                                         |
 | Système minimal | Windows 2000                                                                                                                                                                                                                        |
 
 
@@ -162,7 +162,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Indique si les contrôles d’accès sont effectués pour l’application lorsque les clients y effectuent des appels. |
 | Access         | Lecture/écriture                                                                                          |
 | Type           | Bool                                                                                               |
-| Default        | Vrai                                                                                               |
+| Valeur par défaut        | True                                                                                               |
 | Système minimal | Windows 2000                                                                                       |
 
 
@@ -177,7 +177,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Chemin d’accès complet à l’application. Ces informations sont nécessaires lorsque vous configurez des assemblys côte à côte (SxS). les assemblys côte à côte (SxS) permettent aux applications ASP de spécifier la version d’une DLL système prise en charge par SxS à utiliser, telle que MSVCRT, MSXML, COMCTL, GDIPLUS, etc. Par exemple, si votre application ASP repose sur la version 2,0 de MSVCRT, vous pouvez vous assurer que votre application utilise toujours la version 2,0 de MSVCRT même après l’application des service packs au serveur. Toute nouvelle version de MSVCRT est toujours installée sur l’ordinateur, mais la version 2,0 reste et est utilisée par votre application. Les dll prises en charge par SxS sont stockées dans% WINDIR% \\ WinSxS. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Type           | Chaîne                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Type           | String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Valeur par défaut        | ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
@@ -216,7 +216,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de serveur distant utilisé lors de l’exportation du proxy d’application. Il s’agit du nom du serveur vers lequel pointe le proxy d’application lorsqu’il est installé sur un ordinateur client. |
 | Access         | Lecture/écriture                                                                                                                                                              |
-| Type           | Chaîne                                                                                                                                                                 |
+| Type           | String                                                                                                                                                                 |
 | Valeur par défaut        | ""                                                                                                                                                                     |
 | Système minimal | Windows 2000                                                                                                                                                           |
 
@@ -232,7 +232,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|---------------------------------------------------|
 | Description    | GUID représentant l’ID de la partition d’application. |
 | Access         | Lecture seule                                          |
-| Type           | Chaîne                                            |
+| Type           | String                                            |
 | Valeur par défaut        | &lt;Généré&gt;                                 |
 | Système minimal | Windows Server 2003                               |
 
@@ -249,7 +249,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Définit le niveau d’authentification pour les appels, avec les valeurs correspondant aux paramètres d’authentification de l’appel de procédure distante (RPC). Lorsque COMAdminAuthenticationDefault est choisi, le paramètre dans la propriété DefaultAuthenticationLevel de la collection [**LocalComputer**](localcomputer.md) est utilisé. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                                                             |
 | Type           | Valeurs possibles longues : COMAdminAuthenticationDefault (0) COMAdminAuthenticationNone (1) COMAdminAuthenticationConnect (2) COMAdminAuthenticationCall (3) COMAdminAuthenticationPacket (4) COMAdminAuthenticationIntegrity (5) COMAdminAuthenticationPrivacy (6)                                              |
-| Default        | COMAdminAuthenticationPacket (4)                                                                                                                                                                                                                                                                      |
+| Valeur par défaut        | COMAdminAuthenticationPacket (4)                                                                                                                                                                                                                                                                      |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                          |
 
 
@@ -270,7 +270,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Détermine l’identité qui est présentée lorsque les appels sont empruntés.                                                                                                                                                                      |
 | Access         | Lecture/écriture                                                                                                                                                                                                                               |
 | Type           | Valeurs possibles longues : COMAdminAuthenticationCapabilitiesNone (0x0) COMAdminAuthenticationCapabilitiesSecureReference (0X2) COMAdminAuthenticationCapabilitiesStaticCloaking (0x20) COMAdminAuthenticationCapabilitiesDynamicCloaking (0x40) |
-| Default        | COMAdminAuthenticationCapabilitiesDynamicCloaking (0x40)                                                                                                                                                                                |
+| Valeur par défaut        | COMAdminAuthenticationCapabilitiesDynamicCloaking (0x40)                                                                                                                                                                                |
 | Système minimal | Windows 2000                                                                                                                                                                                                                            |
 
 
@@ -286,7 +286,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Détermine si les modifications apportées aux paramètres d’application ou à ceux de ses composants sont autorisées, par programmation ou par le biais de l’outil d’administration Services de composants. |
 | Access         | Lecture/écriture                                                                                                                                                                     |
 | Type           | Bool                                                                                                                                                                          |
-| Default        | Vrai                                                                                                                                                                          |
+| Valeur par défaut        | True                                                                                                                                                                          |
 | Système minimal | Windows 2000                                                                                                                                                                  |
 
 
@@ -301,7 +301,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|----------------------------------------------------------------------------------------------------------------------------|
 | Description    | Chaîne de ligne de commande à utiliser lors du débogage. L’application peut être lancée dans un débogueur avec la ligne de commande spécifiée. |
 | Access         | Lecture/écriture                                                                                                                  |
-| Type           | Chaîne                                                                                                                     |
+| Type           | String                                                                                                                     |
 | Valeur par défaut        | ""                                                                                                                         |
 | Système minimal | Windows 2000                                                                                                               |
 
@@ -318,7 +318,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Spécifie le nombre maximal d’applications regroupables pouvant s’exécuter simultanément. |
 | Access         | Lecture/écriture                                                                        |
 | Type           | Long (1-1048576)                                                                 |
-| Par défaut        | 1                                                                                |
+| Valeur par défaut        | 1                                                                                |
 | Système minimal | Windows XP                                                                       |
 
 
@@ -333,7 +333,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|---------------------------------------------------------------|
 | Description    | Chaîne informatif pour décrire qui a créé l’application. |
 | Access         | Lecture/écriture                                                     |
-| Type           | Chaîne                                                        |
+| Type           | String                                                        |
 | Valeur par défaut        | ""                                                            |
 | Système minimal | Windows 2000                                                  |
 
@@ -365,7 +365,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|----------------------------------------------------------------------------------------|
 | Description    | Nom et chemin d’accès du fichier pour conserver le journal pour le CRM (Compensating Resource Manager). |
 | Access         | Lecture/écriture                                                                              |
-| Type           | Chaîne                                                                                 |
+| Type           | String                                                                                 |
 | Valeur par défaut        | ""                                                                                     |
 | Système minimal | Windows 2000                                                                           |
 
@@ -382,7 +382,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Définit si l’application peut être supprimée, soit par programme, soit par le biais de l’outil d’administration Services de composants. |
 | Access         | Lecture/écriture                                                                                                                   |
 | Type           | Bool                                                                                                                        |
-| Default        | Vrai                                                                                                                        |
+| Valeur par défaut        | True                                                                                                                        |
 | Système minimal | Windows 2000                                                                                                                |
 
 
@@ -397,7 +397,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|----------------------------|
 | Description    | Décrit l’application. |
 | Access         | Lecture/écriture                  |
-| Type           | Chaîne                     |
+| Type           | String                     |
 | Valeur par défaut        | ""                         |
 | Système minimal | Windows 2000               |
 
@@ -466,7 +466,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|--------------------------------------------------------------|
 | Description    | Chemin d’accès du répertoire dans lequel les fichiers de vidage sont enregistrés. |
 | Access         | Lecture/écriture                                                    |
-| Type           | Chaîne                                                       |
+| Type           | String                                                       |
 | Valeur par défaut        | « % systemroot% \\ system32 \\ com \\ DMP »                           |
 | Système minimal | Windows XP                                                   |
 
@@ -488,7 +488,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Indique si les événements sont activés pour l’application. |
 | Access         | Lecture/écriture                                                 |
 | Type           | Bool                                                      |
-| Par défaut        | Vrai                                                      |
+| Valeur par défaut        | True                                                      |
 | Système minimal | Windows 2000                                              |
 
 
@@ -503,7 +503,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | GUID représentant l’application. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
 | Access         | WriteOnce                                                                                                                                                            |
-| Type           | Chaîne                                                                                                                                                               |
+| Type           | String                                                                                                                                                               |
 | Valeur par défaut        | &lt;Généré&gt;                                                                                                                                                    |
 | Système minimal | Windows 2000                                                                                                                                                         |
 
@@ -520,7 +520,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Définit l’identité du processus serveur pour l’application. Spécifiez un compte d’utilisateur valide ou un « utilisateur interactif » pour que l’application assume l’identité de l’utilisateur actuellement connecté. Vous pouvez également spécifier les chaînes « NT Authority \\ LocalService », « NT Authority \\ NetworkService » et « NT Authority \\ System ». Le mot de passe par défaut de ces trois comptes est «» (chaîne vide). |
 | Access         |                                                                                                                                                                                                                                                                                                                                                                                    |
 | Type           |                                                                                                                                                                                                                                                                                                                                                                                    |
-| Par défaut        |                                                                                                                                                                                                                                                                                                                                                                                    |
+| Default        |                                                                                                                                                                                                                                                                                                                                                                                    |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                                                                                                       |
 
 
@@ -540,7 +540,7 @@ La propriété de mot de passe doit être définie en même temps que l’identi
 | Description    | Définit le niveau d’emprunt d’identité utilisé pour les appels effectués à d’autres applications.                                                                                           |
 | Access         | Lecture/écriture                                                                                                                                                     |
 | Type           | Valeurs possibles longues : COMAdminImpersonationAnonymous (1) COMAdminImpersonationIdentify (2) COMAdminImpersonationImpersonate (3) COMAdminImpersonationDelegate (4) |
-| Default        | COMAdminImpersonationImpersonate (3)                                                                                                                          |
+| Valeur par défaut        | COMAdminImpersonationImpersonate (3)                                                                                                                          |
 | Système minimal | Windows 2000                                                                                                                                                  |
 
 
@@ -556,7 +556,7 @@ La propriété de mot de passe doit être définie en même temps que l’identi
 | Description    | Si l’application ou le composant COM+ est désactivé, IsEnabled a la valeur false. Si l’application ou le composant COM+ est activé, IsEnabled a la valeur true. |
 | Access         | Lecture/écriture                                                                                                                                 |
 | Type           | Bool                                                                                                                                      |
-| Par défaut        | Vrai                                                                                                                                      |
+| Valeur par défaut        | True                                                                                                                                      |
 | Système minimal | Windows XP                                                                                                                                |
 
 
@@ -595,7 +595,7 @@ La propriété de mot de passe doit être définie en même temps que l’identi
 
  
 
-### <a name="name"></a>Nom
+### <a name="name"></a>Name
 
 
 
@@ -603,7 +603,7 @@ La propriété de mot de passe doit être définie en même temps que l’identi
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Le nom de l’application. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                            |
-| Type           | Chaîne                                                                                                                                                                                                                               |
+| Type           | String                                                                                                                                                                                                                               |
 | Valeur par défaut        | « Nouvelle application »                                                                                                                                                                                                                    |
 | Système minimal | Windows 2000                                                                                                                                                                                                                         |
 
@@ -624,7 +624,7 @@ La propriété de mot de passe doit être définie en même temps que l’identi
 |----------------|----------------------------------------------------------------------------|
 | Description    | Définit le mot de passe utilisé par le processus serveur pour se connecter sous l’identité. |
 | Access         | WriteOnly                                                                  |
-| Type           | Chaîne                                                                     |
+| Type           | String                                                                     |
 | Valeur par défaut        | ""                                                                         |
 | Système minimal | Windows 2000                                                               |
 
@@ -643,7 +643,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique dans quelles circonstances les demandes mises en file d’attente vers une application sont authentifiées.                                                 |
 | Access         | Lecture/écriture                                                                                                                               |
 | Type           | Longues valeurs possibles : COMAdminQCMessageAuthenticateSecureApps (0) COMAdminQCMessageAuthenticateOff (1) COMAdminQCMessageAuthenticateOn (2) |
-| Par défaut        | COMAdminQCMessageAuthenticateSecureApps (0)                                                                                             |
+| Valeur par défaut        | COMAdminQCMessageAuthenticateSecureApps (0)                                                                                             |
 | Système minimal | Windows XP                                                                                                                              |
 
 
@@ -659,7 +659,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique le nombre maximal de threads d’écoute simultanés. La plage valide pour cette propriété est comprise entre 0 et 1000. Pour une application nouvellement créée, le paramètre est dérivé de l’algorithme actuellement utilisé pour déterminer le nombre par défaut de threads de l’écouteur : 16 fois le nombre de processeurs dans le serveur. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                 |
 | Type           | Long (0-1000)                                                                                                                                                                                                                                                                                             |
-| Par défaut        | 0                                                                                                                                                                                                                                                                                                         |
+| Default        | 0                                                                                                                                                                                                                                                                                                         |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                |
 
 
@@ -712,7 +712,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique le nombre maximal d’activations d’objets configurés dans l’application à accepter avant de recycler le processus. Le nombre d’activations par défaut est 0. |
 | Access         | Lecture/écriture                                                                                                                                                            |
 | Type           | Long (0-1048576)                                                                                                                                                     |
-| Par défaut        | 0                                                                                                                                                                    |
+| Default        | 0                                                                                                                                                                    |
 | Système minimal | Windows XP                                                                                                                                                           |
 
 
@@ -728,7 +728,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique le nombre maximal d’appels pour autoriser les objets configurés dans l’application à accepter avant de recycler le processus. Le nombre d’appels par défaut est 0. |
 | Access         | Lecture/écriture                                                                                                                                                      |
 | Type           | Long (0-1048576)                                                                                                                                               |
-| Par défaut        | 0                                                                                                                                                              |
+| Default        | 0                                                                                                                                                              |
 | Système minimal | Windows XP                                                                                                                                                     |
 
 
@@ -744,7 +744,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique la durée (en minutes) nécessaire à l’exécution d’un processus recyclé avant son arrêt. Le compte à rebours commence immédiatement après le recyclage du processus. Le délai d’expiration maximal est de 1440 minutes (24 heures) et la valeur par défaut est 15 minutes. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                        |
 | Type           | Long (1-1440)                                                                                                                                                                                                                                                    |
-| Par défaut        | 15                                                                                                                                                                                                                                                               |
+| Valeur par défaut        | 15                                                                                                                                                                                                                                                               |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                       |
 
 
@@ -760,7 +760,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique le nombre maximal de minutes pendant lesquelles un processus doit être exécuté avant de le recycler. La limite de durée de vie maximale est de 30240 minutes (21 jours) et la valeur par défaut est 0 minute. |
 | Access         | Lecture/écriture                                                                                                                                                                   |
 | Type           | Long (0-30240)                                                                                                                                                              |
-| Par défaut        | 0                                                                                                                                                                           |
+| Default        | 0                                                                                                                                                                           |
 | Système minimal | Windows XP                                                                                                                                                                  |
 
 
@@ -776,7 +776,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique la quantité maximale d’utilisation de la mémoire (en kilo-octets) autorisée pour un processus avant son recyclage. Si l’utilisation de la mémoire de processus dépasse le nombre spécifié pendant une période supérieure à une minute, le processus est recyclé. La quantité d’utilisation de la mémoire par défaut est de 0 Ko. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                              |
 | Type           | Long (0-1048576)                                                                                                                                                                                                                                                       |
-| Par défaut        | 0                                                                                                                                                                                                                                                                      |
+| Default        | 0                                                                                                                                                                                                                                                                      |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                             |
 
 
@@ -792,7 +792,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique si l’application peut être répliquée. |
 | Access         | Lecture/écriture                                            |
 | Type           | Bool                                                 |
-| Par défaut        | Vrai                                                 |
+| Valeur par défaut        | True                                                 |
 | Système minimal | Windows XP                                           |
 
 
@@ -823,7 +823,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom du service correspondant à l’application configurée pour s’exécuter en tant qu’application de service. Si cette valeur est **null**, l’application n’est pas configurée pour s’exécuter en tant que service. Dans le cas contraire, les informations de configuration du service sont disponibles à l’aide du nom du service. |
 | Access         | Lecture seule                                                                                                                                                                                                                                                                         |
-| Type           | Chaîne                                                                                                                                                                                                                                                                           |
+| Type           | String                                                                                                                                                                                                                                                                           |
 | Valeur par défaut        | ""                                                                                                                                                                                                                                                                               |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                       |
 
@@ -840,7 +840,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Définit le délai avant l’arrêt d’un processus serveur lorsqu’il devient inactif. La latence d’arrêt est comprise entre 0 et 1440 minutes (24 heures). Si RunForever a la valeur true, cette propriété est ignorée. ShutdownAfter n’est pas activé pour les applications de bibliothèque (in-process). |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                          |
 | Type           | Long (0-1440)                                                                                                                                                                                                                                                      |
-| Default        | 3                                                                                                                                                                                                                                                                  |
+| Valeur par défaut        | 3                                                                                                                                                                                                                                                                  |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                       |
 
 
@@ -871,7 +871,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 |----------------|------------------------------------------------------------------------------|
 | Description    | Point de terminaison d’URL auquel cette application est exposée via le protocole SOAP. |
 | Access         | Lecture/écriture                                                                    |
-| Type           | Chaîne                                                                       |
+| Type           | String                                                                       |
 | Valeur par défaut        | ""                                                                           |
 | Système minimal | Windows Server 2003                                                          |
 
@@ -887,7 +887,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 |----------------|-------------------------------------------------------------------------------|
 | Description    | Adresse de messagerie à laquelle cette application est exposée par le biais du protocole SOAP. |
 | Access         | Lecture/écriture                                                                     |
-| Type           | Chaîne                                                                        |
+| Type           | String                                                                        |
 | Valeur par défaut        | ""                                                                            |
 | Système minimal | Windows Server 2003                                                           |
 
@@ -903,7 +903,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 |----------------|----------------------------------------------------------------------------------------------------------------------|
 | Description    | Répertoire racine virtuel IIS dans lequel les scripts d’accès qui exposent l’application via le protocole SOAP résident. |
 | Access         | Lecture/écriture                                                                                                            |
-| Type           | Chaîne                                                                                                               |
+| Type           | String                                                                                                               |
 | Valeur par défaut        | ""                                                                                                                   |
 | Système minimal | Windows Server 2003                                                                                                  |
 
@@ -936,7 +936,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique le niveau de confiance de la stratégie de restriction logicielle (SRP) de l’application. Cette propriété est utilisée uniquement si la propriété SRPEnabled a la valeur true. Le niveau de confiance du SRP fait référence au niveau de confiance que vous êtes prêt à accorder à une application. Un niveau de confiance SRP non restreint correspond à la \_ valeur enum LEVELID FULLYTRUSTED plus sécurisée \_ , tandis qu’un niveau de confiance SRP non autorisé correspond à la \_ valeur enum non autorisée LEVELID plus sûre \_ . L’énumération pour les niveaux de confiance est définie dans Winsafer. h. |
 | Access         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Type           | Valeurs possibles longues : LEVELID sécurisé \_ non \_ autorisé (0x0) Safe \_ LEVELID \_ FULLYTRUSTED (0x40000)                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Par défaut        | SÉCURITÉ \_ LEVELID \_ FULLYTRUSTED (0x40000)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Valeur par défaut        | SÉCURITÉ \_ LEVELID \_ FULLYTRUSTED (0x40000)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Système minimal | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 

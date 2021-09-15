@@ -7,16 +7,16 @@ ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
 ms.openlocfilehash: d0c7ead9ce67ee23a0668304a006d6cd67fb3d67
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104758859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404349"
 ---
 # <a name="creating-a-basic-direct3d-12-component"></a>Création d’un composant Direct3D 12 de base
 
 > [!NOTE]
-> Consultez les exemples de graphiques [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples) référentiel pour DirectX 12 qui illustrent comment créer des applications nécessitant beaucoup de ressources graphiques pour Windows 10.
+> Consultez les exemples de graphiques [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples) référentiel pour DirectX 12 qui montrent comment créer des applications nécessitant beaucoup de ressources graphiques pour Windows 10.
 
 Cette rubrique décrit le déroulement des appels pour créer un composant Direct3D 12 de base.
 
@@ -742,7 +742,7 @@ void D3D12HelloTriangle::OnDestroy()
 
 <dl> <dt>
 
-[Comprendre Direct3D 12](directx-12-getting-started.md)
+[Comprendre Direct3D 12](directx-12-getting-started.md)
 </dt> <dt>
 
 [Exemples fonctionnels](working-samples.md)

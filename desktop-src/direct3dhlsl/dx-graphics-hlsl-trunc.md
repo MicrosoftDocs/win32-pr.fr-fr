@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0845e619e8674d729735da1b639802df256d9c210615d71578a4e1effd777e39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34493f60e60bc0dce35f5f9db50360265191c742
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119845769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411236"
 ---
 # <a name="trunc"></a>trunc
 
@@ -58,10 +58,10 @@ Cette fonction tronque une valeur à virgule flottante au composant entier. Éta
 
 
 
-| Nom | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille                         |
+| Name | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille                         |
 |------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------|
-| *x*  | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | n'importe laquelle                          |
-| Av  | Même type que l’entrée x                                                                                           | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | La ou les mêmes dimensions comme entrée x |
+| *x*  | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**float**](/windows/desktop/WinProg/windows-data-types)                        | n'importe laquelle                          |
+| Av  | Même type que l’entrée x                                                                                           | [**float**](/windows/desktop/WinProg/windows-data-types)                        | La ou les mêmes dimensions comme entrée x |
 
 
 
@@ -73,9 +73,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Pris en charge |
+| Modèle de nuanceur                                                                       | Prise en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | oui       |
+| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | Oui       |
 
 
 

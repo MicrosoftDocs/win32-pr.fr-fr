@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104392
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0e410c1970df4809f879348603602fc507e7c68598d9e2ec1cc372a971160f9c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a337d4e62b0eeeb8c5638430d728da37e8e8dc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119623429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522664"
 ---
 # <a name="durablecommitcallback-methods"></a>Méthodes DurableCommitCallback
 
@@ -105,7 +105,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [DurableCommitCallback, classe](./durablecommitcallback-class.md)
 

@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), exécuter des fichiers à partir de sources réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8473a2feb4edd567c15d640dfd20e65c2893fe12de6c25a957cc5f730fde0baf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f1e4e41ddf94498ddeddf90e64439c1b11b7ba8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411360"
 ---
 # <a name="playing-files-from-a-network-source"></a>Exécution de fichiers à partir d’une source réseau
 

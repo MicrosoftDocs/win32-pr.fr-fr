@@ -10,12 +10,12 @@ keywords:
 - éléments, texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 333c0d30393ef4fdeb62061ee58b0c7bd2f3f58bd685945e62c0e8062f22d881
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: acdad737fda44cc0e090eb13fb20c765b447ccbd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522757"
 ---
 # <a name="text-element"></a>Élément de texte
 

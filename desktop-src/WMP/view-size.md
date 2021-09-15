@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e0d9bd583b280f39bee38f0e109e6bb2bba6ce08ec0e7cea4c082b4a6db55739
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: def9b416dfe5eda052ef430b587fa1c6017b4e5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119615309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403899"
 ---
 # <a name="viewsize"></a>VIEW. Size
 
@@ -56,7 +56,7 @@ Chaîne spécifiant le bord ou le coin à déplacer lors du dimensionnement. Cet
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est généralement appelée à partir d’un gestionnaire **OnMouseDown** . Le redimensionnement s’effectue pendant le déplacement de la souris et arrête le redimensionnement lorsque le bouton de la souris est relâché. Si la taille de la **vue** est restreinte, vous ne pouvez pas faire glisser la souris pour redimensionner la **vue** au-delà des limites restreintes.
 
@@ -76,7 +76,7 @@ Cette méthode est généralement appelée à partir d’un gestionnaire **OnMou
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

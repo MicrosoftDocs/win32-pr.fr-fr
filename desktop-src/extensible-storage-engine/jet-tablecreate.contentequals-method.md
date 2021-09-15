@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 653aec23752d992059def6698b1d1eabadbdfc52d8988c047720648b844ebf70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c06cd8769dee6e56006b0225a75572b642e35d93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404291"
 ---
 # <a name="jet_tablecreatecontentequals-method"></a>JET_TABLECREATE. Méthode ContentEquals
 
@@ -61,12 +61,12 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - Autres  
+  - other  
     Type : [Microsoft.ISAM.esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
@@ -77,7 +77,7 @@ True si les deux instances sont égales.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_TABLECREATE](./jet-tablecreate-class.md)
 

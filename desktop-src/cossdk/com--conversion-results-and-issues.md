@@ -4,12 +4,12 @@ ms.assetid: 5b85aa5c-0409-4802-9335-04217ef5ddb9
 title: Résultats et problèmes de conversion COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a347df5f0ad0b16aee509c9c1b2c2c848372d0df2ccbc376814b0d14eb61d138
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ded68e8e81d2c59c90607747c5f343dac364424
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129211"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403552"
 ---
 # <a name="com-conversion-results-and-issues"></a>Résultats et problèmes de conversion COM+
 

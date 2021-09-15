@@ -5,11 +5,11 @@ title: Commande WPD_COMMAND_MTP_EXT_WRITE_DATA (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3eab3809e5cf9bcacc04b68eea9f580cdbe45c03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411334"
 ---
 # <a name="wpd_command_mtp_ext_write_data-command"></a>Commande \_ wpd \_ MTP \_ ext. \_ écriture de \_ données
 
@@ -53,7 +53,7 @@ Le pilote retourne les résultats suivants.
 
 Peut uniquement être appelé directement à l’aide de [**IPortableDevice :: SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

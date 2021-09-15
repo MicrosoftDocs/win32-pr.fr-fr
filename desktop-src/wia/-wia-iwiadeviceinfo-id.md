@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 95c124e623e0c832b7e2e8a737f56b97582ae2b7fcc7df842a154acf7be975eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42505feaab673f8d48e71b96caac5c81b756e614
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118441317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522224"
 ---
 # <a name="deviceinfoid-property"></a>Propriété DeviceInfo.Id
 
@@ -39,7 +39,7 @@ propVal = DeviceInfo.Id
 
 Chaîne qui reçoit l’ID.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

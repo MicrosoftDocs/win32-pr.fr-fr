@@ -17,12 +17,12 @@ keywords:
 - DRM (gestion des droits numériques), WMStubDRM. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b500f3711b8c92324cbd87d4dc199a8a0bb803cba69357a23f139fb96f8281f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d3e4d1ae9c0d3835c20f75b4e61c262a85a26f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084536"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404673"
 ---
 # <a name="protecting-files-with-drm-version-1"></a>Protection des fichiers avec DRM version 1
 

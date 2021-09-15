@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 808b04d7f7b7a50dc8a44ef87dccee38470509309c6e82bde5701b30049bd210
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d643696fe19523bac93ebca71cf885cd93b8570a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119938749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411467"
 ---
 # <a name="inkrectangle-class"></a>InkRectangle, classe
 
@@ -79,7 +79,7 @@ La classe **InkRectangle** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Un point se trouve dans un **InkRectangle** s’il se trouve sur le côté [**gauche**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left) ou [**supérieur**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top) ou se trouve dans les quatre côtés. Un point situé à [**droite**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right) ou en [**bas**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom) est pris en compte à l’extérieur du rectangle.
@@ -93,7 +93,7 @@ Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

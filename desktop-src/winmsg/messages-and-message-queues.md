@@ -5,11 +5,11 @@ title: Messages et files d’attente de messages
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d0233af932d1aa9a4130e244af002d6180fdf055
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527906"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404718"
 ---
 # <a name="messages-and-message-queues"></a>Messages et files d’attente de messages
 
@@ -21,8 +21,8 @@ Cette section décrit les messages et les files d’attente de messages et expli
 
 | Nom                                                                       | Description                                                                                                                                |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [À propos des messages et des files d’attente de messages](about-messages-and-message-queues.md) | Cette section décrit les messages Windows et les files d’attente de messages.<br/>                                                                     |
-| [Utilisation des messages et des files d’attente de messages](using-messages-and-message-queues.md) | Les exemples de code suivants montrent comment effectuer les tâches suivantes associées aux messages Windows et aux files d’attente de messages.<br/> |
+| [À propos des messages et des files d’attente de messages](about-messages-and-message-queues.md) | cette section décrit les messages Windows et les files d’attente de messages.<br/>                                                                     |
+| [Utilisation des messages et des files d’attente de messages](using-messages-and-message-queues.md) | les exemples de code suivants montrent comment effectuer les tâches suivantes associées aux messages Windows et aux files d’attente de messages.<br/> |
 | [Référence du message](message-and-message-queue-reference.md)               | Contient la référence de l’API.<br/>                                                                                                     |
 
 

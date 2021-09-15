@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0268c9c3d70a8f51db390544bf854e5acd5b9e88
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411387"
 ---
 # <a name="drm_actionallowed_collaborativeplay"></a>\_ACTIONALLOWED DRM \_ CollaborativePlay
 
@@ -44,9 +44,9 @@ Il s’agit d’une propriété en lecture seule qui est récupérée à l’aid
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 70413c13-3db0-4af0-b584-259cce70f084
 title: Liste des ressources protégées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c221068d9185c289d601f53c6b76df9677d8bc213b44f3dc13dbf5b66a0df446
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 316a9bf9233283a7c0aba11f0d5fe8a09f38f1e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521901"
 ---
 # <a name="protected-resource-list"></a>Liste des ressources protégées
 

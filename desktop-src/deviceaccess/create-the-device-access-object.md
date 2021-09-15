@@ -4,12 +4,12 @@ description: Cette rubrique explique comment instancier l’objet d’accès de 
 ms.assetid: 26619A25-67FE-44DC-82DD-36076326748D
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: c90252e2a906928706fa8577e133a019482976b4d5dd8e4a7cb1ebd4fb245ec8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9fee82f84a9325472928de69513e5f8e1c3ea1d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029095"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521820"
 ---
 # <a name="implement-the-device-access-object"></a>Implémenter l’objet d’accès de l’appareil
 
@@ -129,7 +129,7 @@ Return Value:
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez également envoyer un IOCTL de manière asynchrone à l’aide de la méthode [**DeviceIoControlAsync**](/windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync) . Dans ce cas, vous devez implémenter l’interface [**IDeviceRequestCompletionCallback**](/windows/win32/api/Deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback) .
 

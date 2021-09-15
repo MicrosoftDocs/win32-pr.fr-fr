@@ -4,12 +4,12 @@ ms.assetid: 3cf7a8a1-66b2-45ca-b53d-29c80f95ff70
 title: Messages d’erreur de la fonction package de polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7008707675d9b2ef3eb31229535b07b1af6000e43d1122c2929fd12988fb4ea3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06bcf84f92b60351e8375df682de0c3b01c2aa1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118761082"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521549"
 ---
 # <a name="font-package-function-error-messages"></a>Messages d’erreur de la fonction package de polices
 
@@ -17,7 +17,7 @@ Les valeurs longues suivantes sont retournées par les fonctions de package de p
 
 
 
-| Valeur retournée                   | Valeur | Description                                                                                                      |
+| Valeur de retour                   | Valeur | Description                                                                                                      |
 |--------------------------------|-------|------------------------------------------------------------------------------------------------------------------|
 | AUCUNE \_ erreur                      | 0     | Aucune erreur ne s'est produite.                                                                                               |
 | FORMAT d’erreur \_                    | 1006  | Une erreur de format de données d’entrée s’est produite.                                                                             |

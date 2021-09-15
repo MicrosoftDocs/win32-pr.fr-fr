@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: c996989661703c4a9c7416cd63904c376fdb7fcca3071d4558551bdd78470d3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: adbc8b6a29f97066c8dc5b2e45b7ddc5834f2b60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118208785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522221"
 ---
 # <a name="deviceinfogetpropbyid-method"></a>Méthode DeviceInfo. GetPropById
 
@@ -48,13 +48,13 @@ Spécifie l’ID de la propriété.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **variante**
 
 Cette méthode retourne la valeur de la propriété spécifiée par *ID*.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette méthode pour rechercher la valeur d’une propriété d’appareil à partir de son ID. Pour obtenir la liste des ID de propriété, consultez [définitions de constante de propriété WIA](-wia-wia-property-constant-definitions.md). pour plus d’informations sur les propriétés d’Acquisition d’images (wia) Windows elles-mêmes, consultez [constantes de propriété wia](-wia-wia-property-constants.md).
 
@@ -97,7 +97,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

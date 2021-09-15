@@ -5,11 +5,11 @@ title: Protocoles sous-jacents pour les applications Winsock IPv6
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 88789a5f4cd557111c6e1aee8c51ba00eed25e82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201423"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296626"
 ---
 # <a name="underlying-protocols-for-ipv6-winsock-applications"></a>Protocoles sous-jacents pour les applications Winsock IPv6
 
@@ -21,7 +21,7 @@ Une partie du processus de modification de votre code pour prendre en charge IPv
 
 <dl> <dt>
 
-[Guide IPv6 pour les applications Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[Guide IPv6 pour les Applications Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Modification des structures de données pour IPv6 Winsock appications](changing-data-structures-2.md)

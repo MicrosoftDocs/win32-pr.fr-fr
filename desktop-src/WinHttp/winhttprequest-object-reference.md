@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c47d85d3dfa2b15b31971a6b6d123259fa1db10c441cc7e7d1b4ab8f3eb1ed3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0f54cb2e71edd30cf97389a0221bca0e2ef8051
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119132952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403598"
 ---
 # <a name="winhttprequest-object-reference"></a>Référence de l’objet WinHttpRequest
 

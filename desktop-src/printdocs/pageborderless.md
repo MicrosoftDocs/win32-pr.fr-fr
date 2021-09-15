@@ -5,11 +5,11 @@ title: PageBorderless
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 66a0ff13edc1f4e5b36f55229559bb06ed17150b
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404283"
 ---
 # <a name="pageborderless"></a>PageBorderless
 
@@ -27,7 +27,7 @@ Décrit le moment où le contenu de l’image doit être imprimé sur les bords 
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

@@ -4,12 +4,12 @@ ms.assetid: b9f8eb09-a8d9-42b4-8053-fa53701c9c5e
 description: 'En savoir plus sur : macros (COM)'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 934caa40ef4f95ce10e45c6df465b138541517f87d4d921cd4aa15befc74d188
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e35ce0fac9a48281a07976cecaed07f30b2fc7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119854219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404357"
 ---
 # <a name="macros-com"></a>Macros (COM)
 

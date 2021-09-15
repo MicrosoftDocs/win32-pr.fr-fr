@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9254513622ff7c0705c01b0ee15262126c096ede
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103761984"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403741"
 ---
 # <a name="id3dx11effecttypeisvalid-method"></a>ID3DX11EffectType :: IsValid, méthode
 
@@ -41,7 +41,7 @@ BOOL IsValid();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **bool**](/windows/desktop/WinProg/windows-data-types)**
 

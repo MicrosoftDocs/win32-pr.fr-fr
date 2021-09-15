@@ -4,12 +4,12 @@ ms.assetid: 9a13071a-95a1-4330-92d5-11fa72a8f211
 title: Récupération des identificateurs d’objets fonctionnels pour un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d0cc686a6997c10e26e3d83190503bba09fe15afc7f4e0cf75e297f0d905f2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f6a753324e24a6b78625a78b4128380288b6672f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119262999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522016"
 ---
 # <a name="retrieving-the-functional-object-identifiers-for-a-device"></a>Récupération des identificateurs d’objets fonctionnels pour un appareil
 

@@ -11,11 +11,11 @@ api_name:
 api_type:
 - HeaderDef
 ms.openlocfilehash: 1ce1536945748bae09fc7a0981c14c076fc6394e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532422"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521737"
 ---
 # <a name="d3d12_downlevel_present_flags-enumeration"></a>Énumération d’indicateurs D3D12 de \_ bas niveau \_ présente \_
 
@@ -41,7 +41,7 @@ Aucune option sélectionnée.
 
 L’opération **actuelle** n’est pas effectuée tant qu’un Vsync n’a pas eu lieu depuis la dernière **Présentation** de Ed.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------|------------------|
@@ -51,5 +51,5 @@ L’opération **actuelle** n’est pas effectuée tant qu’un Vsync n’a pas 
 ## <a name="see-also"></a>Voir aussi
 * [ID3D12CommandQueueDownlevel](id3d12commandqueuedownlevel.md)
 * [Énumérations Direct3D 12 sur Windows 7](direct3d-12on7-enumerations.md)
-* [Informations de référence sur Direct3D 12 sur Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
+* [informations de référence sur Direct3D 12 sur Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
 * [Direct3D 12 sur Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

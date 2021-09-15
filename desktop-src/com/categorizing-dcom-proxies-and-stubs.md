@@ -4,12 +4,12 @@ description: Catégorisation des proxys et des stubs DCOM
 ms.assetid: f5d117d6-6c2c-4beb-8869-1581a5b1846f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f45f61d89e31316975685d3e603a93d30559546c86abc3b63e8e7e8a0c83ff1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31685cd1318856b9e305246cfebc2cebb3a7874e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118310866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411268"
 ---
 # <a name="categorizing-dcom-proxies-and-stubs"></a>Catégorisation des proxys et des stubs DCOM
 

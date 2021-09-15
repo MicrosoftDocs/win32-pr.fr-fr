@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 8004f4e2f9f7c22d795b6ce4e4cb0affac1b55ecd876c21288c02e226ee14262
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 113b2b35a5b6e61cd2cc1d3666d1a13fbade5ec7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522860"
 ---
 # <a name="parameter-attributes"></a>Attributs de paramètre
 
@@ -49,7 +49,7 @@ pour Windows 7, Windows appareils mobiles prend en charge les attributs de param
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

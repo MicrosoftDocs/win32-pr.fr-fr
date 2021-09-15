@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 085bec9a9937c8dbd02fad6df785f4bce7afea90a74117e745f09cb5135633d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bdb58edbb3ffd99e8be557fdb05a7e51298fda14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403829"
 ---
 # <a name="title-element-metafile"></a>TITLE, élément (Metafile)
 
@@ -47,7 +47,7 @@ Cet élément n’a pas d’attributs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément définit une chaîne de texte qui spécifie le titre d’un élément **ASX** ou d’un élément d' **entrée** . Le titre s’affiche dans la boîte de dialogue **Propriétés** et panneau d’affichage.
 
@@ -72,7 +72,7 @@ Chaque **ASX** parent et élément d' **entrée** doit contenir au plus un élé
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

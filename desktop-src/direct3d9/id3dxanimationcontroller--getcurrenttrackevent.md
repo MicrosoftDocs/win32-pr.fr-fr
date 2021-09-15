@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: b00b90f6fbb3f4bb6170c8987f3634fec4bd0bf5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404063"
 ---
 # <a name="id3dxanimationcontrollergetcurrenttrackevent-method"></a>ID3DXAnimationController :: GetCurrentTrackEvent, méthode
 
@@ -59,13 +59,13 @@ Type d’événement à interroger.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Handle d’événement de l’événement en cours d’exécution sur la piste spécifiée. La **valeur null** est retournée si aucun événement n’est en cours d’exécution sur la piste spécifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

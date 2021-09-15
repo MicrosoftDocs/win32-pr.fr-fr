@@ -4,12 +4,12 @@ description: La directive \ Elif marque une clause facultative d’un bloc de co
 ms.assetid: 432b8543-7e1a-411a-8191-cc0f0e4a2e86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92e131d40648bcda75025087717798ceb2ad1262d680877512dbb85a451fc86e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a548cff74151dadf4a83a1e7d91ceedeafe07e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522485"
 ---
 # <a name="elif"></a>\#Elif
 
@@ -28,7 +28,7 @@ Expression à vérifier. Cette valeur est un nom défini, une constante entière
 
 </dd> </dl>
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Dans cet exemple, **\# Elif** demande au compilateur de traiter la deuxième instruction [**bitmap**](bitmap-resource.md) uniquement si la valeur assignée à la version de nom est inférieure à 7. La directive **\# Elif** elle-même est traitée uniquement si la version est supérieure ou égale à 3.
 

@@ -4,12 +4,12 @@ ms.assetid: fc3626ac-8f19-4aa6-8fe9-5020d00c09db
 title: Message WM_ACTIVATEAPP (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9afeabe12dfcc36ae7bf2403a7757004847bcf58370f4a0a0904c9bf008e6c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee2d64b90426e004a3c18fdc60538fd21862c42f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404715"
 ---
 # <a name="wm_activateapp-message"></a>\_Message WM ACTIVATEAPP
 
@@ -42,13 +42,13 @@ Identificateur du thread. Si le paramètre *wParam* a la **valeur true**, *lPara
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -70,7 +70,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 [**activation de WM \_**](../inputdev/wm-activate.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

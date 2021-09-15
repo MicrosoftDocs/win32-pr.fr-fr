@@ -9,12 +9,12 @@ keywords:
 - index, configuration d’indexeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5a624a4ed9ae749559a1908e3809500bf8aece2b29b8ad406769c5f639e547
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 618316e22b13ca05ff0fc1bbfb6b4583e79ca858
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117845624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522085"
 ---
 # <a name="to-configure-the-indexer"></a>Pour configurer l’indexeur
 

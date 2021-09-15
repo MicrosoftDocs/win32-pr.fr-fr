@@ -21,12 +21,12 @@ keywords:
 - licences, DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa6cc882d31873a05361869b9246da1b57ac3d3aebb85073d0b31f24509a615b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d14cb76fcf61346aab9bd68746afc7e50a2f146d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117846414"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411366"
 ---
 # <a name="overview-of-windows-media-drm"></a>vue d’ensemble de la DRM Windows Media
 

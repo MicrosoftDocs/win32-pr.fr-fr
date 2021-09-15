@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 253012a24aff520c18c6ac8d6d91066305fa5335ea0168bb9e7c8f729020a07f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d98f1b49f5e4815f2ffaeb5d796c6139ad582e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118073665"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521581"
 ---
 # <a name="jet_setcolumniblongvalue-property"></a>JET_SETCOLUMN. ibLongValue, propriété
 
@@ -66,7 +66,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SETCOLUMN](./jet-setcolumn-class.md)
 

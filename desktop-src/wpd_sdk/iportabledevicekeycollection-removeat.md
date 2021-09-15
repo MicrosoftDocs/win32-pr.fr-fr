@@ -15,11 +15,11 @@ api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
 ms.openlocfilehash: 3ec2b1137e7959a646c2943ab1aa7a5c3428d3c0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404446"
 ---
 # <a name="iportabledevicekeycollectionremoveat-method"></a>IPortableDeviceKeyCollection :: RemoveAt, méthode
 
@@ -47,9 +47,9 @@ Spécifie l’index de l’élément à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -62,11 +62,11 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Vous devez spécifier un index de base zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

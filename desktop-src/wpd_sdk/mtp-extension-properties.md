@@ -4,12 +4,12 @@ ms.assetid: 58fc8741-261a-4e63-9fd3-8f0ca05866ad
 title: Propriétés d’extension MTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0468d249b469c4e768962ab6a920935e7a64b51d8e035af111e8274f7f0b9af6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86a653d05285d62c7660bd914a785807a2341a01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118193945"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522952"
 ---
 # <a name="mtp-extension-properties"></a>Propriétés d’extension MTP
 

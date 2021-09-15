@@ -4,12 +4,12 @@ ms.assetid: eed8ca97-39ad-4188-afc6-8670b5073fad
 title: Regroupements d’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc19ff14959c151dc5736fb4a52c5346d0f5a30b6565551aca2f0edb3cee61b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ceb49ecd382e5a5a570e3e479714ad905a5eaf5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118308439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403558"
 ---
 # <a name="com-administration-collections"></a>Regroupements d’administration COM+
 

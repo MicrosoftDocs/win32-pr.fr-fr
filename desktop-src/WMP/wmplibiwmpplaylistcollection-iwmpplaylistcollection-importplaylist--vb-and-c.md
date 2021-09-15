@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee4c231a045b39454908753dc197c95e26d85c711968f07ab27dbd859c29c6f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad3ca727155d6ae859123d427812d93ebaa0b05c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411284"
 ---
 # <a name="iwmpplaylistcollectionimportplaylist-method"></a>IWMPPlaylistCollection :: importPlaylist, méthode
 
@@ -60,11 +60,11 @@ Une interface **wmplib. IWMPPlaylist** pour la sélection que cette méthode ajo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPPlaylist** pour la sélection ajoutée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les sélections qui ne contiennent pas d’éléments multimédias ne peuvent pas être ajoutées à la bibliothèque à l’aide de cette méthode. Pour créer une playlist vide dans la bibliothèque, utilisez la méthode **newPlaylist** . Vous pouvez ensuite remplir la playlist obtenue avec des éléments multimédias à l’aide de **IWMPPlaylist. appendItem** ou **IWMPPlaylist. InsertItem**.
 
@@ -72,7 +72,7 @@ Si vous transmettez cette méthode à une sélection automatique, la requête es
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

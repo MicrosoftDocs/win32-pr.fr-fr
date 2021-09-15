@@ -16,12 +16,12 @@ keywords:
 - modèles, modèles de conformité des périphériques vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df63d40152e814f879498f0f99e386c9b21ef1e32746cf0c405aa46ab9d2fa48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc6735d029bc2339296fa2a0af8a48ace3303ae3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119584839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522981"
 ---
 # <a name="video-device-conformance-templates"></a>Modèles de conformité des périphériques vidéo
 
@@ -132,7 +132,7 @@ Un flux conforme aux limitations algorithmiques du profil principal, mais qui ne
 | Paramètre       | Valeur                                                                                                                                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Chaîne de modèle | CP                                                                                                                                   |
-| Remarques         | Le profil complexe n’a pas de limitations explicites. Il est utilisé pour activer tous les algorithmes de codec, généralement à des fins de démonstration. |
+| Notes         | Le profil complexe n’a pas de limitations explicites. Il est utilisé pour activer tous les algorithmes de codec, généralement à des fins de démonstration. |
 
 
 

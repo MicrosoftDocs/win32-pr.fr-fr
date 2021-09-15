@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: ea0baef0e01b9fc6dbbd3a553eb28424f02fe45b
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987472"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521572"
 ---
 # <a name="jetcompact-function"></a>JetCompact fonction)
 
@@ -104,7 +104,7 @@ En cas de réussite, la base de données source est copiée dans la base de donn
 
 En cas d’échec, la base de données de destination peut exister, mais n’est pas une copie complète de la base de données source.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Le compactage d’une base de données est également utilisé pour mettre à niveau une base de données d’un format de version antérieure vers une version plus moderne. Un paramètre facultatif est *pconvert*, qui contient une structure qui peut contenir une description d’une dll de version antérieure à utiliser pour la lecture du format de base de données source. cette fonctionnalité a été supprimée dans Windows Server 2003. à la suite de Windows Server 2003, les nouvelles versions de ESE sont toujours en mesure de lire les anciennes versions du format de base de données. par conséquent, cette fonctionnalité n’est pas nécessaire.
 
@@ -114,7 +114,7 @@ Le compactage de base de données est une opération hors connexion. Elle ne peu
 
 La compression de la base de données hors connexion touche chaque bit de données dans une base de données et peut être utilisée pour vérifier la cohérence d’une base de données. Si une base de données est suspecte, elle peut être compactée. Si aucune erreur n’est détectée dans le compactage, il est connu que la base de données est dans un état valide pour ESE.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

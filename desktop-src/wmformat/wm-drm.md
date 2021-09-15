@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3b3c8aaeaa43564d7e4839ed14e99d830ba75ec3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404188"
 ---
 # <a name="wmdrm"></a>WM/DRM
 
@@ -38,9 +38,9 @@ L’attribut **WM/DRM** indique si le contenu a été protégé par la gestion d
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

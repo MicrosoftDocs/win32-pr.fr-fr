@@ -4,12 +4,12 @@ ms.assetid: c04ade90-5f17-4e16-b82b-c99230000954
 title: Utilisation de Active Accessibility pour exposer du texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 247d78149b82d15eb7c2dbd4ac2b2463d53c5d454dcb7877906197661de36ce4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52d475a8c576e109f47be7b5a3d61cddf543038d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119334789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411433"
 ---
 # <a name="using-active-accessibility-to-expose-text"></a>Utilisation de Active Accessibility pour exposer du texte
 

@@ -5,11 +5,11 @@ ms.assetid: 45016619-ed11-4b0c-84e3-f8662553c64d
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a503390468ea5ed1771ece7a942a2d615ac6f0a9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199265"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404485"
 ---
 # <a name="thread-connection-to-a-desktop"></a>Connexion de thread à un bureau
 
@@ -34,6 +34,6 @@ Handles vers un bureau que le système ouvre lors de la connexion d’un process
 [Traiter la connexion à une station Windows](process-connection-to-a-window-station.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

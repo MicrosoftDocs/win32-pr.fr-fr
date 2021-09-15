@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104303
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a8c1fbc417ce5c876216aab886a815c7df2a5c389106418afda6bc19772a322b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10e22b582ac26146eae6a7a29b5207a76b17d551
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521593"
 ---
 # <a name="jet_errinfobasic-properties"></a>Propriétés de la JET_ERRINFOBASIC
 
@@ -65,7 +65,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_ERRINFOBASIC](./jet-errinfobasic-class.md)
 

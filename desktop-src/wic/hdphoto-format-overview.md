@@ -4,12 +4,12 @@ ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: Vue d’ensemble du format photo HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 772c295051186069dd7be1a3efa3bfbb4e6ea919b2ab9fbe77ffd52cad1676a1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 62c526667c6bf77d340e895bdb66dc073134c33d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119881949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411164"
 ---
 # <a name="hd-photo-format-overview"></a>Vue d’ensemble du format photo HD
 

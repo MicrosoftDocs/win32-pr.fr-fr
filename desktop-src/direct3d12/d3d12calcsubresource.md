@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08c704be7087d95d739685bc2823ec1c31a027b4406a3110986220927fdbbffa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e872d13ba5221ad50003d789b87f65fc64821dd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404347"
 ---
 # <a name="d3d12calcsubresource-function"></a>D3D12CalcSubresource fonction)
 
@@ -90,19 +90,19 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
 Index qui est égal à MipSlice + (ArraySlice \* miplevels a).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une mémoire tampon est une ressource non structurée et est donc définie comme contenant une seule sous-ressource. Les API qui prennent des mémoires tampons n’ont pas besoin d’un index de sous-ressources. Une texture en revanche est très structurée. Chaque objet texture peut contenir une ou plusieurs sous-ressources en fonction de la taille du tableau et du nombre de niveaux de mipmap.
 
 Pour les textures de volume (3D), toutes les tranches d’un niveau de mipmap donné sont un index de sous-ressource unique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

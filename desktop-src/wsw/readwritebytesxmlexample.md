@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69b39a5061295afde96d2c0a3622d3121eb58fdb2fd5bdd7a92e8fa72d6eeaf8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8000413cefefc4e0b571e872332560b1b4c8444f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192875"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522829"
 ---
 # <a name="readwritebytesxmlexample"></a>ReadWriteBytesXmlExample
 

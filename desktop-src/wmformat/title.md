@@ -1,5 +1,5 @@
 ---
-title: Titre
+title: Intitulé
 description: L’attribut title contient le titre du contenu dans le fichier.
 ms.assetid: f79336bc-51f0-479b-8f58-938478ea6d4f
 keywords:
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ec10b7c10a8c0c7316c896e2f5dee2fdb713307d52685224787f6f58356b2d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb68bba99212f5cef11cdb3d0e6e2b721ab3552f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084250"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522089"
 ---
-# <a name="title"></a>Titre
+# <a name="title"></a>Intitulé
 
 L’attribut **title** contient le titre du contenu dans le fichier.
 

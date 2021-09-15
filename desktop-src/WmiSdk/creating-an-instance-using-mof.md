@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création d’une instance à l’aide de MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05290fd02de80a905e74eeddeb1a04f316901209a97e0e298d038ac2f8888552
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e5078c5fcddaab4e8437a33e8cb3210d515360fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403879"
 ---
 # <a name="creating-an-instance-using-mof"></a>Création d’une instance à l’aide de MOF
 

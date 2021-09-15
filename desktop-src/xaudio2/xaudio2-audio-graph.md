@@ -4,12 +4,12 @@ ms.assetid: 4fa45dbf-3811-c91c-7561-3b896e9e1f03
 title: Graph audio XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b461b89095152f3f8073a09a230e18f5e30fd7f42ffb60b4c45a32702094f70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0eb265bd6bc2547acd04ca41cceb58ad12896fbf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521965"
 ---
 # <a name="xaudio2-audio-graph"></a>Graph audio XAudio2
 

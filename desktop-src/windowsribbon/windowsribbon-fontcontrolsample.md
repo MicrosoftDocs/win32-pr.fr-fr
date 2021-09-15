@@ -4,12 +4,12 @@ description: cet exemple de code illustre le balisage et le code requis pour imp
 ms.assetid: 8fb84bd1-5e63-447c-b7a0-b3d7cb8c3be7
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 99e7ad587820ac18ce83d673efaa972f0f3b75c4547ddc7e8b4889a0e17e3bcb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52a81a1a1950305437a7bbc68aab95876b3a6374
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202172"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411161"
 ---
 # <a name="fontcontrol-sample"></a>Exemple FontControl
 
@@ -18,11 +18,11 @@ cet exemple de code illustre le balisage et le code requis pour implémenter un 
 - [Utilisation](#usage)
   - [Génération de l'exemple](#building-the-sample)
   - [Exécution de l’exemple](#running-the-sample)
-- [Support technique](#support)
+- [Support](#support)
 - [Configuration minimale requise](#minimum-requirements)
 - [Rubriques connexes](#related-topics)
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 les exemples d’infrastructure du ruban Windows peuvent être téléchargés en tant que projets Microsoft Visual Studio autonomes à partir du [centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=9620) ou installés dans le cadre du [kit de développement logiciel (SDK) Windows](https://developer.microsoft.com/windows/downloads/sdk-archive/).
 
@@ -44,7 +44,7 @@ Pour exécuter l’exemple à partir de la fenêtre de commande de l’environne
 
 Pour exécuter l'exemple compilé avec le débogage dans Visual Studio, appuyez sur F5.
 
-## <a name="support"></a>Assistance
+## <a name="support"></a>Support
 
 le [Forum de développement Windows ruban](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) est disponible pour discuter des sujets et poser des questions relatives au développement d’applications de ruban Windows.
 

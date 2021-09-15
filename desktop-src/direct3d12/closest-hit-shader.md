@@ -12,12 +12,12 @@ api_name:
 - RAY_FLAG
 api_type:
 - NA
-ms.openlocfilehash: 6560ceb072307d52c45fca208bd95c5af2f3c39dd7f51215b5a4ac8a754b3c5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 347ad66dce0a81b929d5dc3c82051bf84226e723
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118808261"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521761"
 ---
 # <a name="closest-hit-shader"></a>Nuanceur de correspondance le plus proche
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8b417bf9434b712903e61839807f71765b2e3c69916430f162a67febe65fc6cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d520625e457a50fe962ae74d6e25fc17e2beb729
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118297042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404066"
 ---
 # <a name="id3dxanimationcontrollergetanimationsetbyname-method"></a>ID3DXAnimationController :: GetAnimationSetByName, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers le jeu d’animations [**ID3DXAnimationSet**](id3dxanimationset.md
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -69,7 +69,7 @@ Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode éc
 
 Le contrôleur d’animation contient un tableau d’ensembles d’animations. Cette méthode retourne un jeu d’animations qui porte le nom donné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

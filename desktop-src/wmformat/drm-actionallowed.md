@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a040e7e6ba1e6288b1d74b49ba96ac26b4343b2f224520a2bbdb021f9a169b91
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 53e7fe57ac9ce0cd8f95d50caf8d267952076459
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119705639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411378"
 ---
 # <a name="drm_actionallowed"></a>\_ACTIONALLOWED DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ ActionAllowed
 
 Aucun type de données.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les propriétés « ActionAllowed » ne sont actuellement pas extensibles.
 

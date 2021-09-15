@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: a4e988f26b64d0d8bd4a23f853b7bf9dc92f2610936239b4363439d5c7d70170
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d3111b74c876cc7ffedb959eca7f46812ed92e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118320806"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404103"
 ---
 # <a name="__instanceoperationevent-class"></a>\_\_InstanceOperationEvent, classe
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **\_ \_ InstanceOperationEvent** est dérivée de [**\_ \_ Event**](--event.md).
 
@@ -132,7 +132,7 @@ Pour plus d’informations sur l’utilisation des événements d’instance WMI
 
 L’exemple de code VBScript d' [événement de processus Monitor](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-411d-aa3f-f98982cd2a2f) sur la Galerie TechNet utilise **\_ \_ InstanceOperationEvent** pour surveiller le premier événement d’instance WMI pour le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

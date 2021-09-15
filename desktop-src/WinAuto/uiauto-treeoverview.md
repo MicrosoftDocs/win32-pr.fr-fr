@@ -10,12 +10,12 @@ keywords:
 - UI Automation, affichage du contenu de l’arborescence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e1b8776f86931882acc85e2fb974ff5d1db0be266be94e391ce242ff2a497e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c76bc9aa6568a3f4d63194d35ff0c7d8f59510c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570396"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403970"
 ---
 # <a name="ui-automation-tree-overview"></a>Vue d’ensemble de l’arborescence UI Automation
 
@@ -87,7 +87,7 @@ Les images suivantes montrent les différences entre l’affichage de contrôle 
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Création de l’objet CUIAutomation](uiauto-creatingcuiautomation.md)

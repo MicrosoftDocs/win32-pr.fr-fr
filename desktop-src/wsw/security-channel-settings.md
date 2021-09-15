@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3d6cef77da7a908598e2150ebf09de13a0899a6910a562335c4a5b91d6cf8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6fcd0b42b2d5581a5b7c489e9ada70f32abfefa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411318"
 ---
 # <a name="security-channel-settings"></a>Paramètres de canal de sécurité
 

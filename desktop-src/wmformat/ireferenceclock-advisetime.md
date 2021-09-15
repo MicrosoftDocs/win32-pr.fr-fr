@@ -16,11 +16,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 3fa91338b4bff8f925f00e7159a36089e0de0aa8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106510853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523036"
 ---
 # <a name="ireferenceclockadvisetime-method"></a>IReferenceClock :: AdviseTime, méthode
 
@@ -72,9 +72,9 @@ Pointeur vers une variable qui reçoit un identificateur pour la demande. Il est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

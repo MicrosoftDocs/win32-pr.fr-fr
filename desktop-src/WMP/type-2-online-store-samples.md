@@ -9,12 +9,12 @@ keywords:
 - exemples, type 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ed0f6cfdd165572e4244bbd3e711c34c9bd666b3ad8c174b44891b3b61e27e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7d5fc8656e63c99afc6d75443a83b159ba1e682
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119762189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403798"
 ---
 # <a name="type-2-online-store-samples"></a>Exemples de magasins en ligne de type 2
 

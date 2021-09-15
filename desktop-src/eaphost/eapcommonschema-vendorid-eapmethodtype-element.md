@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 29508121a9724a52df19038b82d97576a924c3c8bab49ac6801c1de51ec71919
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9091cdbd7620baf6ec5dc893bd2100b2f04585ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120067299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522716"
 ---
 # <a name="vendorid-eapmethodtype-element"></a>Élément ID de l’élément (EapMethodType)
 
@@ -35,11 +35,11 @@ Le **ID** de l’argument est facultatif. S’il est utilisé, le **ID** de cert
 
 L’élément **ID** de type est défini par le type complexe [**EapMethodType**](eapcommonschema-eapmethodtype-complextype.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il n’est pas [**nécessaire que les**](eapcommonschema-authorid-eapmethodtype-element.md) éléments de réfaut de réfaut et **ID** de données soient identiques pour une méthode particulière.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

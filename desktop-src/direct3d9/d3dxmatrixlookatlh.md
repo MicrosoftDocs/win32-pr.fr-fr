@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 32907d972a9f53eafeea4183d7c7152a922f589ec75bd9a1d378a2ed433f02f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94a423e700c4a42e2ae7f7e522d83a5a4bd9bf3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119044837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404319"
 ---
 # <a name="d3dxmatrixlookatlh-function-d3dx9mathh"></a>D3DXMatrixLookAtLH, fonction (D3dx9math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers la structure [**D3DXVECTOR3**](d3dxvector3.md) qui définit le mon
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est une matrice de recherche gauche.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXMatrixLookAtLH** peut être utilisée comme paramètre pour une autre fonction.
 
@@ -105,7 +105,7 @@ yaxis = cross(zaxis, xaxis)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

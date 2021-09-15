@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 5ef0ffdf710d36d2d6c515352bf441e9c66ae169400528db5d5943e2114fefd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 821be7e4abd8d1396befa886093aa197bcdea7f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118440407"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522185"
 ---
 # <a name="iwiaitem2finditembyname-method"></a>IWiaItem2 :: FindItemByName, méthode
 
@@ -68,19 +68,19 @@ Reçoit l’adresse d’un pointeur vers l’interface [**IWiaItem2**](-wia-iwia
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode recherche l’arborescence des sous-éléments de l’élément actuel en utilisant le nom comme clé de recherche. Si **IWiaItem2 :: FindItemByName** trouve l’élément spécifié par *bstrFullItemName*, il stocke l’adresse d’un pointeur vers l’interface [**IWiaItem2**](-wia-iwiaitem2.md) de l’élément dans le paramètre *ppIWiaItem2* .
 
 Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur les pointeurs d’interface qu’elles reçoivent via le paramètre *ppIWiaItem2* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

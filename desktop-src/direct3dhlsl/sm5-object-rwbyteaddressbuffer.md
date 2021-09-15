@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 4d065926b0769e15284cbe705783be012d82554b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381984"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404033"
 ---
 # <a name="rwbyteaddressbuffer"></a>RWByteAddressBuffer
 
@@ -38,11 +38,11 @@ Mémoire tampon de lecture/écriture qui indexe en octets.
 | [**InterlockedMin**](sm5-object-rwbyteaddressbuffer-interlockedmin.md)                         | Rechercher le minimum, atomiquement.           |
 | [**Interverrouiller**](sm5-object-rwbyteaddressbuffer-interlockedor.md)                           | ORs, atomiquement.                    |
 | [**InterlockedXor**](sm5-object-rwbyteaddressbuffer-interlockedxor.md)                         | XORs, atomiquement.                   |
-| [**Load**](rwbyteaddressbuffer-load.md)                                                        | Obtient une valeur.                     |
+| [**Chargera**](rwbyteaddressbuffer-load.md)                                                        | Obtient une valeur.                     |
 | [**Load2**](rwbyteaddressbuffer-load2.md)                                                      | Obtient deux valeurs.                    |
 | [**Load3**](rwbyteaddressbuffer-load3.md)                                                      | Obtient trois valeurs.                  |
 | [**Load4**](rwbyteaddressbuffer-load4.md)                                                      | Obtient quatre valeurs.                   |
-| [**Store**](sm5-object-rwbyteaddressbuffer-store.md)                                           | Définit une valeur.                     |
+| [**Magasin**](sm5-object-rwbyteaddressbuffer-store.md)                                           | Définit une valeur.                     |
 | [**Banque**](sm5-object-rwbyteaddressbuffer-store2.md)                                         | Définit deux valeurs.                    |
 | [**Store3**](sm5-object-rwbyteaddressbuffer-store3.md)                                         | Définit trois valeurs.                  |
 | [**Store4**](sm5-object-rwbyteaddressbuffer-store4.md)                                         | Définit quatre valeurs.                   |
@@ -77,7 +77,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
