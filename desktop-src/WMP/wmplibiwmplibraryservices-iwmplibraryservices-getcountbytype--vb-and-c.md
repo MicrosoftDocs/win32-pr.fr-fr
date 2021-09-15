@@ -3,9 +3,9 @@ title: Méthode IWMPLibraryServices getCountByType
 description: La méthode getCountByType retourne le nombre de bibliothèques disponibles d’un type spécifié.
 ms.assetid: 75f22e21-fbaf-45dc-b64f-1f687a3cf241
 keywords:
-- méthode getCountByType lecteur Windows Media
-- méthode getCountByType lecteur Windows Media, interface IWMPLibraryServices
-- Interface IWMPLibraryServices lecteur Windows Media, méthode getCountByType
+- Lecteur Windows Media de la méthode getCountByType
+- méthode getCountByType Lecteur Windows Media, interface IWMPLibraryServices
+- Lecteur Windows Media de l’interface IWMPLibraryServices, méthode getCountByType
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: efbd874c06c2557102011c63ee1abb895d092656
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413306"
 ---
 # <a name="iwmplibraryservicesgetcountbytype-method"></a>IWMPLibraryServices :: getCountByType, méthode
 
@@ -60,11 +60,11 @@ Valeur de l’énumération **wmplib. WMPLibraryType** qui spécifie le type de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Int32** qui est le nombre de bibliothèques.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

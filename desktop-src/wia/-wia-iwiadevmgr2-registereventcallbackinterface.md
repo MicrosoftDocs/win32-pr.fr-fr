@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: e2658654254257c707d12f4e676aee3371f0ad491dfedeb0637508ca3f33a057
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cd3a7e00cff56bc5d91bfc843ab79fe71aa1123
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965638"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524029"
 ---
 # <a name="iwiadevmgr2registereventcallbackinterface-method"></a>IWiaDevMgr2 :: RegisterEventCallbackInterface, méthode
 
@@ -88,7 +88,7 @@ Reçoit l’adresse d’un pointeur vers l’interface [IUnknown](/windows/win32
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -104,7 +104,7 @@ Retourne les codes d’erreur COM standard ou les éléments suivants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!WARNING]
 > L’utilisation des méthodes [**IWiaDevMgr :: RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface), **IWiaDevMgr2 :: RegisterEventCallbackInterface** et [**devicemanager. RegisterEvent**](/previous-versions/windows/desktop/wiaaut/-wiaaut-idevicemanager-registerevent) à partir du même processus après le redémarrage du service image continue peut entraîner une violation d’accès, si les fonctions ont été utilisées avant l’arrêt du service.
@@ -120,7 +120,7 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

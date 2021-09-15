@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da4a0f292c4693c263115dc1ad59ea3c71946d81838d427e6d8e043ac499709
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 30ec6e16a3cef86a385525a793d73a50c3124e21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413334"
 ---
 # <a name="networkframerate"></a>Réseau. cadence
 
@@ -56,7 +56,7 @@ l’exemple de JScript suivant utilise le *réseau*. **cadence** d’images pour
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

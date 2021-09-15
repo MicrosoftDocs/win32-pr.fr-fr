@@ -4,12 +4,12 @@ ms.assetid: 81a4a52e-610e-45a6-838c-e82c74d92ced
 title: System. PropGroup. Video
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b1e911bb4eea6ff72b1b77594015ef6f2ad1176e6a124bbcff71e6ef104d74a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d12397bf3d9e6e71941f9ea49085a568ec1d0d6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118969931"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411475"
 ---
 # <a name="systempropgroupvideo"></a>System. PropGroup. Video
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

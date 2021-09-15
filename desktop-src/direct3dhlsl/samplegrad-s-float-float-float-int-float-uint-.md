@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e91f2beebd3fb13dfe9e166056611bf1942c176b9fa537910c64ab9ff71c625f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f1909c792863a3b480b6bdec553db58f7ff8492
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118510477"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524560"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatintfloatuint-function-for-texture2d"></a>Fonction SampleGrad :: SampleGrad (S, float, float, float, int, float, uint) pour Texture2D
 
@@ -160,7 +160,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

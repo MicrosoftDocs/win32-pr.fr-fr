@@ -3,12 +3,12 @@ description: Vous pouvez utiliser le registre pour spécifier que la navigation 
 title: Comment ouvrir une vue enracinée d’un point de jonction dans le registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f575d4265a207e97c20f0c2a42456ddbf55cebbe5a0d42664c1fdfa9f5986d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa51e87ccb541e995300cb010f82c79e33112e16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119593159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412478"
 ---
 # <a name="how-to-open-a-rooted-view-of-a-junction-point-through-the-registry"></a>Comment ouvrir une vue enracinée d’un point de jonction dans le registre
 

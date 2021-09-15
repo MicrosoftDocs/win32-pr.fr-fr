@@ -4,12 +4,12 @@ description: Propriété Status
 ms.assetid: vs|msagent|~\pacontrol_8xd6.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6edb1196e5ec41571c9c760b91a72b350b94f6b85f1f85af018691d3f25ecec5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 402e88185e1024aa5958d06936a6529ae4012622
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118245823"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411510"
 ---
 # <a name="status-property"></a>Propriété Status
 

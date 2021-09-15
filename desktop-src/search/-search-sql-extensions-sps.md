@@ -4,12 +4,12 @@ ms.assetid: 136af1ea-452a-491b-bec7-8c45fa01f87f
 title: SQL Extensions dans Microsoft Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c300b0960e97cba14237bd355e33ae7e42788b1925525e60462d15a5d014e6f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 340766d5db99a749e8f508e2dc0bec6a549adfc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118462457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523396"
 ---
 # <a name="sql-extensions-in-microsoft-windows-search"></a>SQL Extensions dans Microsoft Windows Search
 

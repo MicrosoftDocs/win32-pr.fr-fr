@@ -4,12 +4,12 @@ ms.assetid: f43bccce-0f8c-4732-b678-5fd3218a9f84
 title: Droits d’accès standard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56067a4ed31f9506aee0b326e82a9bd5b4b49b02d12e6d401cc04f8262b19da0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bf28fb1ac86a60df373a9f747510b4df624a17eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413469"
 ---
 # <a name="standard-access-rights"></a>Droits d’accès standard
 

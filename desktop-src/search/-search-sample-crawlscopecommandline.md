@@ -5,11 +5,11 @@ title: CrawlScopeCommandLine
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3eb770c44f82af320e2b39fe679b632cf03825e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513191"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523397"
 ---
 # <a name="crawlscopecommandline"></a>CrawlScopeCommandLine
 
@@ -23,7 +23,7 @@ Cette rubrique contient les sections suivantes.
 - [Exécution de l’exemple](#running-the-sample)
 - [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Produit     | Version du produit          |
 |-------------|--------------------------|
@@ -39,22 +39,22 @@ Cet exemple est disponible à l’emplacement suivant.
 | GitHub   |    [Exemple CrawlScopeCommandLine](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/CrawlScopeCommandLine)|
 
 > [!NOTE]  
-> Pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
+> pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
 
 ## <a name="building-the-sample"></a>Génération de l'exemple
 
-1. Ouvrez l’Explorateur Windows et accédez au répertoire du projet **CrawlScopeCommandLine** .
+1. ouvrez Windows Explorer et accédez au répertoire du projet **CrawlScopeCommandLine** .
 2. Double-cliquez sur l’icône du fichier csmcmd. sln pour ouvrir le projet dans Visual Studio.
   
     > [!NOTE]  
-    > Le fichier sln a été créé sous une version antérieure de Visual Studio. par conséquent, la mise à niveau est requise si vous exécutez Visual Studio 2012 ou une version plus récente. Cela n’aura pas d’impact sur le comportement de l’exemple.
+    > le fichier sln a été créé sous une version antérieure de Visual Studio. par conséquent, la mise à niveau est requise si vous exécutez Visual Studio 2012 ou une version ultérieure. Cela n’aura pas d’impact sur le comportement de l’exemple.
 
-3. Dans le menu **générer** , sélectionnez **générer la solution**.
+3. Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1. Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de l’Explorateur Windows.
-2. À l’invite de commandes, entrez `csmcmd.exe` , ou à partir de l’Explorateur Windows, double-cliquez sur l’icône de csmcmd.exe.
+1. accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de Windows Explorer.
+2. à l’invite de commandes, entrez `csmcmd.exe` ou dans Windows Explorer, double-cliquez sur l’icône de csmcmd.exe.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

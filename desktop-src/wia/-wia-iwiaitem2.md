@@ -14,15 +14,15 @@ api_type:
 api_location:
 - Wia.h
 ms.openlocfilehash: 2150b726e6dcdfdeb150de48c78a7a0b2f2ee3e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862678"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524001"
 ---
 # <a name="iwiaitem2-interface"></a>Interface IWiaItem2
 
-L’interface **IWiaItem2** fournit aux applications les mêmes fonctionnalités que l’interface [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) (la capacité à interroger des appareils pour découvrir leurs fonctionnalités, à accéder aux interfaces de transfert de données et aux propriétés d’élément, et à contrôler l’appareil). Il fournit également à l’application la possibilité de créer et d’utiliser dynamiquement des filtres de traitement d’images qui peuvent être des extensions des pilotes de périphériques WIA (Windows Image Acquisition) 2,0 fournis dans Windows Vista.
+L’interface **IWiaItem2** fournit aux applications les mêmes fonctionnalités que l’interface [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) (la capacité à interroger des appareils pour découvrir leurs fonctionnalités, à accéder aux interfaces de transfert de données et aux propriétés d’élément, et à contrôler l’appareil). il fournit également à l’application la possibilité de créer et d’utiliser dynamiquement des filtres de traitement d’images qui peuvent être des extensions des pilotes de périphériques de l’acquisition d’images Windows (WIA) 2,0 fournis dans Windows Vista.
 
 ## <a name="members"></a>Membres
 
@@ -61,7 +61,7 @@ L’interface **IWiaItem2** possède ces méthodes.
 
 ## <a name="remarks"></a>Notes
 
-L’arborescence d’éléments WIA 2,0 qu’une application peut voir est distincte de l’arborescence qui est créée et gérée par un minipilote WIA 2,0. Lorsqu’un minipilote crée une arborescence d’éléments, le service WIA 2,0 utilise cette arborescence d’éléments WIA 2,0 comme guide pour créer des copies identiques qui peuvent être affichées par les applications de création d’images. Les éléments de l’arborescence copiée sont appelés éléments d’application. Les éléments de l’arborescence créés par un minipilote sont appelés éléments de pilote. Dans Windows Vista, les arborescences d’éléments WIA 2,0 sont générées d’objets **IWiaItem2** , chacun d’eux implémentant l’interface **IWiaItem2** ).
+L’arborescence d’éléments WIA 2,0 qu’une application peut voir est distincte de l’arborescence qui est créée et gérée par un minipilote WIA 2,0. Lorsqu’un minipilote crée une arborescence d’éléments, le service WIA 2,0 utilise cette arborescence d’éléments WIA 2,0 comme guide pour créer des copies identiques qui peuvent être affichées par les applications de création d’images. Les éléments de l’arborescence copiée sont appelés éléments d’application. Les éléments de l’arborescence créés par un minipilote sont appelés éléments de pilote. dans Windows Vista, les arborescences d’éléments WIA 2,0 sont générées d’objets **IWiaItem2** , chacun d’eux implémentant l’interface **IWiaItem2** ).
 
 L’interface **IWiaItem2** , comme toutes les interfaces COM (Component Object Model), hérite des méthodes d’interface [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) .
 
@@ -77,14 +77,14 @@ L’interface **IWiaItem2** , comme toutes les interfaces COM (Component Object 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

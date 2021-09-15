@@ -3,12 +3,12 @@ description: les Applications, les processus et les fenêtres peuvent choisir de
 title: Comment exclure des éléments de l’épinglage de la barre des tâches et des listes récentes/fréquentes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3adb60353836e436f4327837c30448c7628a435048cc2a41b0464d56341f410
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af7f32ad641832703804f94b8cc28f47ea9cabb2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118223563"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412491"
 ---
 # <a name="how-to-exclude-items-from-taskbar-pinning-and-recentfrequent-lists"></a>Comment exclure des éléments de l’épinglage de la barre des tâches et des listes récentes/fréquentes
 
@@ -51,7 +51,7 @@ Il existe trois mécanismes pour accomplir l’exclusion des éléments de l’�
 
     Chaque entrée est une valeur **reg \_ null** avec le nom de AppUserModelID. Toute AppUserModelID trouvée dans cette liste n’est pas regroupement et n’est pas éligible pour l’inclusion dans la liste des listes les plus fréquemment dans le menu **Démarrer** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’oubliez pas que certains fichiers exécutables, ainsi que les raccourcis contenant certaines chaînes dans leurs noms, sont automatiquement exclus de l’épinglage et de l’inclusion dans la liste des MFU.
 
@@ -70,8 +70,8 @@ Si l’une des chaînes suivantes, quelle que soit la casse, est incluse dans le
 -   Lire en premier
 -   Fichier Lisezmoi
 -   Supprimer
--   Installation
--   Assistance
+-   Programme d’installation
+-   Support
 -   Nouveautés
 
 La liste de programmes suivante n’est pas regroupement et est exclue de la liste des plus fréquemment utilisées :

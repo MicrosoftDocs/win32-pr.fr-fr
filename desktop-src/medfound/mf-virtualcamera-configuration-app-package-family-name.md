@@ -4,11 +4,11 @@ title: Attribut MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME (Mfapi. h)
 ms.topic: reference
 ms.date: 05/24/2021
 ms.openlocfilehash: e821a273c44b1d5c9e654e34bbfb928ea707cdc0
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691860"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523604"
 ---
 # <a name="mf_virtualcamera_app_package_family_name-attribute"></a>\_Attribut de \_ \_ nom de famille de package d’application VIRTUALCAMERA \_ MF \_
 
@@ -25,7 +25,7 @@ Cet attribut peut être exposé par la source de média personnalisée de la cam
 Si l’application de configuration n’est pas encore installée sur l’ordinateur, l’application du Windows Store est lancée et naviguée vers la page d’application spécifiée par le nom de la famille de packages. Dans le cas contraire, l’application installée sera lancée pour l’utilisateur.
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

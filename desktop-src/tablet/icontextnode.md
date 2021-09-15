@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 9e6ca9e65b7c14f1df3af00acece8e2ba37c85d6a2193989ab232839f1863c32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2dbc9d7a0c1cc6ededf5d59585c806b54d6cfa32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119713463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525332"
 ---
 # <a name="icontextnode-interface"></a>Interface IContextNode
 
@@ -40,7 +40,7 @@ L’interface **IContextNode** possède ces méthodes.
 |:----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddContextLink**](icontextnode-addcontextlink.md)                                   | Ajoute un nouveau [**IContextLink**](icontextlink.md) à la collection de liens de contexte de l’objet **IContextNode** .<br/>                                                                                                          |
 | [**AddPropertyData**](icontextnode-addpropertydata.md)                                 | Ajoute un élément de données spécifiques à l’application.<br/>                                                                                                                                                                         |
-| [**Confirmer**](icontextnode-confirm.md)                                                 | Modifie le type de confirmation, qui contrôle ce que l’objet [**IInkAnalyzer**](iinkanalyzer.md) peut modifier à propos du **IContextNode**.<br/>                                                                         |
+| [**Répond**](icontextnode-confirm.md)                                                 | Modifie le type de confirmation, qui contrôle ce que l’objet [**IInkAnalyzer**](iinkanalyzer.md) peut modifier à propos du **IContextNode**.<br/>                                                                         |
 | [**ContainsPropertyData**](icontextnode-containspropertydata.md)                       | Détermine si l’objet **IContextNode** contient des données stockées sous l’identificateur spécifié.<br/>                                                                                                                |
 | [**CreatePartiallyPopulatedSubNode**](icontextnode-createpartiallypopulatedsubnode.md) | Crée un objet **IContextNode** enfant qui contient uniquement des informations sur le type, l’identificateur et l’emplacement.<br/>                                                                                                          |
 | [**CreateSubNode**](icontextnode-createsubnode.md)                                     | Crée un nouvel objet **IContextNode** enfant.<br/>                                                                                                                                                                       |
@@ -76,7 +76,7 @@ L’interface **IContextNode** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les types de nœuds sont décrits dans les constantes de [type de nœud de contexte](context-node-types.md) .
 
@@ -192,7 +192,7 @@ HRESULT CMyClass::ExploreContextNode(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

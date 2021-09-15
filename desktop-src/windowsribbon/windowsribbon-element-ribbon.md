@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 70841866ec656dc840fb467d598cc42bf919283b
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523984"
 ---
 # <a name="ribbon-element"></a>Élément Ribbon
 
@@ -57,13 +57,13 @@ Représente le contrôle de ruban dans la vue du ruban.
 <tr class="odd">
 <td><strong>GroupSpacing</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td><dt><span></span><span></span><strong></strong> Small<br/> </dt> <dd> Par défaut. <br/> </dd> <dt><span></span><span></span><strong></strong> Médias<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Conséquent<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Nom</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Utilisé pour annoter l’élément Command.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Toute séquence de zéro ou plusieurs caractères.<br/> La longueur maximale est illimitée.<br/> </dd> </dl></td>
 </tr>

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 09ace233291d5eac285ac1115866a54cb9792c85aefbb8faa5a2d1f6c37393e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef2f502d30116def68aa43269b3020d404ce177d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412341"
 ---
 # <a name="shelllinkobjectgeticonlocation-method"></a>Méthode ShellLinkObject. GetIconLocation
 
@@ -48,7 +48,7 @@ Lorsque cette méthode est retournée, elle contient le chemin d’accès qualif
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **entier \***
 
@@ -169,7 +169,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

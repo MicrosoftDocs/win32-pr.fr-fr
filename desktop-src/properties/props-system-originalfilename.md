@@ -4,12 +4,12 @@ ms.assetid: 54c0ebd1-d270-4e8b-88e6-d58698ddd208
 title: System. OriginalFileName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 477d0ed56873b71e9f7cbe71bb59aa28500385ea529e1e51466dbf853cd8ca59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5adeb0f9920698bd3b6896559a79081aa51382b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118970178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412747"
 ---
 # <a name="systemoriginalfilename"></a>System. OriginalFileName
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

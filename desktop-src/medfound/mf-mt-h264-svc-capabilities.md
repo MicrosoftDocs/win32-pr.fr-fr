@@ -4,12 +4,12 @@ ms.assetid: B727D9D2-6126-41F8-A27A-743640FE3AE4
 title: Attribut MF_MT_H264_SVC_CAPABILITIES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09e99e1739b7c39d884165f56c54f87128fdf2cc02fbaab75dff15a4d21f1656
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35a39b5f1727af8399d9d0c56c93d2d9d1486c30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412977"
 ---
 # <a name="mf_mt_h264_svc_capabilities-attribute"></a>\_Attribut des capacités MF MT \_ H264 – \_ SVC \_
 
@@ -29,13 +29,13 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur correspond au champ **bmSVCCapabilities** dans le descripteur de trame vidéo 1,5 UVC H. 264.
 
 Cet attribut est également utilisé avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

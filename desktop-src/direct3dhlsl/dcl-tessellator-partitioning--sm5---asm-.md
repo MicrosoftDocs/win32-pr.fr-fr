@@ -4,12 +4,12 @@ description: Déclarez le partitionnement du paveur dans une section de déclara
 ms.assetid: 6EA00C6B-A0DE-4CE4-8B52-1337CA92CA5E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae40873db4042e568ae637634e75db6f4746985a316bf9c1e092e6b0925b51b2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c6f6091301f95dd2364debec2bf54c0966c0e64
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120068499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524741"
 ---
 # <a name="dcl_tessellator_partitioning-sm5---asm"></a>\_ \_ partitionnement de du paveur DCL (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclarez le partitionnement du paveur dans une section de déclaration de nuanc
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Du point de vue matériel, \_ pow2 se comporte comme un \_ entier. C’est à l’auteur du nuanceur HLSL et/ou compilercode d’arrondir les TessFactors aux puissances de 2.
 
@@ -42,7 +42,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme                 | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme                 | Domain | Géométrie | Pixel | Compute |
 |--------|----------------------|--------|----------|-------|---------|
 |        | Section déclarations |        |          |       |         |
 
@@ -56,9 +56,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

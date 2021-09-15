@@ -4,12 +4,12 @@ ms.assetid: 6180e54e-4bd9-4692-83fd-f3f7f1d8f8d7
 title: Variables d’environnement utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41bbe37cdbe7dd82268b2166ed625a9baf1d2502df4c26208bca51a89cd782df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf4f898c7a9135c0421fdd67a7bed1d97655556f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857041"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525348"
 ---
 # <a name="user-environment-variables"></a>Variables d’environnement utilisateur
 

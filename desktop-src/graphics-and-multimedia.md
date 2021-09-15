@@ -4,12 +4,12 @@ ms.assetid: 516c969c-9f31-4f00-ac8c-140fdded72e1
 title: 'Graphismes et jeux '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67534a46efb514c07f6bd9068687ebdda674725f0636ddb41c73e6b331ae57b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b46cc79c489864c5299bf524b6447c43f45124b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411515"
 ---
 # <a name="graphics-and-gaming"></a>Graphismes et jeux 
 

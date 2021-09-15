@@ -4,12 +4,12 @@ ms.assetid: 21b76829-01c4-4228-a714-6319e5eb1c61
 title: élément namespaceDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76cb403e996dfec949668587740b06ce7ef01beffe9e8dbb77179ce1962da243
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e98d9c0cf1556e21d92fe7ea1ba222e861f00ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119130681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413264"
 ---
 # <a name="namespacedeclarations-element"></a>élément namespaceDeclarations
 
@@ -39,7 +39,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les tables d’espaces de noms sont référencées par les tables de type et d’autres codes générés, donc cet élément est utilisé pour générer des fichiers include.
 

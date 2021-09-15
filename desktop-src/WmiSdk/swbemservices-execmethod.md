@@ -1,8 +1,8 @@
 ---
-description: SWbemServices.Exeméthode cMethod-exécute une méthode exportée par un fournisseur de méthode.
+description: SWbemServices. ExecMethod, méthode-exécute une méthode exportée par un fournisseur de méthode.
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.tgt_platform: multiple
-title: SWbemServices.Exeméthode cMethod (wbemdisp. h)
+title: SWbemServices. ExecMethod, méthode (wbemdisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: e8cce3f7f190ded1b86fef5ea5b43016d5f8b08ebc9c1e5483280a2b4305200a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 452c42c37e8dcb9f2b37b660b1f8899e587b5579
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995595"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403467"
 ---
-# <a name="swbemservicesexecmethod-method"></a>SWbemServices.Exeméthode cMethod
+# <a name="swbemservicesexecmethod-method"></a>SWbemServices. ExecMethod, méthode
 
 La méthode **ExecMethod** de l’objet [**SWbemServices**](swbemservices.md) exécute une méthode qui est exportée par un fournisseur de méthode. Cette méthode bloque pendant l’exécution de la méthode qui est transférée au fournisseur approprié. Les informations et l’État sont ensuite renvoyés. Au lieu de WMI, le fournisseur implémente la méthode.
 
@@ -85,7 +85,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, un objet [**SWbemObject**](swbemobject.md) est retourné. L’objet retourné contient les paramètres de sortie et la valeur de retour pour la méthode en cours d’exécution.
 
@@ -137,9 +137,9 @@ L’utilisateur actuel n’a pas été autorisé à exécuter la méthode.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Utilisez **SWbemServices.ExecMethod** comme alternative à l’accès direct pour l’exécution d’une [*méthode de fournisseur*](gloss-p.md) dans les cas où il n’est pas possible d’exécuter une méthode directement. La méthode **ExecMethod** vous permet d’obtenir des paramètres de sortie, si le fournisseur les fournit, à l’aide d’un langage de script qui ne prend pas en charge les paramètres de sortie. Dans le cas contraire, les méthodes recommandées pour appeler une méthode consiste à utiliser l’accès direct. Pour plus d’informations, consultez [manipulation d’informations sur les classes et les instances](manipulating-class-and-instance-information.md).
+Utilisez **SWbemServices. ExecMethod** comme alternative à l’accès direct pour l’exécution d’une [*méthode de fournisseur*](gloss-p.md) dans les cas où il n’est pas possible d’exécuter une méthode directement. La méthode **ExecMethod** vous permet d’obtenir des paramètres de sortie, si le fournisseur les fournit, à l’aide d’un langage de script qui ne prend pas en charge les paramètres de sortie. Dans le cas contraire, les méthodes recommandées pour appeler une méthode consiste à utiliser l’accès direct. Pour plus d’informations, consultez [manipulation d’informations sur les classes et les instances](manipulating-class-and-instance-information.md).
 
 Par exemple, l’exemple de code suivant qui appelle la méthode du fournisseur [**StartService**](/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) dans le [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service) utilise l’accès direct.
 
@@ -151,7 +151,7 @@ iStatus = oService.StartService()
 
 
 
-Cet exemple appelle **SWbemServices.ExecMethod** pour exécuter la méthode [**StartService**](/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) . Notez qu’un chemin d’accès à l’objet est requis, car **SWbemServices.ExecMethod** ne fonctionne pas déjà sur l’objet, contrairement à [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md).
+Cet exemple appelle **SWbemServices. ExecMethod** pour exécuter la méthode [**StartService**](/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) . Notez qu’un chemin d’accès à un objet est requis car **SWbemServices. ExecMethod** ne fonctionne pas déjà sur l’objet, contrairement à [**SWbemObject. ExecMethod**](swbemobject-execmethod-.md).
 
 
 ```VB
@@ -163,11 +163,11 @@ WbemServices.ExecMethod oPath, "StartService"
 
 
 
-La méthode **SWbemServices.ExecMethod** requiert un chemin d’accès à un objet. Si le script contient déjà un objet [**SWbemObject**](swbemobject.md) , utilisez la méthode [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md) .
+La méthode **SWbemServices. ExecMethod** requiert un chemin d’accès à l’objet. Si le script contient déjà un objet [**SWbemObject**](swbemobject.md) , utilisez la méthode [**SWbemObject. ExecMethod**](swbemobject-execmethod-.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre la méthode **ExecMethod** . le script crée un [**objet \_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) qui représente un processus en cours d’exécution Bloc-notes. Il illustre la configuration d’un objet [**Parameters**](swbemmethod-inparameters.md) et l’obtention des résultats d’un objet de [**paramètres de paramètres**](swbemmethod-outparameters.md) . Pour obtenir un script qui montre les mêmes opérations exécutées de façon asynchrone, consultez [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md). Pour obtenir un exemple d’utilisation de l’accès direct, consultez [créer une méthode dans la classe \_ processus Win32](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). Pour obtenir un exemple de la même opération à l’aide d’un [**SWbemObject**](swbemobject.md), consultez [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md).
+L’exemple suivant illustre la méthode **ExecMethod** . le script crée un [**objet \_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) qui représente un processus en cours d’exécution Bloc-notes. Il illustre la configuration d’un objet [**Parameters**](swbemmethod-inparameters.md) et l’obtention des résultats d’un objet de [**paramètres de paramètres**](swbemmethod-outparameters.md) . Pour obtenir un script qui affiche les mêmes opérations exécutées de façon asynchrone, consultez [**SWbemServices. ExecMethodAsync**](swbemservices-execmethodasync.md). Pour obtenir un exemple d’utilisation de l’accès direct, consultez [créer une méthode dans la classe \_ processus Win32](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). Pour obtenir un exemple de la même opération à l’aide d’un [**SWbemObject**](swbemobject.md), consultez [**SWbemObject. ExecMethod**](swbemobject-execmethod-.md).
 
 
 ```VB
@@ -236,7 +236,7 @@ End If
 [**M**](swbemservices.md)
 </dt> <dt>
 
-[**SWbemObject.ExecMethod\_**](swbemobject-execmethod-.md)
+[**SWbemObject. ExecMethod\_**](swbemobject-execmethod-.md)
 </dt> <dt>
 
 [Appel d’une méthode de fournisseur](calling-a-provider-method.md)

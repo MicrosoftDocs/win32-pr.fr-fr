@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6981ef4134bbce17cbc7fa1e17de4d55de198572716ac39cbdd44b5e552e7f99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c7a5251aaf410d7224b87b9ee9a8f0e8a0c947e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118791635"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523912"
 ---
 # <a name="lerp"></a>lerp
 
@@ -66,7 +66,7 @@ Résultat de l’interpolation linéaire.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interpolation linéaire est basée sur la formule suivante : x \* (1-s) + y \* s qui peut être écrit de façon équivalente sous la forme x + s (y-x).
 
@@ -76,9 +76,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Pris en charge                   |
+| Modèle de nuanceur                                                                       | Prise en charge                   |
 |------------------------------------------------------------------------------------|-----------------------------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui                         |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui                         |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Oui (vs \_ 1 1 \_ et PS \_ 1 \_ 1) |
 
 

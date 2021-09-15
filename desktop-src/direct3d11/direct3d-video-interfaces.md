@@ -1,19 +1,19 @@
 ---
 title: Interfaces vidéo Direct3D
-description: Cette rubrique répertorie les interfaces vidéo Direct3D disponibles dans Direct3D 9Ex et qui sont prises en charge sur Windows 7 et les versions ultérieures des systèmes d’exploitation clients Windows et sur Windows Server 2008 R2 et les versions ultérieures des systèmes d’exploitation Windows Server.
+description: cette rubrique répertorie les interfaces vidéo direct3d disponibles dans direct3d 9ex et qui sont prises en charge sur Windows 7 et les versions ultérieures de Windows systèmes d’exploitation clients et sur Windows server 2008 R2 et versions ultérieures des systèmes d’exploitation Windows server.
 ms.assetid: 922AC983-B9C0-494C-BADD-CEF20931FC26
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 95d20c86e172308d4be6f4c6218a110f49b033ee
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403388"
 ---
 # <a name="direct3d-video-interfaces"></a>Interfaces vidéo Direct3D
 
-Cette rubrique répertorie les interfaces vidéo Direct3D disponibles dans Direct3D 9Ex et qui sont prises en charge sur Windows 7 et les versions ultérieures des systèmes d’exploitation clients Windows et sur Windows Server 2008 R2 et les versions ultérieures des systèmes d’exploitation Windows Server. Vous pouvez utiliser ces interfaces et leurs méthodes pour obtenir les fonctionnalités de protection du contenu vidéo du pilote graphique et les fonctionnalités matérielles de superposition d’un appareil Direct3D. Vous pouvez également utiliser ces interfaces et leurs méthodes pour protéger le contenu vidéo. Ces interfaces et leurs méthodes sont définies dans d3d9. h et décrites dans la section [Microsoft Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) .
+cette rubrique répertorie les interfaces vidéo direct3d disponibles dans direct3d 9ex et qui sont prises en charge sur Windows 7 et les versions ultérieures de Windows systèmes d’exploitation clients et sur Windows server 2008 R2 et versions ultérieures des systèmes d’exploitation Windows server. Vous pouvez utiliser ces interfaces et leurs méthodes pour obtenir les fonctionnalités de protection du contenu vidéo du pilote graphique et les fonctionnalités matérielles de superposition d’un appareil Direct3D. Vous pouvez également utiliser ces interfaces et leurs méthodes pour protéger le contenu vidéo. Ces interfaces et leurs méthodes sont définies dans d3d9. h et décrites dans la section [Microsoft Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) .
 
 
 

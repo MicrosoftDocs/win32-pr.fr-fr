@@ -4,12 +4,12 @@ ms.assetid: 0a087125-c9d4-460a-8153-3e2e26633ac2
 title: Vue d’ensemble de l’initialisation de la restauration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c531e4b47c49e5bd5538ea30583a31273bb6645a445ef1b1ea851bac539411c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6eb62e5282a74e38cd53d36c8ba004f4b8069746
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117751688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413365"
 ---
 # <a name="overview-of-restore-initialization"></a>Vue d’ensemble de l’initialisation de la restauration
 

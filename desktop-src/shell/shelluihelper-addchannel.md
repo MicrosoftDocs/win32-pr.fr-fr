@@ -1,5 +1,5 @@
 ---
-description: Ajoute un nouveau canal à la liste de canaux dans le menu Favoris de Windows Internet Explorer et à la barre de canaux sur le bureau.
+description: ajoute un nouveau canal à la liste de canaux dans le Windows menu favoris d’Internet Explorer et à la barre de canaux sur le bureau.
 title: Méthode ShellUIHelper. AddChannel (exdisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,18 +14,18 @@ api_location:
 - Shell32.dll
 ms.assetid: b62e6e82-429a-4d41-96d4-cba639b611f5
 ms.openlocfilehash: d08c1360cb2a96fbc7b87daecb650bbf46aa6ad9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525357"
 ---
 # <a name="shelluihelperaddchannel-method"></a>Méthode ShellUIHelper. AddChannel
 
-Ajoute un nouveau canal à la liste de canaux dans le menu **favoris** de Windows Internet Explorer et à la barre de **canaux** sur le bureau.
+ajoute un nouveau canal à la liste de canaux dans le Windows menu **favoris** d’Internet Explorer et à la barre de **canaux** sur le bureau.
 
 > [!Note]  
-> Cette méthode n’est plus prise en charge sous Windows Vista. Dans ce système d’exploitation, il renvoie E \_ NOTIMPL.
+> cette méthode n’est plus prise en charge sous Windows Vista. Dans ce système d’exploitation, il renvoie E \_ NOTIMPL.
 
  
 
@@ -60,9 +60,9 @@ Valeur de **chaîne** qui spécifie l’URL du fichier CDF.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript Embedded en HTML et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte de cette méthode pour JScript incorporée en HTML et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -113,7 +113,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Exdisp. h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 4,71 ou ultérieure)</dt> </dl> |

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103431
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c1d7a67deea257b073c6bd5135f2bb9da99f5ecc93497338557dccf485ccec6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ecb132cd3fa3a313889c0a9a92fe6761da3b1cf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118767872"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413166"
 ---
 # <a name="jet_conditionalcolumn-members"></a>Membres JET_CONDITIONALCOLUMN
 
@@ -131,7 +131,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-class.md)
 

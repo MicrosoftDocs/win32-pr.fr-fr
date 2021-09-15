@@ -5,11 +5,11 @@ ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: ba8c67716e6b30fcc32651c8932363310926e6bf
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412226"
 ---
 # <a name="menus-design-basics"></a>Menus (concepts de base de la conception)
 
@@ -241,7 +241,7 @@ Copier
 Coller  
 &lt;separator&gt;  
 </dl> </dd> <dd>Paramètres d’objet<dl> &lt;separator&gt;  
-</dl> </dd> Commandes de l’objet<dl> Supprimer  
+</dl> </dd> Commandes de l’objet<dl> DELETE  
 Renommer  
 &lt;separator&gt;  
 Propriétés  
@@ -426,7 +426,7 @@ Couper
 Copier  
 Coller  
 &lt;separator&gt;  
-Supprimer  
+DELETE  
 Renommer  
 &lt;separator&gt;  
 Verrouiller <object name> (coche)  

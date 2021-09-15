@@ -4,12 +4,12 @@ ms.assetid: cec912ee-1645-47e1-8988-626719549e55
 title: Exemple d’effacement d’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b56885835a2d42c3f4c050938658cfc7cdf5a5d5463309ae2f0a6d8021c817e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46040781d778f936815e57ba96b4ca516617d9a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523228"
 ---
 # <a name="ink-erasing-sample"></a>Exemple d’effacement d’encre
 

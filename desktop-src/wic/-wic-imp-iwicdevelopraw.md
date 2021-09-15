@@ -4,12 +4,12 @@ ms.assetid: 08371790-b23b-4d2e-9aea-b2c95c854401
 title: Implémentation de IWICDevelopRaw
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68a78705fcfb53651d1099d01d17d9ddff554df9632a5cc322db229bc04d38d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 683dc2baf0496694943b7640d3f3ed521dc477a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965008"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412224"
 ---
 # <a name="implementing-iwicdevelopraw"></a>Implémentation de IWICDevelopRaw
 
@@ -295,7 +295,7 @@ WICRawChangeNotification_RenderMode
 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation de IWICBitmapSourceTransform](-wic-imp-iwicbitmapsourcetransform.md)

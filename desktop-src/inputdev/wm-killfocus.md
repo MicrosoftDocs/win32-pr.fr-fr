@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 644ea7d82a2ae3f316985a882c284d77f3869a75341142d4372b612d66ada1ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0e3bba54f2cdb500ba2ba691ffd30419d5beff1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118757453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413108"
 ---
 # <a name="wm_killfocus-message"></a>\_Message WM KILLFOCUS
 
@@ -50,17 +50,17 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si une application affiche un signe insertion, le point d’insertion doit être détruit à ce stade.
 
 Lors du traitement de ce message, n’effectuez pas d’appels de fonction qui affichent ou activent une fenêtre. Cela amène le thread à donner le contrôle et peut entraîner l’arrêt de la réponse de l’application aux messages. Pour plus d’informations, consultez [blocage des messages](/windows/desktop/winmsg/about-messages-and-message-queues).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -85,7 +85,7 @@ Lors du traitement de ce message, n’effectuez pas d’appels de fonction qui a
 [**WM \_ SetFocus**](wm-setfocus.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

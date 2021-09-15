@@ -4,12 +4,12 @@ ms.assetid: 37a93c67-02f2-4c4e-a000-2bb98e0ca948
 title: Écriture de modules personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a2c9c07c074be48218d775acd75926ffbd4b7f04b1d6fc53a440dcc1e898c50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92247cd6b975bac520032dcc3aada1328f7b6c2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117970612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413440"
 ---
 # <a name="writing-custom-modules"></a>Écriture de modules personnalisés
 

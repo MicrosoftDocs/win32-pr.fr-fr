@@ -5,11 +5,11 @@ title: Attribut MF_MT_MPEG_START_TIME_CODE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 73b19a041dbcd791359d704b407445779927d0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530636"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524245"
 ---
 # <a name="mf_mt_mpeg_start_time_code-attribute"></a>Attribut de code de l' \_ heure de début du MPEG MF MT \_ \_ \_ \_
 
@@ -19,7 +19,7 @@ Code d’heure de début de groupe d’images (GOP) pour un type de média vidé
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut correspond au membre **dwStartTimeCode** des structures [**MPEG1VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo) et [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) .
 
@@ -31,8 +31,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

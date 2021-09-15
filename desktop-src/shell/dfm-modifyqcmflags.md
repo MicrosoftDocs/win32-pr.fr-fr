@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 62ce86426b31abfb6dec67d7ee45b01a8bc47ba10c40ce9ed00051dd414a0ffd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff90cfb0e0297e7d3276f00f314fce865920663a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119223589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412553"
 ---
 # <a name="dfm_modifyqcmflags-message"></a>\_Message DFM MODIFYQCMFLAGS
 
@@ -55,7 +55,7 @@ Indicateurs qui spécifient comment le menu contextuel peut être modifié. Ce p
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

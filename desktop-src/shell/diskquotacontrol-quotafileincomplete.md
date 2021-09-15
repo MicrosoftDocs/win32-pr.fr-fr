@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9556b6a2cca3aa2ab040a3cfb81b29c8578d4d544c8d51af6ad70a0d601d63cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: feb9365a6aa541ed8461bbe6d58c77ebc3684b91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032777"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525420"
 ---
 # <a name="diskquotacontrolquotafileincomplete-property"></a>DiskQuotaControl. QuotaFileIncomplete, propriété
 
@@ -39,7 +39,7 @@ bQuotaFileIncomplete = DiskQuotaControl.QuotaFileIncomplete
 
 Cette propriété a la valeur **true** si le fichier de quota est incomplet, ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

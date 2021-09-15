@@ -4,12 +4,12 @@ ms.assetid: f5fa5c10-8f30-43bd-8054-a39996f807a3
 title: Attribut MF_TOPONODE_SEQUENCE_ELEMENTID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e00af7212013d26c51ecdf7d2ea4a22855f9b52524c5188d3514d34b5d6976b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a3cd2c66c40a0bc3776d2fd2b7d78535cf24b6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118739934"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523617"
 ---
 # <a name="mf_toponode_sequence_elementid-attribute"></a>\_ \_ Attribut ELEMENTID de séquence TOPONODE MF \_
 
@@ -19,7 +19,7 @@ Spécifie l’élément qui contient ce nœud source.
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux nœuds sources (**\_ \_ \_ nœud SOURCESTREAM de topologie MF**).
 
@@ -36,7 +36,7 @@ Une source de média qui peut fournir des topologies doit implémenter l’inter
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f73ab4e252386f790f74741053012239d0219b1e296e392146894f906e1556f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff361b4c6d34f63e86e3d8458bff4d3308cae29f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118115916"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413310"
 ---
 # <a name="iwmpclosedcaption2samistylecount-property"></a>IWMPClosedCaption2 :: SAMIStyleCount, propriété
 
@@ -48,11 +48,11 @@ Public ReadOnly Property SAMIStyleCount As System.Int32
 
 **System. Int32** qui correspond au nombre de styles.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété retourne la valeur 0, sauf si un fichier multimédia numérique est ouvert (AxWindowsMediaPlayer. openState est égal à 13).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

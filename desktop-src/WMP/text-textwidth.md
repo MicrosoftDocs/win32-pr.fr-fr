@@ -3,7 +3,7 @@ title: TEXT. textWidth
 description: L’attribut textWidth récupère la largeur en pixels du texte contenu dans l’attribut value.
 ms.assetid: 46c34659-f441-467c-8846-45785f7a2736
 keywords:
-- TEXT. textWidth lecteur Windows Media
+- TEXT. textWidth Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 17ce93517837aecf737336137df3cf5d8bf292dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520954"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412215"
 ---
 # <a name="texttextwidth"></a>TEXT. textWidth
 
@@ -37,7 +37,7 @@ La valeur retournée est basée sur les attributs **fontFace**, **FontSize** et 
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

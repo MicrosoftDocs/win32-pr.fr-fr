@@ -4,12 +4,12 @@ ms.assetid: 32FEBC99-0AE0-4FE9-90AB-5FB204BD4C83
 title: Attribut MF_SOURCE_STREAM_SUPPORTS_HW_CONNECTION (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 659672b11cbcaa51f543eec8239f56ba792584a4b1ac44af25ed76016cdeb2a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 751d672e664ab1849376d839285393075ddf6af6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523624"
 ---
 # <a name="mf_source_stream_supports_hw_connection-attribute"></a>Le \_ flux source MF \_ \_ prend en charge l' \_ attribut de \_ connexion HW
 
@@ -19,7 +19,7 @@ Indique si une source de média prend en charge le workflow de données matérie
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est utilisé quand une source de média transmet un périphérique matériel et est en mesure de transférer des données en aval sur un bus matériel, sans envoyer de données jusqu’au processeur. Par exemple, une webcam peut fournir une vidéo encodée H. 264 directement à un décodeur matériel intégré.
 
@@ -36,7 +36,7 @@ La connexion entre la source du média et la table MFT est négociée comme suit
 5.  Le pipeline définit l’attribut d' [ \_ \_ \_ attribut de flux connecté MFT](mft-connected-stream-attribute.md) sur la table MFT. La valeur de cet attribut est le pointeur [**IMFAttribute**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) obtenu à partir de la source du média à l’étape 2.
 6.  Le pipeline affecte la **valeur true** à la [table MFT \_ connectée à l’attribut de \_ \_ \_ flux matériel](mft-connected-to-hw-stream.md) à la fois à la source du média et à la table MFT.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

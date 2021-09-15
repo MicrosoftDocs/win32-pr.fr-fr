@@ -1,19 +1,19 @@
 ---
-description: Le service de Registre Windows prend en charge un enregistreur VSS, appelé Registry Writer, qui permet aux demandeurs de sauvegarder un registre système à l’aide des données stockées sur un volume de clichés instantanés.
+description: le Service de registre Windows prend en charge un enregistreur VSS, appelé registry writer, qui permet aux demandeurs de sauvegarder un registre système à l’aide des données stockées sur un volume de clichés instantanés.
 ms.assetid: 94a45b04-0bdc-4211-bed0-caeabba774af
 title: Opérations de sauvegarde et de restauration du Registre sous VSS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: db1a3022ec2fb08b07bcff8b28455ae7154e4c40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413353"
 ---
 # <a name="registry-backup-and-restore-operations-under-vss"></a>Opérations de sauvegarde et de restauration du Registre sous VSS
 
-Le service de Registre Windows prend en charge un enregistreur VSS, appelé Registry Writer, qui permet aux demandeurs de sauvegarder un registre système à l’aide des données stockées sur un volume de clichés instantanés. Pour plus d’informations sur l’enregistreur du Registre, consultez la page [enregistreurs VSS](in-box-vss-writers.md).
+le Service de registre Windows prend en charge un enregistreur VSS, appelé registry writer, qui permet aux demandeurs de sauvegarder un registre système à l’aide des données stockées sur un volume de clichés instantanés. Pour plus d’informations sur l’enregistreur du Registre, consultez la page [enregistreurs VSS](in-box-vss-writers.md).
 
 L’enregistreur du registre effectue des sauvegardes et des restaurations sur place du Registre. En outre, l’enregistreur du Registre signale uniquement les ruches système. il ne signale pas les ruches utilisateur.
 
@@ -24,12 +24,12 @@ L’ID du writer du Registre est AFBAB4A2-367D-4D15-A586-71DBB18F8485.
 **Windows XP :** Il n’y a pas d’enregistreur de registre. Les données du Registre sont signalées par l’enregistreur d’état de démarrage, dont l’ID d’enregistreur est F2436E37-09F5-41AF-9B2A-4CA2435DBFD5.
 
 > [!Note]  
-> Microsoft ne fournit pas de support technique pour les développeurs ou les professionnels de l’informatique pour l’implémentation de restaurations en ligne sur l’état du système sur Windows (toutes les versions). Pour plus d’informations sur l’utilisation des API et des procédures fournies par Microsoft pour implémenter des restaurations en ligne de l’état du système, consultez les ressources de la communauté disponibles dans le [Centre de communauté MSDN](https://msdn.microsoft.com/community/default.aspx).
+> Microsoft ne fournit pas de support technique pour les développeurs ou les professionnels de l’informatique pour l’implémentation des restaurations en ligne de l’état du système sur Windows (toutes les versions). pour plus d’informations sur l’utilisation des api et des procédures fournies par Microsoft pour implémenter des restaurations en ligne de l’état du système, consultez les ressources de la communauté disponibles sur le [centre de Community MSDN](https://msdn.microsoft.com/community/default.aspx).
 
  
 
 > [!Note]  
-> Les informations suivantes s’appliquent uniquement à Windows Server 2003 et Windows XP.
+> les informations suivantes s’appliquent uniquement à Windows Server 2003 et Windows XP.
 
  
 
@@ -39,7 +39,7 @@ Le rédacteur du Registre exporte et enregistre les fichiers de Registre actifs 
 
 Les noms des valeurs sous cette entrée de Registre identifient la ruche de Registre à enregistrer, et les données de la valeur fournissent le fichier contenant le fichier (le fichier Hive). Les fichiers Hive sont spécifiés au format suivant : \\ Device \\ *HarddiskVolumeX* \\ *path* \\ *filename*.
 
-Par exemple, sous **HKEY \_ local \_ machine** \\ **System** \\ **CurrentControlSet** \\ **Control** \\ **hivelist**, vous pouvez voir le logiciel **\\ Registry \\ machine \\ Software**  =  \\ Device \\ HarddiskVolume1 \\ Windows \\ system32 \\ config \\ Software.
+par exemple, sous la commande **HKEY \_ LOCAL \_ machine** \\ **System** \\ **CurrentControlSet** \\ **Control** \\ **hivelist**, vous pouvez voir le HarddiskVolume1 de configuration du logiciel de l' **\\ \\ ordinateur \\ du registre**  =  \\ \\ \\ Windows \\ System32 \\ \\ .
 
 L’enregistreur du registre s’assure que les fichiers Hive sont enregistrés sur le disque avant le cliché instantané.
 
@@ -58,12 +58,12 @@ Les fonctions [**MoveFileEx**](/windows/win32/api/winbase/nf-winbase-movefileexa
 
 Pour conserver le contenu de la clé de Registre **PendingFileRenameOperations** , votre application de sauvegarde doit appeler la fonction [**RegLoadKey**](/windows/win32/api/winreg/nf-winreg-regloadkeya) pour connecter le fichier de Registre à restaurer dans le Registre actif. Votre application de sauvegarde peut ensuite utiliser les différentes fonctions de Registre pour copier les clés et valeurs souhaitées dans la ruche chargée. Une fois la copie terminée, les fonctions [**regflushkey a**](/windows/win32/api/winreg/nf-winreg-regflushkey) et [**RegUnloadKey**](/windows/win32/api/winreg/nf-winreg-regunloadkeya) doivent être appelées.
 
-Pour une restauration hors connexion (environnement de récupération Windows ou Windows PE), il n’est pas nécessaire d’honorer la clé de Registre **PendingFileRenameOperations** .
+pour une restauration hors connexion (environnement de récupération Windows ou Windows PE), il n’est pas nécessaire d’honorer la clé de registre **PendingFileRenameOperations** .
 
-## <a name="registry-restore-using-non-vss-win32-apis-in-windows-server-2003"></a>Restauration du Registre à l’aide des API Win32 non-VSS dans Windows Server 2003
+## <a name="registry-restore-using-non-vss-win32-apis-in-windows-server-2003"></a>restauration du registre à l’aide des api Win32 Non-VSS dans Windows Server 2003
 
 > [!Note]  
-> Les informations suivantes s’appliquent uniquement aux opérations de restauration liées à la récupération d’urgence (également appelée récupération complète) effectuées dans Windows Server 2003.
+> les informations suivantes s’appliquent uniquement aux opérations de restauration liées à la récupération d’urgence (également appelée récupération complète) effectuées dans Windows Server 2003.
 
  
 
@@ -77,7 +77,7 @@ Une clé de registre indique à une application de restauration (demandeur) les 
 
 Une partie du processus de restauration de l’état du système implique la restauration d’un registre sauvegardé précédemment.
 
-Les applications de sauvegarde doivent faire particulièrement attention lors de la restauration de la ruche du **\_ \_ \\ système HKEY local machine** , car le processus d’installation d’une version temporaire du système d’exploitation Windows aura des clés établies dans la ruche système nouvellement installée dont les valeurs doivent survivre à l’opération de restauration.
+les applications de sauvegarde doivent faire particulièrement attention lors de la restauration de la ruche du **\_ \_ \\ système HKEY LOCAL MACHINE** , car le processus d’installation d’une version temporaire du système d’exploitation Windows aura des clés établies dans la ruche système nouvellement installée dont les valeurs doivent survivre à l’opération de restauration.
 
 Par exemple, lorsque le système de remplacement a une carte d’interface réseau différente du système d’origine, la restauration des clés d’origine pour la carte précédente entraîne des résultats imprévisibles. Cela est dû au fait que le service de Plug-and-Play a détecté et placé les entrées de Registre appropriées du service et du pilote dans le registre. Ces valeurs doivent être conservées pour démarrer correctement après la restauration du système.
 
@@ -99,13 +99,13 @@ La manière dont les chaînes de clé doivent être interprétées par les appli
 
     **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ services \\ dmio \\ informations de démarrage\\**
 
-    À cette fin, cette clé et toutes les clés et données subordonnées doivent être copiées à partir du Registre existant (c’est-à-dire celui créé par l’installation de Windows) dans le Registre qui vient d’être restauré. C’est ce que l’on appelle une opération de *remplacement de clé* . Cette opération remplace la clé correspondante dans le registre restauré.
+    à cette fin, cette clé et toutes les clés et données subordonnées doivent être copiées à partir du registre existant (c’est-à-dire celui créé par l’installation de Windows) dans le registre qui vient d’être restauré. C’est ce que l’on appelle une opération de *remplacement de clé* . Cette opération remplace la clé correspondante dans le registre restauré.
 
 2.  Les chaînes de clé dont le caractère de fin est un astérisque (« \* ») spécifient que toutes les sous-clés doivent être fusionnées. Par exemple, la chaîne de clé :
 
-    **HKEY \_ Services de CurrentControlSet de système d’ordinateur LOCAL _ \_ \\ \\ \\ \\ \**
+    **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ services\\\***
 
-    Spécifie que la clé services dans le Registre existant (par exemple, celles créées par l’installation de Windows) doit être fusionnée dans le registre restauré. C’est ce que l’on appelle une opération _key Merge * et si une sous-clé existe à la fois dans la ruche existante et dans la ruche restaurée, la clé du répertoire restauré est conservée avec les exceptions suivantes :
+    spécifie que la clé services dans le registre existant (par exemple, celles créées par l’installation de Windows) doit être fusionnée dans le registre restauré. C’est ce qu’on appelle une opération de *fusion de clé* . Si une sous-clé existe à la fois dans la ruche existante et dans la ruche restaurée, la clé dans le répertoire restauré est conservée avec les exceptions suivantes :
 
     -   Si la sous-clé de la ruche existante contient une valeur nommée « Start », et que la sous-clé dans la restaurée ne le fait pas.
     -   Si la sous-clé de la ruche existante et restaurée contient une valeur nommée « Start » et que sa valeur numérique dans la ruche existante est inférieure.

@@ -14,11 +14,11 @@ ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/29/2020
 ms.openlocfilehash: 7ddfbc679d95ca0a2c6fce0710b5de37f677fe0f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626725"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524672"
 ---
 # <a name="scalar-types"></a>Types scalaires
 

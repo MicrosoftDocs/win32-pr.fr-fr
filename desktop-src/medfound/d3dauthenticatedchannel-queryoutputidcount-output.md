@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: c97f55d05aff3feb1857456ec04c4fa48872487decc5812912081b894896dce2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 86a840de2b36b7089b31d15e8375c17a0610b77f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413052"
 ---
 # <a name="d3dauthenticatedchannel_queryoutputidcount_output-structure"></a>\_Structure de \_ sortie D3DAUTHENTICATEDCHANNEL QUERYOUTPUTIDCOUNT
 
@@ -72,7 +72,7 @@ Nombre d’ID de sortie associés à l’appareil et à la session de chiffremen
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

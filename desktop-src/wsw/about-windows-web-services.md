@@ -1,21 +1,21 @@
 ---
-title: À propos des services Web Windows
-description: L’API des services Web Windows est une API en couches et peut être illustrée comme suit.
+title: à propos des Services Web Windows
+description: l’api des Services Web Windows est une api en couches et peut être illustrée comme suit.
 ms.assetid: 6e8c23d1-c86b-432d-8e0c-e16982849239
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7546aaa72d58e43d7faefccf394a3e27756f4a96
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104568695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525096"
 ---
-# <a name="about-windows-web-services"></a>À propos des services Web Windows
+# <a name="about-windows-web-services"></a>à propos des Services Web Windows
 
-L’API des services Web Windows est une API en couches et peut être illustrée comme suit
+l’api des Services Web Windows est une api en couches et peut être illustrée comme suit
 
-![Diagramme montrant les couches et les zones inter-couches de l’API des services Web Windows.](images/apistack.png)
+![diagramme montrant les couches et les zones intercouches de l’API des Services Web Windows.](images/apistack.png)
 
 Le WWSAPI est une API en couches. Nous pensons que la plupart des développeurs ciblent le modèle de service, qui est un modèle de programmation basé sur une méthode. Dans le modèle de service, l’hôte de service fournit le modèle de programmation côté serveur, tandis que le proxy de service fournit le modèle de programmation côté client.
 
@@ -65,11 +65,11 @@ Les rubriques suivantes s’appliquent à l’une des trois couches :
 -   [Utilitaires](utilities.md)
 -   [Débogage](debugging.md)
 -   [Outil compilateur Wsutil](wsutil-compiler-tool.md)
--   [Système](heap.md)
+-   [Segment de mémoire (heap)](heap.md)
 
 ## <a name="examples"></a>Exemples
 
-Pour plus d’informations sur les éléments d’API, consultez [référence des services Web Windows](windows-web-services-reference.md). Pour obtenir des exemples d’utilisation de l’API, consultez [utilisation des services Web Windows](using-windows-web-services.md).
+pour plus d’informations sur les éléments d’API, consultez [Windows Web Services Reference](windows-web-services-reference.md). pour obtenir des exemples d’utilisation de l’API, consultez [utilisation des Services Web Windows](using-windows-web-services.md).
 
  
 

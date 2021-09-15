@@ -4,12 +4,12 @@ ms.assetid: 222EBA58-AEF6-4E59-BB5F-64A21A2C0E3C
 title: Attribut MF_MT_MIN_MASTERING_LUMINANCE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7017a55416b24684ed2b1a260510051e7217d7ae88ece496d3ee78cde2b69071
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b631cac19328c1e4298a8e37cb9e2fcdbec0923b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119714449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523680"
 ---
 # <a name="mf_mt_min_mastering_luminance-attribute"></a>\_Attribut de \_ luminance de mastérisation MT min \_ \_ . MF
 
@@ -19,7 +19,7 @@ Spécifie la luminance maximale de l’affichage sur lequel le contenu a été c
 
 **UINT32**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

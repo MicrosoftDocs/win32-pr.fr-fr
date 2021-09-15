@@ -4,12 +4,12 @@ ms.assetid: 9565e874-5a8d-4b4b-a2a4-391e46922cc1
 title: DXGI
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe67f0938ee68445174b6f75ddfc2bb86e7c1bdb618c5d8daa2158bae2946bf0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b1e100d068d12f651c2602b29af75181607a038
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118796613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524916"
 ---
 # <a name="dxgi"></a>DXGI
 

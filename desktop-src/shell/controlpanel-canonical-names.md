@@ -4,12 +4,12 @@ ms.assetid: A02DFC9F-646D-40d8-901C-7239A820DE2C
 title: Noms canoniques des éléments du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aebf831bfb1cb86c41a8f97c2bfa041dad836e4b77f8fd233cb94d4a3951c38d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a55fc360b0d3db0f85a057977d1898c59d09d5cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412583"
 ---
 # <a name="canonical-names-of-control-panel-items"></a>Noms canoniques des éléments du panneau de configuration
 
@@ -52,7 +52,7 @@ Voici les éléments du panneau de configuration disponibles dans Windows 8.1 :
 -   [Contrôle parental](#family-safety)
 -   [Historique des fichiers](#file-history)
 -   [Options des dossiers](#folder-options)
--   [Police](#fonts)
+-   [Polices](#fonts)
 -   [HomeGroup](#homegroup)
 -   [Options d’indexation](#indexing-options)
 -   [Infrarouge](#infrared)
@@ -320,7 +320,7 @@ Voici les éléments du panneau de configuration disponibles dans Windows 8.1 :
     |-----------|-------------|
     | 1         | Sécurité    |
     | 2         | Confidentialité     |
-    | 3         | Content     |
+    | 3         | Contenu     |
     | 4         | Connexions |
     | 5         | Programmes    |
     | 6         | Avancé    |
@@ -426,7 +426,7 @@ Voici les éléments du panneau de configuration disponibles dans Windows 8.1 :
 
      
 
-### <a name="personalization"></a>Personalization
+### <a name="personalization"></a>Personnalisation
 
 -   **Nom canonique**: Microsoft. Personalization
 -   **GUID**: {ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}
@@ -546,7 +546,7 @@ Voici les éléments du panneau de configuration disponibles dans Windows 8.1 :
 
 ### <a name="system"></a>Système
 
--   **Nom canonique**: Microsoft.SysTEM
+-   **Nom canonique**: Microsoft. System
 -   **GUID**: {BB06C0E4-D293-4f75-8A90-CB05B6477EEE}
 -   **système d’exploitation pris en charge**: Windows Vista, Windows 7, Windows 8, Windows 8.1
 -   **Nom du module**: @% systemroot% \\ system32 \\systemcpl.dll,-1
@@ -565,7 +565,7 @@ Voici les éléments du panneau de configuration disponibles dans Windows 8.1 :
 -   **système d’exploitation pris en charge**: Windows 8, Windows 8.1
 -   **Nom du module**: @% systemroot% \\ system32 \\shell32.dll,-32517
 
-### <a name="troubleshooting"></a>Dépannage
+### <a name="troubleshooting"></a>Résolution des problèmes
 
 -   **Nom canonique**: Microsoft. Troubleshooting
 -   **GUID**: {C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}
@@ -677,7 +677,7 @@ les noms canoniques suivants ne sont plus utilisés à la Windows 8.1 ou une ver
 
 
 
-| Nom canonique déconseillé                                   | Élément du panneau de configuration                | GUID                                   | Remarques                                                                                                                                                                                                                                                                                                                                                     |
+| Nom canonique déconseillé                                   | Élément du panneau de configuration                | GUID                                   | Notes                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------|-----------------------------------|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Microsoft. AddHardware                                       | Ajouter un matériel                      | {7A979262-40CE-46ff-AEEE-7884AC3B6136} | Cartes à [Microsoft. DevicesAndPrinters](#devices-and-printers) à partir de Windows 7.                                                                                                                                                                                                                                                                            |
 | Microsoft. AudioDevicesAndSoundThemes                        | Son                             | {F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D} | Cartes à [Microsoft. Sound](#sound) depuis Windows 7.                                                                                                                                                                                                                                                                                                        |
@@ -736,7 +736,7 @@ Utilisez cette méthode si vous souhaitez masquer davantage d’éléments du pa
 
 Si vous souhaitez supprimer toutes les entrées que vous avez ajoutées à la liste afficher ou masquer les éléments du panneau de configuration, revenez à l’écran à l’étape 4 et sélectionnez **non configuré** pour effacer la liste. Si vous souhaitez conserver vos entrées tout en interrompant les restrictions, sélectionnez **désactivé**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez voir des éléments dans votre panneau de configuration qui ne sont pas répertoriés ici. ces éléments ne font pas partie de Windows, mais ils sont ajoutés au cours de l’installation de divers logiciels et matériels, comme Microsoft Office ou une carte vidéo. les éléments du panneau de configuration Non Windows peuvent avoir ou non un nom canonique. Pour rechercher le nom canonique d’un élément du panneau de configuration qui n’est pas répertorié ici, consultez le Registre sous ces chemins d’accès :
 

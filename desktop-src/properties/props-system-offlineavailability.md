@@ -4,12 +4,12 @@ ms.assetid: 4d0c880b-923d-4f83-91da-dd99bf111f13
 title: System. OfflineAvailability
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e125a0a85d9792783ed7110cd41bf7ca7d32c71cedf0292b8885ed5e7348b046
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ceeefaf33acfc07bba2d552761ecd418257e8485
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118052658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412749"
 ---
 # <a name="systemofflineavailability"></a>System. OfflineAvailability
 
@@ -109,7 +109,7 @@ propertyDescription
             defineName = OFFLINEAVAILABILITY_ALWAYS_AVAILABLE
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

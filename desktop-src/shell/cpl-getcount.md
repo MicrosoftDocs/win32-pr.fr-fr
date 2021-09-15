@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 58f95a62d17ccafd308666a5632a1f7a42ebfda6ca0a54dfb6dfa9d9eda9b684
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bf8980fa29841d3c5341daeeccf26cea05db80c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119715479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412579"
 ---
 # <a name="cpl_getcount-message"></a>\_Message Cpl GETCOUNT
 
@@ -34,15 +34,15 @@ Envoyé à la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) retourne le nombre de boîtes de dialogue que l’application du panneau de configuration prend en charge.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est envoyé immédiatement après le message d' [**\_ initialisation de cpl**](cpl-init.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 783a6552-9b22-4af4-9252-b443e2624687
 title: Récupération des méthodes de service prises en charge
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce058fcab000a90459dcce5310645088b40a2432d1de8c9852c84770db058300
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b021aa868ffaa95df23a729e94d62eae8a0c632e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119839045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525116"
 ---
 # <a name="retrieving-supported-service-methods"></a>Récupération des méthodes de service prises en charge
 

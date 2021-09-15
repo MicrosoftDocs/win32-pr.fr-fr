@@ -4,12 +4,12 @@ ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
 title: Message WM_NCCREATE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84fa5638ef1b97365d202f2049fc79712d0ed3eec167825110f7c7967ce4605c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8757cbdeba49d54f6e5d842a5b40c7f7ae61cac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118200055"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525188"
 ---
 # <a name="wm_nccreate-message"></a>\_Message WM NCCREATE
 
@@ -42,13 +42,13 @@ Pointeur vers la structure [**CREATESTRUCT**](/windows/win32/api/winuser/ns-winu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la **valeur true** pour poursuivre la création de la fenêtre. Si l’application retourne la **valeur false**, la fonction [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) ou [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) retourne un handle **null** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -82,7 +82,7 @@ Si une application traite ce message, elle doit retourner la **valeur true** pou
 [**création de WM \_**](wm-create.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

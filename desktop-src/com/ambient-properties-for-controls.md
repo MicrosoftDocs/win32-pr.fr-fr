@@ -4,12 +4,12 @@ description: Propriétés ambiantes pour les contrôles
 ms.assetid: 19aa3bc2-1605-43e1-acf4-ab782d012539
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421a643873e818d8f5c0e006b4bb9049c1230c5f4e18525cdf7ed2b4175797bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e166a7186021b53798150968c9998fed243de00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119994059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524993"
 ---
 # <a name="ambient-properties-for-controls"></a>Propriétés ambiantes pour les contrôles
 

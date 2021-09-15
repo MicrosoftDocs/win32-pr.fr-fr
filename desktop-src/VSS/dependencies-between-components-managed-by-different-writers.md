@@ -4,12 +4,12 @@ ms.assetid: 0413c289-74b7-4e83-a227-00bfb264e56e
 title: Dépendances entre les composants gérés par différents Writers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82d50e88e13899951802b2ec3aa0bd9e651c16928b9f57409329035a28cfa1ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91ba3be6a2c2f0a722c4c5f06ca95351e004e1cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118122152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413386"
 ---
 # <a name="dependencies-between-components-managed-by-different-writers"></a>Dépendances entre les composants gérés par différents Writers
 

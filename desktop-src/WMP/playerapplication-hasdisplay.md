@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6cffddc08c154ced6d7cb72b18642b5ebb4960e539e5682d1cf6e8518b74831
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ef77cb42109decef6ab435aa031240f89b6cb98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117747358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413330"
 ---
 # <a name="playerapplicationhasdisplay"></a>PlayerApplication.hasDisplay
 
@@ -33,7 +33,7 @@ La propriété **hasDisplay** récupère une valeur indiquant si la vidéo peut 
 
 Cette propriété est une **valeur booléenne** en lecture seule.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette propriété est utilisée uniquement lors de la communication à distance du contrôle Lecteur Windows Media.
 
@@ -41,7 +41,7 @@ plusieurs contrôles Lecteur Windows Media peuvent s’exécuter à distance en 
 
 **Lecteur Windows Media 10 Mobile :** Cette propriété retourne toujours **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

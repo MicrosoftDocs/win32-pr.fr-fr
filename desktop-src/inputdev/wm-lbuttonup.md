@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d7d1b8c83322b011af3da0e2df5ed6eb772781f7e1d5f30d7a9bd3013710ee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7fe921ffe68359efe15aa0782c5c8543fd0870fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119666369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413103"
 ---
 # <a name="wm_lbuttonup-message"></a>\_Message WM LBUTTONUP
 
@@ -69,11 +69,11 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 
@@ -92,7 +92,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -129,7 +129,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 [**\_LBUTTONDOWN WM**](wm-lbuttondown.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

@@ -4,12 +4,12 @@ ms.assetid: fc581da4-0a7b-4c31-8f73-0784066fcc56
 title: Exemple de test d’atteinte à l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 995bd6f14b4a0a014452ae9392fa744ab93f01f9047c79e5dc30652c243473db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d25e6cbc0ed471384bea0cc1977dd38d3ae4830
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119713079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523225"
 ---
 # <a name="ink-hit-test-sample"></a>Exemple de test d’atteinte à l’encre
 

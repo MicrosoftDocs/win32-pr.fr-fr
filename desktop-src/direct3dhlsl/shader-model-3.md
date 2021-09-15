@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 899284777f86c3a1e5d77da9a2f21ed9aa4b5368b540082cc92bd56b7fb780da
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2d87c791694e91de135052b4172e3bd5f55577d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119788639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524521"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Shader Model 3 (référence HLSL)
 
@@ -248,12 +248,12 @@ vs \_ 2 \_ SW est un assouplissement aux limites maximales de vs \_ 2 \_ x ; de
 
 | Modèle de nuanceur                                           |  Ressource                                    |  Limite                                                                                                                                  |
 |--------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Nombre d’instructions                   | illimitées                                                                                                                         |
+| vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Nombre d’instructions                   | Illimité                                                                                                                         |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Registres à constante flottante             | 8 192                                                                                                                              |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Registres de constantes entières           | 2 048                                                                                                                              |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Registres de constantes booléennes           | 2 048                                                                                                                              |
-| \_logiciel PS 2 \_                                  | Profondeur de lecture dépendante                 | illimitées                                                                                                                         |
-| vs \_ 2 \_ SW                                  | instructions et étiquettes de contrôle de Flow | illimitées                                                                                                                         |
+| \_logiciel PS 2 \_                                  | Profondeur de lecture dépendante                 | Illimité                                                                                                                         |
+| vs \_ 2 \_ SW                                  | instructions et étiquettes de contrôle de Flow | Illimité                                                                                                                         |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Nombre de boucles Start/Step/Count               | Le début de l’itération et la taille de l’étape de l’itération pour les instructions du REP et de la boucle sont des entiers signés 32 bits. Le nombre peut atteindre un maximum de \_ int/64. |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Limites de port                          | Les limites de port pour tous les fichiers de Registre sont assouplies.                                                                                   |
 | vs \_ 3 \_ SW                                  | Nombre d’interpolateurs              | 16 registres de sortie dans vs \_ 3 \_ SW.                                                                                                 |

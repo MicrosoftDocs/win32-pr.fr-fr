@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 9e0bcfe22c4a083d93faf27591d56bc6a43f3bd7d61afc386957cb5ec5807c15
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10dcfa5ccf572b2a8dd5672f973b924a2a840b96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118966758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412253"
 ---
 # <a name="stationerytype-complex-type"></a>Type complexe StationeryType
 
@@ -27,7 +27,7 @@ Définit le type qui contient le papier à lettres utilisé par la note du journ
 <xs:complexType name="StationeryType" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3151c369-9d2b-4f03-9a4a-9b9267314dc1
 title: Attribut MF_SD_SAMI_LANGUAGE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e70436244779dddf97ef8277c5c1e2cd8c74cfaa25a90e63472d07d32c36b56d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfd476c86ddde7d369265c5302192e4a7c01295f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119102325"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523653"
 ---
 # <a name="mf_sd_sami_language-attribute"></a>MF \_ SD SD ( \_ \_ attribut de langage sami)
 
@@ -21,13 +21,13 @@ Cet attribut est présent dans les descripteurs de flux retournés à partir de 
 
 Chaîne de caractères larges
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nom du langage SAMI est spécifié dans le fichier SAMI.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

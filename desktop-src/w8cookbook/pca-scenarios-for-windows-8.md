@@ -4,12 +4,12 @@ description: Scénarios de l’Assistant Compatibilité des programmes pour Wind
 ms.assetid: C61BF746-63EE-4F4E-81D3-52947FD4954D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d63fbd912e14ac682ffe820ad140b2cad6a487dfbac833aa419c53389a9339ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ebada2ca5115d24f260808a1c9ae899963184a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117852597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524057"
 ---
 # <a name="program-compatibility-assistant-scenarios-for-windows-8"></a>Scénarios de l’Assistant Compatibilité des programmes pour Windows 8
 

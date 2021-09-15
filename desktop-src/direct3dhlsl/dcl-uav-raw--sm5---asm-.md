@@ -4,12 +4,12 @@ description: Déclarez une vue d’accès non triée (UAV) pour une utilisation 
 ms.assetid: D0F43FF8-FF1C-4E42-AF42-F528C98FD680
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b7af99a1747d23d6269ffc1b7199fb142277b46e73bfd822d31fd4b0fbf3e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f47614d5a9327f2d686a36db6bfe4afeb653788
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524737"
 ---
 # <a name="dcl_uav_raw-sm5---asm"></a>DCL \_ UAV \_ brute (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclarez une vue d’accès non triée (UAV) pour une utilisation par un nuance
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 *dstUAV* est un \# Registre u déclaré comme référence à un UnorderedAccessView d’une mémoire tampon, où la mémoire tampon apparaît sous la forme d’un tableau 1D simple d’entrées non typées 32 bits.
 
@@ -46,7 +46,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -58,7 +58,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -72,9 +72,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102270
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f3b655d9c7d4933f89304915039c6b34397a2bc79bbf516fd92b51be1d54f9e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8066c9795a4178b0139a570b1ca08aef8bddff62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119479059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524361"
 ---
 # <a name="esentmustbeseparatelongvalueexception-properties"></a>Propriétés EsentMustBeSeparateLongValueException
 
@@ -69,7 +69,7 @@ Le type [EsentMustBeSeparateLongValueException](./esentmustbeseparatelongvalueex
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentMustBeSeparateLongValueException, classe](./esentmustbeseparatelongvalueexception-class.md)
 

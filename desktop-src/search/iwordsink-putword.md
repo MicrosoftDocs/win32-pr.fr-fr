@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: e860aafbef633e226933281aaaa0be5c6429387542e7c3ae2d65d3026fd7fe37
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5f622e09c2b82bc8de986dafcc83247617caec75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119597599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412616"
 ---
 # <a name="iwordsinkputword-method"></a>IWordSink ::P méthode utWord
 
@@ -70,7 +70,7 @@ Position de départ du mot dans *pwcInBuf* dans la mémoire tampon de texte sour
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -85,13 +85,13 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Nous recommandons que la méthode **IWordSink ::P utword** contienne toujours le mot d’origine tel qu’il figure dans *pTextSource*. Les autres formes du mot sont passées à WordSink à l’aide de [**IWordSink ::P utaltword**](iwordsink-putaltword.md). Nous vous recommandons également de faire en sorte que les mots de *pwcInBuf* correspondent le mieux possible au texte source. Par exemple, conservez les majuscules et les accents lorsque cela est possible.
 
 Cet appel doit être effectué pour chaque mot récupéré à partir de *pTextSource* , à l’exception de ceux pour lesquels l’appel [**IWordSink ::P utaltword**](iwordsink-putaltword.md) a été effectué. Le mot se termine par un caractère EOW lorsqu’il est enregistré dans le WordSink.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

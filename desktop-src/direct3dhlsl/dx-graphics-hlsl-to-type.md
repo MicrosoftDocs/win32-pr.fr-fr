@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 14ac22ba8c9da7d69784d977e2b78b8f0b52a6a3
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122628115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524628"
 ---
 # <a name="texture-object"></a>Texture, objet
 
@@ -244,7 +244,7 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Pris en charge |
+| Modèle de nuanceur                                                        | Prise en charge |
 |---------------------------------------------------------------------|-----------|
 | [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | Oui       |
 

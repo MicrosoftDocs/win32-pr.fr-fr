@@ -12,12 +12,12 @@ keywords:
 - métadonnées, modification avec l’enregistreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d09db09a2cd7dbc50130243e322085ab2113e76f71d8b6760bd602d16f29d3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f2823b266b51da366683ac0b5cf65e10debf1ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523965"
 ---
 # <a name="to-edit-metadata-with-the-writer"></a>Pour modifier des métadonnées avec le writer
 

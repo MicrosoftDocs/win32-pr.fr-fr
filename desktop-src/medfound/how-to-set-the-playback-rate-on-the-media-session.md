@@ -4,12 +4,12 @@ ms.assetid: 3663b63f-127c-49fc-923a-d05521fe3d35
 title: Comment définir la vitesse de lecture sur la session multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 696932d0da0147ba87e49cbc22d7ad53a525bc52c9bc2b3518c0f3e956a650aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: deed8bf480bba1bf1e7d86a41a75b8f41f61046b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413044"
 ---
 # <a name="how-to-set-the-playback-rate-on-the-media-session"></a>Comment définir la vitesse de lecture sur la session multimédia
 

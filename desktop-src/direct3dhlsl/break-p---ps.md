@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2da0d2bceea7a3e44f02e6b732337cb3447d6ef1c9798f95b664bf4da96ec2dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e358debb2377f08574997acd96c11f83d32e66c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119983319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524872"
 ---
 # <a name="breakp---ps"></a>breakp-PS
 
@@ -37,7 +37,7 @@ Où :
 -   P0 correspond au [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   {x \| y \| z \| w} est le Swizzle de réplication requis sur P0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

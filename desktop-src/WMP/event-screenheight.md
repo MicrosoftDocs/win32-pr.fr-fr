@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4b16a2fefdf5cd357a319bc3a074332dfe1a0adc65e8318ab9932bf0a238553
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94f631ebce3b349ea29492376cf31e0a85c4b093
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118577023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413335"
 ---
 # <a name="eventscreenheight"></a>Event. screenHeight
 
@@ -35,7 +35,7 @@ Cet attribut est un **nombre** en lecture seule (**long**).
 
 Cela est utile pour déterminer la quantité d’espace disponible dans le moniteur. S’il y a deux moniteurs, il calcule l’espace pour les deux moniteurs.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

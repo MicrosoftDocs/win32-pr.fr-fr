@@ -4,12 +4,12 @@ ms.assetid: 7d9b5949-2d9e-436a-9e44-61c6fc86f973
 title: MFPKEY_WMRESAMP_LOWPASS_BANDWIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6121ac9c5e755bd1d7b4a3584c1cb1a363ee5a3606d1e565be7caff7b0247f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a419c713f7172aa61f828af416d4807435d87797
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412895"
 ---
 # <a name="mfpkey_wmresamp_lowpass_bandwidth-property"></a>\_Propriété MFPKEY WMRESAMP \_ passe-bas \_ Bandwidth
 
@@ -27,11 +27,11 @@ VT \_ R4
 
 -   [Modèle de rééchantillonnage audio DSP](audioresampler.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plage valide de cette propriété est comprise entre 0,0 et 1,0 inclus
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

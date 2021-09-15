@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: ba9d0163a00ab525fb0a52267c1226b6a48230a4
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412409"
 ---
 # <a name="foldertype-element-library-schema"></a>Élément folderType (schéma de bibliothèque)
 
@@ -48,7 +48,7 @@ L' &lt; &gt; élément FolderType spécifie un GUID pour le type de dossier. Cet
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la définition d’un type de dossier détermine les colonnes et les détails qui s’affichent dans Windows Explorer par défaut. Les identificateurs de type de dossier ([**FOLDERTYPEID**](foldertypeid.md)) sont des GUID définis dans shlguid. h. Le tableau suivant répertorie les GUID des types de dossiers courants.
 

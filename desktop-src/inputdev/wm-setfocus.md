@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7ba202a4f0205a28d294d2d4f54372921205ebb72516f6f26c4042e08d9cfe2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b304d7f7739ce551c1efc6a1d33a934c48dc8b4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118757372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523744"
 ---
 # <a name="wm_setfocus-message"></a>\_Message WM SetFocus
 
@@ -50,15 +50,15 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour afficher un signe insertion, une application doit appeler les fonctions de signe insertion appropriées lorsqu’elle reçoit le message **WM \_ SetFocus** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -83,7 +83,7 @@ Pour afficher un signe insertion, une application doit appeler les fonctions de 
 [**\_KILLFOCUS WM**](wm-killfocus.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

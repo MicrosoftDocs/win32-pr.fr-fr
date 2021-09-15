@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 40cdae87d91fed31c164a4daa243cbaca16fec0480fe05c7c3aa0fe468358df8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 359820380fd76de136d734cf7a369f2373e5c685
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118487994"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524345"
 ---
 # <a name="esenttoomanysortsexception-constructor"></a>Constructeur EsentTooManySortsException
 

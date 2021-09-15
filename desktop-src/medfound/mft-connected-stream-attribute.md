@@ -4,12 +4,12 @@ ms.assetid: 7e14a02e-4cbf-45aa-a6f5-2c53b2437127
 title: Attribut MFT_CONNECTED_STREAM_ATTRIBUTE (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2289b8f1e8d5d751f7aa69564b8bbd26d865b43efedb474529147385b1851bb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3b182cbed78f5f9851b621de72bf691bf698b70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119722565"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412889"
 ---
 # <a name="mft_connected_stream_attribute-attribute"></a>Attribut de l' \_ \_ attribut de flux connecté MFT \_
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUnknown**](/windo
 
 Pour définir cet attribut, appelez [**IMFAttributes :: setunknown,**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En général, les applications n’utilisent pas cet attribut.
 
@@ -33,7 +33,7 @@ Cet attribut est utilisé pour les MFTs qui agissent en tant que proxys sur un p
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

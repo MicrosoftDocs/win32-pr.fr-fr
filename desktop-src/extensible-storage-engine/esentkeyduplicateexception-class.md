@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5a93ad69d045cda0658ff8298d635b2efc5016e2850023ad9c4be16450b92a83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d63945d5db3ca97e858e7f02fd2b4e8a9045f86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119971927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524365"
 ---
 # <a name="esentkeyduplicateexception-class"></a>EsentKeyDuplicateException, classe
 
@@ -48,7 +48,7 @@ Classe de base pour JET_err. Exceptions KeyDuplicate.
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` vb
 'Declaration
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentKeyDuplicateException](./esentkeyduplicateexception-members.md)
 

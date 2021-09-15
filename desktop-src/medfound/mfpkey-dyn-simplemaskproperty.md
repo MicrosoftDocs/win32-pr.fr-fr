@@ -4,12 +4,12 @@ ms.assetid: 04003fae-5db8-4ad2-87e3-4f3428319d43
 title: MFPKEY_DYN_SIMPLEMASK, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b94322f0b7e2394c86ad92329888d34167b71d5b78d71c7e5bc65f45ea0e28a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 550cb831dc26c60021bab9c2a721a4ddfe3ac0d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523593"
 ---
 # <a name="mfpkey_dyn_simplemask-property"></a>MFPKEY \_ dyn \_ SIMPLEMASK, propriété
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VARIANTE \_ false**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

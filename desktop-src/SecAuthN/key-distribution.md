@@ -4,12 +4,12 @@ ms.assetid: 90ab0359-5079-49e9-809c-0c0005cc61bf
 title: Distribution de clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcd39f9cd5e219ac1e6339c0a6c3e7b9a19dc2680c21e948bdb979af791719a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f04a2968e8b7b978bc7b325d65b4a2acf08e1f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413483"
 ---
 # <a name="key-distribution"></a>Distribution de clés
 

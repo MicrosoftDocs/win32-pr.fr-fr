@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 97e6f4fde66faef14402c815f6b95517a2bd19adfb90eac4e865383770bc753f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a38abd054e457ef9dbaf5dd93c38954b1ce6dcb3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967478"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523292"
 ---
 # <a name="ianalysiswarninggetnodeids-method"></a>IAnalysisWarning :: GetNodeIds, méthode
 
@@ -54,11 +54,11 @@ Pointeur vers un tableau de GUID qui identifie les nœuds de contexte associés 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si *ppNodeIds* est passé comme **null**, la méthode **GetNodeIds** retourne **S \_ OK** et le nombre de rectangles est retourné dans *pulCount*.
 
@@ -89,7 +89,7 @@ warning->GetNodeIds(&number, NULL);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

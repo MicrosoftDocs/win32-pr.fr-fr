@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c0af34d5ec9f687ec6c58bb73f337b38d512527c0ace4bd20eae12d49c87a62d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e52f251e12f0ca06bcb729407a7c8303836f9fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412410"
 ---
 # <a name="createprocess-verb-sample"></a>CreateProcess, exemple de verbe
 
@@ -23,7 +23,7 @@ Montre comment implémenter un verbe de Shell à l’aide de la méthode CreateP
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Les verbes basés sur CreateProcess dépendent de l’exécution d’un exécutable et de sa transmission à un argument de ligne de commande. Cette méthode n’est pas aussi puissante que les méthodes DropTarget et ExecuteCommand, mais elle permet d’obtenir le comportement out-of-process souhaitable.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

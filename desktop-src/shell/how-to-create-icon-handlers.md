@@ -5,15 +5,15 @@ title: Comment créer des gestionnaires d’icône
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e2c620b6f6a4c05f8996a26c8365e4f4201ee0b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973171"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412495"
 ---
 # <a name="how-to-create-icon-handlers"></a>Comment créer des gestionnaires d’icône
 
-Un [type de fichier](fa-file-types.md) est souvent associé à une icône personnalisée, afin de rendre ses membres facilement identifiables dans l’Explorateur Windows. La méthode la plus simple pour assigner une icône personnalisée à un type de fichier consiste à enregistrer le fichier de l’icône. Toutefois, une icône inscrite de cette façon sera la même pour tous les membres du type de fichier. Vous pouvez disposer d’une plus grande flexibilité pour assigner des icônes aux membres du type de fichier en implémentant un *Gestionnaire d’icône*.
+un [type de fichier](fa-file-types.md) est souvent associé à une icône personnalisée, afin de rendre ses membres facilement identifiables dans l’explorateur de Windows. La méthode la plus simple pour assigner une icône personnalisée à un type de fichier consiste à enregistrer le fichier de l’icône. Toutefois, une icône inscrite de cette façon sera la même pour tous les membres du type de fichier. Vous pouvez disposer d’une plus grande flexibilité pour assigner des icônes aux membres du type de fichier en implémentant un *Gestionnaire d’icône*.
 
 Un gestionnaire d’icônes est un type de gestionnaire d’extensions de Shell qui vous permet d’affecter dynamiquement des icônes aux membres d’un type de fichier. Chaque fois qu’un fichier du type est affiché, l’interpréteur de commandes interroge le gestionnaire pour obtenir l’icône appropriée. Par exemple, un gestionnaire d’icône peut assigner des icônes différentes à différents membres du type de fichier, ou faire varier l’icône en fonction de l’état actuel du fichier.
 

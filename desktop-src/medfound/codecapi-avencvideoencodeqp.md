@@ -4,12 +4,12 @@ ms.assetid: 9E3B5E2D-3583-4C89-BC2A-4AC3C5545673
 title: CODECAPI_AVEncVideoEncodeQP, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ed7ba8e3cf522c1e3cfa07d22cf5e37639717c230ca571ffd89d9e1d513a0d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eec6c746f2f3c902ca416097571abaf5953956cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974888"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411504"
 ---
 # <a name="codecapi_avencvideoencodeqp-property"></a>CODECAPI \_ propriété AVEncVideoEncodeQP
 
@@ -34,13 +34,13 @@ Les champs sont les suivants :
 -   Bits 32-47 : QP utilisé pour les frames P
 -   Bits 48-63 : QP utilisé pour les frames B
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
 Pour garantir une utilisation cohérente entre différents encodeurs, vous devez supposer que les encodeurs n’examineront que le QP par défaut et peuvent ignorer les valeurs de QP pour les images I/P/B.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

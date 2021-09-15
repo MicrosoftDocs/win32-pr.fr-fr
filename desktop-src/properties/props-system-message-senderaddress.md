@@ -4,12 +4,12 @@ ms.assetid: 14291b2a-87d1-4acf-9f31-d4014e941cbb
 title: System. message. SenderAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d93e15cc13a03d835aebc110895b39a6051e1d0b1d83db36eed1a320d01a550d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc42eafec0a66241955f9b8bce81c5c457c95fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118724687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412752"
 ---
 # <a name="systemmessagesenderaddress"></a>System. message. SenderAddress
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

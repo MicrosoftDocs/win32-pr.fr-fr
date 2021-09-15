@@ -4,12 +4,12 @@ ms.assetid: d6186248-8944-4bd6-8f04-bab5ea15b169
 title: System. photo. orientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 660c2a8984de1df2de9807ee0d8302ff7914409bcb7c342b311ee66e2d850050
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cac8cec8e199bd8eff52a92c7518a998d805d18d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119095871"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412674"
 ---
 # <a name="systemphotoorientation"></a>System. photo. orientation
 
@@ -123,7 +123,7 @@ propertyDescription
             defineName = PHOTO_ORIENTATION_ROTATE90
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

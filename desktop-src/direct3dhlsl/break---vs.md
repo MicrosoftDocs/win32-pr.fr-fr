@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bb51d7c6b398a1ee86afbffe78cd1bf54cf8e5290e5c04f8d7815525137ce303
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27751d1d6f17a6c3d64baf3dbb1b4d8b37570209
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118794567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524880"
 ---
 # <a name="break---vs"></a>Break-vs
 
@@ -31,7 +31,7 @@ Sortir de la boucle actuelle à l’instruction [ENDLOOP-vs](endloop---vs.md) ou
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction est prise en charge dans les versions suivantes.
 

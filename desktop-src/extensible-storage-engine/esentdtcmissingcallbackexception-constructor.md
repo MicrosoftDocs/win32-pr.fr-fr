@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 96b38a855b9a893a3f1f3b912592fe8a0328c08acc99a405ef2b445410066448
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7d233fa140dd7eb954ec800f931f0a49672e4e89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120065599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413194"
 ---
 # <a name="esentdtcmissingcallbackexception-constructor"></a>Constructeur EsentDTCMissingCallbackException
 
@@ -54,7 +54,7 @@ public EsentDTCMissingCallbackException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDTCMissingCallbackException, classe](./esentdtcmissingcallbackexception-class.md)
 

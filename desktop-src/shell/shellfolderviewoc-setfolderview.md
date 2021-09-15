@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 41a37d1b8f9874bdddd5a9593e0eade8bc0b5b92d30f8ada4ee9c6295af1d632
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d331fadbd8abae62ee896caec772d84d079f88d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412345"
 ---
 # <a name="shellfolderviewocsetfolderview-method"></a>Méthode ShellFolderViewOC. SetFolderView
 
@@ -48,7 +48,7 @@ Objet [**ShellFolderView**](shellfolderview.md) . Ses événements [**EnumDone**
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

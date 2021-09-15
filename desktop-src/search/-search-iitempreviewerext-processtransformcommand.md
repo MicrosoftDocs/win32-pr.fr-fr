@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f93d4be0bf9491c4fd2f6074c00692d6f634704ec820a34baeb4f1d52343c36a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 384294aac177679ea7445edb880198d250310625
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118969773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524109"
 ---
 # <a name="iitempreviewerextprocesstransformcommand-method"></a>IItemPreviewerExt ::P méthode rocessTransformCommand
 
@@ -77,7 +77,7 @@ Pointeur vers la variante de résultat. *pvarResult* ne doit pas être un pointe
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 

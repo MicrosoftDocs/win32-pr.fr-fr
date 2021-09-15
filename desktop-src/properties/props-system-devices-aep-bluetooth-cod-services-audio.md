@@ -1,19 +1,19 @@
 ---
-description: Classe Bluetooth de l’audio du service d’appareil.
+description: classe Bluetooth de l’audio du service d’appareil.
 ms.assetid: 0c9c1b43-d33f-43cb-a17e-8433ada42395
-title: System. Devices. AEP. Bluetooth. cod. services. audio
+title: System. Devices. AEP. Bluetooth. COD. services. audio
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: db1012fbdca05bdf67023536960976dd7ae234f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523504"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesaudio"></a>System. Devices. AEP. Bluetooth. cod. services. audio
+# <a name="systemdevicesaepbluetoothcodservicesaudio"></a>System. Devices. AEP. Bluetooth. COD. services. audio
 
-Classe Bluetooth de l’audio du service d’appareil.
+classe Bluetooth de l’audio du service d’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 

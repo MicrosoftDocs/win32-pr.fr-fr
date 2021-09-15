@@ -4,12 +4,12 @@ ms.assetid: 3fd5baff-142f-453e-bb97-b355ee6678fc
 title: comment créer une topologie pour Two-Pass l’encodage de média Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 525a98faa424371f2d80739e5c68f199cfc7ed6443c25ab3d15b575afdd003e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c813b9a3c31fafaa3efbea83180c997bc46079d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119724879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413045"
 ---
 # <a name="how-to-create-a-topology-for-two-pass-windows-media-encoding"></a>comment créer une topologie pour Two-Pass l’encodage de média Windows
 

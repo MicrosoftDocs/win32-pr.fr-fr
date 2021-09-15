@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 4c98e4888ea012a408acdc08b3ec4ffd15fbdb638f04e95a1442365c434e9bcf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: da840cceab24faa5d541126d46a39f4203e0945b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524013"
 ---
 # <a name="itemfirmwareversion-property"></a>Item. FirmwareVersion, propriété
 
@@ -39,7 +39,7 @@ propVal = Item.FirmwareVersion
 
 Chaîne qui reçoit la version du microprogramme.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

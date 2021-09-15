@@ -4,12 +4,12 @@ ms.assetid: 3acb9c12-0158-4b89-87c4-4abd35ae8c2f
 title: Génération automatique d’une table des matières
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1fd6ec833302ff24e79582a5bf3ee500d715a69e9e74910bdf9b72a2f5a64f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22adc4d48ad7f4b1d89a446eb28c25d6011804a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119958309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413049"
 ---
 # <a name="generating-a-table-of-contents-automatically"></a>Génération automatique d’une table des matières
 

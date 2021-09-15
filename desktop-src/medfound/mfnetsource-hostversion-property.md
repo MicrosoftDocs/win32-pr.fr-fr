@@ -4,12 +4,12 @@ ms.assetid: eee93457-483d-41dc-91c5-c12382d03152
 title: MFNETSOURCE_HOSTVERSION, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d5f78a277de4fc5b0609be31f21f684357806dbb8609657a930cdc4816b1e43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f10c1a66bc2ab52455140733a6b60f25863c8f3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523601"
 ---
 # <a name="mfnetsource_hostversion-property"></a>MFNETSOURCE \_ propriété HOSTVERSION
 
@@ -37,7 +37,7 @@ La constante **MFNETSOURCE \_ HOSTVERSION** définit le GUID de cette clé de pr
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

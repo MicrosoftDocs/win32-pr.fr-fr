@@ -4,12 +4,12 @@ ms.assetid: a6ab1708-dd82-4960-b908-f1daef7374ef
 title: Requêtes de métadonnées au format d’image natif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 463315a1fb18f0f3dc177635f7e63505589e239257dc9cc25fcfa0773ddb25f4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4be5e9c0f853e4c5e48fb5eb41f2d2ab27b4f4d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119882379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412219"
 ---
 # <a name="native-image-format-metadata-queries"></a>Requêtes de métadonnées au format d’image natif
 
@@ -96,7 +96,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin                                               | Nom                       | Type                                |
+| Chemin d’accès                                               | Name                       | Type                                |
 |----------------------------------------------------|----------------------------|-------------------------------------|
 | /commentext ou/ \[ \* \] commentext où \* = 0 à N | Extension de commentaire          | VT \_ inconnu-lecteur/enregistreur de requêtes |
 | /commentext/TextEntry                              |                            | VT- \_ LPSTR                           |
@@ -124,7 +124,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin                            | Nom                      | Type                              |
+| Chemin d’accès                            | Name                      | Type                              |
 |---------------------------------|---------------------------|-----------------------------------|
 | /grctlext                       | Extension de contrôle graphique | VT \_ inconnu-lecture/écriture de requêtes |
 | /grctlext/Disposal              |                           | \_UI1 VT                           |
@@ -161,7 +161,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin                                                   | Nom             | Type                                      |
+| Chemin d’accès                                                   | Name             | Type                                      |
 |--------------------------------------------------------|------------------|-------------------------------------------|
 | /Text ou/ \[ \* \] Text où \* = 0 à N                 | Bloc de texte       | VT \_ /lecteur de requêtes de texte inconnu    |
 | /tEXt/{str = \* } où \* = mot clé d’identification du texte |                  | VT- \_ LPSTR                                 |
@@ -218,7 +218,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin                                          | Nom            | Type                                |
+| Chemin d’accès                                          | Name            | Type                                |
 |-----------------------------------------------|-----------------|-------------------------------------|
 | /ifd                                          | 0 IFD           | VT \_ inconnu-lecteur/enregistreur de requêtes |
 | /IFD/{UShort = \* } où \* = 0 à 65535        | Entrée IFD par ID | Variable                            |
@@ -251,7 +251,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin                                                               | Nom                 | Type                                          |
+| Chemin d’accès                                                               | Name                 | Type                                          |
 |--------------------------------------------------------------------|----------------------|-----------------------------------------------|
 | /app0                                                              | App0                 | VT \_ inconnu-lecteur/enregistreur de requêtes APP0        |
 | /APP0/{UShort = 0}                                                   | Version              | \_UI2 VT                                       |
@@ -556,7 +556,7 @@ S’il n’existe pas de préfixe de schéma convivial pour un schéma particuli
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

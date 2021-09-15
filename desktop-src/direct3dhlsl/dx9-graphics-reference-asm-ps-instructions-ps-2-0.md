@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 292263ed6331c8cc878d6dbd9cfa3e4d766c193d2242b841afb926b296675ccf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bac2a70ed0147885174c2290d5e58c92ae3347e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120067989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524577"
 ---
 # <a name="ps_2_0-instructions"></a>\_instructions PS 2 \_ 0
 
@@ -32,7 +32,7 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 
 
 
-| Nom                                                             | Description                                                                                      | Emplacements des instructions | Installation | Arithmétique | Texture | Nouveau |
+| Name                                                             | Description                                                                                      | Emplacements des instructions | Installation | Arithmétique | Texture | Nouveau |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------|-------|------------|---------|-----|
 | [ABS-PS](abs---ps.md)                                         | Valeur absolue                                                                                   | 1                 |       | x          |         | x   |
 | [Add-PS](add---ps.md)                                         | Ajouter deux vecteurs                                                                                  | 1                 |       | x          |         |     |
@@ -54,7 +54,7 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 | [m4x3-PS](m4x3---ps.md)                                       | 4x3 multiplier                                                                                     | 3                 |       | x          |         | x   |
 | [M4X4-PS](m4x4---ps.md)                                       | 4 x 4                                                                                     | 4                 |       | x          |         | x   |
 | [Mad-PS](mad---ps.md)                                         | Multiplier et ajouter                                                                                 | 1                 |       | x          |         |     |
-| [Max-PS](max---ps.md)                                         | Maximum                                                                                          | 1                 |       | x          |         | x   |
+| [Max-PS](max---ps.md)                                         | Maximale                                                                                          | 1                 |       | x          |         | x   |
 | [min-PS](min---ps.md)                                         | Minimum                                                                                          | 1                 |       | x          |         | x   |
 | [MOV-PS](mov---ps.md)                                         | Déplacer                                                                                             | 1                 |       | x          |         |     |
 | [Mul-PS](mul---ps.md)                                         | Multiplier                                                                                         | 1                 |       | x          |         |     |

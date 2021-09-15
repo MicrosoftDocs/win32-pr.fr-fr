@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c015aaa8606f5d04386b7839584203c5672e4ac1bf031b89eb4c41ca69f7dd14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccdeae4dd47d3ad4bf5d756c2ca362033eae6814
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413226"
 ---
 # <a name="rwtexture2d"></a>RWTexture2D
 
@@ -29,7 +29,7 @@ Ressource en lecture/écriture.
 | Méthode                                                        | Description                   |
 |---------------------------------------------------------------|-------------------------------|
 | [**GetDimensions**](sm5-object-rwtexture2d-getdimensions.md) | Obtient les dimensions de ressource. |
-| [**Load**](rwtexture2d-load.md)                              | Lit les données de texture.           |
+| [**Chargera**](rwtexture2d-load.md)                              | Lit les données de texture.           |
 | [**Opérateur\[\]**](sm5-object-rwtexture2d-operatorindex.md)  | Obtient une variable de ressource.     |
 
 
@@ -110,9 +110,9 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge |
+| Modèle de nuanceur                                                                | Prise en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
@@ -122,7 +122,7 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

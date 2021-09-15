@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102050
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 46578503fbaad6bc14a8a2aa6d3122db0b6f80ab41e7e78a6b9ec0eb7abf1315
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b39769ba4d3ab85ef1bc50da10b560705ca20bb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524372"
 ---
 # <a name="esentinvalidparameterexception-properties"></a>Propriétés EsentInvalidParameterException
 
@@ -69,7 +69,7 @@ Le type [EsentInvalidParameterException](./esentinvalidparameterexception-class.
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

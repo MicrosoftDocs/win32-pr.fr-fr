@@ -4,12 +4,12 @@ ms.assetid: b6315e21-0758-e4c8-195f-4b83c7b61784
 title: Coordonnées de l’espace 3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b80cee9888d5dff446939e7b923626e01700405577bbe5ef1ddbbda2cb1bb085
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3081c1a3a6c497d53d093c98732a9d381996c96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523941"
 ---
 # <a name="coordinates-of-3d-space"></a>Coordonnées de l’espace 3D
 

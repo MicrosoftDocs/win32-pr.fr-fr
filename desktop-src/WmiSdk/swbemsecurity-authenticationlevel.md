@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0cbb765241fabb86a14a5d74f7a839d5d81b017856b6da349b9ec04fd8535a4a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63ae9e529de010e0a0ca7b8bc1da7dc8dc4891b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312713"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403475"
 ---
 # <a name="swbemsecurityauthenticationlevel-property"></a>SWbemSecurity. AuthenticationLevel, propriété
 
@@ -41,7 +41,7 @@ SWbemSecurity.AuthenticationLevel As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre authenticationLevel vous permet de demander le niveau d’authentification et de confidentialité DCOM à utiliser au cours d’une connexion. Paramètres allant de l’authentification sans authentification à l’authentification chiffrée par paquet.
 
@@ -50,7 +50,7 @@ Le paramètre authenticationLevel vous permet de demander le niveau d’authenti
 | Valeur        | Description                                                                                                                                                                                                                                                                                                            |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | None         | N’utilise pas d’authentification. Tous les paramètres de sécurité sont ignorés.<br/>                                                                                                                                                                                                                                         |
-| Default      | Utilise une négociation de sécurité standard pour sélectionner un niveau d’authentification. Il s’agit du paramètre recommandé, car le client impliqué dans la transaction sera négocié au niveau d’authentification spécifié par le serveur.<br/> DCOM ne sélectionne pas la valeur aucun au cours d’une session de négociation.<br/> |
+| Valeur par défaut      | Utilise une négociation de sécurité standard pour sélectionner un niveau d’authentification. Il s’agit du paramètre recommandé, car le client impliqué dans la transaction sera négocié au niveau d’authentification spécifié par le serveur.<br/> DCOM ne sélectionne pas la valeur aucun au cours d’une session de négociation.<br/> |
 | Se connecter      | Authentifie les informations d’identification du client uniquement lorsque le client tente de se connecter au serveur. Une fois la connexion établie, aucune vérification d’authentification supplémentaire n’a lieu.<br/>                                                                                                                          |
 | Appeler         | Authentifie les informations d’identification du client uniquement au début de chaque appel, lorsque le serveur reçoit la demande. Les en-têtes de paquets sont signés, mais les paquets de données échangés entre le client et le serveur ne sont ni signés ni chiffrés.<br/>                                                     |
 | PKT          | Authentifie que tous les paquets de données sont reçus du client attendu. Semblable à Call ; les en-têtes de paquets sont signés, mais pas chiffrés. Les paquets eux-mêmes ne sont ni signés ni chiffrés.<br/>                                                                                                               |

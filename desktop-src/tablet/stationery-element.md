@@ -4,12 +4,12 @@ ms.assetid: 39cc8ee6-b010-428e-b729-de49fa34b91b
 title: Élément de papier à lettres
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1143fed10ca4390cb13c3cbb31a7a0d6a37972d5b50cb7d3dd9b6fc904e555aa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 012ec2c271d7b0509cf0a9669a9d7898cf7956b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119350029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412254"
 ---
 # <a name="stationery-element"></a>Élément de papier à lettres
 
@@ -27,9 +27,9 @@ Contient des informations sur le papier à lettres utilisé dans la note du jour
 
 ## <a name="child-elements"></a>Éléments enfants
 
-[**Arrière-plan**](background-element.md)
+[**Contexte**](background-element.md)
 
-[**Titre**](title-element.md)
+[**Intitulé**](title-element.md)
 
 [**LineLayout**](linelayout-element.md)
 

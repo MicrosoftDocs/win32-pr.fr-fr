@@ -5,11 +5,11 @@ title: Créer des menus en cascade avec l’interface IExplorerCommand
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2ed12cf78dc4b5f6a77bbd00b06897b49474a401
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436094"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412499"
 ---
 # <a name="how-to-create-cascading-menus-with-the-iexplorercommand-interface"></a>Comment créer des menus en cascade avec l’interface IExplorerCommand
 
@@ -24,7 +24,7 @@ Les deux captures d’écran suivantes illustrent l’utilisation des menus en c
 
 ![capture d’écran montrant un exemple de menu en cascade dans le dossier appareils](images/file-assoc/cascadeDevices2.png)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Étant donné que [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) prend uniquement en charge l’activation in-process, il est recommandé d’utiliser des sources de données Shell qui doivent partager l’implémentation entre des commandes et des menus contextuels.

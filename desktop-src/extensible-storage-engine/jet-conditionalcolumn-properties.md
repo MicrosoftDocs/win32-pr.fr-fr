@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103533
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 961b3237993fa6ed488d36a5fd0782abb750db6f935279060943d9c1ff35a8e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4bef5f10b6855a127948f27f322bd086f776f6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117705100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413164"
 ---
 # <a name="jet_conditionalcolumn-properties"></a>Propriétés de la JET_CONDITIONALCOLUMN
 
@@ -50,7 +50,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-class.md)
 

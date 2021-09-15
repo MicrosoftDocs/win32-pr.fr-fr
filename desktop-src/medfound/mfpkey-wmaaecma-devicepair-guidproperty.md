@@ -4,12 +4,12 @@ ms.assetid: f87bef33-9a48-4568-b554-7eec34f0bd55
 title: MFPKEY_WMAAECMA_DEVICEPAIR_GUID, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 174bbae3c83ef28ece7d05e36b0a05813078a9a9fba73ac7fae7dba25b67fb00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a586d7d31f29b20eb7ca39320d5fa57b9943715a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412908"
 ---
 # <a name="mfpkey_wmaaecma_devicepair_guid-property"></a>MFPKEY \_ WMAAECMA \_ DEVICEPAIR \_ GUID, propriété
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cette propriété si vous utilisez le DSP en mode filtre et que la valeur de la propriété [MFPKEY \_ WMAAECMA \_ Retrieve \_ TS \_ Statistic](mfpkey-wmaaecma-retrieve-ts-statsproperty.md) est \_ true.
 
@@ -35,7 +35,7 @@ Lorsque la propriété [**MFPKEY \_ WMAAECMA Retrieve des \_ \_ \_ statistiques 
 
 Si vous utilisez le DSP en mode Source, vous n’avez pas besoin de définir cette propriété. Le DSP génère automatiquement un GUID basé sur la valeur de la propriété d’index de l' [ \_ \_ appareil \_ MFPKEY WMAAECMA](mfpkey-wmaaecma-device-indexesproperty.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

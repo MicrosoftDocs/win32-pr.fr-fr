@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: 3c6c7957e969d04eaf65014e023a5f64e0826b6285fb878d9afefbd7cda25721
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99135ac22509b288726732ca4a16248b304f294b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118895831"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413434"
 ---
 # <a name="wthelpercertfindissuercertificate-function"></a>WTHelperCertFindIssuerCertificate fonction)
 
@@ -116,11 +116,11 @@ Pointeur vers une variable **DWORD** qui contient la valeur d’erreur de ce cer
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Certificat d’émetteur qui correspond au certificat de sujet spécifié par le paramètre *pChildContext* .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour trouver un certificat d’émetteur correspondant, les conditions suivantes doivent être remplies :
 
@@ -129,7 +129,7 @@ Pour trouver un certificat d’émetteur correspondant, les conditions suivantes
 -   La valeur du paramètre *psftVerifyAsOf* doit être comprise dans la période de validité du certificat du sujet.
 -   La période de validité du certificat d’objet doit être comprise dans la période de validité du certificat de l’émetteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

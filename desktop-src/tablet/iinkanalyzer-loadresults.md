@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 47f385334f1b16f3d7de46b8cfc53ee6b94f485c9768f973b745af335cd5c12f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76c7fed63b38f1b4fc058fbe7676a727c2d47f19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119713379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523245"
 ---
 # <a name="iinkanalyzerloadresults-method"></a>IInkAnalyzer :: LoadResults, méthode
 
@@ -86,11 +86,11 @@ Tableau de nouveaux identificateurs de trait.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque [**IInkAnalyzer**](iinkanalyzer.md) ajoute un [**IContextNode**](icontextnode.md) à partir des résultats enregistrés, il attribue un nouvel identificateur global unique (Guid) au **IContextNode** (voir [**IContextNode :: GetPropertyData**](icontextnode-getpropertydata.md) et les propriétés du [nœud de contexte](context-node-properties.md)).
 
@@ -104,7 +104,7 @@ Si un indicateur d’analyse enregistré est en conflit avec un indicateur d’a
 
 Cette méthode peut déclencher les événements [**\_ IAnalysisProxyEvents :: ContextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md), [**\_ IAnalysisProxyEvents :: ContextNodeLinkAdding**](-ianalysisproxyevents-contextnodelinkadding.md)et [**\_ IAnalysisProxyEvents :: ContextNodePropertiesUpdated**](-ianalysisproxyevents-contextnodepropertiesupdated.md) lors du chargement des résultats enregistrés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

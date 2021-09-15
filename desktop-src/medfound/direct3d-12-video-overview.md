@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Vue d’ensemble vidéo Direct3D 12
 ms.topic: article
 ms.date: 06/03/2019
-ms.openlocfilehash: 561ceba8a3110d6aa7e9a336430c0a14ddb45bc5707c650588a08c391cd65863
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b21587f2784b34131da9c050655b6f3fbe43582d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524268"
 ---
 # <a name="direct3d-12-video-overview"></a>Vue d’ensemble vidéo Direct3D 12
 

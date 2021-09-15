@@ -4,12 +4,12 @@ ms.assetid: 6a090125-67dd-4267-9973-10e32c6e4f1f
 title: Message WM_HELP (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d95f1573888d378a8a60d2e6cef08581600a5f0526ab40675eb0ce7d9d0d0a2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7dd1b042a2e57fb64eb3aa81f38cec336e33efab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412324"
 ---
 # <a name="wm_help-message"></a>\_Message d’aide WM
 
@@ -33,15 +33,15 @@ Adresse d’une structure [**HELPINFO**](/windows/win32/api/winuser/ns-winuser-h
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) transmet **l' \_ aide WM** à la fenêtre parente d’une fenêtre enfant ou au propriétaire d’une fenêtre de niveau supérieur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

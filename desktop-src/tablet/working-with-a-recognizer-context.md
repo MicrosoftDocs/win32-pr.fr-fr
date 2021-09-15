@@ -4,12 +4,12 @@ ms.assetid: 33d9abc4-151e-47b4-b66f-ff6adfe21222
 title: Utilisation d’un contexte de module de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d99020e97170f0b68b1459abdc4b85f81ebc3fbba426233c2c13b5e042f28ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdea8c59bc894a6962e8bbe7e58f316327a548e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118715097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412238"
 ---
 # <a name="working-with-a-recognizer-context"></a>Utilisation d’un contexte de module de reconnaissance
 

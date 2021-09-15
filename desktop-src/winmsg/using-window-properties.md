@@ -4,12 +4,12 @@ ms.assetid: cdf196ec-300c-4c7b-8a4f-68088c4a2507
 title: Utilisation des propriétés de la fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b59fcb4cb0346554ee2df5c1b2fc92df7675cd61d11799b891156b13f26fb213
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 736682eb34191a061aa9753ef9d5e8c7e366fbe3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525193"
 ---
 # <a name="using-window-properties"></a>Utilisation des propriétés de la fenêtre
 

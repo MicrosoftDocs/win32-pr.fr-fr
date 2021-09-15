@@ -4,12 +4,12 @@ ms.assetid: c1aa0d65-cfea-4720-ad09-7add724e03c7
 title: Fonctionnalités multiples avec un stylet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22cbba4c95ef215b8ae1e0c94cbe1d43eaceb966fd775284c57a365bbba2f7fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8313e6a13cb48900e0c0d31c2e1e590e07df6c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118449670"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525313"
 ---
 # <a name="multiple-functionality-with-one-pen"></a>Fonctionnalités multiples avec un stylet
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b055a2fd8d69b45e2f7059022908b5cb91f8e790196504172c0ad1c608b78c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4300a2385b6ada64e05e16671802460930cc2a7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202210"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525220"
 ---
 # <a name="ribbontabs-property"></a>Ruban. Tabs, propriété
 
@@ -41,7 +41,7 @@ Il n’y a pas d’attributs.
 
 | Élément                                             | Description                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**Onglet**](windowsribbon-element-tab.md)<br/> | Doit se produire au moins une fois<br/> <br/> |
+| [**/**](windowsribbon-element-tab.md)<br/> | Doit se produire au moins une fois<br/> <br/> |
 
 
 
@@ -55,7 +55,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Obligatoire.
 
@@ -112,7 +112,7 @@ L’exemple suivant illustre le balisage de base pour un élément **ruban. Tabs
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

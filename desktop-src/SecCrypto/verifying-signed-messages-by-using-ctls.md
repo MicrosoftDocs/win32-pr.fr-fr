@@ -4,12 +4,12 @@ ms.assetid: e45ea3ae-52bc-49d3-8144-f3becc254f53
 title: Vérification des messages signés à l’aide de listes CTL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1624a132ed976800d1c8a8ab0dcd878f533f0d0b947879e87e3e8dc21ccff51a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a660bcd7e17a168b25048e61684aabc2d3ef3124
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118896230"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413448"
 ---
 # <a name="verifying-signed-messages-by-using-ctls"></a>Vérification des messages signés à l’aide de listes CTL
 

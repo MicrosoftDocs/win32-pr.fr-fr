@@ -11,12 +11,12 @@ keywords:
 - inscription, gestionnaires de recherche dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be891247c36687b0305e7e9c60711a233fb9b1d4f7f8554d0103be4cc0dc5a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6476109302a176822137747353b2762b0caea8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975775"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413076"
 ---
 # <a name="creating-search-handlers"></a>Création de gestionnaires de recherche
 

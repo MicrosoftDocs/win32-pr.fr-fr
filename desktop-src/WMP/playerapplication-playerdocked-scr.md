@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e05d186ab8123dcd4a03eff6c282cec4f7884225d8271540eebb8dc2e73eba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21abe3dd5cb14906db39e8eb50a1d18302a92ff6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118571786"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413328"
 ---
 # <a name="playerapplicationplayerdocked"></a>PLAYERAPPLICATION.playerDocked
 
@@ -46,7 +46,7 @@ Cet attribut est une **valeur booléenne** en lecture seule.
 
 cet attribut est utilisé uniquement lors de la communication à distance du contrôle Lecteur Windows Media.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

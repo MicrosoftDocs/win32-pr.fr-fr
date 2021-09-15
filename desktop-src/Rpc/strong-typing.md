@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ea859e2d5c160048d79e3c371b47af2bc55e0a65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940306"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413490"
 ---
 # <a name="strong-typing"></a>Typage fort
 
@@ -37,9 +37,9 @@ Dans les rubriques suivantes, cette section traite des fonctionnalités de langa
 -   [Trois types pointeur](three-pointer-types.md)
 -   [Attributs de type](type-attributes.md)
 
- 
+ 
 
- 
+ 
 
 
 

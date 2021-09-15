@@ -5,11 +5,11 @@ title: Élément IUnknownDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: cb3a4f76145e585411e64c10ea7af922db931846
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995146"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413281"
 ---
 # <a name="iunknowndefinitions-element"></a>Élément IUnknownDefinitions
 
@@ -66,7 +66,7 @@ interface
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

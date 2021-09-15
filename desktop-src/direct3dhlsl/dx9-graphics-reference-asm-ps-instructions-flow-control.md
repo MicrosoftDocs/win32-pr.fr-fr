@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b261cff11a95236e9bc6653c59c16ca0ac221ca719ade7497dbfffa2198da207
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34891e29a1bb27aead629db2cc7473c7d4329af5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524581"
 ---
 # <a name="flow-control-limitations"></a>Flow Limitations des contrôles
 
@@ -66,7 +66,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximum                                                                                   |
+| Type d’instruction | Maximale                                                                                   |
 |------------------|-------------------------------------------------------------------------------------------|
 | Imbrication statique   | 24 si (D3DCAPS9. D3DPSHADERCAPS2 \_ 0. StaticFlowControlDepth > 0); 0 sinon            |
 | Imbrication dynamique  | de 0 à 24, consultez D3DCAPS9. D3DPSHADERCAPS2 \_ 0. DynamicFlowControlDepth                          |
@@ -113,7 +113,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximum |
+| Type d’instruction | Maximale |
 |------------------|---------|
 | Imbrication statique   | 24      |
 | Imbrication dynamique  | 24      |
@@ -160,7 +160,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximum |
+| Type d’instruction | Maximale |
 |------------------|---------|
 | Imbrication statique   | 24      |
 | Imbrication dynamique  | 24      |
@@ -207,7 +207,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximum |
+| Type d’instruction | Maximale |
 |------------------|---------|
 | Imbrication statique   | 24      |
 | Imbrication dynamique  | 24      |

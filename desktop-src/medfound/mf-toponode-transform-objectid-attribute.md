@@ -4,12 +4,12 @@ ms.assetid: 6aa6e649-d23d-4d8d-be80-2b8814b07a57
 title: Attribut MF_TOPONODE_TRANSFORM_OBJECTID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9b5013bc43f07e08e1a2c26530e9325595e62666986516029ef9d76e2c72ffe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ea96e09a75374bfe048b531492fc913f764d364
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118244313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523616"
 ---
 # <a name="mf_toponode_transform_objectid-attribute"></a>\_ \_ Attribut ObjectID de transformation TOPONODE MF \_
 
@@ -27,7 +27,7 @@ Les applications peuvent utiliser cet attribut pour initialiser une de nœud. Si
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

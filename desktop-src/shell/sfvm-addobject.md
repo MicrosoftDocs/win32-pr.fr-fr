@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 441ddac74e1640b2f836686c171d6fc896cbccee2dd6325c31041903ba610b39
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0e5b3f0a5b1aed634ab8929b0501d2e23ba40352
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524077"
 ---
 # <a name="sfvm_addobject-message"></a>\_Message SFVM ADDOBJECT
 
@@ -42,7 +42,7 @@ SFVM_ADDOBJECT
 *PIDL* \[ dans\]
 </dt> <dd>Pointeur vers l’objet d’intérêt à ajouter.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nouvel ID d’élément ListView de l’objet ajouté si le processus a réussi ; Sinon, retourne-1.
 

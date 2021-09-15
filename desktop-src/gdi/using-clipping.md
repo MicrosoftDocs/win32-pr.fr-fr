@@ -4,12 +4,12 @@ ms.assetid: c71727aa-f4a3-409e-b50f-709eb4dbdaab
 title: Utilisation du découpage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f54e4dee790d2891ebf36fb90ff9996b624d3c4d8d053fecae8397a38e043bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87a81181c09197fd98b5c84fd6f641ba84445000
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524313"
 ---
 # <a name="using-clipping"></a>Utilisation du découpage
 

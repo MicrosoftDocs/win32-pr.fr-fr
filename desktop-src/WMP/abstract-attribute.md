@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb6b670d820eb6515338661aee75f17a5a4defd773f0acba742e6ee87e598774
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e29b7910c93cdc8f67a5f7c053604fa3f33cc367
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413348"
 ---
 # <a name="abstract-attribute"></a>Attribut Abstract
 
@@ -27,13 +27,13 @@ L’attribut **abstract** est une brève description de la station de radio.
 
 -   [Éléments radio](radio-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

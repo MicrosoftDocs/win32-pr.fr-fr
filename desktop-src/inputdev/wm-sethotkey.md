@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b6c9d4bdb4a59181fe3a413cca6861bc3663367cca9e7b34e0647de88978b0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7ed27a91ddf9506cd12b988db4bd141a988c13e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118482516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523741"
 ---
 # <a name="wm_sethotkey-message"></a>\_Message WM SETHOTKEY
 
@@ -67,13 +67,13 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est l’une des suivantes.
 
 
 
-| Valeur retournée                                                                  | Description                                                                             |
+| Valeur de retour                                                                  | Description                                                                             |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <dl> <dt>-1</dt> </dl> | La fonction échoue ; la touche d’accès rapide n’est pas valide.<br/>                        |
 | <dl> <dt>0</dt> </dl>  | La fonction échoue ; la fenêtre n’est pas valide.<br/>                         |
@@ -84,7 +84,7 @@ La valeur de retour est l’une des suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une touche d’accès rapide ne peut pas être associée à une fenêtre enfant.
 
@@ -96,7 +96,7 @@ Une fenêtre ne peut avoir qu’une seule touche d’accès rapide. Si la fenêt
 
 Ces touches d’accès rapide ne sont pas liées aux touches d’accès rapide définies par [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -124,7 +124,7 @@ Ces touches d’accès rapide ne sont pas liées aux touches d’accès rapide d
 [**\_SYSCOMMAND WM**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

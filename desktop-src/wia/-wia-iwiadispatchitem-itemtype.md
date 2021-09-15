@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 3cbf60c935a88a62786c7c516ec0e768d65019c02d4419c44d928cee704a67b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b70f7a1698ecdb4de023786f21a6ef9d55f681d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119450779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524004"
 ---
 # <a name="itemitemtype-property"></a>Item. ItemType, propriété
 
@@ -53,11 +53,11 @@ Les valeurs suivantes sont possibles :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un élément peut avoir plusieurs types. Par exemple, chaque image est de type « image » et « fichier ». **ItemType** retourne une chaîne qui comprend tous les types valides pour l’élément, séparés par des points-virgules. Par exemple, « image ; fichier ». Il n’y a pas d’espace dans cette chaîne, et il n’y a pas de point-virgule à la fin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

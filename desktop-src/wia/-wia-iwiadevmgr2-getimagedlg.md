@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 0b03356e40f1c708c852917c890e4c1bf96b98cd18ccf82b75ebcaaccaa69597
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6777b839beeb809383e524960e8882392be4bd24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119814039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524033"
 ---
 # <a name="iwiadevmgr2getimagedlg-method"></a>IWiaDevMgr2 :: GetImageDlg, méthode
 
@@ -129,7 +129,7 @@ Adresse d’un pointeur vers le [**IWiaItem2**](-wia-iwiaitem2.md) à partir duq
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -140,7 +140,7 @@ Type : **HRESULT**
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’application transmet **null** pour la valeur du paramètre *bstrDeviceID* , **IWiaDevMgr2 :: GetImageDlg** affiche la boîte de dialogue **Sélectionner un appareil** afin que l’utilisateur puisse sélectionner l’appareil d’entrée WIA 2,0.
 
@@ -150,7 +150,7 @@ Appelez [SysFreeString](/previous-versions/windows/desktop/api/oleauto/nf-oleaut
 
 La boîte de dialogue doit avoir des droits suffisants sur *bstrFolderName* pour pouvoir enregistrer les fichiers avec des noms de fichiers uniques. Protégez le dossier à l’aide d’une liste de contrôle d’accès (ACL), car il contient des données utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

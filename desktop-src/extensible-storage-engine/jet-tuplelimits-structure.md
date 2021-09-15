@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7155763f68a74333fc71db1054fb0ecffcca862e
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983762"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413149"
 ---
 # <a name="jet_tuplelimits-structure"></a>Structure JET_TUPLELIMITS
 
@@ -69,7 +69,7 @@ Offset dans la valeur pour commencer à récupérer des tuples à partir de la v
 
 **Windows Vista :** le membre **ichStart** est introduit dans Windows Vista.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Un index de tuple parcourt une chaîne et indexe toutes ses sous-chaînes possibles de **chLengthMax**. À la fin de la chaîne (ou à la position **chToIndexMax**, selon ce qui se produit en premier), les sous-chaînes d’au moins **chLengthMin** seront indexées.
 
@@ -95,7 +95,7 @@ Notez que « IN » se produit deux fois, et que la dernière entrée (« N \!
 
 **Windows xp :** Windows xp prend en charge les index de tuple, mais n’a pas de **JET_TUPLELIMITS**. Le moteur de base de données utilisera les valeurs par défaut (**chLengthMin**= 3, **chLengthMax**= 10, **chToIndexMax**= 32767). Il est toujours possible de modifier ces valeurs, mais elles sont définies en fonction de l’instance à l’aide de [JetSetSystemParameter](./jetsetsystemparameter-function.md) avec [JET_paramIndexTuplesLengthMin](./index-parameters.md), [JET_paramIndexTuplesLengthMax](./index-parameters.md)et [JET_paramIndexTuplesToIndexMax](./index-parameters.md).
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

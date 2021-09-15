@@ -4,12 +4,12 @@ ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: Fonctionnalité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18509cb41581fc3f366185f61e5893d823141d3f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: d3d35686674d08ea0ea4030648b06803919e5d07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411490"
 ---
 # <a name="feature"></a>Fonctionnalité
 
@@ -19,7 +19,7 @@ Un élément Feature contient une liste complète des éléments option et Prope
 
 ## <a name="element-tag"></a>Balise d’élément
 
-<Feature>
+&lt;Fonctionnalité&gt;
 
 ## <a name="xml-attributes"></a>Attributs XML
 

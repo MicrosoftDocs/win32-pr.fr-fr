@@ -4,12 +4,12 @@ ms.assetid: 260c5924-d082-4ed2-a8ed-b8a3ad1ca1a9
 title: palettes de couleurs (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81079ac94b40de98bc1c53098a8b9d1654f90d0d855397ac38d11311e9741e9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db6da2aab08d2b482eb678e8541ec166156b78f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118761956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413146"
 ---
 # <a name="color-palettes-windows-gdi"></a>palettes de couleurs (Windows GDI)
 

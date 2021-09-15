@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shldisp.h
-ms.openlocfilehash: a9805656d977118a5dcb657cb2a598e6ad58cfb799f4342340a074b3326c4f68
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55a64f559693b8c593ed366345ba5571a16797e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118720539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412421"
 ---
 # <a name="webwizardhostproperty-property"></a>Propriété WebWizardHost. Property
 
@@ -40,7 +40,7 @@ WebWizardHost.Property = Property
 
 Variable de type [**BSTR**](/previous-versions/windows/desktop/automat/bstr) qui spécifie ou reçoit la propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

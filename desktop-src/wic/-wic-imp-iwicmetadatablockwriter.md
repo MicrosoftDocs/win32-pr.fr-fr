@@ -4,12 +4,12 @@ ms.assetid: 31824f21-04b1-45ca-adfa-15fd348e14a1
 title: Implémentation de IWICMetadataBlockWriter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43d49912ece0cc1e3c2299ace0a15f112ef7ab65ac03863b855b8a9ee64e62e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62044ce9695a45a8fe052d67479158aa9e4baf6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964968"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412222"
 ---
 # <a name="implementing-iwicmetadatablockwriter"></a>Implémentation de IWICMetadataBlockWriter
 
@@ -81,7 +81,7 @@ for (UINT x=0; x < blockCount; x++)
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation de IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md)

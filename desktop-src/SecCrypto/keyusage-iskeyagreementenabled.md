@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5e70c065bbdf3f3ba53b9adef410b4462d06251201281ef6946c52ed9d92f27f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74369996d9e525746e315d1dd2934ef854ffd110
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119408769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413463"
 ---
 # <a name="keyusageiskeyagreementenabled-property"></a>KeyUsage. IsKeyAgreementEnabled, propriété
 
@@ -39,7 +39,7 @@ KeyUsage.IsKeyAgreementEnabled As Boolean
 
 Si la **valeur est true**, le bit keyAgreement est défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

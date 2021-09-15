@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: af9a7a9e-bd7c-4b17-9cb6-008df5c820d8
-ms.openlocfilehash: a5a17e8206af8f0821833f4b2ea250606de29b6fbe74b7a29ced6c5b5dc13ed0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ea3461d00c16f7384d7396e2f03946d517c460f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118458219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525397"
 ---
 # <a name="imultimonitordockingsite-interface"></a>Interface IMultiMonitorDockingSite
 
@@ -45,11 +45,11 @@ L’interface **IMultiMonitorDockingSite** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En général, vous n’implémentez pas l’interface **IMultiMonitorDockingSite** . Le navigateur de l’interpréteur de commandes implémente cette interface pour prendre en charge plusieurs analyses.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

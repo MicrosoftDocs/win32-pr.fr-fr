@@ -4,12 +4,12 @@ ms.assetid: 2eaffcf7-01b2-44ce-8bc4-fd9fa42c8a8c
 title: Récupération rapide à l’aide de volumes de clichés instantanés transportables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb5ddd7604b1463def4ceaa6cd474487255682cf4489b13c5da520128c06811
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a588395de36b0e6773eacf7f46a45452a69c13c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413372"
 ---
 # <a name="fast-recovery-using-transportable-shadow-copied-volumes"></a>Récupération rapide à l’aide de volumes de clichés instantanés transportables
 

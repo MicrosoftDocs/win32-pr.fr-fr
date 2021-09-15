@@ -4,12 +4,12 @@ ms.assetid: a6288d29-1ef3-4da1-bd30-577336ab6817
 title: System. Rating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9adc62e69ced0f82426f19badb1aebef0453084a9b951b749aed256aa64820a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7e411e313f0fa6042a8cbe3a076a7166928020af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119598129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412663"
 ---
 # <a name="systemrating"></a>System. Rating
 
@@ -137,7 +137,7 @@ propertyDescription
             minValue = 100
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

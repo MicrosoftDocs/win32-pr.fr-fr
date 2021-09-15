@@ -4,12 +4,12 @@ ms.assetid: 123083b0-dc1b-4c5c-8702-e236cffcf2da
 title: Analyseur de table des matières
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 348d98ed50057727407f0fd339a16f0d20538864289441846c3de7ef5e611614
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62d4f931013ba091a740c27c3af541c3bcb7200a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412885"
 ---
 # <a name="table-of-contents-parser"></a>Analyseur de table des matières
 

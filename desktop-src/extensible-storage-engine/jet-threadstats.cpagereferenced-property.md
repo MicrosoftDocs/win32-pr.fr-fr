@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d86393175071c2b54dc8974cfae3397a33b3ac2bca140e95a8e1d8d3d6d5f17d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: beead7c667adc1a4b34ec425d0c2aee7de3aeab0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120115799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523809"
 ---
 # <a name="jet_threadstatscpagereferenced-property"></a>JET_THREADSTATS. cPageReferenced, propriété
 

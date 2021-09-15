@@ -1,17 +1,17 @@
 ---
 description: Rechercher
 ms.assetid: 8a025bee-65e1-40a7-a269-72a93aca827b
-title: Recherche
+title: Rechercher
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c3fade741ae1766118fc3c1b7dc479a0cdb716c84745dbab178742909a7545
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93436c921599795943308e08b7a2443331c768c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119944789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412635"
 ---
-# <a name="search"></a>Recherche
+# <a name="search"></a>Rechercher
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadef.h
-ms.openlocfilehash: 2b4e89f47737788fa9ebf238f06f6420eafbc31d7b27ab7933372d0716fb6588
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8da33f0b257168712f1b16fb7f940df5db862d3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119812949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525253"
 ---
 # <a name="wia_raw_header-structure"></a>\_Structure d' \_ en-tête brut WIA
 
@@ -266,7 +266,7 @@ Taille, en octets, de la table de palettes. (Il s’agit de 0, s’il n’y a au
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné qu’il ne s’agit pas d’un format de fichier, utilisez une chaîne vide pour la propriété d’extension de fichier WIA de la \_ Loi \_ \_ .
 
@@ -276,7 +276,7 @@ La palette et les données peuvent être dans l’ordre.
 
 **PaletteSize** est le nombre d’octets, et non le nombre d’entrées dans la palette.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

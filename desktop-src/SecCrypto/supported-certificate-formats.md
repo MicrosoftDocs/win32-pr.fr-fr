@@ -4,12 +4,12 @@ ms.assetid: e6a324d0-9b62-4625-a604-cb1eeca22aae
 title: Formats de certificat pris en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85ae0c4d638e957df5ddcf251ca64578a67a58b98890401c68593dd7a12c3952
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 912f37f3e4c29ae765f68484aecf0bf9d9b8aea9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897630"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413450"
 ---
 # <a name="supported-certificate-formats"></a>Formats de certificat pris en charge
 

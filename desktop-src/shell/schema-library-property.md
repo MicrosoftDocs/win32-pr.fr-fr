@@ -5,11 +5,11 @@ title: Property, élément (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f2c08577e6f2e3310f3f1966737edb7e9bf31de7
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885615"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525365"
 ---
 # <a name="property-element-library-schema"></a>Property, élément (schéma de bibliothèque)
 
@@ -43,7 +43,7 @@ L' &lt; &gt; élément Property spécifie une propriété utilisée par la bibli
 
 | Élément parent                                                             | Éléments enfants |
 |----------------------------------------------------------------------------|----------------|
-| [Élément propertyStore (schéma de bibliothèque)](schema-library-propertystore.md) | Aucun           |
+| [Élément propertyStore (schéma de bibliothèque)](schema-library-propertystore.md) | None           |
 
 
 
@@ -64,7 +64,7 @@ L' &lt; &gt; élément Property spécifie une propriété utilisée par la bibli
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la configuration requise pour l' &lt; élément de nom canonique &gt; correspond à la configuration requise pour la recherche de Windows et le système de propriétés Windows. La chaîne doit être de type canonique.
 

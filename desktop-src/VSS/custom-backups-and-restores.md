@@ -4,12 +4,12 @@ ms.assetid: 6aaa9220-8aa4-4ddc-9ae0-d7aa05a96fa7
 title: Sauvegardes et restaurations personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec79ec41ee96ad9658850feb9a65f7dd40b227058bcd2ac747afd6b9751e6098
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8ffad08c2b680ca4196466fca7a828344f30d75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413388"
 ---
 # <a name="custom-backups-and-restores"></a>Sauvegardes et restaurations personnalisées
 

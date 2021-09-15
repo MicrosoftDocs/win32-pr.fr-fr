@@ -4,12 +4,12 @@ ms.assetid: 27d7676c-f4e8-43b4-856b-826e07afcd78
 title: activation de votre magasin de données dans Windows recherche fédérée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d26feb231f17dbaacb9656f2ef91e1cdb64bc598831a1e4808327dff7e5787bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8cef227cb82c64f391ec61b2a7fef0fe35acf131
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119456753"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523405"
 ---
 # <a name="enabling-your-data-store-in-windows-federated-search"></a>activation de votre magasin de données dans Windows recherche fédérée
 

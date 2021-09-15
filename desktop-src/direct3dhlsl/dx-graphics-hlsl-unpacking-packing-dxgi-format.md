@@ -10,17 +10,17 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 04f3729bbeda5b0677da9d52e595e621523ff2d1
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106537736"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524621"
 ---
 # <a name="unpacking-and-packing-dxgi_format-for-in-place-image-editing"></a>Décompresser et compresser le \_ format DXGI pour la modification des images In-Place
 
 Le \_ fichier D3DX DXGIFormatConvert. inl contient des fonctions de conversion de format Inline que vous pouvez utiliser dans le nuanceur de calcul ou le nuanceur de pixels sur du matériel Direct3D 11. Vous pouvez utiliser ces fonctions dans votre application pour lire et écrire simultanément dans une texture. Autrement dit, vous pouvez effectuer une modification d’image sur place. Pour utiliser ces fonctions de conversion de format Inline, incluez le \_ fichier D3DX DXGIFormatConvert. inl dans votre application.
 
-> L' \_ en-tête D3DX DXGIFormatConvert. inl est fourni dans le SDK DirectX hérité. Il est également inclus dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) .
+> L' \_ en-tête D3DX DXGIFormatConvert. inl est fourni dans le SDK DirectX hérité. il est également inclus dans le package de NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) .
 
 La vue d’accès non ordonnée (UAV) de Direct3D 11 d’une ressource Texture1D, Texture2D ou Texture3D prend en charge les lectures et écritures d’accès aléatoires dans la mémoire à partir d’un nuanceur de calcul ou d’un nuanceur de pixels. Toutefois, Direct3D 11 prend en charge simultanément la lecture et l’écriture dans uniquement le \_ format de texture dxgi format \_ R32 \_ uint. Par exemple, Direct3D 11 ne prend pas en charge simultanément la lecture et l’écriture dans d’autres formats plus utiles, tels que le \_ format dxgi \_ R8G8B8A8 \_ UNORM. Vous pouvez utiliser uniquement un UAV pour l’accès aléatoire en écriture dans de tels formats, ou vous pouvez utiliser uniquement un nuanceur Affichage des ressources (SRV) pour accéder de manière aléatoire à la lecture à partir d’autres formats. Le matériel de conversion de format n’est pas disponible pour la lecture et l’écriture simultanées dans d’autres formats.
 

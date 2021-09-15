@@ -4,12 +4,12 @@ ms.assetid: 247ad0a6-ce65-45f1-a0d5-51ad135000aa
 title: System. AppUserModel. StartPinOption
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd2467a6a734e8dc8f1e30aed9ba0a5b986191c457186aff1d145c95cc838f19
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 43cdef82a90488ce87bbf182323b00d62a5cdfea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524205"
 ---
 # <a name="systemappusermodelstartpinoption"></a>System. AppUserModel. StartPinOption
 

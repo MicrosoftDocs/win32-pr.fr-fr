@@ -4,12 +4,12 @@ ms.assetid: d320cb8a-48b6-4a53-a051-d50f239c1aa3
 title: Fusion de vertex indexée (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec3d45e3ff72a33cd21265d1e4aa25e237e2a73e473914898d5c1057316d4ca0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4cfe7b45831317fdf9e92525ed74bbd27323e99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117728697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524925"
 ---
 # <a name="indexed-vertex-blending-direct3d-9"></a>Fusion de vertex indexée (Direct3D 9)
 

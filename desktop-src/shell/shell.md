@@ -14,11 +14,11 @@ api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
 ms.openlocfilehash: d31adcbf5a12d699750029c15a308ef73f4d8c03
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412374"
 ---
 # <a name="shell-object"></a>Objet Shell
 
@@ -59,7 +59,7 @@ L’objet **Shell** possède ces méthodes.
 | <a href="/windows/desktop/shell/shell-isservicerunning"><strong>IsServiceRunning</strong></a> | Retourne une valeur qui indique si un service particulier est en cours d’exécution.<br /> | 
 | <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> | Réduit toutes les fenêtres sur le bureau. cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>réduire tout Windows</strong> sur les anciens systèmes ou si vous cliquez sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br /> | 
 | <a href="shell-namespace.md"><strong>Joint</strong></a> | Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br /> | 
-| <a href="shell-open.md"><strong>Afficher</strong></a> | Ouvre le dossier spécifié.<br /> | 
+| <a href="shell-open.md"><strong>Ouvrir</strong></a> | Ouvre le dossier spécifié.<br /> | 
 | <a href="shell-refreshmenu.md"><strong>RefreshMenu</strong></a> | Actualise le contenu du menu <strong>Démarrer</strong> . utilisé uniquement avec les systèmes précédents Windows XP.<br /> | 
 | <a href="shell-searchcommand.md"><strong>SearchCommand</strong></a> | Affiche le volet de recherche applications.<br /> | 
 | <a href="/windows/desktop/shell/shell-servicestart"><strong>ServiceStart</strong></a> | Démarre un service nommé.<br /> | 
@@ -68,7 +68,7 @@ L’objet **Shell** possède ces méthodes.
 | <a href="/windows/desktop/shell/shell-shellexecute"><strong>ShellExecute</strong></a> | Exécute une opération spécifiée sur un fichier spécifié.<br /> | 
 | <a href="/windows/desktop/shell/shell-showbrowserbar"><strong>ShowBrowserBar</strong></a> | Affiche une barre de navigateur.<br /> | 
 | <a href="shell-shutdownwindows.md"><strong>ShutdownWindows</strong></a> | affiche la boîte de dialogue <strong>arrêter le Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br /> | 
-| <a href="shell-suspend.md"><strong>Interrompre</strong></a> | équipements | 
+| <a href="shell-suspend.md"><strong>Momentané</strong></a> | équipements | 
 | <a href="shell-tilehorizontally.md"><strong>TileHorizontally</strong></a> | Mosaïques horizontalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows horizontalement</strong>.<br /> | 
 | <a href="shell-tilevertically.md"><strong>TileVertically</strong></a> | Mosaïque verticalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows verticalement</strong>.<br /> | 
 | <a href="shell-toggledesktop.md"><strong>ToggleDesktop</strong></a> | Affiche ou masque le bureau.<br /> | 
@@ -98,7 +98,7 @@ L’objet **Shell** possède ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

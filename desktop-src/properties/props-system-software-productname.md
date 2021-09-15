@@ -4,12 +4,12 @@ ms.assetid: 6a2647c6-5996-4e83-b7b3-f727b9445dbc
 title: System. Software. ProductName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c19ef6cbc1df104f9c711b02ff6ed85e279c35bbd4987f54bc78feff9d2a1d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 350c6a2baedbd94f57bb4461ada0360db929b609
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117681881"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523441"
 ---
 # <a name="systemsoftwareproductname"></a>System. Software. ProductName
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

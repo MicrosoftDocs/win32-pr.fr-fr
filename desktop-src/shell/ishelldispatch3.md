@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8f02095415ff2682e1f2a2eeb21c4afe0754b72251f6129856f1b6a415913cf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 501b1396bd08ad8fd06f25da9b7030d4ce28d1e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118720915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412462"
 ---
 # <a name="ishelldispatch3-object"></a>Objet IShellDispatch3
 
@@ -49,11 +49,11 @@ L’objet **IShellDispatch3** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour plus d’informations sur les services Windows, consultez la documentation sur les [services](../services/services.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

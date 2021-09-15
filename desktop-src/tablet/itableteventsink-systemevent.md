@@ -15,11 +15,11 @@ api_location:
 - wisptis.exe
 - wisptis.exe.dll
 ms.openlocfilehash: 71b5882fd9e19df43581e00cce55c2af5faa432b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412266"
 ---
 # <a name="itableteventsinksystemevent-method"></a>ITabletEventSink :: SystemEvent, méthode
 
@@ -71,7 +71,7 @@ Données d’événement système.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -79,7 +79,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
@@ -90,28 +90,28 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 La liste suivante contient les valeurs valides pour le paramètre d’événement.
 
--   \_appui sur se
--   SE \_ double \_ Tap
--   clic \_ droit \_ sur
--   SE \_ faire glisser
--   SE \_ déplacer vers la droite \_
--   \_Appuyez sur \_ entrée
--   maintien de la \_ \_ sortie
--   \_point de suspension de la se \_
--   \_point de suspension de se \_
--   \_clic central \_ se
--   \_touche se
--   \_touche de modification \_ se
--   \_mode de mouvement de se \_
--   \_curseur se
+-   SE \_ EXPLOITER
+-   SE \_ DOUBLE \_ pression
+-   SE \_ clic \_ droit
+-   SE \_ Déplacez
+-   SE \_ \_glisser-déplacer vers la droite
+-   SE \_ MAINTENIR la touche \_ entrée
+-   SE \_ conserver le \_ reste
+-   SE \_ POINTage \_ entrée
+-   SE \_ pointage de survol \_
+-   SE \_ \_clic central
+-   SE \_ ESSENTIEL
+-   SE \_ touche de modification \_
+-   SE \_ MODE de mouvement \_
+-   SE \_ MIRE
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

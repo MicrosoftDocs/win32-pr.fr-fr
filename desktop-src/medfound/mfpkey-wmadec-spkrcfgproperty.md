@@ -4,12 +4,12 @@ ms.assetid: a0353e70-0741-4705-95e0-e76ebd8ba977
 title: MFPKEY_WMADEC_SPKRCFG, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4ebe2d15390a09629d4afaeb7a558fd6c87c82e23954aecf9bb9763f8815fb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05ed96e4f722c1b3bd7c98178cd7f93a6c2e01df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412906"
 ---
 # <a name="mfpkey_wmadec_spkrcfg-property"></a>MFPKEY \_ WMADEC \_ SPKRCFG, propriété
 
@@ -27,7 +27,7 @@ Spécifie la configuration de l’orateur sur l’ordinateur client.
 
 Aucune configuration d’orateur spécifique n’est utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez définir cette valeur sur l’une des constantes ou valeurs indiquées dans le tableau suivant. Les constantes sont définies dans Microsoft DirectSound et sont répertoriées ici pour des raisons pratiques. Pour résoudre ces noms de constantes pour votre compilateur, vous devez inclure dsound. h.
 
@@ -50,7 +50,7 @@ Vous devez définir cette valeur sur l’une des constantes ou valeurs indiquée
 
 La valeur définie pour cette propriété détermine les formats de sortie énumérés par le codec pour l’audio multicanal.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

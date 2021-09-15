@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 1e315cfc32b10274eee47258360e85543f15311a
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624095"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524629"
 ---
 # <a name="samplegrad-directx-hlsl-texture-object"></a>SampleGrad (objet texture HLSL DirectX)
 

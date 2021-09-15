@@ -5,11 +5,11 @@ title: Récupération des événements de service pris en charge
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: dfdc1df4c8255a4dc2a1297ae99216437ac3b4c9
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525124"
 ---
 # <a name="retrieving-supported-service-events"></a>Récupération des événements de service pris en charge
 

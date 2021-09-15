@@ -14,11 +14,11 @@ api_location:
 - Wfext.h
 ms.assetid: 456b053e-e83d-43af-9691-57e1d4fd3f8f
 ms.openlocfilehash: b7549b521c241429f1c5c7edb7f83eadf25f5d37
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525349"
 ---
 # <a name="fm_undelete_proc-function-pointer"></a>\_ \_ Pointeur de fonction proc de suppression de la suppression FM
 
@@ -58,7 +58,7 @@ Adresse d’une chaîne terminée par le caractère null qui contient le nom du 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **DWORD**
 
@@ -82,7 +82,7 @@ Retourne l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Wfext. h</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 8e24efb1-8f7d-498a-bd21-79e182b86846
 title: Fonctions de format de chaîne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 908f43c0835cba8cc811c22313630bb357fbc4618fcd7bd1d338d71b53f7a8c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54cbf9f7fed29c218cf9491819321505e30a7b33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413133"
 ---
 # <a name="string-format-functions"></a>Fonctions de format de chaîne
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**St
 
 
 
-| Fonction plate                                                                                                                                                 | Méthode Wrapper                                                                                                                                                                                             | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Fonction plate                                                                                                                                                 | Méthode Wrapper                                                                                                                                                                                             | Notes                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateStringFormat (INT formatAttributes, Language LANGID, GpStringFormat \* \* format)<br/>                                     | [**StringFormat :: StringFormat (dans INT formatFlags = 0, dans le langage LANGID = LANG \_ Neutral)**](/windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-stringformat(inint_inlangid))<br/>                              | Crée un objet [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) basé sur des indicateurs de format de chaîne et un langage.                                                                                                                                                                                                                                                                                                   |
 | GpStatus WINGDIPAPI GdipStringFormatGetGenericDefault ( \* \* format GpStringFormat)<br/>                                                                   | [**StringFormat \* StringFormat :: GenericDefault ()**](/windows/desktop/api/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-genericdefault)<br/>                                                                                            | Crée un objet [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) générique par défaut.                                                                                                                                                                                                                                                                                                                              |

@@ -4,12 +4,12 @@ description: DXGI 1,2 prend en charge une nouvelle chaîne de permutation-modèl
 ms.assetid: 22236FBD-E881-49B5-8AE9-96FB526DFEF8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f191af4a94b1379e2539b8d544163467fe4dc49141f244e8dcc1f13a3e36af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a3abbb784de82f5bf647a4b66503497edcd4f89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119984212"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524913"
 ---
 # <a name="flip-model-dirty-rectangles-scrolled-areas"></a>Retourner le modèle, les rectangles modifiés, les zones défilantes
 

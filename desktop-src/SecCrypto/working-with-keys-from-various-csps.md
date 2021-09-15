@@ -5,11 +5,11 @@ title: Utilisation des clés de différents fournisseurs de services de chiffrem
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 65bb33bc2ed7c509032c6b3da76d48adb3549465
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485664"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413444"
 ---
 # <a name="working-with-keys-from-various-csps"></a>Utilisation des clés de différents fournisseurs de services de chiffrement
 

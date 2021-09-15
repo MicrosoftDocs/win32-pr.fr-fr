@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf
-ms.openlocfilehash: 65d8397ed07fc3ebab9fd4846b008f97c1b7e756366118314b978f94b64c8636
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b370056f40320561a38b1f77fbcf9a53ee35686a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412552"
 ---
 # <a name="didiskquotauser-object"></a>Objet DIDiskQuotaUser
 
@@ -56,7 +56,7 @@ L’objet **DIDiskQuotaUser** a ces propriétés.
 | [**AccountContainerName**](didiskquotauser-accountcontainername.md)<br/> | Lecture seule<br/>  | Obtient le nom du conteneur de compte de l’utilisateur.<br/>                                            |
 | [**AccountStatus**](didiskquotauser-accountstatus.md)<br/>               | Lecture seule<br/>  | Obtient l’état du compte de l’utilisateur.<br/>                                                    |
 | [**NomComplet**](didiskquotauser-displayname.md)<br/>                   | Lecture seule<br/>  | Obtient le nom complet de l’utilisateur.<br/>                                                             |
-| [**IDENTIFI**](didiskquotauser-id.md)<br/>                                     | Lecture seule<br/>  | Obtient un ID qui identifie de façon unique l’utilisateur.<br/>                                             |
+| [**id**](didiskquotauser-id.md)<br/>                                     | Lecture seule<br/>  | Obtient un ID qui identifie de façon unique l’utilisateur.<br/>                                             |
 | [**LogonName**](didiskquotauser-logonname.md)<br/>                       | Lecture seule<br/>  | Obtient le nom du compte d’ouverture de session de l’utilisateur.<br/>                                                       |
 | [**QuotaLimit**](didiskquotauser-quotalimit.md)<br/>                     | Lecture/écriture<br/> | Définit ou obtient la [**limite de quota**](diskquotacontrol-object.md)actuelle de l’utilisateur.<br/>           |
 | [**QuotaLimitText**](didiskquotauser-quotalimittext.md)<br/>             | Lecture seule<br/>  | Obtient la [**limite de quota**](diskquotacontrol-object.md) actuelle de l’utilisateur sous la forme d’une chaîne de texte. <br/> |
@@ -69,7 +69,7 @@ L’objet **DIDiskQuotaUser** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque utilisateur sur le volume qui est géré par l’objet [**DiskQuotaControl**](diskquotacontrol-object.md) est associé à un objet **DIDiskQuotaUser** . Cet objet permet à un client de gérer les paramètres d’un utilisateur individuel. Il existe plusieurs façons d’obtenir l’objet **DIDiskQuotaUser** d’un utilisateur :
 
@@ -114,7 +114,7 @@ function EnumUsers(Volume_Label)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - appareils mobiles, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34cbff16b293ac4ab438c1b018608497d2a61cdfa6fb727332d5b50a27de313c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b64c6e7047864b899a2d7dca2ba4754cc7cb5dc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117745505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411628"
 ---
 # <a name="working-with-portable-devices"></a>Utilisation d’appareils mobiles
 

@@ -4,12 +4,12 @@ ms.assetid: c9baeff7-53fb-425f-b07b-4066a705ca54
 title: MFPKEY_REQUESTING_A_FRAMESIZE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c39d1d9ecdba27e46a1e49949f1607fc60d53501d321e49c4899f9b8928ccf1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a3355e84318ba4ad7995ac5ad0f002f4d70767b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119555429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412923"
 ---
 # <a name="mfpkey_requesting_a_framesize-property"></a>MFPKEY \_ demandant \_ une \_ propriété de trame
 
@@ -23,14 +23,14 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ bool**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour spécifier une taille de cadre préférée, définissez les propriétés suivantes.
 
 -   Affectez à MFPKEY une valeur VARIANT pour une propriété de **\_ \_ \_ trame** \_ .
 -   Définissez le cadre [**MFPKEY \_ préféré \_**](mfpkey-preferred-framesizeproperty.md) sur le nombre d’échantillons souhaité dans chaque image.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,22 +13,22 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 2e8ce5a4da0bbf4c6698e15c6a830982c41822c000789ba9ffe97f2a2df2069f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6e517f509a18efe9c6d413eb1a7fe7dab47b8820
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120009229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412311"
 ---
 # <a name="analysisregion-class"></a>AnalysisRegion, classe
 
 Implémente l’interface [**IAnalysisRegion**](ianalysisregion.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette classe implémente l’interface com [**IAnalysisRegion**](ianalysisregion.md) et est équivalente à System. Windows. Ink. AnalysisCore. AnalysisRegionBase dans le .NET Framework.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

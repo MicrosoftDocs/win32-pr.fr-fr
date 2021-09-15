@@ -4,12 +4,12 @@ description: découvrez comment étendre l’index dans Windows Desktop Search 2
 ms.assetid: vs|search|~\search\wds2x\extending_index_ovr.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d73bbf1ab143bcac581a59467e7a3813511e7b20204434ee5ae7dd7d8893b636
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63408cfe1efeb8da4d6a4540cc57b99ea56ae935
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118480921"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413087"
 ---
 # <a name="extending-the-index-legacy-windows-environment-features"></a>extension de l’Index (fonctionnalités héritées de l’environnement Windows)
 

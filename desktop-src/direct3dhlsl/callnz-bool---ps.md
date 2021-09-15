@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 793feb1934b86b46f26050a67b5f26d94b9f277e31735c4d1912805374bab903
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0516e62ce07c60866715591bc59123f38dc5c272
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118516625"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524856"
 ---
 # <a name="callnz-bool---ps"></a>callnz bool-PS
 
@@ -37,7 +37,7 @@ Où :
 -   \[!\] est un modificateur de négation facultatif.
 -   b \# identifie un [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

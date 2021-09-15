@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 620f3b479f8d725028838282f1c3595fa5f4b6bb9061c90387e027bfaf6e1092
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f045ceefaf33c8d8edba0cb69e062ad589cfd833
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413120"
 ---
 # <a name="wm_gethotkey-message"></a>\_Message WM GETHOTKEY
 
@@ -50,7 +50,7 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est le code de touche virtuelle et les modificateurs de la touche d’accès rapide, ou **null** si aucune touche d’accès rapide n’est associée à la fenêtre. Le code de la touche virtuelle se trouve dans l’octet de poids faible de la valeur de retour et les modificateurs se trouvent dans l’octet de poids fort. Les modificateurs peuvent être une combinaison des indicateurs suivants à partir de CommCtrl. h.
 
@@ -67,11 +67,11 @@ La valeur de retour est le code de touche virtuelle et les modificateurs de la t
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces touches d’accès rapide ne sont pas liées aux touches d’accès rapide définies par la fonction [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -96,7 +96,7 @@ Ces touches d’accès rapide ne sont pas liées aux touches d’accès rapide d
 [**\_SETHOTKEY WM**](wm-sethotkey.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

@@ -5,15 +5,15 @@ title: Vérification de la signature d’un document
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6f2886edcb9629011ddf1a0b5fb45a12a11f0556
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413447"
 ---
 # <a name="verifying-the-signature-on-a-document"></a>Vérification de la signature d’un document
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Lorsqu’un document signé est reçu, la validité de la signature ou des signatures peut être vérifiée. Une signature peut être vérifiée pour :
 

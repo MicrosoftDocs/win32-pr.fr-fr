@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 95f61c3a1cfc15f699e0e637dce8d58b9517ffe58ef36e529ec297661bff6a3c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1e7ccdca91af206862384ae14cf25a85d0817814
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119671569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524501"
 ---
 # <a name="sincos---ps"></a>SinCos,-PS
 
@@ -55,7 +55,7 @@ Où :
 -   l’heure d’été est un registre de destination et doit être un [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md) (r \# ). Le registre de destination doit avoir exactement l’un des trois masques suivants :. x. \| y. \| XY.
 -   src0 est un registre source qui fournit l’angle d’entrée, qui doit être compris entre \[ -pi, + pi \] . {x \| y \| z \| w} est le Swizzle de réplication requis.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

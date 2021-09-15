@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 1665102e336901d634d2ea948ad338842ef3a6d04bf4b7f43ba5297f1df13198
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84453a6c846e88a9d6e6c32c5253d97d36e89c7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119724561"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524261"
 ---
 # <a name="imfcdmsuspendnotifybegin-method"></a>IMFCdmSuspendNotify :: Begin, méthode
 
@@ -37,7 +37,7 @@ HRESULT Begin();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

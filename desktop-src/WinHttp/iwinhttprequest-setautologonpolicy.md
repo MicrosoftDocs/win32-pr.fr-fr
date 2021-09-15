@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: b6375d5c5b6c9b6c8acebcdd05a2ad778bb37e75c067a44100a5c67a92876248
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cad8bd0080d10a1395a0a9d275951ff961a60bf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118562885"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403431"
 ---
 # <a name="iwinhttprequestsetautologonpolicy-method"></a>IWinHttpRequest :: SetAutoLogonPolicy, méthode
 
@@ -47,7 +47,7 @@ Spécifie la stratégie d’ouverture de session automatique actuelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 

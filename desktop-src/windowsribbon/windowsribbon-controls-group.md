@@ -5,11 +5,11 @@ ms.assetid: 5d098d3f-a4ee-4f76-8c81-832d0c49cb80
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c153f8cd9d1fc0d2d2bdbaabab0b2e15e099e50d
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467416"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525229"
 ---
 # <a name="group-windows-ribbon-framework"></a>groupe (Windows Framework du ruban)
 

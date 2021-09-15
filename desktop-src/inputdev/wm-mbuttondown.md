@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a27658db1c997a20736749e3ca3650c2f9cf565469bec5cadc04937a95e9615
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7b0f7ce257dd50ad16eda3c13feef73890fbbfd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119451649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413100"
 ---
 # <a name="wm_mbuttondown-message"></a>\_Message WM MBUTTONDOWN
 
@@ -70,11 +70,11 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 
@@ -95,7 +95,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
 Pour détecter que la touche ALT a été enfoncée, vérifiez si [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate) avec le **\_ menu VK** < 0. Notez qu’il ne doit pas s’agir de [**GetAsyncKeyState**](/windows/win32/api/winuser/nf-winuser-getasynckeystate).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -135,7 +135,7 @@ Pour détecter que la touche ALT a été enfoncée, vérifiez si [**GetKeyState*
 [**\_MBUTTONUP WM**](wm-mbuttonup.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 96f6c5a852f76742b5fa1d57e5529b342aa80e3f1aff6f920e6862b398546154
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86926f2013dd78c2c6685163ae78f890c337a251
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118047559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412356"
 ---
 # <a name="shellfolderviewscript-property"></a>ShellFolderView. script, propriété
 
@@ -41,7 +41,7 @@ objScript = ShellFolderView.Script
 
 Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qui reçoit l’objet de script.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

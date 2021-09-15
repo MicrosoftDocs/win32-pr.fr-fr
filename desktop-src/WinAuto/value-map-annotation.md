@@ -4,12 +4,12 @@ description: Annotation de la carte des valeurs
 ms.assetid: f7c9304a-0eed-4a73-ab06-56723f3cfa5d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f378742ce01458d930ee510baf4c6317f2e182cdd41642c4d22928d9777fe4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d21b04374344475689989c2570af6975dc97c13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052236"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412206"
 ---
 # <a name="value-map-annotation"></a>Annotation de la carte des valeurs
 

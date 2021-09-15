@@ -4,12 +4,12 @@ ms.assetid: 9370d0f3-a43c-4c34-a4ad-a585ed63e8e5
 title: System. Media. CreatorApplicationVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b34a73c1fcf50d7adaf92cb7a73a6a458f7c0cb8f3d18218a06afe1ee32ddee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2442217006fc005507c314b1a9e581015f58db4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118725573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524125"
 ---
 # <a name="systemmediacreatorapplicationversion"></a>System. Media. CreatorApplicationVersion
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d77290dfb3668e24d3586cf6d742b524e05fb07979de7c8d45f39998aca9708
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4f7abf436311f8a3868b1471c2a10a7ee2e4a3b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523897"
 ---
 # <a name="wm_choosefont_setflags-message"></a>\_ \_ Message SETFLAGS WM CHOOSEFONT
 
@@ -51,17 +51,17 @@ Pointeur vers une structure [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commd
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) crée une boîte de dialogue de **police** et utilise une structure [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour spécifier les valeurs initiales du membre **Flags** . Utilisez le **message \_ \_ SETFLAGS WM CHOOSEFONT** pour spécifier des valeurs différentes pour le membre **Flags** lorsque la boîte de dialogue **police** est ouverte.
 
 En règle générale, vous devez envoyer le message **WM \_ CHOOSEFONT \_ SETFLAGS** à partir d’une procédure de hook [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -89,7 +89,7 @@ En règle générale, vous devez envoyer le message **WM \_ CHOOSEFONT \_ SETFLA
 [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

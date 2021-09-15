@@ -5,11 +5,11 @@ ms.assetid: 814FAC95-7FD5-450F-964B-18E687DBCC56
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d5fd2f2a2f4ebe86a090ebade8ebf8a033a7c612
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524508"
 ---
 # <a name="shader-model-51"></a>Modèle de nuanceur 5,1
 

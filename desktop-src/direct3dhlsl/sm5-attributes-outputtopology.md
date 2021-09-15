@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8d718b11c23fcf77f452e224a51439f7d6f422d3c81d5238167cbf87c7c3014a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 917a927ff80d4abe1b6509fd41281992a998c945
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524489"
 ---
 # <a name="outputtopology"></a>outputtopology
 
@@ -27,7 +27,7 @@ outputtopology(X)
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 X doit être un [**point**](dx-graphics-hlsl-geometry-shader.md), une **ligne**, un **triangle \_** ou un **rectangle \_ CCW** et doit être placé entre guillemets. Voici les options valides pour cet attribut :
 
@@ -45,7 +45,7 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 

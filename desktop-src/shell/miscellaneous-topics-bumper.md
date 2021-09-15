@@ -10,15 +10,15 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: bb143dd393c20b504b50a68366c34aea1767cb17
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523348"
 ---
 # <a name="legacy-shell-topics"></a>Rubriques sur l’interpréteur de commandes hérité
 
-Ces fonctionnalités appartiennent à des versions antérieures du shell Windows. Certaines de ces fonctionnalités ne sont peut-être plus présentes ou prises en charge.
+ces fonctionnalités appartiennent à des versions antérieures de l’interpréteur de commandes Windows. Certaines de ces fonctionnalités ne sont peut-être plus présentes ou prises en charge.
 
 -   [Création de reconcilers de porte-documents](../lwef/briefcase-reconcilers.md)
 -   [Gestion de l’aide en ligne](handling-online-help.md)

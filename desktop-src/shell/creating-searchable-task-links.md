@@ -4,12 +4,12 @@ ms.assetid: 54a03536-6fe6-4304-a555-58e5bca128b9
 title: Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7be43d98ea6c0f1cdf2d9c399aa1377d6b7b46a36fed10b3d6a4796ce49f92d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b4e98e8a6e07f84e8012b58cefe8e0d249fc069
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412561"
 ---
 # <a name="creating-searchable-task-links-for-a-control-panel-item"></a>Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration
 

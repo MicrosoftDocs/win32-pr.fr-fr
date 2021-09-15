@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0102716529471b3e867e17b0e9b635274cdfc28ec603f239d66c76ffb0fdaa19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b378cd97bc9779951d62873d393009c98d32823
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119983209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524605"
 ---
 # <a name="register"></a>inscription
 
@@ -77,7 +77,7 @@ Déclarer le type, le nombre et la déclaration de sous-composant.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez ajouter une ou plusieurs assignations de Registre à la même déclaration de variable, séparées par des espaces.
 

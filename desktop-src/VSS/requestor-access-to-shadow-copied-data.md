@@ -4,12 +4,12 @@ ms.assetid: 21efdbd6-a487-4e6f-8e3c-b9224bcf92da
 title: Accès du demandeur aux données des clichés instantanés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 779e3947adff28c8f3190026921c398677afc7efaa484903bf165250f41bc191
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6265586f70054277170b44f23efc52d56842e3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119767699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413352"
 ---
 # <a name="requester-access-to-shadow-copied-data"></a>Accès du demandeur aux données des clichés instantanés
 

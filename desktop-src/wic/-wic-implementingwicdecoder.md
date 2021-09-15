@@ -4,12 +4,12 @@ ms.assetid: a26a592d-42ef-4690-95b4-48a5324be75a
 title: Implémentation d’un décodeur WIC-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0aa2211c0b21e8f6fc921986406f7079b13c216f0bd7ada684e7748effb6c7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ebd6d56258bf18e6cc914a40efa4cd3a57a92fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412221"
 ---
 # <a name="implementing-a-wic-enabled-decoder"></a>Implémentation d’un décodeur WIC-Enabled
 
@@ -42,7 +42,7 @@ hr = m_pImagingFactory->QueryInterface(
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [fonctionnement du composant de création d’images Windows](-wic-howwicworks.md)

@@ -4,12 +4,12 @@ ms.assetid: CB952492-0ACF-4501-BD8B-133E26FCE8F7
 title: Attribut MF_MEDIA_ENGINE_DXGI_MANAGER (Mfmediaengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c454041f83a58cdb5b3c1e340d63908386546090eb52811e0c876e5d8bed0bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98e731b5aa2449ae772427c6743ec4f97b5d7601
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119723052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413000"
 ---
 # <a name="mf_media_engine_dxgi_manager-attribute"></a>\_Attribut du \_ \_ Gestionnaire de dxgi du moteur multimédia MF \_
 
@@ -25,13 +25,13 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUnknown**](/windo
 
 Pour définir cet attribut, appelez [**IMFAttributes :: setunknown,**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est un pointeur vers l’interface [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) .
 
 En mode serveur Frame, cet attribut permet au moteur multimédia d’utiliser l’accélération matérielle pour le décodage vidéo et le traitement vidéo. Si l’attribut n’est pas défini, le moteur multimédia utilise le décodage et le traitement des logiciels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

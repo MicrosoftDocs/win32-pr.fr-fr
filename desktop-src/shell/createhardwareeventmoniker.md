@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shsvcs.dll
 ms.assetid: ff0ad023-42ea-4c74-adae-af55527b6ac3
-ms.openlocfilehash: 42f2da51bac93733a74113d3a567802975aca18be2a34f6fa349ff65349749c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c22f01835f9c526e95a4330e6ad35d370421e604
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118460553"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412564"
 ---
 # <a name="createhardwareeventmoniker-function"></a>CreateHardwareEventMoniker fonction)
 
@@ -70,13 +70,13 @@ Adresse d’une variable pointeur qui reçoit le pointeur d’interface [**IMoni
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez **CreateHardwareEventMoniker** lors de l’inscription d’applications en cours d’exécution afin que ces applications aient accès aux événements de lecture automatique. Pour utiliser des événements de lecture automatique dans des applications en cours d’exécution, vous devez d’abord créer un nouveau composant qui implémente l’interface [**IHWEventHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler) . Initialisez cette interface avec la valeur InitCmdLine de l’entrée du gestionnaire particulier sous la clé des **gestionnaires** , car la lecture automatique n’appelle pas la méthode [**Initialize**](/windows/desktop/api/Shobjidl/nf-shobjidl-ihweventhandler-initialize) .
 
@@ -102,7 +102,7 @@ HKEY_CLASSES_ROOT
          RunAs = Interactive User
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

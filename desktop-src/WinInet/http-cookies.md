@@ -4,12 +4,12 @@ description: Les cookies HTTP fournissent au serveur un mécanisme de stockage e
 ms.assetid: c3574592-572f-4fde-adfa-aed3e862f13f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ba5b2d3917ea8f140e334f5f78b1bd730908d25506d9023667403410833c80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a6855f0b105dc73760541bf9eb7a6da80dfb38e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118113713"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413296"
 ---
 # <a name="http-cookies"></a>Cookies HTTP
 

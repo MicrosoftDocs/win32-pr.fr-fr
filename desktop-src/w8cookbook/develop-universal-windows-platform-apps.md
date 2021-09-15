@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 332864b00614ceb494b2832c0b565a5a10819d631ecb6c4098284a94ad2c038e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3654c1c8773a813fcc7f88b21a86c2ef6049184
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525261"
 ---
 # <a name="develop-universal-windows-platform-uwp-apps"></a>développer des applications plateforme Windows universelle (UWP)
 

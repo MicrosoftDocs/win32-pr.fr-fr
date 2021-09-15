@@ -4,12 +4,12 @@ ms.assetid: ded07764-1a11-42df-9a16-e4c3a328fb23
 title: Utilisation du mappage de relief (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 195a99ffaa29d416aea93c5599f1fb461cd78a9961bd9c69f3f02ae3e8fe4719
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b4bc96f78ffb19dda04ff6b2bc3d0e46800b04b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120025829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413240"
 ---
 # <a name="using-bump-mapping-direct3d-9"></a>Utilisation du mappage de relief (Direct3D 9)
 

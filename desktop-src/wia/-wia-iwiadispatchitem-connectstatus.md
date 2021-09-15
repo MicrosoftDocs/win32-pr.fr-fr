@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 88cd81d149c57e5e69f8f48f47f539e2c57c970ba1f8f8d4157ff844c3c3b6e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48e12c35ad98746f5a263680e74a09c814bbc65a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117669772"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524016"
 ---
 # <a name="itemconnectstatus-property"></a>Item. ConnectStatus, propriété
 
@@ -39,7 +39,7 @@ propVal = Item.ConnectStatus
 
 Chaîne qui reçoit l’état de la connexion.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

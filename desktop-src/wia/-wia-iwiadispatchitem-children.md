@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 72ce5119a10adc6a902d5a675d3ec116a3db1852a88e47ed852284cf44edf2f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 144b60f1c8e9b500d49b53dfe290565c23023220
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118440728"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524017"
 ---
 # <a name="itemchildren-property"></a>Item. Children, propriété
 
@@ -39,7 +39,7 @@ propVal = Item.Children
 
 Variable qui reçoit les objets.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette propriété pour naviguer dans l’arborescence hiérarchique des objets d' [**élément**](-wia-item.md) qui représentent un périphérique, les dossiers et les fichiers qui résident sur l’appareil.
 
@@ -82,7 +82,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

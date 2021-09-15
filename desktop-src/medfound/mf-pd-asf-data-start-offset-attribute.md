@@ -4,12 +4,12 @@ ms.assetid: 5145d952-19d9-4bf8-9046-0b5d28f5e641
 title: Attribut MF_PD_ASF_DATA_START_OFFSET (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b848d83d32be7abc8c30cd41bf51959c25e4e784c1f5beab645a6ee5b0db381
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 125ae1263467afe7e0aa9017e8049b13796538fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118741089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412973"
 ---
 # <a name="mf_pd_asf_data_start_offset-attribute"></a>\_Attribut de \_ décalage de \_ données ASF PD ASF \_ \_
 
@@ -19,13 +19,13 @@ Spécifie l’offset, en octets, entre le début d’un fichier ASF (Advanced Sy
 
 **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) génère cet attribut à partir des métadonnées ASF.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

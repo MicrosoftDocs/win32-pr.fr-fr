@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b5b0deb3efb84af2bdd862377411d86328ee7ef72242a6e27759b819cdab2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1455f6d6c2fa40f34bbfbe00e0c7a30daa52f375
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118482639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523764"
 ---
 # <a name="wm_ncxbuttondblclk-message"></a>\_Message WM NCXBUTTONDBLCLK
 
@@ -65,11 +65,11 @@ Pointeur vers une structure de [**points**](/previous-versions//dd162808(v=vs.85
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour récupérer les informations dans le paramètre *wParam* .
 
@@ -102,7 +102,7 @@ Une fenêtre n’a pas besoin du style **cs \_ DBLCLKS** pour recevoir les messa
 
 Contrairement aux [**messages \_ WM NCLBUTTONDBLCLK**](wm-nclbuttondblclk.md), [**WM \_ NCMBUTTONDBLCLK**](wm-ncmbuttondblclk.md)et [**WM \_ NCRBUTTONDBLCLK**](wm-ncrbuttondblclk.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permettra aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -142,7 +142,7 @@ Contrairement aux [**messages \_ WM NCLBUTTONDBLCLK**](wm-nclbuttondblclk.md), [
 [**\_SYSCOMMAND WM**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

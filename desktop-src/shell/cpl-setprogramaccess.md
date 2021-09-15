@@ -4,12 +4,12 @@ ms.assetid: 0d706857-5a84-4d68-99dc-bb9aab4197b9
 title: Définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 978749171366e3091738ac22c78e04cd92123a75d2288f7c83200ee8532d232c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83f35d9ed70d382e2db6714082ade2d2d76e6ec6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117861462"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412567"
 ---
 # <a name="set-program-access-and-computer-defaults-spad"></a>Définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD)
 
@@ -42,7 +42,7 @@ dans Windows XP, l’option **définir l’accès aux programmes et les valeurs 
 
 Cet outil est utilisé pour les cinq types de clients suivants.
 
--   Navigateur
+-   Browser
 -   E-mail
 -   Programme messenging instantanée
 -   Lecteur multimédia

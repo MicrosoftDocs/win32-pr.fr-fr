@@ -4,12 +4,12 @@ ms.assetid: FDCF2D92-5D37-43E4-B94A-66CA7E75AA88
 title: Supplémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28269966588b4a16ed819b6bd0d790e02354128bb8bf7d88c9846cd3b54cdeba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f09ce4783579bbae1e5a6f56964cb89ce1e04933
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118463914"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412621"
 ---
 # <a name="supplemental"></a>Supplémentaires
 

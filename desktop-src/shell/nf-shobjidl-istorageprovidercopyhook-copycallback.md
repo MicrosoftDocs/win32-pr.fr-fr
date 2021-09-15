@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - shobjidl.h
-ms.openlocfilehash: 26fe9079e7fdf53809f8c0763fa38f271536f1339d16647936fb141f8d213be5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c7df9296f2261e3907702067ca36265095102f34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117677977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525377"
 ---
 # <a name="istorageprovidercopyhookcopycallback-method"></a>IStorageProviderCopyHook :: CopyCallback, méthode
 
@@ -121,17 +121,17 @@ Valeur entière qui indique si l’interpréteur de commandes doit effectuer l�
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S_OK** en cas de réussite, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interpréteur de commandes appelle le gestionnaire de raccordement de copie du fournisseur de Cloud pour chaque dossier sous la racine de synchronisation inscrite. pour inscrire un gestionnaire de raccordement de copie pour les dossiers cloud, définissez la valeur **CopyHook** sous la clé **HKEY_LOCAL_MACHINE/software/microsoft/Windows/CurrentVersion/Explorer/SyncRootManager/{SyncRootId}** sur le CLSID de l’objet de raccordement de copie.
 
 Lorsque la méthode **CopyCallback** est appelée, l’interpréteur de commandes Initialise l’interface [IStorageProviderCopyHook](nn-shobjidl-istorageprovidercopyhook.md) directement sans utiliser d’abord une interface [IShellExtInit](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|

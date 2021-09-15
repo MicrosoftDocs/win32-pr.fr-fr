@@ -4,12 +4,12 @@ ms.assetid: 18246cc1-d3c4-4426-a342-ce3864cc412e
 title: Vérification d’un message signé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7bfdac1b16351d51197a84c15688b0724340af34681312b9cb9865900b8dfc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e8f85a5bcde56df7bb41bb92276123bcd26024e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117970976"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413449"
 ---
 # <a name="verifying-a-signed-message"></a>Vérification d’un message signé
 

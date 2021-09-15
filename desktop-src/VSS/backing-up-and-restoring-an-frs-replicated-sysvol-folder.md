@@ -4,12 +4,12 @@ ms.assetid: 32d8a5bd-eeb4-4db6-8129-b5cd3508a7e5
 title: Sauvegarde et restauration d’un dossier SYSVOL FRS-Replicated
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d841f64bab62114824847f91876ba8bbffbb0166db942c0f3cb9d010b72f106
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea83ccbc156182a4a3b84c758cb22153f4f7110f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120124599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413409"
 ---
 # <a name="backing-up-and-restoring-an-frs-replicated-sysvol-folder"></a>Sauvegarde et restauration d’un dossier SYSVOL FRS-Replicated
 

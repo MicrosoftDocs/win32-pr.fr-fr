@@ -4,12 +4,12 @@ ms.assetid: 9e744e0c-a59d-47db-a785-026698d54ee0
 title: Appareils (système de propriétés Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84ac898aa8926ec97820da4feeddfbccac2589a9a829a5fe25a65a1ee15a09a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8ae1ca8af6a5c72c9427497f8ea5ebeef56543c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119946959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524213"
 ---
 # <a name="devices-windows-property-system"></a>Appareils (système de propriétés Windows)
 
@@ -124,9 +124,9 @@ ms.locfileid: "119946959"
 | [System. Devices. AudioDevice. microphone. SignalToNoiseRatioInDb](https://www.bing.com/search?q=System.Devices.AudioDevice.Microphone.SignalToNoiseRatioInDb)<br/>    | Signalez les informations de rapport de bruit dans la base de données pour un périphérique microphone.<br/>                                                                            |
 | [System.Devices.AudioDevice.RawProcessingSupported](props-system-devices-audiodevice-rawprocessingsupported.md)<br/>                           | Prise en charge du mode de traitement brut pour le périphérique audio. Si \_ la valeur est true, l’appareil prend en charge le mode de traitement brut.<br/>                                 |
 | [System.Devices.AudioDevice.SpeechProcessingSupported](props-system-devices-audiodevice-speechprocessingsupported.md)<br/>                     | Prise en charge du mode vocal pour le périphérique audio. Si \_ la valeur est true, l’appareil prend en charge le mode vocal.<br/>                                                 |
-| [System.Devices.BatteryLife](./props-system-devices-batterylife.md)<br/>                                                                  | Durée de vie restante de la batterie, en pourcentage.<br/>                                                                                                    |
-| [System.Devices.BatteryPlusCharging](./props-system-devices-batterypluscharging.md)<br/>                                                  | Durée de vie restante de la batterie de l’appareil et de son état de chargement.<br/>                                                                                |
-| [System.Devices.BatteryPlusChargingText](./props-system-devices-batterypluschargingtext.md)<br/>                                          | Durée de vie restante de la batterie de l’appareil et état de chargement de l’appareil sous la forme d’une chaîne.<br/>                                                      |
+| [System. Devices. BatteryLife](./props-system-devices-batterylife.md)<br/>                                                                  | Durée de vie restante de la batterie, en pourcentage.<br/>                                                                                                    |
+| [System. Devices. BatteryPlusCharging](./props-system-devices-batterypluscharging.md)<br/>                                                  | Durée de vie restante de la batterie de l’appareil et de son état de chargement.<br/>                                                                                |
+| [System. Devices. BatteryPlusChargingText](./props-system-devices-batterypluschargingtext.md)<br/>                                          | Durée de vie restante de la batterie de l’appareil et état de chargement de l’appareil sous la forme d’une chaîne.<br/>                                                      |
 | [System.Devices.Category](./props-system-devices-category.md)<br/>                                                                        | Forme singulière de la catégorie d’appareil.<br/>                                                                                                           |
 | [System. Devices. CategoryGroup](./props-system-devices-categorygroup.md)<br/>                                                              | Pluriel de la catégorie d’appareils.<br/>                                                                                                                  |
 | [System.Devices.CategoryIds](props-system-devices-categoryids.md)<br/>                                                                         | Indique la catégorie brute réelle<br/>                                                                                                           |
@@ -246,7 +246,7 @@ ms.locfileid: "119946959"
 | [System. Devices. WWAN. InterfaceGuid](props-system-devices-wwan-interfaceguid.md)<br/>                                                           | GUID de l’interface WWAN<br/>                                                                                                                         |
 | [Requise. Stockage. Portatif](props-system-storage-portable.md)<br/>                                                                               | Indique si le lecteur du stockage est portable.<br/>                                                                                         |
 | [Requise. Stockage. RemovableMedia](props-system-storage-removablemedia.md)<br/>                                                                   | Indique si le support de stockage est amovible.<br/>                                                                                                |
-| [System.Storage.SystemCritical](props-system-storage-systemcritical.md)<br/>                                                                   | Indique si le support de stockage est critique système.<br/>                                                                                          |
+| [Requise. Stockage. SystemCritical](props-system-storage-systemcritical.md)<br/>                                                                   | Indique si le support de stockage est critique système.<br/>                                                                                          |
 
 
 

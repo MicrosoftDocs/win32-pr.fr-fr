@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 56a5b435aa2900fc02335f5dd92d509734e0c67ba0183a20dad389728202f443
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d694849b3436f9f30a687579362d01a111ace80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118044398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523261"
 ---
 # <a name="icontextnodesgetcount-method"></a>IContextNodes :: GetCount, méthode
 
@@ -46,11 +46,11 @@ Nombre d’objets [**IContextNode**](icontextnode.md) contenus dans cette collec
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

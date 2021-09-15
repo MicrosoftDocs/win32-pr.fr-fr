@@ -2,7 +2,7 @@
 description: Exécute une requête pour recevoir des événements.
 ms.assetid: 0b0e8313-4ffd-4d4a-8965-d2c6743e7573
 ms.tgt_platform: multiple
-title: SWbemServices.Exeméthode cNotificationQueryAsync (wbemdisp. h)
+title: SWbemServices. ExecNotificationQueryAsync, méthode (wbemdisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -17,17 +17,17 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 8e2ecddf290d83583b3108620b8b4bb23be7c957
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524122"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403463"
 ---
-# <a name="swbemservicesexecnotificationqueryasync-method"></a>SWbemServices.Exeméthode cNotificationQueryAsync
+# <a name="swbemservicesexecnotificationqueryasync-method"></a>SWbemServices. ExecNotificationQueryAsync, méthode
 
 La méthode **ExecNotificationQueryAsync** de l’objet [**SWbemServices**](swbemservices.md) exécute une requête pour recevoir des événements. Cet appel est retourné immédiatement et les résultats et l’État sont retournés à l’appelant via des événements remis au récepteur spécifié dans *objWbemSink*.
 
-Les événements spécifiés dans la requête peuvent être des événements intrinsèques Windows Management Instrumentation (WMI), tels que [**\_ \_ InstanceCreationEvent**](--instancecreationevent.md), ou des événements extrinsèques, tels que [**Win32 \_ IP4RouteTableEvent**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent) ou [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent). Pour plus d’informations, consultez [détermination du type d’événement à recevoir](determining-the-type-of-event-to-receive.md).
+les événements spécifiés dans la requête peuvent être des événements intrinsèques Windows Management Instrumentation (WMI), tels que [**\_ \_ InstanceCreationEvent**](--instancecreationevent.md), ou des événements extrinsèques, tels que [**Win32 \_ IP4RouteTableEvent**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent) ou [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent). Pour plus d’informations, consultez [détermination du type d’événement à recevoir](determining-the-type-of-event-to-receive.md).
 
 La méthode est appelée en mode asynchrone. Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
@@ -117,7 +117,7 @@ Il s’agit d’un objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui ret
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) par instance. Après la dernière instance, le récepteur d’objets reçoit un événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
@@ -234,10 +234,10 @@ End Sub
 [**M**](swbemservices.md)
 </dt> <dt>
 
-[**SWbemServices.ExecQuery**](swbemservices-execquery.md)
+[**SWbemServices. ExecQuery**](swbemservices-execquery.md)
 </dt> <dt>
 
-[**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md)
+[**SWbemServices. ExecQueryAsync**](swbemservices-execqueryasync.md)
 </dt> <dt>
 
 [Inscription pour les événements du Registre système](registering-for-system-registry-events.md)

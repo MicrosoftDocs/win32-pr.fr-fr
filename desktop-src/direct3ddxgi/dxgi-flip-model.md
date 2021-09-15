@@ -4,12 +4,12 @@ ms.assetid: E132DAF5-80B7-4C52-A760-3779CC140CE7
 title: DXGI Flip Model
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b4b4cf8f792a23d4d32e5cb4b4273594745283cb803a638ea3d0cf4c45977f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49ee82febd13a3b57a06d93fd01eb8d230d6b78a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118289438"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524901"
 ---
 # <a name="dxgi-flip-model"></a>DXGI Flip Model
 

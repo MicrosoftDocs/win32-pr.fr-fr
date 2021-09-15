@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73c3139d076fd7d1cd1bad784e325c67da25b3e7dedf530a9634a2878fe3011a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec5a56d06a54590afd315f04a90aa582f3a364db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413305"
 ---
 # <a name="iwmpmediaattributecount-property"></a>IWMPMedia :: attributeCount, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property attributeCount As System.Int32
 
 **System. Int32** qui est le nombre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -127,7 +127,7 @@ attributeList.Lines = atList
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

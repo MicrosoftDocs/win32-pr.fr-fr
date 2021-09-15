@@ -4,12 +4,12 @@ description: Identifie la propriété ContextAvailable de l’interface utilisat
 ms.assetid: d3cd551d-e71e-4b49-a8b6-f3cd25cf2535
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d660b11ce97e027d9519d6c32481bd764cdc41c23cd7c7869c1011f8b4df40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fc7e587f76d824216a6c89e1c911855ec3c14e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525209"
 ---
 # <a name="ui_pkey_contextavailable"></a>IU \_ \_ ContextAvailable
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_CONTEXTAVAILABILITY
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur \_ \_ ContextAvailable est utilisée par une application pour interroger la disponibilité d’un contrôle de [groupe d’onglets](windowsribbon-controls-tabgroup.md) en fonction du contexte d’application actuel.
 

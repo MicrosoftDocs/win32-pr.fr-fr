@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 6ebf64da-9eba-4ea7-91aa-242474097be1
-ms.openlocfilehash: c4130ead959c326da55d2c02726c9db89ce363b616ea34cbfa545d179d1ee139
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f47a9df320da5c710c21ddbab83ca87b49c28e12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119937039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523364"
 ---
 # <a name="iaclcustommru-interface"></a>Interface IACLCustomMRU
 
@@ -44,7 +44,7 @@ L’interface **IACLCustomMRU** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

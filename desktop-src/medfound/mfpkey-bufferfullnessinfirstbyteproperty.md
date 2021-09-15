@@ -4,12 +4,12 @@ ms.assetid: 5574ee3c-ccb3-4ff6-8280-efe5626e6dd6
 title: MFPKEY_BUFFERFULLNESSINFIRSTBYTE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 087b505680dfc3c51fe2cb50cdae76a425ca2ff5798356e9893794d47a7e22e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10fbcdb6306faeb7481f1cc7be20088ff0cedd5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242998"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412941"
 ---
 # <a name="mfpkey_bufferfullnessinfirstbyte-property"></a>MFPKEY \_ propriété BUFFERFULLNESSINFIRSTBYTE
 
@@ -31,7 +31,7 @@ Vous pouvez récupérer la valeur de cette propriété à l’aide de [IWMCodecP
 
 La saturation de la mémoire tampon dans le premier octet de toutes les images clés vous permet de déterminer la taille de mémoire tampon requise lors de la concaténation de flux vidéo compressés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

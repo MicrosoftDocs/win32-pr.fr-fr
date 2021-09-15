@@ -4,12 +4,12 @@ ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: Message WM_NCCALCSIZE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f0a73b469a920bcba79cc19670a7b9536c1bac9e0b0ffcab7ddf5930b984dae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b7d63fea3ad0a80bba686d8d86aa5354f0bb45b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118200075"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525185"
 ---
 # <a name="wm_nccalcsize-message"></a>\_Message WM NCCALCSIZE
 
@@ -46,7 +46,7 @@ Si *wParam* a la **valeur false**, *lParam* pointe vers une structure [**Rect**]
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
@@ -73,7 +73,7 @@ Si *wParam* a la **valeur true** et qu’une application retourne zéro, l’anc
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fenêtre peut être redessinée, selon que le style de classe [cs \_ HREDRAW](about-window-classes.md) ou cs \_ VREDRAW est spécifié. Il s’agit du traitement par défaut à compatibilité descendante de ce message par la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) (en plus du calcul de rectangle client habituel décrit dans le tableau précédent).
 
@@ -81,7 +81,7 @@ Lorsque *wParam* a la **valeur true**, le retour de 0 sans traitement des rectan
 
 à compter de Windows Vista, la suppression du frame standard en retournant simplement 0 lorsque *wParam* a la **valeur TRUE** n’affecte pas les frames qui sont étendus dans la zone cliente à l’aide de la fonction [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) . Seul le frame standard sera supprimé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -112,7 +112,7 @@ Lorsque *wParam* a la **valeur true**, le retour de 0 sans traitement des rectan
 [**\_paramètres NCCALCSIZE**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 06e6c0b4d8254b4e67ccf4f7d09afbedb662c122584f71bf2dea7e25005031aa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b9ea5fa6b611a0311840507fb2068d08801a5bfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119937079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412526"
 ---
 # <a name="folderitemmodifydate-property"></a>FolderItem. ModifyDate, propriété
 
@@ -146,7 +146,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

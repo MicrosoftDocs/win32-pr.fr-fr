@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 8521bc5319919855f734f6b7ac75a58af1af99a58ca360e833984649eb574bbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8ac54e813d622f47462b73b763534977ba0932f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119351619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413104"
 ---
 # <a name="wm_lbuttondown-message"></a>\_Message WM LBUTTONDOWN
 
@@ -71,11 +71,11 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 
 ```cpp
@@ -103,7 +103,7 @@ LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_
 
 pour plus d’exemples, consultez [Windows des exemples classiques](https://github.com/microsoft/Windows-classic-samples) sur GitHub.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de la valeur de retour ; la coordonnée y est dans le sens le **plus** élevé (les deux représentent des valeurs *signées* , car elles peuvent accepter des valeurs négatives sur les systèmes avec plusieurs analyses). Si la valeur de retour est assignée à une variable, vous pouvez utiliser la macro [**MAKEPOINTS**](/windows/desktop/api/wingdi/nf-wingdi-makepoints) pour obtenir une structure de [**points**](/previous-versions//dd162808(v=vs.85)) à partir de la valeur de retour. Vous pouvez également utiliser la macro [**obten \_ x \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) ou [**obten \_ Y \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) pour extraire la coordonnée x ou y.
 
@@ -114,7 +114,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
 Pour détecter que la touche ALT a été enfoncée, vérifiez si [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate) avec le **\_ menu VK** < 0. Notez qu’il ne doit pas s’agir de [**GetAsyncKeyState**](/windows/win32/api/winuser/nf-winuser-getasynckeystate).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -154,7 +154,7 @@ Pour détecter que la touche ALT a été enfoncée, vérifiez si [**GetKeyState*
 [**\_LBUTTONUP WM**](wm-lbuttonup.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

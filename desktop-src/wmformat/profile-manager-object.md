@@ -11,12 +11,12 @@ keywords:
 - profils, objets du gestionnaire de profils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce272067e98f787d5136cacc0a2d02f474264f14f14aa785b28162945ef1b41
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ce3d77598f52e43a840c1b6b3ef58baa47f77bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525165"
 ---
 # <a name="profile-manager-object"></a>Gestionnaire de profils, objet
 
@@ -41,7 +41,7 @@ Les interfaces suivantes sont prises en charge par l’objet gestionnaire de pro
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’un objet gestionnaire de profils est créé, il analyse tous les profils système, ce qui peut prendre plusieurs secondes. La création et la libération d’un gestionnaire de profils chaque fois que vous devez l’utiliser, nuire aux performances. Vous devez créer un gestionnaire de profils une fois dans votre application et le libérer uniquement lorsque vous n’avez plus besoin de l’utiliser.
 

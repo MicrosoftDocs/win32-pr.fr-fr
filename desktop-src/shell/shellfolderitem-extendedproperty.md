@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f5aa8ab3ba61d752cfe4d9f8ecd29bf4fcd06c3dbadde94e51ac9a05a8504b43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 614e42512b17a0d8a6950ac96914128b8746c685
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452815"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412369"
 ---
 # <a name="shellfolderitemextendedproperty-method"></a>Méthode ShellFolderItem. ExtendedProperty
 
@@ -48,7 +48,7 @@ Valeur de **chaîne** qui spécifie la propriété. Pour plus d'informations, co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **variante \***
 
@@ -56,7 +56,7 @@ Lorsque cette méthode est retournée, contient la valeur de la propriété, si 
 
 Cette méthode retourne une chaîne de longueur nulle si la propriété est valide mais n’existe pas pour l’élément spécifié, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe deux façons de spécifier une propriété. La première consiste à affecter le nom bien connu de la propriété, tel que « Author » ou « date », à *sPropName*. Toutefois, chaque propriété est membre d’un jeu de propriétés COM (Component Object Model) et peut également être identifiée en spécifiant son ID de format (FMTID) et son ID de propriété (PID). Un [**fmtid**](../stg/structured-storage-serialized-property-set-format.md) est un GUID qui identifie le jeu de propriétés, et un [**PID**](../stg/structured-storage-serialized-property-set-format.md) est un entier qui identifie une propriété particulière dans le jeu de propriétés.
 
@@ -199,7 +199,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

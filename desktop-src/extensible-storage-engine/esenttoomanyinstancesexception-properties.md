@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103083
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: abf26179aec02f19ab88e0ff68b4fc88f14c69a7f76890944ce5f998777e13a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a5441bc5a401bc96f3055a70cb51840afbc51f08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119781326"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523832"
 ---
 # <a name="esenttoomanyinstancesexception-properties"></a>Propriétés EsentTooManyInstancesException
 
@@ -69,7 +69,7 @@ Le type [EsentTooManyInstancesException](./esenttoomanyinstancesexception-class.
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -16,12 +16,12 @@ keywords:
 - modèles de contrôle dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59a993c6a17115fa27770e3adcfdc7ad62846082f618c24b07de92c7f0515208
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 51abcfd316f5ab892155cf248d5473bd4e387227
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119899569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403491"
 ---
 # <a name="ui-automation-control-patterns-overview"></a>Vue d'ensemble des modèles de contrôle UI Automation
 
@@ -109,7 +109,7 @@ Le tableau suivant décrit les modèles de contrôle UI Automation. Le tableau r
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation des modèles de contrôle UI Automation](uiauto-implementinguiautocontrolpatterns.md)

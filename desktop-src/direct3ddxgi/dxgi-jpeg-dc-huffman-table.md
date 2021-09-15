@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxgitype.h
-ms.openlocfilehash: b431bbccb66bcb24e068229493ef87f2ac96736161bb306609ac4dd479dfb7cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2f5f73f7c6def745b987818b9ec30fb3e2752e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524900"
 ---
 # <a name="dxgi_jpeg_dc_huffman_table-structure"></a>\_Structure de \_ \_ table Huffman \_ dxgi JPEG DC
 
@@ -54,7 +54,7 @@ Valeurs de code Huffman, par ordre de croissance de la longueur de code.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

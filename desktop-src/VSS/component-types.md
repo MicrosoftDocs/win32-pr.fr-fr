@@ -5,11 +5,11 @@ title: Types de composants
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d1f89355b4b26090b7d43f9753c086b4ccc79df0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413390"
 ---
 # <a name="component-types"></a>Types de composants
 
@@ -24,7 +24,7 @@ Pour plus d’informations sur la définition des types de composants, consultez
 
 Les enregistreurs ont une saisie de données qui indique leur utilisation (consultez [**\_ \_ type de source VSS**](/windows/desktop/api/VsWriter/ne-vswriter-vss_source_type)), qui peut être la suivante :
 
--   Une base de données transactionnelle (par exemple, un serveur SQL Server)
+-   une base de données transactionnelle (par exemple, un serveur SQL)
 -   Une base de données non transactionnelle (comme un client de feuille de calcul)
 -   Groupe de fichiers (autre)
 

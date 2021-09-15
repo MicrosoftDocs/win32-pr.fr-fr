@@ -3,12 +3,12 @@ description: Comment exclure une application de la boîte de dialogue Ouvrir ave
 title: Comment exclure une application de la boîte de dialogue Ouvrir avec pour les types de fichiers non associés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d90ae5ab49128df1eedd9b760286ce54f6b6498cbe00d4a945145a80f956cde
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9443416e95fca112623d487bf58f4fce1d51d13d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119350911"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412493"
 ---
 # <a name="how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types"></a>Comment exclure une application de la boîte de dialogue Ouvrir avec pour les types de fichiers non associés
 

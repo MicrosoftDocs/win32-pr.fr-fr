@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e1fa4cb5de43be2b7316d4ed1786c2a1325fa4468538e2ffea41d5d8c9ef0c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad0e09b220bd60b60ccbb8ee05c2da9c4317ba78
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202316"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523985"
 ---
 # <a name="ribbonquickaccesstoolbar-property"></a>Propriété Ribbon. QuickAccessToolbar
 
@@ -55,7 +55,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Obligatoire.
 
@@ -81,7 +81,7 @@ L’exemple suivant illustre le balisage de base pour l’élément **Ribbon. Qu
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

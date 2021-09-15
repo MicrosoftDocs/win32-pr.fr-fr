@@ -4,12 +4,12 @@ ms.assetid: 44f7e6d5-c4d9-4b41-b6c6-15145abb7983
 title: System. photo. ExposureTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2bc1c767344187efd0107d4efa7bcec23d6f099497d9a26f29b89153a73a2e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5811a3d375f41883d1db8f392e714b7bbe0dfa8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118723864"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412684"
 ---
 # <a name="systemphotoexposuretime"></a>System. photo. ExposureTime
 
@@ -51,7 +51,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ description: Cette rubrique contient des exemples Tracelogging C/C++.
 ms.assetid: FB0A29B9-D1F7-4F13-AA75-5963A0699F7A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f85a9ba4aca2da7405a908beb5cebbb2ef7be59422ea1d3706a83257e30106
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 727aa0f46abb9dcffa1d71dac0880c401003cff5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118041750"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412236"
 ---
 # <a name="cc-tracelogging-examples"></a>Exemples de Tracelogging C/C++
 

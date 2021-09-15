@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f8b7747b710801718d9b169c8999c51dd30cefde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412320"
 ---
 # <a name="restore-method-of-the-systemrestore-class"></a>Méthode Restore de la classe SystemRestore
 
@@ -49,7 +49,7 @@ Numéro de séquence du point de restauration. Pour déterminer le numéro de s�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Sinon, la méthode retourne l’un des codes d’erreur COM définis dans WinError. h.
 
@@ -75,13 +75,13 @@ next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                         |
 | Espace de noms<br/>                | Racine \\ \\ par défaut<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>SR. mof</dt> </dl> |

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: caf576d723b27e1c81bb715ea04743740930b5bb257f03eb3ca0a9ab697affd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1c125df135068c2eee37cb33a8a9d2b281b1f83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118223681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523376"
 ---
 # <a name="handling-online-help"></a>Gestion de l’aide en ligne
 

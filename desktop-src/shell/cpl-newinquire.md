@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f9455f6f2b89d7b63ad663bcd17d31363ab2c97fd1ba923ba22ebec62e0b04d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90c5adf31c01fbab1b62aafd0714d165092f4e23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119456349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412570"
 ---
 # <a name="cpl_newinquire-message"></a>\_Message NEWINQUIRE cpl
 
@@ -42,11 +42,11 @@ Adresse d’une structure [**NEWCPLINFO**](/windows/win32/api/cpl/ns-cpl-newcpli
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) traite ce message avec succès, elle doit retourner zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour de meilleures performances, la plupart des applications doivent ignorer **Cpl \_ NEWINQUIRE** et traiter le message de [**\_ recherche de cpl**](cpl-inquire.md) à la place.
 
@@ -58,7 +58,7 @@ Vous pouvez procéder à l’initialisation de la boîte de dialogue lorsque vou
 
 Les seules applications qui doivent utiliser **Cpl \_ NEWINQUIRE** sont celles qui ont besoin de modifier leur icône ou d’afficher des chaînes en fonction de l’état de l’ordinateur. Dans ce cas, votre gestionnaire de [**\_ recherche de cpl**](cpl-inquire.md) doit spécifier la \_ \_ valeur res dynamique CPL pour les membres **idIcon**, **idName** ou **idInfo** de la structure [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) , plutôt que de spécifier un identificateur de ressource valide. Cela amène le panneau de configuration à envoyer le message **\_ NEWINQUIRE Cpl** chaque fois qu’il a besoin de l’icône et des chaînes d’affichage, ce qui vous permet de spécifier des informations en fonction de l’état actuel de l’ordinateur. Bien entendu, cela est beaucoup plus lent que d’utiliser les informations mises en cache.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

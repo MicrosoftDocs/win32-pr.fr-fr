@@ -16,15 +16,15 @@ api_type:
 api_location:
 - Userenv.dll
 ms.openlocfilehash: 8dbb76293fda769ec720221ca1bfa4474af1620c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982946"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412562"
 ---
 # <a name="createuserprofileex-function"></a>CreateUserProfileEx fonction)
 
-\[Cette fonction n’est pas disponible à partir de Windows Vista.\]
+\[cette fonction n’est pas disponible à partir de Windows Vista.\]
 
 Crée un profil utilisateur pour un utilisateur spécifié.
 
@@ -98,15 +98,15 @@ Taille de la mémoire tampon spécifiée par *lpProfileDir*, dans TCHARs.
 
 Type : **bool**
 
-**True** si le profil utilisateur est créé dans le cadre d’une migration de profil à partir de Windows 9x ; Sinon, **false**.
+**TRUE** si le profil utilisateur est créé dans le cadre d’une migration de profil à partir de Windows 9x ; Sinon, **false**.
 
-Si la **valeur est true**, le profil utilisateur est configuré dans le répertoire de profil par défaut (normalement C : \\ Documents and Settings \\ *username*). Si ce répertoire existe déjà, il est utilisé. Si ce n’est pas le cas, il est créé.
+si la **valeur est TRUE**, le profil utilisateur est configuré dans le répertoire de profil par défaut, normalement C : \\ Documents et Paramètres \\ *nom d’utilisateur*. Si ce répertoire existe déjà, il est utilisé. Si ce n’est pas le cas, il est créé.
 
 Si la **valeur est false**, le répertoire de profil par défaut est créé s’il n’existe pas. Si le répertoire de profil par défaut existe déjà, un nouveau répertoire est créé pour ce profil utilisateur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **bool**
 

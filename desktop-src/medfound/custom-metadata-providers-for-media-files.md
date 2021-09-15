@@ -4,12 +4,12 @@ ms.assetid: f8cf70ff-8324-4308-8adf-a145aa351ca9
 title: Fournisseurs de métadonnées personnalisés pour les fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1951fd90265299cb53369d521193740b7d4d05e0f1650583965eb670ab375cc1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2ded77492d03f7b802f6b2f9c25e1009ef97f50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523728"
 ---
 # <a name="custom-metadata-providers-for-media-files"></a>Fournisseurs de métadonnées personnalisés pour les fichiers multimédias
 

@@ -4,12 +4,12 @@ ms.assetid: FB8AC57E-38DD-47B5-8666-1F4B73488F8B
 title: Rendu en stéréo et notification de l’État stéréo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f17f324a884c5784c98a8f5c21ef9c9dac7b048fc72ae7ed0ea1a75e61e2551
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 379c6335e0bd060cf0065fe92bf2ec6c086289c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524892"
 ---
 # <a name="rendering-in-stereo-and-notifying-about-stereo-status"></a>Rendu en stéréo et notification de l’État stéréo
 

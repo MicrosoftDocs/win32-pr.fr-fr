@@ -4,12 +4,12 @@ ms.assetid: 7abf0f9a-795b-4650-af7a-44aee4d3dd91
 title: WPD_RESOURCE_ICON
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dc22be3cf28bc200dbc9634963b88766a68e4d6725e22e0ee545eb5944c402f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca008b22700869327c3bb432dd9c591affcea22e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118696409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525100"
 ---
 # <a name="wpd_resource_icon"></a>\_icône de ressource wpd \_
 
@@ -19,7 +19,7 @@ Ce type de ressource doit prendre en charge les attributs suivants.
 
 
 
-| Nom de l'attribut                                                                                                            | Obligatoire ou facultatif                                   |
+| Nom d’attribut                                                                                                            | Obligatoire ou facultatif                                   |
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [\_ \_ \_ taille totale de l’attribut de ressource wpd \_](resource-attribute-properties.md)              | Obligatoire.                                              |
 | [l' \_ attribut de ressource wpd \_ \_ peut \_ lire](attributes.md)                                     | Obligatoire si les clients peuvent lire cette ressource.            |

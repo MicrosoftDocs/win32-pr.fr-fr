@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 6ebc99e61bf038c8db2ea537a1f8a5933ad512d21ec05cf51f6f8b7af5ede2b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b18b5833b7616493c24f0128caa7c910b685e37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118441297"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524028"
 ---
 # <a name="iwiadevmgr2registereventcallbackprogram-method"></a>IWiaDevMgr2 :: RegisterEventCallbackProgram, méthode
 
@@ -130,13 +130,13 @@ Icône qui représente l’application. L’icône s’affiche pour l’utilisat
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez **IWiaDevMgr2 :: RegisterEventCallbackProgram** pour vous inscrire pour les événements de périphérique matériel. Lorsqu’un événement se produit lorsqu’une application est inscrite, l’application est lancée et les informations sur l’événement sont transmises à l’application.
 
@@ -146,7 +146,7 @@ Utilisez la méthode **IWiaDevMgr2 :: RegisterEventCallbackProgram** uniquement
 
 En règle générale, cette méthode est appelée par un programme d’installation ou un script. Le programme ou le script d’installation inscrit l’application pour recevoir des événements d’appareil WIA 2,0. Lorsque l’événement se produit, l’application est démarrée par le système d’exécution WIA 2,0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

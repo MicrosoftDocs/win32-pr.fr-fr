@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c744c529025e0bfa1a619d41cc3e564c2be3203887b1ebbbbe047542ccce3370
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f96224c881dcd5db2cc1c356003ab96e8a626900
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118810034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524948"
 ---
 # <a name="d3dxmatrixreflect-function-d3dx10mathh"></a>D3DXMatrixReflect, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers le [**D3DXPLANE**](d3d10-d3dxplane.md)source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui reflète le système de coordonnées du plan source.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction normalise l’équation plan avant de créer la matrice réfléchie.
 
@@ -85,7 +85,7 @@ P = normalize(Plane);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

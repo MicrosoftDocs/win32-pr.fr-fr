@@ -4,12 +4,12 @@ description: Interroge la position d’un exemple dans une vue de ressource de n
 ms.assetid: 5A53B342-3A1D-4016-ABF2-CA6236D562C9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2457ca682adacf5daa274b3efbe6c76eb37523df4267cdb20131576815c2b6f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 910a542dafddb8b855e218f8702c746220780d6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118510163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524537"
 ---
 # <a name="samplepos-sm41---asm"></a>samplepos (SM 4.1-ASM)
 
@@ -36,7 +36,7 @@ Interroge la position d’un exemple dans une vue de ressource de nuanceur donn�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction retourne la position d’échantillon 2D de l’exemple de *sampleIndex* pour la ressource donnée. Elle est valide uniquement pour les ressources qui peuvent être chargées à l’aide de [**ld2dms**](ld2dms--sm4-1---asm-.md) , sauf si le rastériseur est spécifié en tant que *srcResource*.
 
@@ -68,10 +68,10 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |

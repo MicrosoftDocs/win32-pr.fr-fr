@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 39a36ed8a74accdc7da3eed4c98a96d9ee6abbaa4f52b5c71c367250321d28b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac5676635bec961129078ed8689169d1a81cd87d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118044840"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525337"
 ---
 # <a name="icontextnodedeletecontextlink-method"></a>IContextNode ::D méthode eleteContextLink
 
@@ -46,15 +46,15 @@ Objet [**IContextLink**](icontextlink.md) à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un lien de contexte a un nœud source et un nœud de destination (voir [**IContextLink :: GetSourceNode**](icontextlink-getsourcenode.md) et [**IContextLink :: GetDestinationNode**](icontextlink-getdestinationnode.md)). Cette méthode supprime le [**IContextLink**](icontextlink.md) de la collection de liens de contexte des nœuds source et de destination (voir [**IContextNode :: GetContextLinks**](icontextnode-getcontextlinks.md)).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

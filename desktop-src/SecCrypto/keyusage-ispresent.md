@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d2eb962445717743512de396065304f70c31f02cfa4f3448a08a2731ed1fd377
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f70754c15a248cda69f93fcab2a0052bd8351261
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413460"
 ---
 # <a name="keyusageispresent-property"></a>KeyUsage. IsPresent, propriété
 
@@ -41,7 +41,7 @@ KeyUsage.IsPresent As Boolean
 
 Si la **valeur est true**, l’extension KeyUsage est présente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

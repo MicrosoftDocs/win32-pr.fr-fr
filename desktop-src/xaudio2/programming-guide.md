@@ -4,12 +4,12 @@ description: Cette section répertorie les rubriques de vue d’ensemble de l’
 ms.assetid: 3d366a18-290d-5de8-4bcc-2178bd7c4c2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d38ef3b6886cbc2f2d36a229ce61449b74d0e8b35350e925f994f25c0181ddf7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d39dc28be35f94909aacced8dfbdae935c9739e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525044"
 ---
 # <a name="xaudio2-programming-guide"></a>Guide de programmation XAudio2
 

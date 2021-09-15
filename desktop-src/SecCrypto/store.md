@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1de500d10d6bd5493492b62a2abb618be3cdb19d48a89beaf7ab83d55a86ac28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e8a14fcecf0ded2e4e1a56e2b98e4ac4838b776
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117972296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413451"
 ---
 # <a name="store-object"></a>Objet Store
 
@@ -45,10 +45,10 @@ L’objet **Store** possède ces méthodes.
 | [**Plus**](store-close.md)   | Ferme un magasin de certificats ouvert.<br/> **CAPICOM 2.0.0.3 et versions antérieures :** La méthode [**Close**](store-close.md) n’est pas prise en charge.<br/>                                                               |
 | [**Supprimer**](store-delete.md) | Supprime le magasin de certificats représenté par l’objet de [**magasin**](certificate.md) actuel.<br/> **CAPICOM 2.0.0.3 et versions antérieures :** La méthode [**Delete**](store-delete.md) n’est pas prise en charge.<br/> |
 | [**Exporter**](store-export.md) | Exporte le magasin d’un [*objet BLOB*](../secgloss/b-gly.md)encodé.<br/>                                                                                                       |
-| [**Port**](store-import.md) | Importe un magasin précédemment exporté.<br/>                                                                                                                                                                  |
-| [**Load**](store-load.md)     | Importe des objets de [**certificat**](certificate.md) à partir d’un fichier dans le magasin.<br/>                                                                                                                        |
-| [**Afficher**](store-open.md)     | Ouvre un magasin de certificats.<br/>                                                                                                                                                                            |
-| [**Installez**](store-remove.md) | Supprime un objet [**certificat**](certificate.md) d’un magasin ouvert.<br/>                                                                                                                               |
+| [**Importer**](store-import.md) | Importe un magasin précédemment exporté.<br/>                                                                                                                                                                  |
+| [**Chargera**](store-load.md)     | Importe des objets de [**certificat**](certificate.md) à partir d’un fichier dans le magasin.<br/>                                                                                                                        |
+| [**Ouvrir**](store-open.md)     | Ouvre un magasin de certificats.<br/>                                                                                                                                                                            |
+| [**Supprimer**](store-remove.md) | Supprime un objet [**certificat**](certificate.md) d’un magasin ouvert.<br/>                                                                                                                               |
 
 
 
@@ -64,19 +64,19 @@ L’objet **Store** a ces propriétés.
 |:------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Certificats**](store-certificates.md)<br/> | Lecture seule<br/> | Récupère la collection de [**certificats**](certificates.md) du magasin. Il s’agit de la propriété par défaut.<br/>                                                                                  |
 | [**Emplacement**](store-location.md)<br/>         | Lecture seule<br/> | Récupère l’emplacement du magasin de certificats que cet objet représente.<br/> **CAPICOM 2.0.0.3 et versions antérieures :** La propriété d' [**emplacement**](store-location.md) n’est pas prise en charge.<br/> |
-| [**Nom**](store-name.md)<br/>                 | Lecture seule<br/> | Récupère le nom du magasin de certificats que cet objet représente.<br/> **CAPICOM 2.0.0.3 et versions antérieures :** La propriété [**Name**](store-name.md) n’est pas prise en charge.<br/>             |
+| [**Nomme**](store-name.md)<br/>                 | Lecture seule<br/> | Récupère le nom du magasin de certificats que cet objet représente.<br/> **CAPICOM 2.0.0.3 et versions antérieures :** La propriété [**Name**](store-name.md) n’est pas prise en charge.<br/>             |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet **Store** peut être créé et il est sécurisé pour l’écriture de scripts. Le ProgID de l’objet **Store** est CAPICOM. Store. 2.
 
 **CAPICOM 1. *x*:** le ProgID de l’objet **Store** est CAPICOM. Store. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

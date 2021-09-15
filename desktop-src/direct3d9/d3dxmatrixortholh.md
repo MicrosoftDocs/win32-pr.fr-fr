@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: 5492a6caba87025d83562c0327ac0e1f5a76f269
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403373"
 ---
 # <a name="d3dxmatrixortholh-function-d3dx9mathh"></a>D3DXMatrixOrthoLH, fonction (D3dx9math. h)
 
@@ -89,13 +89,13 @@ Valeur z maximale du volume de la vue, appelée z-Far.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers le [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md)résultant.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Tous les paramètres de la fonction **D3DXMatrixOrthoLH** sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 
@@ -113,7 +113,7 @@ Cette fonction utilise la formule suivante pour calculer la matrice retournée.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

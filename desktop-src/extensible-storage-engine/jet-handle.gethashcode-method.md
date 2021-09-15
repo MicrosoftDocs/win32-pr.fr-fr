@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 82898e7feb51e1adce26d24851fb2077999487cdc6c6503756f866e57d778060
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5989edabe80b742d44ed1c2cde18dbf9e2c763b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524329"
 ---
 # <a name="jet_handlegethashcode-method"></a>JET_HANDLE. GetHashCode, méthode
 
@@ -61,7 +61,7 @@ Code de hachage de cette instance.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_HANDLE](./jet-handle-structure.md)
 

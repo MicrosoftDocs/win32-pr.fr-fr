@@ -3,17 +3,17 @@ title: Vue d’ensemble de la couche de canal
 description: La couche de canal fournit une abstraction du canal de transport ainsi que des messages envoyés sur le canal.
 ms.assetid: d7dddcc6-8eb0-4ee6-8cf5-7701a2be7a19
 keywords:
-- Vue d’ensemble des couches de canal services Web pour Windows
+- Vue d’ensemble de la couche de canal services Web pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6e52c4844bee472d4d22df7681fece16330f30cf
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104557546"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523952"
 ---
 # <a name="channel-layer-overview"></a>Vue d’ensemble de la couche de canal
 
@@ -29,7 +29,7 @@ Bien que le modèle de données d’un message soit toujours le modèle de donn�
 
 ![Diagramme montrant plusieurs formats d’encodage de message.](images/messageandencodings.png)
 
-## <a name="channel"></a>Channel
+## <a name="channel"></a>Canal
 
 Un [canal](channel.md) est un objet utilisé pour envoyer et recevoir des messages sur un réseau entre deux points de terminaison ou plus.
 
@@ -335,7 +335,7 @@ Le [**\_ \_ type de canal WS**](/windows/desktop/api/WebServices/ne-webservices-
 
 ## <a name="message-loops"></a>Boucles de messages
 
-Pour chaque modèle d’échange de messages, il existe une « boucle » spécifique qui peut être utilisée pour envoyer ou recevoir des messages. La boucle décrit l’ordre légal des opérations nécessaires pour envoyer/recevoir plusieurs messages. Les boucles sont décrites ci-dessous en tant que productions grammaticales. Le terme « final » est une réception dans laquelle les **\_ \_ terminaisons WS S** sont renvoyées (voir les [valeurs de retour des services Web Windows](windows-web-services-return-values.md)), ce qui indique qu’aucun autre message n’est disponible sur le canal. La production parallèle spécifie que, pour Parallel (x & y), l’opération x peut être effectuée simultanément avec y.
+Pour chaque modèle d’échange de messages, il existe une « boucle » spécifique qui peut être utilisée pour envoyer ou recevoir des messages. La boucle décrit l’ordre légal des opérations nécessaires pour envoyer/recevoir plusieurs messages. Les boucles sont décrites ci-dessous en tant que productions grammaticales. le terme « end » est une réception dans laquelle les **\_ \_ terminaisons WS S** sont renvoyées (voir [Windows les valeurs renvoyées par les Services Web](windows-web-services-return-values.md)), ce qui indique qu’aucun autre message n’est disponible sur le canal. La production parallèle spécifie que, pour Parallel (x & y), l’opération x peut être effectuée simultanément avec y.
 
 Les boucles suivantes sont utilisées sur le client :
 
@@ -405,7 +405,7 @@ Pour envoyer et recevoir des messages non-SOAP sur le serveur, utilisez [**WS \_
 
 ## <a name="namedpipes"></a>NAMEDPIPES
 
-La [**\_ liaison de \_ canal \_ WS NAMEDPIPE**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) prend en charge SOAP sur les canaux nommés, ce qui permet la communication avec le service Windows Communication Foundation (WCF) à l’aide de NetNamedPipeBinding.
+la [**\_ liaison de \_ canal \_ WS NAMEDPIPE**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) prend en charge SOAP sur les canaux nommés, ce qui permet la communication avec le service Windows Communication Foundation (WCF) à l’aide de NetNamedPipeBinding.
 
 ## <a name="correlating-requestreply-messages"></a>Corrélation des messages de demande/réponse
 

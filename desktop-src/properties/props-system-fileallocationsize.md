@@ -4,12 +4,12 @@ ms.assetid: ca3290ce-5690-44e1-80fd-0524a13ced5d
 title: System. FileAllocationSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c7c9c1a5f3609bf75b49cd9027265750a38c8d8464f85709e9d125a9504bb35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf41fdc5f319ad350ba8a5e8712667c897650fea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118053269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412794"
 ---
 # <a name="systemfileallocationsize"></a>System. FileAllocationSize
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

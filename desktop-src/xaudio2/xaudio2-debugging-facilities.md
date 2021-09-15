@@ -4,12 +4,12 @@ ms.assetid: a7aaebf9-98d4-e96c-993d-b0d0b7074788
 title: Fonctionnalités de débogage XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc6a89bb298a2e836e4d8dc63ed0144b9a789950432c5c83f33ec7ad86f4de8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc50e710f30969e024078eeaf2660545e1da45c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119706989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525041"
 ---
 # <a name="xaudio2-debugging-facilities"></a>Fonctionnalités de débogage XAudio2
 

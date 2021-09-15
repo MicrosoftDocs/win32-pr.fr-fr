@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e9b99d46d33ba66a9669d47021661b0a359fb2ca98d418735238e2baf3dc9e89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d450bbda2ac7c24b49d1ca5032fd1c59754652e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119094920"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524113"
 ---
 # <a name="iitempreviewerextgetlinkedcontent-method"></a>IItemPreviewerExt :: GetLinkedContent, méthode
 
@@ -67,7 +67,7 @@ Reçoit un pointeur vers la structure [**LINKINFO**](-search-linkinfo.md) dans l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 

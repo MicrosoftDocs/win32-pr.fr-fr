@@ -4,12 +4,12 @@ ms.assetid: f83c7709-86dc-4c64-ad17-2ad660eb57b7
 title: Programmation du panneau de saisie à l’aide de la classe PenInputPanel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d430b002fb967652aea046919ec7341a984f420f756fd936e8c68dbfce8c055
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80e00d1cb10983255ab2e532aa08de6e9e6a0fb5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118449382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412255"
 ---
 # <a name="programming-the-input-panel-using-the-peninputpanel-class"></a>Programmation du panneau de saisie à l’aide de la classe PenInputPanel
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e31589a229dcd5e32a0198cf7f3679846574bdb605e25a8df272b1793704b92
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5d3c7142f5f575413f72885aa60a0ccb826ecfab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119659009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525180"
 ---
 # <a name="drm_audio_output_protection_ids-structure"></a>\_Structure des \_ \_ ID de protection de sortie audio DRM \_
 
@@ -60,7 +60,7 @@ Tableau de structures de **\_ \_ \_ protection de sortie audio DRM** . **DRM \_ 
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51dbd37b61fea12e559323a73cbf6b4a5cb54704a74663f865d9aa89636d3c46
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f09e81a964542a6a8166ae54a0df4d7127466c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119557139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413114"
 ---
 # <a name="wm_hotkey-message"></a>\_Message de raccourci WM
 
@@ -74,11 +74,11 @@ Le mot de poids faible spécifie les clés qui doivent être enfoncées en assoc
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **WM \_ La touche** d’accès rapide n’est pas liée aux touches d’accès rapide [**WM \_ GETHOTKEY**](wm-gethotkey.md) et [**WM \_ SETHOTKEY**](wm-sethotkey.md) . Le message de **\_ raccourci WM** est envoyé pour les touches d’accès rapide génériques, tandis que les messages **WM \_ SETHOTKEY** et **WM \_ GETHOTKEY** sont liés aux touches d’activation de fenêtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -106,7 +106,7 @@ Le mot de poids faible spécifie les clés qui doivent être enfoncées en assoc
 [**\_SETHOTKEY WM**](wm-sethotkey.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

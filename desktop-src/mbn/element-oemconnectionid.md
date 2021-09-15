@@ -8,11 +8,11 @@ title: OemConnectionId
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 77753f8e5a28e0602f60a1136e879c8409b998b2
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413070"
 ---
 # <a name="span-idwwan_profile_v4element_oemconnectionidspanoemconnectionid"></a><span id="WWAN_profile_v4.element_OemConnectionId"></span>OemConnectionId
 
@@ -23,7 +23,7 @@ ID de connexion OEM pour la configuration DM du modem.
 [&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
 **&lt;OemConnectionId&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <OemConnectionId>
@@ -53,7 +53,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

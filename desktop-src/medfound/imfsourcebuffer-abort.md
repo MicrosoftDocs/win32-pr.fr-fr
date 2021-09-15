@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 9cdce9e505940c4314871b82261dbc9ac199b800cda6e93f77a4eb967f83322c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a8b5115032fb918af66094bb87c7118eb503da3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118062873"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523700"
 ---
 # <a name="imfsourcebufferabort-method"></a>IMFSourceBuffer :: Abort, méthode
 
@@ -37,11 +37,11 @@ HRESULT Abort();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,19 +5,19 @@ title: Interrogation de l’index avec ISearchQueryHelper
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 56b9d970a1e3f416081d3b7fd3e9d6c2af0a2bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412618"
 ---
 # <a name="querying-the-index-with-isearchqueryhelper"></a>Interrogation de l’index avec ISearchQueryHelper
 
 Vous pouvez utiliser l’interface [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) pour interroger l’index. Cette interface est implémentée en tant que classe d’assistance pour [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) (et [**ISearchCatalogManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2)), et est obtenue en appelant [**ISearchCatalogManager :: GetQueryHelper**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper). Cette interface vous permet d’effectuer les opérations suivantes :
 
--   Obtenez une chaîne de connexion OLE DB pour vous connecter à la base de données de recherche Windows.
--   Convertit les requêtes utilisateur de la syntaxe de requête avancée (AQS) en langage SQL de recherche Windows (SQL).
--   Spécifiez les restrictions de requête qui peuvent être exprimées en SQL, mais pas dans AQS.
+-   obtenez une chaîne de connexion OLE DB pour vous connecter à la base de données de recherche Windows.
+-   convertit les requêtes utilisateur AQS (Advanced Query Syntax) en langage SQL de recherche Windows (SQL).
+-   spécifiez les restrictions de requête qui peuvent être exprimées en SQL, mais pas dans AQS.
 
 Cette rubrique est organisée comme suit :
 
@@ -31,7 +31,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="getting-started-with-isearchqueryhelper"></a>Prise en main avec ISearchQueryHelper
 
-Il existe quelques méthodes et interfaces clés que vous devez connaître avant de commencer à interroger par programmation la recherche Windows à l’aide de l’interface [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) . À un niveau élevé, vous devez suivre les étapes suivantes :
+il existe quelques méthodes et interfaces clés que vous devez connaître avant de commencer à interroger par programmation Windows la recherche à l’aide de l’interface [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) . À un niveau élevé, vous devez suivre les étapes suivantes :
 
 1.  Instanciez une instance [**ISearchManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager) .
     ```
@@ -44,7 +44,7 @@ Il existe quelques méthodes et interfaces clés que vous devez connaître avant
 
     
 
-2.  Obtenez une instance de [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) à l’aide de [**ISearchManager :: getCatalog,**](/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog). Le nom du catalogue système pour la recherche Windows est `SYSTEMINDEX` .
+2.  Obtenez une instance de [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) à l’aide de [**ISearchManager :: getCatalog,**](/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog). le nom du catalogue système pour la recherche de Windows est `SYSTEMINDEX` .
     ```
     // Create ISearchCatalogManager instance 
     ISearchCatalogManager* pSearchCatalogManager;
@@ -67,7 +67,7 @@ Il existe quelques méthodes et interfaces clés que vous devez connaître avant
 
     
 
-4.  Une fois que vous disposez d’une instance de [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper), vous pouvez obtenir la chaîne de connexion utilisée pour se connecter à l’index de recherche Windows OLE DB connecteur.
+4.  une fois que vous disposez d’une instance de [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper), vous pouvez obtenir la chaîne de connexion utilisée pour se connecter à l’index de recherche Windows OLE DB connecteur.
     ```
     // Call get_ConnectionString to get the OLE DB connection string
     LPWSTR pszConnectionString=NULL;
@@ -81,9 +81,9 @@ Il existe quelques méthodes et interfaces clés que vous devez connaître avant
 
 ## <a name="using-the-generatesqlfromuserquery-method"></a>Utilisation de la méthode GenerateSqlFromUserQuery
 
-La méthode [**ISearchQueryHelper :: GenerateSQLFromUserQuery**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery) transforme l’entrée d’utilisateur en une chaîne de requête SQL, qui peut ensuite être envoyée au fournisseur OLE DB pour la recherche Windows. Cette méthode traduit la requête de [syntaxe de requête avancée](-search-3x-advancedquerysyntax.md) (AQS) ou la syntaxe de requête naturelle (NQS) entrée par l’utilisateur en SQL, et vous permet d’ajouter d’autres fragments SQL en fonction des besoins.
+la méthode [**ISearchQueryHelper :: GenerateSQLFromUserQuery**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery) transforme l’entrée d’utilisateur en une chaîne de requête SQL, qui peut ensuite être envoyée au fournisseur OLE DB pour la recherche Windows. cette méthode traduit la requête de [syntaxe de requête avancée](-search-3x-advancedquerysyntax.md) (AQS) ou la syntaxe de requête naturelle (NQS) entrée par l’utilisateur en SQL, et vous permet d’ajouter d’autres fragments de SQL en fonction des besoins.
 
-La chaîne de requête SQL est retournée sous la forme suivante :
+la chaîne de requête SQL est retournée sous la forme suivante :
 
 
 ```
@@ -96,7 +96,7 @@ WHERE <Result of interpreting the user query passed into this function according
 
 
 
-Voici un exemple de la chaîne SQL retournée par l’appel `GenerateSQLFromUserQuery("comput")` :
+voici un exemple de la chaîne de SQL retournée à partir de l’appel `GenerateSQLFromUserQuery("comput")` :
 
 
 ```
@@ -127,7 +127,7 @@ ORDER BY "System.ItemUrl"
 
  
 
-Les paramètres régionaux de **contenu** et les **Mots clés régionaux** sont des identificateurs de paramètres régionaux (LCID) qui aident le moteur de recherche à utiliser les analyseurs lexicaux appropriés en identifiant la langue des termes de la requête et la langue des mots clés AQS. Ce ne sont pas toujours les mêmes LCID, car Windows Search est proposé dans plusieurs versions internationales et comprend des packs MUI (Multilingual User Interface) pour d’autres langues. Les paramètres régionaux de contenu identifient le LCID pour les utilisateurs de langue qui saisissent leur requête de recherche dans, tandis que le mot clé local identifie le LCID utilisé par le moteur de recherche lors de l’analyse des mots clés de la syntaxe de requête avancée (AQS).
+Les paramètres régionaux de **contenu** et les **Mots clés régionaux** sont des identificateurs de paramètres régionaux (LCID) qui aident le moteur de recherche à utiliser les analyseurs lexicaux appropriés en identifiant la langue des termes de la requête et la langue des mots clés AQS. ce ne sont pas toujours les mêmes lcid, car Windows recherche est disponible dans plusieurs versions internationales et comprend également des packs d’interface utilisateur multilingue (MUI) pour un plus grand nombre de langues. Les paramètres régionaux de contenu identifient le LCID pour les utilisateurs de langue qui saisissent leur requête de recherche dans, tandis que le mot clé local identifie le LCID utilisé par le moteur de recherche lors de l’analyse des mots clés de la syntaxe de requête avancée (AQS).
 
 Par exemple, si vous disposez de la version anglaise (États-Unis) sans packs MUI, les paramètres régionaux de contenu et les paramètres régionaux de mot clé sont 1033. Si vous disposez de la version allemande sans packs MUI, les paramètres régionaux de contenu et les paramètres régionaux de mot-clé sont 1031 (GR-gr). Toutefois, si vous disposez de la version anglaise avec le Pack MUI roumain, les paramètres régionaux de contenu sont 2072 (RO) et les mots clés régionaux sont 1033 (en-US).
 
@@ -144,9 +144,9 @@ Par exemple, si vous disposez de la version anglaise (États-Unis) sans packs MU
 
  
 
-Les éléments sont représentés dans le magasin de propriétés sous la forme d’une ligne. Chaque ligne contient plusieurs colonnes qui représentent les propriétés de cet élément. Tous les éléments n’ont pas de valeur pour une propriété donnée. Par exemple, un fichier audio ne contient généralement pas de valeur pour la propriété System. Property. FromName, mais il peut contenir des informations relatives à System. Music. Artist.
+Les éléments sont représentés dans le magasin de propriétés sous la forme d’une ligne. Chaque ligne contient plusieurs colonnes qui représentent les propriétés de cet élément. Tous les éléments n’ont pas de valeur pour une propriété donnée. Par exemple, un fichier audio ne contient généralement pas de valeur pour la propriété System. Property. FromName, mais il peut contenir des informations relatives au système. Musique. Peinture.
 
-Avec ces méthodes, vous accédez ou modifiez la propriété avec une chaîne Unicode délimitée par des virgules, se terminant par un caractère null, qui spécifie un ou plusieurs noms de colonnes de la Banque de propriétés : «System.Document. Auteur, System.Document. Titre».
+Avec ces méthodes, vous accédez ou modifiez la propriété avec une chaîne Unicode délimitée par des virgules, se terminant par un caractère null, qui spécifie un ou plusieurs noms de colonnes de la Banque de propriétés : « System. document. Author, System. document. title ».
 
 ## <a name="working-with-query-term-expansion"></a>Utilisation de l’expansion de terme de requête
 
@@ -190,13 +190,13 @@ La plupart des méthodes de l’interface [**ISearchQueryHelper**](/windows/desk
 [Interrogation de l’index programmatiquement](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
-[Utilisation des approches SQL et AQS pour interroger l’index](-search-3x-wds-qryidx-overview.md)
+[utilisation d’approches SQL et AQS pour interroger l’Index](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
 [Interrogation de l’index avec le protocole search-ms](-search-3x-wds-qryidx-searchms.md)
 </dt> <dt>
 
-[Interrogation de l’index avec la syntaxe SQL de Windows Search](-search-sql-windowssearch-entry.md)
+[interrogation de l’Index avec Windows syntaxe de SQL de recherche](-search-sql-windowssearch-entry.md)
 </dt> <dt>
 
 [Utilisation de la syntaxe de requête avancée par programmation](-search-3x-advancedquerysyntax.md)

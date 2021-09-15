@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 9137fdd33f59eb841a54e84a6d12bb0b08968ac29c8737afbf56f66c57176c20
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63e69d12d47f90ba40f5cc785d8b864c40158774
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524032"
 ---
 # <a name="iwiadevmgr2registereventcallbackclsid-method"></a>IWiaDevMgr2 :: RegisterEventCallbackCLSID, méthode
 
@@ -120,13 +120,13 @@ Spécifie le nom d’un fichier image à utiliser pour l’icône de l’applica
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications WIA 2,0 utilisent cette méthode pour s’inscrire afin de recevoir des événements de périphérique matériel. Après l’appel de **IWiaDevMgr2 :: RegisterEventCallbackCLSID** , l’application est inscrite pour recevoir des événements d’appareil WIA 2,0, même s’il n’est pas en cours d’exécution.
 
@@ -141,7 +141,7 @@ Si l’application n’est pas un composant COM (Component Object Model) inscrit
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
