@@ -4,12 +4,12 @@ ms.assetid: c3a8303a-50d6-4deb-a371-171ac0a7c5a9
 title: Utilisation d’Internet Explorer pour accéder aux sites Web IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e48a9f18e80e0e163ad6fe4ccda0aaef43826edd4becb28e294aad5eca7085c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6d11e7b207de132441d2152a4e0593b20bc00d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118559270"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296619"
 ---
 # <a name="using-internet-explorer-to-access-ipv6-websites"></a>Utilisation d’Internet Explorer pour accéder aux sites Web IPv6
 

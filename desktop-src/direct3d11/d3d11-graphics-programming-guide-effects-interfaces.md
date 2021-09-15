@@ -5,11 +5,11 @@ ms.assetid: 5cba6055-d153-4837-9a08-96efbde5f48f
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: af76a54be06e52e320743ca945abb31d1d50d213
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296595"
 ---
 # <a name="effect-system-interfaces-direct3d-11"></a>Effets des interfaces système (Direct3D 11)
 
@@ -33,7 +33,7 @@ Utilisez les interfaces Runtime pour rendre un effet.
 
 
 
- 
+ 
 
 ## <a name="effect-reflection-interfaces"></a>Interfaces d’effet de réflexion
 
@@ -54,7 +54,7 @@ Utilisez ces interfaces pour obtenir et définir un groupe d’États.
 
 
 
- 
+ 
 
 ### <a name="setting-effect-resources"></a>Définition des ressources d’effet
 
@@ -72,7 +72,7 @@ Utilisez ces interfaces pour récupérer et définir des ressources.
 
 
 
- 
+ 
 
 ### <a name="setting-other-effect-variables"></a>Définition d’autres variables d’effet
 
@@ -93,7 +93,7 @@ Utilisez ces interfaces pour récupérer et définir l’État par le type de va
 
 
 
- 
+ 
 
 Toutes les interfaces de réflexion dérivent de [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
@@ -107,9 +107,9 @@ Toutes les interfaces de réflexion dérivent de [**ID3DX11EffectVariable**](id3
 [Guide de programmation pour Direct3D 11](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4f38cb07-d824-4d43-abd8-89d58dc15810
 title: Utilisation de plusieurs protocoles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cf9e1641c8e1ed308561b9e85425005933fceac17b156d1161895f13ad06d55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ab9a37dcc90f1094126f701641539dd3f26a1a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117739959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296618"
 ---
 # <a name="using-multiple-protocols"></a>Utilisation de plusieurs protocoles
 

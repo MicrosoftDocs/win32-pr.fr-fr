@@ -4,12 +4,12 @@ ms.assetid: d27eb0c2-4ae0-42d1-b92e-055a1c232e1c
 title: Utilisation d'une adresse IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 675441d1ae18e287541ad4c354aca19c3779fb14f3630ac1636cd360024fcd31
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f759d938ebebbc0ddfbb2326dfb10932c16310a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118559205"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296615"
 ---
 # <a name="using-ipv6"></a>Utilisation d'une adresse IPv6
 
