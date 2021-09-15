@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: ce3fed752e74df3afa812c228a174503e20c6adf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520321"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518764"
 ---
 # <a name="d3dxgenerateoutputdecl-function"></a>D3DXGenerateOutputDecl fonction)
 
@@ -59,7 +59,7 @@ Pointeur vers la déclaration de vertex d’entrée. Consultez [**D3DVERTEXELEME
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

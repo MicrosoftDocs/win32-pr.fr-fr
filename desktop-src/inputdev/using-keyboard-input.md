@@ -11,12 +11,12 @@ keywords:
 - signes insertion, entrée au clavier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb1be8753ec6a5f920f09f6e5376b7988a88de0f9a49551492408e84908bb0c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d76b3f90a626506430b91e7539069c6ecdf634c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118248271"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518448"
 ---
 # <a name="using-keyboard-input"></a>Utilisation de l’entrée au clavier
 

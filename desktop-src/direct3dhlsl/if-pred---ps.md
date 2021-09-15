@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a1a9e1c531e5dc6cd76bdd220a94730f2fb7b859eb99d9bba217a008fb02b4c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ead7c5936550715d48ee1ef6a3938b6219558823
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118511915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518640"
 ---
 # <a name="if-pred---ps"></a>Si prédit-PS
 
@@ -37,7 +37,7 @@ Où :
 -   prédit est l' [enregistrement de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   replicateSwizzle est un composant unique qui est copié (ou répliqué) sur les quatre composants (swizzled). Les composants valides sont les suivants : \[ x, y, z, w \] ou \[ r, g, b, a \] .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

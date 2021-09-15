@@ -4,12 +4,12 @@ ms.assetid: c1022538-ea9f-41e9-9075-c106e8b16b7b
 title: Attribut MF_TOPONODE_MEDIASTOP (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea2abc172151afe404f3acc6cf8c75d03bd0ac495564cb0f322283998677f83b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0a5b763d1d5adabc520900dde6839d1599ddcb3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525733"
 ---
 # <a name="mf_toponode_mediastop-attribute"></a>\_ \_ Attribut MEDIASTOP TOPONODE MF
 
@@ -31,7 +31,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT64**](/windows/d
 
 [**IMFTopologyNode**](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut spécifie la position dans la source où la lecture s’arrête, en unités de 100 nanosecondes, par rapport au démarrage de la source. Si l’attribut n’est pas défini, la lecture s’arrête à la fin de la source. Par exemple, pour arrêter la lecture à la marque de 5 secondes, définissez cet attribut sur 50 millions. Définissez l’attribut sur les nœuds sources dans la topologie (nœuds avec le type égal à **\_ nœud de topologie MF \_ \_ SOURCESTREAM**). Définissez l’attribut avant d’appeler [**IMFMediaSession :: SetTopology**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology).
 
@@ -46,7 +46,7 @@ Cet attribut est une valeur signée, bien qu’il soit stocké en tant que **UIN
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

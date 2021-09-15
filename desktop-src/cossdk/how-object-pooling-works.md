@@ -4,12 +4,12 @@ ms.assetid: 34978b50-cd20-42fd-ad46-410190478ef8
 title: Fonctionnement du regroupement d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df937dd8e3d7a2fb111c7825df101cd2b53f6f39a94326efb1eafe878d74daa6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f78784fc0e5362c14ceb598b404976c6ca494a19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517669"
 ---
 # <a name="how-object-pooling-works"></a>Fonctionnement du regroupement d’objets
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Énumération de WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417e5ea2ae1a1216c567a1ddf257c34796b4344a807d323ad4ad7165f1707098
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d94f4a1fcff06423bad9d2bf5570ec1b9705fdef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117924695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526189"
 ---
 # <a name="enumerating-wmi"></a>Énumération de WMI
 
@@ -251,7 +251,7 @@ Console.ReadLine();
 
 ## <a name="enumerating-wmi-using-vbscript"></a>Énumération de WMI à l’aide de VBScript
 
-Si vous ne connaissez pas le chemin d’accès de l’objet pour une instance spécifique, ou si vous souhaitez récupérer toutes les instances d’une classe spécifique, utilisez la méthode [**SWbemServices. InstancesOf**](swbemservices-instancesof.md) pour retourner une énumération [**SWbemObjectSet**](swbemobjectset.md) de toutes les instances d’une classe. Vous pouvez également interroger WMI via [**SWbemServices.ExecQuery**](swbemservices-execquery.md) pour obtenir le même jeu d’objets.
+Si vous ne connaissez pas le chemin d’accès de l’objet pour une instance spécifique, ou si vous souhaitez récupérer toutes les instances d’une classe spécifique, utilisez la méthode [**SWbemServices. InstancesOf**](swbemservices-instancesof.md) pour retourner une énumération [**SWbemObjectSet**](swbemobjectset.md) de toutes les instances d’une classe. Vous pouvez également interroger WMI via [**SWbemServices. ExecQuery**](swbemservices-execquery.md) pour obtenir le même jeu d’objets.
 
 La procédure suivante décrit comment énumérer les instances d’une classe à l’aide de VBScript.
 

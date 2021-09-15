@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/02/2019
-ms.openlocfilehash: 5df8f7b20c8cff3b905acec9852b26c9a5ee360645fddb1bec22990a8bb9daba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fb882a26d20de3094aa46763d6e1538ccf0c643
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517649"
 ---
 # <a name="dodownloadstate-enumeration"></a>Énumération DODownloadState
 
@@ -50,7 +50,7 @@ typedef enum _DODownloadState
 | DODownloadState_Aborted | Le téléchargement a été abandonné. |
 | DODownloadState_Paused | Le téléchargement a été suspendu à la demande ou en raison d’une erreur temporaire. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

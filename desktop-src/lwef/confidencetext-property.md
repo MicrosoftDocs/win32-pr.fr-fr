@@ -4,12 +4,12 @@ description: Propriété ConfidenceText
 ms.assetid: ff856af7-c5ad-4970-8778-b59a76c5e276
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b6612d4ade657748674fb4dd7391f447849691dcd756f2320f590c00ac33430
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb30b5ac481b6011d3575ab99dbc389f426b085d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119963149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518412"
 ---
 # <a name="confidencetext-property"></a>Propriété ConfidenceText
 
@@ -41,7 +41,7 @@ Retourne ou définit le **ConfidenceText** du client qui apparaît dans l’info
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la valeur de confiance renvoyée pour la meilleure correspondance (UserInput. Confidence) ne dépasse pas le paramètre de [**confiance**](confidence-property.md) , le serveur affiche le texte fourni dans **ConfidenceText** dans le Conseil d’écoute.
 

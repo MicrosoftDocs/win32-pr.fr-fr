@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 3f46344244405aca80789ae45db172e7693c6a01f77a014737a90080c1e3f21c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 137f8245b94bb0ebd14e81d5f73a7ba9622a4933
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119121193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518672"
 ---
 # <a name="id3dxfilesaveobjectgetfile-method"></a>ID3DXFileSaveObject :: GetFile, méthode
 
@@ -49,7 +49,7 @@ Adresse d’un pointeur vers un objet [**ID3DXFile**](id3dxfile.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

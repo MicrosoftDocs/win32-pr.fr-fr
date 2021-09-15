@@ -4,12 +4,12 @@ description: Objet Command
 ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 242a90022431b826cf877edd862cd89a39d193865ed31afc1e4ff911f4189756
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e9e9ce22b3a1c0c2286232b5e2204e158501332
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118245615"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525837"
 ---
 # <a name="the-command-object"></a>Objet Command
 
@@ -116,7 +116,7 @@ Oui
 
 Oui
 
-True
+Vrai
 
 False
 
@@ -172,7 +172,7 @@ Oui
 
 Non 
 
-True
+Vrai
 
 False
 
@@ -228,7 +228,7 @@ Oui
 
 Oui
 
-True
+Vrai
 
 False
 
@@ -284,7 +284,7 @@ Oui
 
 Non 
 
-True
+Vrai
 
 False
 
@@ -340,7 +340,7 @@ Non
 
 Oui
 
-True
+Vrai
 
 False
 
@@ -396,7 +396,7 @@ Non
 
 Non 
 
-True
+Vrai
 
 False
 
@@ -452,7 +452,7 @@ Non
 
 Oui
 
-True
+Vrai
 
 False
 
@@ -508,7 +508,7 @@ Non
 
 Non 
 
-True
+Vrai
 
 False
 

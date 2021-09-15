@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 579e52349031545fd540a98c7ea12876ae0700f725ea81ee05ac0fed65b09a1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9997e26625005abd0f2e38ab885b95b8f8febd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118512275"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518652"
 ---
 # <a name="instructions---vs_2_x"></a>Instructions-vs \_ 2 \_ x
 
@@ -32,7 +32,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 
 
 
-| Nom                                                                           | Description                                                                                                                                                            | Emplacements des instructions | Installation | Arithmétique | Contrôle de flux | Nouveau |
+| Name                                                                           | Description                                                                                                                                                            | Emplacements des instructions | Installation | Arithmétique | Contrôle de flux | Nouveau |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------|------------|--------------|-----|
 | [ABS-vs](abs---vs.md)                                                       | Valeur absolue                                                                                                                                                         | 1                 |       | x          |              |     |
 | [Ajouter-vs](add---vs.md)                                                       | Ajouter deux vecteurs                                                                                                                                                        | 1                 |       | x          |              |     |
@@ -72,7 +72,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 | [m4x3-vs](m4x3---vs.md)                                                     | 4x3 multiplier                                                                                                                                                           | 3                 |       | x          |              |     |
 | [M4X4-vs](m4x4---vs.md)                                                     | 4 x 4                                                                                                                                                           | 4                 |       | x          |              |     |
 | [Mad-vs](mad---vs.md)                                                       | Multiplier et ajouter                                                                                                                                                       | 1                 |       | x          |              |     |
-| [Max-vs](max---vs.md)                                                       | Maximum                                                                                                                                                                | 1                 |       | x          |              |     |
+| [Max-vs](max---vs.md)                                                       | Maximale                                                                                                                                                                | 1                 |       | x          |              |     |
 | [min-vs](min---vs.md)                                                       | Minimum                                                                                                                                                                | 1                 |       | x          |              |     |
 | [MOV-vs](mov---vs.md)                                                       | Déplacer                                                                                                                                                                   | 1                 |       | x          |              |     |
 | [Mova-vs](mova---vs.md)                                                     | Déplacer des données à partir d’un registre à virgule flottante vers le registre d’adresses (a0)                                                                                                  | 1                 |       | x          |              |     |

@@ -5,11 +5,11 @@ title: EncryptMessage (NTLM) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
 ms.openlocfilehash: 5c36ce31793a7dc889b6dec40acac7606cc38bf3
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480805"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526244"
 ---
 # <a name="encryptmessage-ntlm-function"></a>EncryptMessage (NTLM) (fonction)
 
@@ -77,7 +77,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | **s \_ E \_ jeton non valide \_**          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.                                                                                            |
 | **SEC \_ E \_ QoP \_ non \_ pris en charge**>    | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md).             |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **EncryptMessage (NTLM)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -97,7 +97,7 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 **Windows XP :** Cette fonction était également connue sous le nom de **SealMessage**. Les applications doivent désormais utiliser uniquement **EncryptMessage (NTLM)** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 | -------------------------|-------------------------------------------|

@@ -4,12 +4,12 @@ ms.assetid: 12f41eef-9953-4125-8490-07ff64967f95
 title: Gestion des erreurs dans COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b66ecfd2d66d30b601fdc9e3e580d258ab912db5c10e3af422b9e7fde2b7a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc1979fc49ff8f14bb83b194be7e1787feaf7d86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118306548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519320"
 ---
 # <a name="handling-errors-in-com"></a>Gestion des erreurs dans COM+
 

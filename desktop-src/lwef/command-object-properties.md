@@ -4,12 +4,12 @@ description: Propriétés de l’objet Command
 ms.assetid: 731bd14b-e213-4516-82fa-a904955cb7e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57542038ac4faaa98fc6fc9dc19f8372f44bc382633cb9507299d8b5a701362f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 18d4590901c3c7e967bad900191287b0e1795d8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119665769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518416"
 ---
 # <a name="command-object-properties"></a>Propriétés de l’objet Command
 
@@ -18,7 +18,7 @@ ms.locfileid: "119665769"
 Les propriétés de [**commande**](the-command-object.md) suivantes sont prises en charge :
 
 -   [**Caption**](caption-property.md)
--   [**Confiance**](confidence-property.md)
+-   [**Garantir**](confidence-property.md)
 -   [**ConfidenceText**](confidencetext-property.md)
 -   [**Activé**](enabled-property-co.md)
 -   [**ContexteAide**](helpcontextid-property-com.md)

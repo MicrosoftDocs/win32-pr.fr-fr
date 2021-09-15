@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2acc466eb3616f6488dbf7396b8c739d9635a342e5fb5e405302ed6444681921
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e4ecdc72c98494e84e11baad5d4df8d868448576
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119667779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517856"
 ---
 # <a name="jet_errinfobasicerrvalue-property"></a>JET_ERRINFOBASIC. errValue, propriété
 

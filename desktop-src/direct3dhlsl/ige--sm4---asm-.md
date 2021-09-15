@@ -4,12 +4,12 @@ description: Comparaison des entiers vectoriels au niveau du composant et de l�
 ms.assetid: 3A3225D1-9A3D-4928-9041-38CB6DE16E2A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15de044678d61adea52607166c622e6fb5dc20211499de4c11066e6688216910
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8709ebedb054dffe227340f2ccd3de572d92ffce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518629"
 ---
 # <a name="ige-sm4---asm"></a>IGE (SM4-ASM)
 
@@ -36,7 +36,7 @@ Comparaison des entiers vectoriels au niveau du composant et de l’étendue sup
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Effectue une comparaison d’entiers (*src0*  >=  *src1*) pour chaque composant et écrit le résultat dans *dest*.
 
@@ -60,11 +60,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Pris en charge. |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

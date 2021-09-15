@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 7bdae305fc7dc7ec15c2d140064d7479e4454d1bdb04562f5dd4201a92072425
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7b559453b0d4ed75f92f7a421be4c3a47e07fdf7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517665"
 ---
 # <a name="icontexttransactioninforegistertransactionproxy-method"></a>IContextTransactionInfo :: RegisterTransactionProxy, méthode
 
@@ -53,7 +53,7 @@ GUID qui identifie le proxy de transaction. COM+ utilise ce GUID lors de l’app
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e \_ OUTOFMEMORY et e \_ inattendue, ainsi que les valeurs suivantes.
 
@@ -69,11 +69,11 @@ Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **RegisterTransactionProxy** peut uniquement être appelée si le contexte actuel est un contexte de transaction racine. Il ne peut pas être appelé si le contexte héberge une transaction BYOT ou une transaction non racine.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

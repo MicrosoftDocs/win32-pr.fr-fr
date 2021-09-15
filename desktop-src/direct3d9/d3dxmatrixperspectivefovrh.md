@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 232c93709939c1371488a5f3a0aeadb2647001cf181270bcf9c357cc0d34042e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8860a5d9fed13e8acdedfe67ed94a97911a6de0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117731675"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518697"
 ---
 # <a name="d3dxmatrixperspectivefovrh-function-d3dx9mathh"></a>D3DXMatrixPerspectiveFovRH, fonction (D3dx9math. h)
 
@@ -89,13 +89,13 @@ Valeur Z du plan d’affichage Far.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est une matrice de projection de perspective à droite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXMatrixPerspectiveFovRH** peut être utilisée comme paramètre pour une autre fonction.
 

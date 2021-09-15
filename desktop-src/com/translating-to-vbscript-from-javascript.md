@@ -4,12 +4,12 @@ description: Conversion en VBScript à partir de JavaScript
 ms.assetid: f302e032-4e94-42f1-839b-022dab538760
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6138a6d13710e87ae2b80c979b208d0360e28501ce5d763546a1605c49f0802a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2eda8169a665dc93133f7ac933de12ecc612f3e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519364"
 ---
 # <a name="translating-to-vbscript-from-javascript"></a>Conversion en VBScript à partir de JavaScript
 

@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment utili
 ms.assetid: 41ca783d-56d1-4ad5-8f07-c265ff2e07bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16fe6539a24f271f5c1e8042b1be9933a77f1118b27730d510026de1852d7938
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ed5c6c1bec961d4f0df83687cd19eecba6ed179
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118324447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518105"
 ---
 # <a name="how-to-walk-the-ui-automation-tree"></a>Guide pratique pour parcourir l’arborescence UI Automation
 
@@ -153,7 +153,7 @@ cleanup:
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Obtention d'éléments UI Automation](uiauto-obtainingelements.md)

@@ -4,12 +4,12 @@ ms.assetid: 2c5d0610-88b5-437e-acde-214553121380
 title: Meilleures pratiques pour les applications interactives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 497fc56419f8859b7490671590b4589092c4c5b37047a01b0bf80cee9bf8c213
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89764cf19de223f4622edd947c8122bc7fe8b11a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517709"
 ---
 # <a name="best-practices-for-interactive-applications"></a>Meilleures pratiques pour les applications interactives
 

@@ -5,11 +5,11 @@ ms.assetid: ecfb9691-cbc4-48f5-8e26-a99389e85eed
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2be5954636084d3cbc299c718f2b4e6d9330ef90
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103727028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519557"
 ---
 # <a name="requeststart-event"></a>Événement RequestStart
 
@@ -37,7 +37,7 @@ Se produit lorsque le serveur commence une demande en file d’attente.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ L’événement retourne un objet de [**requête**](/windows/desktop/lwef/the-re
 
 L' [**État**](status-property.md) retourne 4 (demande en cours) pour l’objet de [**requête**](/windows/desktop/lwef/the-request-object) retourné.
 
-Étant donné que les objets de [**requête**](/windows/desktop/lwef/the-request-object) d’animation ne sont pas assignés tant que le serveur n’a pas traité la demande, assurez-vous que l’objet de **requête** existe avant d’essayer de l’évaluer. Par exemple, dans Visual Basic, si vous utilisez un conditionnel pour tester si une requête spécifique a été effectuée, vous pouvez utiliser le mot clé **Nothing** :
+Étant donné que les objets de [**requête**](/windows/desktop/lwef/the-request-object) d’animation ne sont pas assignés tant que le serveur n’a pas traité la demande, assurez-vous que l’objet de **requête** existe avant d’essayer de l’évaluer. par exemple, dans Visual Basic, si vous utilisez un conditionnel pour tester si une requête spécifique a été effectuée, vous pouvez utiliser le mot clé **Nothing** :
 
 
 ```
@@ -97,13 +97,13 @@ L' [**État**](status-property.md) retourne 4 (demande en cours) pour l’objet 
 > [!Note]  
 > Dans VBScript 1,0, cet événement se déclenche même si vous ne définissez pas de références à un objet de [**requête**](/windows/desktop/lwef/the-request-object) . Ce problème a été résolu dans VBScript 2,0, qui peut être téléchargé à partir de <https://microsoft.com/msdownload/vbscript/scripting.asp> .
 
- 
+ 
 
 ### <a name="see-also"></a>Voir aussi
 
 [**Événement RequestComplete**](requestcomplete-event.md)
 
 
- 
+ 
 
- 
+ 

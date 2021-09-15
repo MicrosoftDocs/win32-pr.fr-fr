@@ -4,12 +4,12 @@ ms.assetid: e6bd6bce-9eba-4192-aac8-c9e47d7180a1
 title: Événement WPCEVENT_IM_LEAVE (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d814f6c9d4e3ec5acd3ee3cf3a6eb6e67d315148304f2766baf45fc633fa22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 260833a30f08330da9c622faae06f76b5d79e682
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525520"
 ---
 # <a name="wpcevent_im_leave-event"></a>Événement de départ de la \_ messagerie instantanée WPCEVENT \_
 
@@ -96,7 +96,7 @@ Valeur de l’énumération [**WPCFLAG \_ im \_ Leave**](/windows/win32/api/wpce
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

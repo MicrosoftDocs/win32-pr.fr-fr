@@ -5,17 +5,17 @@ title: file (élément)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 41970da9cc6e389f4e45c5e55901ce8eb2e7797f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518044"
 ---
 # <a name="file-element"></a>file (élément)
 
 Indique au générateur de code de générer un fichier et spécifie le nom du fichier de sortie.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <file
@@ -140,7 +140,7 @@ Le nom du fichier est déterminé par la valeur de l’attribut Name ou de l’�
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

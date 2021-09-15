@@ -5,11 +5,11 @@ title: AcceptSecurityContext (SChannel), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
 ms.openlocfilehash: 7346d90d2b88138a46921001c40763a267070752
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122628677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518397"
 ---
 # <a name="acceptsecuritycontext-schannel-function"></a>AcceptSecurityContext (SChannel) (fonction)
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: f19e981d9feecab6d9fb83fbd6502cd145b57d22ec4a8f4be585f6ea63083607
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3eeea966a539d02acaeba24e06bcbfa8af58b7b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119732979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518949"
 ---
 # <a name="msmonitorclass-class"></a>MSMonitorClass, classe
 

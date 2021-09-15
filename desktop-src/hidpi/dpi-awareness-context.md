@@ -4,12 +4,12 @@ description: Identifie le contexte de sensibilisation pour une fenêtre.
 ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 25e270f59af32b33fdb5ad3f511b693b3eebad71407d48b80a72aff5996edf14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1663fad828a2fb29aa0d65ef58ae79616f64edcd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119727179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525849"
 ---
 # <a name="dpi_awareness_context-handle"></a>Handle de contexte de \_ détection PPP \_
 
@@ -59,7 +59,7 @@ Pour plus d’informations, consultez [amélioration de l’expérience haute r�
 DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED a été introduite dans la mise à jour 2018 d’octobre de Windows 10 (également connue sous le nom de version 1809).
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |----|-----------|

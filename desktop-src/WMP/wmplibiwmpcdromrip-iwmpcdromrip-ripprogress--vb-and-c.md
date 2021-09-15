@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea0d80a9eeed0246c48c142177bb4611c8666ca8b4f783d51f472dada2bbdbc5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 113b9fc716698156aa4f7731a7b19888e0edf438
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119246749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519841"
 ---
 # <a name="iwmpcdromripripprogress-property"></a>IWMPCdromRip :: ripProgress, propriété
 
@@ -48,11 +48,11 @@ Public ReadOnly Property ripProgress As System.Int32
 
 **System. Int32** qui est la valeur de progression. Les valeurs de progression sont comprises entre 0 et 100.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de progression représente le pourcentage terminé de l’ensemble du processus d’extraction. Pour déterminer la progression d’une piste spécifique, utilisez [IWMPMedia. getItemInfo](wmplibiwmpplaylist-iwmpplaylist-getiteminfo--vb-and-c.md) avec **RipProgress** comme nom d’attribut. Pour récupérer l’index de la piste actuellement extraite, appelez IWMPPlaylist. getItemInfo avec « CurrentRipTrackIndex » comme nom d’attribut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 44fddd0e9eee1ce593b5ac8cb7cb2ca0efcabb2d48e7e614f1ed2d100ad38c8d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a0d4f41995525632f582cf89709076f60cdd6181
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119670069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518565"
 ---
 # <a name="boolcolumnvaluegetvaluefrombytes-method"></a>Méthode BoolColumnValue. GetValueFromBytes
 
@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>Paramètres
 
-  - valeur  
+  - value  
     Entrer \[\]  
     
     Tableau d'octets.

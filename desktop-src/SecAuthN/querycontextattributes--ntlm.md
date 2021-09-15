@@ -4,12 +4,12 @@ ms.assetid: cfa545e7-c5d9-4ffd-bbba-669d2bd3df2d
 title: QueryContextAttributes (NTLM), fonction (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 6e392f492ddb4b8cc2878e58e60b1f0bdc84d3e65d8a06019586d204ca6a9ff6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dba11bbfb1666a3f47b7ee2820167259319178ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118920097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519072"
 ---
 # <a name="querycontextattributes-ntlm-function"></a>QueryContextAttributes (NTLM) (fonction)
 
@@ -81,7 +81,7 @@ Pointeur vers une structure qui reçoit les attributs. Le type de structure poin
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la valeur de retour est s \_ E \_ OK.
 

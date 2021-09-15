@@ -5,12 +5,12 @@ ms.assetid: 8f13aa71-a7b2-41ee-ad1e-4953f49a391a
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 6841c216ca3273dd8c6d45798f687db948dcdfa7e7f38d05d47b12789afc10fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74f299c58b9bf417a94119cd7520b7c0a364f73a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117983393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517741"
 ---
 # <a name="op_package_part-structure"></a>Structure OP_PACKAGE_PART
 

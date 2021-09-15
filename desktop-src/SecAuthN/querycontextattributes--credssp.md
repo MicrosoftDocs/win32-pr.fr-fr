@@ -4,12 +4,12 @@ ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 title: QueryContextAttributes (CredSSP), fonction (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b8ff421a2173f2ce2c5521e0706b53c3f6c326038179345d139acd0a157c7d61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 191c3c8d3b2b5bd829aaf8eb45bacadbbd2bbade
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118920228"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519080"
 ---
 # <a name="querycontextattributes-credssp-function"></a>QueryContextAttributes (CredSSP) (fonction)
 
@@ -72,7 +72,7 @@ Pointeur vers une structure qui reçoit les attributs. Le type de structure dép
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne SEC \_ E \_ OK.
 

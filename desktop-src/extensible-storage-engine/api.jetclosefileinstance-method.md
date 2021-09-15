@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 04ca76f5c96a34c6cd552eefc6ff383e6ca31634b03f33637674fa7b347b22d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ac29dec4032d83197a57746789afc770d84ec30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118983519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518597"
 ---
 # <a name="apijetclosefileinstance-method"></a>API. JetCloseFileInstance, méthode
 
@@ -75,7 +75,7 @@ public static void JetCloseFileInstance(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

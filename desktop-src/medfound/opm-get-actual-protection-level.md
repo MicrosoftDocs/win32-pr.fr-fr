@@ -4,12 +4,12 @@ ms.assetid: 3dd4f6f0-2305-4470-bbd4-7737fa2d8eae
 title: OPM_GET_ACTUAL_PROTECTION_LEVEL (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed5d895c037fedfa97bbafab8331d685af9a7f1ce81489b8d600bd903aa2a17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 960d704fd44ca779f128795b26603698bb0ad622
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119101918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525692"
 ---
 # <a name="opm_get_actual_protection_level"></a>\_niveau de \_ \_ protection \_ de l’offre OPM
 
@@ -27,7 +27,7 @@ Retourne le niveau de protection global pour un mécanisme de protection spécif
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le niveau de protection global est le niveau de protection en cours d’application sur le connecteur, quelle que soit la façon dont le pilote Graphics a été invité à appliquer la protection. Par exemple, une application peut définir le niveau de protection ACP en appelant la fonction **ChangeDisplaySettingsEx** . Dans ce cas, le niveau de protection global reflète ce paramètre, même s’il n’a pas été demandé par le biais de Output Protection Manager (OPM).
 
@@ -48,7 +48,7 @@ Le niveau de protection est retourné dans le membre **ulInformation** de la str
 
 Cette requête est équivalente à la \_ requête DXVA COPPQueryGlobalProtectionLevel utilisée dans le protocole Copp (Certified Output Protection Protocol).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Cette rubrique montre comment un fournisseur UI Automation Microsof
 ms.assetid: 504d0ed8-32c1-43ed-9f71-328a013ab350
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 649f9419c5e3003c0185f435cba4d38f4a25c3d7adc1bdc7cf9c53cd06b32a6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54e75fa12dba891bc4eded5fd9763f7825eb7f88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518124"
 ---
 # <a name="support-control-patterns-in-a-ui-automation-provider"></a>Prendre en charge des modèles de contrôle dans un fournisseur UI Automation
 
@@ -99,7 +99,7 @@ IFACEMETHODIMP ListProvider::GetPatternProvider(PATTERNID patternId, IUnknown** 
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)

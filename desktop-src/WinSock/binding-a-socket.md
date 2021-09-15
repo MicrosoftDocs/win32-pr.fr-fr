@@ -4,12 +4,12 @@ ms.assetid: d08fb1a5-af17-4116-8757-ba0a513fb323
 title: Liaison d’un socket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cda9e745395209228584ea5535864cca57e30494b2e30bfff02fe2abc527ed5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc71ad25837a070074fefa2e3693c5546839ec17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517712"
 ---
 # <a name="binding-a-socket"></a>Liaison d’un socket
 

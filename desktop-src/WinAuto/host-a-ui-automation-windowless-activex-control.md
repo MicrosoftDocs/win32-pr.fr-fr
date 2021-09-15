@@ -7,12 +7,12 @@ keywords:
 - contrôle de ActiveX sans fenêtre, UI Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f39983bc5252aabb9eb58dfcfd117fe8e07297e5545f0596fec777ab6f2e64
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 77026d923ea6f0d2536cbd6a94966ec858443258
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519381"
 ---
 # <a name="host-a-ui-automation-windowless-activex-control"></a>héberger un contrôle de ActiveX sans fenêtre UI Automation
 

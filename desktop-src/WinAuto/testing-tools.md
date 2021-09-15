@@ -10,12 +10,12 @@ keywords:
 - MSAA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcd5d8b0777eb80cf5b2935cc8652d328dfc219cb56bc654c1eeae0761bbd89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce653adb2602b8fdd46bebb72d3a7607185ffd84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518185"
 ---
 # <a name="testing-tools"></a>Outils de test
 

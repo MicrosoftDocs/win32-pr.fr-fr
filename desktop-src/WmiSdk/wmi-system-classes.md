@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes système WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a576c3e1a02a20da9b8fb0ca7d57d8deb3dcd198e591e6f7e00dc8fef2ae68f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34cdee69b641fdbfdc006bdcef6d066687308ed9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119502699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518916"
 ---
 # <a name="wmi-system-classes"></a>Classes système WMI
 

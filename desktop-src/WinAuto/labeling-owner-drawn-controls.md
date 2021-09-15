@@ -4,12 +4,12 @@ description: Les développeurs d’applications doivent définir une étiquette,
 ms.assetid: 7150570d-d593-4d95-b1c9-1445bbf5de77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6f106ce8bdc1e568834238f2ab3b7b0395ce3c97dde49bb0cc4ca404a39023
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69d219e35924544af0879a3cf8f41dd7bcdac50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118325416"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518268"
 ---
 # <a name="labeling-owner-drawn-controls"></a>Étiquetage des contrôles de Owner-Drawn
 

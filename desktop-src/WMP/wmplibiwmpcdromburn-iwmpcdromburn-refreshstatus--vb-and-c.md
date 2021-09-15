@@ -3,9 +3,9 @@ title: Méthode IWMPCdromBurn refreshStatus
 description: La méthode refreshStatus met à jour les informations d’état de la sélection de gravure en cours.
 ms.assetid: 4dd90e76-92b5-4a00-b027-b54502e56804
 keywords:
-- méthode refreshStatus lecteur Windows Media
-- méthode refreshStatus lecteur Windows Media, interface IWMPCdromBurn
-- Interface IWMPCdromBurn lecteur Windows Media, méthode refreshStatus
+- Lecteur Windows Media de la méthode refreshStatus
+- méthode refreshStatus Lecteur Windows Media, interface IWMPCdromBurn
+- Lecteur Windows Media de l’interface IWMPCdromBurn, méthode refreshStatus
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 55205e684d055d20c8e8f218ba58716de8472916
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528808"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519857"
 ---
 # <a name="iwmpcdromburnrefreshstatus-method"></a>IWMPCdromBurn :: refreshStatus, méthode
 
@@ -49,7 +49,7 @@ Implements IWMPCdromBurn.refreshStatus
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -59,7 +59,7 @@ Vous devez appeler cette méthode après avoir créé ou modifié une sélection
 
 L’actualisation de l’État est une opération synchrone. Cela signifie qu’une longue période de temps peut s’écouler avant que cette méthode ne retourne si la sélection de gravure actuelle est volumineuse et contient de nombreuses modifications.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

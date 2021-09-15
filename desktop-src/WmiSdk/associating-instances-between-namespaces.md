@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Associer des instances entre des espaces de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d743b835d28af4fe0a8dd5d09858b2ba6ff0abacd0f35219c3dd90d39d0810d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8347d3a35f06f72d3344f5c12606d82709a1370
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118557017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518929"
 ---
 # <a name="associating-instances-between-namespaces"></a>Associer des instances entre des espaces de noms
 

@@ -4,12 +4,12 @@ description: Lors de l’inscription d’une fonction de raccordement avec SetWi
 ms.assetid: 6876d74a-9c15-4f89-92ad-d072d9b528f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7594e14f0da218f61cc123dfbc19335e4318a2b19dad5faa84eac7a2fafe3a65
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4d96bff36f47b5e7fb0ad2e98d5a5347e2bc747
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518288"
 ---
 # <a name="in-context-and-out-of-context-hook-functions"></a>In-Context et fonctions de raccordement hors contexte
 

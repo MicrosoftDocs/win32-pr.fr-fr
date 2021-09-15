@@ -14,12 +14,12 @@ keywords:
 - PlaysForSure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc3f59e7bfeb51af8c5c34d28d9819dc4eb4e29f2918b8a28c6e05e69f47d567
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42e48a3ddfd2b0670e3720f7c71587d0330a69a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519061"
 ---
 # <a name="refreshing-licenses-for-stores-that-have-the-playsforsure-logo"></a>Actualisation des licences des magasins qui ont le logo PlaysForSure
 

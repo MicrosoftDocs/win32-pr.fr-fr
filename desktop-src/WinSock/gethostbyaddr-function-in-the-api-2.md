@@ -4,12 +4,12 @@ ms.assetid: 9b1e3f3f-bfc0-4099-b699-af56019055e6
 title: Fonction gethostbyaddr dans l’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cac84d30ba919a4fc61456d5ca4772c12df786d89241e8249b57068b9aac3f7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c04141d65161831a60ec663f0dee4a9647792ff6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119132322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517701"
 ---
 # <a name="gethostbyaddr-function-in-the-api"></a>Fonction gethostbyaddr dans l’API
 

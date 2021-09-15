@@ -4,12 +4,12 @@ ms.assetid: b47a2e38-67bd-4d43-936c-8781641cb7f6
 title: nouveautés de Windows Server 2008 et Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e474bbfa32d8f82737df4be6f537ca0a6f1bc870e2028d7dcdb1f418adb7120
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fac0f274b45e1db79fb79340b7f490de96f57e8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519013"
 ---
 # <a name="whats-new-in-windows-server-2008-and-windows-vista"></a>nouveautés de Windows Server 2008 et Windows Vista
 

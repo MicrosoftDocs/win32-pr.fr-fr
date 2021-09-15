@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility utilise trois classes de niveau syst
 ms.assetid: 3333fe6c-38cd-4e7e-be4b-94c9f824e7e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab93b5780ceb960b7ad15ce220dcc8a7a0801aae8f7fec9cb8211417906b82e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0d14a0469527a7654dd3e323adb47d650866ca9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133632"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518193"
 ---
 # <a name="system-level-and-object-level-events"></a>Événements System-Level et Object-Level
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e3707f6e1cf960888f5f403f433ede3d3b82828e300ef59190bf5734e0e4c13b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c130a00b8fcbcbcf6a8fc7bbdbbad6a4e36f218e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119618039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519589"
 ---
 # <a name="instanceparametersonedatabasepersession-property"></a>InstanceParameters. OneDatabasePerSession, propriété
 
@@ -66,7 +66,7 @@ Type : [System. Boolean](/dotnet/api/system.boolean)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [InstanceParameters, classe](./instanceparameters-class.md)
 

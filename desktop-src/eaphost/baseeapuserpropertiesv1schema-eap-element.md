@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 877f7b00953bff6cbac585fc549e9fa44d1ba98e89720b2d1a8317c2538ed64f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23f00b5162ddb42efd9fae759bab1ea47efc04dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118275692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519693"
 ---
 # <a name="eap-element-user-property"></a>Élément EAP (propriété utilisateur)
 
@@ -35,11 +35,11 @@ L’élément **EAP** capture le type de méthode sélectionné et la configurat
 
 La méthode peut définir les éléments constitutifs à l’intérieur de l’élément **EAP** . La méthode effectue également une validation de schéma sur les éléments dans **EAP**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Rôle | Version minimale du système d’exploitation prise en charge |
+| Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
 | Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

@@ -4,12 +4,12 @@ ms.assetid: ACAC2375-EA6C-4AA1-90B7-0BF237A51C02
 title: Résolution des problèmes de compatibilité dans les applications Web à l’aide de l’affichage de compatibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7dd876dcf8d25ebe7e6cca15ea88bfeba52aa29e3e5d83680815c15f8bda46d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5acb7249854d9ac89b5601fdf83efa397c11c17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118329508"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517724"
 ---
 # <a name="fixing-compatibility-issues-in-web-applications-by-using-compatibility-view"></a>Résolution des problèmes de compatibilité dans les applications Web à l’aide de l’affichage de compatibilité
 

@@ -6,12 +6,12 @@ keywords:
 - ressource définie par l’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b383b7c4d1f9acfc4ce6c9db24efa77f3bfed943c1f299186d42a1facee2b43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 909352c7f0643ed67b1d199fafba1ac8f15d2a9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118472616"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525576"
 ---
 # <a name="user-defined-resource"></a>Ressource User-Defined
 
@@ -65,7 +65,7 @@ Le bloc de données commence sur une limite **DWORD** et RC n’effectue aucun r
 
 </dd> </dl>
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 L’exemple suivant illustre plusieurs instructions définies par l’utilisateur :
 

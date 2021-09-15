@@ -5,12 +5,12 @@ ms.assetid: C7AEF1A0-36FB-4026-9CCF-ED0206961A58
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4940f6c32ac8754a8a8d41fd7c849d6023775e833988611988d3a6979bd3cace
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf316978f3dd0928692f378dd8d72b8453ad0aae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119631989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518833"
 ---
 # <a name="counters-queries-and-performance-measurement"></a>Compteurs, requêtes et mesures de performance
 

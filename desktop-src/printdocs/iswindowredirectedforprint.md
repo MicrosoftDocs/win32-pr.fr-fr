@@ -14,11 +14,11 @@ api_type:
 api_location:
 - user32.dll
 ms.openlocfilehash: b6648e5638ec6f05a2677ce279b0c3d7b160b49b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519481"
 ---
 # <a name="iswindowredirectedforprint-function"></a>IsWindowRedirectedForPrint fonction)
 
@@ -46,7 +46,7 @@ Handle de la fenêtre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fenêtre est actuellement redirigée pour impression, la fonction retourne une valeur différente de zéro ; Sinon, elle retourne zéro.
 
@@ -56,14 +56,14 @@ Une fenêtre est redirigée pour impression quand elle traite un appel à [**Pri
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>User32.dll</dt> </dl> |
 
 

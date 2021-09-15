@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1a93465e4f90c0fe9ef1d375546d5360983bcca7ee187a3e7da86dd00c4560ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f60c2873aaad47774af4c88fd0a6e183eeb37af4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118275846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519704"
 ---
 # <a name="baseeapmethodusercredentials-schema"></a>Schéma baseeapmethodusercredentials
 

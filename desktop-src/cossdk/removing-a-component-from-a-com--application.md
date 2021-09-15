@@ -4,12 +4,12 @@ ms.assetid: 3a107cd6-ef46-42ea-9238-434d0254a7bb
 title: Suppression d’un composant d’une application COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 759cd12ad268bd251454e6032ad83e775b230877b435a8f0b4b495594f5c5f1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57680fef16db0ae2d93ddc432cc1c412b9044573
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519825"
 ---
 # <a name="removing-a-component-from-a-com-application"></a>Suppression d’un composant d’une application COM+
 

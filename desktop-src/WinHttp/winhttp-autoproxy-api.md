@@ -4,12 +4,12 @@ ms.assetid: d941e3c6-c1db-4de1-b640-4f582f86fc54
 title: Fonctions de proxy AutoProxy WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8443567e12d7a0f3b75d09fc284dc634315ec635ff8b630821bb84031e39781b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: afd4cf8289add4c72c2266df4bb9025e0b4c1aa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519021"
 ---
 # <a name="winhttp-autoproxy-functions"></a>Fonctions de proxy AutoProxy WinHTTP
 

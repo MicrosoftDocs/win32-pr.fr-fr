@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7d9cb6afe13b8c0060b26edbf5add618c776518b3b03e5abdc1f9131dbbcabde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fffa74c69b5ecbf2823cfa79ae376fed524e8ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118275532"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519692"
 ---
 # <a name="eaptype-element-base-user-properties"></a>Élément EapType (propriétés de l’utilisateur de base)
 
@@ -35,11 +35,11 @@ L’élément **EapType** capture la configuration spécifique à la méthode à
 
 L’élément **EapType** est abstrait ; chaque méthode doit définir et utiliser un élément dérivé dans les documents d’instance.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Rôle | Version minimale du système d’exploitation prise en charge |
+| Role | Version minimale du système d’exploitation prise en charge |
 |-------------------------------------|------------------------------------------------------|
 | Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

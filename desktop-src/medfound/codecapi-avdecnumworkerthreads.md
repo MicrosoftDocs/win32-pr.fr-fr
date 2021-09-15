@@ -4,12 +4,12 @@ ms.assetid: A1570BB5-62BC-46C0-B9C9-61F99AA13BBE
 title: CODECAPI_AVDecNumWorkerThreads, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a17584e9a6e3d6f8efcfcf129a89bc0f94cb2629c0f130549a73757c20368f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5d7c57d1b4176ad65313a5583a70f9ba4f7427a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525824"
 ---
 # <a name="codecapi_avdecnumworkerthreads-property"></a>CODECAPI \_ propriété AVDecNumWorkerThreads
 
@@ -23,13 +23,13 @@ Définit le nombre de threads de travail utilisés par un décodeur vidéo.
 
 CODECAPI \_ AVDecNumWorkerThreads
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur est 1, le décodeur sélectionne le nombre de threads.
 
 Pour l’interface [**ICodecAPI**](/windows/desktop/api/strmif/nn-strmif-icodecapi) , définissez cette propriété sur une valeur **long** (**VT \_ I4**). Pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) , définissez cette propriété sur **UInt32**, bien que la valeur soit signée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

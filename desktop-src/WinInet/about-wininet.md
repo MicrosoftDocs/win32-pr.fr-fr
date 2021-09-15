@@ -10,12 +10,12 @@ keywords:
 - internet, Windows WinINet internet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be38840c33735a1e064e9bdc5e044651130d6e15a6fe22d004a2e8d7c29bf140
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4513e5c3912a483fd4dbef96f452c5712717c8a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518996"
 ---
 # <a name="about-wininet"></a>À propos de WinINet
 

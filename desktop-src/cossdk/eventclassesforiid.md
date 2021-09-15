@@ -13,11 +13,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 635ff6e87d68bfdcb4e82a24673c4ced00a7f81d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519337"
 ---
 # <a name="eventclassesforiid-collection"></a>Collection EventClassesForIID
 
@@ -61,7 +61,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------------------------------------|
 | Description    | GUID de l’application contenant la classe d’événements. |
-| Accès         | Lecture seule                                                 |
+| Access         | Lecture seule                                                 |
 | Type           | String                                                   |
 | Valeur par défaut        | N/A                                                      |
 | Système minimal | Windows XP                                               |
@@ -76,8 +76,8 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Représente le type de bits binaire de la classe d’événements. Sur les systèmes qui utilisent Windows 64 bits, cette propriété permet de faire la distinction entre les composants 64 bits et les composants 32 bits. |
-| Accès         | Lecture seule                                                                                                                                                                |
+| Description    | Représente le type de bits binaire de la classe d’événements. sur les systèmes qui utilisent la Windows 64 bits, cette propriété permet de faire la distinction entre les composants 64 bits et les composants 32 bits. |
+| Access         | Lecture seule                                                                                                                                                                |
 | Type           | Valeurs possibles longues : COMAdmin32BitComponent (0x1) COMAdmin64BitComponent (0X2)                                                                                           |
 | Default        | N/A                                                                                                                                                                     |
 | Système minimal | Windows XP                                                                                                                                                              |
@@ -93,7 +93,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | GUID de la classe d’événements. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                      |
+| Access         | Lecture seule                                                                                                                                                      |
 | Type           | String                                                                                                                                                        |
 | Valeur par défaut        | N/A                                                                                                                                                           |
 | Système minimal | Windows XP                                                                                                                                                    |
@@ -109,7 +109,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------|
 | Description    | Décrit la classe d’événements. |
-| Accès         | Lecture seule                   |
+| Access         | Lecture seule                   |
 | Type           | String                     |
 | Valeur par défaut        | ""                         |
 | Système minimal | Windows XP                 |
@@ -125,7 +125,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------|
 | Description    | Indique si le composant de la classe d’événements est privé. |
-| Accès         | Lecture seule                                                |
+| Access         | Lecture seule                                                |
 | Type           | Bool                                                    |
 | Default        | False                                                   |
 | Système minimal | Windows XP                                              |
@@ -141,7 +141,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom convivial utilisé pour identifier la classe d’événements. Cette propriété est retournée lorsque la méthode de propriété [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                                            |
+| Access         | Lecture seule                                                                                                                                                                            |
 | Type           | String                                                                                                                                                                              |
 | Valeur par défaut        | ""                                                                                                                                                                                  |
 | Système minimal | Windows XP                                                                                                                                                                          |

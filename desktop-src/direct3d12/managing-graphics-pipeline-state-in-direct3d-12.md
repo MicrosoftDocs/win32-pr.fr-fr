@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbff2af55d3148d229b70fd724f3f26a7e39ea73f11280a7529202bad06f4127
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c7564b5863d3efebdf8a335e2c46945aeebea93e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117912351"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518841"
 ---
 # <a name="managing-graphics-pipeline-state-in-direct3d-12"></a>Gestion de l’état des pipelines graphiques dans Direct3D 12
 
@@ -44,7 +44,7 @@ Le moyen le plus simple d’afficher tous les différents États de pipeline qui
 
 La plupart des États de pipeline Graphics sont définis à l’aide de objets PSO. Toutefois, il existe un ensemble de paramètres d’état de pipeline qui sont définis en appelant des méthodes de l’interface [**ID3D12GraphicsCommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) à partir d’une liste de commandes. Le tableau suivant présente les États définis de cette façon et les méthodes correspondantes.
 
-|État|Méthode|
+|State|Méthode|
 |-|-|
 |Liaisons de ressources|[**IASetIndexBuffer**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)<br/>[**IASetVertexBuffers**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)<br/>[**SOSetTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets)<br/>[**OMSetRenderTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)<br/>[**SetDescriptorHeaps**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps)<br/>Toutes les méthodes **SetGraphicsRoot...**<br/>Toutes les méthodes **SetComputeRoot...**<br/>
 |Fenêtres d’affichage|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">**RSSetViewports**</a>|

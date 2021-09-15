@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les handles utilisés p
 ms.assetid: 8a9788ed-eb25-42cb-b912-8dffa3df1850
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7477558887ac484ec0c3645d568bc3d91d29926af887ebadc51cf7e9523da787
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba70d2fadbd0d8393685fec2075ebf0dc4aa11c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051931"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518993"
 ---
 # <a name="hinternet-handles"></a>Handles HINTERNET
 

@@ -4,12 +4,12 @@ ms.assetid: 3d0bb750-0882-4b95-a595-38611f161ca9
 title: Utilisation des API de contrôle parental
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 463f21bbf04663e047f8122d131f900999f77e328ff1497989147427c61ec313
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4ed69815bc04e00a3cae07f16530f8ea837f24a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120112769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525537"
 ---
 # <a name="using-parental-controls-apis"></a>Utilisation des API de contrôle parental
 

@@ -10,17 +10,17 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: a16dd518333efa1dce878c1418547bc0527d1d64
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526381"
 ---
 # <a name="frc---ps"></a>FRC-PS
 
 Retourne la partie fractionnaire de chaque composant d’entrée.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 
@@ -36,7 +36,7 @@ where
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

@@ -4,12 +4,12 @@ description: Un élément de menu représente un élément particulier dans une 
 ms.assetid: 330782d6-4293-4e65-ab49-a616d133d273
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1b90162f386314ac495ed138ccf4d180d2f53b8b1e6126287c79a1d75d40be2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cb6621a14927cc4dc9af9f3384157e60ce6570d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119644499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518261"
 ---
 # <a name="menu-item-msaa-ui-element-reference"></a>Élément de menu (référence des éléments d’interface utilisateur MSAA)
 

@@ -4,12 +4,12 @@ ms.assetid: 98411c75-519f-4ace-999f-1ea22457ed4a
 title: Attribut MF_PD_ASF_INFO_HAS_VIDEO (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b5012a7fc20628cf8b50a4fc72242c02779623beb8126525a51501f51e412a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c1a11f672ec4063d14131946ef4e1a820cc3ee7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117876270"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525756"
 ---
 # <a name="mf_pd_asf_info_has_video-attribute"></a>MF \_ PD \_ les \_ informations ASF \_ ont un \_ attribut Video
 
@@ -21,13 +21,13 @@ Spécifie si un fichier ASF (Advanced Systems Format) contient au moins un flux 
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF. Si la valeur est **true**, le fichier a au moins un flux vidéo. Dans le cas contraire, le fichier ne contient pas de flux vidéo.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) génère cet attribut à partir des métadonnées ASF.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

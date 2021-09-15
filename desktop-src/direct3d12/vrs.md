@@ -4,12 +4,12 @@ description: L’ombrage à taux variable &mdash; ou l’ombrage de pixels gross
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/08/2019
-ms.openlocfilehash: b26d2d67a6e4a5f7b599a9fc65f324b301346fde3170262e80235a25f8cfb88b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f207cddee978915788291fc0ffe55160e6a93c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518816"
 ---
 # <a name="variable-rate-shading-vrs"></a>Ombrage à taux variable (VRS)
 
@@ -352,7 +352,7 @@ Pour les valeurs de cinq bits.
 |        00101 |0,3125    |5 / 16      |
 |        00110 |0,375     |6 / 16      |
 |        00111 |0,4375    |7 / 16      |
-|        01000 |0,5       |8 / 16      |
+|        01000 |0.5       |8 / 16      |
 |        01001 |0,5625    |9 / 16      |
 |        01010 |0,625     |10 / 16     |
 |        01011 |0,6875    |11 / 16     |
@@ -405,7 +405,7 @@ Pour les valeurs de six bits.
 |       000101 |0,3125    |5 / 16      |
 |       000110 |0,375     |6 / 16      |
 |       000111 |0,4375    |7 / 16      |
-|       001000 |0,5       |8 / 16      |
+|       001000 |0.5       |8 / 16      |
 |       001001 |0,5625    |9 / 16      |
 |       001010 |0,625     |10 / 16     |
 |       001011 |0,6875    |11 / 16     |

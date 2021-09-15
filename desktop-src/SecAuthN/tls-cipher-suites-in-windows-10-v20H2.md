@@ -1,16 +1,16 @@
 ---
-description: en savoir plus sur les suites de chiffrement TLS dans Windows Server 2022. Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge.
-title: Suites de chiffrement TLS dans Windows Server 2022.
+description: en savoir plus sur les suites de chiffrement TLS dans Windows 10 v20H2 et v21H1. Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge.
+title: Suites de chiffrement TLS dans Windows 10 v20H2 et v21H1
 ms.topic: article
-ms.date: 02/16/2021
-ms.openlocfilehash: d69cf4d97b356bf772b3a6d59a8bc4146f596ce8
+ms.date: 09/01/2021
+ms.openlocfilehash: 232c128b93d3060cdc5b8c87b8a1451ef2d1543a
 ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/13/2021
-ms.locfileid: "127519397"
+ms.locfileid: "127519401"
 ---
-# <a name="tls-cipher-suites-in-windows-server-2022"></a>Suites de chiffrement TLS dans Windows Server 2022
+# <a name="tls-cipher-suites-in-windows-10-v20h2-and-v21h1"></a>Suites de chiffrement TLS dans Windows 10 v20H2 et v21H1
 
 Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge. La version TLS la plus élevée prise en charge est toujours préférée dans la négociation TLS.
 
@@ -26,19 +26,17 @@ La disponibilité des suites de chiffrement doit être contrôlée de deux mani�
 
 La conformité FIPS est devenue plus complexe avec l’ajout de courbes elliptiques, ce qui rend la colonne activée en mode FIPS dans les versions précédentes de ce tableau trompeur. Par exemple, une suite de chiffrement telle que TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 est uniquement conforme aux normes FIPS lors de l’utilisation de courbes elliptiques NIST. Pour connaître les combinaisons de courbes elliptiques et de suites de chiffrement qui seront activées en mode FIPS, consultez la section 3.3.1 des [instructions relatives à la sélection, à la configuration et à l’utilisation des implémentations TLS]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf).
 
-pour Windows Server 2022, les suites de chiffrement suivantes sont activées et, par défaut, dans cet ordre de priorité, utilisez le fournisseur Microsoft Schannel :
+pour Windows 10, version v20H2 et v21H1, les suites de chiffrement suivantes sont activées et, par défaut, dans cet ordre de priorité, utilisez le fournisseur Microsoft Schannel :
 
 
 
-| Chaîne de la suite de chiffrement                                                                           | Autorisé par SCH \_ utiliser \_ un \_ chiffrement renforcé | Versions du protocole TLS/SSL                     |
-|-----------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                               | Oui<br/>                      | TLS 1.3<br/>                            |
-| TLS \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.3<br/>                            |
+| Chaîne de la suite de chiffrement                                                                                 | Autorisé par SCH \_ utiliser \_ un \_ chiffrement renforcé | Versions du protocole TLS/SSL                     |
+|-----------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                           | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                           | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                             | Oui<br/>                      | TLS 1.2<br/>                            |
 | \_ECDHE TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                             | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                               | Non<br/>                       | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                               | Non<br/>                      | TLS 1.2<br/>                            |
 | \_Dhe TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                               | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384<br/>                                           | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                           | Oui<br/>                      | TLS 1.2<br/>                            |
@@ -54,9 +52,9 @@ pour Windows Server 2022, les suites de chiffrement suivantes sont activées et,
 | TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                    | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                       | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                       | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ RSA \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                                      | Non<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ RSA \_ avec \_ null \_ SHA256 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>       | Non<br/>                       | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ \_ SHA null <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>          | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
+| TLS \_ RSA \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                                      | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
+| TLS \_ RSA \_ avec \_ null \_ SHA256 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/> | Non<br/>                       | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ \_ SHA null <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>    | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 
 
 
@@ -68,14 +66,13 @@ Les suites de chiffrement suivantes sont prises en charge par le fournisseur Mic
 
 | Chaîne de la suite de chiffrement                                                                               | Autorisé par SCH \_ utiliser \_ un \_ chiffrement renforcé | Versions du protocole TLS/SSL                     |
 |---------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ CHACHA20 \_ poly1305 \_ SHA256<br/>                                                        | Oui<br/>                      | TLS 1.3<br/>                            |
 | TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                             | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                             | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ dhe \_ DSS \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                               | Non<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
+| TLS \_ dhe \_ DSS \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                               | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ SHA<br/>                                                          | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ MD5<br/>                                                          | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ des \_ CBC \_ SHA<br/>                                                          | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |

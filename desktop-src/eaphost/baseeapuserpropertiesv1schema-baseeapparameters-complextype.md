@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 80ae1dc749d1c31ee11809b530fe1b04a59ce3e4e4dc76e84323b7dc078ec44a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 451c03123634dd98a1f4a49292db0a807009f6f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519700"
 ---
 # <a name="baseeapparameters-complex-type---user-properties"></a>Type complexe BaseEapParameters-propriétés de l’utilisateur
 
@@ -49,11 +49,11 @@ La méthode peut définir les éléments constitutifs à l’intérieur de **Bas
 
 | Élément                                                                      | Type    | Description                                                                                               |
 |------------------------------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------|
-| [**Type**](baseeapuserpropertiesv1schema-type-baseeapparameters-element.md) | entier | Définit l’élément d’espace réservé pour le type de méthode sélectionné et les informations d’identification spécifiques à la méthode. <br/> |
+| [**Entrer**](baseeapuserpropertiesv1schema-type-baseeapparameters-element.md) | entier | Définit l’élément d’espace réservé pour le type de méthode sélectionné et les informations d’identification spécifiques à la méthode. <br/> |
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

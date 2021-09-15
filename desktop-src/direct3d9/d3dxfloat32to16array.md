@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2d4b02a85a22d8490b36ad32511af0d85294045502d4e32ba82b757ac34e21ea
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc00df150c48e285d5478eb9b11df6c5203d6bcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120027729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518793"
 ---
 # <a name="d3dxfloat32to16array-function-d3dx9mathh"></a>D3DXFloat32To16Array, fonction (D3dx9math. h)
 
@@ -69,7 +69,7 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXFLOAT16**](d3dxfloat16.md)\***
 

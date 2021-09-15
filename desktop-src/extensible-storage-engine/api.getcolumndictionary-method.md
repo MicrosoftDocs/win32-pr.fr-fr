@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 901b905ccdaccb19bc8a6b5ca1bbf88b7831dc98d97a00f1b81f6ddb3c2b146a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ab359c5b8b163ce67f576f35250dd521eb14472
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117719659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526041"
 ---
 # <a name="apigetcolumndictionary-method"></a>API. GetColumnDictionary, méthode
 
@@ -76,7 +76,7 @@ public static IDictionary<string, JET_COLUMNID> GetColumnDictionary(
     
     Table pour laquelle récupérer les informations.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Collections. Generic. IDictionary](/dotnet/api/system.collections.generic.idictionary-2)\<[String](/dotnet/api/system.string), [JET_COLUMNID](./jet-columnid-structure.md)\>  
 Un dictionnaire qui mappe des noms de colonnes à des ID de colonne.  

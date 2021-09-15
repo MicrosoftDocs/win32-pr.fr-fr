@@ -4,12 +4,12 @@ ms.assetid: 5251234b-0280-4d5d-80f5-295d720a89d1
 title: Événement WPCEVENT_IM_JOIN (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 181bc849cf89e8a78a7a5aaad97463baf0c611d99ca0dc05caf9bfaf879eb804
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b020eb3d4204f946002f59f472e5c95b715f88f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525521"
 ---
 # <a name="wpcevent_im_join-event"></a>\_Événement de \_ jointure WPCEVENT im
 
@@ -96,7 +96,7 @@ Chaîne d’identité du compte de messagerie instantanée pour l’utilisateur 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

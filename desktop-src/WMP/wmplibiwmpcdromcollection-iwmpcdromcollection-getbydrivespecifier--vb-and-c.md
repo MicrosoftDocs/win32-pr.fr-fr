@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9937694234fe7e46fe9b98d83357da19abf18f8d14e83794587f6f2050b0019b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe771fc893d4bf43b82dc825a2d33724926e8151
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118116217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519845"
 ---
 # <a name="iwmpcdromcollectiongetbydrivespecifier-method"></a>IWMPCdromCollection :: getByDriveSpecifier, méthode
 
@@ -60,11 +60,11 @@ Implements IWMPCdromCollection.getByDriveSpecifier
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPCdrom** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les lettres de lecteur doivent être indiquées sous la forme *x*:, où *x* représente la lettre de lecteur.
 
@@ -109,7 +109,7 @@ drive.eject()
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

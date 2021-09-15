@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c81a9c9e3ad604e88df6c040bdc00611e4ba85b51931a1f4fded0d02e7615e4a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfcb6cdc5a07cd4c114d5f61aaf597711636526b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119834139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519120"
 ---
 # <a name="jet_commit_idgreaterthan-operator"></a>JET_COMMIT_ID. GreaterThan (opérateur)
 
@@ -76,7 +76,7 @@ public static bool operator >(
     
     Deuxième commitid à comparer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si LHS vient après RHS.  

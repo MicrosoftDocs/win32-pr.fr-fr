@@ -3,9 +3,9 @@ title: IWMPCdromBurn isAvailable, méthode
 description: La méthode isAvailable fournit des informations sur le lecteur de CD et le support.
 ms.assetid: 75e81f5f-5839-4012-b0b9-e77b3ca6f35c
 keywords:
-- méthode isAvailable lecteur Windows Media
-- méthode isAvailable lecteur Windows Media, interface IWMPCdromBurn
-- Interface IWMPCdromBurn lecteur Windows Media, isAvailable, méthode
+- isAvailable, méthode Lecteur Windows Media
+- isAvailable, méthode Lecteur Windows Media, IWMPCdromBurn, interface
+- IWMPCdromBurn interface Lecteur Windows Media, isAvailable, méthode
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f3d604cb9d9e170a3837fbd477db4c7ff309e1df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519864"
 ---
 # <a name="iwmpcdromburnisavailable-method"></a>IWMPCdromBurn :: isAvailable, méthode
 
@@ -73,11 +73,11 @@ Implements IWMPCdromBurn.isAvailable
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Boolean** qui indique le résultat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

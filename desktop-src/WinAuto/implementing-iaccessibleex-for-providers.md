@@ -4,12 +4,12 @@ description: Cette section explique comment ajouter des fonctionnalités de four
 ms.assetid: c03dc552-7919-4a35-8ff2-4cdd822bc0b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af83192ed445494a87ecccb1fd579aa49ac099468482ff9feefacf2357293660
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9460ccbd243aef390b7ade0deb41626173c927a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518289"
 ---
 # <a name="implementing-iaccessibleex-for-providers"></a>Implémentation de IAccessibleEx pour les fournisseurs
 

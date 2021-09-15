@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101768
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c9da4c27d8c8b7847a11d112c2635c8762fd9f633f1a4b0dbeca8ff4409e88e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d94fd3b21575ec802a3c4e660c434ce0eef6e6b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117710505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519165"
 ---
 # <a name="esentfixedinheritedddlexception-methods"></a>Méthodes EsentFixedInheritedDDLException
 

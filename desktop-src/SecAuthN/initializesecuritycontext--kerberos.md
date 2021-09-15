@@ -5,11 +5,11 @@ title: Fonction InitializeSecurityContext (Kerberos) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
 ms.openlocfilehash: 8c558174c168b17b67c9c08b1aee92e6dc10161f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470534"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518372"
 ---
 # <a name="initializesecuritycontext-kerberos-function"></a>Fonction InitializeSecurityContext (Kerberos)
 

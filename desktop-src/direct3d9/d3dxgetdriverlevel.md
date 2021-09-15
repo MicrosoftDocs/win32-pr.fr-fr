@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3eee242eb5a5c3b8d47468708bea994e7617934e354d732880239bbbc5b8bd94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83f756f6b6ab5864f14e797879be243f871fb9e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518745"
 ---
 # <a name="d3dxgetdriverlevel-function"></a>D3DXGetDriverLevel fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers une interface [**IDirect3DDevice9**](/windows/win32/api/d3d9helper
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 

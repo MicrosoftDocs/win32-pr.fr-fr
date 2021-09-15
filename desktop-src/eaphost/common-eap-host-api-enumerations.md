@@ -4,12 +4,12 @@ description: Découvrez les énumérations d’API EAPHost courantes, telles que
 ms.assetid: 2bf991f2-44b8-4815-b6c7-582f51087c83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5d42f8bd255fdc6b7c72e65b3f4334a047c0c70faa84511a7de569fad2f3669
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ecbce4df8b02ce3d241eb046768b57122aa40d6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119725554"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519664"
 ---
 # <a name="common-eaphost-api-enumerations"></a>Énumérations d’API EAPHost courantes
 

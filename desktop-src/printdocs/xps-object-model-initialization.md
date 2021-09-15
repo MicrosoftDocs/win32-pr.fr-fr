@@ -4,12 +4,12 @@ ms.assetid: 920d940f-5ae2-4376-8c7b-0cef04f21df7
 title: Initialiser un modèle d’objet XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16edb992efee7c9cba1d5bc454ca5bcb44bd3267a2e91d4ca714120182df0657
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cac44a69d171c1d38633512b0e275dcdeaea8738
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119946991"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519440"
 ---
 # <a name="initialize-an-xps-om"></a>Initialiser un modèle d’objet XPS
 
@@ -57,7 +57,7 @@ L’exemple suivant crée la fabrique d’objet qui sera utilisée pour créer d
 
 
 
-## <a name="best-practices"></a>Meilleures pratiques
+## <a name="best-practices"></a>Bonnes pratiques
 
 Vous pouvez rendre votre programme plus efficace en obtenant un pointeur vers une interface [**IXpsOMObjectFactory**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory) la première fois que vous devez appeler **IXpsOMObjectFactory** pour créer une interface, puis enregistrer le pointeur pour l’utiliser dans d’autres zones du programme. Lorsque le programme n’a plus besoin de la fabrique d’objet ou qu’il n’en a plus besoin pendant un certain temps, le pointeur peut être relâché.
 

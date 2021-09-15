@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dbb8d2d95b1c4d09d08567688ef90e61d93362658647b07240ecb3b3d344d5b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5e8ae944d8268df7524c3519523ff4f8cb35856
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519668"
 ---
 # <a name="type-baseeapparameters-element-for-user-properties"></a>Élément type (BaseEapParameters) pour les propriétés utilisateur
 
@@ -33,7 +33,7 @@ L’élément **type (BaseEapParameters)** définit l’élément d’espace ré
 
 L’élément **type** est défini par le type complexe [**BaseEapParameters**](baseeapuserpropertiesv1schema-baseeapparameters-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,20 +6,20 @@ keywords:
 - Inspecter l’outil
 - Accessibilité
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: f8c72fba29a409fdce60c026c832f68ff6d182bcd9c8a53e1918e7ac847f4332
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.date: 09/10/2021
+ms.openlocfilehash: 78ce05a0d7a771378d5fb818c015634a0d8f951b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118828706"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518277"
 ---
 # <a name="accessibility-tools---inspect"></a>Outils d’accessibilité-inspecter
 
 > [!Important]
 > **Inspect** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
-**Inspect** (Inspect.exe) est un outil basé sur Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément. Vous pouvez afficher les propriétés et les modèles de contrôles de Microsoft UI Automation, ainsi que les propriétés de Microsoft Active Accessibility. **Inspect** vous permet également de tester la structure de navigation des éléments Automation dans l’arborescence UI Automation et les objets accessibles dans la hiérarchie Microsoft Active Accessibility.
+**Inspect** (Inspect.exe) est un outil basé sur Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément. Vous pouvez afficher les propriétés et les modèles de contrôle de Microsoft UI Automation, ainsi que les propriétés de Microsoft Active Accessibility (MSAA). **Inspect** vous permet également de tester la structure de navigation des éléments Automation dans l’arborescence UI Automation et les objets accessibles dans la hiérarchie Microsoft Active Accessibility.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -54,11 +54,11 @@ Lorsque vous lancez l' **inspection**, l' **arborescence** affiche l’emplaceme
 
 Pour naviguer parmi les éléments d’interface utilisateur, vous pouvez utiliser l’une des options suivantes :
 
-- Souris
-- Le clavier
-- Contrôle Tree-View dans l' **arborescence**
-- Options de navigation dans le menu de **navigation**
-- Options de navigation dans la barre d’outils
+- Souris.
+- le clavier ;
+- Contrôle Tree-View dans l' **arborescence** .
+- Options de navigation dans le menu de **navigation** .
+- Options de navigation dans la barre d’outils.
 
 Les trois dernières options vous permettent de naviguer dans la hiérarchie d’arborescence de l’interface utilisateur. La structure de cette arborescence peut différer légèrement entre l’automatisation d’UI et les modes de Active Accessibility de Microsoft.
 

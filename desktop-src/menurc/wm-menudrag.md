@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22792c7606bb001b72b7c4751d14129bca02c5b4a5b337e0349a9a9a2120b62a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b67e83c41576a716d292187df4cb08fa803271c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118971798"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525564"
 ---
 # <a name="wm_menudrag-message"></a>\_Message WM MENUDRAG
 
@@ -50,7 +50,7 @@ Handle du menu contenant l’élément.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 L’application doit retourner l’une des valeurs suivantes.
 
@@ -65,13 +65,13 @@ L’application doit retourner l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application peut appeler la fonction [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop) en réponse à ce message.
 
 Pour créer un menu glisser-déplacer, appelez [**SetMenuInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuinfo) avec **MNS \_ DRAGDROP**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -93,7 +93,7 @@ Pour créer un menu glisser-déplacer, appelez [**SetMenuInfo**](/windows/deskto
 [**SetMenuInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuinfo)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Menus](menus.md)

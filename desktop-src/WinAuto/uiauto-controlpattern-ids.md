@@ -45,12 +45,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04f24b74659759a7504532856f97728ae688288a5a02fae46adc452c49c55b39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f17d668143beaed8000f99f761b84f5c193a51a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518148"
 ---
 # <a name="control-pattern-identifiers"></a>Identificateurs de modèle de contrôle
 

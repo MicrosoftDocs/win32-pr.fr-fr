@@ -24,12 +24,12 @@ api_type:
 api_location:
 - WmiProv.dll
 ms.custom: project-verbatim
-ms.openlocfilehash: 552e66a4e3a0c6f120bcc95123e3a2674fc579457de16c9ef8cd1e80161f175e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 485b42a86ca67d15ec00be13992c17b31ed51608
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517688"
 ---
 # <a name="wmimonitorid-class"></a>WmiMonitorID, classe
 
@@ -198,7 +198,7 @@ Année de fabrication.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la façon de traduire les tableaux qui stockent des ID de numéro de série, consultez l’article [informations sur le moniteur de rapports avec Configuration Manager](/archive/blogs/kmongwa/reporting-monitor-information-with-configuration-manager) .
 
@@ -237,7 +237,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

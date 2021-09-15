@@ -4,12 +4,12 @@ description: Cette section décrit les services de l’interface utilisateur de 
 ms.assetid: 5ceae703-486c-44c1-9673-7e6ec537a997
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 876898b1635d36bbde5aba53a07de14862912b6945c45fa3c3a1b55491c6ce10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57be6eb05c1919d00f1b257f9a51ff9657cbbc28
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119645419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518309"
 ---
 # <a name="active-accessibility-user-interface-services-reference"></a>Informations de référence sur les services d’interface utilisateur Active Accessibility
 
@@ -23,7 +23,7 @@ Cette section décrit les services de l’interface utilisateur de Microsoft Act
 -   [Structures et types de données](structures-and-data-types.md)
 -   [\_Message de fenêtre WM GETOBJECT](wm-getobject-window-message.md)
 -   [Constantes](constants-and-enumerated-types.md)
--   [Valeurs renvoyées](return-values.md)
+-   [Valeurs retournées](return-values.md)
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76965f63afb751e810daa6feffe76774f03daaaf7278996b4c6800f0efa42dfa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef441754fd5de09e3792d9269f05d96ecc08aa23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118113683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518092"
 ---
 # <a name="internetgetproxyinfo-function"></a>InternetGetProxyInfo, fonction
 
@@ -87,11 +87,11 @@ Pointeur vers une variable qui reçoit la taille, en octets, de la chaîne retou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. Pour recevoir les données d’erreur étendues, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour appeler **InternetGetProxyInfo**, vous devez le lier de manière dynamique à l’aide du type de pointeur fonction défini **pfnInternetGetProxyInfo**. L’extrait de code ci-dessous montre comment déclarer une instance de ce type de pointeur fonction, puis l’initialiser et l’appeler.
 

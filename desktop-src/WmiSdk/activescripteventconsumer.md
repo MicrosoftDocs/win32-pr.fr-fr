@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - Scrcons.exe
-ms.openlocfilehash: acf7ef4b4207f72cbaee61c0aaad8b2279419682bdddbeb4373c36c6868b8fce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11e2886fd5d0804946433e102e24617df768dcec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118557832"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519833"
 ---
 # <a name="activescripteventconsumer-class"></a>ActiveScriptEventConsumer, classe
 
@@ -183,7 +183,7 @@ Texte du script exprimé dans un langage connu du moteur de script. Cette propri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette classe est dérivée de la classe abstraite [**\_ \_ EventConsumer**](--eventconsumer.md) . Il se trouve dans l’espace de noms de l' \\ abonnement racine.
 
@@ -201,7 +201,7 @@ Lorsque WMI est exécuté en tant que service, les scripts exécutés par **Acti
 
 L’exemple de création d’un [événement WMI permanent pour surveiller les fichiers](https://Gallery.TechNet.Microsoft.Com/Create-Permenant-WMI-Event-f67ce5c2) PowerShell sur la Galerie TechNet utilise **ActiveScriptEventConsumer** dans le cadre d’un script complexe pour configurer une inscription d’événement WMI permanente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

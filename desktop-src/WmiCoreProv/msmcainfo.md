@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: cef9878ea8e9dd6c11c6b18a62d332e17f24810548360e0edb9c117e02a710c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31fc35b1d680d900af929ea8a828bcb23d222f66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518952"
 ---
 # <a name="msmcainfo-class"></a>MSMCAInfo, classe
 

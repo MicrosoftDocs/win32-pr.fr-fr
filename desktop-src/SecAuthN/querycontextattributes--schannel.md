@@ -4,12 +4,12 @@ ms.assetid: 0329e525-a743-4e6c-aac4-9f74274dadd2
 title: QueryContextAttributes (Schannel), fonction (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 9ec53dcca1e31742f13d934fa9957e3c73eb6db70b58860b87fae5591fad721a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4346af70e727bec240dbc88aa546ebf525b5f9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118920117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519069"
 ---
 # <a name="querycontextattributes-schannel-function"></a>QueryContextAttributes (SChannel) (fonction)
 
@@ -94,7 +94,7 @@ Pointeur vers une structure qui reçoit les attributs. Le type de structure poin
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la valeur de retour est **s \_ E \_ OK**.
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7806501a619d6172d9f1ce0715045c822b30326c2b59c268f432708ea13923ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe185d8993286e4be3935b43f6c1e9757623309d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519853"
 ---
 # <a name="iwmpcdromburnstartburn-method"></a>IWMPCdromBurn :: startBurn, méthode
 
@@ -49,17 +49,17 @@ Implements IWMPCdromBurn.startBurn
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de **burnstate** doit être WmpbsReady ou wmpbsStopped avant d’appeler cette méthode.
 
 Cette méthode ne fonctionne pas si le lecteur de CD n’est pas un graveur, ou si le disque du lecteur n’est pas accessible en écriture. Utilisez **isAvailable** pour déterminer si un CD peut être gravé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

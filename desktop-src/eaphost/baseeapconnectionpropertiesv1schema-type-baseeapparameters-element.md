@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1c362e3d63d584b7b961594203b0dd47b03c11a47a44ae1387f0f31b05a8fa2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 25a77083807c7ed5577b1ab92d71f312d0a38eee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519733"
 ---
 # <a name="type-baseeapparameters-element"></a>Élément type (BaseEapParameters)
 
@@ -33,7 +33,7 @@ L’élément **type (BaseEapParameters)** définit l’élément d’espace ré
 
 L’élément **type** est défini par le type complexe [**BaseEapParameters**](baseeapconnectionpropertiesv1schema-baseeapparameters-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

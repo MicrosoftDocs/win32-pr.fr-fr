@@ -4,12 +4,12 @@ ms.assetid: 65d4b98b-369f-4863-a28c-f9e3b4c2b55d
 title: OPM_GET_CURRENT_HDCP_SRM_VERSION (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee36516510d04fec067bbc692387e2e36b9da083db1a6daae0f51948a992cc83
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e05ad53ae58e2141c63179c84a90f90cea86fb4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525684"
 ---
 # <a name="opm_get_current_hdcp_srm_version"></a>Procurez-vous la \_ \_ \_ version actuelle HDCP \_ SRM \_
 
@@ -20,14 +20,14 @@ Retourne le numéro de version du message de renouvellement du système (SRM) ac
 | Condition requise | Valeur |
 |--------------|-----------------------------------------------------------------------------|
 | GUID de la demande | Procurez-vous la \_ \_ \_ version actuelle HDCP \_ SRM \_                                       |
-| Données d’entrée   | Aucun                                                                        |
+| Données d’entrée   | None                                                                        |
 | Retourner les données  | Structure [**d' \_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette requête est réussie, le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) contient le numéro de version de SRM, au format Little endian.
 
@@ -46,7 +46,7 @@ Cette requête peut provoquer la méthode [**IOPMVideoOutput :: GetInformation*
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

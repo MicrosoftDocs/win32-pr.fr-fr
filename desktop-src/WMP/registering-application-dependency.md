@@ -13,12 +13,12 @@ keywords:
 - paramètres du registre de dépendances d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa210debc4045326eb3bbae1e4fc137db5fb5a5dec6b89e493aedd54f110f82f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb4b1692c6a4e1a8274472bbe9d718721c1ab4f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518357"
 ---
 # <a name="registering-application-dependency-windows-media-player-sdk"></a>inscription de la dépendance d’Application (kit de développement logiciel Lecteur Windows Media)
 

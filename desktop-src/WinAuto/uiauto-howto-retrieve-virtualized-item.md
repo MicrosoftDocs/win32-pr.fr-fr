@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment reche
 ms.assetid: 1882b8a9-0d03-4388-a1d0-1bff0ab9fc66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d13a120d85ec106b05886128b4c5b44b81d377a933d4f8eb473500ba69aa9d17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae878ce25dd4d279211948ddaa6f9d0965ce9b40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518128"
 ---
 # <a name="how-to-retrieve-a-virtualized-item"></a>Comment récupérer un élément virtualisé
 
@@ -111,7 +111,7 @@ cleanup:
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Utilisation d’éléments virtualisés](uiauto-workingwithvirtualizeditems.md)

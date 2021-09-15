@@ -5,12 +5,12 @@ ms.assetid: 5802e00c-b943-45d8-8298-5c2b4b996b85
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: ab6f6582b23d6e65866ba1380b696fab6d8313578fab47ad5dda999b09a1caa7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2083648636bd58c64314ba22852839f89ed4461d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517777"
 ---
 # <a name="odj_win7blob-structure"></a>Structure ODJ_WIN7BLOB
 

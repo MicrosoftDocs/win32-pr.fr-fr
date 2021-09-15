@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: db048c7c1cad932afb7841d70f9113fa685c63fc4592bad636f9011064f50cdf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c2d535a41d15987df7816cfc23f1bb213b6adc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518776"
 ---
 # <a name="d3dxframenumnamedmatrices-function"></a>D3DXFrameNumNamedMatrices fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers le nœud racine de la sous-arborescence.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 

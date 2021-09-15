@@ -1,16 +1,16 @@
 ---
-description: en savoir plus sur les suites de chiffrement TLS dans Windows Server 2022. Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge.
-title: Suites de chiffrement TLS dans Windows Server 2022.
+description: en savoir plus sur les suites de chiffrement TLS dans Windows 11. Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge.
+title: Suites de chiffrement TLS dans Windows 11.
 ms.topic: article
-ms.date: 02/16/2021
-ms.openlocfilehash: d69cf4d97b356bf772b3a6d59a8bc4146f596ce8
+ms.date: 09/01/2021
+ms.openlocfilehash: f4c3c7acd330abe67c5732bca39d99faff08039f
 ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/13/2021
-ms.locfileid: "127519397"
+ms.locfileid: "127519400"
 ---
-# <a name="tls-cipher-suites-in-windows-server-2022"></a>Suites de chiffrement TLS dans Windows Server 2022
+# <a name="tls-cipher-suites-in-windows-11"></a>Suites de chiffrement TLS dans Windows 11
 
 Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge. La version TLS la plus élevée prise en charge est toujours préférée dans la négociation TLS.
 
@@ -26,7 +26,7 @@ La disponibilité des suites de chiffrement doit être contrôlée de deux mani�
 
 La conformité FIPS est devenue plus complexe avec l’ajout de courbes elliptiques, ce qui rend la colonne activée en mode FIPS dans les versions précédentes de ce tableau trompeur. Par exemple, une suite de chiffrement telle que TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256 est uniquement conforme aux normes FIPS lors de l’utilisation de courbes elliptiques NIST. Pour connaître les combinaisons de courbes elliptiques et de suites de chiffrement qui seront activées en mode FIPS, consultez la section 3.3.1 des [instructions relatives à la sélection, à la configuration et à l’utilisation des implémentations TLS]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf).
 
-pour Windows Server 2022, les suites de chiffrement suivantes sont activées et, par défaut, dans cet ordre de priorité, utilisez le fournisseur Microsoft Schannel :
+pour Windows 11, les suites de chiffrement suivantes sont activées et, par défaut, dans cet ordre de priorité, utilisez le fournisseur Microsoft Schannel :
 
 
 

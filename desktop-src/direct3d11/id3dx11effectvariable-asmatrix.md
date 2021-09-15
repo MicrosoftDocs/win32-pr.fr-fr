@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 294f3f6a01d88f92f606e5120edbfa8d5086f2e0173375fd78f5525c17c4f1f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c26acd38124a976b53ea950f54e929e717d56555
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118531500"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518881"
 ---
 # <a name="id3dx11effectvariableasmatrix-method"></a>ID3DX11EffectVariable :: AsMatrix, méthode
 
@@ -41,7 +41,7 @@ ID3DX11EffectMatrixVariable* AsMatrix();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectMatrixVariable**](id3dx11effectmatrixvariable.md)\***
 

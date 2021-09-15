@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 39672bff2e3a7194f7d674b2184d5de8c9c3c601e4a7777ef31ace80f5f9f327
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f328565c80350a05cbfb23f178ea3580586f326
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517632"
 ---
 # <a name="do_download_range-structure"></a>Structure DO_DOWNLOAD_RANGE
 
@@ -44,7 +44,7 @@ Décalage de base zéro au début de la plage d’octets à télécharger à par
 
 Longueur de la plage, en octets. Ne spécifiez pas de longueur de zéro octet. Pour indiquer que la plage s’étend jusqu’à la fin du fichier, spécifiez **DO_LENGTH_TO_EOF**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

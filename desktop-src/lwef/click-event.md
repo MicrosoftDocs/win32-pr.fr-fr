@@ -4,12 +4,12 @@ description: Événement clic
 ms.assetid: 772029d5-97b6-49d8-a989-04f0fc429aca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc10726c91612a6d43c4b7f8ceb0509fc347904f1328c9b99a3ec05d8e2eb0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3956d19e833a3e0a5f71192b2846ef9cb270ad10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118480185"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518428"
 ---
 # <a name="click-event"></a>Événement clic
 

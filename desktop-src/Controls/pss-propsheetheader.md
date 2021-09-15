@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: 719982c1e17ab74dc5c624352625d226f8f4bef90ae84dce4f2b85d5dc2713f2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 90a11ff727b491a1801f8071e28c39a3a6594408
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120085119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519428"
 ---
 # <a name="propsheetheader--structure"></a>PROPSHEETHEADER, structure
 
@@ -200,13 +200,13 @@ Type : [LPCSTR](../winprog/windows-data-types.md)
 
 [Version 5,80](common-control-versions.md) ou ultérieure. Ressource bitmap à utiliser comme en-tête. Ce membre peut spécifier soit l’identificateur de la ressource bitmap, soit l’adresse de la chaîne qui spécifie le nom de la ressource bitmap. Si le membre *dwFlags* comprend PSH_USEHBMHEADER, ce membre est ignoré.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’utilisateur choisit un paramètre tel que grandes polices, qui agrandit la boîte de dialogue, le filigrane qui est peint sur les pages de démarrage et de fin est également agrandi. La taille et la position de la bitmap d’origine restent inchangées. La zone supplémentaire est remplie avec la couleur du pixel dans le coin supérieur gauche de l’image bitmap.
 
 Les styles PSH_WIZARD, PSH_WIZARD97 et PSH_WIZARD_LITE sont mutuellement incompatibles. Un seul de ces indicateurs de style doit être défini. PSH_AEROWIZARD doit être combiné avec PSH_WIZARD.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|

@@ -4,12 +4,12 @@ ms.assetid: 4f25f0f4-246c-4cbd-bd11-d061dbc7de45
 title: Conclusion (écriture d’un codec WIC-Enabled)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5288438ea518e1776562b288184067df6d82c326eb6786b163f20e90c6febc05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de165f20ff81094c3b64d7e9667795f0bf80cef8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205820"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526476"
 ---
 # <a name="conclusion-how-to-write-a-wic-enabled-codec"></a>Conclusion (écriture d’un codec WIC-Enabled)
 
@@ -21,7 +21,7 @@ Le développement d’un codec avec WIC activé nécessite que vous implémentie
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Installation et inscription du CODEC](-wic-codecinstallandreg.md)

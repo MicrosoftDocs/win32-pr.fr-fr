@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 2b227ee1ca001e23530432eefe3c1ef779090e95ae181c1cbfb5c169810367da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93848afa0f36032bb972f8f4a7c6c3d5eb8c42ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118470141"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519449"
 ---
 # <a name="setform-function"></a>SetForm fonction)
 
@@ -72,13 +72,13 @@ Pointeur vers une structure [**d' \_ informations \_**](form-info-1.md) de formu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -89,7 +89,7 @@ Si la fonction échoue, la valeur de retour est égale à zéro.
 
 Si l’appelant est distant et que le *niveau* est 2, la valeur **StringType** des [**informations de formulaire \_ \_ 2**](form-info-2.md) ne peut pas être de type chaîne \_ MUIDLL.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

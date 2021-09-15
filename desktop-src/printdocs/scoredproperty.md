@@ -5,11 +5,11 @@ title: ScoredProperty
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 57ad42d49e65fffebad0aec7730ab8ce85f41876
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882222"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519460"
 ---
 # <a name="scoredproperty"></a>ScoredProperty
 

@@ -9,12 +9,12 @@ keywords:
 - référence pour les magasins en ligne de type 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fabe66bcb65e5bf6701ef03d91b3f0281fbe65eab3f70d3e279ddabf0552d87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c164ad74481030a52cd31605b29833d3bfbd3f1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118834003"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519064"
 ---
 # <a name="reference-for-type-2-online-stores"></a>Référence pour les magasins en ligne de type 2
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe6961f5fd8c05f291af3634c07de6befada0efa54586796ca881bffe893bf5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a921e17f8ddee4aaabfe50e75f42ce44812863d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117726439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519236"
 ---
 # <a name="def-pragma-directive"></a>DEF (directive pragma)
 
@@ -50,7 +50,7 @@ Directive pragma qui alloue manuellement un registre de nuanceur à virgule flot
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le pragma def permet à un développeur de préremplir un registre de nuanceur à virgule flottante avec la valeur spécifiée. Ce pragma est rarement utilisé.
 

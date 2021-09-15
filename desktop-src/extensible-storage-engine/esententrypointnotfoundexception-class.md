@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2d0015e13f75ec0f648101a031137c8f080f5092a6284749eb69e270419ed018
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a7bbc8d66af82c5f232ccc94f14b81f2987748e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120065559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525989"
 ---
 # <a name="esententrypointnotfoundexception-class"></a>EsentEntryPointNotFoundException, classe
 

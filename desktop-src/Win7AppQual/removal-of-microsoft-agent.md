@@ -4,12 +4,12 @@ ms.assetid: 863d30cc-24dd-4215-a4d5-25d51a725dcd
 title: Suppression de Microsoft Agent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 983c6fd0d4084cf6b766c6d69f22db83222581c48e37879fe9e2f022604a17a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 758b0508deb7ad54d84b3ee6290b7021fe93d47b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118329462"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519041"
 ---
 # <a name="removal-of-microsoft-agent"></a>Suppression de Microsoft Agent
 

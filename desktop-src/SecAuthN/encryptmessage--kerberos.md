@@ -5,11 +5,11 @@ title: EncryptMessage (Kerberos) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
 ms.openlocfilehash: 89c6504fe8518e1c43d155ebce638dec1acfeb80
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122476215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526248"
 ---
 # <a name="encryptmessage-kerberos-function"></a>EncryptMessage (Kerberos) (fonction)
 
@@ -91,7 +91,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | <dl> <dt>**s \_ E \_ jeton non valide \_**</dt> </dl>          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.                                                                                                                                                                                          |
 | <dl> <dt>**SEC \_ E \_ QoP \_ non \_ pris en charge**</dt> </dl>     | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md). |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **EncryptMessage (Kerberos)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -111,7 +111,7 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 **Windows XP :** Cette fonction était également connue sous le nom de **SealMessage**. Les applications doivent désormais utiliser **EncryptMessage (Kerberos)** uniquement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|

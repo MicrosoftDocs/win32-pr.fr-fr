@@ -8,19 +8,19 @@ keywords:
 - UI Automation, implémentation de fournisseurs côté client
 - UI Automation, implémenter des fournisseurs
 - UI Automation, proxies
-- proxies
+- des proxies
 - fournisseurs côté client
 - fournisseurs, implémenter
 - implémentation des fournisseurs côté client
 - implémenter des fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c8724f0761b5d7e5d361742734901990136a7a98c1b2f541b4fadb69c31a92d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1e2bdb4a94ba6e693792508de5c573317299b0d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518149"
 ---
 # <a name="implementing-a-client-side-proxy-ui-automation-provider"></a>Implémentation d’un fournisseur UI Automation Client-Side (proxy)
 
@@ -54,7 +54,7 @@ Par défaut, UI Automation effectue une recherche dans la table de fabrique de p
 
 
 
-| Commande | Proxy                        | Description                                                                      |
+| JSON | Proxy                        | Description                                                                      |
 |-------|------------------------------|----------------------------------------------------------------------------------|
 | 1     | Microsoft : proxy sans contrôle | Pour Windows avec le nom de classe exact ou le nom de la classe de base « ComboBoxEx32 ».         |
 | 2     | Microsoft : proxy sans contrôle | Pour Windows avec le nom de classe exact ou le nom de la classe de base « WorkerW ».              |

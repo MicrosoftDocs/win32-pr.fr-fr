@@ -15,12 +15,12 @@ keywords:
 - interfaces, IAnnotationProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cdc5c37c61878513b5d01812ab73c086f87d182d4b2c955efaf8706d52e4bcb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c1a0441816e548faaa9076b3a9717c0aa76f08a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119505253"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518101"
 ---
 # <a name="annotation-control-pattern"></a>Annotation (modèle de contrôle)
 
@@ -70,7 +70,7 @@ Les propriétés suivantes sont requises pour implémenter l’interface [**IAnn
 | [**AnnotationTypeId**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypeid)     | Propriété    | Aucun. |
 | [**AnnotationTypeName**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypename) | Propriété    | Aucun. |
 | [**Auteur**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_author)                         | Propriété    | Aucun. |
-| [**Date/heure**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_datetime)                     | Propriété    | Aucun. |
+| [**DateTime**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_datetime)                     | Propriété    | Aucun. |
 | [**Cible**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_target)                         | Propriété    | Aucun. |
 
 

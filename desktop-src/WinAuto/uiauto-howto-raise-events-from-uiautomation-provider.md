@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment un fo
 ms.assetid: 43826258-9321-4d44-bd31-6a3b42f00d39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75717dfcccaca5f62ac3431f9b3decb01842ce9bc696d07bfff54f35ffc13640
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 417c86771c24cc1a67fd907aaf0628037edce44d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133292"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518129"
 ---
 # <a name="how-to-raise-events-from-a-ui-automation-provider"></a>Comment déclencher des événements à partir d’un fournisseur UI Automation
 
@@ -45,7 +45,7 @@ void CustomButton::InvokeButton(HWND hwnd)
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des événements UI Automation](uiauto-eventsoverview.md)

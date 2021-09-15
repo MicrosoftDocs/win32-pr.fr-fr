@@ -5,11 +5,11 @@ ms.assetid: 8E104FFA-D086-49FD-9063-B950B6B1548B
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c48b39da642105cacc0936abe1874d81c88e79b4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518620"
 ---
 # <a name="imm_atomic_imin-sm5---asm"></a>IMM \_ Atomic \_ Imin (SM5-ASM)
 
@@ -87,7 +87,7 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge. |
 |-----------------------------------------------------------|-----------|
 | [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |

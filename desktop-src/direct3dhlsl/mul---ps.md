@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 74ff42065f7b41c1d775a0b1924d732110c31bd3121d2464b33eb8b20ae31e21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fefe89d4fdbe5f75965f2707a5ceb2c1673e1326
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519764"
 ---
 # <a name="mul---ps"></a>Mul-PS
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source.
 -   src1 est un registre source.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

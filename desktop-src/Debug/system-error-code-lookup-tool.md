@@ -3,12 +3,12 @@ description: Décrit comment utiliser l’outil de recherche d’erreurs Microso
 title: Outil de recherche d’erreurs Microsoft
 ms.topic: article
 ms.date: 12/4/2019
-ms.openlocfilehash: 534b2af92b8dc0e906bd033e8ce1f0fbd08ead0cda21406d1818a318356db613
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e39b5623458fc176f5ecc81eae71212ba279945c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118405889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519417"
 ---
 # <a name="the-microsoft-error-lookup-tool"></a>Outil de recherche d’erreurs Microsoft
 
@@ -33,7 +33,7 @@ L’outil est signé numériquement par Microsoft. Voici les informations SHA256
    > Si vous copiez ou déplacez le fichier vers un dossier qui est listé dans la variable **d’environnement PATH** de votre système d’exploitation, il fonctionnera à n’importe quelle invite de commandes.
 
 1. Ouvrez une fenêtre d’invite de commandes. Si nécessaire, remplacez le répertoire par l’emplacement de l’outil de recherche d’erreurs.
-1. Exécutez la commande suivante :
+1. Exécutez la commande suivante :
    ```cmd
    Err_6.4.5.exe <error code>
    ```
@@ -73,6 +73,6 @@ C:\Tools>Err_6.4.5.exe 7b
 # 4 matches found for "7b"
 ```
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>Informations complémentaires
 
 Gardez à l’esprit qu’il s’agit d’un outil « à un point dans le temps ». L’outil de recherche d’erreurs Microsoft décode la plupart des codes d’erreur Microsoft à la date de compilation de l’outil. à mesure que de nouvelles versions de Windows ajouter de nouveaux codes d’événement et d’erreur, vous devrez peut-être télécharger une nouvelle version de l’outil de recherche d’erreurs. Consultez le centre de téléchargement Microsoft pour obtenir une nouvelle version ou consultez [codes d’erreur](system-error-codes.md).

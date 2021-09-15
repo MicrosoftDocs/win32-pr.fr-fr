@@ -6,11 +6,11 @@ title: Détermination de l’état d’envoi ou d’extraction
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bee037b4c81e43080ee119540b05568eb00cdc70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526205"
 ---
 # <a name="determining-push-or-pull-status"></a>Détermination de l’état d’envoi ou d’extraction
 
@@ -18,7 +18,7 @@ Vous pouvez modéliser un fournisseur de classes comme un fournisseur push ou pu
 
 Un fournisseur d’extraction génère des définitions de classe de manière dynamique. En règle générale, les données gérées par un fournisseur d’extraction changent fréquemment, ce qui oblige le fournisseur à générer la classe dynamiquement ou à récupérer la classe à partir d’un cache local chaque fois qu’une application émet une requête. Un fournisseur d’extraction doit implémenter ses propres mécanismes de récupération de données, de cache et de notification d’événement. Étant donné que la plupart des fournisseurs sont des fournisseurs d’extraction, la documentation de ce fichier suppose que vous générez un fournisseur d’extraction, sauf indication contraire.
 
-En revanche, WMI utilise les données de l’espace de stockage WMI pour gérer toutes les demandes d’application pour les fournisseurs de notifications push. Les fournisseurs de notifications push utilisent également moins de méthodes d’interface et sont donc plus faciles à implémenter. Un fournisseur d’émission utilise le référentiel WMI comme zone de stockage pour les informations sur l’objet géré et met à jour ces informations uniquement pendant l’initialisation. Par exemple, le fournisseur de classes WDM inclus dans la section WMI du kit de développement logiciel (SDK) Microsoft Windows est modélisé comme un fournisseur de notifications push.
+En revanche, WMI utilise les données de l’espace de stockage WMI pour gérer toutes les demandes d’application pour les fournisseurs de notifications push. Les fournisseurs de notifications push utilisent également moins de méthodes d’interface et sont donc plus faciles à implémenter. Un fournisseur d’émission utilise le référentiel WMI comme zone de stockage pour les informations sur l’objet géré et met à jour ces informations uniquement pendant l’initialisation. par exemple, le fournisseur de classes WDM inclus dans la section WMI du kit de développement logiciel (SDK) de Microsoft Windows est modélisé comme un fournisseur de notifications push.
 
 En utilisant le référentiel WMI comme zone de stockage, un fournisseur de notifications push bénéficie des avantages suivants par rapport à un fournisseur d’extraction :
 

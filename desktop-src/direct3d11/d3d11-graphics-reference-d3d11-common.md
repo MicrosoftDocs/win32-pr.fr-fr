@@ -4,12 +4,12 @@ description: L’API Direct3D définit plusieurs éléments d’API communs aux 
 ms.assetid: 2c9c354d-402f-4e79-9e54-ddf7e9b0c6db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0d946c3e7e8c846b6cf33a805501a8c30bf0551d37155bd424ff97eecac65d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1aa2d7bc9275191f582944d957941acb6808b186
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118537880"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526153"
 ---
 # <a name="common-version-reference"></a>Référence de version commune
 

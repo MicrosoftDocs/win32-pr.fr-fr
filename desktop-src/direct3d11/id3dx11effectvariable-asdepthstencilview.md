@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb1dc0ce53478da8d7057c142c87daea5fb83503b4ac7cd1a0dee5edda89246
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 432ba5018f1e233e7fb1b4ad4efae1d4f27cb141
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118531507"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518885"
 ---
 # <a name="id3dx11effectvariableasdepthstencilview-method"></a>ID3DX11EffectVariable :: AsDepthStencilView, méthode
 
@@ -41,7 +41,7 @@ ID3DX11EffectDepthStencilViewVariable* AsDepthStencilView();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectDepthStencilViewVariable**](id3dx11effectdepthstencilviewvariable.md)\***
 

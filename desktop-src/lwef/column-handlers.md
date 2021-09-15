@@ -9,12 +9,12 @@ keywords:
 - GetItemData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90876aecdb2626326513723f0cd2c5a6e8f66bfd938b3f56cf10bd3624dd8687
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 940796e75f29ba0fcfa025d9a56267e14bdff38f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119349457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518429"
 ---
 # <a name="creating-column-handlers"></a>Création de gestionnaires de colonnes
 

@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 901b64099547060305bab6db43cbe75b3fdb8d9c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886265"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519212"
 ---
 # <a name="asfloat"></a>asfloat
 
@@ -56,7 +56,7 @@ Entrée interprétée comme un nombre à virgule flottante.
 | Nom  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Taille                           |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | *x*   | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**uint**](/windows/desktop/WinProg/windows-data-types) | n'importe laquelle                            |
-| *Av* | identique à l’entrée *x*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                                                                                | la ou les mêmes dimensions comme entrée *x* |
+| *Av* | identique à l’entrée *x*                                                                                              | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                                                                                | la ou les mêmes dimensions comme entrée *x* |
 
 
 
@@ -86,7 +86,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les compilateurs plus anciens ne `asfloat(bool)` sont pas correctement autorisés, mais notez que les entrées bool ne sont pas prises en charge.
 

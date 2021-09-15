@@ -12,12 +12,12 @@ keywords:
 - Fichiers de région dans les apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ce26db27ef6ad3373916337c6378886a2846f71f1d8aa0e8d5266aae23eff4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 48d258afeab029df7218d3616b8aecdb62c72806
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117934084"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518360"
 ---
 # <a name="region-files"></a>Fichiers de région
 

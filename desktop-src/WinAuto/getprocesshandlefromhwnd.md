@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4096f77b4295e9567f17f747a5aee1edae1b592cb49c89547102cb6d017b7814
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bee00f36f236396816e7bb54cadbe6914f3437e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119860349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519389"
 ---
 # <a name="getprocesshandlefromhwnd-function"></a>GetProcessHandleFromHwnd fonction)
 
@@ -49,7 +49,7 @@ Handle de fenêtre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **handle**](/windows/desktop/WinProg/windows-data-types)**
 
@@ -57,7 +57,7 @@ En cas de réussite, retourne le handle du processus qui possède la fenêtre.
 
 En cas d’échec, retourne **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans les versions précédentes du système d’exploitation, un processus pouvait ouvrir un autre processus (pour accéder à sa mémoire, par exemple) à l’aide de [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess). Cette fonction s’exécute correctement si l’appelant dispose des privilèges appropriés. en général, l’appelant et le processus cible doivent être le même utilisateur.
 
@@ -65,7 +65,7 @@ dans Windows Vista, toutefois, [**OpenProcess**](/windows/desktop/api/processthr
 
 **GetProcessHandleFromHwnd** est une fonction pratique qui utilise cette technique pour obtenir le descripteur du processus qui possède le HWND spécifié. Notez qu’elle ne fonctionne que dans les cas où l’appelant et le processus cible s’exécutent en tant que même utilisateur. Le descripteur retourné possède les privilèges suivants : traiter le handle DUP traiter l’opération de la machine virtuelle traiter le processus lire la machine virtuelle \_ \_ \| \_ \_ \| \_ \_ \| \_ \_ écrire \| synchroniser. Si d’autres privilèges sont requis, il peut être nécessaire d’implémenter la technique de raccordement explicitement au lieu d’utiliser cette fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

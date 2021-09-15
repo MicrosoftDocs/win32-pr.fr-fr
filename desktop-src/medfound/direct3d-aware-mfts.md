@@ -4,12 +4,12 @@ ms.assetid: 8ec7e678-8477-41fa-9726-54df5ed187cd
 title: Direct3D-Aware MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ae3bc071ee707505fd7412cba6f0a5aa397fd4c3f623225da28cc5490bf3323
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad50438250c0ee1627cc20aebb49262ec8eec9ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119958735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525784"
 ---
 # <a name="direct3d-aware-mfts"></a>Direct3D-Aware MFTs
 

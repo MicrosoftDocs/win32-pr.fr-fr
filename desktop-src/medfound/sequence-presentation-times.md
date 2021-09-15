@@ -4,12 +4,12 @@ ms.assetid: 0d095e25-5ccf-4319-8767-07b417ed7ee8
 title: Durée des présentations de séquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b45ea9c8b315171365810f33bb9a66ca4d223fb2119d7aea19288c3ebdd93ac5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d17f5b0ff4bd6f0cfee2b1b461d6fbd11bdbf0fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118238365"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525652"
 ---
 # <a name="sequence-presentation-times"></a>Durée des présentations de séquence
 

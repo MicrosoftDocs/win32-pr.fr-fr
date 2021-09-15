@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b113c806342d786d258713128bc2cadcbb000235c2639f49e5b57ce3fa3bd2e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 261ff572cbaf519cc0099f3ab68d1a0becca706f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519776"
 ---
 # <a name="if-bool---vs"></a>Si bool-vs
 
@@ -33,7 +33,7 @@ Démarre une si... [sinon](else---vs.md)... [endif-bloc vs](endif---vs.md) .
 
 où bool est un numéro de Registre bool. Consultez [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

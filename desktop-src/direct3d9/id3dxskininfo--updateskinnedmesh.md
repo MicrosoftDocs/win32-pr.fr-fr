@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 22b36e1836570a10647f5b737a68afa1e65a4dce80fe9d49061a3eee8a799651
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 645e6ae1e1cb84991b352c250b137cd3ae2491f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117729451"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519257"
 ---
 # <a name="id3dxskininfoupdateskinnedmesh-method"></a>ID3DXSkinInfo :: UpdateSkinnedMesh, méthode
 
@@ -79,17 +79,17 @@ Pointeur vers la mémoire tampon qui contient les sommets de destination.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’elle est utilisée pour l’apparence des vertex avec deux éléments de position, cette méthode enveloppe le deuxième élément de position avec l’inverse du segment au lieu du segment lui-même.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
