@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 64c704fd22fc3d2b87a792dd5cf12a82f14713fe17dbf7c7086ef0e5b01ac502
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a69dacb25d04b56a14e27a43487911e56a038ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516685"
 ---
 # <a name="id3dxprtcompbuffernormalizedata-method"></a>ID3DXPRTCompBuffer :: NormalizeData, méthode
 
@@ -38,13 +38,13 @@ HRESULT NormalizeData();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

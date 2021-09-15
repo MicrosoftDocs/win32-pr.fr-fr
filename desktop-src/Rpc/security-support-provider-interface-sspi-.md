@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, décrit, interface du fournisseur de support de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8a0f500b5bca057af3c905f74895e5a426b6ebb964aef199bfefe9c1a9f140d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1841ba77e5b8c3d410b6345341666821c1be8268
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925676"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413550"
 ---
 # <a name="security-support-provider-interface-sspi"></a>interface du fournisseur de la prise en charge de la sécurité (Security Support Provider Interface ou SSPI)
 

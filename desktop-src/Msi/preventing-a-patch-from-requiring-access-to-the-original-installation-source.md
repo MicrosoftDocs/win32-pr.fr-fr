@@ -4,12 +4,12 @@ ms.assetid: f7028c55-e4a5-4596-af7a-728c9f4f367e
 title: Empêcher un correctif d’avoir accès à la source d’installation d’origine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b5dcadae12b733d76dee8c3acd5ec6af6169c47cfd8c7eeb22ad9693a75859a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: baee8b261ff0a3f6bb94fb141ee765726ffa2ced
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118376788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413958"
 ---
 # <a name="preventing-a-patch-from-requiring-access-to-the-original-installation-source"></a>Empêcher un correctif d’avoir accès à la source d’installation d’origine
 

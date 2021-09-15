@@ -4,12 +4,12 @@ ms.assetid: 76d60b95-a34a-4747-b0fa-9230aa60bd63
 title: Nouveautés du Wi-Fi natif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4a9430fa2c1645d574f8b4ab851a8cf5ce1407139cfe63a6aabeb3ebfd57abd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2126627f4cf6431fbac2bf4d1f6ec58561bfd8bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413737"
 ---
 # <a name="whats-new-in-native-wifi"></a>Nouveautés du Wi-Fi natif
 
@@ -17,7 +17,7 @@ ms.locfileid: "119064859"
 
 Consultez [approvisionner un profil de Wi-Fi via un site Web](prov-wifi-profile-via-website.md).
 
-## <a name="windows-10"></a>Windows 10
+## <a name="windows-10"></a>Windows 10
 
 La prise en charge de hotspot 2,0 a été ajoutée au [ \_ schéma de profil WLAN](wlan-profileschema-schema.md). La zone réactive 2,0 permet la connexion automatique aux services de Wi-Fi publics à l’aide des informations d’identification existantes et de l’appartenance aux réseaux de fournisseurs de services. Les fournisseurs de services spécifient la façon dont les connexions sont établies à l’aide des nouveaux éléments de schéma pour décrire les réseaux à utiliser et comment s’y authentifier. Pour plus d’informations, consultez la documentation de l’élément [**Hotspot2**](wlan-profileschema-hotspot2-element.md) .
 

@@ -4,12 +4,12 @@ ms.assetid: 4289bd0c-bdf3-4747-9287-94f737ce4f5c
 title: Planification d’un correctif logiciel de petite mise à jour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aed6c947ee278e7c4856281790a9c392af38734c475e3d40561d72d805f6011
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f15f3667c6a18ab7a71e86997091bd76d4b15577
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119519539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413972"
 ---
 # <a name="planning-a-small-update-patch"></a>Planification d’un correctif logiciel de petite mise à jour
 

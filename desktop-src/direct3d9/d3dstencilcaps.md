@@ -5,11 +5,11 @@ title: D3DSTENCILCAPS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8999d73044a061cb8eea8f5829351c1d04079462
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343054"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516969"
 ---
 # <a name="d3dstencilcaps"></a>D3DSTENCILCAPS
 

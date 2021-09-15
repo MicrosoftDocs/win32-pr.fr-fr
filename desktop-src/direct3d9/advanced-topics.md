@@ -4,12 +4,12 @@ ms.assetid: 567dea5e-92f4-4c5b-8027-32de93fb2c55
 title: Rubriques avancées (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 063ff463ee29d3c50fb906f402a55f533e9a91c472f74d20cf1926820faafcc6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dcf2e1b33e53ec9c6aeff47e15a4d3db33c2e5a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517008"
 ---
 # <a name="advanced-topics-direct3d-9"></a>Rubriques avancées (Direct3D 9)
 

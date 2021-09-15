@@ -1,5 +1,5 @@
 ---
-description: L’implémentation de cette interface est fournie en tant qu’exemple de code avec le kit de développement logiciel (SDK) DirectShow.
+description: l’implémentation de cette interface est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow.
 ms.assetid: a18fc6b6-f37e-4c87-9150-0504333d33c2
 title: Interface IMpeg2PsiParser
 ms.topic: reference
@@ -13,17 +13,17 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 51f0f3373c67da75c50ecc2f6bc234e0351f5dc3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413981"
 ---
 # <a name="impeg2psiparser-interface"></a>Interface IMpeg2PsiParser
 
-L’implémentation de cette interface est fournie en tant qu’exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+l’implémentation de cette interface est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.
 
-L' `IMpeg2PsiParser` interface récupère les informations spécifiques au programme (psi) à partir du filtre de l’analyseur psi, fourni dans le kit de développement logiciel (SDK) DirectShow sous la forme d’un exemple de filtre. Une application peut utiliser ce filtre pour mapper les ID de programme (PID) sur le filtre de démultiplexage MPEG-2.
+l' `IMpeg2PsiParser` interface récupère les informations spécifiques au programme (psi) à partir du filtre de l’analyseur psi, fourni dans le kit de développement logiciel (SDK) DirectShow sous la forme d’un exemple de filtre. Une application peut utiliser ce filtre pour mapper les ID de programme (PID) sur le filtre de démultiplexage MPEG-2.
 
 ## <a name="members"></a>Membres
 

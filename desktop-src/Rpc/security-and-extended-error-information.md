@@ -4,12 +4,12 @@ description: Les informations d’erreur étendues offrent des données très ut
 ms.assetid: ca6ef213-e59d-4b4e-ae7e-f5b20d11fd01
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f246e86dee31ea5e755c45211e3bd949657cdf95c37bf6ab4de3706be09fdec3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b2029b40937dcef0622f6163e5e8f95b7006ade
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925686"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413556"
 ---
 # <a name="security-and-extended-error-information"></a>Sécurité et informations d’erreur étendues
 

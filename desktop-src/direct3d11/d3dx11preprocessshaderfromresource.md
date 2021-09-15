@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34aef8bad8220e9f579560c8e47477a96313bbddd9ed6970710ffffc263da35e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 645d872e983cabbcd81aab05a59ee8f1f83cc403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124654"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517097"
 ---
 # <a name="d3dx11preprocessshaderfromresource-function"></a>D3DX11PreprocessShaderFromResource fonction)
 
@@ -82,7 +82,7 @@ Nom de la ressource côté hModule contenant le nuanceur. Si les paramètres du 
 
 Type : **[ **LPCTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
-Facultatif. Nom du fichier d’effet, qui est utilisé pour les messages d’erreur uniquement. Peut avoir la **valeur null**.
+Optionnel. Nom du fichier d’effet, qui est utilisé pour les messages d’erreur uniquement. Peut avoir la **valeur null**.
 
 </dd> <dt>
 
@@ -140,13 +140,13 @@ Pointeur vers la valeur de retour. Peut avoir la **valeur null**. Si *pPump* n�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

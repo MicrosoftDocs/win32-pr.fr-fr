@@ -4,12 +4,12 @@ description: La routine Manager d’une fonction asynchrone reçoit toujours le 
 ms.assetid: ddf9c319-6c4d-4de1-ab29-0ef9b76531ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b879cad9b3bde57798a3ebd3c04f7c9a76cb0d1ed055d219195db51cbed4a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2b0f11372090f1fd181c0d7272aa1446e5e3d22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413528"
 ---
 # <a name="server-side-asynchronous-pipe-handling"></a>Gestion de canal asynchrone côté serveur
 

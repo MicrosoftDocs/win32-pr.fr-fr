@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c869123aadd5310a346dcf8e7a2184ec84f7e40500744cbaf610cbfc54db42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3abf1fe07557ac786a9f0cb8e8e06a30408f6d41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118368869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413836"
 ---
 # <a name="freefixupinfo-function"></a>FreeFixupInfo fonction)
 
@@ -52,7 +52,7 @@ Pointeur vers la structure de données [**FixupInfo**](/windows/win32/api/naptyp
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les interfaces COM prises en charge par le système NAP utilisent des règles de gestion de mémoire COM standard et les allocateurs de mémoire COM (**CoTaskMemAlloc** et **CoTaskMemFree**) :
 
@@ -62,7 +62,7 @@ Toutes les interfaces COM prises en charge par le système NAP utilisent des rè
 
 Toutes les fonctions NAP pour libérer de la mémoire libèrent également tous les pointeurs incorporés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

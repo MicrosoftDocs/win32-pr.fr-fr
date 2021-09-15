@@ -4,12 +4,12 @@ ms.assetid: 60d97b9e-d77c-4e53-94ea-ebd59c2601df
 title: Paramètres de procamp (Dxva2api. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4593d0ac44da91f08c7bd3fe5bbe722c743d249161ab38bbf5bfb841620c0cc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0181d7491d948a4ec4219ada4241397b8a721b0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118238740"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414040"
 ---
 # <a name="procamp-settings"></a>Paramètres de procamp
 
@@ -19,7 +19,7 @@ Ces indicateurs définissent les paramètres de processeur vidéo (ProcAmp).
 
 | Constante/valeur                                                                                                                                                                                                                                                                                         | Description           |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|
-| <span id="DXVA2_ProcAmp_None"></span><span id="dxva2_procamp_none"></span><span id="DXVA2_PROCAMP_NONE"></span><dl> <dt>**DXVA2 \_ ProcAmp \_ aucun**</dt> <dt>0x0000</dt> </dl>                         | Aucune<br/>       |
+| <span id="DXVA2_ProcAmp_None"></span><span id="dxva2_procamp_none"></span><span id="DXVA2_PROCAMP_NONE"></span><dl> <dt>**DXVA2 \_ ProcAmp \_ aucun**</dt> <dt>0x0000</dt> </dl>                         | None<br/>       |
 | <span id="DXVA2_ProcAmp_Brightness"></span><span id="dxva2_procamp_brightness"></span><span id="DXVA2_PROCAMP_BRIGHTNESS"></span><dl> <dt>**DXVA2 \_ \_Luminosité ProcAmp**</dt> <dt>0x0001</dt> </dl> | Luminosité<br/> |
 | <span id="DXVA2_ProcAmp_Contrast"></span><span id="dxva2_procamp_contrast"></span><span id="DXVA2_PROCAMP_CONTRAST"></span><dl> <dt>**DXVA2 \_ \_Contraste ProcAmp**</dt> <dt>0x0002</dt> </dl>         | Comparez<br/>   |
 | <span id="DXVA2_ProcAmp_Hue"></span><span id="dxva2_procamp_hue"></span><span id="DXVA2_PROCAMP_HUE"></span><dl> <dt>**DXVA2 \_ ProcAmp \_ teinte**</dt> <dt>0x0004</dt> </dl>                             | Teinte<br/>        |
@@ -27,7 +27,7 @@ Ces indicateurs définissent les paramètres de processeur vidéo (ProcAmp).
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

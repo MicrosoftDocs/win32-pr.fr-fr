@@ -5,11 +5,11 @@ title: Utilisation du lecteur source pour traiter les données multimédias
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ad5c8a21a2e547d005e4695a14fe9a6bd09d5d9a
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812145"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414039"
 ---
 # <a name="using-the-source-reader-to-process-media-data"></a>Utilisation du lecteur source pour traiter les données multimédias
 

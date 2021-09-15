@@ -4,12 +4,12 @@ ms.assetid: 9776b73e-191e-4a8e-9abe-e485ffed954c
 title: Test de positionnement avec une région
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff0673466bc368c9288765b1c7e6f460716d8d40674802a0977690a7ef79b58b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24913d8d890e3e1ded87eb48e2d52f1726663a03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517220"
 ---
 # <a name="hit-testing-with-a-region"></a>Test de positionnement avec une région
 

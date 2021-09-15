@@ -4,12 +4,12 @@ ms.assetid: 2112db8d-6a11-451d-a9d2-ac1b3cb2da95
 title: Paramètre global
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4dc0a1337505cec30960ca12fa91ed692b9de9434e702c3fb03829e89ab46d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 647ef789e37cd7c8d6cd2fe554f1f8becbfd5e92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118094770"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516813"
 ---
 # <a name="global-parameter"></a>Paramètre global
 

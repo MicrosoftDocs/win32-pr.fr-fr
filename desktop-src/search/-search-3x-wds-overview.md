@@ -4,12 +4,12 @@ ms.assetid: 6da601c6-3742-40ad-99f2-8817f7f642b3
 title: Vue d’ensemble de Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a38b757936e9f960d71ac5d1a9759208b4b580af2526e23d4e5d88cde41a206
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cee4cde62ce663c47ab4cafac0c74ca220fe6faf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119033127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313258"
 ---
 # <a name="windows-search-overview"></a>Vue d’ensemble de Windows Search
 

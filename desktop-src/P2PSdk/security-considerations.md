@@ -4,12 +4,12 @@ ms.assetid: 088a2111-f4ee-4bec-98a9-ac138950958b
 title: Considérations relatives à la sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d66b15d07251e1510f582807b4970dde7794905989b8e10973cf965d0c115911
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ffd3078834b3a69f988d17e5cbfd5fa1bd1591e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034190"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413658"
 ---
 # <a name="security-considerations"></a>Considérations relatives à la sécurité
 
@@ -25,7 +25,7 @@ Les services de réseau pair à pair stockent des données dans l’arborescence
 
 un compte invité et les membres du groupe Sécurité Windows **invités** n’ont pas accès à la plupart des services homologues. Les applications doivent disposer d’un accès utilisateur local ou supérieur.
 
-## <a name="information-disclosure"></a>Divulgation d’informations
+## <a name="information-disclosure"></a>Information Disclosure (divulgation d’informations)
 
 La divulgation d’informations implique l’adresse, la base de données et les informations d’identification du groupe et de l’identité. Les sections suivantes identifient et définissent la divulgation d’informations.
 

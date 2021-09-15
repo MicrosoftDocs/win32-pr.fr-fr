@@ -4,12 +4,12 @@ ms.assetid: A649EBBA-1076-4426-9C4D-85AB8C415C66
 title: À propos de la fonctionnalité Wi-Fi directe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2816938b3e2d9156f2a97b67990386af2d5d780aa0226316cccc5edd0f2a4b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e503cb2bf86f81904b1c85c2bdf96b66c0762e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118620207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413749"
 ---
 # <a name="about-the-wi-fi-direct-feature"></a>À propos de la fonctionnalité Wi-Fi directe
 

@@ -9,12 +9,12 @@ keywords:
 - Routage et accès à distance service RRAS, gestionnaire de groupe de multidiffusion, décrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9f83dc2b212f7d70d04b4a3ec08bf07e664fa2d67d9c638233a4e8e914369c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 034d37b99aaa9ca0139b5425cd5b85e7b3f280e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413629"
 ---
 # <a name="about-multicast-group-manager"></a>À propos du gestionnaire de groupe de multidiffusion
 

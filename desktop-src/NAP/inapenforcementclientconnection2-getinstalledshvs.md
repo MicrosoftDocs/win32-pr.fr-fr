@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40cb18f749adc9a1b7003a777cc821fb5e003b83322a7d54c2efda4b8e5739f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa54d09a0c3d3c524262231982f662c497920a0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118939640"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413793"
 ---
 # <a name="inapenforcementclientconnection2getinstalledshvs-method"></a>INapEnforcementClientConnection2 :: GetInstalledShvs, méthode
 
@@ -62,7 +62,7 @@ Pointeur vers un tableau de valeurs [SystemHealthEntityId](nap-datatypes.md) qui
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -77,7 +77,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

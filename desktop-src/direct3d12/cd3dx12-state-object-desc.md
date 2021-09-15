@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/03/2021
 ms.openlocfilehash: cc3d65a9779c379debd94e7872717e4449a71ac8
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121813079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517021"
 ---
 # <a name="cd3dx12_state_object_desc-class"></a>Classe CD3DX12_STATE_OBJECT_DESC
 
@@ -67,7 +67,7 @@ Modèle de fonction qui crée une application d’assistance sububject dont la d
 
 Le paramètre de modèle *T* spécifie le type d’assistance subjobject, par exemple, [CD3DX12_HIT_GROUP_SUBOBJECT](cd3dx12-hit-group-subobject.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser les applications d’assistance pour la création d’objets d’État D3DX12, commencez par instancier un objet **CD3DX12_STATE_OBJECT_DESC** et appelez sa fonction **CreateSubobject** pour créer des sous-objets. Les applications auxiliaires de sous-objet possèdent chacune des méthodes spécifiques à ce sous-objet pour la configuration de son contenu.
 
@@ -92,7 +92,7 @@ LibA.SetDXILLibrary(&pMyAppDxilLibs[4]);
 ...
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

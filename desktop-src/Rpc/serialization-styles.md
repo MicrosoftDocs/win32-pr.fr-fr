@@ -4,16 +4,16 @@ description: Il existe trois styles que vous pouvez utiliser pour manipuler les 
 ms.assetid: 40b609b2-abad-4967-a5d1-948ac26fd65c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bfaa7cd3198245441a27990d331bcd9f0bd0396b5075d9985b13da58012147d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc825c24b591cdfea96a603835f0836eda68b3ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413536"
 ---
 # <a name="serialization-styles"></a>Styles de sérialisation
 
-Il existe trois styles que vous pouvez utiliser pour manipuler les descripteurs de sérialisation. Celles-ci sont les suivantes :
+Il existe trois styles que vous pouvez utiliser pour manipuler les descripteurs de sérialisation. Ces règles sont les suivantes :
 
 -   [Sérialisation de mémoire tampon fixe](fixed-buffer-serialization.md)
 -   [Sérialisation de mémoire tampon dynamique](dynamic-buffer-serialization.md)

@@ -4,12 +4,12 @@ ms.assetid: c5058631-6ae2-4a59-afb0-6135b6b45829
 title: Référence de l’API de regroupement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77002dd360488821de086042562ce6e9aa7ed92ed15f565266987cb65960e3f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa3ddfb4cb56621e0191c70b7625e19a9113b231
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413652"
 ---
 # <a name="grouping-api-reference"></a>Référence de l’API de regroupement
 

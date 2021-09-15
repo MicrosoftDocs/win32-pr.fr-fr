@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ca513a31eded5202639da13b8e9f2e817c9df336b227ba93d903e44068b98898
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 321b27239114fc86861c0360d507db6c8c520a9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119440189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414016"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih"></a>Modifier la méthode de la classe Win32_Service (Mbnapi. h)
 
@@ -205,7 +205,7 @@ Service qui doit être démarré automatiquement par le gestionnaire de contrôl
 
 </dd> <dt>
 
-Manuelle
+Manuel
 </dt> <dd>
 
 Service qui doit être démarré par le gestionnaire de contrôle des services lorsqu’un processus appelle la méthode [**StartService**](startservice-method-in-class-win32-service.md) .
@@ -272,7 +272,7 @@ Liste qui contient les noms des services qui doivent démarrer avant le démarra
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -510,7 +510,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’un ordinateur démarre, tous les services de démarrage automatique démarrent également. Il peut arriver que l’un de ces services ne puisse pas démarrer avec l’ordinateur. Lorsqu’un service échoue pendant le démarrage du système, l’ordinateur effectue une action en fonction de la valeur du code de contrôle d’erreur du service.
 
@@ -595,7 +595,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - RPC_BINDING_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0218f1a7331a070340b7740c83f8464b2286de2698daf67ac1092aa5c057db03
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45e37d14bc5186f05815c10f538b0c90bdddd353
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413610"
 ---
 # <a name="rpc_binding_handle"></a>\_handle de liaison RPC \_
 
@@ -24,7 +24,7 @@ typedef I_RPC_HANDLE RPC_BINDING_HANDLE;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La bibliothèque Runtime utilise des informations de liaison pour établir une relation client-serveur qui autorise l’exécution d’appels de procédure distante. En fonction du contexte dans lequel un handle de liaison est créé, il est considéré comme un handle de liaison de serveur ou un handle de liaison client.
 
@@ -47,7 +47,7 @@ Si vous ne souhaitez pas la concurrence, vous pouvez concevoir une application p
 
 Les routines qui requièrent un handle de liaison en tant que paramètre affichent un type de données de **\_ \_ handle de liaison RPC**. Les paramètres de handle de liaison sont passés par valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

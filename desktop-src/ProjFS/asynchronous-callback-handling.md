@@ -4,12 +4,12 @@ description: Décrit comment le fournisseur peut les rappels de service asynchro
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/12/2018
 ms.topic: article
-ms.openlocfilehash: f2262e803d1ee3d071538dc6e520517c6fd7b800c4d7fdc4a7404748b9f9f0dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8ec23f5ea6e8ec55be2eaa2811d9dee8b1870edc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413647"
 ---
 # <a name="asynchronous-callback-handling"></a>Gestion asynchrone des rappels
 

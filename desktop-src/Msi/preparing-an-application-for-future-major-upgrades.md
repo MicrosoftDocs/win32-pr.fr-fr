@@ -4,12 +4,12 @@ ms.assetid: 88bb2709-a1bf-4140-a145-ae6bee85dde1
 title: Préparation d’une application pour les futures mises à niveau majeures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c38adc97fce578b48bc721b4265696486351097771cf936efc1e667752a7a36
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1e0dc9ccbee10becc39274e91d2fedeb3707028
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118377350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413959"
 ---
 # <a name="preparing-an-application-for-future-major-upgrades"></a>Préparation d’une application pour les futures mises à niveau majeures
 

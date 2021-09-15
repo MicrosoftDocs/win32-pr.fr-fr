@@ -7,12 +7,12 @@ keywords:
 - Bluetooth Appareils et services, gestion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74979fe0a604204e777f0daabe07a4531d9974c9fef55231ce98b7ee7fe9c3ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61cf3657dff2091eda4b26d14f6504b74f943983
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118959178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414023"
 ---
 # <a name="managing-bluetooth-devices-and-services"></a>gestion des appareils et des Services Bluetooth
 
@@ -27,7 +27,7 @@ pour plus d’informations sur l’utilisation de l’interface Windows sockets 
 
 Cette section contient les rubriques suivantes :
 
-| Section                                                                               | Content                                                                       |
+| Section                                                                               | Contenu                                                                       |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [sélection d’un appareil Bluetooth](selecting-a-bluetooth-device.md)                      | décrit comment sélectionner un appareil Bluetooth.                                   |
 | [Messages Bluetooth et WM \_ DEVICECHANGE](bluetooth-and-wm-devicechange-messages.md) | explique l’interaction entre les Bluetooth et les messages **WM \_ DEVICECHANGE** . |

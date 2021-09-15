@@ -4,18 +4,18 @@ ms.assetid: eee76d15-3085-4a26-b67c-14a46f8e32db
 title: Propriété RecentFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28244916014927f376a1e585bda524653269362626bdbe13320e13198accad4b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6d97587d4c2f194ef2fa584e2b8642f41cf11d4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413939"
 ---
 # <a name="recentfolder-property"></a>Propriété RecentFolder
 
 La propriété **RecentFolder** est le chemin d’accès complet au dossier récent.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

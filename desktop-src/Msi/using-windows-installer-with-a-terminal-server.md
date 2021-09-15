@@ -4,12 +4,12 @@ ms.assetid: deda9efa-a0fc-4b4e-a531-650ac201fd84
 title: utilisation de Windows Installer avec un Terminal Server
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9aba70bc9430f0bc55c7e234b19764a14b138a4d5053de5c1cc6b9aee37692d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d471fa19b4588a01a2730af44fa5e9d978d18859
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413911"
 ---
 # <a name="using-windows-installer-with-a-terminal-server"></a>utilisation de Windows Installer avec un Terminal Server
 

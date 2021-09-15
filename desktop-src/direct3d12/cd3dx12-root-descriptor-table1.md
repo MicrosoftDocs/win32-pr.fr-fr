@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4570629b810fb7a088c7cfd88e3626412d5580beb1891a1a30daf9ffabede5d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e3538e5e1e199fdb6f8c7473af4996ccd7b7f1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117733991"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517033"
 ---
 # <a name="cd3dx12_root_descriptor_table1-structure"></a>CD3DX12 \_ \_ structure table1 du descripteur racine \_
 
@@ -94,7 +94,7 @@ const [**D3D12 \_ descripteur \_ RANGE1**](/windows/desktop/api/d3d12/ns-d3d12-d
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

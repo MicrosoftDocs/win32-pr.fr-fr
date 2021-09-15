@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 9c5bd795ee9f5fc21dc205c24306820b4dec7f074638aa0e4f11ba3acde68cd0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e852286d00d93904bd185fef6c2f3444bb5987f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119684419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413709"
 ---
 # <a name="blocklist-networkfilter-element"></a>Élément de blocage (networkFilter)
 
@@ -54,7 +54,7 @@ L' **élément de la** en-dessus est défini par l’élément [**networkFilter*
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

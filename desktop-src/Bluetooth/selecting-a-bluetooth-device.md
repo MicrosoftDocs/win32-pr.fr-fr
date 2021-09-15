@@ -6,12 +6,12 @@ keywords:
 - Bluetooth, tâches, sélection d’appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81bab65c05d24f42f206a79feba8b918424ab424ed7c620a58f215af12caf46c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ac8cf5923ab599f433125f23f277c29114d27417
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414021"
 ---
 # <a name="selecting-a-bluetooth-device"></a>sélection d’un appareil Bluetooth
 

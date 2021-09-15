@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 31ab8315370b68e2bc71e4a964440e7c7703d392cf5902e244e976080c893779
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f382e7d59f3a5b5db8ba3cfd65ba6cc1a11e86d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118804080"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516929"
 ---
 # <a name="d3dxuvatlascreate-function"></a>D3DXUVAtlasCreate fonction)
 
@@ -229,20 +229,20 @@ Pointeur vers le nombre de graphiques créés par l’algorithme Atlas. Si dwMax
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK ; sinon, la valeur est D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 D3DXUVAtlasCreate peut partitionner la géométrie de maille de deux manières :
 
 -   En fonction du nombre de graphiques
 -   Sur la base de l’étirement maximal autorisé. Si l’étirement maximal autorisé est 0, chaque triangle sera probablement dans son propre graphique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

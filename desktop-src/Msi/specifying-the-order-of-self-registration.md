@@ -4,12 +4,12 @@ ms.assetid: 46ee5ea2-35fd-4352-8a45-572d6fb5e080
 title: Spécification de l’ordre d’inscription automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bb26fbebad3167fbea95679a1ea7a29c28946ae6fa2dd2b014be6ade986e28f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d99587f6e6bdd8726f2cdc584fc2f399d81ae91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413926"
 ---
 # <a name="specifying-the-order-of-self-registration"></a>Spécification de l’ordre d’inscription automatique
 

@@ -4,12 +4,12 @@ description: Les informations d’erreur étendues ne sont pas fiables.
 ms.assetid: d4735a7b-ede0-4230-b10a-bf9772aca6a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2cb85e31f993719e5f0a555a63dd83a80064ed76df1ebda43cf03f994dab9fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c20edfbaa68f2a9ce80893f4f47bba33ec5ce595
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413621"
 ---
 # <a name="reliability-of-extended-error-information"></a>Fiabilité des informations d’erreur étendues
 

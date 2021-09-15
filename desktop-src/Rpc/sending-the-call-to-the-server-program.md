@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, envoi de l’appel au serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a02d4fc1d69ba45cc6de3d43fba62724de1277471992790e3098225f579d305
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ba3a2dac77ec13fb00374faef456a52f0f24e99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413542"
 ---
 # <a name="sending-the-call-to-the-server-program"></a>Envoi de l’appel au programme serveur
 

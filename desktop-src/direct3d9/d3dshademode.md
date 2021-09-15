@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 6a8c937000912eb203986bed4889785b9484afec7682418aed43fcc58c438e58
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9950e0074bef7a7b0c211177b3902cd69e2e112c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119241559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516977"
 ---
 # <a name="d3dshademode-enumeration"></a>Énumération D3DSHADEMODE
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le premier vertex d’un triangle pour le mode d’ombrage plat est défini de la manière suivante.
 
@@ -80,7 +80,7 @@ Le premier vertex d’un triangle pour le mode d’ombrage plat est défini de l
 
 Les membres de ce type énuméré définissent le valeurs pour l' \_ État de rendu D3DRS SHADEMODE.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

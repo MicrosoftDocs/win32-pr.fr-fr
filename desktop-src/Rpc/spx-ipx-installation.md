@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, installation de SPX/IPX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02beef87830499b83789f3c7b28b61cefe7bd360168059ffd54f6d74e897c886
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3dd5058eb30878b7306d320d69a0f554e255dc38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413507"
 ---
 # <a name="spxipx-installation"></a>Installation de SPX/IPX
 

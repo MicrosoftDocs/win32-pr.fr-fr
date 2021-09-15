@@ -4,12 +4,12 @@ ms.assetid: 190d5865-c45b-42ea-8a16-10a4f0bda743
 title: Fusion géométrique (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c71bb449b592c69ae2cf41487aef229718149eb4c1465d90f8b358d30458b69c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a19daa40f7d7d8193ae486640bc613dd7a666ec7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119122161"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516817"
 ---
 # <a name="geometry-blending-direct3d-9"></a>Fusion géométrique (Direct3D 9)
 

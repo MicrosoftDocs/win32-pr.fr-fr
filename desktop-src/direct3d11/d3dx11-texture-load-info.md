@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b441ed81e7054cb84731f204ddbf2a863b7a98a75e5e01ed54cf49b28dba7957
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ca893908f854b6b127d783af25cc2fb9bc5df6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517157"
 ---
 # <a name="d3dx11_texture_load_info-structure"></a>\_Structure d' \_ \_ informations sur le chargement de la texture D3DX11
 
@@ -164,7 +164,7 @@ Options de filtrage lors de la génération de niveaux MIP (voir [**\_ \_ indica
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est utilisée dans un appel à [**D3DX11LoadTextureFromTexture**](d3dx11loadtexturefromtexture.md).
 
@@ -186,7 +186,7 @@ Les valeurs par défaut sont :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

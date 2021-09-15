@@ -15,11 +15,11 @@ api_type:
 api_location:
 - Mergemod.dll
 ms.openlocfilehash: 46dc029c88b44540817e93e1e559829d88b9f62b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540111"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413978"
 ---
 # <a name="mergeopenlog-method"></a>Merge. OpenLog, méthode
 
@@ -47,7 +47,7 @@ Nom de fichier complet pointant vers un fichier à ouvrir ou à créer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -59,7 +59,7 @@ Les clients peuvent envoyer leurs propres messages à ce fichier journal par le 
 
 Consultez fonction [**OpenLog**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-openlog) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

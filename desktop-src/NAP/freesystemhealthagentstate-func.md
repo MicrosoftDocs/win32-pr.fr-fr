@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5161b24f983936b2eb380f1863489ea6c5c927d9b18a278e5942e162f156c6fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ce59135de1c8f47d84a07f01dbb5f2bbe697f9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119891649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413822"
 ---
 # <a name="freesystemhealthagentstate-function"></a>FreeSystemHealthAgentState fonction)
 
@@ -52,7 +52,7 @@ Pointeur vers la structure de données [**SystemHealthAgentState**](/windows/win
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les interfaces COM prises en charge par le système NAP utilisent des règles de gestion de mémoire COM standard et les allocateurs de mémoire COM (**CoTaskMemAlloc** et **CoTaskMemFree**) :
 
@@ -62,7 +62,7 @@ Toutes les interfaces COM prises en charge par le système NAP utilisent des rè
 
 Toutes les fonctions NAP pour libérer de la mémoire libèrent également tous les pointeurs incorporés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

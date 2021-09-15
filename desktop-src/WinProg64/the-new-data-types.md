@@ -7,12 +7,12 @@ keywords:
 - types de données 64-bit Windows programmation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc3cc6615de7c93c805eac868536b53084a694fb79d4e63d908716eb026eb71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff6cf5960b5344da1d459d12dee96a2f67f2cfbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119504839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532156"
 ---
 # <a name="the-new-data-types"></a>Nouveaux types de données
 

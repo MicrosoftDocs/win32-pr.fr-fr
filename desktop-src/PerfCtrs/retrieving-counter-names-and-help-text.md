@@ -4,12 +4,12 @@ ms.assetid: 9ddd1672-61cf-41c2-bec0-0d2b775bf970
 title: Récupération des noms de compteur et du texte d’aide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5f997d9e9f7a0719b3d71d24a1787c5331ef7ec5f69de1ec20c1332f08ccefb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5b49f852e6af22dc2ec31d341ee6176913f98e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517193"
 ---
 # <a name="retrieving-counter-names-and-help-text"></a>Récupération des noms de compteur et du texte d’aide
 

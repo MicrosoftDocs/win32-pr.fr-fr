@@ -4,12 +4,12 @@ ms.assetid: 73677573-945f-4646-89d8-93e28f7856fe
 title: Utilisation de composants transitifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ad6906b3e5d29ba6c0e3f8e279f4a1df2d5578f931219b6962062efaabd375
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35982aafd486a62ce8560e507b8b6caf88e32591
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118622887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413913"
 ---
 # <a name="using-transitive-components"></a>Utilisation de composants transitifs
 

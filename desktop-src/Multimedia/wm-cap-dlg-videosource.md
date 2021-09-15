@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 38e8ae7e3d619964a547fbe0db4517fd1e7d277f
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367871"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413858"
 ---
 # <a name="wm_cap_dlg_videosource-message"></a>\_Message WM Cap \_ DLG \_ VIDEOSOURCE
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La boîte de dialogue source vidéo est unique pour chaque pilote de capture. Certains pilotes de capture peuvent ne pas prendre en charge une boîte de dialogue source vidéo. Les applications peuvent déterminer si le pilote de capture prend en charge ce message en vérifiant le membre **fHasDlgVideoSource** de la structure [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) .
 

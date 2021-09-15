@@ -4,12 +4,12 @@ description: Cette rubrique montre comment concevoir un nuanceur de coque.
 ms.assetid: c11c5652-dd7d-433d-bfa2-9853618ba334
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79021d6a5c03b057defdeae0d506898831ab740d11d2e105242ff53b1b39e9bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ece816ae33e7f4ecf4d024098e7741f197c423f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119046637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517084"
 ---
 # <a name="how-to-design-a-hull-shader"></a>Comment : concevoir un nuanceur de coque
 

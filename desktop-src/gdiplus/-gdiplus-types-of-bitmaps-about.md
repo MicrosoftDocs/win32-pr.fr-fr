@@ -4,12 +4,12 @@ ms.assetid: fac60d01-d07e-41e9-98a3-34c592d97a92
 title: Types de bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0503bec0f8b029e373ff414b51a60c3b1201a37b9151b722cdfc94d4cdea46cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4427f83e7ff0ccedbfa4fc0155ac2ef3c8968dfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517201"
 ---
 # <a name="types-of-bitmaps"></a>Types de bitmaps
 

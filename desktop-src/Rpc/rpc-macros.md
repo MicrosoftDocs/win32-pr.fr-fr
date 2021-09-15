@@ -4,12 +4,12 @@ description: Cette section décrit en détail les macros utilisées avec la bibl
 ms.assetid: 783895fc-d57c-46eb-a3ad-25369876b78a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fd05533466ac1851b89526f9680f098ac42da4d12393d5c31f9014c2b2b96f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16d8c62a4cbe757e3644c672b067f37accc47867
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926465"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413599"
 ---
 # <a name="rpc-macros"></a>Macros RPC
 

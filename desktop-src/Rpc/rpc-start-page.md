@@ -9,12 +9,12 @@ keywords:
 - RPC appel de procédure distante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f6d56ce76e2eebbec191d4235e53b3cb25e499a4397072cd369e02535757cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3461116468bf1d686d1a5695924e5fe66007b35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413578"
 ---
 # <a name="remote-procedure-call"></a>Appel de procédure distante
 

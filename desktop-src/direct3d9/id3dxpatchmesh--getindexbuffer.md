@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c7b32c5414f72b1dd16a6c309294056e81468f8e039e73d1d43c05d5ac3dd0f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2730b90f77d33db519d2231a68ab7fdc2b520fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118294352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516729"
 ---
 # <a name="id3dxpatchmeshgetindexbuffer-method"></a>ID3DXPatchMesh :: GetIndexBuffer, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers la mémoire tampon d’index.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -59,7 +59,7 @@ Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode �
 
 Le tampon d’index contient l’ordonnancement des vertex dans la mémoire tampon de vertex. Le tampon d’index est utilisé pour accéder à la mémoire tampon de vertex lorsque le maillage est rendu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Utilisez l' \_ \_ attribut de handle de contexte strict pour tous l
 ms.assetid: 2483aa76-0814-4f63-9c38-0aa050d73772
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91c266fb70b540e08d066e51f61a921b8f88819456e83b909e3be31bb1f518c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a45b4e7914034e315f2275e1d928293332012fc4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413502"
 ---
 # <a name="strict-and-type-strict-context-handles"></a>Handles de contexte strict et strict
 

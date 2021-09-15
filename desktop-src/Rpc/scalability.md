@@ -1,20 +1,20 @@
 ---
 title: Extensibilité
-description: Scalabilité
+description: Extensibilité
 ms.assetid: 39327621-b536-4494-9319-9e9d4f534123
 keywords:
-- Scalabilité
+- Extensibilité
 - RPC appel de procédure distante, meilleures pratiques, évolutivité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2a004a5ce3adb0f27e2e31071cac69fc1c34bfc650c618dcf39b3c8ebc954f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0728e35d9c9b27494014363c448be9965e39eea7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413560"
 ---
-# <a name="scalability"></a>Scalabilité
+# <a name="scalability"></a>Extensibilité
 
 Le terme, scalabilité, est souvent utilisé de façon inutilisée. Pour cette section, une double définition est fournie :
 

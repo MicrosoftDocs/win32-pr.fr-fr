@@ -4,16 +4,16 @@ description: à partir de Windows 2000, RPC prend en charge un large éventail d
 ms.assetid: f82eba3d-412e-4cb6-9353-2e66bd0f377a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37e71f088a9366f76b499203997ffdf635a27c3aca7af5c7fc4314453fe1fa79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92cc5417dd6142c693005a1aab9d39738d108ae2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413547"
 ---
 # <a name="security-support-providers-ssps"></a>Fournisseurs de support de sécurité (SSP)
 
-à partir de Windows 2000, RPC prend en charge un large éventail de fournisseurs et de packages de sécurité. Ce sont, entre autres, les suivantes :
+à partir de Windows 2000, RPC prend en charge un large éventail de fournisseurs et de packages de sécurité. En voici quelques-uns :
 
 -   **Package de sécurité du protocole Kerberos.** Le protocole Kerberos v5 est un package de sécurité standard. Il utilise les noms principaux de fullsic.
 -   **SSP SCHANNEL.** Ce fournisseur de services partagés implémente le package de sécurité du fournisseur de protocole unifié Microsoft, qui unifie les protocoles SSL, les technologies de communication privée (PCT) et la sécurité au niveau du transport (TLS) dans un seul package de sécurité. Il reconnaît les noms principaux msstd et fullsic.

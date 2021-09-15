@@ -4,12 +4,12 @@ ms.assetid: e6f4432b-03bf-4711-a79e-1bf9242c5683
 title: Utilisation du gestionnaire de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b23097078d8e6de4c23fce0f0ab368367d9f62247aae50c01d43c5ad17f3eaa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3e8c52211c7d69ba7a50c9a9925dad8bb84f848
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119094970"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313262"
 ---
 # <a name="using-the-search-manager"></a>Utilisation du gestionnaire de recherche
 

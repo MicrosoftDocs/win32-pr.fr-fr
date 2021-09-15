@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c760a22ef377bd8d198ea3b913c6062e90338218a187cb9dec3af457a8a02493
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4629c264c91a4e0c6e18443cf27a9fd9d182164
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118134615"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413828"
 ---
 # <a name="freeprivatedata-function"></a>FreePrivateData fonction)
 
@@ -52,7 +52,7 @@ Pointeur vers la structure de données [**PrivateData**](/windows/win32/api/napt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les interfaces COM prises en charge par le système NAP utilisent des règles de gestion de mémoire COM standard et les allocateurs de mémoire COM (**CoTaskMemAlloc** et **CoTaskMemFree**) :
 
@@ -62,7 +62,7 @@ Toutes les interfaces COM prises en charge par le système NAP utilisent des rè
 
 Toutes les fonctions NAP pour libérer de la mémoire libèrent également tous les pointeurs incorporés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

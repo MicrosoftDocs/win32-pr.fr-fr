@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9c73cee3077c23b08291efd3b9051fd694d2fe9a106368c80debbf2441448e32
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e58512ee538c2dc74251d9db6c0b86e6f185ed31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120026169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516688"
 ---
 # <a name="id3dxprtcompbufferistexture-method"></a>ID3DXPRTCompBuffer :: IsTexture, méthode
 
@@ -38,13 +38,13 @@ BOOL IsTexture();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si la mémoire tampon contient une texture ; Sinon, retourne **false** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

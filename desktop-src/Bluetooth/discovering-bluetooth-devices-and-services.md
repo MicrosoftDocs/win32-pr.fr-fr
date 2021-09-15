@@ -6,12 +6,12 @@ keywords:
 - Bluetooth, tâches, détection des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ae18f8f7ff8e7c2fcf2623ef9554bc77ec84d4b1d4ea56eced289cc86c12f0c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e46f2582ceca35668e717c09524e855e585fff0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414029"
 ---
 # <a name="discovering-bluetooth-devices-and-services"></a>Détection des appareils et services Bluetooth
 

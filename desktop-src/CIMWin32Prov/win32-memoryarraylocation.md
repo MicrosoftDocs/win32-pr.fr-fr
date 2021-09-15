@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a0fd01751794dc9177f3840804f0412db70531f6706a452793fe6cbcf3aa2389
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62aae3bf672b12bdb947ff8ce6b76f919eaa11b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414010"
 ---
 # <a name="win32_memoryarraylocation-class"></a>\_Classe MemoryArrayLocation Win32
 
@@ -84,11 +84,11 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplace
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ MemoryArrayLocation** est dérivée de l' [**\_ esprit CIM**](cim-realizes.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

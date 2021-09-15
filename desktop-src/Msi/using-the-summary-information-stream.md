@@ -4,12 +4,12 @@ ms.assetid: 2c22fe52-52a9-4e3f-9482-b5e41b91b3ae
 title: Utilisation du flux d’informations de synthèse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a90d6be9586ab6adc469f14fea71dc1325cb19107bd8ddc634a3d0b4463c490
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de3ece9ad336b1a88d343b859fd3881b23246c80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413917"
 ---
 # <a name="using-the-summary-information-stream"></a>Utilisation du flux d’informations de synthèse
 

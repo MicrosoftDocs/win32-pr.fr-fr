@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 7780b7ded37ba976f32f4439ab793ae711be2f5790d03555a6a8be4f031571e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03b1834a2bd8e1b5f89922d908a558aa97e58f76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119850183"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516972"
 ---
 # <a name="d3dstateblocktype-enumeration"></a>Énumération D3DSTATEBLOCKTYPE
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Comme le montre le diagramme suivant, l’état des vertex et des pixels est à la fois des sous-ensembles de l’état de l’appareil.
 
@@ -84,7 +84,7 @@ Il n’y a que quelques États qui sont considérés comme l’état des vertex 
 -   État de la texture : D3DTSS \_ TEXCOORDINDEX
 -   État de la texture : D3DTSS \_ TEXTURETRANSFORMFLAGS
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

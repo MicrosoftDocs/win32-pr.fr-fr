@@ -4,12 +4,12 @@ ms.assetid: 8b0fb473-e19f-4427-b2a1-d0721cde9d38
 title: Planification de l’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d406ec97fd5edb34468586eb9f707eff32b289df3dc88b803b8c55d4aad10cd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5eb98368c5c5c8e13a8f9b03a44805a8cff6e517
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413969"
 ---
 # <a name="planning-the-installation"></a>Planification de l’installation
 

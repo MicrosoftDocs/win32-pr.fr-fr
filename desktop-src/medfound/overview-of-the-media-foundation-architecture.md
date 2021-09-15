@@ -4,12 +4,12 @@ ms.assetid: DEA2B19A-CF15-4BF4-84C3-9A6417C942E2
 title: Vue d’ensemble de l’architecture Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de953d05c55c96d1affa2213e1a7f11143a71aa319b4671c159f085e65268d05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0944eae1a74c1a5ba3dda8d94b69088128237f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118239629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414051"
 ---
 # <a name="overview-of-the-media-foundation-architecture"></a>Vue d’ensemble de l’architecture Media Foundation
 

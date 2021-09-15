@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be8a7fbcbe9e2accd074768b8a0e50d6ce2dcaa2bda53e063cb76d294ff92c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c99576b8302f7fcf949f132cf110a5ac5f675ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118368259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413811"
 ---
 # <a name="inapenforcementclientconnectionsetcorrelationid-method"></a>INapEnforcementClientConnection :: SetCorrelationId, méthode
 
@@ -54,7 +54,7 @@ Structure d’ID de [**corrélation**](/windows/win32/api/naptypes/ns-naptypes-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -70,7 +70,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’ID de corrélation est défini par NapAgent et basé sur l’ID de connexion.
 
@@ -78,7 +78,7 @@ Cet ID est utilisé pour corréler les demandes et les réponses, c.-à-d. il d�
 
 Lors de la réception d’un SoH-Response, NapAgent vérifie d’abord que les ID correspondent. Si ce n’est pas le cas, une erreur est retournée et l’application doit supprimer le paquet. Pour plus d’informations, consultez [**INapEnforcementClientBinding ::P rocesssohresponse**](inapenforcementclientbinding-processsohresponse-method.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

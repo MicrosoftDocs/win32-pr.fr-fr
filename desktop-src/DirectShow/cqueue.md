@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bf6c6225a393f8f6ff1848acc66c68b6d260b0c839f2cc9f1e24d06a11e88219
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ceef0d29e0f6f06c30355a47e3274495f17dceb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413982"
 ---
 # <a name="cqueue-class"></a>CQueue, classe
 
@@ -40,7 +40,7 @@ Le modèle de classe **CQueue** implémente une file d’attente de taille stati
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le constructeur de classe spécifie la taille de la file d’attente. Utilisez [**CQueue ::P utqueueobject**](cqueue-putqueueobject.md) pour placer un élément dans la file d’attente, et la méthode [**CQueue :: GetQueueObject**](cqueue-getqueueobject.md) pour replacer un élément dans la file d’attente. Si la file d’attente est pleine, la méthode **PutQueueObject** se bloque jusqu’à ce qu’un élément soit déplacé dans la file d’attente. Si la file d’attente est vide, **GetQueueObject** se bloque jusqu’à ce qu’un élément soit mis en file d’attente. Le paramètre de modèle spécifie le type d’élément. Par exemple :
 
@@ -54,7 +54,7 @@ number_queue.PutQueueObject(7);
 
 La classe utilise deux sémaphores pour contrôler les opérations de mise en file d’attente, un sémaphore « obtenir » et un sémaphore « put ». La méthode [**GetQueueObject**](cqueue-getqueueobject.md) attend le sémaphore « obtient » (à l’aide de la fonction **WaitForSingleObject** ) et libère le sémaphore « put » (à l’aide de la fonction **ReleaseSemaphore,** ). La méthode [**PutQueueObject**](cqueue-putqueueobject.md) attend le sémaphore « put » et libère le sémaphore « obtient ». La classe utilise une section critique pour sérialiser les opérations de mise en file d’attente entre plusieurs threads.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

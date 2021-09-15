@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b193f64edb55a342546f26db1975080490f0e69b2caa91695b3bc63240750983
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2e37f277244ae9b82c395d7901917e1fc1e78b35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119634371"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413999"
 ---
 # <a name="copymediatype-function"></a>CopyMediaType fonction)
 
@@ -57,17 +57,17 @@ Pointeur vers une structure [**de \_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK ou E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction alloue la mémoire pour le bloc de format. Si le paramètre *pmtTarget* contient déjà un bloc de format alloué, une fuite de mémoire se produit. Pour éviter une fuite de mémoire, appelez [**FreeMediaType**](freemediatype.md) avant d’appeler cette fonction.
 
 Une fois la méthode retournée, appelez [**FreeMediaType**](freemediatype.md) sur *pmtTarget* pour libérer le bloc de format.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

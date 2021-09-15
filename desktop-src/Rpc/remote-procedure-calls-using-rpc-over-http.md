@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, à l’aide de RPC/http
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fedeb1700d798a616d3441b356f6f31867eed0399f412ed1f82923bcc4ac5f3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0c84551500af712b1126d8f9a65cb3d02eba8c9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413619"
 ---
 # <a name="remote-procedure-calls-using-rpc-over-http"></a>Appels de procédure distante à l’aide de RPC sur HTTP
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 031fd49bbdda7c0b36481776ba3c9dca8ea6d1c236b0010ada319b9a51f989df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45ed154d35b32edab0f1a68d84f78c10cfd1cfe0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118940646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413835"
 ---
 # <a name="freeisolationinfo-function"></a>FreeIsolationInfo fonction)
 
@@ -52,7 +52,7 @@ Pointeur vers la structure de données [**IsolationInfo**](/windows/win32/api/na
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les interfaces COM prises en charge par le système NAP utilisent des règles de gestion de mémoire COM standard et les allocateurs de mémoire COM (**CoTaskMemAlloc** et **CoTaskMemFree**) :
 
@@ -62,7 +62,7 @@ Toutes les interfaces COM prises en charge par le système NAP utilisent des rè
 
 Toutes les fonctions NAP pour libérer de la mémoire libèrent également tous les pointeurs incorporés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

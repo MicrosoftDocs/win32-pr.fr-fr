@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d851f73df7adbc205585eb7c69ad9d4d969aba66
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367860"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413864"
 ---
 # <a name="wm_cap_dlg_videocompression-message"></a>\_Message WM Cap \_ DLG \_ VIDEOCOMPRESSION
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez ce message avec des pilotes de capture qui fournissent des frames uniquement au \_ format RGB de bi. Ce message est particulièrement utile dans l’opération de capture d’étape pour combiner la capture et la compression en une seule opération. La compression des frames avec un compresseur logiciel dans le cadre d’une opération de capture en temps réel est probablement trop longue.
 

@@ -4,12 +4,12 @@ ms.assetid: 8797e7c4-44d8-49f7-aec8-37ee48c24747
 title: Vue d’ensemble de GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15ca4eadf9eaf27cbe35103753a49c4bc25d2974ee1051481b0b52787a6602e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb6eb3885d33ad332ac61454525367788d7aed56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119830759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517205"
 ---
 # <a name="overview-of-gdi"></a>Vue d’ensemble de GDI+
 

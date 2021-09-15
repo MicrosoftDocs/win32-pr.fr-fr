@@ -4,12 +4,12 @@ ms.assetid: 5BAFB5A4-33C7-4522-B9C1-2F68D7AFC31B
 title: System. IsLocationSupported
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8480eeab0d5dcc32e750af593069f48b2a4728546e41909fa9ee8df4f11ffc1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 05ddc7343d1ef3cca37bd3b276008146458e9eab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120058779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313418"
 ---
 # <a name="systemislocationsupported"></a>System. IsLocationSupported
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

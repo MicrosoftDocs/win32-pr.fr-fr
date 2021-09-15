@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 53526f57956ecaca65712b2abffacbba71ad049857b6a0fbddb9502cfdb05ff7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bcc38ca0d89430c03cf254892a54b80cb2a2eb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413701"
 ---
 # <a name="description-wlanpolicy-element"></a>Description (WLANPolicy) (élément)
 
@@ -31,7 +31,7 @@ L’élément Description (WLANPolicy) contient la description d’une stratégi
 
 L’élément **Description** est défini par l’élément [**WLANPolicy**](wlan-policyschema-wlanpolicy-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

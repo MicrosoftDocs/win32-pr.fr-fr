@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dbc4b4a74871eb111b778d798587e53027053fe57cc8cda837a3aafb7c24d74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9f16ed07235e52d9aefd7bffff9ce430c3978d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517181"
 ---
 # <a name="impersonation-level-constants"></a>Constantes de niveau d’emprunt d’identité
 
@@ -39,13 +39,13 @@ Spécifie un niveau d’emprunt d’identité, qui indique la quantité d’auto
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 [**GetUserName**](/windows/desktop/api/winbase/nf-winbase-getusernamea) échoue lors de l’emprunt d’identité au niveau de l’identité. La solution de contournement consiste à emprunter l’identité, à appeler [**OpenThreadToken**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken), à rétablir, à appeler [**GetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation)et enfin à appeler [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). À l’aide de [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), le client définit le niveau d’emprunt d’identité
 
 À l’aide de [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), le client définit le niveau d’emprunt d’identité et l’identité du proxy qui seront disponibles lorsqu’un serveur appelle [**CoImpersonateClient**](/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient). L’identité que le serveur verra lorsque l’emprunt d’identité a lieu est décrite dans [masquage](cloaking.md). Notez que lorsque vous effectuez un appel en empruntant une identité, l’appelé reçoit normalement le jeton de processus de l’appelant, et non le jeton d’emprunt d’identité de l’appelant. Pour recevoir le jeton d’emprunt d’identité de l’appelant, l’appelant doit activer le masquage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

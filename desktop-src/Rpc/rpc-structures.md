@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, référence, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c59552f775b56519620e46c610bef234fba488d4d6e0a7dfe7d4266e7ae2c50e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b94d03209af8b14f87cd8b15929389b6eb524833
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018210"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413571"
 ---
 # <a name="rpc-structures"></a>Structures RPC
 
@@ -52,7 +52,7 @@ Cette section décrit les structures définies et utilisées par Microsoft RPC.
 -   [**\_QoS de sécurité RPC \_ \_ v5**](/windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v5_a)
 -   [**\_vecteur des statistiques RPC \_**](/windows/win32/api/Rpcdce/ns-rpcdce-rpc_stats_vector)
 -   [**s \_ \_ identité d’authentification Winnt \_**](/windows/win32/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a)
--   [**UUID**](./rpcdce/ns-rpcdce-uuid.md)
+-   [**UNIVERSEL**](./rpcdce/ns-rpcdce-uuid.md)
 -   [**\_vecteur UUID**](/windows/win32/api/rpcdce/ns-rpcdce-uuid_vector)
 
  

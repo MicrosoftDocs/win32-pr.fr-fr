@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - DXFile.h
-ms.openlocfilehash: 51bc2155a74daf15945a79714355bdace06672c348dfd75679156f812d3d42be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d465b9759d958cba06bf0b950bc67772fbb84a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119122476"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516865"
 ---
 # <a name="return-values-dxfileh"></a>Valeurs de retour (DXFile. h)
 
@@ -222,7 +222,7 @@ URL introuvable.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

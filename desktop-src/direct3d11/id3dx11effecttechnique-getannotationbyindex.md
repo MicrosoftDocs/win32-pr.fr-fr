@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7de800e05dfb6731340ad7255019d4017eefb0cc88f9069e8c4aae4f327071
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e30712ba38f1360a992a8e409c249a746cca036
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118532567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532076"
 ---
 # <a name="id3dx11effecttechniquegetannotationbyindex-method"></a>ID3DX11EffectTechnique :: GetAnnotationByIndex, méthode
 
@@ -52,13 +52,13 @@ Index de base zéro du pointeur d’interface.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers un [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez une annotation pour attacher un élément de métadonnées à une technique.
 
@@ -67,7 +67,7 @@ Utilisez une annotation pour attacher un élément de métadonnées à une techn
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

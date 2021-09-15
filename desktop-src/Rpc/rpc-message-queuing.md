@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, décrit, Message Queuing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c44296068087dc2fd4423dbb3294c3c7a417e8a983ec958c2ad765ff87ea81e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b72e9e35ec2aa1cc440c0d0356c681c4fe8548c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413598"
 ---
 # <a name="rpc-message-queuing"></a>Message Queuing RPC
 

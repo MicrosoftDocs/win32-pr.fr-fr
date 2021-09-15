@@ -5,11 +5,11 @@ title: Gestion des règles d’étendue
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 134e4241e9dcd66e468935ae56a4029a51a96c37
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880221"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313285"
 ---
 # <a name="managing-scope-rules"></a>Gestion des règles d’étendue
 
@@ -205,7 +205,7 @@ Si vous pensez qu’un chemin d’accès de fichier doit être exclu, mais qu’
 [**IEnumSearchScopeRules**](/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchscoperules)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Gestion des racines de recherche](-search-3x-wds-extidx-csm-searchroots.md)

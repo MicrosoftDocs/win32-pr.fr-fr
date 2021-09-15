@@ -7,12 +7,12 @@ keywords:
 - outils de programmation Windows bits 64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f28084c445d664e130a9bb6dc5c087f8421cdaa5746845308258662739ee9084
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d87fb315200ae32eb1e1441ed330be49aa02d669
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532153"
 ---
 # <a name="the-tools"></a>Les outils
 

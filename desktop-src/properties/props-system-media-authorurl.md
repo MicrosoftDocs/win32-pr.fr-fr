@@ -4,12 +4,12 @@ ms.assetid: b8891bae-31da-48f6-b4e6-18799a199c9a
 title: System. Media. AuthorUrl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2e7e6be1c3a93dc44b3ada4d4d4ac3e4388de521941900fd13822dba8aee3e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c7e94e13db057a9b71c5a1735f896d71c32cf5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118970378"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313382"
 ---
 # <a name="systemmediaauthorurl"></a>System. Media. AuthorUrl
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

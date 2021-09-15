@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bd83b6d753cd223235b8b11f2d4b0be4c828ec28
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413883"
 ---
 # <a name="mci_resume-command"></a>\_Commande de reprise MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette commande reprend la lecture et l’enregistrement sans modifier le jeu de positions de suivi actuel avec [l' \_ enregistrement](mci-record.md) [MCI \_ Play](mci-play.md) ou MCI.
 

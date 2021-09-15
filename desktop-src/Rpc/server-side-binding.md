@@ -4,12 +4,12 @@ description: Cette section présente une description du rôle d’un programme s
 ms.assetid: 3c9e69e8-9745-4e62-9ddc-1bc04b4bef59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058916868b2e70608893b7720fe251ec37c6630ee1b5260c51da9f3f29b8758a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d82ce40f45be5f71619c42cf73c9e86c7687e2b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120017719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413525"
 ---
 # <a name="server-side-binding"></a>Liaison côté serveur
 

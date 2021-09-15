@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7ffc42934b9c341f4d07ef48a39470158155b4dfbcd352ffbc5e0ea188785752
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10f0e19ad5bdbff59d7386223c88ed867e8d0d88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119749389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516912"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx9mathh"></a>D3DXVec3ProjectArray, fonction (D3dx9math. h)
 
@@ -129,17 +129,17 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le tableau projeté de l’espace de l’objet à l’espace à l’écran.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec3ProjectArray** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

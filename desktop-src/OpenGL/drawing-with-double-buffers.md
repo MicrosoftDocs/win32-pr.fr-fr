@@ -7,12 +7,12 @@ keywords:
 - doubles mémoires tampons OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 133a6e0794eb903215411016aeff14e3426854dcddc3a60bcfb2ba318481bee5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbe52d427467b2a6e460ea56a9e72e580ea6f97d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118361389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413690"
 ---
 # <a name="drawing-with-double-buffers"></a>Dessiner avec deux mémoires tampons
 

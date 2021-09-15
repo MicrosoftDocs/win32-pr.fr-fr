@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 01065ef73d1a23f0ac9416a39c4af74042c883e3b4d7f596cb95f6c01043f662
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8becf3bbf66ea18b2df87069ba38bab44c56db70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117941106"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532185"
 ---
 # <a name="imsrdpclientnonscriptable7-interface"></a>IMsRdpClientNonScriptable7, interface
 
@@ -51,9 +51,9 @@ L’interface **IMsRdpClientNonScriptable7** possède les propriétés suivantes
 | Propriété         | Type d’accès           | Description            |
 |:-----------------|:----------------------|:-----------------------|
 | [**CameraRedirConfigCollection**](imsrdpclientnonscriptable7-cameraredirconfigcollection.md)      | Lecture seule |  Obtient la collection des appareils photo (et les configurations associées) qui sont disponibles pour la redirection.   |
-| [**Papier**](imsrdpclientnonscriptable7-clipboard.md)                       | Lecture seule |    Obtient le contrôleur du presse-papiers utilisé pour synchroniser les presse-papiers locaux et distants si la synchronisation manuelle du presse-papiers est activée.    |
+| [**Presse-papiers**](imsrdpclientnonscriptable7-clipboard.md)                       | Lecture seule |    Obtient le contrôleur du presse-papiers utilisé pour synchroniser les presse-papiers locaux et distants si la synchronisation manuelle du presse-papiers est activée.    |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------|

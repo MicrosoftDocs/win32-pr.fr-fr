@@ -5,11 +5,11 @@ title: Mappages de propriété (de WDS 2. x à 3. x)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 516ae708a636f5d342e48621c2d19a713b3211b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517241"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313246"
 ---
 # <a name="property-mappings-from-wds-2x-to-3x"></a>Mappages de propriété (de WDS 2. x à 3. x)
 
@@ -104,7 +104,7 @@ Ce tableau associe les structures du schéma 2.6.5, aux structures de schéma 3,
 | System. contact. MiddleName                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/« MiddleName »                   | 176DC63C-2688-4E89-8143-A347800F25E9/71    |
 | System. contact. MobileTelephone              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/'MobileTelephone'              | 176DC63C-2688-4E89-8143-A347800F25E9/35    |
 | System. contact. Nickname                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/« surnom »                     | 176DC63C-2688-4E89-8143-A347800F25E9/74    |
-| System. contact. OfficeLocation               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/« Bureau »                       | 176DC63C-2688-4E89-8143-A347800F25E9/7     |
+| System. contact. OfficeLocation               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/« Office »                       | 176DC63C-2688-4E89-8143-A347800F25E9/7     |
 | System. contact. BusinessTelephone            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/'OfficeTelephone'              | 6A15E5A0-0A1E-4CD7-BB8C-D2F1B0C929BC/100   |
 | System. contact. PagerTelephone               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PagerTelephone'               | D6304E01-F8F5-4F45-8B15-D024A6296789/100   |
 | System. contact. LastName                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/'LastName'                     | 8F367200-C270-457C-B1D4-E07C5BCD90C7/100   |

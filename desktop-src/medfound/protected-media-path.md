@@ -4,12 +4,12 @@ ms.assetid: e88806ae-0041-4b4a-a8df-69718a651e82
 title: Chemin du média protégé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ebb2b22e6ad887134f91e93b43a698afdef0ebc36e1521d70e5e17fefedd8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7304edadf1623d41bc2f1f5c6b2b4cda2dd5f598
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414036"
 ---
 # <a name="protected-media-path"></a>Chemin du média protégé
 

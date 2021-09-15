@@ -4,12 +4,12 @@ description: SSPI est une interface logicielle.
 ms.assetid: 2497afea-33dd-45ae-891b-bacf390ef338
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d06f406dfd352dafbd22ec610ff992dd26d06dbc547d6f8fea784365586400fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 910cef52def2f398606fd541b8ed170f7e216078
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413506"
 ---
 # <a name="sspi-architectural-overview"></a>Vue d’ensemble de l’architecture SSPI
 

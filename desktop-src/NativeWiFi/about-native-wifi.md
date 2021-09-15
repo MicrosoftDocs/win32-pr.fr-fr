@@ -5,11 +5,11 @@ title: À propos de la WiFi Native
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4225c1b854b7466f8bb8b2d191be54c47c8f7fcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868446"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413754"
 ---
 # <a name="about-native-wifi"></a>À propos de la WiFi Native
 
@@ -19,7 +19,7 @@ Les rubriques suivantes sont disponibles dans cette section :
 
 -   [À propos de l’architecture ACM](about-the-acm-architecture.md)
 -   [À propos de l’API WiFi Native](about-the-native-wifi-api.md)
--   [Prise en charge de l’API WiFi native sur Windows XP](about-wireless-lan-api-for-windows-xp-service-pack-2.md)
+-   [prise en charge de l’API Wifi Native sur Windows XP](about-wireless-lan-api-for-windows-xp-service-pack-2.md)
 -   [Autorisations de l’API WiFi Native](native-wifi-api-permissions.md)
 -   [À propos de la fonctionnalité Wi-Fi directe](about-the-wi-fi-direct-api.md)
 -   [À propos de l’API ad hoc sans fil](about-the-wireless-ad-hoc-api.md)

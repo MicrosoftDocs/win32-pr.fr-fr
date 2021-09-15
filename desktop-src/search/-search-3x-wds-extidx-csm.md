@@ -4,12 +4,12 @@ ms.assetid: 7d65d00a-7294-4718-b593-89394b2e416f
 title: Utilisation du gestionnaire de portée d’analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a440041c4af9b0ab5e1d282b91cf8fba35c041a546b8247d320884f072a641c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef79c9e5a2a4b1dda97bf8a8be7bbaa35d5ecd2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117681205"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313282"
 ---
 # <a name="using-the-crawl-scope-manager"></a>Utilisation du gestionnaire de portée d’analyse
 

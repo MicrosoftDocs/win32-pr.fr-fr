@@ -5,11 +5,11 @@ title: Création d’un connecteur de recherche pour un gestionnaire de protocol
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: cec9c7830f61c0dcbf6682e6dfaea0feb30ebfa5
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122881684"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313257"
 ---
 # <a name="creating-a-search-connector-for-a-protocol-handler"></a>Création d’un connecteur de recherche pour un gestionnaire de protocole
 
@@ -61,7 +61,7 @@ Les clés de Registre et leurs valeurs possibles sont décrites dans le tableau 
 | HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows Search \\ PHSearchConnectors \\ &lt; protocol &gt; \\ DoNotCreateSearchConnectors | N’existe pas (valeur par défaut). Sinon, la valeur est 1.                                                                                         | \_valeur DWORD reg | S’il n’existe pas, créez un fichier. searchconnector-ms dans le dossier recherches. Si la valeur est 1, marquer comme traité et ne rien faire.                                                                                                                                                                                                                                   |
 | HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows Search \\ PHSearchConnectors \\ &lt; protocol &gt; \\ Default \\ Description        | Chaîne localisable contenant la description du connecteur de recherche.                                                              | SZ de REG \_    | facultatif. Elle est utilisée dans l’élément Description du fichier. searchconnector-ms.                                                                                                                                                                                                                                                                          |
 | HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows Search \\ PHSearchConnectors \\ &lt; &gt; \\ nom par défaut du protocole \\               | Chaîne localisée pour nommer le connecteur de recherche. Utilisé comme nom du fichier. searchconnector-ms.                                    | SZ de REG \_    | Chaque emplacement doit avoir un nom unique. En l’absence de cette valeur, le nom complet fourni par l' [interface IShellFolder](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) du gestionnaire de protocole est utilisé.                                                                                                                             |
-| HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows Search \\ PHSearchConnectors \\ &lt; protocole &gt; \\ par défaut \\ FolderType         | GUID identifiant le [FOLDERTYPEID](../shell/foldertypeid.md) à appliquer au connecteur de recherche. | SZ de REG \_    | facultatif. Utilisé dans l’élément folderType du fichier. searchconnector-ms pour indiquer quels modèles doivent être utilisés pour afficher les résultats. Par exemple, la valeur GUID de \_ documents FOLDERTYPEID.                                                                                                                                                            |
+| HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows Search \\ PHSearchConnectors \\ &lt; protocole &gt; \\ par défaut \\ FolderType         | GUID identifiant le [FOLDERTYPEID](../shell/foldertypeid.md) à appliquer au connecteur de recherche. | SZ de REG \_    | Optionnel. Utilisé dans l’élément folderType du fichier. searchconnector-ms pour indiquer quels modèles doivent être utilisés pour afficher les résultats. Par exemple, la valeur GUID de \_ documents FOLDERTYPEID.                                                                                                                                                            |
 
 
 
@@ -157,7 +157,7 @@ Le format d’une chaîne indirecte, et une chaîne indirecte ajoutée avec un m
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Fonctionnement des gestionnaires de protocole](-search-3x-wds-extidx-prot-implementing.md)

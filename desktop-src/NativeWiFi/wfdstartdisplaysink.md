@@ -1,5 +1,5 @@
 ---
-description: Effectue l’initialisation nécessaire pour permettre à l’application appelante de devenir un récepteur d’affichage Miracast.
+description: effectue l’initialisation nécessaire pour permettre à l’application appelante d’être un récepteur d’affichage Miracast.
 ms.assetid: D87B427B-0B7F-44BB-BC34-726FDF87CCCC
 title: WFDDisplaySinkStart, fonction (Wfdsink. h)
 ms.topic: reference
@@ -14,15 +14,15 @@ api_type:
 api_location:
 - wifidisplay.dll
 ms.openlocfilehash: 423ca68364fbe7c4beb89ab3b1d9f8e8fdb891be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528156"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413739"
 ---
 # <a name="wfddisplaysinkstart-function"></a>WFDDisplaySinkStart fonction)
 
-Effectue l’initialisation nécessaire pour permettre à l’application appelante de devenir un récepteur d’affichage Miracast. Votre application doit l’appeler une fois au démarrage.
+effectue l’initialisation nécessaire pour permettre à l’application appelante d’être un récepteur d’affichage Miracast. Votre application doit l’appeler une fois au démarrage.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -70,7 +70,7 @@ Pointeur vers la fonction de rappel à appeler à chaque fois qu’une notificat
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
@@ -92,17 +92,17 @@ Cette fonction effectue les tâches suivantes :
 
 -   Rend le PC détectable
 -   Définit les informations de l’appareil P2P pour refléter la catégorie et la sous-catégorie spécifiées
--   Définit Miracast IEs sur tous les Wi-Fi frames directs avec le type d’appareil en tant que récepteur
+-   définit le Miracast IEs sur toutes les Wi-Fi frames directs dont le type d’appareil est le récepteur
 -   Inscrit le rappel spécifié à appeler à chaque fois qu’il existe une connexion entrante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 10<br/>                                                                      |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2016<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wfdsink. h</dt> </dl>       |

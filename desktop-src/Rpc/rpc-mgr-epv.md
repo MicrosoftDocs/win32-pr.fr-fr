@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e40b883192adc53b11f9965f1a92f4637b320d32b5fd6909e2b6d615437a6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 549ca4b5245b12bda07b46407041a01175955693
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413594"
 ---
 # <a name="rpc_mgr_epv"></a>\_EPV du gestionnaire RPC \_
 
@@ -65,7 +65,7 @@ Spécifie les paramètres indiqués pour la fonction **nomfonction** dans le fic
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le vecteur de point d’entrée du gestionnaire (EPV) est un tableau de pointeurs de fonction. Le tableau contient des pointeurs vers les implémentations des fonctions spécifiées dans le fichier IDL. Le nombre d’éléments dans le tableau est défini sur le nombre de fonctions spécifiées dans le fichier IDL. Une application peut également avoir plusieurs EPVs, représentant plusieurs implémentations des fonctions spécifiées dans l’interface.
 
@@ -73,7 +73,7 @@ Le compilateur MIDL génère un type de données **EPV** par défaut nommé * if
 
 Lorsque le serveur offre plusieurs implémentations de la même interface, l’application serveur doit déclarer et initialiser une variable de type *If-name * * * \_ Server \_ EPV** pour chaque implémentation de l’interface. Chaque **EPV** doit contenir un point d’entrée (pointeur de fonction) pour chaque procédure définie dans le fichier IDL.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

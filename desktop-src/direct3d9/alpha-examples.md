@@ -4,12 +4,12 @@ ms.assetid: e08c7ceb-6e9c-4a3e-8bb6-5487e512a801
 title: Exemples alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7989a3817dd542dd9142008efee89021d931c532db7dcb0416ad1436f777e4ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47a7918ce0257962238d929d69d240a1feeb513e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118300351"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517004"
 ---
 # <a name="alpha-examples-direct3d-9"></a>Exemples alpha (Direct3D 9)
 

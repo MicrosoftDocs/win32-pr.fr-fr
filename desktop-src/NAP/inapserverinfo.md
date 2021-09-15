@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 556c2a5b7e7545038995d5091d46931352f9ee32bddfa31b91237dfa54d69620
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec17e3303fe4af4d359279de6c5fa7aa5f34d409
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119626099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413774"
 ---
 # <a name="inapserverinfo-interface"></a>Interface INapServerInfo
 
@@ -53,11 +53,11 @@ L’interface **INapServerInfo** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces méthodes fournissent uniquement des informations statiques sur le serveur NAP et ses composants sur le système.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da992c258fe79bd1ed81274495e884339f40aed337fcf11665ec27110afaf422
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aac60b1d496e0f1d4ecb604b18a8ef71cac8b5d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118536258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517128"
 ---
 # <a name="d3dx11createasynctextureinfoprocessor-function"></a>D3DX11CreateAsyncTextureInfoProcessor fonction)
 
@@ -52,7 +52,7 @@ HRESULT D3DX11CreateAsyncTextureInfoProcessor(
 
 Type : **[ **\_ \_ informations sur l’image D3DX11**](d3dx11-image-info.md)\***
 
-Facultatif. Identifie les caractéristiques d’une texture (voir [**\_ \_ informations sur l’image D3DX11**](d3dx11-image-info.md)) lorsque le processeur de données est créé ; affectez la valeur **null** pour lire les caractéristiques d’une texture lorsque la texture est chargée.
+Optionnel. Identifie les caractéristiques d’une texture (voir [**\_ \_ informations sur l’image D3DX11**](d3dx11-image-info.md)) lorsque le processeur de données est créé ; affectez la valeur **null** pour lire les caractéristiques d’une texture lorsque la texture est chargée.
 
 </dd> <dt>
 
@@ -65,13 +65,13 @@ Adresse d’un pointeur vers une mémoire tampon qui contient le processeur de d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette API crée une interface de processeur de données. [**D3DX11CreateAsyncTextureProcessor**](d3dx11createasynctextureprocessor.md) crée l’interface du processeur de données et charge la texture.
 
@@ -81,7 +81,7 @@ pour les applications Windows store, les exemples DirectX (par exemple, l' [exem
 
 pour les applications de bureau Win32, vous pouvez utiliser le [runtime d’accès concurrentiel](/previous-versions/visualstudio/visual-studio-2010/ee207192(v=vs.100)) pour implémenter un modèle semblable au Windows Runtime modèle de programmation asynchrone.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

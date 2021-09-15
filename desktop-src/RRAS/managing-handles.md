@@ -4,12 +4,12 @@ description: Le gestionnaire de table de routage conserve un décompte de réfé
 ms.assetid: bcd02881-b021-414f-8a40-14baac5baac7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c701dbe8469baab54c427d42f9d603a976402ebb5693d1799989aeff74b65945
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f24653dd98db9b0427e5a3bee3f2f6613a68ce41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117790602"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413623"
 ---
 # <a name="managing-handles"></a>Gestion des handles
 

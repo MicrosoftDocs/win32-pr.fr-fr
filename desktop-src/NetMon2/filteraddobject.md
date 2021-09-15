@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 2c7d814efbbc77816836d437161390b1e2af60e8bbf4932322dcbd606920be5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fc6c41a675bfe560c060e271e4f9f48f88cd58c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118938732"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413699"
 ---
 # <a name="filteraddobject-function"></a>FilterAddObject fonction)
 
@@ -54,7 +54,7 @@ Pointeur vers une structure [FILTEROBJECT](filterobject.md) qui définit l’obj
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -71,13 +71,13 @@ Si la fonction échoue, la valeur de retour est un code d’erreur.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **FilterAddObject** .
 
 La fonction **FilterAddObject** est appelée chaque fois qu’un objet de filtre est ajouté au filtre d’affichage. Le filtre d’affichage est une pile suffixée d’objets qui peut être un opérateur, une valeur ou une propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

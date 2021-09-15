@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wifidisplay.dll
-ms.openlocfilehash: a5e2da91e29535c1e2fd9553a2b6ec2bb0008e61f33cd55ebcda2746b93eb657
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1ebaa9920ca7d38cff22cef6383b37065faa2ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413738"
 ---
 # <a name="wfddisplaysinkstop-function"></a>WFDDisplaySinkStop fonction)
 
@@ -41,11 +41,11 @@ Cette fonction n’a pas de paramètres.
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il est prévu que votre application ait débloqué tous les rappels en cours avant d’appeler **WFDStopDisplaySink**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -53,7 +53,7 @@ Il est prévu que votre application ait débloqué tous les rappels en cours ava
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                    |
-| Fin de la prise en charge des clients<br/>    | Windows 10<br/>                                                                      |
+| Fin de la prise en charge des clients<br/>    | Windows 10<br/>                                                                      |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2016<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wfdsink. h</dt> </dl>       |
 | Bibliothèque<br/>                  | <dl> <dt>Wifidisplay. lib</dt> </dl> |

@@ -4,12 +4,12 @@ description: Les applications serveur doivent sélectionner une ou plusieurs sé
 ms.assetid: bde26a86-dc4f-4d18-ba51-c6536c62bb75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f43b8dc7b21fc2a6bebe98010b80dbf369ac96bb185cc75afa3b0a4f1acbba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a700299e3d2bd98fa5fb0aaebea25e907d85afb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413509"
 ---
 # <a name="specifying-protocol-sequences"></a>Spécification de séquences de protocole
 

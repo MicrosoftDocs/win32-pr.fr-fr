@@ -4,12 +4,12 @@ description: Cette section décrit les meilleures pratiques et les configuration
 ms.assetid: 83938a7d-77d0-45e8-b0a3-7b32ef768d83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faf05808b90c4c0809341a846c4f5aa9684fec27fb26425342ec7e25fa98076b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8871686d1fc8b87bcd6fb7ac4314b1977252f23a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413583"
 ---
 # <a name="rpc-over-http-deployment-recommendations"></a>Recommandations de déploiement RPC sur HTTP
 

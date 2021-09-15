@@ -4,12 +4,12 @@ description: Équilibrage de charge RPC
 ms.assetid: c646f748-d5f2-422d-8305-1f86c0dc61b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7fbace237f6d86ebadf3fadc5f3b376d94799b137153b114bc07fead3d64b09
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4039742fcfcc67280c610270908bed51034f691a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413600"
 ---
 # <a name="rpc-load-balancing"></a>Équilibrage de charge RPC
 
@@ -26,7 +26,7 @@ Cette section fournit une vue d’ensemble de l’équilibrage de charge RPC dan
 -   [Configuration de l’équilibrage de charge](configuring-load-balancing.md)
 -   [Meilleures pratiques relatives à l’équilibrage de charge](load-balancing-best-practices.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 le service équilibrage de charge RPC est pris en charge sur les serveurs qui exécutent Windows Server 2008 R2 ou version ultérieure, et les clients exécutant Windows version 7 ou ultérieure de Windows.
 

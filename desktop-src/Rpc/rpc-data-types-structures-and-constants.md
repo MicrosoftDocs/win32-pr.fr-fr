@@ -4,12 +4,12 @@ description: Les sections suivantes décrivent les structures, les types de donn
 ms.assetid: cc9b823b-f214-44f6-94d1-f42ee71f203c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a5f59758b7b2b058d7e7d8dbc478341fcb6da3e3e0ec75ba0f6c3d0b3914e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 980247645154a7b2ca87d9bfa96174b24d705cba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118926502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413603"
 ---
 # <a name="rpc-data-types-structures-and-constants"></a>Types de données, structures et constantes RPC
 

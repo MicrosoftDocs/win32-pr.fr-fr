@@ -4,12 +4,12 @@ ms.assetid: c04e32ba-08a9-49fe-9a4a-db258767f0b3
 title: Utilisation de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2303ddcdf589b69abb819ab1cdee9060f4918c1bd238e161677da7987300bf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 714d41ab6b91bb0f3ce519887f7004f919c5c6b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413916"
 ---
 # <a name="using-the-user-interface"></a>Utilisation de l’interface utilisateur
 

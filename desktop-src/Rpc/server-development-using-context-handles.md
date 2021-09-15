@@ -4,12 +4,12 @@ description: Du point de vue du développement de programme serveur, un handle d
 ms.assetid: 6a1aabca-4cb9-401c-90c7-0cff7a69b7b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db05441f7314fba628d1ec07db5f99266c595c84e672ada976b38f7576ab5d1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f743a4a6aa4a2aa7b6987bb54dc56e55cffbc76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118925335"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413530"
 ---
 # <a name="server-development-using-context-handles"></a>Développement de serveurs à l’aide de handles de contexte
 

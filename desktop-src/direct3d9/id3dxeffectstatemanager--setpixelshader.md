@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 9b7289d6aeb537f6ae4b4c4fc912b09d7cd352a85cfc089221ece9613362e017
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71a16bc267df95ed7efc1e0f74871b131e34ebe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119044437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516805"
 ---
 # <a name="id3dxeffectstatemanagersetpixelshader-method"></a>ID3DXEffectStateManager :: SetPixelShader, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers un objet de nuanceur de pixels. Consultez [**IDirect3DPixelShader9
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -58,7 +58,7 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   L’effet échouera pendant [**ID3DXEffect :: BeginPass**](id3dxeffect--beginpass.md).
 -   L’appel d’état d’effet dynamique (par exemple, [**IDirect3DDevice9 :: SetPixelShader**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader)) échouera.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

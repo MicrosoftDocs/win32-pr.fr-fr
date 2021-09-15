@@ -4,12 +4,12 @@ ms.assetid: 31867082-7c1d-4530-a066-236d8ee5f023
 title: Fusionner deux bases de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e534e20c1717b1d014cae8ed9548fd1d0950d80b6b26ba5cfce6ba15bd7cb53
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0254cbe2bd0785b45d4ced3a16770023e617bc63
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413973"
 ---
 # <a name="merge-two-databases"></a>Fusionner deux bases de données
 

@@ -9,12 +9,12 @@ keywords:
 - 64-bit Windows guide de programmation 64 bits Windows programmation, wow64 voir wow64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1da192f4109afe09133f036d5fff88e772bbcc2c7d20ceb456e3233ab2b60d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39872be28da0853f0cff62a9a0ab82065105c687
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119132822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127532160"
 ---
 # <a name="running-32-bit-applications"></a>Exécution d’applications 32 bits
 
