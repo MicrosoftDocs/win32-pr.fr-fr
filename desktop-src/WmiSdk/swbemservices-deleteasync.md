@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: bcbdf4d930b2a67c56572a9788592b943748f6e41c30483728f3cc24732ffa18
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: adc8811c11f67b9fc92628740bd15df2086948d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897482"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403466"
 ---
 # <a name="swbemservicesdeleteasync-method"></a>SWbemServices. DeleteAsync, méthode
 
@@ -109,7 +109,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur. Si l’appel réussit, le récepteur d’objets reçoit la notification de la suppression.
 

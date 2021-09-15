@@ -4,12 +4,12 @@ ms.assetid: 13e05bda-96c2-4095-a266-74185760f33a
 title: MFNETSOURCE_SSLCERTIFICATE_MANAGER, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6f853ae3fe44a9c4508386df4096e4adac36f3cec8a8cf199eb91cb87e1fe2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf6e21962e3d521e8c5781d59b2e0fe6fed04aa4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531737"
 ---
 # <a name="mfnetsource_sslcertificate_manager-property"></a>\_Propriété MFNETSOURCE SSLCERTIFICATE \_ Manager
 
@@ -35,7 +35,7 @@ VT \_ inconnu
 
 La constante **MFNETSOURCE \_ SSLCERTIFICATE \_ Manager** définit le GUID de la clé de propriété. L’identificateur de propriété (PID) est égal à zéro. Pour définir cette propriété sur la source réseau, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

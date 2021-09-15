@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/04/2021
 ms.openlocfilehash: 7ee327c24f5cc99fa386376be76ae0908fea19b6
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812488"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517049"
 ---
 # <a name="cd3dx12_global_root_signature_subobject-class"></a>Classe CD3DX12_GLOBAL_ROOT_SIGNATURE_SUBOBJECT
 
@@ -67,7 +67,7 @@ Opérateur de conversion qui retourne une référence à une constante [D3D12_ST
 
 Opérateur de conversion qui retourne la signature racine sous la forme d’un pointeur vers un [ID3D12RootSignature](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

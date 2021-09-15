@@ -14,12 +14,12 @@ keywords:
 - lecteurs synchrones, lire des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c30ed2f9af78c9643f269adb24f740f2fe9227bc2e5b8a36d5c9d29606564176
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 893a1bd324cdc91968e423f2084bfdba5ef57c8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197471"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404649"
 ---
 # <a name="reading-files-with-the-synchronous-reader"></a>Lecture des fichiers avec le lecteur synchrone
 

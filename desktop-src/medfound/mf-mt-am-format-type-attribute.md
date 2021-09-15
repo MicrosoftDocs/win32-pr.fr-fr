@@ -4,12 +4,12 @@ ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
 title: Attribut MF_MT_AM_FORMAT_TYPE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eff59e148f7532cc07e47acf033de91b5eaeb8969f0c39376850738fd54e758e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18a8faf88128075e5c5b51c1b5ace39329d4e1fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973628"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530744"
 ---
 # <a name="mf_mt_am_format_type-attribute"></a>\_Attribut de \_ \_ type de format AM MT MF \_
 
@@ -19,7 +19,7 @@ contient un GUID de format DirectShow pour un type de média.
 
 **GUID**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cet attribut peut être défini lorsqu’un type de média DirectShow est converti en un type de média Media Foundation. l’attribut indique le type de format de DirectShow d’origine. La valeur correspond au membre formatType de la structure [**de \_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) .
 
@@ -29,7 +29,7 @@ ne définissez pas cet attribut sur un type de média, sauf si vous convertissez
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

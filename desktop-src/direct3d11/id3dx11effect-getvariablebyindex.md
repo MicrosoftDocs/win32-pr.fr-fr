@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fd262ea0aa778f03c2d723dec99f531f3419f3be
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992340"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403381"
 ---
 # <a name="id3dx11effectgetvariablebyindex-method"></a>ID3DX11Effect :: GetVariableByIndex, méthode
 
@@ -52,7 +52,7 @@ Index de base zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 

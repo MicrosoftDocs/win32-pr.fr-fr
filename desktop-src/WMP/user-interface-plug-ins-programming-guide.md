@@ -12,12 +12,12 @@ keywords:
 - Guide de programmation, plug-ins d’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcba6c3c7218e504a2e8752a4d1680e4887ec5aa7bfa69744fab00b27cbee797
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d417d246e92a642711e8cb02f77ff3795d47c995
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118831479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403778"
 ---
 # <a name="user-interface-plug-ins-programming-guide"></a>Guide de programmation de plug-ins d’interface utilisateur
 

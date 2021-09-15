@@ -5,11 +5,11 @@ title: Indicateurs d’État OPM (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: edc044d9159ad6e6a6e957c4be0228a8e2531164
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480195"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530661"
 ---
 # <a name="opm-status-flags"></a>Indicateurs d’État OPM
 
@@ -29,11 +29,11 @@ Les indicateurs figurant dans le tableau suivant spécifient l’état d’une s
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Certaines de ces constantes sont équivalentes aux valeurs de l’énumération **Copp \_ StatusFlags** utilisée dans le protocole Copp (Certified Output Protection Protocol).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - écriture d’applications Win32 compatibles DPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1527412e3259efca7d81285c6ba7ed42dbaebf43d37307342de02f1d2ce9d339
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a32bfaf76271e61d0dc3791d5aaae9609be6d8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118249689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525852"
 ---
 # <a name="developing-a-per-monitor-dpi-aware-wpf-application"></a>Développement d’une application WPF DPI par moniteur
 
@@ -102,7 +102,7 @@ Si vous disposez d’une application WPF existante et que vous souhaitez utilise
 
 L' [exemple](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PerMonitorDPIAware) d’application WPF avec prise en charge de l’analyse illustre la manière dont une application WPF peut être mise à jour pour être compatible avec la résolution PPP par moniteur en répondant à la notification de fenêtre [**WM \_ DPICHANGED**](wm-dpichanged.md) . En réponse à la notification de fenêtre, l’exemple met à jour la transformation de mise à l’échelle utilisée par WPF en fonction de la valeur PPP actuelle du moniteur sur lequel la fenêtre est activée. Le *wParam* de la notification de fenêtre contient la nouvelle PPP dans *wParam*. Le *lParam* contient un rectangle qui a la taille et la position de la nouvelle fenêtre suggérée, mise à l’échelle pour la nouvelle résolution PPP.
 
-Remarque :
+Remarque :
 
 > [!Note]  
 > Dans la mesure où cet exemple remplace la taille de la fenêtre et la transformation d’échelle du nœud racine de la fenêtre WPF, un travail supplémentaire peut être requis par le développeur d’applications dans les cas suivants :

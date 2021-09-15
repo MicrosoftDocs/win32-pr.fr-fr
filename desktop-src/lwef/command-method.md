@@ -5,11 +5,11 @@ ms.assetid: ecd39ee3-1ebe-4bce-a494-7d7f8fc899a8
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 86440cfd295d1e0b4aa444e4810e2552fb6c803d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031210"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518420"
 ---
 # <a name="command-method"></a>Command, méthode
 
@@ -27,7 +27,7 @@ Retourne un objet [**Command**](/windows/desktop/lwef/the-command-object) dans u
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). Commands. Command** «*Name*»
+*agent ***. Caractères («**_CharacterID_*_»). Commands. Command_* «*Name*»
 
 </dd> </dl>
 
@@ -38,8 +38,8 @@ Vous pouvez utiliser cette méthode pour accéder aux propriétés d’un objet 
 > [!Note]  
 > Cette méthode peut être requise pour certains langages de programmation. Elle n’est pas requise pour VBScript ou Visual Basic. Pour plus d’informations sur la spécification des méthodes de **commande** , consultez Propriétés de l’objet Command.
 
- 
+ 
 
- 
+ 
 
- 
+ 

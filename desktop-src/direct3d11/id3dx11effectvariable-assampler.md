@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a6c71e8e2cdc89860c8edf82a0c008c03f4a154ab23cee882ed1e9eaaad2939
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a1213320950377f6981348a158c3d8c8ef4d4fd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403545"
 ---
 # <a name="id3dx11effectvariableassampler-method"></a>ID3DX11EffectVariable :: AsSampler, méthode
 
@@ -41,7 +41,7 @@ ID3DX11EffectSamplerVariable* AsSampler();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectSamplerVariable**](id3dx11effectsamplervariable.md)\***
 

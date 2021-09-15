@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2deb5cfb444f2f925846054c0afbe418c97f969e31722760febe0bf9f3a7e4a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5db6203093a85dabc317876d4c3d1544356b31b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118775996"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403440"
 ---
 # <a name="esentmissingpreviouslogfileexception-class"></a>EsentMissingPreviousLogFileException, classe
 

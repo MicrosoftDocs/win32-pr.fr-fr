@@ -20,12 +20,12 @@ keywords:
 - DRM (gestion des droits numériques), sauvegarde et restauration de la licence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 378a41d975e8f19d38c637d585759d0038f5b86550769ae49d6a6490844f223e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d10d8e76c191225288a1021e08e4c77e7e14f3c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404710"
 ---
 # <a name="backing-up-and-restoring-licenses"></a>Sauvegarde et restauration de licences
 

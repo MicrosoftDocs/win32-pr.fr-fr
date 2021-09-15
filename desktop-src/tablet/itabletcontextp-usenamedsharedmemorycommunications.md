@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wisptis.exe
 - Wisptis.exe.dll
-ms.openlocfilehash: a8ce5d4dde7f3fd678e4ac748a0f148750344a1e5e8da9f6481ad25eafa016a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81e8c653dd12600ae02fe7e6038de6e6a38786e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119712229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530312"
 ---
 # <a name="itabletcontextpusenamedsharedmemorycommunications-method"></a>ITabletContextP :: UseNamedSharedMemoryCommunications, méthode
 
@@ -95,11 +95,11 @@ Entier qui identifie la mémoire partagée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **UseNamedSharedMemoryCommunications** fait partie du protocole de mémoire partagée du Tablet PC. Un client sans privilèges élevés passe dans un identificateur de sécurité (SID) et un identificateur de sécurité de niveau d’intégrité (IL-SID) afin que le service tablette puisse utiliser des listes de contrôle d’accès (ACL) pour accéder aux objets de mémoire partagée. Si le client dispose de privilèges élevés, il doit utiliser UseSharedMemoryCommunications, qui est l’API appelée si le service a déjà un privilège élevé.
 
@@ -132,7 +132,7 @@ Les noms d’événements sont créés en mettant en forme la sortie de cette m�
 
 Dans chaque définition, la section% d est remplacée par l’ID de processus, et la section% u est remplacée par l’entier retourné dans *pdwEventMoreDataId* ou *pdwEventClientReadyId*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

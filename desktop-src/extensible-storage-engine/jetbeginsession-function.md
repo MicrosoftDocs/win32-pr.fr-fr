@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 3e6263916211e5d21e0032ba6de8d98e46fedfa9
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122989072"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531361"
 ---
 # <a name="jetbeginsession-function"></a>Fonction JetBeginSession
 
@@ -86,13 +86,13 @@ En cas de réussite, le descripteur de session est initialisé et peut être uti
 
 En cas d’échec, aucune session n’est disponible ou une nouvelle session n’a pas pu être initialisée.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Une attention particulière doit être utilisée lors de l’utilisation de sessions sur différents threads. Une session suit le thread sur lequel elle a été utilisée pendant [JetBeginTransaction](./jetbegintransaction-function.md), [JetCommitTransaction](./jetcommittransaction-function.md)ou [JetRollback](./jetrollback-function.md), et génère une erreur si elle est utilisée sur plusieurs threads avec une transaction ouverte. Le [JetResetSessionContext](./jetresetsessioncontext-function.md), [JetSetSessionContext](./jetsetsessioncontext-function.md) peut modifier ce comportement. Étant donné que la session est toujours un contexte sérialisé, plusieurs opérations de base de données ne peuvent pas être exécutées simultanément sur une seule session, en série uniquement. Toutefois, vous pouvez utiliser plusieurs sessions pour obtenir un accès simultané à la base de données. Les sessions peuvent être utilisées à l’intérieur d’une transaction entre les threads en définissant et en réinitialisant les contextes de session.
 
 Le descripteur de session doit être fermé avec [JetEndSession](./jetendsession-function.md).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

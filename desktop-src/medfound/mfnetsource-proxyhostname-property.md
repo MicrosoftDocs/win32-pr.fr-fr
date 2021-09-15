@@ -4,12 +4,12 @@ ms.assetid: e53c86e9-c326-41c9-aa86-c80a750b9ce3
 title: MFNETSOURCE_PROXYHOSTNAME, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f82746763c937bdca388782cb0882b536c0b9e93b660e0f8e0a04426e5b48a61
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc59d5b827276eb5063febf7a8cb7647002ca72a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525720"
 ---
 # <a name="mfnetsource_proxyhostname-property"></a>MFNETSOURCE \_ propriété PROXYHOSTNAME
 
@@ -31,13 +31,13 @@ Chaîne de caractères larges (**WCHAR** \* )
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ PROXYHOSTNAME** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
 Les applications peuvent utiliser cette propriété pour configurer le localisateur de proxy par défaut lors de la création de l’objet localisateur de proxy. Pour définir la propriété, transmettez un pointeur **IPropertyStore** dans le paramètre *pProxyConfig* de la fonction [**MFCreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator) . Cette propriété doit être définie par l’application lorsque le localisateur de proxy est configuré pour fonctionner en mode manuel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: DocumentBindingGutter
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 45839aa07d740d8498e477809b45aa823460b23f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118464"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525513"
 ---
 # <a name="documentbindinggutter"></a>DocumentBindingGutter
 
@@ -24,11 +24,11 @@ Spécifie la largeur de la marge de liaison.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|----------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                      |
 | Préfixe d’étendue <br/> | Document<br/>                          |
-| Remarques <br/>          | Lié à l’élément DocumentBinding<br/> |
+| Notes <br/>          | Lié à l’élément DocumentBinding<br/> |
 
 
 
@@ -71,13 +71,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
-| Obligatoire<br/>    | String<br/>  | PSK : conditionnel<br/> |
+| Obligatoire<br/>    | Chaîne<br/>  | PSK : conditionnel<br/> |
 | Multiple<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 

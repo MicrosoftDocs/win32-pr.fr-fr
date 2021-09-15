@@ -14,12 +14,12 @@ keywords:
 - plug-ins de zone d’affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebea2cea627f517c20f053397039dc90b588705ec63f727d4ed061ea2a853e4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 281dd0679e6a975b1c867624f2f652f2b3e6b9ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117931833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403793"
 ---
 # <a name="ui-plug-in-options"></a>Options du plug-in d’interface utilisateur
 

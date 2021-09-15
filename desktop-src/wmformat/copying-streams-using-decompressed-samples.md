@@ -9,12 +9,12 @@ keywords:
 - flux, copie à l’aide de données décompressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e044d2a1d456c14c2e2d069e0a117ab6f6de218c062771da9c24bf887ddfdf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88c5c0f98b02090d98814983ad518ee3cd7e5d8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848805"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404709"
 ---
 # <a name="copying-streams-using-decompressed-samples"></a>copie Flux à l’aide d’exemples décompressés
 

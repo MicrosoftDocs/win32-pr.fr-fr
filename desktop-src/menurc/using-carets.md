@@ -22,12 +22,12 @@ keywords:
 - entrée au clavier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c930931df8ce401fbed8cc9af16db3cb52de08ebe9cf539109b426497318d5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6450a3169588b3072d1fee271f4890a7cdeafd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118472645"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530621"
 ---
 # <a name="using-carets"></a>Utilisation des signes d’insertion
 

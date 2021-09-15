@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 17f0c55edceb3c5fb009f49ae97e3765ec3e0255a82f8c75e133344379c24d90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20dd1c9fb2d009de4d8d957b4d5980cc6d6ff45e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119640759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404101"
 ---
 # <a name="__intervaltimerinstruction-class"></a>\_\_IntervalTimerInstruction, classe
 
@@ -114,7 +114,7 @@ Identificateur unique de cet objet **\_ \_ IntervalTimerInstruction** . Cette pr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **\_ \_ IntervalTimerInstruction** est dérivée de [**\_ \_ TimerInstruction**](--timerinstruction.md).
 
@@ -151,7 +151,7 @@ instance of __IntervalTimerInstruction
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

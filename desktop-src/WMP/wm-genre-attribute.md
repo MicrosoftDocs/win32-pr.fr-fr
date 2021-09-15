@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd0ef67b0b41ff59f644b0d52376428ae7a2330d388aa62f9765cb4842eeb561
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aae4a0c6ae27e85fa1ed147a3173c4cc31b20f1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120000979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404386"
 ---
 # <a name="wmgenre-attribute"></a>Attribut WM/genre
 
@@ -34,7 +34,7 @@ L’attribut **WM/genre** est le genre du contenu.
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia numérique.
 
@@ -46,7 +46,7 @@ la constante du kit de développement logiciel (SDK) du Format multimédia Windo
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

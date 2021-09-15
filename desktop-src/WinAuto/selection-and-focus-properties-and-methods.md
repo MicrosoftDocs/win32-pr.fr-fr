@@ -4,12 +4,12 @@ description: à l’instar de nombreux éléments des applications exécutées s
 ms.assetid: 8170fe19-f157-4d7d-8eec-d384e51f1560
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bf5c5bc4a60e664c124e7181f998d9e0a7af6ab82ef9b2d4f030f7541d530ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bbb5eee361707ec4876245eef5b0eb352f8dfd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117745228"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518229"
 ---
 # <a name="selection-and-focus-properties-and-methods"></a>Propriétés et méthodes de sélection et de focus
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 84f19f75c7765c409b67deb5d7115d2d699fecb6cb03e77cb9223f6af4a363e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19522fe60567e55565265ce0c8b5051c7bf7ccdd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118506865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526049"
 ---
 # <a name="texture3dloadintintuint-function"></a>Texture3D :: Load (int, int, uint), fonction
 
@@ -68,7 +68,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Tapez :
 

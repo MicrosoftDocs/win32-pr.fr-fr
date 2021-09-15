@@ -3,9 +3,9 @@ title: Mécanismes d’inertie
 description: Mécanismes d’inertie
 ms.assetid: 188b6936-b36e-4e57-9118-8b61ed134c17
 keywords:
-- Tactile Windows, inertie
-- Tactile Windows, animation lisse
-- Tactile Windows, marge élastique
+- Windows Toucher, inertie
+- Windows Tactile, animation lisse
+- Windows Toucher, marge élastique
 - inertie, mécanique
 - inertie, principes de base du calcul
 - inertie, présentation physique
@@ -16,15 +16,15 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: be79b27900c6921c972710e7e922ab42b834afc1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404213"
 ---
 # <a name="inertia-mechanics"></a>Mécanismes d’inertie
 
-L’inertie est utilisée pour effectuer des calculs pour animer le déplacement des objets et pour activer la prise en charge de la convivialité générique dans les applications qui incorporent la fonction tactile Windows. Cette section illustre les fonctionnalités suivantes qui sont activées par inertie.
+l’inertie est utilisée pour effectuer des calculs pour animer le mouvement des objets et pour activer la prise en charge de la convivialité générique dans les applications qui incorporent Windows Touch. Cette section illustre les fonctionnalités suivantes qui sont activées par inertie.
 
 -   Brève vue d’ensemble de la physique d’inertie.
 -   Animation lisse des objets à l’aide des propriétés de vélocité et de décélération.
@@ -49,16 +49,16 @@ Vous pouvez activer l’animation lisse en interagissant directement avec le mod
 
 | Scénario    | Jeu de propriétés                                                                       | Valeur de décélération | Mise à l’échelle d’entrée de vélocité classique                                  | Notes                                                                                 |
 |-------------|------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| Traduction | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0,003 f             | Aucun                                                           | L’utilisation de cette valeur entraîne des animations à distance plus longues lors de l’utilisation de l’entrée tactile.    |
+| Traduction | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0,003 f             | Aucun.                                                           | L’utilisation de cette valeur entraîne des animations à distance plus longues lors de l’utilisation de l’entrée tactile.    |
 | Traduction | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0,001 f             | Vitesse initiale de 1/20 pour les entrées tactiles, aucune pour les entrées de souris | L’utilisation de cette valeur est animée pour environ une deuxième entrée de vélocité standard donnée.      |
-| Traduction | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0,5 f               | Aucun                                                            | L’utilisation de cette valeur donne un sentiment naturel à l’animation sur les grands écrans tactiles Windows.   |
+| Traduction | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0,5 f               | None                                                            | l’utilisation de cette valeur donne un sentiment naturel à l’animation sur les écrans grand Windows Touch.   |
 | Rotation    | [**DesiredAngularDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration) | 0.000015 f          | Radians convertis en degrés.                                   | L’utilisation de cette valeur entraîne des animations de rotation plus longues lors de l’utilisation de l’entrée tactile.      |
 | Rotation    | [**DesiredAngularDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration) | 0,00001 f           | Delta de rotation 1/40th pour les entrées tactiles, aucune pour les entrées de souris   | Cette valeur est exprimée en radians. vous devez donc utiliser de très petites valeurs de décélération et de vélocité. |
-| Rotation    | [**DesiredAngularDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration) | 0.000005 f          | Aucun                                                            | Cette valeur a un aspect naturel sur les grands affichages tactiles Windows.                        |
+| Rotation    | [**DesiredAngularDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration) | 0.000005 f          | None                                                            | cette valeur a un aspect naturel sur les écrans tactiles de grande Windows.                        |
 
 
 
- 
+ 
 
 ## <a name="smooth-object-animation-using-the-desired-displacement-property"></a>Animation lisse des objets à l’aide de la propriété de déplacement souhaitée
 
@@ -75,7 +75,7 @@ Vous définissez les limites gauche, supérieure, droite et inférieure et les m
 > [!Note]  
 > La définition des propriétés de marge déplace les limites vers l’extérieur. Par exemple, si la limite supérieure est définie sur 50 et que vous définissez ensuite la marge élastique supérieure sur 10, votre limite supérieure devient alors de 40.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -90,9 +90,9 @@ Vous définissez les limites gauche, supérieure, droite et inférieure et les m
 [Manipulations](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 39b2c086442b6a235730f9ec228b377f0a8b8f39a83d7c5043cfbca56dae2345
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6cc56e5538eb45c01ba7c35115e94719119bc4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526385"
 ---
 # <a name="id3dxkeyframedanimationsetgettranslationkeys-method"></a>ID3DXKeyframedAnimationSet :: GetTranslationKeys, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers un tableau alloué par l’utilisateur de vecteurs [**\_ VECTOR3 D
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

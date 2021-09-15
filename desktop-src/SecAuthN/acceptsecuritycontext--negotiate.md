@@ -5,11 +5,11 @@ title: AcceptSecurityContext (Negotiate), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
 ms.openlocfilehash: 13aa91545e5301e10a1f9d36e93e2d4995c15253
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122628690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518401"
 ---
 # <a name="acceptsecuritycontext-negotiate-function"></a>AcceptSecurityContext (Negotiate) (fonction)
 

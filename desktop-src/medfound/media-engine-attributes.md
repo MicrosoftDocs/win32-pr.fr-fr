@@ -4,12 +4,12 @@ ms.assetid: 08282D80-53F5-463F-B87F-522F72823E99
 title: Attributs du moteur multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4413932ff345c2b95f780bcbaecc81d3ddc5e39071986a5270778223b0f752a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff2c6961a9fd9851a39466d22569b62fe3de1683
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974228"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530777"
 ---
 # <a name="media-engine-attributes"></a>Attributs du moteur multimédia
 

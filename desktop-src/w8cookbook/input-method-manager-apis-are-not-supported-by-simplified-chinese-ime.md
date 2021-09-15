@@ -4,12 +4,12 @@ description: Les API du gestionnaire de méthode d’entrée ne sont pas prises 
 ms.assetid: 829E1920-8A5C-4DBB-A844-72DA75D58B92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d0454df8df722992e321fd7fc6bd745382ea215116b2fd5a7797f2032a9c7e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d01d79d569ee7c72508bc217b68bcdf784f0d61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312821"
 ---
 # <a name="input-method-manager-apis-are-not-supported-by-simplified-chinese-ime"></a>Les API du gestionnaire de méthode d’entrée ne sont pas prises en charge par l’éditeur IME chinois simplifié
 

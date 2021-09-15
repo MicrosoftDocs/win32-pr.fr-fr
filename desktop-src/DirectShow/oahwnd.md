@@ -4,12 +4,12 @@ ms.assetid: 80194b19-9c24-48f5-aca6-6ab33bd88c90
 title: OAHWND (Control. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91bf2aba84d9b4d5e7f14243aca732b61fb10eaa973e3830bdab912a4ae4014d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dffe95a4041f6d6c88a4a6cee3160cec37c9f344
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952158"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312382"
 ---
 # <a name="oahwnd"></a>OAHWND
 

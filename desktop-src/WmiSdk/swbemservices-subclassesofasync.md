@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4882388b50c34c5a390f9d242503d33b6c11af81238c9a78c4287e1880435506
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8d325c96ea1a292d8ac3afc76bfea619fe5a143
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118107847"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403574"
 ---
 # <a name="swbemservicessubclassesofasync-method"></a>SWbemServices. SubclassesOfAsync, méthode
 
@@ -140,7 +140,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) par instance. Après la dernière instance, le récepteur d’objets reçoit un événement [**OnCompleted**](swbemsink-oncompleted.md) .
 

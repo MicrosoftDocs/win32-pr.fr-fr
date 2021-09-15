@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b319543a101a4004030fa2339f5432c52ed79d1685c4a09e3a033554f251051
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77cd862fa1c3598a4e81a776004f26ef02290477
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117720976"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517416"
 ---
 # <a name="cdn_shareviolation-notification-code"></a>CDN \_ Code de notification SHAREVIOLATION
 
@@ -55,7 +55,7 @@ Pointeur vers une structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commd
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour indique comment la boîte de dialogue doit gérer la violation de partage.
 
@@ -74,13 +74,13 @@ Pour empêcher l’affichage du message d’avertissement standard, retournez un
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système envoie cette notification uniquement si la boîte de dialogue a été créée à l’aide de la valeur **OFN \_ Explorer** .
 
 Le système envoie cette notification uniquement si la valeur **OFN \_ SHAREAWARE** n’a pas été spécifiée lors de la création de la boîte de dialogue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -117,7 +117,7 @@ Le système envoie cette notification uniquement si la valeur **OFN \_ SHAREAWAR
 [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

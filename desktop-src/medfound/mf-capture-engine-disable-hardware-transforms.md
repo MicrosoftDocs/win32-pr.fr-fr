@@ -4,12 +4,12 @@ ms.assetid: 1C687FEC-276D-4759-A3B8-9A2A31CB0DE1
 title: Attribut MF_CAPTURE_ENGINE_DISABLE_HARDWARE_TRANSFORMS (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7818e79a78ab346ffb8a1967569fdd8711e2b948e0eb656f032770487d8820ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9631804c61fab953793c3f89d1eac3dc2e8f4dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531260"
 ---
 # <a name="mf_capture_engine_disable_hardware_transforms-attribute"></a>\_Attribut de \_ \_ désactivation \_ des \_ transformations matérielles du moteur de capture MF
 
@@ -19,11 +19,11 @@ Désactive l’utilisation des transformations de Media Foundation basées sur l
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, le moteur de capture utilise des décodeurs ou des encodeurs matériels. Pour désactiver l’utilisation du matériel MFTs, affectez la valeur **true** à cet attribut lorsque vous créez le moteur de capture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

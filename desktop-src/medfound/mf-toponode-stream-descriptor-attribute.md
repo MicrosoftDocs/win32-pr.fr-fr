@@ -4,12 +4,12 @@ ms.assetid: 5acafbc1-823f-4b6d-8737-04b3a6a0cf87
 title: Attribut MF_TOPONODE_STREAM_DESCRIPTOR (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92517560f0a1f60681afc1209d6d14d3e3c5d663958d365d18b20558c0003199
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f074a1c1ffde3671779362724676f884c3b6b0b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118244323"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404787"
 ---
 # <a name="mf_toponode_stream_descriptor-attribute"></a>\_Attribut de \_ descripteur de flux TOPONODE MF \_
 
@@ -27,7 +27,7 @@ La valeur de l’attribut est un pointeur vers l’interface [**IMFStreamDescrip
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b6dcea5c501628d355067f124c4919118f5b7841a8f63b5af1c7d715a85405f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19e04584584bf3f6c0f19254df83025a47fc8eb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531441"
 ---
 # <a name="columninfo-class"></a>ColumnInfo, classe
 
@@ -62,7 +62,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres ColumnInfo](./columninfo-members.md)
 

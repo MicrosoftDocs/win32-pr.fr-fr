@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a3a1566ae6ab68a313bea8defa411ea08ca88c773ccc6ebb74a09c8351fb5f40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 712ec7d1d06430c4ac2fac76de4e22f2ed7a2fab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117723422"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403456"
 ---
 # <a name="texturecubegatherredsfloatuint-function"></a>TextureCube :: GatherRed (S, float, uint), fonction
 
@@ -68,13 +68,13 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **TemplateType**
 
 Valeur à quatre composants dont le type est identique au type de modèle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -82,7 +82,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

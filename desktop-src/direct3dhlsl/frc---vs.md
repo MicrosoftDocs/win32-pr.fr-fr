@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b2ecc6a1c903f78fb7c03442809f792e3ddb984d04975d3f5ecb0b5c918f7ab4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6990d5489058d217888f34caf0305badc4cab46d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117907642"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310793"
 ---
 # <a name="frc---vs"></a>FRC-vs
 
@@ -36,7 +36,7 @@ where
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

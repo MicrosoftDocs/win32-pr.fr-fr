@@ -5,21 +5,21 @@ title: Résolution des problèmes liés à COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1b04e37d183dbf3df8d017e780917f955e14a033
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310837"
 ---
 # <a name="troubleshooting-the-com-crm"></a>Résolution des problèmes liés à COM+ CRM
 
 Voici les problèmes les plus courants rencontrés lors du développement et de l’utilisation du CRM COM+ :
 
--   **Messages du journal des événements.** Si l’application serveur CRM rencontre une erreur interne grave, elle échoue (met fin au processus de l’application CRM Server) et écrit un message dans le journal des événements Windows. Reportez-vous au journal des événements si des problèmes surviennent.
+-   **Messages du journal des événements.** si l’application serveur crm rencontre une erreur interne grave, elle échoue (met fin au processus de l’application crm server) et écrit un message dans le journal des événements Windows. Reportez-vous au journal des événements si des problèmes surviennent.
 
--   **Exceptions du compensateur CRM.** L’infrastructure CRM crée le compensateur CRM et lui transmet les notifications de résultat de la transaction et les enregistrements de journal écrits par le processus de travail CRM. Si le compensateur CRM retourne une erreur ou lève une exception, il est intercepté par l’infrastructure CRM et provoque un FailFast. Un message dans le journal des événements indique qu’une exception a été reçue du compensateur CRM. Il est possible de forcer l’ignorance de ces exceptions. (Voir [paramètres du Registre CRM com+](com--crm-registry-settings.md).) Les exceptions du compensateur CRM signifient probablement un problème dans le composant CRM Compensator spécifique et non dans l’infrastructure CRM elle-même.
+-   **Exceptions du compensateur CRM.** L’infrastructure CRM crée le compensateur CRM et lui transmet les notifications de résultat de la transaction et les enregistrements de journal écrits par le processus de travail CRM. Si le compensateur CRM retourne une erreur ou lève une exception, il est intercepté par l’infrastructure CRM et provoque un FailFast. Un message dans le journal des événements indique qu’une exception a été reçue du compensateur CRM. Il est possible de forcer l’ignorance de ces exceptions. (voir [Paramètres du registre CRM COM+](com--crm-registry-settings.md).) Les exceptions du compensateur CRM signifient probablement un problème dans le composant CRM Compensator spécifique et non dans l’infrastructure CRM elle-même.
 
--   **Trace de récupération.** Le suivi de récupération peut être très utile pour déterminer les problèmes lors de la récupération. Pour plus d’informations sur l’activation de la trace de récupération, consultez [paramètres de Registre CRM com+](com--crm-registry-settings.md).
+-   **Trace de récupération.** Le suivi de récupération peut être très utile pour déterminer les problèmes lors de la récupération. pour plus d’informations sur l’activation de la trace de récupération, voir [COM+ CRM Registry Paramètres](com--crm-registry-settings.md).
 
 -   **La tentative d’exécution avec le CRM n’est pas activée.** Il n’est pas suffisant simplement de placer les composants de travail CRM et du compensateur CRM dans l’application serveur COM+. La prise en charge de CRM doit être activée spécifiquement pour l’application serveur COM+ spécifique à l’aide de l’option **activer les gestionnaires de ressources de compensation** sous l’onglet **avancé** des pages de propriétés de l’application com+. (Pour plus d’informations, consultez [Configuration des composants CRM de com+](configuring-com--crm-components.md) .) En cas de tentative d’utilisation d’un CRM à l’intérieur d’une application serveur pour laquelle le CRM n’est pas activé, un code d’erreur est renvoyé au traitement CRM.
 

@@ -4,12 +4,12 @@ ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 title: InitializeSecurityContext (CredSSP), fonction (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 5ba38dd10552f90ecfcc5045b96edc5e62aff1f8a2beec0f2a728fc1f0be8c52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa359fc0cedf96f43d93cfb7d962035453328759
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518381"
 ---
 # <a name="initializesecuritycontext-credssp-function"></a>Fonction InitializeSecurityContext (CredSSP)
 
@@ -174,7 +174,7 @@ Pointeur vers une structure d' [**horodatage**](timestamp.md) qui reçoit l’he
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, elle retourne l’un des codes de réussite suivants.
 

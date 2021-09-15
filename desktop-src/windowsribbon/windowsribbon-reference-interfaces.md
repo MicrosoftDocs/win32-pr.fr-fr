@@ -4,12 +4,12 @@ description: documentation de référence pour les interfaces de l’infrastruct
 ms.assetid: d5fd6e4f-ca10-4010-aab4-d2728b0ac53c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e159d66b8eac8501f231e847555823da431e7d1be3417e0fb803f0929be679bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5c168a342b7f362d2d679d578a88011c9d14977
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404731"
 ---
 # <a name="interfaces-ribbon-framework"></a>Interfaces (infrastructure du ruban)
 

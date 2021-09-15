@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: d44bf19f651f9391dcfc872798f709c463a74ce22b328c6942a32ca1a98636a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed1410148a72c57b860fdfdaee447dcca505d99c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119889758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311898"
 ---
 # <a name="protocolinfo-structure"></a>PROTOCOLINFO, structure
 
@@ -78,7 +78,7 @@ Commentaire décrivant le protocole.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

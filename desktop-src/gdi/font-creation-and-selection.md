@@ -4,12 +4,12 @@ ms.assetid: 7183be25-a8e4-47a0-a34a-63eadf6ca10d
 title: Création et sélection de polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 555293e78d5ddc60284f8cb36aa3da9cfcc84062e1954059af4ead1ad9e19c5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37b4a70a1a49fc318ca69998d97e15fca838668d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037937"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525873"
 ---
 # <a name="font-creation-and-selection"></a>Création et sélection de polices
 

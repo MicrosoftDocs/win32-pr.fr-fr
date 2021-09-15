@@ -4,12 +4,12 @@ ms.assetid: 4ec3e76a-2531-4869-a5b0-c595198e8345
 title: Joindre des lignes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2aa93eac405bd77f6d87b2a8b86edc8a4043a57de3e4c4d5f31fb45acecc955
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b2ab0bc53239b9a0d9327a26e25eed1c93c685b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118066973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517216"
 ---
 # <a name="joining-lines"></a>Joindre des lignes
 

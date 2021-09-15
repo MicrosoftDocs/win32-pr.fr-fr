@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 7f4eaf3019ad46599fe572cdc403738d281f97eecd0b09752cdcc35335abb856
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d12c0fbd296610174c8b8363602288f59fcb9714
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118224063"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313077"
 ---
 # <a name="folderitemgetlink-property"></a>FolderItem. GetLink, propriété
 
@@ -157,7 +157,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

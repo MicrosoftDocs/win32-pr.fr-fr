@@ -4,12 +4,12 @@ description: documentation de référence pour les éléments de balisage de vue
 ms.assetid: 53672895-fb8e-4e3f-ad9a-472c5d660cac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ee8af34934a25efb3fdc7b1f1f3bfc280d5b5914b128bc416c5f584f1fd31f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d066a7665a0336fa8ce619d189db0ea7d45e29f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118438955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404735"
 ---
 # <a name="views"></a>Les vues
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Scripts d’objets d’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd639e1b1ca482a2b1aa95a4e0a6a26672480660440af290c043814ce5f8e965
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e30d3269b137686472f54cdb8cf53720b4aad978
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119050307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403428"
 ---
 # <a name="scripting-api-objects"></a>Scripts d’objets d’API
 
@@ -23,7 +23,7 @@ Le tableau suivant répertorie les objets de script WMI et la façon dont ils so
 | Object                                               | Description                                                                                                                                                                                                                                            |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**SWbemDateTime**](swbemdatetime.md)               | Construit et analyse les valeurs [DateTime](date-and-time-format.md) CIM.                                                                                                                                                                                 |
-| [**SWbemEventSource**](swbemeventsource.md)         | Récupère les événements conjointement à [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md).                                                                                                                               |
+| [**SWbemEventSource**](swbemeventsource.md)         | Récupère les événements conjointement avec [**SWbemServices. ExecNotificationQuery**](swbemservices-execnotificationquery.md).                                                                                                                               |
 | [**SWbemLastError**](swbemlasterror.md)             | Fournit des informations d’erreur étendues lorsqu’une erreur se produit.                                                                                                                                                                                              |
 | [**SWbemLocator**](swbemlocator.md)                 | Obtient un objet [**SWbemServices**](swbemservices.md) qui peut accéder à WMI sur un ordinateur hôte particulier.                                                                                                                                     |
 | [**SWbemMethod**](swbemmethod.md)                   | Contient une définition de méthode WMI unique.                                                                                                                                                                                                               |

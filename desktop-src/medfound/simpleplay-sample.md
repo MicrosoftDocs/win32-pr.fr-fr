@@ -4,12 +4,12 @@ ms.assetid: 1acd6f98-af59-47fd-9a3e-38a668fb6acf
 title: Exemple SimplePlay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 331d91032931b26f7a0d9bd3938bcf484e09ee0794202048069213379d5ed51c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e02fee507ffed7bd91664f67ffb725565f47c721
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120112919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525617"
 ---
 # <a name="simpleplay-sample"></a>Exemple SimplePlay
 
@@ -28,7 +28,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 -   [**IMFPMediaPlayer**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer)
 -   [**IMFPMediaPlayerCallback**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

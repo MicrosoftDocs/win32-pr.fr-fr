@@ -4,12 +4,12 @@ ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
 title: Indicateurs de type de protection OPM (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ee61b17ee1708f8c2fc7e2f91b33d966b17f8fd2e198e2772c30ccccf837d04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1cc8b30a18f5c7bf68fb01775751aa56e1e619f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119101888"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525669"
 ---
 # <a name="opm-protection-type-flags"></a>Indicateurs de type de protection OPM
 
@@ -29,7 +29,7 @@ Les indicateurs figurant dans le tableau suivant spécifient les mécanismes de 
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces indicateurs sont utilisés dans les commandes et les demandes d’État OPM suivantes.
 
@@ -64,7 +64,7 @@ La sémantique OPM prend également en charge les éléments suivants :
 
 Lorsque la sémantique COPP est utilisée, l’interface [**IOPMVideoOutput**](/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput) ne prend pas en charge les répéteurs HDCP. En outre, elle ne gère pas la révocation HDCP. Au lieu de cela, l’application doit analyser le SRM pour déterminer si un appareil HDCP a été révoqué.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

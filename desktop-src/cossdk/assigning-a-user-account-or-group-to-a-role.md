@@ -4,12 +4,12 @@ ms.assetid: 1cf7dc38-185a-4cc4-8f4c-44b6af4c5f4a
 title: Attribution d’un compte d’utilisateur ou d’un groupe à un rôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0d2883f9aedb5f3a0edf5dc33de54a03767e53a48f2dd8b9b6ea86c3a6211f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d53b37c9f0265e02c7abdf74eeaf81bd0b12e3d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403562"
 ---
 # <a name="assigning-a-user-account-or-group-to-a-role"></a>Attribution d’un compte d’utilisateur ou d’un groupe à un rôle
 

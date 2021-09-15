@@ -9,12 +9,12 @@ keywords:
 - Lecteur Windows Media, tapez 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a45151ed78d4c91c115e35812f7da201574bbf07427346a736095a4a44ba3eac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4212db224b54de44dd115317bea8e961fe3351a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403794"
 ---
 # <a name="type-2-online-stores"></a>Tapez 2 magasins en ligne
 

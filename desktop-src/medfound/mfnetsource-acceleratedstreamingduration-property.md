@@ -4,12 +4,12 @@ ms.assetid: 3f9cd762-f393-4130-ba25-d16da0642093
 title: MFNETSOURCE_ACCELERATEDSTREAMINGDURATION, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ec37cfd7dd0aa8d60c3e192ae0f445f8a121e9e3cd3f85d46e8c18b21fc2b06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57980fbe08d3c6f48cf2638b35e88c455e566e75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531169"
 ---
 # <a name="mfnetsource_acceleratedstreamingduration-property"></a>MFNETSOURCE \_ propriété ACCELERATEDSTREAMINGDURATION
 
@@ -41,7 +41,7 @@ cette propriété s’applique à la fonctionnalité de démarrage rapide de Ser
 
 La valeur par défaut de cette propriété est 10 000 millisecondes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

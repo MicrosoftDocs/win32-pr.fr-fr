@@ -4,12 +4,12 @@ ms.assetid: 1347c3d6-67f6-4cea-9a93-9fc754755b47
 title: D3DVERTEXTEXTURESAMPLER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f8720562d256d29192a51d292ad8bc7f7cef622600f253972b51c046dbacd53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0f9526f38bac0f1f1af94b8714aa9b3c685a64c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119750609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517508"
 ---
 # <a name="d3dvertextexturesampler"></a>D3DVERTEXTEXTURESAMPLER
 

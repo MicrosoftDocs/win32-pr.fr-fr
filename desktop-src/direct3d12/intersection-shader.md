@@ -12,12 +12,12 @@ api_name:
 - RAY_FLAG
 api_type:
 - NA
-ms.openlocfilehash: d7f9f81fdedae0fc6f6aa0448e6771c331af9c0d8924ab0f091d281565e4cfa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f20d9ceb90b716ca5e5c04fb796a8b20f535825d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119850879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403541"
 ---
 # <a name="intersection-shader"></a>Nuanceur d’intersection
 

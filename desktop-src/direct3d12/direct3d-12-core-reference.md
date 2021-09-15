@@ -5,12 +5,12 @@ ms.assetid: 588202FB-A187-4727-BF53-31BEA6CFB9E9
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 11/27/2018
-ms.openlocfilehash: 27acf8afa68c292fd3cc4bedfbf3a606c2a61b11e089d99303b2021ad2fad040
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 841ec37a5b3c7f125f169c340a942f99b3bfee73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118529913"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404341"
 ---
 # <a name="core-reference-direct3d-12"></a>Référence principale (Direct3D 12)
 

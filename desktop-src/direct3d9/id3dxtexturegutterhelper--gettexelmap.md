@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 321f5075bdfde3a5a3d707089867356b3f702230dd81d2a1c29b513a8cf8e1ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af401eaa98ac4255b15961477b1ba2316e29edf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118800372"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403944"
 ---
 # <a name="id3dxtexturegutterhelpergettexelmap-method"></a>ID3DXTextureGutterHelper :: GetTexelMap, méthode
 
@@ -49,19 +49,19 @@ Pointeur vers l’emplacement, en pixels (u, v), coordonnées de texture où cha
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée. D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour les [**texels de classe 2 et 4**](id3dxtexturegutterhelper.md), les coordonnées de texture retournées (u, v) correspondent au point le plus proche sur le triangle le plus proche.
 
 L’application doit allouer et gérer pTexelData.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

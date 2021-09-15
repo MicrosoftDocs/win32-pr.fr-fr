@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/04/2021
 ms.openlocfilehash: 2059bca83236ae51cbd69a9480624c3e540f18d6
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121813286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517052"
 ---
 # <a name="cd3dx12_existing_collection_subobject-class"></a>Classe CD3DX12_EXISTING_COLLECTION_SUBOBJECT
 

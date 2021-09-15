@@ -3,12 +3,12 @@ description: Extension du presse-papiers avec des gestionnaires de format de don
 title: Comment créer des gestionnaires de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a3761b4dc8ce3e7d50d967d2267971537d3609e7a7cf76785623734558adac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33ecc08769068d975c1fa16ef1385f362c67e43c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119715049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530417"
 ---
 # <a name="how-to-create-data-handlers"></a>Comment créer des gestionnaires de données
 

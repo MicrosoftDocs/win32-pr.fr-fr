@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dedd11a35d52d19a4fcff4299dce688e8163ecd19d2bf9e4b49e19cb1997b293
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ced5d213d68fa3c4386ecf6f05783bd303bad05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118207506"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404517"
 ---
 # <a name="wiaitempropertyid"></a>WiaItemPropertyId
 
@@ -24,7 +24,7 @@ Le tableau suivant présente le mappage entre les conventions d’affectation de
 
 | Préfixe de script  | Rubrique C++ (préfixe)                                                                    |
 |----------------|---------------------------------------------------------------------------------------|
-| Appareil         | [**Constantes de propriété d’appareil courantes (WIA \_ DPA)**](-wia-wiaitempropcommondevice.md)   |
+| Périphérique         | [**Constantes de propriété d’appareil courantes (WIA \_ DPA)**](-wia-wiaitempropcommondevice.md)   |
 | CameraDevice   | [**Constantes de propriété de périphérique d’appareil photo (WIA \_ DPC)**](-wia-wiaitempropcameradevice.md)   |
 | ScannerDevice  | [**Constantes de propriété de périphérique de scanneur ( \_ DPS WIA)**](-wia-wiaitempropscannerdevice.md) |
 | VideoDevice    | [**Constantes de propriété d’appareil vidéo WIA (WIA \_ DPV)**](-wia-wiaitempropvideodevice.md) |

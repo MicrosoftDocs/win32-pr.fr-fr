@@ -4,12 +4,12 @@ ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: Définition des propriétés dans le récepteur de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dc61c07812f669fc3006447abce932d79f4b1342eca07bbdcd9f68102d4275a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64b6b000ed04c7858251f7388d3edc6a40e0b213
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525633"
 ---
 # <a name="setting-properties-in-the-file-sink"></a>Définition des propriétés dans le récepteur de fichiers
 

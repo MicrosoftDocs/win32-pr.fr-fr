@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), exécuter des fichiers à partir de sources réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e385a37511867cf016b08811b10814fc0cb779ae2d1c7dfa55c5bd4f32a3bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2616443a20ba83167c32cfdc400d4d09fce4b99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404662"
 ---
 # <a name="reading-asf-data-over-a-network"></a>Lecture de données ASF sur un réseau
 

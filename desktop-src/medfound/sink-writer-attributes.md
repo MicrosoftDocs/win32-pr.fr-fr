@@ -4,12 +4,12 @@ ms.assetid: f27b9beb-f35f-400e-a337-50d9de21e91e
 title: Attributs du writer du récepteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18bf64dd4279ef2e35ed86f50c4444412b3cc70205f6aad52adac8a41895af11
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e23dbca06c3ff1a4ac80b8e68413fdd0816d71a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120012367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525613"
 ---
 # <a name="sink-writer-attributes"></a>Attributs du writer du récepteur
 

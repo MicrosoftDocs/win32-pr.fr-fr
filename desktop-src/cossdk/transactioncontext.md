@@ -11,12 +11,12 @@ api_name:
 - TransactionContext
 api_type:
 - COM
-ms.openlocfilehash: aa0a90cee2b0af7d5ebe3679dca46aa04c6326fb5fd62fe5f57699d610b9efe8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 595b5a3192b87420855eb43f1e1e33df37a45c23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127310861"
 ---
 # <a name="transactioncontext-class"></a>TransactionContext, classe
 
@@ -44,13 +44,13 @@ Un client non transactionnel utilise cette classe pour commencer une transaction
 
 La classe **transactionContext** limite la réutilisation de la logique métier qui dirige la transaction. Pour cette raison, il est recommandé d’utiliser des objets instanciés à partir de la classe **transactionContext** avec modération.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour créer cet objet, appelez [**IObjectContext :: CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance).
 
 pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Un objet TransactionContext peut être déclaré à l’aide de « COMSVCSLib. TransactionContext » comme nom de classe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

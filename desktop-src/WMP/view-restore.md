@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a4bb4948c9c21b87ede4c88c85d2fc7681335a2bf6adb32bfa5c51638b773e74
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db92fc5e796acc55fe9c4faf93417d648652415e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119615369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518317"
 ---
 # <a name="viewrestore"></a>VIEW. Restore
 

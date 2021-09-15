@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3f50942d32691d9dc76aa30ddcef36df390fccfe058c31af3527c0eafe0d7df0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 49c663741da50620e03cfde9f13d67a0c0063453
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120067979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403874"
 ---
 # <a name="vertex-shader-source-register-modifiers"></a>Modificateurs de Registre source du nuanceur de sommets
 

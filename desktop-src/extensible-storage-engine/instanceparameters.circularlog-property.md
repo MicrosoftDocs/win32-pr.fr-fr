@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 9f9a77aa0d0f60b49269dc939787b165a3f2f948
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517288"
 ---
 # <a name="instanceparameterscircularlog-property"></a>InstanceParameters. CircularLog, propriété
 
@@ -66,7 +66,7 @@ Type : [System. Boolean](/dotnet/api/system.boolean)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [InstanceParameters, classe](./instanceparameters-class.md)
 

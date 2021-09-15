@@ -4,12 +4,12 @@ ms.assetid: 5d486ca8-4c8a-4a15-9d38-7430d0a169ed
 title: Contrôle VolumeSelectCombo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebaed2e7aa4445c7a147cad359a1d7b8a9985939c61ee49e8bde832c1764a95f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed67391d77259cb4306de09ce92464fe6fcffa92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118375851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312257"
 ---
 # <a name="volumeselectcombo-control"></a>Contrôle VolumeSelectCombo
 

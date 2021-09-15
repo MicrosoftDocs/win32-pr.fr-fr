@@ -4,12 +4,12 @@ ms.assetid: b859c2c9-0985-451c-be05-e17101bc2f3c
 title: System. DateImported
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3078bd3be9784ad0f170afae0901a3db058da77894a27ba21438b32b3da82c18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19b33e8a4a915eca0673913b5e6ab766067d1689
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118728987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525492"
 ---
 # <a name="systemdateimported"></a>System. DateImported
 
@@ -44,7 +44,7 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

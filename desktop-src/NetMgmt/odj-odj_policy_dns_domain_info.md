@@ -5,12 +5,12 @@ ms.assetid: 44b1145f-3bdd-42cd-a88f-9b41888cc644
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: d0a83ccade72a11449ca0cc9b35b9fc58e9c53d48f8248a9f6074cdb087cc0c7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 36b7759451811844a91b3ee66ff3460fa4c4db34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517793"
 ---
 # <a name="odj_policy_dns_domain_info-structure"></a>Structure ODJ_POLICY_DNS_DOMAIN_INFO
 

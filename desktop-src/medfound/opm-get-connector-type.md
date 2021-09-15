@@ -4,12 +4,12 @@ ms.assetid: c5862758-0125-4dbe-af72-5ed4a85bd702
 title: OPM_GET_CONNECTOR_TYPE (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3099da66193048b52011e58eb5ce3f925d451fc1ad26b193f2955f6012f0e607
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a95ca88b079aa93b4c2665fe7aa954eb58cfc1a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525685"
 ---
 # <a name="opm_get_connector_type"></a>\_type de \_ connecteur d’extraction OPM \_
 
@@ -20,14 +20,14 @@ Retourne le type de connecteur physique de la sortie vidéo.
 | Condition requise | Valeur |
 |--------------|-----------------------------------------------------------------------------|
 | GUID de la demande | \_type de \_ connecteur d’extraction OPM \_                                                   |
-| Données d’entrée   | Aucun                                                                        |
+| Données d’entrée   | None                                                                        |
 | Retourner les données  | Structure [**d' \_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de connecteur est retourné dans le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . La valeur de **ulInformation** est égale à l’un des types de connecteur listés dans les [**indicateurs de type de connecteur OPM**](opm-connector-type-flags.md).
 
@@ -39,7 +39,7 @@ Les applications doivent ignorer l’indicateur **\_ interne du \_ \_ \_ type \_
 
 Cette requête est équivalente à la \_ requête DXVA COPPQueryConnectorType utilisée dans le protocole Copp (Certified Output Protection Protocol).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

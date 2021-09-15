@@ -4,12 +4,12 @@ ms.assetid: b6c450c0-e97f-472d-ae09-fa1e062aeb9e
 title: OPM_GET_DVI_CHARACTERISTICS (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f507d9d9c1f1df0efe1b3c5b0696c178ed6fdfe5d285fde2eb5d1def62e8d007
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 55a6f996b0397db509a45af6e243359c581df333
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525681"
 ---
 # <a name="opm_get_dvi_characteristics"></a>\_ \_ caractéristiques DVI de l’offre OPM \_
 
@@ -20,14 +20,14 @@ Demande si un connecteur DVI (Digital Video Interface) prend en charge DVI versi
 | Condition requise | Valeur |
 |--------------|-----------------------------------------------------------------------------|
 | GUID de la demande | \_ \_ caractéristiques DVI de l’offre OPM \_                                              |
-| Données d’entrée   | Aucun                                                                        |
+| Données d’entrée   | None                                                                        |
 | Retourner les données  | Structure [**d' \_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette requête est réussie, le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) contient l’une des valeurs suivantes.
 
@@ -44,7 +44,7 @@ Si cette requête est réussie, le membre **ulInformation** de la structure d' [
 
 Cette requête est prise en charge uniquement lorsque le type de connecteur physique est le type de \_ connecteur OPM \_ \_ DVI. Pour obtenir le type de connecteur, envoyez la requête de [**\_ \_ \_ type obtenir le connecteur OPM**](opm-get-connector-type.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

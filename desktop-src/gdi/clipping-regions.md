@@ -4,12 +4,12 @@ ms.assetid: d9238ee5-3305-4e85-aef3-2c5c8b74aacd
 title: Régions de découpage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0647d44d82e289b702e9111b62c5a138c8a0fa059428a6173af36f4eeca657
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a830e05b2a9ce709183f23fad66f937c8c512acd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105914"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530904"
 ---
 # <a name="clipping-regions"></a>Régions de découpage
 

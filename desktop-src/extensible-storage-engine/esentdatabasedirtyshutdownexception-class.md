@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e56b68f893f0669733efc620d4b9fc68446d0f120ae0fa4dfdc4d2a5bc947e86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7fcb7a3dffd5626bcf8bfc926103951747ee07e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119736029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530941"
 ---
 # <a name="esentdatabasedirtyshutdownexception-class"></a>EsentDatabaseDirtyShutdownException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentDatabaseDirtyShutdownException](./esentdatabasedirtyshutdownexception-members.md)
 

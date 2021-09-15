@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b1044d01ac3ca6a8cc4f1212232bfcc630eb73831f90eb7fd5f423f5dc38d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 183b25547e456cb90cac4d2137354679e13d8a96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118118355"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404611"
 ---
 # <a name="textfontface"></a>TEXT. fontFace
 
@@ -31,7 +31,7 @@ L’attribut **fontFace** spécifie ou récupère le caractère du contrôle de 
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut peut être le nom de toute police valide disponible sur Windows. Lecteur Windows Media ne prend pas en charge l’installation de polices, vous devez choisir une police sur le système souhaité.
 
@@ -39,7 +39,7 @@ si le **fontFace** spécifié n’est pas disponible sur le système de l’util
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

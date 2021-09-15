@@ -23,12 +23,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab336b147557722f1bec72bfe662b12599a64ee1622b31bdad6a92a05af6d92e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84704e59ed43466c47435f4804cb4dedc9c3a92d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119483009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404589"
 ---
 # <a name="eaphost-constants"></a>Constantes EAPHost
 
@@ -192,11 +192,11 @@ Windows Vista avec SP1 ou version ultérieure : indique que le champ d’entré
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Rôle | Version minimale du système d’exploitation prise en charge |
+| Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
 | Client<br/> | Windows 8 \[ applications de bureau uniquement\]<br/> |
 | Serveur<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/> |

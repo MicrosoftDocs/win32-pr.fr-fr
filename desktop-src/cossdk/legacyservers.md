@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3968b3cb7068f994d3ff44e7182add2b1e3cb7a44c0d73019cf583a0e8c7f70f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ea542fa539ea1eb1cceae0f4cb8ba8dc2012085
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118306357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311013"
 ---
 # <a name="legacyservers-collection"></a>Collection LegacyServers
 
@@ -58,7 +58,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------|
 | Description    | Nom de la classe. |
-| Accès         | Lecture seule               |
+| Access         | Lecture seule               |
 | Type           | String                 |
 | Valeur par défaut        | N/A                    |
 | Système minimal | Windows XP             |
@@ -74,7 +74,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | GUID du composant. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                  |
+| Access         | Lecture seule                                                                                                                                                  |
 | Type           | String                                                                                                                                                    |
 | Valeur par défaut        | N/A                                                                                                                                                       |
 | Système minimal | Windows XP                                                                                                                                                |
@@ -90,7 +90,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------------|
 | Description    | Chemin d’accès du fichier pour le composant. |
-| Accès         | Lecture seule                         |
+| Access         | Lecture seule                         |
 | Type           | String                           |
 | Valeur par défaut        | N/A                              |
 | Système minimal | Windows XP                       |
@@ -106,7 +106,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------|
 | Description    | Spécifie le chemin d’accès complet à une application serveur locale 32 bits. |
-| Accès         | Lecture seule                                                      |
+| Access         | Lecture seule                                                      |
 | Type           | String                                                        |
 | Valeur par défaut        | N/A                                                           |
 | Système minimal | Windows XP                                                    |
@@ -122,7 +122,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom identifiant le composant. Cette propriété est retournée lorsque la méthode de propriété [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                            |
+| Access         | Lecture seule                                                                                                                                                            |
 | Type           | String                                                                                                                                                              |
 | Valeur par défaut        | N/A                                                                                                                                                                 |
 | Système minimal | Windows XP                                                                                                                                                          |

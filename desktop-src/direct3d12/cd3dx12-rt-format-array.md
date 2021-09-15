@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a9c153b98e84176d2682f028657176902fb68ebc0e8e1e52c69c196842dc2fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c05b7ae9e51d2d6b2a43f45dc83bda2074f6b734
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517025"
 ---
 # <a name="cd3dx12_rt_format_array-structure"></a>\_Structure de \_ tableau de format CD3DX12 RT \_
 
@@ -72,7 +72,7 @@ Conversion implicite en structure de [**\_ tableau de \_ format \_ D3D12 RT**](/
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 76989eb3-cd95-4dfc-ba0f-7563860b531c
 title: Brouillard du vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76196ba0489ac58529bcb5c0500a269c8ee27b87040ec96f64ef228377dc8abd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 35cd880bda7ebffd36bd95bec5f8565e104eaa15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120068973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530953"
 ---
 # <a name="vertex-fog-direct3d-9"></a>Brouillard du vertex (Direct3D 9)
 

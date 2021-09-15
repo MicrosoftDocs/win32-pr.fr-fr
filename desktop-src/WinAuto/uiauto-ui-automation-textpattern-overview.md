@@ -23,11 +23,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 30e0eb87174ed11bb2d3f2e409309d6a62261dad
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031292"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403969"
 ---
 # <a name="ui-automation-support-for-textual-content"></a>Prise en charge d’UI Automation pour le contenu textuel
 
@@ -44,7 +44,7 @@ Cette section décrit comment utiliser l’automatisation de l’interface utili
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Modèles de contrôle Text et TextRange](uiauto-implementingtextandtextrange.md)
@@ -56,6 +56,6 @@ Cette section décrit comment utiliser l’automatisation de l’interface utili
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

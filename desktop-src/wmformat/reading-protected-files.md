@@ -17,12 +17,12 @@ keywords:
 - DRM (gestion des droits numériques), WMStubDRM. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c700629fd66fdf0aa8bb1ff837b968232cf9301c39b951dd0a74678c9f1312
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4b2110708a28daae1e86ba3dac2ea1f18ad16fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117846100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404647"
 ---
 # <a name="reading-protected-files"></a>Lecture des fichiers protégés
 

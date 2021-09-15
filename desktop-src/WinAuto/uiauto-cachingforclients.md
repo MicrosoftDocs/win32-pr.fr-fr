@@ -16,12 +16,12 @@ keywords:
 - modèles de contrôle, mise en cache
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae14fb607dd66ab1a4ea99cd9836f2f74e5c863afef8465843d3ea174186ef29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69f75a7dc9491565fdfdc0ecc73808c2fb6a9d82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118324973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518176"
 ---
 # <a name="caching-ui-automation-properties-and-control-patterns"></a>Mise en cache des propriétés UI Automation et des modèles de contrôle
 
@@ -93,7 +93,7 @@ Pour obtenir des exemples de code qui montrent comment utiliser les fonctionnali
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)

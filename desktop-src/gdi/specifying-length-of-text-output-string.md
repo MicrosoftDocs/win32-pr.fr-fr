@@ -4,12 +4,12 @@ ms.assetid: 695fd0f9-abd4-4666-acad-2c409624ddc6
 title: Spécification de la longueur de la chaîne de sortie de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e35a673a23a310da33536f389c85a44af68b895e4f05e0a0f835656e7bc3fbd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c120026d1b65170b6fe35bc65400280f6f1ffa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518492"
 ---
 # <a name="specifying-length-of-text-output-string"></a>Spécification de la longueur de la chaîne de sortie de texte
 

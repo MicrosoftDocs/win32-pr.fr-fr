@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: ecc7f99e26088ff03b626604279bffe5c64ddb82b95a6f6219b637b3fce5a59b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b4d22740a9ad06a9848dc7649d62ac06d37a056
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118527303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403375"
 ---
 # <a name="d3dvertexblendflags-enumeration"></a>Énumération D3DVERTEXBLENDFLAGS
 
@@ -86,13 +86,13 @@ Utilisez une matrice unique avec un poids de 1,0.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les membres de ce type sont utilisés avec l' \_ État de rendu D3DRS VERTEXBLEND.
 
 La fusion géométrique (mélange de vertex multimatrix) requiert que votre application utilise un format de vertex qui a des poids de fusion (bêta) pour chaque vertex.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

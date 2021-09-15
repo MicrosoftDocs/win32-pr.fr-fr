@@ -12,12 +12,12 @@ keywords:
 - API étendues clientes, enregistreurs DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c24067e082de38bc396153be918025e2608246e39185c45eaa84bfe0e5c02407
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0ed40b7f9dd9c486b1ef22e5042261c5ce03d2f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120007049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404704"
 ---
 # <a name="creating-and-initializing-a-drm-writer"></a>Création et initialisation d’un enregistreur DRM
 

@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 307ab18a0f956e5a2f4f14e9782f90b8ec6bff723da04aa9866566d95c53dca7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0122f5777303506be5fd81d0966b00f828bf2073
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118543131"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517620"
 ---
 # <a name="ibackgroundcopycallbackjoberror-method"></a>IBackgroundCopyCallback :: JobError, méthode
 
@@ -58,11 +58,11 @@ Contient des informations sur l’erreur, telles que le fichier en cours de trai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode doit retourner **S_OK**; dans le cas contraire, continue à appeler cette méthode jusqu’à ce que **S_OK** soit retourné. Pour des raisons de performances, vous devez limiter le nombre de fois où vous retournez une valeur autre que **S_OK** à plusieurs fois. Au lieu de retourner un code d’erreur, envisagez de retourner toujours **S_OK** et de gérer l’erreur en interne. L’intervalle auquel cette méthode est appelée est arbitraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après avoir déterminé la cause de l’erreur, effectuez l’une des options suivantes :
 
@@ -74,7 +74,7 @@ Les erreurs temporaires ne génèrent pas d’appels à la méthode [**JobError*
 
 Retourne BG_ERROR_CONTEXT_REMOTE_FILE si la tâche atteint une erreur HTTP 403, BG_ERROR_CONTEXT_NONE dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

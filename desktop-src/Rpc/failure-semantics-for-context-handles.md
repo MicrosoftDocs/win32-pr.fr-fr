@@ -4,12 +4,12 @@ description: Cette rubrique décrit la sémantique d’échec pour les descripte
 ms.assetid: fcf28519-39ad-4823-bc27-f3502e4d540c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9549a659c56c4761de8df4f43c54b823d32f74786af928821ba82b6effc3bba7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4528b3f5160b92a4e6f10dbcf877e9fec59f81b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120021269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311542"
 ---
 # <a name="failure-semantics-for-context-handles"></a>Sémantique d’échec pour les handles de contexte
 

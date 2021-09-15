@@ -5,12 +5,12 @@ ms.assetid: 10773feb-623c-4256-a973-f006ed66d936
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 28e8b9e1a6d73f3d93e1700f812b21a0edf21982b7d5b9c927f4e7391b961850
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b07d0b8e5572763cc42fe2f5b19a4dde2cfe2157
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517772"
 ---
 # <a name="op_cert_pfx_store-structure"></a>Structure OP_CERT_PFX_STORE
 

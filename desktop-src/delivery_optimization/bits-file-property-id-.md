@@ -17,17 +17,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 1b6c6b8a4de359e8313e3127080f2cc17ae6478c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509311"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518016"
 ---
 # <a name="bits_file_property_id-enumeration"></a>Énumération BITS_FILE_PROPERTY_ID
 
 L’énumération **BITS_FILE_PROPERTY_ID** spécifie des valeurs qui définissent des valeurs d’ID correspondant aux propriétés de **BackgroundCopyFile** .
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -55,8 +55,8 @@ Ensemble complet d’en-têtes de réponse HTTP du dernier paquet de réponse HT
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl> |
 
 

@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITextChildProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e5c7bfb1852a02efc7baa789e137a4c05e2c2e85a65606109b26a622dfafcf4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d21102abfef7cee0553850ac01c4f759f81988e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117929038"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518181"
 ---
 # <a name="textchild-control-pattern"></a>Modèle de contrôle TextChild
 
@@ -51,7 +51,7 @@ Ces propriétés et méthodes sont requises pour implémenter l’interface [**I
 
 
 
-| Membres nécessaires                                                     | Type de membre | Remarques |
+| Membres nécessaires                                                     | Type de membre | Notes |
 |----------------------------------------------------------------------|-------------|-------|
 | [**TextContainer**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextchildprovider-get_textcontainer) | Propriété    | Aucun  |
 | [**TextRange**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextchildprovider-get_textrange)         | Propriété    | Aucun  |
@@ -64,7 +64,7 @@ Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-**Méthodologique**
+**Conceptuel**
 
 - [Types de contrôle et leurs modèles de contrôle pris en charge](uiauto-controlpatternmapping.md)
 - [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)

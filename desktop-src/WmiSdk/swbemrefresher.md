@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 94e29b7795f113467152b2708aba8b7c3d80b438b8e55b679bddbec4d5107f26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f763ec4f738b612b9f2fef32871a63d6b170f96d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117921583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403476"
 ---
 # <a name="swbemrefresher-object"></a>Objet SWbemRefresher
 
@@ -47,8 +47,8 @@ L’objet **SWbemRefresher** a ces méthodes.
 | [**AddEnum**](swbemrefresher-addenum.md)     | Ajoute un nouvel énumérateur à l’objet actualisateur.<br/>                                             |
 | [**DeleteAll**](swbemrefresher-deleteall.md) | Supprime tous les éléments de la collection dans l’objet actualisateur.<br/>                             |
 | [**Élément**](swbemrefresher-item.md)           | Retourne un élément d’actualisation spécifié à partir de la collection.<br/>                                    |
-| [**Générer**](swbemrefresher-refresh.md)     | Met à jour tous les éléments contenus dans l’objet actualisateur.<br/>                          |
-| [**Installez**](swbemrefresher-remove.md)       | Supprime l’objet d’élément d’actualisation ou le jeu d’objets avec un index spécifié de l’actualisateur.<br/> |
+| [**Actualiser**](swbemrefresher-refresh.md)     | Met à jour tous les éléments contenus dans l’objet actualisateur.<br/>                          |
+| [**Supprimer**](swbemrefresher-remove.md)       | Supprime l’objet d’élément d’actualisation ou le jeu d’objets avec un index spécifié de l’actualisateur.<br/> |
 
 
 
@@ -63,7 +63,7 @@ L’objet **SWbemRefresher** a ces propriétés.
 | Propriété                                                         | Type d’accès          | Description                                                                                                           |
 |:-----------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------|
 | [**Reconnexion automatique**](swbemrefresher-autoreconnect.md)<br/> | Lecture seule<br/> | Indique si l’actualisateur se reconnecte automatiquement à un fournisseur distant si la connexion est interrompue.<br/> |
-| [**Count**](swbemrefresher-count.md)<br/>                 | Lecture seule<br/> | Contient le nombre d’éléments dans l’objet actualisateur.<br/>                                                      |
+| [**Saut**](swbemrefresher-count.md)<br/>                 | Lecture seule<br/> | Contient le nombre d’éléments dans l’objet actualisateur.<br/>                                                      |
 
 
 
@@ -119,7 +119,7 @@ next
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: d1f0bc92-37bc-4de2-876a-e6b8b09da58d
 title: Ce qui est répliqué
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d60b08151c14d0254bd856fe2ee5b7b83d85714d1b435a32817bf66cc11a1e81
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd2739cb0ff615ddc38f30a7aa9b0a572be5e28a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403663"
 ---
 # <a name="what-gets-replicated"></a>Ce qui est répliqué
 

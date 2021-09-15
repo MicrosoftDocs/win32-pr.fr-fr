@@ -5,11 +5,11 @@ title: Exécution des éléments du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5bb941bb7542b0d786d682e6626e8d78faea8bd7
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478415"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530457"
 ---
 # <a name="executing-control-panel-items"></a>Exécution des éléments du panneau de configuration
 
@@ -84,7 +84,7 @@ Pour obtenir la liste complète des noms canoniques des éléments du panneau de
 
 sur Windows Vista, certaines options qui étaient accessibles par un module .cpl sur Windows XP sont désormais implémentées en tant que fichiers .exe. Cela permet de renforcer la sécurité en permettant aux utilisateurs standard d’être invités à fournir des informations d’identification d’administrateur lors de la tentative de lancement des fichiers. les Options qui ne nécessitent pas de sécurité supplémentaire sont accessibles par les lignes de commande qui ont été utilisées dans Windows XP. la liste suivante répertorie les commandes utilisées dans Windows Vista pour accéder à des onglets spécifiques des éléments du panneau de configuration :
 
-### <a name="personalization"></a>Personalization
+### <a name="personalization"></a>Personnalisation
 
 -   Taille de police et PPP :% windir% \\ system32 \\DpiScaling.exe
 -   résolution d’écran :% windir% \\ system32 \\control.exe desk.cpl, Paramètres,@Settings

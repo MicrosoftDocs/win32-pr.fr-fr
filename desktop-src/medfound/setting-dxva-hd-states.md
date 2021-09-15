@@ -5,11 +5,11 @@ title: Définition des États DXVA-HD
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 91766e3eb10399d908ab361e13db4b94fe07b653
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525640"
 ---
 # <a name="setting-dxva-hd-states"></a>Définition des États DXVA-HD
 

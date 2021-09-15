@@ -15,12 +15,12 @@ keywords:
 - interfaces, IExpandCollapseProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b7fa1461110a7fcdee83b8b3c20c15653e7bd5740187b89337620f5410b2bf7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45bd28ddcc201dcff0a4811a1eb8e04670f93091
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518100"
 ---
 # <a name="expandcollapse-control-pattern"></a>Modèle de contrôle ExpandCollapse
 
@@ -58,11 +58,11 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
-| Membres nécessaires                                                                                    | Type de membre | Remarques                                                                  |
+| Membres nécessaires                                                                                    | Type de membre | Notes                                                                  |
 |-----------------------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------|
-| [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate)                   | Propriété    | Aucun                                                                   |
-| [**Développez**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand)                                             | Méthode      | Aucun                                                                   |
-| [**Réduire**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse)                                         | Méthode      | Aucun                                                                   |
+| [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate)                   | Propriété    | None                                                                   |
+| [**Développez**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand)                                             | Méthode      | None                                                                   |
+| [**Réduire**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse)                                         | Méthode      | None                                                                   |
 | [**IUIAutomationPropertyChangedEventHandler**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationpropertychangedeventhandler) | Événement       | Ce contrôle n’a pas d’événements associés ; Utilisez ce gestionnaire d’événements générique. |
 
 

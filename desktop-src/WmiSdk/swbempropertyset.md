@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 05ae5d5e0bfbc5ab0733e00e4649baa2849d3446
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518069"
 ---
 # <a name="swbempropertyset-object"></a>Objet SWbemPropertySet
 
@@ -45,7 +45,7 @@ L’objet **SWbemPropertySet** a ces méthodes.
 |:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
 | [**Complémentaires**](swbempropertyset-add.md)       | Ajoute un objet [**SWbemProperty**](swbemproperty.md) à la collection **SWbemPropertySet** .<br/>                        |
 | [**Élément**](swbempropertyset-item.md)     | Obtient un [**SWbemProperty**](swbemproperty.md) nommé à partir de la collection. Il s’agit de la méthode par défaut pour cet objet.<br/> |
-| [**Installez**](swbempropertyset-remove.md) | Supprime un objet [**SWbemProperty**](swbemproperty.md) de la collection.<br/>                                        |
+| [**Remove**](swbempropertyset-remove.md) | Supprime un objet [**SWbemProperty**](swbemproperty.md) de la collection.<br/>                                        |
 
 
 

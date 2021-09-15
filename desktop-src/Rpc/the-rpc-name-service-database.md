@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, description, base de données de service de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54bf350fbf028689bbe280cc3c7fb82befc8b5c909b9d274c7ada61f908201ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19ae37473bcf28ddf995ab0a657f300ce13aa83c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311413"
 ---
 # <a name="the-rpc-name-service-database"></a>La base de données du service de noms RPC
 

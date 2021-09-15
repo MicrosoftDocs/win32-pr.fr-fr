@@ -4,12 +4,12 @@ description: L’en-tête a été étendu plusieurs fois pendant la durée de vi
 ms.assetid: 05b152b9-bd6d-49d1-8484-d104949c67b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9572c9a29ea8477f1d06d8786d50f6abf920de140b6d1663c2431b2ad0c76f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db9c28878d82820e519242172496a7932ac4832e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118927131"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311486"
 ---
 # <a name="procedure-header-descriptor"></a>Descripteur d’en-tête de procédure
 

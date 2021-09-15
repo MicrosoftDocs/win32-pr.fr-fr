@@ -4,12 +4,12 @@ description: Vue d’ensemble conceptuelle d’une application de fournisseur.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: c6905d6d2d52fd30b8950682c45c9d3bd0fc13281fc0f1d3120cba1b168012d5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 89b49096b7b68a723b52b4eb998c446661b7d3c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531037"
 ---
 # <a name="provider-overview"></a>Vue d’ensemble du fournisseur
 

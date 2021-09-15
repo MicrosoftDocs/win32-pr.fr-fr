@@ -4,12 +4,12 @@ ms.assetid: 32ae514a-eeba-4205-b6e6-70fc01b93a95
 title: MFPKEY_COLOR_CONTRAST, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c1c794b10580cbb323d19f52eed7d3bfb5fc6cf96e316d708491025776cfff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5de0733e743c3ce12bfe9a04159a2e881bf2143
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531153"
 ---
 # <a name="mfpkey_color_contrast-property"></a>MFPKEY \_ , \_ propriété de contraste de couleur
 
@@ -31,13 +31,13 @@ VT \_
 
 -   [Transformation de contrôle de couleur DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’ajustement du contraste est effectué en multipliant les valeurs YCbCr par un facteur d’échelle.
 
 Cette propriété a une plage comprise entre-127 et 127. La valeur zéro indique qu’aucune modification n’est apportée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

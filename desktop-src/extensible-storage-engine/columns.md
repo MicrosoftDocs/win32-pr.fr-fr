@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294073(v=EXCHG.10)
 ms:contentKeyID: 32765688
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 8cc7e3921c1904cdae3a09432d6a17eae3953251d3bd39c288cb6d6ffe184ffc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86f7d2bbb3925434ddbfff52e987b6e408af9ed8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118982699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531424"
 ---
 # <a name="columns"></a>Colonnes
 

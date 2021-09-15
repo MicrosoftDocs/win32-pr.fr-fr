@@ -4,12 +4,12 @@ ms.assetid: 2628f47e-3e73-4e02-91b8-ba4cb0800864
 title: Option de socket SO_BSP_STATE (Ws2def. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ff165eaef1f773f41c93f1c9905588b8d715f64e89ea0cbf06d53eb656bc91a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d10e391d70dd67190e1aec803036d019261c9000
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118111249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403891"
 ---
 # <a name="so_bsp_state-socket-option"></a>\_Option de \_ Socket d’État BSP
 
@@ -75,7 +75,7 @@ Pointeur vers la taille, en octets, de la mémoire tampon *optval* . Cette taill
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération se termine avec succès, [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) retourne la valeur zéro.
 
@@ -97,7 +97,7 @@ Si l’opération échoue, une valeur d’erreur de SOCKET \_ est renvoyée et u
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) appelée avec l’option de socket d' **\_ \_ État BSP** récupère l’adresse locale, le port local, l’adresse distante, le port distant, le type de socket et le protocole utilisés par un Socket. L’option de socket d' **\_ \_ État BSP so** fonctionne avec les sockets IPv6 ou IPv4 (familles d’adresses **AF \_ inet6** et **AF \_ inet** ).
 
@@ -113,7 +113,7 @@ Si la fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsocko
 
 Notez que le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans *Winsock2. h* et ne doit jamais être utilisé directement.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

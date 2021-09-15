@@ -14,12 +14,12 @@ keywords:
 - entrée brute du boîtier de jeu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7c020af77c20e191f0c71a2e89f66d13dddb9e85c3753ff1789e02729e0495
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 637137481fd930214beb04d2c75a7a2921d8b5fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117884306"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518452"
 ---
 # <a name="using-raw-input"></a>Utilisation des entrées brutes
 

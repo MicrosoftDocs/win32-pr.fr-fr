@@ -12,12 +12,12 @@ keywords:
 - modèles de conformité des appareils, combinaisons recommandées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f59606df5328fc7ca791196868fb9143e6d13bdc7a069b39947bed0c8404249
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98da6ddfba65800c5ca1b672e404843995781d07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404645"
 ---
 # <a name="recommended-device-conformance-template-combinations"></a>Combinaisons recommandées de modèles de conformité des appareils
 

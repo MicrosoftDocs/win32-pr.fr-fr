@@ -5,11 +5,11 @@ title: Régions de modification de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 35e3f1ce350a2728c99c49455b5fb8b638c47d10
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515746"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403638"
 ---
 # <a name="texture-dirty-regions-direct3d-9"></a>Régions de modification de texture (Direct3D 9)
 

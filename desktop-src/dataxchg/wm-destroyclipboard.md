@@ -3,7 +3,7 @@ title: Message WM_DESTROYCLIPBOARD (winuser. h)
 description: Envoyé au propriétaire du presse-papiers lorsqu’un appel à la fonction EmptyClipboard vide le presse-papiers. Une fenêtre reçoit ce message par le biais de sa fonction WindowProc.
 ms.assetid: 9f75b7fb-e9ae-4876-ba99-7db931b9c2ff
 keywords:
-- WM_DESTROYCLIPBOARD l’échange de données de message
+- WM_DESTROYCLIPBOARD des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4c3e4b6c2e2d378d0f78cee1824b1e4ce17a433a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404084"
 ---
 # <a name="wm_destroyclipboard-message"></a>\_Message WM DESTROYCLIPBOARD
 
@@ -52,11 +52,11 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -78,7 +78,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 [**EmptyClipboard**](/windows/desktop/api/Winuser/nf-winuser-emptyclipboard)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

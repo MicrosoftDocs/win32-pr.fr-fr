@@ -14,11 +14,11 @@ api_type:
 api_location:
 - D3D9Types.h
 ms.openlocfilehash: 8fc8d78490f192f5cbf222251d763ac73e862e78
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516956"
 ---
 # <a name="d3dvector-structure-d3d9typesh"></a>D3DVECTOR, structure (D3D9Types. h)
 
@@ -74,7 +74,7 @@ Valeur à virgule flottante décrivant le vecteur.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

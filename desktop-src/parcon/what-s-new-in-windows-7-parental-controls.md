@@ -4,12 +4,12 @@ ms.assetid: 5723fddd-52e2-46a1-a48f-647d479b21d9
 title: nouveautés de Windows 7 contrôle Parental
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f7b545c6791d286e51ae7a36ed65623d1697a7e742b1ae956e3ef4aaf3425e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8282021c81ee8611fb7206d75f7e6aab48ebf2e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525533"
 ---
 # <a name="whats-new-in-windows-7-parental-controls"></a>nouveautés de Windows 7 contrôle Parental
 

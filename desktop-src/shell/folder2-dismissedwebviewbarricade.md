@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1a5380330e807eabe76cf1223811fd06147468e12d0c13244b0e44d391aa6e83
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cdedc7292b0dd52ca903b944993e32df1ec2c3b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119937099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313110"
 ---
 # <a name="folder2dismissedwebviewbarricade-method"></a>Dossier2. DismissedWebViewBarricade, méthode
 
@@ -37,11 +37,11 @@ Folder2.DismissedWebViewBarricade()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application appelle cette méthode une fois que l’utilisateur a quitté l’affichage Web barricade.
 
@@ -116,7 +116,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

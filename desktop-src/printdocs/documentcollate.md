@@ -4,12 +4,12 @@ ms.assetid: 752cccf7-1f95-4597-b0e2-a96fd22ffeef
 title: DocumentCollate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4accbba3bf309ef9eaec251c5877ee7965f984ed63670a50ebf5e870406acb92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4c3036cc64265ea8f88bfcc46aea0149f8af5ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118971588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530601"
 ---
 # <a name="documentcollate"></a>DocumentCollate
 

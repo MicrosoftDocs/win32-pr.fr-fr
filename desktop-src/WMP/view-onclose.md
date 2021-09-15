@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3b801bbddd2c8d3d0fe3e1906ee17c0c5388631c81eb67c94243fe5dc2b60636
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3d7cdfd838d1683ba64d89b20da1256062878da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518336"
 ---
 # <a name="viewonclose"></a>VIEW. OnClose
 

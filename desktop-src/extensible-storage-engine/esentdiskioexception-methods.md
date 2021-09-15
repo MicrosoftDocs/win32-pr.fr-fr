@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101630
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2212e3dca1974a116389fb62df07f5be09b8be4cc5ac2d577c3ac830dfd406d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c7355b328872b65a560e347bf9caf531edef1c59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117711565"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403867"
 ---
 # <a name="esentdiskioexception-methods"></a>Méthodes EsentDiskIOException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDiskIOException, classe](./esentdiskioexception-class.md)
 

@@ -4,12 +4,12 @@ description: Propriété SRModeID
 ms.assetid: 4c784fc5-d2c2-4e5b-ba5f-f59b4507f40f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb2ea6664230f9b2446cbe10a31a0129abb8bc52f0679bb6fdec0a1f0a8be211
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 898f90a70c29d409eaa12df3d3fde845e35bd5ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119960859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403711"
 ---
 # <a name="srmodeid-property"></a>Propriété SRModeID
 
@@ -41,7 +41,7 @@ Retourne ou définit le moteur de reconnaissance vocale utilisé par le caractè
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété détermine le moteur de reconnaissance vocale utilisé par le caractère pour l’entrée vocale. L’ID de mode d’un moteur de reconnaissance vocale est une chaîne mise en forme définie par le fournisseur de reconnaissance vocale qui identifie le moteur de manière unique. Pour plus d’informations, consultez [accès à un moteur de reconnaissance vocale dans votre code](accessing-a-speech-engine-in-your-code.md).
 

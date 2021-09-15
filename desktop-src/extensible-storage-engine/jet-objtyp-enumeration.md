@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 107430668bd0302ee033601cd5bb3a8d8c29422241637208cdb28ba9ba3db718
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9ad9642f9bc4c7a849958dbb9302490607f0e61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117893761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403715"
 ---
 # <a name="jet_objtyp-enumeration"></a>Énumération JET_objtyp
 
@@ -82,6 +82,6 @@ public enum JET_objtyp
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)

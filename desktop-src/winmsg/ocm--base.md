@@ -4,12 +4,12 @@ ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (OLECTL. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f159dc4eab2f6a240b3400354b58ab1e94e466522c9b91f34af0f0cc60eb70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa3713d8a7b7447430e914e2582089244a417b1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118031199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404494"
 ---
 # <a name="ocm__base"></a>BASE de OCM \_ \_
 
@@ -20,7 +20,7 @@ Utilisé pour définir des messages privés pour une utilisation par les classes
 #define OCM__BASE                (WM_USER+0x1c00)
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Voici les plages de numéros de message.
 
@@ -48,7 +48,7 @@ Les numéros de message dans la quatrième plage (0xC000 à 0xFFFF) sont défini
 
 Les numéros de message dans la cinquième plage (supérieure à 0xFFFF) sont réservés par le système.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -73,7 +73,7 @@ Les numéros de message dans la cinquième plage (supérieure à 0xFFFF) sont r�
 [**\_application WM**](wm-app.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Messages et files d’attente de messages](messages-and-message-queues.md)

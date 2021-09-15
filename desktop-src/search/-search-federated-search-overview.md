@@ -4,12 +4,12 @@ ms.assetid: 2014b7ac-4885-4f17-b6d4-5fd95872ed59
 title: Recherche fédérée dans Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4e93af59bd83765c693165676eab80e8adf42b151c2b5473a0f0a3e5aa5fcc1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc7d7718bb5215072ceeb8786f5728017ed329e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117864168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313233"
 ---
 # <a name="federated-search-in-windows"></a>Recherche fédérée dans Windows
 

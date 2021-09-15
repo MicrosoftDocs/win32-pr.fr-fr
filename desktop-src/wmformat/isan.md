@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2af088938219ed48f2b281c627c0b64cc8e13fdea630b54a51a6f23db1b448
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88dc4a850edc43178deb043143ee8f9b37140507
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404683"
 ---
 # <a name="isan"></a>ISAN
 
@@ -31,7 +31,7 @@ L’attribut **ISAN** contient le numéro audiovisuel standard international qui
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ISAN est une norme internationale pour identifier les travaux audiovisuels. Pour plus d’informations sur ISAN, visitez le [site Web](https://www.isan.org/)standard.
 

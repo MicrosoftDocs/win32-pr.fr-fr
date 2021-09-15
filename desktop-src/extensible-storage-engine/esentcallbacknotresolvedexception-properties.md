@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101123
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 711cfd51b695a075cbf6d2787203998aeae2ee54fd9c63dce2972cb5c00449d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5043b98188682c7decb6aef662cdabe0bfd08a6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517933"
 ---
 # <a name="esentcallbacknotresolvedexception-properties"></a>Propriétés EsentCallbackNotResolvedException
 
@@ -69,7 +69,7 @@ Le type [EsentCallbackNotResolvedException](./esentcallbacknotresolvedexception-
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

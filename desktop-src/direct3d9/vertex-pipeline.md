@@ -4,12 +4,12 @@ ms.assetid: d0a559ff-4470-42a5-878b-125e1cdc1b9a
 title: Pipeline de vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 392748dcaec1e4d1ddf4685d6903d200ff6e3d4320fe7adcb73e2156f134a081
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f71a1f25545e8aae2b9e4e9b295f1862045a03e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118796898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530952"
 ---
 # <a name="vertex-pipeline-direct3d-9"></a>Pipeline de vertex (Direct3D 9)
 

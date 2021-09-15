@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 92e2b4dd0f7d2e27041f801842cf73c353a3ce4f8eba2ce8d8ce7421d342421f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: deddb54a6d22783270765e11a62070cd559ed2b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119782129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404582"
 ---
 # <a name="esentreadlostflushverifyfailureexception-class"></a>EsentReadLostFlushVerifyFailureException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentReadLostFlushVerifyFailureException](./esentreadlostflushverifyfailureexception-members.md)
 

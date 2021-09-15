@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/02/2019
-ms.openlocfilehash: 763042ed6d0df6fa287fbe66d23528a199a73041cb3500c6a2812e6db86cb698
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c70384f7c7da1633b910db36c42a335d1c463bae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119677879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517653"
 ---
 # <a name="dodownloadcostpolicy-enumeration"></a>Énumération DODownloadCostPolicy
 
@@ -50,7 +50,7 @@ typedef enum _DODownloadCostPolicy
 | DODownloadCostPolicy_NoSurcharge | Le téléchargement s’effectue à moins qu’il ne soit soumis à une surcharge. |
 | DODownloadCostPolicy_NoCellular | Le téléchargement s’exécute sauf si le réseau est sur un réseau cellulaire. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

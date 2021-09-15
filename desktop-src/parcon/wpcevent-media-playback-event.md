@@ -4,12 +4,12 @@ ms.assetid: 478cc11e-afbd-411a-ab84-b8ca7c3aa503
 title: Événement WPCEVENT_MEDIA_PLAYBACK (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 036f88b657ea53a0d1a44679cc55c5cd109f9d16cada16f1812d301b472ef93b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfdf4e884cc0e87f579d245676f78232a5ae0177
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951133"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525517"
 ---
 # <a name="wpcevent_media_playback-event"></a>Événement de lecture du \_ média WPCEVENT \_
 
@@ -40,7 +40,7 @@ Version de l’application multimédia qui génère l’événement.
 
 </dd> <dt>
 
-*MediaType* 
+*Média* 
 </dt> <dd>
 
 Valeur de l’énumération de [**\_ \_ type de média WPC**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_media_type) qui indique des informations sur le type de fichier multimédia auquel vous accédez.
@@ -75,7 +75,7 @@ Métadonnées de l’album pour le contenu.
 
 </dd> <dt>
 
-*Explicite* 
+*Explicit (Explicite)* 
 </dt> <dd>
 
 Valeur de l’énumération [**WPC \_ Media \_ Explicit**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_media_explicit) qui indique des informations sur l’évaluation explicite du fichier multimédia.
@@ -89,7 +89,7 @@ Valeur de l’énumération [**WPCFLAG \_ ISBLOCKED**](/windows/win32/api/wpceve
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

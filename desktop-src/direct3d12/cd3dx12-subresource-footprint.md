@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d32c3da3e133a5509543ffaa4fbf80b4c565730f13d3b9e92753658c96efcfcd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab58e9a007d736222d9525d7a064456a1a9a7f14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120069729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517517"
 ---
 # <a name="cd3dx12_subresource_footprint-structure"></a>Structure d’encombrement des sous- \_ ressources CD3DX12 \_
 
@@ -94,7 +94,7 @@ Définit le & opérateur de passage par référence pour le type de structure pa
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

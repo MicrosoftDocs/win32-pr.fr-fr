@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: 8c5948ad99111dc87578dfa15c5278cf03d5918e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469746"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530449"
 ---
 # <a name="extending-system-control-panel-items"></a>Extension des éléments du panneau de configuration système
 
@@ -37,15 +37,15 @@ Cela est similaire à la façon dont vous inscrivez une extension pour un objet 
 
 
 
-| Élément du panneau de configuration | <em>name</em> | Remarques | 
+| Élément du panneau de configuration | <em>name</em> | Notes | 
 |--------------------|---------------|---------|
 | Affichage | Bureau | Prend également en charge le remplacement de la page du <strong>Bureau</strong> .<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
-| affichage Paramètres avancé | Appareil | Propriétés avancées spécifiques au non-hardisme.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
+| affichage Paramètres avancé | Périphérique | Propriétés avancées spécifiques au non-hardisme.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
 | affichage Paramètres avancé | Affichage | Propriétés avancées spécifiques au matériel.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
 | Options Internet | Internet | Le nombre maximal de pages d’extension est 18. | 
 | Clavier | Clavier | Le nombre maximal de pages d’extension est de 30. | 
 | Souris | Souris | Prend également en charge le remplacement des pages standard. Le nombre maximal de pages d’extension est de 8. | 
-| Options d’alimentation | Alimentation électrique | Le nombre maximal de pages, y compris les pages standard, est 18. | 
+| Options d’alimentation | Power | Le nombre maximal de pages, y compris les pages standard, est 18. | 
 | Système | Système | Le nombre maximal de pages d’extension est de 8.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
 
 

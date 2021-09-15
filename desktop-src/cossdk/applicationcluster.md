@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 852f6f04147489336622a5c13e447bcb4fbfd7e20f580edcb5da8bdfadaa5e7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00a54f5c79bcbaf4ef61b130db556fc27f264101
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991941"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403565"
 ---
 # <a name="applicationcluster-collection"></a>Collection ApplicationCluster
 
@@ -51,14 +51,14 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 -   [Nom](#name)
 
-### <a name="name"></a>Nom
+### <a name="name"></a>Name
 
 
 
 | Entrée | Valeur |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom du serveur. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | WriteOnce                                                                                                                                                                                                                                                            |
+| Access         | WriteOnce                                                                                                                                                                                                                                                            |
 | Type           | String                                                                                                                                                                                                                                                               |
 | Valeur par défaut        | « Nouvel ordinateur »                                                                                                                                                                                                                                                       |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                         |

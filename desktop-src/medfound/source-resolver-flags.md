@@ -4,12 +4,12 @@ ms.assetid: fe0b9090-5d2a-41a4-a806-57c874d3b3a2
 title: Indicateurs de résolveur source (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c779a54467390abf6cfb186f6b76043fd19617f5d129b88e6697a45c01708510
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 31efe47f75151f78958903cb514653edb6c5aa08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119847819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525605"
 ---
 # <a name="source-resolver-flags"></a>Indicateurs de résolveur source
 
@@ -29,7 +29,7 @@ Définit le comportement du programme de résolution source. Ces indicateurs son
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application définit ces indicateurs quand elle utilise l’interface [**IMFSourceResolver**](/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver) . Le programme de résolution source transmet les mêmes indicateurs aux méthodes [**IMFByteStreamHandler :: BeginCreateObject**](/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject) et [**IMFSchemeHandler :: BeginCreateObject**](/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject) .
 
@@ -45,7 +45,7 @@ L' \_ indicateur de \_ maintien \_ du \_ flux d’octets actif de la résolution
 
 4.  Le client ouvre à nouveau la source. cette fois, la définition du \_ \_ contenu de résolution MF ne doit \_ \_ pas \_ nécessairement \_ correspondre à l' \_ extension ou à l’indicateur de \_ \_ \_ \_ type MIME. Cet indicateur force le programme de résolution source à essayer tous les gestionnaires inscrits au lieu du gestionnaire par défaut uniquement. Étant donné que le flux d’octets a été mis en cache, le programme de résolution de source n’a pas besoin d’ouvrir à nouveau le flux d’octets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

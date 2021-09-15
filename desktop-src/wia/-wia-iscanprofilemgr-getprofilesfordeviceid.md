@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 8ca150d02aff2f84becf8b36aca87e2da24b2b83c9ccd85c0cf5a1c5ced0d664
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10a7d891a114fc36de3f91341febf1616a06ed22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118209055"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404521"
 ---
 # <a name="iscanprofilemgrgetprofilesfordeviceid-method"></a>IScanProfileMgr :: GetProfilesforDeviceID, méthode
 
@@ -68,17 +68,17 @@ Adresse d’un pointeur vers un tableau de profils.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le nombre total de profils associés à l’appareil est inférieur à la valeur transmise à *pulNumProfiles*, *pulNumProfiles* retourne ce total. Sinon, elle retourne la même valeur que celle qui lui a été passée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

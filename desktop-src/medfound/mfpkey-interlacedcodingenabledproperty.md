@@ -4,12 +4,12 @@ ms.assetid: d3fd52ac-5b98-4015-ae0a-4ec2e5cea083
 title: MFPKEY_INTERLACEDCODINGENABLED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8688fdeb28ce55c483e46b75c011867916c88ea440fa34c13504327051362a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 243b5e041464cb0852b910858df0cbc2c34bca2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117689972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531149"
 ---
 # <a name="mfpkey_interlacedcodingenabled-property"></a>MFPKEY \_ propriété INTERLACEDCODINGENABLED
 
@@ -27,7 +27,7 @@ VT \_ bool
 
 FALSE
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

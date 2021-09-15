@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9a8a73dbe85ce806d955329df3362a8b17dd48cc530939ec2f94ffcff2074614
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4303b3226acc6d773ed35e77176e05e3a58c567d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403573"
 ---
 # <a name="swbemservices-object"></a>Objet SWbemServices
 
@@ -98,7 +98,7 @@ Une fois que vous avez obtenu une référence à un objet **SWbemServices** , vo
 
 **SWbemServices** prend en charge trois modes de fonctionnement : synchrone, asynchrone et semi-synchrone.
 
--   **Synchrone**. En mode synchrone, votre script bloque (interrompt) jusqu’à la fin de la méthode **SWbemServices** . Non seulement votre script est en attente, mais dans les cas où WMI récupère des instances de ressources managées, WMI génère la totalité de la base de données [**SWbemObjectSet**](swbemobjectset.md) en mémoire avant que le premier octet de données ne soit renvoyé au script appelant. Cela peut avoir un effet néfaste sur les performances du script et sur l’ordinateur exécutant le script. par exemple, la récupération synchrone de milliers d’événements à partir des journaux d’événements Windows peut prendre beaucoup de temps et utiliser beaucoup de mémoire. Pour ces raisons, les opérations synchrones ne sont pas recommandées, sauf pour les trois méthodes ([**Delete**](swbemservices-delete.md), [**ExecMethod**](swbemservices-execmethod.md)et [**obtenir**](swbemservices-get.md)) qui sont synchrones par défaut. Ces méthodes ne retournent pas de jeux de données volumineux, de sorte que l’opération semi-synchrone n’est pas nécessaire.
+-   **Synchronous**. En mode synchrone, votre script bloque (interrompt) jusqu’à la fin de la méthode **SWbemServices** . Non seulement votre script est en attente, mais dans les cas où WMI récupère des instances de ressources managées, WMI génère la totalité de la base de données [**SWbemObjectSet**](swbemobjectset.md) en mémoire avant que le premier octet de données ne soit renvoyé au script appelant. Cela peut avoir un effet néfaste sur les performances du script et sur l’ordinateur exécutant le script. par exemple, la récupération synchrone de milliers d’événements à partir des journaux d’événements Windows peut prendre beaucoup de temps et utiliser beaucoup de mémoire. Pour ces raisons, les opérations synchrones ne sont pas recommandées, sauf pour les trois méthodes ([**Delete**](swbemservices-delete.md), [**ExecMethod**](swbemservices-execmethod.md)et [**obtenir**](swbemservices-get.md)) qui sont synchrones par défaut. Ces méthodes ne retournent pas de jeux de données volumineux, de sorte que l’opération semi-synchrone n’est pas nécessaire.
 -   **Asynchrone**. En mode asynchrone, votre script appelle l’une des neuf méthodes asynchrones et est retourné immédiatement. Autrement dit, dès que la méthode asynchrone est appelée, votre script reprend l’exécution de la ligne de code suivante. Pour utiliser une méthode asynchrone, votre script doit d’abord créer un objet [**SWbemSink**](swbemsink.md) et une sous-routine spéciale appelée gestionnaire d’événements. WMI exécute l’opération asynchrone et notifie le script en appelant la sous-routine du gestionnaire d’événements lorsque l’opération est terminée.
 -   **Semi-synchrone**. Le mode semi-synchrone est un compromis entre synchrone et asynchrone. Les opérations semi-synchrones offrent de meilleures performances que les opérations synchrones, mais elles ne nécessitent pas les connaissances supplémentaires et les étapes de script nécessaires pour gérer les opérations asynchrones. Il s’agit du type d’opération par défaut pour la plupart des requêtes WMI.
 

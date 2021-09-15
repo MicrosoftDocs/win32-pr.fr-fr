@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e416aee093ed6526d85d81361e2774b963572de73ce84c21105f19d1675968f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae09a05525ac6e9f08d8cc7a0b7de6ef51329baa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119915219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312589"
 ---
 # <a name="lvn_beginscroll-notification-code"></a>\_Code de notification LVN BEGINSCROLL
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMLVSCROLL**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Valeur de retour non utilisée.
 

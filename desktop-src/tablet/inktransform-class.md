@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 4bdc93e2c80f1a7ef4a8eacf1a58288c008e1354cda702e492deb2990e8938d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61641f0fed8ec98321e155f82ff9a35150e7fdcd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119938659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404759"
 ---
 # <a name="inktransform-class"></a>InkTransform, classe
 
@@ -39,8 +39,8 @@ La classe **InkTransform** possède ces méthodes.
 | Méthode                                                  | Description                                                                                                                 |
 |:--------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
 | [**GetTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform)       | Récupère le **InkTransform** sous la forme de 6 valeurs à virgule flottante.<br/>                                                                      |
-| [**Correspond**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reflect)                 | Reflète la transformation dans les directions horizontale ou verticale.<br/>                                          |
-| [**Initialisation**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reset)                     | Rétablit l’état d’origine de la transformation.<br/>                                                                      |
+| [**Réfléchir**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reflect)                 | Reflète la transformation dans les directions horizontale ou verticale.<br/>                                          |
+| [**Réinitialiser**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reset)                     | Rétablit l’état d’origine de la transformation.<br/>                                                                      |
 | [**Faire pivoter**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-rotate)                   | Fait pivoter la transformation d’un angle mesuré en degrés, et spécifie éventuellement un point central pour la rotation.<br/> |
 | [**ScaleTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletransform) | Met à l’échelle la transformation par facteurs X et Y.<br/>                                                                         |
 | [**SetTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform)       | Modifie le **InkTransform** à l’aide de 6 valeurs float.<br/>                                                                    |
@@ -71,7 +71,7 @@ La classe **InkTransform** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -82,7 +82,7 @@ L’objet stocke uniquement six des neuf chiffres dans une matrice 3x3, car tout
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

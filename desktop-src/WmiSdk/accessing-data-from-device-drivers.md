@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Accès aux données à partir des pilotes de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82bec478f83ddbc6d58419710fb868ddd233f820a06004210c1dac495de86b16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72a59b59116ca0f71178fb2faed290d6bc76c9d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403767"
 ---
 # <a name="accessing-data-from-device-drivers"></a>Accès aux données à partir des pilotes de périphérique
 

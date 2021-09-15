@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b2a2cbd870da41df94ee0389757a1d1ec7cd5e4549a3abd32dbaaf6a7c8e8e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e2790cf5df42f64071db3ca51a35e58ee9afcd5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045557"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404328"
 ---
 # <a name="direct3d-12-raytracing-hlsl-system-value-intrinsics"></a>Intrinsèques de valeur système HLSL Direct3D 12 Raytracing
 

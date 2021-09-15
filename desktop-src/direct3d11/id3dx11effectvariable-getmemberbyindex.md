@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5176eb220dc928a98ec0f579afaeab1c81b1a7ff9ef3555736ed471bf15b9117
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4be490251a83907dcd16231d62d492caf05768f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124494"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404075"
 ---
 # <a name="id3dx11effectvariablegetmemberbyindex-method"></a>ID3DX11EffectVariable :: GetMemberByIndex, méthode
 
@@ -52,13 +52,13 @@ Index de base zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers un [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la variable d’effet est une structure, utilisez cette méthode pour rechercher un membre par index.
 
@@ -67,7 +67,7 @@ Si la variable d’effet est une structure, utilisez cette méthode pour recherc
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

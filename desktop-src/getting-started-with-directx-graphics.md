@@ -4,12 +4,12 @@ ms.assetid: 49E0D0C2-E6EC-4849-A44F-36FDEFBB9838
 title: Prise en main de DirectX Graphics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32e0bc8a3485091ec8b8fa53c8245a3a4916e11af96493d4895585061f2b080f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7c5e8cca9f0cea4c1c5e484ba330c7c108cad40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119830569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525853"
 ---
 # <a name="getting-started-with-directx-graphics"></a>Prise en main de DirectX Graphics
 

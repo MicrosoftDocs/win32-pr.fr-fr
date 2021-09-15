@@ -4,12 +4,12 @@ ms.assetid: 6aebe1cf-bd45-4b02-a3c8-6599bb683d7c
 title: Attribut MF_PD_ASF_FILEPROPERTIES_PREROLL (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6440853e2e3308d3d173350de17274bfbe88aa29c3b634ef7480d36d37fd67
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 502ba715cc2802f9710d579e0c7afd6477b83454
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117692051"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525760"
 ---
 # <a name="mf_pd_asf_fileproperties_preroll-attribute"></a>\_Attribut de \_ \_ \_ préroll ASF pour MF PD ASF
 
@@ -19,13 +19,13 @@ Spécifie la durée, en millisecondes, de la mise en mémoire tampon des donnée
 
 **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) génère cet attribut à partir des métadonnées ASF.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

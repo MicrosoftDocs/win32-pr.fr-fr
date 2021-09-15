@@ -4,12 +4,12 @@ description: Prise en charge d’une interface
 ms.assetid: fa5eae0f-2252-43bc-b504-de00b213cb2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a293ec9caa0112a20fcff27667efc3467ae5aea15c7acbc69845b4e1e2e6a0d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13587bd5ff6391691c0f6bf6e38b59be019dfdb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403571"
 ---
 # <a name="what-support-for-an-interface-means"></a>Prise en charge d’une interface
 

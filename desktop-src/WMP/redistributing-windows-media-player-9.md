@@ -4,12 +4,12 @@ description: redistribution de Lecteur Windows Media série 9
 ms.assetid: 812e3fc7-e23d-489c-a486-62c7602cf46e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 418a780836c0a64a1b31b0d3c01a69841b695803f5db61b049915ec0d981f9c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62f48da20123255ae08a0993d361a95deb8ed335
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403505"
 ---
 # <a name="redistributing-windows-media-player-9-series"></a>redistribution de Lecteur Windows Media série 9
 
@@ -55,7 +55,7 @@ le tableau suivant présente des paramètres supplémentaires que vous pouvez ut
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 -   Les paramètres de ligne de commande respectent la casse.
 -   Lorsque vous supprimez l’invite de redémarrage, vous devez vérifier la clé de Registre InstallResult et gérer la notification de redémarrage dans l’application d’installation appelante.

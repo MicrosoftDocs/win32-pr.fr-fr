@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 34abaa79431edc76ffc17488e8610e3b8c59b2c626d445d403bf2356d7f6982a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3ddac3f456e1ab24574a4743983d20a828896e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120054419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312445"
 ---
 # <a name="crendererinputpinreceive-method"></a>CRendererInputPin. Receive, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 

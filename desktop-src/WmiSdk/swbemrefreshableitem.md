@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 4bc4f85145926aba2bd050052c33eb5669dfee8a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518064"
 ---
 # <a name="swbemrefreshableitem-object"></a>Objet SWbemRefreshableItem
 
@@ -41,7 +41,7 @@ L’objet **SWbemRefreshableItem** a ces méthodes.
 
 | Méthode                                        | Description                                                                                                             |
 |:----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
-| [**Installez**](swbemrefreshableitem-remove.md) | Supprime l’objet **SWbemRefreshableItem** de l’objet [**SWbemRefresher**](swbemrefresher.md) parent.<br/> |
+| [**Remove**](swbemrefreshableitem-remove.md) | Supprime l’objet **SWbemRefreshableItem** de l’objet [**SWbemRefresher**](swbemrefresher.md) parent.<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3c4fec19-1b7d-4052-afd8-7aaf095907d0
 title: 'ITConnection :: get_StartAddress, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c21f704d734c1d0cdccd7f796898e3770cfab19e0f3ab7ee728e86810b2a2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84266d1874e7d04acb594bcfb9d99b440b0390b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311189"
 ---
 # <a name="itconnectionget_startaddress-method"></a>ITConnection :: obten, \_ méthode STARTADDRESS
 
@@ -39,7 +39,7 @@ Pointeur vers un **BSTR** contenant l’adresse de début de la session.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,11 +57,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppStartAddress* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

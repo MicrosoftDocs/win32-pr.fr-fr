@@ -10,12 +10,12 @@ keywords:
 - habillages, trackbars
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77bd8e2f78e3e582083353ce29a54a2af914791af560e9bfcc0dd55f2c513d1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70b21cc9773615386057c10a4fea94fc2a0f8316
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119507369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403816"
 ---
 # <a name="trackbar-types"></a>Types TrackBar
 

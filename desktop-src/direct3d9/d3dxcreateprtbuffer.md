@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ff7293fd866bed8ef5bea46fd783b27672c4c53ee61786f75146ea45efd8a509
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8107edfec436d9eda35324f6934b3f70df6a05d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118299274"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526089"
 ---
 # <a name="d3dxcreateprtbuffer-function"></a>D3DXCreatePRTBuffer fonction)
 
@@ -79,7 +79,7 @@ Adresse d’un pointeur vers l’objet [**ID3DXPRTBuffer**](id3dxprtbuffer.md) c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -89,7 +89,7 @@ Si la fonction est réussie, la valeur de retour est S \_ OK. Si la fonction éc
 
 Lorsque la mémoire tampon est créée, toutes les valeurs sont initialisées à zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

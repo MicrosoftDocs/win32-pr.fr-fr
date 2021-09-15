@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 667b2974015edd8b8d3ac0505f4eb4d6c64d1da5b82737ec7d9bb89cc3e8776e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7f5e71f9a443e12ea56cb8ca23daea148da92aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118248003"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530873"
 ---
 # <a name="wm_appcommand-message"></a>\_Message WM APPCOMMAND
 
@@ -156,7 +156,7 @@ Le composant *dwKeys* indique si différentes clés virtuelles sont arrêtées e
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
@@ -170,7 +170,7 @@ Pour obtenir les coordonnées du curseur si le message a été généré par un 
 
 Contrairement à d’autres messages Windows, une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permettra aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -210,7 +210,7 @@ Contrairement à d’autres messages Windows, une application doit retourner la 
 [**\_NCXBUTTONUP WM**](wm-ncxbuttonup.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

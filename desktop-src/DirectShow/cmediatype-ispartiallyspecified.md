@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2c2e7bdbbc43195222b4054f71ec05ebe3c8a7e15ac8c634d57fba61e45bf319
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 32c39942ab3f97d45ecf71ba841d56b7afd4be62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120084469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312506"
 ---
 # <a name="cmediatypeispartiallyspecified-method"></a>Méthode CMediaType. IsPartiallySpecified
 
@@ -40,7 +40,7 @@ BOOL IsPartiallySpecified() const;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si le type de média est partiellement spécifié. Sinon, retourne **false**.
 

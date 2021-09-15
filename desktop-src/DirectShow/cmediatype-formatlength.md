@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39593b1dbbabf0a21e764a94e9d6862192273b8813f816651c338e3cbff9c5ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9da7e84e695952b4c936c9f97270decfd4d9f94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118156413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312509"
 ---
 # <a name="cmediatypeformatlength-method"></a>Méthode CMediaType. FormatLength
 
@@ -40,7 +40,7 @@ ULONG FormatLength() const;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le membre **cbFormat** .
 

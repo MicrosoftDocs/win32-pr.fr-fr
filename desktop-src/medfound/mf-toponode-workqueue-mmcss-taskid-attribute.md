@@ -4,12 +4,12 @@ ms.assetid: ccecc1e6-2d30-4e89-849f-c3acad97f312
 title: Attribut MF_TOPONODE_WORKQUEUE_MMCSS_TASKID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf75dc911c9d00cab2d21d937ef16a43b38cc4271299c6fae4f2ed7381ec63a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53af119c58d725d42ec5737ffd9bf96286a65ac1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118739627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530693"
 ---
 # <a name="mf_toponode_workqueue_mmcss_taskid-attribute"></a>MF \_ TOPONODE \_ WORKQUEUE \_ MMCSS \_ taskId, attribut
 
@@ -19,7 +19,7 @@ Spécifie un identificateur de tâche du service Planificateur de classes multim
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux nœuds sources (**\_ \_ \_ nœud SOURCESTREAM de topologie MF**). Cet attribut est facultatif.
 
@@ -34,7 +34,7 @@ Si vous souhaitez que MMCSS assigne un nouvel identificateur de tâche pour la t
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

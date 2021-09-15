@@ -4,12 +4,12 @@ ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: Exemple de sélection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e5cad2ef96c76512947a5b74e7eac54e3ad5787218e625f30fea5b8e5164177
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f83d05762385d0de43a5d7f2bcd73cda2c6e2d51
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118239126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531089"
 ---
 # <a name="playlist-sample"></a>Exemple de sélection
 
@@ -28,7 +28,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 -   [**IMFMediaSession**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasession)
 -   [**IMFSequencerSource**](/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 l’exemple Playlist génère une application Windows.
 
@@ -39,7 +39,7 @@ l’exemple Playlist génère une application Windows.
 -   Pour passer à un fichier, double-cliquez sur l’élément dans la sélection.
 -   Pour supprimer un fichier de la sélection, sélectionnez l’élément dans la sélection. Sélectionnez ensuite **supprimer de la sélection** dans le menu **fichier** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -57,7 +57,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 
 
-| Localisation                                                     | Chemin d’accès/URL                                                   |
+| Emplacement                                                     | Chemin d’accès/URL                                                   |
 |--------------------------------------------------------------|------------------------------------------------------------|
 | [SDK Windows](https://www.microsoft.com/download/details.aspx?id=8279) | *Racine* \\ du SDK Exemples \\ de \\ playlist mediafoundation Multimedia \\ |
 

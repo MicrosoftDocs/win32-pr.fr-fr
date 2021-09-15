@@ -22,12 +22,12 @@ keywords:
 - pixels (non carrés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9173c7b5dca81f11a6e35afafe30efa33d86c604adcadb59a51b17ab8130422c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ecfc14019e9822aefedb7600adc4209317293b2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117846026"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404646"
 ---
 # <a name="reading-streams-with-non-square-pixels"></a>lecture Flux avec des Pixels Non carrés
 

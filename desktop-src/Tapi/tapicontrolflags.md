@@ -4,12 +4,12 @@ ms.assetid: 48259444-bf7b-4f0e-9068-2bdf89dde694
 title: Énumération TAPIControlFlags (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 278cc2328335409d4ffcc95ea136826d121acd57776f98aaad947c8fb9ee5d93
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07cc3e931c69a408d996fa28e6002b6c53c9df87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139802"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311150"
 ---
 # <a name="tapicontrolflags-enumeration"></a>Énumération TAPIControlFlags
 
@@ -51,7 +51,7 @@ La propriété est contrôlée manuellement.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

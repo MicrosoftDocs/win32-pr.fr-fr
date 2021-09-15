@@ -4,12 +4,12 @@ ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
 title: MFPKEY_COLOR_SATURATION, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b357521327bc913a0ace6b630cb9f2a27b553c3dfc8303e1a6bd9af218c5b743
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 496b1f017ceff6ab4bd01ce01ccfd5da0759befc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530685"
 ---
 # <a name="mfpkey_color_saturation-property"></a>\_ \_ Propriété saturation de la couleur MFPKEY
 
@@ -31,13 +31,13 @@ VT \_
 
 -   [Transformation de contrôle de couleur DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’ajustement de saturation s’effectue en multipliant les valeurs CB et CR par une constante.
 
 Cette propriété a une plage comprise entre-127 et 127. La valeur zéro indique qu’aucune modification n’est apportée à la saturation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

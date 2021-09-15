@@ -5,11 +5,11 @@ title: Utilisation de MFTrace
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d8416fbde708dd44858fe5df580945f326944a1f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469966"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530644"
 ---
 # <a name="using-mftrace"></a>Utilisation de MFTrace
 
@@ -17,7 +17,7 @@ MFTrace est un outil permettant de générer des journaux de suivi pour les appl
 
 MFTrace utilise la bibliothèque detoures pour se raccorder aux appels d’API Media Foundation et générer des journaux de suivi. MFTrace peut également enregistrer les traces à partir de n’importe quel composant qui utilise Suivi d’v nements pour Windows (ETW) ou le préprocesseur de trace logiciel (WPP) pour générer des traces. Les journaux de suivi peuvent être générés en démarrant un nouveau processus à partir de MFTrace ou en attachant MFTrace à un processus existant.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 **mftrace** \[ **-a** *Process* \] \[ **-c** *fichier ConfigurationFile* \] \[ **-DC** \] \[ **-es** \] \[ **-k** *mots* \] \[ **-clés-l** *niveau* \] \[ **-o** *outputfile* \] \[ **-v** \] \[ **-** ? \] \[ {*Commande* \| *ETL_FILE*}\]
 
@@ -100,7 +100,7 @@ Conversion d’un fichier ETL en fichier texte :
 mftrace.exe -o trace.txt trace.etl
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, MFTrace génère uniquement des traces de détournements. Pour générer des traces ETW ou WPP, vous devez fournir un fichier de configuration. Le fichier de configuration donne les noms des fournisseurs de suivi. Pour plus d’informations, consultez [fichier de configuration MFTrace](mftrace-configuration-file.md).
 

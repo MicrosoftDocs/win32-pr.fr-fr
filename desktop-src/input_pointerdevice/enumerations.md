@@ -4,12 +4,12 @@ ms.assetid: 39A3FB53-DFC9-4189-A05B-6E01DB0DF922
 title: Énumérations de pile d’entrée de périphérique pointeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 156dd80b642774d6364cc15c333aa45d2a091feba33b60be7ac95fdd364910f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d140b069c9cb19f6a9401aa4d1f517eb471c6de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118976989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518469"
 ---
 # <a name="pointer-device-input-stack-enumerations"></a>Énumérations de pile d’entrée de périphérique pointeur
 

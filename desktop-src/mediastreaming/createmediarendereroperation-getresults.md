@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 73e068eeebbd85a1f792875dc11d2d0445b5a715be5bf94996e05e32cf9e5a9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8c3da874b2259eccbb2c56271400d05c69da71c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119100831"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531605"
 ---
 # <a name="createmediarendereroperationgetresults-method"></a>CreateMediaRendererOperation :: GetResults, méthode
 
@@ -39,7 +39,7 @@ MediaRenderer* GetResults();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Résultats de l’opération. Pointeur vers l’objet [**MediaRenderer**](mediarenderer.md) nouvellement créé.
 

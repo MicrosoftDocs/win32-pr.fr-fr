@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c5ef5f1cd80e12ffbb5a4c3405b238308a4bcf6d7dfb35abf6b4e6a06423f830
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3e276d118dcbb13fe7e67b33e8705581b16be67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118784007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530117"
 ---
 # <a name="apijetgettableinfo-method-jet_sesid-jet_tableid-int32-jet_tblinfo"></a>Méthode API. JetGetTableInfo (JET_SESID, JET_TABLEID, Int32, JET_TblInfo)
 
@@ -89,13 +89,13 @@ public static void JetGetTableInfo(
     
     Type d’informations à récupérer.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette surcharge est utilisée avec [SpaceOwned](./jet-tblinfo-enumeration.md) et [SpaceAvailable](./jet-tblinfo-enumeration.md).
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

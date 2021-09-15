@@ -4,12 +4,12 @@ description: Portage vers OpenGL
 ms.assetid: 6799e10b-2f7c-4516-92ea-43667784f8e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dc6b5d32e39958fbd97c5e6aecf854be6833b5926ef58015f668162fc61f6ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f8efd2a34ac5d7fb6fc52aef3f24a556712b2c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119888259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311717"
 ---
 # <a name="porting-to-opengl"></a>Portage vers OpenGL
 

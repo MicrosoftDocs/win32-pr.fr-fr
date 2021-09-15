@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 7c1eadf9-367f-45c7-82a0-e410e7f58868
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08523bd76bdd3d7abec32fd423bcad2723b53d098528d9f3e3f3f0c2ad827e44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1274d180faefda3f0fe1d8441b69c815361e305a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311461"
 ---
 # <a name="r-rpc"></a>R (RPC)
 

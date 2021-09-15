@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 37bb44e8c34aa3cd7f9d491656461097e5a2bb5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403956"
 ---
 # <a name="iswbemsinkcancel-method"></a>ISWbemSink :: Cancel, méthode
 
@@ -41,7 +41,7 @@ SWbemSink.Cancel()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -100,7 +100,7 @@ set objwbemsink= Nothing
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

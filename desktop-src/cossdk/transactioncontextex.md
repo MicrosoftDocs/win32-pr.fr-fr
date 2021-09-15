@@ -12,11 +12,11 @@ api_name:
 api_type:
 - COM
 ms.openlocfilehash: 8cf5c3aaa7ffe126124a909498a7c54cfb012c65
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526405"
 ---
 # <a name="transactioncontextex-class"></a>TransactionContextEx, classe
 
@@ -44,7 +44,7 @@ Un client non transactionnel utilise cette classe pour commencer une transaction
 
 La classe **TransactionContextEx** limite la réutilisation de la logique métier qui dirige la transaction. Pour cette raison, il est recommandé d’utiliser des objets instanciés à partir de la classe **TransactionContextEx** avec modération.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour créer cet objet, appelez [**IObjectContext :: CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance).
 

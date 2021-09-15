@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aebc52488ebcabfca843a8fdfdfbb51307cd96be4fe923386c718bab8752c61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5107a2c4e04e9424bf0a20a7d4cf7b8edef80492
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119506459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404381"
 ---
 # <a name="wmmediaclassprimaryid-attribute"></a>Attribut WM/MediaClassPrimaryID
 
@@ -33,7 +33,7 @@ L’attribut **WM/MediaClassPrimaryID** est un GUID spécifiant l’une des clas
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké à la fois dans la bibliothèque et dans le fichier multimédia numérique.
 
@@ -43,7 +43,7 @@ la constante du kit de développement logiciel (SDK) du Format multimédia Windo
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

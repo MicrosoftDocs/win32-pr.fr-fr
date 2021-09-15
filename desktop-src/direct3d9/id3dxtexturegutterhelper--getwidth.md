@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0bea1aaaf8dc79fef7b95a8dc76320ee7911d7c68ac227703acbb95b66ff5a5f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d113107867cb418b17761c5bc5c72a600df73140
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118292473"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403943"
 ---
 # <a name="id3dxtexturegutterhelpergetwidth-method"></a>ID3DXTextureGutterHelper :: GetWidth, méthode
 
@@ -38,13 +38,13 @@ UINT GetWidth();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Retourne la largeur de la texture, en pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

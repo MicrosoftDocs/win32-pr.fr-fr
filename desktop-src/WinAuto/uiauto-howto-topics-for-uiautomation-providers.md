@@ -4,12 +4,12 @@ description: Cette section contient des exemples de code qui illustrent les tâc
 ms.assetid: 49a2c425-76a9-4cb4-8223-c7c085facff3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72bf290be21a613ebd8c7e622a776f6e99cc1dacbaebec54453b2865f6d2cc75
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33229cdf59b21c739890e86bdd56f481ce033344
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518112"
 ---
 # <a name="how-to-topics-for-ui-automation-providers"></a>Rubriques How-To pour les fournisseurs UI Automation
 

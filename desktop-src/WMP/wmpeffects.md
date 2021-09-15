@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e84f33833e9d69c39cb50ff81bd6c97ff8f79d1e2f881f82d6e4d293e78d87bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db3e35143242c5ca7888ffc50feb006f586e68d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530229"
 ---
 # <a name="wmpeffects"></a>WMPEFFECTS
 
@@ -33,7 +33,7 @@ tabStop="false"
 onclick="next();"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cela crée un élément **Effects** qui parcourt les présélections de visualisation lorsque l’utilisateur clique sur le contrôle. Elle étend également les visualisations lorsque le joueur est redimensionné.
 
@@ -41,7 +41,7 @@ La présélection de visualisation initiale présentée est celle sélectionnée
 
 Toutes les propriétés de cet élément **Effects** peuvent être remplacées en les spécifiant explicitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

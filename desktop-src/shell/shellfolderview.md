@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a95d57edb7992c9511e34480190580d34ad42da23c64c4297f5e4ebb75a95e73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79eb172641cbd96e2ed0fa6631bc18718340628f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530368"
 ---
 # <a name="shellfolderview-object"></a>Objet ShellFolderView
 
@@ -74,14 +74,14 @@ L’objet **ShellFolderView** a ces propriétés.
 | [**FocusedItem**](shellfolderview-focuseditem.md)<br/> | Lecture seule<br/> | Obtient un objet [**FolderItem**](folderitem.md) qui représente l’élément ayant le focus d’entrée.<br/> |
 | [**Dossier**](shellfolderview-folder.md)<br/>           | Lecture seule<br/> | Obtient un objet [**dossier**](folder.md) qui représente la vue.<br/>                                  |
 | [**Parent**](shellfolderview-parent.md)<br/>           | Lecture seule<br/> | Non implémenté.<br/>                                                                                  |
-| [**Conseils**](shellfolderview-script.md)<br/>           | Lecture seule<br/> | Action déconseillée.<br/>                                                                                       |
+| [**Script**](shellfolderview-script.md)<br/>           | Lecture seule<br/> | Action déconseillée.<br/>                                                                                       |
 | [**ViewOptions**](shellfolderview-viewoptions.md)<br/> | Lecture seule<br/> | Obtient un jeu d’indicateurs qui indiquent les options actuelles de la vue.<br/>                                |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

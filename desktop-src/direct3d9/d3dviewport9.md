@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 40162e4350e5a68670023701f1cdae973fb8a7bac3a6d4f5c301136c4e8c2702
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d96000de50934ebdc893ffc3866dd3252703bdc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118527265"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517505"
 ---
 # <a name="d3dviewport9-structure"></a>D3DVIEWPORT9, structure
 
@@ -110,13 +110,13 @@ Avec MinZ, valeur décrivant la plage de valeurs de profondeur dans laquelle une
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les membres X, Y, Width et Height décrivent la position et les dimensions de la fenêtre d’affichage sur la surface de rendu-cible. En règle générale, les applications sont rendues sur l’ensemble de la surface cible. lors du rendu sur une surface 640 x 480, ces membres doivent être respectivement 0, 0, 640 et 480. MinZ et MaxZ sont généralement définis sur 0,0 et 1,0, mais peuvent être définis sur d’autres valeurs pour obtenir des effets spécifiques. Par exemple, vous pouvez les définir à la fois sur 0,0 pour forcer le système à restituer les objets au premier plan d’une scène, ou les deux à 1,0 pour forcer les objets en arrière-plan.
 
 Lorsque les paramètres de la fenêtre d’affichage d’un appareil changent (en raison d’un appel à la méthode [**SetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport) ), le pilote crée une nouvelle matrice de transformation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

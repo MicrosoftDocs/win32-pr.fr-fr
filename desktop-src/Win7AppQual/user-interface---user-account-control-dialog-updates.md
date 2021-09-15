@@ -4,12 +4,12 @@ ms.assetid: f2d4b82d-a84a-4fc1-b7ad-cdc92a24f889
 title: Interface utilisateur-mises à jour de la boîte de dialogue contrôle de compte d’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e7a7337c93410056b871a5893188fffc74ec759f8bebb0c1ef8392e17ba6409
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5cd6cc6709283c7bd9cba3e26bd2df29bb02ec2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118328625"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517717"
 ---
 # <a name="user-interface---user-account-control-dialog-updates"></a>Interface utilisateur-mises à jour de la boîte de dialogue contrôle de compte d’utilisateur
 

@@ -4,12 +4,12 @@ ms.assetid: 6e44935c-2b3b-4062-8273-f1f3e70300d2
 title: Valeurs de couleur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b1518060e1ad4af7ada1c244ecdcac742f27a36133080f31199714dd8059d5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67e46cd7ee87871c660702bed120958e7096745d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118761929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530901"
 ---
 # <a name="color-values"></a>Valeurs de couleur
 

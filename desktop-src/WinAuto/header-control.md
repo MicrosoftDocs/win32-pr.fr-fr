@@ -4,12 +4,12 @@ description: Un contrôle header affiche des en-têtes en haut des colonnes d’
 ms.assetid: 669d6bb8-7bc4-4e6f-bf4f-207887f44b83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c378bb0244e94f4cb95c8b2ba90512d2b17542bdef7428197ee58479dbfde1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6d069770b14ad3ba58022af28ad07fc78cb8c5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403691"
 ---
 # <a name="header-control-msaa-ui-element-reference"></a>Contrôle header (référence des éléments d’interface utilisateur MSAA)
 

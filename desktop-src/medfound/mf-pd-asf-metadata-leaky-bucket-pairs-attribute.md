@@ -4,12 +4,12 @@ ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
 title: Attribut MF_PD_ASF_METADATA_LEAKY_BUCKET_PAIRS (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9444292ad437551622e1f418a6f21198ecd8341f01e4e5bda0a2047f847cfd37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7426d15a806a8c61c9a2ea1fdfb0565372c5f48f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118740747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530721"
 ---
 # <a name="mf_pd_asf_metadata_leaky_bucket_pairs-attribute"></a>\_Attribut des \_ \_ paires de \_ \_ compartiments avec fuite de métadonnées ASF PD \_
 
@@ -19,7 +19,7 @@ Spécifie une liste de vitesses de transmission et les fenêtres de mémoire tam
 
 Tableau d’octets
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -50,7 +50,7 @@ Pour chaque vitesse de transmission, le membre **msBufferWindow** indique la qua
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 840e51c420d3c5241edc410233b03dd948c408dda7e81a1aba6d104066cd6fe8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 726a6d7092b95f53d17625f68884b92d347de3a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118301692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531513"
 ---
 # <a name="id3dxmatrixstackrotateyawpitchrolllocal-method-d3dx10h"></a>ID3DXMATRIXStack :: RotateYawPitchRollLocal, méthode (D3DX10. h)
 
@@ -69,7 +69,7 @@ Roulement autour de l’axe z en radians.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -90,7 +90,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 Étant donné que la rotation est multipliée à gauche à la pile de matrices, la rotation est relative à l’espace de coordonnées local de l’objet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

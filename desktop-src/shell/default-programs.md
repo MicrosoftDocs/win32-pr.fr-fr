@@ -4,12 +4,12 @@ ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: Programmes par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1cd54afe23291c191fdd045ca3cb42b68361aa8f7f3d8ef431042cfe9f5c06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f8cd741794189e47888f4daa1d4585b2d8942cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117861356"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313142"
 ---
 # <a name="default-programs"></a>Programmes par défaut
 

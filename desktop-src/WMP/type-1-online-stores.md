@@ -9,12 +9,12 @@ keywords:
 - Lecteur Windows Media, tapez 1 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b46823433217b2502ec2e9e8bbbf22cf2dc9a391b23a9d22dc81a48cfb3ddff5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cef0325549c0f5459e301a3ce5b26ad7eaa40c1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117506"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403803"
 ---
 # <a name="type-1-online-stores"></a>Tapez 1 magasins en ligne
 

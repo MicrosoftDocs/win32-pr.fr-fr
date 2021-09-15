@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee7e962ad95d6e68a71e21d26f4153d1d50b7f771d2336be8e9d3af3dd18449
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b91f59fbef9d6e5f763128dbb5d3235e2e45f531
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404334"
 ---
 # <a name="direct3d-12-raytracing-hlsl-enumerations"></a>Énumérations HLSL Direct3D 12 Raytracing
 

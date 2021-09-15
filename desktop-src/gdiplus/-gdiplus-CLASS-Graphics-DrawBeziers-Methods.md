@@ -4,12 +4,12 @@ ms.assetid: af91f612-7e65-4a36-8449-32410d275b00
 title: Méthodes Graphics. DrawBeziers (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3ca924f8011e48672267a788d3dee627b0aa8c6911fbba304864ccf666adbed5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 399b487036f1a76c4a69e0af156d5cddbec5a0c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517248"
 ---
 # <a name="graphicsdrawbeziers-methods"></a>Méthodes Graphics. DrawBeziers
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes DrawBeziers de la classe [**Graphics**]
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

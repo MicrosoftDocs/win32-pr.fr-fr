@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c66f8808ea22e8c8efa5d43e2cd68b9dd0ea2a46a941046b9681089ba665790
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd3a8f6fb860f5256d21bb0b9842855b55f1a748
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119053867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404375"
 ---
 # <a name="wmmediaoriginalchannel-attribute"></a>Attribut WM/MediaOriginalChannel
 
@@ -27,13 +27,13 @@ L’attribut **WM/MediaOriginalChannel** spécifie le canal sur lequel une émis
 
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMMediaOriginalChannel.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: cd7222fcb561f23f742bfe689eb8323f2f5b70ed67d5c23c7dee4943e2642167
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eaf482f6f98d695f3aea3198948616c05ed01f72
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127516992"
 ---
 # <a name="d3dcubemap_faces-enumeration"></a>\_Énumération des visages D3DCUBEMAP
 
@@ -94,7 +94,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 537700e2-802d-4fd1-b026-142d6f4f0559
 title: Éclairage HDR (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 863e8eefab6e0199904876bdb398fefa1aeb988ef2f3556b21c24d92dbc998e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f397ccef2b1fa315e64861453b13f0f6fddfe77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118094645"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403361"
 ---
 # <a name="hdr-lighting-direct3d-9"></a>Éclairage HDR (Direct3D 9)
 

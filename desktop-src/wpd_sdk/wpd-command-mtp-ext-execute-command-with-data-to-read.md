@@ -5,11 +5,11 @@ title: Commande WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_READ (WpdMtpExt
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a9be0668f0adc312a63702c570c8818e61ba8f5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545576"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404628"
 ---
 # <a name="wpd_command_mtp_ext_execute_command_with_data_to_read-command"></a>Commande \_ wpd \_ MTP \_ ext \_ Execute Command Execute \_ \_ avec les \_ données \_ à \_ lire, commande
 
@@ -54,7 +54,7 @@ Le pilote retourne les résultats suivants.
 
 Peut uniquement être appelé directement à l’aide de [**IPortableDevice :: SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

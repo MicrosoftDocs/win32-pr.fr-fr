@@ -4,12 +4,12 @@ description: Cette section décrit le comportement du rastériseur avec les vign
 ms.assetid: 3477A621-7051-4585-AB58-523EE64CDC5C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16612e8538ec57178ed053ae1a6333c11fcaa6e4454b387408f3d99c6004eb47
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 54230321f4286b92a3444e3f74167ee7b8711c3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119608509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517064"
 ---
 # <a name="rasterizer-behavior-with-non-mapped-tiles"></a>Comportement du rastériseur avec les vignettes non mappées
 

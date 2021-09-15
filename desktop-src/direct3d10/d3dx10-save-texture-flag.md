@@ -14,11 +14,11 @@ api_type:
 api_location:
 - D3DX10Tex.h
 ms.openlocfilehash: 530b4b35b91cfd194455e15fbf3fa284460dfdbd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517561"
 ---
 # <a name="d3dx10_save_texture_flag-enumeration"></a>D3DX10 \_ l' \_ énumération de l’indicateur de texture Save \_
 
@@ -46,7 +46,7 @@ N’optimisez pas.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

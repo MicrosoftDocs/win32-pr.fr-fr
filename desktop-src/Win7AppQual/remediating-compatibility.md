@@ -4,12 +4,12 @@ ms.assetid: 18F74BA7-2729-4EB3-8E6F-4E5A8C17C317
 title: Compatibilité DEP/NX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65af83e43defb5216b176755dbc8f32067f907620bc120a16aff8b6db3392c9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb8b46c9143ee96b8599c10d4c70276d36e20a08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118329624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531528"
 ---
 # <a name="depnx-compatibility"></a>Compatibilité DEP/NX
 

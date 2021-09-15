@@ -1,5 +1,5 @@
 ---
-description: L’exemple de code WSFromScript montre comment interroger la recherche Windows à partir d’un script Microsoft Visual Basic à l’aide de Microsoft ActiveX Data Objects (ADO).
+description: l’exemple de code WSFromScript montre comment interroger Windows la recherche à partir d’un script microsoft Visual Basic à l’aide de microsoft ActiveX Data Objects (ADO).
 ms.assetid: 93ee63f2-ab05-478a-99d0-4f4d09c11506
 title: WSFromScript
 ms.topic: article
@@ -10,15 +10,15 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 99f505872571eeea4c16c0edde5059eafd301ac7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318165"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313201"
 ---
 # <a name="wsfromscript"></a>WSFromScript
 
-L’exemple de code WSFromScript montre comment interroger la recherche Windows à partir d’un script Microsoft Visual Basic à l’aide de Microsoft ActiveX Data Objects (ADO).
+l’exemple de code WSFromScript montre comment interroger Windows la recherche à partir d’un script microsoft Visual Basic à l’aide de microsoft ActiveX Data Objects (ADO).
 
 Cette rubrique contient les sections suivantes.
 
@@ -27,7 +27,7 @@ Cette rubrique contient les sections suivantes.
 - [Génération de l'exemple](#building-the-sample)
 - [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Produit     | Version du produit          |
 |-------------|--------------------------|
@@ -43,13 +43,13 @@ Cet exemple est disponible à l’emplacement suivant.
 | GitHub  | [Exemple WSFromScript](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/WSFromScript)    |
 
 > [!NOTE]  
-> Pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
+> pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
 
 ## <a name="building-the-sample"></a>Génération de l'exemple
 
 Pour générer l’exemple à partir de la fenêtre d’invite de commandes :
 
-1. Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **QueryEverything** . Par exemple, le chemin d’installation complet par défaut du kit de développement logiciel (SDK) Windows 7 est `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\WindowsSearch\WSFromScript` .
+1. Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **QueryEverything** . par exemple, le chemin d’installation complet par défaut du kit de développement logiciel (SDK) Windows 7 est `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\WindowsSearch\WSFromScript` .
 2. Entrez `cscript QueryEverything.vbs`.
 
 ## <a name="related-topics"></a>Rubriques connexes

@@ -4,12 +4,12 @@ ms.assetid: b3006b89-d9fc-4444-a3c8-ad2698de501c
 title: Fournisseur de support de sécurité des informations d’identification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4059da0dcc1e6c963ab011ad03415175849191374732f3d1df395914aebe49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e9aa961f37043d84dc21280ea7d5ecb9c27c075
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311390"
 ---
 # <a name="credential-security-support-provider"></a>Fournisseur de support de sécurité des informations d’identification
 

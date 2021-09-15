@@ -11,12 +11,12 @@ keywords:
 - triangles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85acc650a709650495b93cdd00176400f00168cc8fe6445a23505f12b332abf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad0c7a0af4b538bb951cf0d1c5f2e12b2e1badda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311710"
 ---
 # <a name="porting-triangles"></a>Triangles de Portage
 

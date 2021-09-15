@@ -15,12 +15,12 @@ keywords:
 - Protocole WMPDVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ca67f3cdee6f040aeb266e02493425ca76715ade2e3269f4377ba340af89cc9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc4d3949c18a268ea6a2fffc196081ba466b5758
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530232"
 ---
 # <a name="wmpdvd-protocol"></a>Protocole WMPDVD
 

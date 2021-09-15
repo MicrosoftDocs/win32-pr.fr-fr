@@ -4,12 +4,12 @@ ms.assetid: 077d6275-8600-4091-b78e-419a41a2101a
 title: Authentification dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 810fadf470861b23ed2291bfa5665e1e429e86b7be77675f332267ee1d1c4de4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a75c6703e9d28902c5705f0b8ab8433193c4d085
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531013"
 ---
 # <a name="authentication-in-winhttp"></a>Authentification dans WinHTTP
 

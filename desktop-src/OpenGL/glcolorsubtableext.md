@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ff6f4b88a355c25df40a847912d4e3352bd87962
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122475395"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311833"
 ---
 # <a name="glcolorsubtableext-function"></a>glColorSubTableEXT fonction)
 
@@ -134,7 +134,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                              | Signification                                                                                                                               |
+| Nom                                                                                              | Signification                                                                                                                               |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl> | *Start* ou *Count* était un entier non valide.<br/>                                                                                 |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>  | la *cible*, le *format* ou le *type* n’était pas une valeur acceptée.<br/>                                                                    |
@@ -142,7 +142,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glColorSubTableEXT** spécifie des parties de la palette de la texture ciblée actuelle à remplacer. Contrairement à [**glColorTableEXT**](glcolortableext.md), vous ne pouvez pas spécifier le paramètre *target* comme une palette de texture de proxy.
 
@@ -151,7 +151,7 @@ La fonction **glColorSubTableEXT** spécifie des parties de la palette de la tex
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

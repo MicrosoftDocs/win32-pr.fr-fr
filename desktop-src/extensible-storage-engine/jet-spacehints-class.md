@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ec5f7893a99c6656c53672c998ce18baf2f8457bc9b671ad3fdd81315704e57a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96c6157ffb72e8190c65567bb7aeb317f0c99ca2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525905"
 ---
 # <a name="jet_spacehints-class"></a>Classe JET_SPACEHINTS
 

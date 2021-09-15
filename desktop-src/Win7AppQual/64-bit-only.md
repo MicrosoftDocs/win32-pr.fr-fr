@@ -4,12 +4,12 @@ ms.assetid: 5d0188a5-ef5f-409e-9d2d-7639d99edc1d
 title: 64 bits uniquement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e29da3d00b457c7fe95ed7fe614991bc272968ad042b9c0360a14d48b1bf3461
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f2d896fcaf4b8c4ebeadf7cfd5a5c22e511cb659
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119680259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404365"
 ---
 # <a name="64-bit-only"></a>64 bits uniquement
 
