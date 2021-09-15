@@ -4,12 +4,12 @@ ms.assetid: fbbd3ea0-9b35-4aaf-8498-187957e29cf0
 title: chemins d’accès (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae65d517f0c5cca26f3e5ba581f39b815d4e09920f7a268284435bb070cfc748
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8592fac5b0a523a079988266c3c4ecd7a1023c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118759280"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531968"
 ---
 # <a name="paths-windows-gdi"></a>chemins d’accès (Windows GDI)
 

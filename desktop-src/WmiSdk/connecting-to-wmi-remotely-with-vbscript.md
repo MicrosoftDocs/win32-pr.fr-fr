@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9ccdd4466273cdc3b49399abf30915a975418433183d821482a8fa92920d52d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07cff2f0cd0ca06de059d9b39e36d715b5555eaa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118819687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520229"
 ---
 # <a name="connecting-to-wmi-remotely-with-vbscript"></a>Connexion à WMI à distance avec VBScript
 

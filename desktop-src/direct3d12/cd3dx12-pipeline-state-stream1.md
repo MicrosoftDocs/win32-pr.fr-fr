@@ -16,11 +16,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 219b198ae5c2da6d6e74db933d4c26771aa63975
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520821"
 ---
 # <a name="cd3dx12_pipeline_state_stream1-structure"></a>Structure CD3DX12_PIPELINE_STATE_STREAM1
 
@@ -168,7 +168,7 @@ Décrit la mémoire tampon de sortie de diffusion en continu.
 
 </dd> <dt>
 
-**SH**
+**HS**
 </dt> <dd>
 
 Décrit le nuanceur de coque.
@@ -252,13 +252,13 @@ Décrit un PSO mis en cache.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 [CD3DX12_PIPELINE_STATE_STREAM](cd3dx12-pipeline-state-stream.md) prend en charge le Windows 10 Fall Creators Update, mais ne prend pas en charge les types de sous-objets ajoutés dans Windows 10 mise à jour des créateurs de automne, par exemple pour l’instanciation de vues. Pour prendre en charge les nouveaux types de sous-objet, utilisez **CD3DX12_PIPELINE_STATE_STREAM1** à la place.
 
 Les variables membres accessibles de cette structure sont tous les typedefs du modèle [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](/windows/win32/direct3d12/cd3dx12-pipeline-state-stream-subobject) , qui combine le marqueur de type de sous-objet et les données de sous-objet dans un objet unique approprié pour une description de flux.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

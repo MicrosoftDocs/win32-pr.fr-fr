@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 0932138ce5aec85ad3d3e7058db0c2a93e131181
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380784"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519241"
 ---
 # <a name="line-directive"></a>\#Line (directive)
 

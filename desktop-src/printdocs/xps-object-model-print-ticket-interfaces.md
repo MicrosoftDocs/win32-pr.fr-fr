@@ -4,12 +4,12 @@ ms.assetid: 53c95da0-1601-4945-83a1-e3266d251aee
 title: Interfaces du ticket d’impression XPS OM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f629e716db7098f8f6999df758fd3b73e3f82b83308a3dd68d5f247d6cd709a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 646089455e7106b1be3716c0ccf0774be361f130
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117867755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519437"
 ---
 # <a name="xps-om-print-ticket-interfaces"></a>Interfaces du ticket d’impression XPS OM
 

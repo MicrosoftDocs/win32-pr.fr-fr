@@ -8,11 +8,11 @@ ms:contentKeyID: 39512349
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: 0c749c0c2e894e5a5d538db994594ebdcc329d2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554542"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519141"
 ---
 # <a name="ijet_logtime-properties"></a>Propriétés de la IJET_LOGTIME
 

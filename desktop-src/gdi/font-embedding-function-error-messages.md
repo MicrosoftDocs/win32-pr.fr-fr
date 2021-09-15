@@ -4,12 +4,12 @@ ms.assetid: 71effafe-55a9-40ed-81c7-07278eba32d3
 title: Font-Embedding des messages d’erreur de fonction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b059b88c9261092fd69b9fce5eca65a9fdf49de5a1b63c8411e605aec38c65a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a4bf348d73e6b452ba9afe819e3fa515ebd04c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117699356"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520065"
 ---
 # <a name="font-embedding-function-error-messages"></a>Font-Embedding des messages d’erreur de fonction
 
@@ -17,7 +17,7 @@ Les valeurs longues suivantes sont retournées par les fonctions d’incorporati
 
 
 
-| Valeur retournée                  | Description                                                                                                                                                                                                                                                                              |
+| Valeur de retour                  | Description                                                                                                                                                                                                                                                                              |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | E \_ aucun                       | Pas d'erreur.                                                                                                                                                                                                                                                                                |
 | \_ADDFONTFAILED E              | Une erreur s’est produite lorsque les fonctions de chargement ont essayé d’ajouter la nouvelle police à l’aide de [**AddFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-addfontresourcea).                                                                                                                                                                    |

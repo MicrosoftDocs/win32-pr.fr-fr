@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be293636044e744ec02e3bdcddbc96b61373a35c9bddc04a03d282fcebe268d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 512bc457a84ad1d1b170ac9d31cb04e36d8a05d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118485508"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530908"
 ---
 # <a name="session-implicit-conversion-session-to-jet_sesid"></a>Conversion implicite de session (session à JET_SESID)
 
@@ -66,14 +66,14 @@ public static implicit operator JET_SESID (
     
     Session à convertir.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_SESID](./jet-sesid-structure.md)  
 JET_SESID de la session.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Session class](./session-class.md) (Classe Session)
 

@@ -3,12 +3,12 @@ description: en savoir plus sur les suites de chiffrement TLS dans Windows 10 v1
 title: Suites de chiffrement TLS dans Windows 10 v1903, v1909 et v2004
 ms.topic: article
 ms.date: 10/09/2018
-ms.openlocfilehash: 236947e15dde2468ec9f81e5755b646a4c84dbde81c6fc7597a1011571b1ceea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c5cd0ff5b61d301ded666f1c236e83539698fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916158"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519409"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1903-v1909-and-v2004"></a>Suites de chiffrement TLS dans Windows 10 v1903, v1909 et v2004
 

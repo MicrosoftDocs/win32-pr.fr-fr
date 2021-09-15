@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Formats d’heure WQL-Supported
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 627b46ef7d01a2eb3e8e40484b37822c9ebca55a9487b1ffb0e1a138ab7378d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58b84d9e37de3529060dc3da6277b2cfb40f7cc9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119049737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520528"
 ---
 # <a name="wql-supported-time-formats"></a>Formats d’heure WQL-Supported
 

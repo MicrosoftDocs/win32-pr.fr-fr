@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a16101eac6f303dbba03819c8d9f460c06c2613c748ef8ce4c74ae3fe30bb0f9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f843a218e39daf616fa6c59ca27f73a5511f17b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120024609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519228"
 ---
 # <a name="pragma-directive"></a>\#pragma (directive)
 
@@ -45,7 +45,7 @@ Directive de préprocesseur qui fournit des fonctionnalités spécifiques à l�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le compilateur trouve un pragma qu’il ne reconnaît pas, il émet un avertissement, mais la compilation se poursuit.
 

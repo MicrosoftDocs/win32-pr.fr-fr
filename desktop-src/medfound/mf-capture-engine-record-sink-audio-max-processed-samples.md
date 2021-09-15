@@ -4,12 +4,12 @@ ms.assetid: 216886DB-B206-4944-925A-C2106331F1CB
 title: Attribut MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_PROCESSED_SAMPLES (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b4478ebecfc873c612e8deb0106cba5462e77cd56d5d818b03d74e88679c8b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19d1ce4d649c75106545eb2ff39d4f3ea742e6a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118245037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531249"
 ---
 # <a name="mf_capture_engine_record_sink_audio_max_processed_samples-attribute"></a>\_Attribut des \_ \_ exemples de \_ \_ données audio \_ Max \_ processed du \_ récepteur d’enregistrements du moteur de capture MF
 
@@ -25,7 +25,7 @@ Pour configurer cet attribut sur le moteur de capture, ajoutez-le au paramètre 
 
 La valeur maximale de cet attribut est 100.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

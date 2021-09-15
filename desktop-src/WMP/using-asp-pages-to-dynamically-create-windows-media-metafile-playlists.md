@@ -22,12 +22,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 096a71a5ffedb353cbfd75fb1b5c23b97065ca96c0d75ac30588c44e7720f779
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ea3cef88d86078aa95785163d7c2f4b0e57e975
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119762069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519052"
 ---
 # <a name="using-asp-pages-to-dynamically-create-windows-media-metafile-playlists"></a>utilisation de Pages ASP pour créer dynamiquement des sélections de métafichiers Windows Media
 

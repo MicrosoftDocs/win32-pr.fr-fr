@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5dcb49789ef44758830b24635bd8c37f2b25647f043408d260795dbafcf28270
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1436674871068b09c3e3173d939324af07a5b28b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119470719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520076"
 ---
 # <a name="windows8paramcachepriority-field"></a>Champ Windows8Param. CachePriority
 
@@ -55,7 +55,7 @@ public const JET_param CachePriority
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows8Param, classe](./windows8param-class.md)
 

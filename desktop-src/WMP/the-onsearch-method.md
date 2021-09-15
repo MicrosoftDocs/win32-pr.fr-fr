@@ -10,12 +10,12 @@ keywords:
 - Méthode OnSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ab5cb4b26d291a940ed329e2422240e6fc36e5ba980431af169d58f1398fdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de5c33af434028e6ee72c757c8d71def0d4109fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118117999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519057"
 ---
 # <a name="the-onsearch-method"></a>Méthode OnSearch
 

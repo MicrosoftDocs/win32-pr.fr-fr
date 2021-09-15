@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 803e776bd635cd600bf664354dda8703d224dffcd63ea751919875a6ea69233d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd1d00d4dc12b27c1c80b0e18bb095641a56e322
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518012"
 ---
 # <a name="bits_job_property_id-enumeration"></a>Énumération BITS_JOB_PROPERTY_ID
 
 L’énumération **BITS_JOB_PROPERTY_ID** spécifie l’ID de la propriété pour le travail do. Cette énumération est utilisée dans l’Union [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) pour déterminer le type de valeur contenu dans l’Union.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++

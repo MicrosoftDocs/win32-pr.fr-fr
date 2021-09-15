@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 94027dac3956376e32ad10cf7c1b600d9c65f3918e2781ab9da96d4d3891f43b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21864dcc41ce86f139361af4357810137acf7f06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117879723"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520301"
 ---
 # <a name="d3dencrypted_block_info-structure"></a>\_Structure d' \_ informations sur les blocs D3DENCRYPTED
 
@@ -62,7 +62,7 @@ Nombre d’octets qui sont chiffrés après chaque bloc d’octets ignorés.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

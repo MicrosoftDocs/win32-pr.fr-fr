@@ -4,12 +4,12 @@ ms.assetid: 60484f87-7588-4b52-93aa-ef8fad66d971
 title: Attribut MF_ACTIVATE_CUSTOM_VIDEO_MIXER_ACTIVATE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1966efe66efaba56c0206a9f6fac59aba30a1aea9d47100c4ce19a30af96a863
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d6268f3630b013235f3d365e0b8ab0578c9dd3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117877296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531273"
 ---
 # <a name="mf_activate_custom_video_mixer_activate-attribute"></a>Activer \_ l' \_ \_ attribut d' \_ activation du MÉLANGEur vidéo personnalisé \_ MF
 
@@ -19,7 +19,7 @@ Spécifie un objet d’activation qui crée un mélangeur vidéo personnalisé p
 
 **IUnknown\***
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous créez le EVR via un objet d’activation, vous pouvez utiliser cet attribut pour définir une console de mixage vidéo personnalisée sur EVR. Utilisez cet attribut comme suit :
 
@@ -30,7 +30,7 @@ Si vous définissez cet attribut, EVR appelle [**IMFActivate :: ActivateObject*
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

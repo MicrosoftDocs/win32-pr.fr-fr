@@ -5,11 +5,11 @@ title: Encodeur vidéo H. 264
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 875974c53be265fbcace8cf99e2bdd78d69cdda5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467526"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530841"
 ---
 # <a name="h264-video-encoder"></a>Encodeur vidéo H. 264
 
@@ -59,7 +59,7 @@ Définissez les attributs suivants sur le type de média de sortie.
 | <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Mode entrelacé. | 
 | <a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a> | Profil d’encodage H. 264.<br /> Les valeurs prises en charge sont les suivantes :<br /><ul><li><strong>eAVEncH264VProfile_Base</strong> (par défaut)</li><li><strong>eAVEncH264VProfile_Main</strong></li><li><strong>eAVEncH264VProfile_High</strong> (requiert Windows 8)</li></ul> | 
 | <a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a> | facultatif. Spécifie le niveau d’encodage H. 264.<br /> La valeur par défaut est – 1, ce qui indique que l’encodeur va sélectionner le niveau d’encodage.<br /> Il est recommandé de ne pas définir le niveau dans le type de média et de permettre à l’encodeur de sélectionner le niveau. L’encodeur peut dériver le niveau approprié pour un flux vidéo donné, en tenant compte des contraintes de format et des caractéristiques de la vidéo. Pour plus d’informations sur les contraintes de profil et de niveau, reportez-vous à l’annexe A de l’ITU-T H. 264.<br /> | 
-| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | facultatif. Spécifie les proportions en pixels. La valeur par défaut est 1:1. | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Optionnel. Spécifie les proportions en pixels. La valeur par défaut est 1:1. | 
 
 
 
@@ -115,7 +115,7 @@ Les propriétés suivantes requièrent Windows 8.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’encodeur prend en charge les modes de contrôle de taux suivants.
 
@@ -201,7 +201,7 @@ Les propriétés **ICodecAPI** suivantes sont facultatives. Ils ne sont pas test
 
 -   [CODECAPI_AVEncMPVDefaultBPictureCount](../directshow/avencmpvdefaultbpicturecount-property.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

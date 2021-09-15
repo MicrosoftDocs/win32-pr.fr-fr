@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/28/2020
-ms.openlocfilehash: 16f9f1160f9766bd6284f62f2203b940ab6336f326aa31a0d9fa2894d243cf59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d174f64fa776b506814540d4f2c97635fba38a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118247948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530872"
 ---
 # <a name="wm_char-message"></a>\_Message WM char
 
@@ -66,7 +66,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
@@ -102,7 +102,7 @@ Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont l
 
 Le message [**WM \_ UNICHAR**](wm-unichar.md) est identique à **WM \_ char**, sauf qu’il utilise UTF-32. Il est conçu pour envoyer ou poster des caractères Unicode dans des fenêtres ANSI et peut gérer des caractères de plan supplémentaires Unicode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -130,7 +130,7 @@ Le message [**WM \_ UNICHAR**](wm-unichar.md) est identique à **WM \_ char**, s
 [**\_UNICHAR WM**](wm-unichar.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

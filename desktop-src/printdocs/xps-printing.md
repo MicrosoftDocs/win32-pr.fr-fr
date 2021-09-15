@@ -4,12 +4,12 @@ ms.assetid: df06ddcb-e573-461c-99a3-8f108fe2c143
 title: API d’impression XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 494fed2e1a09604c2989a96d7372d62eb710537259938f7f1fd1783cd8cdd36f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30c53322a8ae6a03c3ac4bb71fc680f719999546
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117867701"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521368"
 ---
 # <a name="xps-print-api"></a>API d’impression XPS
 

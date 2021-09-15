@@ -4,12 +4,12 @@ ms.assetid: fe5e852f-fe0c-439d-b0c5-d32593b587cb
 title: 'Étape 4 : créer la session multimédia'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad9c31d4c5e07abe8f088aad38fec9f91046a7d4338905dbd917de9d414fd4f1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8b4c6c9e36552247cb294a7d0d6996fcc0b8a6ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119847769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531629"
 ---
 # <a name="step-4-create-the-media-session"></a>Étape 4 : créer la session multimédia
 

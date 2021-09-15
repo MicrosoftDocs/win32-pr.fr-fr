@@ -1,5 +1,5 @@
 ---
-description: Contient un événement MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Contient un événement MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: d1806b91-43a3-4329-8fe5-de1e4755740f
 title: Classe MSMCAInfo_RawMCAEvent
 ms.topic: reference
@@ -18,15 +18,15 @@ api_type:
 api_location:
 - Wmiprov.dll
 ms.openlocfilehash: e15af79c67265823e0025849e4c2ef27f690265c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518953"
 ---
 # <a name="msmcainfo_rawmcaevent-class"></a>MSMCAInfo \_ RawMCAEvent, classe
 
-La classe **MSMCAInfo \_ RawMCAEvent** contient un événement MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAInfo \_ RawMCAEvent** contient un événement MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -109,7 +109,7 @@ Tableau d’enregistrements d’erreurs MCA. Le nombre d’enregistrements d’e
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAInfo \_ RawMCAEvent** est dérivée de [**WmiEvent**](wmievent.md).
 

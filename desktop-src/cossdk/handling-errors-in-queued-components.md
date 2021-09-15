@@ -4,12 +4,12 @@ ms.assetid: 8015682c-d84d-44e2-995d-dca68053c4fa
 title: Gestion des erreurs dans les composants en file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 314ff367e656043746bb34bcb28b6c5a3dc8db9b86b58a482af45f684fb658c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95752adf82d74e39a9c93f1ae54584e72007f1ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519317"
 ---
 # <a name="handling-errors-in-queued-components"></a>Gestion des erreurs dans les composants en file d’attente
 
@@ -203,7 +203,7 @@ Si les attributs de file d’attente le permettent, le Data Mover déplace les m
 
 Si les messages sont générés par des appels de composants en file d’attente COM+, l’utilitaire de déplacement de messages conserve l’identificateur de sécurité de l’appelant d’origine lorsqu’il déplace des messages entre les files d’attente. Si les files d’attente source et de destination sont transactionnelles, l’intégralité de l’opération est effectuée de façon transitoire. Si les files d’attente source ou de destination ne sont pas transactionnelles, l’opération ne s’exécute pas dans le cadre d’une transaction. Une défaillance inattendue (par exemple, un incident) et le redémarrage d’un déplacement non transactionnel peuvent dupliquer le message déplacé au moment de l’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 COM+ gère les abandons côté serveur (joueur) en déplaçant le message qui échoue dans une file d’attente de « repos final » différente, afin de le récupérer. L’écouteur et le lecteur ne peuvent pas boucler continuellement sur un message qui s’interrompt. Dans de nombreux cas, la transaction abandonnée peut être corrigée en effectuant une action sur le serveur.
 

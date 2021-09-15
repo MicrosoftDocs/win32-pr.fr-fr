@@ -4,12 +4,12 @@ ms.assetid: 0f006670-a1e5-47ed-baf5-ed55bd42b468
 title: AcquireCredentialsHandle (SChannel), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: d2fb9812817e27576667f7fa0ff5312eea8cea41743cbfc9e5b03267f837011f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5b7de49e76cf5b09611790a12826f1a13fc38e62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531029"
 ---
 # <a name="acquirecredentialshandle-schannel-function"></a>AcquireCredentialsHandle (SChannel) (fonction)
 
@@ -132,7 +132,7 @@ Lorsque vous utilisez le SSP Schannel, ce paramètre est facultatif. Lorsque les
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne SEC \_ E \_ OK.
 
@@ -153,7 +153,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **AcquireCredentialsHandle (SChannel)** retourne un handle vers les informations d’identification d’un principal, tel qu’un utilisateur ou un client, tel qu’il est utilisé par une [*délégation restreinte*](../secgloss/s-gly.md)spécifique. Il peut s’agir du descripteur des informations d’identification préexistantes, ou la fonction peut créer un nouvel ensemble d’informations d’identification et la retourner. Ce handle peut être utilisé dans les appels ultérieurs aux fonctions [**AcceptSecurityContext (SChannel)**](acceptsecuritycontext--schannel.md) et [**InitializeSecurityContext (SChannel)**](initializesecuritycontext--schannel.md) .
 
@@ -168,7 +168,7 @@ Pour les appelants en mode noyau, les différences suivantes doivent être noté
 
 Lorsque vous avez terminé d’utiliser les informations d’identification retournées, libérez la mémoire utilisée par les informations d’identification en appelant la fonction [**FreeCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-freecredentialshandle) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

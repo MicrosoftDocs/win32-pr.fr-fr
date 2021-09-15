@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ba9426e53be08001940802a7bcc66e45fc71e8883252ce9d5a3b529e9a8c82c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc036a1c1eceedd39fd265bcf85a2dbaf779a432
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118983419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517969"
 ---
 # <a name="apijetgetdatabasefileinfo-method-string-int64-jet_dbinfo"></a>API. JetGetDatabaseFileInfo, méthode (String, Int64, JET_DbInfo)
 
@@ -67,7 +67,7 @@ public static void JetGetDatabaseFileInfo(
 
 <!-- end list -->
 
-  - valeur  
+  - value  
     Type : [System. Int64](/dotnet/api/system.int64)  
     
     Valeur à récupérer.

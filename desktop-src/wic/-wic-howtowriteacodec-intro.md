@@ -4,12 +4,12 @@ ms.assetid: ffcd5239-ae2d-436f-9402-8c10a79256c3
 title: Introduction (écriture d’un codec WIC-Enabled)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 028246c323cfca16760f86f26d3b1d3694a39ff83a27e983320afa96d8fbf771
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 776bf9f2c0cb5df8b45ce04d55f20d40d05a12a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530253"
 ---
 # <a name="introduction-how-to-write-a-wic-enabled-codec"></a>Introduction (écriture d’un codec WIC-Enabled)
 
@@ -21,7 +21,7 @@ l’explorateur Windows vista, Windows galerie de photos vista, la galerie de ph
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)

@@ -1,5 +1,5 @@
 ---
-description: Contient un événement de vérification de l’ordinateur (CMC) corrigé. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Contient un événement de vérification de l’ordinateur (CMC) corrigé. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: e12efbf7-7d53-415a-bc48-90d33e4ce16d
 title: Classe MSMCAInfo_RawCMCEvent
 ms.topic: reference
@@ -18,15 +18,15 @@ api_type:
 api_location:
 - Wmiprov.dll
 ms.openlocfilehash: 1bb60d5fbcf004b924a91e640d8cd8a8c5ad3c25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536573"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518960"
 ---
 # <a name="msmcainfo_rawcmcevent-class"></a>MSMCAInfo \_ RawCMCEvent, classe
 
-La classe **MSMCAInfo \_ RawCMCEvent** contient un événement de vérification de l’ordinateur (CMC) corrigé. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAInfo \_ RawCMCEvent** contient un événement de vérification de l’ordinateur (CMC) corrigé. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -109,7 +109,7 @@ Tableau des enregistrements d’erreurs MCA (machine Check architecture). Le nom
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAInfo \_ RawCMCEvent** est dérivée de [**WmiEvent**](wmievent.md).
 

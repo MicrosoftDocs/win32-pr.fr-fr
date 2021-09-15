@@ -4,12 +4,12 @@ ms.assetid: 03f00c19-ff81-478b-b545-048f3dbe5eda
 title: Gestion des erreurs d’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 965276fff68edf45ae27423ee4ed707e4bb7f1476b0237dab270538e0fa0f1be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e7e5838d7fee7616a23f5e361df1aef65421492
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118306707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519321"
 ---
 # <a name="handling-com-administration-errors"></a>Gestion des erreurs d’administration COM+
 

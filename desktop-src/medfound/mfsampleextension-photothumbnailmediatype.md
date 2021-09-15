@@ -4,12 +4,12 @@ ms.assetid: BA727189-385D-4BA1-9F17-AC6ECDD20ABF
 title: Attribut MFSampleExtension_PhotoThumbnailMediaType (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77496340d598c7caf1064df0d3fc7e1ae7f112309bf6fbba6a66f3d5516e3828
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bb0e415fb0d3b062b4a5064006d3873cd42ea593
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119713599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531133"
 ---
 # <a name="mfsampleextension_photothumbnailmediatype-attribute"></a>\_Attribut MFSampleExtension PhotoThumbnailMediaType
 
@@ -19,11 +19,11 @@ Contient le [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfme
 
 **IUnknown** stocké en tant que **IMFMediaType**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’attribut de [ \_ photominiature MFSampleExtension](mfsampleextension-photothumbnail.md) est présent sur l’échantillon de photo, le \_ PhotoThumbnailMediaType MFSampleExtension est obligatoire et doit contenir au minimum le [type de clé \_ \_ principale \_ MF MT](mf-mt-major-type-attribute.md), le sous- [ \_ \_ type MF MT](mf-mt-subtype-attribute.md) et la [ \_ \_ \_ taille d’image MF MT](mf-mt-frame-size-attribute.md) qui décrivent la miniature.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,6 +1,6 @@
 ---
 description: Méthode ShellFolderView. SelectItem-définit l’état de sélection d’un élément dans la vue.
-title: Méthode ShellFolderView. SelectItem (shldisp. h)
+title: ShellFolderView.SelectItem, méthode (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,11 +14,11 @@ api_location:
 - Shell32.dll
 ms.assetid: 91c39d4c-56c3-4c2b-93e8-9f782ca0aa93
 ms.openlocfilehash: ab0f65094f638c56df6a10434f9a404072278c55
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842550"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530372"
 ---
 # <a name="shellfolderviewselectitem-method"></a>Méthode ShellFolderView. SelectItem
 
@@ -124,7 +124,7 @@ Donne le focus à l’élément.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -134,7 +134,7 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode dans JScript incorporé en HTML.
+l’exemple suivant illustre l’utilisation appropriée de cette méthode dans JScript incorporée en HTML.
 
 
 ```JScript
@@ -195,7 +195,7 @@ L’exemple suivant illustre l’utilisation correcte de cette méthode dans JSc
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

@@ -4,12 +4,12 @@ ms.assetid: 4c4c6e8f-4ee0-4089-a283-1082baee5054
 title: Initialiser le gestionnaire de signatures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9a9f960c639e20c6c7d4debbfd2276553d3ba90b7af083d39a97f887ee81ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2796838a9cd041859f0eb47bf4aeafb2a8d5356
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119948769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519492"
 ---
 # <a name="initialize-the-signature-manager"></a>Initialiser le gestionnaire de signatures
 

@@ -5,11 +5,11 @@ ms.assetid: 65F4DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
 ms.openlocfilehash: 8c4dbfc494217b049d23b0819b2844510a10ca92
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478705"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519980"
 ---
 # <a name="messages"></a>Messages
 

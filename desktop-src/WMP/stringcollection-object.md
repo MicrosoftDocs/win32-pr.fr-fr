@@ -3,7 +3,7 @@ title: StringCollection, objet
 description: L’objet StringCollection fournit un moyen de manipuler une collection de chaînes.
 ms.assetid: bd4f82e7-1a6a-47c5-b019-7aff520e621a
 keywords:
-- Objet StringCollection lecteur Windows Media
+- StringCollection, objet Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 0d1872bec7e00e87ada845f7518608ea4149f137
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104313249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520277"
 ---
 # <a name="stringcollection-object"></a>StringCollection, objet
 
@@ -34,7 +34,7 @@ L’objet **StringCollection** prend en charge la propriété suivante.
 
 
 
- 
+ 
 
 L’objet **StringCollection** prend en charge les méthodes suivantes.
 
@@ -50,7 +50,7 @@ L’objet **StringCollection** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **StringCollection** est accessible par le biais de la méthode suivante.
 
@@ -62,7 +62,7 @@ L’objet **StringCollection** est accessible par le biais de la méthode suivan
 
 
 
- 
+ 
 
 À des fins d’illustration, *joueur*. *mediaCollection*. **getAttributeStringCollection**(*attribute*, *MediaType*) est utilisé dans les sections de syntaxe de référence.
 
@@ -73,9 +73,9 @@ L’objet **StringCollection** est accessible par le biais de la méthode suivan
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

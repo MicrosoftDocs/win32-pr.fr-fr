@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: e21353fb780ed7346c1ff82cbc5057469da25a4b
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987482"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517845"
 ---
 # <a name="jet_indexlist-structure"></a>Structure JET_INDEXLIST
 
@@ -187,7 +187,7 @@ Par exemple, l’index « + A \\ 0 + B \\ 0 + C \\ 0 + D \\ 0 + E \\ 0 » est 
 Le nombre de clés dans un index particulier correspond au nombre de valeurs uniques qu’un appelant peut rechercher et obtenir une correspondance exacte. Le nombre d’entrées est le nombre de lignes correspondant à un index. Si un index a une contrainte d’unicité, le nombre de clés est égal au nombre d’entrées. Par exemple, si une table contient les informations suivantes et qu’un index est créé sur la colonne nommée « Key », il existe trois clés (100, 200 et 500), mais il existe quatre entrées (« This », « is », « an » et « example »).
 
 
-| <p>Clé :</p> | <p>Entrée</p> | 
+| <p>Clé</p> | <p>Entrée</p> | 
 |------------|--------------|
 | <p>100</p> | <p>Voici</p> | 
 | <p>100</p> | <p>non</p> | 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b561189c0aaafa42cc877246bb5a666ac26853133c227aa6c7a4f8beb1f23a28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 920ad763f478a2e6bcb9fbe98cc7e2a677ebe783
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118299363"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520169"
 ---
 # <a name="d3dxcomputenormalmap-function"></a>D3DXComputeNormalMap fonction)
 
@@ -99,7 +99,7 @@ Multiplicateur de valeur constante qui augmente (ou diminue) les valeurs dans la
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -109,7 +109,7 @@ Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction �
 
 Cette méthode calcule le normal à l’aide de la différence centrale avec une taille de noyau de 3 x 3. Le dénominateur de différenciation central utilisé est 2,0. Les canaux RVB dans la destination contiennent des composants (x, y, z) biaisés de la normale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

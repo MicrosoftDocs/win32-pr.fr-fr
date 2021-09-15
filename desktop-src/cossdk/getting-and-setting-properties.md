@@ -4,12 +4,12 @@ ms.assetid: 259612e7-70df-4f0f-90bc-766008dfdce7
 title: Obtention et définition des propriétés (services de composants)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 805d98463e1f9b8f08c1018b49554c95e2735bfa7ea6dca21d90243eb324df49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d151b08293cd32a35cd27bdba4dd3a37cdebfa4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118306754"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519324"
 ---
 # <a name="getting-and-setting-properties-component-services"></a>Obtention et définition des propriétés (services de composants)
 

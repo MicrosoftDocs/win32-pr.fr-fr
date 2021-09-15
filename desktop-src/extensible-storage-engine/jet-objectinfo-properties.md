@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103764
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3d6d9ec82c0b3c82ef1162714c83a4a1bf5d623edcd06b5b17026cec252b978a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5680665c113246a266bc8585a3e20ad6db7dc0e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117893941"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519105"
 ---
 # <a name="jet_objectinfo-properties"></a>Propriétés de la JET_OBJECTINFO
 

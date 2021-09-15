@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0200737a9b25a123954498941ad117e5465f58f5313daa8caf90674751355ed6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f045ff07e01023e6535eb00dcb78400e4c9519a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736276"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519308"
 ---
 # <a name="wm_dde_data-message"></a>\_Message de \_ données DDE WM
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome qui identifie l’élément de données p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="posting"></a>Publication
 
@@ -83,7 +83,7 @@ Après le traitement d’un message de **\_ \_ données. WM DDE** dans lequel l�
 -   Le membre **fRelease** a la **valeur false**.
 -   Le membre **fRelease** a la **valeur true**, mais l’application cliente répond avec un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE négatif négatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -138,7 +138,7 @@ Après le traitement d’un message de **\_ \_ données. WM DDE** dans lequel l�
 [**\_requête DDE \_ WM**](wm-dde-request.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

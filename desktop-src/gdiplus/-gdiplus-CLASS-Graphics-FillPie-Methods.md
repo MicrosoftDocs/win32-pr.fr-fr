@@ -4,12 +4,12 @@ ms.assetid: e6de6634-b87f-4fe9-a0d4-ffeea0e0ae8b
 title: Méthodes Graphics. FillPie (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e952d316496bfbf7399ab5ea3ce1c4bae071f0412009dc71b9959a984316e976
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35f6d24ade375fb524bac71145807680da6e7e28
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531332"
 ---
 # <a name="graphicsfillpie-methods"></a>Méthodes Graphics. FillPie
 
@@ -28,7 +28,7 @@ Cette rubrique répertorie les méthodes FillPie de la classe [**Graphics**](/wi
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

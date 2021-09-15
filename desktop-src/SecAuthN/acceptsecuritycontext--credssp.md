@@ -4,12 +4,12 @@ ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 title: AcceptSecurityContext (CredSSP) (fonction)
 ms.topic: article
 ms.date: 07/25/2019
-ms.openlocfilehash: df4c87274c3a19d9e4a028cde813801688ce1927d1a0b89dbe3a7e8633ce8b57
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 681e03ea15729cc8726d63551e8b7b0a2b39ecac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519093"
 ---
 # <a name="acceptsecuritycontext-credssp-function"></a>AcceptSecurityContext (CredSSP) (fonction)
 
@@ -92,7 +92,7 @@ Pointeur vers une structure d' [**horodatage**](timestamp.md) qui reçoit l’he
 > [!Note]  
 > Jusqu’au dernier appel du processus d’authentification, l’heure d’expiration du contexte peut être incorrecte, car des informations supplémentaires seront fournies lors des étapes ultérieures de la négociation. Par conséquent, *ptsTimeStamp* doit avoir la **valeur null** jusqu’au dernier appel à la fonction.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne l’une des valeurs suivantes.
 

@@ -6,11 +6,11 @@ title: Glossaire de documents XPS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d09f4ed4120bf6bccafe462a5123b4fa2e7bef12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519433"
 ---
 # <a name="xps-documents-glossary"></a>Glossaire de documents XPS
 
@@ -390,7 +390,7 @@ Document XPS enregistré dans un fichier sous la forme d’un package OPC confor
 <span id="xps.xpsapi_glossary_xpsdrv"></span><span id="XPS.XPSAPI_GLOSSARY_XPSDRV"></span>**XPSDrv**
 </dt> <dd>
 
-Un pilote d’imprimante ou un composant de pilote d’imprimante qui prend en charge le chemin d’impression XPS introduit dans Windows Vista.
+un pilote d’imprimante ou un composant de pilote d’imprimante qui prend en charge le chemin d’impression XPS introduit dans Windows Vista.
 
 </dd> </dl>
 

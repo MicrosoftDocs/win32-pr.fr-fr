@@ -4,12 +4,12 @@ ms.assetid: 1aed8614-d856-4885-80fe-c3f2bf3304ad
 title: MFPKEY_RESIZE_PANSCANAPX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22e127601764a9131a5dd494e3c8d6fddc2692106275ad5912bbfdd3b8026951
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37a30f1bb97e1c21b651f975b43ad8bf871ff066
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119463219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531145"
 ---
 # <a name="mfpkey_resize_panscanapx-property"></a>MFPKEY \_ REdimensionner la \_ propriété PANSCANAPX
 
@@ -27,11 +27,11 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur est un nombre réel à virgule fixe. La partie entière du nombre est stockée dans les 2 octets supérieurs et la partie fractionnaire est stockée dans les 2 octets inférieurs.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

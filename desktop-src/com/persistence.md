@@ -4,12 +4,12 @@ description: Persistance
 ms.assetid: 4916ea52-a21c-4938-81cb-392b5ca1f6c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c8600307bfe6c29f72fb9d29e633358062c4e8c1c61da8898173cf190f1d08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6cffab1c9a0f2746e57e356a90698caf9903deb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119500329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518913"
 ---
 # <a name="persistence"></a>Persistance
 

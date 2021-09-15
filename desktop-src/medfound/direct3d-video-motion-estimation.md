@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Estimation de mouvement vidéo Direct3D
 ms.topic: article
 ms.date: 08/19/2019
-ms.openlocfilehash: 0a49f7d3ec5e68ee6151b706be65866f1e156d6f876909c99b485356fb4df21c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fdb6146e1bb77c673eb89d944bcf42a8babce49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118064116"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520289"
 ---
 # <a name="direct3d-video-motion-estimation"></a>Estimation de mouvement vidéo Direct3D
 

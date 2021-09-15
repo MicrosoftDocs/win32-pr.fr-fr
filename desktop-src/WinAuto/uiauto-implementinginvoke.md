@@ -15,12 +15,12 @@ keywords:
 - interfaces, IInvokeProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18fbd675a9c30daf0e7b097a706dae9ff0d7767f92f7b785b3098d72ddf6f7cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 963f8d9ccd6ea2a50557ec26a655d5c7f43c6123
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119997939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127518097"
 ---
 # <a name="invoke-control-pattern"></a>Invoke (modèle de contrôle)
 
@@ -61,7 +61,7 @@ La méthode suivante est requise pour l’implémentation de l’interface [**II
 
 
 
-| Membres nécessaires                                | Type de membre | Remarques                                                                                                                                                                                                                                                                                                                                  |
+| Membres nécessaires                                | Type de membre | Notes                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Appeler**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iinvokeprovider-invoke) | Méthode      | **Invoke** est un appel asynchrone et doit être retourné immédiatement sans blocage.<br/> Ce comportement est particulièrement critique pour les contrôles qui, directement ou indirectement, lancent une boîte de dialogue modale lorsqu’ils sont appelés. Tout client UI Automation à l’origine de l’événement reste bloqué jusqu’à la fermeture de la boîte de dialogue modale. <br/> |
 

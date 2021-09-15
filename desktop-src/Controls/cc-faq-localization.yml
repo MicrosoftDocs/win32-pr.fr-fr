@@ -6,11 +6,11 @@ metadata:
   ms.topic: article
   ms.date: 05/31/2018
   ms.openlocfilehash: 8061d92050498fa95a6692243dc81bc5ef56f8ad
-  ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+  ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/26/2021
-  ms.locfileid: "122884648"
+  ms.lasthandoff: 09/13/2021
+  ms.locfileid: "127520637"
 title: Prise en charge de la localisation des contrôles communs
 summary: >
   Cette rubrique décrit la prise en charge des langues nationales intégrées aux contrôles communs. La prise en charge intégrée du langage national simplifie l’implémentation des applications localisées.

@@ -4,12 +4,12 @@ ms.assetid: 980f52f4-17a4-4871-9269-f9e0b97416c6
 title: Comment faire décompresser des flux à partir d’un fichier AVI ou d’un autre fichier sur lequel je n’ai pas d’informations de format ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8509fccebc4c88ea5503872d4409a7db71181e603b530488bbe599746b8e37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad230c36097a93b3d2d41ddffb35600d0616ea5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531916"
 ---
 # <a name="how-do-i-decompress-streams-from-an-avi-file-or-other-file-about-which-i-have-no-format-information"></a>Comment faire décompresser des flux à partir d’un fichier AVI ou d’un autre fichier sur lequel je n’ai pas d’informations de format ?
 

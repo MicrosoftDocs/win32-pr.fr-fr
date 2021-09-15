@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: d133f0bc66da7c4f249676dc46ecbf92f2677aa6
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988472"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519585"
 ---
 # <a name="jetossnapshotfreeze-function"></a>Fonction JetOSSnapshotFreeze
 
@@ -86,7 +86,7 @@ Si cette fonction est établie, aucune e/s d’écriture n’est émise pour les
 
 Si cette fonction échoue, le moteur continue de s’exécuter normalement avec les IOs se produisant comme d’habitude. Il n’est pas nécessaire d’appeler [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) si le gel échoue. En outre, les informations de l’instance ne sont pas remplies, il n’est donc pas nécessaire de libérer cette ressource.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Pendant la période de blocage, aucune e/s d’écriture n’est émise pour les bases de données attachées ou les journaux de transactions, même s’il peut y avoir des e/s d’écriture émises dans les bases de données temporaires ou les fichiers de streaming.
 
@@ -96,7 +96,7 @@ L’État dans lequel se trouvent les bases de données et les fichiers journaux
 
 En raison des effets possibles décrits ci-dessus, il existe un délai d’expiration interne après lequel la session d’instantané arrêtera la phase de blocage, même si les API qui effectuent le dégel ou l’abandon n’étaient pas appelées. La valeur du délai d’attente peut être modifiée à l’aide du paramètre système [JET_paramOSSnapshotTimeout](./backup-and-restore-parameters.md) . Notez que l’intervalle de blocage classique est compris entre 10 secondes et le délai d’expiration par défaut est d’environ 60 secondes.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

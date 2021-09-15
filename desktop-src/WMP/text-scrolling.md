@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 990291f8b618032d3e5b7e33a7644735cf1673482b2190936f2e496dbf68bd64
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fdbb80b2033d542da4894172d58451ed5da224f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117933436"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519393"
 ---
 # <a name="textscrolling"></a>TEXTE. défilement
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonctionnalité de défilement fournit une mémoire tampon à deux espaces entre la fin du texte et le début de la ligne répétée.
 
@@ -50,7 +50,7 @@ L’attribut **Justification** spécifie l’emplacement où le texte apparaît 
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,11 +6,11 @@ title: Ajout d’une propriété WMI
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bba8944da155ca250edfed0c6e9160f555ba9551
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519836"
 ---
 # <a name="adding-a-wmi-property"></a>Ajout d’une propriété WMI
 
@@ -26,7 +26,7 @@ La propriété peut également être un tableau. Par exemple, la propriété ide
 
 Une propriété peut avoir plusieurs [*qualificateurs*](gloss-q.md). Ces [qualificateurs](wmi-qualifiers.md) peuvent être [*Common Information Model (CIM)*](gloss-c.md) ou des qualificateurs WMI, ou peuvent être spécifiques à certains types de classes, par exemple, les qualificateurs de la classe de [compteur de performance](qualifiers-specific-to-wmi-performance-classes.md) . Les qualificateurs spécifient un aspect de la propriété, par exemple s’il est en lecture seule ou s’il ne peut pas être modifié sans privilège spécifique. Une application qui tente d’écrire dans la propriété **DACL** [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor), par exemple, requiert les privilèges **SeSecurityPrivilege** et **SeRestorePrivilege**. Pour plus d’informations, consultez [Ajout d’un qualificateur](adding-a-qualifier.md).
 
-Enfin, une propriété doit avoir un nom. Vous pouvez nommer une propriété tout cela dans les limites de la pratique de programmation standard. Toutefois, il existe deux exceptions principales. Tout d’abord, vous ne pouvez pas utiliser de mot clé MOF, tel que « Class », comme nom de propriété. Deuxièmement, vous ne pouvez pas utiliser de mots clés WQL, tels que « Group », en tant que nom de propriété. Pour plus d’informations sur les mots clés MOF et WQL, consultez [types de données MOF](mof-data-types.md) et [WQL (SQL pour WMI)](wql-sql-for-wmi.md).
+Enfin, une propriété doit avoir un nom. Vous pouvez nommer une propriété tout cela dans les limites de la pratique de programmation standard. Toutefois, il existe deux exceptions principales. Tout d’abord, vous ne pouvez pas utiliser de mot clé MOF, tel que « Class », comme nom de propriété. Deuxièmement, vous ne pouvez pas utiliser de mots clés WQL, tels que « Group », en tant que nom de propriété. pour plus d’informations sur les mots clés mof et wql, consultez [Types de données mof](mof-data-types.md) et [wql (SQL pour WMI)](wql-sql-for-wmi.md).
 
 Pour le code C++ et format MOF (MOF), vous déclarez les propriétés d’une classe en même temps que vous déclarez la classe.
 

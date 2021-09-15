@@ -4,12 +4,12 @@ ms.assetid: f2a9d9ff-4876-4f24-b96a-5d89e42fa3d5
 title: Stockage d’un média compressé dans des fichiers AVI (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d52c33f6ea01cd1a10572294eaf3ee57ab4423567e3b2cc1f0feb86e199707e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 080524a47b4295517d50705f6aeb125d085a8346
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118057724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531076"
 ---
 # <a name="storing-compressed-media-in-avi-files-microsoft-media-foundation"></a>Stockage d’un média compressé dans des fichiers AVI (Microsoft Media Foundation)
 

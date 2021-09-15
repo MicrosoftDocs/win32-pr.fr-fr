@@ -149,11 +149,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3cdfb542aaf0312d506dbdb7710819d82c2ebdc9
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127531001"
 ---
 # <a name="com-error-codes-stg-rpc"></a>Codes d’erreur COM (STG, RPC)
 

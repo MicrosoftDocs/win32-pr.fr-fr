@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3cc0bfe18afef7b91dbdf887500b485a446b154cb5775cbf950a7e712a332a9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0258047631a41e31d108ba45531988e4cb6a35ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119749779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520165"
 ---
 # <a name="d3dxsimplifymesh-function"></a>D3DXSimplifyMesh fonction)
 
@@ -109,13 +109,13 @@ Adresse d’un pointeur vers une interface [**ID3DXMesh**](id3dxmesh.md) représ
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction génère un maillage qui a des vertex ou des visages *MinValue* .
 
@@ -139,7 +139,7 @@ AttributeWeights.Tex[8]   =  {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
 Il s’agit de la structure par défaut que la plupart des applications doivent utiliser, car elle ne prend en compte que le réglage géométrique et normal. Dans certains cas particuliers, les autres champs de membre doivent être modifiés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

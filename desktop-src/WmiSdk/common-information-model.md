@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Common Information Model (CIM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d095dfb7f05b7637ac027e6ea02eeba2e10e12845670aebd635e50e8c3265fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e53e4e2dc06e03a1f19b5b47ba0b94d7a866a5e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131641"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520237"
 ---
 # <a name="common-information-model"></a>Common Information Model (CIM)
 

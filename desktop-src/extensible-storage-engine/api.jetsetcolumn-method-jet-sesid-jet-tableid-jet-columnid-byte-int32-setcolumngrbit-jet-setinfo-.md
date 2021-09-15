@@ -21,11 +21,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 5afebba00c784abf5bf71ac0f524376bd0f3b066
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545136"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127517961"
 ---
 # <a name="apijetsetcolumn-method-jet_sesid-jet_tableid-jet_columnid-byte--int32-setcolumngrbit-jet_setinfo"></a>Méthode API. JetSetColumn (JET_SESID, JET_TABLEID, JET_COLUMNID, Byte, Int32, SetColumnGrbit, JET_SETINFO)
 
@@ -123,18 +123,18 @@ public static JET_wrn JetSetColumn(
     
     Utilisé pour spécifier ITAG ou un décalage de valeur long.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement.  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les méthodes SetColumn fournissent des substitutions spécifiques au type de données qui peuvent être plus efficaces.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: a5de4273-e86e-4f13-b068-256cb38706d4
 title: MLD et IGMP à l’aide de sockets Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2c550cf2c1463f5b646efc286c05010274d3cb44e13b9559302452bccb81c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6cb9f9c345463e283adea0136037d7ccd03cebd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519372"
 ---
 # <a name="mld-and-igmp-using-windows-sockets"></a>MLD et IGMP à l’aide de sockets Windows
 

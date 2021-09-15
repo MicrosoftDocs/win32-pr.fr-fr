@@ -4,12 +4,12 @@ description: Vous pouvez générer des scripts d’objets COM dans des applicati
 ms.assetid: 3a074360-8b6c-4cb6-813b-73863fe11c46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b8ba1bbdd0729a8893b1c28d1a2347fc5ddea04c8d0de4e1ea413e765ab8df4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b5d73244ce5bd6c56deeda9bf4e3e4986b3d4039
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896198"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519349"
 ---
 # <a name="using-com-objects-in-active-server-pages"></a>Utilisation d’objets COM dans des pages Active Server
 

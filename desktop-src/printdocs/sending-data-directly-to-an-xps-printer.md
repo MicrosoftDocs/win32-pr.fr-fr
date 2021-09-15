@@ -4,12 +4,12 @@ ms.assetid: 7e98e08a-d572-451d-befb-18fc86f0e505
 title: 'Procédure : envoyer des données directement à une imprimante XPS'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65fba87578f9257290123b737f2d1d8c3e48f57e6a628110a20a232ddb290ea0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d78a8c36d6862860862059f9bbcc8db25e171b19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118470151"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519457"
 ---
 # <a name="how-to-send-data-directly-to-an-xps-printer"></a>Procédure : envoyer des données directement à une imprimante XPS
 

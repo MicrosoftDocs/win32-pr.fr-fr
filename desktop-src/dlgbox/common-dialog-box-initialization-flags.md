@@ -7,12 +7,12 @@ keywords:
 - boîtes de dialogue communes, initialisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33bc133810b93ba596ec9410decff963d7be002e6b81e2c963d7141605997843
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2b0c994e743178e3b6a17129275affed099d3004
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120117859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127519197"
 ---
 # <a name="common-dialog-box-initialization-flags"></a>Indicateurs d’initialisation de la boîte de dialogue commune
 

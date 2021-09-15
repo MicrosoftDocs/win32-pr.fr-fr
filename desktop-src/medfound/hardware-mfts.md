@@ -4,12 +4,12 @@ ms.assetid: 9922d403-5d0d-433f-ad9f-c86142ac0f46
 title: Matériel MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 532fef959e2c2b5946d5a27ad98106a2e25cc77f8426c0a871e821c7298a69f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac5ce05b4fdad6040b51f66f543c1737fc3918d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119724929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127530840"
 ---
 # <a name="hardware-mfts"></a>Matériel MFTs
 
