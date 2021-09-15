@@ -4,12 +4,12 @@ ms.assetid: ebadd156-28f4-499c-a182-f48a35ecbefb
 title: Attribut MF_PD_ASF_CONTENTENCRYPTION_KEYID (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8edae0f324e7ab4889b21ae69714da16bfa88803db1d3aef808e4ba715522f62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4bd49c7a006345cceba01edde7caf76e499323b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117876432"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523677"
 ---
 # <a name="mf_pd_asf_contentencryption_keyid-attribute"></a>MF \_ PD \_ ASF \_ CONTENTENCRYPTION \_ KEYID (attribut)
 
@@ -19,13 +19,13 @@ Spécifie l’identificateur de clé pour un fichier ASF (Advanced Systems Forma
 
 Chaîne de caractères larges
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) récupère le champ ID de clé, le convertit en une chaîne de caractères larges, puis remplit un tableau de **WCHAR** qui se termine par un caractère null. La taille du tableau est égale au champ de la longueur de l’ID de clé de l’en-tête de chiffrement du contenu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

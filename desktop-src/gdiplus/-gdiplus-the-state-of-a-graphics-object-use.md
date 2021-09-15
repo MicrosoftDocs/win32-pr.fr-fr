@@ -4,12 +4,12 @@ ms.assetid: 7d70f9fe-c0b2-4d65-815d-483d06df96ad
 title: État d’un objet Graphics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f68a2ba754aadc1f7d2572dcbc2ac40d08d7fe95d382ce60511cd72d441bb80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 661733f944b08633b5df84eed3ac488e612d9e4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521501"
 ---
 # <a name="the-state-of-a-graphics-object"></a>État d’un objet Graphics
 

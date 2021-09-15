@@ -4,12 +4,12 @@ ms.assetid: d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39
 title: Fonctions API du spouleur d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21cab0a23afcfa95c4acb427437c72758356ee9771182301111f9660455d2081
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df751b11206ebf26d2d0e8fd88f61ede8447dad1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521421"
 ---
 # <a name="print-spooler-api-functions"></a>Fonctions API du spouleur d’impression
 

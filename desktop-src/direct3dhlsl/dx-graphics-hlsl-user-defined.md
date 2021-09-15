@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee73cd5afcda15bcc821d7fea5b648924829d483a33b9c67c140eed0b100e861
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2107e3eb2b2dc2362776a1a9ecd50830519c6627
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119789309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524620"
 ---
 # <a name="user-defined-type"></a>Type défini par l'utilisateur
 
@@ -36,7 +36,7 @@ Utilisez la syntaxe suivante pour déclarer un type défini par l’utilisateur.
 
 | Élément                                                                                         | Description                                                                            |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| <span id="_const_"></span><span id="_CONST_"></span>**\[const\]**<br/>                 | Facultatif. Ce mot clé marque explicitement le type en tant que constante.<br/>             |
+| <span id="_const_"></span><span id="_CONST_"></span>**\[const\]**<br/>                 | Optionnel. Ce mot clé marque explicitement le type en tant que constante.<br/>             |
 | <span id="Type"></span><span id="type"></span><span id="TYPE"></span>**Entrer**<br/>     | Identifie le type de données ; doit être l’un des types de données intrinsèques HLSL.<br/>     |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>**Nomme**<br/>     | Chaîne ASCII qui identifie de façon unique le nom de la variable.<br/>                 |
 | <span id="Index"></span><span id="index"></span><span id="INDEX"></span>**Évaluer**<br/> | Taille de tableau facultative. Doit être un entier non signé compris entre 1 et 4 inclus.<br/> |

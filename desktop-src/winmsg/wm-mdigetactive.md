@@ -4,12 +4,12 @@ ms.assetid: 3ee445be-dd55-4825-8508-fa18a346ffcd
 title: Message WM_MDIGETACTIVE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7716138028f7fe7447cc89d8feded7806f4f8757cd4a18b4bef6f2d812de3f17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c49f4ec321f526cd4c9766555e2361ef2cfbd040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118200139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404489"
 ---
 # <a name="wm_mdigetactive-message"></a>\_Message WM MDIGETACTIVE
 
@@ -40,13 +40,13 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HWND**
 
 La valeur de retour est le handle de la fenêtre enfant MDI active.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

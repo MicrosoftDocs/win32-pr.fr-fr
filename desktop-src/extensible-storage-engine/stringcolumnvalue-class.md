@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b41465ad5e3bdf2496d67b5cedd5d91d895754012ea7205c0e2343b8d6f8bbca
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e780cb0f53adfe7852eae29ae8d8af63bdc65613
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120115549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521569"
 ---
 # <a name="stringcolumnvalue-class"></a>StringColumnValue, classe
 
@@ -64,7 +64,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres StringColumnValue](./stringcolumnvalue-members.md)
 

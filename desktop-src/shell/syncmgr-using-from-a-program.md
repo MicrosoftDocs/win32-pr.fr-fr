@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 11e959399624d30e1e6d7ce87fb8bb247de7c9c420ef9b2427c7b9bdeb00e7f4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9bd5abdc382c82c6c1aafcda3a967337384dc807
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119709379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522325"
 ---
 # <a name="using-synchronization-manager-from-a-program"></a>Utilisation du gestionnaire de synchronisation à partir d’un programme
 

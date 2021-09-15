@@ -4,12 +4,12 @@ ms.assetid: F1B8A8C8-2E41-4321-A94D-C50447C69941
 title: Attribut MF_READWRITE_MMCSS_CLASS_AUDIO (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f416c22619c0777ef244e6566328154bf7a7336587fc73a3f29626fcdaa1c462
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa35db710c6b72c103855fa2c0a9f169f49c4511
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119345279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411501"
 ---
 # <a name="mf_readwrite_mmcss_class_audio-attribute"></a>MF \_ ReadWrite de la \_ classe MMCSS, \_ \_ attribut audio
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetString**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez éventuellement définir cet attribut lorsque vous créez une instance du [lecteur source](source-reader.md) ou du [writer du récepteur](sink-writer.md). La valeur de l’attribut doit être un nom de classe MMCSS valide.
 
@@ -37,7 +37,7 @@ Cet attribut remplace l’attribut de [classe de la \_ \_ \_ classe MMCSS ReadWr
 
 Pour la plupart des applications, le problème audio est bien plus perceptible pour l’utilisateur que le problème de vidéo, et donc moins acceptable. Pour cette raison, une application doit généralement définir l' \_ audio de la classe MF ReadWrite ReadWrite \_ \_ \_ sur une classe MMCSS de priorité supérieure à celle de la [ \_ classe MF ReadWrite \_ MMCSS \_ ](mf-readwrite-mmcss-class.md). Cela garantit que le traitement audio reçoit une priorité plus élevée que d’autres tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

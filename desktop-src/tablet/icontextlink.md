@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 7dc9244fed59604a56817f15801de94b64c476762e186cc6f7c36186e8d0b26d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df1e0d8717ba29532486277aced19f17adb1d79c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118719913"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524069"
 ---
 # <a name="icontextlink-interface"></a>Interface IContextLink
 

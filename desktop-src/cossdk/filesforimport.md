@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3b6351edd58691db3a499a6c0512e76fe87167f888289b8a2d2a947fe1304cf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e7ba3b0bd44cf2f6bb40ecf89f86dd68c21cf3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118307326"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403667"
 ---
 # <a name="filesforimport-collection"></a>Collection FilesForImport
 
@@ -63,7 +63,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------|
 | Description    | Nom du fichier MSI qui contient l’application qui peut être importée. |
-| Accès         | Lecture seule                                                                     |
+| Access         | Lecture seule                                                                     |
 | Type           | String                                                                       |
 | Valeur par défaut        | N/A                                                                          |
 | Système minimal | Windows XP                                                                   |
@@ -79,7 +79,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------|
 | Description    | Le nom de l’application. |
-| Accès         | Lecture seule                     |
+| Access         | Lecture seule                     |
 | Type           | String                       |
 | Valeur par défaut        | ""                           |
 | Système minimal | Windows XP                   |
@@ -95,7 +95,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------|
 | Description    | Description de l’application. |
-| Accès         | Lecture seule                          |
+| Access         | Lecture seule                          |
 | Type           | String                            |
 | Valeur par défaut        | ""                                |
 | Système minimal | Windows XP                        |
@@ -111,7 +111,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de la DLL ou du fichier EXE qui contient l’application. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                                                                                              |
+| Access         | Lecture seule                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                |
 | Valeur par défaut        | ""                                                                                                                                                                                                                                    |
 | Système minimal | Windows XP                                                                                                                                                                                                                            |
@@ -127,7 +127,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|--------------------------------------------------|
 | Description    | Indique si l’application possède des utilisateurs. |
-| Accès         | Lecture seule                                         |
+| Access         | Lecture seule                                         |
 | Type           | Bool                                             |
 | Default        | False                                            |
 | Système minimal | Windows XP                                       |
@@ -143,7 +143,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------|
 | Description    | Indique si l’application est un proxy. |
-| Accès         | Lecture seule                                      |
+| Access         | Lecture seule                                      |
 | Type           | Bool                                          |
 | Default        | False                                         |
 | Système minimal | Windows XP                                    |
@@ -159,7 +159,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------|
 | Description    | Indique si l’application est un service. |
-| Accès         | Lecture seule                                        |
+| Access         | Lecture seule                                        |
 | Type           | Bool                                            |
 | Default        | False                                           |
 | Système minimal | Windows XP                                      |
@@ -175,7 +175,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------|
 | Description    | Description de la partition de l’application. |
-| Accès         | Lecture seule                                      |
+| Access         | Lecture seule                                      |
 | Type           | String                                        |
 | Valeur par défaut        | ""                                            |
 | Système minimal | Windows Server 2003                           |
@@ -191,7 +191,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------|
 | Description    | GUID de la partition de l’application. |
-| Accès         | Lecture seule                                 |
+| Access         | Lecture seule                                 |
 | Type           | String                                   |
 | Valeur par défaut        | ""                                       |
 | Système minimal | Windows Server 2003                      |
@@ -207,7 +207,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|------------------------------------------|
 | Description    | Nom de la partition de l’application. |
-| Accès         | Lecture seule                                 |
+| Access         | Lecture seule                                 |
 | Type           | String                                   |
 | Valeur par défaut        | ""                                       |
 | Système minimal | Windows Server 2003                      |

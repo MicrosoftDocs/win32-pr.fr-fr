@@ -1,6 +1,6 @@
 ---
-title: Utilisation de flux audio et vidéo non compressés
-description: Utilisation de flux audio et vidéo non compressés
+title: Utilisation de l’audio et de la vidéo non compressés Flux
+description: Utilisation de l’audio et de la vidéo non compressés Flux
 ms.assetid: 1a8fe604-bd99-4ba1-878f-8e1fd89483b3
 keywords:
 - flux, configuration de flux audio et vidéo non compressés
@@ -11,13 +11,13 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d00d81bd0a9f8c53751e404a0cfb0e55d57d4242
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106511472"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525152"
 ---
-# <a name="using-uncompressed-audio-and-video-streams"></a>Utilisation de flux audio et vidéo non compressés
+# <a name="using-uncompressed-audio-and-video-streams"></a>Utilisation de l’audio et de la vidéo non compressés Flux
 
 Dans la plupart des cas, le support non compressé présente des exigences de stockage et de remise excessives, mais pour certains scénarios de lecture locale, le niveau de qualité est suffisamment important pour ne pas utiliser la compression.
 
@@ -39,21 +39,21 @@ Les formats de pixels suivants sont pris en charge pour les flux vidéo non comp
 
 <dl> <dt>
 
-[**Configuration commune à tous les flux**](configuration-common-to-all-streams.md)
+[**Configuration commune à tous les Flux**](configuration-common-to-all-streams.md)
 </dt> <dt>
 
-[**Configuration de flux audio**](configuring-audio-streams.md)
+[**Configuration de l’Flux audio**](configuring-audio-streams.md)
 </dt> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> <dt>
 
-[**Configuration de flux vidéo**](configuring-video-streams.md)
+[**Configuration de la vidéo Flux**](configuring-video-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

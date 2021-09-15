@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 67a623e98b72ee26e6a9325120d26b26f92d03384318e90f28983a3a1978edf8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1154cae0864b9d034ff356657d689cd3a768186f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119949629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412821"
 ---
 # <a name="enummonitors-function"></a>EnumMonitors fonction)
 
@@ -94,20 +94,20 @@ Pointeur vers une variable qui reçoit le nombre de structures retournées dans 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

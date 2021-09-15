@@ -4,12 +4,12 @@ ms.assetid: a67f48ce-ebe3-48f9-9c00-67acd8b9fbe5
 description: 'en savoir plus sur : Windows handles de Services Web'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd4eff84fe08728b9f336fdd32f2d929ba335125522311f0cec279825c2e70d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 102a0666c69abe791c532ee6a837e95c57392f6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404171"
 ---
 # <a name="windows-web-services-handles"></a>Windows Handles de services Web
 

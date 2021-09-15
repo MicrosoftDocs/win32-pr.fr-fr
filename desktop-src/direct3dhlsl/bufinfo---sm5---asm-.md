@@ -4,12 +4,12 @@ description: Interroge le nombre d’éléments sur une mémoire tampon (mais pa
 ms.assetid: 3A5C28F3-FE59-4C67-92AC-66B10E1D9692
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a107896973e7457b4bf596843ec77934d95675d50a146190a7f9f40e1c2ce3c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff8dd33871aa5bd56db6e7375979c6d49f374b74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118287582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411257"
 ---
 # <a name="bufinfo-sm5---asm"></a>bufinfo (SM5-ASM)
 
@@ -49,7 +49,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -63,14 +63,14 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Non        |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Non        |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Non        |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Non        |
-| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Non        |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
 
 
 

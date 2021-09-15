@@ -13,18 +13,18 @@ api_type:
 - IDLDef
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: ff4112538aff4c76c02e251f45e9dc78e6778633de6a5d93f6892dd87ff70c43
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32ae65f43cd04027027e43d29c49ed0f68f29c9f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403596"
 ---
 # <a name="winhttprequestoption-enumeration"></a>Énumération WinHttpRequestOption
 
 l’énumération **WinHttpRequestOption** comprend des options qui peuvent être définies ou récupérées pour la session Microsoft Windows HTTP Services (WinHTTP) actuelle.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -92,7 +92,7 @@ Définit ou récupère un **Variant** qui indique les erreurs de certificat de s
 
 
 
-| Erreur                                                  | Valeur  |
+| Error                                                  | Valeur  |
 |--------------------------------------------------------|--------|
 | Autorité de certification inconnue ou racine non approuvée | 0x0100 |
 | Utilisation incorrecte                                            | 0x0200 |

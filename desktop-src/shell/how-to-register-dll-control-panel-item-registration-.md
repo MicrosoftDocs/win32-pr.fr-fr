@@ -3,12 +3,12 @@ description: Les éléments du panneau de configuration qui sont implémentés d
 title: Comment inscrire les éléments du panneau de configuration de la DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b25fffb3b06f93640c5ca8623fb24ffb53c6fd3ecae0b9e23cabafacdceba8f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37b82225dcb40487c60210752b2c15af23f95bd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119593189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412483"
 ---
 # <a name="how-to-register-dll-control-panel-items"></a>Comment inscrire les éléments du panneau de configuration de la DLL
 

@@ -4,12 +4,12 @@ ms.assetid: 0c44a360-d9c3-448c-a0d5-e33f3c27c58c
 title: Gestion des informations d’identification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c09ebb198f8b8d6edbcca5be00b2ea2ecda0c2b50572c72e84deb877d444ad6b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb5ffa7fb493fdfbf64945b202d2e2678fb329f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008727"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311386"
 ---
 # <a name="credentials-management"></a>Gestion des informations d’identification
 

@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), envoyer des données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a44fc9ea0515822c765b0cb3af457254341a64f08e64d566aa9e226a48758e7f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42339b4a3e60666c1ea0cb69a07dfdc836b19409
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118434463"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411396"
 ---
 # <a name="broadcasting-asf-data"></a>Diffusion de données ASF
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 8b646c494d9793986373d45db2d89dfde91e744196d86d28aceab35874f504d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd9e9281b625f4cec5377537d82a304045b95a3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118208721"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524036"
 ---
 # <a name="iwiadevmgr2enumdeviceinfo-method"></a>IWiaDevMgr2 :: EnumDeviceInfo, méthode
 
@@ -80,19 +80,19 @@ Reçoit l’adresse d’un pointeur vers l’interface [**IEnumWIA \_ dev \_ inf
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **IWiaDevMgr2 :: EnumDeviceInfo** crée un objet énumérateur qui prend en charge l’interface d' [**\_ \_ informations de développement IEnumWIA**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) . La méthode stocke un pointeur vers l’interface **IEnumWIA \_ dev \_ info** dans le paramètre *ppIEnum*. Les applications peuvent utiliser le pointeur d’interface **IEnumWIA \_ dev \_ info** pour énumérer les propriétés de chaque appareil WIA 2,0 attaché à l’ordinateur de l’utilisateur.
 
 Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur les pointeurs d’interface qu’elles reçoivent via le paramètre *ppIEnum* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

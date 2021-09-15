@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e49c3c48ee71ecd86bcb28c763e06381aeb1a11b3c08ade8f7ec38f37048d21c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bb6ef3c35af60ea776622718099acdedb5188ba8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119673439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524648"
 ---
 # <a name="getdimensions-directx-hlsl-texture-object"></a>GetDimensions, (objet texture HLSL DirectX)
 

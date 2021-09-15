@@ -5,11 +5,11 @@ title: Stratégie de métadonnées de photo System. photo. FocalLengthInFilm
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5df46f3e52c447cb7902fe3cce2da201dae16d9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412217"
 ---
 # <a name="systemphotofocallengthinfilm-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. FocalLengthInFilm
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Foca
 
 FocalLengthInFilm de la \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                            | Format de disque |
+| JSON | Chemin d’accès                            | Format de disque |
 |-------|---------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41989}   | ushort      |
 | 2     | /xmp/exif:FocalLengthIn35mmFilm | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                            | Format de disque |
+| JSON | Chemin d’accès                            | Format de disque |
 |-------|---------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41989}   | ushort      |
 | 2     | /xmp/exif:FocalLengthIn35mmFilm | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                            |
+| JSON | Chemin d’accès                            |
 |-------|---------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41989}   |
 | 2     | /xmp/exif:focallengthin35mmfilm |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque |
+| JSON | Chemin d’accès                                | Format de disque |
 |-------|-------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41989}            | ushort      |
 | 2     | /ifd/xmp/exif:FocalLengthIn35mmFilm | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque |
+| JSON | Chemin d’accès                                | Format de disque |
 |-------|-------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41989}            | ushort      |
 | 2     | /ifd/xmp/exif:FocalLengthIn35mmFilm | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                |
+| JSON | Chemin d’accès                                |
 |-------|-------------------------------------|
 | 1     | /IFD/EXIF/{UShort = 41989}            |
 | 2     | /ifd/xmp/exif:focallengthin35mmfilm |

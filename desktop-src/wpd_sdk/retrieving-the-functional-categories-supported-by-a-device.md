@@ -4,12 +4,12 @@ ms.assetid: 7748e111-9987-4685-8fc8-10c5d4631080
 title: Récupération des catégories fonctionnelles prises en charge par un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d410788616cc20563b914a293afcd8e2bbbd87099f738ae21463d2092c620597
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6514c6255fa089dc235b5edd8a25b5ef581aee84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117842691"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525113"
 ---
 # <a name="retrieving-the-functional-categories-supported-by-a-device"></a>Récupération des catégories fonctionnelles prises en charge par un appareil
 

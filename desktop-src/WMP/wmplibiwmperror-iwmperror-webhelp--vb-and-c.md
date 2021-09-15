@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50d4b404988e8b317ec7b090adcb96aac8e26a5a82590aa1138848dc797e3e79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c9b0cd48d45ac5e5e5d77d0150b8acdf13347e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118115822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403697"
 ---
 # <a name="iwmperrorwebhelp-method"></a>IWMPError :: Webhelp, méthode
 
@@ -49,11 +49,11 @@ Implements IWMPError.webHelp
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les pages d’aide Web contiennent toujours les informations les plus récentes et les plus détaillées sur les erreurs de Lecteur Windows Media. Cette méthode transfère automatiquement les autres informations requises par l’aide Web, telles que la version du système d’exploitation utilisée.
 
@@ -90,7 +90,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

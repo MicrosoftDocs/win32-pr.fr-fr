@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 586f18750e832bad653a3df92d14efb41b39547ee532913ac52c986a9b5e137c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e163fd01933ad0fc1a11429e77b37163655f39b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119712129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412272"
 ---
 # <a name="itableteventsinkcursorup-method"></a>ITabletEventSink :: CursorUp, méthode
 
@@ -79,11 +79,11 @@ Données du stylet indiquant l’emplacement où le stylet a été levé de la t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

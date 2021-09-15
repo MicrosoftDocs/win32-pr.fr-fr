@@ -4,12 +4,12 @@ ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
 title: Comment recoder une image JPEG avec des métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13851af04c6af742dbc68acc31fd674c3602ebeb16bec6903a3570f8cb1e0400
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c023defb760faeab2bc6ea92232fcc916ef15126
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119088161"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521192"
 ---
 # <a name="how-to-re-encode-a-jpeg-image-with-metadata"></a>Comment recoder une image JPEG avec des métadonnées
 
@@ -593,7 +593,7 @@ int main()
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

@@ -4,12 +4,12 @@ ms.assetid: 17bf848f-6d45-4588-aaa7-50fe99579440
 title: System. Identity. DisplayName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0204218c96dac91e3ae1f71c77106a0d4e37d3654ec62ba4b43bb218a9082a9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 85d995c03e4aaf5a2ce8d744e84c0a953ec063af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119844789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524133"
 ---
 # <a name="systemidentitydisplayname"></a>System. Identity. DisplayName
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

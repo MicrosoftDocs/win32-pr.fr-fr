@@ -4,12 +4,12 @@ ms.assetid: D116798F-E381-46D4-8271-8BD8CADC9D27
 title: Énumérations de manipulation directe
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 540d3b953a368ae335972d61d13c5866ffc14b40e17e83acd6fb19d5c1e15aa1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c697f5d8467afb58537475453b08dacfa8867fb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118504331"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520725"
 ---
 # <a name="direct-manipulation-enumerations"></a>Énumérations de manipulation directe
 

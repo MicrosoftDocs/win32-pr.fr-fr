@@ -4,12 +4,12 @@ ms.assetid: E84E0EBA-5C34-41AA-84DB-7A65EBDCAD15
 title: DEMI-type de données (DirectXPackedVector. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a59b7288324ae5935a23e67a35f402ab6041da55073915d812b39096cab30733
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9651b84675be68bd433fdeaaae588cb01dc745ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520492"
 ---
 # <a name="half-data-type"></a>DEMI-type de données
 
@@ -22,7 +22,7 @@ typedef uint16_t HALF;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de données demi est équivalent au format IEEE 754 binary16.
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur le demi-type de données, consultez [format à vi
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

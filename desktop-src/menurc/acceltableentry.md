@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5ef163c8473c049d3bbe6fbfa8b36876765bf07df0b26cd1d68d3f92c5d315f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ff12fe39f2ea54c90530133263bceb157d79dcf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412865"
 ---
 # <a name="acceltableentry-structure"></a>ACCELTABLEENTRY, structure
 
@@ -101,13 +101,13 @@ Nombre d’octets insérés pour garantir que la structure est alignée sur une 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure **ACCELTABLEENTRY** est répétée pour toutes les entrées de la table d’accélérateurs dans la ressource. La dernière entrée de la table est marquée avec la valeur 0x0080.
 
 Vous pouvez calculer le nombre d’éléments dans la table si vous divisez la longueur de la ressource par huit. Ensuite, votre application peut accéder de manière aléatoire aux entrées de longueur fixe individuelles.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -128,7 +128,7 @@ Vous pouvez calculer le nombre d’éléments dans la table si vous divisez la l
 [**CreateAcceleratorTable**](/windows/desktop/api/Winuser/nf-winuser-createacceleratortablea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Ressources](resources.md)

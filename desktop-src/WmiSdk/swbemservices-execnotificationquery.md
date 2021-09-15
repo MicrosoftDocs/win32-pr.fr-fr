@@ -2,7 +2,7 @@
 description: Exécute une requête pour recevoir des événements. L’appel est retourné immédiatement.
 ms.assetid: 3e1bb428-5395-4e90-9713-6d96242fef4e
 ms.tgt_platform: multiple
-title: SWbemServices.Exeméthode cNotificationQuery (wbemdisp. h)
+title: SWbemServices. ExecNotificationQuery, méthode (wbemdisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -17,13 +17,13 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 44279d16e180d776dc4433c6d5246eab2419fca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403464"
 ---
-# <a name="swbemservicesexecnotificationquery-method"></a>SWbemServices.Exeméthode cNotificationQuery
+# <a name="swbemservicesexecnotificationquery-method"></a>SWbemServices. ExecNotificationQuery, méthode
 
 La méthode **ExecNotificationQuery** de l’objet [**SWbemServices**](swbemservices.md) exécute une requête pour recevoir des événements. L’appel est retourné immédiatement. L’utilisateur peut interroger l’énumérateur retourné pour les événements à mesure qu’ils arrivent.
 
@@ -99,7 +99,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si aucune erreur ne se produit, cette méthode retourne un objet [**SWbemEventSource**](swbemeventsource.md) . Vous pouvez appeler la méthode [**SWbemEventSource. NextEvent**](swbemeventsource-nextevent.md) pour récupérer les événements à mesure qu’ils arrivent.
 
@@ -153,7 +153,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 ## <a name="remarks"></a>Notes
 
-Contrairement à la méthode [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md) , **ExecNotificationQuery** retourne les objets de type d’événement qui sont générés par des événements futurs plutôt que par des objets existants. Les objets d’événement que les demandes **ExecNotificationQuery** peuvent être intrinsèques (par exemple, [**\_ \_ InstanceCreationEvent**](--instancecreationevent.md)) ou extrinsèques (tels que les événements de fournisseur de Registre comme les événements [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent) ou SNMP). Pour plus d’informations, consultez [détermination du type d’événement pour la réception et la](determining-the-type-of-event-to-receive.md) [réception des notifications d’événements](receiving-event-notifications.md).
+Contrairement à la méthode [**SWbemServices. ExecQueryAsync**](swbemservices-execqueryasync.md) , **ExecNotificationQuery** retourne les objets de type d’événement qui sont générés par des événements futurs plutôt que par des objets existants. Les objets d’événement que les demandes **ExecNotificationQuery** peuvent être intrinsèques (par exemple, [**\_ \_ InstanceCreationEvent**](--instancecreationevent.md)) ou extrinsèques (tels que les événements de fournisseur de Registre comme les événements [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent) ou SNMP). Pour plus d’informations, consultez [détermination du type d’événement pour la réception et la](determining-the-type-of-event-to-receive.md) [réception des notifications d’événements](receiving-event-notifications.md).
 
 Il existe des limites concernant le nombre de mots clés **and** et **or** qui peuvent être utilisés dans les requêtes WQL. Un grand nombre de mots clés WQL utilisés dans une requête complexe peut faire en sorte que WMI retourne le code d’erreur de  **\_ \_ \_ violation de quota E WBEM** en tant que valeur HRESULT. La limite des mots clés WQL dépend de la complexité de la requête.
 
@@ -237,7 +237,7 @@ Loop
 [**SWbemEventSource.NextEvent**](swbemeventsource-nextevent.md)
 </dt> <dt>
 
-[**SWbemServices.ExecQuery**](swbemservices-execquery.md)
+[**SWbemServices. ExecQuery**](swbemservices-execquery.md)
 </dt> <dt>
 
 [Réception d’un événement WMI](receiving-a-wmi-event.md)

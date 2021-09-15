@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 0b5498833096a673226af60188397fb518f483b26d6b470021c590e16d190342
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 858097139702770d148765c4c9a57f6522d9633b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520745"
 ---
 # <a name="idirectxfileenumobjectgetdataobjectbyname-method"></a>IDirectXFileEnumObject :: GetDataObjectByName, méthode
 
@@ -59,13 +59,13 @@ Adresse d’un pointeur vers une interface [**IDirectXFileData**](idirectxfileda
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : DXFILEERR \_ BADVALUE, DXFILEERR \_ NotFound.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

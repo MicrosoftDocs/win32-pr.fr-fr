@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce3e3d2948419761a139139493e737df1a9a709147613eadd3e077f0f5101f3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6939c5451f3ae8f41214a817293e3c7f3cb3b66c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118332625"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404407"
 ---
 # <a name="wmalbumcoverurl-attribute"></a>Attribut WM/AlbumCoverURL
 
@@ -29,13 +29,13 @@ L’attribut **WM/AlbumCoverURL** est l’URL (Uniform Resource Locator) de la p
 -   [**Éléments de photo**](photo-item-attributes.md)
 -   [**Éléments vidéo**](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour un élément audio, cet attribut est l’URL de la pochette de l’album. Pour un élément photo ou vidéo, cet attribut est l’URL d’une image miniature.
 
 Cet attribut n’est pas disponible pour les éléments multimédias dans la bibliothèque locale de l’utilisateur actuel. Elle est disponible uniquement pour les éléments multimédias appartenant à une bibliothèque distante ; autrement dit, une bibliothèque qui a été mise à la disposition d’un autre utilisateur sur le réseau privé. Pour déterminer si une bibliothèque multimédia est distante, appelez [**IWMPLibrary :: obtenir le \_ type**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

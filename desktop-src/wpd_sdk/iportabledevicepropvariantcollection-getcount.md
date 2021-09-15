@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 2b82ce3c916df3603478888ecdc388e80ee4b4d635a25b238f9ba6a03ef61901
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d3a06cb5d89bc09a35a58f9269ba19c488c11e0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522061"
 ---
 # <a name="iportabledevicepropvariantcollectiongetcount-method"></a>IPortableDevicePropVariantCollection :: GetCount, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une **valeur DWORD** qui contient le nombre d’éléments dans la
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -66,7 +66,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
 Pour obtenir un exemple d’utilisation de cette méthode [, consultez récupération des catégories fonctionnelles prises en charge par un appareil](retrieving-the-functional-categories-supported-by-a-device.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

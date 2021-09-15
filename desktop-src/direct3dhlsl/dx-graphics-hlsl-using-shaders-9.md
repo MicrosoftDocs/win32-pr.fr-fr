@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a1ef04c14682aa6e763222fd0c8db0e2eedf33abf747da97a16b2b1621e1c42a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6455b47d24c1c83683ce8b85c48990bb32e221ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119743"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524613"
 ---
 # <a name="using-shaders-in-direct3d-9"></a>Utilisation de nuanceurs dans Direct3D 9
 

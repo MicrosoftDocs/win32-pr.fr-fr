@@ -13,12 +13,12 @@ keywords:
 - écriture de code pour les habillages, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 354e9f18f90d51b025c2a9f9a3a1f08ad6d1a6c99c58b3ba35885aaa742bf94b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71c29dafe19f7975d3935c0d5eb4e4e6d96b1de8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411621"
 ---
 # <a name="writing-code"></a>Écriture de code
 

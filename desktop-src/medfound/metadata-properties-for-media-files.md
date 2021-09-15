@@ -4,12 +4,12 @@ ms.assetid: 35187720-413a-45a0-8558-918f7c3161e1
 title: Propriétés de métadonnées pour les fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff82faa4d98278e9809ac87538fd0fa587846ef39eb083754868714bdb1bed0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cab541a480b03d7ef6bfb9a1a2036226b767774
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411195"
 ---
 # <a name="metadata-properties-for-media-files"></a>Propriétés de métadonnées pour les fichiers multimédias
 
@@ -28,7 +28,7 @@ Le système de propriétés de Shell définit un ensemble de propriétés de mé
 
 | PROPERTYKEY                                                              | Nom de l’interpréteur de commandes                                                                                    | Description                                                                                                                                                                                               | Type de données    |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| [\_ID de \_ \_ Profil DLNA de contenu \_ MFPKEY](mfpkey-content-dlna-profile-id.md) | Aucun                                                                                          | Identificateur de profil DLNA (Digital vivant Network Alliance).                                                                                                                                                | \_LPWStr VT   |
+| [\_ID de \_ \_ Profil DLNA de contenu \_ MFPKEY](mfpkey-content-dlna-profile-id.md) | None                                                                                          | Identificateur de profil DLNA (Digital vivant Network Alliance).                                                                                                                                                | \_LPWStr VT   |
 | **\_ChannelCount de contenu \_**                                            | [System. audio. ChannelCount](../properties/props-system-audio-channelcount.md)                       | Nombre de canaux audio.                                                                                                                                                                                 | VT \_ UI4      |
 | **\_EncodingBitrate de contenu \_**                                         | [System. audio. EncodingBitrate](../properties/props-system-audio-encodingbitrate.md)                 | Débit binaire audio moyen, en bits par seconde.                                                                                                                                                               | VT \_ UI4      |
 | **\_Format audio du modèle de contenu \_**                                                  | [System. audio. format](../properties/props-system-audio-format.md)                                   | Sous-type audio (sous-[**\_ \_ type MF MT**](mf-mt-subtype-attribute.md)) exprimé sous forme de chaîne.                                                                                                                 | \_LPWStr VT   |
@@ -76,7 +76,7 @@ Le système de propriétés de Shell définit un ensemble de propriétés de mé
 | **\_conducteur Musique \_**                                               | [Requise. Musique. Conducteur](../properties/props-system-music-conductor.md)                             | Conducteur.                                                                                                                                                                                                | \_LPWStr VT   |
 | **Musique de la \_ \_ ContentGroupDescription**                                 | [Requise. Musique. ContentGroupDescription](../properties/props-system-music-contentgroupdescription.md) | Description du groupe de contenu (par exemple, ensemble ou série boxed).                                                                                                                                      | \_LPWStr VT   |
 | **\_Genre de Musique du son \_**                                                   | [Requise. Musique. Styles](../properties/props-system-music-genre.md)                                     | Styles.                                                                                                                                                                                                    | \_LPWStr VT   |
-| **Musique de la \_ \_ InitialKey**                                              | [System.Music.InitialKey](../properties/props-system-music-initialkey.md)                           | Clé initiale de la musique.                                                                                                                                                                             | \_LPWStr VT   |
+| **Musique de la \_ \_ InitialKey**                                              | [Requise. Musique. InitialKey](../properties/props-system-music-initialkey.md)                           | Clé initiale de la musique.                                                                                                                                                                             | \_LPWStr VT   |
 | **Musique de la \_ \_ IsCompilation**                                           | [Requise. Musique. IsCompilation](../properties/props-system-music-iscompilation.md)                     | Indique si le fichier musical fait partie d’une compilation.                                                                                                                                                | VT \_ bool     |
 | **\_paroles Musique \_ paroles**                                                  | [Requise. Musique. Chansons](../properties/props-system-music-lyrics.md)                                   | Chansons.                                                                                                                                                                                                   | \_LPWStr VT   |
 | **\_humeur Musique \_ humeur**                                                    | [Requise. Musique. Humeur](../properties/props-system-music-mood.md)                                       | Humeur.                                                                                                                                                                                                     | \_LPWStr VT   |
@@ -190,7 +190,7 @@ La source de média ASF mappe les clés de propriété suivantes aux attributs d
 | **ParentalRatingReason de la \_**           | [**WM/ParentalRatingReason**](../wmformat/wm-parentalratingreason.md)       |
 | **Notation de la- \_ catégorie**                         | [**WM/SharedUserRating**](../wmformat/wm-shareduserrating.md)               |
 | **ThumbnailStream de la \_**                | [**WM/image**](../wmformat/wmpicture.md)                       |
-| **Titre de la \_ section**                          | [**Titre**](../wmformat/title.md)                                           |
+| **Titre de la \_ section**                          | [**Intitulé**](../wmformat/title.md)                                           |
 | **Directeur vidéo de la carte de contenu \_ \_**                | [**WM/Director**](../wmformat/wm-director.md)                               |
 
 

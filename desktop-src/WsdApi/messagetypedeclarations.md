@@ -4,12 +4,12 @@ ms.assetid: 17556708-9350-444f-84a3-d982270b31d1
 title: élément messageTypeDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6768090d5cb91df31e65020543a1f41109c863d3b8ece7cf1b50c4775dc1be93
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 696cd6d30e6a791f68c152e0d0c5d0b1a7300769
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117920577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413275"
 ---
 # <a name="messagetypedeclarations-element"></a>élément messageTypeDeclarations
 
@@ -57,7 +57,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les tables de schéma sont référencées par des définitions de type de port. Cet élément est donc généralement utilisé juste avant les éléments [**portTypeDefinitions**](porttypedefinitions.md) .
 

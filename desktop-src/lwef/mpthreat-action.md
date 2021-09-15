@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3cd46583b9736ad8304c16e3b12d4f0157edcdb319fd0923a0fe737d504415
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ae0377517af590072b797a57c051ad062842ea9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118247263"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525841"
 ---
 # <a name="mpthreat_action-enumeration"></a>\_Énumération d’action MPTHREAT
 
@@ -76,7 +76,7 @@ typedef enum tagMPTHREAT_ACTION {
 <span id="MP_THREAT_ACTION_MAX_VALUE"></span><span id="mp_threat_action_max_value"></span>**\_ \_ \_ valeur maximale de l’action de menace MP \_**
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - fichiers JScript pour les apparences, attribut player
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77098f161244488d5097d2d022f105628a43ba50a40218da01295d99f2de0cd7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d47ea74b4c91f92ef33106e40e9896b98de6a34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118566981"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411622"
 ---
 # <a name="working-with-the-player"></a>Utilisation du lecteur
 

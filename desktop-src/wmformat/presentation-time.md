@@ -9,12 +9,12 @@ keywords:
 - durées de présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2dea9181552b42508745b256768b2c5ceb4443a057fc5d7d7a5a44410c788fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bc88dbba93d1fc68905a4bfea92328a4ef600eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411358"
 ---
 # <a name="presentation-time"></a>Heure de présentation
 

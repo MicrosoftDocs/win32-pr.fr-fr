@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 02ad52e5ad75d4c71129ec7987347121c6152c01071e797c7b169327fdeb3614
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2309384e4aa36383277ba72cc407cabef7ab4b27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521225"
 ---
 # <a name="itabletgetcursorcount-method"></a>ITablet :: GetCursorCount, méthode
 
@@ -47,7 +47,7 @@ Nombre d’objets Cursor associés à la tablette.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -62,7 +62,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

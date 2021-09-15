@@ -4,12 +4,12 @@ ms.assetid: 87598de7-51ab-47a1-970f-bb55e2f70df6
 title: System. GPS. Speed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf3898d7f2d8f9bc3590794f9030343edc11a3d87ec03366c223bb109fe3e0dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 933bb81beb2382beb143dd7ff41f35435a668694
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120010269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412777"
 ---
 # <a name="systemgpsspeed"></a>System. GPS. Speed
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

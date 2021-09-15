@@ -4,12 +4,12 @@ ms.assetid: F03AB35D-FBFE-46C2-A37F-F70C18219B9A
 title: Comment implémenter des verbes personnalisés pour les dossiers via Desktop.ini
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49b3f12d51848d08e6480d4180a3768b807703e5655e3fcfcddffcdaf16b734
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 133726133abe884863a0b4d2abc0cc76aab1310a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120111779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412489"
 ---
 # <a name="how-to-implement-custom-verbs-for-folders-through-desktopini"></a>Comment implémenter des verbes personnalisés pour les dossiers via Desktop.ini
 
@@ -49,7 +49,7 @@ HKEY_CLASSES_ROOT
                (Default) = %SystemRoot%\system32\notepad.exe %1\desktop.ini
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Ces verbes peuvent être les verbes par défaut. dans ce cas, le double-clic sur le dossier active le verbe.

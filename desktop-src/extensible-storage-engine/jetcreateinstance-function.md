@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eb1f785e5536097430867674eb10295cef81c37b
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: f22c411dd68b29b0cf305888f9dcce16add9a2dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478025"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523793"
 ---
 # <a name="jetcreateinstance-function"></a>Fonction JetCreateInstance
 
@@ -76,7 +76,7 @@ En cas de réussite, une nouvelle instance sera allouée et l’identificateur c
 
 En cas d’échec, une erreur qui représente la cause de l’échec est retournée et aucune instance n’est allouée.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Une instance doit être initialisée avec un appel à [JetInit](./jetinit-function.md) avant de pouvoir être utilisée par une autre chose que [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
@@ -96,10 +96,17 @@ La séquence de démarrage classique d’un processus potentiellement exécutant
 
 S’il s’agit de la première instance à démarrer, il existe un certain nombre d’étapes supplémentaires qui seront exécutées au cours de cet appel afin d’effectuer une initialisation et une configuration de base du système. Un certain nombre de ces étapes peuvent entraîner des erreurs spécifiques à partir de JET_errOutOfMemory mais d’autres également (voir les erreurs ci-dessus).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetCreateInstanceW</strong> (Unicode) et <strong>JetCreateInstanceA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetCreateInstanceW</strong> (Unicode) et <strong>JetCreateInstanceA</strong> (ANSI).</p> | 
 
 
 

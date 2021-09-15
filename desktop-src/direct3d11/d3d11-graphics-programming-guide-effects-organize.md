@@ -4,12 +4,12 @@ description: Avec Direct3D 11, l’état d’effet de certaines étapes de pipel
 ms.assetid: e5057f94-69dd-4219-a5f4-569e48502475
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d36bf99887e96dc5854778edb24f0ceacbc0cdf5a7994532bc2ebd94137fe8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5a0523dd8abdabde29a5485b8d3b1e6d13b9429
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119126093"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526173"
 ---
 # <a name="organizing-state-in-an-effect-direct3d-11"></a>Organisation de l’État dans un effet (Direct3D 11)
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3124e76ec8ba46f3e8915ac24c080c3e28caad620f7de1d100eaa7bb2316d851
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9b8a32eb4b935b5164ef91bf299777b36d7e53d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857590"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412343"
 ---
 # <a name="shelllinkobjectarguments-property"></a>ShellLinkObject. arguments, propriété
 
@@ -176,7 +176,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

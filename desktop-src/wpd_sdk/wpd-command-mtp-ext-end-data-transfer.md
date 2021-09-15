@@ -5,11 +5,11 @@ title: Commande WPD_COMMAND_MTP_EXT_END_DATA_TRANSFER (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f13f451c477d5f0003bf34f485407157d527aa7f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540022"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404629"
 ---
 # <a name="wpd_command_mtp_ext_end_data_transfer-command"></a>Commande \_ wpd \_ MTP \_ MTP \_ End \_ Data \_ Transfer
 
@@ -52,7 +52,7 @@ Le pilote retourne les résultats suivants.
 
 Peut uniquement être appelé directement à l’aide de [**IPortableDevice :: SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

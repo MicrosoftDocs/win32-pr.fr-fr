@@ -4,12 +4,12 @@ description: Le modèle de nuanceur 6,0 ajoute une plage d’intrinsèques de l�
 ms.assetid: 2F28F86D-F599-47EA-90D7-6833ABA976FC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609f0a9d36fbf7414e724cd31bc05a8e4d6abdefa5c842f30934feba0dffb868
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33eb4eab2a92e929bdefdc1df0f9cb1e0d84909a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118790698"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524504"
 ---
 # <a name="shader-model-6"></a>Shader, modèle 6
 

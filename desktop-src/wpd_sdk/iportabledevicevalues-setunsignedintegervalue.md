@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 9c58569554cf9170788524bdcb233bf42b3318f1e954050bb713711c93337543
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7dc237e5cdba120a08899035dc20f6fb6b2b63f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411344"
 ---
 # <a name="iportabledevicevaluessetunsignedintegervalue-method"></a>IPortableDeviceValues :: SetUnsignedIntegerValue, méthode
 
@@ -55,7 +55,7 @@ HRESULT SetUnsignedIntegerValue(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -69,7 +69,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si une valeur existante a la même clé que celle spécifiée par le paramètre de *clé* , elle remplace la valeur existante sans avertissement.
 
@@ -77,7 +77,7 @@ Si une valeur existante a la même clé que celle spécifiée par le paramètre 
 
 Pour obtenir un exemple d’utilisation de cette méthode, consultez [**spécification des informations sur le client**](specifying-client-information.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

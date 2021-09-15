@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9973ea52a2140d02fb611cf79991c3e18196b3cc33df5edd52f9be3229faa94f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 278de1a2e034fe4d003a1266f83cfb6812a30f1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117860860"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412540"
 ---
 # <a name="extending-the-desktop"></a>Extension du Bureau
 

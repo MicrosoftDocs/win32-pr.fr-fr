@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 1290a395b9fc3f4e485a90822103ccb51b40edcc1b72fdf08433eaed72cdd213
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfdbb592e6358fb1f8c5f3d45bb7e6bb780641c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403479"
 ---
 # <a name="swbemrefresheritem-method"></a>SWbemRefresher. Item, méthode
 
@@ -51,7 +51,7 @@ Valeur d’index de l’élément dans la collection.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’appel réussit, l’objet [**SWbemRefreshableItem**](swbemrefreshableitem.md) spécifié est retourné.
 

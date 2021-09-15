@@ -4,12 +4,12 @@ ms.assetid: b88517cc-06fe-4d83-a6a9-76e1f34293f4
 title: Interfaces de décodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a52a0924f6302e45b10cb32a1d621db04967d33a3251ee39cce359e5030af5c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef90ca2dd521c15460295505a6d5b7ea451c4dba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119393522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521169"
 ---
 # <a name="decoder-interfaces"></a>Interfaces de décodeur
 
@@ -50,7 +50,7 @@ Interfaces de décodeur Frame-Level
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation d’un décodeur WIC-Enabled](-wic-implementingwicdecoder.md)

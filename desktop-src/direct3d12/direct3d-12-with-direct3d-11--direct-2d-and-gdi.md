@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3b5fcfe2adf756c12f034031675d0c3ac5571b44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404325"
 ---
 # <a name="direct3d-12-interop"></a>Interopérabilité Direct3D 12
 
@@ -91,10 +91,10 @@ Le partage ou la génération de listes de commandes n’est pas largement utili
 
 La rubrique [Direct3D 11 sur 12](./direct3d-11-on-12.md) vous guide tout au long de l’utilisation d’une grande partie de la surface de l’API en rapport avec les types d’interopérabilité décrits dans cette rubrique.
 
-Consultez également la méthode [ID3D12Device :: CreateSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle) , que vous pouvez utiliser pour partager des surfaces entre des API graphiques Windows.
+consultez également la méthode [ID3D12Device :: CreateSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle) , que vous pouvez utiliser pour partager des surfaces entre des api Windows graphics.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Comprendre Direct3D 12](directx-12-getting-started.md)
+* [Comprendre Direct3D 12](directx-12-getting-started.md)
 * [Utilisation de Direct3D 11, Direct3D 10 et Direct2D](direct3d-12-interop.md)
 * [Direct3D 11 sur 12](./direct3d-11-on-12.md)

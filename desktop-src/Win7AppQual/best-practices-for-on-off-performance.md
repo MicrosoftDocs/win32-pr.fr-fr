@@ -4,12 +4,12 @@ ms.assetid: 872c2a33-327e-41a8-81db-905c46673f13
 title: Meilleures pratiques pour les performances d’activation/de désactivation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8ef9e10b0a6fc82be138951d45f811ce1ccf0dbe2222b620cf73d0c272570c8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2c88eaf5175db43061e57bc4689d8bf256e6881
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521885"
 ---
 # <a name="best-practices-for-onoff-performance"></a>Meilleures pratiques pour les performances d’activation/de désactivation
 
@@ -26,7 +26,7 @@ Une bonne performance au cours de ces transitions d’activation/de désactivati
 
 Les extensions système telles que les pilotes, les applications et les services peuvent avoir un impact significatif sur les temps de transition activés/désactivés. Cette section décrit quelques-unes des meilleures pratiques que les développeurs d’applications et de services peuvent suivre pour éviter les retards lors du démarrage, de la mise en veille et de l’arrêt, et pour garantir une expérience utilisateur réactive après le démarrage et après reprise. pour plus d’informations sur l’identification des problèmes de performances d’activation/de désactivation à l’aide du Shared Computer Toolkit de performances Windows et pour mettre en œuvre les recommandations ci-dessous pour votre application ou service, reportez-vous aux livres blancs de la section « liens vers d’autres ressources ».
 
-## <a name="best-practices"></a>Meilleures pratiques
+## <a name="best-practices"></a>Bonnes pratiques
 
 -   utilisez le Shared Computer Toolkit de performances Windows pour mesurer les performances pendant toutes les transitions activées/désactivées.
 -   Effectuez des tests de manière contrôlée et effectuez des comparaisons par rapport à une ligne de base valide :

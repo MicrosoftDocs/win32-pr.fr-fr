@@ -4,12 +4,12 @@ ms.assetid: 5d777115-bae3-47c4-9edc-c99c40a4f926
 title: Message SFVM_QUERYFSNOTIFY (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 932650257ddb039e3841a583c3856316a86eca469db74a0e8ab6ebf33e9411f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a4416bda249e3ec0f2a0c0f2d45ac353961e180
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525360"
 ---
 # <a name="sfvm_queryfsnotify-message"></a>\_Message SFVM QUERYFSNOTIFY
 
@@ -37,7 +37,7 @@ Structure destinée à contenir le PIDL de l’élément pour surveiller les év
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

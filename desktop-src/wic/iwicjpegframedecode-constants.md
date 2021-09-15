@@ -4,12 +4,12 @@ ms.assetid: 6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9
 title: Constantes IWICJpegFrameDecode (wincodec. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 318ea1f8a348d0bb2096e969ce1bb2a0de9ee3f4188ccb86f08e0491426e98ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2473e055434b2e3d469bd76ec34413a1af8a2ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117667069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411419"
 ---
 # <a name="iwicjpegframedecode-constants"></a>Constantes IWICJpegFrameDecode
 
@@ -160,7 +160,7 @@ Les index Huffman utilisent la ligne de base 3.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

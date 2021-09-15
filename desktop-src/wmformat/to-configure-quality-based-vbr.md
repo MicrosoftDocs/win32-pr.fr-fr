@@ -13,12 +13,12 @@ keywords:
 - profils, configuration du VBR basé sur la qualité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34b1181d722909478b29e1ffbe5f5b53cb919d80e3922e055eecdf34c334a382
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d0b7a6ecb83c7242f82f5626a086c8aba23881f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117845634"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404461"
 ---
 # <a name="to-configure-quality-based-vbr"></a>Pour configurer Quality-Based VBR
 

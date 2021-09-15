@@ -20,11 +20,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 1b5446306bd4035c68f33db2966b1cfadd0b6d82
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987232"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525884"
 ---
 # <a name="jetstopserviceinstance2-function"></a>JetStopServiceInstance2 fonction)
 
@@ -62,7 +62,7 @@ Groupe de bits qui spécifie une ou plusieurs des valeurs énumérées et défin
 
 
 
-### <a name="return-value"></a>Valeur retournée
+### <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
@@ -73,7 +73,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cette fonction permet à une application JET de déplacer le cache de base de données à un état propre ou presque propre (avec les e/s du système d’exploitation inactives), de sorte que si l’application doit être arrêtée, la récupération est rapide. Cette approche est préférable à l’arrêt de JET en appelant les fonctions [JetTerm](./jetterm-function.md) ou [JetDetachDatabase](./jetdetachdatabase-function.md) , de sorte que dans le scénario le plus courant, l’application n’est pas suspendue, et par la suite, l’application dispose de l’ensemble du cache et est prête à être utilisée dès que possible.
 
@@ -85,7 +85,7 @@ En cas d’appel pour suspendre : JET_ERR JET_API JetStopServiceInstance2 (inst
 
 En cas de reprise : JET_ERR JET_API JetStopServiceInstance2 (instance, JET_bitStopServiceQuiesceCaches | JET_bitStopServiceResume);
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

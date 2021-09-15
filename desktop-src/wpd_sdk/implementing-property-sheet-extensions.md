@@ -4,12 +4,12 @@ ms.assetid: 5d1f9d91-e8a1-4cbb-b1de-4262a61e3cb7
 title: Implémentation des extensions de feuille de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b4f74559176ecc0c411f75e7ca630db152a51109f09ecdca47a62d0113e70c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2a351678c2377aacdd73ec750841a32a81ad973
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119590279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522068"
 ---
 # <a name="implementing-property-sheet-extensions"></a>Implémentation des extensions de feuille de propriétés
 

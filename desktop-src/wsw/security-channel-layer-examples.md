@@ -9,12 +9,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d130bc7e0e4250107c6e331a43f7d5a13786929c37bd998177ee587c2f29049
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b1283339b1a4af624e118e3f6c76a07449f9274
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192770"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411319"
 ---
 # <a name="security-channel-layer-examples"></a>Exemples de couche de canal de sécurité
 

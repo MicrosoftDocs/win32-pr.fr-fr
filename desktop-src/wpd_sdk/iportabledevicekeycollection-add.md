@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 6aa28a7a8a6439f27a095033d35e8b066c1488af13d1ade921f16c4143843adf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e43fea25a08969b2ae8169884d51ddc46f8c7136
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118194719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523960"
 ---
 # <a name="iportabledevicekeycollectionadd-method"></a>IPortableDeviceKeyCollection :: Add, méthode
 
@@ -47,7 +47,7 @@ HRESULT Add(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 

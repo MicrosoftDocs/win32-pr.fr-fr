@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 15ef54d44a466f3c766075eae771ccac9d74e20c0622d6092530f1015a538425
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e25f8885c2444a51d5d5d8cc917121c7f3b26a09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525345"
 ---
 # <a name="user-experience-guidelines"></a>Conseils sur l’expérience utilisateur
 

@@ -4,12 +4,12 @@ ms.assetid: 80235820-761f-4deb-9bf6-82ef402b3ee4
 title: Attribut MF_SD_STREAM_NAME (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 312ca788b03c3bef075c2c51d06df921d258e7372c091c5ccb43ec248444fcfc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 734c2d20390ba1a450a40c03054b4c67c5c0409a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118474053"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523649"
 ---
 # <a name="mf_sd_stream_name-attribute"></a>\_Attribut de \_ nom de flux SD MF \_
 
@@ -29,13 +29,13 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/d
 
 [**IMFStreamDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfstreamdescriptor)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La source de média AVI définit cet attribut si le fichier AVI contient un segment « STRN ».
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

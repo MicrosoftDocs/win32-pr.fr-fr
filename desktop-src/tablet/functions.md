@@ -4,12 +4,12 @@ ms.assetid: 8f94a82c-de93-4649-a9b5-0adcbe01333d
 title: Fonctions principales de Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb9e58300321f2b483cc062472950f5d252a292dc1380b3e5c030993ddbe6a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc9d0369a223959f011612b5aefc820a3668eeff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967541"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412296"
 ---
 # <a name="core-tablet-pc-functions"></a>Fonctions principales de Tablet PC
 

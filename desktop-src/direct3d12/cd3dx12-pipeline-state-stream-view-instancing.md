@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/05/2021
 ms.openlocfilehash: b693130bab6d090379d253d07ce4bbaa5c88b150
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520828"
 ---
 # <a name="cd3dx12_pipeline_state_stream_view_instancing-structure"></a>Structure CD3DX12_PIPELINE_STATE_STREAM_VIEW_INSTANCING
 
@@ -37,7 +37,7 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_VIEW_INSTANCING_DESC, D3
 
 Consultez [CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT](cd3dx12-pipeline-state-stream-subobject.md) et [CD3DX12_VIEW_INSTANCING_DESC](cd3dx12-view-instancing-desc.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

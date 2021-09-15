@@ -11,12 +11,12 @@ keywords:
 - contrôles pour Windows ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2fe9ad1a42b17d0c8a4be57c170ba0894d864997cdf3ed5d02e3f6d66a3a35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2659da608a3d3e73f3f35ac1911946a6685c74e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118707813"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411416"
 ---
 # <a name="understanding-commands-and-controls"></a>Fonctionnement des commandes et des contrôles
 
@@ -39,7 +39,7 @@ Dans l’infrastructure du ruban, les commandes et les contrôles sont des entit
 
 Cette distinction permet de définir des commandes qui sont exemptes de détails de l’interface utilisateur et de s’exécuter sur l’intention d’une action sans avoir à gérer la façon dont l’action a été appelée.
 
-### <a name="controls"></a>Contrôles
+### <a name="controls"></a>Commandes
 
 Les contrôles sont les objets d’interface utilisateur requis pour la présentation de commande. Elles sont rendues et gérées au moment de l’exécution par le Framework en fonction de l’interaction de l’utilisateur et d’un ensemble de propriétés et de comportements inhérents.
 

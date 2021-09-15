@@ -4,12 +4,12 @@ ms.assetid: 65d88832-0969-4d85-bee2-fd0aa68e9f3b
 title: Attribut MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_ACTIVATE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d17d7c54691b629caed33d0cdfffe59e7b1da9d025f25026f7416de75741a354
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75855c18faba8568547f9efcfb19e04574c4885e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119957099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413023"
 ---
 # <a name="mf_activate_custom_video_presenter_activate-attribute"></a>\_Activer l' \_ attribut \_ d' \_ activation de PRÉSENTateur vidéo personnalisé \_ MF
 
@@ -19,7 +19,7 @@ Spécifie un objet d’activation qui crée un présentateur vidéo personnalis�
 
 **IUnknown\***
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous créez le EVR via un objet d’activation, vous pouvez utiliser cet attribut pour définir un présentateur vidéo personnalisé sur EVR. Utilisez cet attribut comme suit :
 
@@ -30,7 +30,7 @@ Si vous définissez cet attribut, EVR appelle [**IMFActivate :: ActivateObject*
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b4357ca0547cd350d1187b8eee01bf1928da612e256320c575340af4872a1f03
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d50038d23c5b5e18680812262aa7c05b11ac6cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119730639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526269"
 ---
 # <a name="jet_objectlist-constructor"></a>Constructeur JET_OBJECTLIST
 
@@ -52,7 +52,7 @@ public JET_OBJECTLIST()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_OBJECTLIST](./jet-objectlist-class.md)
 

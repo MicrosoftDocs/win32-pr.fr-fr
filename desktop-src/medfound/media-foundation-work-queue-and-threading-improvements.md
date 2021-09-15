@@ -1,25 +1,25 @@
 ---
-description: Cette rubrique décrit les améliorations apportées à Windows 8 pour les files d’attente de travail et les threads dans la plateforme Microsoft Media Foundation.
+description: cette rubrique décrit les améliorations apportées à Windows 8 pour les files d’attente de travail et les threads dans la plateforme Microsoft Media Foundation.
 ms.assetid: 9E2A1D94-BF82-488E-8297-D524683ABE17
 title: Améliorations de la file d’attente de travail et du thread
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 07b307cb00316696e075e9e9cc2a138e98e149be
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104042962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524257"
 ---
 # <a name="work-queue-and-threading-improvements"></a>Améliorations de la file d’attente de travail et du thread
 
-Cette rubrique décrit les améliorations apportées à Windows 8 pour les files d’attente de travail et les threads dans la plateforme Microsoft Media Foundation.
+cette rubrique décrit les améliorations apportées à Windows 8 pour les files d’attente de travail et les threads dans la plateforme Microsoft Media Foundation.
 
--   [Comportement de Windows 7](#windows-7-behavior)
+-   [comportement de Windows 7](#windows-7-behavior)
     -   [Files d’attente de travail](#work-queues)
     -   [Prise en charge de MMCSS](#mmcss-support)
     -   [IMFRealTimeClient](#imfrealtimeclientex)
--   [Améliorations de Windows 8](#windows-8-improvements)
+-   [Windows 8 Optimisation](#windows-8-improvements)
     -   [Files d’attente de travail multithread](#multithreaded-work-queues)
     -   [Files d’attente de travail des tâches partagées](#shared-task-work-queues)
     -   [File d’attente](#wait-queue)
@@ -30,9 +30,9 @@ Cette rubrique décrit les améliorations apportées à Windows 8 pour les files
 -   [Résumé](#summary)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="windows-7-behavior"></a>Comportement de Windows 7
+## <a name="windows-7-behavior"></a>comportement de Windows 7
 
-Cette section résume le comportement de Media Foundation files d’attente de travail dans Windows 7.
+cette section résume le comportement de Media Foundation files d’attente de travail dans Windows 7.
 
 ### <a name="work-queues"></a>Files d’attente de travail
 
@@ -46,7 +46,7 @@ Une application ou un composant peut allouer de nouvelles files d’attente de t
 -   **MF \_ \_WORKQUEUE standard** crée une file d’attente de travail sans boucle de message.
 -   **MF \_ La fenêtre \_ WORKQUEUE** crée une file d’attente de travail avec une boucle de message.
 
-Pour effectuer la mise en file d’attente d’un élément de travail, appelez [**MFPutWorkItem**](/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem) ou [**MFPutWorkItemEx**](/windows/desktop/api/mfapi/nf-mfapi-mfputworkitemex). La plateforme exécute l’élément de travail en appelant l’implémentation fournie par l’appelant de [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback). Dans Windows 7 et les versions antérieures, la plateforme crée un thread par file d’attente de travail.
+Pour effectuer la mise en file d’attente d’un élément de travail, appelez [**MFPutWorkItem**](/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem) ou [**MFPutWorkItemEx**](/windows/desktop/api/mfapi/nf-mfapi-mfputworkitemex). La plateforme exécute l’élément de travail en appelant l’implémentation fournie par l’appelant de [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback). dans Windows 7 et les versions antérieures, la plateforme crée un thread par file d’attente de travail.
 
 ### <a name="mmcss-support"></a>Prise en charge de MMCSS
 
@@ -86,11 +86,11 @@ L’interface [**IMFRealTimeClient**](/windows/desktop/api/mfidl/nn-mfidl-imfrea
 
 En règle générale, un composant de pipeline utilise un thread ou une file d’attente de travail pour effectuer des tâches asynchrones, mais pas les deux.
 
-## <a name="windows-8-improvements"></a>Améliorations de Windows 8
+## <a name="windows-8-improvements"></a>Windows 8 Optimisation
 
 ### <a name="multithreaded-work-queues"></a>Files d’attente de travail multithread
 
-Dans Windows 8, Media Foundation prend en charge un nouveau type de file d’attente de travail appelé *file d’attente multithread*. Une file d’attente multithread utilise un pool de threads système pour distribuer des éléments de travail. La file d’attente multithread est mieux adaptée que les files d’attente monothread précédentes. Par exemple,
+dans Windows 8, Media Foundation prend en charge un nouveau type de file d’attente de travail appelé *file d’attente multithread*. Une file d’attente multithread utilise un pool de threads système pour distribuer des éléments de travail. La file d’attente multithread est mieux adaptée que les files d’attente monothread précédentes. Par exemple,
 
 -   Plusieurs composants peuvent partager une file d’attente multithread sans se bloquer l’un l’autre, ce qui nécessite la création de moins de threads.
 
@@ -114,7 +114,7 @@ hr = MFAllocateSerialWorkQueue(MFASYNC_CALLBACK_QUEUE_MULTITHREADED, &workQueueI
 
 Plusieurs files d’attente série peuvent encapsuler la même file d’attente multithread. Les files d’attente série partagent ensuite le même pool de threads, et l’exécution sérialisée est appliquée dans chaque file d’attente.
 
-Les files d’attente de travail standard qui existaient avant Windows 8 sont désormais implémentées en tant que files d’attente de travail en série qui encapsulent la file d’attente multithread de la plateforme. Cette modification préserve la compatibilité descendante.
+les files d’attente de travail standard qui existaient avant Windows 8 sont désormais implémentées en tant que files d’attente de travail en série qui encapsulent la file d’attente multithread de la plateforme. Cette modification préserve la compatibilité descendante.
 
 ### <a name="shared-task-work-queues"></a>Files d’attente de travail des tâches partagées
 
@@ -170,7 +170,7 @@ En outre, envisagez d’utiliser la file d’attente de travail du sérialiseur 
 
 ### <a name="topology-branches"></a>Branches de topologie
 
-Si l’attribut de [ \_ classe TOPONODE MF \_ WORKQUEUE \_ MMCSS \_ ](mf-toponode-workqueue-mmcss-class-attribute.md) inscrit une branche de topologie avec MMCSS, dans Windows 8, la session multimédia utilise les files d’attente de travail MT partagées. Dans les versions antérieures de Windows, la session multimédia a alloué une nouvelle file d’attente de travail.
+si l’attribut de [ \_ classe TOPONODE MF \_ WORKQUEUE \_ mmcss \_ ](mf-toponode-workqueue-mmcss-class-attribute.md) inscrit une branche de topologie avec MMCSS, dans Windows 8 la Session multimédia utilise les files d’attente de travail MT partagées. dans les versions antérieures de Windows, la Session multimédia a alloué une nouvelle file d’attente de travail.
 
 Deux nouveaux attributs sont définis pour inscrire une branche de topologie avec MMCSS.
 
@@ -195,7 +195,7 @@ Deux nouveaux attributs sont définis pour inscrire une branche de topologie ave
 
 ## <a name="summary"></a>Résumé
 
-Les API de plateforme de Media Foundation suivantes relatives aux threads et aux files d’attente de travail sont nouvelles pour Windows 8.
+Les API de plateforme de Media Foundation suivantes qui sont liées aux threads et aux files d’attente de travail sont nouvelles pour les Windows 8.
 
 -   [\_priorité de \_ l' \_ élément WORKQUEUE TOPONODE \_ MF](mf-toponode-workqueue-item-priority.md)
 -   [MF \_ TOPONODE \_ WORKQUEUE \_ MMCSS \_ Priority](mf-toponode-workqueue-mmcss-priority.md)

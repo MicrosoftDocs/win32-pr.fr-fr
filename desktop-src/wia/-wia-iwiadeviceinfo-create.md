@@ -1,5 +1,5 @@
 ---
-description: La méthode Create de l’objet DeviceInfo établit une connexion à l’appareil WIA (Windows Image Acquisition) spécifiée par l’objet DeviceInfo et retourne un objet Item qui représente l’appareil.
+description: la méthode create de l’objet DeviceInfo établit une connexion à l’appareil d’Acquisition d’images Windows (WIA) spécifié par l’objet DeviceInfo et retourne un objet Item qui représente l’appareil.
 ms.assetid: 57f3698c-3f9f-4775-8b53-a65a5591aa3d
 title: DeviceInfo. Create, méthode
 ms.topic: reference
@@ -14,15 +14,15 @@ api_type:
 api_location:
 - Wiascr.dll
 ms.openlocfilehash: 1efc36ea8794de4b64c9af616320b09d547f6490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522225"
 ---
 # <a name="deviceinfocreate-method"></a>DeviceInfo. Create, méthode
 
-La méthode **Create** de l’objet [**DeviceInfo**](-wia-deviceinfo.md) établit une connexion à l’appareil WIA (Windows Image Acquisition) spécifiée par l’objet **DeviceInfo** et retourne un objet [**Item**](-wia-item.md) qui représente l’appareil.
+la méthode **create** de l’objet [**DeviceInfo**](-wia-deviceinfo.md) établit une connexion à l’appareil d’Acquisition d’images Windows (WIA) spécifié par l’objet **DeviceInfo** et retourne un objet [**Item**](-wia-item.md) qui représente l’appareil.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -37,7 +37,7 @@ retVal = DeviceInfo.Create()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **IWiaDispatchItem**
 
@@ -71,14 +71,14 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

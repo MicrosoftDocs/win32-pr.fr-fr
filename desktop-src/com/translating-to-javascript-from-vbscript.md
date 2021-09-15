@@ -5,11 +5,11 @@ ms.assetid: 39a712c5-f8d7-4441-a602-93cda43c24d1
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2ff950c58c87e926c8593e5c009db4efbce0a371
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309366"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522745"
 ---
 # <a name="translating-to-javascript-from-vbscript"></a>Conversion en JavaScript à partir de VBScript
 
@@ -32,9 +32,9 @@ VBScript fournit la prise en charge de la gestion des erreurs via son objet Err.
 [Conversion en JavaScript](translating-to-javascript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

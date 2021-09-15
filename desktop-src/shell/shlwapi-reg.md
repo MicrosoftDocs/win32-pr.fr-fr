@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7bd7204ada31db6791d3cb78d1a11087d19eae45f0cacbfdf6ae6e032ae66a04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a3e4f65904fa97635b3ef4dc3abd9f01344f6a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117676498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412323"
 ---
 # <a name="shell-registry-handling-functions"></a>Fonctions de gestion du Registre Shell
 

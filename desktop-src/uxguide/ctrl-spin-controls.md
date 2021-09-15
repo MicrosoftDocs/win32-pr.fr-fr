@@ -4,12 +4,12 @@ description: Avec un contrôle spin, les utilisateurs peuvent cliquer sur les bo
 ms.assetid: 5f791fb9-1354-41b9-a9de-ddab35302d50
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b97f5acc8a3f904df3a868274356e5337f5cc9280a5eed81693d92ce9bf9a37c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54ce622983e52d65fa58ef05aca783ff67ebce66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118217358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411431"
 ---
 # <a name="spin-controls"></a>Contrôles spin
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 95be6d9b6c4cbf70aed059399af0892a3c75f0a3462b6ef2b0732e8180f4e123
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9a1e5f4dc71d5af2e7973ef180c919a49e65ef81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120068109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524657"
 ---
 # <a name="getsampleposition-directx-hlsl-texture-object"></a>GetSamplePosition (objet texture HLSL DirectX)
 
@@ -59,7 +59,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 -   Le modèle de nuanceur 4,1 est disponible dans Direct3D 10,1 ou version ultérieure.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un nuanceur de pixels peut être évalué à la fréquence d’échantillonnage (exécuter un nuanceur de pixels une fois par échantillon) ou à fréquence en pixels (exécuter un nuanceur de pixels une fois par pixel). Attacher la \_ sémantique SV SampleIndex à une entrée de nuanceur de pixels pour appeler un nuanceur de pixels à la fréquence d’échantillonnage, la valeur d’entrée est ensuite utilisée comme exemple d’index lors de l’échantillonnage de la cible de rendu.
 

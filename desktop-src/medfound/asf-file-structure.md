@@ -5,17 +5,17 @@ title: Structure de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 672067b5f933884326038a93b6d4538c68558856
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524671"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413064"
 ---
 # <a name="asf-file-structure"></a>Structure de fichiers ASF
 
 Cette rubrique décrit la structure d’un fichier ASF (Advanced Systems Format).
 
-Pour plus d’informations sur les fichiers ASF, téléchargez la [spécification ASF](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea). Vous pouvez également utiliser l’outil [Windows Media ASF Viewer 9 Series](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea) pour voir la structure d’un fichier ASF existant.
+Pour plus d’informations sur les fichiers ASF, téléchargez la [spécification ASF](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea). vous pouvez également utiliser l’outil [Windows Media ASF Viewer 9 Series](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea) pour voir la structure d’un fichier ASF existant.
 
 L’unité de base de l’Organisation pour les fichiers ASF est appelée un *objet*. Un objet fichier ASF contient les données suivantes.
 

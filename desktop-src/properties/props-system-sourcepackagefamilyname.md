@@ -4,12 +4,12 @@ ms.assetid: ccebd9a4-03b8-4351-ac37-0b161ddbe2c9
 title: System. SourcePackageFamilyName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca4452e0a6d50cdede05aeb3391cc50953dd2aaf943c86f195eb72830c639dc9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72486c4d46e8f42460c8ec48ac16686fb43d4d63
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118227654"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523432"
 ---
 # <a name="systemsourcepackagefamilyname"></a>System. SourcePackageFamilyName
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

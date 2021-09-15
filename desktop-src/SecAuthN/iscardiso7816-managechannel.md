@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 92fb91c0630996938e247dbc244ac0c311c52531401367d5326bd197ffaabf9c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0b9af92e280781405c2cb570c93e8873a279765
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119481115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311345"
 ---
 # <a name="iscardiso7816managechannel-method"></a>ISCardISO7816 :: ManageChannel, méthode
 
@@ -80,7 +80,7 @@ Au retour, elle est remplie avec la commande APDU construite par cette opératio
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -97,7 +97,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la fonction Open est correctement exécutée à partir du canal logique de base, le MF est implicitement sélectionné comme DF actuel et l’état de sécurité du nouveau canal logique doit être identique au canal logique de base après ATR. L’état de sécurité du nouveau canal logique doit être distinct de celui de tout autre canal logique.
 
@@ -109,7 +109,7 @@ Pour obtenir la liste de toutes les méthodes fournies par cette interface, cons
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

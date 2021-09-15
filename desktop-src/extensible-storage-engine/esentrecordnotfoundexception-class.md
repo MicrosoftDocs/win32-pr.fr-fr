@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 90a68ca73d129840a14fa0d0ff8c7863497a5cee0ac0ed3d3c3692083172d90b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c013bda1ba0592b2137e4bc428ccf4bc195fc6ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118079332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520429"
 ---
 # <a name="esentrecordnotfoundexception-class"></a>EsentRecordNotFoundException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentRecordNotFoundException](./esentrecordnotfoundexception-members.md)
 

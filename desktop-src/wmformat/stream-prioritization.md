@@ -12,12 +12,12 @@ keywords:
 - flux, hiérarchisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd34bab6a7957d7cbcdf97a78fc3d8be1f663d43ef1eb1ec8d4c575571ad0a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abe1628ef050d393cd2d98e73708d5a9ad6c3be4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197275"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522092"
 ---
 # <a name="stream-prioritization"></a>Hiérarchisation des flux
 

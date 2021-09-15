@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 85e84c13-62aa-4502-b642-ca55273a800d
-ms.openlocfilehash: 696767844e2cc5dbe17aa44c2f76a8b0550b86115437e0d5f3e1f1f2543dbb2d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 944da80196db12d0bfa5d64767c5e6c2e8ff733e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857098"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412329"
 ---
 # <a name="shellwindows_newenum-method"></a>ShellWindows. \_ NewEnum, méthode
 
@@ -37,7 +37,7 @@ retVal = ShellWindows._NewEnum()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\*\***
 
@@ -101,7 +101,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

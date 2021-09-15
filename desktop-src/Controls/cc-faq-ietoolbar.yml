@@ -6,11 +6,11 @@ metadata:
   ms.topic: article
   ms.date: 05/31/2018
   ms.openlocfilehash: 2aea1b1a042ab90335e6be2f2e38b6ef9088a1f0
-  ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+  ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/13/2021
-  ms.locfileid: "121858726"
+  ms.lasthandoff: 09/13/2021
+  ms.locfileid: "127520640"
 title: Procédure de création d’une barre d’outils Explorer-Style Internet
 summary: >
   l’une des fonctionnalités clés de l’interface utilisateur de Windows Internet Explorer est la barre d’outils. Il permet non seulement aux utilisateurs d’accéder à une grande variété de fonctionnalités, mais également aux utilisateurs de personnaliser leur disposition en fonction de leurs préférences personnelles.
@@ -27,166 +27,166 @@ sections:
 - name: Ignoré
   questions:
   - question: >
-      The Rebar Control
+      Contrôle rebar
     answer: >
-      The underlying structure of the Internet Explorer toolbar is provided by a [rebar control](rebar-controls.md). This control provides a way for users to customize the arrangement of a collection of tools. Each rebar contains one or more *bands*, which are typically long, narrow rectangles that contain a child window, commonly a toolbar control.
+      La structure sous-jacente de la barre d’outils d’Internet Explorer est fournie par un [contrôle rebar](rebar-controls.md). Ce contrôle permet aux utilisateurs de personnaliser la disposition d’une collection d’outils. Chaque Rebar contient une ou plusieurs *bandes*, qui sont généralement des rectangles étroits longs qui contiennent une fenêtre enfant, généralement un contrôle ToolBar.
 
 
-      The rebar control displays its bands in a rectangular area, typically at the top of the window. This rectangle is subdivided into one or more strips that are the height of a band. Each band can be on a separate strip, or multiple bands can be placed on the same strip.
+      Le contrôle rebar affiche ses bandes dans une zone rectangulaire, en général en haut de la fenêtre. Ce rectangle est subdivisé en une ou plusieurs bandes qui correspondent à la hauteur d’une bande. Chaque bande peut se trouver sur une bande distincte, ou plusieurs bandes peuvent être placées sur la même bande.
 
 
-      A rebar control provides users with two ways to arrange their tools:
+      Un contrôle rebar offre aux utilisateurs deux moyens de réorganiser leurs outils :
 
 
-      -   Each band usually has a *gripper* at its left edge. Grippers are used when two or more bands on a single strip exceed the width of the window. By dragging the gripper to the left or right, users can control how much space is allocated to each band.
+      -   Chaque bande possède généralement une *pince* sur son bord gauche. Les pinceaux sont utilisés lorsque deux ou plusieurs bandes sur une seule bande dépassent la largeur de la fenêtre. En faisant glisser la pince vers la gauche ou la droite, les utilisateurs peuvent contrôler la quantité d’espace allouée à chaque bande.
 
-      -   Users can move the bands within the rebar's display rectangle by dragging and dropping. The rebar control then changes the display to accommodate the new arrangement of bands. If all the bands are removed from a strip, the height of the rebar will be reduced, enlarging the viewing area.
-
-
-      An application can add or remove bands as needed. Typically, applications enable users to select which bands they want to have displayed through the View menu or a shortcut menu.
+      -   Les utilisateurs peuvent déplacer les bandes dans le rectangle d’affichage du Rebar en les faisant glisser. Le contrôle rebar change ensuite l’affichage pour s’adapter à la nouvelle disposition des bandes. Si toutes les bandes sont retirées d’une bande, la hauteur du Rebar sera réduite, ce qui augmentera la zone d’affichage.
 
 
-      If the combined width of the bands on a strip exceeds the width of the window, the rebar control will adjust their widths as needed. Some of the tools might be covered by the adjacent band.
+      Une application peut ajouter ou supprimer des bandes en fonction des besoins. En règle générale, les applications permettent aux utilisateurs de sélectionner les bandes qu’ils souhaitent afficher via le menu Affichage ou un menu contextuel.
 
 
-      [Version 5.80](common-control-versions.md) of the common controls provides a way to make tools that have been covered by another band accessible to the user. If you set the RBBS\_USECHEVRON flag in the **fStyle** member of the band's [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure, a *chevron* will be displayed for toolbars that have been covered. When a user clicks the chevron, a menu is displayed that allows him or her to use the hidden tools. The following screen shot from Microsoft Internet Explorer 6 shows the menu that is displayed when part of the standard toolbar is covered.
+      Si la largeur combinée des bandes sur une bande dépasse la largeur de la fenêtre, le contrôle rebar ajuste leur largeur en fonction des besoins. Certains des outils peuvent être couverts par la bande adjacente.
 
 
-      ![screen shot that shows the menu displayed by clicking the chevron](images/howto2.jpg)
+      La [Version 5,80](common-control-versions.md) des contrôles communs offre un moyen de rendre les outils couverts par une autre bande accessible à l’utilisateur. Si vous définissez l' \_ indicateur RBBS USECHEVRON dans le membre **fStyle** de la structure [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) de la bande, un *Chevron* s’affiche pour les barres d’outils qui ont été couvertes. Lorsqu’un utilisateur clique sur le Chevron, un menu s’affiche pour lui permettre d’utiliser les outils cachés. La capture d’écran suivante de Microsoft Internet Explorer 6 affiche le menu qui s’affiche lorsqu’une partie de la barre d’outils standard est couverte.
 
 
-      Since each band contains a control, you can provide additional flexibility through the control's API. For example, you can implement toolbar customization to enable the user to add, move, or delete buttons on a toolbar.
+      ![capture d’écran qui montre le menu affiché en cliquant sur le Chevron](images/howto2.jpg)
+
+
+      Étant donné que chaque bande contient un contrôle, vous pouvez fournir une flexibilité supplémentaire par le biais de l’API du contrôle. Par exemple, vous pouvez implémenter la personnalisation de la barre d’outils pour permettre à l’utilisateur d’ajouter, de déplacer ou de supprimer des boutons sur une barre d’outils.
   - question: >
-      Implementing the Rebar Control
+      Implémentation du contrôle rebar
     answer: >
-      Most of the features of the Internet Explorer toolbar are actually implemented in the individual bands. The implementation of the rebar control itself is straightforward and is listed below.
+      La plupart des fonctionnalités de la barre d’outils Internet Explorer sont réellement implémentées dans les bandes individuelles. L’implémentation du contrôle rebar lui-même est simple et est indiquée ci-dessous.
 
 
-      1.  Create the rebar control with [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa). Set *dwExStyle* to [**WS\_EX\_TOOLWINDOW**](/windows/desktop/winmsg/extended-window-styles) and *lpClassName* to [**REBARCLASSNAME**](common-control-window-classes.md). Internet Explorer uses the following window styles:
+      1.  Créez le contrôle rebar avec [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa). Définissez *dwExStyle* sur [**WS \_ ex \_ TOOLWINDOW**](/windows/desktop/winmsg/extended-window-styles) et *lpClassName* sur [**REBARCLASSNAME**](common-control-window-classes.md). Internet Explorer utilise les styles de fenêtre suivants :
 
-          -   [**RBS\_BANDBORDERS**](rebar-control-styles.md)
-          -   [**RBS\_DBLCLKTOGGLE**](rebar-control-styles.md)
-          -   [**RBS\_REGISTERDROP**](rebar-control-styles.md)
-          -   [**RBS\_VARHEIGHT**](rebar-control-styles.md)
-          -   [**CCS\_NODIVIDER**](common-control-styles.md)
-          -   [**CCS\_NOPARENTALIGN**](common-control-styles.md)
-          -   [**WS\_BORDER**](/windows/desktop/winmsg/window-styles)
-          -   [**WS\_CHILD**](/windows/desktop/winmsg/window-styles)
-          -   [**WS\_CLIPCHILDREN**](/windows/desktop/winmsg/window-styles)
-          -   [**WS\_CLIPSIBLINGS**](/windows/desktop/winmsg/window-styles)
-          -   [**WS\_VISIBLE**](/windows/desktop/winmsg/window-styles)
+          -   [**\_BANDBORDERS RBS**](rebar-control-styles.md)
+          -   [**\_DBLCLKTOGGLE RBS**](rebar-control-styles.md)
+          -   [**\_REGISTERDROP RBS**](rebar-control-styles.md)
+          -   [**\_VARHEIGHT RBS**](rebar-control-styles.md)
+          -   [**CCS \_ diviseur**](common-control-styles.md)
+          -   [**CCS \_ NOPARENTALIGN**](common-control-styles.md)
+          -   [**\_bordure WS**](/windows/desktop/winmsg/window-styles)
+          -   [**\_enfant WS**](/windows/desktop/winmsg/window-styles)
+          -   [**\_CLIPCHILDREN WS**](/windows/desktop/winmsg/window-styles)
+          -   [**\_CLIPSIBLINGS WS**](/windows/desktop/winmsg/window-styles)
+          -   [**WS \_ visible**](/windows/desktop/winmsg/window-styles)
 
-          Set the other parameters as appropriate for your application.
+          Définissez les autres paramètres en fonction de votre application.
 
-      2.  Create a control with [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) or a specialized control creation function such as [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex).
+      2.  Créez un contrôle avec [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) ou une fonction de création de contrôle spécialisée telle que [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex).
 
-      3.  Initialize a band for the control by filling in the members of [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa). Include the RBBS\_USECHEVRON style with the **fStyle** member to enable chevrons.
+      3.  Initialisez une bande pour le contrôle en remplissant les membres de [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa). Incluez le \_ style RBBS USECHEVRON avec le membre **fStyle** pour activer les chevrons.
 
-      4.  Add the band to the rebar control with an [**RB\_INSERTBAND**](rb-insertband.md) message.
+      4.  Ajoutez la bande au contrôle rebar avec un message [**RB \_ INSERTBAND**](rb-insertband.md) .
 
-      5.  Repeat steps 2-4 for the remaining bands.
+      5.  Répétez les étapes 2-4 pour les bandes restantes.
 
-      6.  Implement handlers for the rebar notifications. In particular, you will need to handle [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) to display a drop-down menu when a chevron is clicked. For further information, see [Handling Chevrons](#handling-chevrons).
+      6.  Implémentez des gestionnaires pour les notifications Rebar. En particulier, vous devez gérer [RBN \_ CHEVRONPUSHED](rbn-chevronpushed.md) pour afficher un menu déroulant lorsque l’utilisateur clique sur un chevron. Pour plus d’informations, consultez [gestion des chevrons](#handling-chevrons).
 
 
-      The grippers are included by default. To omit the gripper for a band, set the RBBS\_NOGRIPPER flag in the **fStyle** member of the band's [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) structure. For further information on implementing rebar controls, see [About Rebar Controls](rebar-controls.md).
+      Les pinces sont incluses par défaut. Pour omettre la pince d’une bande, définissez l' \_ indicateur NOHENSION RBBS dans le membre **fStyle** de la structure [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) de la bande. Pour plus d’informations sur l’implémentation des contrôles rebar, consultez [à propos des contrôles Rebar](rebar-controls.md).
   - question: >
-      Handling Chevrons
+      Gestion des chevrons
     answer: >
-      When a user clicks a chevron, the rebar control sends your application an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification. The [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) structure that is passed with the notification contains the band's identifier and a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the rectangle that is occupied by the chevron. Your handler must determine which buttons are hidden and display the associated commands on a pop-up menu.
+      Lorsqu’un utilisateur clique sur un chevron, le contrôle rebar envoie une notification [RBN \_ CHEVRONPUSHED](rbn-chevronpushed.md) à votre application. La structure [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) transmise avec la notification contient l’identificateur de la bande et une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) avec le rectangle occupé par le Chevron. Votre gestionnaire doit déterminer les boutons qui sont masqués et afficher les commandes associées dans un menu contextuel.
 
 
-      The following procedure outlines how to handle an [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification:
+      La procédure suivante décrit comment gérer une notification [ \_ CHEVRONPUSHED RBN](rbn-chevronpushed.md) :
 
 
-      1.  Retrieve the current bounding rectangle for the selected band by sending the rebar control an [**RB\_GETRECT**](rb-getrect.md) message.
+      1.  Récupérez le rectangle englobant actuel pour la bande sélectionnée en envoyant le contrôle rebar à un message [**RB \_ GETRECT**](rb-getrect.md) .
 
-      2.  Retrieve the total number of buttons by sending the band's toolbar control a [**TB\_BUTTONCOUNT**](tb-buttoncount.md) message.
+      2.  Récupérez le nombre total de boutons en envoyant la barre d’outils du contrôle de la bande à un message [**\_ BUTTONCOUNT to**](tb-buttoncount.md) .
 
-      3.  Starting from the leftmost button, retrieve the button's bounding rectangle by sending the toolbar control a [**TB\_GETITEMRECT**](tb-getitemrect.md) message.
+      3.  En commençant par le bouton le plus à gauche, récupérez le rectangle englobant du bouton en envoyant au contrôle de barre d’outils un message [**\_ GETITEMRECT to**](tb-getitemrect.md) .
 
-      4.  Pass the band and button rectangles to the [**IntersectRect**](/windows/desktop/api/winuser/nf-winuser-intersectrect) function. This function will return a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that corresponds to the visible portion of the button.
+      4.  Transmettez les rectangles de la bande et du bouton à la fonction [**IntersectRect**](/windows/desktop/api/winuser/nf-winuser-intersectrect) . Cette fonction retourne une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qui correspond à la partie visible du bouton.
 
-      5.  Pass the button rectangle and the rectangle for the visible portion of the button to the [**EqualRect**](/windows/desktop/api/winuser/nf-winuser-equalrect) function.
+      5.  Transmettez le rectangle du bouton et le rectangle de la partie visible du bouton à la fonction [**EqualRect**](/windows/desktop/api/winuser/nf-winuser-equalrect) .
 
-      6.  If [**EqualRect**](/windows/desktop/api/winuser/nf-winuser-equalrect) returns **TRUE**, the entire button is visible. Repeat steps 3-5 for the next button on the toolbar. If **EqualRect** returns **FALSE**, the button is at least partially hidden and all remaining buttons will be completely hidden. Continue to the next step.
+      6.  Si [**EqualRect**](/windows/desktop/api/winuser/nf-winuser-equalrect) retourne la **valeur true**, le bouton entier est visible. Répétez les étapes 3-5 pour le bouton suivant dans la barre d’outils. Si **EqualRect** retourne la **valeur false**, le bouton est au moins partiellement masqué et tous les autres boutons sont complètement masqués. Passez à l’étape suivante.
 
-      7.  Create a pop-up menu with items for each of the hidden buttons.
+      7.  Créez un menu contextuel contenant les éléments de chaque bouton masqué.
 
-      8.  Display the pop-up menu by using the [**TrackPopupMenu**](/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) function. Use the chevron rectangle that was passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification to position the menu. The menu should be immediately below the chevron, with the left edges aligned.
+      8.  Affichez le menu contextuel à l’aide de la fonction [**TrackPopupMenu**](/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) . Utilisez le rectangle à chevrons qui a été transmis avec la notification [ \_ CHEVRONPUSHED RBN](rbn-chevronpushed.md) pour positionner le menu. Le menu doit être immédiatement sous le Chevron, avec les bords gauches alignés.
 
-      9.  Handle the menu commands.
+      9.  Gérer les commandes de menu.
   - question: >
-      The Toolbars
+      Les barres d’outils
     answer: >
-      Most of the complexity of the Internet Explorer toolbar lies in the implementation of controls that make up the rebar bands. Internet Explorer commonly displays four bands:
+      La majeure partie de la complexité de la barre d’outils d’Internet Explorer réside dans l’implémentation des contrôles qui composent les bandes rebar. Internet Explorer affiche généralement quatre bandes :
 
 
-      -   The menu bar
+      -   Barre de menus
 
-      -   The standard toolbar
+      -   Barre d’outils standard
 
-      -   The links toolbar
+      -   Barre d’outils liens
 
-      -   The address toolbar
-
-
-      All of these bands, including the menu bar, actually hold toolbar controls. This section discusses the implementation of the standard and links toolbars. The menu bar is somewhat more complicated and is discussed separately in [How to Create an Internet Explorer-Style Menu Bar](cc-faq-iemenubar.yml).
+      -   Barre d’outils adresse
 
 
-      The basic procedures for implementing toolbar controls are discussed in [About Toolbar Controls](toolbar-controls-overview.md). This section focuses on some of the newer toolbar features that are used by Internet Explorer to increase the usability of the control.
+      Toutes ces bandes, y compris la barre de menus, comportent en fait des contrôles ToolBar. Cette section décrit l’implémentation des barres d’outils standard et links. La barre de menus est un peu plus compliquée et est décrite séparément dans Guide pratique [pour créer une barre de menus Explorer-Style Internet](cc-faq-iemenubar.yml).
+
+
+      Les procédures de base pour l’implémentation des contrôles ToolBar sont décrites dans [à propos des contrôles ToolBar](toolbar-controls-overview.md). Cette section se concentre sur certaines des nouvelles fonctionnalités de la barre d’outils utilisées par Internet Explorer pour améliorer la convivialité du contrôle.
   - question: >
-      Drop-down Buttons
+      Boutons déroulants
     answer: >
-      Drop-down buttons support multiple commands. When the user clicks a drop-down button, the button displays a pop-up menu instead of launching a command. The user launches a command by selecting it from the menu. The following screen shot shows a drop-down button and menu from the Internet Explorer standard toolbar.
+      Les boutons déroulants prennent en charge plusieurs commandes. Quand l’utilisateur clique sur un bouton déroulant, le bouton affiche un menu contextuel au lieu de lancer une commande. L’utilisateur lance une commande en la sélectionnant dans le menu. La capture d’écran suivante montre un bouton et un menu déroulants à partir de la barre d’outils standard d’Internet Explorer.
 
 
-      ![screen shot showing the mail drop-down menu](images/howto3.jpg)
+      ![capture d’écran montrant le menu déroulant courrier](images/howto3.jpg)
 
 
-      Drop-down functionality can be added to any button style by adding a style flag to the **fStyle** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure. There are three styles of drop-down button, all of which are used by Internet Explorer:
+      La fonctionnalité de liste déroulante peut être ajoutée à n’importe quel style de bouton en ajoutant un indicateur de style au membre **fStyle** de la structure [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) du bouton. Il existe trois styles de bouton déroulant, tous utilisés par Internet Explorer :
 
 
-      -   Plain drop-down buttons have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style. They look like normal buttons, but they display a menu when clicked instead of launching a command.
+      -   Les boutons déroulants bruts ont le style de [**\_ liste déroulante BTNS**](toolbar-control-and-button-styles.md) . Ils ressemblent à des boutons normaux, mais ils affichent un menu lorsque vous cliquez dessus au lieu de lancer une commande.
 
-      -   Simple drop-down arrow buttons have the [**BTNS\_WHOLEDROPDOWN**](toolbar-control-and-button-styles.md) style. They have an arrow displayed next to the button image or text. Other than the difference in appearance, they are identical to plain drop-down buttons. The Mail button used as the example in the preceding illustration is a drop-down arrow button.
+      -   Les boutons fléchés déroulants simples ont le style [**BTNS \_ WHOLEDROPDOWN**](toolbar-control-and-button-styles.md) . Elles ont une flèche affichée en regard de l’image ou du texte du bouton. À part la différence de l’apparence, elles sont identiques aux boutons déroulants bruts. Le bouton courrier utilisé comme exemple dans l’illustration précédente est un bouton de flèche déroulante.
 
-      -   Drop-down arrow buttons that add the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) extended style to [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) have an arrow that is separated from the text or image. This button style combines the functionality of drop-down and standard buttons. If the user clicks the arrow, a menu is displayed and the user can choose from several commands. If the user clicks the adjacent button, it launches a default command. The following screen shot shows the Internet Explorer **Back** button, which uses a separated arrow.
+      -   Les boutons de liste déroulante qui ajoutent le style étendu [**TBSTYLE \_ ex \_ DRAWDDARROWS**](toolbar-extended-styles.md) à la [**\_ liste déroulante BTNS**](toolbar-control-and-button-styles.md) comportent une flèche séparée du texte ou de l’image. Ce style de bouton combine les fonctionnalités des boutons déroulants et standard. Si l’utilisateur clique sur la flèche, un menu s’affiche et l’utilisateur peut choisir parmi plusieurs commandes. Si l’utilisateur clique sur le bouton adjacent, il lance une commande par défaut. La capture d’écran suivante montre le bouton **précédent** d’Internet Explorer, qui utilise une flèche séparée.
 
-          ![screen shot that shows the menu of the back split button](images/howto4.jpg)
+          ![capture d’écran qui montre le menu du bouton de fractionnement précédent](images/howto4.jpg)
 
-      When the user clicks a drop-down button with either the plain or simple arrow styles, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification. When your application receives this message, it is responsible for creating and displaying the menu, and for handling the selected command.
+      Quand l’utilisateur clique sur un bouton déroulant avec les styles de flèche simple ou simple, le contrôle de barre d’outils envoie une notification de [ \_ liste déroulante TBN](tbn-dropdown.md) à votre application. Lorsque votre application reçoit ce message, elle est responsable de la création et de l’affichage du menu, ainsi que de la gestion de la commande sélectionnée.
 
 
-      When the user clicks a separated arrow, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification. Your application should handle it the same way as it handles the other two types of drop-down buttons. If the user clicks the main button, your application receives a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message with the button's command ID, just as if it were a standard button. Applications typically respond by launching the top command in the drop-down menu, but you are free to respond in any suitable way.
+      Quand l’utilisateur clique sur une flèche séparée, le contrôle de barre d’outils envoie une notification de [ \_ liste déroulante TBN](tbn-dropdown.md) à votre application. Votre application doit la gérer de la même façon qu’elle gère les deux autres types de boutons déroulants. Si l’utilisateur clique sur le bouton principal, votre application reçoit un message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) avec l’ID de commande du bouton, comme s’il s’agissait d’un bouton standard. Les applications répondent généralement en lançant la commande top dans le menu déroulant, mais vous êtes libre de répondre de manière appropriée.
   - question: >
-      List-Style Buttons
+      Boutons List-Style
     answer: >
-      With standard buttons, if you add text, it is displayed below the bitmap. The following screen shot shows the Internet Explorer **Search**and **Favorites** buttons with standard button text.
+      Avec les boutons standard, si vous ajoutez du texte, il est affiché sous l’image bitmap. La capture d’écran suivante montre les boutons **recherche** et **favoris** d’Internet Explorer avec un texte de bouton standard.
 
 
-      ![screen shot showing the search and favorites toolbar with standard buttons](images/howto6.jpg)
+      ![capture d’écran montrant la barre d’outils Rechercher et favoris avec des boutons standard](images/howto6.jpg)
 
 
-      Microsoft Internet Explorer 5 and later versions use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style. The text is to the right of the bitmap, reducing the height of the button and enlarging the viewing region. The following illustration shows the Internet Explorer 6 **Search** and **Favorites** buttons with the **TBSTYLE\_LIST** style.
+      Microsoft Internet Explorer 5 et versions ultérieures utilisent le style de [**\_ liste TBSTYLE**](toolbar-control-and-button-styles.md) . Le texte se trouve à droite de l’image bitmap, ce qui réduit la hauteur du bouton et l’agrandissement de la zone d’affichage. L’illustration suivante montre les boutons de **recherche** et de **favoris** d’Internet Explorer 6 avec le style de **\_ liste TBSTYLE** .
 
 
-      ![screen shot showing the search and favorites toolbar using list-style buttons](images/howto5.jpg)
+      ![capture d’écran montrant la barre d’outils Rechercher et favoris à l’aide des boutons de style liste](images/howto5.jpg)
   - question: >
       Chevrons
     answer: >
-      When the user rearranges the bands in the rebar control, part of a toolbar might be covered up. If the band was created with the RBBS\_USECHEVRON style, the rebar control will display a chevron at the right edge of the toolbar. The user clicks the chevron to display a menu with the hidden tools.
+      Lorsque l’utilisateur réorganise les bandes dans le contrôle rebar, une partie d’une barre d’outils peut être couverte. Si la bande a été créée avec le \_ style RBBS USECHEVRON, le contrôle rebar affiche un chevron sur le bord droit de la barre d’outils. L’utilisateur clique sur le Chevron pour afficher un menu avec les outils masqués.
   - question: >
       Hot-Tracking
     answer: >
-      When hot-tracking is enabled, a button becomes *hot* when the cursor is over it. The hot button is normally distinguished from the other buttons on the toolbar by a distinctive image. By default, a hot button appears to be raised above the rest of the toolbar. When a new button becomes hot, your application receives a [TBN\_HOTITEMCHANGE](tbn-hotitemchange.md) notification. The following illustration shows the Internet Explorer 5 **Search** and **Favorites** buttons, with a hot **Search** button. In addition to having a raised appearance, the button's gray bitmap has been replaced with a colored one.
+      Lorsque le suivi à chaud est activé, un bouton devient *actif* lorsque le curseur se trouve sur celui-ci. Le bouton chaud se distingue normalement des autres boutons de la barre d’outils par une image distincte. Par défaut, un bouton actif semble être déclenché au-dessus du reste de la barre d’outils. Quand un nouveau bouton devient actif, votre application reçoit une notification [TBN \_ HOTITEMCHANGE](tbn-hotitemchange.md) . L’illustration suivante montre les boutons **recherche** et **favoris** d’Internet Explorer 5, avec un bouton de **recherche** à chaud. En plus d’avoir une apparence en relief, la bitmap grise du bouton a été remplacée par une image en couleur.
 
 
-      ![screen shot showing the search and favorites buttons, with a hot search button](images/howto7.jpg)
+      ![capture d’écran montrant les boutons Rechercher et favoris, avec un bouton de recherche à chaud](images/howto7.jpg)
 
 
-      To enable hot-tracking, create a toolbar control with either the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) or [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style. These are referred to as *flat* toolbars because the individual buttons are not ordinarily highlighted in any way. The bitmaps are simply displayed next to each other. They take on a button-like appearance only when they are hot. These two styles are also transparent, which means that the background of the icons will be the color of the underlying client window.
+      Pour activer le suivi à chaud, créez un contrôle de barre d’outils avec le style de [**\_ liste**](toolbar-control-and-button-styles.md) [**TBSTYLE \_ plat**](toolbar-control-and-button-styles.md) ou TBSTYLE. Celles-ci sont appelées barres d’outils *plates* , car les boutons individuels ne sont généralement pas mis en surbrillance de quelque manière que ce soit. Les bitmaps sont simplement affichées les unes à côté des autres. Ils prennent une apparence de type bouton uniquement lorsqu’ils sont à chaud. Ces deux styles sont également transparents, ce qui signifie que l’arrière-plan des icônes sera la couleur de la fenêtre du client sous-jacent.
 
 
-      To have a different bitmap displayed when the button is hot, create a second [image list](image-lists.md) that contains hot images for all the buttons on the toolbar. The size and order of these images should be the same as in the default image list. Send the toolbar control a [**TB\_SETHOTIMAGELIST**](tb-sethotimagelist.md) message to set the hot image list.
-additionalContent: "\n## Related topics\n   [How to Create an Internet Explorer-Style Menu Bar](cc-faq-iemenubar.yml)"
+      Pour afficher une autre bitmap lorsque le bouton est actif, créez une deuxième [liste d’images](image-lists.md) qui contient des images réactives pour tous les boutons de la barre d’outils. La taille et l’ordre de ces images doivent être les mêmes que dans la liste d’images par défaut. Envoyer le contrôle de barre d’outils à un message [**\_ SETHOTIMAGELIST to**](tb-sethotimagelist.md) pour définir la liste d’images réactives.
+additionalContent: "\n## <a name=\"related-topics\"></a>Rubriques connexes\n   [Procédure de création d’une barre de menus Explorer-Style Internet](cc-faq-iemenubar.yml)"

@@ -9,12 +9,12 @@ keywords:
 - limitation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b465bbb377a06fdad50d04d5fcf788cb2e687fdf5db852125e4143fd971773d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b8bb3d7925633d3feca8bb6ed5af191670af681
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119815419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312834"
 ---
 # <a name="desktop-activity-moderator"></a>Modérateur de l’activité du Bureau
 

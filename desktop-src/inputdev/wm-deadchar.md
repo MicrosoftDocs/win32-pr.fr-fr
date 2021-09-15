@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e4921d399c4a1c7a86596bfcc907b52d9c834235d133d6455b88c5a5a40c89a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6053095b912360e9875fa062c2daba7cafcfd43b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413121"
 ---
 # <a name="wm_deadchar-message"></a>\_Message WM DEADCHAR
 
@@ -64,11 +64,11 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message **WM \_ DEADCHAR** est généralement utilisé par les applications pour fournir à l’utilisateur des commentaires sur chaque touche enfoncée. Par exemple, une application peut afficher l’accent à la position actuelle du caractère sans déplacer le signe insertion.
 
@@ -76,7 +76,7 @@ Le message **WM \_ DEADCHAR** est généralement utilisé par les applications p
 
 Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont les touches ALT et droite de la section principale du clavier. les touches Inser, DEL, début, fin, PAGE précédente, PAGE suivante et flèche dans les clusters à gauche du pavé numérique ; et les touches de division (/) et de saisie dans le pavé numérique. D’autres claviers peuvent prendre en charge le bit de clé étendue dans le paramètre *lParam* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -107,7 +107,7 @@ Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont l
 [**\_SYSDEADCHAR WM**](wm-sysdeadchar.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

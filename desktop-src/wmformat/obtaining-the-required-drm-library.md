@@ -15,12 +15,12 @@ keywords:
 - débogage DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20e459423b4a7b9a5bebf03727210951544797519c81886ae9fa792fa8b73be1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f5c124c1e7edf0bba736b9dd392e852aac97e96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525169"
 ---
 # <a name="obtaining-the-required-drm-library"></a>Obtention de la bibliothèque DRM requise
 

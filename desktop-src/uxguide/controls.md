@@ -4,12 +4,12 @@ description: Les contrôles sont des éléments d’interface utilisateur avec l
 ms.assetid: 5c48728b-6d86-4827-9757-f06c23ca54d8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 7254608502145c0e64098941f923ac2051008aa2db2936fe8baf439455c0cfaf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c44e7b5f3772984b1dc24b166b9fe8c03a395f8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118040345"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525277"
 ---
 # <a name="controls-design-basics"></a>Contrôles (concepts de base de la conception)
 

@@ -4,12 +4,12 @@ description: Cette rubrique montre comment ajouter la propriété Restricted qui
 ms.assetid: BCEB1FBF-3D3F-45B8-A92B-7C5FBF6745C0
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: 62bca034a2edab9b31267f14672b4821ca6569dead0fd645d98c52c234c24cb6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e23f8b7f2cc1884e2f878739f56507e79eb1bb69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521781"
 ---
 # <a name="register-the-device-interface-as-restricted-to-privileged-apps"></a>Inscrire l’interface de l’appareil comme restreint aux applications privilégiées
 
@@ -41,7 +41,7 @@ AddProperty=PrivilegedProperties
 {14c83a99-0b3f-44b7-be4c-a178d3990564}, 2, 17,,1 ; -- non-zero indicates privileged
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Au lieu de la directive **AddInterface** , le pilote peut également appeler la routine [**IoRegisterDeviceInterface**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata) pour inscrire la classe d’interface de l’appareil.
 

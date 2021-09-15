@@ -4,12 +4,12 @@ ms.assetid: e6786836-5e18-4b8c-9e7d-229abb7473e7
 title: System. Link. arguments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 004cf96ea497251e797b794608899a7ac7eec81a842f0fcce2585b7c3aa52233
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 868a8d49a672d28e2da3320f8700e4e3ed1be00c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119553729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313397"
 ---
 # <a name="systemlinkarguments"></a>System. Link. arguments
 
@@ -43,7 +43,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

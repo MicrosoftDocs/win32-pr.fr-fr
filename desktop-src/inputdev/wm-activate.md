@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dec28662aa2219ee9b3ad2e8cc8efac861d292f6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413124"
 ---
 # <a name="wm_activate-message"></a>\_Message WM Activate
 
@@ -62,7 +62,7 @@ Handle de la fenêtre en cours d’activation ou de désactivation, selon la val
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
@@ -70,7 +70,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 
 Si la fenêtre est activée et n’est pas réduite, la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) définit le focus clavier sur la fenêtre. Si la fenêtre est activée par un clic de souris, elle reçoit également un message [**WM \_ MOUSEACTIVATE**](wm-mouseactivate.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -101,7 +101,7 @@ Si la fenêtre est activée et n’est pas réduite, la fonction [**DefWindowPro
 [**\_NCACTIVATE WM**](/windows/desktop/winmsg/wm-ncactivate)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

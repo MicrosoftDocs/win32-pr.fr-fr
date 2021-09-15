@@ -6,12 +6,12 @@ keywords:
 - Windows Tactile, Guide de programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcd11c31f3a1ca015878a13804ac79cea37f6a86c1e90107f31057fe7311455a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3324f86c64248996153d218216244725dec86148
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118199325"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521133"
 ---
 # <a name="programming-guide-touch-input"></a>Guide de programmation (entrée tactile)
 

@@ -4,12 +4,12 @@ ms.assetid: 252015f6-ea63-1a72-ce13-25a4fccdab0b
 title: Graphiques audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2cb1472c7eeb1811b0cd0169431cabbc81dc44a321ef492b88d873b651a5e1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab32d5aba411b1a93d5b67ec49c86560ca2441ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192345"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522800"
 ---
 # <a name="audio-graphs"></a>Graphiques audio
 

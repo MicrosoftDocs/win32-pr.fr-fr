@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 10cfccb7c369e9811fd15f18fd577c98e7304d4c4f2928dfa4174bb939d3692e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 682581f20f70317ea7fae6abdf909c2b7d8fbb41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118451855"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522332"
 ---
 # <a name="mobile-computing-configurations"></a>Configurations de l’informatique mobile
 

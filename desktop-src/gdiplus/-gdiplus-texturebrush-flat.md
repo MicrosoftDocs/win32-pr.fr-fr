@@ -4,12 +4,12 @@ ms.assetid: e338126d-0732-442b-8c3c-b69eb3c7b1ba
 title: Fonctions de pinceau de texture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d5f6afc2801a4ff3b390a19ccc56ebd36014e80da5206ca115ba683d9056bff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 082c251d02cfae6681480f3c9b57089624bf3e0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119612039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521505"
 ---
 # <a name="texture-brush-functions"></a>Fonctions de pinceau de texture
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**Te
 
 
 
-| Fonction plate                                                                                                                                                                      | Méthode Wrapper                                                                                                                                                                                                                                                 | Remarques                                                                                                                                                                                                                                                                                                                            |
+| Fonction plate                                                                                                                                                                      | Méthode Wrapper                                                                                                                                                                                                                                                 | Notes                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateTexture (GpImage \* image, GpWrapMode WrapMode, GpTexture \* \* texture)<br/>                                                                      | [**TextureBrush :: TextureBrush (dans l' \* image image, dans wrapMode WrapMode = WrapModeTile)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-texturebrush(inimage_inwrapmode))<br/>                                                                                               | Crée un objet [**TextureBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush) basé sur une image et un mode habillage. La taille du pinceau est par défaut la taille de l’image, de sorte que la totalité de l’image est utilisée par le pinceau.                                                                                                                   |
 | GpStatus WINGDIPAPI GdipCreateTexture2 (GpImage \* image, GpWrapMode WrapMode, réel x, réel y, largeur réelle, hauteur réelle, \* \* texture GpTexture)<br/>                            | [**TextureBrush :: TextureBrush (dans \* image image, dans wrapMode WrapMode, dans Real dstX, dans Real dstY, dans Real dstWidth, dans Real dstHeight)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-texturebrush(inimage_inwrapmode_inreal_inreal_inreal_inreal))<br/> | Crée un objet [**TextureBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush) basé sur une image, un mode habillage et un ensemble de coordonnées de définition.                                                                                                                                                                                      |

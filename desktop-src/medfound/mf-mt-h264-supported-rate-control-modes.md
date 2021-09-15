@@ -4,12 +4,12 @@ ms.assetid: DAA62ECD-AFA2-40C2-9B52-F2D581F4D894
 title: Attribut MF_MT_H264_SUPPORTED_RATE_CONTROL_MODES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9665fd99635749e2400437e77cb89e74d2cb8675689f6f4b867a20ac82fadaec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c7b315bf41d662dd5abb283c346710f485789ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117692281"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412984"
 ---
 # <a name="mf_mt_h264_supported_rate_control_modes-attribute"></a>\_Attribut de \_ \_ mode de \_ contrôle de taux pris en charge \_ \_ pour MF MT H264 –
 
@@ -29,13 +29,13 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux types de média pour les flux H. 264 transmis sur USB. La valeur correspond au champ **bmSupportedRateControlModes** dans le descripteur de format vidéo 1,5 UVC H. 264.
 
 Cet attribut est également utilisé avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

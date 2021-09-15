@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec78bd0d33b48b11de77fe7742affb4265160752ffad30d72ecf3e9c173bb77c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ed379fb97d2795a166571fb48cde2c233021a33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119825939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522472"
 ---
 # <a name="menuex-resource"></a>Ressource MENUEX
 
@@ -122,7 +122,7 @@ Contient toute combinaison d’instructions [**MenuItem**](menuitem-statement.md
 
 Certains attributs sont également pris en charge pour la compatibilité descendante. Pour plus d’informations, consultez [attributs de ressource communs](common-resource-attributes.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les opérations arithmétiques et booléennes valides qui peuvent être contenues dans les expressions numériques des instructions de **menuex** sont les suivantes :
 

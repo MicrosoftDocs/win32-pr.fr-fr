@@ -4,12 +4,12 @@ ms.assetid: d1fc9608-5256-4c58-b77e-9dbe46a6abc5
 title: Sélection d’un appareil (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8110d24396c523186b324480b3dae3cf65d9d7b45819e610ea1f097ba9d8900d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: be04303ed04f165dd9d94723e218acb767a40596
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119839035"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522012"
 ---
 # <a name="selecting-a-device-wpd-api"></a>Sélection d’un appareil (API WPD)
 

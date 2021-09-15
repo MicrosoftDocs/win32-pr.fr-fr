@@ -4,12 +4,12 @@ ms.assetid: 34a1f37c-0fbf-451b-bb55-80ad85bcd4de
 title: Affichage et sortie WYSIWYG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36ee426665508bee1299c1fe2c84cbcdcd647fa3989c053744a339ba1f1ad109
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92c03e4fa653c0d8e891cb079a7a7e7a003f9ad1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119947176"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522449"
 ---
 # <a name="wysiwyg-display-and-output"></a>Affichage et sortie WYSIWYG
 

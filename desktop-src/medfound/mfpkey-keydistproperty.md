@@ -5,11 +5,11 @@ title: MFPKEY_KEYDIST, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d55925811db71f24cf360113aa6d03a325bcdc11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864153"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525713"
 ---
 # <a name="mfpkey_keydist-property"></a>MFPKEY, \_ propriété de KEYdist
 
@@ -25,11 +25,11 @@ VT \_
 
 ## <a name="default-value"></a>Valeur par défaut
 
-La valeur par défaut dépend de la version de Windows en cours d’exécution, comme indiqué dans le tableau suivant.
+la valeur par défaut dépend de la version de Windows qui est en cours d’exécution, comme indiqué dans le tableau suivant.
 
 
 
-| Système d’exploitation | Valeur par défaut |
+| Système d'exploitation | Valeur par défaut |
 |------------------|---------------|
 | Windows XP       | 8000          |
 | Windows Vista    | 8000          |
@@ -43,14 +43,14 @@ La valeur par défaut dépend de la version de Windows en cours d’exécution, 
 
 La logique interne du codec détermine l’emplacement réel de chaque image clé. La distance entre deux images clés quelconques peut être inférieure à la valeur de cette propriété, mais elle ne sera jamais supérieure.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

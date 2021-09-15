@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, types énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aad1ca2cd0df9e2b2888e2d25d16ccadde6e8f418ea4d289509aaba7b09c22e7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 574136f8016161f4d2c208865a72ad2a86d98f68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119547699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525173"
 ---
 # <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Types d’énumération du Client DRM Microsoft Windows Media
 

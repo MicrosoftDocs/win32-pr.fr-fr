@@ -5,11 +5,11 @@ title: System. ItemType
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 784a72c46e92ac5956532994df4f36758d42f440
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880714"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521300"
 ---
 # <a name="systemitemtype"></a>System. ItemType
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
@@ -40,7 +40,7 @@ La valeur de System. ItemType est conçue pour être analysée par programmation
 -   Extension de fichier qui pointe vers une valeur ProgID ( \_ classe HKEY \_ root \\ &lt; ProgID &gt; ) qui contient le nom complet du type.
 -   Valeur ProgID (classes HKEY \_ \_ RROOT \\ &lt; ProgID &gt; ), contenant le nom complet du type.
 
-L’élément FriendlyTypeName d’un ProgID doit être une version localisée du nom de l’application ( @winword.dll ,-42), tandis que la valeur par défaut de la clé ProgID est un nom non localisé (Word.Document. 12).
+L’élément FriendlyTypeName d’un ProgID doit être une version localisée du nom de l’application ( @winword.dll ,-42), tandis que la valeur par défaut de la clé ProgID est un nom non localisé (Word. document. 12).
 
 S’il n’existe aucun type canonique, la valeur est VT \_ vide. Si l’élément est un fichier ([System. FileName](./props-system-filename.md) n’est pas de VT \_ vide), la valeur est la même que celle de [System. FileExtension](./props-system-fileextension.md). Utilisez [System. ItemTypeText](./props-system-itemtypetext.md) lorsque vous souhaitez afficher le type pour les utilisateurs finaux dans une vue.
 

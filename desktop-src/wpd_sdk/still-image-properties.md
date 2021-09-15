@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 2076c03b479b5b720b1c09d5c443b1332f1ea00ecf74ea381efb224b56b72bec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bc06428dc153dc8ff205e283b1000ef0a171b6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083443"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522881"
 ---
 # <a name="still-image-properties"></a>Propriétés de l’image continue
 
@@ -61,7 +61,7 @@ Windows Les appareils mobiles prennent en charge les propriétés d’image cont
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

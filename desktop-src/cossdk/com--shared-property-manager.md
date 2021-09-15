@@ -4,12 +4,12 @@ ms.assetid: fa726cc0-453c-489b-be12-86335909a428
 title: Gestionnaire de propriétés partagé COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11a776ecf3bf25918796342b7d7f0f89245ae217896459a05cab17416794b46e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08a01f5c9059d6066d03a0bbfa657f4f4021ee4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118102650"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523932"
 ---
 # <a name="com-shared-property-manager"></a>Gestionnaire de propriétés partagé COM+
 

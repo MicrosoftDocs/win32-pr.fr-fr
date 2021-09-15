@@ -4,12 +4,12 @@ ms.assetid: d5bef8e4-7a4c-4ac4-938a-7034ad3d743f
 title: Les trois parties de GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5547702ca98cce86ace0f672b7aeed2dc8fc0ecee63534aaa15fac05bdcb024b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bc2021260e9fe3b3d927131c2ba1856aeed0ed07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521500"
 ---
 # <a name="the-three-parts-of-gdi"></a>Les trois parties de GDI+
 

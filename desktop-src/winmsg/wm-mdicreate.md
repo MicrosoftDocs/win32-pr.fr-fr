@@ -4,12 +4,12 @@ ms.assetid: f2313ffd-867f-4870-a667-3e5f5402776f
 title: Message WM_MDICREATE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c69a894ebd2e55bb74486e26cd118366b1e533a490cc50feb5f77aad64c6be3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1fc11e9dfc561b138a95b711d68ecd831a43d2ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522149"
 ---
 # <a name="wm_mdicreate-message"></a>\_Message WM MDICREATE
 
@@ -40,7 +40,7 @@ Pointeur vers une structure [**MDICREATESTRUCT**](/windows/win32/api/winuser/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HWND**
 
@@ -48,7 +48,7 @@ Si le message est correctement exécuté, la valeur de retour est le handle de l
 
 Si le message échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fenêtre enfant MDI est créée avec le [**style de fenêtre**](window-styles.md) bits **WS \_ Child**, **WS \_ CLIPSIBLINGS**, **WS \_ CLIPCHILDREN**, **WS \_ SYSMENU**, **WS \_ Caption**, **WS \_ THICKFRAME**, **WS \_ MINIMIZEBOX** et **WS \_ MAXIMIZEBOX**, ainsi que les bits de style supplémentaires spécifiés dans la structure [**MDICREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-mdicreatestructa) . Le système ajoute le titre de la nouvelle fenêtre enfant au menu fenêtre de la fenêtre frame. Une application doit utiliser ce message pour créer toutes les fenêtres enfants de la fenêtre cliente.
 
@@ -58,7 +58,7 @@ Quand une fenêtre enfant MDI est créée, le système envoie le message [**WM \
 
 Une application ne doit pas envoyer un deuxième message **WM \_ MDICREATE** lorsqu’un message **WM \_ MDICREATE** est toujours en cours de traitement. Par exemple, il ne doit pas envoyer de message **WM \_ MDICREATE** lorsqu’une fenêtre enfant MDI traite son message **WM \_ MDICREATE** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -92,7 +92,7 @@ Une application ne doit pas envoyer un deuxième message **WM \_ MDICREATE** lor
 [**\_MDIDESTROY WM**](wm-mdidestroy.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Interface multidocument](multiple-document-interface.md)

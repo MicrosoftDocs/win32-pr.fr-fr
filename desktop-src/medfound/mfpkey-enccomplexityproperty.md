@@ -4,12 +4,12 @@ ms.assetid: 5dd34818-f282-4859-b423-97e9c4944aec
 title: MFPKEY_ENCCOMPLEXITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d93abe02b50f862fec706f75449e00643228a3917bc22ca9dafa9285d9d46be3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51f50e7966a05affe8ae75869b670cf75f088b53
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117690124"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412939"
 ---
 # <a name="mfpkey_enccomplexity-property"></a>MFPKEY \_ propriété ENCCOMPLEXITY
 
@@ -31,7 +31,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 0 pour la version Windows 7 Windows Media Audio 10 sans perte
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la propriété [**MFPKEY \_ CONSTRAINECOMPLEXITY**](mfpkey-constrainenccomplexityproperty.md) a la valeur **Variant \_ true**, l’encodeur ajuste la complexité de son algorithme en fonction de la valeur de cette propriété.
 
@@ -43,7 +43,7 @@ Si vous laissez cette propriété à sa valeur par défaut **Variant \_ false**,
 
 
 
-| Système d’exploitation | Comportement par défaut                                                                                                                                                                                                |
+| Système d'exploitation | Comportement par défaut                                                                                                                                                                                                |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows Vista    | les Windows Media Audio 10, Windows Media Audio 10 Professional et Windows Media Audio 10 encodeurs sans perte utilisent tous l’algorithme le plus complexe par défaut.                                                    |
 | Windows 7        | les encodeurs Windows Media Audio 10 et Windows Media Audio 10 Professional utilisent l’algorithme le plus complexe par défaut. l’encodeur Windows Media Audio 10 Lossless utilise l’algorithme le moins complexe par défaut. |
@@ -54,7 +54,7 @@ Si vous laissez cette propriété à sa valeur par défaut **Variant \_ false**,
 
 Si la propriété [**MFPKEY \_ CONSTRAINECOMPLEXITY**](mfpkey-constrainenccomplexityproperty.md) a la valeur **Variant \_ false**, l’encodeur ignore cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

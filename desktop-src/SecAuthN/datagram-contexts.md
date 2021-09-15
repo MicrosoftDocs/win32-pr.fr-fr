@@ -4,12 +4,12 @@ ms.assetid: f312796c-cbe6-4be9-9886-52fdb34ced6b
 title: Contextes de datagramme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51cade151c77b9ceec037de57e08bcc3a90638ddeb56f27764d5ad2799abc523
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d233a0ba397e67a13b1c25588cf81b6f12c31d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311366"
 ---
 # <a name="datagram-contexts"></a>Contextes de datagramme
 

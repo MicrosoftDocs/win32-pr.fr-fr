@@ -16,11 +16,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 476cd4ddab42ec9f8f44ff51b492bd3913824cf7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411146"
 ---
 # <a name="wm_backup_restore_status-structure"></a>\_Structure d' \_ État de restauration de la sauvegarde WM \_
 
@@ -56,7 +56,7 @@ Chaîne contenant l’erreur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est reçue lorsque vous appelez la méthode [**IWMDRMLicenseBackupRestoreStatus :: GetStatus**](iwmdrmlicensebackuprestorestatus-getstatus.md) . Elle contient l’état de l’opération de sauvegarde ou de restauration en attente au moment de l’appel.
 

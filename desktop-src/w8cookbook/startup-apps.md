@@ -10,12 +10,12 @@ keywords:
 - dossier de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbc2dc2a73a08c3aebd265c209b407646e50a6cb1b7cba630884cf719330b8dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75a12f01dac073712512206a5c432561b4a0b75e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119815049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404251"
 ---
 # <a name="startup-apps"></a>Applications de démarrage
 
@@ -194,7 +194,7 @@ Windows les applications du Store améliorent l’expérience utilisateur en int
 
 des informations agrégées pour le développement d’applications Windows store sont disponibles sur le [Centre de développement Windows](https://msdn.microsoft.com/windows/apps/).
 
-Exemples :
+Exemples :
 
 -   [développement de jeux Windows Store](/previous-versions/windows/apps/hh452744(v=win.10))
 -   [développement d’applications Windows Store qui utilisent des médias](/previous-versions/windows/apps/hh465132(v=win.10))

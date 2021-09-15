@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 94aab2b91a5da9588de65f5a48bf496bdceae71bf4aa90f82f3969cbe6a9e76e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cdbc0ec0a613feccb4064a88f4723538439f4532
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523273"
 ---
 # <a name="icontextnodegetpropertydataids-method"></a>IContextNode :: GetPropertyDataIds, méthode
 
@@ -54,11 +54,11 @@ Identificateurs pour lesquels il existe des données de propriété.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, utilisez [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) pour libérer la mémoire à partir de \* *ppGuids* lorsque vous n’avez plus besoin des informations.
@@ -67,7 +67,7 @@ Pour obtenir une description des valeurs de retour, consultez [classes et interf
 
 Cette méthode retourne les identificateurs spécifiques à l’application pour les données de propriété qui ont été ajoutées. Elle retourne également les identificateurs pour les données de propriété internes, qui sont décrites par les constantes des [Propriétés du nœud de contexte](context-node-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 40c1decbf3c209a381356c58c901c4cab992fadd28eb9566e55e46b1cf87e3d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 215874f4dc1b3438ae3d69b22758ced09a050f0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520329"
 ---
 # <a name="wm_pointerupdate-message"></a>Message WM_POINTERUPDATE
 
@@ -88,13 +88,13 @@ Utilisez les macros suivantes pour récupérer les coordonnées d’écran physi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque pointeur a un identificateur de pointeur unique pendant sa durée de vie. La durée de vie d’un pointeur commence lorsqu’il est détecté pour la première fois.
 
@@ -235,7 +235,7 @@ default:
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

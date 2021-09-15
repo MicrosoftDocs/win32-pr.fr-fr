@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 069449b5eef83cef7b7bdfac1c61aacb0ceac97cbbdd6e6fb2c139c43b3bae13
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 703f95778c66522d67e40a51293c8fb8fe956ecb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521444"
 ---
 # <a name="control-control"></a>Contrôle de contrôle
 
@@ -45,7 +45,7 @@ Nom redéfini ou valeur entière qui spécifie le style du contrôle donné. La 
 
 Pour plus d’informations sur la syntaxe générale d’une instruction de contrôle, consultez [paramètres de contrôle communs](common-control-parameters.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les six classes de contrôle possibles sont décrites dans les sections suivantes.
 

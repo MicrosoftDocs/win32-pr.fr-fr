@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 7a47b3a7a62ac9dd48a86a7ddf4d6634304a402b69d5dc191ce17e3f149ffb27
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07cf6262db0a1e3a3c4c098ee26e03b3fdad4002
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524225"
 ---
 # <a name="deleteprinterdataex-function"></a>DeletePrinterDataEx fonction)
 
@@ -71,7 +71,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 

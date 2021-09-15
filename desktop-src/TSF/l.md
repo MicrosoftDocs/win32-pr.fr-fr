@@ -6,11 +6,11 @@ ms.assetid: bff7bd4e-aef3-4865-828d-6a1e0a5ff35a
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 590334f5aaea91a557e6a31948d960a83e4f92ae
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511533"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311225"
 ---
 # <a name="l-text-services-framework"></a>L (Text Services Framework)
 

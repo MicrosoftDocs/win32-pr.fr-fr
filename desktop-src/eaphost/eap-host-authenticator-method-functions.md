@@ -4,12 +4,12 @@ description: en savoir plus sur EAPHost Authenticator fonctions API de méthode,
 ms.assetid: 319516ee-b21d-4375-8c90-e3abe0a457e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f3cc21d636c2a1b107897c3b000fca3f279288e13c14d1219f5b13515c2e8a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93fac5114085fe6c620084d564bbff97cc3b4535
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522729"
 ---
 # <a name="eaphost-authenticator-method-functions"></a>fonctions de la méthode Authenticator EAPHost
 

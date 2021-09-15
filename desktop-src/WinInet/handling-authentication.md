@@ -4,12 +4,12 @@ description: Certains proxys et serveurs requièrent une authentification avant 
 ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1797f34eb4f25f8d5e345b6790489acd5fad7e2bc21e6457642a1b4ffa022f9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e82d8cd93f1010c71560d856793ad06d8bc5d9d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118113828"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413299"
 ---
 # <a name="handling-authentication"></a>Gestion de l’authentification
 

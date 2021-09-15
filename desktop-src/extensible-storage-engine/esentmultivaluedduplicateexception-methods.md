@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102263
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c2f570c25d28a404f493a003ff73870332b2ec17548c7f02c7251ee3304eafd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 390ed8d6056e2f2847c44fabf4dde787f6fc6d91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119040627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521637"
 ---
 # <a name="esentmultivaluedduplicateexception-methods"></a>Méthodes EsentMultiValuedDuplicateException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentMultiValuedDuplicateException, classe](./esentmultivaluedduplicateexception-class.md)
 

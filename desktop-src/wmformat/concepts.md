@@ -7,12 +7,12 @@ keywords:
 - Windows Media Format SDK, concepts clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d09b42ea43c79d4f1d247b8e3261064a649d4505206362888744619d172e56b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90782514f767c2c50080a7d9ac329285afcdff6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522120"
 ---
 # <a name="windows-media-format-sdk-concepts"></a>Windows Concepts du kit SDK Media format
 

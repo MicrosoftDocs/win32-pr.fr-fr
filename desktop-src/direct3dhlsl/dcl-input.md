@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 8214287a4afb4c683a94e213cdfed133c03219e2
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467006"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524769"
 ---
 # <a name="dcl_input-sm4---asm"></a>\_entrée DCL (SM4-ASM)
 
@@ -88,9 +88,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 | [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Non        |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Non        |
-| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Non        |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
 
 
 

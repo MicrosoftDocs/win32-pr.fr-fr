@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b283a9cc47907cf418c2d7d6d613d151c7e5c5e6
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524997"
 ---
 # <a name="appid-key"></a>Clé AppID
 
@@ -32,7 +32,7 @@ Regroupe les options de configuration pour un ou plusieurs objets DCOM dans un e
 | [**AuthenticationLevel**](authenticationlevel.md)       | Définit le niveau d’authentification pour les applications qui n’appellent pas [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) ou pour les applications qui appellent **CoInitializeSecurity** et spécifient un AppID.               |
 | [**DllSurrogate**](dllsurrogate.md)                     | Permet aux serveurs DLL de s’exécuter dans un processus de substitution. Si une chaîne vide est spécifiée, le substitut fourni par le système est utilisé ; Sinon, la valeur spécifie le chemin d’accès du substitut à utiliser.                 |
 | [**DllSurrogateExecutable**](dllsurrogateexecutable.md) | Permet aux serveurs DLL de s’exécuter dans un processus de substitution personnalisé, conjointement avec la valeur de Registre [**DllSurrogate**](dllsurrogate.md) .                                                                          |
-| [**Points de terminaison**](endpoints.md)                           | Configure une application COM pour utiliser un numéro de port TCP spécifié pour les communications DCOM.                                                                                                                        |
+| [**Terminaison**](endpoints.md)                           | Configure une application COM pour utiliser un numéro de port TCP spécifié pour les communications DCOM.                                                                                                                        |
 | [**LaunchPermission**](launchpermission.md)             | Décrit la liste de Access Control (ACL) des principaux qui peuvent démarrer de nouveaux serveurs pour cette classe.                                                                                                            |
 | [**LoadUserSettings**](loadusersettings.md)             | Détermine si COM doit charger le profil utilisateur pour les serveurs COM qui exécutent en tant qu’identité de l’application utilisateur de lancement.                                                                                           |
 | [**LocalService**](localservice.md)                     | Installe un objet en tant qu’application de service.                                                                                                                                                                    |
@@ -47,7 +47,7 @@ Regroupe les options de configuration pour un ou plusieurs objets DCOM dans un e
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les AppID sont mappés à des exécutables et à des classes à l’aide de deux mécanismes différents :
 

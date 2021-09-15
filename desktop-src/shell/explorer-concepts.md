@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 5bd0c641e1e265b50180aa6ce4e98eeafbf3f6dc86f4f499dee5267161842e9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db9b46bf944992a16b6a1b8a9bcad581ec7d661b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118050520"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412543"
 ---
 # <a name="common-explorer-concepts"></a>Concepts communs de l’Explorateur
 

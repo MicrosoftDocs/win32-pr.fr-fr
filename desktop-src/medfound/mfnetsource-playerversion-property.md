@@ -4,12 +4,12 @@ ms.assetid: 7bc485de-345b-475c-bbae-0776aa63c93a
 title: MFNETSOURCE_PLAYERVERSION, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71828db44eca7c4318dbdb11e7934871911b06dbc4547f83723a9944f139ae26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ddaee0fe3e476b2b6e078551b1191fe9fc96cf8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118738968"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412957"
 ---
 # <a name="mfnetsource_playerversion-property"></a>MFNETSOURCE \_ propriété PLAYERVERSION
 
@@ -31,13 +31,13 @@ Le \_ i8 VT
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ PLAYERVERSION** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez la page programme de [résolution source](source-resolver.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

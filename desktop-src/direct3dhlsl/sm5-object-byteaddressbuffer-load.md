@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7a9854f85ebd92b9f57e4b2339f374ad8f7816ea7b9ba31e37c9404b08c14864
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e0de7d1a8ef8a7fe3173016fe07a433a930c3d59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119671449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524468"
 ---
 # <a name="byteaddressbufferloadint-function"></a>ByteAddressBuffer :: Load (int), fonction
 
@@ -45,7 +45,7 @@ Adresse d’entrée en octets, qui doit être un multiple de 4.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **uint**
 
@@ -57,7 +57,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

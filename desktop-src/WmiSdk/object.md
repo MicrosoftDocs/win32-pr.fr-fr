@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: OBJECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4c26b8b6ff77f788aeed607057541d19d80fea4c105b53d492c1f1e8468b319
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c257b45833204a873292da467d484fab97b22b0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118554928"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403682"
 ---
 # <a name="object"></a>OBJECT
 

@@ -4,12 +4,12 @@ ms.assetid: ef322823-1b87-40ea-a5e3-e7551f14e44d
 title: Stratégie de métadonnées de photo System. photo. FlashModel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c9e45e1ef759f2bee0d383cde3bcdabe8be67dc55a463ab6c9f7e6e05889a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01ade3769cb0d852239af84b769b85d5b3849589
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118204880"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404235"
 ---
 # <a name="systemphotoflashmodel-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. FlashModel
 
@@ -45,7 +45,7 @@ Si le fichier est au format JPEG, le gestionnaire utilise le chemin d’accès s
 
 
 
-| Commande | Chemin                           | Format de disque | Format de données | Obligatoire |
+| JSON | Chemin d’accès                           | Format de disque | Format de données | Obligatoire |
 |-------|--------------------------------|-------------|-------------|----------|
 | 1     | /xmp/MicrosoftPhoto:FlashModel | Unicode     |             | Oui      |
 
@@ -59,7 +59,7 @@ Si le fichier est au format TIFF, le gestionnaire utilise l’ordre de priorité
 
 
 
-| Commande | Chemin                               | Format de disque | Format de données | Obligatoire |
+| JSON | Chemin d’accès                               | Format de disque | Format de données | Obligatoire |
 |-------|------------------------------------|-------------|-------------|----------|
 | 1     | /ifd/xmp/MicrosoftPhoto:FlashModel | Unicode     |             | Oui      |
 
@@ -67,7 +67,7 @@ Si le fichier est au format TIFF, le gestionnaire utilise l’ordre de priorité
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

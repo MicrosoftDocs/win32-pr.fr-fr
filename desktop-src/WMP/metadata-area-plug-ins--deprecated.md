@@ -10,12 +10,12 @@ keywords:
 - plug-ins de zone de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d28a077d2e567548907c4a9aa8e70b37937a0f88e58ec4074d0658c0ca6adbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6264e13f59c1acd214d4e5b179acb20016b157e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311094"
 ---
 # <a name="metadata-area-plug-ins-deprecated"></a>Plug-ins de zone de métadonnées (déconseillés)
 

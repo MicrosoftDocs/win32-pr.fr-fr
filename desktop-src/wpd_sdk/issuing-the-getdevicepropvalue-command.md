@@ -4,12 +4,12 @@ ms.assetid: 60294ac6-06e0-4546-bbe9-da48d250e31e
 title: Émission de la commande GetDevicePropValue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da87366361bbcccba182b72cfb49124692f86dc88c5a87ebbeb4d5f667451a97
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c5d2e5e99e2b1d51b9147fc4da2d86b4fa955907
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119839279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404423"
 ---
 # <a name="issuing-the-getdevicepropvalue-command"></a>Émission de la commande GetDevicePropValue
 

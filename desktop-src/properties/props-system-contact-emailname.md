@@ -4,12 +4,12 @@ ms.assetid: d8f05c5e-0641-4979-9601-55e3c349cfdd
 title: System. contact. EmailName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca40e3605dfbe34a15b3aa12632b6782b6fab657421cebb54fd224e77e797eb6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a9674f3b97bf6bd5102cce0d1642f3588a2a1fb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525500"
 ---
 # <a name="systemcontactemailname"></a>System. contact. EmailName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

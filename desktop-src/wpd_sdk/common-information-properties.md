@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 41a8845a41714ed1a775d19e14f0996aad698aaf99de18da4eceb4df92688409
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b773d8404997da20b4196c802ba12286679af683
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118431102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522073"
 ---
 # <a name="common-information-properties"></a>Propriétés des informations communes
 
@@ -39,7 +39,7 @@ Windows Les appareils mobiles prennent en charge les propriétés d’informatio
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

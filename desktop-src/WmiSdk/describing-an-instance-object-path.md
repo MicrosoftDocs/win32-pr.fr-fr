@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Description d’un chemin d’accès d’objet d’instance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a152d68390c899709cfe6041bfa2880482a0d4498dc371aafd4426aef8f14489
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f977359ea9c3c4346052f1edd076c0cce5544441
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119412059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411562"
 ---
 # <a name="describing-an-instance-object-path"></a>Description d’un chemin d’accès d’objet d’instance
 

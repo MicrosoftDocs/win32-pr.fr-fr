@@ -4,12 +4,12 @@ ms.assetid: e91334d9-9041-4cb8-a6d0-0e2371800064
 title: Prise en charge de l’exécution automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83091191d8468b7ea3d34146e4a4c02e8cf5bf80cb3e49c72dc43bb092d10f76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 467a4f6289492177beab0469a181297b13accfce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522876"
 ---
 # <a name="supporting-autoplay"></a>Prise en charge de l’exécution automatique
 

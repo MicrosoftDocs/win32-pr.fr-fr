@@ -4,12 +4,12 @@ ms.assetid: 0d0c6b3d-23bc-4628-a684-14bb9e18967f
 title: Récupération des propriétés de plusieurs objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d1ad9ec397daa90c149fe950c1fc4777c407e3f5f3a359f46cf8bef56e18b9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56c069f6a28b923339f66f8423f211eff4704ef6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083513"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522908"
 ---
 # <a name="retrieving-properties-for-multiple-objects"></a>Récupération des propriétés de plusieurs objets
 

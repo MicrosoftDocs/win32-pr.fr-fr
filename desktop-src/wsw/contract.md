@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c69be302ace90c82b7b0db5666289cf4d312458e7283a04e2a1d892faa894ad9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7120346dac4d11c21955cd2430ed0a7dc277e88c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026575"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520964"
 ---
 # <a name="contract"></a>Contrat
 

@@ -11,12 +11,12 @@ api_name:
 - SecurityCallContext
 api_type:
 - COM
-ms.openlocfilehash: f0efa73ef704d77cc68b5a1193ccdc3de71b1ed0a5b8c730a2ea67474600bf5a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd15b7e0317a507a2340cc148bb927bb5d94a37b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118546263"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520864"
 ---
 # <a name="securitycallcontext-class"></a>Classe SecurityCallContext
 
@@ -42,13 +42,13 @@ Cette classe est implémentée par COM+.
 
 Utilisez cette classe pour accéder aux méthodes de [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous ne pouvez pas créer directement un objet **SecurityCallContext** . Pour utiliser les méthodes de [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext), vous devez obtenir une référence à son implémentation en appelant [**CoGetCallContext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext), en fournissant IID \_ ISecurityCallContext pour le paramètre *riid* .
 
 pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Un objet SecurityCallContext peut être déclaré à l’aide de « COMSVCSLib. SecurityCallContext » comme nom de classe ; elle est créée en appelant [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

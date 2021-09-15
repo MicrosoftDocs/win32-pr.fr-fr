@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 81dcff3cdca3459126751b12b86f1e11adc2b4fec8926f69211f0508253b64fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 694265f0a59096a5a6a58ccbf4e43c92e21fe9b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521201"
 ---
 # <a name="wiaadddevice-function"></a>WiaAddDevice fonction)
 
@@ -42,11 +42,11 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction doit être appelée avec les informations d’identification d’administrateur. En cas d’exécution sous le contrôle de compte d’utilisateur (LUA), le processus doit être élevé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

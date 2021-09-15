@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102524
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c7080337b4330d8d3772257a802d816b7d242245f4eee354191924a549a602ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 569ec524f0c2f2c545367e3b9bc92e50e41adfdc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118079487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413177"
 ---
 # <a name="esentrecordnotdeletedexception-members"></a>Membres EsentRecordNotDeletedException
 
@@ -93,7 +93,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentRecordNotDeletedException, classe](./esentrecordnotdeletedexception-class.md)
 

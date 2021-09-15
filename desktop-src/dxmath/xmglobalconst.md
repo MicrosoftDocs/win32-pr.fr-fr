@@ -4,12 +4,12 @@ ms.assetid: FDE5C004-9E8E-4890-8FDC-987C1569D8E5
 title: XMGLOBALCONST macro)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be72254865aed46de86955c2a27a4d73351311c5aa63a44a6e218be7a3915d1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6675b17138fca66e293321a9d848262a8bffc94e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411124"
 ---
 # <a name="xmglobalconst-macro"></a>XMGLOBALCONST macro)
 
@@ -25,7 +25,7 @@ Déclare un objet comme constante de *sélection* , afin d’éviter les recharg
 
 L’utilisation de XMGLOBALCONST permet de spécifier des constantes globales. Cela permet de réduire la taille du segment de données d’une application, d’éviter la création et la destruction d’objets redondants, et de réduire les opérations de chargement et de stockage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 **En-tête :** Déclaré dans DirectXMath. h.
 

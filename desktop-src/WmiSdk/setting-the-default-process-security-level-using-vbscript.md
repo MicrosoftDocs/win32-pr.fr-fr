@@ -5,12 +5,12 @@ ms.assetid: cb477224-3117-45e4-9271-613b58e48b6e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7def50c94a044a521b32b75d8e04175ebe3c37ee741f5c22663924c774be1806
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03fe69228021fe8d3f36f03e60cb2366b6132f59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119050277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411129"
 ---
 # <a name="set-the-default-process-security-level-with-vbscript"></a>Définir le niveau de sécurité de processus par défaut avec VBScript
 

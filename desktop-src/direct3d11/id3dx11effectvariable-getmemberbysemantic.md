@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46155fc961836b187e0a12ab3571a4edcb67740c7e4dd26fb92350009b95edef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5af8b628247dcc89f8df99c6ffebb04d500e76a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520841"
 ---
 # <a name="id3dx11effectvariablegetmemberbysemantic-method"></a>ID3DX11EffectVariable :: GetMemberBySemantic, méthode
 
@@ -52,13 +52,13 @@ Sémantique.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers un [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la variable d’effet est une structure, utilisez cette méthode pour rechercher un membre à l’aide de la sémantique jointe.
 
@@ -67,7 +67,7 @@ Si la variable d’effet est une structure, utilisez cette méthode pour recherc
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

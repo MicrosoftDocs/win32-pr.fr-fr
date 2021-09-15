@@ -8,12 +8,12 @@ ms.topic: article
 ms.date: 12/06/2019
 manager: dcscontentpm
 ms.custom: CSSTroubleshooting
-ms.openlocfilehash: 56cc7035f2e5a152ad90205257fb86ddaef8bf565f8459cb5067874280946db9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ef1aba7d1cb018bb3fa4f32d868828ef2ac4d1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968038"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412321"
 ---
 # <a name="restore-points"></a>Points de restauration
 
@@ -89,7 +89,7 @@ Ces étapes retournent l’ordinateur à l’État dans lequel il se trouvait av
 
 **pour restaurer Windows à un point de restauration à l’aide de WinRE**
 
-pour démarrer l’assistant restauration du système sur un ordinateur affecté, utilisez WinRE au lieu de la boîte de dialogue **Paramètres** . Pour cela, procédez comme suit :
+pour démarrer l’assistant restauration du système sur un ordinateur affecté, utilisez WinRE au lieu de la boîte de dialogue **Paramètres** . Pour ce faire, procédez comme suit :
 
 1. sélectionnez **démarrer**  >  **Paramètres**  >  **mettre à jour &**  >  **récupération** de sécurité.
 1. Sous **Options avancées**, sélectionnez **redémarrer maintenant**.

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f94a9fb8e46da811652b334824779d59153c87616f7f9815dbebd8224870ddec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae4b024bbce0636127b0ed0fc5f42bc466e1b7fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118792821"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411249"
 ---
 # <a name="dcl_usage-input-sm1-sm2-sm3---vs-asm"></a>\_entrée d’utilisation DCL (SM1, SM2, SM3-vs ASM)
 
@@ -34,7 +34,7 @@ Où :
 -   l' \_ index d’utilisation est un index d’entiers facultatif compris entre 0 et 15. Il modifie les données d’utilisation. L’index correspond à l’index d’utilisation dans une déclaration de vertex. Voir la [déclaration de vertex (Direct3D 9)](/windows/desktop/direct3d9/vertex-declaration). L’index est ajouté à la valeur d’utilisation (DCL \_ ) sans espace. S’il n’est pas fourni, il est supposé être égal à 0.
 -   v \# est un [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

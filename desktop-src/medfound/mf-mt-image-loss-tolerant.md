@@ -4,12 +4,12 @@ ms.assetid: e29d0893-8561-4a8c-99e2-168186becd82
 title: Attribut MF_MT_IMAGE_LOSS_TOLERANT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdf5b2633586cf4b73279a636119ac4770a5321d6bc22b5b961fa85881019b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eea33f9f5f49725d164bd26ba21b9602bffef2b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035167"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412974"
 ---
 # <a name="mf_mt_image_loss_tolerant-attribute"></a>Attribut de tolérance de perte de l' \_ image MT MF \_ \_ \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique au type de média pour les flux d’images en ASF. Si la valeur est **true**, le flux est un type d’image JPEG dégradable. Dans le cas contraire, le flux est un type d’image JFIF. Pour plus d’informations sur ces types de flux, consultez la spécification ASF.
 
@@ -48,7 +48,7 @@ En plus de l’attribut de tolérance de perte d’image MF MF \_ \_ \_ \_ , le 
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

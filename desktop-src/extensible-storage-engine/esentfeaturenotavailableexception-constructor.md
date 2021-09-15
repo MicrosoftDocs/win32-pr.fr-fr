@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 62bbb38c622f00ab348e0cb0d9427734047aa984a90775bec9d427ca3e141b6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0805b86804ea5cb7a3905211f7fd16515071938b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118269225"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413191"
 ---
 # <a name="esentfeaturenotavailableexception-constructor"></a>Constructeur EsentFeatureNotAvailableException
 
@@ -54,7 +54,7 @@ public EsentFeatureNotAvailableException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentFeatureNotAvailableException, classe](./esentfeaturenotavailableexception-class.md)
 

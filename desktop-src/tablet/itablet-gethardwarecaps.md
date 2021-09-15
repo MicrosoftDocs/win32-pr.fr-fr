@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 6faa286a95c27556427ed62dfebd6b16496b22b2e55263661f529709d546656b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ada3ad58699952bac5458ddd079abaf84f63bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119031907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523173"
 ---
 # <a name="itabletgethardwarecaps-method"></a>ITablet :: GetHardwareCaps, méthode
 
@@ -47,7 +47,7 @@ Indicateurs binaires qui représentent les fonctionnalités du matériel de tabl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -62,7 +62,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *pdwCaps* est un jeu d’indicateurs binaires qui décrivent les fonctionnalités matérielles de Tablet PC. Le tableau suivant décrit ces indicateurs.
 
@@ -79,7 +79,7 @@ Le paramètre *pdwCaps* est un jeu d’indicateurs binaires qui décrivent les f
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

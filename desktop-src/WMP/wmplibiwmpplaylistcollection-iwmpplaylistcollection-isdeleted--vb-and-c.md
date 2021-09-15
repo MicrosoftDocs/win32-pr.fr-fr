@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c332a524b334933d587929cdd0e5b5fa61bc15d9110260af8af8e472d7c05fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d4ce4a314378c5a4a211a52b99ea1b36ae1fda8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118568476"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411282"
 ---
 # <a name="iwmpplaylistcollectionisdeleted-method"></a>IWMPPlaylistCollection :: isDeleted, méthode
 
@@ -60,11 +60,11 @@ Interface **wmplib. IWMPPlaylist** pour la sélection interrogée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Boolean** qui spécifie si la sélection a été supprimée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

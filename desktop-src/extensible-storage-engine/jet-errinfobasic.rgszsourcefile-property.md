@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8da5ff9beca9b0e9f9d485391de5ab5e952e5386d15de22fc4754fe73c3e9439
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e3504112ed6c3d4de360e7da027e700237e5dbcd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119362339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522616"
 ---
 # <a name="jet_errinfobasicrgszsourcefile-property"></a>JET_ERRINFOBASIC. rgszSourceFile, propriété
 
@@ -66,7 +66,7 @@ Type : [System. String](/dotnet/api/system.string)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_ERRINFOBASIC](./jet-errinfobasic-class.md)
 

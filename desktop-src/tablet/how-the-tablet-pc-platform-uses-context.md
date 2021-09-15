@@ -4,12 +4,12 @@ ms.assetid: 74e4e4b2-6ceb-4044-84df-2fff0788267a
 title: Utilisation du contexte par la plateforme Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c586bf3ffcff8fc92b02bc0b4f5aff79c6bd0bbd66e6f048eab35a78d3be9676
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dcd991a2ad8e76bb0a96ea5e41977b158cc30f5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119709279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412293"
 ---
 # <a name="how-the-tablet-pc-platform-uses-context"></a>Utilisation du contexte par la plateforme Tablet PC
 

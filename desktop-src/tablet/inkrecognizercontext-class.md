@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 781d1b440f1287b22d5c3ddf7ecf7132f7311fc5f48da5da20e4145717f65bb6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afe5469cabf6764ed9b02fdcffcc8c1bedaca1d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118218400"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521233"
 ---
 # <a name="inkrecognizercontext-class"></a>InkRecognizerContext, classe
 
@@ -72,7 +72,7 @@ La classe **InkRecognizerContext** possède ces méthodes.
 |:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize)                             | Spécifie que le module de reconnaissance doit reconnaître les traits associés et déclencher un événement de [**reconnaissance**](inkrecognizercontext-recognition.md) lorsque la reconnaissance est terminée.<br/>                                                                |
 | [**BackgroundRecognizeWithAlternates**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) | Spécifie que le module de reconnaissance doit reconnaître les traits associés et déclencher un événement [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) lorsque la reconnaissance est terminée.<br/>                                    |
-| [**Répliqué**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                                                      | Crée un **InkRecognizerContext** en double.<br/>                                                                                                                                                                                               |
+| [**Clone**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                                                      | Crée un **InkRecognizerContext** en double.<br/>                                                                                                                                                                                               |
 | [**EndInkInput**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput)                                             | Met fin à l’entrée d’encre dans le **InkRecognizerContext**.<br/>                                                                                                                                                                                             |
 | [**IsStringSupported**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-isstringsupported)                                 | Indique si le dictionnaire système, le dictionnaire de l’utilisateur ou la [**liste de mots**](inkwordlist-class.md) contient une chaîne spécifiée.<br/>                                                                                                             |
 | [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize)                                                 | Effectue la reconnaissance sur une collection [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) et retourne les résultats de la reconnaissance.<br/>                                                                                                                          |
@@ -104,7 +104,7 @@ La classe **InkRecognizerContext** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -121,7 +121,7 @@ Toute reconnaissance se produit par le biais d’un contexte de reconnaissance. 
 
 Pour améliorer les performances de votre application, supprimez votre objet **InkRecognizerContext** lorsqu’il n’est plus nécessaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 1bac7ba2f2f9d394218d851f9bbe7939168c2abbc7df5fb8c57a52f29fa6e2b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89a3b2bf87d99c767ab3bea46a27c8a53fab7825
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522229"
 ---
 # <a name="iwiaapperrorhandlergetwindow-method"></a>IWiaAppErrorHandler :: GetWindow, méthode
 
@@ -49,17 +49,17 @@ HWND utilisé par le gestionnaire d’erreurs d’application, le gestionnaire d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 *phwnd* pointe vers la fenêtre transmise dans [**ReportStatus**](-wia-iwiaerrorhandler-reportstatus.md) par le Proxy de l’Acquisition d’images Windows (WIA) 2,0. Cette fenêtre doit rester valide pendant toute la durée du transfert de données.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Calcule une division à double précision au niveau du composant.
 ms.assetid: 0A67FC35-7F2F-4258-83CE-1CA398E57952
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4730849b8ccc9070f538a58709bcd99fb9bfa552973c365fb3225806caf7aca0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81fc039b222b28a5fb1217d23c78470aff1739f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524732"
 ---
 # <a name="ddiv-sm5---asm"></a>DDIV (SM5-ASM)
 
@@ -36,7 +36,7 @@ Calcule une division à double précision au niveau du composant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’instruction DDIV sera émise par le compilateur HLSL chaque fois que l’opérateur de division sera utilisé avec des doubles. La précision de cette instruction doit être de 0,5 ULP.
 
@@ -70,7 +70,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -84,9 +84,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

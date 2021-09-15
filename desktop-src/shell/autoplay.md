@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9b8bc1edad7fe49b996dd8471ae8ce081c36c71b7b7df48ca6296b07f8646ccd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33f3ccc0a253690cd377cad908f87b43ac1ea304
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118460929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412594"
 ---
 # <a name="creating-an-autorun-enabled-cd-rom-application"></a>Création d’une application de CD-ROM compatible avec l’exécution automatique
 

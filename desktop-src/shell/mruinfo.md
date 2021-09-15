@@ -15,11 +15,11 @@ api_type:
 api_location: ''
 ms.assetid: 31d5831d-9a19-4bd9-8439-ce844966c414
 ms.openlocfilehash: 652168e6a4e61ac754aac3202e0681ec6b7d9e66
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840760"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523344"
 ---
 # <a name="mruinfo-structure"></a>MRUINFO, structure
 

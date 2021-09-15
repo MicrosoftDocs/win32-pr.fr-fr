@@ -4,12 +4,12 @@ ms.assetid: 6ae31548-4d78-4e38-9cfc-01b611a6022d
 title: Attribut MF_MT_AUDIO_SAMPLES_PER_BLOCK (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa3de2a07811c591cc64289d185d6ff0c7dcab2cd116df7bb8140dc1298f541a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7c453fa4daeaa310b5e41add44b63b0fb45372d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525773"
 ---
 # <a name="mf_mt_audio_samples_per_block-attribute"></a>\_Exemples d' \_ éléments audio MF MT \_ \_ par \_ bloc
 
@@ -19,13 +19,13 @@ Nombre d’échantillons audio contenus dans un bloc compressé de données audi
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut correspond au membre **wSamplesPerBlock** de la structure [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)) .
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 58083bc8-59cc-4503-8fae-36fcd864921a
 title: Attribut MF_SESSION_APPROX_EVENT_OCCURRENCE_TIME (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce6cbaa7d12cebe14b015c4d568b36b081930ef4b302797dba76fc728e92cf01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a31b1970c2c9d86384c12c50777a8cee55e3ffd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118740023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523640"
 ---
 # <a name="mf_session_approx_event_occurrence_time-attribute"></a>\_ \_ \_ \_ \_ Attribut heure d’occurrence de l’événement de session MF
 
@@ -21,7 +21,7 @@ Heure approximative à laquelle la session multimédia a déclenché un événem
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Certains événements de la session multimédia ont cet attribut. La valeur donne l’heure de la présentation approximative lorsque l’événement a été déclenché.
 
@@ -29,7 +29,7 @@ Cet attribut est une valeur signée, bien qu’il soit stocké en tant que **UIN
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

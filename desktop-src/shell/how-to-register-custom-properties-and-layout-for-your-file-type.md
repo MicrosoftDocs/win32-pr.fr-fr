@@ -4,12 +4,12 @@ ms.assetid: 29B863B3-E5FD-4E0A-B76B-4AFE5A6A76E3
 title: Comment inscrire des propriétés personnalisées et une disposition pour votre type de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9388965a781d4104ae13de689b72208a8b69e213a758c9b34552c03bb938453
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: da55d0a90d4dd0f3ca109a3ca9f628a3c0912520
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119714899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521289"
 ---
 # <a name="how-to-register-custom-properties-and-layout-for-your-file-type"></a>Comment inscrire des propriétés personnalisées et une disposition pour votre type de fichier
 

@@ -4,12 +4,12 @@ ms.assetid: 4c15cfc5-afdf-48d4-8fd1-b10cbe596a1c
 title: Utilisation de la fusion de vertex indexée (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2d14e66fd934e2eaa8b403d694d203edddb229aab0795fa4a396b8baf367ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 120362e4a86081ff51aee9053d1526a9a08f014a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118519474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413235"
 ---
 # <a name="using-indexed-vertex-blending-direct3d-9"></a>Utilisation de la fusion de vertex indexée (Direct3D 9)
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 463e2fee5f6014746bf38723d9c1cc80d7e81d8248cbcf14253e335cd7845398
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3dd347c5adad07140ed2b9942a1a9718bf9f5f85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411328"
 ---
 # <a name="requestreplytcpserverexample"></a>RequestReplyTcpServerExample
 

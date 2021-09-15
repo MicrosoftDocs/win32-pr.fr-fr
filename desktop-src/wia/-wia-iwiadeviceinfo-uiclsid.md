@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 056e528170a2122812d7f3e624662b238e3e2965985e072a485963b5a7e6d908
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef3b015a55b3f1d249d3cc559feb4b47530e183c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120007539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524049"
 ---
 # <a name="deviceinfouiclsid-property"></a>DeviceInfo. UIClsid, propriété
 
@@ -39,7 +39,7 @@ propVal = DeviceInfo.UIClsid
 
 Chaîne pour recevoir l’ID de classe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

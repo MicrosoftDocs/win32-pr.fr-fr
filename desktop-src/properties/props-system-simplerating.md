@@ -4,12 +4,12 @@ ms.assetid: 50353ba9-86dd-4172-91b4-1898c8fc5522
 title: System. SimpleRating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74e13d7f65fb335aea6362509c20845bd1324b6e99d48f14cd9746f0237661f4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b4741edd076b6027bc5f8dfbe3b2ff2a31374a7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119598139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523445"
 ---
 # <a name="systemsimplerating"></a>System. SimpleRating
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

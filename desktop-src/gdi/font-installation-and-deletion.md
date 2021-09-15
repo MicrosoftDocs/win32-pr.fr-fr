@@ -4,12 +4,12 @@ ms.assetid: b422b981-8760-4484-9965-f212287c421e
 title: Installation et suppression de polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 112cfbff6bebdfc2fa4d46993f1fa60dcc19285bc3e16ebc2fd929e3a43ba679
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0184054973c769462ed8c1620e5534ff909576ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521553"
 ---
 # <a name="font-installation-and-deletion"></a>Installation et suppression de polices
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 09535b432ff1af60ad33b622810d0d8a4d190cb81650214aa71b445ba3c22f4c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e0d543fb0e57ae34f181e7ff0f40a1a1f8222b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523717"
 ---
 # <a name="d3daes_ctr_iv-structure"></a>Structure D3DAESs \_ \_ CS
 
@@ -54,13 +54,13 @@ Nombre de blocs, au format Big-endian.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure **D3DAES \_ CTR \_ IV** et la structure [**DXVA2 \_ AES \_ CTR \_ IV**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv) sont équivalentes.
 
 Pour plus d’informations, voir [**DXVA2 \_ AES \_ CTR \_ IV**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

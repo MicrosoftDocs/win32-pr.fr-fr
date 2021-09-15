@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 6034c330da19f5982e9bbacbf75cc16f0a7d10dd65f9c8bded2efa5cbda70835
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51416ed59bc1c6df1d2c69de87d61bdecab522f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119601139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522456"
 ---
 # <a name="addprinter-function"></a>AddPrinter fonction)
 
@@ -64,13 +64,13 @@ Pointeur vers une structure [**d' \_ informations \_ d’imprimante 2**](printer
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est un handle (pas thread-safe) vers un nouvel objet Printer. Lorsque vous avez terminé avec le descripteur, transmettez-le à la fonction [**ClosePrinter**](closeprinter.md) pour le fermer.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’appelez pas cette méthode dans [**DllMain**](/windows/desktop/Dlls/dllmain).
 
@@ -128,7 +128,7 @@ Si la fonction **DrvPrinterEvent** est passée à l' \_ indicateur \_ d’évén
 
 Le pare-feu de connexion Internet (ICF) bloque les ports d’imprimante par défaut, mais une exception pour le partage de fichiers et d’imprimantes est activée lorsque vous exécutez **AddPrinter**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

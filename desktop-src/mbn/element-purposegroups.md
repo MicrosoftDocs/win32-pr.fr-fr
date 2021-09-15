@@ -8,11 +8,11 @@ title: PurposeGroups
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fa1daa1b6b1985ddbc94eb302adf15a1b88e2d8c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879728"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413069"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupsspanpurposegroups"></a><span id="WWAN_profile_v4.element_PurposeGroups"></span>PurposeGroups
 
@@ -38,7 +38,7 @@ Un profil peut être listé dans plusieurs groupes.
 </PurposeGroups>
 ```
 
-### <a name="key"></a>Clé :
+### <a name="key"></a>Clé
 
 `{}`   plage spécifique d’occurrences
 

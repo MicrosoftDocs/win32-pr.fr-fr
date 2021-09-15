@@ -4,12 +4,12 @@ ms.assetid: d689a34c-97f7-4b1c-82b6-863ce3b8403f
 title: MFPKEY_DYN_VBR_RAVG, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ee3d3a9b9a60b664041b9c6f84c38b8da9ceef87f73177f2ace792cf043992
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8103d36db5a9e946449231943e076c26258eec19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412940"
 ---
 # <a name="mfpkey_dyn_vbr_ravg-property"></a>MFPKEY \_ dyn \_ VBR \_ RAVG, propriété
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 Si les propriétés [**MFPKEY \_ AVGCONSTRAINED**](mfpkey-avgconstrainedproperty.md) et [**MFPKEY \_ VBRENABLED**](mfpkey-vbrenabledproperty.md) sont toutes deux définies sur **Variant \_ true**, l’encodeur utilise l’encodage VBR moyen-contrôlable. Dans ce cas, l’encodeur configure lui-même en fonction de la valeur de cette propriété et de la propriété [**MFPKEY \_ dyn \_ VBR \_ BAVG**](mfpkey-dyn-vbr-bavgproperty.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

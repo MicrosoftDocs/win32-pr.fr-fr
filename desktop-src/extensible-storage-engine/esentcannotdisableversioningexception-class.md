@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8fd8a2f6e7c29893b2cc9d6173d08a0203dfd0f4dbf62c6caa6a6929c28cb8c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df332b292d3bee2c4e25d9fc331d53f67bf9a0ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118783221"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411555"
 ---
 # <a name="esentcannotdisableversioningexception-class"></a>EsentCannotDisableVersioningException, classe
 

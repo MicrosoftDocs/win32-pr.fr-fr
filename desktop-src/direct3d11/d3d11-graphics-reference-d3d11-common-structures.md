@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les structures de versi
 ms.assetid: d18f5baa-ef4e-41bc-90f2-28788faeb39d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0410d1bb51e5d0a5e536b4c390b04b438ac5a58763107aed47cf26604cbf454e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 319abfc3fd010093dae87ba1fa76ee06b93864fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127526156"
 ---
 # <a name="common-version-structures"></a>Structures de version courantes
 

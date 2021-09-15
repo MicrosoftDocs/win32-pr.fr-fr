@@ -4,12 +4,12 @@ ms.assetid: F65112FA-B380-45F8-A1FC-3408FE6E49E2
 title: Attribut MFSampleExtension_Encryption_SkipByteBlock (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c674a7f7762f97a1978bd827795733d01b1dea3053898c5ecd30308373449b17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18003c03df7e65314846d34cb1d1093f5b2507a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119603129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524237"
 ---
 # <a name="mfsampleextension_encryption_skipbyteblock-attribute"></a>\_Attribut SkipByteBlock de chiffrement MFSampleExtension \_
 

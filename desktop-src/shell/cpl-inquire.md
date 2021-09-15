@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5998e26eab79d3e5f0b9e3628614e1cc2ecbfb7040e866a898a09ad54fa49f10
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f9962ff94e8bf80041d7b61ecf97220d573131fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119710719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412576"
 ---
 # <a name="cpl_inquire-message"></a>\_Message de recherche cpl
 
@@ -42,11 +42,11 @@ Adresse d’une structure [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) traite ce message avec succès, elle doit retourner zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le panneau de configuration envoie le message de **\_ recherche Cpl** une fois pour chaque boîte de dialogue prise en charge par votre application. Le panneau de configuration envoie également un message [**\_ NEWINQUIRE Cpl**](cpl-newinquire.md) pour chaque boîte de dialogue. Ces messages sont envoyés immédiatement après le message [**Cpl \_ GETCOUNT**](cpl-getcount.md) . Toutefois, le système ne garantit **pas l’ordre \_** dans lequel les messages **\_ NEWINQUIRE et Cpl** sont envoyés.
 
@@ -56,7 +56,7 @@ Le [**message \_ NEWINQUIRE de cpl**](cpl-newinquire.md) retourne des informatio
 
 Les seules applications qui doivent utiliser [**Cpl \_ NEWINQUIRE**](cpl-newinquire.md) sont celles qui ont besoin de modifier leur icône ou d’afficher des chaînes en fonction de l’état de l’ordinateur. Dans ce cas, votre gestionnaire de **\_ recherche de cpl** doit spécifier la \_ \_ valeur res dynamique CPL pour les membres **idIcon**, **idName** ou **idInfo** de la structure [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) , plutôt que de spécifier un identificateur de ressource valide. Cela amène le panneau de configuration à envoyer le message **\_ NEWINQUIRE Cpl** chaque fois qu’il a besoin de l’icône et des chaînes d’affichage, ce qui vous permet de spécifier des informations en fonction de l’état actuel de l’ordinateur. Cela est beaucoup plus lent que d’utiliser les informations mises en cache.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

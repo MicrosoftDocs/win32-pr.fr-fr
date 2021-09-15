@@ -4,12 +4,12 @@ ms.assetid: 0361b7da-bfb3-4880-b982-85d2fe419805
 title: Comment personnaliser des dossiers avec Desktop.ini
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23ec216bedfdee16e26f87070a0196d77a8db12c802d97b1449cd78001f51a16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a671b169c4b025683cdd220ee3a920b4d592488
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117859831"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412494"
 ---
 # <a name="how-to-customize-folders-with-desktopini"></a>Comment personnaliser des dossiers avec Desktop.ini
 

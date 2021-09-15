@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 148db880fe941c3b7df045c0ecdd4fbc9303203eace2b3be3ab38831aa4e3644
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb4a780d5107a7761d7dcac9b27a7cb01f3de744
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118170186"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312542"
 ---
 # <a name="mcm_getcalid-message"></a>\_Message GETCALID MCM
 
@@ -43,7 +43,7 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ID du calendrier actuel. Une des constantes d' [identificateurs de calendrier](/windows/desktop/Intl/calendar-identifiers) .
 

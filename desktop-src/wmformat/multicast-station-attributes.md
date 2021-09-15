@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f618ffa645055bf10a9247272d57c7e3f76853c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510641"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523009"
 ---
 # <a name="multicast-station-attributes"></a>Attributs de station de multidiffusion
 
@@ -33,7 +33,7 @@ Lorsqu’un fichier est diffusé en continu à partir d’une station de multidi
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ Lorsqu’un fichier est diffusé en continu à partir d’une station de multidi
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

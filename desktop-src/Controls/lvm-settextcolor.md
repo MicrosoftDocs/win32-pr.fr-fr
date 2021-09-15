@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c70cb9de975440a4093ef8c88992305d294cc04f362c8e9ccb3434937b78f007
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 64b30c965bd523cd5638c894b47fc4785ffbdd09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119217369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127312630"
 ---
 # <a name="lvm_settextcolor-message"></a>\_Message SETTEXTCOLOR LVM
 
@@ -39,7 +39,7 @@ Définit la couleur du texte d’un contrôle d’affichage de liste. Vous pouve
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: c9eaab17f0a76bfc5c6ac919a9abef92ca7288539c9705ca30c02b1dd0a8d1ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3337e74a621b6431b5bbfa429692717def447c82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118035220"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522192"
 ---
 # <a name="iwiaitem2devicedlg-method"></a>IWiaItem2 ::D méthode eviceDlg
 
@@ -108,13 +108,13 @@ Adresse d’un tableau de pointeurs vers des interfaces [**IWiaItem2**](-wia-iwi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode affiche une boîte de dialogue à l’utilisateur qu’une application utilise pour rassembler toutes les informations requises pour l’acquisition d’images. Il est également utilisé pour spécifier des propriétés d’analyse d’images telles que la luminosité et le contraste.
 
@@ -122,7 +122,7 @@ Une fois que cette méthode a retourné une valeur, l’application peut utilise
 
 Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) pour chaque élément du tableau de pointeurs d’interface qu’ils reçoivent via le paramètre *ppIWiaItem2* . Les applications doivent également libérer le tableau à l’aide de [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

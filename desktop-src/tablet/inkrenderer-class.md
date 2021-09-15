@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: f03b65a1ce009313b996fc7bede03f8c7425ff589fd29506c243f3161a851583
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d29448e2f8ae98c4e15d6c3a51747257d20c62b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119938719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412283"
 ---
 # <a name="inkrenderer-class"></a>InkRenderer, classe
 
@@ -73,13 +73,13 @@ La classe **InkRenderer** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’impression s’effectue également par le biais de l’objet **InkRenderer** .
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 73ec52de-c74a-45b3-a453-7f32510b4484
 title: MFPKEY_ASFOVERHEADPERFRAME, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 481c99c50a305219d0548007755d6b6ba27239e39bef5cb47d61ff3d665dfa47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 208acf55871b18bb029279a27abd36a33ea8c79c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117874078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412944"
 ---
 # <a name="mfpkey_asfoverheadperframe-property"></a>MFPKEY \_ propriété ASFOVERHEADPERFRAME
 
@@ -27,11 +27,11 @@ VT \_
 
 17
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous utilisez la structure de fichiers ASF (Advanced Systems Format), ne modifiez pas cette valeur par défaut. Si vous ne stockez pas les données dans un fichier ASF, vous devez définir cette valeur sur 0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

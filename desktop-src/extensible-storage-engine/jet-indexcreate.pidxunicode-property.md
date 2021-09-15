@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f00dd405cae5ca03933c3b3d6932ce7cf8c81098d80b41446e585eb8d4474362
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 394ae0a8ef77bd591e76a0e1c886a7abc56b754c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404293"
 ---
 # <a name="jet_indexcreatepidxunicode-property"></a>JET_INDEXCREATE. pidxUnicode, propriété
 
@@ -66,7 +66,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_INDEXCREATE](./jet-indexcreate-class.md)
 

@@ -4,12 +4,12 @@ ms.assetid: B3B5C547-1F06-45B1-BFCB-513AD7B6A9B6
 title: Attribut MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_UNPROCESSED_SAMPLES (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f776dd795103fccf81da4c739b767131a03bf83245c3c79e724274dcb52dc0d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d5f5e297ddb5f06e71fe05a95df73aa205a7889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524253"
 ---
 # <a name="mf_capture_engine_record_sink_video_max_unprocessed_samples-attribute"></a>Vidéo du récepteur d’enregistrements du moteur de capture MF- \_ \_ \_ \_ \_ \_ nombre maximal d' \_ échantillons non traités \_
 

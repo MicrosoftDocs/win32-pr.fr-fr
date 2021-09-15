@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: e6d53d21df9734ee43cdda618c5221fd83300598d46b51bd366c50fedf5cec45
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00f065e01f9a4ff1459988d76fc9393ba24aa894
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525333"
 ---
 # <a name="iinkanalyzerremovestrokes-method"></a>IInkAnalyzer :: RemoveStrokes, méthode
 
@@ -54,11 +54,11 @@ Identificateurs des traits à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode supprime les données de paquet pour et les références aux traits spécifiés à partir du [**IInkAnalyzer**](iinkanalyzer.md).
 
@@ -72,7 +72,7 @@ Si aucun des traits identifiés dans *plStrokes* n’est associé à l’analyse
 
 Cette méthode retourne le code d’erreur et lorsque *plStrokes* a la valeur null.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

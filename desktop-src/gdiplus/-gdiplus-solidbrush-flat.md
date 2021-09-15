@@ -4,12 +4,12 @@ ms.assetid: b427b8ab-66fd-4f57-b08e-5f337a9ac9af
 title: Fonctions SolidBrush
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f0a45d36a174e765990f284d99d18a18d420745967b36cdd40d4a0ee7d1c0d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc9feb2676c60b3f504315f75303aadb16a1cd1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413134"
 ---
 # <a name="solidbrush-functions"></a>Fonctions SolidBrush
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**So
 
 
 
-| Fonction plate                                                                               | Méthode Wrapper                                                                                       | Remarques                                                                                 |
+| Fonction plate                                                                               | Méthode Wrapper                                                                                       | Notes                                                                                 |
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **GpStatus WINGDIPAPI GdipCreateSolidFill (ARGB Color, GpSolidFill \* \* Brush)**<br/>   | [**SolidBrush :: SolidBrush (dans la couleur const Color& Color)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-solidbrush-solidbrush(constsolidbrush_)) | Crée un objet [**SolidBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush) basé sur une couleur |
 | **GpStatus WINGDIPAPI GdipSetSolidFillColor (GpSolidFill \* Brush, ARGB Color)**<br/>   | [**SolidBrush :: SetColor (dans la couleur const Color& Color)**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-solidbrush-setcolor)     | Définit la couleur de ce pinceau Uni                                                      |

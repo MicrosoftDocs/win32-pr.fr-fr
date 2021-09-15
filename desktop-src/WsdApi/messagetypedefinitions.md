@@ -4,12 +4,12 @@ ms.assetid: 0b322acb-3326-42a2-a852-07251585b314
 title: élément messageTypeDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a94fabdd2ceb2d32052a692f6daa1abba0a52f16d5d1b7dd0a4cef07d33de09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54f1b6563254a93122960b4a990fe0bd18ab1453
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413272"
 ---
 # <a name="messagetypedefinitions-element"></a>élément messageTypeDefinitions
 
@@ -57,7 +57,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément est généralement utilisé dans les fichiers sources C pour fournir les tables de schéma déclarées par [**messageTypeDeclarations**](messagetypedeclarations.md).
 

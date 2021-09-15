@@ -4,12 +4,12 @@ description: Les contrôles de touche d’accès rapide permettent aux utilisate
 ms.assetid: 56c9fee4-f3d3-4f61-8587-bf80186aa5b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53829b371ea026c92388e8ed0dac11ee0303514ff930ad1a64ada4b5583bfa60
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5aed12ce64fe25c091f6204d9143a0c6ebefb65a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119734439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403687"
 ---
 # <a name="hot-key-control-msaa-ui-element-reference"></a>Contrôle de touche d’accès rapide (référence des éléments d’interface utilisateur MSAA)
 

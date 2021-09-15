@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a602566c4d0e5b3cb5c68b2f983b6c56a9d9f596ee673db97a72e6054837759b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 198a597020a0bfcbc789cc741e42048bd89eb95f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119847379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520752"
 ---
 # <a name="id3dxprtenginecomputessadaptive-method"></a>ID3DXPRTEngine :: ComputeSSAdaptive, méthode
 
@@ -99,13 +99,13 @@ Pointeur vers un objet [**ID3DXPRTBuffer**](id3dxprtbuffer.md) facultatif qui es
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour modéliser la diffusion sous-surface, appelez cette méthode pour chaque rebond de lumière après l’appel d’une méthode [**ID3DXPRTEngine :: ComputeDirectLightingSHAdaptive**](id3dxprtengine--computedirectlightingshadaptive.md) .
 
@@ -113,7 +113,7 @@ La sortie de cette méthode n’inclut pas Albedo, et seule la lumière entrante
 
 Appelez [**ID3DXPRTEngine :: MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) pour multiplier chaque vecteur PRT par le Albedo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

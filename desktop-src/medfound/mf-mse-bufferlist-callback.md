@@ -4,12 +4,12 @@ ms.assetid: 9A68B650-97C0-4323-ACBF-5C8E496E8566
 title: Attribut MF_MSE_BUFFERLIST_CALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64a9e17625789a8318a37128fa80ec71e4255c20988919c57a38843b9e0ecde9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 503b4850656a85385c8b58dc3949feb4b0234c9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104615"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412997"
 ---
 # <a name="mf_mse_bufferlist_callback-attribute"></a>\_Attribut de rappel MF MSE \_ BUFFERLIST \_
 
@@ -19,7 +19,7 @@ Contient un pointeur vers l’interface de rappel de l’application pour [**IMF
 
 **IMFBufferListNotify \* *_ stocké en tant que _* IUnknown\***
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

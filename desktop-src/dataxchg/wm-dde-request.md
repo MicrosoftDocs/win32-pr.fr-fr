@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05c58877b15f39d2de907688972905e98007658981bcc57df62655634bafe8be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f7d5eab75d3b7298d78547b17fccfb164a47ae4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118811349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520857"
 ---
 # <a name="wm_dde_request-message"></a>\_Message de \_ requête DDE WM
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome qui identifie l’élément de données d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="posting"></a>Publication
 
@@ -66,7 +66,7 @@ Si l’application de réception (serveur) peut répondre à la demande, elle r�
 
 Lorsque vous répondez avec un message de type de [**\_ \_ données DDE**](wm-dde-data.md) ou un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE de WM, l’application serveur peut réutiliser l’Atom ou supprimer l’atome et en créer un nouveau.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -109,7 +109,7 @@ Lorsque vous répondez avec un message de type de [**\_ \_ données DDE**](wm-dd
 [**\_données DDE \_ WM**](wm-dde-data.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

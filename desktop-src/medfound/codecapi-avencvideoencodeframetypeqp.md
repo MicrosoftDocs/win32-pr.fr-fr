@@ -4,12 +4,12 @@ ms.assetid: 6331033F-7EEB-41B3-B166-29686D4AADB6
 title: CODECAPI_AVEncVideoEncodeFrameTypeQP, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9ebd4a25f3779ce1c721eb3cb1188b487be4d313ae5dbeb02dd41e494f4c17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76e68e0cb6cbdc076dbf523f3ae9dfd7b5870f47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118743844"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525809"
 ---
 # <a name="codecapi_avencvideoencodeframetypeqp-property"></a>CODECAPI \_ propriété AVEncVideoEncodeFrameTypeQP
 
@@ -23,7 +23,7 @@ Spécifie les types de frames (I, P ou B) auxquels le paramètre de quantificati
 
 **CODECAPI \_ AVEncVideoEncodeFrameTypeQP**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour les encodeurs qui prennent en charge la définition d’un paramètre de quantification (QP) pour différents types de trames (I, P, B), ils exposent cette API en plus de [CODECAPI \_ AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md). Si un encodeur ne prend en charge qu’un seul QP pour tous les types de frame, ils prennent en charge uniquement CODECAPI \_ AVEncVideoEncodeQP.
 
@@ -48,7 +48,7 @@ Quand [CODECAPI \_ AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md) sé
 
 [CODECAPI \_ AVEncVideoMaxQP](codecapi-avencvideomaxqp.md) et [CODECAPI \_ AVEncVideoMinQP](codecapi-avencvideominqp.md) doivent être utilisés pour définir et limiter la plage de QP pour RPS de tous les types d’images, I, P et B.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

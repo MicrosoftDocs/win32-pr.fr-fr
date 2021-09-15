@@ -4,12 +4,12 @@ description: utilisez ces rubriques pour vous aider à concevoir l’expérience
 ms.assetid: 3711c6fa-7db2-4aad-93e9-e7970bc0678f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e171c7a79d834d876715db86907e015ba40aad00176b109956726f3e34ef1dca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5ac13a932f4b315bd827ac6072a8d5c16f35f30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118216709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127525272"
 ---
 # <a name="design-basics-for-desktop-applications"></a>Concepts de base de conception pour les applications de bureau
 

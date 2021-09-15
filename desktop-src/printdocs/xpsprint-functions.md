@@ -4,12 +4,12 @@ ms.assetid: 0d9a18eb-57fc-4086-825d-0ca6ae849ce0
 title: Fonctions de l’API d’impression XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddf28f12b90fe3a88e5ed81befbeb2d438675570302fc58499cda242b07e670e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e2f07823f03cbd194960afdd2315554310098d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119033747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524217"
 ---
 # <a name="xps-print-api-functions"></a>Fonctions de l’API d’impression XPS
 

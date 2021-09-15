@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: a599d88371a1a6726ed2ec4ee217c36b3ea3cd71d6117305a59860cb9a8bf09f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1fb4ebbe487119c65f153f78e192de38e6393fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092320"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523305"
 ---
 # <a name="ianalysisregionisempty-method"></a>IAnalysisRegion :: IsEmpty, méthode
 
@@ -46,11 +46,11 @@ HRESULT IsEmpty(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

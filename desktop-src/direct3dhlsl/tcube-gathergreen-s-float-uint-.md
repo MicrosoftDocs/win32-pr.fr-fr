@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 79fe6a470e4b5f7f4df845636350d191f3e83a77934dcaf5d55ff8ee8877e4d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1555b72b095ce0589a8ae9b396c67d29236db82c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118284936"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403457"
 ---
 # <a name="texturecubegathergreensfloatuint-function"></a>TextureCube :: GatherGreen (S, float, uint), fonction
 
@@ -68,7 +68,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **TemplateType**
 
@@ -82,7 +82,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

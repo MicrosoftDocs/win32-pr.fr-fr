@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: a849967e798db0ae0364e843221bfe2bf0f3305f773a784b6330a21bb84e5427
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6c7a029bd73069795b83b0b2a330835782192683
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523708"
 ---
 # <a name="d3dauthenticatedchannel_configure_output-structure"></a>D3DAUTHENTICATEDCHANNEL \_ configurer la \_ structure de sortie
 
@@ -78,11 +78,11 @@ Code de résultat de la commande.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour **les membres** ConfigureType **, hChannel** et , le pilote utilise les mêmes valeurs que celles fournies par l’application dans [**D3DAUTHENTICATEDCHANNEL configurer la structure \_ \_ d’entrée**](d3dauthenticatedchannel-configure-input.md) . L’application doit vérifier que ces valeurs correspondent.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

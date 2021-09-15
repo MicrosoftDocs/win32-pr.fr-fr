@@ -4,12 +4,12 @@ description: Méthode ShowPopupMenu
 ms.assetid: 7f964d53-2594-41b1-9450-1ba7e9f85882
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0cfd080adcf0158a628f019b4d48be5cd10b9c5b47d7a4b71ccd2393ad83ce6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b0325a552cc3c1f91a64c1240964f1d0c329292c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119600989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413071"
 ---
 # <a name="showpopupmenu-method"></a>Méthode ShowPopupMenu
 
@@ -42,7 +42,7 @@ Affiche le menu contextuel du caractère à l’emplacement spécifié.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Agent affiche automatiquement le menu contextuel du caractère lorsque l’utilisateur clique avec le bouton droit sur le caractère. Si vous affectez à [**AutoPopupMenu**](autopopupmenu-property.md) la **valeur false**, vous pouvez utiliser cette méthode pour afficher le menu.
 

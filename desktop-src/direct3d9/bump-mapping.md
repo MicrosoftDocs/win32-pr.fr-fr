@@ -4,12 +4,12 @@ ms.assetid: 3e195e4f-3fa9-43c4-b2e5-42a6b3aaccf2
 title: Placage de relief (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bb10a3a01ff3b7989cd7c44f95d6980cb08a86c00b3e9a0fc02173e349d4968
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9dba4621568f595eae965941168ad6930e183f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118805827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520796"
 ---
 # <a name="bump-mapping-direct3d-9"></a>Placage de relief (Direct3D 9)
 

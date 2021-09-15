@@ -7,12 +7,12 @@ keywords:
 - contrôle de ActiveX sans fenêtre, MSAA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3d086fdc33c1b645294827ec62784612ffeb617f12caf5a101ea8472da3e765
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9de45313b19490af3c3fffb633f3822ad93d25a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118115130"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403688"
 ---
 # <a name="how-to-host-an-msaa-windowless-activex-control"></a>comment héberger un contrôle de ActiveX sans fenêtre MSAA
 
@@ -60,7 +60,7 @@ Le conteneur de contrôle répond en recherchant le contrôle sans fenêtre qui 
 
     
 
-    | Base de plage | Taille de la plage | Contrôler   |
+    | Base de plage | Taille de la plage | Control   |
     |------------|------------|-----------|
     | 1 000       | 500        | Contrôle 1 |
     | 1500       | 1 000       | Contrôle 2 |

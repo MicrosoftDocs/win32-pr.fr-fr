@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 314c01b05ac31e5d5f8348b775c8955ae382f5ed
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104548594"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127404350"
 ---
 # <a name="counters-queries-and-predication"></a>Compteurs, requêtes et prédicats
 

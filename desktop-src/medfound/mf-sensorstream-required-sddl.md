@@ -4,12 +4,12 @@ ms.assetid: 56C30A5B-3C26-4370-8A6B-35564F13AD53
 title: Attribut MF_SENSORSTREAM_REQUIRED_SDDL (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03a939c9407cef56fbf4ae6086574d0a8427268c019d7eae90edf4ffeb57b469
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6ce4b8a2d8c23d4d03522d0052aef0d4216c5587
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119448858"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523641"
 ---
 # <a name="mf_sensorstream_required_sddl-attribute"></a>\_ \_ Attribut SDDL requis SENSORSTREAM MF \_
 
@@ -19,7 +19,7 @@ Cet attribut est utilisé pour spécifier un langage SDDL (Security Descriptor D
 
 **WCHAR\***
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

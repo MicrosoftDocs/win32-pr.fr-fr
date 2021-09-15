@@ -19,12 +19,12 @@ keywords:
 - Ruban, sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65576d90abb68b0efddf850f4855633f4b362d8cb21ce6f6f85f7924085e8810
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db15165b91708a85e5ae6237b66a15bf733e80a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850640"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523085"
 ---
 # <a name="introducing-the-windows-ribbon-framework"></a>présentation de l’infrastructure du ruban Windows
 
@@ -130,7 +130,7 @@ Les API de ruban fournissent les connexions nécessaires entre une vue et l’ap
     |--------------------------------------------------------------------|----------------------------------------------------------|
     | [Collection](windowsribbon-reference-properties-collection.md)    | Définit des propriétés pour les contrôles basés sur une collection de ruban. |
     | [Sélecteur de couleurs](windowsribbon-reference-properties-colorpicker.md) | Définit des propriétés pour les contrôles de sélecteur de couleurs du ruban.     |
-    | [Police](windowsribbon-reference-properties-fontcontrol.md)         | Définit des propriétés pour le ruban FontControl.           |
+    | [Font](windowsribbon-reference-properties-fontcontrol.md)         | Définit des propriétés pour le ruban FontControl.           |
     | [Global](windowsribbon-reference-properties-framework.md)         | Définit les propriétés globales de l’infrastructure du ruban.      |
     | [Ressource](windowsribbon-reference-properties-resource.md)        | Définit les propriétés de ressource du ruban.                      |
     | [Ruban](windowsribbon-reference-properties-ribbon.md)            | Définit les propriétés d’affichage du ruban.                          |

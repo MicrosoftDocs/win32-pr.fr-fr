@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 385a97a71d7017cba5bbfffd0833068a74acbe9d7281f8308b003a525b3f60f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ccac7b689055bfaab926a8db46b4632606811d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118441345"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522228"
 ---
 # <a name="iwiaapperrorhandler-interface"></a>Interface IWiaAppErrorHandler
 
@@ -45,7 +45,7 @@ L’interface **IWiaAppErrorHandler** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’objet de gestion des erreurs ou de rappel qui implémente cette interface est passé dans [**IWiaTransfer ::D lécharger**](-wia-iwiatransfer-download.md) et [**IWiaTransfer :: Télécharger**](-wia-iwiatransfer-upload.md).
 
@@ -57,7 +57,7 @@ L’objet qui implémente cette interface doit également implémenter [**IWiaTr
 
 Si vous souhaitez qu’un gestionnaire d’erreurs de pilote et un gestionnaire d’erreurs par défaut affichent des fenêtres de message d’erreur, mais que vous ne souhaitez pas créer de gestionnaire d’erreurs complet pour l’application, implémentez cette interface et implémentez également la méthode [**IWiaAppErrorHandler :: ReportStatus**](-wia-iwiaapperrorhandler-reportstatus.md) pour retourner l' \_ État WIA \_ non \_ géré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

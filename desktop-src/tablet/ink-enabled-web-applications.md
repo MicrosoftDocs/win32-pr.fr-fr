@@ -4,12 +4,12 @@ ms.assetid: 4a5a453d-e3c1-40e6-b0eb-99009f0024dd
 title: Applications Web Ink-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf8097bd55c34abbcb4469d74642e9dbc9a5f29e3b0b7110a76543fd40f5b1ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b14e368c1d2e97e35afa6d72a0fe082f304c5fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118043490"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521249"
 ---
 # <a name="ink-enabled-web-applications"></a>Applications Web Ink-Enabled
 

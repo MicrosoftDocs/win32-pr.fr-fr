@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 09376ad3ed2af10d6f1a6d62c16a2b66afe47e845b544e33fef5dba8cf208fe2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 319daad35da0256a4d36ef4580df62fd4d295854
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725373"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524469"
 ---
 # <a name="byteaddressbufferloadint-uint-function"></a>ByteAddressBuffer :: Load (int, uint), fonction
 
@@ -55,19 +55,19 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **uint**
 
 Une valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

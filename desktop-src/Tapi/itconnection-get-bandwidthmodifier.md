@@ -5,15 +5,15 @@ title: 'ITConnection :: get_BandwidthModifier, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e278edfbdc9ae56d89547c0bcf64f90fde77baf4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526032"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311198"
 ---
 # <a name="itconnectionget_bandwidthmodifier-method"></a>ITConnection :: \_ BandwidthModifier, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ BandwidthModifier** obtient le modificateur de bande passante, qui est un mot alphanumérique unique qui donne la signification de la largeur de la bande passante. Les deux modificateurs définis sont CT (total de la Conférence) et AS (maximum propre à l’application).
 
@@ -39,7 +39,7 @@ Pointeur vers un **BSTR** contenant le modificateur de bande passante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -61,7 +61,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppModifier* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

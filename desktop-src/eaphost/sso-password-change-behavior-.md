@@ -4,12 +4,12 @@ description: Fournit une approche pas à pas pour résoudre le comportement de m
 ms.assetid: c52ffeb8-ecee-4398-a7df-388b523c737c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d438dd41466809805f159fde4a2db698d11b1f7899e48e1f96ccce2c811111cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 005fe5191b3bdccf2bb1643be50817a3b0405336
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413223"
 ---
 # <a name="sso-password-change-behavior"></a>Comportement de modification du mot de passe SSO
 

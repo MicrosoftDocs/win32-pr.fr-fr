@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e73ccbb0c742d0be09570b0959c9c1a663d7f4d0f054cc88070d842ac6d954ff
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e4cd00bfbd832db12a722363bf5b1af8f7298345
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119657299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523948"
 ---
 # <a name="client-side-service-operations"></a>Opérations de service côté client
 

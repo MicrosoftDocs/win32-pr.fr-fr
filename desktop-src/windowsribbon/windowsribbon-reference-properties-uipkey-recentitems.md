@@ -4,12 +4,12 @@ description: Identifie la propriété RecentItems de l’interface utilisateur \
 ms.assetid: 54e7ad1f-86b3-45e0-a0f4-5ee0d08e9d4b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c04e18400f297edae1f9a1eda54bccbcd6c31c9f1d9b40408e243b6c275a83ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a07410d3152fb49b55460ec15c6914c53f3b6850
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118437955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127523973"
 ---
 # <a name="ui_pkey_recentitems"></a>IU \_ \_ RecentItems
 

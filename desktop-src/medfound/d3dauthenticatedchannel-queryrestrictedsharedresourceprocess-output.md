@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: a8a9f3f916dff486be01584d98bef59aa3bda4851d41e2b03f8f86819be28ec6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd93e1cadb7da500a82218924044af79fbb1f493
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118742915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413051"
 ---
 # <a name="d3dauthenticatedchannel_queryrestrictedsharedresourceprocess_output-structure"></a>\_Structure de \_ sortie D3DAUTHENTICATEDCHANNEL QUERYRESTRICTEDSHAREDRESOURCEPROCESS
 
@@ -72,11 +72,11 @@ Handle de processus. Si le membre **ProcessIdentifier** est égal **au \_ descri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le processus de Gestionnaire de fenêtrage (DWM) est identifié en affectant à **ProcessIdentifier** la valeur **PROCESSIDTYPE \_ DWM**. D’autres processus sont identifiés en définissant le descripteur de processus dans **ProcessHandle** et en définissant **ProcessIdentifier** égal à **PROCESSIDTYPE \_ handle**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

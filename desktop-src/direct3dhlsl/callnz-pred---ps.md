@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f56699a4853b7012401529ecfad6fbfb0006e21990a99a2fe5631faebd57674d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a04bd4b1bfa16d965a90b66e3956674ecb112590
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119983289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524853"
 ---
 # <a name="callnz-pred---ps"></a>callnz prédit-PS
 
@@ -38,7 +38,7 @@ Où :
 -   P0 correspond au registre de prédicat. Consultez [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   {x \| y \| z \| w} est le Swizzle de réplication requis sur P0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

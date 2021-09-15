@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 347cf93fe68e989eebb921472d1e81e4d0aa650e92d2c535dfdd93a6d823ed1d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 60b42217c925c83e96f2c893c7bc7f11449ebdd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119657809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411141"
 ---
 # <a name="iportabledevicevaluessetfloatvalue-method"></a>IPortableDeviceValues :: SetFloatValue, méthode
 
@@ -55,7 +55,7 @@ Valeur **float** qui contient la nouvelle valeur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -69,11 +69,11 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si une valeur existante a la même clé que celle spécifiée par le paramètre de *clé* , elle remplace la valeur existante sans avertissement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

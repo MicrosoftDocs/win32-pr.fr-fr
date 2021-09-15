@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed4d3e98e526bfd798ee21f3d92ef3eb5f79e30c2b80b7b7599e3597e812ea3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d1ae0ad2b2a9d6ff776eb4979430f85c47609c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119106667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522585"
 ---
 # <a name="vistaparamtableclass15name-field"></a>Champ VistaParam. TableClass15Name
 
@@ -55,7 +55,7 @@ public const JET_param TableClass15Name
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [VistaParam, classe](./vistaparam-class.md)
 

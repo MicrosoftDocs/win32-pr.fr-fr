@@ -4,12 +4,12 @@ ms.assetid: 97B68B0A-8266-4FCF-8CD9-35890E1AC774
 title: Attribut MF_MPEG4SINK_MOOV_BEFORE_MDAT (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e98614484beee5187364570e3c5517ba0f61e0d77161484b59af93a9f5a6512c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b5d345dc027c457ceb6123ce3854fff4b74f987
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412999"
 ---
 # <a name="mf_mpeg4sink_moov_before_mdat-attribute"></a>MF \_ MPEG4SINK \_ Moov \_ avant \_ attribut MDAT
 
@@ -19,7 +19,7 @@ Indique que « Moov » sera écrit avant la zone « MDAT » dans le fichier 
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le comportement par défaut du récepteur multimédia MPEG4 consiste à écrire « Moov » après la zone « MDAT ». La définition de cet attribut fait que le fichier généré écrit « Moov » avant la zone « MDAT ».
 
@@ -27,7 +27,7 @@ Pour que le récepteur MPEG4 utilise cet attribut, le flux d’octets transmis n
 
 Cette fonctionnalité implique une copie de fichier supplémentaire/remuxing.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

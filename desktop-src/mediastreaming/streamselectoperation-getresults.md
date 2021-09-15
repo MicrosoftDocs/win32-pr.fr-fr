@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 022e75a57b9b38cff2a1e477d78a164767ab8cbcd4e1d3a159e8f61c8972fb95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c52479949413d32ca54654f355a06a2dee70866e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119952479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522505"
 ---
 # <a name="streamselectoperationgetresults-method"></a>StreamSelectOperation. GetResults, méthode
 
@@ -44,7 +44,7 @@ HRESULT GetResults(
 *valeur* \[ out, retval\]
 </dt> <dd></dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 

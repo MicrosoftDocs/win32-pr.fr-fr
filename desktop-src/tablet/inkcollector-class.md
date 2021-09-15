@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 02ecf89a1ce8db89105ac9fa0243552efaf5218da98f6d3b0fdfbd58f874d449
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 17eff388a759b9b0873929447e4c8fe008e2fba5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118718175"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521240"
 ---
 # <a name="inkcollector-class"></a>InkCollector (classe)
 
@@ -130,7 +130,7 @@ La classe **InkCollector** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -166,7 +166,7 @@ Les événements [**MouseDown**](inkcollector-mousedown.md), [**MouseMove**](ink
 
 Pour améliorer les performances de votre application, supprimez votre objet **InkCollector** lorsqu’il n’est plus nécessaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -183,7 +183,7 @@ Pour améliorer les performances de votre application, supprimez votre objet **I
 
 <dl> <dt>
 
-[Référence du contrôle InkEdit](inkedit-control-reference.md)
+[Informations de référence sur le contôle InkEdit](inkedit-control-reference.md)
 </dt> <dt>
 
 [**InkDisp, classe**](inkdisp-class.md)

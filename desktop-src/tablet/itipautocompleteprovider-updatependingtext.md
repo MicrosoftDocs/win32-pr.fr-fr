@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: 99fc67b5ba6495e2bdfb8a54de2412ca01cbdd37475d08d20d227b203f2da1bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c66e625639aa7088b1b3934a2f984d0f4097536
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118716429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412258"
 ---
 # <a name="itipautocompleteproviderupdatependingtext-method"></a>ITipAutocompleteProvider :: UpdatePendingText, méthode
 
@@ -46,7 +46,7 @@ Texte source à utiliser pour générer la liste de saisie semi-automatique.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -61,11 +61,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce texte ne contient pas le texte déjà inséré dans le champ ayant le focus. Le fournisseur de saisie semi-automatique est chargé de tenir compte du texte du champ actuel et de la sélection pour générer la liste de saisie semi-automatique. Quand *bstrPendingText* a la **valeur null**, la liste de saisie semi-automatique est générée avec le texte actuel à gauche de la sélection dans le champ.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

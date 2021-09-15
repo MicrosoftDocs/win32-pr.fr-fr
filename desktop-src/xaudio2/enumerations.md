@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les énumérations four
 ms.assetid: 7b20bda9-dab2-cfbc-125a-cf46e4ede0c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8387ad0ae329738dfd3d33c7bd3c298a893b46692a9f2fe5d045fed4846bbb59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15ea712ac7ecb891f06278306a5080cc81d471a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127522797"
 ---
 # <a name="xaudio2-enumerations"></a>Énumérations XAudio2
 

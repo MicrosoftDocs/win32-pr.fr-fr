@@ -17,11 +17,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 9504b81ce83a91695765e75e74de374437c188d4
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953428"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403477"
 ---
 # <a name="swbemrefresherremove-method"></a>SWbemRefresher. Remove, méthode
 
@@ -67,11 +67,11 @@ Null.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Codes d’erreur** Si l’actualisateur n’a pas d’élément avec l’index spécifié, **wbemErrNotFound** est généré.
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63bb584286d749687889a1a24d638ba8fc62ae8620ffb821e940115d1655b42c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6558a119efda4f8e2c4c009b9de3ad2525985ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127411134"
 ---
 # <a name="httppurchaseorderwithusernameoversslserviceexample"></a>HttpPurchaseOrderWithUserNameOverSslServiceExample
 

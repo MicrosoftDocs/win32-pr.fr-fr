@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c8a966a21b07744ce05063ae8c68f09156c47717fcff825875f82b4535f945
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67395437303de0adc8c1af226210f8ca2f45958d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118235648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412851"
 ---
 # <a name="autoradiobutton-control"></a>Contrôle de RadioButton
 

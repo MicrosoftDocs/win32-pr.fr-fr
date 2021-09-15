@@ -3,9 +3,9 @@ title: StringCollection. getItemInfo, méthode
 description: La méthode getItemInfo récupère la chaîne correspondant au nom et à l’index d’élément StringCollection spécifiés.
 ms.assetid: a031b91e-9d3b-47ac-bc5b-c111d5e3bc12
 keywords:
-- méthode getItemInfo lecteur Windows Media
-- méthode getItemInfo Player Windows Media, StringCollection Class
-- StringCollection, classe Windows Media Player, méthode getItemInfo
+- Lecteur Windows Media de la méthode getItemInfo
+- getItemInfo, méthode Lecteur Windows Media, StringCollection, classe
+- StringCollection, classe Lecteur Windows Media, méthode getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1c9552dcebbc7d565ebc797c62ac3bc00ee109fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127520933"
 ---
 # <a name="stringcollectiongetiteminfo-method"></a>StringCollection. getItemInfo, méthode
 
@@ -57,7 +57,7 @@ strRetVal = StringCollection.getItemInfo(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **chaîne** représentant la valeur de l’attribut spécifié. Pour les attributs dont la valeur sous-jacente est **booléenne**, elle retourne la chaîne « true » ou « false ».
 
@@ -67,7 +67,7 @@ Pour récupérer des attributs avec plusieurs valeurs et attributs avec des vale
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

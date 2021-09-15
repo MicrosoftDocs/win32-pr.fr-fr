@@ -12,12 +12,12 @@ keywords:
 - points de publication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f70c1a49ea7ff6272d0eef9f1a51ff79ec216ed9af445c3078d59dd19841dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a0f38f4d24a458681c4b0dc4ee6d1a73563bdd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118197538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127521056"
 ---
 # <a name="sending-asf-data-to-a-publishing-point"></a>Envoi de données ASF à un point de publication
 
@@ -30,7 +30,7 @@ vous pouvez utiliser le kit de développement logiciel (SDK) de Format multiméd
 
 Pour envoyer des données au point de publication, attachez l’objet récepteur Push à l’objet Writer. Le récepteur push est utilisé pour ouvrir la connexion au serveur et gérer la session push. L’objet writer gère tous les autres aspects de la création du fichier.
 
-Effectuez les étapes suivantes :
+Procédez comme suit :
 
 1.  Créez l’objet writer en appelant la fonction [**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) , qui retourne un pointeur [**IWMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter) .
 2.  Créez l’objet récepteur Push en appelant la fonction [**WMCreateWriterPushSink**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink) , qui retourne un pointeur [**IWMWriterPushSink**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink) .
@@ -47,7 +47,7 @@ Ces étapes sont illustrées dans l’exemple d’application WMVNetWrite.
 
  
 
-## <a name="authentication"></a>Authentification
+## <a name="authentication"></a>Authentication
 
 L’authentification auprès du serveur est gérée automatiquement par l’objet récepteur push. Toutefois, l’application peut avoir besoin de fournir des informations d’identification. Pour cela, vous avez besoin de l’interface de rappel **IWMCredentialCallback** , comme suit :
 

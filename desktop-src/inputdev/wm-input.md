@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 04/17/2020
-ms.openlocfilehash: 5d317ba21c69b22ae9c6b7cb5be0be84cd15f561b34ec65f1f99e7335cd1badb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ffe64a5ca79bbe886ddae31661c06dae695259a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117884286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413110"
 ---
 # <a name="wm_input-message"></a>\_Message d’entrée WM
 
@@ -59,15 +59,15 @@ Handle **HRAWINPUT** vers la structure [**RAWINPUT**](/windows/win32/api/winuser
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les entrées brutes sont disponibles uniquement quand l’application appelle [**RegisterRawInputDevices**](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) avec des spécifications de périphérique valides.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
@@ -87,6 +87,6 @@ Les entrées brutes sont disponibles uniquement quand l’application appelle [*
 
 [**Obtient \_ le \_ wParam de code RAWINPUT \_**](/windows/win32/api/winuser/nf-winuser-get_rawinput_code_wparam)
 
-**Méthodologique**
+**Conceptuel**
 
 [Entrée brute](raw-input.md)

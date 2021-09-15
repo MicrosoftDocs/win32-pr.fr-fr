@@ -20,12 +20,12 @@ keywords:
 - Message WM_MOUSEWHEEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c4978babd6322102908699dbf88b68e2d3b92f57fa9bfa79b9b8c3eae88931
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2294027cb4ca2c97371a7a06c90a7e46188e3b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105788"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127413127"
 ---
 # <a name="about-mouse-input"></a>À propos de l’entrée de souris
 
@@ -306,7 +306,7 @@ SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, pulScrollLines, 0)
 
 Le tableau ci-dessous répertorie les contrôles avec des fonctionnalités de défilement (y compris les lignes de défilement définies par l’utilisateur). 
 
-| Contrôler                 | Défilement                                                                                                                                                               |
+| Control                 | Défilement                                                                                                                                                               |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Modifier le contrôle            | Vertical et horizontal.                                                                                                                                                |
 | Contrôle zone de liste        | Vertical et horizontal.                                                                                                                                                |

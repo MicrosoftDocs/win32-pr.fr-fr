@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a224275a581faa35f85094813d0d2378938fdf17398d57ca2eda0d740e748c72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08a8d4050f76219481541d27394fef47434855af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117932524"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403835"
 ---
 # <a name="themeversion"></a>THEMe. version
 
@@ -31,7 +31,7 @@ theme.version
 
 Cet attribut est un **nombre** (**float**). La spécification d’une valeur pour cet attribut au moment du design ou au moment de l’exécution n’a aucun effet. La valeur est toujours 1,0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

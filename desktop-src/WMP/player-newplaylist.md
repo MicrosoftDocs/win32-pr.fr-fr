@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 380d1f2751487f5c648b154852be625a5c93103851541dea7e2488ba75080ca0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa65ae4b453fe919116a33c5ee86b14ba353f681
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118572829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127403998"
 ---
 # <a name="playernewplaylist-method"></a>Player. newPlaylist, méthode
 
@@ -57,7 +57,7 @@ retVal = Player.newPlaylist(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un objet **playlist** .
 
@@ -69,7 +69,7 @@ La nouvelle playlist créée avec cette méthode n’est pas ajoutée à la bibl
 
 Étant donné que la bibliothèque autorise plusieurs sélections portant le même nom, vous souhaiterez peut-être vérifier la présence d’une sélection avec un nom donné avant d’en ajouter une nouvelle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

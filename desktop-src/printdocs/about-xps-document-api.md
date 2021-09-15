@@ -4,12 +4,12 @@ ms.assetid: dbb48dae-1ee6-4a8b-9184-8b796755087e
 title: À propos de l’API de document XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61b2363bba55fed184b1cf80bfc81fac9474444f77c9b867b461940e6b72d8f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e24a93061b7f09697a987aa83be121dac42703c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412832"
 ---
 # <a name="about-xps-document-api"></a>À propos de l’API de document XPS
 

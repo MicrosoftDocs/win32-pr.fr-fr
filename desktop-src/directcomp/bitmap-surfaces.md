@@ -4,12 +4,12 @@ description: Cette rubrique décrit les types de contenu de bitmap que DirectCom
 ms.assetid: BC32CF76-D5E4-4B25-AFD5-42E8DABFA0D0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc36253511c060b264039f27975c694272c1c916ad0067c1955fd02f00553d6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c390778fef1ee7ad96c90a8b7706fa635f3615ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118089049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127524453"
 ---
 # <a name="bitmap-objects"></a>Objets bitmap
 

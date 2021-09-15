@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: a542b6a0432ccf7065d94eeb8ebb3acbd8e2ace22044f2cc8984a1f4b2404299
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d7c175b0c90853a592e0ff979095d41432c16b38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119846079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412817"
 ---
 # <a name="enumprinterdata-function"></a>EnumPrinterData fonction)
 
@@ -128,7 +128,7 @@ Ce paramètre peut avoir la **valeur null** si *PData* a la **valeur null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
@@ -136,7 +136,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur système.
 
 La fonction retourne l’erreur \_ aucun \_ autre \_ élément lorsqu’il n’y a plus de valeurs de données de configuration à récupérer pour un handle d’imprimante spécifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -149,7 +149,7 @@ Les données de configuration de l’imprimante sont stockées dans le registre.
 
 Si vous souhaitez que le système d’exploitation fournisse une taille de mémoire tampon appropriée, appelez d’abord **EnumPrinterData** avec les paramètres *cbValueName* et *cbData* définis sur zéro, comme indiqué plus haut dans la section paramètres. La valeur de *dwIndex* n’a pas d’importance pour cet appel. Quand la fonction retourne, \* *pcbValueName* et \* *pcbData* contiendront des tailles de mémoire tampon suffisamment grandes pour énumérer tous les noms et valeurs de la valeur des données de configuration de l’imprimante. Lors du prochain appel, allouez un nom de valeur et des mémoires tampons de données, définissez *cbValueName* et *cbData* sur les tailles en octets des mémoires tampons allouées, puis définissez *dwIndex* sur zéro. Ensuite, continuez à appeler la fonction **EnumPrinterData** , en incrémentant *dwIndex* à chaque fois, jusqu’à ce que la fonction retourne l’erreur plus \_ aucun \_ \_ élément.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 13bd514396c738f2e5367528dc62833bd3a4dcc195aecf30ee723ea9c09b5bcf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fb069ddb461ab4422f8cbbc8990fb6d735808e62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119596789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412285"
 ---
 # <a name="ianalysisregionclone-method"></a>IAnalysisRegion :: Clone, méthode
 
@@ -46,11 +46,11 @@ Pointeur vers une copie du [**IAnalysisRegion**](ianalysisregion.md).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est eqivalent à theSystem. Windows. Méthode Ink. AnalysisCore. AnalysisRegionBase. Clone dans le .NET Framework.
 
@@ -59,7 +59,7 @@ Cette méthode est eqivalent à theSystem. Windows. Méthode Ink. AnalysisCore. 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

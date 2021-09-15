@@ -6,12 +6,12 @@ keywords:
 - Restauration du système, référence, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b7c5cec61a9d39d33af564d51b1d77b955c48a0a5c567c95b38c68b591176c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 530093c0ce79e8b01f800fec93bcee2f96f27967
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127412315"
 ---
 # <a name="system-restore-functions"></a>Fonctions de restauration du système
 
