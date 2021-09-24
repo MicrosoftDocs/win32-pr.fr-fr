@@ -1,6 +1,6 @@
 ---
 title: Énumération BITS_JOB_PROPERTY_ID (Deliveryoptimization. h)
-description: L’énumération BITS_JOB_PROPERTY_ID spécifie l’ID de la propriété pour le travail DO. Cette énumération est utilisée dans l’Union BITS_JOB_PROPERTY_VALUE pour déterminer le type de valeur contenu dans l’Union.
+description: L’énumération BITS_JOB_PROPERTY_ID spécifie l’ID de la propriété pour la tâche d’optimisation de la remise. Cette énumération est utilisée dans l’Union BITS_JOB_PROPERTY_VALUE pour déterminer le type de valeur contenu dans l’Union.
 ms.assetid: B0F3C6C2-474F-4FD8-990A-770FAA993550
 keywords:
 - Énumération BITS_JOB_PROPERTY_ID
@@ -15,16 +15,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd1d00d4dc12b27c1c80b0e18bb095641a56e322
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 99b463583901882270138408378432fceb636442
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127518012"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520511"
 ---
 # <a name="bits_job_property_id-enumeration"></a>Énumération BITS_JOB_PROPERTY_ID
 
-L’énumération **BITS_JOB_PROPERTY_ID** spécifie l’ID de la propriété pour le travail do. Cette énumération est utilisée dans l’Union [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) pour déterminer le type de valeur contenu dans l’Union.
+L’énumération **BITS_JOB_PROPERTY_ID** spécifie l’ID de la propriété pour la tâche d’optimisation de la remise. Cette énumération est utilisée dans l’Union [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) pour déterminer le type de valeur contenu dans l’Union.
 
 ## <a name="syntax"></a>Syntax
 
@@ -60,7 +60,7 @@ Cette propriété utilise le champ **Dword** **BITS_JOB_PROPERTY_VALUE** s.
 <span id="BITS_JOB_PROPERTY_NOTIFICATION_CLSID"></span><span id="bits_job_property_notification_clsid"></span>**BITS_JOB_PROPERTY_NOTIFICATION_CLSID**
 </dt> <dd>
 
-ID utilisé pour [inscrire un rappel com](https://www.bing.com/search?q=register+a+COM+callback) par CLSID pour recevoir des notifications sur la progression et l’achèvement d’un travail do. Le CLSID doit faire référence à une classe associée à un serveur COM hors processus inscrit. Elle peut également être définie sur **GUID_NULL** pour effacer un CLSID de notification précédemment défini.
+ID utilisé pour [inscrire un rappel com](https://www.bing.com/search?q=register+a+COM+callback) par CLSID pour recevoir des notifications sur la progression et l’achèvement d’une tâche d’optimisation de la remise. Le CLSID doit faire référence à une classe associée à un serveur COM hors processus inscrit. Elle peut également être définie sur **GUID_NULL** pour effacer un CLSID de notification précédemment défini.
 
 Cette propriété utilise le champ **CLsID** **BITS_JOB_PROPERTY_VALUE** .
 

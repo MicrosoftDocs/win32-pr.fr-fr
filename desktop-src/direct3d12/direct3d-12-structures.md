@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 5dd546055c22711ecd9a3796e520ad034e9e46c6
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 7f656a9c8a69a0b684f411729f51d9eef37daad3
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127216388"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520811"
 ---
 # <a name="core-structures"></a>Structures de base
 
@@ -68,7 +68,7 @@ Les structures suivantes sont déclarées dans d3d12. h.
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS10**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options10). Indique si le combinateur de somme peut être utilisé, et si *SV_ShadingRate* peut être défini à partir d’un nuanceur de maille. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS11**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options11). Indique si les nombres entiers 64 bits atomiques sur les ressources des tas de descripteur sont pris en charge. |
 | [**D3D12_FEATURE_DATA_EXISTING_HEAPS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps). Utilisé pour determinine si l’adaptateur prend en charge la création de tas à partir de la mémoire système existante. Ces segments de mémoire ne sont pas destinés à un usage général, mais sont utiles à des fins de diagnostic, car ils sont assurés de persister même après l’erreur de l’adaptateur ou un événement de suppression de l’appareil. |
-| [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Décrit les informations sur les [niveaux de fonctionnalité](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro) pris en charge par le pilote graphique actuel. |
+| [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Décrit les informations sur les [niveaux de fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) pris en charge par le pilote graphique actuel. |
 | [**D3D12_FEATURE_DATA_FORMAT_INFO**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_format_info). Décrit le format de données DXGI. |
 | [**D3D12_FEATURE_DATA_FORMAT_SUPPORT**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_format_support). Décrit les ressources prises en charge par le pilote Graphics actuel pour un format donné. |
 | [**D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support). Détaille les limitations de l’espace d’adressage virtuel du GPU de l’adaptateur, y compris les bits d’adresse maximaux par ressource et par processus. |

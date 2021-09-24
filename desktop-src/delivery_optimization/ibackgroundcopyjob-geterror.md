@@ -17,18 +17,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 016f11023d50d7ea1fa9024e270a7ebce0597e07d5c33a915facae47773759c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 735894b83dfb159fee409fb41d0858c23691d65c
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755509"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520241"
 ---
 # <a name="ibackgroundcopyjobgeterror-method"></a>Méthode ibackgroundcopyjob :: GetError, méthode
 
 Récupère l’interface d’erreur après qu’une erreur s’est produite.
 
-L’optimisation de la remise (DO) génère un objet d’erreur lorsque l’état du travail est BG_JOB_STATE_ERROR ou BG_JOB_STATE_TRANSIENT_ERROR. Le service ne crée pas d’objet d’erreur lorsqu’un appel à une méthode d’interface **IBackgroundCopyXXXX** échoue. L’objet d’erreur est disponible jusqu’à ce que commence à transférer les données (l’état du travail passe à BG_JOB_STATE_TRANSFERRING) pour le travail ou jusqu’à ce que votre application se ferme.
+L’optimisation de la distribution génère un objet d’erreur lorsque l’état du travail est BG_JOB_STATE_ERROR ou BG_JOB_STATE_TRANSIENT_ERROR. Le service ne crée pas d’objet d’erreur lorsqu’un appel à une méthode d’interface **IBackgroundCopyXXXX** échoue. L’objet d’erreur est disponible jusqu’à ce que l’optimisation de la remise commence à transférer les données (l’état du travail passe à BG_JOB_STATE_TRANSFERRING) pour le travail ou jusqu’à ce que votre application se termine.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -52,7 +52,7 @@ Interface d’erreur qui fournit le code d’erreur, une description de l’erre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
@@ -61,7 +61,7 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 | Code de retour                                                                                                           | Description                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * * *</dt> </dl>                              | L’objet d’erreur a été généré.<br/>                                                                                                                                                       |
-| <dl> <dt>**DO_E_ERROR_INFORMATION_UNAVAILABLE**</dt> </dl> | L’interface d’erreur n’est disponible qu’après qu’une erreur s’est produite (BG_JOB_STATE_ERROR ou BG_JOB_STATE_TRANSIENT_ERROR) et avant que ne commence à transférer les données (BG_JOB_STATE_TRANSFERRING).<br/> |
+| <dl> <dt>**DO_E_ERROR_INFORMATION_UNAVAILABLE**</dt> </dl> | L’interface d’erreur est disponible uniquement lorsqu’une erreur se produit (BG_JOB_STATE_ERROR ou BG_JOB_STATE_TRANSIENT_ERROR) et avant que l’optimisation de la remise commence à transférer des données (BG_JOB_STATE_TRANSFERRING).<br/> |
 
 
 

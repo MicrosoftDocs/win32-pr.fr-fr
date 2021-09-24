@@ -1,6 +1,6 @@
 ---
 title: Énumération BITS_JOB_TRANSFER_POLICY (Deliveryoptimization. h)
-description: L’énumération BITS_JOB_TRANSFER_POLICY définit les valeurs d’ID correspondant aux propriétés DO.
+description: L’énumération BITS_JOB_TRANSFER_POLICY définit les valeurs d’ID correspondant aux propriétés d’optimisation de la remise.
 ms.assetid: 4811ADBF-F097-4340-BFF2-52CC9556ACF6
 keywords:
 - Énumération BITS_JOB_TRANSFER_POLICY
@@ -16,18 +16,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 455752375b76e574923ccdd96d1d05fc9142c16c
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 8c9efef27820a2a731bb6efdd1a06b7312ca55ae
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127010356"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520326"
 ---
 # <a name="bits_job_transfer_policy-enumeration"></a>Énumération BITS_JOB_TRANSFER_POLICY
 
-L’énumération **BITS_JOB_TRANSFER_POLICY** définit les valeurs d’ID correspondant aux propriétés do.
+L’énumération **BITS_JOB_TRANSFER_POLICY** définit les valeurs d’ID correspondant aux propriétés d’optimisation de la remise.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -81,7 +81,7 @@ Spécifie que le travail sera transféré uniquement lorsque la connectivité es
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

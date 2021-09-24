@@ -4,12 +4,12 @@ ms.assetid: f3f455bb-7563-4920-a728-f75fa5854dc9
 title: Utilisation d’objets d’événement (synchronisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8466ca1104a4d8e6ddaaed3e0618bea3db68bd1954aaf3b859f66fb93a3aac79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50fdca3994aa5ecb6ea2b0a2dde4ba5a2527c7d6
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117765330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521356"
 ---
 # <a name="using-event-objects-synchronization"></a>Utilisation d’objets d’événement (synchronisation)
 
@@ -17,7 +17,7 @@ Les applications peuvent utiliser des [objets d’événement](event-objects.md)
 
 L’exemple suivant utilise des objets d’événement pour empêcher plusieurs threads de lire à partir d’une mémoire tampon partagée pendant qu’un thread principal écrit dans cette mémoire tampon. Tout d’abord, le thread principal utilise la fonction [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) pour créer un objet d’événement de réinitialisation manuelle dont l’état initial est non signalé. Ensuite, il crée plusieurs threads de lecture. Le thread principal effectue une opération d’écriture, puis définit l’objet d’événement à l’état signalé une fois l’écriture terminée.
 
-Avant de commencer une opération de lecture, chaque thread de lecture utilise [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) pour attendre que l’objet d’événement de réinitialisation manuelle soit signalé. Lorsque **WaitForSingleObject** retourne la valeur, cela indique que le thread principal est prêt à commencer son opération de lecture.
+Avant de commencer une opération de lecture, chaque thread de lecture utilise [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) pour attendre que l’objet d’événement de réinitialisation manuelle soit signalé. Lorsque **WaitForSingleObject** retourne la valeur, cela indique que le thread principal est prêt à commencer son opération de lecture.
 
 
 ```C++

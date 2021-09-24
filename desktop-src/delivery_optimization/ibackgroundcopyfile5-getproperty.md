@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 84c6a9f96fc332bda940573bde78d7dd05efeeb1
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: d22e9af42cbb5b6534e27646ed1e038cca5e1169
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126855370"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519859"
 ---
 # <a name="ibackgroundcopyfile5getproperty-method"></a>IBackgroundCopyFile5 :: GetProperty, méthode
 
@@ -62,7 +62,7 @@ Valeur de la propriété, retournée en tant que pointeur vers une BITS_FILE_PRO
 
 Si cette méthode est réussie, elle retourne **S_OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

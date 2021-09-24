@@ -1,6 +1,6 @@
 ---
 title: 'IDeliveryOptimizationJob2 :: GetProperty, méthode'
-description: Retourne une seule propriété du travail DO.
+description: Retourne une seule propriété de la tâche d’optimisation de la remise.
 keywords:
 - GetProperty, méthode
 - Méthode GetProperty, interface IDeliveryOptimizationJob2
@@ -16,16 +16,16 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cdca86cb374eded0eabcc1d623d2218a6dc1f4cd5613a18e16b4ec9ab93156b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b849d4d9871a730e420f95b52f26b73b8e7b7a7
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118811250"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520636"
 ---
 # <a name="ideliveryoptimizationjob2getproperty-method"></a>IDeliveryOptimizationJob2 :: GetProperty, méthode
 
-Cette méthode retourne une seule propriété du travail DO.
+Cette méthode retourne une seule propriété de la tâche d’optimisation de la remise.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,7 +54,7 @@ Valeur de la propriété résultante, stockée dans un type VARIANT.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs HRESULT suivantes.
 

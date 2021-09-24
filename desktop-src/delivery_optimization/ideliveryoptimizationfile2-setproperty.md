@@ -1,6 +1,6 @@
 ---
 title: 'IDeliveryOptimizationFile2 :: SetProperty, méthode'
-description: 'Cette méthode retourne une seule propriété du fichier DO. | IDeliveryOptimizationFile2 :: SetProperty, méthode'
+description: 'Cette méthode retourne une seule propriété du fichier d’optimisation de la remise. | IDeliveryOptimizationFile2 :: SetProperty, méthode'
 keywords:
 - SetProperty (méthode)
 - SetProperty, méthode, interface IDeliveryOptimizationFile2
@@ -16,16 +16,16 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 99ed42acb94f260e229abfe9df428aaa61d3658cb887892b84bb73fd6e7e63e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9c392c603ed067520b0f189dfbf547bc12ee80a
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635719"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520821"
 ---
 # <a name="ideliveryoptimizationfile2setproperty-method"></a>IDeliveryOptimizationFile2 :: SetProperty, méthode
 
-Cette méthode retourne une seule propriété du fichier DO.
+Cette méthode retourne une seule propriété du fichier d’optimisation de la remise.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,7 +54,7 @@ Valeur de la propriété à définir, de type VARIANT.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs HRESULT suivantes.
 

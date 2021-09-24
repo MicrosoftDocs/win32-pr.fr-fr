@@ -1,19 +1,19 @@
 ---
-title: Valeurs retournées
-description: Les constantes ci-dessous représentent des valeurs de retour que l’optimisation de remise (DO) génère et des valeurs de retour HTTP qui EFFECTUEnt des captures.
+title: Valeurs de retour de l’optimisation de la remise
+description: Les constantes ci-dessous représentent les valeurs de retour générées par l’optimisation de la distribution et les valeurs de retour HTTP que capture l’optimisation de la remise.
 ms.assetid: 68AC4581-C748-49AB-A588-15816E534756
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e16dc435fa22268d92c4403709a5444b1b87e325d66429da853844fd7f836b40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea19de6920d7c80dbcf874c008d36acd8d46aded
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118101850"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521216"
 ---
-# <a name="do-return-values"></a>Valeurs retournées
+# <a name="delivery-optimization-return-values"></a>Valeurs de retour de l’optimisation de la remise
 
-Les constantes ci-dessous représentent des valeurs de retour que l’optimisation de remise (DO) génère et des valeurs de retour HTTP qui EFFECTUEnt des captures. toutes les autres valeurs de retour que vous pouvez recevoir sont COM, RPC, ou converties Windows les valeurs de retour (utilisez la macro [HRESULT_FROM_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) pour convertir les valeurs de retour Windows en valeurs HRESULT).
+Les constantes ci-dessous représentent les valeurs de retour générées par l’optimisation de la distribution et les valeurs de retour HTTP que capture l’optimisation de la remise. toutes les autres valeurs de retour que vous pouvez recevoir sont COM, RPC, ou converties Windows valeurs de retour (l’optimisation de la distribution utilise la macro [HRESULT_FROM_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) pour convertir les valeurs de retour Windows en valeurs HRESULT).
 
 <dl> <dt>
 
@@ -97,42 +97,42 @@ Le travail de téléchargement n’est pas autorisé en raison des paramètres u
 <span id="DO_E_BLOCKED_BY_COST_TRANSFER_POLICY__0x80d03801_"></span><span id="do_e_blocked_by_cost_transfer_policy__0x80d03801_"></span><span id="DO_E_BLOCKED_BY_COST_TRANSFER_POLICY__0X80D03801_"></span>DO_E_BLOCKED_BY_COST_TRANSFER_POLICY (0x80d03801)
 </dt> <dd>
 
-Suspendez le travail en raison de restrictions de stratégie de coût.
+L’optimisation de la remise a suspendu le travail en raison de restrictions de stratégie de coût.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_CELLULAR_POLICY__0x80d03803_"></span><span id="do_e_blocked_by_cellular_policy__0x80d03803_"></span><span id="DO_E_BLOCKED_BY_CELLULAR_POLICY__0X80D03803_"></span>DO_E_BLOCKED_BY_CELLULAR_POLICY (0x80d03803)
 </dt> <dd>
 
-Suspendez le travail en raison de la détection des restrictions de réseau cellulaire et de stratégie.
+L’optimisation de la distribution a suspendu le travail en raison de la détection des restrictions de réseau cellulaire et de stratégie.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_POWER_STATE__0x80d03804_"></span><span id="do_e_blocked_by_power_state__0x80d03804_"></span><span id="DO_E_BLOCKED_BY_POWER_STATE__0X80D03804_"></span>DO_E_BLOCKED_BY_POWER_STATE (0x80d03804)
 </dt> <dd>
 
-La tâche a été suspendue en raison de la détection du changement d’état d’alimentation en mode non AC.
+L’optimisation de la distribution a suspendu le travail en raison de la détection du changement d’état d’alimentation en mode non AC.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_NO_NETWORK__0x80d03805_"></span><span id="do_e_blocked_by_no_network__0x80d03805_"></span><span id="DO_E_BLOCKED_BY_NO_NETWORK__0X80D03805_"></span>DO_E_BLOCKED_BY_NO_NETWORK (0x80d03805)
 </dt> <dd>
 
-Interrompez le travail en raison d’une perte de connectivité réseau.
+L’optimisation de la remise a suspendu le travail en raison d’une perte de connectivité réseau.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_VPN_POLICY__0x80d03807_"></span><span id="do_e_blocked_by_vpn_policy__0x80d03807_"></span><span id="DO_E_BLOCKED_BY_VPN_POLICY__0X80D03807_"></span>DO_E_BLOCKED_BY_VPN_POLICY (0x80d03807)
 </dt> <dd>
 
-La tâche terminée a été suspendue en raison de la détection du réseau VPN.
+L’optimisation de la remise a suspendu la tâche terminée en raison de la détection du réseau VPN.
 
 </dd> <dt>
 
 <span id="DO_E_BLOCKED_BY_CRITICAL_MEMORY_USAGE__0x80d03808_"></span><span id="do_e_blocked_by_critical_memory_usage__0x80d03808_"></span><span id="DO_E_BLOCKED_BY_CRITICAL_MEMORY_USAGE__0X80D03808_"></span>DO_E_BLOCKED_BY_CRITICAL_MEMORY_USAGE (0x80d03808)
 </dt> <dd>
 
-La tâche terminée a été suspendue en raison de la détection de l’utilisation de la mémoire critique sur le système.
+L’optimisation de la remise a suspendu la tâche terminée en raison de la détection de l’utilisation de la mémoire critique sur le système.
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ La plage d’octets spécifiée n’est pas valide.
 <span id="DO_E_INSUFFICIENT_RANGE_SUPPORT__0x80d05011_"></span><span id="do_e_insufficient_range_support__0x80d05011_"></span><span id="DO_E_INSUFFICIENT_RANGE_SUPPORT__0X80D05011_"></span>DO_E_INSUFFICIENT_RANGE_SUPPORT (0x80d05011)
 </dt> <dd>
 
-Le serveur ne prend pas en charge le protocole HTTP requis. L’optimisation de la remise (DO) requiert que le serveur prenne en charge l’en-tête de protocole Range.
+Le serveur ne prend pas en charge le protocole HTTP requis. L’optimisation de la distribution exige que le serveur prenne en charge l’en-tête de protocole Range.
 
 </dd> <dt>
 

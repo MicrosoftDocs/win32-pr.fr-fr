@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 593f06f74dde7e6891417871cd16dc3730ef005fb90a0a1b6cf5377fda7ebcd0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4bde9b7991911c0589b3df668133d9092484bbb2
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119461969"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520626"
 ---
 # <a name="ibackgroundcopyjob5-interface"></a>Interface IBackgroundCopyJob5
 
@@ -43,8 +43,8 @@ L’interface **IBackgroundCopyJob5** possède ces méthodes.
 
 | Méthode                                                 | Description                                                |
 |:-------------------------------------------------------|:-----------------------------------------------------------|
-| [**GetProperty**](ibackgroundcopyjob5-getproperty.md) | Méthode générique pour l’obtention des propriétés de tâche DO.<br/> |
-| [**SetProperty**](ibackgroundcopyjob5-setproperty.md) | Méthode générique pour définir les propriétés d’un travail.<br/> |
+| [**GetProperty**](ibackgroundcopyjob5-getproperty.md) | Méthode générique pour l’obtention des propriétés de tâche d’optimisation de la remise.<br/> |
+| [**SetProperty**](ibackgroundcopyjob5-setproperty.md) | Méthode générique pour définir les propriétés de la tâche d’optimisation de la remise.<br/> |
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Interface IBackgroundCopyFile5 (Deliveryoptimization. h)
-description: Utilisez cette interface pour récupérer ou définir les propriétés génériques des transferts de fichiers d’optimisation de la remise (DO).
+description: Utilisez cette interface pour récupérer ou définir les propriétés génériques des transferts de fichiers d’optimisation de la remise.
 ms.assetid: 2D729717-62D2-4C69-92FE-F4289EC48DF1
 keywords:
 - Interface IBackgroundCopyFile5
@@ -16,16 +16,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2f23fdb99ba24b4faeca7a65930bf83d4634a979
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 8274d256399efbf03f1365e55609bc601590ee47
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126852327"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519941"
 ---
 # <a name="ibackgroundcopyfile5-interface"></a>Interface IBackgroundCopyFile5
 
-Utilisez cette interface pour récupérer ou définir les propriétés génériques des transferts de fichiers d’optimisation de la remise (DO).
+Utilisez cette interface pour récupérer ou définir les propriétés génériques des transferts de fichiers d’optimisation de la remise.
 
 Pour obtenir un pointeur d’interface **IBackgroundCopyFile5** , appelez la méthode **IBackgroundCopyFile :: QueryInterface** à l’aide de __uuidof (IBackgroundCopyFile5) pour l’identificateur d’interface.
 
@@ -50,7 +50,7 @@ L’interface **IBackgroundCopyFile5** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

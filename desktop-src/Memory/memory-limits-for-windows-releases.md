@@ -3,36 +3,17 @@ description: cette rubrique décrit les limites de mémoire pour les versions Wi
 ms.assetid: de09c8af-0ed8-4fd4-b8e8-2c921aafe6f2
 title: Limites de mémoire pour les versions de Windows et de Windows Server
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: d09db7d303468247794807629d3a56e786c4ada6
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.date: 09/10/2021
+ms.openlocfilehash: c53c6f1c805cdf92bdaf066cccf017044c5f8912
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127094122"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519915"
 ---
 # <a name="memory-limits-for-windows-and-windows-server-releases"></a>Limites de mémoire pour les versions de Windows et de Windows Server
 
 cette rubrique décrit les limites de mémoire pour les versions Windows et Windows Server prises en charge.
-
--   [Mémoire et limites de l’espace d’adressage](#memory-limits-for-windows-and-windows-server-releases)
--   [Limites de la mémoire physique : Windows 10](#physical-memory-limits-windows-10)
--   [Limites de la mémoire physique : Windows Server 2016](#physical-memory-limits-windows-server-2016)
--   [Limites de la mémoire physique : Windows 8](#physical-memory-limits-windows-8)
--   [Limites de la mémoire physique : Windows Server 2012](#physical-memory-limits-windows-server-2012)
--   [limites de la mémoire physique : Windows 7](#physical-memory-limits-windows-7)
--   [limites de la mémoire physique : Windows Server 2008 R2](#physical-memory-limits-windows-server-2008-r2)
--   [limites de la mémoire physique : Windows Server 2008](#physical-memory-limits-windows-server-2008-r2)
--   [limites de la mémoire physique : Windows Vista](#physical-memory-limits-windows-vista)
--   [limites de la mémoire physique : Windows serveur d’hébergement](#physical-memory-limits-windows-home-server)
--   [limites de la mémoire physique : Windows Server 2003 R2](#physical-memory-limits-windows-server-2003-r2)
--   [limites de la mémoire physique : Windows Server 2003 avec Service Pack 2 (SP2)](#physical-memory-limits-windows-server-2003-with-service-pack-2-sp2)
--   [limites de la mémoire physique : Windows Server 2003 avec Service Pack 1 (SP1)](#physical-memory-limits-windows-server-2003-with-service-pack-1-sp1)
--   [limites de la mémoire physique : Windows Server 2003](#physical-memory-limits-windows-server-2003-r2)
--   [limites de la mémoire physique : Windows XP](#physical-memory-limits-windows-xp)
--   [limites de la mémoire physique : Windows incorporée](#physical-memory-limits-windows-embedded)
--   [Comment les cartes graphiques et les autres périphériques affectent les limites de mémoire](#how-graphics-cards-and-other-devices-affect-memory-limits)
--   [Rubriques connexes](#related-topics)
 
 Les limites de la mémoire et de l’espace d’adressage varient en fonction de la plateforme, du système d’exploitation et de l’utilisation de la valeur de **\_ \_ grande \_ adresse \_ sensible au fichier image** de la structure d' [**\_ image chargée**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) et du [réglage à 4 gigaoctets](4-gigabyte-tuning.md) (4GT). **Image \_ La prise en \_ \_ \_ charge d’adresses volumineuses** est définie ou effacée à l’aide de l’option de l’éditeur de liens [/LARGEADDRESSAWARE](/cpp/build/reference/largeaddressaware-handle-large-addresses?view=vs-2019) .
 
@@ -70,7 +51,7 @@ Le tableau suivant spécifie les limites de la mémoire physique pour Windows 10
 | Windows 10 Entreprise | 4 Go<br/> | 6 To<br/>   |
 | Windows 10 Éducation  | 4 Go<br/> | 2 To<br/>   |
 | Windows 10 Professionnel pour les Stations de travail  | 4 Go<br/> | 6 To<br/>   |
-| Windows 10 Pro        | 4 Go<br/> | 2 To<br/>   |
+| Windows 10 Professionnel        | 4 Go<br/> | 2 To<br/>   |
 | Windows 10 Famille       | 4 Go<br/> | 128 Go<br/> |
 
 

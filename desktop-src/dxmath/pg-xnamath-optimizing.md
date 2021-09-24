@@ -4,12 +4,12 @@ ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Optimisation du code avec la bibliothèque DirectXMath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263434b5e7295f630f284517299cec036b33b064d35dc5085a83d67c8244366a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c88657115f026eee4c4ce8dd51075c03a50e272
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984719"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520646"
 ---
 # <a name="code-optimization-with-the-directxmath-library"></a>Optimisation du code avec la bibliothèque DirectXMath
 
@@ -63,7 +63,7 @@ Les versions alignées des intrinsèques [SSE](/previous-versions/visualstudio/v
 
 Pour cette raison, les opérations DirectXMath utilisant des objets [**XMVECTOR**](xmvector-data-type.md) et [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) supposent que ces objets sont alignés sur 16 octets. cela est automatique pour les allocations basées sur la pile, si le code est compilé par rapport à la bibliothèque DirectXMath à l’aide de la Windows recommandée (consultez [utiliser la Compilation correcte Paramètres](#use-correct-compilation-settings)) paramètres du compilateur. Toutefois, il est important de s’assurer que l’allocation du tas contenant les objets **XMVECTOR** et **XMMATRIX** , ou les casts vers ces types, répondent à ces exigences d’alignement.
 
-alors que les allocations de mémoire 64 bits Windows sont alignées sur 16 octets, par défaut sur les versions 32 bits de Windows mémoire allouée est uniquement alignée sur 8 octets. Pour plus d’informations sur le contrôle de l’alignement de la mémoire, consultez [ \_ \_ malloc aligné](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc).
+alors que les allocations de mémoire 64 bits Windows sont alignées sur 16 octets, par défaut sur les versions 32 bits de Windows mémoire allouée est uniquement alignée sur 8 octets. Pour plus d’informations sur le contrôle de l’alignement de la mémoire, consultez [ \_ \_ malloc aligné](/cpp/c-runtime-library/reference/aligned-malloc).
 
 Lorsque vous utilisez des types DirectXMath alignés avec la bibliothèque STL (Standard Template Library), vous devez fournir un allocateur personnalisé qui garantit l’alignement sur 16 octets. Consultez le [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) de l’équipe Visual C++ pour obtenir un exemple d’écriture d’un allocateur personnalisé (au lieu de malloc/Free, vous souhaiterez utiliser \_ \_ le malloc aligné et l' \_ alignement \_ gratuit dans votre implémentation).
 
@@ -141,7 +141,3 @@ Une utilisation courante de DirectXMath consiste à effectuer des calculs graphi
 
 [Guide de programmation DirectXMath](ovw-xnamath-progguide.md)
 </dt> </dl>
-
- 
-
- 

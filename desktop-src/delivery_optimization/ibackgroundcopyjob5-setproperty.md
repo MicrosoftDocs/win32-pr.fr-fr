@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob5 SetProperty, méthode (Deliveryoptimization. h)
-description: Méthode générique pour définir les propriétés d’une tâche d’optimisation de la remise.
+description: Méthode générique pour définir les propriétés de la tâche d’optimisation de la remise.
 ms.assetid: 9A8CCE04-B3EB-43CC-A135-7054EC40ABEC
 keywords:
 - SetProperty (méthode)
@@ -17,16 +17,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f9b7dab17780572a59e12dde9905c3d8db23895e6564aac47cb6eb2d984bfaf3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b006ab3c4e53db1a9e76d35c8812ec32f09dffa
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118542682"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520499"
 ---
 # <a name="ibackgroundcopyjob5setproperty-method"></a>IBackgroundCopyJob5 :: SetProperty, méthode
 
-Méthode générique pour définir les propriétés d’une tâche d’optimisation de la remise.
+Méthode générique pour définir les propriétés de la tâche d’optimisation de la remise.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,7 +58,7 @@ Valeur de la propriété qui est définie. Pour stocker une valeur dont le type 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne les valeurs de retour suivantes.
 

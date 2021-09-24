@@ -16,18 +16,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1f35365d56ce9391a746e479e1b59034342ebf62
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 853ce5b6c1dfb9c90b7a5800f41a8a54fe094c0f
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127124497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520261"
 ---
 # <a name="ibackgroundcopyerror-interface"></a>Interface IBackgroundCopyError
 
 Utilisez l’interface **IBackgroundCopyError** pour déterminer la cause d’une erreur et si le processus de transfert peut se poursuivre.
 
-Crée un objet d’erreur uniquement lorsque l’état du travail est BG_JOB_STATE_ERROR ou BG_JOB_STATE_TRANSIENT_ERROR. NE créez pas d’objet d’erreur lorsqu’une méthode d’interface **IBackgroundCopyXXXX** échoue. L’objet d’erreur est disponible jusqu’à ce que commence à transférer les données (l’état du travail passe à BG_JOB_STATE_TRANSFERRING) pour le travail.
+L’optimisation de la distribution crée un objet d’erreur uniquement lorsque l’état du travail est BG_JOB_STATE_ERROR ou BG_JOB_STATE_TRANSIENT_ERROR. L’optimisation de la distribution ne crée pas d’objet d’erreur lorsqu’une méthode d’interface **IBackgroundCopyXXXX** échoue. L’objet d’erreur est disponible jusqu’à ce que l’optimisation de la remise commence à transférer les données (l’état du travail passe à BG_JOB_STATE_TRANSFERRING) pour le travail.
 
 Pour récupérer un objet **IBackgroundCopyError** , appelez la méthode [**méthode ibackgroundcopyjob :: GetError**](ibackgroundcopyjob-geterror.md) .
 
@@ -52,7 +52,7 @@ L’interface **IBackgroundCopyError** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4169acec87e4d1e8a31eecaa4f93b9404aafb714
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: f6bfb59e18c9b15730667c7c3c7d08ee3cbd0105
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127517605"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521376"
 ---
 # <a name="ibackgroundcopycallback-interface"></a>Interface IBackgroundCopyCallback
 
@@ -49,13 +49,13 @@ L’interface **IBackgroundCopyCallback** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir des notifications, appelez la méthode [**méthode ibackgroundcopyjob :: SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) pour spécifier le pointeur d’interface vers votre implémentation **IBackgroundCopyCallback** . Pour spécifier les notifications que vous souhaitez recevoir, appelez la méthode [**méthode ibackgroundcopyjob :: SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) .
 
-Appelez vos rappels tant que le pointeur d’interface est valide. L’interface de notification n’est plus valide lorsque votre application se termine ; Ne conserve pas l’interface Notify. Par conséquent, le processus d’initialisation de votre application doit appeler la méthode [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) sur les tâches existantes pour lesquelles vous souhaitez recevoir des notifications.
+L’optimisation de la distribution appellera vos rappels tant que le pointeur d’interface est valide. L’interface de notification n’est plus valide lorsque votre application se termine ; L’optimisation de la remise ne rend pas l’interface de notification persistante. Par conséquent, le processus d’initialisation de votre application doit appeler la méthode [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) sur les tâches existantes pour lesquelles vous souhaitez recevoir des notifications.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

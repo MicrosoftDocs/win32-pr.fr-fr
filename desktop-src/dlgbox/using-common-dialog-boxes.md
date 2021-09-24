@@ -7,12 +7,12 @@ keywords:
 - boîtes de dialogue communes, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da09fcc99cdde617c3fbdaf34e4465d9a768b0073c5dbd6d461a19060ca92bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d5652c87ab3a8549513f70512e17b344d99a3e2
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985299"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521266"
 ---
 # <a name="using-common-dialog-boxes"></a>Utilisation des boîtes de dialogue communes
 
@@ -105,9 +105,7 @@ if (ChooseFont(&cf)==TRUE)
 ## <a name="opening-a-file"></a>Ouverture d’un fichier
 
 > [!Note]  
-> à partir de Windows Vista, la boîte de dialogue de fichier commune a été remplacée par la boîte de dialogue d’élément commune lorsqu’elle est utilisée pour ouvrir un fichier. Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de l’API de la boîte de dialogue de fichier commune. Pour plus d’informations, consultez [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog).
-
- 
+> à partir de Windows Vista, la boîte de dialogue de fichier commune a été remplacée par la boîte de dialogue d’élément commune lorsqu’elle est utilisée pour ouvrir un fichier. Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de l’API de la boîte de dialogue de fichier commune. Pour plus d’informations, consultez [boîte de dialogue élément commun](../shell/common-file-dialog.md).
 
 Cette rubrique décrit un exemple de code qui affiche une boîte de dialogue **ouvrir** pour permettre à un utilisateur de spécifier le lecteur, le répertoire et le nom d’un fichier à ouvrir. L’exemple de code initialise d’abord une structure [**OpenFileName**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) , puis appelle la fonction [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) pour afficher la boîte de dialogue.
 
@@ -427,9 +425,3 @@ if (message == uFindReplaceMsg)
     return 0; 
 }
 ```
-
-
-
- 
-
- 

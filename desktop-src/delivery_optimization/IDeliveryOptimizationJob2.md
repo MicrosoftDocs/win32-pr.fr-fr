@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4960b754d70aa8ff16e60fc8614fba455f57768caa261d3b50c8c78093919626
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7868dc29a746566291a10f6b8f8854f33fe2221f
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118811140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521186"
 ---
 # <a name="ideliveryoptimizationjob2-interface"></a>Interface IDeliveryOptimizationJob2
 
@@ -37,11 +37,11 @@ L’interface **IDeliveryOptimizationJob2** possède ces méthodes.
 
 | Méthode                                              | Description                                                          |
 |:----------------------------------------------------|----------------------------------------------------------------------|
-| [**AddFile**](ideliveryoptimizationjob2-addfile.md) | La méthode AddFile ajoute un seul fichier à une tâche DO existante.         |
-| [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | La méthode AddFile ajoute un seul fichier à une tâche DO existante. |
+| [**AddFile**](ideliveryoptimizationjob2-addfile.md) | La méthode AddFile ajoute un seul fichier à une tâche d’optimisation de la remise existante.         |
+| [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | La méthode AddFile ajoute un seul fichier à une tâche d’optimisation de la remise existante. |
 | [**SetProperty**](ideliveryoptimizationjob2-setproperty.md) | Cette méthode n’est pas utilisée.                                       |
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |--------------------------|----------------------------------------------------------------------------------|

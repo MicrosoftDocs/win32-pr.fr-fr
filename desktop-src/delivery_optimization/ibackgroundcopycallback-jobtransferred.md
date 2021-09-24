@@ -1,6 +1,6 @@
 ---
 title: Méthode IBackgroundCopyCallback JobTransferred (Deliveryoptimization. h)
-description: L’optimisation de la remise (DO) appelle votre implémentation de la méthode JobTransferred lorsque tous les fichiers du travail ont été transférés avec succès.
+description: L’optimisation de la distribution appelle votre implémentation de la méthode JobTransferred lorsque tous les fichiers du travail ont été transférés avec succès.
 ms.assetid: D3088279-2D26-4707-9BA2-19D2758EA1CC
 keywords:
 - Méthode JobTransferred
@@ -17,16 +17,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c5c358978da1731152ca6f7de8c3f7a92a1da86
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 5af8b1f6c9448da7141c041c52bd8ae3620f1360
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127517608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521236"
 ---
 # <a name="ibackgroundcopycallbackjobtransferred-method"></a>IBackgroundCopyCallback :: JobTransferred, méthode
 
-L’optimisation de la remise (DO) appelle votre implémentation de la méthode **JobTransferred** lorsque tous les fichiers du travail ont été transférés avec succès.
+L’optimisation de la distribution appelle votre implémentation de la méthode **JobTransferred** lorsque tous les fichiers du travail ont été transférés avec succès.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -46,7 +46,7 @@ HRESULT JobTransferred(
 *pJob* \[ dans\]
 </dt> <dd>
 
-Contient des informations relatives au travail, telles que l’heure de fin du travail, le nombre d’octets transférés et le nombre de fichiers transférés. Ne libérez pas *pJob*; Libère l’interface lorsque la méthode est retournée.
+Contient des informations relatives au travail, telles que l’heure de fin du travail, le nombre d’octets transférés et le nombre de fichiers transférés. Ne libérez pas *pJob*; L’optimisation de la distribution libère l’interface lorsque la méthode est retournée.
 
 </dd> </dl>
 
@@ -54,13 +54,13 @@ Contient des informations relatives au travail, telles que l’heure de fin du t
 
 Cette méthode doit retourner S_OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-En règle générale, votre implémentation doit appeler la méthode [**méthode ibackgroundcopyjob :: Complete**](ibackgroundcopyjob-complete.md) pour confirmer que les fichiers ont été transférés avec succès. Les fichiers téléchargés et le fichier de réponse ne sont pas disponibles sur le client tant que vous n’avez pas appelé la méthode **Complete** .
+En général, votre implémentation doit appeler la méthode [**méthode ibackgroundcopyjob :: Complete**](ibackgroundcopyjob-complete.md) pour confirmer que l’optimisation de la remise a réussi à transférer les fichiers. Les fichiers téléchargés et le fichier de réponse ne sont pas disponibles sur le client tant que vous n’avez pas appelé la méthode **Complete** .
 
-Si vous n’appelez pas la méthode [**Complete**](ibackgroundcopyjob-complete.md) ou si la méthode [**méthode ibackgroundcopyjob :: Cancel**](ibackgroundcopyjob-cancel.md) annule le travail au bout de 30 jours et supprime les fichiers incomplets.
+Si vous n’appelez pas la méthode [**Complete**](ibackgroundcopyjob-complete.md) ou si l’optimisation de la livraison de la méthode [**méthode ibackgroundcopyjob :: Cancel**](ibackgroundcopyjob-cancel.md) annule le travail au bout de 30 jours et supprime les fichiers incomplets.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

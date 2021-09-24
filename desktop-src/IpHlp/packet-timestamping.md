@@ -3,12 +3,12 @@ title: Horodatage des paquets
 description: Les API d’horodatage des paquets d’assistance IP permettent de déterminer la capacité d’horodatage d’une carte réseau et d’interroger les horodateurs à partir de la carte réseau sous la forme d’horodateurs croisés.
 ms.topic: article
 ms.date: 01/19/2021
-ms.openlocfilehash: 12da7189dbae5f38085cdf4ad5f8e9ac1214cff7ddd0b683ecd97b70b2786c51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 09fde15293fee21bc61fd02c307e2bc4d13800ce
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519632"
 ---
 # <a name="packet-timestamping"></a>Horodatage des paquets
 
@@ -18,7 +18,7 @@ De nombreuses cartes d’interface réseau (cartes réseau ou cartes réseau) pe
 
 Les horodateurs peuvent, par exemple, être utilisés pour calculer le temps passé par un paquet au sein de la pile réseau de l’ordinateur avant d’être envoyé ou reçu à partir du câble. Ces calculs peuvent ensuite être utilisés par PTP pour améliorer la précision de la synchronisation de l’heure. La prise en charge de l’horodatage des paquets des cartes réseau est parfois conçue spécifiquement pour le protocole PTP. Dans d’autres cas, une prise en charge plus générale est fournie.
 
-les api d’horodatage offrent Windows la capacité de prendre en charge la fonction d’horodatage matériel des cartes réseau pour le protocole PTP version 2. globalement, les fonctionnalités incluent la possibilité pour les pilotes de cartes réseau de prendre en charge les horodateurs, et pour les applications en mode utilisateur de consommer les horodateurs associés aux paquets par le biais de [Windows sockets](/windows/win32/winsock/windows-sockets-start-page-2) (voir [horodatage Winsock](/windows/win32/winsock/winsock-timestamping)). En outre, la possibilité de générer des horodateurs logicielles est également disponible, ce qui permet à un pilote réseau de générer des horodateurs dans le logiciel. Ces horodateurs de logiciel sont générés par les pilotes de carte réseau à l’aide de l’équivalent en mode noyau de [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) (QPC). Toutefois, l’activation conjointe des horodateurs matériel *et* logiciel n’est pas prise en charge.
+les api d’horodatage offrent Windows la capacité de prendre en charge la fonction d’horodatage matériel des cartes réseau pour le protocole PTP version 2. globalement, les fonctionnalités incluent la possibilité pour les pilotes de cartes réseau de prendre en charge les horodateurs, et pour les applications en mode utilisateur de consommer les horodateurs associés aux paquets par le biais de [Windows sockets](../winsock/windows-sockets-start-page-2.md) (voir [horodatage Winsock](../winsock/winsock-timestamping.md)). En outre, la possibilité de générer des horodateurs logicielles est également disponible, ce qui permet à un pilote réseau de générer des horodateurs dans le logiciel. Ces horodateurs de logiciel sont générés par les pilotes de carte réseau à l’aide de l’équivalent en mode noyau de [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) (QPC). Toutefois, l’activation conjointe des horodateurs matériel *et* logiciel n’est pas prise en charge.
 
 En particulier, les API d’horodatage des paquets de l’application auxiliaire du protocole Internet (IP Helper) décrites dans cette rubrique permettent aux applications en mode utilisateur de déterminer la capacité d’horodatage d’une carte réseau et d’interroger les horodateurs à partir de la carte réseau sous la forme d’horodateurs croisés (décrits ci-dessous).
 

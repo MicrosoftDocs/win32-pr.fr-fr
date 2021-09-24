@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/02/2021
-ms.openlocfilehash: 99ffe747a6cd916f82e3d2ae52f9fa368203da91
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 59601833259279d6086c35f075f800e666f04aef
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127521732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520087"
 ---
 # <a name="d3dx12_mesh_shader_pipeline_state_desc-structure"></a>Structure D3DX12_MESH_SHADER_PIPELINE_STATE_DESC
 
@@ -87,7 +87,7 @@ Décrit l’état de fusion.
 
 `SampleMask`
 
-Type : **[uint](/windows/win32/winprog/windows-data-types)**
+Type : **[uint](../winprog/windows-data-types.md)**
 
 Exemple de masque pour l’état de fusion.
 
@@ -111,7 +111,7 @@ Décrit le type et l’ordre des données Primitives.
 
 `NumRenderTargets`
 
-Type : **[uint](/windows/win32/winprog/windows-data-types)**
+Type : **[uint](../winprog/windows-data-types.md)**
 
 Nombre de formats de cible de rendu dans le membre *RTVFormats* .
 
@@ -145,7 +145,7 @@ Type : **[D3D12_PIPELINE_STATE_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_p
 
 Constante d’énumération d’indicateur (par exemple, pour indiquer que l’état du pipeline doit être compilé avec des informations supplémentaires pour faciliter le débogage).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

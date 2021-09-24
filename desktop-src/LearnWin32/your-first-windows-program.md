@@ -3,13 +3,13 @@ title: Module 1. votre premier programme de Windows
 description: Module 1. votre premier programme de Windows
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 6515b012f968707379ebf24023c3d282c50d6fd6
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.date: 09/10/2021
+ms.openlocfilehash: da2f3f549955cd7d07a218d882fbf996ffcce8e9
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127094249"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520719"
 ---
 # <a name="module-1-your-first-windows-program"></a>Module 1. votre premier programme de Windows
 

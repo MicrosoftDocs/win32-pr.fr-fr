@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 72ace8890e724e529e96c5292a439042f13bc2bfad77e6d990a6dbb2fa18f5d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f55afa5a95659df922d80a6894ed1586ceab0cbc
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736224"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520489"
 ---
 # <a name="ibackgroundcopyjobcomplete-method"></a>Méthode ibackgroundcopyjob :: Complete, méthode
 
@@ -41,7 +41,7 @@ HRESULT Complete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs **HRESULT** suivantes. La méthode peut également retourner des erreurs liées au changement du nom des copies temporaires des fichiers transférés en leurs noms donnés.
 
@@ -60,9 +60,9 @@ Cette méthode retourne les valeurs **HRESULT** suivantes. La méthode peut éga
 
 Tous les fichiers ont été transférés avec succès si l’état du travail est **BG_JOB_STATE_TRANSFERRED**. Pour vérifier l’état de la tâche, appelez la méthode [**méthode ibackgroundcopyjob :: GetState**](ibackgroundcopyjob-getstate.md) . Vous pouvez également implémenter l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) pour recevoir une notification lorsque tous les fichiers ont été transférés au client.
 
-Conserve uniquement les tâches qui sont inférieures à 30 jours. Tous les travaux plus anciens seront supprimés. Ne prend pas en charge le stratégie de groupe [paramètre jobinactivitytimeout](https://www.bing.com/search?q=JobInactivityTimeout) .
+L’optimisation de la distribution conserve uniquement les tâches qui sont inférieures à 30 jours. Tous les travaux plus anciens seront supprimés. L’optimisation de la distribution ne prend pas en charge le stratégie de groupe [paramètre jobinactivitytimeout](https://www.bing.com/search?q=JobInactivityTimeout) .
 
-Pour les travaux de téléchargement, vous pouvez appeler la méthode **complète** à tout moment pendant le processus de transfert. Toutefois, seuls les fichiers qui ont été transférés vers le client avant l’appel de cette méthode sont enregistrés. Par exemple, si vous appelez la méthode **Complete** pendant que effectue le traitement du troisième des cinq fichiers, seuls les deux premiers fichiers sont enregistrés. Pour déterminer les fichiers qui ont été transférés, appelez la méthode [**IBackgroundCopyFile :: GetProgress**](ibackgroundcopyfile-getprogress-method.md) et comparez le membre **bytesTransferred** au membre **bytesTotal** de la structure [**BG_FILE_PROGRESS**](bg-file-progress.md) .
+Pour les travaux de téléchargement, vous pouvez appeler la méthode **complète** à tout moment pendant le processus de transfert. Toutefois, seuls les fichiers qui ont été transférés vers le client avant l’appel de cette méthode sont enregistrés. Par exemple, si vous appelez la méthode **Complete** alors que l’optimisation de la distribution traite le troisième des cinq fichiers, seuls les deux premiers fichiers sont enregistrés. Pour déterminer les fichiers qui ont été transférés, appelez la méthode [**IBackgroundCopyFile :: GetProgress**](ibackgroundcopyfile-getprogress-method.md) et comparez le membre **bytesTransferred** au membre **bytesTotal** de la structure [**BG_FILE_PROGRESS**](bg-file-progress.md) .
 
 Pour les travaux de chargement, vous pouvez appeler la méthode **Complete** uniquement lorsque l’état du travail est **BG_JOB_STATE_TRANSFERRED**.
 

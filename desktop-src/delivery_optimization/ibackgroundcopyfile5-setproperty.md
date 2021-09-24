@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7f519ee77af0ae6e0c3d1d036aeeb6a8ad712870
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 4730625c702ee2554b43dd96730287b0322c6f28
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126852328"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520122"
 ---
 # <a name="ibackgroundcopyfile5setproperty-method"></a>IBackgroundCopyFile5 :: SetProperty, méthode
 
@@ -62,7 +62,7 @@ Pointeur vers une Union qui spécifie la valeur à définir. Le membre d’Union
 
 Si cette méthode est réussie, elle retourne **S_OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

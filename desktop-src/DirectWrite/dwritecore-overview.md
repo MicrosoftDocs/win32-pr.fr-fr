@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: bfa23ef41ac2de77901f8601fa0a68f650730403e4dc0bee2f9bbf69d6e1bc9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33533b8dfcc08d7c1234f913e21e6f6fd4f99ee8
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520801"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
@@ -46,7 +46,7 @@ dans Visual Studio, cliquez sur **extensions**  >  **gérer les extensions**, re
 
 pour plus d’informations, consultez [Windows SDK d’application 0,8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0) et [configurer votre environnement de développement](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio).
 
-### <a name="create-a-new-project"></a>Créer un projet
+### <a name="create-a-new-project"></a>Création d'un projet
 
 dans Visual Studio, créez un projet à partir du modèle de projet **application vide, empaqueté (WinUI 3 dans le bureau)** . Vous pouvez trouver ce modèle de projet en choisissant langue : *C++*; plateforme : *Windows kit de développement logiciel (SDK) d’application*; type de projet : *Bureau*.
 
@@ -83,7 +83,7 @@ la version de DWriteCore actuellement disponible fait partie du [kit de dévelop
 - Optimisations diverses (nettoyage du cache des polices, chargeur de police en mémoire, etc.).
 - Prise en charge du soulignement &mdash; consultez [**IDWriteTextLayout :: GetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getunderline) et [**IDWriteTextLayout :: SetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setunderline).
 - Prise en charge du barré &mdash; consultez [**IDWriteTextLayout :: GetStrikethrough**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getstrikethrough) et [**IDWriteTextLayout :: SetStrikethrough**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setstrikethrough).
-- La prise en charge du texte vertical via [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) &mdash; consultez [texte vertical](/windows/win32/directwrite/vertical-text).
+- La prise en charge du texte vertical via [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) &mdash; consultez [texte vertical](./vertical-text.md).
 - Toutes les méthodes des interfaces [**IDWriteTextAnalyzer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer) et [**IDWriteTextAnalyzer1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1) sont implémentées.
 
 Une fonctionnalité de bannière est une police de couleurs. Les polices de couleur vous permettent de restituer vos polices avec des fonctionnalités de couleur plus sophistiquées que des couleurs simples simples. par exemple, les polices de couleur permettent de restituer les polices d’emoji et d’icône de barre d’outils (la dernière est utilisée par Office, par exemple). les polices de couleur ont été introduites pour la première fois dans Windows 8.1, mais la fonctionnalité a été largement développée sur dans Windows 10, version 1607 (mise à jour anniversaire).

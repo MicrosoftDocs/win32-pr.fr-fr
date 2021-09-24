@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 27febd08519a06f7ad452882cf0725fed209e0306182ba336343049936795acf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 052bb0ac743b5140cffd38697e6875e79306645c
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118543025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520316"
 ---
 # <a name="ibackgroundcopyjob-interface"></a>Interface méthode ibackgroundcopyjob
 
@@ -49,7 +49,7 @@ L’interface **méthode ibackgroundcopyjob** possède ces méthodes.
 | [**GetDisplayName,**](ibackgroundcopyjob-getdisplayname.md)             | Récupère le nom complet qui identifie le travail.<br/>                                                                                                                                                                    |
 | [**GetError**](ibackgroundcopyjob-geterror.md)                         | Récupère un pointeur d’interface vers l’objet d’erreur après qu’une erreur s’est produite.<br/>                                                                                                                                              |
 | [**GetId**](ibackgroundcopyjob-getid.md)                               | Récupère l’identificateur du travail dans la file d’attente.<br/>                                                                                                                                                                      |
-| [**GetNoProgressTimeout**](ibackgroundcopyjob-getnoprogresstimeout.md) | Récupère la durée pendant laquelle continue d’essayer de transférer le fichier après avoir rencontré une condition d’erreur temporaire.<br/>                                                                                             |
+| [**GetNoProgressTimeout**](ibackgroundcopyjob-getnoprogresstimeout.md) | Récupère la durée pendant laquelle l’optimisation de la remise continue à tenter de transférer le fichier après avoir rencontré une condition d’erreur temporaire.<br/>                                                                                             |
 | [**GetNotifyFlags**](ibackgroundcopyjob-getnotifyflags.md)             | Récupère les indicateurs de notification d’événements (rappel) que vous avez définis pour votre application.<br/>                                                                                                                                   |
 | [**GetNotifyInterface**](ibackgroundcopyjob-getnotifyinterface.md)     | Récupère un pointeur vers votre implémentation de l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) (rappels).<br/>                                                                                    |
 | [**GetPriority,**](ibackgroundcopyjob-getpriority.md)                   | Récupère le niveau de priorité que vous avez défini pour le travail.<br/>                                                                                                                                                                 |
@@ -58,7 +58,7 @@ L’interface **méthode ibackgroundcopyjob** possède ces méthodes.
 | [**GetTimes**](ibackgroundcopyjob-gettimes.md)                         | Récupère les horodatages pour les activités liées au travail, telles que l’heure de création du travail.<br/>                                                                                                                         |
 | [**GetType**](ibackgroundcopyjob-gettype.md)                           | Récupère le type de transfert effectué, tel qu’un téléchargement de fichier.<br/>                                                                                                                                               |
 | [**Reprendre**](ibackgroundcopyjob-resume.md)                             | Démarre un nouveau travail ou redémarre un travail suspendu.<br/>                                                                                                                                                                          |
-| [**SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md) | Spécifie la durée pendant laquelle continue à essayer de transférer le fichier après avoir rencontré une condition d’erreur temporaire.<br/>                                                                                             |
+| [**SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md) | Spécifie la durée pendant laquelle l’optimisation de la livraison continue à tenter de transférer le fichier après avoir rencontré une condition d’erreur temporaire.<br/>                                                                                             |
 | [**SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md)             | Spécifie le type de notification d’événement à recevoir.<br/>                                                                                                                                                                   |
 | [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md)     | Spécifie un pointeur vers votre implémentation de l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) (rappels). L’interface reçoit une notification basée sur les indicateurs de notification d’événement que vous définissez.<br/> |
 | [**SetPriority**](ibackgroundcopyjob-setpriority.md)                   | Spécifie la priorité du travail par rapport aux autres travaux de la file d’attente de transfert.<br/>                                                                                                                                        |

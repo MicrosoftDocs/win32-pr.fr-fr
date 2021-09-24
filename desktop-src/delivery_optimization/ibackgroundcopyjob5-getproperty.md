@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob5 GetProperty, méthode (Deliveryoptimization. h)
-description: Méthode générique pour obtenir les propriétés du travail d’optimisation de la remise (DO).
+description: Méthode générique pour l’obtention des propriétés de tâche d’optimisation de la remise.
 ms.assetid: 22BA2FAB-3F24-4801-8FB7-CB6F9E8DFBB3
 keywords:
 - GetProperty, méthode
@@ -17,16 +17,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2141afba2d2f58a08c62d609b9029c07ae07923e35f43e985f61a13a02aa68d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c09d5886acb7d1bada165180e3d26bdf6505a6b
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118542798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520271"
 ---
 # <a name="ibackgroundcopyjob5getproperty-method"></a>IBackgroundCopyJob5 :: GetProperty, méthode
 
-Méthode générique pour obtenir les propriétés du travail d’optimisation de la remise (DO).
+Méthode générique pour l’obtention des propriétés de tâche d’optimisation de la remise.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,7 +58,7 @@ Valeur de la propriété retournée en tant qu’BITS_JOB_PROPERTY_VALUE Union.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne les valeurs de retour suivantes.
 

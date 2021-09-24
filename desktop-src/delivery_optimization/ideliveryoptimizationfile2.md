@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed7409635444885b662688ce94c300aae6e62186dd76bd7278b3e7445ef50c90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e5ef827758e054ed391303a283b490e0db66d3b
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118542044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520046"
 ---
 # <a name="ideliveryoptimizationfile2-interface"></a>Interface IDeliveryOptimizationFile2
 
@@ -38,8 +38,8 @@ L’interface **IDeliveryOptimizationFile2** possède ces méthodes.
 
 | Méthode                                                 | Description                                                  |
 |:-------------------------------------------------------|:-------------------------------------------------------------|
-| [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | Cette méthode retourne une seule propriété du fichier DO. |
-| [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | Cette méthode définit une seule propriété du fichier DO.    |
+| [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | Cette méthode retourne une seule propriété du fichier d’optimisation de la remise. |
+| [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | Cette méthode définit une seule propriété du fichier d’optimisation de la remise.    |
 
 ## <a name="requirements"></a>Configuration requise
 

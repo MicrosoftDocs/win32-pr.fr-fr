@@ -16,18 +16,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 113e0b1ecc995a0a452f22835ad8717041b44d10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f83f2b9ed799855b2ee1e9675a22cc1d2751583
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520458"
 ---
 # <a name="bg_job_state-enumeration"></a>Énumération BG_JOB_STATE
 
 L’énumération **BG_JOB_STATE** définit des valeurs constantes pour les différents États d’un travail.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -67,7 +67,7 @@ Non pris en charge.
 <span id="BG_JOB_STATE_TRANSFERRING"></span><span id="bg_job_state_transferring"></span>**BG_JOB_STATE_TRANSFERRING**
 </dt> <dd>
 
-Spécifie que effectue le transfert des données pour le travail.
+Spécifie que l’optimisation de la remise transfère des données pour le travail.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Spécifie qu’une erreur irrécupérable s’est produite (le service n’est p
 <span id="BG_JOB_STATE_TRANSIENT_ERROR"></span><span id="bg_job_state_transient_error"></span>**BG_JOB_STATE_TRANSIENT_ERROR**
 </dt> <dd>
 
-Spécifie qu’une erreur récupérable s’est produite. Effectuez une nouvelle tentative de travaux dans l’état d’erreur temporaire en fonction de la configuration de nouvelle tentative interne. L’état du travail devient **BG_JOB_STATE_ERROR** si le travail échoue pour progresser (voir [**méthode ibackgroundcopyjob :: SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md)).
+Spécifie qu’une erreur récupérable s’est produite. L’optimisation de la distribution retentera les travaux en état d’erreur temporaire en fonction de la configuration de la nouvelle tentative interne. L’état du travail devient **BG_JOB_STATE_ERROR** si le travail échoue pour progresser (voir [**méthode ibackgroundcopyjob :: SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md)).
 
 </dd> <dt>
 
@@ -119,8 +119,8 @@ Spécifie que vous avez appelé la méthode [**méthode ibackgroundcopyjob :: C
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl> |
 
 

@@ -1,6 +1,6 @@
 ---
 title: Énumération DeliveryOptimizationFileProperty (Deliveryoptimization. h)
-description: L’énumération DeliveryOptimizationFileProperty spécifie l’ID d’une propriété facultative pour le fichier DO.
+description: L’énumération DeliveryOptimizationFileProperty spécifie l’ID d’une propriété facultative pour le fichier d’optimisation de la remise.
 keywords:
 - Énumération DeliveryOptimizationFileProperty
 topic_type:
@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 238ad815149f7d40dd1902b991608e0a3005eb35
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 7c670118a66525c2a890a8c1ed96e4eefb5f5c28
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127517629"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520251"
 ---
 # <a name="deliveryoptimizationfileproperty-enumeration"></a>Énumération DeliveryOptimizationFileProperty
 
-L’énumération DeliveryOptimizationFileProperty spécifie l’ID d’une propriété facultative pour le fichier DO. Cette énumération est utilisée dans l’interface IDeliveryOptimizationFile2 où la valeur de propriété de type VARIANT est passée
+L’énumération DeliveryOptimizationFileProperty spécifie l’ID d’une propriété facultative pour le fichier d’optimisation de la remise. Cette énumération est utilisée dans l’interface IDeliveryOptimizationFile2 où la valeur de propriété de type VARIANT est passée
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ```C++
 typedef enum _DeliveryOptimizationFileProperty {  
@@ -53,7 +53,7 @@ L’ID de propriété DOFilePropertyId_DecryptionInfo définit les informations 
 DOFilePropertyId_IntegrityCheckInfo
 </dt> <dd>
 
-L’ID de propriété DOFilePropertyId_IntegrityCheckInfo définit l’emplacement du fichier de hachage de la pièce (PHF), qui est utilisé par pour effectuer des vérifications de l’intégrité du Runtime sur le contenu téléchargé. DOFilePropertyId_IntegrityCheckInfo est une propriété en écriture seule de type VT_BSTR.
+L’ID de propriété DOFilePropertyId_IntegrityCheckInfo définit l’emplacement du fichier de hachage de la pièce (PHF), qui est utilisé par l’optimisation de la distribution pour effectuer des vérifications de l’intégrité du Runtime sur le contenu téléchargé. DOFilePropertyId_IntegrityCheckInfo est une propriété en écriture seule de type VT_BSTR.
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ L’ID de propriété DOFilePropertyId_IntegrityCheckMandatory définit un indic
 DOFilePropertyId_DownloadSinkFilePath
 </dt> <dd>
 
-L’ID de propriété DOFilePropertyId_DownloadSinkFilePath définit un emplacement de système de fichiers complet où doit stocker les éléments téléchargés. DOFilePropertyId_DownloadSinkFilePath est de type VT_BSTR.
+L’ID de propriété DOFilePropertyId_DownloadSinkFilePath définit un emplacement de système de fichiers complet où l’optimisation de la distribution doit stocker les éléments téléchargés. DOFilePropertyId_DownloadSinkFilePath est de type VT_BSTR.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ DOFilePropertyId_TotalSizeBytes
 L’ID de propriété DOFilePropertyId_TotalSizeBytes spécifie la taille totale du téléchargement. DOFilePropertyId_TotalSizeBytes est de type VT_UI8.
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------------------------|----------------------------------------------------------|

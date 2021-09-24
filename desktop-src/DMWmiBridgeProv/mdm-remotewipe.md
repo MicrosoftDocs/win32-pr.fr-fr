@@ -17,16 +17,17 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 800d59ad1b2bc281027e3181faa7ff33103bd1e934584bbc91e3d34bd7cea5d9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6ca943ed0b226f9006733b3e9d8745172cfe9e08
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119587829"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520056"
 ---
 # <a name="mdm_remotewipe-class"></a>\_Classe REMOTEWIPE MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
+> [!NOTE]
+> **Certaines informations portent sur la préversion du produit, qui est susceptible d’être en grande partie modifié avant sa commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.**
 
 La classe **MDM \_ RemoteWipe** permet la réinitialisation à distance d’un appareil.
 
@@ -54,15 +55,12 @@ La **classe \_ RemoteWipe MDM** possède les types de membres suivants :
 
 La classe **MDM \_ RemoteWipe** possède ces méthodes.
 
-
-
 | Méthode                                              | Description                                              |
 |:----------------------------------------------------|:---------------------------------------------------------|
-| [**doWipeMethod**](mdm-remotewipe-dowipemethod.md) | Déclenche le démarrage de la réinitialisation à distance par l’appareil.<br/> |
-
-
-
- 
+| [**doWipeMethod**](mdm-remotewipe-dowipemethod.md) | Déclenche le démarrage de la réinitialisation à distance par l’appareil. |
+| [**doWipePersistProvisionedDataMethod**](mdm-remotewipe-dowipepersistprovisioneddatamethod.md) | Déclenche l’appareil pour sauvegarder les données de configuration dans un emplacement persistant et effectuer une réinitialisation à distance sur l’appareil. Les informations qui ont été sauvegardées seront restaurées et appliquées à l’appareil lors de la reprise. |
+| [**doWipePersistUserDataMethod**](mdm-remotewipe-dowipepersistuserdatamethod.md) | Déclenche l’appareil pour démarrer la réinitialisation à distance tout en conservant les comptes d’utilisateur et les données. |
+| [**doWipeProtectedMethod**](mdm-remotewipe-dowipeprotectedmethod.md) | Déclenche l’appareil pour démarrer la réinitialisation à distance sur l’appareil et nettoyer entièrement le lecteur interne. Dans certaines configurations d’appareil, cette commande risque de ne pas pouvoir démarrer l’appareil. |
 
 ### <a name="properties"></a>Propriétés
 
@@ -109,8 +107,6 @@ L’exemple suivant montre comment utiliser RemoteWipe et appeler doWipeMethod.
 > [!Note]  
 > Cet exemple doit être exécuté sous utilisateur du système local. Pour ce faire, téléchargez l’outil PsExec depuis <https://technet.microsoft.com/sysinternals/bb897553.aspx> et exécutez `psexec.exe -i -s cmd.exe` à partir d’une invite de commandes d’administrateur élevé.
 
- 
-
 ``` syntax
 $namespaceName = "root\cimv2\mdm\dmmap"
 $className = "MDM_RemoteWipe"
@@ -135,17 +131,13 @@ catch [Exception]
 
 ## <a name="requirements"></a>Configuration requise
 
-
-
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
-| Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
-| Espace de noms<br/>                | Racine DMMap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
-| MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>DMWmiBridgeProv.dll</dt> </dl> |
-
-
+| Client minimal pris en charge | Windows 10 \[ applications de bureau uniquement\]                                                    |
+| Serveur minimal pris en charge | Aucun pris en charge                                                                      |
+| Espace de noms                | Racine DMMap de gestion des appareils mobiles \\ \\ \\                                                             |
+| MOF                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |
+| DLL                      | <dl> <dt>DMWmiBridgeProv.dll</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -153,6 +145,3 @@ catch [Exception]
 
 [Utilisation de scripts PowerShell avec le fournisseur de pont WMI](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
-
- 
-

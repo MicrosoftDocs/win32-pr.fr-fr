@@ -1,17 +1,17 @@
 ---
-title: Méthodes IEnumBackgroundCopyFiles (DO)
-description: L’interface IEnumBackgroundCopyFiles expose les méthodes suivantes. | Méthodes IEnumBackgroundCopyFiles (DO)
+title: Méthodes IEnumBackgroundCopyFiles (optimisation de la distribution)
+description: L’interface IEnumBackgroundCopyFiles expose les méthodes suivantes. | Méthodes IEnumBackgroundCopyFiles (optimisation de la distribution)
 ms.assetid: 5BB3263A-31D3-4987-8982-1FED26C9ED71
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e5292b86f38ae38883d8006b7e7ff9b405b8bc4a60834692754543ee6765550
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b65f9f5a4f44f1a4f744be805eabc6ee463c7b39
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521065"
 ---
-# <a name="ienumbackgroundcopyfiles-methods-do"></a>Méthodes IEnumBackgroundCopyFiles (DO)
+# <a name="ienumbackgroundcopyfiles-methods-delivery-optimization"></a>Méthodes IEnumBackgroundCopyFiles (optimisation de la distribution)
 
 L’interface [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md) expose les méthodes suivantes.
 

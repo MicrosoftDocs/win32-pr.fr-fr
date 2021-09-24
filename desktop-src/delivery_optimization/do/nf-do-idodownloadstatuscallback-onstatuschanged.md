@@ -1,6 +1,6 @@
 ---
 title: 'IDODownloadStatusCallback :: OnStatusChange, méthode'
-description: Appelle votre implémentation de cette méthode chaque fois qu’un état de téléchargement a changé.
+description: L’optimisation de la distribution appelle votre implémentation de cette méthode chaque fois qu’un état de téléchargement a changé.
 keywords:
 - 'IDODownloadStatusCallback :: OnStatusChange, méthode'
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 0395b6bc64ad3abe102a0a4f0dc7afd8e8d59f336949a3b97eaf683a4f4900cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6dcb30690736cb2bd2548fbd5f84cf580d317eff
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736216"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519913"
 ---
 # <a name="idodownloadstatuscallbackonstatuschange-method"></a>IDODownloadStatusCallback :: OnStatusChange, méthode
 
-Appelle votre implémentation de cette méthode chaque fois qu’un état de téléchargement a changé.
+L’optimisation de la distribution appelle votre implémentation de cette méthode chaque fois qu’un état de téléchargement a changé.
 
 ## <a name="syntax"></a>Syntaxe
 

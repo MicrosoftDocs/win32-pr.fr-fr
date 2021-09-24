@@ -16,18 +16,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 45b1f0f3029cc6157f2f100b3324165cfac1b03b
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 252b7a8843c4bd7b0a45dbc7cfef235ac5303ea5
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126915659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521033"
 ---
 # <a name="bg_job_priority-enumeration"></a>Énumération BG_JOB_PRIORITY
 
 L’énumération **BG_JOB_PRIORITY** définit les valeurs constantes qui spécifient le niveau de priorité d’un travail.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -62,22 +62,22 @@ Transfère la tâche en arrière-plan. Les transferts en arrière-plan utilisent
 <span id="BG_JOB_PRIORITY_NORMAL"></span><span id="bg_job_priority_normal"></span>**BG_JOB_PRIORITY_NORMAL**
 </dt> <dd>
 
-Le comportement est le même pour tous les travaux qui ne sont pas au premier plan. Pour plus d’informations, consultez les commentaires dans BG_JOB_PRIORITY_HIGH.
+Le comportement de l’optimisation de la distribution est le même pour tous les travaux de premier plan. Pour plus d’informations, consultez les commentaires dans BG_JOB_PRIORITY_HIGH.
 
 </dd> <dt>
 
 <span id="BG_JOB_PRIORITY_LOW"></span><span id="bg_job_priority_low"></span>**BG_JOB_PRIORITY_LOW**
 </dt> <dd>
 
-Le comportement est le même pour tous les travaux qui ne sont pas au premier plan. Pour plus d’informations, consultez les commentaires dans BG_JOB_PRIORITY_HIGH.
+Le comportement de l’optimisation de la distribution est le même pour tous les travaux de premier plan. Pour plus d’informations, consultez les commentaires dans BG_JOB_PRIORITY_HIGH.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs transferts de premier plan et d’arrière-plan peuvent avoir lieu simultanément.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

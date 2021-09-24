@@ -1,6 +1,6 @@
 ---
 title: Structure BITS_FILE_PROPERTY_VALUE (Deliveryoptimization. h)
-description: L’BITS_FILE_PROPERTY_VALUE Union fournit la valeur de la propriété du fichier DO en fonction d’une valeur de l’énumération BITS_FILE_PROPERTY_ID.
+description: L’BITS_FILE_PROPERTY_VALUE Union fournit la valeur de la propriété du fichier d’optimisation de la remise en fonction d’une valeur de l’énumération BITS_FILE_PROPERTY_ID.
 ms.assetid: 56A634F9-FB30-49D5-BD03-DD59AEF702C1
 keywords:
 - Structure BITS_FILE_PROPERTY_VALUE
@@ -15,16 +15,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 639ea0523c5b92d9764671cb573497223ef968fd
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 10cceedf2e3da2578c9e3f7d0e8131b98f78093b
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127518013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520874"
 ---
 # <a name="bits_file_property_value-structure"></a>Structure BITS_FILE_PROPERTY_VALUE
 
-L' **BITS_FILE_PROPERTY_VALUE** Union fournit la valeur de la propriété du fichier do en fonction d’une valeur de l’énumération [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md) .
+L' **BITS_FILE_PROPERTY_VALUE** Union fournit la valeur de la propriété du fichier d’optimisation de la remise en fonction d’une valeur de l’énumération [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md) .
 
 ## <a name="syntax"></a>Syntaxe
 

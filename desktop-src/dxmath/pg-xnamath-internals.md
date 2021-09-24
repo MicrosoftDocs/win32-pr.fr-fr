@@ -4,12 +4,12 @@ ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Éléments internes de bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f26d2a6171a14abebbec0665233c66f873ed7ede2c3b8f01fb70ed406ffea33b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3100a8e83a6935071722d5d1733400fa8824c62a
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119118149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521226"
 ---
 # <a name="library-internals"></a>Éléments internes de bibliothèque
 
@@ -30,13 +30,13 @@ Pour améliorer la portabilité et optimiser la disposition des données, vous d
 
 **Pour le Windows 32 bits**
 
-pour les Windowss 32 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ m128](/cpp/cpp/m128) (qui implémente [**XMVECTOR**](xmvector-data-type.md) sur cette plateforme). La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui peut passer les trois premières valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances **XMVECTOR** ) comme arguments à une fonction dans un registre *SSE/SSE2* . [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall) passe les arguments restants via la pile.
+pour les Windowss 32 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ m128](/cpp/cpp/m128) (qui implémente [**XMVECTOR**](xmvector-data-type.md) sur cette plateforme). La norme est [ \_ \_ fastcall](/cpp/cpp/fastcall), qui peut passer les trois premières valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances **XMVECTOR** ) comme arguments à une fonction dans un registre *SSE/SSE2* . [ \_ \_ fastcall](/cpp/cpp/fastcall) passe les arguments restants via la pile.
 
 les nouveaux compilateurs de Microsoft Visual Studio prennent en charge une nouvelle convention d’appel, \_ \_ vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ m128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments d’une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
 
 **Pour les éditions 64 bits de Windows**
 
-pour les Windowss 64 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs de [ \_ \_ m128](/cpp/cpp/m128) . La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui passe toutes les valeurs [ \_ \_ M128](/cpp/cpp/m128) sur la pile.
+pour les Windowss 64 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs de [ \_ \_ m128](/cpp/cpp/m128) . La norme est [ \_ \_ fastcall](/cpp/cpp/fastcall), qui passe toutes les valeurs [ \_ \_ M128](/cpp/cpp/m128) sur la pile.
 
 les nouveaux compilateurs de Visual Studio prennent en charge la \_ \_ convention d’appel vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ m128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments à une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
 
@@ -359,7 +359,3 @@ Pour plus d’informations sur les extensions spécifiques à une plateforme, co
 
 [Guide de programmation DirectXMath](ovw-xnamath-progguide.md)
 </dt> </dl>
-
- 
-
- 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 93507b8aeefa9c0ea16f70f67e221ecc4218427f
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 03d84fba3ac9747639d0e2992e63e201d7498118
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126915667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521011"
 ---
 # <a name="bg_file_progress-structure"></a>Structure BG_FILE_PROGRESS
 
@@ -46,7 +46,7 @@ typedef struct _BG_FILE_PROGRESS {
 **BytesTotal**
 </dt> <dd>
 
-Taille du fichier en octets. Si ne peut pas déterminer la taille du fichier (par exemple, si le fichier ou le serveur n’existe pas), la valeur est DO_UNKNOWN_FILE_SIZE.
+Taille du fichier en octets. Si l’optimisation de la distribution ne peut pas déterminer la taille du fichier (par exemple, si le fichier ou le serveur n’existe pas), la valeur est DO_UNKNOWN_FILE_SIZE.
 
 Si vous téléchargez des plages à partir d’un fichier, **bytesTotal** reflète le nombre total d’octets que vous souhaitez télécharger à partir du fichier.
 
@@ -66,13 +66,13 @@ Pour les téléchargements, la valeur est **true** si le fichier est disponible 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour déterminer si le fichier doit être transféré, vous pouvez :
+Pour déterminer si l’optimisation de la remise a transféré le fichier, vous pouvez :
 
 -   Comparez **bytesTransferred** à **bytesTotal**.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

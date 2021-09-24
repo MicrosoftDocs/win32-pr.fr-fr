@@ -1,6 +1,6 @@
 ---
 title: Méthode IBackgroundCopyCallback JobError (Deliveryoptimization. h)
-description: L’optimisation de la remise (DO) appelle votre implémentation de la méthode JobError lorsque l’état du travail passe à BG_JOB_STATE_ERROR.
+description: L’optimisation de la distribution appelle votre implémentation de la méthode JobError lorsque l’état du travail passe à BG_JOB_STATE_ERROR.
 ms.assetid: 121712A5-98EB-4B2F-A004-A3BDF9C1332B
 keywords:
 - Méthode JobError
@@ -17,16 +17,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0122f5777303506be5fd81d0966b00f828bf2073
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 434af6a2e64cae16b0b6605c6b3d426d9c37736b
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127517620"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520220"
 ---
 # <a name="ibackgroundcopycallbackjoberror-method"></a>IBackgroundCopyCallback :: JobError, méthode
 
-L’optimisation de la remise (DO) appelle votre implémentation de la méthode [**JobError**](https://www.bing.com/search?q=**JobError**) lorsque l’état du travail passe à BG_JOB_STATE_ERROR.
+L’optimisation de la distribution appelle votre implémentation de la méthode [**JobError**](https://www.bing.com/search?q=**JobError**) lorsque l’état du travail passe à BG_JOB_STATE_ERROR.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -47,22 +47,22 @@ HRESULT JobError(
 *pJob* \[ dans\]
 </dt> <dd>
 
-Contient des informations relatives au travail, telles que le nombre d’octets et de fichiers transférés avant l’erreur. Elle contient également les méthodes de reprise et d’annulation du travail. Ne libérez pas *pJob*; Libère l’interface lorsque la méthode [**JOBERROR**](https://www.bing.com/search?q=**JobError**) est retournée.
+Contient des informations relatives au travail, telles que le nombre d’octets et de fichiers transférés avant l’erreur. Elle contient également les méthodes de reprise et d’annulation du travail. Ne libérez pas *pJob*; L’optimisation de la distribution libère l’interface lorsque la méthode [**JobError**](https://www.bing.com/search?q=**JobError**) est retournée.
 
 </dd> <dt>
 
 *perror* \[ dans\]
 </dt> <dd>
 
-Contient des informations sur l’erreur, telles que le fichier en cours de traitement au moment où l’erreur irrécupérable s’est produite et une description de l’erreur. Ne libérez pas *perror*; Libère l’interface lorsque la méthode [**JOBERROR**](https://www.bing.com/search?q=**JobError**) est retournée.
+Contient des informations sur l’erreur, telles que le fichier en cours de traitement au moment où l’erreur irrécupérable s’est produite et une description de l’erreur. Ne libérez pas *perror*; L’optimisation de la distribution libère l’interface lorsque la méthode [**JobError**](https://www.bing.com/search?q=**JobError**) est retournée.
 
 </dd> </dl>
 
 ## <a name="return-value"></a>Valeur de retour
 
-Cette méthode doit retourner **S_OK**; dans le cas contraire, continue à appeler cette méthode jusqu’à ce que **S_OK** soit retourné. Pour des raisons de performances, vous devez limiter le nombre de fois où vous retournez une valeur autre que **S_OK** à plusieurs fois. Au lieu de retourner un code d’erreur, envisagez de retourner toujours **S_OK** et de gérer l’erreur en interne. L’intervalle auquel cette méthode est appelée est arbitraire.
+Cette méthode doit retourner **S_OK**; Sinon, l’optimisation de la remise continue à appeler cette méthode jusqu’à ce que **S_OK** soit retourné. Pour des raisons de performances, vous devez limiter le nombre de fois où vous retournez une valeur autre que **S_OK** à plusieurs fois. Au lieu de retourner un code d’erreur, envisagez de retourner toujours **S_OK** et de gérer l’erreur en interne. L’intervalle auquel cette méthode est appelée est arbitraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après avoir déterminé la cause de l’erreur, effectuez l’une des options suivantes :
 
@@ -72,9 +72,9 @@ Après avoir déterminé la cause de l’erreur, effectuez l’une des options s
 
 Les erreurs temporaires ne génèrent pas d’appels à la méthode [**JobError**](https://www.bing.com/search?q=**JobError**) .
 
-Retourne BG_ERROR_CONTEXT_REMOTE_FILE si la tâche atteint une erreur HTTP 403, BG_ERROR_CONTEXT_NONE dans le cas contraire.
+L’optimisation de la remise retourne BG_ERROR_CONTEXT_REMOTE_FILE si le travail atteint une erreur HTTP 403, BG_ERROR_CONTEXT_NONE dans le cas contraire.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

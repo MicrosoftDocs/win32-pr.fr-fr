@@ -1,0 +1,9 @@
+- name: Utilise permutation de la composition
+  href: comp-swapchain-portal.md
+  items:
+    - name: Guide de programmation utilise permutation de la composition
+      href: comp-swapchain.md
+    - name: Exemples de code de composition utilise permutation
+      href: comp-swapchain-examples.md
+    - name: Glossaire utilise permutation de la composition
+      href: comp-swapchain-glossary.md

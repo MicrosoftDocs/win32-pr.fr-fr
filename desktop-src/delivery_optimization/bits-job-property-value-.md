@@ -1,6 +1,6 @@
 ---
 title: Structure BITS_JOB_PROPERTY_VALUE (Deliveryoptimization. h)
-description: L’BITS_JOB_PROPERTY_VALUE Union fournit la valeur de propriété du travail DO en fonction de la valeur de l’énumération BITS_JOB_PROPERTY_ID.
+description: L’BITS_JOB_PROPERTY_VALUE Union fournit la valeur de la propriété du travail d’optimisation de la remise en fonction de la valeur de l’énumération BITS_JOB_PROPERTY_ID.
 ms.assetid: C24D9EA1-2E72-4403-939A-7B01D7133FE7
 keywords:
 - Structure BITS_JOB_PROPERTY_VALUE
@@ -16,16 +16,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c48c1fe550db51b6b838379d44df21c95fa95e41
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 187026bf80638d1139e84e014b4f4de5d8d5d50d
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127518009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520547"
 ---
 # <a name="bits_job_property_value-structure"></a>Structure BITS_JOB_PROPERTY_VALUE
 
-L' **BITS_JOB_PROPERTY_VALUE** Union fournit la valeur de propriété du travail do en fonction de la valeur de l’énumération [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) .
+L' **BITS_JOB_PROPERTY_VALUE** Union fournit la valeur de la propriété du travail d’optimisation de la remise en fonction de la valeur de l’énumération [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,14 +49,14 @@ typedef struct {
 **Grande**
 </dt> <dd>
 
-Cette valeur est retournée en cas d’utilisation de l’ID de propriété d’énumération **BITS_JOB_PROPERTY_ID_COST_FLAGS** et est appliquée comme [stratégie de transfert](https://www.bing.com/search?q=transfer+policy) sur le travail do.
+Cette valeur est retournée en cas d’utilisation de l’ID de propriété d’énumération **BITS_JOB_PROPERTY_ID_COST_FLAGS** et est appliquée comme [stratégie de transfert](https://www.bing.com/search?q=transfer+policy) sur la tâche d’optimisation de la remise.
 
 </dd> <dt>
 
 **Identificateur**
 </dt> <dd>
 
-Cette valeur est retournée en cas d’utilisation de l’ID de propriété enum **BITS_JOB_PROPERTY_NOTIFICATION_CLSID** et représente le CLSID de l’objet de rappel à inscrire avec le travail do.
+Cette valeur est retournée en cas d’utilisation de l’ID de propriété enum **BITS_JOB_PROPERTY_NOTIFICATION_CLSID** et représente le CLSID de l’objet de rappel à inscrire avec la tâche d’optimisation de la remise.
 
 </dd> <dt>
 

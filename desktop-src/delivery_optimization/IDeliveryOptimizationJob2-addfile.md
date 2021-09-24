@@ -1,6 +1,6 @@
 ---
 title: Méthode IDeliveryOptimizationJob2 AddFile
-description: La méthode AddFile ajoute un seul fichier à une tâche DO existante.
+description: La méthode AddFile ajoute un seul fichier à une tâche d’optimisation de la remise existante.
 keywords:
 - AddFile (méthode)
 - Méthode AddFile, interface IDeliveryOptimizationJob2
@@ -16,16 +16,16 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e6d27bca855bb9c719b485060fabf1f10b7130bd864569e74f98516ca76b8fb1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 217215d6f4aaf96de8deab37d08cc492392c0631
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118544634"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519891"
 ---
 # <a name="ideliveryoptimizationjob2addfilewithranges-method"></a>IDeliveryOptimizationJob2 :: AddFileWithRanges, méthode
 
-La méthode AddFile ajoute un seul fichier à une tâche DO existante.
+La méthode AddFile ajoute un seul fichier à une tâche d’optimisation de la remise existante.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,7 +54,7 @@ La chaîne d’ID de fichier, qui identifie de façon unique le fichier à tél�
 *remoteUrl* \[ dans\]
 </dt> <dd>
 
-L’URL de fichier qui tentera de se connecter pour télécharger le fichier.
+URL de fichier que l’optimisation de la distribution tentera de se connecter pour télécharger le fichier.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Objet IDeliveryOptimizationFile, qui représente le fichier de téléchargement.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne S_OK en cas de réussite ou une des valeurs HRESULT standard en cas d’erreur.
 

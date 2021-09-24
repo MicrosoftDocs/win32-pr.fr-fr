@@ -1,6 +1,6 @@
 ---
 title: Énumération DODownloadPropertyEx
-description: Spécifie l’ID des propriétés étendues pour l’opération de téléchargement.
+description: Spécifie l’ID des propriétés étendues pour l’opération de téléchargement de l’optimisation de la remise.
 keywords:
 - Énumération DODownloadPropertyEx, DODownloadPropertyEx
 topic_type:
@@ -14,21 +14,21 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
-ms.openlocfilehash: f5ec26d845fd6df2bfe0e84fffed0979c39e1971244788c9dfe5ddd3a0c0beca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6a0f130aad68eab08a577b0153648cf17547189
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119990379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521001"
 ---
 # <a name="dodownloadpropertyex-enumeration"></a>Énumération DODownloadPropertyEx
 
 > [!IMPORTANT]
 > L’énumération **DODownloadPropertyEx** est déconseillée. Utilisez plutôt l’énumération [DODownloadProperty](../deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty.md) avec [IDODownload :: GetProperty](../do/nf-do-idodownload-getproperty.md) et [IDODownload :: SetProperty](../do/nf-do-idodownload-setproperty.md).
 
-L’énumération **DODownloadPropertyEx** spécifie l’ID des propriétés étendues pour l’opération de téléchargement. Cette énumération est utilisée par l’interface **IDODownloadInternal** et une valeur de **type Variant** est utilisée pour obtenir et définir la valeur de la propriété.
+L’énumération **DODownloadPropertyEx** spécifie l’ID des propriétés étendues pour l’opération de téléchargement de l’optimisation de la remise. Cette énumération est utilisée par l’interface **IDODownloadInternal** et une valeur de **type Variant** est utilisée pour obtenir et définir la valeur de la propriété.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ```cpp
 typedef enum _DODownloadPropertyEx
@@ -47,10 +47,10 @@ typedef enum _DODownloadPropertyEx
 | Condition requise | Valeur |
 |-|-|
 | DODownloadPropertyEx_UpdateId | Réservé. Ne pas utiliser. |
-| DODownloadPropertyEx_CorrelationVector | Facultatif. Définit un vecteur de corrélation spécifique à des fins de télémétrie. Le type VARIANT est VT_BSTR. |
+| DODownloadPropertyEx_CorrelationVector | Optionnel. Définit un vecteur de corrélation spécifique à des fins de télémétrie. Le type VARIANT est VT_BSTR. |
 | DODownloadPropertyEx_DecryptionInfo | Réservé. Ne pas utiliser. |
-| DODownloadPropertyEx_IntegrityCheckInfo | Facultatif en écriture seule. Définit l’emplacement du fichier de hachage de l’élément (PHF), utilisé par pour effectuer des vérifications de l’intégrité du Runtime sur le contenu téléchargé. Le type VARIANT est VT_BSTR. |
-| DODownloadPropertyEx_IntegrityCheckMandatory | Facultatif. Définit un indicateur booléen indiquant si l’utilisation du fichier de hachage de la pièce (PHF) est obligatoire. Si VARIANT_TRUE, le téléchargement est abandonné une fois la vérification d’intégrité en échec. Le type VARIANT est VT_BOOL. |
+| DODownloadPropertyEx_IntegrityCheckInfo | Facultatif en écriture seule. Définit l’emplacement du fichier de hachage de l’élément (PHF), qui est utilisé par l’optimisation de la distribution pour effectuer des vérifications de l’intégrité du Runtime sur le contenu téléchargé. Le type VARIANT est VT_BSTR. |
+| DODownloadPropertyEx_IntegrityCheckMandatory | Optionnel. Définit un indicateur booléen indiquant si l’utilisation du fichier de hachage de la pièce (PHF) est obligatoire. Si VARIANT_TRUE, le téléchargement est abandonné une fois la vérification d’intégrité en échec. Le type VARIANT est VT_BOOL. |
 | DODownloadPropertyEx_TotalSizeBytes | Réservé. Ne pas utiliser. |
 | DODownloadPropertyEx_TempLocalFileUsage | Réservé. Ne pas utiliser. |
 

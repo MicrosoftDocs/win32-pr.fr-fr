@@ -16,12 +16,12 @@ api_location:
 api_name:
 - D3D12SDKVersion
 targetos: Windows
-ms.openlocfilehash: 0bf0aa17e16a4274b69e80580c0615ed055dd97a
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: f77786d0a057d8922923913984149c4b8ecd3bc8
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122917920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520035"
 ---
 # <a name="d3d12sdkversion-symbol"></a>Symbole D3D12SDKVersion
 
@@ -35,13 +35,13 @@ extern "C" { _declspec(dllexport) extern const UINT D3D12SDKVersion = n;}
 
 ## <a name="return-value"></a>Valeur de retour
 
-[Uint](/windows/win32/winprog/windows-data-types) qui contient le numéro de version du kit de développement logiciel (SDK) Direct3D 12.
+[Uint](../winprog/windows-data-types.md) qui contient le numéro de version du kit de développement logiciel (SDK) Direct3D 12.
 
 ## <a name="remarks"></a>Remarques
 
 **D3D12SDKVersion** n’est pas associé à une bibliothèque d’importation ni à un fichier d’en-tête.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

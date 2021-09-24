@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 219b198ae5c2da6d6e74db933d4c26771aa63975
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: e56422aeb9b6f1c0bb87b31960b21068e75bd70d
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127520821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520448"
 ---
 # <a name="cd3dx12_pipeline_state_stream1-structure"></a>Structure CD3DX12_PIPELINE_STATE_STREAM1
 
@@ -31,7 +31,6 @@ CD3DX12_PIPELINE_STATE_STREAM1 prend en charge la Windows 10 Fall Creators Updat
 Consultez [CD3DX12_PIPELINE_STATE_STREAM2](cd3dx12-pipeline-state-stream2.md) pour la prise en charge de la version de système d’exploitation 19041 + (où se trouve un pipeline de nuanceur de maille).
 
 ## <a name="syntax"></a>Syntaxe
-
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM1 {
@@ -63,8 +62,6 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
   CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO            CachedPSO;
 };
 ```
-
-
 
 ## <a name="members"></a>Membres
 
@@ -101,7 +98,7 @@ retourne le contenu de l’objet CD3DX12_PIPELINE_STATE_STREAM1 sous forme de D3
 **ComputeDescV0()**
 </dt> <dd>
 
-retourne le contenu de l’objet CD3DX12_PIPELINE_STATE_STREAM1 sous forme de D3D12_COMPUTE_PIPELINE_STATE_DESC structure par valeur. Notez que D3D12_COMPUTE_PIPELINE_STATE_DESC n’inclut pas les membres **InputLayout**, **IBStripCutValue**, **PrimitiveTopologyType**, **vs**, **GS**, **StreamOutput**, **HS**, **DS**, **PS**, **BlendState**, **DepthStencilState**, **DSVFormat**, **RasterizerState**, **NumRootSignature**, **RTVFormats**, **SampleDesc** ou **SampleMask** , de sorte que ces valeurs sont perdues lors de la conversion.
+retourne le contenu de l’objet CD3DX12_PIPELINE_STATE_STREAM1 sous forme de D3D12_COMPUTE_PIPELINE_STATE_DESC structure par valeur. Notez que D3D12_COMPUTE_PIPELINE_STATE_DESC n’inclut pas les membres **InputLayout**, **IBStripCutValue**, **PrimitiveTopologyType**, **vs**, **GS**, **StreamOutput**, **HS**, **DS**, **PS**, **BlendState**, **DepthStencilState**, **DSVFormat**, **RasterizerState**, **NumRootSignature**, **RTVFormats**, **SampleDesc** ou **SampleMask** , afin que ces valeurs soient perdues dans le convertisseur.
 
 </dd> <dt>
 
@@ -252,13 +249,13 @@ Décrit un PSO mis en cache.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [CD3DX12_PIPELINE_STATE_STREAM](cd3dx12-pipeline-state-stream.md) prend en charge le Windows 10 Fall Creators Update, mais ne prend pas en charge les types de sous-objets ajoutés dans Windows 10 mise à jour des créateurs de automne, par exemple pour l’instanciation de vues. Pour prendre en charge les nouveaux types de sous-objet, utilisez **CD3DX12_PIPELINE_STATE_STREAM1** à la place.
 
-Les variables membres accessibles de cette structure sont tous les typedefs du modèle [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](/windows/win32/direct3d12/cd3dx12-pipeline-state-stream-subobject) , qui combine le marqueur de type de sous-objet et les données de sous-objet dans un objet unique approprié pour une description de flux.
+Les variables membres accessibles de cette structure sont tous les typedefs du modèle [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](./cd3dx12-pipeline-state-stream-subobject.md) , qui combine le marqueur de type de sous-objet et les données de sous-objet dans un objet unique approprié pour une description de flux.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

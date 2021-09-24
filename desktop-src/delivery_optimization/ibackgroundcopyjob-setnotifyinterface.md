@@ -1,6 +1,6 @@
 ---
 title: Méthode méthode ibackgroundcopyjob SetNotifyInterface (Deliveryoptimization. h)
-description: Identifie votre implémentation de l’interface IBackgroundCopyCallback. Utilisez l’interface IBackgroundCopyCallback pour recevoir la notification des événements liés aux travaux.
+description: Identifie votre implémentation de l’interface IBackgroundCopyCallback pour l’optimisation de la remise. Utilisez l’interface IBackgroundCopyCallback pour recevoir la notification des événements liés aux travaux.
 ms.assetid: 792211FC-440E-4D2C-A6C7-CE9EFB86571C
 keywords:
 - Méthode SetNotifyInterface
@@ -17,16 +17,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bd54255d87ee3f15f87d692e06b7a503e773634ab4ec30c3f388388233aab2b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 66d7f8d10ff08bf95a9477f91dcc4e3f43469a6a
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793408"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128519839"
 ---
 # <a name="ibackgroundcopyjobsetnotifyinterface-method"></a>Méthode ibackgroundcopyjob :: SetNotifyInterface, méthode
 
-Identifie votre implémentation de l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) . Utilisez l’interface **IBackgroundCopyCallback** pour recevoir la notification des événements liés aux travaux.
+Identifie votre implémentation de l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) pour l’optimisation de la remise. Utilisez l’interface **IBackgroundCopyCallback** pour recevoir la notification des événements liés aux travaux.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -50,7 +50,7 @@ Pointeur d’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md)
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
@@ -68,7 +68,7 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
 Appelez cette méthode uniquement si vous implémentez l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) . Utilisez la méthode **SetNotifyInterface** conjointement avec la méthode [**SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) pour spécifier le type de notification que vous souhaitez recevoir.
 
-L’interface de notification n’est plus valide quand votre application se termine ; Ne conserve pas l’interface Notify. Par conséquent, le processus d’initialisation de votre application doit appeler la méthode **SetNotifyInterface** sur les tâches existantes pour lesquelles vous souhaitez recevoir des notifications. Si vous avez besoin de capturer l’État et les informations de progression qui se sont produites depuis la dernière exécution de votre application, interrogez les informations d’État et de progression pendant l’initialisation de l’application.
+L’interface de notification n’est plus valide quand votre application se termine ; L’optimisation de la remise ne rend pas l’interface de notification persistante. Par conséquent, le processus d’initialisation de votre application doit appeler la méthode **SetNotifyInterface** sur les tâches existantes pour lesquelles vous souhaitez recevoir des notifications. Si vous avez besoin de capturer l’État et les informations de progression qui se sont produites depuis la dernière exécution de votre application, interrogez les informations d’État et de progression pendant l’initialisation de l’application.
 
 Seul le propriétaire/créateur du travail ou un administrateur peut s’inscrire aux notifications.
 

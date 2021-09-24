@@ -1,17 +1,17 @@
 ---
-title: Interfaces DO
+title: Interfaces d’optimisation de la distribution
 description: Utilisez les interfaces d’optimisation de remise suivantes pour transférer des fichiers et surveiller des travaux dans la file d’attente de transfert.
 ms.assetid: 20203CCD-86CC-4551-BA4F-0A5999F8C956
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0359328f189c1a5b5d9649d8300dc59a80df4480
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: ecb187570f8175cc514452191e1cea3ab4556fe8
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127008149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520684"
 ---
-# <a name="do-interfaces"></a>Interfaces DO
+# <a name="delivery-optimization-interfaces"></a>Interfaces d’optimisation de la distribution
 
 Utilisez les interfaces d’optimisation de remise suivantes pour transférer des fichiers et surveiller des travaux dans la file d’attente de transfert.
 

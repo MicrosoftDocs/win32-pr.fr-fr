@@ -4,12 +4,12 @@ ms.assetid: e67d0282-9090-43e6-aedf-bb1fc0443221
 title: Énumération ASSOCF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6920ef874833471d88c4d42a074661337469b11
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 9b92a917baf518d8b6f1ebba196e6c3e53e9fdb9
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477935"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520284"
 ---
 # <a name="assocf-enumeration"></a>Énumération ASSOCF
 
@@ -17,15 +17,26 @@ Fournit des informations aux méthodes de l’interface [**IQueryAssociations**]
 
 ## <a name="syntax"></a>Syntax
 
-<span codelanguage="ManagedCPlusPlus"></span>
-
-
-| C++ | 
-|-----|
-| <pre><code>typedef enum  {   ASSOCF_NONE                  = 0x00000000,  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  ASSOCF_INIT_BYEXENAME        = 0x00000002,  ASSOCF_OPEN_BYEXENAME        = 0x00000002,  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  ASSOCF_NOUSERSETTINGS        = 0x00000010,  ASSOCF_NOTRUNCATE            = 0x00000020,  ASSOCF_VERIFY                = 0x00000040,  ASSOCF_REMAPRUNDLL           = 0x00000080,  ASSOCF_NOFIXUPS              = 0x00000100,  ASSOCF_IGNOREBASECLASS       = 0x00000200,  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  ASSOCF_IS_PROTOCOL           = 0x00001000,  ASSOCF_INIT_FOR_FILE         = 0x00002000} ASSOCF;</code></pre> | 
-
-
-
+```cpp
+typedef enum  {
+    ASSOCF_NONE                  = 0x00000000,  
+    ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  
+    ASSOCF_INIT_BYEXENAME        = 0x00000002,  
+    ASSOCF_OPEN_BYEXENAME        = 0x00000002,  
+    ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  
+    ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  
+    ASSOCF_NOUSERSETTINGS        = 0x00000010,  
+    ASSOCF_NOTRUNCATE            = 0x00000020,  
+    ASSOCF_VERIFY                = 0x00000040,  
+    ASSOCF_REMAPRUNDLL           = 0x00000080,  
+    ASSOCF_NOFIXUPS              = 0x00000100,  
+    ASSOCF_IGNOREBASECLASS       = 0x00000200,  
+    ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  
+    ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  
+    ASSOCF_IS_PROTOCOL           = 0x00001000,  
+    ASSOCF_INIT_FOR_FILE         = 0x00002000
+} ASSOCF;
+```
 
 ## <a name="constants"></a>Constantes
 

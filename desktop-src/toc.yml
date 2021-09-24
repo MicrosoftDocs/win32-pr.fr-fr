@@ -331,6 +331,8 @@
                       href: ./xinput/xinput-game-controller-apis-portal.md
                 - name: DirectComposition
                   href: ./directcomp/directcomposition-portal.md
+                - name: Utilise permutation de la composition
+                  href: ./comp_swapchain/comp-swapchain-portal.md
                 - name: GDI+
                   href: ./gdiplus/-gdiplus-gdi-start.md
                 - name: Windows GDI
@@ -436,7 +438,7 @@
                         - name: Répertoires
                           href: null
                           items:
-                            - name: Active Directory Domain Services
+                            - name: Services de domaine Active Directory
                               href: ./ad/active-directory-domain-services.md
                             - name: Schéma Active Directory
                               href: ./adschema/active-directory-schema.md
@@ -448,7 +450,7 @@
                     - name: Services de gestion des accès
                       href: null
                       items:
-                        - name: Services de fédération Active Directory (AD FS)
+                        - name: Services AD FS (Active Directory Federation Services)
                           items:
                             - name: Vue d’ensemble
                               href: ./srvnodes/active-directory-federation-services.md
@@ -540,7 +542,7 @@
                 - name: Services de gestion des accès
                   href: ./srvnodes/access-management-services.md
                   items:
-                    - name: Services de fédération Active Directory (AD FS)
+                    - name: Services AD FS (Active Directory Federation Services)
                       href: ./srvnodes/active-directory-federation-services.md
             - name: Rights Management
               href: ./srvnodes/rights-management.md

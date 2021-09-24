@@ -1,6 +1,6 @@
 ---
 title: Méthode IBackgroundCopyCallback JobModification (Deliveryoptimization. h)
-description: L’optimisation de la remise (DO) appelle votre implémentation de la méthode JobModification lorsque le travail a été modifié.
+description: L’optimisation de la distribution appelle votre implémentation de la méthode JobModification lorsque le travail a été modifié.
 ms.assetid: 4AC2575F-57FB-45E6-B29C-12DF615237F3
 keywords:
 - Méthode JobModification
@@ -17,16 +17,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ceeb390fc8592c1e8e1d03efdb432056bd131a6e
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 275e0ebe780a85a919e7c7692739273048e1fb85
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127517617"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128521346"
 ---
 # <a name="ibackgroundcopycallbackjobmodification-method"></a>IBackgroundCopyCallback :: JobModification, méthode
 
-L’optimisation de la remise (DO) appelle votre implémentation de la méthode [**JobModification**](https://www.bing.com/search?q=**JobModification**) lorsque le travail a été modifié. Le service génère cet événement lorsque les octets sont transférés, que des fichiers ont été ajoutés au travail, que des propriétés ont été modifiées ou que l’état de la tâche a changé.
+L’optimisation de la distribution appelle votre implémentation de la méthode [**JobModification**](https://www.bing.com/search?q=**JobModification**) lorsque le travail a été modifié. Le service génère cet événement lorsque les octets sont transférés, que des fichiers ont été ajoutés au travail, que des propriétés ont été modifiées ou que l’état de la tâche a changé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -47,7 +47,7 @@ HRESULT JobModification(
 *pJob* \[ dans\]
 </dt> <dd>
 
-Contient les méthodes permettant d’accéder à la propriété, à la progression et aux informations d’État du travail. Ne libérez pas *pJob*; Libère l’interface lorsque la méthode [**JOBMODIFICATION**](https://www.bing.com/search?q=**JobModification**) est retournée.
+Contient les méthodes permettant d’accéder à la propriété, à la progression et aux informations d’État du travail. Ne libérez pas *pJob*; L’optimisation de la distribution libère l’interface lorsque la méthode [**JobModification**](https://www.bing.com/search?q=**JobModification**) est retournée.
 
 </dd> <dt>
 
@@ -62,7 +62,7 @@ Réservé pour un usage futur.
 
 Cette méthode doit retourner S_OK.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

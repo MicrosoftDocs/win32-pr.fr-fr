@@ -4,12 +4,12 @@ description: Les effets Direct2D fournissent cet ensemble d’effets intégrés.
 ms.assetid: A76F6AB8-16E9-45C9-A768-5E4AA072D534
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6001dda5985a1fa221a472ca1f1d9cca042f5041
-ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.openlocfilehash: 8b3ecc5544d3e13af71bc765ae5fec9f11bd0cdc
+ms.sourcegitcommit: 2c13d0f1620f7c089687ef1d97e8c1d22e5d537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "127114162"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "128520694"
 ---
 # <a name="built-in-effects"></a>Effets intégrés
 
@@ -87,11 +87,12 @@ Les [effets Direct2D](effects-overview.md) fournissent cet ensemble d’effets i
 -   [Effet de flux](flood.md) -CLSID \_ D2D1Flood
 -   [Effet turbulence](turbulence.md) -CLSID \_ D2D1Turbulence
 
-## <a name="transform"></a>Transformer
+## <a name="transform"></a>Transformation
 
 -   [effet de transformation affine 2D](2d-affine-transform.md) -CLSID \_ D2D12DAffineTransform
 -   [effet de transformation 3D](3d-transform.md) -CLSID \_ D2D13DTransform
 -   [effet de transformation de perspective 3D](3d-perspective-transform.md) -CLSID \_ D2D13DPerspectiveTransform
+-   [Atlas](atlas.md) -CLSID \_ D2D1Atlas
 -   [Effet de bordure](border.md) -CLSID \_ D2D1Border
 -   [Effet de rognage](crop.md) -CLSID \_ D2D1Crop
 -   [Effet](high-quality-scale.md) de mise à l’échelle-CLSID \_ D2D1Scale
@@ -103,7 +104,7 @@ Les [effets Direct2D](effects-overview.md) fournissent cet ensemble d’effets i
 -   [Effet luminance-alpha](luminance-to-alpha.md) -CLSID \_ D2D1LuminanceToAlpha
 -   [Effet d’opacité](opacity-effect.md) -CLSID \_ D2D1Opacity
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
